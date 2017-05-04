@@ -5,7 +5,7 @@
   "owner": {
     "login": "istex",
     "id": 7611234,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7611234?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7611234?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/istex",
     "htmlUrl": "https://github.com/istex",
@@ -20,12 +20,12 @@
   "description": "Electron app permettant de renvoyer un CSV/Un graph etat de collection",
   "fork": false,
   "createdAt": "2016-08-04T13:06:36.000Z",
-  "updatedAt": "2016-08-29T06:09:40.000Z",
+  "updatedAt": "2016-12-07T06:22:44.000Z",
   "pushedAt": "2016-08-29T08:25:21.000Z",
   "homepage": "",
   "size": 201951,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "istex",
     "id": 7611234,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7611234?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7611234?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/istex",
     "htmlUrl": "https://github.com/istex",
@@ -120,9 +120,6 @@
   "cloneUrl": "https://github.com/istex/etat-collection.git",
   "svnUrl": "https://github.com/istex/etat-collection",
   "mirrorUrl": null,
-  "contributors": [
-    "MatthD"
-  ],
   "firstCommit": {
     "sha": "3f067a804ed82f4781fe48adc547c5024715a675",
     "commit": {
@@ -146,173 +143,6 @@
     }
   },
   "filename": "istex___etat-collection.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/istex/etat-collection/releases/3995844",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/istex/etat-collection/releases/assets/2221468",
-          "id": 2221468,
-          "name": "linux32.zip",
-          "label": null,
-          "uploader": {
-            "login": "MatthD",
-            "id": 7901366,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7901366?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MatthD",
-            "htmlUrl": "https://github.com/MatthD",
-            "followersUrl": "https://api.github.com/users/MatthD/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MatthD/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MatthD/orgs",
-            "reposUrl": "https://api.github.com/users/MatthD/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MatthD/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 52832568,
-          "downloadCount": 0,
-          "createdAt": "2016-08-29T07:58:01.000Z",
-          "updatedAt": "2016-08-29T07:58:06.000Z",
-          "browserDownloadUrl": "https://github.com/istex/etat-collection/releases/download/v1.1.1/linux32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/istex/etat-collection/releases/assets/2221472",
-          "id": 2221472,
-          "name": "linux64.zip",
-          "label": null,
-          "uploader": {
-            "login": "MatthD",
-            "id": 7901366,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7901366?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MatthD",
-            "htmlUrl": "https://github.com/MatthD",
-            "followersUrl": "https://api.github.com/users/MatthD/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MatthD/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MatthD/orgs",
-            "reposUrl": "https://api.github.com/users/MatthD/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MatthD/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 51686003,
-          "downloadCount": 0,
-          "createdAt": "2016-08-29T07:58:01.000Z",
-          "updatedAt": "2016-08-29T07:58:18.000Z",
-          "browserDownloadUrl": "https://github.com/istex/etat-collection/releases/download/v1.1.1/linux64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/istex/etat-collection/releases/assets/2221469",
-          "id": 2221469,
-          "name": "osx.zip",
-          "label": null,
-          "uploader": {
-            "login": "MatthD",
-            "id": 7901366,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7901366?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MatthD",
-            "htmlUrl": "https://github.com/MatthD",
-            "followersUrl": "https://api.github.com/users/MatthD/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MatthD/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MatthD/orgs",
-            "reposUrl": "https://api.github.com/users/MatthD/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MatthD/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 135513541,
-          "downloadCount": 0,
-          "createdAt": "2016-08-29T07:58:01.000Z",
-          "updatedAt": "2016-08-29T07:58:14.000Z",
-          "browserDownloadUrl": "https://github.com/istex/etat-collection/releases/download/v1.1.1/osx.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/istex/etat-collection/releases/assets/2221471",
-          "id": 2221471,
-          "name": "win32.zip",
-          "label": null,
-          "uploader": {
-            "login": "MatthD",
-            "id": 7901366,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7901366?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MatthD",
-            "htmlUrl": "https://github.com/MatthD",
-            "followersUrl": "https://api.github.com/users/MatthD/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MatthD/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MatthD/orgs",
-            "reposUrl": "https://api.github.com/users/MatthD/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MatthD/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 52180789,
-          "downloadCount": 1,
-          "createdAt": "2016-08-29T07:58:01.000Z",
-          "updatedAt": "2016-08-29T07:58:18.000Z",
-          "browserDownloadUrl": "https://github.com/istex/etat-collection/releases/download/v1.1.1/win32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/istex/etat-collection/releases/assets/2221470",
-          "id": 2221470,
-          "name": "win64.zip",
-          "label": null,
-          "uploader": {
-            "login": "MatthD",
-            "id": 7901366,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7901366?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MatthD",
-            "htmlUrl": "https://github.com/MatthD",
-            "followersUrl": "https://api.github.com/users/MatthD/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MatthD/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MatthD/orgs",
-            "reposUrl": "https://api.github.com/users/MatthD/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MatthD/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 62323273,
-          "downloadCount": 0,
-          "createdAt": "2016-08-29T07:58:01.000Z",
-          "updatedAt": "2016-08-29T07:58:16.000Z",
-          "browserDownloadUrl": "https://github.com/istex/etat-collection/releases/download/v1.1.1/win64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/istex/etat-collection/releases/3995844/assets",
-      "htmlUrl": "https://github.com/istex/etat-collection/releases/tag/v1.1.1",
-      "id": 3995844,
-      "tagName": "v1.1.1",
-      "targetCommitish": "master",
-      "name": "Premier version de l'aplication",
-      "draft": false,
-      "author": {
-        "login": "MatthD",
-        "id": 7901366,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7901366?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/MatthD",
-        "htmlUrl": "https://github.com/MatthD",
-        "followersUrl": "https://api.github.com/users/MatthD/followers",
-        "subscriptionsUrl": "https://api.github.com/users/MatthD/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/MatthD/orgs",
-        "reposUrl": "https://api.github.com/users/MatthD/repos",
-        "receivedEventsUrl": "https://api.github.com/users/MatthD/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-08-29T07:56:47.000Z",
-      "publishedAt": "2016-08-29T07:58:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/istex/etat-collection/tarball/v1.1.1",
-      "zipballUrl": "https://api.github.com/repos/istex/etat-collection/zipball/v1.1.1",
-      "body": "- Marche uniquement pour un lien de test (voir le readme)\n- Build l'application pour OSX/LINUX/WiN\n- Proxy INIST désactivable\n- Affichage d'un graphe c3.js\n\nPatch: \n- Désactivation des dev-tools pour le packaging\n- Importation de jquery\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:27:40.134Z"
 }

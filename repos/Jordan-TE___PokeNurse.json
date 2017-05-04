@@ -173,19 +173,12 @@
       "buildmac": "electron-packager . PokeNurse --platform=darwin --arch=x64 --icon=imgs/emojioneicon.icns --overwrite",
       "buildwindows": "electron-packager . PokeNurse --platform=win32 --arch=all --icon=imgs/emojioneicon.ico --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/duhminick/PokeNurse.git"
-    },
+    "repository": "https://github.com/duhminick/PokeNurse",
     "keywords": [
       "pokemon",
       "go"
     ],
-    "author": "duhminick",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/duhminick/PokeNurse/issues"
-    },
     "homepage": "https://github.com/duhminick/PokeNurse#readme",
     "devDependencies": {
       "electron-packager": "^7.3.0",
@@ -198,5 +191,7 @@
       "pogobuf": "^1.4.0"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "Jordan-TE___PokeNurse.json",
+  "lastFetchedAt": "2017-05-04T15:28:26.487Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "ndeitch",
     "id": 10992150,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10992150?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10992150?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ndeitch",
     "htmlUrl": "https://github.com/ndeitch",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/ndeitch/bash-history",
-  "description": "[WIP] Saves all your bash history for quick consult",
+  "description": "Saves all your bash history for quick consult",
   "fork": false,
   "url": "https://api.github.com/repos/ndeitch/bash-history",
   "forksUrl": "https://api.github.com/repos/ndeitch/bash-history/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/ndeitch/bash-history/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ndeitch/bash-history/deployments",
   "createdAt": "2016-10-12T13:28:52.000Z",
-  "updatedAt": "2016-10-13T18:32:34.000Z",
-  "pushedAt": "2016-10-14T13:21:23.000Z",
+  "updatedAt": "2017-03-05T23:06:58.000Z",
+  "pushedAt": "2017-03-12T15:16:42.000Z",
   "gitUrl": "git://github.com/ndeitch/bash-history.git",
   "sshUrl": "git@github.com:ndeitch/bash-history.git",
   "cloneUrl": "https://github.com/ndeitch/bash-history.git",
   "svnUrl": "https://github.com/ndeitch/bash-history",
   "homepage": "",
-  "size": 22,
+  "size": 39,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -61,15 +61,9 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "other",
-    "name": "Other",
-    "spdxId": null,
-    "url": null,
-    "featured": false
-  },
+  "license": null,
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
     "name": "bash-history",
@@ -121,9 +115,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ndeitch"
-  ],
   "firstCommit": {
     "sha": "a4be1cc37754136dc0dc95191b1cfaec94914285",
     "commit": {
@@ -147,5 +138,6 @@
     }
   },
   "filename": "ndeitch___bash-history.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:50:06.639Z"
 }

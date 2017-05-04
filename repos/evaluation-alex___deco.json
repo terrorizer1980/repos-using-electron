@@ -5,7 +5,7 @@
   "owner": {
     "login": "evaluation-alex",
     "id": 16183119,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16183119?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16183119?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/evaluation-alex",
     "htmlUrl": "https://github.com/evaluation-alex",
@@ -45,7 +45,7 @@
   "organization": {
     "login": "evaluation-alex",
     "id": 16183119,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16183119?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16183119?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/evaluation-alex",
     "htmlUrl": "https://github.com/evaluation-alex",
@@ -63,7 +63,7 @@
     "owner": {
       "login": "Azure",
       "id": 6844498,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6844498?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6844498?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/Azure",
       "htmlUrl": "https://github.com/Azure",
@@ -93,26 +93,27 @@
     "downloadsUrl": "https://api.github.com/repos/Azure/deco/downloads",
     "deploymentsUrl": "https://api.github.com/repos/Azure/deco/deployments",
     "createdAt": "2015-03-23T20:53:13.000Z",
-    "updatedAt": "2016-10-27T13:08:07.000Z",
-    "pushedAt": "2016-09-30T23:41:40.000Z",
+    "updatedAt": "2017-05-01T08:47:23.000Z",
+    "pushedAt": "2017-04-07T05:43:28.000Z",
     "gitUrl": "git://github.com/Azure/deco.git",
     "sshUrl": "git@github.com:Azure/deco.git",
     "cloneUrl": "https://github.com/Azure/deco.git",
     "svnUrl": "https://github.com/Azure/deco",
     "homepage": "http://www.storageexplorer.com",
-    "size": 155947,
-    "stargazersCount": 115,
-    "watchersCount": 115,
+    "size": 155875,
+    "stargazersCount": 137,
+    "watchersCount": 137,
     "language": "JavaScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 42,
+    "forksCount": 49,
     "mirrorUrl": null,
-    "openIssuesCount": 18,
-    "openIssues": 18,
-    "watchers": 115,
+    "openIssuesCount": 19,
+    "openIssues": 19,
+    "watchers": 137,
     "defaultBranch": "master"
   },
   "source": {
@@ -122,7 +123,7 @@
     "owner": {
       "login": "Azure",
       "id": 6844498,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6844498?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/6844498?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/Azure",
       "htmlUrl": "https://github.com/Azure",
@@ -152,29 +153,30 @@
     "downloadsUrl": "https://api.github.com/repos/Azure/deco/downloads",
     "deploymentsUrl": "https://api.github.com/repos/Azure/deco/deployments",
     "createdAt": "2015-03-23T20:53:13.000Z",
-    "updatedAt": "2016-10-27T13:08:07.000Z",
-    "pushedAt": "2016-09-30T23:41:40.000Z",
+    "updatedAt": "2017-05-01T08:47:23.000Z",
+    "pushedAt": "2017-04-07T05:43:28.000Z",
     "gitUrl": "git://github.com/Azure/deco.git",
     "sshUrl": "git@github.com:Azure/deco.git",
     "cloneUrl": "https://github.com/Azure/deco.git",
     "svnUrl": "https://github.com/Azure/deco",
     "homepage": "http://www.storageexplorer.com",
-    "size": 155947,
-    "stargazersCount": 115,
-    "watchersCount": 115,
+    "size": 155875,
+    "stargazersCount": 137,
+    "watchersCount": 137,
     "language": "JavaScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 42,
+    "forksCount": 49,
     "mirrorUrl": null,
-    "openIssuesCount": 18,
-    "openIssues": 18,
-    "watchers": 115,
+    "openIssuesCount": 19,
+    "openIssues": 19,
+    "watchers": 137,
     "defaultBranch": "master"
   },
-  "networkCount": 42,
+  "networkCount": 49,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -260,9 +262,6 @@
       "azure-storage": "^0.6.0",
       "electron-gh-releases": "^1.0.1",
       "fs-extra": "^0.22.1"
-    },
-    "other": {
-      "author": "Felix Rieseberg <feriese@microsoft.com>"
     }
   },
   "packageStatus": 200,
@@ -286,15 +285,6 @@
   "cloneUrl": "https://github.com/evaluation-alex/deco.git",
   "svnUrl": "https://github.com/evaluation-alex/deco",
   "mirrorUrl": null,
-  "contributors": [
-    "felixrieseberg",
-    "sedouard",
-    "traceyt",
-    "brzpegasus",
-    "laurentran",
-    "ritazh",
-    "cicorias"
-  ],
   "firstCommit": {
     "sha": "e93eb0266cb325f001c06caa2b275c4aee4e995d",
     "commit": {
@@ -318,5 +308,6 @@
     }
   },
   "filename": "evaluation-alex___deco.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:12:37.603Z"
 }

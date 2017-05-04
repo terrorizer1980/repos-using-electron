@@ -6,7 +6,7 @@
   "owner": {
     "login": "gnunicorn",
     "id": 40496,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/40496?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/40496?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/gnunicorn",
     "htmlUrl": "https://github.com/gnunicorn",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "zalmoxisus",
       "id": 7957859,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7957859?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/7957859?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/zalmoxisus",
       "htmlUrl": "https://github.com/zalmoxisus",
@@ -100,7 +100,7 @@
     "downloadsUrl": "https://api.github.com/repos/zalmoxisus/crossbuilder/downloads",
     "deploymentsUrl": "https://api.github.com/repos/zalmoxisus/crossbuilder/deployments",
     "createdAt": "2015-10-06T09:16:34.000Z",
-    "updatedAt": "2017-01-19T12:43:47.000Z",
+    "updatedAt": "2017-05-02T09:30:54.000Z",
     "pushedAt": "2016-10-31T18:38:36.000Z",
     "gitUrl": "git://github.com/zalmoxisus/crossbuilder.git",
     "sshUrl": "git@github.com:zalmoxisus/crossbuilder.git",
@@ -108,18 +108,19 @@
     "svnUrl": "https://github.com/zalmoxisus/crossbuilder",
     "homepage": "",
     "size": 4718,
-    "stargazersCount": 373,
-    "watchersCount": 373,
+    "stargazersCount": 400,
+    "watchersCount": 400,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 32,
+    "forksCount": 36,
     "mirrorUrl": null,
-    "openIssuesCount": 13,
-    "openIssues": 13,
-    "watchers": 373,
+    "openIssuesCount": 17,
+    "openIssues": 17,
+    "watchers": 400,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "zalmoxisus",
       "id": 7957859,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7957859?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/7957859?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/zalmoxisus",
       "htmlUrl": "https://github.com/zalmoxisus",
@@ -159,7 +160,7 @@
     "downloadsUrl": "https://api.github.com/repos/zalmoxisus/crossbuilder/downloads",
     "deploymentsUrl": "https://api.github.com/repos/zalmoxisus/crossbuilder/deployments",
     "createdAt": "2015-10-06T09:16:34.000Z",
-    "updatedAt": "2017-01-19T12:43:47.000Z",
+    "updatedAt": "2017-05-02T09:30:54.000Z",
     "pushedAt": "2016-10-31T18:38:36.000Z",
     "gitUrl": "git://github.com/zalmoxisus/crossbuilder.git",
     "sshUrl": "git@github.com:zalmoxisus/crossbuilder.git",
@@ -167,21 +168,22 @@
     "svnUrl": "https://github.com/zalmoxisus/crossbuilder",
     "homepage": "",
     "size": 4718,
-    "stargazersCount": 373,
-    "watchersCount": 373,
+    "stargazersCount": 400,
+    "watchersCount": 400,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 32,
+    "forksCount": 36,
     "mirrorUrl": null,
-    "openIssuesCount": 13,
-    "openIssues": 13,
-    "watchers": 373,
+    "openIssuesCount": 17,
+    "openIssues": 17,
+    "watchers": 400,
     "defaultBranch": "master"
   },
-  "networkCount": 32,
+  "networkCount": 36,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -297,13 +299,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "zalmoxisus",
-    "jhen0409",
-    "iamakulov",
-    "rt2zz",
-    "brandonmp"
-  ],
   "firstCommit": {
     "sha": "16d00450725ff39afc0f9e8f0e2d7a64bb45ed91",
     "commit": {
@@ -327,5 +322,6 @@
     }
   },
   "sourceRepo": "zalmoxisus/crossbuilder",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:06:18.158Z"
 }

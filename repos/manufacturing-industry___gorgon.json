@@ -5,7 +5,7 @@
   "owner": {
     "login": "manufacturing-industry",
     "id": 19493596,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19493596?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/19493596?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/manufacturing-industry",
     "htmlUrl": "https://github.com/manufacturing-industry",
@@ -36,7 +36,7 @@
   "deploymentsUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/deployments",
   "createdAt": "2016-08-08T22:26:04.000Z",
   "updatedAt": "2016-10-31T04:57:29.000Z",
-  "pushedAt": "2016-11-03T03:49:26.000Z",
+  "pushedAt": "2016-11-21T08:55:35.000Z",
   "gitUrl": "git://github.com/manufacturing-industry/gorgon.git",
   "sshUrl": "git@github.com:manufacturing-industry/gorgon.git",
   "cloneUrl": "https://github.com/manufacturing-industry/gorgon.git",
@@ -71,7 +71,7 @@
   "organization": {
     "login": "manufacturing-industry",
     "id": 19493596,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19493596?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/19493596?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/manufacturing-industry",
     "htmlUrl": "https://github.com/manufacturing-industry",
@@ -296,9 +296,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "SourceCode"
-  ],
   "firstCommit": {
     "sha": "8d1ba0cc5cd365df59bb2791178d348b7f6b3090",
     "commit": {
@@ -322,130 +319,6 @@
     }
   },
   "filename": "manufacturing-industry___gorgon.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4404024",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4404024/assets",
-      "htmlUrl": "https://github.com/manufacturing-industry/gorgon/releases/tag/0.1.3",
-      "id": 4404024,
-      "tagName": "0.1.3",
-      "targetCommitish": "master",
-      "name": "v0.1.3 - Pre-Alpha",
-      "draft": false,
-      "author": {
-        "login": "SourceCode",
-        "id": 55036,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/55036?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/SourceCode",
-        "htmlUrl": "https://github.com/SourceCode",
-        "followersUrl": "https://api.github.com/users/SourceCode/followers",
-        "subscriptionsUrl": "https://api.github.com/users/SourceCode/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/SourceCode/orgs",
-        "reposUrl": "https://api.github.com/users/SourceCode/repos",
-        "receivedEventsUrl": "https://api.github.com/users/SourceCode/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-17T05:28:59.000Z",
-      "publishedAt": "2016-10-17T05:31:23.000Z",
-      "tarballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/tarball/0.1.3",
-      "zipballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/zipball/0.1.3",
-      "body": "Pre-Alpha release. See HISTORY for release details\n"
-    },
-    {
-      "url": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4339159",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4339159/assets",
-      "htmlUrl": "https://github.com/manufacturing-industry/gorgon/releases/tag/v0.1.2",
-      "id": 4339159,
-      "tagName": "v0.1.2",
-      "targetCommitish": "master",
-      "name": "v0.1.2 - Pre-Alpha",
-      "draft": false,
-      "author": {
-        "login": "SourceCode",
-        "id": 55036,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/55036?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/SourceCode",
-        "htmlUrl": "https://github.com/SourceCode",
-        "followersUrl": "https://api.github.com/users/SourceCode/followers",
-        "subscriptionsUrl": "https://api.github.com/users/SourceCode/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/SourceCode/orgs",
-        "reposUrl": "https://api.github.com/users/SourceCode/repos",
-        "receivedEventsUrl": "https://api.github.com/users/SourceCode/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-08T08:00:14.000Z",
-      "publishedAt": "2016-10-08T08:03:45.000Z",
-      "tarballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/tarball/v0.1.2",
-      "zipballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/zipball/v0.1.2",
-      "body": "Pre-Alpha release. See HISTORY for release details\n"
-    },
-    {
-      "url": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4098745",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4098745/assets",
-      "htmlUrl": "https://github.com/manufacturing-industry/gorgon/releases/tag/0.0.3",
-      "id": 4098745,
-      "tagName": "0.0.3",
-      "targetCommitish": "master",
-      "name": "v0.0.3 - Pre-Alpha",
-      "draft": false,
-      "author": {
-        "login": "SourceCode",
-        "id": 55036,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/55036?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/SourceCode",
-        "htmlUrl": "https://github.com/SourceCode",
-        "followersUrl": "https://api.github.com/users/SourceCode/followers",
-        "subscriptionsUrl": "https://api.github.com/users/SourceCode/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/SourceCode/orgs",
-        "reposUrl": "https://api.github.com/users/SourceCode/repos",
-        "receivedEventsUrl": "https://api.github.com/users/SourceCode/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-09-11T08:10:08.000Z",
-      "publishedAt": "2016-09-11T08:11:51.000Z",
-      "tarballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/tarball/0.0.3",
-      "zipballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/zipball/0.0.3",
-      "body": "- Happy Birthday to my Grandma!\n- See HISTORY for release details\n"
-    },
-    {
-      "url": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4098147",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/releases/4098147/assets",
-      "htmlUrl": "https://github.com/manufacturing-industry/gorgon/releases/tag/v0.0.2",
-      "id": 4098147,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "v0.0.2 - Pre-Alpha",
-      "draft": false,
-      "author": {
-        "login": "SourceCode",
-        "id": 55036,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/55036?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/SourceCode",
-        "htmlUrl": "https://github.com/SourceCode",
-        "followersUrl": "https://api.github.com/users/SourceCode/followers",
-        "subscriptionsUrl": "https://api.github.com/users/SourceCode/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/SourceCode/orgs",
-        "reposUrl": "https://api.github.com/users/SourceCode/repos",
-        "receivedEventsUrl": "https://api.github.com/users/SourceCode/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-09-11T01:41:02.000Z",
-      "publishedAt": "2016-09-11T01:42:41.000Z",
-      "tarballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/manufacturing-industry/gorgon/zipball/v0.0.2",
-      "body": "Pre-Alpha release. See HISTORY for release details\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:24:06.656Z"
 }

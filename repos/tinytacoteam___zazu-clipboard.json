@@ -5,7 +5,7 @@
   "owner": {
     "login": "tinytacoteam",
     "id": 12994756,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12994756?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12994756?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tinytacoteam",
     "htmlUrl": "https://github.com/tinytacoteam",
@@ -20,32 +20,38 @@
   "description": "A clipboard manager for Zazu.",
   "fork": false,
   "createdAt": "2016-06-01T06:36:28.000Z",
-  "updatedAt": "2016-07-02T20:42:21.000Z",
-  "pushedAt": "2016-08-12T23:03:36.000Z",
+  "updatedAt": "2017-03-30T12:23:11.000Z",
+  "pushedAt": "2017-02-21T16:50:52.000Z",
   "homepage": null,
-  "size": 214,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 235,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
-  "openIssuesCount": 2,
-  "openIssues": 2,
-  "watchers": 0,
+  "forksCount": 3,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "unlicense",
+    "name": "The Unlicense",
+    "spdxId": "Unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "featured": false
+  },
   "organization": {
     "login": "tinytacoteam",
     "id": 12994756,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12994756?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12994756?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tinytacoteam",
     "htmlUrl": "https://github.com/tinytacoteam",
@@ -56,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/tinytacoteam/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "networkCount": 3,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "zazu-clipboard",
@@ -85,18 +91,9 @@
     "devDependencies": {
       "chai": "^3.5.0",
       "mocha": "^2.5.3"
-    },
-    "other": {
-      "author": "Blaine Schmeisser",
-      "bugs": {
-        "url": "https://github.com/tinytacoteam/zazu-clipboard/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "blainesch"
-  ],
   "firstCommit": {
     "sha": "9edd701472048d8642a24197a4ffba7dbb4ec552",
     "commit": {
@@ -120,5 +117,26 @@
     }
   },
   "filename": "tinytacoteam___zazu-clipboard.json",
-  "releases": []
+  "htmlUrl": "https://github.com/tinytacoteam/zazu-clipboard",
+  "url": "https://api.github.com/repos/tinytacoteam/zazu-clipboard",
+  "forksUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/forks",
+  "teamsUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/teams",
+  "hooksUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/hooks",
+  "eventsUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/events",
+  "tagsUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/tags",
+  "languagesUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/languages",
+  "stargazersUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/contributors",
+  "subscribersUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/subscription",
+  "mergesUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/merges",
+  "downloadsUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/tinytacoteam/zazu-clipboard/deployments",
+  "gitUrl": "git://github.com/tinytacoteam/zazu-clipboard.git",
+  "sshUrl": "git@github.com:tinytacoteam/zazu-clipboard.git",
+  "cloneUrl": "https://github.com/tinytacoteam/zazu-clipboard.git",
+  "svnUrl": "https://github.com/tinytacoteam/zazu-clipboard",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-03T20:08:17.176Z"
 }

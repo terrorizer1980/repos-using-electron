@@ -5,7 +5,7 @@
   "owner": {
     "login": "unindented",
     "id": 69485,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/69485?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/69485?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/unindented",
     "htmlUrl": "https://github.com/unindented",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/unindented/electron-installer-windows/downloads",
   "deploymentsUrl": "https://api.github.com/repos/unindented/electron-installer-windows/deployments",
   "createdAt": "2016-01-31T17:30:43.000Z",
-  "updatedAt": "2016-11-14T10:11:53.000Z",
-  "pushedAt": "2016-11-16T07:46:38.000Z",
+  "updatedAt": "2017-04-30T20:26:22.000Z",
+  "pushedAt": "2017-05-03T14:57:35.000Z",
   "gitUrl": "git://github.com/unindented/electron-installer-windows.git",
   "sshUrl": "git@github.com:unindented/electron-installer-windows.git",
   "cloneUrl": "https://github.com/unindented/electron-installer-windows.git",
   "svnUrl": "https://github.com/unindented/electron-installer-windows",
   "homepage": null,
-  "size": 6509,
-  "stargazersCount": 85,
-  "watchersCount": 85,
+  "size": 6474,
+  "stargazersCount": 125,
+  "watchersCount": 125,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 12,
+  "forksCount": 14,
   "mirrorUrl": null,
-  "openIssuesCount": 14,
-  "openIssues": 14,
-  "watchers": 85,
+  "openIssuesCount": 87,
+  "openIssues": 87,
+  "watchers": 125,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 12,
-  "subscribersCount": 4,
+  "networkCount": 14,
+  "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
     "name": "electron-installer-windows",
@@ -112,20 +112,9 @@
       "retry": "^0.10.0",
       "rimraf": "^2.5.1",
       "serve-static": "^1.10.2"
-    },
-    "other": {
-      "author": {
-        "name": "Daniel Perez Alvarez",
-        "email": "unindented@gmail.com",
-        "url": "http://unindented.org/"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "unindented",
-    "greenkeeperio-bot"
-  ],
   "firstCommit": {
     "sha": "ca2ece55b250278f5bf714c82d35dc8e106393f8",
     "commit": {
@@ -149,5 +138,6 @@
     }
   },
   "filename": "unindented___electron-installer-windows.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:30:00.510Z"
 }

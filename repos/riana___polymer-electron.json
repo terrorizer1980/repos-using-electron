@@ -5,7 +5,7 @@
   "owner": {
     "login": "riana",
     "id": 844409,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/844409?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/844409?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/riana",
     "htmlUrl": "https://github.com/riana",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/riana/polymer-electron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/riana/polymer-electron/deployments",
   "createdAt": "2016-03-26T07:31:54.000Z",
-  "updatedAt": "2016-06-21T18:33:20.000Z",
+  "updatedAt": "2017-03-24T00:30:08.000Z",
   "pushedAt": "2016-06-01T19:20:45.000Z",
   "gitUrl": "git://github.com/riana/polymer-electron.git",
   "sshUrl": "git@github.com:riana/polymer-electron.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/riana/polymer-electron",
   "homepage": "",
   "size": 7,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,7 +62,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -121,9 +121,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "riana"
-  ],
   "firstCommit": {
     "sha": "d25072b6b9615078bbfba08748245d0f6937d849",
     "commit": {
@@ -147,5 +144,6 @@
     }
   },
   "filename": "riana___polymer-electron.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:16:43.918Z"
 }

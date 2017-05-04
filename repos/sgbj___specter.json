@@ -5,7 +5,7 @@
   "owner": {
     "login": "sgbj",
     "id": 5178445,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5178445?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5178445?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sgbj",
     "htmlUrl": "https://github.com/sgbj",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/sgbj/specter/downloads",
   "deploymentsUrl": "https://api.github.com/repos/sgbj/specter/deployments",
   "createdAt": "2016-10-16T02:02:48.000Z",
-  "updatedAt": "2016-10-16T19:19:32.000Z",
-  "pushedAt": "2016-10-20T02:39:40.000Z",
+  "updatedAt": "2017-04-13T17:12:53.000Z",
+  "pushedAt": "2017-04-14T02:34:53.000Z",
   "gitUrl": "git://github.com/sgbj/specter.git",
   "sshUrl": "git@github.com:sgbj/specter.git",
   "cloneUrl": "https://github.com/sgbj/specter.git",
   "svnUrl": "https://github.com/sgbj/specter",
   "homepage": null,
-  "size": 2015,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 2017,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
+  "hasPages": true,
   "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -102,9 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "sgbj"
-  ],
   "firstCommit": {
     "sha": "61fcd24c16e9f86782b7deb38c6fd2b9c7c52063",
     "commit": {
@@ -128,119 +125,6 @@
     }
   },
   "filename": "sgbj___specter.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/sgbj/specter/releases/4436428",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/sgbj/specter/releases/assets/2502121",
-          "id": 2502121,
-          "name": "specter-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "sgbj",
-            "id": 5178445,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5178445?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sgbj",
-            "htmlUrl": "https://github.com/sgbj",
-            "followersUrl": "https://api.github.com/users/sgbj/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sgbj/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sgbj/orgs",
-            "reposUrl": "https://api.github.com/users/sgbj/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sgbj/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 84274919,
-          "downloadCount": 0,
-          "createdAt": "2016-10-20T02:38:18.000Z",
-          "updatedAt": "2016-10-20T02:39:38.000Z",
-          "browserDownloadUrl": "https://github.com/sgbj/specter/releases/download/v1.0.0/specter-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/sgbj/specter/releases/assets/2502118",
-          "id": 2502118,
-          "name": "specter-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "sgbj",
-            "id": 5178445,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5178445?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sgbj",
-            "htmlUrl": "https://github.com/sgbj",
-            "followersUrl": "https://api.github.com/users/sgbj/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sgbj/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sgbj/orgs",
-            "reposUrl": "https://api.github.com/users/sgbj/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sgbj/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 60781296,
-          "downloadCount": 1,
-          "createdAt": "2016-10-20T02:37:00.000Z",
-          "updatedAt": "2016-10-20T02:38:28.000Z",
-          "browserDownloadUrl": "https://github.com/sgbj/specter/releases/download/v1.0.0/specter-linux-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/sgbj/specter/releases/assets/2502117",
-          "id": 2502117,
-          "name": "specter-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "sgbj",
-            "id": 5178445,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5178445?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sgbj",
-            "htmlUrl": "https://github.com/sgbj",
-            "followersUrl": "https://api.github.com/users/sgbj/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sgbj/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sgbj/orgs",
-            "reposUrl": "https://api.github.com/users/sgbj/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sgbj/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 71518819,
-          "downloadCount": 0,
-          "createdAt": "2016-10-20T02:36:48.000Z",
-          "updatedAt": "2016-10-20T02:37:42.000Z",
-          "browserDownloadUrl": "https://github.com/sgbj/specter/releases/download/v1.0.0/specter-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/sgbj/specter/releases/4436428/assets",
-      "htmlUrl": "https://github.com/sgbj/specter/releases/tag/v1.0.0",
-      "id": 4436428,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "sgbj",
-        "id": 5178445,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5178445?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/sgbj",
-        "htmlUrl": "https://github.com/sgbj",
-        "followersUrl": "https://api.github.com/users/sgbj/followers",
-        "subscriptionsUrl": "https://api.github.com/users/sgbj/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/sgbj/orgs",
-        "reposUrl": "https://api.github.com/users/sgbj/repos",
-        "receivedEventsUrl": "https://api.github.com/users/sgbj/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-20T02:35:53.000Z",
-      "publishedAt": "2016-10-20T02:39:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/sgbj/specter/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/sgbj/specter/zipball/v1.0.0",
-      "body": "Initial release.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:09:49.969Z"
 }

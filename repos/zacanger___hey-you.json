@@ -5,7 +5,7 @@
   "owner": {
     "login": "zacanger",
     "id": 12520493,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12520493?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/12520493?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zacanger",
     "htmlUrl": "https://github.com/zacanger",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/zacanger/hey-you/downloads",
   "deploymentsUrl": "https://api.github.com/repos/zacanger/hey-you/deployments",
   "createdAt": "2016-05-12T00:39:40.000Z",
-  "updatedAt": "2016-11-26T04:16:08.000Z",
-  "pushedAt": "2016-11-26T05:00:11.000Z",
+  "updatedAt": "2017-02-12T19:11:20.000Z",
+  "pushedAt": "2017-02-13T21:23:19.000Z",
   "gitUrl": "git://github.com/zacanger/hey-you.git",
   "sshUrl": "git@github.com:zacanger/hey-you.git",
   "cloneUrl": "https://github.com/zacanger/hey-you.git",
   "svnUrl": "https://github.com/zacanger/hey-you",
   "homepage": "http://npm.im/hey-you",
-  "size": 99,
+  "size": 95,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "HTML",
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -104,9 +104,6 @@
     "devDependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "zacanger"
-  ],
   "firstCommit": {
     "sha": "3a0562abcc812b7aaefcf58770a2f96a80334171",
     "commit": {
@@ -130,92 +127,6 @@
     }
   },
   "filename": "zacanger___hey-you.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/zacanger/hey-you/releases/4762956",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/zacanger/hey-you/releases/assets/2718754",
-          "id": 2718754,
-          "name": "hey-you.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "zacanger",
-            "id": 12520493,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12520493?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/zacanger",
-            "htmlUrl": "https://github.com/zacanger",
-            "followersUrl": "https://api.github.com/users/zacanger/followers",
-            "subscriptionsUrl": "https://api.github.com/users/zacanger/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/zacanger/orgs",
-            "reposUrl": "https://api.github.com/users/zacanger/repos",
-            "receivedEventsUrl": "https://api.github.com/users/zacanger/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 126356670,
-          "downloadCount": 0,
-          "createdAt": "2016-11-26T05:21:38.000Z",
-          "updatedAt": "2016-11-26T05:24:43.000Z",
-          "browserDownloadUrl": "https://github.com/zacanger/hey-you/releases/download/0.5.2/hey-you.app.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/zacanger/hey-you/releases/assets/2718724",
-          "id": 2718724,
-          "name": "linux.zip",
-          "label": null,
-          "uploader": {
-            "login": "zacanger",
-            "id": 12520493,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12520493?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/zacanger",
-            "htmlUrl": "https://github.com/zacanger",
-            "followersUrl": "https://api.github.com/users/zacanger/followers",
-            "subscriptionsUrl": "https://api.github.com/users/zacanger/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/zacanger/orgs",
-            "reposUrl": "https://api.github.com/users/zacanger/repos",
-            "receivedEventsUrl": "https://api.github.com/users/zacanger/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43466918,
-          "downloadCount": 1,
-          "createdAt": "2016-11-26T04:56:31.000Z",
-          "updatedAt": "2016-11-26T04:57:37.000Z",
-          "browserDownloadUrl": "https://github.com/zacanger/hey-you/releases/download/0.5.2/linux.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/zacanger/hey-you/releases/4762956/assets",
-      "htmlUrl": "https://github.com/zacanger/hey-you/releases/tag/0.5.2",
-      "id": 4762956,
-      "tagName": "0.5.2",
-      "targetCommitish": "master",
-      "name": "First packaged app version!",
-      "draft": false,
-      "author": {
-        "login": "zacanger",
-        "id": 12520493,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12520493?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zacanger",
-        "htmlUrl": "https://github.com/zacanger",
-        "followersUrl": "https://api.github.com/users/zacanger/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zacanger/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zacanger/orgs",
-        "reposUrl": "https://api.github.com/users/zacanger/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zacanger/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-26T04:19:56.000Z",
-      "publishedAt": "2016-11-26T05:25:15.000Z",
-      "tarballUrl": "https://api.github.com/repos/zacanger/hey-you/tarball/0.5.2",
-      "zipballUrl": "https://api.github.com/repos/zacanger/hey-you/zipball/0.5.2",
-      "body": "- x64 only\n- Mac: I think uploading the `.app` worked? Hard to tell.\n- Linux: `unzip linux.zip`\n- Windows: maybe in the future? Wine is pretty rough....\n- Otherwise: `npm i -g hey-you`\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:03:41.061Z"
 }

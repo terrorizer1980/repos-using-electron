@@ -5,7 +5,7 @@
   "owner": {
     "login": "nteract",
     "id": 12401040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12401040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nteract",
     "htmlUrl": "https://github.com/nteract",
@@ -20,21 +20,21 @@
   "description": ":truck: Mimetype + data -> HTMLElement",
   "fork": false,
   "createdAt": "2015-07-11T21:44:26.000Z",
-  "updatedAt": "2016-10-21T10:19:00.000Z",
-  "pushedAt": "2016-10-13T17:30:06.000Z",
+  "updatedAt": "2017-03-23T14:32:17.000Z",
+  "pushedAt": "2017-05-02T17:26:16.000Z",
   "homepage": "",
-  "size": 506,
-  "stargazersCount": 11,
-  "watchersCount": 11,
+  "size": 509,
+  "stargazersCount": 13,
+  "watchersCount": 13,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 10,
+  "forksCount": 11,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 11,
+  "watchers": 13,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "nteract",
     "id": 12401040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12401040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nteract",
     "htmlUrl": "https://github.com/nteract",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/nteract/received_events",
     "type": "Organization"
   },
-  "networkCount": 10,
-  "subscribersCount": 21,
+  "networkCount": 11,
+  "subscribersCount": 24,
   "status": 200,
   "packageJSON": {
     "name": "transformime",
@@ -149,17 +149,6 @@
   "cloneUrl": "https://github.com/nteract/transformime.git",
   "svnUrl": "https://github.com/nteract/transformime",
   "mirrorUrl": null,
-  "contributors": [
-    "rgbkrk",
-    "lgeiger",
-    "jdfreder",
-    "captainsafia",
-    "karissa",
-    "n-riesco",
-    "jasongrout",
-    "jdetle",
-    "sccolbert"
-  ],
   "firstCommit": {
     "sha": "ccfe8c24a60da2b9b987c82645e7e24f65736e1a",
     "commit": {
@@ -183,37 +172,6 @@
     }
   },
   "filename": "nteract___transformime.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/nteract/transformime/releases/2116989",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/nteract/transformime/releases/2116989/assets",
-      "htmlUrl": "https://github.com/nteract/transformime/releases/tag/v2.1.0",
-      "id": 2116989,
-      "tagName": "v2.1.0",
-      "targetCommitish": "master",
-      "name": "Transformime 2.1.0",
-      "draft": false,
-      "author": {
-        "login": "rgbkrk",
-        "id": 836375,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/836375?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/rgbkrk",
-        "htmlUrl": "https://github.com/rgbkrk",
-        "followersUrl": "https://api.github.com/users/rgbkrk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/rgbkrk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/rgbkrk/orgs",
-        "reposUrl": "https://api.github.com/users/rgbkrk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/rgbkrk/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-12T17:59:39.000Z",
-      "publishedAt": "2015-11-12T18:00:33.000Z",
-      "tarballUrl": "https://api.github.com/repos/nteract/transformime/tarball/v2.1.0",
-      "zipballUrl": "https://api.github.com/repos/nteract/transformime/zipball/v2.1.0",
-      "body": "Now with script execution for html mimetypes!\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:17:03.815Z"
 }

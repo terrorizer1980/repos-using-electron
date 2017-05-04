@@ -6,7 +6,7 @@
   "owner": {
     "login": "Toinane",
     "id": 7584391,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7584391?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7584391?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Toinane",
     "htmlUrl": "https://github.com/Toinane",
@@ -36,16 +36,16 @@
   "downloadsUrl": "https://api.github.com/repos/Toinane/colorpicker/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Toinane/colorpicker/deployments",
   "createdAt": "2016-12-05T07:09:48.000Z",
-  "updatedAt": "2016-12-05T07:13:37.000Z",
-  "pushedAt": "2016-12-27T22:07:25.000Z",
+  "updatedAt": "2017-03-13T07:05:24.000Z",
+  "pushedAt": "2017-03-31T13:52:57.000Z",
   "gitUrl": "git://github.com/Toinane/colorpicker.git",
   "sshUrl": "git@github.com:Toinane/colorpicker.git",
   "cloneUrl": "https://github.com/Toinane/colorpicker.git",
   "svnUrl": "https://github.com/Toinane/colorpicker",
-  "homepage": null,
-  "size": 125,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "homepage": "https://crea-th.at/p/colorpicker/",
+  "size": 1415,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -55,7 +55,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -94,9 +94,6 @@
     "license": "CC0-1.0"
   },
   "packageStatus": 200,
-  "contributors": [
-    "Toinane"
-  ],
   "firstCommit": {
     "sha": "2ace153f5162ea3f81e9deefdb894852de59ec99",
     "commit": {
@@ -119,92 +116,6 @@
       "commentCount": 0
     }
   },
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Toinane/colorpicker/releases/5368034",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Toinane/colorpicker/releases/assets/3132902",
-          "id": 3132902,
-          "name": "colorpicker-mac-x64.dmg",
-          "label": null,
-          "uploader": {
-            "login": "Toinane",
-            "id": 7584391,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7584391?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Toinane",
-            "htmlUrl": "https://github.com/Toinane",
-            "followersUrl": "https://api.github.com/users/Toinane/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Toinane/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Toinane/orgs",
-            "reposUrl": "https://api.github.com/users/Toinane/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Toinane/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 37649469,
-          "downloadCount": 0,
-          "createdAt": "2017-02-06T09:12:00.000Z",
-          "updatedAt": "2017-02-06T09:13:57.000Z",
-          "browserDownloadUrl": "https://github.com/Toinane/colorpicker/releases/download/1.2.1/colorpicker-mac-x64.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/Toinane/colorpicker/releases/assets/3132901",
-          "id": 3132901,
-          "name": "colorpicker-win-x64.exe",
-          "label": null,
-          "uploader": {
-            "login": "Toinane",
-            "id": 7584391,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7584391?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Toinane",
-            "htmlUrl": "https://github.com/Toinane",
-            "followersUrl": "https://api.github.com/users/Toinane/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Toinane/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Toinane/orgs",
-            "reposUrl": "https://api.github.com/users/Toinane/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Toinane/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 31629861,
-          "downloadCount": 21,
-          "createdAt": "2017-02-06T09:11:15.000Z",
-          "updatedAt": "2017-02-06T09:13:57.000Z",
-          "browserDownloadUrl": "https://github.com/Toinane/colorpicker/releases/download/1.2.1/colorpicker-win-x64.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Toinane/colorpicker/releases/5368034/assets",
-      "htmlUrl": "https://github.com/Toinane/colorpicker/releases/tag/1.2.1",
-      "id": 5368034,
-      "tagName": "1.2.1",
-      "targetCommitish": "master",
-      "name": "v1.2.1",
-      "draft": false,
-      "author": {
-        "login": "Toinane",
-        "id": 7584391,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7584391?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Toinane",
-        "htmlUrl": "https://github.com/Toinane",
-        "followersUrl": "https://api.github.com/users/Toinane/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Toinane/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Toinane/orgs",
-        "reposUrl": "https://api.github.com/users/Toinane/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Toinane/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-02-02T00:07:47.000Z",
-      "publishedAt": "2017-02-06T09:13:57.000Z",
-      "tarballUrl": "https://api.github.com/repos/Toinane/colorpicker/tarball/1.2.1",
-      "zipballUrl": "https://api.github.com/repos/Toinane/colorpicker/zipball/1.2.1",
-      "body": "- Fix HD main icon\r\n- Fix new window problem on mac\r\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:34:14.446Z"
 }

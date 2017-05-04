@@ -5,7 +5,7 @@
   "owner": {
     "login": "firejune",
     "id": 68166,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/68166?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/68166?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/firejune",
     "htmlUrl": "https://github.com/firejune",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/firejune/dos-game-box/downloads",
   "deploymentsUrl": "https://api.github.com/repos/firejune/dos-game-box/deployments",
   "createdAt": "2016-04-25T08:45:25.000Z",
-  "updatedAt": "2016-04-25T08:48:56.000Z",
+  "updatedAt": "2017-03-21T02:17:50.000Z",
   "pushedAt": "2016-05-02T05:44:18.000Z",
   "gitUrl": "git://github.com/firejune/dos-game-box.git",
   "sshUrl": "git@github.com:firejune/dos-game-box.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/firejune/dos-game-box",
   "homepage": null,
   "size": 64531,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,7 +62,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -126,9 +126,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "firejune"
-  ],
   "firstCommit": {
     "sha": "825bf20dbfa883d6f01fbd18eb21ab0b4c7862c8",
     "commit": {
@@ -152,92 +149,6 @@
     }
   },
   "filename": "firejune___dos-game-box.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/firejune/dos-game-box/releases/3090482",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/firejune/dos-game-box/releases/assets/1595637",
-          "id": 1595637,
-          "name": "dosgamebox-v0.7.1-darwin-x64.dmg",
-          "label": null,
-          "uploader": {
-            "login": "firejune",
-            "id": 68166,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/68166?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/firejune",
-            "htmlUrl": "https://github.com/firejune",
-            "followersUrl": "https://api.github.com/users/firejune/followers",
-            "subscriptionsUrl": "https://api.github.com/users/firejune/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/firejune/orgs",
-            "reposUrl": "https://api.github.com/users/firejune/repos",
-            "receivedEventsUrl": "https://api.github.com/users/firejune/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 85667217,
-          "downloadCount": 0,
-          "createdAt": "2016-04-25T12:22:05.000Z",
-          "updatedAt": "2016-04-25T12:22:44.000Z",
-          "browserDownloadUrl": "https://github.com/firejune/dos-game-box/releases/download/0.7.1/dosgamebox-v0.7.1-darwin-x64.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/firejune/dos-game-box/releases/assets/1595638",
-          "id": 1595638,
-          "name": "dosgamebox-v0.7.1-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "firejune",
-            "id": 68166,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/68166?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/firejune",
-            "htmlUrl": "https://github.com/firejune",
-            "followersUrl": "https://api.github.com/users/firejune/followers",
-            "subscriptionsUrl": "https://api.github.com/users/firejune/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/firejune/orgs",
-            "reposUrl": "https://api.github.com/users/firejune/repos",
-            "receivedEventsUrl": "https://api.github.com/users/firejune/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 85925926,
-          "downloadCount": 0,
-          "createdAt": "2016-04-25T12:22:06.000Z",
-          "updatedAt": "2016-04-25T12:23:26.000Z",
-          "browserDownloadUrl": "https://github.com/firejune/dos-game-box/releases/download/0.7.1/dosgamebox-v0.7.1-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/firejune/dos-game-box/releases/3090482/assets",
-      "htmlUrl": "https://github.com/firejune/dos-game-box/releases/tag/0.7.1",
-      "id": 3090482,
-      "tagName": "0.7.1",
-      "targetCommitish": "master",
-      "name": "DOSGameBox v0.7.1",
-      "draft": false,
-      "author": {
-        "login": "firejune",
-        "id": 68166,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/68166?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/firejune",
-        "htmlUrl": "https://github.com/firejune",
-        "followersUrl": "https://api.github.com/users/firejune/followers",
-        "subscriptionsUrl": "https://api.github.com/users/firejune/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/firejune/orgs",
-        "reposUrl": "https://api.github.com/users/firejune/repos",
-        "receivedEventsUrl": "https://api.github.com/users/firejune/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-04-25T11:56:38.000Z",
-      "publishedAt": "2016-04-25T12:23:37.000Z",
-      "tarballUrl": "https://api.github.com/repos/firejune/dos-game-box/tarball/0.7.1",
-      "zipballUrl": "https://api.github.com/repos/firejune/dos-game-box/zipball/0.7.1",
-      "body": "Changelog:\n- Changed package build mechanism.\n- Add darwin x64 build package and dmg installation.\n- Add emscripten loading module.\n- Remove test files in build package\n- Add OS X application signing.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:22:05.884Z"
 }

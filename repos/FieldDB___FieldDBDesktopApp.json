@@ -5,7 +5,7 @@
   "owner": {
     "login": "FieldDB",
     "id": 2256846,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2256846?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2256846?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/FieldDB",
     "htmlUrl": "https://github.com/FieldDB",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/FieldDB/FieldDBDesktopApp/downloads",
   "deploymentsUrl": "https://api.github.com/repos/FieldDB/FieldDBDesktopApp/deployments",
   "createdAt": "2016-02-14T05:40:23.000Z",
-  "updatedAt": "2016-02-14T05:41:47.000Z",
+  "updatedAt": "2017-02-09T07:14:07.000Z",
   "pushedAt": "2016-02-14T05:52:53.000Z",
   "gitUrl": "git://github.com/FieldDB/FieldDBDesktopApp.git",
   "sshUrl": "git@github.com:FieldDB/FieldDBDesktopApp.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/FieldDB/FieldDBDesktopApp",
   "homepage": null,
   "size": 439,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "FieldDB",
     "id": 2256846,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2256846?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2256846?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/FieldDB",
     "htmlUrl": "https://github.com/FieldDB",
@@ -116,10 +116,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "benogle",
-    "cesine"
-  ],
   "firstCommit": {
     "sha": "95f5e28139002189469f9cd2f9d0ba05abca63a4",
     "commit": {
@@ -144,5 +140,6 @@
   },
   "filename": "FieldDB___FieldDBDesktopApp.json",
   "sourceRepo": "benogle/curve-app",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:30:04.750Z"
 }

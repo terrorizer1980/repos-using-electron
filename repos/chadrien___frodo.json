@@ -5,7 +5,7 @@
   "owner": {
     "login": "chadrien",
     "id": 1788218,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1788218?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1788218?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/chadrien",
     "htmlUrl": "https://github.com/chadrien",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/chadrien/frodo/downloads",
   "deploymentsUrl": "https://api.github.com/repos/chadrien/frodo/deployments",
   "createdAt": "2016-09-15T07:46:52.000Z",
-  "updatedAt": "2016-09-20T10:15:59.000Z",
-  "pushedAt": "2016-10-05T08:47:09.000Z",
+  "updatedAt": "2017-02-24T13:05:39.000Z",
+  "pushedAt": "2017-03-30T13:52:48.000Z",
   "gitUrl": "git://github.com/chadrien/frodo.git",
   "sshUrl": "git@github.com:chadrien/frodo.git",
   "cloneUrl": "https://github.com/chadrien/frodo.git",
   "svnUrl": "https://github.com/chadrien/frodo",
   "homepage": "",
-  "size": 298,
+  "size": 325,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "Elm",
@@ -61,13 +61,7 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
@@ -117,9 +111,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "chadrien"
-  ],
   "firstCommit": {
     "sha": "cf7b6aa3d8f1e567d8cc1b039c8cf300f7d3cd01",
     "commit": {
@@ -143,5 +134,6 @@
     }
   },
   "filename": "chadrien___frodo.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:21:05.513Z"
 }

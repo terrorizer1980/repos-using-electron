@@ -5,7 +5,7 @@
   "owner": {
     "login": "BinaryMuse",
     "id": 189606,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/189606?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/189606?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/BinaryMuse",
     "htmlUrl": "https://github.com/BinaryMuse",
@@ -20,21 +20,21 @@
   "description": "A YouTube playlist manager and video player in Electron w/ React + Redux",
   "fork": false,
   "createdAt": "2015-09-27T00:34:24.000Z",
-  "updatedAt": "2016-08-05T05:02:33.000Z",
+  "updatedAt": "2017-03-12T06:17:15.000Z",
   "pushedAt": "2016-02-06T01:27:32.000Z",
   "homepage": null,
   "size": 184,
-  "stargazersCount": 12,
-  "watchersCount": 12,
+  "stargazersCount": 24,
+  "watchersCount": 24,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 7,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 12,
+  "watchers": 24,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,8 +42,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 5,
-  "subscribersCount": 1,
+  "networkCount": 7,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "youtube-player",
@@ -84,10 +84,6 @@
     "main": "app/bootstrap.js"
   },
   "packageStatus": 200,
-  "contributors": [
-    "guidouil",
-    "BinaryMuse"
-  ],
   "firstCommit": {
     "sha": "3345fc8d66610b0f40f242813a8eb595e814f29a",
     "commit": {
@@ -111,5 +107,26 @@
     }
   },
   "filename": "BinaryMuse___electron-youtube-player.json",
-  "releases": []
+  "htmlUrl": "https://github.com/BinaryMuse/electron-youtube-player",
+  "url": "https://api.github.com/repos/BinaryMuse/electron-youtube-player",
+  "forksUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/forks",
+  "teamsUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/teams",
+  "hooksUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/hooks",
+  "eventsUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/events",
+  "tagsUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/tags",
+  "languagesUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/languages",
+  "stargazersUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/contributors",
+  "subscribersUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/subscription",
+  "mergesUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/merges",
+  "downloadsUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/BinaryMuse/electron-youtube-player/deployments",
+  "gitUrl": "git://github.com/BinaryMuse/electron-youtube-player.git",
+  "sshUrl": "git@github.com:BinaryMuse/electron-youtube-player.git",
+  "cloneUrl": "https://github.com/BinaryMuse/electron-youtube-player.git",
+  "svnUrl": "https://github.com/BinaryMuse/electron-youtube-player",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T05:20:35.455Z"
 }

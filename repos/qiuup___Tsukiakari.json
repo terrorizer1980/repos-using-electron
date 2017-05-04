@@ -201,21 +201,14 @@
       "unittest:view": "karma start",
       "unittest:view-watch": "karma start --auto-watch --no-single-run"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/bokuweb/Tsukiakari.git"
-    },
+    "repository": "https://github.com/bokuweb/Tsukiakari",
     "keywords": [
       "Electron",
       "React",
       "Redux",
       "Twitter"
     ],
-    "author": "bokuweb",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/bokuweb/Tsukiakari/issues"
-    },
     "homepage": "https://github.com/bokuweb/Tsukiakari#readme",
     "devDependencies": {
       "babel": "^6.3.26",
@@ -313,11 +306,19 @@
       "transform": [
         "babelify"
       ]
+    },
+    "other": {
+      "author": "bokuweb",
+      "bugs": {
+        "url": "https://github.com/bokuweb/Tsukiakari/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "bokuweb",
     "kuy"
-  ]
+  ],
+  "filename": "qiuup___Tsukiakari.json",
+  "lastFetchedAt": "2017-05-04T20:29:08.315Z"
 }

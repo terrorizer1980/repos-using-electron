@@ -5,7 +5,7 @@
   "owner": {
     "login": "stefanjudis",
     "id": 962099,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/962099?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/962099?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/stefanjudis",
     "htmlUrl": "https://github.com/stefanjudis",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/stefanjudis/blocky/downloads",
   "deploymentsUrl": "https://api.github.com/repos/stefanjudis/blocky/deployments",
   "createdAt": "2015-10-04T15:54:49.000Z",
-  "updatedAt": "2016-01-09T12:08:18.000Z",
-  "pushedAt": "2016-01-09T12:08:17.000Z",
+  "updatedAt": "2017-03-09T02:41:37.000Z",
+  "pushedAt": "2017-02-12T00:57:29.000Z",
   "gitUrl": "git://github.com/stefanjudis/blocky.git",
   "sshUrl": "git@github.com:stefanjudis/blocky.git",
   "cloneUrl": "https://github.com/stefanjudis/blocky.git",
   "svnUrl": "https://github.com/stefanjudis/blocky",
   "homepage": "",
-  "size": 2797,
-  "stargazersCount": 8,
-  "watchersCount": 8,
-  "language": "NSIS",
+  "size": 2799,
+  "stargazersCount": 9,
+  "watchersCount": 9,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 8,
+  "watchers": 9,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -105,9 +105,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "stefanjudis"
-  ],
   "firstCommit": {
     "sha": "8ffadc4a3f9ae24d562e9c0368fe9c70d98c4676",
     "commit": {
@@ -131,92 +128,6 @@
     }
   },
   "filename": "stefanjudis___blocky.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/stefanjudis/blocky/releases/1908516",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/stefanjudis/blocky/releases/assets/915334",
-          "id": 915334,
-          "name": "Blocky-Setup.exe",
-          "label": null,
-          "uploader": {
-            "login": "stefanjudis",
-            "id": 962099,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/962099?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/stefanjudis",
-            "htmlUrl": "https://github.com/stefanjudis",
-            "followersUrl": "https://api.github.com/users/stefanjudis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/stefanjudis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/stefanjudis/orgs",
-            "reposUrl": "https://api.github.com/users/stefanjudis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/stefanjudis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 41266225,
-          "downloadCount": 13,
-          "createdAt": "2015-10-04T17:56:39.000Z",
-          "updatedAt": "2015-10-04T18:00:28.000Z",
-          "browserDownloadUrl": "https://github.com/stefanjudis/blocky/releases/download/v1.0.0/Blocky-Setup.exe"
-        },
-        {
-          "url": "https://api.github.com/repos/stefanjudis/blocky/releases/assets/915330",
-          "id": 915330,
-          "name": "Blocky.dmg",
-          "label": null,
-          "uploader": {
-            "login": "stefanjudis",
-            "id": 962099,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/962099?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/stefanjudis",
-            "htmlUrl": "https://github.com/stefanjudis",
-            "followersUrl": "https://api.github.com/users/stefanjudis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/stefanjudis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/stefanjudis/orgs",
-            "reposUrl": "https://api.github.com/users/stefanjudis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/stefanjudis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 39616974,
-          "downloadCount": 14,
-          "createdAt": "2015-10-04T17:53:23.000Z",
-          "updatedAt": "2015-10-04T17:55:39.000Z",
-          "browserDownloadUrl": "https://github.com/stefanjudis/blocky/releases/download/v1.0.0/Blocky.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/stefanjudis/blocky/releases/1908516/assets",
-      "htmlUrl": "https://github.com/stefanjudis/blocky/releases/tag/v1.0.0",
-      "id": 1908516,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "Initial release",
-      "draft": false,
-      "author": {
-        "login": "stefanjudis",
-        "id": 962099,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/962099?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/stefanjudis",
-        "htmlUrl": "https://github.com/stefanjudis",
-        "followersUrl": "https://api.github.com/users/stefanjudis/followers",
-        "subscriptionsUrl": "https://api.github.com/users/stefanjudis/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/stefanjudis/orgs",
-        "reposUrl": "https://api.github.com/users/stefanjudis/repos",
-        "receivedEventsUrl": "https://api.github.com/users/stefanjudis/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-10-04T17:50:10.000Z",
-      "publishedAt": "2015-10-04T17:52:33.000Z",
-      "tarballUrl": "https://api.github.com/repos/stefanjudis/blocky/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/stefanjudis/blocky/zipball/v1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:17:48.099Z"
 }

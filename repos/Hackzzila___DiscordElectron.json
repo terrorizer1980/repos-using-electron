@@ -5,7 +5,7 @@
   "owner": {
     "login": "Hackzzila",
     "id": 11618364,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11618364?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11618364?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Hackzzila",
     "htmlUrl": "https://github.com/Hackzzila",
@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "discordelectron",
     "version": "1.0.0",
@@ -84,9 +84,6 @@
     "homepage": "https://github.com/Hackzzila/DiscordElectron#readme"
   },
   "packageStatus": 200,
-  "contributors": [
-    "Hackzzila"
-  ],
   "firstCommit": {
     "sha": "86e8d48bdde5f7637c2c2b2d0feafd4000939589",
     "commit": {
@@ -110,37 +107,6 @@
     }
   },
   "filename": "Hackzzila___DiscordElectron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Hackzzila/DiscordElectron/releases/3760545",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Hackzzila/DiscordElectron/releases/3760545/assets",
-      "htmlUrl": "https://github.com/Hackzzila/DiscordElectron/releases/tag/v1.0.0",
-      "id": 3760545,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "Initial Release",
-      "draft": false,
-      "author": {
-        "login": "Hackzzila",
-        "id": 11618364,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11618364?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Hackzzila",
-        "htmlUrl": "https://github.com/Hackzzila",
-        "followersUrl": "https://api.github.com/users/Hackzzila/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Hackzzila/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Hackzzila/orgs",
-        "reposUrl": "https://api.github.com/users/Hackzzila/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Hackzzila/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-28T13:11:50.000Z",
-      "publishedAt": "2016-07-28T13:21:49.000Z",
-      "tarballUrl": "https://api.github.com/repos/Hackzzila/DiscordElectron/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/Hackzzila/DiscordElectron/zipball/v1.0.0",
-      "body": "The initial release\n\n[Compiled binaries for 64 bit Windows (It was to big for GitHub)](http://www.mediafire.com/download/0ae0erp40i8lvf0/DiscordElectron.zip)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:30:20.730Z"
 }

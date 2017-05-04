@@ -5,7 +5,7 @@
   "owner": {
     "login": "Irrelon",
     "id": 492293,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/492293?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/492293?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Irrelon",
     "htmlUrl": "https://github.com/Irrelon",
@@ -31,7 +31,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "openIssuesCount": 0,
   "openIssues": 0,
   "watchers": 0,
@@ -49,7 +49,7 @@
     "owner": {
       "login": "jaruba",
       "id": 1777923,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1777923?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1777923?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/jaruba",
       "htmlUrl": "https://github.com/jaruba",
@@ -79,26 +79,27 @@
     "downloadsUrl": "https://api.github.com/repos/jaruba/PowderPlayer/downloads",
     "deploymentsUrl": "https://api.github.com/repos/jaruba/PowderPlayer/deployments",
     "createdAt": "2015-03-06T20:12:19.000Z",
-    "updatedAt": "2016-11-03T19:35:38.000Z",
-    "pushedAt": "2016-10-11T23:49:02.000Z",
+    "updatedAt": "2017-04-29T06:20:20.000Z",
+    "pushedAt": "2017-01-25T10:39:49.000Z",
     "gitUrl": "git://github.com/jaruba/PowderPlayer.git",
     "sshUrl": "git@github.com:jaruba/PowderPlayer.git",
     "cloneUrl": "https://github.com/jaruba/PowderPlayer.git",
     "svnUrl": "https://github.com/jaruba/PowderPlayer",
     "homepage": "http://powder.media/",
-    "size": 327359,
-    "stargazersCount": 324,
-    "watchersCount": 324,
+    "size": 326591,
+    "stargazersCount": 372,
+    "watchersCount": 372,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 52,
+    "forksCount": 67,
     "mirrorUrl": null,
     "openIssuesCount": 37,
     "openIssues": 37,
-    "watchers": 324,
+    "watchers": 372,
     "defaultBranch": "react-polymer"
   },
   "source": {
@@ -108,7 +109,7 @@
     "owner": {
       "login": "jaruba",
       "id": 1777923,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1777923?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1777923?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/jaruba",
       "htmlUrl": "https://github.com/jaruba",
@@ -138,29 +139,30 @@
     "downloadsUrl": "https://api.github.com/repos/jaruba/PowderPlayer/downloads",
     "deploymentsUrl": "https://api.github.com/repos/jaruba/PowderPlayer/deployments",
     "createdAt": "2015-03-06T20:12:19.000Z",
-    "updatedAt": "2016-11-03T19:35:38.000Z",
-    "pushedAt": "2016-10-11T23:49:02.000Z",
+    "updatedAt": "2017-04-29T06:20:20.000Z",
+    "pushedAt": "2017-01-25T10:39:49.000Z",
     "gitUrl": "git://github.com/jaruba/PowderPlayer.git",
     "sshUrl": "git@github.com:jaruba/PowderPlayer.git",
     "cloneUrl": "https://github.com/jaruba/PowderPlayer.git",
     "svnUrl": "https://github.com/jaruba/PowderPlayer",
     "homepage": "http://powder.media/",
-    "size": 327359,
-    "stargazersCount": 324,
-    "watchersCount": 324,
+    "size": 326591,
+    "stargazersCount": 372,
+    "watchersCount": 372,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 52,
+    "forksCount": 67,
     "mirrorUrl": null,
     "openIssuesCount": 37,
     "openIssues": 37,
-    "watchers": 324,
+    "watchers": 372,
     "defaultBranch": "react-polymer"
   },
-  "networkCount": 52,
+  "networkCount": 67,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -254,10 +256,6 @@
     },
     "optionalDependencies": {
       "electron-prebuilt": "0.37.6"
-    },
-    "other": {
-      "author": "Branza Victor-Alexandru <branza.alex@gmail.com>",
-      "bugs": "https://github.com/jaruba/PowderPlayer/issues"
     }
   },
   "packageStatus": 200,
@@ -281,12 +279,6 @@
   "cloneUrl": "https://github.com/Irrelon/PowderPlayer.git",
   "svnUrl": "https://github.com/Irrelon/PowderPlayer",
   "mirrorUrl": null,
-  "contributors": [
-    "jaruba",
-    "luigiplr",
-    "vankasteelj",
-    "Ivshti"
-  ],
   "firstCommit": {
     "sha": "e89a7bda449017e38b0bdbd145a5e35725d8742e",
     "commit": {
@@ -310,5 +302,6 @@
     }
   },
   "filename": "Irrelon___PowderPlayer.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:05:05.621Z"
 }

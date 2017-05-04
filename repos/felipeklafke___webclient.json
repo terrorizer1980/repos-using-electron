@@ -64,38 +64,25 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Mega_Webclient",
     "version": "2.0.0",
     "description": "Web Client to access the Mega Cloud Infrastructure",
     "main": "index.js",
-    "directories": {
-      "src": "js",
-      "test": "test",
-      "doc": "doc"
-    },
     "scripts": {
       "test": "make test",
       "api-doc": "make api-doc"
     },
     "homepage": "https://mega.nz/",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:meganz/webclient.git"
-    },
-    "bugs": {
-      "url": "https://issues.developers.mega.co.nz/projects/webclient"
-    },
+    "repository": "https://github.com/meganz/webclient",
     "keywords": [
       "Mega",
       "storage",
       "chat",
       "encryption"
     ],
-    "author": "Mega Limited",
     "license": "proprietary",
-    "readmeFilename": "README.md",
     "devDependencies": {
       "babel-core": "^6.3.15",
       "babel-loader": "^6.2.0",
@@ -157,6 +144,18 @@
     "dependencies": {
       "grunt-contrib-uglify": "^0.8.0",
       "relaxed-json": "^0.2.9"
+    },
+    "other": {
+      "author": "Mega Limited",
+      "bugs": {
+        "url": "https://issues.developers.mega.co.nz/projects/webclient"
+      },
+      "directories": {
+        "src": "js",
+        "test": "test",
+        "doc": "doc"
+      },
+      "readmeFilename": "README.md"
     }
   },
   "packageStatus": 200,
@@ -176,5 +175,7 @@
     "infinity0",
     "Scribilicious",
     "vincentguoy"
-  ]
+  ],
+  "filename": "felipeklafke___webclient.json",
+  "lastFetchedAt": "2017-05-04T15:32:05.367Z"
 }

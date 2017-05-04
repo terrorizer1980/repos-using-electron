@@ -64,27 +64,20 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "sketchpacks-app",
     "version": "0.1.0",
     "description": "Discover, search, and install Sketch plugins",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/sketchpacks/sketchpacks-app.git"
-    },
+    "repository": "https://github.com/sketchpacks/sketchpacks-app",
     "keywords": [
       "sketchpacks",
       "sketch",
       "plugins",
       "manage"
     ],
-    "author": "Adam Kirkwood",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sketchpacks/sketchpacks-app/issues"
-    },
     "homepage": "https://github.com/sketchpacks/sketchpacks-app",
     "scripts": {
       "test": "",
@@ -135,6 +128,12 @@
       "webpack-dev-middleware": "^1.2.0",
       "webpack-dev-server": "^1.14.1",
       "webpack-hot-middleware": "^2.2.0"
+    },
+    "other": {
+      "author": "Adam Kirkwood",
+      "bugs": {
+        "url": "https://github.com/sketchpacks/sketchpacks-app/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -149,5 +148,7 @@
     "stefaneng",
     "gottsohn",
     "jabhishek"
-  ]
+  ],
+  "filename": "sketchpacks___sketchpacks.app.json",
+  "lastFetchedAt": "2017-05-04T14:20:34.854Z"
 }

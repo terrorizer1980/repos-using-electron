@@ -5,7 +5,7 @@
   "owner": {
     "login": "th0r",
     "id": 302213,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/302213?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/302213?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/th0r",
     "htmlUrl": "https://github.com/th0r",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/th0r/webpack-bundle-analyzer/downloads",
   "deploymentsUrl": "https://api.github.com/repos/th0r/webpack-bundle-analyzer/deployments",
   "createdAt": "2016-10-26T04:24:35.000Z",
-  "updatedAt": "2016-11-30T01:21:12.000Z",
-  "pushedAt": "2016-11-29T11:07:50.000Z",
+  "updatedAt": "2017-05-04T16:39:29.000Z",
+  "pushedAt": "2017-05-04T06:56:05.000Z",
   "gitUrl": "git://github.com/th0r/webpack-bundle-analyzer.git",
   "sshUrl": "git@github.com:th0r/webpack-bundle-analyzer.git",
   "cloneUrl": "https://github.com/th0r/webpack-bundle-analyzer.git",
   "svnUrl": "https://github.com/th0r/webpack-bundle-analyzer",
   "homepage": null,
   "size": 305,
-  "stargazersCount": 1961,
-  "watchersCount": 1961,
+  "stargazersCount": 2909,
+  "watchersCount": 2909,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 34,
+  "forksCount": 71,
   "mirrorUrl": null,
-  "openIssuesCount": 9,
-  "openIssues": 9,
-  "watchers": 1961,
+  "openIssuesCount": 12,
+  "openIssues": 12,
+  "watchers": 2909,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 34,
-  "subscribersCount": 24,
+  "networkCount": 71,
+  "subscribersCount": 30,
   "status": 200,
   "packageJSON": {
     "name": "webpack-bundle-analyzer",
@@ -150,20 +150,9 @@
       "treemap",
       "zoomable",
       "zoom"
-    ],
-    "other": {
-      "author": "Yury Grunin <grunin.ya@ya.ru>",
-      "bugs": {
-        "url": "https://github.com/th0r/webpack-bundle-analyzer/issues"
-      }
-    }
+    ]
   },
   "packageStatus": 200,
-  "contributors": [
-    "th0r",
-    "somebody32",
-    "valscion"
-  ],
   "firstCommit": {
     "sha": "2916cb62f57d69708add60edf96286bf7d79c28a",
     "commit": {
@@ -187,5 +176,6 @@
     }
   },
   "filename": "th0r___webpack-bundle-analyzer.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:59:21.016Z"
 }

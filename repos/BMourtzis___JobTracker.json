@@ -5,7 +5,7 @@
   "owner": {
     "login": "BMourtzis",
     "id": 8644054,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8644054?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8644054?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/BMourtzis",
     "htmlUrl": "https://github.com/BMourtzis",
@@ -20,13 +20,13 @@
   "description": "Easy-to-Use job tracking software",
   "fork": false,
   "createdAt": "2016-06-12T16:29:33.000Z",
-  "updatedAt": "2016-07-28T10:38:04.000Z",
-  "pushedAt": "2016-07-30T09:09:18.000Z",
+  "updatedAt": "2017-02-14T08:32:47.000Z",
+  "pushedAt": "2017-03-25T14:46:37.000Z",
   "homepage": null,
-  "size": 65,
+  "size": 395,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "HTML",
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -41,7 +41,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -75,9 +81,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "BMourtzis"
-  ],
   "firstCommit": {
     "sha": "8abce53c55afd4889021e82762cf5d8aaeb43a79",
     "commit": {
@@ -101,5 +104,26 @@
     }
   },
   "filename": "BMourtzis___JobTracker.json",
-  "releases": []
+  "htmlUrl": "https://github.com/BMourtzis/JobTracker",
+  "url": "https://api.github.com/repos/BMourtzis/JobTracker",
+  "forksUrl": "https://api.github.com/repos/BMourtzis/JobTracker/forks",
+  "teamsUrl": "https://api.github.com/repos/BMourtzis/JobTracker/teams",
+  "hooksUrl": "https://api.github.com/repos/BMourtzis/JobTracker/hooks",
+  "eventsUrl": "https://api.github.com/repos/BMourtzis/JobTracker/events",
+  "tagsUrl": "https://api.github.com/repos/BMourtzis/JobTracker/tags",
+  "languagesUrl": "https://api.github.com/repos/BMourtzis/JobTracker/languages",
+  "stargazersUrl": "https://api.github.com/repos/BMourtzis/JobTracker/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/BMourtzis/JobTracker/contributors",
+  "subscribersUrl": "https://api.github.com/repos/BMourtzis/JobTracker/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/BMourtzis/JobTracker/subscription",
+  "mergesUrl": "https://api.github.com/repos/BMourtzis/JobTracker/merges",
+  "downloadsUrl": "https://api.github.com/repos/BMourtzis/JobTracker/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/BMourtzis/JobTracker/deployments",
+  "gitUrl": "git://github.com/BMourtzis/JobTracker.git",
+  "sshUrl": "git@github.com:BMourtzis/JobTracker.git",
+  "cloneUrl": "https://github.com/BMourtzis/JobTracker.git",
+  "svnUrl": "https://github.com/BMourtzis/JobTracker",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-03T19:58:57.307Z"
 }

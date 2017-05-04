@@ -64,21 +64,14 @@
   },
   "networkCount": 78,
   "subscribersCount": 53,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "editor-framework",
     "version": "0.6.3",
     "description": "A simple framework for making panel based applications.",
     "homepage": "https://github.com/cocos-creator/editor-framework",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/cocos-creator/editor-framework.git"
-    },
-    "author": "Firebox Technology",
+    "repository": "https://github.com/cocos-creator/editor-framework",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/cocos-creator/editor-framework/issues"
-    },
     "scripts": {
       "build": "node ./tasks/build-css.js",
       "build:dev": "node ./tasks/build-css.js --dev",
@@ -143,5 +136,7 @@
     "execat",
     "roryokane",
     "minggo"
-  ]
+  ],
+  "filename": "cocos-creator___editor-framework.json",
+  "lastFetchedAt": "2017-05-04T21:01:10.494Z"
 }

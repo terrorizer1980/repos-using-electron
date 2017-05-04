@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "google-photos-desktop",
     "version": "0.1.0",
@@ -59,10 +59,7 @@
     "scripts": {
       "start": "electron app.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/keysh/google-photos-desktop.git"
-    },
+    "repository": "https://github.com/keysh/google-photos-desktop",
     "keywords": [
       "google",
       "photos",
@@ -71,18 +68,22 @@
       "nodejs",
       "javascript"
     ],
-    "author": "Jakub Leško",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/keysh/google-photos-desktop/issues"
-    },
     "homepage": "https://github.com/keysh/google-photos-desktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.2"
+    },
+    "other": {
+      "author": "Jakub Leško",
+      "bugs": {
+        "url": "https://github.com/keysh/google-photos-desktop/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "keysh"
-  ]
+  ],
+  "filename": "keysh___google-photos-desktop.json",
+  "lastFetchedAt": "2017-05-04T19:51:23.879Z"
 }

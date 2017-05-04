@@ -5,7 +5,7 @@
   "owner": {
     "login": "jphacks",
     "id": 10176253,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10176253?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/10176253?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jphacks",
     "htmlUrl": "https://github.com/jphacks",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/jphacks/Patronus/deployments",
   "createdAt": "2016-09-04T22:16:33.000Z",
   "updatedAt": "2016-11-07T04:14:42.000Z",
-  "pushedAt": "2016-11-15T02:21:09.000Z",
+  "pushedAt": "2016-11-19T05:25:56.000Z",
   "gitUrl": "git://github.com/jphacks/Patronus.git",
   "sshUrl": "git@github.com:jphacks/Patronus.git",
   "cloneUrl": "https://github.com/jphacks/Patronus.git",
   "svnUrl": "https://github.com/jphacks/Patronus",
   "homepage": "",
-  "size": 1056,
+  "size": 1125,
   "stargazersCount": 2,
   "watchersCount": 2,
   "language": "JavaScript",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 2,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
@@ -71,7 +71,7 @@
   "organization": {
     "login": "jphacks",
     "id": 10176253,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10176253?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/10176253?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jphacks",
     "htmlUrl": "https://github.com/jphacks",
@@ -83,15 +83,9 @@
     "type": "Organization"
   },
   "networkCount": 2,
-  "subscribersCount": 6,
+  "subscribersCount": 5,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "KeisukeSugiura",
-    "sztm",
-    "mopshi",
-    "maximum80"
-  ],
   "firstCommit": {
     "sha": "a15ac521d39ff9f20358c300eeb3f1a3f7c2b08a",
     "commit": {
@@ -115,37 +109,6 @@
     }
   },
   "filename": "jphacks___Patronus.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jphacks/Patronus/releases/4698253",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/jphacks/Patronus/releases/4698253/assets",
-      "htmlUrl": "https://github.com/jphacks/Patronus/releases/tag/v0.1.0",
-      "id": 4698253,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "demo for jphacks2016 award day",
-      "draft": false,
-      "author": {
-        "login": "sztm",
-        "id": 12816160,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12816160?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/sztm",
-        "htmlUrl": "https://github.com/sztm",
-        "followersUrl": "https://api.github.com/users/sztm/followers",
-        "subscriptionsUrl": "https://api.github.com/users/sztm/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/sztm/orgs",
-        "reposUrl": "https://api.github.com/users/sztm/repos",
-        "receivedEventsUrl": "https://api.github.com/users/sztm/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-18T13:29:17.000Z",
-      "publishedAt": "2016-11-18T13:31:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/jphacks/Patronus/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/jphacks/Patronus/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:43:38.231Z"
 }

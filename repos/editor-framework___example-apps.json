@@ -1,11 +1,11 @@
 {
   "id": 56746096,
-  "name": "example-apps",
-  "fullName": "editor-framework/example-apps",
+  "name": "app-examples",
+  "fullName": "editor-framework/app-examples",
   "owner": {
     "login": "editor-framework",
     "id": 20869188,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20869188?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20869188?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/editor-framework",
     "htmlUrl": "https://github.com/editor-framework",
@@ -20,21 +20,21 @@
   "description": "editor-framework app examples",
   "fork": false,
   "createdAt": "2016-04-21T05:49:30.000Z",
-  "updatedAt": "2016-08-12T21:49:04.000Z",
-  "pushedAt": "2016-08-09T08:52:51.000Z",
+  "updatedAt": "2017-02-26T15:23:24.000Z",
+  "pushedAt": "2016-12-21T05:56:58.000Z",
   "homepage": null,
-  "size": 707,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 1110,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 2,
+  "forksCount": 4,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "editor-framework",
     "id": 20869188,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20869188?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20869188?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/editor-framework",
     "htmlUrl": "https://github.com/editor-framework",
@@ -56,7 +56,7 @@
     "receivedEventsUrl": "https://api.github.com/users/editor-framework/received_events",
     "type": "Organization"
   },
-  "networkCount": 2,
+  "networkCount": 4,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -69,10 +69,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jwu",
-    "Aerlinger"
-  ],
   "firstCommit": {
     "sha": "5d387284f48cf68e467debce9c6489c29b96b747",
     "commit": {
@@ -97,5 +93,26 @@
   },
   "filename": "editor-framework___example-apps.json",
   "sourceRepo": "editor-framework/app-examples",
-  "releases": []
+  "htmlUrl": "https://github.com/editor-framework/app-examples",
+  "url": "https://api.github.com/repos/editor-framework/app-examples",
+  "forksUrl": "https://api.github.com/repos/editor-framework/app-examples/forks",
+  "teamsUrl": "https://api.github.com/repos/editor-framework/app-examples/teams",
+  "hooksUrl": "https://api.github.com/repos/editor-framework/app-examples/hooks",
+  "eventsUrl": "https://api.github.com/repos/editor-framework/app-examples/events",
+  "tagsUrl": "https://api.github.com/repos/editor-framework/app-examples/tags",
+  "languagesUrl": "https://api.github.com/repos/editor-framework/app-examples/languages",
+  "stargazersUrl": "https://api.github.com/repos/editor-framework/app-examples/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/editor-framework/app-examples/contributors",
+  "subscribersUrl": "https://api.github.com/repos/editor-framework/app-examples/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/editor-framework/app-examples/subscription",
+  "mergesUrl": "https://api.github.com/repos/editor-framework/app-examples/merges",
+  "downloadsUrl": "https://api.github.com/repos/editor-framework/app-examples/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/editor-framework/app-examples/deployments",
+  "gitUrl": "git://github.com/editor-framework/app-examples.git",
+  "sshUrl": "git@github.com:editor-framework/app-examples.git",
+  "cloneUrl": "https://github.com/editor-framework/app-examples.git",
+  "svnUrl": "https://github.com/editor-framework/app-examples",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:53:02.218Z"
 }

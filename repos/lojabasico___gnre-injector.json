@@ -5,7 +5,7 @@
   "owner": {
     "login": "lojabasico",
     "id": 3584677,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3584677?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3584677?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lojabasico",
     "htmlUrl": "https://github.com/lojabasico",
@@ -71,12 +71,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "renatodex",
-    "lucasxxx",
-    "lojabasico",
-    "rickybell"
-  ],
   "firstCommit": {
     "sha": "80599db19c573ef0e0e2d110e21579f14996b4a4",
     "commit": {
@@ -100,65 +94,26 @@
     }
   },
   "filename": "lojabasico___gnre-injector.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/lojabasico/gnre-injector/releases/2392444",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lojabasico/gnre-injector/releases/assets/1189106",
-          "id": 1189106,
-          "name": "GnreInjector-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "lojabasico",
-            "id": 3584677,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3584677?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lojabasico",
-            "htmlUrl": "https://github.com/lojabasico",
-            "followersUrl": "https://api.github.com/users/lojabasico/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lojabasico/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lojabasico/orgs",
-            "reposUrl": "https://api.github.com/users/lojabasico/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lojabasico/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 63958763,
-          "downloadCount": 2,
-          "createdAt": "2016-01-08T06:59:32.000Z",
-          "updatedAt": "2016-01-08T07:03:47.000Z",
-          "browserDownloadUrl": "https://github.com/lojabasico/gnre-injector/releases/download/v1.0.0/GnreInjector-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lojabasico/gnre-injector/releases/2392444/assets",
-      "htmlUrl": "https://github.com/lojabasico/gnre-injector/releases/tag/v1.0.0",
-      "id": 2392444,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "GnreInjector-1.0",
-      "draft": false,
-      "author": {
-        "login": "lojabasico",
-        "id": 3584677,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3584677?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lojabasico",
-        "htmlUrl": "https://github.com/lojabasico",
-        "followersUrl": "https://api.github.com/users/lojabasico/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lojabasico/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lojabasico/orgs",
-        "reposUrl": "https://api.github.com/users/lojabasico/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lojabasico/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-08T06:55:16.000Z",
-      "publishedAt": "2016-01-08T06:58:23.000Z",
-      "tarballUrl": "https://api.github.com/repos/lojabasico/gnre-injector/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/lojabasico/gnre-injector/zipball/v1.0.0",
-      "body": "This is a test release. Its a working version, but it requires some atention at the install step.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/lojabasico/gnre-injector",
+  "url": "https://api.github.com/repos/lojabasico/gnre-injector",
+  "forksUrl": "https://api.github.com/repos/lojabasico/gnre-injector/forks",
+  "teamsUrl": "https://api.github.com/repos/lojabasico/gnre-injector/teams",
+  "hooksUrl": "https://api.github.com/repos/lojabasico/gnre-injector/hooks",
+  "eventsUrl": "https://api.github.com/repos/lojabasico/gnre-injector/events",
+  "tagsUrl": "https://api.github.com/repos/lojabasico/gnre-injector/tags",
+  "languagesUrl": "https://api.github.com/repos/lojabasico/gnre-injector/languages",
+  "stargazersUrl": "https://api.github.com/repos/lojabasico/gnre-injector/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/lojabasico/gnre-injector/contributors",
+  "subscribersUrl": "https://api.github.com/repos/lojabasico/gnre-injector/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/lojabasico/gnre-injector/subscription",
+  "mergesUrl": "https://api.github.com/repos/lojabasico/gnre-injector/merges",
+  "downloadsUrl": "https://api.github.com/repos/lojabasico/gnre-injector/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/lojabasico/gnre-injector/deployments",
+  "gitUrl": "git://github.com/lojabasico/gnre-injector.git",
+  "sshUrl": "git@github.com:lojabasico/gnre-injector.git",
+  "cloneUrl": "https://github.com/lojabasico/gnre-injector.git",
+  "svnUrl": "https://github.com/lojabasico/gnre-injector",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:35:47.950Z"
 }

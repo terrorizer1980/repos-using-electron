@@ -5,7 +5,7 @@
   "owner": {
     "login": "kaiyote",
     "id": 4969500,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4969500?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/4969500?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kaiyote",
     "htmlUrl": "https://github.com/kaiyote",
@@ -20,10 +20,10 @@
   "description": "Yet another boilerplate for Electron. This time with Purescript.",
   "fork": false,
   "createdAt": "2016-09-02T19:14:15.000Z",
-  "updatedAt": "2016-09-10T03:43:16.000Z",
-  "pushedAt": "2016-09-30T17:43:13.000Z",
+  "updatedAt": "2017-03-14T10:37:44.000Z",
+  "pushedAt": "2016-12-21T22:48:21.000Z",
   "homepage": "",
-  "size": 35,
+  "size": 186,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -42,11 +42,11 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
   "networkCount": 0,
   "subscribersCount": 1,
@@ -144,9 +144,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "kaiyote"
-  ],
   "firstCommit": {
     "sha": "21712059014624bb3af5935481f694640a559678",
     "commit": {
@@ -170,5 +167,26 @@
     }
   },
   "filename": "kaiyote___electron-purs-boilerplate.json",
-  "releases": []
+  "htmlUrl": "https://github.com/kaiyote/electron-purs-boilerplate",
+  "url": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate",
+  "forksUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/forks",
+  "teamsUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/teams",
+  "hooksUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/hooks",
+  "eventsUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/events",
+  "tagsUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/tags",
+  "languagesUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/languages",
+  "stargazersUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/contributors",
+  "subscribersUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/subscription",
+  "mergesUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/merges",
+  "downloadsUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/kaiyote/electron-purs-boilerplate/deployments",
+  "gitUrl": "git://github.com/kaiyote/electron-purs-boilerplate.git",
+  "sshUrl": "git@github.com:kaiyote/electron-purs-boilerplate.git",
+  "cloneUrl": "https://github.com/kaiyote/electron-purs-boilerplate.git",
+  "svnUrl": "https://github.com/kaiyote/electron-purs-boilerplate",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:27:57.155Z"
 }

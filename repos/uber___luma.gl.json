@@ -5,7 +5,7 @@
   "owner": {
     "login": "uber",
     "id": 538264,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/538264?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/538264?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/uber",
     "htmlUrl": "https://github.com/uber",
@@ -17,24 +17,24 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": "A JavaScript WebGL Framework for Data Visualization",
   "fork": false,
   "createdAt": "2016-01-25T09:41:59.000Z",
-  "updatedAt": "2016-08-14T21:09:12.000Z",
-  "pushedAt": "2016-08-10T03:01:17.000Z",
-  "homepage": null,
-  "size": 81940,
-  "stargazersCount": 155,
-  "watchersCount": 155,
-  "language": "HTML",
+  "updatedAt": "2017-05-04T08:46:37.000Z",
+  "pushedAt": "2017-05-02T20:22:33.000Z",
+  "homepage": "http://uber.github.io/luma.gl/",
+  "size": 100494,
+  "stargazersCount": 364,
+  "watchersCount": 364,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 18,
-  "openIssuesCount": 17,
-  "openIssues": 17,
-  "watchers": 155,
+  "forksCount": 34,
+  "openIssuesCount": 9,
+  "openIssues": 9,
+  "watchers": 364,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,16 +42,16 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
   "organization": {
     "login": "uber",
     "id": 538264,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/538264?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/538264?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/uber",
     "htmlUrl": "https://github.com/uber",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/uber/received_events",
     "type": "Organization"
   },
-  "networkCount": 18,
-  "subscribersCount": 1231,
+  "networkCount": 34,
+  "subscribersCount": 1501,
   "status": 200,
   "packageJSON": {
     "name": "luma.gl",
@@ -165,19 +165,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ibgreen",
-    "wwwtyro",
-    "mikolalysenko",
-    "manassra",
-    "episodeyang",
-    "heshan0131",
-    "mpcm",
-    "philogb",
-    "nrabinowitz",
-    "Pessimistress",
-    "gnavvy"
-  ],
   "firstCommit": {
     "sha": "98a459100b42497a82436562cc3356dce4726a95",
     "commit": {
@@ -201,5 +188,26 @@
     }
   },
   "filename": "uber___luma.gl.json",
-  "releases": []
+  "htmlUrl": "https://github.com/uber/luma.gl",
+  "url": "https://api.github.com/repos/uber/luma.gl",
+  "forksUrl": "https://api.github.com/repos/uber/luma.gl/forks",
+  "teamsUrl": "https://api.github.com/repos/uber/luma.gl/teams",
+  "hooksUrl": "https://api.github.com/repos/uber/luma.gl/hooks",
+  "eventsUrl": "https://api.github.com/repos/uber/luma.gl/events",
+  "tagsUrl": "https://api.github.com/repos/uber/luma.gl/tags",
+  "languagesUrl": "https://api.github.com/repos/uber/luma.gl/languages",
+  "stargazersUrl": "https://api.github.com/repos/uber/luma.gl/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/uber/luma.gl/contributors",
+  "subscribersUrl": "https://api.github.com/repos/uber/luma.gl/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/uber/luma.gl/subscription",
+  "mergesUrl": "https://api.github.com/repos/uber/luma.gl/merges",
+  "downloadsUrl": "https://api.github.com/repos/uber/luma.gl/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/uber/luma.gl/deployments",
+  "gitUrl": "git://github.com/uber/luma.gl.git",
+  "sshUrl": "git@github.com:uber/luma.gl.git",
+  "cloneUrl": "https://github.com/uber/luma.gl.git",
+  "svnUrl": "https://github.com/uber/luma.gl",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:23:24.576Z"
 }

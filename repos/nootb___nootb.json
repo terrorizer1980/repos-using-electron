@@ -78,7 +78,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "nootb",
     "version": "0.0.1",
@@ -116,12 +116,6 @@
       "gulp-sourcemaps": "=1.5.2",
       "gulp-util": "=3.0.6",
       "run-sequence": "=1.1.1"
-    },
-    "other": {
-      "author": "Julien CROUZET <contact@juliencrouzet.fr>",
-      "bugs": {
-        "url": "https://github.com/nootb/nootb/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +144,6 @@
       "commentCount": 0
     }
   },
-  "filename": "nootb___nootb.json"
+  "filename": "nootb___nootb.json",
+  "lastFetchedAt": "2017-05-04T19:43:25.186Z"
 }

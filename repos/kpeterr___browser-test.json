@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "brave",
     "version": "0.7.7",
@@ -81,9 +81,6 @@
       "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*Test.js')"
     },
     "repository": "brave/browser-laptop",
-    "author": {
-      "name": "Brave Developers <support@brave.com>"
-    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -99,9 +96,6 @@
       }
     ],
     "license": "MPL-2.0",
-    "bugs": {
-      "url": "https://github.com/bbondy/electron-sample/issues"
-    },
     "homepage": "https://github.com/bbondy/electron-sample#readme",
     "dependencies": {
       "abp-filter-parser-cpp": "^1.0.22",
@@ -178,7 +172,17 @@
     "engineStrict": true,
     "engines": {
       "node": ">= 5.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Brave Developers <support@brave.com>"
+      },
+      "bugs": {
+        "url": "https://github.com/bbondy/electron-sample/issues"
+      }
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "kpeterr___browser-test.json",
+  "lastFetchedAt": "2017-05-04T05:21:11.498Z"
 }

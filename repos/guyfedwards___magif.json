@@ -5,7 +5,7 @@
   "owner": {
     "login": "guyfedwards",
     "id": 1794071,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1794071?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1794071?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/guyfedwards",
     "htmlUrl": "https://github.com/guyfedwards",
@@ -77,9 +77,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "guyfedwards"
-  ],
   "firstCommit": {
     "sha": "0559d9b8205bf86d5a547b49d006dba8f62b720a",
     "commit": {
@@ -103,124 +100,26 @@
     }
   },
   "filename": "guyfedwards___magif.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/guyfedwards/magif/releases/3513395",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/guyfedwards/magif/releases/assets/1894666",
-          "id": 1894666,
-          "name": "magif.tar.gz",
-          "label": "",
-          "uploader": {
-            "login": "guyfedwards",
-            "id": 1794071,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1794071?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/guyfedwards",
-            "htmlUrl": "https://github.com/guyfedwards",
-            "followersUrl": "https://api.github.com/users/guyfedwards/followers",
-            "subscriptionsUrl": "https://api.github.com/users/guyfedwards/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/guyfedwards/orgs",
-            "reposUrl": "https://api.github.com/users/guyfedwards/repos",
-            "receivedEventsUrl": "https://api.github.com/users/guyfedwards/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 96315294,
-          "downloadCount": 3,
-          "createdAt": "2016-06-23T23:37:39.000Z",
-          "updatedAt": "2016-06-23T23:40:13.000Z",
-          "browserDownloadUrl": "https://github.com/guyfedwards/magif/releases/download/v1.2.0/magif.tar.gz"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/guyfedwards/magif/releases/3513395/assets",
-      "htmlUrl": "https://github.com/guyfedwards/magif/releases/tag/v1.2.0",
-      "id": 3513395,
-      "tagName": "v1.2.0",
-      "targetCommitish": "master",
-      "name": "magif v1.2.0",
-      "draft": false,
-      "author": {
-        "login": "guyfedwards",
-        "id": 1794071,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1794071?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/guyfedwards",
-        "htmlUrl": "https://github.com/guyfedwards",
-        "followersUrl": "https://api.github.com/users/guyfedwards/followers",
-        "subscriptionsUrl": "https://api.github.com/users/guyfedwards/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/guyfedwards/orgs",
-        "reposUrl": "https://api.github.com/users/guyfedwards/repos",
-        "receivedEventsUrl": "https://api.github.com/users/guyfedwards/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-23T23:31:29.000Z",
-      "publishedAt": "2016-06-23T23:37:39.000Z",
-      "tarballUrl": "https://api.github.com/repos/guyfedwards/magif/tarball/v1.2.0",
-      "zipballUrl": "https://api.github.com/repos/guyfedwards/magif/zipball/v1.2.0",
-      "body": "1.2.0\n- add delete gif\n- add gif input is now fixed position\n- refactor code\n"
-    },
-    {
-      "url": "https://api.github.com/repos/guyfedwards/magif/releases/3463154",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/guyfedwards/magif/releases/assets/1861111",
-          "id": 1861111,
-          "name": "magif.tar.gz",
-          "label": "",
-          "uploader": {
-            "login": "guyfedwards",
-            "id": 1794071,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1794071?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/guyfedwards",
-            "htmlUrl": "https://github.com/guyfedwards",
-            "followersUrl": "https://api.github.com/users/guyfedwards/followers",
-            "subscriptionsUrl": "https://api.github.com/users/guyfedwards/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/guyfedwards/orgs",
-            "reposUrl": "https://api.github.com/users/guyfedwards/repos",
-            "receivedEventsUrl": "https://api.github.com/users/guyfedwards/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 47810188,
-          "downloadCount": 1,
-          "createdAt": "2016-06-16T21:48:27.000Z",
-          "updatedAt": "2016-06-16T21:49:51.000Z",
-          "browserDownloadUrl": "https://github.com/guyfedwards/magif/releases/download/v1.0.1/magif.tar.gz"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/guyfedwards/magif/releases/3463154/assets",
-      "htmlUrl": "https://github.com/guyfedwards/magif/releases/tag/v1.0.1",
-      "id": 3463154,
-      "tagName": "v1.0.1",
-      "targetCommitish": "master",
-      "name": "magif v1.0.1",
-      "draft": false,
-      "author": {
-        "login": "guyfedwards",
-        "id": 1794071,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1794071?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/guyfedwards",
-        "htmlUrl": "https://github.com/guyfedwards",
-        "followersUrl": "https://api.github.com/users/guyfedwards/followers",
-        "subscriptionsUrl": "https://api.github.com/users/guyfedwards/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/guyfedwards/orgs",
-        "reposUrl": "https://api.github.com/users/guyfedwards/repos",
-        "receivedEventsUrl": "https://api.github.com/users/guyfedwards/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-16T20:26:29.000Z",
-      "publishedAt": "2016-06-16T21:48:26.000Z",
-      "tarballUrl": "https://api.github.com/repos/guyfedwards/magif/tarball/v1.0.1",
-      "zipballUrl": "https://api.github.com/repos/guyfedwards/magif/zipball/v1.0.1",
-      "body": "Add package-release\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/guyfedwards/magif",
+  "url": "https://api.github.com/repos/guyfedwards/magif",
+  "forksUrl": "https://api.github.com/repos/guyfedwards/magif/forks",
+  "teamsUrl": "https://api.github.com/repos/guyfedwards/magif/teams",
+  "hooksUrl": "https://api.github.com/repos/guyfedwards/magif/hooks",
+  "eventsUrl": "https://api.github.com/repos/guyfedwards/magif/events",
+  "tagsUrl": "https://api.github.com/repos/guyfedwards/magif/tags",
+  "languagesUrl": "https://api.github.com/repos/guyfedwards/magif/languages",
+  "stargazersUrl": "https://api.github.com/repos/guyfedwards/magif/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/guyfedwards/magif/contributors",
+  "subscribersUrl": "https://api.github.com/repos/guyfedwards/magif/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/guyfedwards/magif/subscription",
+  "mergesUrl": "https://api.github.com/repos/guyfedwards/magif/merges",
+  "downloadsUrl": "https://api.github.com/repos/guyfedwards/magif/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/guyfedwards/magif/deployments",
+  "gitUrl": "git://github.com/guyfedwards/magif.git",
+  "sshUrl": "git@github.com:guyfedwards/magif.git",
+  "cloneUrl": "https://github.com/guyfedwards/magif.git",
+  "svnUrl": "https://github.com/guyfedwards/magif",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:44:00.266Z"
 }

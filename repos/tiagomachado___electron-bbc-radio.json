@@ -5,7 +5,7 @@
   "owner": {
     "login": "tiagomachado",
     "id": 1012377,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1012377?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1012377?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tiagomachado",
     "htmlUrl": "https://github.com/tiagomachado",
@@ -96,9 +96,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "tiagomachado"
-  ],
   "firstCommit": {
     "sha": "32fada886c3de2b2bf81316f0ac31b671e55b014",
     "commit": {
@@ -122,65 +119,26 @@
     }
   },
   "filename": "tiagomachado___electron-bbc-radio.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/releases/3380531",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/releases/assets/1800939",
-          "id": 1800939,
-          "name": "BBC-Radio-linux-0.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "tiagomachado",
-            "id": 1012377,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1012377?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/tiagomachado",
-            "htmlUrl": "https://github.com/tiagomachado",
-            "followersUrl": "https://api.github.com/users/tiagomachado/followers",
-            "subscriptionsUrl": "https://api.github.com/users/tiagomachado/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/tiagomachado/orgs",
-            "reposUrl": "https://api.github.com/users/tiagomachado/repos",
-            "receivedEventsUrl": "https://api.github.com/users/tiagomachado/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41451294,
-          "downloadCount": 1,
-          "createdAt": "2016-06-06T13:02:13.000Z",
-          "updatedAt": "2016-06-06T13:03:06.000Z",
-          "browserDownloadUrl": "https://github.com/tiagomachado/electron-bbc-radio/releases/download/0.1.0/BBC-Radio-linux-0.1.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/releases/3380531/assets",
-      "htmlUrl": "https://github.com/tiagomachado/electron-bbc-radio/releases/tag/0.1.0",
-      "id": 3380531,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "tiagomachado",
-        "id": 1012377,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1012377?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/tiagomachado",
-        "htmlUrl": "https://github.com/tiagomachado",
-        "followersUrl": "https://api.github.com/users/tiagomachado/followers",
-        "subscriptionsUrl": "https://api.github.com/users/tiagomachado/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/tiagomachado/orgs",
-        "reposUrl": "https://api.github.com/users/tiagomachado/repos",
-        "receivedEventsUrl": "https://api.github.com/users/tiagomachado/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-06T10:01:32.000Z",
-      "publishedAt": "2016-06-06T13:03:20.000Z",
-      "tarballUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/zipball/0.1.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/tiagomachado/electron-bbc-radio",
+  "url": "https://api.github.com/repos/tiagomachado/electron-bbc-radio",
+  "forksUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/forks",
+  "teamsUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/teams",
+  "hooksUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/hooks",
+  "eventsUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/events",
+  "tagsUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/tags",
+  "languagesUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/languages",
+  "stargazersUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/contributors",
+  "subscribersUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/subscription",
+  "mergesUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/merges",
+  "downloadsUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/tiagomachado/electron-bbc-radio/deployments",
+  "gitUrl": "git://github.com/tiagomachado/electron-bbc-radio.git",
+  "sshUrl": "git@github.com:tiagomachado/electron-bbc-radio.git",
+  "cloneUrl": "https://github.com/tiagomachado/electron-bbc-radio.git",
+  "svnUrl": "https://github.com/tiagomachado/electron-bbc-radio",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:44:59.646Z"
 }

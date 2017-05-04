@@ -84,7 +84,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "adms-manual-entry",
     "version": "1.0.0",
@@ -101,7 +101,6 @@
       "Ajenti",
       "ADMS"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -110,5 +109,7 @@
   "packageStatus": 200,
   "contributors": [
     "bigadz"
-  ]
+  ],
+  "filename": "Entura-Ajenti___adms-manual-entry.json",
+  "lastFetchedAt": "2017-05-04T20:34:49.181Z"
 }

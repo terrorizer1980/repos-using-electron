@@ -5,7 +5,7 @@
   "owner": {
     "login": "psychokinesis-dev",
     "id": 17685087,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17685087?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/17685087?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/psychokinesis-dev",
     "htmlUrl": "https://github.com/psychokinesis-dev",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/psychokinesis-dev/live/downloads",
   "deploymentsUrl": "https://api.github.com/repos/psychokinesis-dev/live/deployments",
   "createdAt": "2016-07-16T03:28:28.000Z",
-  "updatedAt": "2016-10-30T14:43:41.000Z",
+  "updatedAt": "2017-04-27T18:17:53.000Z",
   "pushedAt": "2016-07-16T05:57:04.000Z",
   "gitUrl": "git://github.com/psychokinesis-dev/live.git",
   "sshUrl": "git@github.com:psychokinesis-dev/live.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/psychokinesis-dev/live",
   "homepage": null,
   "size": 199,
-  "stargazersCount": 8,
-  "watchersCount": 8,
+  "stargazersCount": 10,
+  "watchersCount": 10,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 8,
+  "watchers": 10,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "psychokinesis-dev",
     "id": 17685087,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17685087?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/17685087?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/psychokinesis-dev",
     "htmlUrl": "https://github.com/psychokinesis-dev",
@@ -115,9 +115,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Covertness"
-  ],
   "firstCommit": {
     "sha": "8aa9c952cc4b1d710b5fe2f85e9a942490bf9110",
     "commit": {
@@ -141,37 +138,6 @@
     }
   },
   "filename": "psychokinesis-dev___live.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/psychokinesis-dev/live/releases/3672115",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/psychokinesis-dev/live/releases/3672115/assets",
-      "htmlUrl": "https://github.com/psychokinesis-dev/live/releases/tag/v0.1.0",
-      "id": 3672115,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Live v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "Covertness",
-        "id": 11582431,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11582431?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Covertness",
-        "htmlUrl": "https://github.com/Covertness",
-        "followersUrl": "https://api.github.com/users/Covertness/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Covertness/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Covertness/orgs",
-        "reposUrl": "https://api.github.com/users/Covertness/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Covertness/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-07-16T03:31:03.000Z",
-      "publishedAt": "2016-07-16T05:52:07.000Z",
-      "tarballUrl": "https://api.github.com/repos/psychokinesis-dev/live/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/psychokinesis-dev/live/zipball/v0.1.0",
-      "body": "目前仅支持 Chrome 浏览器。\n\n下载链接：\n[Windows 32位](http://o8v6j8pip.bkt.clouddn.com/pkg/live-win32-ia32-v0.1.0.zip)\n[Windows 64位](http://o8v6j8pip.bkt.clouddn.com/pkg/live-win32-x64-v0.1.0.zip)\n[Mac OS X 64位](http://o8v6j8pip.bkt.clouddn.com/pkg/live-darwin-x64-v0.1.0.zip)\n[Linux 64位](http://o8v6j8pip.bkt.clouddn.com/pkg/live-linux-x64-v0.1.0.zip)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:21:56.100Z"
 }

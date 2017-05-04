@@ -1,11 +1,11 @@
 {
-  "id": 62688414,
+  "id": 74291625,
   "name": "melol",
   "fullName": "pacebook/melol",
   "owner": {
     "login": "pacebook",
     "id": 6239742,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6239742?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6239742?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/pacebook",
     "htmlUrl": "https://github.com/pacebook",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/pacebook/melol",
-  "description": null,
+  "description": "졸업작품 스마트미러",
   "fork": false,
   "url": "https://api.github.com/repos/pacebook/melol",
   "forksUrl": "https://api.github.com/repos/pacebook/melol/forks",
@@ -34,15 +34,15 @@
   "mergesUrl": "https://api.github.com/repos/pacebook/melol/merges",
   "downloadsUrl": "https://api.github.com/repos/pacebook/melol/downloads",
   "deploymentsUrl": "https://api.github.com/repos/pacebook/melol/deployments",
-  "createdAt": "2016-07-06T03:32:03.000Z",
-  "updatedAt": "2016-07-06T03:32:42.000Z",
-  "pushedAt": "2016-11-16T11:17:11.000Z",
+  "createdAt": "2016-11-20T17:41:31.000Z",
+  "updatedAt": "2017-02-14T07:45:55.000Z",
+  "pushedAt": "2016-11-25T08:03:09.000Z",
   "gitUrl": "git://github.com/pacebook/melol.git",
   "sshUrl": "git@github.com:pacebook/melol.git",
   "cloneUrl": "https://github.com/pacebook/melol.git",
   "svnUrl": "https://github.com/pacebook/melol",
-  "homepage": null,
-  "size": 573,
+  "homepage": "",
+  "size": 633,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -63,7 +63,7 @@
   },
   "license": null,
   "networkCount": 0,
-  "subscribersCount": 2,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "smart-mirror",
@@ -97,9 +97,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "pacebook"
-  ],
   "firstCommit": {
     "sha": "2bc0ed61ea302f501b4f4dcce35d503bd9eb24f0",
     "commit": {
@@ -123,5 +120,6 @@
     }
   },
   "filename": "pacebook___melol.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:29:55.715Z"
 }

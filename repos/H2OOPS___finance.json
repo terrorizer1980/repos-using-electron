@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "finance",
     "version": "0.1.0",
@@ -68,12 +68,6 @@
     "homepage": "https://github.com/H2OOPS/finance#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.2"
-    },
-    "other": {
-      "author": "Hansel Morales",
-      "bugs": {
-        "url": "https://github.com/H2OOPS/finance/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -102,5 +96,6 @@
       "commentCount": 0
     }
   },
-  "filename": "H2OOPS___finance.json"
+  "filename": "H2OOPS___finance.json",
+  "lastFetchedAt": "2017-05-04T09:03:51.714Z"
 }

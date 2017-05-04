@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 3,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "tumblr-lks-downldr-ui",
     "version": "0.0.1",
@@ -55,10 +55,7 @@
       "start": "./node_modules/.bin/electron .",
       "build": "./node_modules/.bin/electron-packager ./ --platform=darwin --arch=x64 --ignore='node_modules/(some-package[0-9]*|dev-dependency)'"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/andresdavid90/tumblr-lks-downldr-ui.git"
-    },
+    "repository": "https://github.com/andresdavid90/tumblr-lks-downldr-ui",
     "keywords": [
       "tumblr",
       "likes",
@@ -68,7 +65,6 @@
       "save",
       "backup"
     ],
-    "author": "Andrés Carreño <andresdavid90@gmail.com> (http://andrescarreno.co)",
     "contributors": [
       {
         "name": "Victor Duarte Gómez",
@@ -77,9 +73,6 @@
     ],
     "license": "ISC",
     "private": true,
-    "bugs": {
-      "url": "https://github.com/andresdavid90/tumblr-lks-downldr-ui/issues"
-    },
     "homepage": "https://github.com/andresdavid90/tumblr-lks-downldr-ui#readme",
     "devDependencies": {
       "electron-packager": "^6.0.2",
@@ -89,5 +82,7 @@
       "tumblr-lks-downldr": "1.1.1"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "andresdavid90___tumblr-lks-downldr-ui.json",
+  "lastFetchedAt": "2017-05-04T14:47:06.178Z"
 }

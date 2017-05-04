@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "my-bricks-sets-desktop",
     "version": "0.1.1",
@@ -172,5 +172,6 @@
       "zipballUrl": "https://api.github.com/repos/easimonenko/my-bricks-sets-desktop/zipball/v0.1.0",
       "body": "Added support for:\n- Gulp with watching\n- TypeScript 1.8 (compilation with Gulp)\n- LiveReload using electron-connect\n- React 0.14\n- WinJS 4.4\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T20:57:40.563Z"
 }

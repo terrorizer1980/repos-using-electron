@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "nullptr_bot",
     "display_name": "nullptr bot",
@@ -87,9 +87,6 @@
     "devDependencies": {
       "electron": "^1.4.x",
       "electron-prebuilt": "^1.4.x"
-    },
-    "other": {
-      "author": "GhettoGirl"
     }
   },
   "packageStatus": 200,
@@ -118,5 +115,6 @@
       "commentCount": 0
     }
   },
-  "filename": "GhettoGirl___nullptr_bot.json"
+  "filename": "GhettoGirl___nullptr_bot.json",
+  "lastFetchedAt": "2017-05-04T18:33:55.513Z"
 }

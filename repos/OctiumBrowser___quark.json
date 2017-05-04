@@ -58,7 +58,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "quark",
     "version": "0.1.0",
@@ -79,13 +79,7 @@
       "electron"
     ],
     "license": "ISC",
-    "homepage": "https://github.com/OctiumBrowser/quark#readme",
-    "other": {
-      "author": "Kouroche Bouchiat",
-      "bugs": {
-        "url": "https://github.com/OctiumBrowser/quark/issues"
-      }
-    }
+    "homepage": "https://github.com/OctiumBrowser/quark#readme"
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/OctiumBrowser/quark",
@@ -134,5 +128,6 @@
       "commentCount": 0
     }
   },
-  "filename": "OctiumBrowser___quark.json"
+  "filename": "OctiumBrowser___quark.json",
+  "lastFetchedAt": "2017-05-04T05:26:46.207Z"
 }

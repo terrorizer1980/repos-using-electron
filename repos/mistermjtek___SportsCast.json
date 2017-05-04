@@ -1,29 +1,29 @@
 {
   "id": 50227225,
-  "name": "SportsCast",
-  "fullName": "mistermjtek/SportsCast",
+  "name": "swoosh",
+  "fullName": "smileyfacestudio/swoosh",
   "owner": {
-    "login": "mistermjtek",
-    "id": 7381978,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7381978?v=3",
+    "login": "smileyfacestudio",
+    "id": 17840436,
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17840436?v=3",
     "gravatarId": "",
-    "url": "https://api.github.com/users/mistermjtek",
-    "htmlUrl": "https://github.com/mistermjtek",
-    "followersUrl": "https://api.github.com/users/mistermjtek/followers",
-    "subscriptionsUrl": "https://api.github.com/users/mistermjtek/subscriptions",
-    "organizationsUrl": "https://api.github.com/users/mistermjtek/orgs",
-    "reposUrl": "https://api.github.com/users/mistermjtek/repos",
-    "receivedEventsUrl": "https://api.github.com/users/mistermjtek/received_events",
-    "type": "User"
+    "url": "https://api.github.com/users/smileyfacestudio",
+    "htmlUrl": "https://github.com/smileyfacestudio",
+    "followersUrl": "https://api.github.com/users/smileyfacestudio/followers",
+    "subscriptionsUrl": "https://api.github.com/users/smileyfacestudio/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/smileyfacestudio/orgs",
+    "reposUrl": "https://api.github.com/users/smileyfacestudio/repos",
+    "receivedEventsUrl": "https://api.github.com/users/smileyfacestudio/received_events",
+    "type": "Organization"
   },
   "private": false,
   "description": "Multiplatform desktop application for viewing sports streams",
   "fork": false,
   "createdAt": "2016-01-23T06:45:32.000Z",
-  "updatedAt": "2016-01-23T06:46:15.000Z",
-  "pushedAt": "2016-05-31T03:14:22.000Z",
+  "updatedAt": "2017-02-16T08:26:59.000Z",
+  "pushedAt": "2017-03-17T09:27:00.000Z",
   "homepage": null,
-  "size": 485,
+  "size": 890,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -41,7 +41,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -77,9 +83,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mistermjtek"
-  ],
   "firstCommit": {
     "sha": "79445099a07bba2ea5f424903646c2f301a0740c",
     "commit": {
@@ -103,5 +106,40 @@
     }
   },
   "filename": "mistermjtek___SportsCast.json",
-  "releases": []
+  "htmlUrl": "https://github.com/smileyfacestudio/swoosh",
+  "url": "https://api.github.com/repos/smileyfacestudio/swoosh",
+  "forksUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/forks",
+  "teamsUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/teams",
+  "hooksUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/hooks",
+  "eventsUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/events",
+  "tagsUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/tags",
+  "languagesUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/languages",
+  "stargazersUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/contributors",
+  "subscribersUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/subscription",
+  "mergesUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/merges",
+  "downloadsUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/smileyfacestudio/swoosh/deployments",
+  "gitUrl": "git://github.com/smileyfacestudio/swoosh.git",
+  "sshUrl": "git@github.com:smileyfacestudio/swoosh.git",
+  "cloneUrl": "https://github.com/smileyfacestudio/swoosh.git",
+  "svnUrl": "https://github.com/smileyfacestudio/swoosh",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "organization": {
+    "login": "smileyfacestudio",
+    "id": 17840436,
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17840436?v=3",
+    "gravatarId": "",
+    "url": "https://api.github.com/users/smileyfacestudio",
+    "htmlUrl": "https://github.com/smileyfacestudio",
+    "followersUrl": "https://api.github.com/users/smileyfacestudio/followers",
+    "subscriptionsUrl": "https://api.github.com/users/smileyfacestudio/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/smileyfacestudio/orgs",
+    "reposUrl": "https://api.github.com/users/smileyfacestudio/repos",
+    "receivedEventsUrl": "https://api.github.com/users/smileyfacestudio/received_events",
+    "type": "Organization"
+  },
+  "lastFetchedAt": "2017-05-04T20:41:55.709Z"
 }

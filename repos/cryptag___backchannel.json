@@ -5,7 +5,7 @@
   "owner": {
     "login": "cryptag",
     "id": 20253311,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20253311?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20253311?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/cryptag",
     "htmlUrl": "https://github.com/cryptag",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/cryptag/backchannel/downloads",
   "deploymentsUrl": "https://api.github.com/repos/cryptag/backchannel/deployments",
   "createdAt": "2016-06-28T20:34:00.000Z",
-  "updatedAt": "2016-11-04T11:22:12.000Z",
-  "pushedAt": "2016-11-13T08:55:47.000Z",
+  "updatedAt": "2017-03-30T02:13:04.000Z",
+  "pushedAt": "2016-12-08T14:05:41.000Z",
   "gitUrl": "git://github.com/cryptag/backchannel.git",
   "sshUrl": "git@github.com:cryptag/backchannel.git",
   "cloneUrl": "https://github.com/cryptag/backchannel.git",
   "svnUrl": "https://github.com/cryptag/backchannel",
   "homepage": "https://www.cryptag.org/",
-  "size": 207,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 215,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 9,
-  "openIssues": 9,
-  "watchers": 2,
+  "openIssuesCount": 13,
+  "openIssues": 13,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "cryptag",
     "id": 20253311,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20253311?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20253311?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/cryptag",
     "htmlUrl": "https://github.com/cryptag",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/cryptag/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
@@ -127,10 +127,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "elimisteve",
-    "jimmcgaw"
-  ],
   "firstCommit": {
     "sha": "f6b5a2c0571043e8a278e249bde3ab44ba828103",
     "commit": {
@@ -155,5 +151,6 @@
   },
   "filename": "cryptag___backchannel.json",
   "sourceRepo": "cryptag/cryptask",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:13:47.023Z"
 }

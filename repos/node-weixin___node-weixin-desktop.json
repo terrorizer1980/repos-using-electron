@@ -5,7 +5,7 @@
   "owner": {
     "login": "node-weixin",
     "id": 13846831,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13846831?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/13846831?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/node-weixin",
     "htmlUrl": "https://github.com/node-weixin",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/node-weixin/node-weixin-desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/node-weixin/node-weixin-desktop/deployments",
   "createdAt": "2016-07-29T20:39:46.000Z",
-  "updatedAt": "2016-10-03T17:45:35.000Z",
+  "updatedAt": "2017-05-02T05:50:49.000Z",
   "pushedAt": "2016-08-18T11:28:35.000Z",
   "gitUrl": "git://github.com/node-weixin/node-weixin-desktop.git",
   "sshUrl": "git@github.com:node-weixin/node-weixin-desktop.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/node-weixin/node-weixin-desktop",
   "homepage": "http://www.node-weixin.com",
   "size": 1010,
-  "stargazersCount": 14,
-  "watchersCount": 14,
+  "stargazersCount": 19,
+  "watchersCount": 19,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 6,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 14,
+  "watchers": 19,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "node-weixin",
     "id": 13846831,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13846831?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/13846831?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/node-weixin",
     "htmlUrl": "https://github.com/node-weixin",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/node-weixin/received_events",
     "type": "Organization"
   },
-  "networkCount": 5,
-  "subscribersCount": 4,
+  "networkCount": 6,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "wetop",
@@ -147,9 +147,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "calidion"
-  ],
   "firstCommit": {
     "sha": "c80edd786cec457476d60de64509b0b1688f6517",
     "commit": {
@@ -173,37 +170,6 @@
     }
   },
   "filename": "node-weixin___node-weixin-desktop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/node-weixin/node-weixin-desktop/releases/3895673",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/node-weixin/node-weixin-desktop/releases/3895673/assets",
-      "htmlUrl": "https://github.com/node-weixin/node-weixin-desktop/releases/tag/0.1.0",
-      "id": 3895673,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "WeTop微信助手v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "calidion",
-        "id": 131776,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/131776?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/calidion",
-        "htmlUrl": "https://github.com/calidion",
-        "followersUrl": "https://api.github.com/users/calidion/followers",
-        "subscriptionsUrl": "https://api.github.com/users/calidion/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/calidion/orgs",
-        "reposUrl": "https://api.github.com/users/calidion/repos",
-        "receivedEventsUrl": "https://api.github.com/users/calidion/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-18T07:03:14.000Z",
-      "publishedAt": "2016-08-18T07:09:23.000Z",
-      "tarballUrl": "https://api.github.com/repos/node-weixin/node-weixin-desktop/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/node-weixin/node-weixin-desktop/zipball/0.1.0",
-      "body": "1. 支持accessToken获取\n2. 支持服务器验证\n3. 支持JSSDK功能测试\n4. 支持消息存储\n\n下载地址:\nhttps://pan.baidu.com/s/1nuBpOBR\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T08:01:20.741Z"
 }

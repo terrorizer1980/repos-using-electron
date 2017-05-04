@@ -162,7 +162,7 @@
   },
   "networkCount": 18,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "devdogs",
     "productName": "Devdogs",
@@ -171,11 +171,6 @@
     "license": "MIT",
     "main": "index.js",
     "repository": "ragingwind/devdogs",
-    "author": {
-      "name": "ragingwind",
-      "email": "ragingwind@gmail.com",
-      "url": "ragingwind.me"
-    },
     "engines": {
       "node": ">=4"
     },
@@ -223,6 +218,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "ragingwind",
+        "email": "ragingwind@gmail.com",
+        "url": "ragingwind.me"
+      }
     }
   },
   "packageStatus": 200,
@@ -250,5 +252,7 @@
     "ragingwind",
     "bkzl",
     "de-luca"
-  ]
+  ],
+  "filename": "sreenadhp___devdogs.json",
+  "lastFetchedAt": "2017-05-04T21:26:51.345Z"
 }

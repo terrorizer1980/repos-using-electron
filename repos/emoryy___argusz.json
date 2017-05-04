@@ -5,7 +5,7 @@
   "owner": {
     "login": "emoryy",
     "id": 5493763,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5493763?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5493763?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/emoryy",
     "htmlUrl": "https://github.com/emoryy",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/emoryy/argusz/deployments",
   "createdAt": "2016-09-04T14:37:36.000Z",
   "updatedAt": "2016-09-04T14:37:55.000Z",
-  "pushedAt": "2016-09-05T08:48:57.000Z",
+  "pushedAt": "2017-02-14T09:01:27.000Z",
   "gitUrl": "git://github.com/emoryy/argusz.git",
   "sshUrl": "git@github.com:emoryy/argusz.git",
   "cloneUrl": "https://github.com/emoryy/argusz.git",
   "svnUrl": "https://github.com/emoryy/argusz",
   "homepage": null,
-  "size": 17,
+  "size": 16,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -159,10 +159,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "emoryy",
-    "ember-tomster"
-  ],
   "firstCommit": {
     "sha": "dc293f35152e6e5b6479289c06b0a330c656002f",
     "commit": {
@@ -186,92 +182,6 @@
     }
   },
   "filename": "emoryy___argusz.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/emoryy/argusz/releases/4047731",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/emoryy/argusz/releases/assets/2254934",
-          "id": 2254934,
-          "name": "argusz-linux-ia32.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "emoryy",
-            "id": 5493763,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5493763?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/emoryy",
-            "htmlUrl": "https://github.com/emoryy",
-            "followersUrl": "https://api.github.com/users/emoryy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/emoryy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/emoryy/orgs",
-            "reposUrl": "https://api.github.com/users/emoryy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/emoryy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 40453687,
-          "downloadCount": 0,
-          "createdAt": "2016-09-04T14:51:42.000Z",
-          "updatedAt": "2016-09-04T14:52:23.000Z",
-          "browserDownloadUrl": "https://github.com/emoryy/argusz/releases/download/v0.1/argusz-linux-ia32.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/emoryy/argusz/releases/assets/2254935",
-          "id": 2254935,
-          "name": "argusz-linux-x64.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "emoryy",
-            "id": 5493763,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5493763?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/emoryy",
-            "htmlUrl": "https://github.com/emoryy",
-            "followersUrl": "https://api.github.com/users/emoryy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/emoryy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/emoryy/orgs",
-            "reposUrl": "https://api.github.com/users/emoryy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/emoryy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 40212684,
-          "downloadCount": 0,
-          "createdAt": "2016-09-04T14:51:43.000Z",
-          "updatedAt": "2016-09-04T14:53:10.000Z",
-          "browserDownloadUrl": "https://github.com/emoryy/argusz/releases/download/v0.1/argusz-linux-x64.tar.gz"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/emoryy/argusz/releases/4047731/assets",
-      "htmlUrl": "https://github.com/emoryy/argusz/releases/tag/v0.1",
-      "id": 4047731,
-      "tagName": "v0.1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "emoryy",
-        "id": 5493763,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5493763?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/emoryy",
-        "htmlUrl": "https://github.com/emoryy",
-        "followersUrl": "https://api.github.com/users/emoryy/followers",
-        "subscriptionsUrl": "https://api.github.com/users/emoryy/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/emoryy/orgs",
-        "reposUrl": "https://api.github.com/users/emoryy/repos",
-        "receivedEventsUrl": "https://api.github.com/users/emoryy/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-04T14:40:54.000Z",
-      "publishedAt": "2016-09-04T14:59:47.000Z",
-      "tarballUrl": "https://api.github.com/repos/emoryy/argusz/tarball/v0.1",
-      "zipballUrl": "https://api.github.com/repos/emoryy/argusz/zipball/v0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:56:24.633Z"
 }

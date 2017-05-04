@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "title": "GJWB",
     "name": "org.vi7.gjwb",
@@ -100,12 +100,6 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
-    },
-    "other": {
-      "author": "Cranite",
-      "bugs": {
-        "url": "https://github.com/Cranite/GJWB/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +126,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Cranite___GJWB.json"
+  "filename": "Cranite___GJWB.json",
+  "lastFetchedAt": "2017-05-04T05:05:15.575Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "lijy91",
     "id": 3889523,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3889523?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3889523?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lijy91",
     "htmlUrl": "https://github.com/lijy91",
@@ -17,24 +17,24 @@
     "type": "User"
   },
   "private": false,
-  "description": "DaoCloud+ 项目是基于 Electron 一个 DaoCloud 迷你控制台托盘程序",
+  "description": "一个迷你的 DaoCloud 托盘控制台程序，基于 electron-vue 脚手架创建。",
   "fork": false,
   "createdAt": "2016-01-30T14:26:33.000Z",
-  "updatedAt": "2016-07-06T14:29:33.000Z",
-  "pushedAt": "2016-08-04T11:11:16.000Z",
-  "homepage": "",
-  "size": 929,
-  "stargazersCount": 6,
-  "watchersCount": 6,
+  "updatedAt": "2017-02-08T01:25:27.000Z",
+  "pushedAt": "2017-01-29T15:07:44.000Z",
+  "homepage": "https://thecode.me/articles/67253",
+  "size": 4359,
+  "stargazersCount": 14,
+  "watchersCount": 14,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 5,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 6,
+  "watchers": 14,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/apache-2.0",
     "featured": true
   },
-  "networkCount": 1,
-  "subscribersCount": 1,
+  "networkCount": 5,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "devDependencies": {
@@ -86,10 +86,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lijy91",
-    "gitter-badger"
-  ],
   "firstCommit": {
     "sha": "07852aacb8e0e24b848047fb35dcc8979639eaf1",
     "commit": {
@@ -113,65 +109,26 @@
     }
   },
   "filename": "lijy91___daocloud-plus.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/lijy91/daocloud-plus/releases/5262521",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lijy91/daocloud-plus/releases/assets/3062140",
-          "id": 3062140,
-          "name": "daocloud-plus-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "lijy91",
-            "id": 3889523,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3889523?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lijy91",
-            "htmlUrl": "https://github.com/lijy91",
-            "followersUrl": "https://api.github.com/users/lijy91/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lijy91/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lijy91/orgs",
-            "reposUrl": "https://api.github.com/users/lijy91/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lijy91/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 47286477,
-          "downloadCount": 0,
-          "createdAt": "2017-01-26T06:10:39.000Z",
-          "updatedAt": "2017-01-26T06:11:35.000Z",
-          "browserDownloadUrl": "https://github.com/lijy91/daocloud-plus/releases/download/v1.0.0/daocloud-plus-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lijy91/daocloud-plus/releases/5262521/assets",
-      "htmlUrl": "https://github.com/lijy91/daocloud-plus/releases/tag/v1.0.0",
-      "id": 5262521,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "lijy91",
-        "id": 3889523,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3889523?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lijy91",
-        "htmlUrl": "https://github.com/lijy91",
-        "followersUrl": "https://api.github.com/users/lijy91/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lijy91/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lijy91/orgs",
-        "reposUrl": "https://api.github.com/users/lijy91/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lijy91/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-01-25T12:43:24.000Z",
-      "publishedAt": "2017-01-26T06:11:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/lijy91/daocloud-plus/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/lijy91/daocloud-plus/zipball/v1.0.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/lijy91/daocloud-plus",
+  "url": "https://api.github.com/repos/lijy91/daocloud-plus",
+  "forksUrl": "https://api.github.com/repos/lijy91/daocloud-plus/forks",
+  "teamsUrl": "https://api.github.com/repos/lijy91/daocloud-plus/teams",
+  "hooksUrl": "https://api.github.com/repos/lijy91/daocloud-plus/hooks",
+  "eventsUrl": "https://api.github.com/repos/lijy91/daocloud-plus/events",
+  "tagsUrl": "https://api.github.com/repos/lijy91/daocloud-plus/tags",
+  "languagesUrl": "https://api.github.com/repos/lijy91/daocloud-plus/languages",
+  "stargazersUrl": "https://api.github.com/repos/lijy91/daocloud-plus/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/lijy91/daocloud-plus/contributors",
+  "subscribersUrl": "https://api.github.com/repos/lijy91/daocloud-plus/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/lijy91/daocloud-plus/subscription",
+  "mergesUrl": "https://api.github.com/repos/lijy91/daocloud-plus/merges",
+  "downloadsUrl": "https://api.github.com/repos/lijy91/daocloud-plus/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/lijy91/daocloud-plus/deployments",
+  "gitUrl": "git://github.com/lijy91/daocloud-plus.git",
+  "sshUrl": "git@github.com:lijy91/daocloud-plus.git",
+  "cloneUrl": "https://github.com/lijy91/daocloud-plus.git",
+  "svnUrl": "https://github.com/lijy91/daocloud-plus",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:22:34.680Z"
 }

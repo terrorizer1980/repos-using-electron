@@ -5,7 +5,7 @@
   "owner": {
     "login": "rhysd",
     "id": 823277,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/823277?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/rhysd",
     "htmlUrl": "https://github.com/rhysd",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/rhysd/electron-about-window/downloads",
   "deploymentsUrl": "https://api.github.com/repos/rhysd/electron-about-window/deployments",
   "createdAt": "2015-12-25T03:01:47.000Z",
-  "updatedAt": "2016-11-14T15:28:06.000Z",
-  "pushedAt": "2016-11-10T22:19:24.000Z",
+  "updatedAt": "2017-05-01T23:34:28.000Z",
+  "pushedAt": "2017-02-12T04:16:08.000Z",
   "gitUrl": "git://github.com/rhysd/electron-about-window.git",
   "sshUrl": "git@github.com:rhysd/electron-about-window.git",
   "cloneUrl": "https://github.com/rhysd/electron-about-window.git",
   "svnUrl": "https://github.com/rhysd/electron-about-window",
   "homepage": "https://www.npmjs.com/package/about-window",
-  "size": 476,
-  "stargazersCount": 32,
-  "watchersCount": 32,
+  "size": 471,
+  "stargazersCount": 72,
+  "watchersCount": 72,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 6,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 32,
+  "watchers": 72,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 2,
+  "networkCount": 6,
   "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
@@ -103,19 +103,9 @@
       "tslint": "^3.15.1",
       "typescript": "^2.0.7"
     },
-    "dependencies": {},
-    "other": {
-      "author": "rhysd <lin90162@yahoo.co.jp>",
-      "bugs": {
-        "url": "https://github.com/rhysd/electron-about-window/issues"
-      }
-    }
+    "dependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "rhysd",
-    "Aglezabad"
-  ],
   "firstCommit": {
     "sha": "b75ce748dd2360154bdd1caf8c65e2463323832c",
     "commit": {
@@ -139,5 +129,6 @@
     }
   },
   "filename": "rhysd___electron-about-window.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:32:18.805Z"
 }

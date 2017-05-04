@@ -5,7 +5,7 @@
   "owner": {
     "login": "hoodiehq",
     "id": 1888826,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1888826?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1888826?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hoodiehq",
     "htmlUrl": "https://github.com/hoodiehq",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/hoodiehq/hoodie-electron-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/hoodiehq/hoodie-electron-app/deployments",
   "createdAt": "2016-06-28T13:57:20.000Z",
-  "updatedAt": "2016-10-28T04:20:06.000Z",
+  "updatedAt": "2017-01-02T18:32:58.000Z",
   "pushedAt": "2016-10-30T15:24:18.000Z",
   "gitUrl": "git://github.com/hoodiehq/hoodie-electron-app.git",
   "sshUrl": "git@github.com:hoodiehq/hoodie-electron-app.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/hoodiehq/hoodie-electron-app",
   "homepage": "https://rookies-rgsoc2016.github.io/hoodie-electron-app/",
   "size": 502,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 4,
   "openIssues": 4,
-  "watchers": 4,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "hoodiehq",
     "id": 1888826,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1888826?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1888826?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hoodiehq",
     "htmlUrl": "https://github.com/hoodiehq",
@@ -83,7 +83,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 56,
+  "subscribersCount": 53,
   "status": 200,
   "packageJSON": {
     "name": "hoodie-dekstop-application",
@@ -113,14 +113,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "gr2m",
-    "flyjwayur",
-    "titay2",
-    "titayye",
-    "Charlotteis",
-    "hanab"
-  ],
   "firstCommit": {
     "sha": "0a082c1b7cf16aaaccc1d3c2cc4c3041f1ce63f6",
     "commit": {
@@ -144,37 +136,6 @@
     }
   },
   "filename": "hoodiehq___hoodie-electron-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/hoodiehq/hoodie-electron-app/releases/4170220",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/hoodiehq/hoodie-electron-app/releases/4170220/assets",
-      "htmlUrl": "https://github.com/hoodiehq/hoodie-electron-app/releases/tag/v1.0.0",
-      "id": 4170220,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "1.0.0",
-      "draft": false,
-      "author": {
-        "login": "flyjwayur",
-        "id": 11784820,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11784820?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/flyjwayur",
-        "htmlUrl": "https://github.com/flyjwayur",
-        "followersUrl": "https://api.github.com/users/flyjwayur/followers",
-        "subscriptionsUrl": "https://api.github.com/users/flyjwayur/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/flyjwayur/orgs",
-        "reposUrl": "https://api.github.com/users/flyjwayur/repos",
-        "receivedEventsUrl": "https://api.github.com/users/flyjwayur/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-13T09:17:06.000Z",
-      "publishedAt": "2016-09-19T16:29:00.000Z",
-      "tarballUrl": "https://api.github.com/repos/hoodiehq/hoodie-electron-app/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/hoodiehq/hoodie-electron-app/zipball/v1.0.0",
-      "body": "Initial release\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:19:27.696Z"
 }

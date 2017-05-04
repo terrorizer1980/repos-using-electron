@@ -5,7 +5,7 @@
   "owner": {
     "login": "seriema",
     "id": 693684,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/693684?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/693684?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/seriema",
     "htmlUrl": "https://github.com/seriema",
@@ -20,21 +20,21 @@
   "description": "Get Notification API events in Electron main-process. Perfect for adding Notification toasters in Windows with node-notifier or other solution.",
   "fork": false,
   "createdAt": "2015-11-07T22:19:31.000Z",
-  "updatedAt": "2016-09-20T08:04:11.000Z",
+  "updatedAt": "2017-03-22T05:40:06.000Z",
   "pushedAt": "2016-08-21T08:26:23.000Z",
   "homepage": null,
   "size": 19,
-  "stargazersCount": 16,
-  "watchersCount": 16,
+  "stargazersCount": 19,
+  "watchersCount": 19,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 7,
-  "openIssuesCount": 2,
-  "openIssues": 2,
-  "watchers": 16,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 19,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -126,10 +126,6 @@
   "cloneUrl": "https://github.com/seriema/electron-notification-shim.git",
   "svnUrl": "https://github.com/seriema/electron-notification-shim",
   "mirrorUrl": null,
-  "contributors": [
-    "seriema",
-    "beshur"
-  ],
   "firstCommit": {
     "sha": "17be8f32e4b9f3ef41b2c233c5523a679f8c2542",
     "commit": {
@@ -153,68 +149,6 @@
     }
   },
   "filename": "seriema___electron-notification-shim.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/seriema/electron-notification-shim/releases/3133069",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/seriema/electron-notification-shim/releases/3133069/assets",
-      "htmlUrl": "https://github.com/seriema/electron-notification-shim/releases/tag/v1.1.0",
-      "id": 3133069,
-      "tagName": "v1.1.0",
-      "targetCommitish": "master",
-      "name": "v1.1.0",
-      "draft": false,
-      "author": {
-        "login": "seriema",
-        "id": 693684,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/693684?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/seriema",
-        "htmlUrl": "https://github.com/seriema",
-        "followersUrl": "https://api.github.com/users/seriema/followers",
-        "subscriptionsUrl": "https://api.github.com/users/seriema/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/seriema/orgs",
-        "reposUrl": "https://api.github.com/users/seriema/repos",
-        "receivedEventsUrl": "https://api.github.com/users/seriema/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-04-30T10:24:10.000Z",
-      "publishedAt": "2016-04-30T10:34:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/tarball/v1.1.0",
-      "zipballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/zipball/v1.1.0",
-      "body": "`ipc` was deprecated in [electron `0.35`](https://github.com/electron/electron/releases/tag/v0.35.0) and is now called `ipcRenderer` and `ipcMain` depending on where it's used. `electron-notification-shim` now uses them, if they're available.\n\nThe fallback to `ipc` might be removed in a future release some time after `electron` has removed it.\n\nThanks to:\n- @beshur (PR #1)\n"
-    },
-    {
-      "url": "https://api.github.com/repos/seriema/electron-notification-shim/releases/2089940",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/seriema/electron-notification-shim/releases/2089940/assets",
-      "htmlUrl": "https://github.com/seriema/electron-notification-shim/releases/tag/v1.0.0",
-      "id": 2089940,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0 public-notification",
-      "draft": false,
-      "author": {
-        "login": "seriema",
-        "id": 693684,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/693684?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/seriema",
-        "htmlUrl": "https://github.com/seriema",
-        "followersUrl": "https://api.github.com/users/seriema/followers",
-        "subscriptionsUrl": "https://api.github.com/users/seriema/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/seriema/orgs",
-        "reposUrl": "https://api.github.com/users/seriema/repos",
-        "receivedEventsUrl": "https://api.github.com/users/seriema/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-07T23:33:12.000Z",
-      "publishedAt": "2015-11-07T23:40:14.000Z",
-      "tarballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/seriema/electron-notification-shim/zipball/v1.0.0",
-      "body": "First release! :tada: \n\nThanks to @pracucci on [atom.slack.com](https://atomio.slack.com/archives/electron/p1446800849000063) and @hleumas on [electron issue 262](https://github.com/atom/electron/issues/262#issuecomment-116466249) for the inspiration.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:01:51.423Z"
 }

@@ -162,7 +162,7 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "devDependencies": {
       "electron-builder": "next",
@@ -204,5 +204,7 @@
       }
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "qs3673132___yun2win-sdk-desktop.json",
+  "lastFetchedAt": "2017-05-04T20:21:08.316Z"
 }

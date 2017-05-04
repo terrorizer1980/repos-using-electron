@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-physics",
     "version": "0.0.1",
@@ -88,12 +88,6 @@
       "gulp": "^3.9.0",
       "gulp-babel": "^6.1.1",
       "jquery": "^2.1.4"
-    },
-    "other": {
-      "author": "Ian Burns",
-      "bugs": {
-        "url": "https://github.com/iwburns/electronPhysics/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +116,6 @@
       "commentCount": 0
     }
   },
-  "filename": "iwburns___electronPhysics.json"
+  "filename": "iwburns___electronPhysics.json",
+  "lastFetchedAt": "2017-05-04T17:55:14.429Z"
 }

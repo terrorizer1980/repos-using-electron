@@ -5,7 +5,7 @@
   "owner": {
     "login": "johnkmj",
     "id": 3216162,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3216162?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3216162?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/johnkmj",
     "htmlUrl": "https://github.com/johnkmj",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/johnkmj/CoinTicker/downloads",
   "deploymentsUrl": "https://api.github.com/repos/johnkmj/CoinTicker/deployments",
   "createdAt": "2016-09-16T04:44:29.000Z",
-  "updatedAt": "2016-09-21T03:57:58.000Z",
-  "pushedAt": "2016-09-21T14:57:11.000Z",
+  "updatedAt": "2016-12-17T23:10:07.000Z",
+  "pushedAt": "2016-12-17T23:10:05.000Z",
   "gitUrl": "git://github.com/johnkmj/CoinTicker.git",
   "sshUrl": "git@github.com:johnkmj/CoinTicker.git",
   "cloneUrl": "https://github.com/johnkmj/CoinTicker.git",
   "svnUrl": "https://github.com/johnkmj/CoinTicker",
   "homepage": null,
-  "size": 40751,
+  "size": 40746,
   "stargazersCount": 4,
   "watchersCount": 4,
-  "language": "HTML",
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -62,11 +62,11 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
   "networkCount": 1,
   "subscribersCount": 2,
@@ -111,9 +111,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "johnkmj"
-  ],
   "firstCommit": {
     "sha": "267f1d042305686c14e90b802cc417595fd5ec19",
     "commit": {
@@ -137,5 +134,6 @@
     }
   },
   "filename": "johnkmj___CoinTicker.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:49:01.832Z"
 }

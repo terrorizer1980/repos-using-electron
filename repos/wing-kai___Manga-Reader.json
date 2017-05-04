@@ -5,7 +5,7 @@
   "owner": {
     "login": "wing-kai",
     "id": 9555713,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9555713?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/9555713?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wing-kai",
     "htmlUrl": "https://github.com/wing-kai",
@@ -20,21 +20,21 @@
   "description": "a mac os manga/comic reader(mac os漫画阅读器) build with electron and react",
   "fork": false,
   "createdAt": "2015-12-25T18:03:28.000Z",
-  "updatedAt": "2016-08-14T02:11:14.000Z",
+  "updatedAt": "2016-09-20T19:38:44.000Z",
   "pushedAt": "2016-03-09T08:45:01.000Z",
   "homepage": "",
   "size": 1815,
-  "stargazersCount": 8,
-  "watchersCount": 8,
+  "stargazersCount": 10,
+  "watchersCount": 10,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 1,
   "openIssuesCount": 4,
   "openIssues": 4,
-  "watchers": 8,
+  "watchers": 10,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/cc0-1.0",
     "featured": false
   },
-  "networkCount": 2,
+  "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -91,9 +91,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "wing-kai"
-  ],
   "firstCommit": {
     "sha": "2e868e19a6c902413325dfe5dad3d9b1b316a4a0",
     "commit": {
@@ -117,65 +114,26 @@
     }
   },
   "filename": "wing-kai___Manga-Reader.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/wing-kai/Manga-Reader/releases/2592365",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/wing-kai/Manga-Reader/releases/assets/1299949",
-          "id": 1299949,
-          "name": "Manga.Reader.zip",
-          "label": null,
-          "uploader": {
-            "login": "wing-kai",
-            "id": 9555713,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/9555713?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/wing-kai",
-            "htmlUrl": "https://github.com/wing-kai",
-            "followersUrl": "https://api.github.com/users/wing-kai/followers",
-            "subscriptionsUrl": "https://api.github.com/users/wing-kai/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/wing-kai/orgs",
-            "reposUrl": "https://api.github.com/users/wing-kai/repos",
-            "receivedEventsUrl": "https://api.github.com/users/wing-kai/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43289474,
-          "downloadCount": 13,
-          "createdAt": "2016-02-11T07:52:53.000Z",
-          "updatedAt": "2016-02-11T08:04:50.000Z",
-          "browserDownloadUrl": "https://github.com/wing-kai/Manga-Reader/releases/download/0.0.1/Manga.Reader.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/releases/2592365/assets",
-      "htmlUrl": "https://github.com/wing-kai/Manga-Reader/releases/tag/0.0.1",
-      "id": 2592365,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "Manga Reader v0.0.1",
-      "draft": false,
-      "author": {
-        "login": "wing-kai",
-        "id": 9555713,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9555713?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/wing-kai",
-        "htmlUrl": "https://github.com/wing-kai",
-        "followersUrl": "https://api.github.com/users/wing-kai/followers",
-        "subscriptionsUrl": "https://api.github.com/users/wing-kai/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/wing-kai/orgs",
-        "reposUrl": "https://api.github.com/users/wing-kai/repos",
-        "receivedEventsUrl": "https://api.github.com/users/wing-kai/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-02-11T07:48:46.000Z",
-      "publishedAt": "2016-02-11T08:04:50.000Z",
-      "tarballUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/zipball/0.0.1",
-      "body": "漫画阅读器的第一个预览版本\n只具备一些基本的功能。\n- 单双页显示、左右翻页阅读\n- 拖拽上传\n- 批量管理、导入，分类\n- 自动记忆页数\n- 只支持以目录为单位导入漫画\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/wing-kai/Manga-Reader",
+  "url": "https://api.github.com/repos/wing-kai/Manga-Reader",
+  "forksUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/forks",
+  "teamsUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/teams",
+  "hooksUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/hooks",
+  "eventsUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/events",
+  "tagsUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/tags",
+  "languagesUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/languages",
+  "stargazersUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/contributors",
+  "subscribersUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/subscription",
+  "mergesUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/merges",
+  "downloadsUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/wing-kai/Manga-Reader/deployments",
+  "gitUrl": "git://github.com/wing-kai/Manga-Reader.git",
+  "sshUrl": "git@github.com:wing-kai/Manga-Reader.git",
+  "cloneUrl": "https://github.com/wing-kai/Manga-Reader.git",
+  "svnUrl": "https://github.com/wing-kai/Manga-Reader",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:10:46.273Z"
 }

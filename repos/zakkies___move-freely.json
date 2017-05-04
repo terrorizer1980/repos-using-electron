@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "move-freely",
     "version": "0.0.1",
@@ -82,13 +82,9 @@
         }
       }
     },
-    "author": "zakkies",
     "license": "",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/zakkies/move-freely"
-    },
+    "repository": "https://github.com/zakkies/move-freely",
     "devDependencies": {
       "babel-core": "6.11.4",
       "babel-eslint": "6.1.2",
@@ -125,7 +121,12 @@
       "react-router-redux": "4.0.5",
       "redux": "3.5.2",
       "redux-actions": "0.10.1"
+    },
+    "other": {
+      "author": "zakkies"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "zakkies___move-freely.json",
+  "lastFetchedAt": "2017-05-04T19:44:33.290Z"
 }

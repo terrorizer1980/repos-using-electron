@@ -5,7 +5,7 @@
   "owner": {
     "login": "ryanleesipes",
     "id": 2141621,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2141621?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2141621?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ryanleesipes",
     "htmlUrl": "https://github.com/ryanleesipes",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/ryanleesipes/desktop-habitica",
-  "description": "A Desktop Client for Habitica, written in Electron.",
+  "description": "Unofficial Desktop Client for Habitica, written in Electron.",
   "fork": false,
   "url": "https://api.github.com/repos/ryanleesipes/desktop-habitica",
   "forksUrl": "https://api.github.com/repos/ryanleesipes/desktop-habitica/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/ryanleesipes/desktop-habitica/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ryanleesipes/desktop-habitica/deployments",
   "createdAt": "2016-11-01T21:12:08.000Z",
-  "updatedAt": "2016-11-06T21:59:06.000Z",
-  "pushedAt": "2016-11-02T21:38:44.000Z",
+  "updatedAt": "2017-04-04T23:47:57.000Z",
+  "pushedAt": "2017-04-05T16:41:36.000Z",
   "gitUrl": "git://github.com/ryanleesipes/desktop-habitica.git",
   "sshUrl": "git@github.com:ryanleesipes/desktop-habitica.git",
   "cloneUrl": "https://github.com/ryanleesipes/desktop-habitica.git",
   "svnUrl": "https://github.com/ryanleesipes/desktop-habitica",
-  "homepage": null,
-  "size": 20,
+  "homepage": "https://habitica.com",
+  "size": 34,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -69,7 +69,7 @@
     "featured": true
   },
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
     "name": "desktop-habitica",
@@ -101,9 +101,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ryanleesipes"
-  ],
   "firstCommit": {
     "sha": "aeafa6a5a89bdffd4cf5b868e0fa105dc33cf8ba",
     "commit": {
@@ -127,65 +124,6 @@
     }
   },
   "filename": "ryanleesipes___desktop-habitica.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/ryanleesipes/desktop-habitica/releases/4552985",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/ryanleesipes/desktop-habitica/releases/assets/2577280",
-          "id": 2577280,
-          "name": "desktop-habitica_1.0.2_amd64.deb",
-          "label": null,
-          "uploader": {
-            "login": "ryanleesipes",
-            "id": 2141621,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2141621?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ryanleesipes",
-            "htmlUrl": "https://github.com/ryanleesipes",
-            "followersUrl": "https://api.github.com/users/ryanleesipes/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ryanleesipes/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ryanleesipes/orgs",
-            "reposUrl": "https://api.github.com/users/ryanleesipes/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ryanleesipes/received_events",
-            "type": "User"
-          },
-          "contentType": "application/vnd.debian.binary-package",
-          "state": "uploaded",
-          "size": 30942780,
-          "downloadCount": 15,
-          "createdAt": "2016-11-02T21:38:18.000Z",
-          "updatedAt": "2016-11-02T21:38:40.000Z",
-          "browserDownloadUrl": "https://github.com/ryanleesipes/desktop-habitica/releases/download/v1.0.2/desktop-habitica_1.0.2_amd64.deb"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/ryanleesipes/desktop-habitica/releases/4552985/assets",
-      "htmlUrl": "https://github.com/ryanleesipes/desktop-habitica/releases/tag/v1.0.2",
-      "id": 4552985,
-      "tagName": "v1.0.2",
-      "targetCommitish": "master",
-      "name": "Now with better icon support!",
-      "draft": false,
-      "author": {
-        "login": "ryanleesipes",
-        "id": 2141621,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2141621?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ryanleesipes",
-        "htmlUrl": "https://github.com/ryanleesipes",
-        "followersUrl": "https://api.github.com/users/ryanleesipes/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ryanleesipes/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ryanleesipes/orgs",
-        "reposUrl": "https://api.github.com/users/ryanleesipes/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ryanleesipes/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-02T21:30:22.000Z",
-      "publishedAt": "2016-11-02T21:38:44.000Z",
-      "tarballUrl": "https://api.github.com/repos/ryanleesipes/desktop-habitica/tarball/v1.0.2",
-      "zipballUrl": "https://api.github.com/repos/ryanleesipes/desktop-habitica/zipball/v1.0.2",
-      "body": "Added icon in main.js in order to provide better support for more platforms (Gnome, for instance).\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:34:18.057Z"
 }

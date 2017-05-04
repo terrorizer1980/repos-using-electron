@@ -5,7 +5,7 @@
   "owner": {
     "login": "posthtml",
     "id": 13065692,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13065692?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/13065692?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/posthtml",
     "htmlUrl": "https://github.com/posthtml",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/posthtml/electron-posthtml/downloads",
   "deploymentsUrl": "https://api.github.com/repos/posthtml/electron-posthtml/deployments",
   "createdAt": "2016-02-10T17:04:04.000Z",
-  "updatedAt": "2016-08-21T06:12:48.000Z",
-  "pushedAt": "2016-09-29T13:40:25.000Z",
+  "updatedAt": "2016-11-20T03:26:50.000Z",
+  "pushedAt": "2017-01-20T16:45:47.000Z",
   "gitUrl": "git://github.com/posthtml/electron-posthtml.git",
   "sshUrl": "git@github.com:posthtml/electron-posthtml.git",
   "cloneUrl": "https://github.com/posthtml/electron-posthtml.git",
   "svnUrl": "https://github.com/posthtml/electron-posthtml",
   "homepage": null,
   "size": 35,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "posthtml",
     "id": 13065692,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13065692?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/13065692?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/posthtml",
     "htmlUrl": "https://github.com/posthtml",
@@ -104,22 +104,9 @@
     ],
     "repository": "https://github.com/posthtml/electron-posthtml",
     "homepage": "https://github.com/posthtml/electron-posthtml#readme",
-    "license": "MIT",
-    "other": {
-      "author": {
-        "name": "Michael Ciniawsky",
-        "email": "<michael.ciniawsky@gmail.com>"
-      },
-      "bugs": {
-        "url": "https://github.com/posthtml/electron-posthtml/issues"
-      }
-    }
+    "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "michael-ciniawsky",
-    "greenkeeperio-bot"
-  ],
   "firstCommit": {
     "sha": "1092f03d3270443d0fc00e9eaccc2b8b1b5a3ecf",
     "commit": {
@@ -143,68 +130,6 @@
     }
   },
   "filename": "posthtml___electron-posthtml.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/posthtml/electron-posthtml/releases/2599359",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/posthtml/electron-posthtml/releases/2599359/assets",
-      "htmlUrl": "https://github.com/posthtml/electron-posthtml/releases/tag/v1.0.0",
-      "id": 2599359,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "PostHTML Electron v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "michael-ciniawsky",
-        "id": 5419992,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5419992?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/michael-ciniawsky",
-        "htmlUrl": "https://github.com/michael-ciniawsky",
-        "followersUrl": "https://api.github.com/users/michael-ciniawsky/followers",
-        "subscriptionsUrl": "https://api.github.com/users/michael-ciniawsky/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/michael-ciniawsky/orgs",
-        "reposUrl": "https://api.github.com/users/michael-ciniawsky/repos",
-        "receivedEventsUrl": "https://api.github.com/users/michael-ciniawsky/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-12T01:05:01.000Z",
-      "publishedAt": "2016-02-12T01:08:44.000Z",
-      "tarballUrl": "https://api.github.com/repos/posthtml/electron-posthtml/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/posthtml/electron-posthtml/zipball/v1.0.0",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/posthtml/electron-posthtml/releases/2589604",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/posthtml/electron-posthtml/releases/2589604/assets",
-      "htmlUrl": "https://github.com/posthtml/electron-posthtml/releases/tag/v0.8.0",
-      "id": 2589604,
-      "tagName": "v0.8.0",
-      "targetCommitish": "master",
-      "name": "PostHTML Electron v0.8.0",
-      "draft": false,
-      "author": {
-        "login": "michael-ciniawsky",
-        "id": 5419992,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5419992?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/michael-ciniawsky",
-        "htmlUrl": "https://github.com/michael-ciniawsky",
-        "followersUrl": "https://api.github.com/users/michael-ciniawsky/followers",
-        "subscriptionsUrl": "https://api.github.com/users/michael-ciniawsky/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/michael-ciniawsky/orgs",
-        "reposUrl": "https://api.github.com/users/michael-ciniawsky/repos",
-        "receivedEventsUrl": "https://api.github.com/users/michael-ciniawsky/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-10T20:19:01.000Z",
-      "publishedAt": "2016-02-10T20:21:31.000Z",
-      "tarballUrl": "https://api.github.com/repos/posthtml/electron-posthtml/tarball/v0.8.0",
-      "zipballUrl": "https://api.github.com/repos/posthtml/electron-posthtml/zipball/v0.8.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:41:51.691Z"
 }

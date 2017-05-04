@@ -5,7 +5,7 @@
   "owner": {
     "login": "pabgn",
     "id": 542633,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/542633?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/542633?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/pabgn",
     "htmlUrl": "https://github.com/pabgn",
@@ -20,12 +20,12 @@
   "description": "UltraStar Javascript modern alternative",
   "fork": false,
   "createdAt": "2016-03-06T19:35:57.000Z",
-  "updatedAt": "2016-10-24T17:35:38.000Z",
+  "updatedAt": "2017-01-29T21:43:56.000Z",
   "pushedAt": "2016-03-17T09:02:48.000Z",
   "homepage": null,
   "size": 8616,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 2,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 2,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -43,7 +43,7 @@
   },
   "license": null,
   "networkCount": 2,
-  "subscribersCount": 3,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "openstar",
@@ -144,11 +144,6 @@
   "cloneUrl": "https://github.com/pabgn/OpenStar.git",
   "svnUrl": "https://github.com/pabgn/OpenStar",
   "mirrorUrl": null,
-  "contributors": [
-    "pabgn",
-    "cprecioso",
-    "Ryckes"
-  ],
   "firstCommit": {
     "sha": "a7c07afeca4a76432385f1cde465157ac8964bb3",
     "commit": {
@@ -172,92 +167,6 @@
     }
   },
   "filename": "pabgn___OpenStar.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/pabgn/OpenStar/releases/2767302",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/pabgn/OpenStar/releases/assets/1397118",
-          "id": 1397118,
-          "name": "OpenStar-0.1-MacOSX.zip",
-          "label": null,
-          "uploader": {
-            "login": "pabgn",
-            "id": 542633,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/542633?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/pabgn",
-            "htmlUrl": "https://github.com/pabgn",
-            "followersUrl": "https://api.github.com/users/pabgn/followers",
-            "subscriptionsUrl": "https://api.github.com/users/pabgn/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/pabgn/orgs",
-            "reposUrl": "https://api.github.com/users/pabgn/repos",
-            "receivedEventsUrl": "https://api.github.com/users/pabgn/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 59357045,
-          "downloadCount": 5,
-          "createdAt": "2016-03-08T13:29:07.000Z",
-          "updatedAt": "2016-03-08T13:38:56.000Z",
-          "browserDownloadUrl": "https://github.com/pabgn/OpenStar/releases/download/0.1/OpenStar-0.1-MacOSX.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/pabgn/OpenStar/releases/assets/1400864",
-          "id": 1400864,
-          "name": "OpenStar-0.1-Win32.zip",
-          "label": null,
-          "uploader": {
-            "login": "pabgn",
-            "id": 542633,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/542633?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/pabgn",
-            "htmlUrl": "https://github.com/pabgn",
-            "followersUrl": "https://api.github.com/users/pabgn/followers",
-            "subscriptionsUrl": "https://api.github.com/users/pabgn/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/pabgn/orgs",
-            "reposUrl": "https://api.github.com/users/pabgn/repos",
-            "receivedEventsUrl": "https://api.github.com/users/pabgn/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 66184367,
-          "downloadCount": 33,
-          "createdAt": "2016-03-09T09:50:34.000Z",
-          "updatedAt": "2016-03-09T09:51:23.000Z",
-          "browserDownloadUrl": "https://github.com/pabgn/OpenStar/releases/download/0.1/OpenStar-0.1-Win32.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/pabgn/OpenStar/releases/2767302/assets",
-      "htmlUrl": "https://github.com/pabgn/OpenStar/releases/tag/0.1",
-      "id": 2767302,
-      "tagName": "0.1",
-      "targetCommitish": "master",
-      "name": "Preview release",
-      "draft": false,
-      "author": {
-        "login": "pabgn",
-        "id": 542633,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/542633?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/pabgn",
-        "htmlUrl": "https://github.com/pabgn",
-        "followersUrl": "https://api.github.com/users/pabgn/followers",
-        "subscriptionsUrl": "https://api.github.com/users/pabgn/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/pabgn/orgs",
-        "reposUrl": "https://api.github.com/users/pabgn/repos",
-        "receivedEventsUrl": "https://api.github.com/users/pabgn/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-03-08T13:23:49.000Z",
-      "publishedAt": "2016-03-08T13:38:56.000Z",
-      "tarballUrl": "https://api.github.com/repos/pabgn/OpenStar/tarball/0.1",
-      "zipballUrl": "https://api.github.com/repos/pabgn/OpenStar/zipball/0.1",
-      "body": "MVP only for preview purposes: you can expect bugs. \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:29:40.715Z"
 }

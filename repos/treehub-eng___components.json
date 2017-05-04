@@ -78,7 +78,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "treehub-components",
     "version": "0.0.0",
@@ -126,9 +126,6 @@
           }
         ]
       }
-    },
-    "other": {
-      "author": "John Clark <john@treehub.com>"
     }
   },
   "packageStatus": 200,
@@ -157,5 +154,6 @@
       "commentCount": 0
     }
   },
-  "filename": "treehub-eng___components.json"
+  "filename": "treehub-eng___components.json",
+  "lastFetchedAt": "2017-05-04T15:23:17.728Z"
 }

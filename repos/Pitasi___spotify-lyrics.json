@@ -5,7 +5,7 @@
   "owner": {
     "login": "Pitasi",
     "id": 15048443,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15048443?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/15048443?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Pitasi",
     "htmlUrl": "https://github.com/Pitasi",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/Pitasi/spotify-lyrics/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Pitasi/spotify-lyrics/deployments",
   "createdAt": "2016-09-30T11:38:04.000Z",
-  "updatedAt": "2016-10-23T18:46:17.000Z",
+  "updatedAt": "2017-01-26T13:24:30.000Z",
   "pushedAt": "2016-10-02T12:09:09.000Z",
   "gitUrl": "git://github.com/Pitasi/spotify-lyrics.git",
   "sshUrl": "git@github.com:Pitasi/spotify-lyrics.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/Pitasi/spotify-lyrics",
   "homepage": null,
   "size": 80,
-  "stargazersCount": 12,
-  "watchersCount": 12,
+  "stargazersCount": 16,
+  "watchersCount": 16,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 2,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 12,
+  "watchers": 16,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
-  "networkCount": 2,
+  "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -96,9 +96,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Pitasi"
-  ],
   "firstCommit": {
     "sha": "27b75154a9cea02119f4098ea7b9cb3b186f7925",
     "commit": {
@@ -122,92 +119,6 @@
     }
   },
   "filename": "Pitasi___spotify-lyrics.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Pitasi/spotify-lyrics/releases/4282633",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Pitasi/spotify-lyrics/releases/assets/2410312",
-          "id": 2410312,
-          "name": "spotify-lyrics-0.1.0-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "Pitasi",
-            "id": 15048443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/15048443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Pitasi",
-            "htmlUrl": "https://github.com/Pitasi",
-            "followersUrl": "https://api.github.com/users/Pitasi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Pitasi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Pitasi/orgs",
-            "reposUrl": "https://api.github.com/users/Pitasi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Pitasi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 137414832,
-          "downloadCount": 8,
-          "createdAt": "2016-10-02T11:18:07.000Z",
-          "updatedAt": "2016-10-02T11:51:05.000Z",
-          "browserDownloadUrl": "https://github.com/Pitasi/spotify-lyrics/releases/download/v0.1.0-alpha/spotify-lyrics-0.1.0-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/Pitasi/spotify-lyrics/releases/assets/2410313",
-          "id": 2410313,
-          "name": "spotify-lyrics-0.1.0-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "Pitasi",
-            "id": 15048443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/15048443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Pitasi",
-            "htmlUrl": "https://github.com/Pitasi",
-            "followersUrl": "https://api.github.com/users/Pitasi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Pitasi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Pitasi/orgs",
-            "reposUrl": "https://api.github.com/users/Pitasi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Pitasi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 70520827,
-          "downloadCount": 16,
-          "createdAt": "2016-10-02T11:18:07.000Z",
-          "updatedAt": "2016-10-02T12:02:34.000Z",
-          "browserDownloadUrl": "https://github.com/Pitasi/spotify-lyrics/releases/download/v0.1.0-alpha/spotify-lyrics-0.1.0-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Pitasi/spotify-lyrics/releases/4282633/assets",
-      "htmlUrl": "https://github.com/Pitasi/spotify-lyrics/releases/tag/v0.1.0-alpha",
-      "id": 4282633,
-      "tagName": "v0.1.0-alpha",
-      "targetCommitish": "master",
-      "name": "First release (for brave people!)",
-      "draft": false,
-      "author": {
-        "login": "Pitasi",
-        "id": 15048443,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15048443?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Pitasi",
-        "htmlUrl": "https://github.com/Pitasi",
-        "followersUrl": "https://api.github.com/users/Pitasi/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Pitasi/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Pitasi/orgs",
-        "reposUrl": "https://api.github.com/users/Pitasi/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Pitasi/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-02T10:58:44.000Z",
-      "publishedAt": "2016-10-02T12:09:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/Pitasi/spotify-lyrics/tarball/v0.1.0-alpha",
-      "zipballUrl": "https://api.github.com/repos/Pitasi/spotify-lyrics/zipball/v0.1.0-alpha",
-      "body": "First release of the app.\n\n**Windows** (_win32_) and **OS X** (_darwin_) archives available.\n\nBugs reports are encouraged, please open an issue.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:55:09.481Z"
 }

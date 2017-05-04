@@ -5,7 +5,7 @@
   "owner": {
     "login": "rot1024",
     "id": 3888696,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3888696?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3888696?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/rot1024",
     "htmlUrl": "https://github.com/rot1024",
@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": "Let's practice karaoke",
+  "description": "[WIP] Let's practice karaoke",
   "fork": false,
   "createdAt": "2016-01-08T15:29:03.000Z",
-  "updatedAt": "2016-05-08T15:05:21.000Z",
-  "pushedAt": "2016-01-10T13:24:16.000Z",
-  "homepage": null,
-  "size": 28,
+  "updatedAt": "2017-04-03T18:24:05.000Z",
+  "pushedAt": "2017-04-24T13:46:16.000Z",
+  "homepage": "",
+  "size": 225,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -31,7 +31,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
   "watchers": 1,
@@ -41,14 +41,8 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
-  "networkCount": 1,
+  "license": null,
+  "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -91,9 +85,6 @@
     "homepage": "https://github.com/rot1024/karaokible#readme"
   },
   "packageStatus": 200,
-  "contributors": [
-    "rot1024"
-  ],
   "firstCommit": {
     "sha": "d1f427bc26907758854559ac598577dae7269ae0",
     "commit": {
@@ -117,5 +108,26 @@
     }
   },
   "filename": "rot1024___karaokible.json",
-  "releases": []
+  "htmlUrl": "https://github.com/rot1024/karaokible",
+  "url": "https://api.github.com/repos/rot1024/karaokible",
+  "forksUrl": "https://api.github.com/repos/rot1024/karaokible/forks",
+  "teamsUrl": "https://api.github.com/repos/rot1024/karaokible/teams",
+  "hooksUrl": "https://api.github.com/repos/rot1024/karaokible/hooks",
+  "eventsUrl": "https://api.github.com/repos/rot1024/karaokible/events",
+  "tagsUrl": "https://api.github.com/repos/rot1024/karaokible/tags",
+  "languagesUrl": "https://api.github.com/repos/rot1024/karaokible/languages",
+  "stargazersUrl": "https://api.github.com/repos/rot1024/karaokible/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/rot1024/karaokible/contributors",
+  "subscribersUrl": "https://api.github.com/repos/rot1024/karaokible/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/rot1024/karaokible/subscription",
+  "mergesUrl": "https://api.github.com/repos/rot1024/karaokible/merges",
+  "downloadsUrl": "https://api.github.com/repos/rot1024/karaokible/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/rot1024/karaokible/deployments",
+  "gitUrl": "git://github.com/rot1024/karaokible.git",
+  "sshUrl": "git@github.com:rot1024/karaokible.git",
+  "cloneUrl": "https://github.com/rot1024/karaokible.git",
+  "svnUrl": "https://github.com/rot1024/karaokible",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:01:38.606Z"
 }

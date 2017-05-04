@@ -6,7 +6,7 @@
   "owner": {
     "login": "AF-STUDIO",
     "id": 8286131,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8286131?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8286131?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AF-STUDIO",
     "htmlUrl": "https://github.com/AF-STUDIO",
@@ -66,7 +66,7 @@
   "organization": {
     "login": "AF-STUDIO",
     "id": 8286131,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8286131?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8286131?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AF-STUDIO",
     "htmlUrl": "https://github.com/AF-STUDIO",
@@ -84,7 +84,7 @@
     "owner": {
       "login": "garrylachman",
       "id": 11525012,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11525012?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/11525012?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/garrylachman",
       "htmlUrl": "https://github.com/garrylachman",
@@ -114,7 +114,7 @@
     "downloadsUrl": "https://api.github.com/repos/garrylachman/ElectroCRUD/downloads",
     "deploymentsUrl": "https://api.github.com/repos/garrylachman/ElectroCRUD/deployments",
     "createdAt": "2016-05-14T02:18:49.000Z",
-    "updatedAt": "2016-11-28T12:33:46.000Z",
+    "updatedAt": "2017-05-02T20:00:58.000Z",
     "pushedAt": "2016-06-07T09:08:51.000Z",
     "gitUrl": "git://github.com/garrylachman/ElectroCRUD.git",
     "sshUrl": "git@github.com:garrylachman/ElectroCRUD.git",
@@ -122,18 +122,19 @@
     "svnUrl": "https://github.com/garrylachman/ElectroCRUD",
     "homepage": "http://garrylachman.github.io/ElectroCRUD/",
     "size": 1102875,
-    "stargazersCount": 622,
-    "watchersCount": 622,
+    "stargazersCount": 661,
+    "watchersCount": 661,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 98,
+    "forksCount": 109,
     "mirrorUrl": null,
-    "openIssuesCount": 10,
-    "openIssues": 10,
-    "watchers": 622,
+    "openIssuesCount": 12,
+    "openIssues": 12,
+    "watchers": 661,
     "defaultBranch": "master"
   },
   "source": {
@@ -143,7 +144,7 @@
     "owner": {
       "login": "garrylachman",
       "id": 11525012,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/11525012?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/11525012?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/garrylachman",
       "htmlUrl": "https://github.com/garrylachman",
@@ -173,7 +174,7 @@
     "downloadsUrl": "https://api.github.com/repos/garrylachman/ElectroCRUD/downloads",
     "deploymentsUrl": "https://api.github.com/repos/garrylachman/ElectroCRUD/deployments",
     "createdAt": "2016-05-14T02:18:49.000Z",
-    "updatedAt": "2016-11-28T12:33:46.000Z",
+    "updatedAt": "2017-05-02T20:00:58.000Z",
     "pushedAt": "2016-06-07T09:08:51.000Z",
     "gitUrl": "git://github.com/garrylachman/ElectroCRUD.git",
     "sshUrl": "git@github.com:garrylachman/ElectroCRUD.git",
@@ -181,21 +182,22 @@
     "svnUrl": "https://github.com/garrylachman/ElectroCRUD",
     "homepage": "http://garrylachman.github.io/ElectroCRUD/",
     "size": 1102875,
-    "stargazersCount": 622,
-    "watchersCount": 622,
+    "stargazersCount": 661,
+    "watchersCount": 661,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 98,
+    "forksCount": 109,
     "mirrorUrl": null,
-    "openIssuesCount": 10,
-    "openIssues": 10,
-    "watchers": 622,
+    "openIssuesCount": 12,
+    "openIssues": 12,
+    "watchers": 661,
     "defaultBranch": "master"
   },
-  "networkCount": 98,
+  "networkCount": 109,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -283,11 +285,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "garrylachman",
-    "bitdeli-chef",
-    "nillis"
-  ],
   "firstCommit": {
     "sha": "5990561e3190771fd395179931e0c64d65353947",
     "commit": {
@@ -311,5 +308,6 @@
     }
   },
   "sourceRepo": "garrylachman/ElectroCRUD",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:21:34.630Z"
 }

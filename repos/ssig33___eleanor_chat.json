@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "eleanor",
     "version": "0.0.1",
@@ -68,9 +68,6 @@
       "electron-prebuilt": "^0.31.0",
       "electron-packager": "^5.0.2",
       "babel": ""
-    },
-    "other": {
-      "author": "ssig33 <mail@ssig33.com> (http://ssig33.com)"
     }
   },
   "packageStatus": 200,
@@ -120,5 +117,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ssig33___eleanor_chat.json"
+  "filename": "ssig33___eleanor_chat.json",
+  "lastFetchedAt": "2017-05-04T20:34:37.120Z"
 }

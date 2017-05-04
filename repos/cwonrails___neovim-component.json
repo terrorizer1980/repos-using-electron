@@ -171,13 +171,7 @@
     "bin": {
       "nvim-md-example": "./example/minimal/cli.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rhysd/neovim-component.git"
-    },
-    "bugs": {
-      "url": "https://github.com/rhysd/neovim-component/issues"
-    },
+    "repository": "https://github.com/rhysd/neovim-component",
     "scripts": {
       "all": "npm run dep && npm run build && npm run example",
       "build": "tsc -p src && browserify -o build/index.js src/out/index.js",
@@ -196,7 +190,6 @@
       "NW.js",
       "editor"
     ],
-    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
     "dependencies": {
       "flux": "^2.1.1",
@@ -215,11 +208,19 @@
       "tslint": "^3.2.2",
       "typescript": "^1.7.5",
       "typings": "^0.6.2"
+    },
+    "other": {
+      "author": "rhysd <lin90162@yahoo.co.jp>",
+      "bugs": {
+        "url": "https://github.com/rhysd/neovim-component/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "rhysd",
     "romgrk"
-  ]
+  ],
+  "filename": "cwonrails___neovim-component.json",
+  "lastFetchedAt": "2017-05-04T04:58:37.862Z"
 }

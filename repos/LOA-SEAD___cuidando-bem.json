@@ -5,7 +5,7 @@
   "owner": {
     "login": "LOA-SEAD",
     "id": 4533776,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4533776?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/4533776?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LOA-SEAD",
     "htmlUrl": "https://github.com/LOA-SEAD",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/deployments",
   "createdAt": "2014-06-30T19:42:42.000Z",
   "updatedAt": "2016-02-01T11:58:02.000Z",
-  "pushedAt": "2016-11-16T19:02:29.000Z",
+  "pushedAt": "2016-12-19T12:21:14.000Z",
   "gitUrl": "git://github.com/LOA-SEAD/cuidando-bem.git",
   "sshUrl": "git@github.com:LOA-SEAD/cuidando-bem.git",
   "cloneUrl": "https://github.com/LOA-SEAD/cuidando-bem.git",
   "svnUrl": "https://github.com/LOA-SEAD/cuidando-bem",
   "homepage": "",
-  "size": 265458,
+  "size": 265736,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -71,7 +71,7 @@
   "organization": {
     "login": "LOA-SEAD",
     "id": 4533776,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4533776?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/4533776?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LOA-SEAD",
     "htmlUrl": "https://github.com/LOA-SEAD",
@@ -149,15 +149,6 @@
     "license": ""
   },
   "packageStatus": 200,
-  "contributors": [
-    "0tho",
-    "thamenato",
-    "brenocalixto",
-    "DouglasBarbino",
-    "wellyfr",
-    "luizvneto",
-    "jgesteves"
-  ],
   "firstCommit": {
     "sha": "77af49e8e275d1f5e009337618f794fd5fd5e955",
     "commit": {
@@ -181,68 +172,6 @@
     }
   },
   "filename": "LOA-SEAD___cuidando-bem.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/releases/1895902",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/releases/1895902/assets",
-      "htmlUrl": "https://github.com/LOA-SEAD/cuidando-bem/releases/tag/v1.2.0-dev",
-      "id": 1895902,
-      "tagName": "v1.2.0-dev",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "0tho",
-        "id": 2592018,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2592018?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/0tho",
-        "htmlUrl": "https://github.com/0tho",
-        "followersUrl": "https://api.github.com/users/0tho/followers",
-        "subscriptionsUrl": "https://api.github.com/users/0tho/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/0tho/orgs",
-        "reposUrl": "https://api.github.com/users/0tho/repos",
-        "receivedEventsUrl": "https://api.github.com/users/0tho/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-09-30T21:05:54.000Z",
-      "publishedAt": "2015-10-01T11:39:58.000Z",
-      "tarballUrl": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/tarball/v1.2.0-dev",
-      "zipballUrl": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/zipball/v1.2.0-dev",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/releases/669472",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/releases/669472/assets",
-      "htmlUrl": "https://github.com/LOA-SEAD/cuidando-bem/releases/tag/v0.0.2-alpha",
-      "id": 669472,
-      "tagName": "v0.0.2-alpha",
-      "targetCommitish": "master",
-      "name": "First showcase of the alpha ",
-      "draft": false,
-      "author": {
-        "login": "0tho",
-        "id": 2592018,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2592018?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/0tho",
-        "htmlUrl": "https://github.com/0tho",
-        "followersUrl": "https://api.github.com/users/0tho/followers",
-        "subscriptionsUrl": "https://api.github.com/users/0tho/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/0tho/orgs",
-        "reposUrl": "https://api.github.com/users/0tho/repos",
-        "receivedEventsUrl": "https://api.github.com/users/0tho/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2014-10-31T02:40:31.000Z",
-      "publishedAt": "2014-10-31T18:46:08.000Z",
-      "tarballUrl": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/tarball/v0.0.2-alpha",
-      "zipballUrl": "https://api.github.com/repos/LOA-SEAD/cuidando-bem/zipball/v0.0.2-alpha",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:32:26.841Z"
 }

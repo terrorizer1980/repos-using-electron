@@ -162,7 +162,7 @@
   },
   "networkCount": 86,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "simplenote",
     "productName": "Simplenote",
@@ -176,7 +176,6 @@
       "lint": "`npm bin`/eslint lib",
       "start": "NODE_ENV=hot node devServer.js"
     },
-    "author": "",
     "license": "ISC",
     "devDependencies": {
       "appcache-webpack-plugin": "1.2.1",
@@ -230,6 +229,9 @@
       "redux-localstorage": "0.4.0",
       "redux-thunk": "1.0.3",
       "serve-favicon": "2.3.0"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 404,
@@ -244,5 +246,7 @@
     "efegurkan",
     "fredrocious",
     "sendhil"
-  ]
+  ],
+  "filename": "cwonrails___simplenote-electron.json",
+  "lastFetchedAt": "2017-05-04T05:22:59.710Z"
 }

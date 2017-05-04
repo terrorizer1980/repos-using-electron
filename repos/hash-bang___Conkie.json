@@ -5,7 +5,7 @@
   "owner": {
     "login": "hash-bang",
     "id": 624527,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/624527?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/624527?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hash-bang",
     "htmlUrl": "https://github.com/hash-bang",
@@ -20,21 +20,21 @@
   "description": "JavaScript desktop widgets",
   "fork": false,
   "createdAt": "2015-12-31T02:39:45.000Z",
-  "updatedAt": "2016-05-17T19:05:52.000Z",
-  "pushedAt": "2016-07-20T08:17:28.000Z",
+  "updatedAt": "2017-04-17T11:17:44.000Z",
+  "pushedAt": "2017-05-04T03:04:15.000Z",
   "homepage": null,
-  "size": 2563,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 2552,
+  "stargazersCount": 30,
+  "watchersCount": 30,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 2,
+  "forksCount": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 30,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 1,
-  "subscribersCount": 3,
+  "networkCount": 2,
+  "subscribersCount": 9,
   "status": 200,
   "packageJSON": {
     "name": "conkie",
@@ -83,15 +83,9 @@
       "lodash": "^4.13.1",
       "require-grep": "0.0.0",
       "temp": "^0.8.3"
-    },
-    "other": {
-      "author": "Matt Carter <m@ttcarter.com>"
     }
   },
   "packageStatus": 404,
-  "contributors": [
-    "hash-bang"
-  ],
   "firstCommit": {
     "sha": "3f62a3e9ad2974bb8a614089531d12bf07f914e0",
     "commit": {
@@ -115,5 +109,26 @@
     }
   },
   "filename": "hash-bang___Conkie.json",
-  "releases": []
+  "htmlUrl": "https://github.com/hash-bang/Conkie",
+  "url": "https://api.github.com/repos/hash-bang/Conkie",
+  "forksUrl": "https://api.github.com/repos/hash-bang/Conkie/forks",
+  "teamsUrl": "https://api.github.com/repos/hash-bang/Conkie/teams",
+  "hooksUrl": "https://api.github.com/repos/hash-bang/Conkie/hooks",
+  "eventsUrl": "https://api.github.com/repos/hash-bang/Conkie/events",
+  "tagsUrl": "https://api.github.com/repos/hash-bang/Conkie/tags",
+  "languagesUrl": "https://api.github.com/repos/hash-bang/Conkie/languages",
+  "stargazersUrl": "https://api.github.com/repos/hash-bang/Conkie/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/hash-bang/Conkie/contributors",
+  "subscribersUrl": "https://api.github.com/repos/hash-bang/Conkie/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/hash-bang/Conkie/subscription",
+  "mergesUrl": "https://api.github.com/repos/hash-bang/Conkie/merges",
+  "downloadsUrl": "https://api.github.com/repos/hash-bang/Conkie/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/hash-bang/Conkie/deployments",
+  "gitUrl": "git://github.com/hash-bang/Conkie.git",
+  "sshUrl": "git@github.com:hash-bang/Conkie.git",
+  "cloneUrl": "https://github.com/hash-bang/Conkie.git",
+  "svnUrl": "https://github.com/hash-bang/Conkie",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:31:51.364Z"
 }

@@ -44,16 +44,12 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "ember-gmail",
     "version": "0.0.0",
     "description": "Small description for ember-gmail goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -63,7 +59,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -148,5 +143,7 @@
   "contributors": [
     "RafalWilinski",
     "ember-tomster"
-  ]
+  ],
+  "filename": "RafalWilinski___ember-gmail.json",
+  "lastFetchedAt": "2017-05-04T21:16:57.777Z"
 }

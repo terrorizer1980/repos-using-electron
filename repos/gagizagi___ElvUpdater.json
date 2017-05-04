@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "elvupdater",
     "version": "0.3.0",
@@ -80,10 +80,7 @@
       "start": "electron .",
       "test": "mocha"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/gagizagi/ElvUpdater.git"
-    },
+    "repository": "https://github.com/gagizagi/ElvUpdater",
     "keywords": [
       "WoW",
       "Addon",
@@ -92,11 +89,7 @@
       "Update",
       "GUI"
     ],
-    "author": "GazZy",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/gagizagi/ElvUpdater/issues"
-    },
     "homepage": "https://github.com/gagizagi/ElvUpdater#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.5",
@@ -105,10 +98,18 @@
     "devDependencies": {
       "chai": "^3.5.0",
       "grunt": "^1.0.1"
+    },
+    "other": {
+      "author": "GazZy",
+      "bugs": {
+        "url": "https://github.com/gagizagi/ElvUpdater/issues"
+      }
     }
   },
   "packageStatus": 200,
   "contributors": [
     "gagizagi"
-  ]
+  ],
+  "filename": "gagizagi___ElvUpdater.json",
+  "lastFetchedAt": "2017-05-04T18:24:07.653Z"
 }

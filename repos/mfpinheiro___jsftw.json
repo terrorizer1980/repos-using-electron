@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "jsftw",
     "version": "1.0.0",
@@ -73,16 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/mfpinheiro/jsftw.git"
-    },
-    "author": "",
+    "repository": "https://github.com/mfpinheiro/jsftw",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/mfpinheiro/jsftw/issues"
-    },
-    "homepage": "https://github.com/mfpinheiro/jsftw#readme"
+    "homepage": "https://github.com/mfpinheiro/jsftw#readme",
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/mfpinheiro/jsftw/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
@@ -109,5 +108,7 @@
       "url": "https://api.github.com/repos/mfpinheiro/jsftw/git/commits/22ad37030685f7b0db174fb346509961acc20043",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mfpinheiro___jsftw.json",
+  "lastFetchedAt": "2017-05-04T16:40:38.442Z"
 }

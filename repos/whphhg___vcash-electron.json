@@ -5,7 +5,7 @@
   "owner": {
     "login": "whphhg",
     "id": 12498154,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12498154?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12498154?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/whphhg",
     "htmlUrl": "https://github.com/whphhg",
@@ -17,24 +17,24 @@
     "type": "User"
   },
   "private": false,
-  "description": "Electron UI for Vcash, a decentralized currency for the internet.",
+  "description": "Multi-platform and multi-node GUI for Vcash.",
   "fork": false,
   "createdAt": "2016-07-18T19:13:09.000Z",
-  "updatedAt": "2016-10-19T14:19:03.000Z",
-  "pushedAt": "2016-11-03T16:01:46.000Z",
+  "updatedAt": "2017-04-26T12:03:10.000Z",
+  "pushedAt": "2017-05-03T20:22:00.000Z",
   "homepage": "",
-  "size": 271,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "size": 679,
+  "stargazersCount": 22,
+  "watchersCount": 22,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
-  "forksCount": 4,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 7,
+  "forksCount": 11,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 22,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
-  "networkCount": 4,
-  "subscribersCount": 1,
+  "networkCount": 11,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "vcash-electron",
@@ -120,10 +120,6 @@
   "cloneUrl": "https://github.com/whphhg/vcash-electron.git",
   "svnUrl": "https://github.com/whphhg/vcash-electron",
   "mirrorUrl": null,
-  "contributors": [
-    "whphhg",
-    "xCoreDev"
-  ],
   "firstCommit": {
     "sha": "88c170b3cf6f91712f9ceda2f0dbbf90da6b2744",
     "commit": {
@@ -148,5 +144,6 @@
   },
   "filename": "whphhg___vcash-electron.json",
   "sourceRepo": "whphhg/vcash-ui",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:54:05.414Z"
 }

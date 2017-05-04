@@ -5,7 +5,7 @@
   "owner": {
     "login": "surfbirdapp",
     "id": 20271732,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20271732?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20271732?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/surfbirdapp",
     "htmlUrl": "https://github.com/surfbirdapp",
@@ -17,41 +17,35 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "A Twitter client built on Electron",
+  "description": "A Twitter client built on Electron and Vue",
   "fork": false,
   "createdAt": "2016-05-13T19:06:35.000Z",
-  "updatedAt": "2016-10-09T13:41:57.000Z",
-  "pushedAt": "2016-10-05T00:08:48.000Z",
+  "updatedAt": "2017-04-29T22:29:33.000Z",
+  "pushedAt": "2017-04-30T18:37:40.000Z",
   "homepage": "",
-  "size": 262,
-  "stargazersCount": 49,
-  "watchersCount": 49,
+  "size": 1167,
+  "stargazersCount": 65,
+  "watchersCount": 65,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 3,
-  "openIssuesCount": 15,
-  "openIssues": 15,
-  "watchers": 49,
-  "defaultBranch": "master",
+  "forksCount": 5,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 65,
+  "defaultBranch": "next",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "organization": {
     "login": "surfbirdapp",
     "id": 20271732,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20271732?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20271732?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/surfbirdapp",
     "htmlUrl": "https://github.com/surfbirdapp",
@@ -62,8 +56,8 @@
     "receivedEventsUrl": "https://api.github.com/users/surfbirdapp/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
-  "subscribersCount": 7,
+  "networkCount": 5,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "surfbird",
@@ -155,11 +149,6 @@
   "cloneUrl": "https://github.com/surfbirdapp/surfbird.git",
   "svnUrl": "https://github.com/surfbirdapp/surfbird",
   "mirrorUrl": null,
-  "contributors": [
-    "pixeldesu",
-    "naomichan",
-    "Dennis14e"
-  ],
   "firstCommit": {
     "sha": "174357b5b3b3fe9c6bf4ba9e14143acf39872d03",
     "commit": {
@@ -183,37 +172,6 @@
     }
   },
   "filename": "surfbirdapp___surfbird.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/surfbirdapp/surfbird/releases/4164544",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/surfbirdapp/surfbird/releases/4164544/assets",
-      "htmlUrl": "https://github.com/surfbirdapp/surfbird/releases/tag/0.1.0",
-      "id": 4164544,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "latest test release",
-      "draft": false,
-      "author": {
-        "login": "pixeldesu",
-        "id": 1774242,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1774242?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/pixeldesu",
-        "htmlUrl": "https://github.com/pixeldesu",
-        "followersUrl": "https://api.github.com/users/pixeldesu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/pixeldesu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/pixeldesu/orgs",
-        "reposUrl": "https://api.github.com/users/pixeldesu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/pixeldesu/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-09-19T02:07:23.000Z",
-      "publishedAt": "2016-09-19T02:10:28.000Z",
-      "tarballUrl": "https://api.github.com/repos/surfbirdapp/surfbird/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/surfbirdapp/surfbird/zipball/0.1.0",
-      "body": "Latest test release for Surfbird.\n\n**Downloads:**\n- **Windows:** http://get.surfbirdapp.com/surfbird-windows.zip\n- **Linux:** http://get.surfbirdapp.com/surfbird-linux.zip\n- **Mac:** Coming Soon!\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:28:20.693Z"
 }

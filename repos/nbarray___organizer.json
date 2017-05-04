@@ -5,7 +5,7 @@
   "owner": {
     "login": "nbarray",
     "id": 3589541,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3589541?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/3589541?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nbarray",
     "htmlUrl": "https://github.com/nbarray",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/nbarray/organizer/deployments",
   "createdAt": "2016-11-07T22:39:58.000Z",
   "updatedAt": "2016-11-07T23:11:34.000Z",
-  "pushedAt": "2016-11-07T23:11:33.000Z",
+  "pushedAt": "2016-11-19T08:25:55.000Z",
   "gitUrl": "git://github.com/nbarray/organizer.git",
   "sshUrl": "git@github.com:nbarray/organizer.git",
   "cloneUrl": "https://github.com/nbarray/organizer.git",
   "svnUrl": "https://github.com/nbarray/organizer",
   "homepage": "",
-  "size": 3,
+  "size": 28,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -61,13 +61,7 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -90,9 +84,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "nbarray"
-  ],
   "firstCommit": {
     "sha": "750c67506c705352b7558cf83f1cc0efe19e1ad9",
     "commit": {
@@ -116,5 +107,6 @@
     }
   },
   "filename": "nbarray___organizer.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:00:49.386Z"
 }

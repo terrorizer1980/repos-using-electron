@@ -5,7 +5,7 @@
   "owner": {
     "login": "alvinantonius",
     "id": 2825909,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2825909?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2825909?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/alvinantonius",
     "htmlUrl": "https://github.com/alvinantonius",
@@ -72,53 +72,9 @@
       "rebuild-sqlite3-win": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64 && node-gyp node-gyp rebuild --target=0.36.0 --arch=x64 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/node-v47-win32-x64"
     },
     "contributors": [],
-    "license": "MIT",
-    "other": {
-      "author": "Ben Bytheway",
-      "bugs": {
-        "url": "https://github.com/bytheway/electron-sqlite3/issues"
-      }
-    }
+    "license": "MIT"
   },
   "packageStatus": 404,
-  "contributors": [
-    "szwacz",
-    "alvinantonius",
-    "fredylie",
-    "rodrigok",
-    "sviterok",
-    "brandonhamilton",
-    "ingro",
-    "black-snow",
-    "idleberg",
-    "blainesch",
-    "antoinepairet",
-    "tkdave",
-    "jonatasfreitasv",
-    "lazamar",
-    "plrthink",
-    "eisenkolb",
-    "carlosperate",
-    "denysvitali",
-    "bradvogel",
-    "huyhong",
-    "jpedius",
-    "jakedsouza",
-    "jsumners",
-    "marcelocg",
-    "markmont",
-    "pcewing",
-    "Thom-x",
-    "turadg",
-    "tysenmoore-xse",
-    "tyv",
-    "zeke",
-    "crucialfelix",
-    "high5",
-    "coskuntekin",
-    "mkostas",
-    "orthographic-pedant"
-  ],
   "firstCommit": {
     "sha": "2ba72e027f73930230395c17eb6b8bbdfb785872",
     "commit": {
@@ -142,5 +98,26 @@
     }
   },
   "filename": "alvinantonius___inventoped.json",
-  "releases": []
+  "htmlUrl": "https://github.com/alvinantonius/inventoped",
+  "url": "https://api.github.com/repos/alvinantonius/inventoped",
+  "forksUrl": "https://api.github.com/repos/alvinantonius/inventoped/forks",
+  "teamsUrl": "https://api.github.com/repos/alvinantonius/inventoped/teams",
+  "hooksUrl": "https://api.github.com/repos/alvinantonius/inventoped/hooks",
+  "eventsUrl": "https://api.github.com/repos/alvinantonius/inventoped/events",
+  "tagsUrl": "https://api.github.com/repos/alvinantonius/inventoped/tags",
+  "languagesUrl": "https://api.github.com/repos/alvinantonius/inventoped/languages",
+  "stargazersUrl": "https://api.github.com/repos/alvinantonius/inventoped/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/alvinantonius/inventoped/contributors",
+  "subscribersUrl": "https://api.github.com/repos/alvinantonius/inventoped/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/alvinantonius/inventoped/subscription",
+  "mergesUrl": "https://api.github.com/repos/alvinantonius/inventoped/merges",
+  "downloadsUrl": "https://api.github.com/repos/alvinantonius/inventoped/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/alvinantonius/inventoped/deployments",
+  "gitUrl": "git://github.com/alvinantonius/inventoped.git",
+  "sshUrl": "git@github.com:alvinantonius/inventoped.git",
+  "cloneUrl": "https://github.com/alvinantonius/inventoped.git",
+  "svnUrl": "https://github.com/alvinantonius/inventoped",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:55:20.997Z"
 }

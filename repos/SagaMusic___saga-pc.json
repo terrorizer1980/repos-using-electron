@@ -67,17 +67,13 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Anand Chowdhary",
     "license": "MIT License",
     "homepage": "http://anandchowdhary.com",
     "devDependencies": {
@@ -87,5 +83,7 @@
   "packageStatus": 404,
   "contributors": [
     "AnandChowdhary"
-  ]
+  ],
+  "filename": "SagaMusic___saga-pc.json",
+  "lastFetchedAt": "2017-05-04T21:05:08.161Z"
 }

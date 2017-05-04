@@ -5,7 +5,7 @@
   "owner": {
     "login": "farism",
     "id": 3803714,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3803714?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3803714?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/farism",
     "htmlUrl": "https://github.com/farism",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/farism/game-client/deployments",
   "createdAt": "2016-06-11T07:12:06.000Z",
   "updatedAt": "2016-06-11T07:12:19.000Z",
-  "pushedAt": "2016-10-30T09:36:14.000Z",
+  "pushedAt": "2017-01-30T23:10:08.000Z",
   "gitUrl": "git://github.com/farism/game-client.git",
   "sshUrl": "git@github.com:farism/game-client.git",
   "cloneUrl": "https://github.com/farism/game-client.git",
   "svnUrl": "https://github.com/farism/game-client",
   "homepage": null,
-  "size": 3494,
+  "size": 3557,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -68,7 +68,7 @@
     "url": null,
     "featured": false
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -186,10 +186,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "farism",
-    "remyyounes"
-  ],
   "firstCommit": {
     "sha": "43ac60c3eba5980a6c93a9168d264987deb20153",
     "commit": {
@@ -213,5 +209,6 @@
     }
   },
   "filename": "farism___game-client.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:06:47.984Z"
 }

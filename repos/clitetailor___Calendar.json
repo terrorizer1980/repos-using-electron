@@ -5,7 +5,7 @@
   "owner": {
     "login": "clitetailor",
     "id": 16368559,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16368559?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16368559?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/clitetailor",
     "htmlUrl": "https://github.com/clitetailor",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/clitetailor/Calendar/downloads",
   "deploymentsUrl": "https://api.github.com/repos/clitetailor/Calendar/deployments",
   "createdAt": "2016-10-09T17:03:44.000Z",
-  "updatedAt": "2016-10-09T17:03:58.000Z",
-  "pushedAt": "2016-11-11T05:06:52.000Z",
+  "updatedAt": "2016-12-09T12:26:29.000Z",
+  "pushedAt": "2016-12-09T12:44:59.000Z",
   "gitUrl": "git://github.com/clitetailor/Calendar.git",
   "sshUrl": "git@github.com:clitetailor/Calendar.git",
   "cloneUrl": "https://github.com/clitetailor/Calendar.git",
   "svnUrl": "https://github.com/clitetailor/Calendar",
   "homepage": null,
-  "size": 79,
+  "size": 236,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "JavaScript",
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -118,9 +118,6 @@
     "main": "main.js"
   },
   "packageStatus": 200,
-  "contributors": [
-    "clitetailor"
-  ],
   "firstCommit": {
     "sha": "19db804b4c67c05915f2e0095075af5d65b422ea",
     "commit": {
@@ -144,65 +141,6 @@
     }
   },
   "filename": "clitetailor___Calendar.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/clitetailor/Calendar/releases/4877363",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/clitetailor/Calendar/releases/assets/2795393",
-          "id": 2795393,
-          "name": "may-calendar-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "clitetailor",
-            "id": 16368559,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/16368559?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/clitetailor",
-            "htmlUrl": "https://github.com/clitetailor",
-            "followersUrl": "https://api.github.com/users/clitetailor/followers",
-            "subscriptionsUrl": "https://api.github.com/users/clitetailor/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/clitetailor/orgs",
-            "reposUrl": "https://api.github.com/users/clitetailor/repos",
-            "receivedEventsUrl": "https://api.github.com/users/clitetailor/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 51079428,
-          "downloadCount": 11,
-          "createdAt": "2016-12-09T12:36:28.000Z",
-          "updatedAt": "2016-12-09T12:44:34.000Z",
-          "browserDownloadUrl": "https://github.com/clitetailor/Calendar/releases/download/1.0.0/may-calendar-win32-ia32.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/clitetailor/Calendar/releases/4877363/assets",
-      "htmlUrl": "https://github.com/clitetailor/Calendar/releases/tag/1.0.0",
-      "id": 4877363,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "May Calendar 1.0.0",
-      "draft": false,
-      "author": {
-        "login": "clitetailor",
-        "id": 16368559,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16368559?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/clitetailor",
-        "htmlUrl": "https://github.com/clitetailor",
-        "followersUrl": "https://api.github.com/users/clitetailor/followers",
-        "subscriptionsUrl": "https://api.github.com/users/clitetailor/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/clitetailor/orgs",
-        "reposUrl": "https://api.github.com/users/clitetailor/repos",
-        "receivedEventsUrl": "https://api.github.com/users/clitetailor/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-09T12:08:49.000Z",
-      "publishedAt": "2016-12-09T12:44:59.000Z",
-      "tarballUrl": "https://api.github.com/repos/clitetailor/Calendar/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/clitetailor/Calendar/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:27:58.948Z"
 }

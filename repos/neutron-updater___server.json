@@ -5,7 +5,7 @@
   "owner": {
     "login": "neutron-updater",
     "id": 17930704,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17930704?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17930704?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/neutron-updater",
     "htmlUrl": "https://github.com/neutron-updater",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/neutron-updater/server/downloads",
   "deploymentsUrl": "https://api.github.com/repos/neutron-updater/server/deployments",
   "createdAt": "2016-01-22T19:38:38.000Z",
-  "updatedAt": "2016-04-13T00:37:45.000Z",
+  "updatedAt": "2017-04-16T19:57:59.000Z",
   "pushedAt": "2016-04-14T03:53:41.000Z",
   "gitUrl": "git://github.com/neutron-updater/server.git",
   "sshUrl": "git@github.com:neutron-updater/server.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/neutron-updater/server",
   "homepage": "",
   "size": 106,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 3,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 5,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "neutron-updater",
     "id": 17930704,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17930704?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17930704?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/neutron-updater",
     "htmlUrl": "https://github.com/neutron-updater",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/neutron-updater/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
+  "networkCount": 2,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -140,10 +140,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jubianchi",
-    "youknowriad"
-  ],
   "firstCommit": {
     "sha": "a9378cb1944bada2f6ee6ec41b7b79ed6d1d8674",
     "commit": {
@@ -167,65 +163,6 @@
     }
   },
   "filename": "neutron-updater___server.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/neutron-updater/server/releases/2601403",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/neutron-updater/server/releases/assets/1304143",
-          "id": 1304143,
-          "name": "update.zip",
-          "label": null,
-          "uploader": {
-            "login": "jubianchi",
-            "id": 327237,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/327237?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jubianchi",
-            "htmlUrl": "https://github.com/jubianchi",
-            "followersUrl": "https://api.github.com/users/jubianchi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jubianchi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jubianchi/orgs",
-            "reposUrl": "https://api.github.com/users/jubianchi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jubianchi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 40329,
-          "downloadCount": 2,
-          "createdAt": "2016-02-12T10:31:54.000Z",
-          "updatedAt": "2016-02-12T10:31:55.000Z",
-          "browserDownloadUrl": "https://github.com/neutron-updater/server/releases/download/0.0.1/update.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/neutron-updater/server/releases/2601403/assets",
-      "htmlUrl": "https://github.com/neutron-updater/server/releases/tag/0.0.1",
-      "id": 2601403,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "jubianchi",
-        "id": 327237,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/327237?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jubianchi",
-        "htmlUrl": "https://github.com/jubianchi",
-        "followersUrl": "https://api.github.com/users/jubianchi/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jubianchi/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jubianchi/orgs",
-        "reposUrl": "https://api.github.com/users/jubianchi/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jubianchi/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-11T18:37:53.000Z",
-      "publishedAt": "2016-02-12T10:30:55.000Z",
-      "tarballUrl": "https://api.github.com/repos/neutron-updater/server/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/neutron-updater/server/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:00:17.520Z"
 }

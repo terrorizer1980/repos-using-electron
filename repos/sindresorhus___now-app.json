@@ -182,7 +182,7 @@
   },
   "networkCount": 12,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "repository": "zeit/now-app",
     "scripts": {
@@ -288,5 +288,6 @@
   },
   "filename": "sindresorhus___now-app.json",
   "sourceRepo": "zeit/now-desktop",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T14:55:31.790Z"
 }

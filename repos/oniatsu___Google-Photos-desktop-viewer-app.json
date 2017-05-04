@@ -5,7 +5,7 @@
   "owner": {
     "login": "oniatsu",
     "id": 5919569,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5919569?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5919569?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/oniatsu",
     "htmlUrl": "https://github.com/oniatsu",
@@ -20,12 +20,12 @@
   "description": "Google Photos desktop viewer app for OS X and Windows",
   "fork": false,
   "createdAt": "2016-01-03T05:28:59.000Z",
-  "updatedAt": "2016-10-12T21:04:36.000Z",
+  "updatedAt": "2017-03-09T07:30:59.000Z",
   "pushedAt": "2016-01-23T07:49:36.000Z",
   "homepage": "",
   "size": 96,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -105,9 +105,6 @@
   "cloneUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app.git",
   "svnUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app",
   "mirrorUrl": null,
-  "contributors": [
-    "oniatsu"
-  ],
   "firstCommit": {
     "sha": "03b422a8c12edac26e5e199745fa4a0c82917055",
     "commit": {
@@ -131,178 +128,6 @@
     }
   },
   "filename": "oniatsu___Google-Photos-desktop-viewer-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/2479010",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/assets/1237534",
-          "id": 1237534,
-          "name": "Google-Photos-osx.zip",
-          "label": "",
-          "uploader": {
-            "login": "oniatsu",
-            "id": 5919569,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5919569?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/oniatsu",
-            "htmlUrl": "https://github.com/oniatsu",
-            "followersUrl": "https://api.github.com/users/oniatsu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/oniatsu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/oniatsu/orgs",
-            "reposUrl": "https://api.github.com/users/oniatsu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/oniatsu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 38937007,
-          "downloadCount": 71,
-          "createdAt": "2016-01-23T08:18:58.000Z",
-          "updatedAt": "2016-01-23T08:19:03.000Z",
-          "browserDownloadUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app/releases/download/v0.2/Google-Photos-osx.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/assets/1237533",
-          "id": 1237533,
-          "name": "Google-Photos-win.zip",
-          "label": "",
-          "uploader": {
-            "login": "oniatsu",
-            "id": 5919569,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5919569?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/oniatsu",
-            "htmlUrl": "https://github.com/oniatsu",
-            "followersUrl": "https://api.github.com/users/oniatsu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/oniatsu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/oniatsu/orgs",
-            "reposUrl": "https://api.github.com/users/oniatsu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/oniatsu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41783392,
-          "downloadCount": 50,
-          "createdAt": "2016-01-23T08:18:54.000Z",
-          "updatedAt": "2016-01-23T08:18:58.000Z",
-          "browserDownloadUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app/releases/download/v0.2/Google-Photos-win.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/2479010/assets",
-      "htmlUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app/releases/tag/v0.2",
-      "id": 2479010,
-      "tagName": "v0.2",
-      "targetCommitish": "master",
-      "name": null,
-      "draft": false,
-      "author": {
-        "login": "oniatsu",
-        "id": 5919569,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5919569?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/oniatsu",
-        "htmlUrl": "https://github.com/oniatsu",
-        "followersUrl": "https://api.github.com/users/oniatsu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/oniatsu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/oniatsu/orgs",
-        "reposUrl": "https://api.github.com/users/oniatsu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/oniatsu/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-23T07:47:51.000Z",
-      "publishedAt": "2016-01-23T08:18:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/tarball/v0.2",
-      "zipballUrl": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/zipball/v0.2",
-      "body": null
-    },
-    {
-      "url": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/2368203",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/assets/1174548",
-          "id": 1174548,
-          "name": "Google-Photos-osx.zip",
-          "label": null,
-          "uploader": {
-            "login": "oniatsu",
-            "id": 5919569,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5919569?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/oniatsu",
-            "htmlUrl": "https://github.com/oniatsu",
-            "followersUrl": "https://api.github.com/users/oniatsu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/oniatsu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/oniatsu/orgs",
-            "reposUrl": "https://api.github.com/users/oniatsu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/oniatsu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 40562368,
-          "downloadCount": 2,
-          "createdAt": "2016-01-04T13:04:58.000Z",
-          "updatedAt": "2016-01-04T13:05:39.000Z",
-          "browserDownloadUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app/releases/download/0.1/Google-Photos-osx.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/assets/1174549",
-          "id": 1174549,
-          "name": "Google-Photos-win.zip",
-          "label": null,
-          "uploader": {
-            "login": "oniatsu",
-            "id": 5919569,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5919569?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/oniatsu",
-            "htmlUrl": "https://github.com/oniatsu",
-            "followersUrl": "https://api.github.com/users/oniatsu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/oniatsu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/oniatsu/orgs",
-            "reposUrl": "https://api.github.com/users/oniatsu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/oniatsu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43809644,
-          "downloadCount": 4,
-          "createdAt": "2016-01-04T13:04:58.000Z",
-          "updatedAt": "2016-01-04T13:06:18.000Z",
-          "browserDownloadUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app/releases/download/0.1/Google-Photos-win.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/releases/2368203/assets",
-      "htmlUrl": "https://github.com/oniatsu/Google-Photos-desktop-viewer-app/releases/tag/0.1",
-      "id": 2368203,
-      "tagName": "0.1",
-      "targetCommitish": "master",
-      "name": "First release",
-      "draft": false,
-      "author": {
-        "login": "oniatsu",
-        "id": 5919569,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5919569?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/oniatsu",
-        "htmlUrl": "https://github.com/oniatsu",
-        "followersUrl": "https://api.github.com/users/oniatsu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/oniatsu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/oniatsu/orgs",
-        "reposUrl": "https://api.github.com/users/oniatsu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/oniatsu/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-04T13:01:52.000Z",
-      "publishedAt": "2016-01-04T13:06:33.000Z",
-      "tarballUrl": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/tarball/0.1",
-      "zipballUrl": "https://api.github.com/repos/oniatsu/Google-Photos-desktop-viewer-app/zipball/0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:48:14.885Z"
 }

@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Monitor",
     "version": "1.0.0",
@@ -79,18 +79,11 @@
     "scripts": {
       "start": "electron server.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ScarletFloppy/Monitor.git"
-    },
+    "repository": "https://github.com/ScarletFloppy/Monitor",
     "keywords": [
       "Monitor"
     ],
-    "author": "ScarletFloppy",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/ScarletFloppy/Monitor/issues"
-    },
     "homepage": "https://github.com/ScarletFloppy/Monitor#readme",
     "dependencies": {
       "electron": "latest",
@@ -100,5 +93,7 @@
       "mjpeg-consumer": "latest"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "filename": "ScarletFloppy___Monitor.json",
+  "lastFetchedAt": "2017-05-04T18:14:24.741Z"
 }

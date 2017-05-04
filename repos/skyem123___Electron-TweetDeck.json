@@ -5,7 +5,7 @@
   "owner": {
     "login": "skyem123",
     "id": 2051085,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2051085?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2051085?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/skyem123",
     "htmlUrl": "https://github.com/skyem123",
@@ -20,12 +20,12 @@
   "description": "The TweetDeck webapp loaded into its own window (using electron) after the old official desktop thing stopped working for me.",
   "fork": false,
   "createdAt": "2015-10-29T23:00:43.000Z",
-  "updatedAt": "2016-08-06T15:59:56.000Z",
+  "updatedAt": "2016-09-15T08:07:21.000Z",
   "pushedAt": "2015-11-27T20:36:57.000Z",
   "homepage": null,
   "size": 6,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 4,
   "openIssues": 4,
-  "watchers": 5,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -67,9 +67,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "skyem123"
-  ],
   "firstCommit": {
     "sha": "1a9a489226cae73a32195df43b6b3e3f786be44f",
     "commit": {
@@ -93,65 +90,26 @@
     }
   },
   "filename": "skyem123___Electron-TweetDeck.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/skyem123/Electron-TweetDeck/releases/2048429",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/skyem123/Electron-TweetDeck/releases/assets/993353",
-          "id": 993353,
-          "name": "v0.0.1.build1.zip",
-          "label": null,
-          "uploader": {
-            "login": "skyem123",
-            "id": 2051085,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2051085?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/skyem123",
-            "htmlUrl": "https://github.com/skyem123",
-            "followersUrl": "https://api.github.com/users/skyem123/followers",
-            "subscriptionsUrl": "https://api.github.com/users/skyem123/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/skyem123/orgs",
-            "reposUrl": "https://api.github.com/users/skyem123/repos",
-            "receivedEventsUrl": "https://api.github.com/users/skyem123/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 38992666,
-          "downloadCount": 15,
-          "createdAt": "2015-10-30T18:06:05.000Z",
-          "updatedAt": "2015-10-30T18:07:53.000Z",
-          "browserDownloadUrl": "https://github.com/skyem123/Electron-TweetDeck/releases/download/v0.0.1%2Bbuild1/v0.0.1.build1.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/releases/2048429/assets",
-      "htmlUrl": "https://github.com/skyem123/Electron-TweetDeck/releases/tag/v0.0.1%2Bbuild1",
-      "id": 2048429,
-      "tagName": "v0.0.1+build1",
-      "targetCommitish": "4a7a299f3eeef5aa36100f0d043315ec6af9efae",
-      "name": "Experimental Build 1",
-      "draft": false,
-      "author": {
-        "login": "skyem123",
-        "id": 2051085,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2051085?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/skyem123",
-        "htmlUrl": "https://github.com/skyem123",
-        "followersUrl": "https://api.github.com/users/skyem123/followers",
-        "subscriptionsUrl": "https://api.github.com/users/skyem123/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/skyem123/orgs",
-        "reposUrl": "https://api.github.com/users/skyem123/repos",
-        "receivedEventsUrl": "https://api.github.com/users/skyem123/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-10-30T17:41:07.000Z",
-      "publishedAt": "2015-10-30T18:08:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/tarball/v0.0.1+build1",
-      "zipballUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/zipball/v0.0.1+build1",
-      "body": "This build is so that the people who asked for it can get a build. If you expect this to be perfect, you will be disappointed.\n\nThis build is only for Windows, but you can take the `resources` folder and use it with other builds for different operating systems.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/skyem123/Electron-TweetDeck",
+  "url": "https://api.github.com/repos/skyem123/Electron-TweetDeck",
+  "forksUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/forks",
+  "teamsUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/teams",
+  "hooksUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/hooks",
+  "eventsUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/events",
+  "tagsUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/tags",
+  "languagesUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/languages",
+  "stargazersUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/contributors",
+  "subscribersUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/subscription",
+  "mergesUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/merges",
+  "downloadsUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/skyem123/Electron-TweetDeck/deployments",
+  "gitUrl": "git://github.com/skyem123/Electron-TweetDeck.git",
+  "sshUrl": "git@github.com:skyem123/Electron-TweetDeck.git",
+  "cloneUrl": "https://github.com/skyem123/Electron-TweetDeck.git",
+  "svnUrl": "https://github.com/skyem123/Electron-TweetDeck",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:20:01.322Z"
 }

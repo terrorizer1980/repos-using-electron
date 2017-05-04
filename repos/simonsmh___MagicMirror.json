@@ -162,7 +162,7 @@
   },
   "networkCount": 882,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "magicmirror",
     "version": "2.0.0",
@@ -177,22 +177,15 @@
       "snyk-protect": "snyk protect",
       "prepublish": "npm run snyk-protect"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/MichMich/MagicMirror.git"
-    },
+    "repository": "https://github.com/MichMich/MagicMirror",
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
-    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/MichMich/MagicMirror/issues"
-    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -216,7 +209,13 @@
       "valid-url": "latest",
       "walk": "latest"
     },
-    "snyk": true
+    "snyk": true,
+    "other": {
+      "author": "Michael Teeuw",
+      "bugs": {
+        "url": "https://github.com/MichMich/MagicMirror/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/simonsmh/MagicMirror",
@@ -278,5 +277,7 @@
     "Trueffelwurm",
     "yuki",
     "invalid-email-address"
-  ]
+  ],
+  "filename": "simonsmh___MagicMirror.json",
+  "lastFetchedAt": "2017-05-04T20:41:00.017Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "dhaval17",
     "id": 4002150,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4002150?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/4002150?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dhaval17",
     "htmlUrl": "https://github.com/dhaval17",
@@ -20,21 +20,21 @@
   "description": "Yet Another Notes Application",
   "fork": false,
   "createdAt": "2016-09-11T09:01:11.000Z",
-  "updatedAt": "2016-10-10T18:02:50.000Z",
-  "pushedAt": "2016-10-11T11:54:59.000Z",
+  "updatedAt": "2017-03-26T21:36:36.000Z",
+  "pushedAt": "2017-03-12T21:21:32.000Z",
   "homepage": "",
-  "size": 131,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 395,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
-  "forksCount": 0,
+  "hasPages": true,
+  "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,7 +42,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -73,9 +73,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "dhaval17"
-  ],
   "firstCommit": {
     "sha": "0778d1d49ae25190a2781f8d579d2628421ca0ab",
     "commit": {
@@ -99,65 +96,26 @@
     }
   },
   "filename": "dhaval17___notr.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/dhaval17/notr/releases/4346417",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/dhaval17/notr/releases/assets/2451295",
-          "id": 2451295,
-          "name": "notr.zip",
-          "label": null,
-          "uploader": {
-            "login": "dhaval17",
-            "id": 4002150,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4002150?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dhaval17",
-            "htmlUrl": "https://github.com/dhaval17",
-            "followersUrl": "https://api.github.com/users/dhaval17/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dhaval17/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dhaval17/orgs",
-            "reposUrl": "https://api.github.com/users/dhaval17/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dhaval17/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42653158,
-          "downloadCount": 392,
-          "createdAt": "2016-10-10T17:52:56.000Z",
-          "updatedAt": "2016-10-10T17:54:50.000Z",
-          "browserDownloadUrl": "https://github.com/dhaval17/notr/releases/download/v1.0.1/notr.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/dhaval17/notr/releases/4346417/assets",
-      "htmlUrl": "https://github.com/dhaval17/notr/releases/tag/v1.0.1",
-      "id": 4346417,
-      "tagName": "v1.0.1",
-      "targetCommitish": "master",
-      "name": "Notr V1.0 MacOS Build",
-      "draft": false,
-      "author": {
-        "login": "dhaval17",
-        "id": 4002150,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4002150?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/dhaval17",
-        "htmlUrl": "https://github.com/dhaval17",
-        "followersUrl": "https://api.github.com/users/dhaval17/followers",
-        "subscriptionsUrl": "https://api.github.com/users/dhaval17/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/dhaval17/orgs",
-        "reposUrl": "https://api.github.com/users/dhaval17/repos",
-        "receivedEventsUrl": "https://api.github.com/users/dhaval17/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-09T14:18:23.000Z",
-      "publishedAt": "2016-10-10T17:54:50.000Z",
-      "tarballUrl": "https://api.github.com/repos/dhaval17/notr/tarball/v1.0.1",
-      "zipballUrl": "https://api.github.com/repos/dhaval17/notr/zipball/v1.0.1",
-      "body": "### Notr\n\n#### Version 1.0\n- Uses localStorage to save the notes\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/dhaval17/notr",
+  "url": "https://api.github.com/repos/dhaval17/notr",
+  "forksUrl": "https://api.github.com/repos/dhaval17/notr/forks",
+  "teamsUrl": "https://api.github.com/repos/dhaval17/notr/teams",
+  "hooksUrl": "https://api.github.com/repos/dhaval17/notr/hooks",
+  "eventsUrl": "https://api.github.com/repos/dhaval17/notr/events",
+  "tagsUrl": "https://api.github.com/repos/dhaval17/notr/tags",
+  "languagesUrl": "https://api.github.com/repos/dhaval17/notr/languages",
+  "stargazersUrl": "https://api.github.com/repos/dhaval17/notr/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dhaval17/notr/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dhaval17/notr/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dhaval17/notr/subscription",
+  "mergesUrl": "https://api.github.com/repos/dhaval17/notr/merges",
+  "downloadsUrl": "https://api.github.com/repos/dhaval17/notr/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dhaval17/notr/deployments",
+  "gitUrl": "git://github.com/dhaval17/notr.git",
+  "sshUrl": "git@github.com:dhaval17/notr.git",
+  "cloneUrl": "https://github.com/dhaval17/notr.git",
+  "svnUrl": "https://github.com/dhaval17/notr",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T09:03:50.772Z"
 }

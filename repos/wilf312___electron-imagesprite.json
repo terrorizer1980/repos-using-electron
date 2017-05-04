@@ -6,7 +6,7 @@
   "owner": {
     "login": "wilf312",
     "id": 2202197,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2202197?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2202197?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wilf312",
     "htmlUrl": "https://github.com/wilf312",
@@ -37,7 +37,7 @@
   "deploymentsUrl": "https://api.github.com/repos/wilf312/electron-imagesprite/deployments",
   "createdAt": "2016-11-28T15:41:34.000Z",
   "updatedAt": "2016-11-28T15:47:05.000Z",
-  "pushedAt": "2016-12-06T05:57:30.000Z",
+  "pushedAt": "2017-03-15T05:48:44.000Z",
   "gitUrl": "git://github.com/wilf312/electron-imagesprite.git",
   "sshUrl": "git@github.com:wilf312/electron-imagesprite.git",
   "cloneUrl": "https://github.com/wilf312/electron-imagesprite.git",
@@ -107,9 +107,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "wilf312"
-  ],
   "firstCommit": {
     "sha": "72a9440eb608b4becb000fd5550c985882034978",
     "commit": {
@@ -132,65 +129,6 @@
       "commentCount": 0
     }
   },
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/wilf312/electron-imagesprite/releases/4840886",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/wilf312/electron-imagesprite/releases/assets/2772382",
-          "id": 2772382,
-          "name": "electron-imagesprite.zip",
-          "label": null,
-          "uploader": {
-            "login": "wilf312",
-            "id": 2202197,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2202197?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/wilf312",
-            "htmlUrl": "https://github.com/wilf312",
-            "followersUrl": "https://api.github.com/users/wilf312/followers",
-            "subscriptionsUrl": "https://api.github.com/users/wilf312/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/wilf312/orgs",
-            "reposUrl": "https://api.github.com/users/wilf312/repos",
-            "receivedEventsUrl": "https://api.github.com/users/wilf312/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 59588791,
-          "downloadCount": 5,
-          "createdAt": "2016-12-06T05:56:26.000Z",
-          "updatedAt": "2016-12-06T05:57:17.000Z",
-          "browserDownloadUrl": "https://github.com/wilf312/electron-imagesprite/releases/download/v0.9/electron-imagesprite.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/wilf312/electron-imagesprite/releases/4840886/assets",
-      "htmlUrl": "https://github.com/wilf312/electron-imagesprite/releases/tag/v0.9",
-      "id": 4840886,
-      "tagName": "v0.9",
-      "targetCommitish": "master",
-      "name": "v0.9 name is Arakawa Under the Bridge.",
-      "draft": false,
-      "author": {
-        "login": "wilf312",
-        "id": 2202197,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2202197?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/wilf312",
-        "htmlUrl": "https://github.com/wilf312",
-        "followersUrl": "https://api.github.com/users/wilf312/followers",
-        "subscriptionsUrl": "https://api.github.com/users/wilf312/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/wilf312/orgs",
-        "reposUrl": "https://api.github.com/users/wilf312/repos",
-        "receivedEventsUrl": "https://api.github.com/users/wilf312/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-06T05:50:19.000Z",
-      "publishedAt": "2016-12-06T05:57:30.000Z",
-      "tarballUrl": "https://api.github.com/repos/wilf312/electron-imagesprite/tarball/v0.9",
-      "zipballUrl": "https://api.github.com/repos/wilf312/electron-imagesprite/zipball/v0.9",
-      "body": "for windows\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:47:36.752Z"
 }

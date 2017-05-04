@@ -5,7 +5,7 @@
   "owner": {
     "login": "kanton-aargau",
     "id": 18281818,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18281818?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/18281818?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kanton-aargau",
     "htmlUrl": "https://github.com/kanton-aargau",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/kanton-aargau/pcl-viewer/downloads",
   "deploymentsUrl": "https://api.github.com/repos/kanton-aargau/pcl-viewer/deployments",
   "createdAt": "2016-08-11T08:45:27.000Z",
-  "updatedAt": "2016-10-11T07:48:32.000Z",
+  "updatedAt": "2017-02-21T13:49:45.000Z",
   "pushedAt": "2016-08-11T08:50:34.000Z",
   "gitUrl": "git://github.com/kanton-aargau/pcl-viewer.git",
   "sshUrl": "git@github.com:kanton-aargau/pcl-viewer.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/kanton-aargau/pcl-viewer",
   "homepage": null,
   "size": 11016,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 2,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "kanton-aargau",
     "id": 18281818,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18281818?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/18281818?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kanton-aargau",
     "htmlUrl": "https://github.com/kanton-aargau",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/kanton-aargau/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "pcl-viewer",
@@ -133,9 +133,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "queckezz"
-  ],
   "firstCommit": {
     "sha": "c8004ab22042d6fe29ab6b04e97b9e50c3f79a51",
     "commit": {
@@ -159,5 +156,6 @@
     }
   },
   "filename": "kanton-aargau___pcl-viewer.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:46:55.564Z"
 }

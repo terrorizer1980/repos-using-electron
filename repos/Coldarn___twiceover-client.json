@@ -5,7 +5,7 @@
   "owner": {
     "login": "Coldarn",
     "id": 5455521,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5455521?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5455521?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Coldarn",
     "htmlUrl": "https://github.com/Coldarn",
@@ -20,10 +20,10 @@
   "description": "Iterative code review tool supporting cross-iteration diffing and change commenting with syntax highlighting",
   "fork": false,
   "createdAt": "2015-06-30T04:57:58.000Z",
-  "updatedAt": "2015-08-16T04:46:19.000Z",
-  "pushedAt": "2015-10-02T06:19:05.000Z",
+  "updatedAt": "2016-12-04T01:19:32.000Z",
+  "pushedAt": "2016-12-04T01:58:47.000Z",
   "homepage": "",
-  "size": 44327,
+  "size": 44405,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -31,7 +31,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 0,
   "openIssuesCount": 9,
   "openIssues": 9,
   "watchers": 1,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 1,
+  "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -93,9 +93,6 @@
   "cloneUrl": "https://github.com/Coldarn/twiceover-client.git",
   "svnUrl": "https://github.com/Coldarn/twiceover-client",
   "mirrorUrl": null,
-  "contributors": [
-    "Coldarn"
-  ],
   "firstCommit": {
     "sha": "5eea20cbfb5a2986d193340c56cccff1a3e50315",
     "commit": {
@@ -119,68 +116,6 @@
     }
   },
   "filename": "Coldarn___twiceover-client.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Coldarn/twiceover-client/releases/1795450",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Coldarn/twiceover-client/releases/1795450/assets",
-      "htmlUrl": "https://github.com/Coldarn/twiceover-client/releases/tag/0.3.0",
-      "id": 1795450,
-      "tagName": "0.3.0",
-      "targetCommitish": "master",
-      "name": "Beta 2",
-      "draft": false,
-      "author": {
-        "login": "Coldarn",
-        "id": 5455521,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5455521?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Coldarn",
-        "htmlUrl": "https://github.com/Coldarn",
-        "followersUrl": "https://api.github.com/users/Coldarn/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Coldarn/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Coldarn/orgs",
-        "reposUrl": "https://api.github.com/users/Coldarn/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Coldarn/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-09-10T17:30:52.000Z",
-      "publishedAt": "2015-09-10T17:32:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/Coldarn/twiceover-client/tarball/0.3.0",
-      "zipballUrl": "https://api.github.com/repos/Coldarn/twiceover-client/zipball/0.3.0",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/Coldarn/twiceover-client/releases/1748052",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Coldarn/twiceover-client/releases/1748052/assets",
-      "htmlUrl": "https://github.com/Coldarn/twiceover-client/releases/tag/0.2.0",
-      "id": 1748052,
-      "tagName": "0.2.0",
-      "targetCommitish": "master",
-      "name": "Beta 1",
-      "draft": false,
-      "author": {
-        "login": "Coldarn",
-        "id": 5455521,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5455521?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Coldarn",
-        "htmlUrl": "https://github.com/Coldarn",
-        "followersUrl": "https://api.github.com/users/Coldarn/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Coldarn/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Coldarn/orgs",
-        "reposUrl": "https://api.github.com/users/Coldarn/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Coldarn/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-08-31T23:41:57.000Z",
-      "publishedAt": "2015-08-31T23:43:51.000Z",
-      "tarballUrl": "https://api.github.com/repos/Coldarn/twiceover-client/tarball/0.2.0",
-      "zipballUrl": "https://api.github.com/repos/Coldarn/twiceover-client/zipball/0.2.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:01:12.016Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "ilyaivanov",
     "id": 6242338,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6242338?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6242338?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ilyaivanov",
     "htmlUrl": "https://github.com/ilyaivanov",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/ilyaivanov/True-Tune/deployments",
   "createdAt": "2016-07-29T16:19:42.000Z",
   "updatedAt": "2016-11-11T03:16:03.000Z",
-  "pushedAt": "2016-11-11T03:38:17.000Z",
+  "pushedAt": "2016-11-20T10:44:43.000Z",
   "gitUrl": "git://github.com/ilyaivanov/True-Tune.git",
   "sshUrl": "git@github.com:ilyaivanov/True-Tune.git",
   "cloneUrl": "https://github.com/ilyaivanov/True-Tune.git",
   "svnUrl": "https://github.com/ilyaivanov/True-Tune",
   "homepage": null,
-  "size": 2497,
+  "size": 2512,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -170,9 +170,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ilyaivanov"
-  ],
   "firstCommit": {
     "sha": "02fae00beeba8f6f9c8982ef7bd4b90147c3e6d1",
     "commit": {
@@ -196,37 +193,6 @@
     }
   },
   "filename": "ilyaivanov___True-Tune.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/ilyaivanov/True-Tune/releases/4632412",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/ilyaivanov/True-Tune/releases/4632412/assets",
-      "htmlUrl": "https://github.com/ilyaivanov/True-Tune/releases/tag/v0.1",
-      "id": 4632412,
-      "tagName": "v0.1",
-      "targetCommitish": "master",
-      "name": "Basic search and play applicataion",
-      "draft": false,
-      "author": {
-        "login": "ilyaivanov",
-        "id": 6242338,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6242338?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ilyaivanov",
-        "htmlUrl": "https://github.com/ilyaivanov",
-        "followersUrl": "https://api.github.com/users/ilyaivanov/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ilyaivanov/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ilyaivanov/orgs",
-        "reposUrl": "https://api.github.com/users/ilyaivanov/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ilyaivanov/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-11T03:28:57.000Z",
-      "publishedAt": "2016-11-11T03:38:17.000Z",
-      "tarballUrl": "https://api.github.com/repos/ilyaivanov/True-Tune/tarball/v0.1",
-      "zipballUrl": "https://api.github.com/repos/ilyaivanov/True-Tune/zipball/v0.1",
-      "body": "##Release v0.1\n\nBasic search and play functionality. \n\n##Primary features\n- Find an artist by a term\n- View albums for specific artist\n- Play tracks from an album\n- Find similar artist \n\n![Application](https://puu.sh/segml/9523d6d281.png)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:21:44.536Z"
 }

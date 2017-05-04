@@ -5,7 +5,7 @@
   "owner": {
     "login": "krainboltgreene",
     "id": 334809,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/334809?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/334809?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/krainboltgreene",
     "htmlUrl": "https://github.com/krainboltgreene",
@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2015-06-14T16:43:40.000Z",
   "updatedAt": "2015-06-14T16:43:48.000Z",
-  "pushedAt": "2015-07-13T14:34:47.000Z",
+  "pushedAt": "2017-03-27T08:37:55.000Z",
   "homepage": null,
-  "size": 428,
+  "size": 179,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -110,10 +110,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "krainboltgreene",
-    "travisbhartwell"
-  ],
   "firstCommit": {
     "sha": "f295af4f52d49d10a29012e08dbc3f50dcdd2084",
     "commit": {
@@ -137,92 +133,26 @@
     }
   },
   "filename": "krainboltgreene___Lowbrow.app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/releases/1414406",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/releases/assets/644212",
-          "id": 644212,
-          "name": "Lowbrow.dmg",
-          "label": null,
-          "uploader": {
-            "login": "krainboltgreene",
-            "id": 334809,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/334809?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/krainboltgreene",
-            "htmlUrl": "https://github.com/krainboltgreene",
-            "followersUrl": "https://api.github.com/users/krainboltgreene/followers",
-            "subscriptionsUrl": "https://api.github.com/users/krainboltgreene/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/krainboltgreene/orgs",
-            "reposUrl": "https://api.github.com/users/krainboltgreene/repos",
-            "receivedEventsUrl": "https://api.github.com/users/krainboltgreene/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 37033293,
-          "downloadCount": 1,
-          "createdAt": "2015-06-14T16:44:46.000Z",
-          "updatedAt": "2015-06-14T16:50:27.000Z",
-          "browserDownloadUrl": "https://github.com/krainboltgreene/Lowbrow.app/releases/download/v0.0.0/Lowbrow.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/releases/assets/646741",
-          "id": 646741,
-          "name": "lowbrowx64.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "krainboltgreene",
-            "id": 334809,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/334809?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/krainboltgreene",
-            "htmlUrl": "https://github.com/krainboltgreene",
-            "followersUrl": "https://api.github.com/users/krainboltgreene/followers",
-            "subscriptionsUrl": "https://api.github.com/users/krainboltgreene/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/krainboltgreene/orgs",
-            "reposUrl": "https://api.github.com/users/krainboltgreene/repos",
-            "receivedEventsUrl": "https://api.github.com/users/krainboltgreene/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-gzip",
-          "state": "uploaded",
-          "size": 36255012,
-          "downloadCount": 1,
-          "createdAt": "2015-06-15T23:56:14.000Z",
-          "updatedAt": "2015-06-16T00:01:57.000Z",
-          "browserDownloadUrl": "https://github.com/krainboltgreene/Lowbrow.app/releases/download/v0.0.0/lowbrowx64.tar.gz"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/releases/1414406/assets",
-      "htmlUrl": "https://github.com/krainboltgreene/Lowbrow.app/releases/tag/v0.0.0",
-      "id": 1414406,
-      "tagName": "v0.0.0",
-      "targetCommitish": "master",
-      "name": "v0.0.0",
-      "draft": false,
-      "author": {
-        "login": "krainboltgreene",
-        "id": 334809,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/334809?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/krainboltgreene",
-        "htmlUrl": "https://github.com/krainboltgreene",
-        "followersUrl": "https://api.github.com/users/krainboltgreene/followers",
-        "subscriptionsUrl": "https://api.github.com/users/krainboltgreene/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/krainboltgreene/orgs",
-        "reposUrl": "https://api.github.com/users/krainboltgreene/repos",
-        "receivedEventsUrl": "https://api.github.com/users/krainboltgreene/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-06-14T16:40:34.000Z",
-      "publishedAt": "2015-06-14T16:51:03.000Z",
-      "tarballUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/tarball/v0.0.0",
-      "zipballUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/zipball/v0.0.0",
-      "body": "Just a test release\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/krainboltgreene/Lowbrow.app",
+  "url": "https://api.github.com/repos/krainboltgreene/Lowbrow.app",
+  "forksUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/forks",
+  "teamsUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/teams",
+  "hooksUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/hooks",
+  "eventsUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/events",
+  "tagsUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/tags",
+  "languagesUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/languages",
+  "stargazersUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/subscription",
+  "mergesUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/merges",
+  "downloadsUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/krainboltgreene/Lowbrow.app/deployments",
+  "gitUrl": "git://github.com/krainboltgreene/Lowbrow.app.git",
+  "sshUrl": "git@github.com:krainboltgreene/Lowbrow.app.git",
+  "cloneUrl": "https://github.com/krainboltgreene/Lowbrow.app.git",
+  "svnUrl": "https://github.com/krainboltgreene/Lowbrow.app",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:42:58.175Z"
 }

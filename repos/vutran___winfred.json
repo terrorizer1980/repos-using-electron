@@ -56,11 +56,6 @@
     "version": "0.1.0",
     "description": "Alfred's open-source cousin.",
     "main": "bootstrap.js",
-    "author": {
-      "name": "Vu Tran",
-      "email": "vu@vu-tran.com",
-      "website": "http://vu-tran.com/"
-    },
     "contributors": [
       {
         "name": "Vu Tran",
@@ -68,20 +63,7 @@
         "web": "http://vu-tran.com"
       }
     ],
-    "maintainers": [
-      {
-        "name": "Vu Tran",
-        "email": "vu@vu-tran.com",
-        "web": "http://vu-tran.com"
-      }
-    ],
-    "bugs": {
-      "web": "https://github.com/vutran/winfred/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:vutran/winfred.git"
-    },
+    "repository": "https://github.com/vutran/winfred",
     "license": "MIT",
     "homepage": "https://github.com/vutran/winfred/electron-quick-start#readme",
     "dependencies": {
@@ -144,7 +126,33 @@
       "build": "gulp package",
       "dev": "cross-env NODE_ENV=development electron . --enable-logging --debug",
       "start": "npm run dev"
+    },
+    "owners": [
+      {
+        "name": "Vu Tran",
+        "email": "vu@vu-tran.com",
+        "web": "http://vu-tran.com"
+      }
+    ],
+    "other": {
+      "author": {
+        "name": "Vu Tran",
+        "email": "vu@vu-tran.com",
+        "website": "http://vu-tran.com/"
+      },
+      "bugs": {
+        "web": "https://github.com/vutran/winfred/issues"
+      },
+      "maintainers": [
+        {
+          "name": "Vu Tran",
+          "email": "vu@vu-tran.com",
+          "web": "http://vu-tran.com"
+        }
+      ]
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "vutran___winfred.json",
+  "lastFetchedAt": "2017-05-04T20:54:24.676Z"
 }

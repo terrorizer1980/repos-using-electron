@@ -5,7 +5,7 @@
   "owner": {
     "login": "micnews",
     "id": 7944468,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7944468?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/micnews",
     "htmlUrl": "https://github.com/micnews",
@@ -20,21 +20,21 @@
   "description": "Parses & normalizes html to a well-structured & easy to use article json format",
   "fork": false,
   "createdAt": "2016-01-22T14:19:59.000Z",
-  "updatedAt": "2016-11-03T14:49:34.000Z",
-  "pushedAt": "2016-11-02T17:35:11.000Z",
+  "updatedAt": "2017-04-20T13:02:59.000Z",
+  "pushedAt": "2017-05-02T23:58:07.000Z",
   "homepage": "",
-  "size": 303,
-  "stargazersCount": 20,
-  "watchersCount": 20,
+  "size": 301,
+  "stargazersCount": 27,
+  "watchersCount": 27,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 6,
-  "openIssuesCount": 5,
-  "openIssues": 5,
-  "watchers": 20,
+  "forksCount": 7,
+  "openIssuesCount": 32,
+  "openIssues": 32,
+  "watchers": 27,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "micnews",
     "id": 7944468,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/7944468?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/micnews",
     "htmlUrl": "https://github.com/micnews",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/micnews/received_events",
     "type": "Organization"
   },
-  "networkCount": 6,
-  "subscribersCount": 13,
+  "networkCount": 7,
+  "subscribersCount": 12,
   "status": 200,
   "packageJSON": {
     "name": "html-to-article-json",
@@ -123,17 +123,7 @@
     },
     "pre-commit": [
       "test:coverage"
-    ],
-    "other": {
-      "author": "mic.com",
-      "bugs": {
-        "url": "https://github.com/micnews/html-to-article-json/issues"
-      },
-      "directories": {
-        "example": "example",
-        "test": "test"
-      }
-    }
+    ]
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/micnews/html-to-article-json",
@@ -156,14 +146,6 @@
   "cloneUrl": "https://github.com/micnews/html-to-article-json.git",
   "svnUrl": "https://github.com/micnews/html-to-article-json",
   "mirrorUrl": null,
-  "contributors": [
-    "kesla",
-    "ellell",
-    "iefserge",
-    "greenkeeperio-bot",
-    "nazar",
-    "stuartforster"
-  ],
   "firstCommit": {
     "sha": "e6efe829af9ee525e395ae94a0c34f8978e2d06b",
     "commit": {
@@ -187,5 +169,6 @@
     }
   },
   "filename": "micnews___html-to-article-json.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:46:19.892Z"
 }

@@ -50,13 +50,9 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
-    "author": "Max Rittmüller",
     "bin": "lib/run.js",
-    "bugs": {
-      "url": "https://github.com/maxrimue/packe/issues"
-    },
     "cpu": [
       "x64",
       "ia32"
@@ -94,10 +90,7 @@
       "app"
     ],
     "preferGlobal": true,
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/maxrimue/packe.git"
-    },
+    "repository": "https://github.com/maxrimue/packe",
     "scripts": {
       "build": "node lib/build.js",
       "build-force": "node lib/build.js force",
@@ -105,10 +98,18 @@
       "start": "electron app/app.js",
       "test": "node lib/build.js"
     },
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "other": {
+      "author": "Max Rittmüller",
+      "bugs": {
+        "url": "https://github.com/maxrimue/packe/issues"
+      }
+    }
   },
   "packageStatus": 404,
   "contributors": [
     "maxrimue"
-  ]
+  ],
+  "filename": "maxrimue___packe.json",
+  "lastFetchedAt": "2017-05-04T15:17:14.376Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "yasumichi",
     "id": 802334,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/802334?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/802334?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/yasumichi",
     "htmlUrl": "https://github.com/yasumichi",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -99,9 +99,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "yasumichi"
-  ],
   "firstCommit": {
     "sha": "7c8b8b30b5071994064369dd88e2254b187e42a8",
     "commit": {
@@ -125,173 +122,6 @@
     }
   },
   "filename": "yasumichi___remark-editor.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/yasumichi/remark-editor/releases/3931590",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/yasumichi/remark-editor/releases/assets/2174011",
-          "id": 2174011,
-          "name": "remark-editor-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "yasumichi",
-            "id": 802334,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/802334?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/yasumichi",
-            "htmlUrl": "https://github.com/yasumichi",
-            "followersUrl": "https://api.github.com/users/yasumichi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/yasumichi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/yasumichi/orgs",
-            "reposUrl": "https://api.github.com/users/yasumichi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/yasumichi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 128414995,
-          "downloadCount": 1,
-          "createdAt": "2016-08-20T07:25:22.000Z",
-          "updatedAt": "2016-08-20T07:26:20.000Z",
-          "browserDownloadUrl": "https://github.com/yasumichi/remark-editor/releases/download/v0.1.0/remark-editor-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/yasumichi/remark-editor/releases/assets/2174013",
-          "id": 2174013,
-          "name": "remark-editor-linux-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "yasumichi",
-            "id": 802334,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/802334?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/yasumichi",
-            "htmlUrl": "https://github.com/yasumichi",
-            "followersUrl": "https://api.github.com/users/yasumichi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/yasumichi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/yasumichi/orgs",
-            "reposUrl": "https://api.github.com/users/yasumichi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/yasumichi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44906534,
-          "downloadCount": 0,
-          "createdAt": "2016-08-20T07:26:25.000Z",
-          "updatedAt": "2016-08-20T07:26:46.000Z",
-          "browserDownloadUrl": "https://github.com/yasumichi/remark-editor/releases/download/v0.1.0/remark-editor-linux-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/yasumichi/remark-editor/releases/assets/2174024",
-          "id": 2174024,
-          "name": "remark-editor-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "yasumichi",
-            "id": 802334,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/802334?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/yasumichi",
-            "htmlUrl": "https://github.com/yasumichi",
-            "followersUrl": "https://api.github.com/users/yasumichi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/yasumichi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/yasumichi/orgs",
-            "reposUrl": "https://api.github.com/users/yasumichi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/yasumichi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43770741,
-          "downloadCount": 1,
-          "createdAt": "2016-08-20T07:28:19.000Z",
-          "updatedAt": "2016-08-20T07:28:39.000Z",
-          "browserDownloadUrl": "https://github.com/yasumichi/remark-editor/releases/download/v0.1.0/remark-editor-linux-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/yasumichi/remark-editor/releases/assets/2174025",
-          "id": 2174025,
-          "name": "remark-editor-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "yasumichi",
-            "id": 802334,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/802334?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/yasumichi",
-            "htmlUrl": "https://github.com/yasumichi",
-            "followersUrl": "https://api.github.com/users/yasumichi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/yasumichi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/yasumichi/orgs",
-            "reposUrl": "https://api.github.com/users/yasumichi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/yasumichi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44301070,
-          "downloadCount": 0,
-          "createdAt": "2016-08-20T07:28:52.000Z",
-          "updatedAt": "2016-08-20T07:29:10.000Z",
-          "browserDownloadUrl": "https://github.com/yasumichi/remark-editor/releases/download/v0.1.0/remark-editor-win32-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/yasumichi/remark-editor/releases/assets/2174029",
-          "id": 2174029,
-          "name": "remark-editor-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "yasumichi",
-            "id": 802334,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/802334?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/yasumichi",
-            "htmlUrl": "https://github.com/yasumichi",
-            "followersUrl": "https://api.github.com/users/yasumichi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/yasumichi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/yasumichi/orgs",
-            "reposUrl": "https://api.github.com/users/yasumichi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/yasumichi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 54454505,
-          "downloadCount": 3,
-          "createdAt": "2016-08-20T07:30:18.000Z",
-          "updatedAt": "2016-08-20T07:30:52.000Z",
-          "browserDownloadUrl": "https://github.com/yasumichi/remark-editor/releases/download/v0.1.0/remark-editor-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/yasumichi/remark-editor/releases/3931590/assets",
-      "htmlUrl": "https://github.com/yasumichi/remark-editor/releases/tag/v0.1.0",
-      "id": 3931590,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "yasumichi",
-        "id": 802334,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/802334?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/yasumichi",
-        "htmlUrl": "https://github.com/yasumichi",
-        "followersUrl": "https://api.github.com/users/yasumichi/followers",
-        "subscriptionsUrl": "https://api.github.com/users/yasumichi/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/yasumichi/orgs",
-        "reposUrl": "https://api.github.com/users/yasumichi/repos",
-        "receivedEventsUrl": "https://api.github.com/users/yasumichi/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-20T06:00:24.000Z",
-      "publishedAt": "2016-08-20T07:35:57.000Z",
-      "tarballUrl": "https://api.github.com/repos/yasumichi/remark-editor/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/yasumichi/remark-editor/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:08:26.279Z"
 }

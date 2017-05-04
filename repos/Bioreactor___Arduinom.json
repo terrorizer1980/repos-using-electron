@@ -6,7 +6,7 @@
   "owner": {
     "login": "Bioreactor",
     "id": 5039831,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5039831?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5039831?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Bioreactor",
     "htmlUrl": "https://github.com/Bioreactor",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/Bioreactor/Arduinom",
-  "description": "node js tests for the bioreactor",
+  "description": "Nodej.js server to communicate with our arduino devices",
   "fork": false,
   "url": "https://api.github.com/repos/Bioreactor/Arduinom",
   "forksUrl": "https://api.github.com/repos/Bioreactor/Arduinom/forks",
@@ -36,14 +36,14 @@
   "downloadsUrl": "https://api.github.com/repos/Bioreactor/Arduinom/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Bioreactor/Arduinom/deployments",
   "createdAt": "2016-09-20T14:59:27.000Z",
-  "updatedAt": "2016-12-06T14:49:41.000Z",
-  "pushedAt": "2016-12-21T14:48:50.000Z",
+  "updatedAt": "2017-01-23T16:32:51.000Z",
+  "pushedAt": "2017-04-03T19:19:34.000Z",
   "gitUrl": "git://github.com/Bioreactor/Arduinom.git",
   "sshUrl": "git@github.com:Bioreactor/Arduinom.git",
   "cloneUrl": "https://github.com/Bioreactor/Arduinom.git",
   "svnUrl": "https://github.com/Bioreactor/Arduinom",
-  "homepage": null,
-  "size": 1143,
+  "homepage": "",
+  "size": 1125,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -53,8 +53,8 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 8,
-  "openIssues": 8,
+  "openIssuesCount": 9,
+  "openIssues": 9,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -66,7 +66,7 @@
   "organization": {
     "login": "Bioreactor",
     "id": 5039831,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5039831?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5039831?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Bioreactor",
     "htmlUrl": "https://github.com/Bioreactor",
@@ -128,17 +128,9 @@
       "serial",
       "arduino"
     ],
-    "license": "MIT",
-    "other": {
-      "author": "qcabrol"
-    }
+    "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "qcabrol",
-    "stropitek",
-    "lpatiny"
-  ],
   "firstCommit": {
     "sha": "89bb8312f84fa9587adba23c31e93d97fb18e5fc",
     "commit": {
@@ -161,5 +153,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:08:30.697Z"
 }

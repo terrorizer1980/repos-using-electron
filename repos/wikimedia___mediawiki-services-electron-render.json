@@ -5,7 +5,7 @@
   "owner": {
     "login": "wikimedia",
     "id": 56668,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/56668?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/56668?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wikimedia",
     "htmlUrl": "https://github.com/wikimedia",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/downloads",
   "deploymentsUrl": "https://api.github.com/repos/wikimedia/mediawiki-services-electron-render/deployments",
   "createdAt": "2016-08-11T00:28:50.000Z",
-  "updatedAt": "2016-08-11T00:30:28.000Z",
-  "pushedAt": "2016-08-11T14:24:00.000Z",
+  "updatedAt": "2016-11-29T16:45:21.000Z",
+  "pushedAt": "2017-03-22T21:26:37.000Z",
   "gitUrl": "git://github.com/wikimedia/mediawiki-services-electron-render.git",
   "sshUrl": "git@github.com:wikimedia/mediawiki-services-electron-render.git",
   "cloneUrl": "https://github.com/wikimedia/mediawiki-services-electron-render.git",
   "svnUrl": "https://github.com/wikimedia/mediawiki-services-electron-render",
   "homepage": null,
-  "size": 210,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 477,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": false,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "wikimedia",
     "id": 56668,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/56668?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/56668?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wikimedia",
     "htmlUrl": "https://github.com/wikimedia",
@@ -83,7 +83,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 11,
+  "subscribersCount": 9,
   "status": 200,
   "packageJSON": {
     "name": "electron-render-service",
@@ -146,12 +146,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "msokk",
-    "Reggino",
-    "ekristen",
-    "d00rman"
-  ],
   "firstCommit": {
     "sha": "ce65650e719f7f467f99c17ff05fa08810908445",
     "commit": {
@@ -176,5 +170,6 @@
   },
   "filename": "wikimedia___mediawiki-services-electron-render.json",
   "sourceRepo": "msokk/electron-render-service",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:25:20.082Z"
 }

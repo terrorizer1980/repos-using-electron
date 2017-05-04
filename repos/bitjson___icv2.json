@@ -5,7 +5,7 @@
   "owner": {
     "login": "bitjson",
     "id": 904007,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/904007?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/904007?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/bitjson",
     "htmlUrl": "https://github.com/bitjson",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "bitpay",
       "id": 2554930,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2554930?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/2554930?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/bitpay",
       "htmlUrl": "https://github.com/bitpay",
@@ -91,10 +91,11 @@
     "watchersCount": 1,
     "language": "TypeScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 10,
+    "forksCount": 11,
     "mirrorUrl": null,
     "openIssuesCount": 73,
     "openIssues": 73,
@@ -108,7 +109,7 @@
     "owner": {
       "login": "bitpay",
       "id": 2554930,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/2554930?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/2554930?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/bitpay",
       "htmlUrl": "https://github.com/bitpay",
@@ -150,17 +151,18 @@
     "watchersCount": 1,
     "language": "TypeScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 10,
+    "forksCount": 11,
     "mirrorUrl": null,
     "openIssuesCount": 73,
     "openIssues": 73,
     "watchers": 1,
     "defaultBranch": "master"
   },
-  "networkCount": 10,
+  "networkCount": 11,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -301,12 +303,6 @@
   "cloneUrl": "https://github.com/bitjson/icv2.git",
   "svnUrl": "https://github.com/bitjson/icv2",
   "mirrorUrl": null,
-  "contributors": [
-    "bitjson",
-    "greenkeeperio-bot",
-    "AJLiu",
-    "msalcala11"
-  ],
   "firstCommit": {
     "sha": "2d74b408925413e522516db57d3900c944b76057",
     "commit": {
@@ -331,5 +327,6 @@
   },
   "filename": "bitjson___icv2.json",
   "sourceRepo": "bitpay/icv2",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:27:27.326Z"
 }

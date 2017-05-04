@@ -5,7 +5,7 @@
   "owner": {
     "login": "andrewnaumann",
     "id": 1313818,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1313818?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1313818?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/andrewnaumann",
     "htmlUrl": "https://github.com/andrewnaumann",
@@ -98,22 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "andrewnaumann",
-    "kevinsawicki",
-    "tcyrus",
-    "izuzak",
-    "galeksandrp",
-    "clemens-tolboom",
-    "IonicaBizau",
-    "johnmuhl",
-    "phanect",
-    "Shriken",
-    "bokuweb",
-    "fscherwi",
-    "icoxfog417",
-    "laiso"
-  ],
   "firstCommit": {
     "sha": "f57f793148dd0cb96e8a3346a8af1d449c792bef",
     "commit": {
@@ -137,65 +121,6 @@
     }
   },
   "filename": "andrewnaumann___hotshot.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/andrewnaumann/hotshot/releases/2986943",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/andrewnaumann/hotshot/releases/assets/1529566",
-          "id": 1529566,
-          "name": "Hotshot.zip",
-          "label": null,
-          "uploader": {
-            "login": "andrewnaumann",
-            "id": 1313818,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1313818?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/andrewnaumann",
-            "htmlUrl": "https://github.com/andrewnaumann",
-            "followersUrl": "https://api.github.com/users/andrewnaumann/followers",
-            "subscriptionsUrl": "https://api.github.com/users/andrewnaumann/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/andrewnaumann/orgs",
-            "reposUrl": "https://api.github.com/users/andrewnaumann/repos",
-            "receivedEventsUrl": "https://api.github.com/users/andrewnaumann/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42686898,
-          "downloadCount": 11,
-          "createdAt": "2016-04-09T17:28:10.000Z",
-          "updatedAt": "2016-04-09T17:28:36.000Z",
-          "browserDownloadUrl": "https://github.com/andrewnaumann/hotshot/releases/download/0.3.1-alpha/Hotshot.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/andrewnaumann/hotshot/releases/2986943/assets",
-      "htmlUrl": "https://github.com/andrewnaumann/hotshot/releases/tag/0.3.1-alpha",
-      "id": 2986943,
-      "tagName": "0.3.1-alpha",
-      "targetCommitish": "master",
-      "name": "Hotshot",
-      "draft": false,
-      "author": {
-        "login": "andrewnaumann",
-        "id": 1313818,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1313818?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/andrewnaumann",
-        "htmlUrl": "https://github.com/andrewnaumann",
-        "followersUrl": "https://api.github.com/users/andrewnaumann/followers",
-        "subscriptionsUrl": "https://api.github.com/users/andrewnaumann/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/andrewnaumann/orgs",
-        "reposUrl": "https://api.github.com/users/andrewnaumann/repos",
-        "receivedEventsUrl": "https://api.github.com/users/andrewnaumann/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-04-09T17:23:14.000Z",
-      "publishedAt": "2016-04-09T17:28:45.000Z",
-      "tarballUrl": "https://api.github.com/repos/andrewnaumann/hotshot/tarball/0.3.1-alpha",
-      "zipballUrl": "https://api.github.com/repos/andrewnaumann/hotshot/zipball/0.3.1-alpha",
-      "body": "v0.3.1-alpha\n\n#### Release Notes\n- Fix a bug that would cause shots to not reload properly on showing the window.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:29:49.246Z"
 }

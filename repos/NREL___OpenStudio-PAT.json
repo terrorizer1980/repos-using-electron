@@ -5,7 +5,7 @@
   "owner": {
     "login": "NREL",
     "id": 1906800,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1906800?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1906800?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/NREL",
     "htmlUrl": "https://github.com/NREL",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/NREL/OpenStudio-PAT/downloads",
   "deploymentsUrl": "https://api.github.com/repos/NREL/OpenStudio-PAT/deployments",
   "createdAt": "2015-11-05T19:15:36.000Z",
-  "updatedAt": "2016-10-25T18:47:23.000Z",
-  "pushedAt": "2016-11-16T18:02:29.000Z",
+  "updatedAt": "2017-03-30T14:49:46.000Z",
+  "pushedAt": "2017-05-01T17:03:48.000Z",
   "gitUrl": "git://github.com/NREL/OpenStudio-PAT.git",
   "sshUrl": "git@github.com:NREL/OpenStudio-PAT.git",
   "cloneUrl": "https://github.com/NREL/OpenStudio-PAT.git",
   "svnUrl": "https://github.com/NREL/OpenStudio-PAT",
   "homepage": null,
-  "size": 2350,
-  "stargazersCount": 3,
-  "watchersCount": 3,
-  "language": "JavaScript",
-  "hasIssues": true,
+  "size": 34899,
+  "stargazersCount": 7,
+  "watchersCount": 7,
+  "language": "Ruby",
+  "hasIssues": false,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 5,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 7,
   "defaultBranch": "develop",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "NREL",
     "id": 1906800,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1906800?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1906800?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/NREL",
     "htmlUrl": "https://github.com/NREL",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/NREL/received_events",
     "type": "Organization"
   },
-  "networkCount": 1,
-  "subscribersCount": 3,
+  "networkCount": 5,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "devDependencies": {
@@ -165,14 +165,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "kflemin",
-    "evanweaver",
-    "axelstudios",
-    "kbenne",
-    "asparke2",
-    "macumber"
-  ],
   "firstCommit": {
     "sha": "b0f878c340115f5ee0e9a7f421b8ccbd2f8643bb",
     "commit": {
@@ -196,37 +188,6 @@
     }
   },
   "filename": "NREL___OpenStudio-PAT.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/NREL/OpenStudio-PAT/releases/4981284",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/NREL/OpenStudio-PAT/releases/4981284/assets",
-      "htmlUrl": "https://github.com/NREL/OpenStudio-PAT/releases/tag/v2.0.0",
-      "id": 4981284,
-      "tagName": "v2.0.0",
-      "targetCommitish": "develop",
-      "name": "Release for OpenStudio 2.0.0",
-      "draft": false,
-      "author": {
-        "login": "macumber",
-        "id": 1327850,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1327850?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/macumber",
-        "htmlUrl": "https://github.com/macumber",
-        "followersUrl": "https://api.github.com/users/macumber/followers",
-        "subscriptionsUrl": "https://api.github.com/users/macumber/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/macumber/orgs",
-        "reposUrl": "https://api.github.com/users/macumber/repos",
-        "receivedEventsUrl": "https://api.github.com/users/macumber/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-21T15:43:38.000Z",
-      "publishedAt": "2016-12-21T15:45:01.000Z",
-      "tarballUrl": "https://api.github.com/repos/NREL/OpenStudio-PAT/tarball/v2.0.0",
-      "zipballUrl": "https://api.github.com/repos/NREL/OpenStudio-PAT/zipball/v2.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:41:43.919Z"
 }

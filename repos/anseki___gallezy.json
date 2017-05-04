@@ -5,7 +5,7 @@
   "owner": {
     "login": "anseki",
     "id": 4763469,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4763469?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4763469?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/anseki",
     "htmlUrl": "https://github.com/anseki",
@@ -20,10 +20,10 @@
   "description": "Super Simple Image Gallery App",
   "fork": false,
   "createdAt": "2016-04-03T12:15:16.000Z",
-  "updatedAt": "2016-04-03T17:12:59.000Z",
-  "pushedAt": "2016-05-07T08:57:48.000Z",
-  "homepage": "http://anseki.github.io/gallezy/",
-  "size": 710834,
+  "updatedAt": "2017-03-20T14:32:14.000Z",
+  "pushedAt": "2017-04-04T18:06:11.000Z",
+  "homepage": "https://anseki.github.io/gallezy/",
+  "size": 710847,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -41,7 +41,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -87,9 +93,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "anseki"
-  ],
   "firstCommit": {
     "sha": "a0a283ec640a148527d6638a9bdd3e7831182033",
     "commit": {
@@ -113,5 +116,26 @@
     }
   },
   "filename": "anseki___gallezy.json",
-  "releases": []
+  "htmlUrl": "https://github.com/anseki/gallezy",
+  "url": "https://api.github.com/repos/anseki/gallezy",
+  "forksUrl": "https://api.github.com/repos/anseki/gallezy/forks",
+  "teamsUrl": "https://api.github.com/repos/anseki/gallezy/teams",
+  "hooksUrl": "https://api.github.com/repos/anseki/gallezy/hooks",
+  "eventsUrl": "https://api.github.com/repos/anseki/gallezy/events",
+  "tagsUrl": "https://api.github.com/repos/anseki/gallezy/tags",
+  "languagesUrl": "https://api.github.com/repos/anseki/gallezy/languages",
+  "stargazersUrl": "https://api.github.com/repos/anseki/gallezy/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/anseki/gallezy/contributors",
+  "subscribersUrl": "https://api.github.com/repos/anseki/gallezy/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/anseki/gallezy/subscription",
+  "mergesUrl": "https://api.github.com/repos/anseki/gallezy/merges",
+  "downloadsUrl": "https://api.github.com/repos/anseki/gallezy/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/anseki/gallezy/deployments",
+  "gitUrl": "git://github.com/anseki/gallezy.git",
+  "sshUrl": "git@github.com:anseki/gallezy.git",
+  "cloneUrl": "https://github.com/anseki/gallezy.git",
+  "svnUrl": "https://github.com/anseki/gallezy",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:29:50.490Z"
 }

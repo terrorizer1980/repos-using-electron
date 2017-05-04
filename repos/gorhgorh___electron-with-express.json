@@ -162,7 +162,7 @@
   },
   "networkCount": 12,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-with-express",
     "description": "Demonstrates spawning Express from Electron and using it to serve content",
@@ -194,5 +194,7 @@
   "contributors": [
     "frankhale",
     "gorhgorh"
-  ]
+  ],
+  "filename": "gorhgorh___electron-with-express.json",
+  "lastFetchedAt": "2017-05-04T14:54:25.276Z"
 }

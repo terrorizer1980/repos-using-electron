@@ -5,7 +5,7 @@
   "owner": {
     "login": "nadu",
     "id": 395052,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/395052?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/395052?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nadu",
     "htmlUrl": "https://github.com/nadu",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/nadu/fj_typer",
-  "description": "Learn touchtyping",
+  "description": "Touchtyping teacher for people with visual impairments",
   "fork": false,
   "url": "https://api.github.com/repos/nadu/fj_typer",
   "forksUrl": "https://api.github.com/repos/nadu/fj_typer/forks",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/nadu/fj_typer/downloads",
   "deploymentsUrl": "https://api.github.com/repos/nadu/fj_typer/deployments",
   "createdAt": "2016-08-13T09:00:10.000Z",
-  "updatedAt": "2016-11-09T00:56:05.000Z",
-  "pushedAt": "2016-11-12T04:36:26.000Z",
+  "updatedAt": "2017-03-29T21:17:48.000Z",
+  "pushedAt": "2017-03-29T22:25:26.000Z",
   "gitUrl": "git://github.com/nadu/fj_typer.git",
   "sshUrl": "git@github.com:nadu/fj_typer.git",
   "cloneUrl": "https://github.com/nadu/fj_typer.git",
   "svnUrl": "https://github.com/nadu/fj_typer",
-  "homepage": null,
-  "size": 795,
+  "homepage": "",
+  "size": 1462,
   "stargazersCount": 1,
   "watchersCount": 1,
-  "language": "CSS",
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -110,9 +110,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "nadu"
-  ],
   "firstCommit": {
     "sha": "013b53085a77b0ee7dd06dc1542ac85499496b92",
     "commit": {
@@ -136,37 +133,6 @@
     }
   },
   "filename": "nadu___fj_typer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/nadu/fj_typer/releases/3915476",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/nadu/fj_typer/releases/3915476/assets",
-      "htmlUrl": "https://github.com/nadu/fj_typer/releases/tag/v0.1.0-beta",
-      "id": 3915476,
-      "tagName": "v0.1.0-beta",
-      "targetCommitish": "master",
-      "name": "First cut pre-release",
-      "draft": false,
-      "author": {
-        "login": "nadu",
-        "id": 395052,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/395052?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/nadu",
-        "htmlUrl": "https://github.com/nadu",
-        "followersUrl": "https://api.github.com/users/nadu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/nadu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/nadu/orgs",
-        "reposUrl": "https://api.github.com/users/nadu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/nadu/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-18T10:39:18.000Z",
-      "publishedAt": "2016-08-18T10:41:16.000Z",
-      "tarballUrl": "https://api.github.com/repos/nadu/fj_typer/tarball/v0.1.0-beta",
-      "zipballUrl": "https://api.github.com/repos/nadu/fj_typer/zipball/v0.1.0-beta",
-      "body": "##Duronto Type v0.1.0 Release\n\nAn accessible touch typing tutor built with Electron. \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:16:16.174Z"
 }

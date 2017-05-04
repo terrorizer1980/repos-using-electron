@@ -64,11 +64,6 @@
     "version": "0.0.1",
     "description": "A friendly desktop git client for OS X, Linux and Windows.",
     "keywords": "git client electron atom-shell",
-    "author": {
-      "name": "Daniel Baker",
-      "email": "danbaker@me.com",
-      "twitter": "@coffeedoughnuts"
-    },
     "scripts": {
       "start": "SOURCEY_ENV=dev node scripts/dev-start.js",
       "build": "node scripts/build.js"
@@ -83,7 +78,16 @@
       "glob": "^5.0.14",
       "moment": "^2.10.6",
       "rsync": "^0.4.0"
+    },
+    "other": {
+      "author": {
+        "name": "Daniel Baker",
+        "email": "danbaker@me.com",
+        "twitter": "@coffeedoughnuts"
+      }
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "sourceyapp___sourcey.json",
+  "lastFetchedAt": "2017-05-04T15:30:49.962Z"
 }

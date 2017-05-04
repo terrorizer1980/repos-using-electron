@@ -5,7 +5,7 @@
   "owner": {
     "login": "Urucas",
     "id": 4325735,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4325735?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4325735?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Urucas",
     "htmlUrl": "https://github.com/Urucas",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/Urucas/easytaxi-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Urucas/easytaxi-app/deployments",
   "createdAt": "2016-04-13T03:04:43.000Z",
-  "updatedAt": "2016-09-18T23:49:45.000Z",
+  "updatedAt": "2017-03-15T01:57:35.000Z",
   "pushedAt": "2016-07-19T23:36:28.000Z",
   "gitUrl": "git://github.com/Urucas/easytaxi-app.git",
   "sshUrl": "git@github.com:Urucas/easytaxi-app.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/Urucas/easytaxi-app",
   "homepage": null,
   "size": 380,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "Urucas",
     "id": 4325735,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4325735?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4325735?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Urucas",
     "htmlUrl": "https://github.com/Urucas",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/Urucas/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 2,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -108,9 +108,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "vrunoa"
-  ],
   "firstCommit": {
     "sha": "b419b42d46048a6ce89e1e10d2cbb99c54f288f6",
     "commit": {
@@ -134,65 +131,6 @@
     }
   },
   "filename": "Urucas___easytaxi-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Urucas/easytaxi-app/releases/3695335",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Urucas/easytaxi-app/releases/assets/2016201",
-          "id": 2016201,
-          "name": "easytaxi-app-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "vrunoa",
-            "id": 329957,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/329957?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/vrunoa",
-            "htmlUrl": "https://github.com/vrunoa",
-            "followersUrl": "https://api.github.com/users/vrunoa/followers",
-            "subscriptionsUrl": "https://api.github.com/users/vrunoa/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/vrunoa/orgs",
-            "reposUrl": "https://api.github.com/users/vrunoa/repos",
-            "receivedEventsUrl": "https://api.github.com/users/vrunoa/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43960754,
-          "downloadCount": 4,
-          "createdAt": "2016-07-19T23:09:41.000Z",
-          "updatedAt": "2016-07-19T23:13:18.000Z",
-          "browserDownloadUrl": "https://github.com/Urucas/easytaxi-app/releases/download/v0.0.2/easytaxi-app-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Urucas/easytaxi-app/releases/3695335/assets",
-      "htmlUrl": "https://github.com/Urucas/easytaxi-app/releases/tag/v0.0.2",
-      "id": 3695335,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "Release for Darwin x64",
-      "draft": false,
-      "author": {
-        "login": "vrunoa",
-        "id": 329957,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/329957?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/vrunoa",
-        "htmlUrl": "https://github.com/vrunoa",
-        "followersUrl": "https://api.github.com/users/vrunoa/followers",
-        "subscriptionsUrl": "https://api.github.com/users/vrunoa/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/vrunoa/orgs",
-        "reposUrl": "https://api.github.com/users/vrunoa/repos",
-        "receivedEventsUrl": "https://api.github.com/users/vrunoa/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-07-19T23:06:55.000Z",
-      "publishedAt": "2016-07-19T23:35:00.000Z",
-      "tarballUrl": "https://api.github.com/repos/Urucas/easytaxi-app/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/Urucas/easytaxi-app/zipball/v0.0.2",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:17:41.021Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "SIXNetworks",
     "id": 2471521,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2471521?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2471521?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SIXNetworks",
     "htmlUrl": "https://github.com/SIXNetworks",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/SIXNetworks/withSIX.UI/deployments",
   "createdAt": "2015-10-30T09:02:07.000Z",
   "updatedAt": "2016-10-22T13:46:12.000Z",
-  "pushedAt": "2016-11-16T19:52:56.000Z",
+  "pushedAt": "2017-04-29T16:43:46.000Z",
   "gitUrl": "git://github.com/SIXNetworks/withSIX.UI.git",
   "sshUrl": "git@github.com:SIXNetworks/withSIX.UI.git",
   "cloneUrl": "https://github.com/SIXNetworks/withSIX.UI.git",
   "svnUrl": "https://github.com/SIXNetworks/withSIX.UI",
   "homepage": "http://withsix.com",
-  "size": 1926,
+  "size": 1483,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "TypeScript",
@@ -65,7 +65,7 @@
   "organization": {
     "login": "SIXNetworks",
     "id": 2471521,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2471521?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2471521?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SIXNetworks",
     "htmlUrl": "https://github.com/SIXNetworks",
@@ -137,9 +137,6 @@
     "repository": "https://github.com/SIXNetworks/withSIX.UI"
   },
   "packageStatus": 200,
-  "contributors": [
-    "sickboy"
-  ],
   "firstCommit": {
     "sha": "ad04e5e55d7fbeba2000d71485343d20aa0bb571",
     "commit": {
@@ -163,68 +160,6 @@
     }
   },
   "filename": "SIXNetworks___withSIX.UI.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/SIXNetworks/withSIX.UI/releases/3411263",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/SIXNetworks/withSIX.UI/releases/3411263/assets",
-      "htmlUrl": "https://github.com/SIXNetworks/withSIX.UI/releases/tag/v1.2.3-beta.2",
-      "id": 3411263,
-      "tagName": "v1.2.3-beta.2",
-      "targetCommitish": "master",
-      "name": "v1.2.3-beta2",
-      "draft": false,
-      "author": {
-        "login": "patroza",
-        "id": 42661,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/42661?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/patroza",
-        "htmlUrl": "https://github.com/patroza",
-        "followersUrl": "https://api.github.com/users/patroza/followers",
-        "subscriptionsUrl": "https://api.github.com/users/patroza/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/patroza/orgs",
-        "reposUrl": "https://api.github.com/users/patroza/repos",
-        "receivedEventsUrl": "https://api.github.com/users/patroza/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-06-09T16:48:15.000Z",
-      "publishedAt": "2016-06-09T17:23:42.000Z",
-      "tarballUrl": "https://api.github.com/repos/SIXNetworks/withSIX.UI/tarball/v1.2.3-beta.2",
-      "zipballUrl": "https://api.github.com/repos/SIXNetworks/withSIX.UI/zipball/v1.2.3-beta.2",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/SIXNetworks/withSIX.UI/releases/3411260",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/SIXNetworks/withSIX.UI/releases/3411260/assets",
-      "htmlUrl": "https://github.com/SIXNetworks/withSIX.UI/releases/tag/v1.1.18",
-      "id": 3411260,
-      "tagName": "v1.1.18",
-      "targetCommitish": "master",
-      "name": "v1.1.18",
-      "draft": false,
-      "author": {
-        "login": "patroza",
-        "id": 42661,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/42661?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/patroza",
-        "htmlUrl": "https://github.com/patroza",
-        "followersUrl": "https://api.github.com/users/patroza/followers",
-        "subscriptionsUrl": "https://api.github.com/users/patroza/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/patroza/orgs",
-        "reposUrl": "https://api.github.com/users/patroza/repos",
-        "receivedEventsUrl": "https://api.github.com/users/patroza/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-09T16:49:07.000Z",
-      "publishedAt": "2016-06-09T17:23:25.000Z",
-      "tarballUrl": "https://api.github.com/repos/SIXNetworks/withSIX.UI/tarball/v1.1.18",
-      "zipballUrl": "https://api.github.com/repos/SIXNetworks/withSIX.UI/zipball/v1.1.18",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:48:49.447Z"
 }

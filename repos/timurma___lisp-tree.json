@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "lisp-tree",
     "version": "0.0.1",
@@ -73,26 +73,27 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/timurma/lisp-tree.git"
-    },
+    "repository": "https://github.com/timurma/lisp-tree",
     "keywords": [
       "Lisp",
       "Tree"
     ],
-    "author": "Timur",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": ""
-    },
     "homepage": "https://github.com/timurma/lisp-tree.git#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "Timur",
+      "bugs": {
+        "url": ""
+      }
     }
   },
   "packageStatus": 200,
   "contributors": [
     "timurma"
-  ]
+  ],
+  "filename": "timurma___lisp-tree.json",
+  "lastFetchedAt": "2017-05-04T20:49:16.219Z"
 }

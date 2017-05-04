@@ -1,11 +1,11 @@
 {
   "id": 52839605,
-  "name": "Kugou",
-  "fullName": "chunmu/Kugou",
+  "name": "package",
+  "fullName": "chunmu/package",
   "owner": {
     "login": "chunmu",
     "id": 14954689,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/14954689?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/14954689?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/chunmu",
     "htmlUrl": "https://github.com/chunmu",
@@ -17,16 +17,16 @@
     "type": "User"
   },
   "private": false,
-  "description": "it's a simple music player with electron......",
+  "description": "it's a simple pkg app built with electron+webpack+angular2",
   "fork": false,
   "createdAt": "2016-03-01T01:53:04.000Z",
-  "updatedAt": "2016-07-18T14:55:57.000Z",
-  "pushedAt": "2016-03-12T06:54:54.000Z",
-  "homepage": null,
-  "size": 901,
+  "updatedAt": "2016-11-06T09:19:49.000Z",
+  "pushedAt": "2016-12-21T01:33:22.000Z",
+  "homepage": "",
+  "size": 37702,
   "stargazersCount": 1,
   "watchersCount": 1,
-  "language": "JavaScript",
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -117,10 +117,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "13087233851",
-    "chunmu"
-  ],
   "firstCommit": {
     "sha": "3e62f4abcad1c49c464f8ddaae11fc60a5d351f3",
     "commit": {
@@ -144,5 +140,26 @@
     }
   },
   "filename": "chunmu___Kugou.json",
-  "releases": []
+  "htmlUrl": "https://github.com/chunmu/package",
+  "url": "https://api.github.com/repos/chunmu/package",
+  "forksUrl": "https://api.github.com/repos/chunmu/package/forks",
+  "teamsUrl": "https://api.github.com/repos/chunmu/package/teams",
+  "hooksUrl": "https://api.github.com/repos/chunmu/package/hooks",
+  "eventsUrl": "https://api.github.com/repos/chunmu/package/events",
+  "tagsUrl": "https://api.github.com/repos/chunmu/package/tags",
+  "languagesUrl": "https://api.github.com/repos/chunmu/package/languages",
+  "stargazersUrl": "https://api.github.com/repos/chunmu/package/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/chunmu/package/contributors",
+  "subscribersUrl": "https://api.github.com/repos/chunmu/package/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/chunmu/package/subscription",
+  "mergesUrl": "https://api.github.com/repos/chunmu/package/merges",
+  "downloadsUrl": "https://api.github.com/repos/chunmu/package/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/chunmu/package/deployments",
+  "gitUrl": "git://github.com/chunmu/package.git",
+  "sshUrl": "git@github.com:chunmu/package.git",
+  "cloneUrl": "https://github.com/chunmu/package.git",
+  "svnUrl": "https://github.com/chunmu/package",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:28:39.866Z"
 }

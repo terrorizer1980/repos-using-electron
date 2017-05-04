@@ -5,7 +5,7 @@
   "owner": {
     "login": "dylan-cooper",
     "id": 9642887,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9642887?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/9642887?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dylan-cooper",
     "htmlUrl": "https://github.com/dylan-cooper",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/dylan-cooper/node-osx-prefs/downloads",
   "deploymentsUrl": "https://api.github.com/repos/dylan-cooper/node-osx-prefs/deployments",
   "createdAt": "2016-03-05T19:27:10.000Z",
-  "updatedAt": "2016-03-05T19:31:01.000Z",
+  "updatedAt": "2017-02-04T02:38:56.000Z",
   "pushedAt": "2016-03-05T20:27:08.000Z",
   "gitUrl": "git://github.com/dylan-cooper/node-osx-prefs.git",
   "sshUrl": "git@github.com:dylan-cooper/node-osx-prefs.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/dylan-cooper/node-osx-prefs",
   "homepage": null,
   "size": 120,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -97,19 +97,9 @@
     "license": "MIT",
     "devDependencies": {
       "mocha": "^2.4.5"
-    },
-    "other": {
-      "author": {
-        "name": "Dylan Cooper",
-        "email": "dcoope05@mail.uoguelph.ca",
-        "url": ""
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "dylan-cooper"
-  ],
   "firstCommit": {
     "sha": "b543a027e324be8715341c04f70f19ec8e672b6c",
     "commit": {
@@ -133,5 +123,6 @@
     }
   },
   "filename": "dylan-cooper___node-osx-prefs.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:21:32.042Z"
 }

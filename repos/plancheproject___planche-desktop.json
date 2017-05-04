@@ -1,11 +1,11 @@
 {
-  "id": 61695621,
+  "id": 76732336,
   "name": "planche-desktop",
   "fullName": "plancheproject/planche-desktop",
   "owner": {
     "login": "plancheproject",
     "id": 12442508,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12442508?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/12442508?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/plancheproject",
     "htmlUrl": "https://github.com/plancheproject",
@@ -17,15 +17,15 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "planche desktop application",
+  "description": "Planche for desktop version",
   "fork": false,
-  "createdAt": "2016-06-22T06:46:43.000Z",
-  "updatedAt": "2016-09-07T07:19:59.000Z",
-  "pushedAt": "2016-06-23T02:29:31.000Z",
+  "createdAt": "2016-12-17T15:46:04.000Z",
+  "updatedAt": "2016-12-17T16:19:39.000Z",
+  "pushedAt": "2016-12-17T16:19:38.000Z",
   "homepage": null,
-  "size": 206252,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 966,
+  "stargazersCount": 0,
+  "watchersCount": 0,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 2,
+  "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,16 +42,16 @@
     "pull": true
   },
   "license": {
-    "key": "gpl-3.0",
-    "name": "GNU General Public License v3.0",
-    "spdxId": "GPL-3.0",
-    "url": "https://api.github.com/licenses/gpl-3.0",
-    "featured": true
+    "key": "cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal",
+    "spdxId": "CC0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "featured": false
   },
   "organization": {
     "login": "plancheproject",
     "id": 12442508,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12442508?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/12442508?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/plancheproject",
     "htmlUrl": "https://github.com/plancheproject",
@@ -134,9 +134,6 @@
   "cloneUrl": "https://github.com/plancheproject/planche-desktop.git",
   "svnUrl": "https://github.com/plancheproject/planche-desktop",
   "mirrorUrl": null,
-  "contributors": [
-    "jeongjuwon"
-  ],
   "firstCommit": {
     "sha": "6b7b3a1d615dce28e2a2a620c03d0f1746547f81",
     "commit": {
@@ -160,5 +157,6 @@
     }
   },
   "filename": "plancheproject___planche-desktop.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:12:39.407Z"
 }

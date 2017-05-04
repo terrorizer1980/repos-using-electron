@@ -5,7 +5,7 @@
   "owner": {
     "login": "yosriady",
     "id": 1084226,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1084226?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1084226?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/yosriady",
     "htmlUrl": "https://github.com/yosriady",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/yosriady/datatron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/yosriady/datatron/deployments",
   "createdAt": "2016-01-23T10:31:54.000Z",
-  "updatedAt": "2016-11-15T03:04:40.000Z",
+  "updatedAt": "2017-04-11T17:06:34.000Z",
   "pushedAt": "2016-01-24T06:55:52.000Z",
   "gitUrl": "git://github.com/yosriady/datatron.git",
   "sshUrl": "git@github.com:yosriady/datatron.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/yosriady/datatron",
   "homepage": "http://yosriady.com/2016/01/25/datatron-data-science-for-everyone/",
   "size": 408,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -99,19 +99,9 @@
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
       "electron-rebuild": "^1.1.1"
-    },
-    "other": {
-      "author": "GitHub",
-      "bugs": {
-        "url": "https://github.com/atom/electron-quick-start/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "cl-",
-    "yosriady"
-  ],
   "firstCommit": {
     "sha": "fa0ab55e9475c0be0f85c4525dbe30a1900106c2",
     "commit": {
@@ -135,5 +125,6 @@
     }
   },
   "filename": "yosriady___datatron.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:51:01.461Z"
 }

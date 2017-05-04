@@ -58,7 +58,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 9,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "scalemon",
     "productName": "ScaleMon",
@@ -84,12 +84,6 @@
     },
     "devDependencies": {
       "electron-packager": "^7.2.0"
-    },
-    "other": {
-      "author": "Okode",
-      "bugs": {
-        "url": "https://github.com/okode/scalemon/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +112,6 @@
       "commentCount": 0
     }
   },
-  "filename": "okode___scalemon.json"
+  "filename": "okode___scalemon.json",
+  "lastFetchedAt": "2017-05-04T05:25:06.047Z"
 }

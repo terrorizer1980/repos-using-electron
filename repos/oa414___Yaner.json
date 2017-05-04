@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "scripts": {
       "postinstall": "cd app && npm install",
@@ -206,5 +206,6 @@
   },
   "filename": "oa414___Yaner.json",
   "sourceRepo": "synthetos/TinyG-Updater",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T20:44:07.718Z"
 }

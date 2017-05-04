@@ -5,7 +5,7 @@
   "owner": {
     "login": "unindented",
     "id": 69485,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/69485?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/69485?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/unindented",
     "htmlUrl": "https://github.com/unindented",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/downloads",
   "deploymentsUrl": "https://api.github.com/repos/unindented/electron-installer-redhat/deployments",
   "createdAt": "2016-01-28T17:39:04.000Z",
-  "updatedAt": "2016-11-03T13:08:25.000Z",
-  "pushedAt": "2016-11-16T07:46:11.000Z",
+  "updatedAt": "2017-01-27T16:37:14.000Z",
+  "pushedAt": "2017-05-03T14:57:34.000Z",
   "gitUrl": "git://github.com/unindented/electron-installer-redhat.git",
   "sshUrl": "git@github.com:unindented/electron-installer-redhat.git",
   "cloneUrl": "https://github.com/unindented/electron-installer-redhat.git",
   "svnUrl": "https://github.com/unindented/electron-installer-redhat",
   "homepage": null,
-  "size": 1080,
-  "stargazersCount": 12,
-  "watchersCount": 12,
+  "size": 1082,
+  "stargazersCount": 15,
+  "watchersCount": 15,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 7,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 12,
+  "openIssuesCount": 12,
+  "openIssues": 12,
+  "watchers": 15,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 5,
+  "networkCount": 7,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -115,22 +115,9 @@
       "mocha": "^3.0.0",
       "retry": "^0.10.0",
       "rimraf": "^2.5.1"
-    },
-    "other": {
-      "author": {
-        "name": "Daniel Perez Alvarez",
-        "email": "unindented@gmail.com",
-        "url": "http://unindented.org/"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "unindented",
-    "greenkeeperio-bot",
-    "da2x",
-    "willy-b"
-  ],
   "firstCommit": {
     "sha": "90160926d17e79b5b2d902b899a6025cbf5977a6",
     "commit": {
@@ -154,5 +141,6 @@
     }
   },
   "filename": "unindented___electron-installer-redhat.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:28:17.520Z"
 }

@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "muki-desktop",
     "productName": "Muki",
@@ -62,18 +62,7 @@
     "bin": {
       "muki": "./scripts/cmd.js"
     },
-    "bugs": {
-      "url": "https://github.com/firejune/muki-desktop/issues"
-    },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/firejune/muki-desktop.git"
-    },
-    "author": {
-      "name": "Joon Kyoung",
-      "email": "to@firejune.com",
-      "url": "http://firejune.com"
-    },
+    "repository": "https://github.com/firejune/muki-desktop",
     "dependencies": {
       "configstore": "*",
       "jquery": "2.x",
@@ -119,7 +108,19 @@
       "lint": "eslint src",
       "build": "npm install && npm prune && npm dedupe && node ./scripts/build.js",
       "clean": "node ./scripts/clean.js"
+    },
+    "other": {
+      "author": {
+        "name": "Joon Kyoung",
+        "email": "to@firejune.com",
+        "url": "http://firejune.com"
+      },
+      "bugs": {
+        "url": "https://github.com/firejune/muki-desktop/issues"
+      }
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "firejune___muki-desktop.json",
+  "lastFetchedAt": "2017-05-04T20:16:44.452Z"
 }

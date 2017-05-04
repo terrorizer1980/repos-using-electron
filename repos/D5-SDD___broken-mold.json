@@ -5,7 +5,7 @@
   "owner": {
     "login": "D5-SDD",
     "id": 22227306,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22227306?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/22227306?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/D5-SDD",
     "htmlUrl": "https://github.com/D5-SDD",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/D5-SDD/broken-mold/downloads",
   "deploymentsUrl": "https://api.github.com/repos/D5-SDD/broken-mold/deployments",
   "createdAt": "2016-09-22T23:19:04.000Z",
-  "updatedAt": "2016-10-24T20:12:33.000Z",
-  "pushedAt": "2016-11-03T22:18:32.000Z",
+  "updatedAt": "2017-03-03T06:16:56.000Z",
+  "pushedAt": "2016-12-08T22:18:34.000Z",
   "gitUrl": "git://github.com/D5-SDD/broken-mold.git",
   "sshUrl": "git@github.com:D5-SDD/broken-mold.git",
   "cloneUrl": "https://github.com/D5-SDD/broken-mold.git",
   "svnUrl": "https://github.com/D5-SDD/broken-mold",
   "homepage": "",
-  "size": 346,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 608,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 2,
-  "openIssues": 2,
-  "watchers": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "D5-SDD",
     "id": 22227306,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22227306?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/22227306?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/D5-SDD",
     "htmlUrl": "https://github.com/D5-SDD",
@@ -131,13 +131,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "williamgrh",
-    "MikeDiBuduo",
-    "sjdsamdavis",
-    "paulchorba",
-    "MAS820"
-  ],
   "firstCommit": {
     "sha": "7a7568c2a5522834e1e7c5123e283f3f96996315",
     "commit": {
@@ -161,124 +154,6 @@
     }
   },
   "filename": "D5-SDD___broken-mold.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/D5-SDD/broken-mold/releases/4872458",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/D5-SDD/broken-mold/releases/assets/2792038",
-          "id": 2792038,
-          "name": "Broken.Mold-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "MikeDiBuduo",
-            "id": 2007560,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2007560?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MikeDiBuduo",
-            "htmlUrl": "https://github.com/MikeDiBuduo",
-            "followersUrl": "https://api.github.com/users/MikeDiBuduo/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MikeDiBuduo/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MikeDiBuduo/orgs",
-            "reposUrl": "https://api.github.com/users/MikeDiBuduo/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MikeDiBuduo/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 56576052,
-          "downloadCount": 1,
-          "createdAt": "2016-12-08T22:18:11.000Z",
-          "updatedAt": "2016-12-08T22:18:33.000Z",
-          "browserDownloadUrl": "https://github.com/D5-SDD/broken-mold/releases/download/0.1.1/Broken.Mold-win32-ia32.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/D5-SDD/broken-mold/releases/4872458/assets",
-      "htmlUrl": "https://github.com/D5-SDD/broken-mold/releases/tag/0.1.1",
-      "id": 4872458,
-      "tagName": "0.1.1",
-      "targetCommitish": "master",
-      "name": "Broken Mold",
-      "draft": false,
-      "author": {
-        "login": "MikeDiBuduo",
-        "id": 2007560,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2007560?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/MikeDiBuduo",
-        "htmlUrl": "https://github.com/MikeDiBuduo",
-        "followersUrl": "https://api.github.com/users/MikeDiBuduo/followers",
-        "subscriptionsUrl": "https://api.github.com/users/MikeDiBuduo/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/MikeDiBuduo/orgs",
-        "reposUrl": "https://api.github.com/users/MikeDiBuduo/repos",
-        "receivedEventsUrl": "https://api.github.com/users/MikeDiBuduo/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-08T22:03:13.000Z",
-      "publishedAt": "2016-12-08T22:18:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/D5-SDD/broken-mold/tarball/0.1.1",
-      "zipballUrl": "https://api.github.com/repos/D5-SDD/broken-mold/zipball/0.1.1",
-      "body": "Minor bug fixes with DM editing\n"
-    },
-    {
-      "url": "https://api.github.com/repos/D5-SDD/broken-mold/releases/4871362",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/D5-SDD/broken-mold/releases/assets/2791846",
-          "id": 2791846,
-          "name": "Broken.Mold-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "MikeDiBuduo",
-            "id": 2007560,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2007560?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MikeDiBuduo",
-            "htmlUrl": "https://github.com/MikeDiBuduo",
-            "followersUrl": "https://api.github.com/users/MikeDiBuduo/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MikeDiBuduo/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MikeDiBuduo/orgs",
-            "reposUrl": "https://api.github.com/users/MikeDiBuduo/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MikeDiBuduo/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 56576736,
-          "downloadCount": 0,
-          "createdAt": "2016-12-08T21:48:18.000Z",
-          "updatedAt": "2016-12-08T21:48:47.000Z",
-          "browserDownloadUrl": "https://github.com/D5-SDD/broken-mold/releases/download/0.1.0/Broken.Mold-win32-ia32.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/D5-SDD/broken-mold/releases/4871362/assets",
-      "htmlUrl": "https://github.com/D5-SDD/broken-mold/releases/tag/0.1.0",
-      "id": 4871362,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "Broken Mold 0.1.0",
-      "draft": false,
-      "author": {
-        "login": "williamgrh",
-        "id": 7085474,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7085474?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/williamgrh",
-        "htmlUrl": "https://github.com/williamgrh",
-        "followersUrl": "https://api.github.com/users/williamgrh/followers",
-        "subscriptionsUrl": "https://api.github.com/users/williamgrh/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/williamgrh/orgs",
-        "reposUrl": "https://api.github.com/users/williamgrh/repos",
-        "receivedEventsUrl": "https://api.github.com/users/williamgrh/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-08T21:21:39.000Z",
-      "publishedAt": "2016-12-08T21:48:58.000Z",
-      "tarballUrl": "https://api.github.com/repos/D5-SDD/broken-mold/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/D5-SDD/broken-mold/zipball/0.1.0",
-      "body": "Initial release of the application.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:28:58.343Z"
 }

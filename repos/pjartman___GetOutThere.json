@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "GetOutThere",
     "version": "0.0.0-alpha1",
@@ -93,10 +93,7 @@
       "start": "electron main.js"
     },
     "repository": "https://github.com/pjartman/GetOutThere",
-    "license": "ISC",
-    "other": {
-      "author": "Patrick Artman"
-    }
+    "license": "ISC"
   },
   "packageStatus": 200,
   "contributors": [
@@ -124,5 +121,6 @@
       "commentCount": 0
     }
   },
-  "filename": "pjartman___GetOutThere.json"
+  "filename": "pjartman___GetOutThere.json",
+  "lastFetchedAt": "2017-05-04T20:36:26.358Z"
 }

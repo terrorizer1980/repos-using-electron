@@ -5,7 +5,7 @@
   "owner": {
     "login": "glamp",
     "id": 1409333,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1409333?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1409333?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/glamp",
     "htmlUrl": "https://github.com/glamp",
@@ -17,7 +17,7 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-01-23T14:47:04.000Z",
   "updatedAt": "2016-01-23T14:47:16.000Z",
@@ -81,9 +81,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "glamp"
-  ],
   "firstCommit": {
     "sha": "817aeed0b6df3279c7ad9e55338d93139a13bd08",
     "commit": {
@@ -107,92 +104,26 @@
     }
   },
   "filename": "glamp___Hoot.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/glamp/Hoot/releases/2479669",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/glamp/Hoot/releases/assets/1238129",
-          "id": 1238129,
-          "name": "Hoot-osx.dmg",
-          "label": null,
-          "uploader": {
-            "login": "glamp",
-            "id": 1409333,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1409333?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/glamp",
-            "htmlUrl": "https://github.com/glamp",
-            "followersUrl": "https://api.github.com/users/glamp/followers",
-            "subscriptionsUrl": "https://api.github.com/users/glamp/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/glamp/orgs",
-            "reposUrl": "https://api.github.com/users/glamp/repos",
-            "receivedEventsUrl": "https://api.github.com/users/glamp/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 44650841,
-          "downloadCount": 3,
-          "createdAt": "2016-01-23T14:48:38.000Z",
-          "updatedAt": "2016-01-23T14:49:16.000Z",
-          "browserDownloadUrl": "https://github.com/glamp/Hoot/releases/download/1.0.0/Hoot-osx.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/glamp/Hoot/releases/assets/1238130",
-          "id": 1238130,
-          "name": "Hoot-osx.zip",
-          "label": null,
-          "uploader": {
-            "login": "glamp",
-            "id": 1409333,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1409333?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/glamp",
-            "htmlUrl": "https://github.com/glamp",
-            "followersUrl": "https://api.github.com/users/glamp/followers",
-            "subscriptionsUrl": "https://api.github.com/users/glamp/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/glamp/orgs",
-            "reposUrl": "https://api.github.com/users/glamp/repos",
-            "receivedEventsUrl": "https://api.github.com/users/glamp/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44738678,
-          "downloadCount": 0,
-          "createdAt": "2016-01-23T14:48:38.000Z",
-          "updatedAt": "2016-01-23T14:49:16.000Z",
-          "browserDownloadUrl": "https://github.com/glamp/Hoot/releases/download/1.0.0/Hoot-osx.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/glamp/Hoot/releases/2479669/assets",
-      "htmlUrl": "https://github.com/glamp/Hoot/releases/tag/1.0.0",
-      "id": 2479669,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "Initial Release",
-      "draft": false,
-      "author": {
-        "login": "glamp",
-        "id": 1409333,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1409333?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/glamp",
-        "htmlUrl": "https://github.com/glamp",
-        "followersUrl": "https://api.github.com/users/glamp/followers",
-        "subscriptionsUrl": "https://api.github.com/users/glamp/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/glamp/orgs",
-        "reposUrl": "https://api.github.com/users/glamp/repos",
-        "receivedEventsUrl": "https://api.github.com/users/glamp/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-23T14:47:32.000Z",
-      "publishedAt": "2016-01-23T14:49:16.000Z",
-      "tarballUrl": "https://api.github.com/repos/glamp/Hoot/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/glamp/Hoot/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/glamp/Hoot",
+  "url": "https://api.github.com/repos/glamp/Hoot",
+  "forksUrl": "https://api.github.com/repos/glamp/Hoot/forks",
+  "teamsUrl": "https://api.github.com/repos/glamp/Hoot/teams",
+  "hooksUrl": "https://api.github.com/repos/glamp/Hoot/hooks",
+  "eventsUrl": "https://api.github.com/repos/glamp/Hoot/events",
+  "tagsUrl": "https://api.github.com/repos/glamp/Hoot/tags",
+  "languagesUrl": "https://api.github.com/repos/glamp/Hoot/languages",
+  "stargazersUrl": "https://api.github.com/repos/glamp/Hoot/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/glamp/Hoot/contributors",
+  "subscribersUrl": "https://api.github.com/repos/glamp/Hoot/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/glamp/Hoot/subscription",
+  "mergesUrl": "https://api.github.com/repos/glamp/Hoot/merges",
+  "downloadsUrl": "https://api.github.com/repos/glamp/Hoot/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/glamp/Hoot/deployments",
+  "gitUrl": "git://github.com/glamp/Hoot.git",
+  "sshUrl": "git@github.com:glamp/Hoot.git",
+  "cloneUrl": "https://github.com/glamp/Hoot.git",
+  "svnUrl": "https://github.com/glamp/Hoot",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:58:53.910Z"
 }

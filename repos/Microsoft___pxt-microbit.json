@@ -5,7 +5,7 @@
   "owner": {
     "login": "Microsoft",
     "id": 6154722,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6154722?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Microsoft",
     "htmlUrl": "https://github.com/Microsoft",
@@ -35,37 +35,43 @@
   "downloadsUrl": "https://api.github.com/repos/Microsoft/pxt-microbit/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Microsoft/pxt-microbit/deployments",
   "createdAt": "2016-03-10T19:27:31.000Z",
-  "updatedAt": "2016-11-10T12:39:53.000Z",
-  "pushedAt": "2016-11-16T04:10:22.000Z",
+  "updatedAt": "2017-04-25T08:57:47.000Z",
+  "pushedAt": "2017-05-01T18:12:17.000Z",
   "gitUrl": "git://github.com/Microsoft/pxt-microbit.git",
   "sshUrl": "git@github.com:Microsoft/pxt-microbit.git",
   "cloneUrl": "https://github.com/Microsoft/pxt-microbit.git",
   "svnUrl": "https://github.com/Microsoft/pxt-microbit",
   "homepage": "https://pxt.microbit.org",
-  "size": 103297,
-  "stargazersCount": 24,
-  "watchersCount": 24,
+  "size": 100482,
+  "stargazersCount": 40,
+  "watchersCount": 40,
   "language": "TypeScript",
   "hasIssues": false,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 20,
+  "forksCount": 26,
   "mirrorUrl": null,
-  "openIssuesCount": 2,
-  "openIssues": 2,
-  "watchers": 24,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 40,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
   "organization": {
     "login": "Microsoft",
     "id": 6154722,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6154722?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Microsoft",
     "htmlUrl": "https://github.com/Microsoft",
@@ -76,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/Microsoft/received_events",
     "type": "Organization"
   },
-  "networkCount": 20,
-  "subscribersCount": 26,
+  "networkCount": 26,
+  "subscribersCount": 29,
   "status": 200,
   "packageJSON": {
     "name": "pxt-microbit",
@@ -112,33 +118,9 @@
     },
     "dependencies": {
       "pxt-core": "0.5.75"
-    },
-    "other": {
-      "author": ""
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "pelikhan",
-    "mmoskal",
-    "mebrauns",
-    "tinfoilhatter",
-    "tballmsft",
-    "thomasdenney",
-    "darzu",
-    "microsoftsam",
-    "bluetooth-mdw",
-    "riknoll",
-    "guillaumejenkins",
-    "abchatra",
-    "gingemonster",
-    "gbaman",
-    "sgk",
-    "msprotz",
-    "whaleygeek",
-    "msftgits",
-    "OwenBrotherwood"
-  ],
   "firstCommit": {
     "sha": "a0f7ddd1be1afc9e1fe19ef01c895e0838217a55",
     "commit": {
@@ -162,5 +144,6 @@
     }
   },
   "filename": "Microsoft___pxt-microbit.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T09:03:29.676Z"
 }

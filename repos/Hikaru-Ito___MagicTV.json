@@ -5,7 +5,7 @@
   "owner": {
     "login": "Hikaru-Ito",
     "id": 6357772,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6357772?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6357772?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Hikaru-Ito",
     "htmlUrl": "https://github.com/Hikaru-Ito",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/Hikaru-Ito/MagicTV/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Hikaru-Ito/MagicTV/deployments",
   "createdAt": "2016-11-11T09:59:51.000Z",
-  "updatedAt": "2016-11-16T09:56:06.000Z",
-  "pushedAt": "2016-11-16T20:28:51.000Z",
+  "updatedAt": "2017-02-14T09:41:35.000Z",
+  "pushedAt": "2016-12-29T06:56:47.000Z",
   "gitUrl": "git://github.com/Hikaru-Ito/MagicTV.git",
   "sshUrl": "git@github.com:Hikaru-Ito/MagicTV.git",
   "cloneUrl": "https://github.com/Hikaru-Ito/MagicTV.git",
   "svnUrl": "https://github.com/Hikaru-Ito/MagicTV",
   "homepage": null,
-  "size": 35547,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 35582,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 4,
   "openIssues": 4,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -102,10 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Hikaru-Ito",
-    "kentosasa"
-  ],
   "firstCommit": {
     "sha": "7bbeaeb105aa82f5a02e76109381d3c143fc760e",
     "commit": {
@@ -129,37 +125,6 @@
     }
   },
   "filename": "Hikaru-Ito___MagicTV.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Hikaru-Ito/MagicTV/releases/5029947",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Hikaru-Ito/MagicTV/releases/5029947/assets",
-      "htmlUrl": "https://github.com/Hikaru-Ito/MagicTV/releases/tag/v0.1.0",
-      "id": 5029947,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "α Release",
-      "draft": false,
-      "author": {
-        "login": "Hikaru-Ito",
-        "id": 6357772,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6357772?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Hikaru-Ito",
-        "htmlUrl": "https://github.com/Hikaru-Ito",
-        "followersUrl": "https://api.github.com/users/Hikaru-Ito/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Hikaru-Ito/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Hikaru-Ito/orgs",
-        "reposUrl": "https://api.github.com/users/Hikaru-Ito/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Hikaru-Ito/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-29T05:52:06.000Z",
-      "publishedAt": "2016-12-29T06:48:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/Hikaru-Ito/MagicTV/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/Hikaru-Ito/MagicTV/zipball/v0.1.0",
-      "body": "Download .dmg\nhttps://drive.google.com/open?id=0BzQJNUZ8SSLFQVdibWplUlMxc2M\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:27:46.522Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "seanlw",
     "id": 405957,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/405957?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/405957?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/seanlw",
     "htmlUrl": "https://github.com/seanlw",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/seanlw/status-board/downloads",
   "deploymentsUrl": "https://api.github.com/repos/seanlw/status-board/deployments",
   "createdAt": "2016-03-25T14:29:06.000Z",
-  "updatedAt": "2016-03-25T14:44:09.000Z",
-  "pushedAt": "2016-05-04T12:57:37.000Z",
+  "updatedAt": "2017-03-12T14:14:37.000Z",
+  "pushedAt": "2017-03-28T20:10:58.000Z",
   "gitUrl": "git://github.com/seanlw/status-board.git",
   "sshUrl": "git@github.com:seanlw/status-board.git",
   "cloneUrl": "https://github.com/seanlw/status-board.git",
   "svnUrl": "https://github.com/seanlw/status-board",
   "homepage": "",
-  "size": 292,
+  "size": 690,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "JavaScript",
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -62,11 +62,11 @@
     "pull": true
   },
   "license": {
-    "key": "other",
-    "name": "Other",
-    "spdxId": null,
-    "url": null,
-    "featured": false
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
   "networkCount": 0,
   "subscribersCount": 1,
@@ -89,9 +89,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "seanlw"
-  ],
   "firstCommit": {
     "sha": "ee34a836b07a5e8b7a901faf6e75a705f29048de",
     "commit": {
@@ -115,5 +112,6 @@
     }
   },
   "filename": "seanlw___status-board.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:22:57.779Z"
 }

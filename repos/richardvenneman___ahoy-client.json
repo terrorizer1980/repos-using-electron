@@ -5,7 +5,7 @@
   "owner": {
     "login": "richardvenneman",
     "id": 75705,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/75705?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/75705?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/richardvenneman",
     "htmlUrl": "https://github.com/richardvenneman",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/richardvenneman/ahoy-client/downloads",
   "deploymentsUrl": "https://api.github.com/repos/richardvenneman/ahoy-client/deployments",
   "createdAt": "2016-11-28T15:04:08.000Z",
-  "updatedAt": "2016-11-29T10:25:28.000Z",
+  "updatedAt": "2016-12-06T21:36:43.000Z",
   "pushedAt": "2016-11-28T22:43:02.000Z",
   "gitUrl": "git://github.com/richardvenneman/ahoy-client.git",
   "sshUrl": "git@github.com:richardvenneman/ahoy-client.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/richardvenneman/ahoy-client",
   "homepage": null,
   "size": 57,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -132,18 +132,9 @@
     "dependencies": {
       "js-cookie": "^2.1.3",
       "superagent": "^3.0.0"
-    },
-    "other": {
-      "author": "Richard Venneman <richardvenneman@me.com>",
-      "bugs": {
-        "url": "https://github.com/richardvenneman/ahoy-client/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "richardvenneman"
-  ],
   "firstCommit": {
     "sha": "04bb9d4840f401dbaeaae6c3e205f0325fe270ec",
     "commit": {
@@ -167,5 +158,6 @@
     }
   },
   "filename": "richardvenneman___ahoy-client.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:21:28.347Z"
 }

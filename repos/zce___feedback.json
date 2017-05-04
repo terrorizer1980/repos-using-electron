@@ -5,7 +5,7 @@
   "owner": {
     "login": "zce",
     "id": 6166576,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6166576?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6166576?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zce",
     "htmlUrl": "https://github.com/zce",
@@ -20,21 +20,21 @@
   "description": "A feedback system using electron",
   "fork": false,
   "createdAt": "2016-07-19T15:04:48.000Z",
-  "updatedAt": "2016-07-28T17:13:28.000Z",
-  "pushedAt": "2016-08-12T08:03:19.000Z",
+  "updatedAt": "2017-03-15T17:50:31.000Z",
+  "pushedAt": "2016-09-17T03:47:57.000Z",
   "homepage": null,
-  "size": 2082,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 5333,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -124,9 +124,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "zce"
-  ],
   "firstCommit": {
     "sha": "5d3d06961fd97ff3c4338c9f4f0822cb551124f4",
     "commit": {
@@ -150,37 +147,26 @@
     }
   },
   "filename": "zce___feedback.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/zce/feedback/releases/4099755",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/zce/feedback/releases/4099755/assets",
-      "htmlUrl": "https://github.com/zce/feedback/releases/tag/v0.3.0-beta3",
-      "id": 4099755,
-      "tagName": "v0.3.0-beta3",
-      "targetCommitish": "master",
-      "name": "v0.3.0-beta3",
-      "draft": false,
-      "author": {
-        "login": "zce",
-        "id": 6166576,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6166576?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zce",
-        "htmlUrl": "https://github.com/zce",
-        "followersUrl": "https://api.github.com/users/zce/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zce/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zce/orgs",
-        "reposUrl": "https://api.github.com/users/zce/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zce/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-11T14:45:37.000Z",
-      "publishedAt": "2016-09-11T15:36:27.000Z",
-      "tarballUrl": "https://api.github.com/repos/zce/feedback/tarball/v0.3.0-beta3",
-      "zipballUrl": "https://api.github.com/repos/zce/feedback/zipball/v0.3.0-beta3",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/zce/feedback",
+  "url": "https://api.github.com/repos/zce/feedback",
+  "forksUrl": "https://api.github.com/repos/zce/feedback/forks",
+  "teamsUrl": "https://api.github.com/repos/zce/feedback/teams",
+  "hooksUrl": "https://api.github.com/repos/zce/feedback/hooks",
+  "eventsUrl": "https://api.github.com/repos/zce/feedback/events",
+  "tagsUrl": "https://api.github.com/repos/zce/feedback/tags",
+  "languagesUrl": "https://api.github.com/repos/zce/feedback/languages",
+  "stargazersUrl": "https://api.github.com/repos/zce/feedback/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/zce/feedback/contributors",
+  "subscribersUrl": "https://api.github.com/repos/zce/feedback/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/zce/feedback/subscription",
+  "mergesUrl": "https://api.github.com/repos/zce/feedback/merges",
+  "downloadsUrl": "https://api.github.com/repos/zce/feedback/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/zce/feedback/deployments",
+  "gitUrl": "git://github.com/zce/feedback.git",
+  "sshUrl": "git@github.com:zce/feedback.git",
+  "cloneUrl": "https://github.com/zce/feedback.git",
+  "svnUrl": "https://github.com/zce/feedback",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:13:05.039Z"
 }

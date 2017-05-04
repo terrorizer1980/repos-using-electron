@@ -5,7 +5,7 @@
   "owner": {
     "login": "cytoscape",
     "id": 956141,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/956141?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/956141?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/cytoscape",
     "htmlUrl": "https://github.com/cytoscape",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/cytoscape/cytoscape.js-tutorials/downloads",
   "deploymentsUrl": "https://api.github.com/repos/cytoscape/cytoscape.js-tutorials/deployments",
   "createdAt": "2016-04-27T19:16:31.000Z",
-  "updatedAt": "2016-08-12T14:02:20.000Z",
-  "pushedAt": "2016-08-24T02:06:36.000Z",
+  "updatedAt": "2017-01-11T23:38:43.000Z",
+  "pushedAt": "2017-01-11T23:38:41.000Z",
   "gitUrl": "git://github.com/cytoscape/cytoscape.js-tutorials.git",
   "sshUrl": "git@github.com:cytoscape/cytoscape.js-tutorials.git",
   "cloneUrl": "https://github.com/cytoscape/cytoscape.js-tutorials.git",
   "svnUrl": "https://github.com/cytoscape/cytoscape.js-tutorials",
   "homepage": "",
-  "size": 12396,
+  "size": 12408,
   "stargazersCount": 4,
   "watchersCount": 4,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 2,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "cytoscape",
     "id": 956141,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/956141?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/956141?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/cytoscape",
     "htmlUrl": "https://github.com/cytoscape",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/cytoscape/received_events",
     "type": "Organization"
   },
-  "networkCount": 2,
+  "networkCount": 3,
   "subscribersCount": 21,
   "status": 200,
   "packageJSON": {
@@ -93,20 +93,9 @@
     "devDependencies": {
       "eslint": "^3.2.2",
       "eslint-config-google": "^0.6.0"
-    },
-    "other": {
-      "author": "Joseph Stahl",
-      "bugs": {
-        "url": "https://github.com/cytoscape/cytoscape.js-tutorials/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "josephst",
-    "maxkfranz",
-    "gitter-badger"
-  ],
   "firstCommit": {
     "sha": "9508f57e29e1a1a9989040ee9d8e91789257fff7",
     "commit": {
@@ -130,5 +119,6 @@
     }
   },
   "filename": "cytoscape___cytoscape.js-tutorials.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:44:47.548Z"
 }

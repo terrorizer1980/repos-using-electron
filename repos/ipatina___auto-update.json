@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "application-name",
     "main": "main.js",
@@ -86,10 +86,7 @@
       "electron": "^1.4.5",
       "electron-builder": "^7.26.0"
     },
-    "dependencies": {},
-    "other": {
-      "author": "Alina"
-    }
+    "dependencies": {}
   },
   "packageStatus": 200,
   "contributors": [
@@ -117,5 +114,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ipatina___auto-update.json"
+  "filename": "ipatina___auto-update.json",
+  "lastFetchedAt": "2017-05-04T18:32:12.029Z"
 }

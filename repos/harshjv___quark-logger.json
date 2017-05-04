@@ -5,7 +5,7 @@
   "owner": {
     "login": "harshjv",
     "id": 2311316,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2311316?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2311316?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/harshjv",
     "htmlUrl": "https://github.com/harshjv",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/harshjv/quark-logger",
-  "description": "Node.js logger built atop Electron",
+  "description": "🍿 Electron logger built atop Electron",
   "fork": false,
   "url": "https://api.github.com/repos/harshjv/quark-logger",
   "forksUrl": "https://api.github.com/repos/harshjv/quark-logger/forks",
@@ -35,34 +35,40 @@
   "downloadsUrl": "https://api.github.com/repos/harshjv/quark-logger/downloads",
   "deploymentsUrl": "https://api.github.com/repos/harshjv/quark-logger/deployments",
   "createdAt": "2016-10-26T19:46:22.000Z",
-  "updatedAt": "2016-11-04T14:17:00.000Z",
-  "pushedAt": "2016-11-04T14:22:31.000Z",
+  "updatedAt": "2017-01-08T13:19:30.000Z",
+  "pushedAt": "2016-12-17T07:55:00.000Z",
   "gitUrl": "git://github.com/harshjv/quark-logger.git",
   "sshUrl": "git@github.com:harshjv/quark-logger.git",
   "cloneUrl": "https://github.com/harshjv/quark-logger.git",
   "svnUrl": "https://github.com/harshjv/quark-logger",
   "homepage": "https://www.npmjs.com/package/quark-logger",
-  "size": 1619,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 3603,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 0,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -111,9 +117,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "harshjv"
-  ],
   "firstCommit": {
     "sha": "f66b68de4e480a09329500cf7c4dff151e354819",
     "commit": {
@@ -137,5 +140,6 @@
     }
   },
   "filename": "harshjv___quark-logger.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:18:44.133Z"
 }

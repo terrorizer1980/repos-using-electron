@@ -5,7 +5,7 @@
   "owner": {
     "login": "imsnif",
     "id": 795598,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/795598?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/795598?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/imsnif",
     "htmlUrl": "https://github.com/imsnif",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/imsnif/electron-terminal-window/downloads",
   "deploymentsUrl": "https://api.github.com/repos/imsnif/electron-terminal-window/deployments",
   "createdAt": "2016-09-09T10:31:35.000Z",
-  "updatedAt": "2016-09-17T15:59:41.000Z",
-  "pushedAt": "2016-10-28T20:32:38.000Z",
+  "updatedAt": "2017-01-21T09:37:24.000Z",
+  "pushedAt": "2016-12-01T10:17:35.000Z",
   "gitUrl": "git://github.com/imsnif/electron-terminal-window.git",
   "sshUrl": "git@github.com:imsnif/electron-terminal-window.git",
   "cloneUrl": "https://github.com/imsnif/electron-terminal-window.git",
   "svnUrl": "https://github.com/imsnif/electron-terminal-window",
   "homepage": null,
-  "size": 556,
+  "size": 575,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 2,
-  "openIssues": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -61,7 +61,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
@@ -112,10 +118,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "imsnif",
-    "qballer"
-  ],
   "firstCommit": {
     "sha": "8fc5c3ead7b8a27aac67a7843fedb72acdc9fed2",
     "commit": {
@@ -139,5 +141,6 @@
     }
   },
   "filename": "imsnif___electron-terminal-window.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:42:44.999Z"
 }

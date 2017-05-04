@@ -6,7 +6,7 @@
   "owner": {
     "login": "paulcbetts",
     "id": 1396,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1396?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1396?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/paulcbetts",
     "htmlUrl": "https://github.com/paulcbetts",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/paulcbetts/trickline",
-  "description": null,
+  "description": "A Fucking Fast Slack Data Model",
   "fork": false,
   "url": "https://api.github.com/repos/paulcbetts/trickline",
   "forksUrl": "https://api.github.com/repos/paulcbetts/trickline/forks",
@@ -36,26 +36,26 @@
   "downloadsUrl": "https://api.github.com/repos/paulcbetts/trickline/downloads",
   "deploymentsUrl": "https://api.github.com/repos/paulcbetts/trickline/deployments",
   "createdAt": "2015-10-22T03:48:43.000Z",
-  "updatedAt": "2016-10-16T05:00:28.000Z",
-  "pushedAt": "2016-10-15T00:40:23.000Z",
+  "updatedAt": "2017-05-03T17:11:20.000Z",
+  "pushedAt": "2017-04-16T20:41:24.000Z",
   "gitUrl": "git://github.com/paulcbetts/trickline.git",
   "sshUrl": "git@github.com:paulcbetts/trickline.git",
   "cloneUrl": "https://github.com/paulcbetts/trickline.git",
   "svnUrl": "https://github.com/paulcbetts/trickline",
-  "homepage": null,
-  "size": 1963,
-  "stargazersCount": 3,
-  "watchersCount": 3,
-  "language": "JavaScript",
+  "homepage": "",
+  "size": 2683,
+  "stargazersCount": 9,
+  "watchersCount": 9,
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 4,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 3,
+  "openIssuesCount": 9,
+  "openIssues": 9,
+  "watchers": 9,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -63,8 +63,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 1,
-  "subscribersCount": 4,
+  "networkCount": 4,
+  "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
     "name": "trickline",
@@ -116,9 +116,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "paulcbetts"
-  ],
   "firstCommit": {
     "sha": "ee2102b7ea8eb96da2a945bfee34c27ba899f1ad",
     "commit": {
@@ -141,5 +138,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:03:30.420Z"
 }

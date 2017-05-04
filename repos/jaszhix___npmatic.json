@@ -5,7 +5,7 @@
   "owner": {
     "login": "jaszhix",
     "id": 6859057,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6859057?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6859057?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jaszhix",
     "htmlUrl": "https://github.com/jaszhix",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/jaszhix/npmatic/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jaszhix/npmatic/deployments",
   "createdAt": "2016-11-17T00:39:26.000Z",
-  "updatedAt": "2016-11-20T18:35:36.000Z",
-  "pushedAt": "2016-11-24T08:45:45.000Z",
+  "updatedAt": "2017-02-25T22:36:13.000Z",
+  "pushedAt": "2017-02-27T05:20:46.000Z",
   "gitUrl": "git://github.com/jaszhix/npmatic.git",
   "sshUrl": "git@github.com:jaszhix/npmatic.git",
   "cloneUrl": "https://github.com/jaszhix/npmatic.git",
   "svnUrl": "https://github.com/jaszhix/npmatic",
   "homepage": null,
-  "size": 789,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "size": 779,
+  "stargazersCount": 7,
+  "watchersCount": 7,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 7,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -163,9 +163,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jaszhix"
-  ],
   "firstCommit": {
     "sha": "b43cd92a4a2868b547984fd68ecf5aa6bcf5644a",
     "commit": {
@@ -189,92 +186,6 @@
     }
   },
   "filename": "jaszhix___npmatic.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jaszhix/npmatic/releases/4875326",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jaszhix/npmatic/releases/assets/2794122",
-          "id": 2794122,
-          "name": "npmatic_0.1.0.exe",
-          "label": null,
-          "uploader": {
-            "login": "jaszhix",
-            "id": 6859057,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6859057?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jaszhix",
-            "htmlUrl": "https://github.com/jaszhix",
-            "followersUrl": "https://api.github.com/users/jaszhix/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jaszhix/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jaszhix/orgs",
-            "reposUrl": "https://api.github.com/users/jaszhix/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jaszhix/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-ms-dos-executable",
-          "state": "uploaded",
-          "size": 40947231,
-          "downloadCount": 1,
-          "createdAt": "2016-12-09T08:06:40.000Z",
-          "updatedAt": "2016-12-09T08:08:10.000Z",
-          "browserDownloadUrl": "https://github.com/jaszhix/npmatic/releases/download/v0.1.0/npmatic_0.1.0.exe"
-        },
-        {
-          "url": "https://api.github.com/repos/jaszhix/npmatic/releases/assets/2794123",
-          "id": 2794123,
-          "name": "npmatic_0.1.0_amd64.deb",
-          "label": null,
-          "uploader": {
-            "login": "jaszhix",
-            "id": 6859057,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6859057?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jaszhix",
-            "htmlUrl": "https://github.com/jaszhix",
-            "followersUrl": "https://api.github.com/users/jaszhix/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jaszhix/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jaszhix/orgs",
-            "reposUrl": "https://api.github.com/users/jaszhix/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jaszhix/received_events",
-            "type": "User"
-          },
-          "contentType": "application/vnd.debian.binary-package",
-          "state": "uploaded",
-          "size": 38304714,
-          "downloadCount": 0,
-          "createdAt": "2016-12-09T08:06:40.000Z",
-          "updatedAt": "2016-12-09T08:09:34.000Z",
-          "browserDownloadUrl": "https://github.com/jaszhix/npmatic/releases/download/v0.1.0/npmatic_0.1.0_amd64.deb"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jaszhix/npmatic/releases/4875326/assets",
-      "htmlUrl": "https://github.com/jaszhix/npmatic/releases/tag/v0.1.0",
-      "id": 4875326,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "npmatic v0.1.0 Beta for Linux and Windows",
-      "draft": false,
-      "author": {
-        "login": "jaszhix",
-        "id": 6859057,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6859057?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jaszhix",
-        "htmlUrl": "https://github.com/jaszhix",
-        "followersUrl": "https://api.github.com/users/jaszhix/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jaszhix/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jaszhix/orgs",
-        "reposUrl": "https://api.github.com/users/jaszhix/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jaszhix/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-09T08:01:42.000Z",
-      "publishedAt": "2016-12-09T08:14:36.000Z",
-      "tarballUrl": "https://api.github.com/repos/jaszhix/npmatic/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/jaszhix/npmatic/zipball/v0.1.0",
-      "body": "This is the initial beta release of npmatic. The binaries have been tested on Ubuntu 16.04 and Windows 10 Professional. RPM and macOS binaries will be available soon.\n\n### Requirements\n- NodeJS v6+\n- NPM v3+\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:07:20.458Z"
 }

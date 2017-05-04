@@ -6,7 +6,7 @@
   "owner": {
     "login": "stopsopa",
     "id": 3743506,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3743506?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3743506?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/stopsopa",
     "htmlUrl": "https://github.com/stopsopa",
@@ -36,17 +36,17 @@
   "downloadsUrl": "https://api.github.com/repos/stopsopa/spark/downloads",
   "deploymentsUrl": "https://api.github.com/repos/stopsopa/spark/deployments",
   "createdAt": "2016-12-14T20:10:50.000Z",
-  "updatedAt": "2017-01-13T10:19:47.000Z",
-  "pushedAt": "2017-01-19T13:58:49.000Z",
+  "updatedAt": "2017-04-11T10:49:13.000Z",
+  "pushedAt": "2017-05-03T22:41:14.000Z",
   "gitUrl": "git://github.com/stopsopa/spark.git",
   "sshUrl": "git@github.com:stopsopa/spark.git",
   "cloneUrl": "https://github.com/stopsopa/spark.git",
   "svnUrl": "https://github.com/stopsopa/spark",
   "homepage": "",
-  "size": 1044,
+  "size": 4252,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "JavaScript",
+  "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -62,9 +62,15 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 1,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "dependencies": {
@@ -79,9 +85,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "stopsopa"
-  ],
   "firstCommit": {
     "sha": "7ecedb0ce5934c807ea70fc3507dbdcbff45ee9a",
     "commit": {
@@ -104,5 +107,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:54:13.266Z"
 }

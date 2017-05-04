@@ -1,11 +1,11 @@
 {
-  "id": 50072729,
+  "id": 82736590,
   "name": "gothicus",
   "fullName": "smaugustine/gothicus",
   "owner": {
     "login": "smaugustine",
     "id": 6315671,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6315671?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6315671?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/smaugustine",
     "htmlUrl": "https://github.com/smaugustine",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/smaugustine/gothicus",
-  "description": "An app for preparing critical editions from manuscripts.",
+  "description": "A node.js app (with Electron distro) for preparing manuscript editions.",
   "fork": false,
   "url": "https://api.github.com/repos/smaugustine/gothicus",
   "forksUrl": "https://api.github.com/repos/smaugustine/gothicus/forks",
@@ -34,22 +34,22 @@
   "mergesUrl": "https://api.github.com/repos/smaugustine/gothicus/merges",
   "downloadsUrl": "https://api.github.com/repos/smaugustine/gothicus/downloads",
   "deploymentsUrl": "https://api.github.com/repos/smaugustine/gothicus/deployments",
-  "createdAt": "2016-01-21T01:21:03.000Z",
-  "updatedAt": "2016-01-21T02:05:15.000Z",
-  "pushedAt": "2016-01-21T17:36:22.000Z",
+  "createdAt": "2017-02-21T23:09:50.000Z",
+  "updatedAt": "2017-02-21T23:13:51.000Z",
+  "pushedAt": "2017-02-21T23:09:51.000Z",
   "gitUrl": "git://github.com/smaugustine/gothicus.git",
   "sshUrl": "git@github.com:smaugustine/gothicus.git",
   "cloneUrl": "https://github.com/smaugustine/gothicus.git",
   "svnUrl": "https://github.com/smaugustine/gothicus",
-  "homepage": "https://gothicusapp.com",
-  "size": 42818,
+  "homepage": "",
+  "size": 0,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "JavaScript",
+  "language": null,
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": true,
+  "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
   "openIssuesCount": 0,
@@ -93,9 +93,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "smaugustine"
-  ],
   "firstCommit": {
     "sha": "dcfa954680a3793e78391dfd153d3a821613be98",
     "commit": {
@@ -119,5 +116,6 @@
     }
   },
   "filename": "smaugustine___gothicus.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:16:36.459Z"
 }

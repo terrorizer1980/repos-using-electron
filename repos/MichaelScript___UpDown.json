@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "UpDown",
     "description": "Checks groups of links for changes and notifies users when a group's links get updated.",
@@ -109,5 +109,6 @@
     }
   },
   "filename": "MichaelScript___UpDown.json",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T21:24:15.069Z"
 }

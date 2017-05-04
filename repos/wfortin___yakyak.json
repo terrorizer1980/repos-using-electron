@@ -171,20 +171,13 @@
     "scripts": {
       "test": "mocha"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yakyak/yakyak"
-    },
+    "repository": "https://github.com/yakyak/yakyak",
     "keywords": [
       "hangouts",
       "chat",
       "client"
     ],
-    "author": "Martin Algesten",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/yakyak/yakyak/issues"
-    },
     "homepage": "https://github.com/yakyak/yakyak",
     "dependencies": {
       "autosize": "^3.0.8",
@@ -216,6 +209,12 @@
       "rimraf": "^2.4.2",
       "sinon": "^1.15.4",
       "sinon-chai": "^2.8.0"
+    },
+    "other": {
+      "author": "Martin Algesten",
+      "bugs": {
+        "url": "https://github.com/yakyak/yakyak/issues"
+      }
     }
   },
   "packageStatus": 404,
@@ -229,5 +228,7 @@
     "xori",
     "fearoffish",
     "franc90"
-  ]
+  ],
+  "filename": "wfortin___yakyak.json",
+  "lastFetchedAt": "2017-05-04T21:26:17.253Z"
 }

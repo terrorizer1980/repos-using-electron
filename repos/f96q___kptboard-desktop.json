@@ -5,7 +5,7 @@
   "owner": {
     "login": "f96q",
     "id": 98850,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/98850?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/98850?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/f96q",
     "htmlUrl": "https://github.com/f96q",
@@ -99,9 +99,6 @@
   "cloneUrl": "https://github.com/f96q/kptboard-desktop.git",
   "svnUrl": "https://github.com/f96q/kptboard-desktop",
   "mirrorUrl": null,
-  "contributors": [
-    "f96q"
-  ],
   "firstCommit": {
     "sha": "8bf703422fceafab1c8d287d98e4a193b46422ef",
     "commit": {
@@ -125,65 +122,6 @@
     }
   },
   "filename": "f96q___kptboard-desktop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/f96q/kptboard-desktop/releases/2069983",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/f96q/kptboard-desktop/releases/assets/1005168",
-          "id": 1005168,
-          "name": "KPTBoard.zip",
-          "label": null,
-          "uploader": {
-            "login": "f96q",
-            "id": 98850,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/98850?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/f96q",
-            "htmlUrl": "https://github.com/f96q",
-            "followersUrl": "https://api.github.com/users/f96q/followers",
-            "subscriptionsUrl": "https://api.github.com/users/f96q/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/f96q/orgs",
-            "reposUrl": "https://api.github.com/users/f96q/repos",
-            "receivedEventsUrl": "https://api.github.com/users/f96q/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 64180237,
-          "downloadCount": 241,
-          "createdAt": "2015-11-04T13:03:50.000Z",
-          "updatedAt": "2015-11-04T13:06:10.000Z",
-          "browserDownloadUrl": "https://github.com/f96q/kptboard-desktop/releases/download/0.0.1/KPTBoard.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/f96q/kptboard-desktop/releases/2069983/assets",
-      "htmlUrl": "https://github.com/f96q/kptboard-desktop/releases/tag/0.0.1",
-      "id": 2069983,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "first release",
-      "draft": false,
-      "author": {
-        "login": "f96q",
-        "id": 98850,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/98850?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/f96q",
-        "htmlUrl": "https://github.com/f96q",
-        "followersUrl": "https://api.github.com/users/f96q/followers",
-        "subscriptionsUrl": "https://api.github.com/users/f96q/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/f96q/orgs",
-        "reposUrl": "https://api.github.com/users/f96q/repos",
-        "receivedEventsUrl": "https://api.github.com/users/f96q/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-03T11:49:14.000Z",
-      "publishedAt": "2015-11-04T13:07:21.000Z",
-      "tarballUrl": "https://api.github.com/repos/f96q/kptboard-desktop/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/f96q/kptboard-desktop/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:17:28.979Z"
 }

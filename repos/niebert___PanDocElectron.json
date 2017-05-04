@@ -5,7 +5,7 @@
   "owner": {
     "login": "niebert",
     "id": 10059228,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10059228?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10059228?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/niebert",
     "htmlUrl": "https://github.com/niebert",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/niebert/PanDocElectron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/niebert/PanDocElectron/deployments",
   "createdAt": "2016-05-03T16:07:05.000Z",
-  "updatedAt": "2016-11-02T08:10:02.000Z",
-  "pushedAt": "2016-11-03T15:50:00.000Z",
+  "updatedAt": "2017-04-03T05:16:13.000Z",
+  "pushedAt": "2017-01-25T09:42:06.000Z",
   "gitUrl": "git://github.com/niebert/PanDocElectron.git",
   "sshUrl": "git@github.com:niebert/PanDocElectron.git",
   "cloneUrl": "https://github.com/niebert/PanDocElectron.git",
   "svnUrl": "https://github.com/niebert/PanDocElectron",
   "homepage": null,
-  "size": 268727,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 268705,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -98,9 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "niebert"
-  ],
   "firstCommit": {
     "sha": "b2a7a42946fa6f9a341bf45da2e506fa95076ad7",
     "commit": {
@@ -124,68 +121,6 @@
     }
   },
   "filename": "niebert___PanDocElectron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/niebert/PanDocElectron/releases/4406472",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/niebert/PanDocElectron/releases/4406472/assets",
-      "htmlUrl": "https://github.com/niebert/PanDocElectron/releases/tag/v0.9.4",
-      "id": 4406472,
-      "tagName": "v0.9.4",
-      "targetCommitish": "master",
-      "name": "Beta Release v0.9.2 PanDocElectron - WikiMedia Download",
-      "draft": false,
-      "author": {
-        "login": "niebert",
-        "id": 10059228,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10059228?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/niebert",
-        "htmlUrl": "https://github.com/niebert",
-        "followersUrl": "https://api.github.com/users/niebert/followers",
-        "subscriptionsUrl": "https://api.github.com/users/niebert/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/niebert/orgs",
-        "reposUrl": "https://api.github.com/users/niebert/repos",
-        "receivedEventsUrl": "https://api.github.com/users/niebert/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-17T11:28:26.000Z",
-      "publishedAt": "2016-10-17T11:33:22.000Z",
-      "tarballUrl": "https://api.github.com/repos/niebert/PanDocElectron/tarball/v0.9.4",
-      "zipballUrl": "https://api.github.com/repos/niebert/PanDocElectron/zipball/v0.9.4",
-      "body": "This release offers the feature to download WikiMedia Source text and process the downloaded source text with PanDoc. Furthermore the content is parsed and checked if there are additional files references for media (images, audio, video, ....) inserted in the source text. PanDocElectron will create a download page for all media used in the wikimedia article.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/niebert/PanDocElectron/releases/3648233",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/niebert/PanDocElectron/releases/3648233/assets",
-      "htmlUrl": "https://github.com/niebert/PanDocElectron/releases/tag/v0.9.2",
-      "id": 3648233,
-      "tagName": "v0.9.2",
-      "targetCommitish": "master",
-      "name": "Beta Release v0.9.2 PanDocElectron",
-      "draft": false,
-      "author": {
-        "login": "niebert",
-        "id": 10059228,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10059228?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/niebert",
-        "htmlUrl": "https://github.com/niebert",
-        "followersUrl": "https://api.github.com/users/niebert/followers",
-        "subscriptionsUrl": "https://api.github.com/users/niebert/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/niebert/orgs",
-        "reposUrl": "https://api.github.com/users/niebert/repos",
-        "receivedEventsUrl": "https://api.github.com/users/niebert/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-07-13T14:10:05.000Z",
-      "publishedAt": "2016-07-13T14:24:52.000Z",
-      "tarballUrl": "https://api.github.com/repos/niebert/PanDocElectron/tarball/v0.9.2",
-      "zipballUrl": "https://api.github.com/repos/niebert/PanDocElectron/zipball/v0.9.2",
-      "body": "Beta Release v0.9.2 for testing PanDocElectron\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:30:35.802Z"
 }

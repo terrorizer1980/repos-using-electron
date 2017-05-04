@@ -5,7 +5,7 @@
   "owner": {
     "login": "nodeca",
     "id": 723678,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/723678?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/723678?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nodeca",
     "htmlUrl": "https://github.com/nodeca",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/nodeca/nodeca/downloads",
   "deploymentsUrl": "https://api.github.com/repos/nodeca/nodeca/deployments",
   "createdAt": "2011-04-13T07:09:15.000Z",
-  "updatedAt": "2016-11-04T03:14:56.000Z",
-  "pushedAt": "2016-11-05T06:46:59.000Z",
+  "updatedAt": "2016-12-02T16:35:51.000Z",
+  "pushedAt": "2017-05-03T11:45:56.000Z",
   "gitUrl": "git://github.com/nodeca/nodeca.git",
   "sshUrl": "git@github.com:nodeca/nodeca.git",
   "cloneUrl": "https://github.com/nodeca/nodeca.git",
   "svnUrl": "https://github.com/nodeca/nodeca",
   "homepage": "http://dev.rcopen.com",
-  "size": 1152,
-  "stargazersCount": 81,
-  "watchersCount": 81,
+  "size": 1102,
+  "stargazersCount": 82,
+  "watchersCount": 82,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 12,
   "mirrorUrl": null,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 81,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 82,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "nodeca",
     "id": 723678,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/723678?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/723678?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nodeca",
     "htmlUrl": "https://github.com/nodeca",
@@ -224,17 +224,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "puzrin",
-    "ixti",
-    "Kirill89",
-    "rlidwka",
-    "dervus",
-    "shkuropat",
-    "kostap13",
-    "zakharovvi",
-    "greenkeeperio-bot"
-  ],
   "firstCommit": {
     "sha": "7b8716078e5de039a7fb02f8d83851bb48d7dc2d",
     "commit": {
@@ -258,5 +247,6 @@
     }
   },
   "filename": "nodeca___nodeca.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:16:47.792Z"
 }

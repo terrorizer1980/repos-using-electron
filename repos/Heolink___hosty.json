@@ -5,7 +5,7 @@
   "owner": {
     "login": "Heolink",
     "id": 1562078,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1562078?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1562078?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Heolink",
     "htmlUrl": "https://github.com/Heolink",
@@ -20,12 +20,12 @@
   "description": "Electron Hosts file editor",
   "fork": false,
   "createdAt": "2016-01-17T16:12:47.000Z",
-  "updatedAt": "2016-03-16T18:41:19.000Z",
-  "pushedAt": "2016-05-21T08:04:39.000Z",
+  "updatedAt": "2017-03-23T13:06:20.000Z",
+  "pushedAt": "2017-02-08T21:20:16.000Z",
   "homepage": "",
-  "size": 99735,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 102200,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 2,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -83,9 +83,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Heolink"
-  ],
   "firstCommit": {
     "sha": "c4cc9b8f4fa58d1aec49674bbf214f1b7badea8a",
     "commit": {
@@ -109,92 +106,26 @@
     }
   },
   "filename": "Heolink___hosty.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Heolink/hosty/releases/2607792",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Heolink/hosty/releases/assets/1307771",
-          "id": 1307771,
-          "name": "hosty-mac-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "Heolink",
-            "id": 1562078,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1562078?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Heolink",
-            "htmlUrl": "https://github.com/Heolink",
-            "followersUrl": "https://api.github.com/users/Heolink/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Heolink/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Heolink/orgs",
-            "reposUrl": "https://api.github.com/users/Heolink/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Heolink/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 48920531,
-          "downloadCount": 11,
-          "createdAt": "2016-02-13T08:35:27.000Z",
-          "updatedAt": "2016-02-13T08:43:54.000Z",
-          "browserDownloadUrl": "https://github.com/Heolink/hosty/releases/download/1.0-beta/hosty-mac-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/Heolink/hosty/releases/assets/1621198",
-          "id": 1621198,
-          "name": "hosty-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "Heolink",
-            "id": 1562078,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1562078?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Heolink",
-            "htmlUrl": "https://github.com/Heolink",
-            "followersUrl": "https://api.github.com/users/Heolink/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Heolink/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Heolink/orgs",
-            "reposUrl": "https://api.github.com/users/Heolink/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Heolink/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 61196722,
-          "downloadCount": 2,
-          "createdAt": "2016-04-30T10:03:10.000Z",
-          "updatedAt": "2016-04-30T10:06:55.000Z",
-          "browserDownloadUrl": "https://github.com/Heolink/hosty/releases/download/1.0-beta/hosty-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Heolink/hosty/releases/2607792/assets",
-      "htmlUrl": "https://github.com/Heolink/hosty/releases/tag/1.0-beta",
-      "id": 2607792,
-      "tagName": "1.0-beta",
-      "targetCommitish": "master",
-      "name": "Hosty",
-      "draft": false,
-      "author": {
-        "login": "Heolink",
-        "id": 1562078,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1562078?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Heolink",
-        "htmlUrl": "https://github.com/Heolink",
-        "followersUrl": "https://api.github.com/users/Heolink/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Heolink/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Heolink/orgs",
-        "reposUrl": "https://api.github.com/users/Heolink/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Heolink/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-02-13T08:34:05.000Z",
-      "publishedAt": "2016-02-13T08:43:54.000Z",
-      "tarballUrl": "https://api.github.com/repos/Heolink/hosty/tarball/1.0-beta",
-      "zipballUrl": "https://api.github.com/repos/Heolink/hosty/zipball/1.0-beta",
-      "body": "Release for Mac OS X\n\nTested on version 10.11.3\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/Heolink/hosty",
+  "url": "https://api.github.com/repos/Heolink/hosty",
+  "forksUrl": "https://api.github.com/repos/Heolink/hosty/forks",
+  "teamsUrl": "https://api.github.com/repos/Heolink/hosty/teams",
+  "hooksUrl": "https://api.github.com/repos/Heolink/hosty/hooks",
+  "eventsUrl": "https://api.github.com/repos/Heolink/hosty/events",
+  "tagsUrl": "https://api.github.com/repos/Heolink/hosty/tags",
+  "languagesUrl": "https://api.github.com/repos/Heolink/hosty/languages",
+  "stargazersUrl": "https://api.github.com/repos/Heolink/hosty/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Heolink/hosty/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Heolink/hosty/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Heolink/hosty/subscription",
+  "mergesUrl": "https://api.github.com/repos/Heolink/hosty/merges",
+  "downloadsUrl": "https://api.github.com/repos/Heolink/hosty/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Heolink/hosty/deployments",
+  "gitUrl": "git://github.com/Heolink/hosty.git",
+  "sshUrl": "git@github.com:Heolink/hosty.git",
+  "cloneUrl": "https://github.com/Heolink/hosty.git",
+  "svnUrl": "https://github.com/Heolink/hosty",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T11:04:31.582Z"
 }

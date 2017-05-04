@@ -5,7 +5,7 @@
   "owner": {
     "login": "nCoda",
     "id": 11892845,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11892845?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/11892845?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nCoda",
     "htmlUrl": "https://github.com/nCoda",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/nCoda/julius/downloads",
   "deploymentsUrl": "https://api.github.com/repos/nCoda/julius/deployments",
   "createdAt": "2016-05-20T08:43:33.000Z",
-  "updatedAt": "2016-10-30T02:18:07.000Z",
-  "pushedAt": "2016-11-01T23:00:32.000Z",
+  "updatedAt": "2016-12-29T08:23:49.000Z",
+  "pushedAt": "2017-04-23T21:22:47.000Z",
   "gitUrl": "git://github.com/nCoda/julius.git",
   "sshUrl": "git@github.com:nCoda/julius.git",
   "cloneUrl": "https://github.com/nCoda/julius.git",
   "svnUrl": "https://github.com/nCoda/julius",
   "homepage": "https://goldman.ncodamusic.org/diffusion/JL/",
-  "size": 31282,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 31420,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": false,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "main",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "nCoda",
     "id": 11892845,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11892845?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/11892845?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nCoda",
     "htmlUrl": "https://github.com/nCoda",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/nCoda/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "julius",
@@ -165,12 +165,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "crantila",
-    "siennamw",
-    "ahwitz",
-    "WeiToGo"
-  ],
   "firstCommit": {
     "sha": "2d4d751f07aeb981bd4cab5e59a5fa10e2c6166a",
     "commit": {
@@ -194,5 +188,6 @@
     }
   },
   "filename": "nCoda___julius.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:31:57.987Z"
 }

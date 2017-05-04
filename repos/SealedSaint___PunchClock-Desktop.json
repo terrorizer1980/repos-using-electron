@@ -5,7 +5,7 @@
   "owner": {
     "login": "SealedSaint",
     "id": 11187206,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11187206?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11187206?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SealedSaint",
     "htmlUrl": "https://github.com/SealedSaint",
@@ -17,24 +17,24 @@
     "type": "User"
   },
   "private": false,
-  "description": "A web application for tracking time devoted to different projects throughout the day.",
+  "description": "An Electron desktop application for tracking time to different projects throughout the day.",
   "fork": false,
   "createdAt": "2016-01-03T23:46:34.000Z",
-  "updatedAt": "2016-04-26T03:24:56.000Z",
-  "pushedAt": "2016-04-26T03:28:33.000Z",
-  "homepage": null,
-  "size": 373,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "updatedAt": "2017-03-12T01:02:34.000Z",
+  "pushedAt": "2017-04-06T18:49:10.000Z",
+  "homepage": "",
+  "size": 447,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,11 +42,11 @@
     "pull": true
   },
   "license": {
-    "key": "cc0-1.0",
-    "name": "Creative Commons Zero v1.0 Universal",
-    "spdxId": "CC0-1.0",
-    "url": "https://api.github.com/licenses/cc0-1.0",
-    "featured": false
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
   "networkCount": 0,
   "subscribersCount": 1,
@@ -93,9 +93,6 @@
   "cloneUrl": "https://github.com/SealedSaint/PunchClock-Desktop.git",
   "svnUrl": "https://github.com/SealedSaint/PunchClock-Desktop",
   "mirrorUrl": null,
-  "contributors": [
-    "SealedSaint"
-  ],
   "firstCommit": {
     "sha": "b52755b560aa4ca14ae1eec187079206819ee786",
     "commit": {
@@ -119,5 +116,6 @@
     }
   },
   "filename": "SealedSaint___PunchClock-Desktop.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:05:03.443Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "Ulydev",
     "id": 9826683,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9826683?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/9826683?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Ulydev",
     "htmlUrl": "https://github.com/Ulydev",
@@ -20,12 +20,12 @@
   "description": null,
   "fork": false,
   "createdAt": "2016-05-09T18:53:07.000Z",
-  "updatedAt": "2016-11-04T13:05:59.000Z",
+  "updatedAt": "2016-12-21T02:21:09.000Z",
   "pushedAt": "2016-05-14T10:35:28.000Z",
   "homepage": null,
   "size": 2120,
-  "stargazersCount": 9,
-  "watchersCount": 9,
+  "stargazersCount": 10,
+  "watchersCount": 10,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 5,
   "openIssues": 5,
-  "watchers": 9,
+  "watchers": 10,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -128,9 +128,6 @@
   "cloneUrl": "https://github.com/Ulydev/love-packer.git",
   "svnUrl": "https://github.com/Ulydev/love-packer",
   "mirrorUrl": null,
-  "contributors": [
-    "Ulydev"
-  ],
   "firstCommit": {
     "sha": "0d1d8ccca38b26cc7973ff34b4e36449c5d74c86",
     "commit": {
@@ -154,92 +151,6 @@
     }
   },
   "filename": "Ulydev___love-packer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Ulydev/love-packer/releases/3225646",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Ulydev/love-packer/releases/assets/1684331",
-          "id": 1684331,
-          "name": "love-packer-osx.zip",
-          "label": null,
-          "uploader": {
-            "login": "Ulydev",
-            "id": 9826683,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/9826683?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Ulydev",
-            "htmlUrl": "https://github.com/Ulydev",
-            "followersUrl": "https://api.github.com/users/Ulydev/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Ulydev/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Ulydev/orgs",
-            "reposUrl": "https://api.github.com/users/Ulydev/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Ulydev/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 62016006,
-          "downloadCount": 12,
-          "createdAt": "2016-05-14T10:24:58.000Z",
-          "updatedAt": "2016-05-14T10:33:38.000Z",
-          "browserDownloadUrl": "https://github.com/Ulydev/love-packer/releases/download/v1.0.0/love-packer-osx.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/Ulydev/love-packer/releases/assets/1684312",
-          "id": 1684312,
-          "name": "love-packer-win32.zip",
-          "label": null,
-          "uploader": {
-            "login": "Ulydev",
-            "id": 9826683,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/9826683?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Ulydev",
-            "htmlUrl": "https://github.com/Ulydev",
-            "followersUrl": "https://api.github.com/users/Ulydev/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Ulydev/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Ulydev/orgs",
-            "reposUrl": "https://api.github.com/users/Ulydev/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Ulydev/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 61990464,
-          "downloadCount": 24,
-          "createdAt": "2016-05-14T10:14:30.000Z",
-          "updatedAt": "2016-05-14T10:34:34.000Z",
-          "browserDownloadUrl": "https://github.com/Ulydev/love-packer/releases/download/v1.0.0/love-packer-win32.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Ulydev/love-packer/releases/3225646/assets",
-      "htmlUrl": "https://github.com/Ulydev/love-packer/releases/tag/v1.0.0",
-      "id": 3225646,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "LÖVE-Packer-1.0.0",
-      "draft": false,
-      "author": {
-        "login": "Ulydev",
-        "id": 9826683,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9826683?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Ulydev",
-        "htmlUrl": "https://github.com/Ulydev",
-        "followersUrl": "https://api.github.com/users/Ulydev/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Ulydev/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Ulydev/orgs",
-        "reposUrl": "https://api.github.com/users/Ulydev/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Ulydev/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-14T10:27:00.000Z",
-      "publishedAt": "2016-05-14T10:34:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/Ulydev/love-packer/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/Ulydev/love-packer/zipball/v1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:41:51.176Z"
 }

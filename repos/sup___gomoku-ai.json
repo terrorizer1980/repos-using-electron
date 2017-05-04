@@ -5,7 +5,7 @@
   "owner": {
     "login": "sup",
     "id": 3483106,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3483106?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3483106?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sup",
     "htmlUrl": "https://github.com/sup",
@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": ":video_game: Gomoku AI built using Negamax, alpha-beta pruning, and novel board evaluation.",
+  "description": ":video_game: Negamax Gomoku AI with alpha-beta pruning and board evaluation heuristic",
   "fork": false,
   "createdAt": "2015-10-01T05:02:25.000Z",
-  "updatedAt": "2016-07-02T07:09:58.000Z",
-  "pushedAt": "2016-07-02T15:36:05.000Z",
+  "updatedAt": "2017-03-27T22:42:22.000Z",
+  "pushedAt": "2016-12-01T23:30:20.000Z",
   "homepage": "http://charlesjianlai.com/gomoku-ai",
-  "size": 18,
+  "size": 17,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -87,9 +87,6 @@
   "cloneUrl": "https://github.com/sup/gomoku-ai.git",
   "svnUrl": "https://github.com/sup/gomoku-ai",
   "mirrorUrl": null,
-  "contributors": [
-    "sup"
-  ],
   "firstCommit": {
     "sha": "4f6884bb97e035f3ecca2bcce0362d886304f7c0",
     "commit": {
@@ -113,5 +110,6 @@
     }
   },
   "filename": "sup___gomoku-ai.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:52:14.285Z"
 }

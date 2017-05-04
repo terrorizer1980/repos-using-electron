@@ -5,7 +5,7 @@
   "owner": {
     "login": "maldinix",
     "id": 11333646,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11333646?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11333646?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/maldinix",
     "htmlUrl": "https://github.com/maldinix",
@@ -19,7 +19,7 @@
   "private": false,
   "htmlUrl": "https://github.com/maldinix/cisc475-chatbot-GUI",
   "description": "GUI code for my CISC475 Project",
-  "fork": true,
+  "fork": false,
   "url": "https://api.github.com/repos/maldinix/cisc475-chatbot-GUI",
   "forksUrl": "https://api.github.com/repos/maldinix/cisc475-chatbot-GUI/forks",
   "teamsUrl": "https://api.github.com/repos/maldinix/cisc475-chatbot-GUI/teams",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/maldinix/cisc475-chatbot-GUI/downloads",
   "deploymentsUrl": "https://api.github.com/repos/maldinix/cisc475-chatbot-GUI/deployments",
   "createdAt": "2016-10-31T15:55:26.000Z",
-  "updatedAt": "2016-11-05T04:01:28.000Z",
-  "pushedAt": "2016-11-05T04:01:26.000Z",
+  "updatedAt": "2016-12-20T02:57:00.000Z",
+  "pushedAt": "2016-11-06T14:40:44.000Z",
   "gitUrl": "git://github.com/maldinix/cisc475-chatbot-GUI.git",
   "sshUrl": "git@github.com:maldinix/cisc475-chatbot-GUI.git",
   "cloneUrl": "https://github.com/maldinix/cisc475-chatbot-GUI.git",
   "svnUrl": "https://github.com/maldinix/cisc475-chatbot-GUI",
   "homepage": null,
-  "size": 89,
+  "size": 90,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -180,7 +180,7 @@
     "watchers": 0,
     "defaultBranch": "master"
   },
-  "networkCount": 1,
+  "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -192,10 +192,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "maldinix",
-    "ShiJbey"
-  ],
   "firstCommit": {
     "sha": "8257e7fcab73dee70d0e6e83e0a3a0de7a9e60e3",
     "commit": {
@@ -220,5 +216,6 @@
   },
   "filename": "maldinix___cisc475-chatbot-GUI.json",
   "sourceRepo": "ShiJbey/cisc475-chatbot-GUI",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:04:44.125Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "nteract",
     "id": 12401040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12401040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nteract",
     "htmlUrl": "https://github.com/nteract",
@@ -17,24 +17,24 @@
     "type": "Organization"
   },
   "private": false,
-  "description": ":symbols: A trimmed down version of the MathJax library for use with electron",
+  "description": ":symbols::electron: A trimmed down version of the MathJax library for use with electron and modern browsers",
   "fork": false,
   "createdAt": "2016-04-11T19:31:35.000Z",
-  "updatedAt": "2016-07-19T10:07:11.000Z",
-  "pushedAt": "2016-07-15T22:45:58.000Z",
+  "updatedAt": "2017-04-06T17:01:48.000Z",
+  "pushedAt": "2017-04-24T18:10:44.000Z",
   "homepage": "http://nteract.io/mathjax-electron",
-  "size": 1276,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "size": 4392,
+  "stargazersCount": 11,
+  "watchersCount": 11,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 3,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 5,
+  "forksCount": 4,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 11,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "nteract",
     "id": 12401040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12401040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nteract",
     "htmlUrl": "https://github.com/nteract",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/nteract/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
-  "subscribersCount": 11,
+  "networkCount": 4,
+  "subscribersCount": 10,
   "status": 200,
   "packageJSON": {
     "name": "mathjax-electron",
@@ -103,10 +103,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lgeiger",
-    "rgbkrk"
-  ],
   "firstCommit": {
     "sha": "d7c36a7f091d5a42fd9b73860e09b30797e22dd3",
     "commit": {
@@ -130,5 +126,26 @@
     }
   },
   "filename": "nteract___mathjax-electron.json",
-  "releases": []
+  "htmlUrl": "https://github.com/nteract/mathjax-electron",
+  "url": "https://api.github.com/repos/nteract/mathjax-electron",
+  "forksUrl": "https://api.github.com/repos/nteract/mathjax-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/nteract/mathjax-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/nteract/mathjax-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/nteract/mathjax-electron/events",
+  "tagsUrl": "https://api.github.com/repos/nteract/mathjax-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/nteract/mathjax-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/nteract/mathjax-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/nteract/mathjax-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/nteract/mathjax-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/nteract/mathjax-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/nteract/mathjax-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/nteract/mathjax-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/nteract/mathjax-electron/deployments",
+  "gitUrl": "git://github.com/nteract/mathjax-electron.git",
+  "sshUrl": "git@github.com:nteract/mathjax-electron.git",
+  "cloneUrl": "https://github.com/nteract/mathjax-electron.git",
+  "svnUrl": "https://github.com/nteract/mathjax-electron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:59:39.067Z"
 }

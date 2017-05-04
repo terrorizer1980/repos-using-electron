@@ -162,16 +162,12 @@
   },
   "networkCount": 53,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "ghost-desktop",
     "version": "0.3.2",
     "description": "Desktop Client for Ghost",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "homepage": "https://github.com/tryghost/ghost-desktop",
     "scripts": {
       "build": "grunt build",
@@ -187,7 +183,6 @@
     "engines": {
       "node": ">= 5.0"
     },
-    "author": "",
     "license": "MIT",
     "optionalDependencies": {
       "grunt-electron-installer-debian": "^0.3.0"
@@ -279,5 +274,7 @@
     "JohnONolan",
     "dbhowell",
     "Epic-Stuff-Bot"
-  ]
+  ],
+  "filename": "978543210___Ghost-Desktop.json",
+  "lastFetchedAt": "2017-05-04T05:18:27.089Z"
 }

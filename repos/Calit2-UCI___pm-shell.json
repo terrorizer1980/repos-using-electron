@@ -84,7 +84,7 @@
   },
   "networkCount": 1,
   "subscribersCount": 5,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "pmui",
     "version": "2.0.0",
@@ -1645,5 +1645,6 @@
       "zipballUrl": "https://api.github.com/repos/Calit2-UCI/pm-shell/zipball/v0.0.1",
       "body": "- Configure the power plan using basic sliders\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T15:29:23.659Z"
 }

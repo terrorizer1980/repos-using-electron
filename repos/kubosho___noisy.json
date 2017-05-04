@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "noisy",
     "version": "1.0.0-alpha.3",
@@ -178,5 +178,6 @@
       "zipballUrl": "https://api.github.com/repos/kubosho/noisy/zipball/v1.0.0-alpha.3",
       "body": ""
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T20:07:27.074Z"
 }

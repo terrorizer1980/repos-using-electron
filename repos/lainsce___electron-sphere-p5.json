@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "drawsphere",
     "version": "1.0.0",
@@ -86,15 +86,19 @@
       "p5",
       "electron"
     ],
-    "author": "Lains",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
       "p5": "^0.5.0"
+    },
+    "other": {
+      "author": "Lains"
     }
   },
   "packageStatus": 200,
   "contributors": [
     "lainsce"
-  ]
+  ],
+  "filename": "lainsce___electron-sphere-p5.json",
+  "lastFetchedAt": "2017-05-04T18:06:03.307Z"
 }

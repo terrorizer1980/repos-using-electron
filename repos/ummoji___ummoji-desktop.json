@@ -5,7 +5,7 @@
   "owner": {
     "login": "ummoji",
     "id": 23225913,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23225913?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/23225913?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ummoji",
     "htmlUrl": "https://github.com/ummoji",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/ummoji/ummoji-desktop",
-  "description": "Experimental: An Electron app for finding the right emoji",
+  "description": ":computer: An Electron app for finding the right emoji",
   "fork": false,
   "url": "https://api.github.com/repos/ummoji/ummoji-desktop",
   "forksUrl": "https://api.github.com/repos/ummoji/ummoji-desktop/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/ummoji/ummoji-desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ummoji/ummoji-desktop/deployments",
   "createdAt": "2016-09-30T05:51:01.000Z",
-  "updatedAt": "2016-11-04T08:34:00.000Z",
-  "pushedAt": "2016-11-04T08:39:42.000Z",
+  "updatedAt": "2017-03-30T14:24:36.000Z",
+  "pushedAt": "2017-04-01T05:13:41.000Z",
   "gitUrl": "git://github.com/ummoji/ummoji-desktop.git",
   "sshUrl": "git@github.com:ummoji/ummoji-desktop.git",
   "cloneUrl": "https://github.com/ummoji/ummoji-desktop.git",
   "svnUrl": "https://github.com/ummoji/ummoji-desktop",
   "homepage": "",
-  "size": 9244,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "size": 9756,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 4,
-  "openIssues": 4,
-  "watchers": 3,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": true,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "ummoji",
     "id": 23225913,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23225913?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/23225913?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ummoji",
     "htmlUrl": "https://github.com/ummoji",
@@ -80,9 +80,6 @@
   "subscribersCount": 2,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "zeke"
-  ],
   "firstCommit": {
     "sha": "218111df8d40465b2ab75ac3956271ef091dbb31",
     "commit": {
@@ -106,5 +103,9 @@
     }
   },
   "filename": "ummoji___ummoji-desktop.json",
-  "releases": []
+  "hasProjects": true,
+  "allowSquashMerge": true,
+  "allowMergeCommit": true,
+  "allowRebaseMerge": true,
+  "lastFetchedAt": "2017-05-04T05:12:31.395Z"
 }

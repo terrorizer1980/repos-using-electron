@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "360viewer",
     "version": "0.0.0",
@@ -79,15 +79,8 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/AlexNewson/360viewer.git"
-    },
-    "author": "Alex Newson",
+    "repository": "https://github.com/AlexNewson/360viewer",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/AlexNewson/360viewer/issues"
-    },
     "homepage": "https://github.com/AlexNewson/360viewer#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5",
@@ -97,5 +90,7 @@
   "packageStatus": 200,
   "contributors": [
     "AlexNewson"
-  ]
+  ],
+  "filename": "AlexNewson___360viewer.json",
+  "lastFetchedAt": "2017-05-04T15:13:52.610Z"
 }

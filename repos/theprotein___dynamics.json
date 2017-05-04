@@ -71,11 +71,6 @@
     "productName": "Dynamics",
     "description": "Prototyping system with mixed environment",
     "version": "1.0.0",
-    "author": {
-      "name": "The Protein Corp.",
-      "email": "ask@theprotein.io",
-      "url": "http://theprotein.io"
-    },
     "license": "MPL-2.0",
     "main": "index.js",
     "scripts": {
@@ -159,7 +154,16 @@
       "sharps": "^3.0.1",
       "spectron": "3.2.0",
       "ym": "0.1.2"
+    },
+    "other": {
+      "author": {
+        "name": "The Protein Corp.",
+        "email": "ask@theprotein.io",
+        "url": "http://theprotein.io"
+      }
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "theprotein___dynamics.json",
+  "lastFetchedAt": "2017-05-04T17:34:34.776Z"
 }

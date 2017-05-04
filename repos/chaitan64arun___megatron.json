@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "megatron",
     "productName": "Megatron",
@@ -114,13 +114,7 @@
       "start": "npm run compile && npm run electron",
       "debug": "npm run compile && npm run electron-debug"
     },
-    "license": "MIT",
-    "other": {
-      "author": "Arun Chaitanya Miriappalli <chaitan64arun@gmail.com>",
-      "bugs": {
-        "url": "https://github.com/chaitan64arun/megatron/issues"
-      }
-    }
+    "license": "MIT"
   },
   "packageStatus": 200,
   "contributors": [
@@ -148,5 +142,6 @@
       "commentCount": 0
     }
   },
-  "filename": "chaitan64arun___megatron.json"
+  "filename": "chaitan64arun___megatron.json",
+  "lastFetchedAt": "2017-05-04T18:04:37.931Z"
 }

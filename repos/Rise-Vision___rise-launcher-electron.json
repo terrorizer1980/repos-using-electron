@@ -5,7 +5,7 @@
   "owner": {
     "login": "Rise-Vision",
     "id": 6840223,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6840223?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6840223?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Rise-Vision",
     "htmlUrl": "https://github.com/Rise-Vision",
@@ -17,13 +17,13 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2015-10-14T17:47:09.000Z",
   "updatedAt": "2016-01-20T13:39:21.000Z",
-  "pushedAt": "2016-09-28T16:19:53.000Z",
+  "pushedAt": "2017-05-04T15:34:24.000Z",
   "homepage": null,
-  "size": 2236,
+  "size": 1684,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 1,
-  "openIssuesCount": 1,
-  "openIssues": 1,
+  "openIssuesCount": 7,
+  "openIssues": 7,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -45,7 +45,7 @@
   "organization": {
     "login": "Rise-Vision",
     "id": 6840223,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6840223?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6840223?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Rise-Vision",
     "htmlUrl": "https://github.com/Rise-Vision",
@@ -57,7 +57,7 @@
     "type": "Organization"
   },
   "networkCount": 1,
-  "subscribersCount": 18,
+  "subscribersCount": 19,
   "status": 200,
   "packageJSON": {
     "name": "installer",
@@ -103,12 +103,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "tejohnso",
-    "fjvallarino",
-    "ahmedalsudani",
-    "RV-Adrian"
-  ],
   "firstCommit": {
     "sha": "d874cdf8ca340fa387414aaa08a9838fb3a81f63",
     "commit": {
@@ -132,68 +126,26 @@
     }
   },
   "filename": "Rise-Vision___rise-launcher-electron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359805",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359805/assets",
-      "htmlUrl": "https://github.com/Rise-Vision/rise-launcher-electron/releases/tag/v1.0.2",
-      "id": 2359805,
-      "tagName": "v1.0.2",
-      "targetCommitish": "master",
-      "name": "Reorganize project structure",
-      "draft": false,
-      "author": {
-        "login": "fjvallarino",
-        "id": 6565497,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6565497?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/fjvallarino",
-        "htmlUrl": "https://github.com/fjvallarino",
-        "followersUrl": "https://api.github.com/users/fjvallarino/followers",
-        "subscriptionsUrl": "https://api.github.com/users/fjvallarino/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/fjvallarino/orgs",
-        "reposUrl": "https://api.github.com/users/fjvallarino/repos",
-        "receivedEventsUrl": "https://api.github.com/users/fjvallarino/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-12-31T19:51:01.000Z",
-      "publishedAt": "2015-12-31T19:51:25.000Z",
-      "tarballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/tarball/v1.0.2",
-      "zipballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/zipball/v1.0.2",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359801",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/releases/2359801/assets",
-      "htmlUrl": "https://github.com/Rise-Vision/rise-launcher-electron/releases/tag/v1.0.1",
-      "id": 2359801,
-      "tagName": "v1.0.1",
-      "targetCommitish": "master",
-      "name": "Improve build process",
-      "draft": false,
-      "author": {
-        "login": "fjvallarino",
-        "id": 6565497,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6565497?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/fjvallarino",
-        "htmlUrl": "https://github.com/fjvallarino",
-        "followersUrl": "https://api.github.com/users/fjvallarino/followers",
-        "subscriptionsUrl": "https://api.github.com/users/fjvallarino/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/fjvallarino/orgs",
-        "reposUrl": "https://api.github.com/users/fjvallarino/repos",
-        "receivedEventsUrl": "https://api.github.com/users/fjvallarino/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-12-31T00:39:08.000Z",
-      "publishedAt": "2015-12-31T19:50:45.000Z",
-      "tarballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/tarball/v1.0.1",
-      "zipballUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/zipball/v1.0.1",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/Rise-Vision/rise-launcher-electron",
+  "url": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron",
+  "forksUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/events",
+  "tagsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Rise-Vision/rise-launcher-electron/deployments",
+  "gitUrl": "git://github.com/Rise-Vision/rise-launcher-electron.git",
+  "sshUrl": "git@github.com:Rise-Vision/rise-launcher-electron.git",
+  "cloneUrl": "https://github.com/Rise-Vision/rise-launcher-electron.git",
+  "svnUrl": "https://github.com/Rise-Vision/rise-launcher-electron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:35:06.272Z"
 }

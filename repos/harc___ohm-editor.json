@@ -6,7 +6,7 @@
   "owner": {
     "login": "harc",
     "id": 22809831,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22809831?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22809831?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/harc",
     "htmlUrl": "https://github.com/harc",
@@ -36,26 +36,26 @@
   "downloadsUrl": "https://api.github.com/repos/harc/ohm-editor/downloads",
   "deploymentsUrl": "https://api.github.com/repos/harc/ohm-editor/deployments",
   "createdAt": "2016-05-16T22:24:07.000Z",
-  "updatedAt": "2016-12-12T15:51:00.000Z",
-  "pushedAt": "2017-01-17T17:17:37.000Z",
+  "updatedAt": "2017-05-03T14:01:34.000Z",
+  "pushedAt": "2017-03-28T19:18:56.000Z",
   "gitUrl": "git://github.com/harc/ohm-editor.git",
   "sshUrl": "git@github.com:harc/ohm-editor.git",
   "cloneUrl": "https://github.com/harc/ohm-editor.git",
   "svnUrl": "https://github.com/harc/ohm-editor",
   "homepage": null,
-  "size": 41271,
-  "stargazersCount": 10,
-  "watchersCount": 10,
+  "size": 41292,
+  "stargazersCount": 44,
+  "watchersCount": 44,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 3,
+  "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 9,
-  "openIssues": 9,
-  "watchers": 10,
+  "openIssuesCount": 19,
+  "openIssues": 19,
+  "watchers": 44,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -72,7 +72,7 @@
   "organization": {
     "login": "harc",
     "id": 22809831,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22809831?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22809831?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/harc",
     "htmlUrl": "https://github.com/harc",
@@ -83,8 +83,8 @@
     "receivedEventsUrl": "https://api.github.com/users/harc/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
-  "subscribersCount": 23,
+  "networkCount": 5,
+  "subscribersCount": 25,
   "status": 200,
   "packageJSON": {
     "name": "ohm-js-editor",
@@ -170,12 +170,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "pdubroy",
-    "lilyx",
-    "mroeder",
-    "sakekasi"
-  ],
   "firstCommit": {
     "sha": "b6891f3ab7ab1fc2aff9934ea5c5c0d366527f35",
     "commit": {
@@ -199,5 +193,6 @@
     }
   },
   "sourceRepo": "cdglabs/ohm-editor",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:31:05.902Z"
 }

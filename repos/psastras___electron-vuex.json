@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "scripts": {
       "postinstall": "cd app && npm install",
@@ -178,5 +178,6 @@
       "commentCount": 0
     }
   },
-  "filename": "psastras___electron-vuex.json"
+  "filename": "psastras___electron-vuex.json",
+  "lastFetchedAt": "2017-05-04T20:18:14.688Z"
 }

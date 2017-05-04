@@ -5,7 +5,7 @@
   "owner": {
     "login": "runkitdev",
     "id": 22205303,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22205303?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/22205303?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/runkitdev",
     "htmlUrl": "https://github.com/runkitdev",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/runkitdev/demokit/downloads",
   "deploymentsUrl": "https://api.github.com/repos/runkitdev/demokit/deployments",
   "createdAt": "2016-10-18T17:20:50.000Z",
-  "updatedAt": "2016-11-16T20:43:53.000Z",
-  "pushedAt": "2016-10-20T07:50:15.000Z",
+  "updatedAt": "2017-05-02T02:05:41.000Z",
+  "pushedAt": "2017-01-26T22:24:14.000Z",
   "gitUrl": "git://github.com/runkitdev/demokit.git",
   "sshUrl": "git@github.com:runkitdev/demokit.git",
   "cloneUrl": "https://github.com/runkitdev/demokit.git",
   "svnUrl": "https://github.com/runkitdev/demokit",
   "homepage": null,
-  "size": 1276,
-  "stargazersCount": 238,
-  "watchersCount": 238,
+  "size": 1280,
+  "stargazersCount": 303,
+  "watchersCount": 303,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 8,
+  "forksCount": 12,
   "mirrorUrl": null,
   "openIssuesCount": 15,
   "openIssues": 15,
-  "watchers": 238,
+  "watchers": 303,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "runkitdev",
     "id": 22205303,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22205303?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/22205303?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/runkitdev",
     "htmlUrl": "https://github.com/runkitdev",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/runkitdev/received_events",
     "type": "Organization"
   },
-  "networkCount": 8,
-  "subscribersCount": 9,
+  "networkCount": 12,
+  "subscribersCount": 16,
   "status": 200,
   "packageJSON": {
     "name": "demokit",
@@ -111,18 +111,9 @@
     ],
     "license": "MIT",
     "homepage": "https://github.com/runkitdev/demokit#readme",
-    "dependencies": {},
-    "other": {
-      "author": "RunKit",
-      "bugs": {
-        "url": "https://github.com/runkitdev/demokit/issues"
-      }
-    }
+    "dependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "tolmasky"
-  ],
   "firstCommit": {
     "sha": "fb0c1beacb331f6a00eb3c2f02ffb9a948d4a812",
     "commit": {
@@ -146,5 +137,6 @@
     }
   },
   "filename": "runkitdev___demokit.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:46:00.503Z"
 }

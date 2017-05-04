@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "m_player",
     "version": "0.1.0",
@@ -59,7 +59,6 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "author": "David Cathers",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -72,5 +71,7 @@
   "packageStatus": 404,
   "contributors": [
     "DAC098"
-  ]
+  ],
+  "filename": "DAC098___TDSM.json",
+  "lastFetchedAt": "2017-05-04T16:46:02.899Z"
 }

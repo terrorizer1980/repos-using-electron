@@ -5,7 +5,7 @@
   "owner": {
     "login": "ajainvivek",
     "id": 1182600,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1182600?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1182600?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ajainvivek",
     "htmlUrl": "https://github.com/ajainvivek",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/ajainvivek/P2PDrop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ajainvivek/P2PDrop/deployments",
   "createdAt": "2015-12-11T06:46:03.000Z",
-  "updatedAt": "2016-11-08T08:36:21.000Z",
+  "updatedAt": "2017-03-28T15:42:48.000Z",
   "pushedAt": "2016-07-06T21:16:37.000Z",
   "gitUrl": "git://github.com/ajainvivek/P2PDrop.git",
   "sshUrl": "git@github.com:ajainvivek/P2PDrop.git",
   "cloneUrl": "https://github.com/ajainvivek/P2PDrop.git",
   "svnUrl": "https://github.com/ajainvivek/P2PDrop",
-  "homepage": "http://p2pdrop.com/",
+  "homepage": "http://app.p2pdrop.com/",
   "size": 1856,
-  "stargazersCount": 17,
-  "watchersCount": 17,
+  "stargazersCount": 21,
+  "watchersCount": 21,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 17,
+  "watchers": 21,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -156,11 +156,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ajainvivek",
-    "gitter-badger",
-    "ember-tomster"
-  ],
   "firstCommit": {
     "sha": "c90368c64f3f560e5d455c52f4546b3a7342db61",
     "commit": {
@@ -184,37 +179,6 @@
     }
   },
   "filename": "ajainvivek___P2PDrop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/ajainvivek/P2PDrop/releases/3085698",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/ajainvivek/P2PDrop/releases/3085698/assets",
-      "htmlUrl": "https://github.com/ajainvivek/P2PDrop/releases/tag/0.1.1",
-      "id": 3085698,
-      "tagName": "0.1.1",
-      "targetCommitish": "master",
-      "name": "Developer Preview Version",
-      "draft": false,
-      "author": {
-        "login": "ajainvivek",
-        "id": 1182600,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1182600?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ajainvivek",
-        "htmlUrl": "https://github.com/ajainvivek",
-        "followersUrl": "https://api.github.com/users/ajainvivek/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ajainvivek/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ajainvivek/orgs",
-        "reposUrl": "https://api.github.com/users/ajainvivek/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ajainvivek/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-04-23T20:56:06.000Z",
-      "publishedAt": "2016-04-24T11:02:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/ajainvivek/P2PDrop/tarball/0.1.1",
-      "zipballUrl": "https://api.github.com/repos/ajainvivek/P2PDrop/zipball/0.1.1",
-      "body": "While P2PDrop Desktop is not full ready for consumers might have bugs, we would love to get some feedback and help from the developer community. The development build resembles closely what will be the first public release, but we want to make sure that we got as many :eyes: as possible on the app before we actually release it. **Go ahead, download the dev build now - and report issues wherever you see them!\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:16:47.158Z"
 }

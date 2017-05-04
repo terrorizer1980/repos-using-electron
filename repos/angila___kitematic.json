@@ -182,19 +182,14 @@
   },
   "networkCount": 622,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Kitematic",
     "version": "0.7.4",
-    "author": "Kitematic",
     "description": "Simple Docker Container management for Mac OS X.",
     "homepage": "https://kitematic.com/",
     "main": "browser.js",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:kitematic/kitematic.git"
-    },
-    "bugs": "https://github.com/kitematic/kitematic/issues",
+    "repository": "https://github.com/kitematic/kitematic",
     "scripts": {
       "start": "grunt",
       "test": "jest -c jest-unit.json",
@@ -309,5 +304,7 @@
     "gitter-badger",
     "domderen",
     "ttwthomas"
-  ]
+  ],
+  "filename": "angila___kitematic.json",
+  "lastFetchedAt": "2017-05-04T20:37:31.493Z"
 }

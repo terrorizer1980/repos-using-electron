@@ -5,7 +5,7 @@
   "owner": {
     "login": "voxmedia",
     "id": 316807,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/316807?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/316807?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/voxmedia",
     "htmlUrl": "https://github.com/voxmedia",
@@ -20,21 +20,21 @@
   "description": "Platform for reusable news tools",
   "fork": false,
   "createdAt": "2015-02-04T16:35:39.000Z",
-  "updatedAt": "2016-10-30T07:08:07.000Z",
-  "pushedAt": "2016-10-31T21:58:26.000Z",
+  "updatedAt": "2017-04-25T13:33:38.000Z",
+  "pushedAt": "2017-04-27T17:06:29.000Z",
   "homepage": "",
-  "size": 152045,
-  "stargazersCount": 371,
-  "watchersCount": 371,
+  "size": 182710,
+  "stargazersCount": 393,
+  "watchersCount": 393,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 31,
-  "openIssuesCount": 44,
-  "openIssues": 44,
-  "watchers": 371,
+  "forksCount": 33,
+  "openIssuesCount": 46,
+  "openIssues": 46,
+  "watchers": 393,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "voxmedia",
     "id": 316807,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/316807?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/316807?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/voxmedia",
     "htmlUrl": "https://github.com/voxmedia",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/voxmedia/received_events",
     "type": "Organization"
   },
-  "networkCount": 31,
-  "subscribersCount": 115,
+  "networkCount": 33,
+  "subscribersCount": 108,
   "status": 200,
   "packageJSON": {
     "name": "autotune",
@@ -155,15 +155,6 @@
           "jquery:jQuery"
         ]
       }
-    },
-    "other": {
-      "author": {
-        "name": "Ryan Mark",
-        "email": "ryan.mark@voxmedia.com"
-      },
-      "bugs": {
-        "url": "https://github.com/voxmedia/autotune/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -187,21 +178,6 @@
   "cloneUrl": "https://github.com/voxmedia/autotune.git",
   "svnUrl": "https://github.com/voxmedia/autotune",
   "mirrorUrl": null,
-  "contributors": [
-    "ryanmark",
-    "caseymm",
-    "kavyasukumar",
-    "aidanfeay",
-    "zohf",
-    "clifff",
-    "edenthecat",
-    "cschiewek",
-    "twelvelabs",
-    "maclover7",
-    "eelzon",
-    "jarib",
-    "banderson623"
-  ],
   "firstCommit": {
     "sha": "5ceb2e2317671864c074fd660b190702999a629c",
     "commit": {
@@ -225,5 +201,6 @@
     }
   },
   "filename": "voxmedia___autotune.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:40:53.936Z"
 }

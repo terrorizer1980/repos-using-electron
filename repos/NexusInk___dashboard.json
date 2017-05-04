@@ -162,7 +162,7 @@
   },
   "networkCount": 24,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "netbeast-cli",
     "description": "Netbeast OS dashboard, IoT apps manager",
@@ -271,10 +271,7 @@
     "engines": {
       "node": ">=0.12"
     },
-    "license": "AGPL-3.0",
-    "other": {
-      "author": "staff@netbeast"
-    }
+    "license": "AGPL-3.0"
   },
   "packageStatus": 200,
   "contributors": [
@@ -311,5 +308,6 @@
       "commentCount": 0
     }
   },
-  "filename": "NexusInk___dashboard.json"
+  "filename": "NexusInk___dashboard.json",
+  "lastFetchedAt": "2017-05-04T20:22:32.354Z"
 }

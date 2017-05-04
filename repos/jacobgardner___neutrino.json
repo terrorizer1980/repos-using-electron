@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "neutrino",
     "version": "1.0.0",
@@ -111,12 +111,6 @@
       "prismjs": "^1.5.1",
       "websocket": "^1.0.23",
       "ws": "^1.1.1"
-    },
-    "other": {
-      "author": "Jacob Gardner",
-      "bugs": {
-        "url": "https://github.com/jacobgardner/neutrino/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +139,6 @@
       "commentCount": 0
     }
   },
-  "filename": "jacobgardner___neutrino.json"
+  "filename": "jacobgardner___neutrino.json",
+  "lastFetchedAt": "2017-05-04T17:32:07.085Z"
 }

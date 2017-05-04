@@ -5,7 +5,7 @@
   "owner": {
     "login": "jfacorro",
     "id": 1522569,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1522569?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1522569?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jfacorro",
     "htmlUrl": "https://github.com/jfacorro",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/jfacorro/wall-monitor/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jfacorro/wall-monitor/deployments",
   "createdAt": "2016-05-12T12:29:16.000Z",
-  "updatedAt": "2016-05-12T12:29:40.000Z",
-  "pushedAt": "2016-08-08T12:50:10.000Z",
+  "updatedAt": "2017-02-24T13:48:21.000Z",
+  "pushedAt": "2016-11-17T16:18:27.000Z",
   "gitUrl": "git://github.com/jfacorro/wall-monitor.git",
   "sshUrl": "git@github.com:jfacorro/wall-monitor.git",
   "cloneUrl": "https://github.com/jfacorro/wall-monitor.git",
   "svnUrl": "https://github.com/jfacorro/wall-monitor",
   "homepage": null,
-  "size": 93,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 95,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,11 +62,10 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 2,
   "subscribersCount": 0,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [],
   "firstCommit": {
     "sha": "38c78577ceaa819653648047914543feb7414964",
     "commit": {
@@ -90,65 +89,6 @@
     }
   },
   "filename": "jfacorro___wall-monitor.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jfacorro/wall-monitor/releases/3836067",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jfacorro/wall-monitor/releases/assets/2112026",
-          "id": 2112026,
-          "name": "wall-monitor-kiosk-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "jfacorro",
-            "id": 1522569,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1522569?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jfacorro",
-            "htmlUrl": "https://github.com/jfacorro",
-            "followersUrl": "https://api.github.com/users/jfacorro/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jfacorro/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jfacorro/orgs",
-            "reposUrl": "https://api.github.com/users/jfacorro/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jfacorro/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 51985726,
-          "downloadCount": 1,
-          "createdAt": "2016-08-08T12:53:13.000Z",
-          "updatedAt": "2016-08-08T12:53:20.000Z",
-          "browserDownloadUrl": "https://github.com/jfacorro/wall-monitor/releases/download/1.0.0/wall-monitor-kiosk-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jfacorro/wall-monitor/releases/3836067/assets",
-      "htmlUrl": "https://github.com/jfacorro/wall-monitor/releases/tag/1.0.0",
-      "id": 3836067,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "1.0.0",
-      "draft": false,
-      "author": {
-        "login": "jfacorro",
-        "id": 1522569,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1522569?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jfacorro",
-        "htmlUrl": "https://github.com/jfacorro",
-        "followersUrl": "https://api.github.com/users/jfacorro/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jfacorro/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jfacorro/orgs",
-        "reposUrl": "https://api.github.com/users/jfacorro/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jfacorro/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-15T07:02:05.000Z",
-      "publishedAt": "2016-08-08T12:50:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/jfacorro/wall-monitor/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/jfacorro/wall-monitor/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:53:41.462Z"
 }

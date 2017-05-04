@@ -5,7 +5,7 @@
   "owner": {
     "login": "silky",
     "id": 129525,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/129525?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/129525?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/silky",
     "htmlUrl": "https://github.com/silky",
@@ -18,9 +18,9 @@
   },
   "private": false,
   "description": "Example app built with Elm+Electron",
-  "fork": true,
+  "fork": false,
   "createdAt": "2016-01-17T08:16:02.000Z",
-  "updatedAt": "2016-01-17T08:16:03.000Z",
+  "updatedAt": "2016-10-09T16:44:29.000Z",
   "pushedAt": "2015-12-15T14:42:37.000Z",
   "homepage": null,
   "size": 3,
@@ -160,7 +160,7 @@
     "watchers": 5,
     "defaultBranch": "master"
   },
-  "networkCount": 1,
+  "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -178,9 +178,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "astynax"
-  ],
   "firstCommit": {
     "sha": "3cd4484580d2543068cd9baf204ae684e8658198",
     "commit": {
@@ -204,5 +201,26 @@
     }
   },
   "filename": "silky___elmectron.json",
-  "releases": []
+  "htmlUrl": "https://github.com/silky/elmectron",
+  "url": "https://api.github.com/repos/silky/elmectron",
+  "forksUrl": "https://api.github.com/repos/silky/elmectron/forks",
+  "teamsUrl": "https://api.github.com/repos/silky/elmectron/teams",
+  "hooksUrl": "https://api.github.com/repos/silky/elmectron/hooks",
+  "eventsUrl": "https://api.github.com/repos/silky/elmectron/events",
+  "tagsUrl": "https://api.github.com/repos/silky/elmectron/tags",
+  "languagesUrl": "https://api.github.com/repos/silky/elmectron/languages",
+  "stargazersUrl": "https://api.github.com/repos/silky/elmectron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/silky/elmectron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/silky/elmectron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/silky/elmectron/subscription",
+  "mergesUrl": "https://api.github.com/repos/silky/elmectron/merges",
+  "downloadsUrl": "https://api.github.com/repos/silky/elmectron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/silky/elmectron/deployments",
+  "gitUrl": "git://github.com/silky/elmectron.git",
+  "sshUrl": "git@github.com:silky/elmectron.git",
+  "cloneUrl": "https://github.com/silky/elmectron.git",
+  "svnUrl": "https://github.com/silky/elmectron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:25:45.102Z"
 }

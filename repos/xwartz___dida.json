@@ -5,7 +5,7 @@
   "owner": {
     "login": "xwartz",
     "id": 4149827,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4149827?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4149827?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/xwartz",
     "htmlUrl": "https://github.com/xwartz",
@@ -20,21 +20,21 @@
   "description": "Easily add task to 滴答清单(TickTick) by shortcut",
   "fork": false,
   "createdAt": "2015-12-27T08:14:01.000Z",
-  "updatedAt": "2016-07-26T05:56:42.000Z",
+  "updatedAt": "2016-12-27T10:50:22.000Z",
   "pushedAt": "2016-02-27T09:59:40.000Z",
   "homepage": "https://github.com/xwartz/dida",
   "size": 1292,
-  "stargazersCount": 12,
-  "watchersCount": 12,
+  "stargazersCount": 17,
+  "watchersCount": 17,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 3,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 12,
+  "watchers": 17,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,7 +42,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 1,
+  "networkCount": 3,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -82,9 +82,6 @@
     "dependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "xwartz"
-  ],
   "firstCommit": {
     "sha": "05a6af0b9c6a7b4ea8e39af4a25896c7eaf1f106",
     "commit": {
@@ -108,65 +105,26 @@
     }
   },
   "filename": "xwartz___dida.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/xwartz/dida/releases/2701492",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/xwartz/dida/releases/assets/1360525",
-          "id": 1360525,
-          "name": "dida.dmg",
-          "label": null,
-          "uploader": {
-            "login": "xwartz",
-            "id": 4149827,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4149827?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/xwartz",
-            "htmlUrl": "https://github.com/xwartz",
-            "followersUrl": "https://api.github.com/users/xwartz/followers",
-            "subscriptionsUrl": "https://api.github.com/users/xwartz/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/xwartz/orgs",
-            "reposUrl": "https://api.github.com/users/xwartz/repos",
-            "receivedEventsUrl": "https://api.github.com/users/xwartz/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 38630079,
-          "downloadCount": 2,
-          "createdAt": "2016-02-27T10:39:15.000Z",
-          "updatedAt": "2016-02-27T10:42:33.000Z",
-          "browserDownloadUrl": "https://github.com/xwartz/dida/releases/download/1.0.0/dida.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/xwartz/dida/releases/2701492/assets",
-      "htmlUrl": "https://github.com/xwartz/dida/releases/tag/1.0.0",
-      "id": 2701492,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "xwartz",
-        "id": 4149827,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4149827?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/xwartz",
-        "htmlUrl": "https://github.com/xwartz",
-        "followersUrl": "https://api.github.com/users/xwartz/followers",
-        "subscriptionsUrl": "https://api.github.com/users/xwartz/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/xwartz/orgs",
-        "reposUrl": "https://api.github.com/users/xwartz/repos",
-        "receivedEventsUrl": "https://api.github.com/users/xwartz/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-27T05:35:13.000Z",
-      "publishedAt": "2016-02-27T05:46:20.000Z",
-      "tarballUrl": "https://api.github.com/repos/xwartz/dida/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/xwartz/dida/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/xwartz/dida",
+  "url": "https://api.github.com/repos/xwartz/dida",
+  "forksUrl": "https://api.github.com/repos/xwartz/dida/forks",
+  "teamsUrl": "https://api.github.com/repos/xwartz/dida/teams",
+  "hooksUrl": "https://api.github.com/repos/xwartz/dida/hooks",
+  "eventsUrl": "https://api.github.com/repos/xwartz/dida/events",
+  "tagsUrl": "https://api.github.com/repos/xwartz/dida/tags",
+  "languagesUrl": "https://api.github.com/repos/xwartz/dida/languages",
+  "stargazersUrl": "https://api.github.com/repos/xwartz/dida/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/xwartz/dida/contributors",
+  "subscribersUrl": "https://api.github.com/repos/xwartz/dida/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/xwartz/dida/subscription",
+  "mergesUrl": "https://api.github.com/repos/xwartz/dida/merges",
+  "downloadsUrl": "https://api.github.com/repos/xwartz/dida/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/xwartz/dida/deployments",
+  "gitUrl": "git://github.com/xwartz/dida.git",
+  "sshUrl": "git@github.com:xwartz/dida.git",
+  "cloneUrl": "https://github.com/xwartz/dida.git",
+  "svnUrl": "https://github.com/xwartz/dida",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:34:07.594Z"
 }

@@ -168,16 +168,12 @@
   },
   "networkCount": 395,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "hyperterm",
     "version": "0.7.1",
     "description": "Web app that runs in the renderer process",
     "repository": "zeit/hyperterm",
-    "author": {
-      "name": "Guillermo Rauch",
-      "email": "rauchg@zeit.co"
-    },
     "dependencies": {
       "aphrodite-simple": "0.4.1",
       "color": "0.11.3",
@@ -274,5 +270,7 @@
       "release": "npm run build && build --publish=onTagOrDraft"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "marcbachmann___hyperterm.json",
+  "lastFetchedAt": "2017-05-04T16:47:10.141Z"
 }

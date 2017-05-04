@@ -5,7 +5,7 @@
   "owner": {
     "login": "citycide",
     "id": 16605186,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16605186?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/16605186?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/citycide",
     "htmlUrl": "https://github.com/citycide",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/citycide/levers",
-  "description": "Data storage module for Electron apps. Simple, but not shallow.",
+  "description": "Configuration handling with no class whatsoever.",
   "fork": false,
   "url": "https://api.github.com/repos/citycide/levers",
   "forksUrl": "https://api.github.com/repos/citycide/levers/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/citycide/levers/downloads",
   "deploymentsUrl": "https://api.github.com/repos/citycide/levers/deployments",
   "createdAt": "2016-07-27T06:45:12.000Z",
-  "updatedAt": "2016-07-31T10:19:52.000Z",
-  "pushedAt": "2016-07-31T19:41:06.000Z",
+  "updatedAt": "2017-03-17T07:34:39.000Z",
+  "pushedAt": "2017-03-17T07:40:19.000Z",
   "gitUrl": "git://github.com/citycide/levers.git",
   "sshUrl": "git@github.com:citycide/levers.git",
   "cloneUrl": "https://github.com/citycide/levers.git",
   "svnUrl": "https://github.com/citycide/levers",
-  "homepage": "https://citycide.github.io/levers/",
-  "size": 55,
+  "homepage": "",
+  "size": 54,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -61,7 +61,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -129,9 +135,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "citycide"
-  ],
   "firstCommit": {
     "sha": "b48929bde002c35ca61abe2cd43bbb9791368f65",
     "commit": {
@@ -155,37 +158,6 @@
     }
   },
   "filename": "citycide___levers.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/citycide/levers/releases/4705065",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/citycide/levers/releases/4705065/assets",
-      "htmlUrl": "https://github.com/citycide/levers/releases/tag/v0.7.0",
-      "id": 4705065,
-      "tagName": "v0.7.0",
-      "targetCommitish": "master",
-      "name": "v0.7.0",
-      "draft": false,
-      "author": {
-        "login": "citycide",
-        "id": 16605186,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16605186?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/citycide",
-        "htmlUrl": "https://github.com/citycide",
-        "followersUrl": "https://api.github.com/users/citycide/followers",
-        "subscriptionsUrl": "https://api.github.com/users/citycide/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/citycide/orgs",
-        "reposUrl": "https://api.github.com/users/citycide/repos",
-        "receivedEventsUrl": "https://api.github.com/users/citycide/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-19T05:31:10.000Z",
-      "publishedAt": "2016-11-19T05:40:48.000Z",
-      "tarballUrl": "https://api.github.com/repos/citycide/levers/tarball/v0.7.0",
-      "zipballUrl": "https://api.github.com/repos/citycide/levers/zipball/v0.7.0",
-      "body": "## Features\n- Add static `.exists()` method for checking whether or not a file exists using the same path resolution as creating a new instance.\n- Add static `.create()` factory method for creating new `Levers` instances.\n\n## Documentation\n- levers now uses my fork of `docdash` for custom styling, like [citycide/trilogy](https://github.com/citycide/trilogy) already has.\n\n## Performance\n- The dependency on `lodash` has been dropped, since it was only used for a single method. This should increase install time and probably runtime performance as well.\n\n## Breaking Changes\n- `lodash` is no longer a dependency.\n- Built files use ES2015 syntax, so engines not supporting these features won't be able to use levers. This shouldn't be much of an issue since levers targets Electron.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:54:37.357Z"
 }

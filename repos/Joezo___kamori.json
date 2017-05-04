@@ -5,7 +5,7 @@
   "owner": {
     "login": "Joezo",
     "id": 2870255,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2870255?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2870255?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Joezo",
     "htmlUrl": "https://github.com/Joezo",
@@ -21,7 +21,7 @@
   "fork": false,
   "createdAt": "2015-09-25T08:55:20.000Z",
   "updatedAt": "2016-04-16T18:33:04.000Z",
-  "pushedAt": "2015-09-25T09:39:45.000Z",
+  "pushedAt": "2016-12-07T12:51:29.000Z",
   "homepage": null,
   "size": 2680,
   "stargazersCount": 3,
@@ -31,9 +31,9 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -102,9 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Joezo"
-  ],
   "firstCommit": {
     "sha": "89118fdde3075fc1a7a1f466d9858bf86f232300",
     "commit": {
@@ -128,65 +125,26 @@
     }
   },
   "filename": "Joezo___kamori.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Joezo/kamori/releases/1866708",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Joezo/kamori/releases/assets/892785",
-          "id": 892785,
-          "name": "Kamori-1.0.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "Joezo",
-            "id": 2870255,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2870255?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Joezo",
-            "htmlUrl": "https://github.com/Joezo",
-            "followersUrl": "https://api.github.com/users/Joezo/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Joezo/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Joezo/orgs",
-            "reposUrl": "https://api.github.com/users/Joezo/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Joezo/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 36785951,
-          "downloadCount": 10,
-          "createdAt": "2015-09-25T09:37:57.000Z",
-          "updatedAt": "2015-09-25T09:38:13.000Z",
-          "browserDownloadUrl": "https://github.com/Joezo/kamori/releases/download/v1.0.0/Kamori-1.0.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Joezo/kamori/releases/1866708/assets",
-      "htmlUrl": "https://github.com/Joezo/kamori/releases/tag/v1.0.0",
-      "id": 1866708,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "1.0.0",
-      "draft": false,
-      "author": {
-        "login": "Joezo",
-        "id": 2870255,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2870255?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Joezo",
-        "htmlUrl": "https://github.com/Joezo",
-        "followersUrl": "https://api.github.com/users/Joezo/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Joezo/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Joezo/orgs",
-        "reposUrl": "https://api.github.com/users/Joezo/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Joezo/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-25T09:34:14.000Z",
-      "publishedAt": "2015-09-25T09:39:44.000Z",
-      "tarballUrl": "https://api.github.com/repos/Joezo/kamori/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/Joezo/kamori/zipball/v1.0.0",
-      "body": "Initial release.\n\n# [Download](https://github.com/Joezo/kamori/releases/download/v1.0.0/Kamori-1.0.0.zip)\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/Joezo/kamori",
+  "url": "https://api.github.com/repos/Joezo/kamori",
+  "forksUrl": "https://api.github.com/repos/Joezo/kamori/forks",
+  "teamsUrl": "https://api.github.com/repos/Joezo/kamori/teams",
+  "hooksUrl": "https://api.github.com/repos/Joezo/kamori/hooks",
+  "eventsUrl": "https://api.github.com/repos/Joezo/kamori/events",
+  "tagsUrl": "https://api.github.com/repos/Joezo/kamori/tags",
+  "languagesUrl": "https://api.github.com/repos/Joezo/kamori/languages",
+  "stargazersUrl": "https://api.github.com/repos/Joezo/kamori/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Joezo/kamori/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Joezo/kamori/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Joezo/kamori/subscription",
+  "mergesUrl": "https://api.github.com/repos/Joezo/kamori/merges",
+  "downloadsUrl": "https://api.github.com/repos/Joezo/kamori/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Joezo/kamori/deployments",
+  "gitUrl": "git://github.com/Joezo/kamori.git",
+  "sshUrl": "git@github.com:Joezo/kamori.git",
+  "cloneUrl": "https://github.com/Joezo/kamori.git",
+  "svnUrl": "https://github.com/Joezo/kamori",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:06:18.347Z"
 }

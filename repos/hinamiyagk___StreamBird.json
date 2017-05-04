@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "streambird",
     "productName": "StreamBird",
@@ -71,15 +71,8 @@
       "lint": "tslint -c tslint.json \"!(node_modules|typings)/**/*.{ts,tsx}\"",
       "install:typings": "typings i"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hinamiyagk/StreamBird.git"
-    },
-    "author": "Hinata",
+    "repository": "https://github.com/hinamiyagk/StreamBird",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/hinamiyagk/StreamBird/issues"
-    },
     "homepage": "https://github.com/hinamiyagk/StreamBird#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -103,10 +96,18 @@
       "redux-saga": "^0.11.0",
       "request": "^2.72.0",
       "twit": "^2.2.4"
+    },
+    "other": {
+      "author": "Hinata",
+      "bugs": {
+        "url": "https://github.com/hinamiyagk/StreamBird/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "hinamiyagk"
-  ]
+  ],
+  "filename": "hinamiyagk___StreamBird.json",
+  "lastFetchedAt": "2017-05-04T14:55:57.797Z"
 }

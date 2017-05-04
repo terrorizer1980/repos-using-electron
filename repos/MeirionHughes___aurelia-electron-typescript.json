@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "scripts": {
       "postinstall": "jspm install && typings install && cd source && npm install ",
@@ -124,5 +124,6 @@
     }
   },
   "filename": "MeirionHughes___aurelia-electron-typescript.json",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T17:38:02.291Z"
 }

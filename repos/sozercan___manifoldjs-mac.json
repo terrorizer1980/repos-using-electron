@@ -5,7 +5,7 @@
   "owner": {
     "login": "sozercan",
     "id": 852750,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/852750?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/852750?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sozercan",
     "htmlUrl": "https://github.com/sozercan",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/sozercan/manifoldjs-mac/downloads",
   "deploymentsUrl": "https://api.github.com/repos/sozercan/manifoldjs-mac/deployments",
   "createdAt": "2016-07-22T00:10:25.000Z",
-  "updatedAt": "2016-07-28T21:05:56.000Z",
-  "pushedAt": "2016-09-17T01:43:17.000Z",
+  "updatedAt": "2017-04-03T23:16:10.000Z",
+  "pushedAt": "2017-04-13T19:00:04.000Z",
   "gitUrl": "git://github.com/sozercan/manifoldjs-mac.git",
   "sshUrl": "git@github.com:sozercan/manifoldjs-mac.git",
   "cloneUrl": "https://github.com/sozercan/manifoldjs-mac.git",
   "svnUrl": "https://github.com/sozercan/manifoldjs-mac",
   "homepage": "",
-  "size": 10,
+  "size": 94,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -62,7 +62,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 1,
+  "networkCount": 3,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -119,22 +119,9 @@
       "test": "grunt",
       "debug-tests": "mocha test/**/*.js --debug-brk"
     },
-    "homepage": "https://github.com/manifoldjs/manifoldjs-mac",
-    "other": {
-      "author": {
-        "name": "Sertac Ozercan",
-        "email": "sozercan@gmail.com",
-        "url": "http://sertacozercan.com"
-      },
-      "bugs": {
-        "url": "https://github.com/manifoldjs/manifoldjs-mac/issues"
-      }
-    }
+    "homepage": "https://github.com/manifoldjs/manifoldjs-mac"
   },
   "packageStatus": 200,
-  "contributors": [
-    "sozercan"
-  ],
   "firstCommit": {
     "sha": "1fdd9e94bae5d6c6816d7178ef527deb348830fa",
     "commit": {
@@ -158,5 +145,6 @@
     }
   },
   "filename": "sozercan___manifoldjs-mac.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:50:56.766Z"
 }

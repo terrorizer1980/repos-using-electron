@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "mary",
     "version": "0.1.0",
@@ -93,13 +93,7 @@
       "edition"
     ],
     "license": "ISC",
-    "homepage": "https://github.com/Nikolaj695/mary#readme",
-    "other": {
-      "author": "Govorov Nikolaj",
-      "bugs": {
-        "url": "https://github.com/Nikolaj695/mary/issues"
-      }
-    }
+    "homepage": "https://github.com/Nikolaj695/mary#readme"
   },
   "packageStatus": 200,
   "contributors": [
@@ -127,5 +121,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Nikolaj695___Mary_old.json"
+  "filename": "Nikolaj695___Mary_old.json",
+  "lastFetchedAt": "2017-05-04T21:30:27.024Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "jaggy",
     "id": 1993075,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1993075?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1993075?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jaggy",
     "htmlUrl": "https://github.com/jaggy",
@@ -78,9 +78,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jaggy"
-  ],
   "firstCommit": {
     "sha": "a125375b7ab5e4edd8387cecdbc89d02c02e4ad2",
     "commit": {
@@ -104,65 +101,26 @@
     }
   },
   "filename": "jaggy___theatre-client.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jaggy/theatre-client/releases/3852656",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jaggy/theatre-client/releases/assets/2124064",
-          "id": 2124064,
-          "name": "Theatre.zip",
-          "label": null,
-          "uploader": {
-            "login": "jaggy",
-            "id": 1993075,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1993075?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jaggy",
-            "htmlUrl": "https://github.com/jaggy",
-            "followersUrl": "https://api.github.com/users/jaggy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jaggy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jaggy/orgs",
-            "reposUrl": "https://api.github.com/users/jaggy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jaggy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 70698544,
-          "downloadCount": 3,
-          "createdAt": "2016-08-10T04:48:54.000Z",
-          "updatedAt": "2016-08-10T04:59:02.000Z",
-          "browserDownloadUrl": "https://github.com/jaggy/theatre-client/releases/download/0.1.0/Theatre.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jaggy/theatre-client/releases/3852656/assets",
-      "htmlUrl": "https://github.com/jaggy/theatre-client/releases/tag/0.1.0",
-      "id": 3852656,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "Demo Release",
-      "draft": false,
-      "author": {
-        "login": "jaggy",
-        "id": 1993075,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1993075?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jaggy",
-        "htmlUrl": "https://github.com/jaggy",
-        "followersUrl": "https://api.github.com/users/jaggy/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jaggy/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jaggy/orgs",
-        "reposUrl": "https://api.github.com/users/jaggy/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jaggy/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-10T04:44:35.000Z",
-      "publishedAt": "2016-08-10T08:56:50.000Z",
-      "tarballUrl": "https://api.github.com/repos/jaggy/theatre-client/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/jaggy/theatre-client/zipball/0.1.0",
-      "body": "This is just a demo release.\n- Uses a demo URL to relay the streamers\n- Supports only MPlayerX\n- Ugly placeholder UI\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/jaggy/theatre-client",
+  "url": "https://api.github.com/repos/jaggy/theatre-client",
+  "forksUrl": "https://api.github.com/repos/jaggy/theatre-client/forks",
+  "teamsUrl": "https://api.github.com/repos/jaggy/theatre-client/teams",
+  "hooksUrl": "https://api.github.com/repos/jaggy/theatre-client/hooks",
+  "eventsUrl": "https://api.github.com/repos/jaggy/theatre-client/events",
+  "tagsUrl": "https://api.github.com/repos/jaggy/theatre-client/tags",
+  "languagesUrl": "https://api.github.com/repos/jaggy/theatre-client/languages",
+  "stargazersUrl": "https://api.github.com/repos/jaggy/theatre-client/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jaggy/theatre-client/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jaggy/theatre-client/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jaggy/theatre-client/subscription",
+  "mergesUrl": "https://api.github.com/repos/jaggy/theatre-client/merges",
+  "downloadsUrl": "https://api.github.com/repos/jaggy/theatre-client/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jaggy/theatre-client/deployments",
+  "gitUrl": "git://github.com/jaggy/theatre-client.git",
+  "sshUrl": "git@github.com:jaggy/theatre-client.git",
+  "cloneUrl": "https://github.com/jaggy/theatre-client.git",
+  "svnUrl": "https://github.com/jaggy/theatre-client",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:08:06.473Z"
 }

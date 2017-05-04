@@ -5,7 +5,7 @@
   "owner": {
     "login": "jamen",
     "id": 6251703,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6251703?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6251703?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jamen",
     "htmlUrl": "https://github.com/jamen",
@@ -20,21 +20,21 @@
   "description": "A modern, decentralized, and customizable chatting client.",
   "fork": false,
   "createdAt": "2015-07-01T16:27:33.000Z",
-  "updatedAt": "2016-11-04T22:08:27.000Z",
+  "updatedAt": "2016-12-02T15:52:35.000Z",
   "pushedAt": "2016-07-06T13:26:55.000Z",
   "homepage": "",
   "size": 993,
-  "stargazersCount": 15,
-  "watchersCount": 15,
+  "stargazersCount": 16,
+  "watchersCount": 16,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 4,
   "openIssuesCount": 2,
   "openIssues": 2,
-  "watchers": 15,
+  "watchers": 16,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
-  "networkCount": 5,
+  "networkCount": 4,
   "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
@@ -121,10 +121,6 @@
   "cloneUrl": "https://github.com/jamen/neta.git",
   "svnUrl": "https://github.com/jamen/neta",
   "mirrorUrl": null,
-  "contributors": [
-    "jamen",
-    "seanc"
-  ],
   "firstCommit": {
     "sha": "2d2c402d17d75a815cf9f0bf3eb9f0bf1ac412db",
     "commit": {
@@ -148,99 +144,6 @@
     }
   },
   "filename": "jamen___neta-archive-1.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jamen/neta/releases/2304826",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/jamen/neta/releases/2304826/assets",
-      "htmlUrl": "https://github.com/jamen/neta/releases/tag/v1.0.0-legacy",
-      "id": 2304826,
-      "tagName": "v1.0.0-legacy",
-      "targetCommitish": "master",
-      "name": "archive-1",
-      "draft": false,
-      "author": {
-        "login": "jamen",
-        "id": 6251703,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6251703?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jamen",
-        "htmlUrl": "https://github.com/jamen",
-        "followersUrl": "https://api.github.com/users/jamen/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jamen/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jamen/orgs",
-        "reposUrl": "https://api.github.com/users/jamen/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jamen/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-17T05:15:36.000Z",
-      "publishedAt": "2015-12-17T13:35:51.000Z",
-      "tarballUrl": "https://api.github.com/repos/jamen/neta/tarball/v1.0.0-legacy",
-      "zipballUrl": "https://api.github.com/repos/jamen/neta/zipball/v1.0.0-legacy",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/jamen/neta/releases/2302429",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/jamen/neta/releases/2302429/assets",
-      "htmlUrl": "https://github.com/jamen/neta/releases/tag/archive-3",
-      "id": 2302429,
-      "tagName": "archive-3",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "jamen",
-        "id": 6251703,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6251703?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jamen",
-        "htmlUrl": "https://github.com/jamen",
-        "followersUrl": "https://api.github.com/users/jamen/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jamen/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jamen/orgs",
-        "reposUrl": "https://api.github.com/users/jamen/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jamen/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-12-17T04:01:32.000Z",
-      "publishedAt": "2015-12-17T04:02:21.000Z",
-      "tarballUrl": "https://api.github.com/repos/jamen/neta/tarball/archive-3",
-      "zipballUrl": "https://api.github.com/repos/jamen/neta/zipball/archive-3",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/jamen/neta/releases/2280942",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/jamen/neta/releases/2280942/assets",
-      "htmlUrl": "https://github.com/jamen/neta/releases/tag/archive-2",
-      "id": 2280942,
-      "tagName": "archive-2",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "jamen",
-        "id": 6251703,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6251703?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jamen",
-        "htmlUrl": "https://github.com/jamen",
-        "followersUrl": "https://api.github.com/users/jamen/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jamen/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jamen/orgs",
-        "reposUrl": "https://api.github.com/users/jamen/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jamen/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-12-10T02:07:06.000Z",
-      "publishedAt": "2015-12-14T00:58:00.000Z",
-      "tarballUrl": "https://api.github.com/repos/jamen/neta/tarball/archive-2",
-      "zipballUrl": "https://api.github.com/repos/jamen/neta/zipball/archive-2",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:33:23.802Z"
 }

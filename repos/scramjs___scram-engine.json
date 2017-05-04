@@ -6,7 +6,7 @@
   "owner": {
     "login": "scramjs",
     "id": 18711580,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18711580?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/18711580?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/scramjs",
     "htmlUrl": "https://github.com/scramjs",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/scramjs/scram-engine",
-  "description": "Write your server semantically and declaratively with web components and Electron.",
+  "description": "Use web components outside of the browser for desktop, server, and embedded applications.",
   "fork": false,
   "url": "https://api.github.com/repos/scramjs/scram-engine",
   "forksUrl": "https://api.github.com/repos/scramjs/scram-engine/forks",
@@ -36,26 +36,26 @@
   "downloadsUrl": "https://api.github.com/repos/scramjs/scram-engine/downloads",
   "deploymentsUrl": "https://api.github.com/repos/scramjs/scram-engine/deployments",
   "createdAt": "2016-04-28T01:35:28.000Z",
-  "updatedAt": "2017-01-17T00:40:26.000Z",
-  "pushedAt": "2017-01-12T18:12:32.000Z",
+  "updatedAt": "2017-05-02T21:15:09.000Z",
+  "pushedAt": "2017-04-22T21:17:05.000Z",
   "gitUrl": "git://github.com/scramjs/scram-engine.git",
   "sshUrl": "git@github.com:scramjs/scram-engine.git",
   "cloneUrl": "https://github.com/scramjs/scram-engine.git",
   "svnUrl": "https://github.com/scramjs/scram-engine",
   "homepage": "",
-  "size": 203,
-  "stargazersCount": 45,
-  "watchersCount": 45,
+  "size": 197,
+  "stargazersCount": 67,
+  "watchersCount": 67,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "mirrorUrl": null,
-  "openIssuesCount": 14,
-  "openIssues": 14,
-  "watchers": 45,
+  "openIssuesCount": 22,
+  "openIssues": 22,
+  "watchers": 67,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -72,7 +72,7 @@
   "organization": {
     "login": "scramjs",
     "id": 18711580,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18711580?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/18711580?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/scramjs",
     "htmlUrl": "https://github.com/scramjs",
@@ -83,8 +83,8 @@
     "receivedEventsUrl": "https://api.github.com/users/scramjs/received_events",
     "type": "Organization"
   },
-  "networkCount": 1,
-  "subscribersCount": 2,
+  "networkCount": 2,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "scram-engine",
@@ -106,9 +106,6 @@
     ]
   },
   "packageStatus": 200,
-  "contributors": [
-    "lastmjs"
-  ],
   "firstCommit": {
     "sha": "6ded7ecbf857d56fb1698c5c255f081a6f512d14",
     "commit": {
@@ -131,5 +128,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:35:57.982Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "codefoxes",
     "id": 20535022,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20535022?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20535022?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/codefoxes",
     "htmlUrl": "https://github.com/codefoxes",
@@ -20,21 +20,21 @@
   "description": "Firebase Management Cross Platform Application. ",
   "fork": false,
   "createdAt": "2016-07-19T09:53:18.000Z",
-  "updatedAt": "2016-11-03T11:33:00.000Z",
-  "pushedAt": "2016-10-15T17:36:12.000Z",
+  "updatedAt": "2017-05-01T12:37:25.000Z",
+  "pushedAt": "2016-11-06T11:36:26.000Z",
   "homepage": "https://firebaseadmin.com",
   "size": 830,
-  "stargazersCount": 33,
-  "watchersCount": 33,
+  "stargazersCount": 109,
+  "watchersCount": 109,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 33,
+  "forksCount": 10,
+  "openIssuesCount": 11,
+  "openIssues": 11,
+  "watchers": 109,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "codefoxes",
     "id": 20535022,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20535022?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20535022?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/codefoxes",
     "htmlUrl": "https://github.com/codefoxes",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/codefoxes/received_events",
     "type": "Organization"
   },
-  "networkCount": 2,
-  "subscribersCount": 9,
+  "networkCount": 10,
+  "subscribersCount": 10,
   "status": 200,
   "packageJSON": {
     "name": "firebase-admin",
@@ -161,10 +161,6 @@
   "cloneUrl": "https://github.com/codefoxes/firebase-admin.git",
   "svnUrl": "https://github.com/codefoxes/firebase-admin",
   "mirrorUrl": null,
-  "contributors": [
-    "karthikax",
-    "koushikbhushan"
-  ],
   "firstCommit": {
     "sha": "59aefe4be1cbb260010d1a30b4faacabe1c427ed",
     "commit": {
@@ -188,37 +184,6 @@
     }
   },
   "filename": "codefoxes___firebase-admin.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/codefoxes/firebase-admin/releases/4398070",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/codefoxes/firebase-admin/releases/4398070/assets",
-      "htmlUrl": "https://github.com/codefoxes/firebase-admin/releases/tag/v1.0.1",
-      "id": 4398070,
-      "tagName": "v1.0.1",
-      "targetCommitish": "master",
-      "name": "v1.0.1",
-      "draft": false,
-      "author": {
-        "login": "karthikax",
-        "id": 8727183,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8727183?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/karthikax",
-        "htmlUrl": "https://github.com/karthikax",
-        "followersUrl": "https://api.github.com/users/karthikax/followers",
-        "subscriptionsUrl": "https://api.github.com/users/karthikax/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/karthikax/orgs",
-        "reposUrl": "https://api.github.com/users/karthikax/repos",
-        "receivedEventsUrl": "https://api.github.com/users/karthikax/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-15T17:19:28.000Z",
-      "publishedAt": "2016-10-15T17:28:12.000Z",
-      "tarballUrl": "https://api.github.com/repos/codefoxes/firebase-admin/tarball/v1.0.1",
-      "zipballUrl": "https://api.github.com/repos/codefoxes/firebase-admin/zipball/v1.0.1",
-      "body": "Notable Changes\n- Windows, Mac Installer\n- Update checker\n- Configuration validator\n- Connection test button\n\nhttps://firebaseadmin.com/releases#release101\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:16:01.894Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "musicope",
     "id": 3418379,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3418379?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3418379?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/musicope",
     "htmlUrl": "https://github.com/musicope",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/musicope/game/downloads",
   "deploymentsUrl": "https://api.github.com/repos/musicope/game/deployments",
   "createdAt": "2013-02-02T15:08:20.000Z",
-  "updatedAt": "2016-11-10T20:34:23.000Z",
-  "pushedAt": "2016-11-16T16:06:47.000Z",
+  "updatedAt": "2017-04-30T13:50:19.000Z",
+  "pushedAt": "2017-03-23T19:53:35.000Z",
   "gitUrl": "git://github.com/musicope/game.git",
   "sshUrl": "git@github.com:musicope/game.git",
   "cloneUrl": "https://github.com/musicope/game.git",
   "svnUrl": "https://github.com/musicope/game",
   "homepage": null,
-  "size": 23108,
-  "stargazersCount": 46,
-  "watchersCount": 46,
+  "size": 23029,
+  "stargazersCount": 56,
+  "watchersCount": 56,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 13,
+  "forksCount": 18,
   "mirrorUrl": null,
-  "openIssuesCount": 5,
-  "openIssues": 5,
-  "watchers": 46,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 56,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "musicope",
     "id": 3418379,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3418379?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3418379?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/musicope",
     "htmlUrl": "https://github.com/musicope",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/musicope/received_events",
     "type": "Organization"
   },
-  "networkCount": 13,
-  "subscribersCount": 16,
+  "networkCount": 18,
+  "subscribersCount": 19,
   "status": 200,
   "packageJSON": {
     "name": "musicope",
@@ -106,9 +106,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "czb"
-  ],
   "firstCommit": {
     "sha": "c3c29a8c83b352747418487674da28d9089bfbc7",
     "commit": {
@@ -132,65 +129,6 @@
     }
   },
   "filename": "musicope___game.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/musicope/game/releases/5098723",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/musicope/game/releases/assets/2947939",
-          "id": 2947939,
-          "name": "musicope.zip",
-          "label": null,
-          "uploader": {
-            "login": "czb",
-            "id": 37391,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/37391?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/czb",
-            "htmlUrl": "https://github.com/czb",
-            "followersUrl": "https://api.github.com/users/czb/followers",
-            "subscriptionsUrl": "https://api.github.com/users/czb/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/czb/orgs",
-            "reposUrl": "https://api.github.com/users/czb/repos",
-            "receivedEventsUrl": "https://api.github.com/users/czb/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 54726323,
-          "downloadCount": 255,
-          "createdAt": "2017-01-08T14:27:41.000Z",
-          "updatedAt": "2017-01-08T14:28:45.000Z",
-          "browserDownloadUrl": "https://github.com/musicope/game/releases/download/1.0/musicope.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/musicope/game/releases/5098723/assets",
-      "htmlUrl": "https://github.com/musicope/game/releases/tag/1.0",
-      "id": 5098723,
-      "tagName": "1.0",
-      "targetCommitish": "master",
-      "name": "Windows version",
-      "draft": false,
-      "author": {
-        "login": "czb",
-        "id": 37391,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/37391?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/czb",
-        "htmlUrl": "https://github.com/czb",
-        "followersUrl": "https://api.github.com/users/czb/followers",
-        "subscriptionsUrl": "https://api.github.com/users/czb/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/czb/orgs",
-        "reposUrl": "https://api.github.com/users/czb/repos",
-        "receivedEventsUrl": "https://api.github.com/users/czb/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-01-08T13:20:49.000Z",
-      "publishedAt": "2017-01-08T14:29:03.000Z",
-      "tarballUrl": "https://api.github.com/repos/musicope/game/tarball/1.0",
-      "zipballUrl": "https://api.github.com/repos/musicope/game/zipball/1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:46:13.472Z"
 }

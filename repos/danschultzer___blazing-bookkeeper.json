@@ -5,7 +5,7 @@
   "owner": {
     "login": "danschultzer",
     "id": 1254724,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1254724?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1254724?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/danschultzer",
     "htmlUrl": "https://github.com/danschultzer",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/downloads",
   "deploymentsUrl": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/deployments",
   "createdAt": "2016-09-18T04:14:34.000Z",
-  "updatedAt": "2016-10-22T03:06:02.000Z",
-  "pushedAt": "2016-11-03T22:01:52.000Z",
+  "updatedAt": "2017-04-29T16:37:21.000Z",
+  "pushedAt": "2017-02-05T20:22:42.000Z",
   "gitUrl": "git://github.com/danschultzer/blazing-bookkeeper.git",
   "sshUrl": "git@github.com:danschultzer/blazing-bookkeeper.git",
   "cloneUrl": "https://github.com/danschultzer/blazing-bookkeeper.git",
   "svnUrl": "https://github.com/danschultzer/blazing-bookkeeper",
   "homepage": "https://blazingbookkeeper.com",
-  "size": 2032,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "size": 2101,
+  "stargazersCount": 7,
+  "watchersCount": 7,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 3,
+  "watchers": 7,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": null,
     "featured": false
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -147,10 +147,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "danschultzer",
-    "Schultzer"
-  ],
   "firstCommit": {
     "sha": "aa8bf9fa520ffad7dd9cd68058d34d49187dd6ea",
     "commit": {
@@ -174,92 +170,6 @@
     }
   },
   "filename": "danschultzer___blazing-bookkeeper.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/releases/4329460",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/releases/assets/2626835",
-          "id": 2626835,
-          "name": "blazing-bookkeeper-0.1.0-mac.zip",
-          "label": "",
-          "uploader": {
-            "login": "danschultzer",
-            "id": 1254724,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1254724?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/danschultzer",
-            "htmlUrl": "https://github.com/danschultzer",
-            "followersUrl": "https://api.github.com/users/danschultzer/followers",
-            "subscriptionsUrl": "https://api.github.com/users/danschultzer/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/danschultzer/orgs",
-            "reposUrl": "https://api.github.com/users/danschultzer/repos",
-            "receivedEventsUrl": "https://api.github.com/users/danschultzer/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 115544879,
-          "downloadCount": 1,
-          "createdAt": "2016-11-11T04:49:34.000Z",
-          "updatedAt": "2016-11-11T04:49:41.000Z",
-          "browserDownloadUrl": "https://github.com/danschultzer/blazing-bookkeeper/releases/download/v0.1.0/blazing-bookkeeper-0.1.0-mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/releases/assets/2626837",
-          "id": 2626837,
-          "name": "blazing-bookkeeper-0.1.0.dmg",
-          "label": "",
-          "uploader": {
-            "login": "danschultzer",
-            "id": 1254724,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1254724?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/danschultzer",
-            "htmlUrl": "https://github.com/danschultzer",
-            "followersUrl": "https://api.github.com/users/danschultzer/followers",
-            "subscriptionsUrl": "https://api.github.com/users/danschultzer/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/danschultzer/orgs",
-            "reposUrl": "https://api.github.com/users/danschultzer/repos",
-            "receivedEventsUrl": "https://api.github.com/users/danschultzer/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-apple-diskimage",
-          "state": "uploaded",
-          "size": 110246993,
-          "downloadCount": 6,
-          "createdAt": "2016-11-11T04:50:09.000Z",
-          "updatedAt": "2016-11-11T04:50:15.000Z",
-          "browserDownloadUrl": "https://github.com/danschultzer/blazing-bookkeeper/releases/download/v0.1.0/blazing-bookkeeper-0.1.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/releases/4329460/assets",
-      "htmlUrl": "https://github.com/danschultzer/blazing-bookkeeper/releases/tag/v0.1.0",
-      "id": 4329460,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "danschultzer",
-        "id": 1254724,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1254724?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/danschultzer",
-        "htmlUrl": "https://github.com/danschultzer",
-        "followersUrl": "https://api.github.com/users/danschultzer/followers",
-        "subscriptionsUrl": "https://api.github.com/users/danschultzer/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/danschultzer/orgs",
-        "reposUrl": "https://api.github.com/users/danschultzer/repos",
-        "receivedEventsUrl": "https://api.github.com/users/danschultzer/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-11T03:33:19.000Z",
-      "publishedAt": "2016-11-13T00:31:05.000Z",
-      "tarballUrl": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/danschultzer/blazing-bookkeeper/zipball/v0.1.0",
-      "body": "Prelease version of Blazing Bookkeeper.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-03T20:08:14.171Z"
 }

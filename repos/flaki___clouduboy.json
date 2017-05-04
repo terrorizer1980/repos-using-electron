@@ -5,7 +5,7 @@
   "owner": {
     "login": "flaki",
     "id": 2089432,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2089432?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2089432?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/flaki",
     "htmlUrl": "https://github.com/flaki",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/flaki/clouduboy/downloads",
   "deploymentsUrl": "https://api.github.com/repos/flaki/clouduboy/deployments",
   "createdAt": "2015-12-29T02:30:55.000Z",
-  "updatedAt": "2016-08-26T13:38:11.000Z",
-  "pushedAt": "2016-11-06T07:07:19.000Z",
+  "updatedAt": "2017-05-03T15:54:03.000Z",
+  "pushedAt": "2017-03-26T13:33:27.000Z",
   "gitUrl": "git://github.com/flaki/clouduboy.git",
   "sshUrl": "git@github.com:flaki/clouduboy.git",
   "cloneUrl": "https://github.com/flaki/clouduboy.git",
   "svnUrl": "https://github.com/flaki/clouduboy",
   "homepage": "http://twitter.com/clouduboy",
-  "size": 16910,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "size": 16985,
+  "stargazersCount": 12,
+  "watchersCount": 12,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 28,
   "openIssues": 28,
-  "watchers": 7,
+  "watchers": 12,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 1,
+  "networkCount": 2,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -106,16 +106,9 @@
       "babel-preset-es2015": "^6.5.0",
       "shelljs": "^0.6.0",
       "whatwg-fetch": "^0.11.0"
-    },
-    "other": {
-      "author": "Flaki (https://twitter.com/slsoftworks)"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "flaki",
-    "tcyrus"
-  ],
   "firstCommit": {
     "sha": "87cbebd5d2f6947a293fe17e0d8a79ea192cd5d0",
     "commit": {
@@ -139,5 +132,6 @@
     }
   },
   "filename": "flaki___clouduboy.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:02:09.587Z"
 }

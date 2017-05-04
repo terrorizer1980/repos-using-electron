@@ -5,7 +5,7 @@
   "owner": {
     "login": "henriquesosa",
     "id": 6127560,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6127560?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6127560?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/henriquesosa",
     "htmlUrl": "https://github.com/henriquesosa",
@@ -20,21 +20,21 @@
   "description": "An easy approach to start building apps with Electron.js ",
   "fork": false,
   "createdAt": "2015-10-22T04:33:38.000Z",
-  "updatedAt": "2016-09-23T11:46:41.000Z",
+  "updatedAt": "2017-03-31T18:06:13.000Z",
   "pushedAt": "2016-03-29T17:57:35.000Z",
   "homepage": "",
   "size": 27,
-  "stargazersCount": 19,
-  "watchersCount": 19,
+  "stargazersCount": 21,
+  "watchersCount": 21,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 6,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 19,
+  "watchers": 21,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 5,
+  "networkCount": 6,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -126,12 +126,6 @@
         "<rootDir>/node_modules/react-addons-test-utils",
         "<rootDir>/node_modules/babel-plugin-transform-runtime"
       ]
-    },
-    "other": {
-      "author": "Henrique Sosa <henriquesosa@gmail.com>",
-      "bugs": {
-        "url": "https://github.com/henriquesosa/intro-ao-electron/issues"
-      }
     }
   },
   "packageStatus": 404,
@@ -155,10 +149,6 @@
   "cloneUrl": "https://github.com/henriquesosa/electron-intro.git",
   "svnUrl": "https://github.com/henriquesosa/electron-intro",
   "mirrorUrl": null,
-  "contributors": [
-    "henriquesosa",
-    "ivomarsan"
-  ],
   "firstCommit": {
     "sha": "45f2e1272a6ec8c4d9230e70fc2bf5de9c1fd057",
     "commit": {
@@ -182,99 +172,6 @@
     }
   },
   "filename": "henriquesosa___electron-intro.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/henriquesosa/electron-intro/releases/2909098",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/henriquesosa/electron-intro/releases/2909098/assets",
-      "htmlUrl": "https://github.com/henriquesosa/electron-intro/releases/tag/1.2.0",
-      "id": 2909098,
-      "tagName": "1.2.0",
-      "targetCommitish": "master",
-      "name": "1.2.0",
-      "draft": false,
-      "author": {
-        "login": "henriquesosa",
-        "id": 6127560,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6127560?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/henriquesosa",
-        "htmlUrl": "https://github.com/henriquesosa",
-        "followersUrl": "https://api.github.com/users/henriquesosa/followers",
-        "subscriptionsUrl": "https://api.github.com/users/henriquesosa/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/henriquesosa/orgs",
-        "reposUrl": "https://api.github.com/users/henriquesosa/repos",
-        "receivedEventsUrl": "https://api.github.com/users/henriquesosa/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-03-29T17:50:22.000Z",
-      "publishedAt": "2016-03-29T17:57:35.000Z",
-      "tarballUrl": "https://api.github.com/repos/henriquesosa/electron-intro/tarball/1.2.0",
-      "zipballUrl": "https://api.github.com/repos/henriquesosa/electron-intro/zipball/1.2.0",
-      "body": "JEST is now included\n"
-    },
-    {
-      "url": "https://api.github.com/repos/henriquesosa/electron-intro/releases/2503513",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/henriquesosa/electron-intro/releases/2503513/assets",
-      "htmlUrl": "https://github.com/henriquesosa/electron-intro/releases/tag/1.1.0",
-      "id": 2503513,
-      "tagName": "1.1.0",
-      "targetCommitish": "master",
-      "name": "1.1.0",
-      "draft": false,
-      "author": {
-        "login": "henriquesosa",
-        "id": 6127560,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6127560?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/henriquesosa",
-        "htmlUrl": "https://github.com/henriquesosa",
-        "followersUrl": "https://api.github.com/users/henriquesosa/followers",
-        "subscriptionsUrl": "https://api.github.com/users/henriquesosa/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/henriquesosa/orgs",
-        "reposUrl": "https://api.github.com/users/henriquesosa/repos",
-        "receivedEventsUrl": "https://api.github.com/users/henriquesosa/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-27T18:47:56.000Z",
-      "publishedAt": "2016-01-27T18:48:46.000Z",
-      "tarballUrl": "https://api.github.com/repos/henriquesosa/electron-intro/tarball/1.1.0",
-      "zipballUrl": "https://api.github.com/repos/henriquesosa/electron-intro/zipball/1.1.0",
-      "body": "PostCSS is now included\n"
-    },
-    {
-      "url": "https://api.github.com/repos/henriquesosa/electron-intro/releases/2503130",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/henriquesosa/electron-intro/releases/2503130/assets",
-      "htmlUrl": "https://github.com/henriquesosa/electron-intro/releases/tag/1.0.0",
-      "id": 2503130,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "1.0.0",
-      "draft": false,
-      "author": {
-        "login": "henriquesosa",
-        "id": 6127560,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6127560?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/henriquesosa",
-        "htmlUrl": "https://github.com/henriquesosa",
-        "followersUrl": "https://api.github.com/users/henriquesosa/followers",
-        "subscriptionsUrl": "https://api.github.com/users/henriquesosa/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/henriquesosa/orgs",
-        "reposUrl": "https://api.github.com/users/henriquesosa/repos",
-        "receivedEventsUrl": "https://api.github.com/users/henriquesosa/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-27T17:43:52.000Z",
-      "publishedAt": "2016-01-27T17:46:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/henriquesosa/electron-intro/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/henriquesosa/electron-intro/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:08:53.298Z"
 }

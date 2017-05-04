@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "mary_text_editor",
     "version": "0.0.1",
@@ -111,12 +111,6 @@
       "react-router": "^2.8.1",
       "redux": "^3.6.0",
       "ws": "^1.1.1"
-    },
-    "other": {
-      "author": "Govorov Nikolay <nikolatha@mail.ru>",
-      "bugs": {
-        "url": "https://github.com/Nikolaj695/Mary/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +139,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Nikolaj695___Mary.json"
+  "filename": "Nikolaj695___Mary.json",
+  "lastFetchedAt": "2017-05-04T15:17:31.053Z"
 }

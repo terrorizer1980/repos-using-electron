@@ -53,11 +53,7 @@
     "scripts": {
       "test": "make test"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/rickmed/nightmare-plus.git"
-    },
-    "author": "Segment",
+    "repository": "https://github.com/rickmed/nightmare-plus",
     "keywords": [
       "nightmare",
       "electron"
@@ -94,6 +90,9 @@
     },
     "engines": {
       "node": ">=4.0.0"
+    },
+    "other": {
+      "author": "Segment"
     }
   },
   "packageStatus": 404,
@@ -164,5 +163,7 @@
     "libkenta",
     "codeskyblue",
     "xouabita"
-  ]
+  ],
+  "filename": "rickmed___nightmare-plus.json",
+  "lastFetchedAt": "2017-05-04T04:58:55.719Z"
 }

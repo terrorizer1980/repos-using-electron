@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "arisdex",
     "version": "0.0.1",
@@ -100,12 +100,6 @@
       "electron": "^1.3.4",
       "eslint": "^3.4.0",
       "spectron": "^3.3.0"
-    },
-    "other": {
-      "author": "Sage Gerard",
-      "bugs": {
-        "url": "https://github.com/zyrolasting/arisdex/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -134,5 +128,6 @@
       "commentCount": 0
     }
   },
-  "filename": "zyrolasting___arisdex.json"
+  "filename": "zyrolasting___arisdex.json",
+  "lastFetchedAt": "2017-05-04T21:11:14.357Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "wireapp",
     "id": 16047324,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16047324?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16047324?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wireapp",
     "htmlUrl": "https://github.com/wireapp",
@@ -17,24 +17,24 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "Wire for Desktop",
+  "description": ":computer: Wire for Desktop",
   "fork": false,
   "createdAt": "2016-07-26T13:55:48.000Z",
-  "updatedAt": "2016-08-10T10:54:54.000Z",
-  "pushedAt": "2016-08-11T14:24:17.000Z",
+  "updatedAt": "2017-05-04T07:08:18.000Z",
+  "pushedAt": "2017-05-03T11:21:14.000Z",
   "homepage": "https://wire.com/download/",
-  "size": 987,
-  "stargazersCount": 24,
-  "watchersCount": 24,
+  "size": 1407,
+  "stargazersCount": 397,
+  "watchersCount": 397,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 24,
+  "forksCount": 65,
+  "openIssuesCount": 79,
+  "openIssues": 79,
+  "watchers": 397,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "wireapp",
     "id": 16047324,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16047324?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16047324?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wireapp",
     "htmlUrl": "https://github.com/wireapp",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/wireapp/received_events",
     "type": "Organization"
   },
-  "networkCount": 5,
-  "subscribersCount": 10,
+  "networkCount": 65,
+  "subscribersCount": 45,
   "status": 200,
   "packageJSON": {
     "name": "wire-desktop",
@@ -116,13 +116,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "herrmannplatz",
-    "lipis",
-    "bennyn",
-    "gregor",
-    "wireswiss"
-  ],
   "firstCommit": {
     "sha": "13902dde5b1f98f7cbb7035f514c06cf224bc5db",
     "commit": {
@@ -146,5 +139,26 @@
     }
   },
   "filename": "wireapp___wire-desktop.json",
-  "releases": []
+  "htmlUrl": "https://github.com/wireapp/wire-desktop",
+  "url": "https://api.github.com/repos/wireapp/wire-desktop",
+  "forksUrl": "https://api.github.com/repos/wireapp/wire-desktop/forks",
+  "teamsUrl": "https://api.github.com/repos/wireapp/wire-desktop/teams",
+  "hooksUrl": "https://api.github.com/repos/wireapp/wire-desktop/hooks",
+  "eventsUrl": "https://api.github.com/repos/wireapp/wire-desktop/events",
+  "tagsUrl": "https://api.github.com/repos/wireapp/wire-desktop/tags",
+  "languagesUrl": "https://api.github.com/repos/wireapp/wire-desktop/languages",
+  "stargazersUrl": "https://api.github.com/repos/wireapp/wire-desktop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/wireapp/wire-desktop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/wireapp/wire-desktop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/wireapp/wire-desktop/subscription",
+  "mergesUrl": "https://api.github.com/repos/wireapp/wire-desktop/merges",
+  "downloadsUrl": "https://api.github.com/repos/wireapp/wire-desktop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/wireapp/wire-desktop/deployments",
+  "gitUrl": "git://github.com/wireapp/wire-desktop.git",
+  "sshUrl": "git@github.com:wireapp/wire-desktop.git",
+  "cloneUrl": "https://github.com/wireapp/wire-desktop.git",
+  "svnUrl": "https://github.com/wireapp/wire-desktop",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:15:12.822Z"
 }

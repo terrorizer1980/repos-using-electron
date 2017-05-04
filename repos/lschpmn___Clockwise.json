@@ -5,7 +5,7 @@
   "owner": {
     "login": "lschpmn",
     "id": 7399351,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7399351?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7399351?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lschpmn",
     "htmlUrl": "https://github.com/lschpmn",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/lschpmn/Clockwise/deployments",
   "createdAt": "2016-04-23T19:37:30.000Z",
   "updatedAt": "2016-04-23T19:38:44.000Z",
-  "pushedAt": "2016-08-03T17:09:29.000Z",
+  "pushedAt": "2017-02-23T00:12:28.000Z",
   "gitUrl": "git://github.com/lschpmn/Clockwise.git",
   "sshUrl": "git@github.com:lschpmn/Clockwise.git",
   "cloneUrl": "https://github.com/lschpmn/Clockwise.git",
   "svnUrl": "https://github.com/lschpmn/Clockwise",
   "homepage": "",
-  "size": 1786,
+  "size": 1788,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -55,7 +55,7 @@
   "openIssuesCount": 0,
   "openIssues": 0,
   "watchers": 0,
-  "defaultBranch": "prod",
+  "defaultBranch": "dev",
   "permissions": {
     "admin": false,
     "push": false,
@@ -107,9 +107,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lschpmn"
-  ],
   "firstCommit": {
     "sha": "6c09adb2d93a8dc9fe414d11c293954aa1baddbd",
     "commit": {
@@ -133,65 +130,6 @@
     }
   },
   "filename": "lschpmn___Clockwise.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/lschpmn/Clockwise/releases/3124426",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lschpmn/Clockwise/releases/assets/1615509",
-          "id": 1615509,
-          "name": "Clockwise.exe",
-          "label": null,
-          "uploader": {
-            "login": "lschpmn",
-            "id": 7399351,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7399351?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lschpmn",
-            "htmlUrl": "https://github.com/lschpmn",
-            "followersUrl": "https://api.github.com/users/lschpmn/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lschpmn/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lschpmn/orgs",
-            "reposUrl": "https://api.github.com/users/lschpmn/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lschpmn/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 27649891,
-          "downloadCount": 3,
-          "createdAt": "2016-04-29T04:05:06.000Z",
-          "updatedAt": "2016-04-29T04:05:36.000Z",
-          "browserDownloadUrl": "https://github.com/lschpmn/Clockwise/releases/download/v0.1.0/Clockwise.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lschpmn/Clockwise/releases/3124426/assets",
-      "htmlUrl": "https://github.com/lschpmn/Clockwise/releases/tag/v0.1.0",
-      "id": 3124426,
-      "tagName": "v0.1.0",
-      "targetCommitish": "prod",
-      "name": "First public release",
-      "draft": false,
-      "author": {
-        "login": "lschpmn",
-        "id": 7399351,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7399351?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lschpmn",
-        "htmlUrl": "https://github.com/lschpmn",
-        "followersUrl": "https://api.github.com/users/lschpmn/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lschpmn/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lschpmn/orgs",
-        "reposUrl": "https://api.github.com/users/lschpmn/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lschpmn/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-04-28T03:48:53.000Z",
-      "publishedAt": "2016-04-29T04:05:54.000Z",
-      "tarballUrl": "https://api.github.com/repos/lschpmn/Clockwise/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/lschpmn/Clockwise/zipball/v0.1.0",
-      "body": "File is a self extracting zip directory. So run exe, choose which directory to extract the files into, then go into newly created directory and run app by running Clockwise.exe\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:26:32.960Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "voorhoede",
     "id": 2759382,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2759382?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2759382?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/voorhoede",
     "htmlUrl": "https://github.com/voorhoede",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/voorhoede/fastatic-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/voorhoede/fastatic-app/deployments",
   "createdAt": "2016-09-15T12:54:41.000Z",
-  "updatedAt": "2016-11-22T08:30:03.000Z",
+  "updatedAt": "2016-12-12T04:04:31.000Z",
   "pushedAt": "2016-11-21T09:28:59.000Z",
   "gitUrl": "git://github.com/voorhoede/fastatic-app.git",
   "sshUrl": "git@github.com:voorhoede/fastatic-app.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/voorhoede/fastatic-app",
   "homepage": "",
   "size": 784,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 2,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "voorhoede",
     "id": 2759382,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2759382?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2759382?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/voorhoede",
     "htmlUrl": "https://github.com/voorhoede",
@@ -152,9 +152,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "petergoes"
-  ],
   "firstCommit": {
     "sha": "424daa1562a237b0965fa4db5433fc606f8e74df",
     "commit": {
@@ -179,124 +176,6 @@
   },
   "filename": "voorhoede___fastatic-app.json",
   "sourceRepo": "voorhoede-labs/fastatic-app",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/voorhoede/fastatic-app/releases/4698347",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/voorhoede/fastatic-app/releases/assets/2667878",
-          "id": 2667878,
-          "name": "Fastatic.App-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "petergoes",
-            "id": 642489,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/642489?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/petergoes",
-            "htmlUrl": "https://github.com/petergoes",
-            "followersUrl": "https://api.github.com/users/petergoes/followers",
-            "subscriptionsUrl": "https://api.github.com/users/petergoes/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/petergoes/orgs",
-            "reposUrl": "https://api.github.com/users/petergoes/repos",
-            "receivedEventsUrl": "https://api.github.com/users/petergoes/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 103054596,
-          "downloadCount": 5,
-          "createdAt": "2016-11-18T13:42:41.000Z",
-          "updatedAt": "2016-11-18T13:43:04.000Z",
-          "browserDownloadUrl": "https://github.com/voorhoede/fastatic-app/releases/download/v0.1.1/Fastatic.App-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/voorhoede/fastatic-app/releases/4698347/assets",
-      "htmlUrl": "https://github.com/voorhoede/fastatic-app/releases/tag/v0.1.1",
-      "id": 4698347,
-      "tagName": "v0.1.1",
-      "targetCommitish": "master",
-      "name": "v0.1.1",
-      "draft": false,
-      "author": {
-        "login": "petergoes",
-        "id": 642489,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/642489?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/petergoes",
-        "htmlUrl": "https://github.com/petergoes",
-        "followersUrl": "https://api.github.com/users/petergoes/followers",
-        "subscriptionsUrl": "https://api.github.com/users/petergoes/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/petergoes/orgs",
-        "reposUrl": "https://api.github.com/users/petergoes/repos",
-        "receivedEventsUrl": "https://api.github.com/users/petergoes/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-18T13:37:35.000Z",
-      "publishedAt": "2016-11-18T13:43:08.000Z",
-      "tarballUrl": "https://api.github.com/repos/voorhoede/fastatic-app/tarball/v0.1.1",
-      "zipballUrl": "https://api.github.com/repos/voorhoede/fastatic-app/zipball/v0.1.1",
-      "body": "**Fixes**\n- Include the released version of `fastatic`. This fixes the app being unresponsive after start converting\n\n**Chores**\n- Updated all dependencies\n"
-    },
-    {
-      "url": "https://api.github.com/repos/voorhoede/fastatic-app/releases/4662054",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/voorhoede/fastatic-app/releases/assets/2662278",
-          "id": 2662278,
-          "name": "Fastatic.App.zip",
-          "label": null,
-          "uploader": {
-            "login": "petergoes",
-            "id": 642489,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/642489?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/petergoes",
-            "htmlUrl": "https://github.com/petergoes",
-            "followersUrl": "https://api.github.com/users/petergoes/followers",
-            "subscriptionsUrl": "https://api.github.com/users/petergoes/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/petergoes/orgs",
-            "reposUrl": "https://api.github.com/users/petergoes/repos",
-            "receivedEventsUrl": "https://api.github.com/users/petergoes/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 101942588,
-          "downloadCount": 1,
-          "createdAt": "2016-11-17T16:50:47.000Z",
-          "updatedAt": "2016-11-17T16:51:12.000Z",
-          "browserDownloadUrl": "https://github.com/voorhoede/fastatic-app/releases/download/v0.1.0/Fastatic.App.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/voorhoede/fastatic-app/releases/4662054/assets",
-      "htmlUrl": "https://github.com/voorhoede/fastatic-app/releases/tag/v0.1.0",
-      "id": 4662054,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "petergoes",
-        "id": 642489,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/642489?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/petergoes",
-        "htmlUrl": "https://github.com/petergoes",
-        "followersUrl": "https://api.github.com/users/petergoes/followers",
-        "subscriptionsUrl": "https://api.github.com/users/petergoes/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/petergoes/orgs",
-        "reposUrl": "https://api.github.com/users/petergoes/repos",
-        "receivedEventsUrl": "https://api.github.com/users/petergoes/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-15T11:17:43.000Z",
-      "publishedAt": "2016-11-15T11:37:44.000Z",
-      "tarballUrl": "https://api.github.com/repos/voorhoede/fastatic-app/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/voorhoede/fastatic-app/zipball/v0.1.0",
-      "body": "Initial version of Fastatic App.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:02:54.695Z"
 }

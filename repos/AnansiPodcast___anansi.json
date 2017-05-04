@@ -5,7 +5,7 @@
   "owner": {
     "login": "AnansiPodcast",
     "id": 19760405,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19760405?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19760405?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AnansiPodcast",
     "htmlUrl": "https://github.com/AnansiPodcast",
@@ -45,7 +45,7 @@
   "organization": {
     "login": "AnansiPodcast",
     "id": 19760405,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19760405?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19760405?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AnansiPodcast",
     "htmlUrl": "https://github.com/AnansiPodcast",
@@ -57,7 +57,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 6,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "Anansi",
@@ -155,12 +155,6 @@
   "cloneUrl": "https://github.com/AnansiPodcast/anansi.git",
   "svnUrl": "https://github.com/AnansiPodcast/anansi",
   "mirrorUrl": null,
-  "contributors": [
-    "sergiovilar",
-    "jpaulobneto",
-    "victorximenis",
-    "joelwallis"
-  ],
   "firstCommit": {
     "sha": "0366ccee39de5c80dc3bed2f6b6d757281b44473",
     "commit": {
@@ -184,65 +178,6 @@
     }
   },
   "filename": "AnansiPodcast___anansi.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/AnansiPodcast/anansi/releases/3377629",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/AnansiPodcast/anansi/releases/assets/1798228",
-          "id": 1798228,
-          "name": "Anansi.zip",
-          "label": "",
-          "uploader": {
-            "login": "sergiovilar",
-            "id": 860636,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/860636?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sergiovilar",
-            "htmlUrl": "https://github.com/sergiovilar",
-            "followersUrl": "https://api.github.com/users/sergiovilar/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sergiovilar/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sergiovilar/orgs",
-            "reposUrl": "https://api.github.com/users/sergiovilar/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sergiovilar/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 53030766,
-          "downloadCount": 1,
-          "createdAt": "2016-06-05T23:56:33.000Z",
-          "updatedAt": "2016-06-06T00:04:10.000Z",
-          "browserDownloadUrl": "https://github.com/AnansiPodcast/anansi/releases/download/v1.0.0/Anansi.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/AnansiPodcast/anansi/releases/3377629/assets",
-      "htmlUrl": "https://github.com/AnansiPodcast/anansi/releases/tag/v1.0.0",
-      "id": 3377629,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "sergiovilar",
-        "id": 860636,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/860636?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/sergiovilar",
-        "htmlUrl": "https://github.com/sergiovilar",
-        "followersUrl": "https://api.github.com/users/sergiovilar/followers",
-        "subscriptionsUrl": "https://api.github.com/users/sergiovilar/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/sergiovilar/orgs",
-        "reposUrl": "https://api.github.com/users/sergiovilar/repos",
-        "receivedEventsUrl": "https://api.github.com/users/sergiovilar/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-01T01:25:26.000Z",
-      "publishedAt": "2016-06-05T23:56:32.000Z",
-      "tarballUrl": "https://api.github.com/repos/AnansiPodcast/anansi/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/AnansiPodcast/anansi/zipball/v1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:16:29.101Z"
 }

@@ -6,7 +6,7 @@
   "owner": {
     "login": "iscobar",
     "id": 2181057,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2181057?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2181057?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/iscobar",
     "htmlUrl": "https://github.com/iscobar",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "resin-io",
       "id": 6157842,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6157842?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/6157842?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/resin-io",
       "htmlUrl": "https://github.com/resin-io",
@@ -100,26 +100,27 @@
     "downloadsUrl": "https://api.github.com/repos/resin-io/resin-electronjs/downloads",
     "deploymentsUrl": "https://api.github.com/repos/resin-io/resin-electronjs/deployments",
     "createdAt": "2016-01-13T18:24:04.000Z",
-    "updatedAt": "2017-01-18T08:04:57.000Z",
-    "pushedAt": "2017-01-18T12:34:35.000Z",
+    "updatedAt": "2017-05-01T23:58:32.000Z",
+    "pushedAt": "2017-05-03T13:40:57.000Z",
     "gitUrl": "git://github.com/resin-io/resin-electronjs.git",
     "sshUrl": "git@github.com:resin-io/resin-electronjs.git",
     "cloneUrl": "https://github.com/resin-io/resin-electronjs.git",
     "svnUrl": "https://github.com/resin-io/resin-electronjs",
     "homepage": "http://resin.io",
-    "size": 507,
-    "stargazersCount": 68,
-    "watchersCount": 68,
+    "size": 517,
+    "stargazersCount": 110,
+    "watchersCount": 110,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 20,
+    "forksCount": 32,
     "mirrorUrl": null,
-    "openIssuesCount": 5,
-    "openIssues": 5,
-    "watchers": 68,
+    "openIssuesCount": 9,
+    "openIssues": 9,
+    "watchers": 110,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "resin-io",
       "id": 6157842,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/6157842?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/6157842?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/resin-io",
       "htmlUrl": "https://github.com/resin-io",
@@ -159,29 +160,30 @@
     "downloadsUrl": "https://api.github.com/repos/resin-io/resin-electronjs/downloads",
     "deploymentsUrl": "https://api.github.com/repos/resin-io/resin-electronjs/deployments",
     "createdAt": "2016-01-13T18:24:04.000Z",
-    "updatedAt": "2017-01-18T08:04:57.000Z",
-    "pushedAt": "2017-01-18T12:34:35.000Z",
+    "updatedAt": "2017-05-01T23:58:32.000Z",
+    "pushedAt": "2017-05-03T13:40:57.000Z",
     "gitUrl": "git://github.com/resin-io/resin-electronjs.git",
     "sshUrl": "git@github.com:resin-io/resin-electronjs.git",
     "cloneUrl": "https://github.com/resin-io/resin-electronjs.git",
     "svnUrl": "https://github.com/resin-io/resin-electronjs",
     "homepage": "http://resin.io",
-    "size": 507,
-    "stargazersCount": 68,
-    "watchersCount": 68,
+    "size": 517,
+    "stargazersCount": 110,
+    "watchersCount": 110,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 20,
+    "forksCount": 32,
     "mirrorUrl": null,
-    "openIssuesCount": 5,
-    "openIssues": 5,
-    "watchers": 68,
+    "openIssuesCount": 9,
+    "openIssues": 9,
+    "watchers": 110,
     "defaultBranch": "master"
   },
-  "networkCount": 20,
+  "networkCount": 32,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -212,10 +214,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "curcuz",
-    "visualaram"
-  ],
   "firstCommit": {
     "sha": "7e412521fcc85db1d9d5418980ba361111b8d30e",
     "commit": {
@@ -238,5 +236,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:56:59.861Z"
 }

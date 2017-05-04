@@ -5,7 +5,7 @@
   "owner": {
     "login": "khsk",
     "id": 10125386,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10125386?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/10125386?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/khsk",
     "htmlUrl": "https://github.com/khsk",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/khsk/electron-gif-loop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/khsk/electron-gif-loop/deployments",
   "createdAt": "2016-07-20T08:46:47.000Z",
-  "updatedAt": "2016-07-20T10:44:17.000Z",
-  "pushedAt": "2016-10-19T02:33:21.000Z",
+  "updatedAt": "2016-12-14T16:14:03.000Z",
+  "pushedAt": "2016-12-06T07:14:04.000Z",
   "gitUrl": "git://github.com/khsk/electron-gif-loop.git",
   "sshUrl": "git@github.com:khsk/electron-gif-loop.git",
   "cloneUrl": "https://github.com/khsk/electron-gif-loop.git",
   "svnUrl": "https://github.com/khsk/electron-gif-loop",
   "homepage": null,
-  "size": 3643,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 7236,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -82,9 +82,6 @@
     "repository": "https://github.com/khsk/electron-gif-loop"
   },
   "packageStatus": 200,
-  "contributors": [
-    "khsk"
-  ],
   "firstCommit": {
     "sha": "6bd859bc49c8d6adbef717c05ec295b9a679115d",
     "commit": {
@@ -108,65 +105,6 @@
     }
   },
   "filename": "khsk___electron-gif-loop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/khsk/electron-gif-loop/releases/4841211",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/khsk/electron-gif-loop/releases/assets/2772728",
-          "id": 2772728,
-          "name": "electron-gif-loop-win32-x64-1.0.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "khsk",
-            "id": 10125386,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/10125386?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/khsk",
-            "htmlUrl": "https://github.com/khsk",
-            "followersUrl": "https://api.github.com/users/khsk/followers",
-            "subscriptionsUrl": "https://api.github.com/users/khsk/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/khsk/orgs",
-            "reposUrl": "https://api.github.com/users/khsk/repos",
-            "receivedEventsUrl": "https://api.github.com/users/khsk/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-download",
-          "state": "uploaded",
-          "size": 55822479,
-          "downloadCount": 0,
-          "createdAt": "2016-12-06T07:15:59.000Z",
-          "updatedAt": "2016-12-06T07:18:02.000Z",
-          "browserDownloadUrl": "https://github.com/khsk/electron-gif-loop/releases/download/v1.0.0/electron-gif-loop-win32-x64-1.0.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/khsk/electron-gif-loop/releases/4841211/assets",
-      "htmlUrl": "https://github.com/khsk/electron-gif-loop/releases/tag/v1.0.0",
-      "id": 4841211,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "First release",
-      "draft": false,
-      "author": {
-        "login": "khsk",
-        "id": 10125386,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10125386?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/khsk",
-        "htmlUrl": "https://github.com/khsk",
-        "followersUrl": "https://api.github.com/users/khsk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/khsk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/khsk/orgs",
-        "reposUrl": "https://api.github.com/users/khsk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/khsk/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-06T07:07:34.000Z",
-      "publishedAt": "2016-12-06T07:19:03.000Z",
-      "tarballUrl": "https://api.github.com/repos/khsk/electron-gif-loop/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/khsk/electron-gif-loop/zipball/v1.0.0",
-      "body": "🎉 🎂  First release 🎉 \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:52:18.002Z"
 }

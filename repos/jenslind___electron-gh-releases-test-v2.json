@@ -5,7 +5,7 @@
   "owner": {
     "login": "jenslind",
     "id": 5213672,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5213672?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jenslind",
     "htmlUrl": "https://github.com/jenslind",
@@ -17,7 +17,7 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2015-11-20T17:54:13.000Z",
   "updatedAt": "2015-11-20T18:07:35.000Z",
@@ -69,9 +69,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jenslind"
-  ],
   "firstCommit": {
     "sha": "df2a0d3d33b496e0b98a4fd37dead0137ff85ed9",
     "commit": {
@@ -95,183 +92,26 @@
     }
   },
   "filename": "jenslind___electron-gh-releases-test-v2.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/2282933",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/assets/1126125",
-          "id": 1126125,
-          "name": "Test.zip",
-          "label": null,
-          "uploader": {
-            "login": "jenslind",
-            "id": 5213672,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jenslind",
-            "htmlUrl": "https://github.com/jenslind",
-            "followersUrl": "https://api.github.com/users/jenslind/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jenslind/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jenslind/orgs",
-            "reposUrl": "https://api.github.com/users/jenslind/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jenslind/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 38493048,
-          "downloadCount": 10,
-          "createdAt": "2015-12-14T12:54:08.000Z",
-          "updatedAt": "2015-12-14T12:54:29.000Z",
-          "browserDownloadUrl": "https://github.com/jenslind/electron-gh-releases-test-v2/releases/download/v1.0.6/Test.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/2282933/assets",
-      "htmlUrl": "https://github.com/jenslind/electron-gh-releases-test-v2/releases/tag/v1.0.6",
-      "id": 2282933,
-      "tagName": "v1.0.6",
-      "targetCommitish": "master",
-      "name": "v1.0.6",
-      "draft": false,
-      "author": {
-        "login": "jenslind",
-        "id": 5213672,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jenslind",
-        "htmlUrl": "https://github.com/jenslind",
-        "followersUrl": "https://api.github.com/users/jenslind/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jenslind/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jenslind/orgs",
-        "reposUrl": "https://api.github.com/users/jenslind/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jenslind/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-21T15:05:58.000Z",
-      "publishedAt": "2015-12-14T12:02:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/tarball/v1.0.6",
-      "zipballUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/zipball/v1.0.6",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/2163358",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/assets/1056717",
-          "id": 1056717,
-          "name": "Test.app.zip",
-          "label": "",
-          "uploader": {
-            "login": "jenslind",
-            "id": 5213672,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jenslind",
-            "htmlUrl": "https://github.com/jenslind",
-            "followersUrl": "https://api.github.com/users/jenslind/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jenslind/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jenslind/orgs",
-            "reposUrl": "https://api.github.com/users/jenslind/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jenslind/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 38654545,
-          "downloadCount": 8,
-          "createdAt": "2015-11-20T22:25:42.000Z",
-          "updatedAt": "2015-11-20T22:27:07.000Z",
-          "browserDownloadUrl": "https://github.com/jenslind/electron-gh-releases-test-v2/releases/download/v1.0.3/Test.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/2163358/assets",
-      "htmlUrl": "https://github.com/jenslind/electron-gh-releases-test-v2/releases/tag/v1.0.3",
-      "id": 2163358,
-      "tagName": "v1.0.3",
-      "targetCommitish": "master",
-      "name": "v1.0.3",
-      "draft": false,
-      "author": {
-        "login": "jenslind",
-        "id": 5213672,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jenslind",
-        "htmlUrl": "https://github.com/jenslind",
-        "followersUrl": "https://api.github.com/users/jenslind/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jenslind/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jenslind/orgs",
-        "reposUrl": "https://api.github.com/users/jenslind/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jenslind/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-20T22:24:13.000Z",
-      "publishedAt": "2015-11-20T22:25:41.000Z",
-      "tarballUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/tarball/v1.0.3",
-      "zipballUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/zipball/v1.0.3",
-      "body": null
-    },
-    {
-      "url": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/2162278",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/assets/1056108",
-          "id": 1056108,
-          "name": "Test.app.zip",
-          "label": "",
-          "uploader": {
-            "login": "jenslind",
-            "id": 5213672,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jenslind",
-            "htmlUrl": "https://github.com/jenslind",
-            "followersUrl": "https://api.github.com/users/jenslind/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jenslind/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jenslind/orgs",
-            "reposUrl": "https://api.github.com/users/jenslind/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jenslind/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 38654103,
-          "downloadCount": 1,
-          "createdAt": "2015-11-20T19:19:13.000Z",
-          "updatedAt": "2015-11-20T19:19:22.000Z",
-          "browserDownloadUrl": "https://github.com/jenslind/electron-gh-releases-test-v2/releases/download/v1.0.1/Test.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/releases/2162278/assets",
-      "htmlUrl": "https://github.com/jenslind/electron-gh-releases-test-v2/releases/tag/v1.0.1",
-      "id": 2162278,
-      "tagName": "v1.0.1",
-      "targetCommitish": "master",
-      "name": "v1.0.1",
-      "draft": false,
-      "author": {
-        "login": "jenslind",
-        "id": 5213672,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5213672?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jenslind",
-        "htmlUrl": "https://github.com/jenslind",
-        "followersUrl": "https://api.github.com/users/jenslind/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jenslind/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jenslind/orgs",
-        "reposUrl": "https://api.github.com/users/jenslind/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jenslind/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-20T19:18:41.000Z",
-      "publishedAt": "2015-11-20T19:19:12.000Z",
-      "tarballUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/tarball/v1.0.1",
-      "zipballUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/zipball/v1.0.1",
-      "body": null
-    }
-  ]
+  "htmlUrl": "https://github.com/jenslind/electron-gh-releases-test-v2",
+  "url": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2",
+  "forksUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/forks",
+  "teamsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/teams",
+  "hooksUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/hooks",
+  "eventsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/events",
+  "tagsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/tags",
+  "languagesUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/languages",
+  "stargazersUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/subscription",
+  "mergesUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/merges",
+  "downloadsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jenslind/electron-gh-releases-test-v2/deployments",
+  "gitUrl": "git://github.com/jenslind/electron-gh-releases-test-v2.git",
+  "sshUrl": "git@github.com:jenslind/electron-gh-releases-test-v2.git",
+  "cloneUrl": "https://github.com/jenslind/electron-gh-releases-test-v2.git",
+  "svnUrl": "https://github.com/jenslind/electron-gh-releases-test-v2",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:13:15.595Z"
 }

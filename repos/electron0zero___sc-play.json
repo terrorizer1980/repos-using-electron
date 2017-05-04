@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "sc-play",
     "version": "0.0.1",
@@ -59,17 +59,21 @@
       "music",
       "Electronjs"
     ],
-    "author": "Electron (electron0zero)",
     "license": "BSD-2-Clause",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     },
     "dependencies": {
       "soundcloud": "~3.1.0"
+    },
+    "other": {
+      "author": "Electron (electron0zero)"
     }
   },
   "packageStatus": 404,
   "contributors": [
     "electron0zero"
-  ]
+  ],
+  "filename": "electron0zero___sc-play.json",
+  "lastFetchedAt": "2017-05-04T19:34:04.951Z"
 }

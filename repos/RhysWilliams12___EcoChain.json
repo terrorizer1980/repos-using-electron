@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "eco-chain",
     "version": "1.0.0",
@@ -99,9 +99,6 @@
       "jquery": "^3.1.1",
       "openlayers": "^3.19.0",
       "web3": "^0.14.0"
-    },
-    "other": {
-      "author": "Rhys Williams"
     }
   },
   "packageStatus": 200,
@@ -130,5 +127,6 @@
       "commentCount": 0
     }
   },
-  "filename": "RhysWilliams12___EcoChain.json"
+  "filename": "RhysWilliams12___EcoChain.json",
+  "lastFetchedAt": "2017-05-04T21:07:09.476Z"
 }

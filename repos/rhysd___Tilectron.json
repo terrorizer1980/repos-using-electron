@@ -5,7 +5,7 @@
   "owner": {
     "login": "rhysd",
     "id": 823277,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/823277?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/rhysd",
     "htmlUrl": "https://github.com/rhysd",
@@ -20,12 +20,12 @@
   "description": "Tiling window browser built on Electron.",
   "fork": false,
   "createdAt": "2015-10-12T15:12:04.000Z",
-  "updatedAt": "2016-09-29T01:20:18.000Z",
+  "updatedAt": "2017-03-29T17:06:41.000Z",
   "pushedAt": "2015-11-07T17:09:26.000Z",
   "homepage": null,
   "size": 364,
-  "stargazersCount": 18,
-  "watchersCount": 18,
+  "stargazersCount": 20,
+  "watchersCount": 20,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 2,
   "openIssuesCount": 2,
   "openIssues": 2,
-  "watchers": 18,
+  "watchers": 20,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -49,7 +49,7 @@
     "featured": true
   },
   "networkCount": 2,
-  "subscribersCount": 2,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "tilectron",
@@ -92,12 +92,6 @@
       "eslint-plugin-mocha": "^1.0.0",
       "react-addons-test-utils": "^0.14.2",
       "typescript": "^1.6.2"
-    },
-    "other": {
-      "author": "rhysd <lin90162@yahoo.co.jp>",
-      "bugs": {
-        "url": "https://github.com/rhysd/Tilectron/issues"
-      }
     }
   },
   "packageStatus": 404,
@@ -121,9 +115,6 @@
   "cloneUrl": "https://github.com/rhysd/Tilectron.git",
   "svnUrl": "https://github.com/rhysd/Tilectron",
   "mirrorUrl": null,
-  "contributors": [
-    "rhysd"
-  ],
   "firstCommit": {
     "sha": "6fc9b2fbc0fc85f2b99052427f55217da03f8d10",
     "commit": {
@@ -147,65 +138,6 @@
     }
   },
   "filename": "rhysd___Tilectron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/rhysd/Tilectron/releases/2001279",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/rhysd/Tilectron/releases/assets/965574",
-          "id": 965574,
-          "name": "app.asar",
-          "label": null,
-          "uploader": {
-            "login": "rhysd",
-            "id": 823277,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/rhysd",
-            "htmlUrl": "https://github.com/rhysd",
-            "followersUrl": "https://api.github.com/users/rhysd/followers",
-            "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-            "reposUrl": "https://api.github.com/users/rhysd/repos",
-            "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 11513798,
-          "downloadCount": 1,
-          "createdAt": "2015-10-22T09:58:58.000Z",
-          "updatedAt": "2015-10-22T09:59:30.000Z",
-          "browserDownloadUrl": "https://github.com/rhysd/Tilectron/releases/download/v0.0.4/app.asar"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/rhysd/Tilectron/releases/2001279/assets",
-      "htmlUrl": "https://github.com/rhysd/Tilectron/releases/tag/v0.0.4",
-      "id": 2001279,
-      "tagName": "v0.0.4",
-      "targetCommitish": "master",
-      "name": "v0.0.4",
-      "draft": false,
-      "author": {
-        "login": "rhysd",
-        "id": 823277,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/rhysd",
-        "htmlUrl": "https://github.com/rhysd",
-        "followersUrl": "https://api.github.com/users/rhysd/followers",
-        "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-        "reposUrl": "https://api.github.com/users/rhysd/repos",
-        "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-10-22T09:50:15.000Z",
-      "publishedAt": "2015-10-22T10:02:25.000Z",
-      "tarballUrl": "https://api.github.com/repos/rhysd/Tilectron/tarball/v0.0.4",
-      "zipballUrl": "https://api.github.com/repos/rhysd/Tilectron/zipball/v0.0.4",
-      "body": "Download `app.asar` and [Electron release](https://github.com/atom/electron/releases). Then put `app.asar` into below directory.\n- **Windows:** `electron/resources/`\n- **Linux:** `electron/resources/`\n- **OS X:** `Electron.app/Contents/Resources/`\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:53:12.294Z"
 }

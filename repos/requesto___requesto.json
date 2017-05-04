@@ -5,7 +5,7 @@
   "owner": {
     "login": "requesto",
     "id": 20373928,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20373928?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20373928?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/requesto",
     "htmlUrl": "https://github.com/requesto",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/requesto/requesto/downloads",
   "deploymentsUrl": "https://api.github.com/repos/requesto/requesto/deployments",
   "createdAt": "2016-06-30T14:39:50.000Z",
-  "updatedAt": "2016-10-20T17:51:33.000Z",
-  "pushedAt": "2016-11-15T05:27:51.000Z",
+  "updatedAt": "2017-04-06T09:22:27.000Z",
+  "pushedAt": "2017-01-03T04:55:05.000Z",
   "gitUrl": "git://github.com/requesto/requesto.git",
   "sshUrl": "git@github.com:requesto/requesto.git",
   "cloneUrl": "https://github.com/requesto/requesto.git",
   "svnUrl": "https://github.com/requesto/requesto",
   "homepage": "http://requesto.github.io",
-  "size": 134213,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 134211,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 4,
   "openIssues": 4,
-  "watchers": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "requesto",
     "id": 20373928,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20373928?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20373928?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/requesto",
     "htmlUrl": "https://github.com/requesto",
@@ -159,9 +159,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "dbeff"
-  ],
   "firstCommit": {
     "sha": "d70ca8ec57d9190be4ab753e577ee0cbc045171c",
     "commit": {
@@ -185,178 +182,6 @@
     }
   },
   "filename": "requesto___requesto.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/requesto/requesto/releases/4218907",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/requesto/requesto/releases/assets/2367934",
-          "id": 2367934,
-          "name": "Requesto-0.2.0-mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "dbeff",
-            "id": 5122156,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5122156?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dbeff",
-            "htmlUrl": "https://github.com/dbeff",
-            "followersUrl": "https://api.github.com/users/dbeff/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dbeff/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dbeff/orgs",
-            "reposUrl": "https://api.github.com/users/dbeff/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dbeff/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 45945546,
-          "downloadCount": 0,
-          "createdAt": "2016-09-23T23:12:24.000Z",
-          "updatedAt": "2016-09-23T23:12:40.000Z",
-          "browserDownloadUrl": "https://github.com/requesto/requesto/releases/download/v0.2.0/Requesto-0.2.0-mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/requesto/requesto/releases/assets/2367935",
-          "id": 2367935,
-          "name": "Requesto-0.2.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "dbeff",
-            "id": 5122156,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5122156?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dbeff",
-            "htmlUrl": "https://github.com/dbeff",
-            "followersUrl": "https://api.github.com/users/dbeff/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dbeff/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dbeff/orgs",
-            "reposUrl": "https://api.github.com/users/dbeff/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dbeff/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 42017979,
-          "downloadCount": 7,
-          "createdAt": "2016-09-23T23:12:24.000Z",
-          "updatedAt": "2016-09-23T23:12:55.000Z",
-          "browserDownloadUrl": "https://github.com/requesto/requesto/releases/download/v0.2.0/Requesto-0.2.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/requesto/requesto/releases/4218907/assets",
-      "htmlUrl": "https://github.com/requesto/requesto/releases/tag/v0.2.0",
-      "id": 4218907,
-      "tagName": "v0.2.0",
-      "targetCommitish": "master",
-      "name": "Second release",
-      "draft": false,
-      "author": {
-        "login": "dbeff",
-        "id": 5122156,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5122156?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/dbeff",
-        "htmlUrl": "https://github.com/dbeff",
-        "followersUrl": "https://api.github.com/users/dbeff/followers",
-        "subscriptionsUrl": "https://api.github.com/users/dbeff/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/dbeff/orgs",
-        "reposUrl": "https://api.github.com/users/dbeff/repos",
-        "receivedEventsUrl": "https://api.github.com/users/dbeff/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-23T22:25:28.000Z",
-      "publishedAt": "2016-09-23T23:12:59.000Z",
-      "tarballUrl": "https://api.github.com/repos/requesto/requesto/tarball/v0.2.0",
-      "zipballUrl": "https://api.github.com/repos/requesto/requesto/zipball/v0.2.0",
-      "body": "- fix some bugs \n- refactor request properties area\n"
-    },
-    {
-      "url": "https://api.github.com/repos/requesto/requesto/releases/4194734",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/requesto/requesto/releases/assets/2352551",
-          "id": 2352551,
-          "name": "Requesto-0.1.0-mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "dbeff",
-            "id": 5122156,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5122156?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dbeff",
-            "htmlUrl": "https://github.com/dbeff",
-            "followersUrl": "https://api.github.com/users/dbeff/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dbeff/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dbeff/orgs",
-            "reposUrl": "https://api.github.com/users/dbeff/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dbeff/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 45943092,
-          "downloadCount": 6,
-          "createdAt": "2016-09-21T17:17:41.000Z",
-          "updatedAt": "2016-09-21T17:17:57.000Z",
-          "browserDownloadUrl": "https://github.com/requesto/requesto/releases/download/v0.1.0/Requesto-0.1.0-mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/requesto/requesto/releases/assets/2352552",
-          "id": 2352552,
-          "name": "Requesto-0.1.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "dbeff",
-            "id": 5122156,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5122156?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dbeff",
-            "htmlUrl": "https://github.com/dbeff",
-            "followersUrl": "https://api.github.com/users/dbeff/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dbeff/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dbeff/orgs",
-            "reposUrl": "https://api.github.com/users/dbeff/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dbeff/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 42004185,
-          "downloadCount": 0,
-          "createdAt": "2016-09-21T17:17:41.000Z",
-          "updatedAt": "2016-09-21T17:18:12.000Z",
-          "browserDownloadUrl": "https://github.com/requesto/requesto/releases/download/v0.1.0/Requesto-0.1.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/requesto/requesto/releases/4194734/assets",
-      "htmlUrl": "https://github.com/requesto/requesto/releases/tag/v0.1.0",
-      "id": 4194734,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "First beta release!  😀",
-      "draft": false,
-      "author": {
-        "login": "dbeff",
-        "id": 5122156,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5122156?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/dbeff",
-        "htmlUrl": "https://github.com/dbeff",
-        "followersUrl": "https://api.github.com/users/dbeff/followers",
-        "subscriptionsUrl": "https://api.github.com/users/dbeff/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/dbeff/orgs",
-        "reposUrl": "https://api.github.com/users/dbeff/repos",
-        "receivedEventsUrl": "https://api.github.com/users/dbeff/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-21T16:33:46.000Z",
-      "publishedAt": "2016-09-21T16:41:29.000Z",
-      "tarballUrl": "https://api.github.com/repos/requesto/requesto/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/requesto/requesto/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:42:11.372Z"
 }

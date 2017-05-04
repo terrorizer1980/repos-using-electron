@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "zxq-tools",
     "version": "1.0.0",
@@ -53,11 +53,7 @@
     "scripts": {
       "start": "electron build/js/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Zhuxy/zxq-tools.git"
-    },
-    "author": "zhuxiaoyan",
+    "repository": "https://github.com/Zhuxy/zxq-tools",
     "devDependencies": {
       "babel-plugin-transform-runtime": "^6.9.0",
       "babel-polyfill": "^6.9.1",
@@ -84,5 +80,7 @@
   "packageStatus": 404,
   "contributors": [
     "Zhuxy"
-  ]
+  ],
+  "filename": "Zhuxy___zxq-tools.json",
+  "lastFetchedAt": "2017-05-04T20:32:51.857Z"
 }

@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "NotPostman",
     "productName": "NotPostman",
@@ -86,7 +86,6 @@
       "release": "npm install && webpack && build --x64 --publish never",
       "test": "karma start karma.conf.js"
     },
-    "author": "Codeweavers",
     "license": "CC0-1.0",
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -150,12 +149,17 @@
         "background": "resources/osx/dmg-background.png"
       }
     },
-    "directories": {
-      "buildResources": "resources"
+    "other": {
+      "author": "Codeweavers",
+      "directories": {
+        "buildResources": "resources"
+      }
     }
   },
   "packageStatus": 200,
   "contributors": [
     "iLogical"
-  ]
+  ],
+  "filename": "iLogical___NotPostman.json",
+  "lastFetchedAt": "2017-05-04T20:58:27.710Z"
 }

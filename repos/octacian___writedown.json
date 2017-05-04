@@ -5,7 +5,7 @@
   "owner": {
     "login": "octacian",
     "id": 15371866,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15371866?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/15371866?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/octacian",
     "htmlUrl": "https://github.com/octacian",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/octacian/writedown/deployments",
   "createdAt": "2016-10-26T00:50:47.000Z",
   "updatedAt": "2016-10-26T00:53:17.000Z",
-  "pushedAt": "2016-10-26T01:17:23.000Z",
+  "pushedAt": "2017-04-15T00:55:45.000Z",
   "gitUrl": "git://github.com/octacian/writedown.git",
   "sshUrl": "git@github.com:octacian/writedown.git",
   "cloneUrl": "https://github.com/octacian/writedown.git",
   "svnUrl": "https://github.com/octacian/writedown",
   "homepage": null,
-  "size": 150,
+  "size": 161,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -89,9 +89,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "octacian"
-  ],
   "firstCommit": {
     "sha": "1f797af966b40bb283aa9378d09681785e12c784",
     "commit": {
@@ -115,37 +112,6 @@
     }
   },
   "filename": "octacian___writedown.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/octacian/writedown/releases/5240026",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/octacian/writedown/releases/5240026/assets",
-      "htmlUrl": "https://github.com/octacian/writedown/releases/tag/0.1.0",
-      "id": 5240026,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "Initial Release",
-      "draft": false,
-      "author": {
-        "login": "octacian",
-        "id": 15371866,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15371866?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/octacian",
-        "htmlUrl": "https://github.com/octacian",
-        "followersUrl": "https://api.github.com/users/octacian/followers",
-        "subscriptionsUrl": "https://api.github.com/users/octacian/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/octacian/orgs",
-        "reposUrl": "https://api.github.com/users/octacian/repos",
-        "receivedEventsUrl": "https://api.github.com/users/octacian/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2017-01-23T15:28:53.000Z",
-      "publishedAt": "2017-01-23T15:34:03.000Z",
-      "tarballUrl": "https://api.github.com/repos/octacian/writedown/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/octacian/writedown/zipball/0.1.0",
-      "body": "First release of WriteDown."
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:24:27.951Z"
 }

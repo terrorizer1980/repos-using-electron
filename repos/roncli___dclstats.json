@@ -5,7 +5,7 @@
   "owner": {
     "login": "roncli",
     "id": 498929,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/498929?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/498929?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/roncli",
     "htmlUrl": "https://github.com/roncli",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/roncli/dclstats/deployments",
   "createdAt": "2016-10-06T00:29:16.000Z",
   "updatedAt": "2016-10-06T00:41:54.000Z",
-  "pushedAt": "2016-10-28T22:34:27.000Z",
+  "pushedAt": "2017-01-01T23:23:57.000Z",
   "gitUrl": "git://github.com/roncli/dclstats.git",
   "sshUrl": "git@github.com:roncli/dclstats.git",
   "cloneUrl": "https://github.com/roncli/dclstats.git",
   "svnUrl": "https://github.com/roncli/dclstats",
   "homepage": null,
-  "size": 17,
+  "size": 16,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -98,9 +98,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "roncli"
-  ],
   "firstCommit": {
     "sha": "e1c7e81661ac91e18a0b57acef5f03d855d08ab0",
     "commit": {
@@ -124,65 +121,6 @@
     }
   },
   "filename": "roncli___dclstats.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/roncli/dclstats/releases/4514996",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/roncli/dclstats/releases/assets/2551261",
-          "id": 2551261,
-          "name": "DCL.Stats.0.1.zip",
-          "label": null,
-          "uploader": {
-            "login": "roncli",
-            "id": 498929,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/498929?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/roncli",
-            "htmlUrl": "https://github.com/roncli",
-            "followersUrl": "https://api.github.com/users/roncli/followers",
-            "subscriptionsUrl": "https://api.github.com/users/roncli/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/roncli/orgs",
-            "reposUrl": "https://api.github.com/users/roncli/repos",
-            "receivedEventsUrl": "https://api.github.com/users/roncli/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 52481170,
-          "downloadCount": 1,
-          "createdAt": "2016-10-28T22:35:47.000Z",
-          "updatedAt": "2016-10-28T22:36:45.000Z",
-          "browserDownloadUrl": "https://github.com/roncli/dclstats/releases/download/v0.1.0/DCL.Stats.0.1.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/roncli/dclstats/releases/4514996/assets",
-      "htmlUrl": "https://github.com/roncli/dclstats/releases/tag/v0.1.0",
-      "id": 4514996,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "roncli",
-        "id": 498929,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/498929?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/roncli",
-        "htmlUrl": "https://github.com/roncli",
-        "followersUrl": "https://api.github.com/users/roncli/followers",
-        "subscriptionsUrl": "https://api.github.com/users/roncli/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/roncli/orgs",
-        "reposUrl": "https://api.github.com/users/roncli/repos",
-        "receivedEventsUrl": "https://api.github.com/users/roncli/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-28T22:31:17.000Z",
-      "publishedAt": "2016-10-28T22:34:27.000Z",
-      "tarballUrl": "https://api.github.com/repos/roncli/dclstats/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/roncli/dclstats/zipball/v0.1.0",
-      "body": "DCL Stats is no longer a command-line application, and now runs via the [Electron](http://electron.atom.io) framework.  Simply input the dates desired and get the stats.\n\nBelow is the Windows binary.  Simply unzip to the directory of your choosing and run `DCL Stats.exe`.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:47:05.834Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "rhysd",
     "id": 823277,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/823277?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/rhysd",
     "htmlUrl": "https://github.com/rhysd",
@@ -20,21 +20,21 @@
   "description": "Desktop app for Irasutoya lovers",
   "fork": false,
   "createdAt": "2015-12-01T18:12:19.000Z",
-  "updatedAt": "2016-06-25T00:18:24.000Z",
+  "updatedAt": "2017-01-31T21:02:32.000Z",
   "pushedAt": "2015-12-09T16:39:28.000Z",
   "homepage": null,
   "size": 1562,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 4,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -112,9 +112,6 @@
   "cloneUrl": "https://github.com/rhysd/Irasutoyer.git",
   "svnUrl": "https://github.com/rhysd/Irasutoyer",
   "mirrorUrl": null,
-  "contributors": [
-    "rhysd"
-  ],
   "firstCommit": {
     "sha": "8b95abfa391b2aef9c5d2ea703b3dd55ef6a079e",
     "commit": {
@@ -138,119 +135,6 @@
     }
   },
   "filename": "rhysd___Irasutoyer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/rhysd/Irasutoyer/releases/2241069",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/rhysd/Irasutoyer/releases/assets/1102619",
-          "id": 1102619,
-          "name": "irasutoyer-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "rhysd",
-            "id": 823277,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/rhysd",
-            "htmlUrl": "https://github.com/rhysd",
-            "followersUrl": "https://api.github.com/users/rhysd/followers",
-            "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-            "reposUrl": "https://api.github.com/users/rhysd/repos",
-            "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43617188,
-          "downloadCount": 7,
-          "createdAt": "2015-12-06T17:50:52.000Z",
-          "updatedAt": "2015-12-06T17:51:04.000Z",
-          "browserDownloadUrl": "https://github.com/rhysd/Irasutoyer/releases/download/v1.0/irasutoyer-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/rhysd/Irasutoyer/releases/assets/1102631",
-          "id": 1102631,
-          "name": "irasutoyer-linux-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "rhysd",
-            "id": 823277,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/rhysd",
-            "htmlUrl": "https://github.com/rhysd",
-            "followersUrl": "https://api.github.com/users/rhysd/followers",
-            "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-            "reposUrl": "https://api.github.com/users/rhysd/repos",
-            "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43599315,
-          "downloadCount": 0,
-          "createdAt": "2015-12-06T17:59:49.000Z",
-          "updatedAt": "2015-12-06T18:00:01.000Z",
-          "browserDownloadUrl": "https://github.com/rhysd/Irasutoyer/releases/download/v1.0/irasutoyer-linux-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/rhysd/Irasutoyer/releases/assets/1102633",
-          "id": 1102633,
-          "name": "irasutoyer-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "rhysd",
-            "id": 823277,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/rhysd",
-            "htmlUrl": "https://github.com/rhysd",
-            "followersUrl": "https://api.github.com/users/rhysd/followers",
-            "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-            "reposUrl": "https://api.github.com/users/rhysd/repos",
-            "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43528392,
-          "downloadCount": 1,
-          "createdAt": "2015-12-06T18:02:15.000Z",
-          "updatedAt": "2015-12-06T18:02:27.000Z",
-          "browserDownloadUrl": "https://github.com/rhysd/Irasutoyer/releases/download/v1.0/irasutoyer-linux-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/rhysd/Irasutoyer/releases/2241069/assets",
-      "htmlUrl": "https://github.com/rhysd/Irasutoyer/releases/tag/v1.0",
-      "id": 2241069,
-      "tagName": "v1.0",
-      "targetCommitish": "master",
-      "name": "FIrst Release",
-      "draft": false,
-      "author": {
-        "login": "rhysd",
-        "id": 823277,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/rhysd",
-        "htmlUrl": "https://github.com/rhysd",
-        "followersUrl": "https://api.github.com/users/rhysd/followers",
-        "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-        "reposUrl": "https://api.github.com/users/rhysd/repos",
-        "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-12-06T17:32:45.000Z",
-      "publishedAt": "2015-12-06T18:03:13.000Z",
-      "tarballUrl": "https://api.github.com/repos/rhysd/Irasutoyer/tarball/v1.0",
-      "zipballUrl": "https://api.github.com/repos/rhysd/Irasutoyer/zipball/v1.0",
-      "body": "Windows package will be added later.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:29:38.726Z"
 }

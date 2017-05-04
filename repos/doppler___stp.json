@@ -5,7 +5,7 @@
   "owner": {
     "login": "doppler",
     "id": 16692,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16692?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16692?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/doppler",
     "htmlUrl": "https://github.com/doppler",
@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-01-28T21:06:06.000Z",
   "updatedAt": "2016-01-28T23:30:35.000Z",
-  "pushedAt": "2016-08-14T22:29:39.000Z",
+  "pushedAt": "2017-05-01T18:58:39.000Z",
   "homepage": null,
-  "size": 526,
+  "size": 557,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -31,9 +31,9 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
-  "openIssuesCount": 231,
-  "openIssues": 231,
+  "forksCount": 1,
+  "openIssuesCount": 11,
+  "openIssues": 11,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -42,8 +42,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "stp",
@@ -132,10 +132,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "doppler",
-    "greenkeeperio-bot"
-  ],
   "firstCommit": {
     "sha": "afdee05e16d6345829c13564010f27971b85b12e",
     "commit": {
@@ -159,65 +155,26 @@
     }
   },
   "filename": "doppler___stp.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/doppler/stp/releases/4976095",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/doppler/stp/releases/assets/2861446",
-          "id": 2861446,
-          "name": "STP-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "doppler",
-            "id": 16692,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/16692?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/doppler",
-            "htmlUrl": "https://github.com/doppler",
-            "followersUrl": "https://api.github.com/users/doppler/followers",
-            "subscriptionsUrl": "https://api.github.com/users/doppler/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/doppler/orgs",
-            "reposUrl": "https://api.github.com/users/doppler/repos",
-            "receivedEventsUrl": "https://api.github.com/users/doppler/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 337841972,
-          "downloadCount": 0,
-          "createdAt": "2016-12-21T04:46:33.000Z",
-          "updatedAt": "2016-12-21T04:48:48.000Z",
-          "browserDownloadUrl": "https://github.com/doppler/stp/releases/download/v0.1.0/STP-win32-ia32.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/doppler/stp/releases/4976095/assets",
-      "htmlUrl": "https://github.com/doppler/stp/releases/tag/v0.1.0",
-      "id": 4976095,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Initial release",
-      "draft": false,
-      "author": {
-        "login": "doppler",
-        "id": 16692,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16692?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/doppler",
-        "htmlUrl": "https://github.com/doppler",
-        "followersUrl": "https://api.github.com/users/doppler/followers",
-        "subscriptionsUrl": "https://api.github.com/users/doppler/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/doppler/orgs",
-        "reposUrl": "https://api.github.com/users/doppler/repos",
-        "receivedEventsUrl": "https://api.github.com/users/doppler/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-21T04:13:55.000Z",
-      "publishedAt": "2016-12-21T04:48:54.000Z",
-      "tarballUrl": "https://api.github.com/repos/doppler/stp/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/doppler/stp/zipball/v0.1.0",
-      "body": "Initial release\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/doppler/stp",
+  "url": "https://api.github.com/repos/doppler/stp",
+  "forksUrl": "https://api.github.com/repos/doppler/stp/forks",
+  "teamsUrl": "https://api.github.com/repos/doppler/stp/teams",
+  "hooksUrl": "https://api.github.com/repos/doppler/stp/hooks",
+  "eventsUrl": "https://api.github.com/repos/doppler/stp/events",
+  "tagsUrl": "https://api.github.com/repos/doppler/stp/tags",
+  "languagesUrl": "https://api.github.com/repos/doppler/stp/languages",
+  "stargazersUrl": "https://api.github.com/repos/doppler/stp/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/doppler/stp/contributors",
+  "subscribersUrl": "https://api.github.com/repos/doppler/stp/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/doppler/stp/subscription",
+  "mergesUrl": "https://api.github.com/repos/doppler/stp/merges",
+  "downloadsUrl": "https://api.github.com/repos/doppler/stp/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/doppler/stp/deployments",
+  "gitUrl": "git://github.com/doppler/stp.git",
+  "sshUrl": "git@github.com:doppler/stp.git",
+  "cloneUrl": "https://github.com/doppler/stp.git",
+  "svnUrl": "https://github.com/doppler/stp",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:17:50.386Z"
 }

@@ -51,10 +51,6 @@
     "version": "1.0.0",
     "description": "Electron + Vue.js + Babel 6 with Hot Reloading",
     "license": "MIT",
-    "author": {
-      "name": "Miikka",
-      "email": "tuommii@gmail.com"
-    },
     "engines": {
       "node": ">=5.1.0"
     },
@@ -107,7 +103,15 @@
       "vue-loader": "7.1.7",
       "webpack": "1.12.9",
       "webpack-dev-server": "1.14.0"
+    },
+    "other": {
+      "author": {
+        "name": "Miikka",
+        "email": "tuommii@gmail.com"
+      }
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "tuommii___vue-electron-bp.json",
+  "lastFetchedAt": "2017-05-04T17:40:08.680Z"
 }

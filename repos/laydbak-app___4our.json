@@ -84,7 +84,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "SkelEktron",
     "description": "Unofficial Electron Template Application",
@@ -179,13 +179,6 @@
       "shelljs": "^0.7",
       "spectron": "^3",
       "standard": "^8"
-    },
-    "other": {
-      "author": {
-        "name": "Vito Tardia / BZ Coding",
-        "email": "vito@bzcoding.com",
-        "url": "https://bzcoding.com/"
-      }
     }
   },
   "packageStatus": 200,
@@ -214,5 +207,6 @@
       "commentCount": 0
     }
   },
-  "filename": "laydbak-app___4our.json"
+  "filename": "laydbak-app___4our.json",
+  "lastFetchedAt": "2017-05-04T14:26:53.248Z"
 }

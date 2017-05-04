@@ -58,7 +58,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "ivsaur",
     "version": "0.1.0",
@@ -81,12 +81,6 @@
     "devDependencies": {
       "snazzy": "^4.0.1",
       "standard": "^7.1.2"
-    },
-    "other": {
-      "author": "yayes2",
-      "bugs": {
-        "url": "https://github.com/yayes2/IVChecker/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -135,5 +129,6 @@
       "commentCount": 0
     }
   },
-  "filename": "IVSaur___IVSaur.json"
+  "filename": "IVSaur___IVSaur.json",
+  "lastFetchedAt": "2017-05-04T18:19:46.797Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "jimmythompson",
     "id": 653864,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/653864?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/653864?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jimmythompson",
     "htmlUrl": "https://github.com/jimmythompson",
@@ -20,21 +20,21 @@
   "description": "An attack tree generator built on electron",
   "fork": false,
   "createdAt": "2015-05-10T21:24:11.000Z",
-  "updatedAt": "2016-08-10T14:53:06.000Z",
+  "updatedAt": "2017-05-04T10:54:00.000Z",
   "pushedAt": "2016-05-23T11:42:32.000Z",
   "homepage": null,
   "size": 2540,
-  "stargazersCount": 18,
-  "watchersCount": 18,
+  "stargazersCount": 28,
+  "watchersCount": 28,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 3,
   "openIssuesCount": 5,
   "openIssues": 5,
-  "watchers": 18,
+  "watchers": 28,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
-  "networkCount": 2,
-  "subscribersCount": 4,
+  "networkCount": 3,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "ent",
@@ -100,9 +100,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jimmythompson"
-  ],
   "firstCommit": {
     "sha": "c137fa7d2d3977d8c6158007412057634a4839f6",
     "commit": {
@@ -126,124 +123,26 @@
     }
   },
   "filename": "jimmythompson___ent.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jimmythompson/ent/releases/1465310",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jimmythompson/ent/releases/assets/669474",
-          "id": 669474,
-          "name": "Ent.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "jimmythompson",
-            "id": 653864,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/653864?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jimmythompson",
-            "htmlUrl": "https://github.com/jimmythompson",
-            "followersUrl": "https://api.github.com/users/jimmythompson/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jimmythompson/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jimmythompson/orgs",
-            "reposUrl": "https://api.github.com/users/jimmythompson/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jimmythompson/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 36251537,
-          "downloadCount": 56,
-          "createdAt": "2015-06-26T12:49:33.000Z",
-          "updatedAt": "2015-06-26T12:49:51.000Z",
-          "browserDownloadUrl": "https://github.com/jimmythompson/ent/releases/download/v0.2/Ent.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jimmythompson/ent/releases/1465310/assets",
-      "htmlUrl": "https://github.com/jimmythompson/ent/releases/tag/v0.2",
-      "id": 1465310,
-      "tagName": "v0.2",
-      "targetCommitish": "master",
-      "name": "v0.2 - Hiding the editor",
-      "draft": false,
-      "author": {
-        "login": "jimmythompson",
-        "id": 653864,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/653864?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jimmythompson",
-        "htmlUrl": "https://github.com/jimmythompson",
-        "followersUrl": "https://api.github.com/users/jimmythompson/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jimmythompson/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jimmythompson/orgs",
-        "reposUrl": "https://api.github.com/users/jimmythompson/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jimmythompson/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-06-26T12:46:44.000Z",
-      "publishedAt": "2015-06-26T12:50:00.000Z",
-      "tarballUrl": "https://api.github.com/repos/jimmythompson/ent/tarball/v0.2",
-      "zipballUrl": "https://api.github.com/repos/jimmythompson/ent/zipball/v0.2",
-      "body": "![ent](https://cloud.githubusercontent.com/assets/653864/8377440/36d1d14c-1c09-11e5-8531-90f8ffa2fa75.gif)\n\nThis release of Ent includes the ability to show and hide the text editor, as well as fixes the tree size and position being reset when resizing the window.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/jimmythompson/ent/releases/1404425",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jimmythompson/ent/releases/assets/637022",
-          "id": 637022,
-          "name": "Ent.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "jimmythompson",
-            "id": 653864,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/653864?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jimmythompson",
-            "htmlUrl": "https://github.com/jimmythompson",
-            "followersUrl": "https://api.github.com/users/jimmythompson/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jimmythompson/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jimmythompson/orgs",
-            "reposUrl": "https://api.github.com/users/jimmythompson/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jimmythompson/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 36251379,
-          "downloadCount": 5,
-          "createdAt": "2015-06-11T14:15:34.000Z",
-          "updatedAt": "2015-06-11T14:15:52.000Z",
-          "browserDownloadUrl": "https://github.com/jimmythompson/ent/releases/download/v0.1/Ent.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jimmythompson/ent/releases/1404425/assets",
-      "htmlUrl": "https://github.com/jimmythompson/ent/releases/tag/v0.1",
-      "id": 1404425,
-      "tagName": "v0.1",
-      "targetCommitish": "master",
-      "name": "v0.1 - Initial release",
-      "draft": false,
-      "author": {
-        "login": "jimmythompson",
-        "id": 653864,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/653864?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jimmythompson",
-        "htmlUrl": "https://github.com/jimmythompson",
-        "followersUrl": "https://api.github.com/users/jimmythompson/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jimmythompson/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jimmythompson/orgs",
-        "reposUrl": "https://api.github.com/users/jimmythompson/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jimmythompson/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-06-11T14:14:16.000Z",
-      "publishedAt": "2015-06-11T14:16:55.000Z",
-      "tarballUrl": "https://api.github.com/repos/jimmythompson/ent/tarball/v0.1",
-      "zipballUrl": "https://api.github.com/repos/jimmythompson/ent/zipball/v0.1",
-      "body": "This is the initial release, it lets you create, save and load attack trees, as well as visualise them on the screen.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/jimmythompson/ent",
+  "url": "https://api.github.com/repos/jimmythompson/ent",
+  "forksUrl": "https://api.github.com/repos/jimmythompson/ent/forks",
+  "teamsUrl": "https://api.github.com/repos/jimmythompson/ent/teams",
+  "hooksUrl": "https://api.github.com/repos/jimmythompson/ent/hooks",
+  "eventsUrl": "https://api.github.com/repos/jimmythompson/ent/events",
+  "tagsUrl": "https://api.github.com/repos/jimmythompson/ent/tags",
+  "languagesUrl": "https://api.github.com/repos/jimmythompson/ent/languages",
+  "stargazersUrl": "https://api.github.com/repos/jimmythompson/ent/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jimmythompson/ent/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jimmythompson/ent/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jimmythompson/ent/subscription",
+  "mergesUrl": "https://api.github.com/repos/jimmythompson/ent/merges",
+  "downloadsUrl": "https://api.github.com/repos/jimmythompson/ent/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jimmythompson/ent/deployments",
+  "gitUrl": "git://github.com/jimmythompson/ent.git",
+  "sshUrl": "git@github.com:jimmythompson/ent.git",
+  "cloneUrl": "https://github.com/jimmythompson/ent.git",
+  "svnUrl": "https://github.com/jimmythompson/ent",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:09:20.953Z"
 }

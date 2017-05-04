@@ -5,7 +5,7 @@
   "owner": {
     "login": "SFantasy",
     "id": 1639327,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1639327?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1639327?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SFantasy",
     "htmlUrl": "https://github.com/SFantasy",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/SFantasy/devbox",
-  "description": "(WIP) Developer tools in a box ",
+  "description": ":construction: Desktop application for developers built on the modern web.",
   "fork": false,
   "url": "https://api.github.com/repos/SFantasy/devbox",
   "forksUrl": "https://api.github.com/repos/SFantasy/devbox/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/SFantasy/devbox/downloads",
   "deploymentsUrl": "https://api.github.com/repos/SFantasy/devbox/deployments",
   "createdAt": "2016-07-30T13:40:42.000Z",
-  "updatedAt": "2016-08-10T11:02:43.000Z",
-  "pushedAt": "2016-08-10T11:01:20.000Z",
+  "updatedAt": "2017-01-05T15:45:40.000Z",
+  "pushedAt": "2017-01-20T14:32:21.000Z",
   "gitUrl": "git://github.com/SFantasy/devbox.git",
   "sshUrl": "git@github.com:SFantasy/devbox.git",
   "cloneUrl": "https://github.com/SFantasy/devbox.git",
   "svnUrl": "https://github.com/SFantasy/devbox",
   "homepage": "",
-  "size": 126,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 171,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,14 +54,20 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -107,9 +113,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "SFantasy"
-  ],
   "firstCommit": {
     "sha": "fb556510e52070310d3b69abc1cc467fb54b77b3",
     "commit": {
@@ -133,5 +136,6 @@
     }
   },
   "filename": "SFantasy___devbox.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:08:33.959Z"
 }

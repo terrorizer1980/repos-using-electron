@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "seesv",
     "productName": "SeeSV",
@@ -80,26 +80,27 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/varbrad/SeeSV.git"
-    },
+    "repository": "https://github.com/varbrad/SeeSV",
     "keywords": [
       "csv",
       "editor"
     ],
-    "author": "varbrad",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/varbrad/SeeSV/issues"
-    },
     "homepage": "https://github.com/varbrad/SeeSV#readme",
     "devDependencies": {
       "electron": "^1.4.1"
+    },
+    "other": {
+      "author": "varbrad",
+      "bugs": {
+        "url": "https://github.com/varbrad/SeeSV/issues"
+      }
     }
   },
   "packageStatus": 200,
   "contributors": [
     "varbrad"
-  ]
+  ],
+  "filename": "varbrad___SeeSV.json",
+  "lastFetchedAt": "2017-05-04T17:34:04.534Z"
 }

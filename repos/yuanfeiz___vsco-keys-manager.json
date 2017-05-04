@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "vsco-keys-manager",
     "version": "0.0.1",
@@ -114,12 +114,6 @@
       "react": "^0.14.3",
       "react-dom": "^0.14.3",
       "react-tap-event-plugin": "^0.2.1"
-    },
-    "other": {
-      "author": "Yuanfei Zhu",
-      "bugs": {
-        "url": "https://github.com/stranbird/vsco-keys-manager/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -160,5 +154,6 @@
     }
   },
   "filename": "yuanfeiz___vsco-keys-manager.json",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T20:10:47.581Z"
 }

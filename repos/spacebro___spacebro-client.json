@@ -5,7 +5,7 @@
   "owner": {
     "login": "spacebro",
     "id": 23356064,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23356064?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/23356064?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/spacebro",
     "htmlUrl": "https://github.com/spacebro",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/spacebro/spacebro-client",
-  "description": "Automagically 🌟 connect to a Spacebro server",
+  "description": "🌟 Easily share event between application.",
   "fork": false,
   "url": "https://api.github.com/repos/spacebro/spacebro-client",
   "forksUrl": "https://api.github.com/repos/spacebro/spacebro-client/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/spacebro/spacebro-client/downloads",
   "deploymentsUrl": "https://api.github.com/repos/spacebro/spacebro-client/deployments",
   "createdAt": "2016-01-04T16:59:41.000Z",
-  "updatedAt": "2016-11-09T10:24:10.000Z",
-  "pushedAt": "2016-11-29T15:33:01.000Z",
+  "updatedAt": "2017-04-18T15:08:00.000Z",
+  "pushedAt": "2017-04-18T15:11:16.000Z",
   "gitUrl": "git://github.com/spacebro/spacebro-client.git",
   "sshUrl": "git@github.com:spacebro/spacebro-client.git",
   "cloneUrl": "https://github.com/spacebro/spacebro-client.git",
   "svnUrl": "https://github.com/spacebro/spacebro-client",
   "homepage": "http://spacebro.space",
-  "size": 208,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "size": 344,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 3,
+  "openIssuesCount": 8,
+  "openIssues": 8,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "spacebro",
     "id": 23356064,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23356064?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/23356064?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/spacebro",
     "htmlUrl": "https://github.com/spacebro",
@@ -83,7 +83,7 @@
     "type": "Organization"
   },
   "networkCount": 1,
-  "subscribersCount": 3,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "spacebro-client",
@@ -149,12 +149,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "gabrielstuff",
-    "hugohil",
-    "brendaoud",
-    "emmanuelgeoffray"
-  ],
   "firstCommit": {
     "sha": "df977fcdf3582aa1566d314ab198e4d794e76cb4",
     "commit": {
@@ -178,5 +172,6 @@
     }
   },
   "filename": "spacebro___spacebro-client.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:00:04.965Z"
 }

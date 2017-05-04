@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "threejs-redux-practice",
     "version": "1.0.0",
@@ -81,21 +81,14 @@
       "lint": "./node_modules/.bin/eslint ./src",
       "build": "./node_modules/.bin/rollup -c"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "billiam",
     "license": "",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "ava": "^0.15.2",
@@ -113,6 +106,12 @@
       "sinon": "^1.17.4",
       "three": "^0.78.0",
       "three-orbit-controls": "^72.0.0"
+    },
+    "other": {
+      "author": "billiam",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,7 @@
     "fscherwi",
     "icoxfog417",
     "laiso"
-  ]
+  ],
+  "filename": "billiamliu___threejs_redux_practice.json",
+  "lastFetchedAt": "2017-05-04T18:11:21.308Z"
 }

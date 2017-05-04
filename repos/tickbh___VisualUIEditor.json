@@ -5,7 +5,7 @@
   "owner": {
     "login": "tickbh",
     "id": 12151150,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12151150?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/12151150?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tickbh",
     "htmlUrl": "https://github.com/tickbh",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/tickbh/VisualUIEditor/downloads",
   "deploymentsUrl": "https://api.github.com/repos/tickbh/VisualUIEditor/deployments",
   "createdAt": "2016-09-14T02:36:55.000Z",
-  "updatedAt": "2016-11-01T02:35:06.000Z",
-  "pushedAt": "2016-11-11T12:33:18.000Z",
+  "updatedAt": "2017-04-29T12:48:40.000Z",
+  "pushedAt": "2017-02-18T08:26:40.000Z",
   "gitUrl": "git://github.com/tickbh/VisualUIEditor.git",
   "sshUrl": "git@github.com:tickbh/VisualUIEditor.git",
   "cloneUrl": "https://github.com/tickbh/VisualUIEditor.git",
   "svnUrl": "https://github.com/tickbh/VisualUIEditor",
   "homepage": null,
-  "size": 17539,
-  "stargazersCount": 14,
-  "watchersCount": 14,
+  "size": 17789,
+  "stargazersCount": 22,
+  "watchersCount": 22,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 7,
+  "forksCount": 13,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 14,
+  "watchers": 22,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 7,
-  "subscribersCount": 3,
+  "networkCount": 13,
+  "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
     "name": "visual-ui-editor",
@@ -103,9 +103,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "tickbh"
-  ],
   "firstCommit": {
     "sha": "0a1e290fc86b4df09b9b341a1e65e6fe9cc5e86a",
     "commit": {
@@ -129,92 +126,6 @@
     }
   },
   "filename": "tickbh___VisualUIEditor.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/tickbh/VisualUIEditor/releases/4125385",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/tickbh/VisualUIEditor/releases/assets/2307474",
-          "id": 2307474,
-          "name": "VisualUIEditor-darwin-x64-1.1.1.gz",
-          "label": null,
-          "uploader": {
-            "login": "tickbh",
-            "id": 12151150,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12151150?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/tickbh",
-            "htmlUrl": "https://github.com/tickbh",
-            "followersUrl": "https://api.github.com/users/tickbh/followers",
-            "subscriptionsUrl": "https://api.github.com/users/tickbh/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/tickbh/orgs",
-            "reposUrl": "https://api.github.com/users/tickbh/repos",
-            "receivedEventsUrl": "https://api.github.com/users/tickbh/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 65088766,
-          "downloadCount": 24,
-          "createdAt": "2016-09-14T03:45:22.000Z",
-          "updatedAt": "2016-09-14T03:50:08.000Z",
-          "browserDownloadUrl": "https://github.com/tickbh/VisualUIEditor/releases/download/1.1.1/VisualUIEditor-darwin-x64-1.1.1.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/tickbh/VisualUIEditor/releases/assets/2307475",
-          "id": 2307475,
-          "name": "VisualUIEditor-win32-x64-1.1.1.gz",
-          "label": null,
-          "uploader": {
-            "login": "tickbh",
-            "id": 12151150,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12151150?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/tickbh",
-            "htmlUrl": "https://github.com/tickbh",
-            "followersUrl": "https://api.github.com/users/tickbh/followers",
-            "subscriptionsUrl": "https://api.github.com/users/tickbh/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/tickbh/orgs",
-            "reposUrl": "https://api.github.com/users/tickbh/repos",
-            "receivedEventsUrl": "https://api.github.com/users/tickbh/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 74855525,
-          "downloadCount": 117,
-          "createdAt": "2016-09-14T03:45:23.000Z",
-          "updatedAt": "2016-09-14T03:54:58.000Z",
-          "browserDownloadUrl": "https://github.com/tickbh/VisualUIEditor/releases/download/1.1.1/VisualUIEditor-win32-x64-1.1.1.gz"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/tickbh/VisualUIEditor/releases/4125385/assets",
-      "htmlUrl": "https://github.com/tickbh/VisualUIEditor/releases/tag/1.1.1",
-      "id": 4125385,
-      "tagName": "1.1.1",
-      "targetCommitish": "master",
-      "name": "1.1.0版本",
-      "draft": false,
-      "author": {
-        "login": "tickbh",
-        "id": 12151150,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12151150?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/tickbh",
-        "htmlUrl": "https://github.com/tickbh",
-        "followersUrl": "https://api.github.com/users/tickbh/followers",
-        "subscriptionsUrl": "https://api.github.com/users/tickbh/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/tickbh/orgs",
-        "reposUrl": "https://api.github.com/users/tickbh/repos",
-        "receivedEventsUrl": "https://api.github.com/users/tickbh/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-14T03:40:47.000Z",
-      "publishedAt": "2016-09-14T04:55:18.000Z",
-      "tarballUrl": "https://api.github.com/repos/tickbh/VisualUIEditor/tarball/1.1.1",
-      "zipballUrl": "https://api.github.com/repos/tickbh/VisualUIEditor/zipball/1.1.1",
-      "body": "1、添加了cocos2d-x cpp的Runtime\n2、修正图片预加载逻辑\n3、添加数字贴图组件\n4、添加节点自定义属性\n5、添加AutoLayout属性，自适应父节点高宽\n6、移动组件时，修复位置关系\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:29:32.414Z"
 }

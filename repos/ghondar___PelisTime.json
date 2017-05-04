@@ -5,7 +5,7 @@
   "owner": {
     "login": "ghondar",
     "id": 6628637,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6628637?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6628637?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ghondar",
     "htmlUrl": "https://github.com/ghondar",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/ghondar/PelisTime/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ghondar/PelisTime/deployments",
   "createdAt": "2016-01-06T05:43:05.000Z",
-  "updatedAt": "2016-08-17T09:54:42.000Z",
+  "updatedAt": "2017-04-05T07:24:22.000Z",
   "pushedAt": "2016-08-14T06:00:56.000Z",
   "gitUrl": "git://github.com/ghondar/PelisTime.git",
   "sshUrl": "git@github.com:ghondar/PelisTime.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/ghondar/PelisTime",
   "homepage": "",
   "size": 1256,
-  "stargazersCount": 8,
-  "watchersCount": 8,
+  "stargazersCount": 9,
+  "watchersCount": 9,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 8,
+  "watchers": 9,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 1,
+  "networkCount": 2,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -212,10 +212,6 @@
     "homepage": "https://github.com/ghondar/PelisTime#readme"
   },
   "packageStatus": 200,
-  "contributors": [
-    "ghondar",
-    "proshunsuke"
-  ],
   "firstCommit": {
     "sha": "d3eca4c33ca6804d91d29b37c5c321dd9b3520e1",
     "commit": {
@@ -239,146 +235,6 @@
     }
   },
   "filename": "ghondar___PelisTime.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/ghondar/PelisTime/releases/2564526",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/ghondar/PelisTime/releases/assets/1287667",
-          "id": 1287667,
-          "name": "linux-64bits.zip",
-          "label": null,
-          "uploader": {
-            "login": "ghondar",
-            "id": 6628637,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6628637?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ghondar",
-            "htmlUrl": "https://github.com/ghondar",
-            "followersUrl": "https://api.github.com/users/ghondar/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ghondar/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ghondar/orgs",
-            "reposUrl": "https://api.github.com/users/ghondar/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ghondar/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 99628,
-          "downloadCount": 6,
-          "createdAt": "2016-02-08T01:35:57.000Z",
-          "updatedAt": "2016-02-08T01:35:59.000Z",
-          "browserDownloadUrl": "https://github.com/ghondar/PelisTime/releases/download/V1.0.3/linux-64bits.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/ghondar/PelisTime/releases/assets/1287663",
-          "id": 1287663,
-          "name": "osx-64bits.zip",
-          "label": null,
-          "uploader": {
-            "login": "ghondar",
-            "id": 6628637,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6628637?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ghondar",
-            "htmlUrl": "https://github.com/ghondar",
-            "followersUrl": "https://api.github.com/users/ghondar/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ghondar/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ghondar/orgs",
-            "reposUrl": "https://api.github.com/users/ghondar/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ghondar/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 23803252,
-          "downloadCount": 6,
-          "createdAt": "2016-02-08T01:31:11.000Z",
-          "updatedAt": "2016-02-08T01:35:10.000Z",
-          "browserDownloadUrl": "https://github.com/ghondar/PelisTime/releases/download/V1.0.3/osx-64bits.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/ghondar/PelisTime/releases/assets/1287701",
-          "id": 1287701,
-          "name": "win-64bits.zip",
-          "label": null,
-          "uploader": {
-            "login": "ghondar",
-            "id": 6628637,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6628637?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ghondar",
-            "htmlUrl": "https://github.com/ghondar",
-            "followersUrl": "https://api.github.com/users/ghondar/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ghondar/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ghondar/orgs",
-            "reposUrl": "https://api.github.com/users/ghondar/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ghondar/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 29121232,
-          "downloadCount": 7,
-          "createdAt": "2016-02-08T02:14:38.000Z",
-          "updatedAt": "2016-02-08T02:19:24.000Z",
-          "browserDownloadUrl": "https://github.com/ghondar/PelisTime/releases/download/V1.0.3/win-64bits.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/ghondar/PelisTime/releases/assets/1287702",
-          "id": 1287702,
-          "name": "win-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "ghondar",
-            "id": 6628637,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6628637?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ghondar",
-            "htmlUrl": "https://github.com/ghondar",
-            "followersUrl": "https://api.github.com/users/ghondar/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ghondar/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ghondar/orgs",
-            "reposUrl": "https://api.github.com/users/ghondar/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ghondar/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 29231220,
-          "downloadCount": 7,
-          "createdAt": "2016-02-08T02:14:38.000Z",
-          "updatedAt": "2016-02-08T02:24:00.000Z",
-          "browserDownloadUrl": "https://github.com/ghondar/PelisTime/releases/download/V1.0.3/win-ia32.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/ghondar/PelisTime/releases/2564526/assets",
-      "htmlUrl": "https://github.com/ghondar/PelisTime/releases/tag/V1.0.3",
-      "id": 2564526,
-      "tagName": "V1.0.3",
-      "targetCommitish": "master",
-      "name": "V1.0.3",
-      "draft": false,
-      "author": {
-        "login": "ghondar",
-        "id": 6628637,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6628637?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ghondar",
-        "htmlUrl": "https://github.com/ghondar",
-        "followersUrl": "https://api.github.com/users/ghondar/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ghondar/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ghondar/orgs",
-        "reposUrl": "https://api.github.com/users/ghondar/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ghondar/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-06T03:34:18.000Z",
-      "publishedAt": "2016-02-06T03:40:42.000Z",
-      "tarballUrl": "https://api.github.com/repos/ghondar/PelisTime/tarball/V1.0.3",
-      "zipballUrl": "https://api.github.com/repos/ghondar/PelisTime/zipball/V1.0.3",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:24:32.435Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "gharkness",
     "id": 6400637,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6400637?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6400637?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/gharkness",
     "htmlUrl": "https://github.com/gharkness",
@@ -98,10 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "gharkness",
-    "ajzellar"
-  ],
   "firstCommit": {
     "sha": "1b1a8d44d34be7c5cd3c1a788cab94e645200769",
     "commit": {
@@ -125,92 +121,6 @@
     }
   },
   "filename": "gharkness___StructJS.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/gharkness/StructJS/releases/4270248",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/gharkness/StructJS/releases/assets/2401357",
-          "id": 2401357,
-          "name": "StructJS-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "gharkness",
-            "id": 6400637,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6400637?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/gharkness",
-            "htmlUrl": "https://github.com/gharkness",
-            "followersUrl": "https://api.github.com/users/gharkness/followers",
-            "subscriptionsUrl": "https://api.github.com/users/gharkness/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/gharkness/orgs",
-            "reposUrl": "https://api.github.com/users/gharkness/repos",
-            "receivedEventsUrl": "https://api.github.com/users/gharkness/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 166832993,
-          "downloadCount": 1,
-          "createdAt": "2016-09-30T04:44:59.000Z",
-          "updatedAt": "2016-09-30T04:45:08.000Z",
-          "browserDownloadUrl": "https://github.com/gharkness/StructJS/releases/download/v0.1.0/StructJS-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/gharkness/StructJS/releases/assets/2401358",
-          "id": 2401358,
-          "name": "StructJS-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "gharkness",
-            "id": 6400637,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6400637?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/gharkness",
-            "htmlUrl": "https://github.com/gharkness",
-            "followersUrl": "https://api.github.com/users/gharkness/followers",
-            "subscriptionsUrl": "https://api.github.com/users/gharkness/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/gharkness/orgs",
-            "reposUrl": "https://api.github.com/users/gharkness/repos",
-            "receivedEventsUrl": "https://api.github.com/users/gharkness/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 177714703,
-          "downloadCount": 0,
-          "createdAt": "2016-09-30T04:45:15.000Z",
-          "updatedAt": "2016-09-30T04:45:34.000Z",
-          "browserDownloadUrl": "https://github.com/gharkness/StructJS/releases/download/v0.1.0/StructJS-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/gharkness/StructJS/releases/4270248/assets",
-      "htmlUrl": "https://github.com/gharkness/StructJS/releases/tag/v0.1.0",
-      "id": 4270248,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "v0.1.0-beta",
-      "draft": false,
-      "author": {
-        "login": "gharkness",
-        "id": 6400637,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6400637?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/gharkness",
-        "htmlUrl": "https://github.com/gharkness",
-        "followersUrl": "https://api.github.com/users/gharkness/followers",
-        "subscriptionsUrl": "https://api.github.com/users/gharkness/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/gharkness/orgs",
-        "reposUrl": "https://api.github.com/users/gharkness/repos",
-        "receivedEventsUrl": "https://api.github.com/users/gharkness/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-09-30T04:08:59.000Z",
-      "publishedAt": "2016-09-30T04:45:36.000Z",
-      "tarballUrl": "https://api.github.com/repos/gharkness/StructJS/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/gharkness/StructJS/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:53:46.518Z"
 }

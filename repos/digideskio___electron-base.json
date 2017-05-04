@@ -5,7 +5,7 @@
   "owner": {
     "login": "digideskio",
     "id": 14135456,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/14135456?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/14135456?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/digideskio",
     "htmlUrl": "https://github.com/digideskio",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "ansballard",
       "id": 3535127,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3535127?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3535127?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/ansballard",
       "htmlUrl": "https://github.com/ansballard",
@@ -91,10 +91,11 @@
     "watchersCount": 2,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 1,
+    "forksCount": 2,
     "mirrorUrl": null,
     "openIssuesCount": 3,
     "openIssues": 3,
@@ -108,7 +109,7 @@
     "owner": {
       "login": "ansballard",
       "id": 3535127,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3535127?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/3535127?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/ansballard",
       "htmlUrl": "https://github.com/ansballard",
@@ -150,17 +151,18 @@
     "watchersCount": 2,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 1,
+    "forksCount": 2,
     "mirrorUrl": null,
     "openIssuesCount": 3,
     "openIssues": 3,
     "watchers": 2,
     "defaultBranch": "master"
   },
-  "networkCount": 1,
+  "networkCount": 2,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -230,9 +232,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ansballard"
-  ],
   "firstCommit": {
     "sha": "a8dd38a5b0cc1aa2151172f7044b7a1e86b82d2f",
     "commit": {
@@ -257,5 +256,26 @@
   },
   "filename": "digideskio___electron-base.json",
   "sourceRepo": "ansballard/electron-base",
-  "releases": []
+  "htmlUrl": "https://github.com/digideskio/electron-base",
+  "url": "https://api.github.com/repos/digideskio/electron-base",
+  "forksUrl": "https://api.github.com/repos/digideskio/electron-base/forks",
+  "teamsUrl": "https://api.github.com/repos/digideskio/electron-base/teams",
+  "hooksUrl": "https://api.github.com/repos/digideskio/electron-base/hooks",
+  "eventsUrl": "https://api.github.com/repos/digideskio/electron-base/events",
+  "tagsUrl": "https://api.github.com/repos/digideskio/electron-base/tags",
+  "languagesUrl": "https://api.github.com/repos/digideskio/electron-base/languages",
+  "stargazersUrl": "https://api.github.com/repos/digideskio/electron-base/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/digideskio/electron-base/contributors",
+  "subscribersUrl": "https://api.github.com/repos/digideskio/electron-base/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/digideskio/electron-base/subscription",
+  "mergesUrl": "https://api.github.com/repos/digideskio/electron-base/merges",
+  "downloadsUrl": "https://api.github.com/repos/digideskio/electron-base/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/digideskio/electron-base/deployments",
+  "gitUrl": "git://github.com/digideskio/electron-base.git",
+  "sshUrl": "git@github.com:digideskio/electron-base.git",
+  "cloneUrl": "https://github.com/digideskio/electron-base.git",
+  "svnUrl": "https://github.com/digideskio/electron-base",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:27:04.609Z"
 }

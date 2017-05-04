@@ -5,7 +5,7 @@
   "owner": {
     "login": "twostairs",
     "id": 475581,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/475581?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/475581?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/twostairs",
     "htmlUrl": "https://github.com/twostairs",
@@ -20,12 +20,12 @@
   "description": "A Google Play Music desktop player built with Electron",
   "fork": false,
   "createdAt": "2016-01-23T21:20:32.000Z",
-  "updatedAt": "2016-11-01T01:50:51.000Z",
+  "updatedAt": "2017-02-19T16:52:00.000Z",
   "pushedAt": "2016-02-03T20:46:32.000Z",
   "homepage": null,
   "size": 49248,
-  "stargazersCount": 21,
-  "watchersCount": 21,
+  "stargazersCount": 25,
+  "watchersCount": 25,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 6,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 21,
+  "watchers": 25,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "twostairs",
     "id": 475581,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/475581?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/475581?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/twostairs",
     "htmlUrl": "https://github.com/twostairs",
@@ -63,7 +63,7 @@
     "type": "Organization"
   },
   "networkCount": 6,
-  "subscribersCount": 4,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "devDependencies": {
@@ -114,11 +114,6 @@
   "cloneUrl": "https://github.com/twostairs/loop.git",
   "svnUrl": "https://github.com/twostairs/loop",
   "mirrorUrl": null,
-  "contributors": [
-    "mrusme",
-    "Baldrs",
-    "dorii"
-  ],
   "firstCommit": {
     "sha": "9a4b1b5c65d40b31c2dcf277787fd377f01fe2a5",
     "commit": {
@@ -142,124 +137,6 @@
     }
   },
   "filename": "twostairs___loop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/twostairs/loop/releases/2501092",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/twostairs/loop/releases/assets/1250140",
-          "id": 1250140,
-          "name": "loop_1.1.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "mrusme",
-            "id": 151967,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/151967?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mrusme",
-            "htmlUrl": "https://github.com/mrusme",
-            "followersUrl": "https://api.github.com/users/mrusme/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mrusme/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mrusme/orgs",
-            "reposUrl": "https://api.github.com/users/mrusme/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mrusme/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-diskcopy",
-          "state": "uploaded",
-          "size": 38787736,
-          "downloadCount": 136,
-          "createdAt": "2016-01-27T13:12:50.000Z",
-          "updatedAt": "2016-01-27T13:13:26.000Z",
-          "browserDownloadUrl": "https://github.com/twostairs/loop/releases/download/v1.1.0/loop_1.1.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/twostairs/loop/releases/2501092/assets",
-      "htmlUrl": "https://github.com/twostairs/loop/releases/tag/v1.1.0",
-      "id": 2501092,
-      "tagName": "v1.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "mrusme",
-        "id": 151967,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/151967?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mrusme",
-        "htmlUrl": "https://github.com/mrusme",
-        "followersUrl": "https://api.github.com/users/mrusme/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mrusme/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mrusme/orgs",
-        "reposUrl": "https://api.github.com/users/mrusme/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mrusme/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-27T13:10:23.000Z",
-      "publishedAt": "2016-01-27T13:13:59.000Z",
-      "tarballUrl": "https://api.github.com/repos/twostairs/loop/tarball/v1.1.0",
-      "zipballUrl": "https://api.github.com/repos/twostairs/loop/zipball/v1.1.0",
-      "body": "# 1.1.0\n\nChanges include:\n- Refactoring of code\n- Introduction of JSON store for saving/restoring window size\n- Fixes for the Linux platform by @Baldrs \n- New icons by @dorii\n- A new theme!\n- Fixes to the current song notification (moved towards native Notifications API)\n- Bugfixes\n"
-    },
-    {
-      "url": "https://api.github.com/repos/twostairs/loop/releases/2500986",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/twostairs/loop/releases/assets/1250067",
-          "id": 1250067,
-          "name": "loop_1.0.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "mrusme",
-            "id": 151967,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/151967?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mrusme",
-            "htmlUrl": "https://github.com/mrusme",
-            "followersUrl": "https://api.github.com/users/mrusme/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mrusme/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mrusme/orgs",
-            "reposUrl": "https://api.github.com/users/mrusme/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mrusme/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-diskcopy",
-          "state": "uploaded",
-          "size": 40367588,
-          "downloadCount": 0,
-          "createdAt": "2016-01-27T12:50:26.000Z",
-          "updatedAt": "2016-01-27T12:51:54.000Z",
-          "browserDownloadUrl": "https://github.com/twostairs/loop/releases/download/v1.0.0/loop_1.0.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/twostairs/loop/releases/2500986/assets",
-      "htmlUrl": "https://github.com/twostairs/loop/releases/tag/v1.0.0",
-      "id": 2500986,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "mrusme",
-        "id": 151967,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/151967?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mrusme",
-        "htmlUrl": "https://github.com/mrusme",
-        "followersUrl": "https://api.github.com/users/mrusme/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mrusme/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mrusme/orgs",
-        "reposUrl": "https://api.github.com/users/mrusme/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mrusme/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-23T22:50:17.000Z",
-      "publishedAt": "2016-01-27T12:51:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/twostairs/loop/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/twostairs/loop/zipball/v1.0.0",
-      "body": "The very first version of Loop, a Google Play Music desktop client built on Electron.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:25:37.032Z"
 }

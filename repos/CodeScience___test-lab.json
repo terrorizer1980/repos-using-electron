@@ -5,7 +5,7 @@
   "owner": {
     "login": "CodeScience",
     "id": 5943746,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5943746?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5943746?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/CodeScience",
     "htmlUrl": "https://github.com/CodeScience",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/CodeScience/test-lab/downloads",
   "deploymentsUrl": "https://api.github.com/repos/CodeScience/test-lab/deployments",
   "createdAt": "2016-10-07T13:41:50.000Z",
-  "updatedAt": "2016-11-16T15:06:06.000Z",
-  "pushedAt": "2016-11-16T15:06:05.000Z",
+  "updatedAt": "2017-03-15T22:14:43.000Z",
+  "pushedAt": "2016-11-18T18:09:43.000Z",
   "gitUrl": "git://github.com/CodeScience/test-lab.git",
   "sshUrl": "git@github.com:CodeScience/test-lab.git",
   "cloneUrl": "https://github.com/CodeScience/test-lab.git",
   "svnUrl": "https://github.com/CodeScience/test-lab",
   "homepage": "",
-  "size": 4414,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 4423,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "CodeScience",
     "id": 5943746,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5943746?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5943746?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/CodeScience",
     "htmlUrl": "https://github.com/CodeScience",
@@ -156,9 +156,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jaimehperry"
-  ],
   "firstCommit": {
     "sha": "1c72ba8bf10e1ef53cd5fe45a948b5592fc8583e",
     "commit": {
@@ -182,5 +179,6 @@
     }
   },
   "filename": "CodeScience___test-lab.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:48:50.153Z"
 }

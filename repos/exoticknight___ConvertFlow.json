@@ -5,7 +5,7 @@
   "owner": {
     "login": "exoticknight",
     "id": 1171407,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1171407?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1171407?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/exoticknight",
     "htmlUrl": "https://github.com/exoticknight",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/exoticknight/ConvertFlow",
-  "description": "an elegant app for coverting image sequence to video",
+  "description": "an elegant app for converting image sequence to video, based on Electron and vue",
   "fork": false,
   "url": "https://api.github.com/repos/exoticknight/ConvertFlow",
   "forksUrl": "https://api.github.com/repos/exoticknight/ConvertFlow/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/exoticknight/ConvertFlow/downloads",
   "deploymentsUrl": "https://api.github.com/repos/exoticknight/ConvertFlow/deployments",
   "createdAt": "2016-11-08T08:54:18.000Z",
-  "updatedAt": "2016-11-08T09:09:46.000Z",
-  "pushedAt": "2016-11-08T09:09:44.000Z",
+  "updatedAt": "2017-03-27T04:45:02.000Z",
+  "pushedAt": "2016-11-23T11:30:17.000Z",
   "gitUrl": "git://github.com/exoticknight/ConvertFlow.git",
   "sshUrl": "git@github.com:exoticknight/ConvertFlow.git",
   "cloneUrl": "https://github.com/exoticknight/ConvertFlow.git",
   "svnUrl": "https://github.com/exoticknight/ConvertFlow",
-  "homepage": null,
-  "size": 2403,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "homepage": "",
+  "size": 2493,
+  "stargazersCount": 11,
+  "watchersCount": 11,
   "language": "Vue",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
-  "forksCount": 0,
+  "hasPages": true,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 11,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,13 +68,10 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 3,
+  "subscribersCount": 2,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "exoticknight"
-  ],
   "firstCommit": {
     "sha": "cb1631b21a3088fccec4c05860931af7b691732b",
     "commit": {
@@ -98,5 +95,6 @@
     }
   },
   "filename": "exoticknight___ConvertFlow.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:59:57.130Z"
 }

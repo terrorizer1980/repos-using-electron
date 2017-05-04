@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "zm-electron",
     "version": "1.0.0",
@@ -63,9 +63,6 @@
     "dependencies": {
       "electron-prebuilt": "^0.34.3",
       "zmq": "^2.13.0"
-    },
-    "other": {
-      "author": "Ricardo Levano"
     }
   },
   "packageStatus": 200,
@@ -94,5 +91,6 @@
       "commentCount": 0
     }
   },
-  "filename": "richardlevano___zmq-electron-client.json"
+  "filename": "richardlevano___zmq-electron-client.json",
+  "lastFetchedAt": "2017-05-04T18:30:09.511Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "lektor",
     "id": 15876349,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15876349?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/15876349?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lektor",
     "htmlUrl": "https://github.com/lektor",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/lektor/lektor-archive/downloads",
   "deploymentsUrl": "https://api.github.com/repos/lektor/lektor-archive/deployments",
   "createdAt": "2014-12-30T10:46:46.000Z",
-  "updatedAt": "2016-11-14T16:12:50.000Z",
+  "updatedAt": "2017-03-14T10:15:58.000Z",
   "pushedAt": "2016-01-02T13:27:12.000Z",
   "gitUrl": "git://github.com/lektor/lektor-archive.git",
   "sshUrl": "git@github.com:lektor/lektor-archive.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/lektor/lektor-archive",
   "homepage": "",
   "size": 9511,
-  "stargazersCount": 139,
-  "watchersCount": 139,
+  "stargazersCount": 138,
+  "watchersCount": 138,
   "language": "Python",
   "hasIssues": false,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 6,
+  "forksCount": 7,
   "mirrorUrl": null,
   "openIssuesCount": 6,
   "openIssues": 6,
-  "watchers": 139,
+  "watchers": 138,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "lektor",
     "id": 15876349,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15876349?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/15876349?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lektor",
     "htmlUrl": "https://github.com/lektor",
@@ -82,15 +82,10 @@
     "receivedEventsUrl": "https://api.github.com/users/lektor/received_events",
     "type": "Organization"
   },
-  "networkCount": 6,
+  "networkCount": 7,
   "subscribersCount": 9,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "mitsuhiko",
-    "niijv",
-    "mkalininait"
-  ],
   "firstCommit": {
     "sha": "f604da93d886f0bb6712100b4d879af8ab5f8fc1",
     "commit": {
@@ -114,183 +109,6 @@
     }
   },
   "filename": "lektor___lektor-archive.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/lektor/lektor-archive/releases/2198732",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lektor/lektor-archive/releases/assets/1078570",
-          "id": 1078570,
-          "name": "Lektor-0.3.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "mitsuhiko",
-            "id": 7396,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7396?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mitsuhiko",
-            "htmlUrl": "https://github.com/mitsuhiko",
-            "followersUrl": "https://api.github.com/users/mitsuhiko/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mitsuhiko/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mitsuhiko/orgs",
-            "reposUrl": "https://api.github.com/users/mitsuhiko/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mitsuhiko/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 58617879,
-          "downloadCount": 8,
-          "createdAt": "2015-11-27T20:24:14.000Z",
-          "updatedAt": "2015-11-28T23:07:18.000Z",
-          "browserDownloadUrl": "https://github.com/lektor/lektor-archive/releases/download/0.3.0/Lektor-0.3.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lektor/lektor-archive/releases/2198732/assets",
-      "htmlUrl": "https://github.com/lektor/lektor-archive/releases/tag/0.3.0",
-      "id": 2198732,
-      "tagName": "0.3.0",
-      "targetCommitish": "master",
-      "name": "Early Development Version",
-      "draft": false,
-      "author": {
-        "login": "mitsuhiko",
-        "id": 7396,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7396?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mitsuhiko",
-        "htmlUrl": "https://github.com/mitsuhiko",
-        "followersUrl": "https://api.github.com/users/mitsuhiko/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mitsuhiko/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mitsuhiko/orgs",
-        "reposUrl": "https://api.github.com/users/mitsuhiko/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mitsuhiko/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-11-27T20:14:26.000Z",
-      "publishedAt": "2015-11-28T23:06:52.000Z",
-      "tarballUrl": "https://api.github.com/repos/lektor/lektor-archive/tarball/0.3.0",
-      "zipballUrl": "https://api.github.com/repos/lektor/lektor-archive/zipball/0.3.0",
-      "body": "You need to manually look over the git commits to see what changed, too early for changelogs :)\n"
-    },
-    {
-      "url": "https://api.github.com/repos/lektor/lektor-archive/releases/2128269",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lektor/lektor-archive/releases/assets/1038346",
-          "id": 1038346,
-          "name": "Lektor-0.2.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "mitsuhiko",
-            "id": 7396,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7396?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mitsuhiko",
-            "htmlUrl": "https://github.com/mitsuhiko",
-            "followersUrl": "https://api.github.com/users/mitsuhiko/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mitsuhiko/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mitsuhiko/orgs",
-            "reposUrl": "https://api.github.com/users/mitsuhiko/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mitsuhiko/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 61245737,
-          "downloadCount": 9,
-          "createdAt": "2015-11-15T11:28:58.000Z",
-          "updatedAt": "2015-11-15T11:31:18.000Z",
-          "browserDownloadUrl": "https://github.com/lektor/lektor-archive/releases/download/0.2.0/Lektor-0.2.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lektor/lektor-archive/releases/2128269/assets",
-      "htmlUrl": "https://github.com/lektor/lektor-archive/releases/tag/0.2.0",
-      "id": 2128269,
-      "tagName": "0.2.0",
-      "targetCommitish": "master",
-      "name": "Early Preview Version",
-      "draft": false,
-      "author": {
-        "login": "mitsuhiko",
-        "id": 7396,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7396?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mitsuhiko",
-        "htmlUrl": "https://github.com/mitsuhiko",
-        "followersUrl": "https://api.github.com/users/mitsuhiko/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mitsuhiko/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mitsuhiko/orgs",
-        "reposUrl": "https://api.github.com/users/mitsuhiko/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mitsuhiko/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-11-15T11:21:04.000Z",
-      "publishedAt": "2015-11-15T11:31:18.000Z",
-      "tarballUrl": "https://api.github.com/repos/lektor/lektor-archive/tarball/0.2.0",
-      "zipballUrl": "https://api.github.com/repos/lektor/lektor-archive/zipball/0.2.0",
-      "body": "This is an update to the early preview version.  This should run on more macs now as it's compatible down to 10.9 if all things were done correctly.  Still very much work in progress.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/lektor/lektor-archive/releases/2091602",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lektor/lektor-archive/releases/assets/1017892",
-          "id": 1017892,
-          "name": "Lektor-0.1.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "mitsuhiko",
-            "id": 7396,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/7396?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mitsuhiko",
-            "htmlUrl": "https://github.com/mitsuhiko",
-            "followersUrl": "https://api.github.com/users/mitsuhiko/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mitsuhiko/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mitsuhiko/orgs",
-            "reposUrl": "https://api.github.com/users/mitsuhiko/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mitsuhiko/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 68352853,
-          "downloadCount": 5,
-          "createdAt": "2015-11-08T19:32:24.000Z",
-          "updatedAt": "2015-11-08T19:34:43.000Z",
-          "browserDownloadUrl": "https://github.com/lektor/lektor-archive/releases/download/0.1.0/Lektor-0.1.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lektor/lektor-archive/releases/2091602/assets",
-      "htmlUrl": "https://github.com/lektor/lektor-archive/releases/tag/0.1.0",
-      "id": 2091602,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "Early Development Snapshot",
-      "draft": false,
-      "author": {
-        "login": "mitsuhiko",
-        "id": 7396,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7396?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mitsuhiko",
-        "htmlUrl": "https://github.com/mitsuhiko",
-        "followersUrl": "https://api.github.com/users/mitsuhiko/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mitsuhiko/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mitsuhiko/orgs",
-        "reposUrl": "https://api.github.com/users/mitsuhiko/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mitsuhiko/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-08T19:30:35.000Z",
-      "publishedAt": "2015-11-08T19:35:20.000Z",
-      "tarballUrl": "https://api.github.com/repos/lektor/lektor-archive/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/lektor/lektor-archive/zipball/0.1.0",
-      "body": "This is an early development release of Lektor for OS-X which is at present the only platform a binary release exists for.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:09:53.111Z"
 }

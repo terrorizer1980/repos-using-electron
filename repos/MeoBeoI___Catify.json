@@ -5,7 +5,7 @@
   "owner": {
     "login": "MeoBeoI",
     "id": 15938958,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15938958?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/15938958?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MeoBeoI",
     "htmlUrl": "https://github.com/MeoBeoI",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/MeoBeoI/Catify/downloads",
   "deploymentsUrl": "https://api.github.com/repos/MeoBeoI/Catify/deployments",
   "createdAt": "2016-03-11T08:30:09.000Z",
-  "updatedAt": "2016-11-14T15:45:21.000Z",
-  "pushedAt": "2016-06-20T18:35:51.000Z",
+  "updatedAt": "2017-03-18T10:46:05.000Z",
+  "pushedAt": "2016-12-19T04:05:35.000Z",
   "gitUrl": "git://github.com/MeoBeoI/Catify.git",
   "sshUrl": "git@github.com:MeoBeoI/Catify.git",
   "cloneUrl": "https://github.com/MeoBeoI/Catify.git",
   "svnUrl": "https://github.com/MeoBeoI/Catify",
   "homepage": "",
-  "size": 825,
-  "stargazersCount": 27,
-  "watchersCount": 27,
+  "size": 827,
+  "stargazersCount": 36,
+  "watchersCount": 36,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 3,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 27,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 36,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 2,
+  "networkCount": 3,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -159,9 +159,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "MeoBeoI"
-  ],
   "firstCommit": {
     "sha": "d199fc86f1b69d8f5a6b84ec16a52d55cfd291e1",
     "commit": {
@@ -185,65 +182,6 @@
     }
   },
   "filename": "MeoBeoI___Catify.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/MeoBeoI/Catify/releases/2883252",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/MeoBeoI/Catify/releases/assets/1479382",
-          "id": 1479382,
-          "name": "Catify.dmg",
-          "label": null,
-          "uploader": {
-            "login": "MeoBeoI",
-            "id": 15938958,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/15938958?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MeoBeoI",
-            "htmlUrl": "https://github.com/MeoBeoI",
-            "followersUrl": "https://api.github.com/users/MeoBeoI/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MeoBeoI/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MeoBeoI/orgs",
-            "reposUrl": "https://api.github.com/users/MeoBeoI/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MeoBeoI/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-diskcopy",
-          "state": "uploaded",
-          "size": 56782852,
-          "downloadCount": 25,
-          "createdAt": "2016-03-28T15:02:43.000Z",
-          "updatedAt": "2016-03-28T15:04:15.000Z",
-          "browserDownloadUrl": "https://github.com/MeoBeoI/Catify/releases/download/v0.0.1/Catify.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/MeoBeoI/Catify/releases/2883252/assets",
-      "htmlUrl": "https://github.com/MeoBeoI/Catify/releases/tag/v0.0.1",
-      "id": 2883252,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "Hello World",
-      "draft": false,
-      "author": {
-        "login": "MeoBeoI",
-        "id": 15938958,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15938958?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/MeoBeoI",
-        "htmlUrl": "https://github.com/MeoBeoI",
-        "followersUrl": "https://api.github.com/users/MeoBeoI/followers",
-        "subscriptionsUrl": "https://api.github.com/users/MeoBeoI/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/MeoBeoI/orgs",
-        "reposUrl": "https://api.github.com/users/MeoBeoI/repos",
-        "receivedEventsUrl": "https://api.github.com/users/MeoBeoI/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-03-28T14:44:54.000Z",
-      "publishedAt": "2016-03-24T17:59:07.000Z",
-      "tarballUrl": "https://api.github.com/repos/MeoBeoI/Catify/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/MeoBeoI/Catify/zipball/v0.0.1",
-      "body": "First release, hope everything will be OK\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:45:44.558Z"
 }

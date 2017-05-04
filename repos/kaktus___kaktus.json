@@ -5,7 +5,7 @@
   "owner": {
     "login": "kaktus",
     "id": 22424425,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22424425?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22424425?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kaktus",
     "htmlUrl": "https://github.com/kaktus",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/kaktus/kaktus/downloads",
   "deploymentsUrl": "https://api.github.com/repos/kaktus/kaktus/deployments",
   "createdAt": "2016-09-30T21:13:05.000Z",
-  "updatedAt": "2016-10-27T10:31:40.000Z",
-  "pushedAt": "2016-10-21T01:34:50.000Z",
+  "updatedAt": "2017-04-19T03:54:53.000Z",
+  "pushedAt": "2017-04-10T15:22:30.000Z",
   "gitUrl": "git://github.com/kaktus/kaktus.git",
   "sshUrl": "git@github.com:kaktus/kaktus.git",
   "cloneUrl": "https://github.com/kaktus/kaktus.git",
   "svnUrl": "https://github.com/kaktus/kaktus",
   "homepage": "",
-  "size": 810,
-  "stargazersCount": 285,
-  "watchersCount": 285,
+  "size": 822,
+  "stargazersCount": 327,
+  "watchersCount": 327,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 9,
+  "forksCount": 12,
   "mirrorUrl": null,
-  "openIssuesCount": 4,
-  "openIssues": 4,
-  "watchers": 285,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 327,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "kaktus",
     "id": 22424425,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22424425?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22424425?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kaktus",
     "htmlUrl": "https://github.com/kaktus",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/kaktus/received_events",
     "type": "Organization"
   },
-  "networkCount": 9,
-  "subscribersCount": 6,
+  "networkCount": 12,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "Kaktus",
@@ -108,10 +108,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "azer",
-    "andrewda"
-  ],
   "firstCommit": {
     "sha": "62f5369c78c9d7cc6d71b133004097bf1b6fdd48",
     "commit": {
@@ -135,119 +131,6 @@
     }
   },
   "filename": "kaktus___kaktus.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/kaktus/kaktus/releases/4281783",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/kaktus/kaktus/releases/assets/2409466",
-          "id": 2409466,
-          "name": "Kaktus-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "azer",
-            "id": 13072,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/13072?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/azer",
-            "htmlUrl": "https://github.com/azer",
-            "followersUrl": "https://api.github.com/users/azer/followers",
-            "subscriptionsUrl": "https://api.github.com/users/azer/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/azer/orgs",
-            "reposUrl": "https://api.github.com/users/azer/repos",
-            "receivedEventsUrl": "https://api.github.com/users/azer/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41587989,
-          "downloadCount": 35,
-          "createdAt": "2016-10-02T01:20:15.000Z",
-          "updatedAt": "2016-10-02T01:21:15.000Z",
-          "browserDownloadUrl": "https://github.com/kaktus/kaktus/releases/download/1.0.0/Kaktus-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/kaktus/kaktus/releases/assets/2409468",
-          "id": 2409468,
-          "name": "Kaktus-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "azer",
-            "id": 13072,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/13072?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/azer",
-            "htmlUrl": "https://github.com/azer",
-            "followersUrl": "https://api.github.com/users/azer/followers",
-            "subscriptionsUrl": "https://api.github.com/users/azer/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/azer/orgs",
-            "reposUrl": "https://api.github.com/users/azer/repos",
-            "receivedEventsUrl": "https://api.github.com/users/azer/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43920064,
-          "downloadCount": 463,
-          "createdAt": "2016-10-02T01:20:18.000Z",
-          "updatedAt": "2016-10-02T01:22:21.000Z",
-          "browserDownloadUrl": "https://github.com/kaktus/kaktus/releases/download/1.0.0/Kaktus-linux-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/kaktus/kaktus/releases/assets/2409475",
-          "id": 2409475,
-          "name": "Kaktus-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "azer",
-            "id": 13072,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/13072?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/azer",
-            "htmlUrl": "https://github.com/azer",
-            "followersUrl": "https://api.github.com/users/azer/followers",
-            "subscriptionsUrl": "https://api.github.com/users/azer/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/azer/orgs",
-            "reposUrl": "https://api.github.com/users/azer/repos",
-            "receivedEventsUrl": "https://api.github.com/users/azer/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 54883302,
-          "downloadCount": 146,
-          "createdAt": "2016-10-02T01:22:45.000Z",
-          "updatedAt": "2016-10-02T01:24:04.000Z",
-          "browserDownloadUrl": "https://github.com/kaktus/kaktus/releases/download/1.0.0/Kaktus-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/kaktus/kaktus/releases/4281783/assets",
-      "htmlUrl": "https://github.com/kaktus/kaktus/releases/tag/1.0.0",
-      "id": 4281783,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "azer",
-        "id": 13072,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/13072?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/azer",
-        "htmlUrl": "https://github.com/azer",
-        "followersUrl": "https://api.github.com/users/azer/followers",
-        "subscriptionsUrl": "https://api.github.com/users/azer/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/azer/orgs",
-        "reposUrl": "https://api.github.com/users/azer/repos",
-        "receivedEventsUrl": "https://api.github.com/users/azer/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-02T00:57:59.000Z",
-      "publishedAt": "2016-10-02T01:24:10.000Z",
-      "tarballUrl": "https://api.github.com/repos/kaktus/kaktus/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/kaktus/kaktus/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:31:28.997Z"
 }

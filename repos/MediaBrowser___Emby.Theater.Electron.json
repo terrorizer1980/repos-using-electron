@@ -1,11 +1,11 @@
 {
   "id": 46625182,
-  "name": "Emby.Theater.Electron",
-  "fullName": "MediaBrowser/Emby.Theater.Electron",
+  "name": "emby-theater-electron",
+  "fullName": "MediaBrowser/emby-theater-electron",
   "owner": {
     "login": "MediaBrowser",
     "id": 3607473,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3607473?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3607473?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MediaBrowser",
     "htmlUrl": "https://github.com/MediaBrowser",
@@ -17,24 +17,24 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": "An Electron app for Emby",
   "fork": false,
   "createdAt": "2015-11-21T17:15:17.000Z",
-  "updatedAt": "2016-08-09T08:28:26.000Z",
-  "pushedAt": "2016-08-12T16:18:14.000Z",
-  "homepage": null,
-  "size": 123,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "updatedAt": "2017-04-03T22:41:14.000Z",
+  "pushedAt": "2017-05-04T04:16:52.000Z",
+  "homepage": "https://emby.media",
+  "size": 273,
+  "stargazersCount": 9,
+  "watchersCount": 9,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 11,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 5,
+  "watchers": 9,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "MediaBrowser",
     "id": 3607473,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3607473?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3607473?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MediaBrowser",
     "htmlUrl": "https://github.com/MediaBrowser",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/MediaBrowser/received_events",
     "type": "Organization"
   },
-  "networkCount": 5,
-  "subscribersCount": 9,
+  "networkCount": 11,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "emby.theater",
@@ -93,9 +93,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "LukePulverenti"
-  ],
   "firstCommit": {
     "sha": "fddbac4ca16150c3de752235d46718f7f6acafba",
     "commit": {
@@ -119,5 +116,26 @@
     }
   },
   "filename": "MediaBrowser___Emby.Theater.Electron.json",
-  "releases": []
+  "htmlUrl": "https://github.com/MediaBrowser/emby-theater-electron",
+  "url": "https://api.github.com/repos/MediaBrowser/emby-theater-electron",
+  "forksUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/events",
+  "tagsUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/MediaBrowser/emby-theater-electron/deployments",
+  "gitUrl": "git://github.com/MediaBrowser/emby-theater-electron.git",
+  "sshUrl": "git@github.com:MediaBrowser/emby-theater-electron.git",
+  "cloneUrl": "https://github.com/MediaBrowser/emby-theater-electron.git",
+  "svnUrl": "https://github.com/MediaBrowser/emby-theater-electron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:40:27.984Z"
 }

@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron",
     "version": "1.0.0",
@@ -92,12 +92,6 @@
       "pug": "^2.0.0-beta6",
       "react": "^15.3.2",
       "react-dom": "^15.3.2"
-    },
-    "other": {
-      "author": "proghjy <proghjy@gmail.com>",
-      "bugs": {
-        "url": "https://github.com/reynoldssb/electron/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -126,5 +120,6 @@
       "commentCount": 0
     }
   },
-  "filename": "reynoldssb___electron.json"
+  "filename": "reynoldssb___electron.json",
+  "lastFetchedAt": "2017-05-04T21:05:16.148Z"
 }

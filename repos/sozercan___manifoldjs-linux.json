@@ -5,7 +5,7 @@
   "owner": {
     "login": "sozercan",
     "id": 852750,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/852750?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/852750?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sozercan",
     "htmlUrl": "https://github.com/sozercan",
@@ -118,22 +118,9 @@
       "test": "grunt",
       "debug-tests": "mocha test/**/*.js --debug-brk"
     },
-    "homepage": "https://github.com/sozercan/manifoldjs-linux",
-    "other": {
-      "author": {
-        "name": "Sertac Ozercan",
-        "email": "sozercan@gmail.com",
-        "url": "http://sertacozercan.com"
-      },
-      "bugs": {
-        "url": "https://github.com/sozercan/manifoldjs-linux/issues"
-      }
-    }
+    "homepage": "https://github.com/sozercan/manifoldjs-linux"
   },
   "packageStatus": 200,
-  "contributors": [
-    "sozercan"
-  ],
   "firstCommit": {
     "sha": "1c31499a182c38c51b50f50cdfb3900696d70aa5",
     "commit": {
@@ -157,5 +144,6 @@
     }
   },
   "filename": "sozercan___manifoldjs-linux.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:25:20.357Z"
 }

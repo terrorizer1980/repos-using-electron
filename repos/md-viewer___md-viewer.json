@@ -5,7 +5,7 @@
   "owner": {
     "login": "md-viewer",
     "id": 12676930,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12676930?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/12676930?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/md-viewer",
     "htmlUrl": "https://github.com/md-viewer",
@@ -20,21 +20,21 @@
   "description": "a desktop Markdown viewer app built on Electron",
   "fork": false,
   "createdAt": "2015-05-01T17:40:47.000Z",
-  "updatedAt": "2016-07-01T13:18:45.000Z",
+  "updatedAt": "2017-01-25T12:53:36.000Z",
   "pushedAt": "2015-07-04T18:51:26.000Z",
   "homepage": null,
   "size": 680,
-  "stargazersCount": 10,
-  "watchersCount": 10,
+  "stargazersCount": 11,
+  "watchersCount": 11,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 3,
+  "forksCount": 4,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 10,
+  "watchers": 11,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "md-viewer",
     "id": 12676930,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12676930?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/12676930?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/md-viewer",
     "htmlUrl": "https://github.com/md-viewer",
@@ -62,7 +62,7 @@
     "receivedEventsUrl": "https://api.github.com/users/md-viewer/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
+  "networkCount": 4,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -98,9 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "pmuellr"
-  ],
   "firstCommit": {
     "sha": "644610c45abddf6e165b971f35fac9ac1b57ecb2",
     "commit": {
@@ -124,96 +121,26 @@
     }
   },
   "filename": "md-viewer___md-viewer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/md-viewer/md-viewer/releases/1260504",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/md-viewer/md-viewer/releases/assets/564091",
-          "id": 564091,
-          "name": "md-viewer_darwin-x64_0.9.1.zip",
-          "label": null,
-          "uploader": {
-            "login": "pmuellr",
-            "id": 25117,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/25117?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/pmuellr",
-            "htmlUrl": "https://github.com/pmuellr",
-            "followersUrl": "https://api.github.com/users/pmuellr/followers",
-            "subscriptionsUrl": "https://api.github.com/users/pmuellr/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/pmuellr/orgs",
-            "reposUrl": "https://api.github.com/users/pmuellr/repos",
-            "receivedEventsUrl": "https://api.github.com/users/pmuellr/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 38551727,
-          "downloadCount": 15,
-          "createdAt": "2015-05-05T19:46:32.000Z",
-          "updatedAt": "2015-05-05T19:52:54.000Z",
-          "browserDownloadUrl": "https://github.com/md-viewer/md-viewer/releases/download/v0.9.1/md-viewer_darwin-x64_0.9.1.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/md-viewer/md-viewer/releases/1260504/assets",
-      "htmlUrl": "https://github.com/md-viewer/md-viewer/releases/tag/v0.9.1",
-      "id": 1260504,
-      "tagName": "v0.9.1",
-      "targetCommitish": "master",
-      "name": "mac os x",
-      "draft": false,
-      "author": {
-        "login": "pmuellr",
-        "id": 25117,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/25117?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/pmuellr",
-        "htmlUrl": "https://github.com/pmuellr",
-        "followersUrl": "https://api.github.com/users/pmuellr/followers",
-        "subscriptionsUrl": "https://api.github.com/users/pmuellr/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/pmuellr/orgs",
-        "reposUrl": "https://api.github.com/users/pmuellr/repos",
-        "receivedEventsUrl": "https://api.github.com/users/pmuellr/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-05-05T19:44:32.000Z",
-      "publishedAt": "2015-05-05T19:58:32.000Z",
-      "tarballUrl": "https://api.github.com/repos/md-viewer/md-viewer/tarball/v0.9.1",
-      "zipballUrl": "https://api.github.com/repos/md-viewer/md-viewer/zipball/v0.9.1",
-      "body": "zip archive with md-viewer.app inside\n"
-    },
-    {
-      "url": "https://api.github.com/repos/md-viewer/md-viewer/releases/1257265",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/md-viewer/md-viewer/releases/1257265/assets",
-      "htmlUrl": "https://github.com/md-viewer/md-viewer/releases/tag/v0.9.0",
-      "id": 1257265,
-      "tagName": "v0.9.0",
-      "targetCommitish": "master",
-      "name": "mac os x",
-      "draft": false,
-      "author": {
-        "login": "pmuellr",
-        "id": 25117,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/25117?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/pmuellr",
-        "htmlUrl": "https://github.com/pmuellr",
-        "followersUrl": "https://api.github.com/users/pmuellr/followers",
-        "subscriptionsUrl": "https://api.github.com/users/pmuellr/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/pmuellr/orgs",
-        "reposUrl": "https://api.github.com/users/pmuellr/repos",
-        "receivedEventsUrl": "https://api.github.com/users/pmuellr/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-05-05T03:26:07.000Z",
-      "publishedAt": "2015-05-05T03:32:37.000Z",
-      "tarballUrl": "https://api.github.com/repos/md-viewer/md-viewer/tarball/v0.9.0",
-      "zipballUrl": "https://api.github.com/repos/md-viewer/md-viewer/zipball/v0.9.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/md-viewer/md-viewer",
+  "url": "https://api.github.com/repos/md-viewer/md-viewer",
+  "forksUrl": "https://api.github.com/repos/md-viewer/md-viewer/forks",
+  "teamsUrl": "https://api.github.com/repos/md-viewer/md-viewer/teams",
+  "hooksUrl": "https://api.github.com/repos/md-viewer/md-viewer/hooks",
+  "eventsUrl": "https://api.github.com/repos/md-viewer/md-viewer/events",
+  "tagsUrl": "https://api.github.com/repos/md-viewer/md-viewer/tags",
+  "languagesUrl": "https://api.github.com/repos/md-viewer/md-viewer/languages",
+  "stargazersUrl": "https://api.github.com/repos/md-viewer/md-viewer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/md-viewer/md-viewer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/md-viewer/md-viewer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/md-viewer/md-viewer/subscription",
+  "mergesUrl": "https://api.github.com/repos/md-viewer/md-viewer/merges",
+  "downloadsUrl": "https://api.github.com/repos/md-viewer/md-viewer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/md-viewer/md-viewer/deployments",
+  "gitUrl": "git://github.com/md-viewer/md-viewer.git",
+  "sshUrl": "git@github.com:md-viewer/md-viewer.git",
+  "cloneUrl": "https://github.com/md-viewer/md-viewer.git",
+  "svnUrl": "https://github.com/md-viewer/md-viewer",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:04:13.565Z"
 }

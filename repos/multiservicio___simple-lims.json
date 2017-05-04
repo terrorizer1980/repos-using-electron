@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "simple-lims",
     "version": "0.0.1",
@@ -59,18 +59,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/multiservicio/simple-lims.git"
-    },
+    "repository": "https://github.com/multiservicio/simple-lims",
     "keywords": [
       "lims"
     ],
-    "author": "Pedro Diaz",
     "license": "GNU v3",
-    "bugs": {
-      "url": "https://github.com/multiservicio/simple-lims/issues"
-    },
     "homepage": "https://github.com/multiservicio/simple-lims",
     "devDependencies": {
       "electron": "^0.4.1",
@@ -78,10 +71,18 @@
     },
     "dependencies": {
       "material-design-lite": "^1.0.5"
+    },
+    "other": {
+      "author": "Pedro Diaz",
+      "bugs": {
+        "url": "https://github.com/multiservicio/simple-lims/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "multiservicio"
-  ]
+  ],
+  "filename": "multiservicio___simple-lims.json",
+  "lastFetchedAt": "2017-05-04T05:33:37.265Z"
 }

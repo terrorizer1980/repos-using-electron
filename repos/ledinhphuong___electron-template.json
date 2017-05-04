@@ -57,10 +57,7 @@
       "build": "gulp clean && NODE_ENV=production gulp build",
       "build-win": "gulp clean && set NODE_ENV=production && gulp build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ledinhphuong/electron-template.git"
-    },
+    "repository": "https://github.com/ledinhphuong/electron-template",
     "keywords": [
       "electron",
       "template",
@@ -71,11 +68,7 @@
       "webpack",
       "babel"
     ],
-    "author": "Phuong Le <lephuong.info@gmail.com> (https://github.com/ledinhphuong)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ledinhphuong/electron-template/issues"
-    },
     "homepage": "https://github.com/ledinhphuong/electron-template#readme",
     "devDependencies": {
       "del": "^2.1.0",
@@ -114,10 +107,18 @@
         "icon": "src/assets/icon.ico",
         "verbosity": 1
       }
+    },
+    "other": {
+      "author": "Phuong Le <lephuong.info@gmail.com> (https://github.com/ledinhphuong)",
+      "bugs": {
+        "url": "https://github.com/ledinhphuong/electron-template/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "ledinhphuong"
-  ]
+  ],
+  "filename": "ledinhphuong___electron-template.json",
+  "lastFetchedAt": "2017-05-04T05:32:52.203Z"
 }

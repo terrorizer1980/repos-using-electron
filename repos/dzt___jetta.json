@@ -5,7 +5,7 @@
   "owner": {
     "login": "dzt",
     "id": 6421443,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6421443?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6421443?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dzt",
     "htmlUrl": "https://github.com/dzt",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/dzt/jetta/downloads",
   "deploymentsUrl": "https://api.github.com/repos/dzt/jetta/deployments",
   "createdAt": "2016-10-08T16:15:52.000Z",
-  "updatedAt": "2016-10-25T16:40:09.000Z",
+  "updatedAt": "2017-01-15T01:07:53.000Z",
   "pushedAt": "2016-10-26T22:12:50.000Z",
   "gitUrl": "git://github.com/dzt/jetta.git",
   "sshUrl": "git@github.com:dzt/jetta.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/dzt/jetta",
   "homepage": "https://github.com/dzt/jetta",
   "size": 245,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "stargazersCount": 8,
+  "watchersCount": 8,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 7,
+  "watchers": 8,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -123,10 +123,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "dzt",
-    "soops"
-  ],
   "firstCommit": {
     "sha": "7cb46d686859aaa924e6ebf28994c8e13cd1719a",
     "commit": {
@@ -150,173 +146,6 @@
     }
   },
   "filename": "dzt___jetta.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/dzt/jetta/releases/4435569",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/dzt/jetta/releases/assets/2501607",
-          "id": 2501607,
-          "name": "jetta-1.0.0-full.nupkg",
-          "label": null,
-          "uploader": {
-            "login": "dzt",
-            "id": 6421443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6421443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dzt",
-            "htmlUrl": "https://github.com/dzt",
-            "followersUrl": "https://api.github.com/users/dzt/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dzt/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dzt/orgs",
-            "reposUrl": "https://api.github.com/users/dzt/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dzt/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 58783112,
-          "downloadCount": 3,
-          "createdAt": "2016-10-19T23:47:36.000Z",
-          "updatedAt": "2016-10-19T23:48:02.000Z",
-          "browserDownloadUrl": "https://github.com/dzt/jetta/releases/download/1.0.0/jetta-1.0.0-full.nupkg"
-        },
-        {
-          "url": "https://api.github.com/repos/dzt/jetta/releases/assets/2501595",
-          "id": 2501595,
-          "name": "Jetta-1.0.0-mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "dzt",
-            "id": 6421443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6421443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dzt",
-            "htmlUrl": "https://github.com/dzt",
-            "followersUrl": "https://api.github.com/users/dzt/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dzt/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dzt/orgs",
-            "reposUrl": "https://api.github.com/users/dzt/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dzt/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44129476,
-          "downloadCount": 11,
-          "createdAt": "2016-10-19T23:39:59.000Z",
-          "updatedAt": "2016-10-19T23:40:28.000Z",
-          "browserDownloadUrl": "https://github.com/dzt/jetta/releases/download/1.0.0/Jetta-1.0.0-mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/dzt/jetta/releases/assets/2501596",
-          "id": 2501596,
-          "name": "Jetta-1.0.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "dzt",
-            "id": 6421443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6421443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dzt",
-            "htmlUrl": "https://github.com/dzt",
-            "followersUrl": "https://api.github.com/users/dzt/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dzt/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dzt/orgs",
-            "reposUrl": "https://api.github.com/users/dzt/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dzt/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 39720685,
-          "downloadCount": 11,
-          "createdAt": "2016-10-19T23:39:59.000Z",
-          "updatedAt": "2016-10-19T23:40:35.000Z",
-          "browserDownloadUrl": "https://github.com/dzt/jetta/releases/download/1.0.0/Jetta-1.0.0.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/dzt/jetta/releases/assets/2501605",
-          "id": 2501605,
-          "name": "JettaSetup.exe",
-          "label": null,
-          "uploader": {
-            "login": "dzt",
-            "id": 6421443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6421443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dzt",
-            "htmlUrl": "https://github.com/dzt",
-            "followersUrl": "https://api.github.com/users/dzt/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dzt/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dzt/orgs",
-            "reposUrl": "https://api.github.com/users/dzt/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dzt/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 59187712,
-          "downloadCount": 6,
-          "createdAt": "2016-10-19T23:47:36.000Z",
-          "updatedAt": "2016-10-19T23:47:51.000Z",
-          "browserDownloadUrl": "https://github.com/dzt/jetta/releases/download/1.0.0/JettaSetup.exe"
-        },
-        {
-          "url": "https://api.github.com/repos/dzt/jetta/releases/assets/2501606",
-          "id": 2501606,
-          "name": "RELEASES",
-          "label": null,
-          "uploader": {
-            "login": "dzt",
-            "id": 6421443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6421443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dzt",
-            "htmlUrl": "https://github.com/dzt",
-            "followersUrl": "https://api.github.com/users/dzt/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dzt/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dzt/orgs",
-            "reposUrl": "https://api.github.com/users/dzt/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dzt/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 75,
-          "downloadCount": 1,
-          "createdAt": "2016-10-19T23:47:36.000Z",
-          "updatedAt": "2016-10-19T23:47:51.000Z",
-          "browserDownloadUrl": "https://github.com/dzt/jetta/releases/download/1.0.0/RELEASES"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/dzt/jetta/releases/4435569/assets",
-      "htmlUrl": "https://github.com/dzt/jetta/releases/tag/1.0.0",
-      "id": 4435569,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "Jetta v1.0.0-rc.1",
-      "draft": false,
-      "author": {
-        "login": "dzt",
-        "id": 6421443,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6421443?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/dzt",
-        "htmlUrl": "https://github.com/dzt",
-        "followersUrl": "https://api.github.com/users/dzt/followers",
-        "subscriptionsUrl": "https://api.github.com/users/dzt/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/dzt/orgs",
-        "reposUrl": "https://api.github.com/users/dzt/repos",
-        "receivedEventsUrl": "https://api.github.com/users/dzt/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-19T23:26:47.000Z",
-      "publishedAt": "2016-10-19T23:40:39.000Z",
-      "tarballUrl": "https://api.github.com/repos/dzt/jetta/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/dzt/jetta/zipball/1.0.0",
-      "body": "- This has a lot of bugs, I swear to God.\n- I don't recommend clicking the paste button\n\n**Please remember, this is a release candidate. If you run into any issues running it, please report it to us, we appreciate the feedback.**\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:35:17.562Z"
 }

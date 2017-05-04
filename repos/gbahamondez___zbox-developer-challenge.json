@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "zbox-developer-challenge",
     "version": "0.1.0",
@@ -90,10 +90,7 @@
       "gulp": "^3.9.0",
       "gulp-electron": "0.0.9"
     },
-    "repository": "https://github.com/gbahamondez/zbox-developer-challenge",
-    "other": {
-      "author": "Gonzalo Bahamondez <gonzalo.bahamondez.c@gmail.com>"
-    }
+    "repository": "https://github.com/gbahamondez/zbox-developer-challenge"
   },
   "packageStatus": 200,
   "contributors": [
@@ -121,5 +118,6 @@
       "commentCount": 0
     }
   },
-  "filename": "gbahamondez___zbox-developer-challenge.json"
+  "filename": "gbahamondez___zbox-developer-challenge.json",
+  "lastFetchedAt": "2017-05-04T14:53:12.768Z"
 }

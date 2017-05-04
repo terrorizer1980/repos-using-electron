@@ -5,7 +5,7 @@
   "owner": {
     "login": "jamesmorgan",
     "id": 110869,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/110869?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/110869?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jamesmorgan",
     "htmlUrl": "https://github.com/jamesmorgan",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/deployments",
   "createdAt": "2016-10-09T16:05:20.000Z",
-  "updatedAt": "2016-10-09T16:06:07.000Z",
-  "pushedAt": "2016-10-13T06:35:59.000Z",
+  "updatedAt": "2016-11-27T18:52:35.000Z",
+  "pushedAt": "2016-12-03T09:09:24.000Z",
   "gitUrl": "git://github.com/jamesmorgan/github-explorer-electron.git",
   "sshUrl": "git@github.com:jamesmorgan/github-explorer-electron.git",
   "cloneUrl": "https://github.com/jamesmorgan/github-explorer-electron.git",
   "svnUrl": "https://github.com/jamesmorgan/github-explorer-electron",
   "homepage": null,
-  "size": 29,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 54,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": false
   },
   "networkCount": 0,
-  "subscribersCount": 0,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "github-explorer-electron",
@@ -114,9 +114,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jamesmorgan"
-  ],
   "firstCommit": {
     "sha": "f5828ab0fb2c670e7cf1af7941203f083d822625",
     "commit": {
@@ -140,124 +137,6 @@
     }
   },
   "filename": "jamesmorgan___github-explorer-electron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/releases/4823382",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/releases/assets/2759291",
-          "id": 2759291,
-          "name": "Github.Explorer.Electron-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "jamesmorgan",
-            "id": 110869,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/110869?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jamesmorgan",
-            "htmlUrl": "https://github.com/jamesmorgan",
-            "followersUrl": "https://api.github.com/users/jamesmorgan/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jamesmorgan/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jamesmorgan/orgs",
-            "reposUrl": "https://api.github.com/users/jamesmorgan/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jamesmorgan/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 55411455,
-          "downloadCount": 0,
-          "createdAt": "2016-12-03T09:05:09.000Z",
-          "updatedAt": "2016-12-03T09:09:15.000Z",
-          "browserDownloadUrl": "https://github.com/jamesmorgan/github-explorer-electron/releases/download/0.0.2-osx-alpha/Github.Explorer.Electron-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/releases/4823382/assets",
-      "htmlUrl": "https://github.com/jamesmorgan/github-explorer-electron/releases/tag/0.0.2-osx-alpha",
-      "id": 4823382,
-      "tagName": "0.0.2-osx-alpha",
-      "targetCommitish": "master",
-      "name": "Switching to use Redux for state management and fixing several small bugs",
-      "draft": false,
-      "author": {
-        "login": "jamesmorgan",
-        "id": 110869,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/110869?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jamesmorgan",
-        "htmlUrl": "https://github.com/jamesmorgan",
-        "followersUrl": "https://api.github.com/users/jamesmorgan/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jamesmorgan/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jamesmorgan/orgs",
-        "reposUrl": "https://api.github.com/users/jamesmorgan/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jamesmorgan/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-02T17:31:41.000Z",
-      "publishedAt": "2016-12-03T09:09:24.000Z",
-      "tarballUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/tarball/0.0.2-osx-alpha",
-      "zipballUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/zipball/0.0.2-osx-alpha",
-      "body": "- Still non configurable\n"
-    },
-    {
-      "url": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/releases/4709596",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/releases/assets/2684970",
-          "id": 2684970,
-          "name": "Github.Explorer.Electron-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "jamesmorgan",
-            "id": 110869,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/110869?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jamesmorgan",
-            "htmlUrl": "https://github.com/jamesmorgan",
-            "followersUrl": "https://api.github.com/users/jamesmorgan/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jamesmorgan/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jamesmorgan/orgs",
-            "reposUrl": "https://api.github.com/users/jamesmorgan/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jamesmorgan/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 45546226,
-          "downloadCount": 1,
-          "createdAt": "2016-11-20T16:19:24.000Z",
-          "updatedAt": "2016-11-20T16:23:15.000Z",
-          "browserDownloadUrl": "https://github.com/jamesmorgan/github-explorer-electron/releases/download/0.0.1-osx-alpha/Github.Explorer.Electron-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/releases/4709596/assets",
-      "htmlUrl": "https://github.com/jamesmorgan/github-explorer-electron/releases/tag/0.0.1-osx-alpha",
-      "id": 4709596,
-      "tagName": "0.0.1-osx-alpha",
-      "targetCommitish": "master",
-      "name": "First pass of a non configurable github explorer OSX replacement",
-      "draft": false,
-      "author": {
-        "login": "jamesmorgan",
-        "id": 110869,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/110869?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jamesmorgan",
-        "htmlUrl": "https://github.com/jamesmorgan",
-        "followersUrl": "https://api.github.com/users/jamesmorgan/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jamesmorgan/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jamesmorgan/orgs",
-        "reposUrl": "https://api.github.com/users/jamesmorgan/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jamesmorgan/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-20T16:17:12.000Z",
-      "publishedAt": "2016-11-20T16:24:36.000Z",
-      "tarballUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/tarball/0.0.1-osx-alpha",
-      "zipballUrl": "https://api.github.com/repos/jamesmorgan/github-explorer-electron/zipball/0.0.1-osx-alpha",
-      "body": "NOTE - this is non configurable at present!\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:17:57.178Z"
 }

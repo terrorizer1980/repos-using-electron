@@ -5,7 +5,7 @@
   "owner": {
     "login": "azu",
     "id": 19714,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19714?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19714?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/azu",
     "htmlUrl": "https://github.com/azu",
@@ -101,22 +101,9 @@
     },
     "dependencies": {
       "oauth": "^0.9.14"
-    },
-    "other": {
-      "author": "azu",
-      "bugs": {
-        "url": "https://github.com/azu/electron-authentication-hatena/issues"
-      },
-      "directories": {
-        "test": "test"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "azu",
-    "uraway"
-  ],
   "firstCommit": {
     "sha": "6cc749a2b6fe5b1bf291e811767bb6eacfee1ced",
     "commit": {
@@ -140,37 +127,6 @@
     }
   },
   "filename": "azu___electron-authentication-hatena.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/azu/electron-authentication-hatena/releases/2628051",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/azu/electron-authentication-hatena/releases/2628051/assets",
-      "htmlUrl": "https://github.com/azu/electron-authentication-hatena/releases/tag/2.0.1",
-      "id": 2628051,
-      "tagName": "2.0.1",
-      "targetCommitish": "master",
-      "name": null,
-      "draft": false,
-      "author": {
-        "login": "azu",
-        "id": 19714,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/19714?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/azu",
-        "htmlUrl": "https://github.com/azu",
-        "followersUrl": "https://api.github.com/users/azu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/azu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/azu/orgs",
-        "reposUrl": "https://api.github.com/users/azu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/azu/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-16T23:35:34.000Z",
-      "publishedAt": "2016-02-16T23:35:57.000Z",
-      "tarballUrl": "https://api.github.com/repos/azu/electron-authentication-hatena/tarball/2.0.1",
-      "zipballUrl": "https://api.github.com/repos/azu/electron-authentication-hatena/zipball/2.0.1",
-      "body": "### Bug Fixes\n- **example:** update example code ([956d0a0](https://github.com/azu/electron-authentication-hatena/commit/956d0a0))\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:48:07.858Z"
 }

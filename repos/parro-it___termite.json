@@ -5,7 +5,7 @@
   "owner": {
     "login": "parro-it",
     "id": 11197111,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11197111?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11197111?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/parro-it",
     "htmlUrl": "https://github.com/parro-it",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 16,
-  "openIssues": 16,
+  "openIssuesCount": 17,
+  "openIssues": 17,
   "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
@@ -112,9 +112,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "parro-it"
-  ],
   "firstCommit": {
     "sha": "468fe42e3e20927877a90967e96a214d97766727",
     "commit": {
@@ -138,65 +135,26 @@
     }
   },
   "filename": "parro-it___termite.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/parro-it/termite/releases/1906687",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/parro-it/termite/releases/assets/913754",
-          "id": 913754,
-          "name": "termite_1.0.1_all.deb",
-          "label": null,
-          "uploader": {
-            "login": "parro-it",
-            "id": 11197111,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/11197111?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/parro-it",
-            "htmlUrl": "https://github.com/parro-it",
-            "followersUrl": "https://api.github.com/users/parro-it/followers",
-            "subscriptionsUrl": "https://api.github.com/users/parro-it/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/parro-it/orgs",
-            "reposUrl": "https://api.github.com/users/parro-it/repos",
-            "receivedEventsUrl": "https://api.github.com/users/parro-it/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-deb",
-          "state": "uploaded",
-          "size": 26988474,
-          "downloadCount": 5,
-          "createdAt": "2015-10-03T17:50:17.000Z",
-          "updatedAt": "2015-10-03T17:51:47.000Z",
-          "browserDownloadUrl": "https://github.com/parro-it/termite/releases/download/v1.0.1/termite_1.0.1_all.deb"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/parro-it/termite/releases/1906687/assets",
-      "htmlUrl": "https://github.com/parro-it/termite/releases/tag/v1.0.1",
-      "id": 1906687,
-      "tagName": "v1.0.1",
-      "targetCommitish": "master",
-      "name": "v1.0.1",
-      "draft": false,
-      "author": {
-        "login": "parro-it",
-        "id": 11197111,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11197111?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/parro-it",
-        "htmlUrl": "https://github.com/parro-it",
-        "followersUrl": "https://api.github.com/users/parro-it/followers",
-        "subscriptionsUrl": "https://api.github.com/users/parro-it/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/parro-it/orgs",
-        "reposUrl": "https://api.github.com/users/parro-it/repos",
-        "receivedEventsUrl": "https://api.github.com/users/parro-it/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-10-03T16:46:50.000Z",
-      "publishedAt": "2015-10-03T17:53:01.000Z",
-      "tarballUrl": "https://api.github.com/repos/parro-it/termite/tarball/v1.0.1",
-      "zipballUrl": "https://api.github.com/repos/parro-it/termite/zipball/v1.0.1",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/parro-it/termite",
+  "url": "https://api.github.com/repos/parro-it/termite",
+  "forksUrl": "https://api.github.com/repos/parro-it/termite/forks",
+  "teamsUrl": "https://api.github.com/repos/parro-it/termite/teams",
+  "hooksUrl": "https://api.github.com/repos/parro-it/termite/hooks",
+  "eventsUrl": "https://api.github.com/repos/parro-it/termite/events",
+  "tagsUrl": "https://api.github.com/repos/parro-it/termite/tags",
+  "languagesUrl": "https://api.github.com/repos/parro-it/termite/languages",
+  "stargazersUrl": "https://api.github.com/repos/parro-it/termite/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/parro-it/termite/contributors",
+  "subscribersUrl": "https://api.github.com/repos/parro-it/termite/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/parro-it/termite/subscription",
+  "mergesUrl": "https://api.github.com/repos/parro-it/termite/merges",
+  "downloadsUrl": "https://api.github.com/repos/parro-it/termite/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/parro-it/termite/deployments",
+  "gitUrl": "git://github.com/parro-it/termite.git",
+  "sshUrl": "git@github.com:parro-it/termite.git",
+  "cloneUrl": "https://github.com/parro-it/termite.git",
+  "svnUrl": "https://github.com/parro-it/termite",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-03T20:08:12.364Z"
 }

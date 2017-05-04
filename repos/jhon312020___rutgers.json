@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Rutgers",
     "version": "1.0.0",
@@ -74,7 +74,6 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "author": "JR",
     "license": "ISC",
     "dependencies": {
       "body-parser": "^1.15.2",
@@ -86,9 +85,9 @@
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/jhon312020/rutgers.git"
+    "repository": "https://github.com/jhon312020/rutgers",
+    "other": {
+      "author": "JR"
     }
   },
   "packageStatus": 200,
@@ -96,5 +95,7 @@
     "jhon312020",
     "Brightsaharia",
     "rajuram"
-  ]
+  ],
+  "filename": "jhon312020___rutgers.json",
+  "lastFetchedAt": "2017-05-04T20:56:21.226Z"
 }

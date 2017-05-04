@@ -5,7 +5,7 @@
   "owner": {
     "login": "tomk79",
     "id": 584845,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/584845?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/584845?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tomk79",
     "htmlUrl": "https://github.com/tomk79",
@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-04-28T23:01:20.000Z",
   "updatedAt": "2016-04-29T00:14:41.000Z",
-  "pushedAt": "2016-05-16T10:35:20.000Z",
+  "pushedAt": "2016-09-22T17:24:30.000Z",
   "homepage": null,
-  "size": 1424,
+  "size": 1625,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -97,9 +97,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "tomk79"
-  ],
   "firstCommit": {
     "sha": "4ee1da2ed0efdb5049293e8c4656652185f34e0d",
     "commit": {
@@ -123,119 +120,26 @@
     }
   },
   "filename": "tomk79___my-todays-all.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/tomk79/my-todays-all/releases/3232488",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/tomk79/my-todays-all/releases/assets/1690041",
-          "id": 1690041,
-          "name": "Today-0.1.0-alpha.1-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "tomk79",
-            "id": 584845,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/584845?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/tomk79",
-            "htmlUrl": "https://github.com/tomk79",
-            "followersUrl": "https://api.github.com/users/tomk79/followers",
-            "subscriptionsUrl": "https://api.github.com/users/tomk79/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/tomk79/orgs",
-            "reposUrl": "https://api.github.com/users/tomk79/repos",
-            "receivedEventsUrl": "https://api.github.com/users/tomk79/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 202913557,
-          "downloadCount": 2,
-          "createdAt": "2016-05-16T10:38:27.000Z",
-          "updatedAt": "2016-05-16T10:39:55.000Z",
-          "browserDownloadUrl": "https://github.com/tomk79/my-todays-all/releases/download/0.1.0-alpha.1/Today-0.1.0-alpha.1-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/tomk79/my-todays-all/releases/assets/1690040",
-          "id": 1690040,
-          "name": "Today-0.1.0-alpha.1-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "tomk79",
-            "id": 584845,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/584845?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/tomk79",
-            "htmlUrl": "https://github.com/tomk79",
-            "followersUrl": "https://api.github.com/users/tomk79/followers",
-            "subscriptionsUrl": "https://api.github.com/users/tomk79/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/tomk79/orgs",
-            "reposUrl": "https://api.github.com/users/tomk79/repos",
-            "receivedEventsUrl": "https://api.github.com/users/tomk79/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 120825600,
-          "downloadCount": 1,
-          "createdAt": "2016-05-16T10:38:27.000Z",
-          "updatedAt": "2016-05-16T10:38:54.000Z",
-          "browserDownloadUrl": "https://github.com/tomk79/my-todays-all/releases/download/0.1.0-alpha.1/Today-0.1.0-alpha.1-win32-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/tomk79/my-todays-all/releases/assets/1690039",
-          "id": 1690039,
-          "name": "Today-0.1.0-alpha.1-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "tomk79",
-            "id": 584845,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/584845?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/tomk79",
-            "htmlUrl": "https://github.com/tomk79",
-            "followersUrl": "https://api.github.com/users/tomk79/followers",
-            "subscriptionsUrl": "https://api.github.com/users/tomk79/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/tomk79/orgs",
-            "reposUrl": "https://api.github.com/users/tomk79/repos",
-            "receivedEventsUrl": "https://api.github.com/users/tomk79/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 131470130,
-          "downloadCount": 1,
-          "createdAt": "2016-05-16T10:38:27.000Z",
-          "updatedAt": "2016-05-16T10:39:19.000Z",
-          "browserDownloadUrl": "https://github.com/tomk79/my-todays-all/releases/download/0.1.0-alpha.1/Today-0.1.0-alpha.1-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/tomk79/my-todays-all/releases/3232488/assets",
-      "htmlUrl": "https://github.com/tomk79/my-todays-all/releases/tag/0.1.0-alpha.1",
-      "id": 3232488,
-      "tagName": "0.1.0-alpha.1",
-      "targetCommitish": "master",
-      "name": "Today@0.1.0-alpha.1",
-      "draft": false,
-      "author": {
-        "login": "tomk79",
-        "id": 584845,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/584845?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/tomk79",
-        "htmlUrl": "https://github.com/tomk79",
-        "followersUrl": "https://api.github.com/users/tomk79/followers",
-        "subscriptionsUrl": "https://api.github.com/users/tomk79/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/tomk79/orgs",
-        "reposUrl": "https://api.github.com/users/tomk79/repos",
-        "receivedEventsUrl": "https://api.github.com/users/tomk79/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-16T10:35:00.000Z",
-      "publishedAt": "2016-05-16T11:17:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/tomk79/my-todays-all/tarball/0.1.0-alpha.1",
-      "zipballUrl": "https://api.github.com/repos/tomk79/my-todays-all/zipball/0.1.0-alpha.1",
-      "body": "- initial release.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/tomk79/my-todays-all",
+  "url": "https://api.github.com/repos/tomk79/my-todays-all",
+  "forksUrl": "https://api.github.com/repos/tomk79/my-todays-all/forks",
+  "teamsUrl": "https://api.github.com/repos/tomk79/my-todays-all/teams",
+  "hooksUrl": "https://api.github.com/repos/tomk79/my-todays-all/hooks",
+  "eventsUrl": "https://api.github.com/repos/tomk79/my-todays-all/events",
+  "tagsUrl": "https://api.github.com/repos/tomk79/my-todays-all/tags",
+  "languagesUrl": "https://api.github.com/repos/tomk79/my-todays-all/languages",
+  "stargazersUrl": "https://api.github.com/repos/tomk79/my-todays-all/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/tomk79/my-todays-all/contributors",
+  "subscribersUrl": "https://api.github.com/repos/tomk79/my-todays-all/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/tomk79/my-todays-all/subscription",
+  "mergesUrl": "https://api.github.com/repos/tomk79/my-todays-all/merges",
+  "downloadsUrl": "https://api.github.com/repos/tomk79/my-todays-all/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/tomk79/my-todays-all/deployments",
+  "gitUrl": "git://github.com/tomk79/my-todays-all.git",
+  "sshUrl": "git@github.com:tomk79/my-todays-all.git",
+  "cloneUrl": "https://github.com/tomk79/my-todays-all.git",
+  "svnUrl": "https://github.com/tomk79/my-todays-all",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:18:55.869Z"
 }

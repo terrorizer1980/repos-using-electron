@@ -5,7 +5,7 @@
   "owner": {
     "login": "zeke",
     "id": 2289,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2289?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2289?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zeke",
     "htmlUrl": "https://github.com/zeke",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/zeke/electron-universe/downloads",
   "deploymentsUrl": "https://api.github.com/repos/zeke/electron-universe/deployments",
   "createdAt": "2016-08-14T23:32:21.000Z",
-  "updatedAt": "2016-09-17T18:22:30.000Z",
+  "updatedAt": "2016-12-11T22:16:26.000Z",
   "pushedAt": "2016-09-16T05:52:50.000Z",
   "gitUrl": "git://github.com/zeke/electron-universe.git",
   "sshUrl": "git@github.com:zeke/electron-universe.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/zeke/electron-universe",
   "homepage": "",
   "size": 428397,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 2,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": true,
@@ -110,9 +110,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "zeke"
-  ],
   "firstCommit": {
     "sha": "d432d1a0bfe2781cf86658308ed76b52d835e115",
     "commit": {
@@ -136,5 +133,9 @@
     }
   },
   "filename": "zeke___electron-universe.json",
-  "releases": []
+  "hasProjects": true,
+  "allowSquashMerge": true,
+  "allowMergeCommit": true,
+  "allowRebaseMerge": true,
+  "lastFetchedAt": "2017-05-04T18:14:15.092Z"
 }

@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "elmectron",
     "version": "0.1.0",
@@ -53,7 +53,6 @@
       "prestart": "elm-make src/Client.elm --output app/client.js && elm-make src/Server.elm --output app/server.js && echo \"module.exports=Elm;\" >> app/server.js || true",
       "start": "electron app"
     },
-    "author": "astynax",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -63,5 +62,7 @@
   "packageStatus": 404,
   "contributors": [
     "astynax"
-  ]
+  ],
+  "filename": "astynax___elmectron.json",
+  "lastFetchedAt": "2017-05-04T06:01:45.493Z"
 }

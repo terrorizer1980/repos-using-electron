@@ -1,11 +1,11 @@
 {
-  "id": 61534863,
+  "id": 66729785,
   "name": "AU-lecture-tool",
   "fullName": "Artificial-University/AU-lecture-tool",
   "owner": {
     "login": "Artificial-University",
     "id": 6260139,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6260139?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6260139?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Artificial-University",
     "htmlUrl": "https://github.com/Artificial-University",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/Artificial-University/AU-lecture-tool",
-  "description": "Lecture Tool Prototype - an Electron App using Markdown syntax to create reveal.js slides",
+  "description": ":dizzy: An offline Presentation Tool built with lychee.js and Markdown Syntax made for Professional Lectures.",
   "fork": false,
   "url": "https://api.github.com/repos/Artificial-University/AU-lecture-tool",
   "forksUrl": "https://api.github.com/repos/Artificial-University/AU-lecture-tool/forks",
@@ -34,27 +34,27 @@
   "mergesUrl": "https://api.github.com/repos/Artificial-University/AU-lecture-tool/merges",
   "downloadsUrl": "https://api.github.com/repos/Artificial-University/AU-lecture-tool/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Artificial-University/AU-lecture-tool/deployments",
-  "createdAt": "2016-06-20T09:31:54.000Z",
-  "updatedAt": "2016-09-05T22:47:41.000Z",
-  "pushedAt": "2016-06-20T20:48:37.000Z",
+  "createdAt": "2016-08-27T18:34:57.000Z",
+  "updatedAt": "2017-01-13T14:11:03.000Z",
+  "pushedAt": "2017-03-06T07:10:01.000Z",
   "gitUrl": "git://github.com/Artificial-University/AU-lecture-tool.git",
   "sshUrl": "git@github.com:Artificial-University/AU-lecture-tool.git",
   "cloneUrl": "https://github.com/Artificial-University/AU-lecture-tool.git",
   "svnUrl": "https://github.com/Artificial-University/AU-lecture-tool",
   "homepage": "",
-  "size": 901,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 344,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
-  "hasIssues": true,
+  "hasIssues": false,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "Artificial-University",
     "id": 6260139,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6260139?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6260139?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Artificial-University",
     "htmlUrl": "https://github.com/Artificial-University",
@@ -77,7 +77,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
     "name": "lecture-tool",
@@ -94,9 +94,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "cookiengineer"
-  ],
   "firstCommit": {
     "sha": "a09fb4818528f6ae025c780e99e84794bf286cba",
     "commit": {
@@ -120,5 +117,6 @@
     }
   },
   "filename": "Artificial-University___AU-lecture-tool.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:14:01.181Z"
 }

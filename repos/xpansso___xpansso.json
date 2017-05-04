@@ -5,7 +5,7 @@
   "owner": {
     "login": "xpansso",
     "id": 23193043,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23193043?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/23193043?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/xpansso",
     "htmlUrl": "https://github.com/xpansso",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/xpansso/xpansso",
-  "description": null,
+  "description": "Yet another expense manager.",
   "fork": false,
   "url": "https://api.github.com/repos/xpansso/xpansso",
   "forksUrl": "https://api.github.com/repos/xpansso/xpansso/forks",
@@ -35,20 +35,20 @@
   "downloadsUrl": "https://api.github.com/repos/xpansso/xpansso/downloads",
   "deploymentsUrl": "https://api.github.com/repos/xpansso/xpansso/deployments",
   "createdAt": "2016-11-01T14:28:48.000Z",
-  "updatedAt": "2016-11-01T14:30:24.000Z",
-  "pushedAt": "2016-11-16T14:30:35.000Z",
+  "updatedAt": "2016-12-29T07:01:35.000Z",
+  "pushedAt": "2017-04-29T08:52:41.000Z",
   "gitUrl": "git://github.com/xpansso/xpansso.git",
   "sshUrl": "git@github.com:xpansso/xpansso.git",
   "cloneUrl": "https://github.com/xpansso/xpansso.git",
   "svnUrl": "https://github.com/xpansso/xpansso",
-  "homepage": null,
-  "size": 616,
+  "homepage": "",
+  "size": 708,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
-  "hasIssues": true,
+  "hasIssues": false,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "xpansso",
     "id": 23193043,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23193043?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/23193043?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/xpansso",
     "htmlUrl": "https://github.com/xpansso",
@@ -206,9 +206,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "yoonwaiyan"
-  ],
   "firstCommit": {
     "sha": "0ad202e78f9f2b56d4de015cdbbfe7359655217e",
     "commit": {
@@ -232,5 +229,6 @@
     }
   },
   "filename": "xpansso___xpansso.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:53:49.228Z"
 }

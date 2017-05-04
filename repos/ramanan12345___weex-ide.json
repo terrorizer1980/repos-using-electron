@@ -6,7 +6,7 @@
   "owner": {
     "login": "ramanan12345",
     "id": 2283456,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2283456?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2283456?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ramanan12345",
     "htmlUrl": "https://github.com/ramanan12345",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "weexteam",
       "id": 19679046,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19679046?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19679046?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/weexteam",
       "htmlUrl": "https://github.com/weexteam",
@@ -100,7 +100,7 @@
     "downloadsUrl": "https://api.github.com/repos/weexteam/weex-ide/downloads",
     "deploymentsUrl": "https://api.github.com/repos/weexteam/weex-ide/deployments",
     "createdAt": "2016-06-29T12:42:11.000Z",
-    "updatedAt": "2017-01-18T13:28:50.000Z",
+    "updatedAt": "2017-04-16T14:49:27.000Z",
     "pushedAt": "2016-07-18T09:22:51.000Z",
     "gitUrl": "git://github.com/weexteam/weex-ide.git",
     "sshUrl": "git@github.com:weexteam/weex-ide.git",
@@ -108,18 +108,19 @@
     "svnUrl": "https://github.com/weexteam/weex-ide",
     "homepage": null,
     "size": 194,
-    "stargazersCount": 31,
-    "watchersCount": 31,
+    "stargazersCount": 38,
+    "watchersCount": 38,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 10,
+    "forksCount": 11,
     "mirrorUrl": null,
     "openIssuesCount": 2,
     "openIssues": 2,
-    "watchers": 31,
+    "watchers": 38,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "weexteam",
       "id": 19679046,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/19679046?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/19679046?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/weexteam",
       "htmlUrl": "https://github.com/weexteam",
@@ -159,7 +160,7 @@
     "downloadsUrl": "https://api.github.com/repos/weexteam/weex-ide/downloads",
     "deploymentsUrl": "https://api.github.com/repos/weexteam/weex-ide/deployments",
     "createdAt": "2016-06-29T12:42:11.000Z",
-    "updatedAt": "2017-01-18T13:28:50.000Z",
+    "updatedAt": "2017-04-16T14:49:27.000Z",
     "pushedAt": "2016-07-18T09:22:51.000Z",
     "gitUrl": "git://github.com/weexteam/weex-ide.git",
     "sshUrl": "git@github.com:weexteam/weex-ide.git",
@@ -167,21 +168,22 @@
     "svnUrl": "https://github.com/weexteam/weex-ide",
     "homepage": null,
     "size": 194,
-    "stargazersCount": 31,
-    "watchersCount": 31,
+    "stargazersCount": 38,
+    "watchersCount": 38,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 10,
+    "forksCount": 11,
     "mirrorUrl": null,
     "openIssuesCount": 2,
     "openIssues": 2,
-    "watchers": 31,
+    "watchers": 38,
     "defaultBranch": "master"
   },
-  "networkCount": 10,
+  "networkCount": 11,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -219,9 +221,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "terrykingcha"
-  ],
   "firstCommit": {
     "sha": "925781533255e6d275db4e26b97c466a74400df7",
     "commit": {
@@ -245,5 +244,6 @@
     }
   },
   "sourceRepo": "weexteam/weex-ide",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:31:50.551Z"
 }

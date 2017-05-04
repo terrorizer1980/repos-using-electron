@@ -6,7 +6,7 @@
   "owner": {
     "login": "DevWurm",
     "id": 11690650,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11690650?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11690650?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/DevWurm",
     "htmlUrl": "https://github.com/DevWurm",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/DevWurm/hello-electron",
-  "description": "An Electron Angular 2 Hello World app",
+  "description": "An Electron Angular Hello World app",
   "fork": false,
   "url": "https://api.github.com/repos/DevWurm/hello-electron",
   "forksUrl": "https://api.github.com/repos/DevWurm/hello-electron/forks",
@@ -36,40 +36,34 @@
   "downloadsUrl": "https://api.github.com/repos/DevWurm/hello-electron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/DevWurm/hello-electron/deployments",
   "createdAt": "2016-12-14T15:46:21.000Z",
-  "updatedAt": "2016-12-26T15:15:23.000Z",
-  "pushedAt": "2017-01-06T16:44:01.000Z",
+  "updatedAt": "2017-04-14T11:59:30.000Z",
+  "pushedAt": "2017-04-03T08:52:58.000Z",
   "gitUrl": "git://github.com/DevWurm/hello-electron.git",
   "sshUrl": "git@github.com:DevWurm/hello-electron.git",
   "cloneUrl": "https://github.com/DevWurm/hello-electron.git",
   "svnUrl": "https://github.com/DevWurm/hello-electron",
-  "homepage": null,
-  "size": 18,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "homepage": "",
+  "size": 42,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
-  "networkCount": 1,
+  "license": null,
+  "networkCount": 2,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -135,10 +129,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "DevWurm",
-    "angular-cli"
-  ],
   "firstCommit": {
     "sha": "b0c23807ab99835d7c3a6a0e604bd651a6e4d204",
     "commit": {
@@ -161,5 +151,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:14:13.989Z"
 }

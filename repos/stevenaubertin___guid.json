@@ -6,7 +6,7 @@
   "owner": {
     "login": "stevenaubertin",
     "id": 6411530,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6411530?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6411530?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/stevenaubertin",
     "htmlUrl": "https://github.com/stevenaubertin",
@@ -36,14 +36,14 @@
   "downloadsUrl": "https://api.github.com/repos/stevenaubertin/guid/downloads",
   "deploymentsUrl": "https://api.github.com/repos/stevenaubertin/guid/deployments",
   "createdAt": "2016-12-10T22:24:13.000Z",
-  "updatedAt": "2016-12-11T04:54:47.000Z",
-  "pushedAt": "2016-12-11T04:59:35.000Z",
+  "updatedAt": "2017-02-19T01:57:40.000Z",
+  "pushedAt": "2017-02-05T21:23:52.000Z",
   "gitUrl": "git://github.com/stevenaubertin/guid.git",
   "sshUrl": "git@github.com:stevenaubertin/guid.git",
   "cloneUrl": "https://github.com/stevenaubertin/guid.git",
   "svnUrl": "https://github.com/stevenaubertin/guid",
   "homepage": "",
-  "size": 184,
+  "size": 180,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "TypeScript",
@@ -51,7 +51,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -69,7 +69,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -98,9 +98,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "stevenaubertin"
-  ],
   "firstCommit": {
     "sha": "b5183e824b5c109bfe2eb43ea3f71ed3af0c6177",
     "commit": {
@@ -123,5 +120,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:28:55.297Z"
 }

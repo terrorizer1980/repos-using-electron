@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electrodesk",
     "version": "1.0.0",
@@ -82,15 +82,8 @@
       "build-linux64": "node_modules/.bin/electron-packager . --platform=linux --arch=x64 --out=build",
       "build-win32": "node_modules/.bin/electron-packager . --platform=win32 --arch=ia32 --out=build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tinkerscript/electrodesk.git"
-    },
-    "author": "",
+    "repository": "https://github.com/tinkerscript/electrodesk",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/tinkerscript/electrodesk/issues"
-    },
     "homepage": "https://github.com/tinkerscript/electrodesk#readme",
     "devDependencies": {
       "electron-packager": "^6.0.0",
@@ -98,8 +91,16 @@
     },
     "dependencies": {
       "node-notifier": "^4.5.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/tinkerscript/electrodesk/issues"
+      }
     }
   },
   "packageStatus": 200,
-  "contributors": []
+  "contributors": [],
+  "filename": "tinkerscript___electrodesk.json",
+  "lastFetchedAt": "2017-05-04T17:47:08.183Z"
 }

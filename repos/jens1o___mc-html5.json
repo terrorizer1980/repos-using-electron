@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "mc-html5",
     "version": "0.0.1",
@@ -86,10 +86,7 @@
     "dependencies": {
       "electron-prebuilt": "1.4.1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/jens1o/mc-html5.git"
-    },
+    "repository": "https://github.com/jens1o/mc-html5",
     "keywords": [
       "minecraft",
       "electron",
@@ -98,15 +95,19 @@
       "html",
       "js"
     ],
-    "author": "Jens Hausdorf",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/jens1o/mc-html5/issues"
-    },
-    "homepage": "https://github.com/jens1o/mc-html5#readme"
+    "homepage": "https://github.com/jens1o/mc-html5#readme",
+    "other": {
+      "author": "Jens Hausdorf",
+      "bugs": {
+        "url": "https://github.com/jens1o/mc-html5/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "contributors": [
     "jens1o"
-  ]
+  ],
+  "filename": "jens1o___mc-html5.json",
+  "lastFetchedAt": "2017-05-04T18:07:30.499Z"
 }

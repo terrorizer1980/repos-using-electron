@@ -5,7 +5,7 @@
   "owner": {
     "login": "thinktecture",
     "id": 1458091,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1458091?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1458091?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/thinktecture",
     "htmlUrl": "https://github.com/thinktecture",
@@ -35,37 +35,43 @@
   "downloadsUrl": "https://api.github.com/repos/thinktecture/boardz-cross-platform-sample/downloads",
   "deploymentsUrl": "https://api.github.com/repos/thinktecture/boardz-cross-platform-sample/deployments",
   "createdAt": "2015-10-01T07:36:51.000Z",
-  "updatedAt": "2016-11-10T00:55:01.000Z",
-  "pushedAt": "2016-10-19T17:37:17.000Z",
+  "updatedAt": "2017-04-27T08:21:58.000Z",
+  "pushedAt": "2017-03-05T13:33:20.000Z",
   "gitUrl": "git://github.com/thinktecture/boardz-cross-platform-sample.git",
   "sshUrl": "git@github.com:thinktecture/boardz-cross-platform-sample.git",
   "cloneUrl": "https://github.com/thinktecture/boardz-cross-platform-sample.git",
   "svnUrl": "https://github.com/thinktecture/boardz-cross-platform-sample",
   "homepage": "",
-  "size": 5691,
-  "stargazersCount": 57,
-  "watchersCount": 57,
+  "size": 5463,
+  "stargazersCount": 70,
+  "watchersCount": 70,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
-  "forksCount": 25,
+  "forksCount": 30,
   "mirrorUrl": null,
   "openIssuesCount": 10,
   "openIssues": 10,
-  "watchers": 57,
+  "watchers": 70,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "organization": {
     "login": "thinktecture",
     "id": 1458091,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1458091?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1458091?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/thinktecture",
     "htmlUrl": "https://github.com/thinktecture",
@@ -76,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/thinktecture/received_events",
     "type": "Organization"
   },
-  "networkCount": 25,
-  "subscribersCount": 24,
+  "networkCount": 30,
+  "subscribersCount": 27,
   "status": 200,
   "packageJSON": {
     "name": "boardz-xplatform-sample",
@@ -152,13 +158,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ManuelRauber",
-    "ThorstenHans",
-    "chliebel",
-    "gingters",
-    "ChristianWeyer"
-  ],
   "firstCommit": {
     "sha": "de6a5cc248ae889fdd1cba1bf34d8a531d6e9b8d",
     "commit": {
@@ -182,5 +181,6 @@
     }
   },
   "filename": "thinktecture___boardz-cross-platform-sample.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T04:56:42.668Z"
 }

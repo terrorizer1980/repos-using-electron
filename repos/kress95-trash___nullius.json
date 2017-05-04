@@ -84,7 +84,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "carrot",
     "version": "0.0.0-build",
@@ -116,12 +116,6 @@
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "^0.37.0",
       "source-map-support": "^0.4.0"
-    },
-    "other": {
-      "author": "Christian Ferraz Lemos de Sousa",
-      "bugs": {
-        "url": "https://github.com/kress95/carrot/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +144,6 @@
       "commentCount": 0
     }
   },
-  "filename": "kress95-trash___nullius.json"
+  "filename": "kress95-trash___nullius.json",
+  "lastFetchedAt": "2017-05-04T19:42:20.111Z"
 }

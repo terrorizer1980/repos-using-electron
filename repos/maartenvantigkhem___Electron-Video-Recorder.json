@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-video-recorder",
     "version": "0.0.1",
@@ -80,9 +80,6 @@
       "fluent-ffmpeg": "^2.1.0",
       "fs": "0.0.2",
       "mime": "^1.3.4"
-    },
-    "other": {
-      "author": "Maarten Vantigkhem"
     }
   },
   "packageStatus": 200,
@@ -111,5 +108,6 @@
       "commentCount": 0
     }
   },
-  "filename": "maartenvantigkhem___Electron-Video-Recorder.json"
+  "filename": "maartenvantigkhem___Electron-Video-Recorder.json",
+  "lastFetchedAt": "2017-05-04T21:01:39.631Z"
 }

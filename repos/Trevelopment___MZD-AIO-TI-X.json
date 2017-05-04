@@ -5,7 +5,7 @@
   "owner": {
     "login": "Trevelopment",
     "id": 9637956,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9637956?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/9637956?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Trevelopment",
     "htmlUrl": "https://github.com/Trevelopment",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/deployments",
   "createdAt": "2016-09-06T13:06:55.000Z",
-  "updatedAt": "2016-09-16T11:13:44.000Z",
-  "pushedAt": "2016-09-16T11:43:45.000Z",
+  "updatedAt": "2016-12-16T09:38:20.000Z",
+  "pushedAt": "2016-12-08T04:27:40.000Z",
   "gitUrl": "git://github.com/Trevelopment/MZD-AIO-TI-X.git",
   "sshUrl": "git@github.com:Trevelopment/MZD-AIO-TI-X.git",
   "cloneUrl": "https://github.com/Trevelopment/MZD-AIO-TI-X.git",
   "svnUrl": "https://github.com/Trevelopment/MZD-AIO-TI-X",
   "homepage": null,
-  "size": 1174,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 128369,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,10 +62,10 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
   "networkCount": 0,
@@ -115,9 +115,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Trevelopment"
-  ],
   "firstCommit": {
     "sha": "64411502331805f82de16a27feb229498c341e24",
     "commit": {
@@ -141,65 +138,6 @@
     }
   },
   "filename": "Trevelopment___MZD-AIO-TI-X.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/releases/4863569",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/releases/assets/2786875",
-          "id": 2786875,
-          "name": "MZD-AIO-TI.Setup.2.0.0-beta.1.exe",
-          "label": null,
-          "uploader": {
-            "login": "Trevelopment",
-            "id": 9637956,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/9637956?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Trevelopment",
-            "htmlUrl": "https://github.com/Trevelopment",
-            "followersUrl": "https://api.github.com/users/Trevelopment/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Trevelopment/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Trevelopment/orgs",
-            "reposUrl": "https://api.github.com/users/Trevelopment/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Trevelopment/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 72488136,
-          "downloadCount": 14,
-          "createdAt": "2016-12-08T04:38:17.000Z",
-          "updatedAt": "2016-12-08T04:44:40.000Z",
-          "browserDownloadUrl": "https://github.com/Trevelopment/MZD-AIO-TI-X/releases/download/v2.0.0-beta.1/MZD-AIO-TI.Setup.2.0.0-beta.1.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/releases/4863569/assets",
-      "htmlUrl": "https://github.com/Trevelopment/MZD-AIO-TI-X/releases/tag/v2.0.0-beta.1",
-      "id": 4863569,
-      "tagName": "v2.0.0-beta.1",
-      "targetCommitish": "master",
-      "name": "MZD-AIO-TI 2.0.0 Beta Test",
-      "draft": false,
-      "author": {
-        "login": "Trevelopment",
-        "id": 9637956,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9637956?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Trevelopment",
-        "htmlUrl": "https://github.com/Trevelopment",
-        "followersUrl": "https://api.github.com/users/Trevelopment/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Trevelopment/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Trevelopment/orgs",
-        "reposUrl": "https://api.github.com/users/Trevelopment/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Trevelopment/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-08T04:06:15.000Z",
-      "publishedAt": "2016-12-08T04:27:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/tarball/v2.0.0-beta.1",
-      "zipballUrl": "https://api.github.com/repos/Trevelopment/MZD-AIO-TI-X/zipball/v2.0.0-beta.1",
-      "body": "## This is the first beta test release of MZD-AIO-TI 2.0.0.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:21:46.277Z"
 }

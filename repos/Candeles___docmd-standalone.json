@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "docmd-standalone",
     "version": "0.0.1",
@@ -73,15 +73,8 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Candeles/docmd-standalone.git"
-    },
-    "author": "Michael Candels",
+    "repository": "https://github.com/Candeles/docmd-standalone",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/Candeles/docmd-standalone/issues"
-    },
     "homepage": "https://github.com/Candeles/docmd-standalone#readme",
     "dependencies": {
       "ejs": "^2.5.2",
@@ -95,5 +88,7 @@
   "packageStatus": 200,
   "contributors": [
     "Candeles"
-  ]
+  ],
+  "filename": "Candeles___docmd-standalone.json",
+  "lastFetchedAt": "2017-05-04T20:00:56.195Z"
 }

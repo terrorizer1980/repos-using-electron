@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "fancyicon",
     "version": "1.0.0",
@@ -103,9 +103,6 @@
       "win": {
         "iconUrl": "https://github.com/linfancy/fancyiconfont/blob/master/app/media/img/icon.ico"
       }
-    },
-    "other": {
-      "author": "fancylin"
     }
   },
   "packageStatus": 200,
@@ -132,5 +129,6 @@
       "commentCount": 0
     }
   },
-  "filename": "linfancy___fancyiconfont.json"
+  "filename": "linfancy___fancyiconfont.json",
+  "lastFetchedAt": "2017-05-04T21:27:17.424Z"
 }

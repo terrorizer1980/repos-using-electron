@@ -6,7 +6,7 @@
   "owner": {
     "login": "0x00A",
     "id": 136109,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/136109?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/136109?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/0x00A",
     "htmlUrl": "https://github.com/0x00A",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/0x00A/node-chrome",
-  "description": "Run chrome headlessly as a module or as a command from the commandline.",
+  "description": "Run chrome headlessly as a module or as a command from the commandline using electron.",
   "fork": false,
   "url": "https://api.github.com/repos/0x00A/node-chrome",
   "forksUrl": "https://api.github.com/repos/0x00A/node-chrome/forks",
@@ -36,7 +36,7 @@
   "downloadsUrl": "https://api.github.com/repos/0x00A/node-chrome/downloads",
   "deploymentsUrl": "https://api.github.com/repos/0x00A/node-chrome/deployments",
   "createdAt": "2013-02-04T19:19:22.000Z",
-  "updatedAt": "2016-12-29T09:46:19.000Z",
+  "updatedAt": "2017-04-03T19:04:03.000Z",
   "pushedAt": "2016-12-19T08:37:32.000Z",
   "gitUrl": "git://github.com/0x00A/node-chrome.git",
   "sshUrl": "git@github.com:0x00A/node-chrome.git",
@@ -51,7 +51,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 27,
+  "forksCount": 28,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -69,8 +69,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 27,
-  "subscribersCount": 18,
+  "networkCount": 28,
+  "subscribersCount": 19,
   "status": 200,
   "packageJSON": {
     "name": "node-chrome",
@@ -92,9 +92,6 @@
     "homepage": "https://github.com/0x00A/node-chrome#readme"
   },
   "packageStatus": 200,
-  "contributors": [
-    "0x00A"
-  ],
   "firstCommit": {
     "sha": "7f3a7c888c4d8bbbfd1fda00f0a1e1712b7643c3",
     "commit": {
@@ -117,37 +114,6 @@
       "commentCount": 0
     }
   },
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/0x00A/node-chrome/releases/4835249",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/0x00A/node-chrome/releases/4835249/assets",
-      "htmlUrl": "https://github.com/0x00A/node-chrome/releases/tag/v1.1.1",
-      "id": 4835249,
-      "tagName": "v1.1.1",
-      "targetCommitish": "master",
-      "name": "1.1.1",
-      "draft": false,
-      "author": {
-        "login": "0x00A",
-        "id": 136109,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/136109?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/0x00A",
-        "htmlUrl": "https://github.com/0x00A",
-        "followersUrl": "https://api.github.com/users/0x00A/followers",
-        "subscriptionsUrl": "https://api.github.com/users/0x00A/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/0x00A/orgs",
-        "reposUrl": "https://api.github.com/users/0x00A/repos",
-        "receivedEventsUrl": "https://api.github.com/users/0x00A/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-05T16:37:25.000Z",
-      "publishedAt": "2016-12-05T16:39:39.000Z",
-      "tarballUrl": "https://api.github.com/repos/0x00A/node-chrome/tarball/v1.1.1",
-      "zipballUrl": "https://api.github.com/repos/0x00A/node-chrome/zipball/v1.1.1",
-      "body": "Stable\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:52:28.678Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "afterlogic",
     "id": 4507359,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4507359?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/4507359?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/afterlogic",
     "htmlUrl": "https://github.com/afterlogic",
@@ -65,7 +65,7 @@
   "organization": {
     "login": "afterlogic",
     "id": 4507359,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4507359?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/4507359?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/afterlogic",
     "htmlUrl": "https://github.com/afterlogic",
@@ -106,9 +106,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "vasil-sokolov"
-  ],
   "firstCommit": {
     "sha": "a134496447b418d8d6aceabbfa34967d0307a36e",
     "commit": {
@@ -132,37 +129,6 @@
     }
   },
   "filename": "afterlogic___ini-mover-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/afterlogic/ini-mover-app/releases/4508547",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/afterlogic/ini-mover-app/releases/4508547/assets",
-      "htmlUrl": "https://github.com/afterlogic/ini-mover-app/releases/tag/1.0.0",
-      "id": 4508547,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "Version 1.0.0",
-      "draft": false,
-      "author": {
-        "login": "vasil-sokolov",
-        "id": 17827771,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/17827771?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/vasil-sokolov",
-        "htmlUrl": "https://github.com/vasil-sokolov",
-        "followersUrl": "https://api.github.com/users/vasil-sokolov/followers",
-        "subscriptionsUrl": "https://api.github.com/users/vasil-sokolov/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/vasil-sokolov/orgs",
-        "reposUrl": "https://api.github.com/users/vasil-sokolov/repos",
-        "receivedEventsUrl": "https://api.github.com/users/vasil-sokolov/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-28T09:30:41.000Z",
-      "publishedAt": "2016-10-28T09:35:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/afterlogic/ini-mover-app/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/afterlogic/ini-mover-app/zipball/1.0.0",
-      "body": "This is first release with basic functionality:\n- editing translation of specific aurora module (set of ini files)\n- adding new language constant\n- adding another language file\n- ability to fill empty translations in language files\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:59:22.143Z"
 }

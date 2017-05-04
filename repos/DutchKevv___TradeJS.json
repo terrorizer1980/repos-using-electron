@@ -6,7 +6,7 @@
   "owner": {
     "login": "DutchKevv",
     "id": 5072775,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5072775?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/5072775?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/DutchKevv",
     "htmlUrl": "https://github.com/DutchKevv",
@@ -36,35 +36,41 @@
   "downloadsUrl": "https://api.github.com/repos/DutchKevv/TradeJS/downloads",
   "deploymentsUrl": "https://api.github.com/repos/DutchKevv/TradeJS/deployments",
   "createdAt": "2016-11-27T14:28:26.000Z",
-  "updatedAt": "2017-01-11T09:27:56.000Z",
-  "pushedAt": "2017-01-16T21:06:56.000Z",
+  "updatedAt": "2017-04-24T12:26:00.000Z",
+  "pushedAt": "2017-05-02T18:33:32.000Z",
   "gitUrl": "git://github.com/DutchKevv/TradeJS.git",
   "sshUrl": "git@github.com:DutchKevv/TradeJS.git",
   "cloneUrl": "https://github.com/DutchKevv/TradeJS.git",
   "svnUrl": "https://github.com/DutchKevv/TradeJS",
   "homepage": null,
-  "size": 5800,
-  "stargazersCount": 6,
-  "watchersCount": 6,
+  "size": 8998,
+  "stargazersCount": 12,
+  "watchersCount": 12,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 6,
+  "watchers": 12,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "networkCount": 1,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "TradeJS",
@@ -214,9 +220,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "DutchKevv"
-  ],
   "firstCommit": {
     "sha": "7246b0a3d5e1b51bbc32f97134fd9398e9179629",
     "commit": {
@@ -239,5 +242,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:07:07.839Z"
 }

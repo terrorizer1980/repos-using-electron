@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-stg",
     "version": "0.0.1",
@@ -127,5 +127,7 @@
       "redux-actions": "0.10.1"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "zakkies___electron-stg.json",
+  "lastFetchedAt": "2017-05-04T20:10:04.514Z"
 }

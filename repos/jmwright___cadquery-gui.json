@@ -5,7 +5,7 @@
   "owner": {
     "login": "jmwright",
     "id": 1015439,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1015439?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1015439?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jmwright",
     "htmlUrl": "https://github.com/jmwright",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/jmwright/cadquery-gui/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jmwright/cadquery-gui/deployments",
   "createdAt": "2016-03-22T01:09:05.000Z",
-  "updatedAt": "2016-10-08T06:22:28.000Z",
+  "updatedAt": "2017-02-16T10:40:38.000Z",
   "pushedAt": "2016-06-09T20:45:07.000Z",
   "gitUrl": "git://github.com/jmwright/cadquery-gui.git",
   "sshUrl": "git@github.com:jmwright/cadquery-gui.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/jmwright/cadquery-gui",
   "homepage": null,
   "size": 44169,
-  "stargazersCount": 6,
-  "watchersCount": 6,
+  "stargazersCount": 8,
+  "watchersCount": 8,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 6,
+  "watchers": 8,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/apache-2.0",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -94,9 +94,6 @@
     "engine": "node >= 5.9.0"
   },
   "packageStatus": 200,
-  "contributors": [
-    "jmwright"
-  ],
   "firstCommit": {
     "sha": "827b67f5c927099c02bf9d5c497058016866d0fc",
     "commit": {
@@ -120,5 +117,6 @@
     }
   },
   "filename": "jmwright___cadquery-gui.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:05:48.675Z"
 }

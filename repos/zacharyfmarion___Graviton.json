@@ -5,7 +5,7 @@
   "owner": {
     "login": "zacharyfmarion",
     "id": 9957046,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9957046?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/9957046?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zacharyfmarion",
     "htmlUrl": "https://github.com/zacharyfmarion",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/zacharyfmarion/Graviton/downloads",
   "deploymentsUrl": "https://api.github.com/repos/zacharyfmarion/Graviton/deployments",
   "createdAt": "2015-09-04T16:46:07.000Z",
-  "updatedAt": "2016-05-13T18:34:50.000Z",
+  "updatedAt": "2017-03-15T22:37:55.000Z",
   "pushedAt": "2016-09-09T17:22:39.000Z",
   "gitUrl": "git://github.com/zacharyfmarion/Graviton.git",
   "sshUrl": "git@github.com:zacharyfmarion/Graviton.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/zacharyfmarion/Graviton",
   "homepage": "",
   "size": 4823,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 13,
   "openIssues": 13,
-  "watchers": 2,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -120,10 +120,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "MaterialLabs",
-    "zacharyfmarion"
-  ],
   "firstCommit": {
     "sha": "dec3a6f1adc8b07ad00e34c8344951c12a40e6d9",
     "commit": {
@@ -147,37 +143,6 @@
     }
   },
   "filename": "zacharyfmarion___Graviton.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/zacharyfmarion/Graviton/releases/1790712",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/zacharyfmarion/Graviton/releases/1790712/assets",
-      "htmlUrl": "https://github.com/zacharyfmarion/Graviton/releases/tag/v0.1.0-pre-alpha",
-      "id": 1790712,
-      "tagName": "v0.1.0-pre-alpha",
-      "targetCommitish": "master",
-      "name": "Pre-Alpha Release",
-      "draft": false,
-      "author": {
-        "login": "zacharyfmarion",
-        "id": 9957046,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9957046?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zacharyfmarion",
-        "htmlUrl": "https://github.com/zacharyfmarion",
-        "followersUrl": "https://api.github.com/users/zacharyfmarion/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zacharyfmarion/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zacharyfmarion/orgs",
-        "reposUrl": "https://api.github.com/users/zacharyfmarion/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zacharyfmarion/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-09-09T21:34:07.000Z",
-      "publishedAt": "2015-09-09T21:36:42.000Z",
-      "tarballUrl": "https://api.github.com/repos/zacharyfmarion/Graviton/tarball/v0.1.0-pre-alpha",
-      "zipballUrl": "https://api.github.com/repos/zacharyfmarion/Graviton/zipball/v0.1.0-pre-alpha",
-      "body": "Bare bones of the browser...many bugs but it is not for the most part functional and usable. Future releases will address bugs and flesh out the missing features (bookmarks, context menus, etc).\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:24:13.921Z"
 }

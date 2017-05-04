@@ -70,7 +70,7 @@
   },
   "networkCount": 3,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "lapzclient",
     "productName": "LapzClient",
@@ -88,12 +88,6 @@
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.4.5"
-    },
-    "other": {
-      "author": "Byron Vanstien",
-      "bugs": {
-        "url": "https://github.com/GetRektByMe/LapzClient/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -122,5 +116,6 @@
       "commentCount": 0
     }
   },
-  "filename": "GetRektByMe___LapzClient.json"
+  "filename": "GetRektByMe___LapzClient.json",
+  "lastFetchedAt": "2017-05-04T21:25:41.207Z"
 }

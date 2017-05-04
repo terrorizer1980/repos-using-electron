@@ -5,7 +5,7 @@
   "owner": {
     "login": "TouchOnWeb",
     "id": 23147872,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23147872?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/23147872?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/TouchOnWeb",
     "htmlUrl": "https://github.com/TouchOnWeb",
@@ -19,7 +19,7 @@
   "private": false,
   "htmlUrl": "https://github.com/TouchOnWeb/dofustouch-noemu",
   "description": null,
-  "fork": true,
+  "fork": false,
   "url": "https://api.github.com/repos/TouchOnWeb/dofustouch-noemu",
   "forksUrl": "https://api.github.com/repos/TouchOnWeb/dofustouch-noemu/forks",
   "teamsUrl": "https://api.github.com/repos/TouchOnWeb/dofustouch-noemu/teams",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/TouchOnWeb/dofustouch-noemu/downloads",
   "deploymentsUrl": "https://api.github.com/repos/TouchOnWeb/dofustouch-noemu/deployments",
   "createdAt": "2016-10-30T08:28:29.000Z",
-  "updatedAt": "2016-10-30T08:28:31.000Z",
+  "updatedAt": "2017-03-26T20:53:59.000Z",
   "pushedAt": "2016-11-19T11:49:43.000Z",
   "gitUrl": "git://github.com/TouchOnWeb/dofustouch-noemu.git",
   "sshUrl": "git@github.com:TouchOnWeb/dofustouch-noemu.git",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 16,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -186,7 +186,7 @@
     "watchers": 5,
     "defaultBranch": "master"
   },
-  "networkCount": 6,
+  "networkCount": 16,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -231,10 +231,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "scapain",
-    "TouchOnWeb"
-  ],
   "firstCommit": {
     "sha": "5c492351d4b3a1351163e73f3d82110393009d7a",
     "commit": {
@@ -259,5 +255,6 @@
   },
   "filename": "TouchOnWeb___dofustouch-noemu.json",
   "sourceRepo": "scapain/dofustouch-noemu",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:17:49.128Z"
 }

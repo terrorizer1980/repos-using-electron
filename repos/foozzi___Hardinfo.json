@@ -5,7 +5,7 @@
   "owner": {
     "login": "foozzi",
     "id": 1178208,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1178208?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1178208?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/foozzi",
     "htmlUrl": "https://github.com/foozzi",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/foozzi/Hardinfo/downloads",
   "deploymentsUrl": "https://api.github.com/repos/foozzi/Hardinfo/deployments",
   "createdAt": "2016-11-14T15:30:05.000Z",
-  "updatedAt": "2016-11-24T02:25:07.000Z",
+  "updatedAt": "2017-05-03T00:08:43.000Z",
   "pushedAt": "2016-11-24T22:49:31.000Z",
   "gitUrl": "git://github.com/foozzi/Hardinfo.git",
   "sshUrl": "git@github.com:foozzi/Hardinfo.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/foozzi/Hardinfo",
   "homepage": "",
   "size": 3184,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 13,
+  "watchersCount": 13,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 0,
+  "forksCount": 5,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 4,
+  "watchers": 13,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,7 +62,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 5,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -89,9 +89,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "foozzi"
-  ],
   "firstCommit": {
     "sha": "9d5f75b5bb12493f92ecfd1ca6a9a82d742680ac",
     "commit": {
@@ -115,65 +112,6 @@
     }
   },
   "filename": "foozzi___Hardinfo.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/foozzi/Hardinfo/releases/4722520",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/foozzi/Hardinfo/releases/assets/2691539",
-          "id": 2691539,
-          "name": "Hardinfo.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "foozzi",
-            "id": 1178208,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1178208?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/foozzi",
-            "htmlUrl": "https://github.com/foozzi",
-            "followersUrl": "https://api.github.com/users/foozzi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/foozzi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/foozzi/orgs",
-            "reposUrl": "https://api.github.com/users/foozzi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/foozzi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43181869,
-          "downloadCount": 72,
-          "createdAt": "2016-11-21T20:54:01.000Z",
-          "updatedAt": "2016-11-21T20:55:37.000Z",
-          "browserDownloadUrl": "https://github.com/foozzi/Hardinfo/releases/download/0.0.1/Hardinfo.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/foozzi/Hardinfo/releases/4722520/assets",
-      "htmlUrl": "https://github.com/foozzi/Hardinfo/releases/tag/0.0.1",
-      "id": 4722520,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "First alpha release",
-      "draft": false,
-      "author": {
-        "login": "foozzi",
-        "id": 1178208,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1178208?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/foozzi",
-        "htmlUrl": "https://github.com/foozzi",
-        "followersUrl": "https://api.github.com/users/foozzi/followers",
-        "subscriptionsUrl": "https://api.github.com/users/foozzi/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/foozzi/orgs",
-        "reposUrl": "https://api.github.com/users/foozzi/repos",
-        "receivedEventsUrl": "https://api.github.com/users/foozzi/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-22T06:52:02.000Z",
-      "publishedAt": "2016-11-21T20:56:01.000Z",
-      "tarballUrl": "https://api.github.com/repos/foozzi/Hardinfo/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/foozzi/Hardinfo/zipball/0.0.1",
-      "body": "only support mac os/osx\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:45:19.534Z"
 }

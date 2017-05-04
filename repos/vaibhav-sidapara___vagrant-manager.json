@@ -5,7 +5,7 @@
   "owner": {
     "login": "vaibhav-sidapara",
     "id": 12446475,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12446475?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12446475?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vaibhav-sidapara",
     "htmlUrl": "https://github.com/vaibhav-sidapara",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/downloads",
   "deploymentsUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/deployments",
   "createdAt": "2016-10-02T12:04:44.000Z",
-  "updatedAt": "2016-11-16T20:04:52.000Z",
+  "updatedAt": "2017-05-02T23:57:12.000Z",
   "pushedAt": "2016-10-24T08:08:00.000Z",
   "gitUrl": "git://github.com/vaibhav-sidapara/vagrant-manager.git",
   "sshUrl": "git@github.com:vaibhav-sidapara/vagrant-manager.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/vaibhav-sidapara/vagrant-manager",
   "homepage": null,
   "size": 10650,
-  "stargazersCount": 49,
-  "watchersCount": 49,
+  "stargazersCount": 127,
+  "watchersCount": 127,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 3,
+  "forksCount": 16,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 49,
+  "watchers": 127,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 3,
-  "subscribersCount": 5,
+  "networkCount": 16,
+  "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
     "name": "vagrant-manager",
@@ -96,9 +96,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "vaibhav-sidapara"
-  ],
   "firstCommit": {
     "sha": "d992d43bf5feb99b44c9c751eacab6d900aa2d09",
     "commit": {
@@ -122,124 +119,6 @@
     }
   },
   "filename": "vaibhav-sidapara___vagrant-manager.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/releases/4357049",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/releases/assets/2455289",
-          "id": 2455289,
-          "name": "vagrant-manager-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "vaibhav-sidapara",
-            "id": 12446475,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12446475?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/vaibhav-sidapara",
-            "htmlUrl": "https://github.com/vaibhav-sidapara",
-            "followersUrl": "https://api.github.com/users/vaibhav-sidapara/followers",
-            "subscriptionsUrl": "https://api.github.com/users/vaibhav-sidapara/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/vaibhav-sidapara/orgs",
-            "reposUrl": "https://api.github.com/users/vaibhav-sidapara/repos",
-            "receivedEventsUrl": "https://api.github.com/users/vaibhav-sidapara/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 50055664,
-          "downloadCount": 215,
-          "createdAt": "2016-10-11T10:28:53.000Z",
-          "updatedAt": "2016-10-11T10:30:04.000Z",
-          "browserDownloadUrl": "https://github.com/vaibhav-sidapara/vagrant-manager/releases/download/v1.1/vagrant-manager-linux-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/releases/4357049/assets",
-      "htmlUrl": "https://github.com/vaibhav-sidapara/vagrant-manager/releases/tag/v1.1",
-      "id": 4357049,
-      "tagName": "v1.1",
-      "targetCommitish": "master",
-      "name": "Vagrant Manager V 1.1",
-      "draft": false,
-      "author": {
-        "login": "vaibhav-sidapara",
-        "id": 12446475,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12446475?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/vaibhav-sidapara",
-        "htmlUrl": "https://github.com/vaibhav-sidapara",
-        "followersUrl": "https://api.github.com/users/vaibhav-sidapara/followers",
-        "subscriptionsUrl": "https://api.github.com/users/vaibhav-sidapara/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/vaibhav-sidapara/orgs",
-        "reposUrl": "https://api.github.com/users/vaibhav-sidapara/repos",
-        "receivedEventsUrl": "https://api.github.com/users/vaibhav-sidapara/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-11T10:24:10.000Z",
-      "publishedAt": "2016-10-11T10:30:17.000Z",
-      "tarballUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/tarball/v1.1",
-      "zipballUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/zipball/v1.1",
-      "body": "Version 1.1 of Vagrant Manager for Linux. \n_Solved the URL not opening issue in 'About' page_\n\n> Vagrant Manager is an electron, status bar menu app that lets you manage all of your vagrant machines from one central location.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/releases/4342943",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/releases/assets/2447649",
-          "id": 2447649,
-          "name": "vagrant-manager-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "vaibhav-sidapara",
-            "id": 12446475,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12446475?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/vaibhav-sidapara",
-            "htmlUrl": "https://github.com/vaibhav-sidapara",
-            "followersUrl": "https://api.github.com/users/vaibhav-sidapara/followers",
-            "subscriptionsUrl": "https://api.github.com/users/vaibhav-sidapara/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/vaibhav-sidapara/orgs",
-            "reposUrl": "https://api.github.com/users/vaibhav-sidapara/repos",
-            "receivedEventsUrl": "https://api.github.com/users/vaibhav-sidapara/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 50092770,
-          "downloadCount": 6,
-          "createdAt": "2016-10-10T02:04:26.000Z",
-          "updatedAt": "2016-10-10T02:05:27.000Z",
-          "browserDownloadUrl": "https://github.com/vaibhav-sidapara/vagrant-manager/releases/download/v1.0/vagrant-manager-linux-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/releases/4342943/assets",
-      "htmlUrl": "https://github.com/vaibhav-sidapara/vagrant-manager/releases/tag/v1.0",
-      "id": 4342943,
-      "tagName": "v1.0",
-      "targetCommitish": "master",
-      "name": "Vagrant Manager V 1.0",
-      "draft": false,
-      "author": {
-        "login": "vaibhav-sidapara",
-        "id": 12446475,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12446475?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/vaibhav-sidapara",
-        "htmlUrl": "https://github.com/vaibhav-sidapara",
-        "followersUrl": "https://api.github.com/users/vaibhav-sidapara/followers",
-        "subscriptionsUrl": "https://api.github.com/users/vaibhav-sidapara/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/vaibhav-sidapara/orgs",
-        "reposUrl": "https://api.github.com/users/vaibhav-sidapara/repos",
-        "receivedEventsUrl": "https://api.github.com/users/vaibhav-sidapara/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-09T14:21:48.000Z",
-      "publishedAt": "2016-10-10T02:10:33.000Z",
-      "tarballUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/tarball/v1.0",
-      "zipballUrl": "https://api.github.com/repos/vaibhav-sidapara/vagrant-manager/zipball/v1.0",
-      "body": "Version 1.0 of Vagrant Manager for Linux. \n\n> Vagrant Manager is an electron, status bar menu app that lets you manage all of your vagrant machines from one central location.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:33:39.921Z"
 }

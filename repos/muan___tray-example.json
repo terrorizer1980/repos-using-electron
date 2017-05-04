@@ -5,7 +5,7 @@
   "owner": {
     "login": "muan",
     "id": 1153134,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1153134?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1153134?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/muan",
     "htmlUrl": "https://github.com/muan",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "kevinsawicki",
       "id": 671378,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/671378?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/671378?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/kevinsawicki",
       "htmlUrl": "https://github.com/kevinsawicki",
@@ -79,7 +79,7 @@
     "downloadsUrl": "https://api.github.com/repos/kevinsawicki/tray-example/downloads",
     "deploymentsUrl": "https://api.github.com/repos/kevinsawicki/tray-example/deployments",
     "createdAt": "2016-05-05T00:48:01.000Z",
-    "updatedAt": "2016-11-03T17:20:51.000Z",
+    "updatedAt": "2017-05-03T17:17:49.000Z",
     "pushedAt": "2016-08-12T06:30:00.000Z",
     "gitUrl": "git://github.com/kevinsawicki/tray-example.git",
     "sshUrl": "git@github.com:kevinsawicki/tray-example.git",
@@ -87,18 +87,19 @@
     "svnUrl": "https://github.com/kevinsawicki/tray-example",
     "homepage": null,
     "size": 997,
-    "stargazersCount": 48,
-    "watchersCount": 48,
+    "stargazersCount": 76,
+    "watchersCount": 76,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 8,
+    "forksCount": 12,
     "mirrorUrl": null,
     "openIssuesCount": 2,
     "openIssues": 2,
-    "watchers": 48,
+    "watchers": 76,
     "defaultBranch": "master"
   },
   "source": {
@@ -108,7 +109,7 @@
     "owner": {
       "login": "kevinsawicki",
       "id": 671378,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/671378?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/671378?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/kevinsawicki",
       "htmlUrl": "https://github.com/kevinsawicki",
@@ -138,7 +139,7 @@
     "downloadsUrl": "https://api.github.com/repos/kevinsawicki/tray-example/downloads",
     "deploymentsUrl": "https://api.github.com/repos/kevinsawicki/tray-example/deployments",
     "createdAt": "2016-05-05T00:48:01.000Z",
-    "updatedAt": "2016-11-03T17:20:51.000Z",
+    "updatedAt": "2017-05-03T17:17:49.000Z",
     "pushedAt": "2016-08-12T06:30:00.000Z",
     "gitUrl": "git://github.com/kevinsawicki/tray-example.git",
     "sshUrl": "git@github.com:kevinsawicki/tray-example.git",
@@ -146,21 +147,22 @@
     "svnUrl": "https://github.com/kevinsawicki/tray-example",
     "homepage": null,
     "size": 997,
-    "stargazersCount": 48,
-    "watchersCount": 48,
+    "stargazersCount": 76,
+    "watchersCount": 76,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 8,
+    "forksCount": 12,
     "mirrorUrl": null,
     "openIssuesCount": 2,
     "openIssues": 2,
-    "watchers": 48,
+    "watchers": 76,
     "defaultBranch": "master"
   },
-  "networkCount": 8,
+  "networkCount": 12,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -208,10 +210,6 @@
   "cloneUrl": "https://github.com/muan/tray-example.git",
   "svnUrl": "https://github.com/muan/tray-example",
   "mirrorUrl": null,
-  "contributors": [
-    "kevinsawicki",
-    "alexpeattie"
-  ],
   "firstCommit": {
     "sha": "249f3bd6a9cd23412bff00e571e41b53a1d9ec73",
     "commit": {
@@ -236,5 +234,6 @@
   },
   "filename": "muan___tray-example.json",
   "sourceRepo": "kevinsawicki/tray-example",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:49:03.630Z"
 }

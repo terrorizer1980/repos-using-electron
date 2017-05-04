@@ -5,7 +5,7 @@
   "owner": {
     "login": "sftblw",
     "id": 5573010,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5573010?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5573010?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sftblw",
     "htmlUrl": "https://github.com/sftblw",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/sftblw/dropReplacer/deployments",
   "createdAt": "2016-10-23T07:50:51.000Z",
   "updatedAt": "2016-10-27T20:15:06.000Z",
-  "pushedAt": "2016-10-27T21:30:51.000Z",
+  "pushedAt": "2016-11-28T14:20:44.000Z",
   "gitUrl": "git://github.com/sftblw/dropReplacer.git",
   "sshUrl": "git@github.com:sftblw/dropReplacer.git",
   "cloneUrl": "https://github.com/sftblw/dropReplacer.git",
   "svnUrl": "https://github.com/sftblw/dropReplacer",
   "homepage": "",
-  "size": 500,
+  "size": 499,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -81,9 +81,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "sftblw"
-  ],
   "firstCommit": {
     "sha": "313004b2427b319037a795120785303392984e86",
     "commit": {
@@ -107,92 +104,6 @@
     }
   },
   "filename": "sftblw___dropReplacer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/sftblw/dropReplacer/releases/4504273",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/sftblw/dropReplacer/releases/assets/2544164",
-          "id": 2544164,
-          "name": "dropreplacer-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "sftblw",
-            "id": 5573010,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5573010?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sftblw",
-            "htmlUrl": "https://github.com/sftblw",
-            "followersUrl": "https://api.github.com/users/sftblw/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sftblw/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sftblw/orgs",
-            "reposUrl": "https://api.github.com/users/sftblw/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sftblw/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42955908,
-          "downloadCount": 0,
-          "createdAt": "2016-10-27T21:26:39.000Z",
-          "updatedAt": "2016-10-27T21:28:39.000Z",
-          "browserDownloadUrl": "https://github.com/sftblw/dropReplacer/releases/download/v0.1.1/dropreplacer-win32-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/sftblw/dropReplacer/releases/assets/2544179",
-          "id": 2544179,
-          "name": "dropreplacer-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "sftblw",
-            "id": 5573010,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5573010?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sftblw",
-            "htmlUrl": "https://github.com/sftblw",
-            "followersUrl": "https://api.github.com/users/sftblw/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sftblw/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sftblw/orgs",
-            "reposUrl": "https://api.github.com/users/sftblw/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sftblw/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 53034030,
-          "downloadCount": 0,
-          "createdAt": "2016-10-27T21:29:59.000Z",
-          "updatedAt": "2016-10-27T21:30:50.000Z",
-          "browserDownloadUrl": "https://github.com/sftblw/dropReplacer/releases/download/v0.1.1/dropreplacer-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/sftblw/dropReplacer/releases/4504273/assets",
-      "htmlUrl": "https://github.com/sftblw/dropReplacer/releases/tag/v0.1.1",
-      "id": 4504273,
-      "tagName": "v0.1.1",
-      "targetCommitish": "master",
-      "name": "v0.1.1 : some highlight",
-      "draft": false,
-      "author": {
-        "login": "sftblw",
-        "id": 5573010,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5573010?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/sftblw",
-        "htmlUrl": "https://github.com/sftblw",
-        "followersUrl": "https://api.github.com/users/sftblw/followers",
-        "subscriptionsUrl": "https://api.github.com/users/sftblw/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/sftblw/orgs",
-        "reposUrl": "https://api.github.com/users/sftblw/repos",
-        "receivedEventsUrl": "https://api.github.com/users/sftblw/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-27T21:16:40.000Z",
-      "publishedAt": "2016-10-27T21:30:51.000Z",
-      "tarballUrl": "https://api.github.com/repos/sftblw/dropReplacer/tarball/v0.1.1",
-      "zipballUrl": "https://api.github.com/repos/sftblw/dropReplacer/zipball/v0.1.1",
-      "body": "- icon changed\n- some regex highlight added : '(' ')', '\\'\n\n![honeycam 2016-10-28 06-27-25](https://cloud.githubusercontent.com/assets/5573010/19786262/00eae6e4-9cd8-11e6-886a-c4a5de86246b.gif)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:23:55.386Z"
 }

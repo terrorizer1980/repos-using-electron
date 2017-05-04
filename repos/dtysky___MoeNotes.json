@@ -5,7 +5,7 @@
   "owner": {
     "login": "dtysky",
     "id": 7337763,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7337763?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/7337763?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dtysky",
     "htmlUrl": "https://github.com/dtysky",
@@ -20,21 +20,21 @@
   "description": "A simple note application.",
   "fork": false,
   "createdAt": "2016-03-17T07:31:12.000Z",
-  "updatedAt": "2016-08-09T23:26:44.000Z",
+  "updatedAt": "2017-04-05T00:37:49.000Z",
   "pushedAt": "2016-08-09T11:03:23.000Z",
   "homepage": "http://moe-notes.dtysky.moe",
   "size": 53231,
-  "stargazersCount": 31,
-  "watchersCount": 31,
+  "stargazersCount": 45,
+  "watchersCount": 45,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 31,
+  "forksCount": 3,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 45,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
-  "networkCount": 2,
-  "subscribersCount": 4,
+  "networkCount": 3,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "MoeNotes",
@@ -123,18 +123,9 @@
       "string-hash": "^1.1.0",
       "string-width": "^1.0.1",
       "wkhtmltopdf": "^0.3.1"
-    },
-    "other": {
-      "author": "Tianyu Dai (dtysky)<dtysky@outlook.com>",
-      "bugs": {
-        "url": "https://github.com/dtysky/MoeNotes/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "dtysky"
-  ],
   "firstCommit": {
     "sha": "5d6de083450f6609f3d2329ba2416e5e9d567338",
     "commit": {
@@ -158,68 +149,26 @@
     }
   },
   "filename": "dtysky___MoeNotes.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/dtysky/MoeNotes/releases/3606026",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/dtysky/MoeNotes/releases/3606026/assets",
-      "htmlUrl": "https://github.com/dtysky/MoeNotes/releases/tag/v0.9",
-      "id": 3606026,
-      "tagName": "v0.9",
-      "targetCommitish": "master",
-      "name": "Version 0.9",
-      "draft": false,
-      "author": {
-        "login": "dtysky",
-        "id": 7337763,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7337763?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/dtysky",
-        "htmlUrl": "https://github.com/dtysky",
-        "followersUrl": "https://api.github.com/users/dtysky/followers",
-        "subscriptionsUrl": "https://api.github.com/users/dtysky/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/dtysky/orgs",
-        "reposUrl": "https://api.github.com/users/dtysky/repos",
-        "receivedEventsUrl": "https://api.github.com/users/dtysky/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-07T11:50:14.000Z",
-      "publishedAt": "2016-07-07T11:51:29.000Z",
-      "tarballUrl": "https://api.github.com/repos/dtysky/MoeNotes/tarball/v0.9",
-      "zipballUrl": "https://api.github.com/repos/dtysky/MoeNotes/zipball/v0.9",
-      "body": "[mac osx](https://www.jianguoyun.com/p/Ddg0ywMQn-T6BRi81xQ)  \n[linux 32bit](https://www.jianguoyun.com/p/Dcr69WIQn-T6BRi-1xQ)  \n[linux 64bit](https://www.jianguoyun.com/p/DQxzWw4Qn-T6BRjA1xQ)  \n[windows 32bit](https://www.jianguoyun.com/p/Df8YFa4Qn-T6BRjC1xQ)  \n[windows 64bit](https://www.jianguoyun.com/p/Dae7f3MQn-T6BRjE1xQ)  \n"
-    },
-    {
-      "url": "https://api.github.com/repos/dtysky/MoeNotes/releases/3261795",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/dtysky/MoeNotes/releases/3261795/assets",
-      "htmlUrl": "https://github.com/dtysky/MoeNotes/releases/tag/v0.8",
-      "id": 3261795,
-      "tagName": "v0.8",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "dtysky",
-        "id": 7337763,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7337763?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/dtysky",
-        "htmlUrl": "https://github.com/dtysky",
-        "followersUrl": "https://api.github.com/users/dtysky/followers",
-        "subscriptionsUrl": "https://api.github.com/users/dtysky/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/dtysky/orgs",
-        "reposUrl": "https://api.github.com/users/dtysky/repos",
-        "receivedEventsUrl": "https://api.github.com/users/dtysky/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-19T14:15:16.000Z",
-      "publishedAt": "2016-05-19T14:36:22.000Z",
-      "tarballUrl": "https://api.github.com/repos/dtysky/MoeNotes/tarball/v0.8",
-      "zipballUrl": "https://api.github.com/repos/dtysky/MoeNotes/zipball/v0.8",
-      "body": "The first release, you can download them here:  \n\n[mac osx](https://www.jianguoyun.com/p/Ddg0ywMQn-T6BRi81xQ)  \n[linux 32bit](https://www.jianguoyun.com/p/Dcr69WIQn-T6BRi-1xQ)  \n[linux 64bit](https://www.jianguoyun.com/p/DQxzWw4Qn-T6BRjA1xQ)  \n[windows 32bit](https://www.jianguoyun.com/p/Df8YFa4Qn-T6BRjC1xQ)  \n[windows 64bit](https://www.jianguoyun.com/p/Dae7f3MQn-T6BRjE1xQ)  \n"
-    }
-  ]
+  "htmlUrl": "https://github.com/dtysky/MoeNotes",
+  "url": "https://api.github.com/repos/dtysky/MoeNotes",
+  "forksUrl": "https://api.github.com/repos/dtysky/MoeNotes/forks",
+  "teamsUrl": "https://api.github.com/repos/dtysky/MoeNotes/teams",
+  "hooksUrl": "https://api.github.com/repos/dtysky/MoeNotes/hooks",
+  "eventsUrl": "https://api.github.com/repos/dtysky/MoeNotes/events",
+  "tagsUrl": "https://api.github.com/repos/dtysky/MoeNotes/tags",
+  "languagesUrl": "https://api.github.com/repos/dtysky/MoeNotes/languages",
+  "stargazersUrl": "https://api.github.com/repos/dtysky/MoeNotes/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dtysky/MoeNotes/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dtysky/MoeNotes/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dtysky/MoeNotes/subscription",
+  "mergesUrl": "https://api.github.com/repos/dtysky/MoeNotes/merges",
+  "downloadsUrl": "https://api.github.com/repos/dtysky/MoeNotes/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dtysky/MoeNotes/deployments",
+  "gitUrl": "git://github.com/dtysky/MoeNotes.git",
+  "sshUrl": "git@github.com:dtysky/MoeNotes.git",
+  "cloneUrl": "https://github.com/dtysky/MoeNotes.git",
+  "svnUrl": "https://github.com/dtysky/MoeNotes",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:48:04.196Z"
 }

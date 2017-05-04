@@ -5,7 +5,7 @@
   "owner": {
     "login": "solancer",
     "id": 800668,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/800668?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/800668?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/solancer",
     "htmlUrl": "https://github.com/solancer",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "MhdAljuboori",
       "id": 963054,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/963054?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/963054?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/MhdAljuboori",
       "htmlUrl": "https://github.com/MhdAljuboori",
@@ -91,6 +91,7 @@
     "watchersCount": 0,
     "language": "JavaScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": false,
     "hasPages": false,
@@ -108,7 +109,7 @@
     "owner": {
       "login": "onehungrymind",
       "id": 17818009,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17818009?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/17818009?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/onehungrymind",
       "htmlUrl": "https://github.com/onehungrymind",
@@ -138,7 +139,7 @@
     "downloadsUrl": "https://api.github.com/repos/onehungrymind/electrogram/downloads",
     "deploymentsUrl": "https://api.github.com/repos/onehungrymind/electrogram/deployments",
     "createdAt": "2016-04-14T18:42:21.000Z",
-    "updatedAt": "2016-11-02T11:19:25.000Z",
+    "updatedAt": "2017-04-29T02:07:32.000Z",
     "pushedAt": "2016-10-31T17:54:35.000Z",
     "gitUrl": "git://github.com/onehungrymind/electrogram.git",
     "sshUrl": "git@github.com:onehungrymind/electrogram.git",
@@ -146,21 +147,22 @@
     "svnUrl": "https://github.com/onehungrymind/electrogram",
     "homepage": null,
     "size": 1737,
-    "stargazersCount": 49,
-    "watchersCount": 49,
+    "stargazersCount": 67,
+    "watchersCount": 67,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 23,
+    "forksCount": 31,
     "mirrorUrl": null,
-    "openIssuesCount": 3,
-    "openIssues": 3,
-    "watchers": 49,
+    "openIssuesCount": 4,
+    "openIssues": 4,
+    "watchers": 67,
     "defaultBranch": "master"
   },
-  "networkCount": 23,
+  "networkCount": 31,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -223,11 +225,6 @@
   "cloneUrl": "https://github.com/solancer/angular2-electron-starter.git",
   "svnUrl": "https://github.com/solancer/angular2-electron-starter",
   "mirrorUrl": null,
-  "contributors": [
-    "jdgarvey",
-    "simpulton",
-    "MhdAljuboori"
-  ],
   "firstCommit": {
     "sha": "8e91047d3a0c93c915e22a2ace36aa58c0b005a2",
     "commit": {
@@ -252,5 +249,6 @@
   },
   "filename": "solancer___angular2-electron-starter.json",
   "sourceRepo": "onehungrymind/electrogram",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:36:15.851Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "mradionov",
     "id": 2007370,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2007370?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2007370?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mradionov",
     "htmlUrl": "https://github.com/mradionov",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/mradionov/hanshot",
-  "description": "WIP Screenshot tool built with electron",
+  "description": "ABANDONED Screenshot tool built with electron",
   "fork": false,
   "url": "https://api.github.com/repos/mradionov/hanshot",
   "forksUrl": "https://api.github.com/repos/mradionov/hanshot/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/mradionov/hanshot/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mradionov/hanshot/deployments",
   "createdAt": "2016-03-03T19:35:46.000Z",
-  "updatedAt": "2016-06-18T21:24:01.000Z",
-  "pushedAt": "2016-08-10T12:22:14.000Z",
+  "updatedAt": "2017-04-24T20:59:03.000Z",
+  "pushedAt": "2017-02-05T21:00:30.000Z",
   "gitUrl": "git://github.com/mradionov/hanshot.git",
   "sshUrl": "git@github.com:mradionov/hanshot.git",
   "cloneUrl": "https://github.com/mradionov/hanshot.git",
   "svnUrl": "https://github.com/mradionov/hanshot",
   "homepage": "",
-  "size": 396,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 373,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "hanshot",
@@ -119,9 +119,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mradionov"
-  ],
   "firstCommit": {
     "sha": "4e04d27bb875657b1b2468d17db0b25ae61a9715",
     "commit": {
@@ -145,5 +142,6 @@
     }
   },
   "filename": "mradionov___hanshot.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:29:33.427Z"
 }

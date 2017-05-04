@@ -5,7 +5,7 @@
   "owner": {
     "login": "AtelierCartographie",
     "id": 16921412,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16921412?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16921412?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AtelierCartographie",
     "htmlUrl": "https://github.com/AtelierCartographie",
@@ -17,35 +17,41 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": "Khartis - thematic mapping",
   "fork": false,
   "createdAt": "2016-02-01T09:42:17.000Z",
-  "updatedAt": "2016-07-11T12:02:57.000Z",
-  "pushedAt": "2016-08-12T14:07:10.000Z",
-  "homepage": null,
-  "size": 5107,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "updatedAt": "2017-04-28T16:47:34.000Z",
+  "pushedAt": "2017-04-26T12:50:22.000Z",
+  "homepage": "http://www.sciencespo.fr/cartographie/khartis/",
+  "size": 43709,
+  "stargazersCount": 32,
+  "watchersCount": 32,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
-  "forksCount": 2,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 1,
+  "hasPages": true,
+  "forksCount": 4,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 32,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "organization": {
     "login": "AtelierCartographie",
     "id": 16921412,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16921412?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16921412?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AtelierCartographie",
     "htmlUrl": "https://github.com/AtelierCartographie",
@@ -56,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/AtelierCartographie/received_events",
     "type": "Organization"
   },
-  "networkCount": 2,
-  "subscribersCount": 6,
+  "networkCount": 4,
+  "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
     "name": "mapp",
@@ -113,25 +119,9 @@
     "dependencies": {
       "ember-load-initializers": "^0.5.1",
       "topojson": "^1.6.24"
-    },
-    "other": {
-      "author": "",
-      "directories": {
-        "doc": "doc",
-        "test": "tests"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "apezel",
-    "rpora",
-    "TomBor",
-    "boogheta",
-    "bverjat",
-    "RouxRC",
-    "ember-tomster"
-  ],
   "firstCommit": {
     "sha": "c1f2ba3e6a6f66201a26a68b250e55d92f3b9866",
     "commit": {
@@ -155,37 +145,26 @@
     }
   },
   "filename": "AtelierCartographie___mapp.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/AtelierCartographie/Khartis/releases/4591022",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/releases/4591022/assets",
-      "htmlUrl": "https://github.com/AtelierCartographie/Khartis/releases/tag/1.0.0",
-      "id": 4591022,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "1.0.0",
-      "draft": false,
-      "author": {
-        "login": "TomBor",
-        "id": 8322713,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8322713?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/TomBor",
-        "htmlUrl": "https://github.com/TomBor",
-        "followersUrl": "https://api.github.com/users/TomBor/followers",
-        "subscriptionsUrl": "https://api.github.com/users/TomBor/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/TomBor/orgs",
-        "reposUrl": "https://api.github.com/users/TomBor/repos",
-        "receivedEventsUrl": "https://api.github.com/users/TomBor/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-03T13:39:38.000Z",
-      "publishedAt": "2016-11-07T14:40:32.000Z",
-      "tarballUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/AtelierCartographie/Khartis",
+  "url": "https://api.github.com/repos/AtelierCartographie/Khartis",
+  "forksUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/forks",
+  "teamsUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/teams",
+  "hooksUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/hooks",
+  "eventsUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/events",
+  "tagsUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/tags",
+  "languagesUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/languages",
+  "stargazersUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/contributors",
+  "subscribersUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/subscription",
+  "mergesUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/merges",
+  "downloadsUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/AtelierCartographie/Khartis/deployments",
+  "gitUrl": "git://github.com/AtelierCartographie/Khartis.git",
+  "sshUrl": "git@github.com:AtelierCartographie/Khartis.git",
+  "cloneUrl": "https://github.com/AtelierCartographie/Khartis.git",
+  "svnUrl": "https://github.com/AtelierCartographie/Khartis",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:25:14.452Z"
 }

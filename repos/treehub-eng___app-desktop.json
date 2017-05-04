@@ -78,7 +78,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "treehub",
     "version": "0.0.0",
@@ -123,9 +123,6 @@
           "always-multiline"
         ]
       }
-    },
-    "other": {
-      "author": "John Clark <socrates37@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -154,5 +151,6 @@
       "commentCount": 0
     }
   },
-  "filename": "treehub-eng___app-desktop.json"
+  "filename": "treehub-eng___app-desktop.json",
+  "lastFetchedAt": "2017-05-04T20:07:50.101Z"
 }

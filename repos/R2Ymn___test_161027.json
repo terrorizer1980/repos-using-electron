@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "clock",
     "version": "0.0.0",
@@ -73,7 +73,6 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "test_dev",
     "license": "MIT",
     "dependencies": {
       "electron": "1.4.4"
@@ -82,5 +81,7 @@
   "packageStatus": 200,
   "contributors": [
     "R2Ymn"
-  ]
+  ],
+  "filename": "R2Ymn___test_161027.json",
+  "lastFetchedAt": "2017-05-04T18:06:57.408Z"
 }

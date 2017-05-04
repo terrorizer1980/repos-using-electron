@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "my-buddy",
     "version": "1.0.0",
@@ -127,5 +127,7 @@
       "url": "https://api.github.com/repos/mbret/my-buddy-old/git/commits/ba0bdd28f2226aebd9bec6e0f45edc791adac455",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "mbret___my-buddy-old.json",
+  "lastFetchedAt": "2017-05-04T20:56:38.463Z"
 }

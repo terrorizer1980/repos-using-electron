@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-test-field",
     "version": "1.0.0",
@@ -59,24 +59,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/terrytongcc/electron-testfield.git"
-    },
+    "repository": "https://github.com/terrytongcc/electron-testfield",
     "keywords": [
       "Electron",
       "test",
       "field"
     ],
-    "author": "Terry Tong",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/terrytongcc/electron-testfield/issues"
-    },
     "homepage": "https://github.com/electron/electron-testfield#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.1"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "terrytongcc___electron-testfield.json",
+  "lastFetchedAt": "2017-05-04T05:36:51.798Z"
 }

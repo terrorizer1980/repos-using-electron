@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "diepio-desktop",
     "version": "1.0.0",
@@ -114,9 +114,6 @@
     },
     "watch": {
       "start": "*.js"
-    },
-    "other": {
-      "author": "Icx4Lemon"
     }
   },
   "packageStatus": 200,
@@ -145,5 +142,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Icx4Lemon___diepio-desktop.json"
+  "filename": "Icx4Lemon___diepio-desktop.json",
+  "lastFetchedAt": "2017-05-04T14:53:33.900Z"
 }

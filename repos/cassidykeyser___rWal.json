@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "r-wal",
     "version": "0.0.0",
@@ -91,11 +91,6 @@
       "presets": [
         "es2015"
       ]
-    },
-    "other": {
-      "author": {
-        "name": "Cassidy"
-      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +119,6 @@
       "commentCount": 0
     }
   },
-  "filename": "cassidykeyser___rWal.json"
+  "filename": "cassidykeyser___rWal.json",
+  "lastFetchedAt": "2017-05-04T14:20:04.786Z"
 }

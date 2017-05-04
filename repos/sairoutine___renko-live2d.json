@@ -5,7 +5,7 @@
   "owner": {
     "login": "sairoutine",
     "id": 6726054,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6726054?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6726054?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sairoutine",
     "htmlUrl": "https://github.com/sairoutine",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/sairoutine/renko-live2d/downloads",
   "deploymentsUrl": "https://api.github.com/repos/sairoutine/renko-live2d/deployments",
   "createdAt": "2016-10-08T06:01:21.000Z",
-  "updatedAt": "2016-10-09T11:18:14.000Z",
+  "updatedAt": "2017-04-13T02:26:40.000Z",
   "pushedAt": "2016-10-09T11:05:55.000Z",
   "gitUrl": "git://github.com/sairoutine/renko-live2d.git",
   "sshUrl": "git@github.com:sairoutine/renko-live2d.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/sairoutine/renko-live2d",
   "homepage": "https://taimen.jp/view/?item_id=2355",
   "size": 4646,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -86,9 +86,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "sairoutine"
-  ],
   "firstCommit": {
     "sha": "08c889ee26335f8f90bbf30dea5569b49d204dce",
     "commit": {
@@ -112,65 +109,6 @@
     }
   },
   "filename": "sairoutine___renko-live2d.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/sairoutine/renko-live2d/releases/4342458",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/sairoutine/renko-live2d/releases/assets/2445705",
-          "id": 2445705,
-          "name": "Renko.zip",
-          "label": null,
-          "uploader": {
-            "login": "sairoutine",
-            "id": 6726054,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6726054?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sairoutine",
-            "htmlUrl": "https://github.com/sairoutine",
-            "followersUrl": "https://api.github.com/users/sairoutine/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sairoutine/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sairoutine/orgs",
-            "reposUrl": "https://api.github.com/users/sairoutine/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sairoutine/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 95252722,
-          "downloadCount": 3,
-          "createdAt": "2016-10-09T11:06:12.000Z",
-          "updatedAt": "2016-10-09T11:08:15.000Z",
-          "browserDownloadUrl": "https://github.com/sairoutine/renko-live2d/releases/download/0.0.1/Renko.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/sairoutine/renko-live2d/releases/4342458/assets",
-      "htmlUrl": "https://github.com/sairoutine/renko-live2d/releases/tag/0.0.1",
-      "id": 4342458,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "Release!",
-      "draft": false,
-      "author": {
-        "login": "sairoutine",
-        "id": 6726054,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6726054?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/sairoutine",
-        "htmlUrl": "https://github.com/sairoutine",
-        "followersUrl": "https://api.github.com/users/sairoutine/followers",
-        "subscriptionsUrl": "https://api.github.com/users/sairoutine/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/sairoutine/orgs",
-        "reposUrl": "https://api.github.com/users/sairoutine/repos",
-        "receivedEventsUrl": "https://api.github.com/users/sairoutine/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-09T11:01:21.000Z",
-      "publishedAt": "2016-10-09T11:05:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/sairoutine/renko-live2d/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/sairoutine/renko-live2d/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:05:11.717Z"
 }

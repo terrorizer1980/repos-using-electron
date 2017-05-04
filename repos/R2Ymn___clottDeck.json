@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-test",
     "version": "0.0.0a",
@@ -76,9 +76,6 @@
     "dependencies": {},
     "devDependencies": {
       "electron": "1.4.4"
-    },
-    "other": {
-      "author": "testdev"
     }
   },
   "packageStatus": 200,
@@ -107,5 +104,6 @@
       "commentCount": 0
     }
   },
-  "filename": "R2Ymn___clottDeck.json"
+  "filename": "R2Ymn___clottDeck.json",
+  "lastFetchedAt": "2017-05-04T19:56:22.555Z"
 }

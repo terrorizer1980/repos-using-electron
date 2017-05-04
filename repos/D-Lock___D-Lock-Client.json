@@ -5,7 +5,7 @@
   "owner": {
     "login": "D-Lock",
     "id": 22488641,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22488641?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/22488641?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/D-Lock",
     "htmlUrl": "https://github.com/D-Lock",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/D-Lock/D-Lock-Client",
-  "description": "The Desktop Client for D-Lock",
+  "description": "The Desktop Client for D-Loc",
   "fork": false,
   "url": "https://api.github.com/repos/D-Lock/D-Lock-Client",
   "forksUrl": "https://api.github.com/repos/D-Lock/D-Lock-Client/forks",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/D-Lock/D-Lock-Client/downloads",
   "deploymentsUrl": "https://api.github.com/repos/D-Lock/D-Lock-Client/deployments",
   "createdAt": "2016-10-01T10:23:59.000Z",
-  "updatedAt": "2016-10-29T21:25:19.000Z",
-  "pushedAt": "2016-11-07T05:57:29.000Z",
+  "updatedAt": "2017-01-01T07:35:36.000Z",
+  "pushedAt": "2017-01-08T16:54:36.000Z",
   "gitUrl": "git://github.com/D-Lock/D-Lock-Client.git",
   "sshUrl": "git@github.com:D-Lock/D-Lock-Client.git",
   "cloneUrl": "https://github.com/D-Lock/D-Lock-Client.git",
   "svnUrl": "https://github.com/D-Lock/D-Lock-Client",
-  "homepage": null,
-  "size": 112,
-  "stargazersCount": 0,
-  "watchersCount": 0,
-  "language": "CSS",
+  "homepage": "",
+  "size": 122,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "D-Lock",
     "id": 22488641,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22488641?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/22488641?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/D-Lock",
     "htmlUrl": "https://github.com/D-Lock",
@@ -161,11 +161,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "RedbackThomson",
-    "Tremainne",
-    "FuturizeHandgun"
-  ],
   "firstCommit": {
     "sha": "b249a14a68e920cef40b894b68732e44033b586c",
     "commit": {
@@ -189,5 +184,6 @@
     }
   },
   "filename": "D-Lock___D-Lock-Client.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:25:00.783Z"
 }

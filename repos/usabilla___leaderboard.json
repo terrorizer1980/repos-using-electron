@@ -5,7 +5,7 @@
   "owner": {
     "login": "usabilla",
     "id": 10025907,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10025907?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/10025907?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/usabilla",
     "htmlUrl": "https://github.com/usabilla",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/usabilla/leaderboard/downloads",
   "deploymentsUrl": "https://api.github.com/repos/usabilla/leaderboard/deployments",
   "createdAt": "2015-10-21T20:42:50.000Z",
-  "updatedAt": "2016-09-09T20:23:23.000Z",
-  "pushedAt": "2016-11-01T08:17:54.000Z",
+  "updatedAt": "2017-02-18T13:14:25.000Z",
+  "pushedAt": "2017-02-18T20:25:15.000Z",
   "gitUrl": "git://github.com/usabilla/leaderboard.git",
   "sshUrl": "git@github.com:usabilla/leaderboard.git",
   "cloneUrl": "https://github.com/usabilla/leaderboard.git",
   "svnUrl": "https://github.com/usabilla/leaderboard",
   "homepage": "",
-  "size": 2219,
+  "size": 2327,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "TypeScript",
@@ -71,7 +71,7 @@
   "organization": {
     "login": "usabilla",
     "id": 10025907,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10025907?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/10025907?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/usabilla",
     "htmlUrl": "https://github.com/usabilla",
@@ -83,7 +83,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 16,
+  "subscribersCount": 14,
   "status": 200,
   "packageJSON": {
     "name": "leaderboard",
@@ -142,9 +142,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "spirosikmd"
-  ],
   "firstCommit": {
     "sha": "bdc7aa4dfe770c3456723686bdf6c714d0cfed44",
     "commit": {
@@ -168,65 +165,6 @@
     }
   },
   "filename": "usabilla___leaderboard.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/usabilla/leaderboard/releases/4094051",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/usabilla/leaderboard/releases/assets/2410126",
-          "id": 2410126,
-          "name": "Leaderboard-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "spirosikmd",
-            "id": 1057324,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1057324?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/spirosikmd",
-            "htmlUrl": "https://github.com/spirosikmd",
-            "followersUrl": "https://api.github.com/users/spirosikmd/followers",
-            "subscriptionsUrl": "https://api.github.com/users/spirosikmd/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/spirosikmd/orgs",
-            "reposUrl": "https://api.github.com/users/spirosikmd/repos",
-            "receivedEventsUrl": "https://api.github.com/users/spirosikmd/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44661604,
-          "downloadCount": 0,
-          "createdAt": "2016-10-02T10:08:30.000Z",
-          "updatedAt": "2016-10-02T10:09:22.000Z",
-          "browserDownloadUrl": "https://github.com/usabilla/leaderboard/releases/download/v1.0.0/Leaderboard-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/usabilla/leaderboard/releases/4094051/assets",
-      "htmlUrl": "https://github.com/usabilla/leaderboard/releases/tag/v1.0.0",
-      "id": 4094051,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "spirosikmd",
-        "id": 1057324,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1057324?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/spirosikmd",
-        "htmlUrl": "https://github.com/spirosikmd",
-        "followersUrl": "https://api.github.com/users/spirosikmd/followers",
-        "subscriptionsUrl": "https://api.github.com/users/spirosikmd/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/spirosikmd/orgs",
-        "reposUrl": "https://api.github.com/users/spirosikmd/repos",
-        "receivedEventsUrl": "https://api.github.com/users/spirosikmd/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-11T22:23:23.000Z",
-      "publishedAt": "2016-10-02T10:07:56.000Z",
-      "tarballUrl": "https://api.github.com/repos/usabilla/leaderboard/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/usabilla/leaderboard/zipball/v1.0.0",
-      "body": "- [x] Use electron\n- [x] Ability to create games and register players\n- [x] Use PouchDB instead of local storage\n- [x] Ability to add `play` sound on runtime\n- [x] Migration to TypeScript\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:46:15.482Z"
 }

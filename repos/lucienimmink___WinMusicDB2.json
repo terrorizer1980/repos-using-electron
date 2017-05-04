@@ -5,7 +5,7 @@
   "owner": {
     "login": "lucienimmink",
     "id": 5187882,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5187882?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5187882?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lucienimmink",
     "htmlUrl": "https://github.com/lucienimmink",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/lucienimmink/WinMusicDB2/downloads",
   "deploymentsUrl": "https://api.github.com/repos/lucienimmink/WinMusicDB2/deployments",
   "createdAt": "2014-12-17T20:45:24.000Z",
-  "updatedAt": "2016-09-25T16:13:11.000Z",
-  "pushedAt": "2016-11-15T21:45:13.000Z",
+  "updatedAt": "2017-03-30T10:40:35.000Z",
+  "pushedAt": "2017-04-30T15:05:23.000Z",
   "gitUrl": "git://github.com/lucienimmink/WinMusicDB2.git",
   "sshUrl": "git@github.com:lucienimmink/WinMusicDB2.git",
   "cloneUrl": "https://github.com/lucienimmink/WinMusicDB2.git",
   "svnUrl": "https://github.com/lucienimmink/WinMusicDB2",
   "homepage": null,
-  "size": 38616,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 38642,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -93,27 +93,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lucienimmink",
-    "kevinsawicki",
-    "tcyrus",
-    "zeke",
-    "izuzak",
-    "bokuweb",
-    "galeksandrp",
-    "clemens-tolboom",
-    "posva",
-    "thompsonemerson",
-    "IonicaBizau",
-    "johnmuhl",
-    "phanect",
-    "louistsaitszho",
-    "sahildua2305",
-    "Shriken",
-    "fscherwi",
-    "icoxfog417",
-    "laiso"
-  ],
   "firstCommit": {
     "sha": "e94fa49e245e39be979f3c956f6c3c77c8554227",
     "commit": {
@@ -137,37 +116,6 @@
     }
   },
   "filename": "lucienimmink___WinMusicDB2.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/lucienimmink/WinMusicDB2/releases/1439364",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/lucienimmink/WinMusicDB2/releases/1439364/assets",
-      "htmlUrl": "https://github.com/lucienimmink/WinMusicDB2/releases/tag/0.91",
-      "id": 1439364,
-      "tagName": "0.91",
-      "targetCommitish": "master",
-      "name": "First beta; angular 1.4",
-      "draft": false,
-      "author": {
-        "login": "lucienimmink",
-        "id": 5187882,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5187882?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lucienimmink",
-        "htmlUrl": "https://github.com/lucienimmink",
-        "followersUrl": "https://api.github.com/users/lucienimmink/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lucienimmink/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lucienimmink/orgs",
-        "reposUrl": "https://api.github.com/users/lucienimmink/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lucienimmink/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-06-19T16:53:00.000Z",
-      "publishedAt": "2015-06-19T20:43:35.000Z",
-      "tarballUrl": "https://api.github.com/repos/lucienimmink/WinMusicDB2/tarball/0.91",
-      "zipballUrl": "https://api.github.com/repos/lucienimmink/WinMusicDB2/zipball/0.91",
-      "body": "No new features; updated angular to the latest version. goal of the tagged commits is to aim for a 1.0 release\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:41:09.617Z"
 }

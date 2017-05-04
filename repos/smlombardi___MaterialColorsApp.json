@@ -162,7 +162,7 @@
   },
   "networkCount": 82,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "material-colors",
     "appDisplayName": "Design System Colors",
@@ -171,7 +171,6 @@
     "version": "1.0.1",
     "description": "A quick color palette for design system colors.",
     "main": "main.js",
-    "author": "Roman Nurik",
     "private": true,
     "devDependencies": {
       "del": "^2.2.0",
@@ -190,6 +189,9 @@
     },
     "dependencies": {
       "yargs": "^4.2.0"
+    },
+    "other": {
+      "author": "Roman Nurik"
     }
   },
   "packageStatus": 200,
@@ -198,5 +200,7 @@
     "wulfmeister",
     "eveliotc",
     "smlombardi"
-  ]
+  ],
+  "filename": "smlombardi___MaterialColorsApp.json",
+  "lastFetchedAt": "2017-05-04T17:46:44.112Z"
 }

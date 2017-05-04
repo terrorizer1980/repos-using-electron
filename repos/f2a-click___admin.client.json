@@ -84,7 +84,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "admin.client",
     "version": "1.0.0",
@@ -94,16 +94,9 @@
       "lint": "eslint src",
       "build": "webpack"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/f2a-click/admin.client.git"
-    },
+    "repository": "https://github.com/f2a-click/admin.client",
     "keywords": [],
-    "author": "Zakhar Skorokhodov <zakhar@unco-games.me> (https://github.com/unco-games)",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/f2a-click/admin.client/issues"
-    },
     "homepage": "https://github.com/f2a-click/admin.client",
     "devDependencies": {
       "babel-core": "^6.18.0",
@@ -128,5 +121,7 @@
   "packageStatus": 200,
   "contributors": [
     "unco-games"
-  ]
+  ],
+  "filename": "f2a-click___admin.client.json",
+  "lastFetchedAt": "2017-05-04T21:02:43.829Z"
 }

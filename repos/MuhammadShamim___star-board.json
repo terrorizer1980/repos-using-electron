@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "star-board",
     "version": "1.0.0",
@@ -90,12 +90,6 @@
     },
     "dependencies": {
       "jquery": "^2.2.4"
-    },
-    "other": {
-      "author": "Muhammad Akhtar Shamim",
-      "bugs": {
-        "url": "https://github.com/MuhammadShamim/star-board/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +118,6 @@
       "commentCount": 0
     }
   },
-  "filename": "MuhammadShamim___star-board.json"
+  "filename": "MuhammadShamim___star-board.json",
+  "lastFetchedAt": "2017-05-04T17:34:48.814Z"
 }

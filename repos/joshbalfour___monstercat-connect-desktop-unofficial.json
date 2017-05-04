@@ -5,7 +5,7 @@
   "owner": {
     "login": "joshbalfour",
     "id": 1060378,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1060378?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1060378?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/joshbalfour",
     "htmlUrl": "https://github.com/joshbalfour",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/downloads",
   "deploymentsUrl": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/deployments",
   "createdAt": "2016-01-10T16:40:20.000Z",
-  "updatedAt": "2016-09-30T05:16:08.000Z",
+  "updatedAt": "2017-01-20T21:49:33.000Z",
   "pushedAt": "2016-01-10T17:57:03.000Z",
   "gitUrl": "git://github.com/joshbalfour/monstercat-connect-desktop-unofficial.git",
   "sshUrl": "git@github.com:joshbalfour/monstercat-connect-desktop-unofficial.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/joshbalfour/monstercat-connect-desktop-unofficial",
   "homepage": "",
   "size": 973,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 4,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": false
   },
   "networkCount": 2,
-  "subscribersCount": 4,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "monstercat-connect-desktop-unofficial",
@@ -95,9 +95,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "joshbalfour"
-  ],
   "firstCommit": {
     "sha": "640416ab76836433f91bdb75be872ec1d0bd90d5",
     "commit": {
@@ -121,92 +118,6 @@
     }
   },
   "filename": "joshbalfour___monstercat-connect-desktop-unofficial.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/releases/2401411",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/releases/assets/1197498",
-          "id": 1197498,
-          "name": "OS.X.-.Unofficial.Monstercat.Connect.Desktop.dmg",
-          "label": null,
-          "uploader": {
-            "login": "joshbalfour",
-            "id": 1060378,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1060378?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/joshbalfour",
-            "htmlUrl": "https://github.com/joshbalfour",
-            "followersUrl": "https://api.github.com/users/joshbalfour/followers",
-            "subscriptionsUrl": "https://api.github.com/users/joshbalfour/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/joshbalfour/orgs",
-            "reposUrl": "https://api.github.com/users/joshbalfour/repos",
-            "receivedEventsUrl": "https://api.github.com/users/joshbalfour/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 38066975,
-          "downloadCount": 66,
-          "createdAt": "2016-01-10T16:41:13.000Z",
-          "updatedAt": "2016-01-10T16:44:10.000Z",
-          "browserDownloadUrl": "https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/releases/download/v0.1-alpha/OS.X.-.Unofficial.Monstercat.Connect.Desktop.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/releases/assets/1197499",
-          "id": 1197499,
-          "name": "Windows.-.Unofficial.Monstercat.Connect.Desktop.Setup.exe",
-          "label": null,
-          "uploader": {
-            "login": "joshbalfour",
-            "id": 1060378,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1060378?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/joshbalfour",
-            "htmlUrl": "https://github.com/joshbalfour",
-            "followersUrl": "https://api.github.com/users/joshbalfour/followers",
-            "subscriptionsUrl": "https://api.github.com/users/joshbalfour/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/joshbalfour/orgs",
-            "reposUrl": "https://api.github.com/users/joshbalfour/repos",
-            "receivedEventsUrl": "https://api.github.com/users/joshbalfour/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 41354057,
-          "downloadCount": 184,
-          "createdAt": "2016-01-10T16:41:57.000Z",
-          "updatedAt": "2016-01-10T16:44:10.000Z",
-          "browserDownloadUrl": "https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/releases/download/v0.1-alpha/Windows.-.Unofficial.Monstercat.Connect.Desktop.Setup.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/releases/2401411/assets",
-      "htmlUrl": "https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/releases/tag/v0.1-alpha",
-      "id": 2401411,
-      "tagName": "v0.1-alpha",
-      "targetCommitish": "master",
-      "name": "v0.1-alpha",
-      "draft": false,
-      "author": {
-        "login": "joshbalfour",
-        "id": 1060378,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1060378?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/joshbalfour",
-        "htmlUrl": "https://github.com/joshbalfour",
-        "followersUrl": "https://api.github.com/users/joshbalfour/followers",
-        "subscriptionsUrl": "https://api.github.com/users/joshbalfour/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/joshbalfour/orgs",
-        "reposUrl": "https://api.github.com/users/joshbalfour/repos",
-        "receivedEventsUrl": "https://api.github.com/users/joshbalfour/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-01-10T16:40:12.000Z",
-      "publishedAt": "2016-01-10T16:44:10.000Z",
-      "tarballUrl": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/tarball/v0.1-alpha",
-      "zipballUrl": "https://api.github.com/repos/joshbalfour/monstercat-connect-desktop-unofficial/zipball/v0.1-alpha",
-      "body": "First build of the Unofficial Monstercat Connect Desktop App for OS X and Windows.\n\nIf you have any problems please [open an issue here](https://github.com/joshbalfour/monstercat-connect-desktop-unofficial/issues/new).\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:39:43.850Z"
 }

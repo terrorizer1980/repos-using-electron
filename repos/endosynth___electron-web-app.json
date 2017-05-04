@@ -5,7 +5,7 @@
   "owner": {
     "login": "endosynth",
     "id": 5548944,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5548944?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5548944?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/endosynth",
     "htmlUrl": "https://github.com/endosynth",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/endosynth/electron-web-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/endosynth/electron-web-app/deployments",
   "createdAt": "2016-06-28T22:38:23.000Z",
-  "updatedAt": "2016-09-19T22:37:32.000Z",
+  "updatedAt": "2016-11-29T19:15:41.000Z",
   "pushedAt": "2016-06-30T00:35:00.000Z",
   "gitUrl": "git://github.com/endosynth/electron-web-app.git",
   "sshUrl": "git@github.com:endosynth/electron-web-app.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/endosynth/electron-web-app",
   "homepage": "https://endosynth.wordpress.com/category/electron-web-app/",
   "size": 66,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": true
   },
   "networkCount": 1,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "electron-web-app",
@@ -87,10 +87,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "endosynth",
-    "RyanFrench"
-  ],
   "firstCommit": {
     "sha": "107e7ced5758d98f14f0c1c7522c732669c56837",
     "commit": {
@@ -115,68 +111,6 @@
   },
   "filename": "endosynth___electron-web-app.json",
   "sourceRepo": "RyanFrench/electron_tutorial_one",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/endosynth/electron-web-app/releases/3555113",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/endosynth/electron-web-app/releases/3555113/assets",
-      "htmlUrl": "https://github.com/endosynth/electron-web-app/releases/tag/v0.1.1",
-      "id": 3555113,
-      "tagName": "v0.1.1",
-      "targetCommitish": "master",
-      "name": "Version 0.1.1",
-      "draft": false,
-      "author": {
-        "login": "endosynth",
-        "id": 5548944,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5548944?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/endosynth",
-        "htmlUrl": "https://github.com/endosynth",
-        "followersUrl": "https://api.github.com/users/endosynth/followers",
-        "subscriptionsUrl": "https://api.github.com/users/endosynth/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/endosynth/orgs",
-        "reposUrl": "https://api.github.com/users/endosynth/repos",
-        "receivedEventsUrl": "https://api.github.com/users/endosynth/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-30T00:21:13.000Z",
-      "publishedAt": "2016-06-30T00:30:18.000Z",
-      "tarballUrl": "https://api.github.com/repos/endosynth/electron-web-app/tarball/v0.1.1",
-      "zipballUrl": "https://api.github.com/repos/endosynth/electron-web-app/zipball/v0.1.1",
-      "body": "- The app now uses the icon from `resources/favicon.png`\n- The app now reads initial window width and height values\n  from `config.json`\n"
-    },
-    {
-      "url": "https://api.github.com/repos/endosynth/electron-web-app/releases/3544751",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/endosynth/electron-web-app/releases/3544751/assets",
-      "htmlUrl": "https://github.com/endosynth/electron-web-app/releases/tag/v0.1.0",
-      "id": 3544751,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Version 0.1.0",
-      "draft": false,
-      "author": {
-        "login": "endosynth",
-        "id": 5548944,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5548944?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/endosynth",
-        "htmlUrl": "https://github.com/endosynth",
-        "followersUrl": "https://api.github.com/users/endosynth/followers",
-        "subscriptionsUrl": "https://api.github.com/users/endosynth/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/endosynth/orgs",
-        "reposUrl": "https://api.github.com/users/endosynth/repos",
-        "receivedEventsUrl": "https://api.github.com/users/endosynth/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-28T22:41:19.000Z",
-      "publishedAt": "2016-06-28T22:41:42.000Z",
-      "tarballUrl": "https://api.github.com/repos/endosynth/electron-web-app/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/endosynth/electron-web-app/zipball/v0.1.0",
-      "body": "Basic electron app to run a Web App from the configured URL as a desktop app.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:33:39.930Z"
 }

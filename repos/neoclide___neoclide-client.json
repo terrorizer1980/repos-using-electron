@@ -5,7 +5,7 @@
   "owner": {
     "login": "neoclide",
     "id": 23586922,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23586922?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/23586922?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/neoclide",
     "htmlUrl": "https://github.com/neoclide",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/neoclide/neoclide-client/downloads",
   "deploymentsUrl": "https://api.github.com/repos/neoclide/neoclide-client/deployments",
   "createdAt": "2016-11-20T15:25:51.000Z",
-  "updatedAt": "2016-11-22T11:49:39.000Z",
+  "updatedAt": "2017-01-05T00:28:13.000Z",
   "pushedAt": "2016-11-27T02:20:35.000Z",
   "gitUrl": "git://github.com/neoclide/neoclide-client.git",
   "sshUrl": "git@github.com:neoclide/neoclide-client.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/neoclide/neoclide-client",
   "homepage": null,
   "size": 167,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "neoclide",
     "id": 23586922,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23586922?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/23586922?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/neoclide",
     "htmlUrl": "https://github.com/neoclide",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/neoclide/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -140,9 +140,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "chemzqm"
-  ],
   "firstCommit": {
     "sha": "0466f3132e1e45e17e2a3dcff712250f34ba7708",
     "commit": {
@@ -166,5 +163,6 @@
     }
   },
   "filename": "neoclide___neoclide-client.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:51:34.025Z"
 }

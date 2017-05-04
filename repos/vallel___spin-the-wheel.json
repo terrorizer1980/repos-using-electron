@@ -5,7 +5,7 @@
   "owner": {
     "login": "vallel",
     "id": 594070,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/594070?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/594070?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vallel",
     "htmlUrl": "https://github.com/vallel",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/vallel/spin-the-wheel/downloads",
   "deploymentsUrl": "https://api.github.com/repos/vallel/spin-the-wheel/deployments",
   "createdAt": "2016-07-17T00:45:13.000Z",
-  "updatedAt": "2016-10-15T18:00:48.000Z",
-  "pushedAt": "2016-10-09T19:21:11.000Z",
+  "updatedAt": "2017-03-05T04:31:48.000Z",
+  "pushedAt": "2017-03-08T05:37:00.000Z",
   "gitUrl": "git://github.com/vallel/spin-the-wheel.git",
   "sshUrl": "git@github.com:vallel/spin-the-wheel.git",
   "cloneUrl": "https://github.com/vallel/spin-the-wheel.git",
   "svnUrl": "https://github.com/vallel/spin-the-wheel",
   "homepage": null,
   "size": 266,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,7 +62,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -111,9 +111,6 @@
     "main": "main.js"
   },
   "packageStatus": 200,
-  "contributors": [
-    "vallel"
-  ],
   "firstCommit": {
     "sha": "28b8c4788edaa965239ec2a733f57af621f40066",
     "commit": {
@@ -137,37 +134,6 @@
     }
   },
   "filename": "vallel___spin-the-wheel.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/vallel/spin-the-wheel/releases/4343655",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/vallel/spin-the-wheel/releases/4343655/assets",
-      "htmlUrl": "https://github.com/vallel/spin-the-wheel/releases/tag/v2.2.0",
-      "id": 4343655,
-      "tagName": "v2.2.0",
-      "targetCommitish": "master",
-      "name": "v2.2.0 - Prepared for desktop",
-      "draft": false,
-      "author": {
-        "login": "vallel",
-        "id": 594070,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/594070?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/vallel",
-        "htmlUrl": "https://github.com/vallel",
-        "followersUrl": "https://api.github.com/users/vallel/followers",
-        "subscriptionsUrl": "https://api.github.com/users/vallel/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/vallel/orgs",
-        "reposUrl": "https://api.github.com/users/vallel/repos",
-        "receivedEventsUrl": "https://api.github.com/users/vallel/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-09T19:17:17.000Z",
-      "publishedAt": "2016-10-09T19:21:10.000Z",
-      "tarballUrl": "https://api.github.com/repos/vallel/spin-the-wheel/tarball/v2.2.0",
-      "zipballUrl": "https://api.github.com/repos/vallel/spin-the-wheel/zipball/v2.2.0",
-      "body": "- Added support for desktop\n- Added scroll bar for options panel\n- Adjusted position of color picker depending on the position of the option that is being edited\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:23:49.447Z"
 }

@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "kompot",
     "version": "1.0.0",
@@ -109,10 +109,7 @@
     "pre-commit": [
       "lint",
       "test"
-    ],
-    "other": {
-      "author": "Jakub Szwacz"
-    }
+    ]
   },
   "packageStatus": 200,
   "contributors": [
@@ -140,5 +137,6 @@
       "commentCount": 0
     }
   },
-  "filename": "szwacz___kompot.json"
+  "filename": "szwacz___kompot.json",
+  "lastFetchedAt": "2017-05-04T19:38:22.941Z"
 }

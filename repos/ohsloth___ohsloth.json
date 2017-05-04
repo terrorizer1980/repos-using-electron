@@ -84,7 +84,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "sloth",
     "version": "0.0.1",
@@ -148,9 +148,6 @@
       "react": "^15.2.1",
       "react-dom": "^15.2.1",
       "sqlite3": "^3.1.4"
-    },
-    "other": {
-      "author": "moomou"
     }
   },
   "packageStatus": 200,
@@ -179,5 +176,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ohsloth___ohsloth.json"
+  "filename": "ohsloth___ohsloth.json",
+  "lastFetchedAt": "2017-05-04T19:31:39.672Z"
 }

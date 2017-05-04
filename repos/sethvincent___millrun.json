@@ -5,7 +5,7 @@
   "owner": {
     "login": "sethvincent",
     "id": 164214,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/164214?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/164214?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sethvincent",
     "htmlUrl": "https://github.com/sethvincent",
@@ -17,16 +17,16 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": ":sparkles:",
   "fork": false,
   "createdAt": "2015-11-04T03:53:07.000Z",
-  "updatedAt": "2016-07-18T23:39:58.000Z",
-  "pushedAt": "2016-02-15T04:08:36.000Z",
+  "updatedAt": "2016-11-18T04:17:48.000Z",
+  "pushedAt": "2016-09-10T01:29:41.000Z",
   "homepage": "",
-  "size": 1361,
-  "stargazersCount": 5,
-  "watchersCount": 5,
-  "language": "CSS",
+  "size": 1371,
+  "stargazersCount": 6,
+  "watchersCount": 6,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 5,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -72,10 +72,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "sethvincent",
-    "kvnneff"
-  ],
   "firstCommit": {
     "sha": "0996e6f51bd474e90f57726f0071d2c73a042871",
     "commit": {
@@ -99,65 +95,26 @@
     }
   },
   "filename": "sethvincent___millrun.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/sethvincent/millrun/releases/2372487",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/sethvincent/millrun/releases/assets/1176564",
-          "id": 1176564,
-          "name": "millrun-v1.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "sethvincent",
-            "id": 164214,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/164214?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sethvincent",
-            "htmlUrl": "https://github.com/sethvincent",
-            "followersUrl": "https://api.github.com/users/sethvincent/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sethvincent/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sethvincent/orgs",
-            "reposUrl": "https://api.github.com/users/sethvincent/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sethvincent/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 54012135,
-          "downloadCount": 0,
-          "createdAt": "2016-01-05T04:00:59.000Z",
-          "updatedAt": "2016-01-05T04:06:20.000Z",
-          "browserDownloadUrl": "https://github.com/sethvincent/millrun/releases/download/v1.1.0/millrun-v1.1.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/sethvincent/millrun/releases/2372487/assets",
-      "htmlUrl": "https://github.com/sethvincent/millrun/releases/tag/v1.1.0",
-      "id": 2372487,
-      "tagName": "v1.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "sethvincent",
-        "id": 164214,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/164214?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/sethvincent",
-        "htmlUrl": "https://github.com/sethvincent",
-        "followersUrl": "https://api.github.com/users/sethvincent/followers",
-        "subscriptionsUrl": "https://api.github.com/users/sethvincent/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/sethvincent/orgs",
-        "reposUrl": "https://api.github.com/users/sethvincent/repos",
-        "receivedEventsUrl": "https://api.github.com/users/sethvincent/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-05T03:48:58.000Z",
-      "publishedAt": "2016-01-05T04:07:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/sethvincent/millrun/tarball/v1.1.0",
-      "zipballUrl": "https://api.github.com/repos/sethvincent/millrun/zipball/v1.1.0",
-      "body": "## Changes\n- revise the bottom toolbar with better styles\n- other small design improvements\n- add delete draft buttons in the draft list\n- add settings button to draft edit view\n  - save draft as html/json/md\n  - delete draft forever no takebacks\n\n## [Download for Mac](https://github.com/civicmakerlab/millrun/releases/download/v1.1.0/millrun-v1.1.0.zip)\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/sethvincent/millrun",
+  "url": "https://api.github.com/repos/sethvincent/millrun",
+  "forksUrl": "https://api.github.com/repos/sethvincent/millrun/forks",
+  "teamsUrl": "https://api.github.com/repos/sethvincent/millrun/teams",
+  "hooksUrl": "https://api.github.com/repos/sethvincent/millrun/hooks",
+  "eventsUrl": "https://api.github.com/repos/sethvincent/millrun/events",
+  "tagsUrl": "https://api.github.com/repos/sethvincent/millrun/tags",
+  "languagesUrl": "https://api.github.com/repos/sethvincent/millrun/languages",
+  "stargazersUrl": "https://api.github.com/repos/sethvincent/millrun/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/sethvincent/millrun/contributors",
+  "subscribersUrl": "https://api.github.com/repos/sethvincent/millrun/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/sethvincent/millrun/subscription",
+  "mergesUrl": "https://api.github.com/repos/sethvincent/millrun/merges",
+  "downloadsUrl": "https://api.github.com/repos/sethvincent/millrun/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/sethvincent/millrun/deployments",
+  "gitUrl": "git://github.com/sethvincent/millrun.git",
+  "sshUrl": "git@github.com:sethvincent/millrun.git",
+  "cloneUrl": "https://github.com/sethvincent/millrun.git",
+  "svnUrl": "https://github.com/sethvincent/millrun",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:25:31.815Z"
 }

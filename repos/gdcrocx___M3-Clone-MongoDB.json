@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "M3!",
     "version": "1.0.0",
@@ -94,9 +94,6 @@
     "dependencies": {
       "convict": "^1.5.0",
       "mongodb": "^2.2.10"
-    },
-    "other": {
-      "author": "George Davis (george.davis@softcrylic.co.in)"
     }
   },
   "packageStatus": 200,
@@ -125,5 +122,6 @@
       "commentCount": 0
     }
   },
-  "filename": "gdcrocx___M3-Clone-MongoDB.json"
+  "filename": "gdcrocx___M3-Clone-MongoDB.json",
+  "lastFetchedAt": "2017-05-04T20:32:50.843Z"
 }

@@ -6,7 +6,7 @@
   "owner": {
     "login": "koert",
     "id": 503290,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/503290?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/503290?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/koert",
     "htmlUrl": "https://github.com/koert",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "c4wrd",
       "id": 8595322,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8595322?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/8595322?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/c4wrd",
       "htmlUrl": "https://github.com/c4wrd",
@@ -100,7 +100,7 @@
     "downloadsUrl": "https://api.github.com/repos/c4wrd/angular2-electron-boilerplate/downloads",
     "deploymentsUrl": "https://api.github.com/repos/c4wrd/angular2-electron-boilerplate/deployments",
     "createdAt": "2016-05-15T06:44:39.000Z",
-    "updatedAt": "2017-01-09T10:07:09.000Z",
+    "updatedAt": "2017-03-26T14:51:58.000Z",
     "pushedAt": "2016-12-15T19:27:44.000Z",
     "gitUrl": "git://github.com/c4wrd/angular2-electron-boilerplate.git",
     "sshUrl": "git@github.com:c4wrd/angular2-electron-boilerplate.git",
@@ -108,18 +108,19 @@
     "svnUrl": "https://github.com/c4wrd/angular2-electron-boilerplate",
     "homepage": null,
     "size": 29,
-    "stargazersCount": 11,
-    "watchersCount": 11,
+    "stargazersCount": 13,
+    "watchersCount": 13,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 9,
+    "forksCount": 12,
     "mirrorUrl": null,
     "openIssuesCount": 5,
     "openIssues": 5,
-    "watchers": 11,
+    "watchers": 13,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "c4wrd",
       "id": 8595322,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/8595322?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/8595322?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/c4wrd",
       "htmlUrl": "https://github.com/c4wrd",
@@ -159,7 +160,7 @@
     "downloadsUrl": "https://api.github.com/repos/c4wrd/angular2-electron-boilerplate/downloads",
     "deploymentsUrl": "https://api.github.com/repos/c4wrd/angular2-electron-boilerplate/deployments",
     "createdAt": "2016-05-15T06:44:39.000Z",
-    "updatedAt": "2017-01-09T10:07:09.000Z",
+    "updatedAt": "2017-03-26T14:51:58.000Z",
     "pushedAt": "2016-12-15T19:27:44.000Z",
     "gitUrl": "git://github.com/c4wrd/angular2-electron-boilerplate.git",
     "sshUrl": "git@github.com:c4wrd/angular2-electron-boilerplate.git",
@@ -167,21 +168,22 @@
     "svnUrl": "https://github.com/c4wrd/angular2-electron-boilerplate",
     "homepage": null,
     "size": 29,
-    "stargazersCount": 11,
-    "watchersCount": 11,
+    "stargazersCount": 13,
+    "watchersCount": 13,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 9,
+    "forksCount": 12,
     "mirrorUrl": null,
     "openIssuesCount": 5,
     "openIssues": 5,
-    "watchers": 11,
+    "watchers": 13,
     "defaultBranch": "master"
   },
-  "networkCount": 9,
+  "networkCount": 12,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -235,12 +237,6 @@
     "description": "An easy to use Angular 2 boilerplate for Angular 2"
   },
   "packageStatus": 200,
-  "contributors": [
-    "c4wrd",
-    "feitzi",
-    "koert",
-    "marmotz"
-  ],
   "firstCommit": {
     "sha": "82a60558dc4bd27f20f15d4d0514411c0a34b5fd",
     "commit": {
@@ -264,5 +260,6 @@
     }
   },
   "sourceRepo": "c4wrd/angular2-electron-boilerplate",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:52:02.096Z"
 }

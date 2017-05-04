@@ -5,7 +5,7 @@
   "owner": {
     "login": "TinyTanic",
     "id": 1487907,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1487907?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1487907?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/TinyTanic",
     "htmlUrl": "https://github.com/TinyTanic",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/TinyTanic/mooseca/downloads",
   "deploymentsUrl": "https://api.github.com/repos/TinyTanic/mooseca/deployments",
   "createdAt": "2016-09-08T13:45:49.000Z",
-  "updatedAt": "2016-09-20T09:44:29.000Z",
-  "pushedAt": "2016-10-03T08:17:40.000Z",
+  "updatedAt": "2017-03-02T14:57:43.000Z",
+  "pushedAt": "2017-04-29T16:31:06.000Z",
   "gitUrl": "git://github.com/TinyTanic/mooseca.git",
   "sshUrl": "git@github.com:TinyTanic/mooseca.git",
   "cloneUrl": "https://github.com/TinyTanic/mooseca.git",
   "svnUrl": "https://github.com/TinyTanic/mooseca",
   "homepage": null,
-  "size": 6523,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 6558,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,14 +62,14 @@
     "pull": true
   },
   "license": {
-    "key": "gpl-3.0",
-    "name": "GNU General Public License v3.0",
-    "spdxId": "GPL-3.0",
-    "url": "https://api.github.com/licenses/gpl-3.0",
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "networkCount": 2,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "mooseca",
@@ -122,10 +122,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "TinyTanic",
-    "xowor"
-  ],
   "firstCommit": {
     "sha": "e5c8e3a81c4f05479da40322a57c2dd895d97f6d",
     "commit": {
@@ -149,5 +145,6 @@
     }
   },
   "filename": "TinyTanic___mooseca.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:09:40.430Z"
 }

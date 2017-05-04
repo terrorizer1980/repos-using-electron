@@ -6,7 +6,7 @@
   "owner": {
     "login": "vdux-components",
     "id": 17184843,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17184843?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17184843?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vdux-components",
     "htmlUrl": "https://github.com/vdux-components",
@@ -37,13 +37,13 @@
   "deploymentsUrl": "https://api.github.com/repos/vdux-components/summon/deployments",
   "createdAt": "2016-04-27T19:51:03.000Z",
   "updatedAt": "2016-04-27T19:51:35.000Z",
-  "pushedAt": "2017-01-05T02:55:43.000Z",
+  "pushedAt": "2017-03-08T01:36:35.000Z",
   "gitUrl": "git://github.com/vdux-components/summon.git",
   "sshUrl": "git@github.com:vdux-components/summon.git",
   "cloneUrl": "https://github.com/vdux-components/summon.git",
   "svnUrl": "https://github.com/vdux-components/summon",
   "homepage": null,
-  "size": 75,
+  "size": 78,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -51,7 +51,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -66,7 +66,7 @@
   "organization": {
     "login": "vdux-components",
     "id": 17184843,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17184843?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17184843?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vdux-components",
     "htmlUrl": "https://github.com/vdux-components",
@@ -77,7 +77,7 @@
     "receivedEventsUrl": "https://api.github.com/users/vdux-components/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -125,9 +125,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ashaffer"
-  ],
   "firstCommit": {
     "sha": "4ea01b215cdc46a412a947c87f6b101a5d54b07f",
     "commit": {
@@ -150,5 +147,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:55:48.937Z"
 }

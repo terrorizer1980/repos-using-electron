@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "reactseed",
     "version": "1.0.0",
@@ -120,9 +120,6 @@
       "webpack": "^2.1.0-beta.25",
       "webpack-dev-middleware": "^1.8.3",
       "webpack-hot-middleware": "^2.12.2"
-    },
-    "other": {
-      "author": ""
     }
   },
   "packageStatus": 200,
@@ -149,5 +146,6 @@
       "commentCount": 0
     }
   },
-  "filename": "oorococo___react_seed.json"
+  "filename": "oorococo___react_seed.json",
+  "lastFetchedAt": "2017-05-04T05:28:24.446Z"
 }

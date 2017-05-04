@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "epoxate",
     "version": "0.0.1",
@@ -161,10 +161,7 @@
         "node_modules/"
       ]
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/semenko/scratchtest.git"
-    },
+    "repository": "https://github.com/semenko/scratchtest",
     "keywords": [
       "github",
       "notifier",
@@ -172,10 +169,6 @@
       "native",
       "app"
     ],
-    "author": "Epoxate, LLC",
-    "bugs": {
-      "url": "https://github.com/semenko/scratchtest/issues"
-    },
     "homepage": "https://epoxate.com/",
     "dependencies": {
       "bootstrap": "=3.3.4",
@@ -206,10 +199,18 @@
       "jshint-stylish": "=1.0.2",
       "jsxhint": "=0.15.0",
       "less": "=2.5.1"
+    },
+    "other": {
+      "author": "Epoxate, LLC",
+      "bugs": {
+        "url": "https://github.com/semenko/scratchtest/issues"
+      }
     }
   },
   "packageStatus": 200,
   "contributors": [
     "semenko"
-  ]
+  ],
+  "filename": "semenko___scratchtest.json",
+  "lastFetchedAt": "2017-05-04T14:50:03.080Z"
 }

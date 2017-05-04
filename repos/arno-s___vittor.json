@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "vittor",
     "version": "0.0.1-beta",
@@ -109,12 +109,6 @@
       "electron": "^1.3.5",
       "torrent-stream": "^1.0.3",
       "underscore": "^1.8.3"
-    },
-    "other": {
-      "author": "Arno Schutijzer",
-      "bugs": {
-        "url": "https://github.com/arno-s/vittor/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +137,6 @@
       "commentCount": 0
     }
   },
-  "filename": "arno-s___vittor.json"
+  "filename": "arno-s___vittor.json",
+  "lastFetchedAt": "2017-05-04T05:33:32.297Z"
 }

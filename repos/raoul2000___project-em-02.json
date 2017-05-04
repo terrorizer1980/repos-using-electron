@@ -5,7 +5,7 @@
   "owner": {
     "login": "raoul2000",
     "id": 1474310,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1474310?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1474310?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/raoul2000",
     "htmlUrl": "https://github.com/raoul2000",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/raoul2000/project-em-02/downloads",
   "deploymentsUrl": "https://api.github.com/repos/raoul2000/project-em-02/deployments",
   "createdAt": "2016-10-22T12:06:26.000Z",
-  "updatedAt": "2016-10-31T22:53:06.000Z",
-  "pushedAt": "2016-11-02T20:28:22.000Z",
+  "updatedAt": "2016-12-01T19:21:09.000Z",
+  "pushedAt": "2016-12-06T20:53:42.000Z",
   "gitUrl": "git://github.com/raoul2000/project-em-02.git",
   "sshUrl": "git@github.com:raoul2000/project-em-02.git",
   "cloneUrl": "https://github.com/raoul2000/project-em-02.git",
   "svnUrl": "https://github.com/raoul2000/project-em-02",
   "homepage": null,
-  "size": 76,
+  "size": 91,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -104,10 +104,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "raoul2000",
-    "Velik123"
-  ],
   "firstCommit": {
     "sha": "391806860bc8a5e6e8219194aa5b4d9305d49467",
     "commit": {
@@ -131,37 +127,6 @@
     }
   },
   "filename": "raoul2000___project-em-02.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/raoul2000/project-em-02/releases/4457303",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/raoul2000/project-em-02/releases/4457303/assets",
-      "htmlUrl": "https://github.com/raoul2000/project-em-02/releases/tag/0.0.1",
-      "id": 4457303,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "intial",
-      "draft": false,
-      "author": {
-        "login": "raoul2000",
-        "id": 1474310,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1474310?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/raoul2000",
-        "htmlUrl": "https://github.com/raoul2000",
-        "followersUrl": "https://api.github.com/users/raoul2000/followers",
-        "subscriptionsUrl": "https://api.github.com/users/raoul2000/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/raoul2000/orgs",
-        "reposUrl": "https://api.github.com/users/raoul2000/repos",
-        "receivedEventsUrl": "https://api.github.com/users/raoul2000/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-22T12:08:21.000Z",
-      "publishedAt": "2016-10-22T14:00:04.000Z",
-      "tarballUrl": "https://api.github.com/repos/raoul2000/project-em-02/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/raoul2000/project-em-02/zipball/0.0.1",
-      "body": "- based on [electron-quick-start](https://github.com/electron/electron-quick-start)\n- index.html with bootstrap and jquery dependencies\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:30:13.888Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "atom",
     "id": 1089146,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1089146?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1089146?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/atom",
     "htmlUrl": "https://github.com/atom",
@@ -20,21 +20,21 @@
   "description": "Builds components using a simple and explicit API around virtual-dom",
   "fork": false,
   "createdAt": "2015-07-14T23:22:29.000Z",
-  "updatedAt": "2016-08-07T10:57:16.000Z",
-  "pushedAt": "2016-08-02T20:37:43.000Z",
+  "updatedAt": "2017-04-26T12:33:48.000Z",
+  "pushedAt": "2017-04-20T11:22:50.000Z",
   "homepage": "",
-  "size": 188,
-  "stargazersCount": 64,
-  "watchersCount": 64,
+  "size": 259,
+  "stargazersCount": 171,
+  "watchersCount": 171,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 11,
+  "forksCount": 18,
   "openIssuesCount": 4,
   "openIssues": 4,
-  "watchers": 64,
+  "watchers": 171,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "atom",
     "id": 1089146,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1089146?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1089146?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/atom",
     "htmlUrl": "https://github.com/atom",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/atom/received_events",
     "type": "Organization"
   },
-  "networkCount": 11,
-  "subscribersCount": 8,
+  "networkCount": 18,
+  "subscribersCount": 20,
   "status": 200,
   "packageJSON": {
     "name": "etch",
@@ -108,15 +108,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "nathansobo",
-    "BinaryMuse",
-    "joshaber",
-    "kuychaco",
-    "as-cii",
-    "smashwilson",
-    "thomasjo"
-  ],
   "firstCommit": {
     "sha": "077b838df5e4b59ba19be7e84e92f3b4a206ce42",
     "commit": {
@@ -140,5 +131,26 @@
     }
   },
   "filename": "atom___etch.json",
-  "releases": []
+  "htmlUrl": "https://github.com/atom/etch",
+  "url": "https://api.github.com/repos/atom/etch",
+  "forksUrl": "https://api.github.com/repos/atom/etch/forks",
+  "teamsUrl": "https://api.github.com/repos/atom/etch/teams",
+  "hooksUrl": "https://api.github.com/repos/atom/etch/hooks",
+  "eventsUrl": "https://api.github.com/repos/atom/etch/events",
+  "tagsUrl": "https://api.github.com/repos/atom/etch/tags",
+  "languagesUrl": "https://api.github.com/repos/atom/etch/languages",
+  "stargazersUrl": "https://api.github.com/repos/atom/etch/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/atom/etch/contributors",
+  "subscribersUrl": "https://api.github.com/repos/atom/etch/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/atom/etch/subscription",
+  "mergesUrl": "https://api.github.com/repos/atom/etch/merges",
+  "downloadsUrl": "https://api.github.com/repos/atom/etch/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/atom/etch/deployments",
+  "gitUrl": "git://github.com/atom/etch.git",
+  "sshUrl": "git@github.com:atom/etch.git",
+  "cloneUrl": "https://github.com/atom/etch.git",
+  "svnUrl": "https://github.com/atom/etch",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:58:14.958Z"
 }

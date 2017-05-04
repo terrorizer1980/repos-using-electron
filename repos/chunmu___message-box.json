@@ -168,7 +168,6 @@
     "productName": "MessageBox",
     "description": "基于Electron、Vue.js、socket.io等技术搭建的消息盒子",
     "version": "0.3.0",
-    "author": "xiaoluoboding <xiaoluoboding@gmail.com>",
     "devDependencies": {
       "asar": "^0.7.2",
       "babel-loader": "^5.4.0",
@@ -206,6 +205,9 @@
       "package": "node ./tasks/package.js --platform=all --arch=all",
       "package:osx": "node ./tasks/package.js --platform=darwin --arch=x64",
       "package:win": "node ./tasks/package.js --platform=win32 --arch=all"
+    },
+    "other": {
+      "author": "xiaoluoboding <xiaoluoboding@gmail.com>"
     }
   },
   "packageStatus": 404,
@@ -213,5 +215,7 @@
     "xiaoluoboding",
     "dongjiqiang",
     "supengnice"
-  ]
+  ],
+  "filename": "chunmu___message-box.json",
+  "lastFetchedAt": "2017-05-04T05:03:02.211Z"
 }

@@ -56,10 +56,7 @@
       "start": "electron build/main.bundle.js",
       "watch": "./node_modules/.bin/webpack-dev-server --port 8182"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/benalexb/flybr-ops.git"
-    },
+    "repository": "https://github.com/benalexb/flybr-ops",
     "keywords": [
       "Electron",
       "quick",
@@ -70,11 +67,7 @@
       "react",
       "webpack"
     ],
-    "author": "John Gleason",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/benalexb/flybr-ops/issues"
-    },
     "homepage": "https://github.com/benalexb/flybr-ops#readme",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -104,5 +97,7 @@
   "packageStatus": 404,
   "contributors": [
     "benalexb"
-  ]
+  ],
+  "filename": "benalexb___flybr-ops.json",
+  "lastFetchedAt": "2017-05-04T18:17:34.312Z"
 }

@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "ustream",
     "version": "1.0.0",
@@ -67,16 +67,11 @@
       "build": "electron-packager . Ustream --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ayushajain/stream.git"
-    },
-    "author": "Ayush Jain <ayush@techlabeducation.com>",
+    "repository": "https://github.com/ayushajain/stream",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/ayushajain/stream/issues"
-    },
     "homepage": "https://github.com/ayushajain/stream#readme"
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "ayushajain___stream.json",
+  "lastFetchedAt": "2017-05-04T14:23:59.307Z"
 }

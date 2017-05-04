@@ -5,7 +5,7 @@
   "owner": {
     "login": "nomadcn",
     "id": 22762327,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22762327?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/22762327?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nomadcn",
     "htmlUrl": "https://github.com/nomadcn",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/downloads",
   "deploymentsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/deployments",
   "createdAt": "2016-10-11T07:04:25.000Z",
-  "updatedAt": "2016-10-23T08:27:22.000Z",
+  "updatedAt": "2017-04-08T08:34:31.000Z",
   "pushedAt": "2016-10-23T08:27:20.000Z",
   "gitUrl": "git://github.com/nomadcn/node-os-idle-timer.git",
   "sshUrl": "git@github.com:nomadcn/node-os-idle-timer.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/nomadcn/node-os-idle-timer",
   "homepage": null,
   "size": 13,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "C",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -98,7 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [],
   "firstCommit": {
     "sha": "bf0adf61443cf132577219bca508ccb0c22e0648",
     "commit": {
@@ -122,119 +121,6 @@
     }
   },
   "filename": "nomadcn___node-os-idle-timer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/nomadcn/node-os-idle-timer/releases/4355781",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/nomadcn/node-os-idle-timer/releases/assets/2454546",
-          "id": 2454546,
-          "name": "os-idle-timer-v1.0.7-electron-v1.3-win32-ia32.tar.gz",
-          "label": "",
-          "uploader": {
-            "login": "nomadcn",
-            "id": 22762327,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/22762327?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/nomadcn",
-            "htmlUrl": "https://github.com/nomadcn",
-            "followersUrl": "https://api.github.com/users/nomadcn/followers",
-            "subscriptionsUrl": "https://api.github.com/users/nomadcn/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/nomadcn/orgs",
-            "reposUrl": "https://api.github.com/users/nomadcn/repos",
-            "receivedEventsUrl": "https://api.github.com/users/nomadcn/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 3942,
-          "downloadCount": 3,
-          "createdAt": "2016-10-11T07:48:19.000Z",
-          "updatedAt": "2016-10-11T07:48:19.000Z",
-          "browserDownloadUrl": "https://github.com/nomadcn/node-os-idle-timer/releases/download/1.0.7/os-idle-timer-v1.0.7-electron-v1.3-win32-ia32.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/nomadcn/node-os-idle-timer/releases/assets/2521459",
-          "id": 2521459,
-          "name": "os-idle-timer-v1.0.7-electron-v1.4-darwin-x64.tar.gz",
-          "label": "",
-          "uploader": {
-            "login": "nomadcn",
-            "id": 22762327,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/22762327?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/nomadcn",
-            "htmlUrl": "https://github.com/nomadcn",
-            "followersUrl": "https://api.github.com/users/nomadcn/followers",
-            "subscriptionsUrl": "https://api.github.com/users/nomadcn/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/nomadcn/orgs",
-            "reposUrl": "https://api.github.com/users/nomadcn/repos",
-            "receivedEventsUrl": "https://api.github.com/users/nomadcn/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 2981,
-          "downloadCount": 259,
-          "createdAt": "2016-10-24T10:39:37.000Z",
-          "updatedAt": "2016-10-24T10:39:37.000Z",
-          "browserDownloadUrl": "https://github.com/nomadcn/node-os-idle-timer/releases/download/1.0.7/os-idle-timer-v1.0.7-electron-v1.4-darwin-x64.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/nomadcn/node-os-idle-timer/releases/assets/2454703",
-          "id": 2454703,
-          "name": "os-idle-timer-v1.0.7-electron-v1.4-win32-ia32.tar.gz",
-          "label": "",
-          "uploader": {
-            "login": "nomadcn",
-            "id": 22762327,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/22762327?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/nomadcn",
-            "htmlUrl": "https://github.com/nomadcn",
-            "followersUrl": "https://api.github.com/users/nomadcn/followers",
-            "subscriptionsUrl": "https://api.github.com/users/nomadcn/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/nomadcn/orgs",
-            "reposUrl": "https://api.github.com/users/nomadcn/repos",
-            "receivedEventsUrl": "https://api.github.com/users/nomadcn/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 3940,
-          "downloadCount": 0,
-          "createdAt": "2016-10-11T08:35:43.000Z",
-          "updatedAt": "2016-10-11T08:35:44.000Z",
-          "browserDownloadUrl": "https://github.com/nomadcn/node-os-idle-timer/releases/download/1.0.7/os-idle-timer-v1.0.7-electron-v1.4-win32-ia32.tar.gz"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/releases/4355781/assets",
-      "htmlUrl": "https://github.com/nomadcn/node-os-idle-timer/releases/tag/1.0.7",
-      "id": 4355781,
-      "tagName": "1.0.7",
-      "targetCommitish": "master",
-      "name": "v1.0.7",
-      "draft": false,
-      "author": {
-        "login": "nomadcn",
-        "id": 22762327,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/22762327?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/nomadcn",
-        "htmlUrl": "https://github.com/nomadcn",
-        "followersUrl": "https://api.github.com/users/nomadcn/followers",
-        "subscriptionsUrl": "https://api.github.com/users/nomadcn/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/nomadcn/orgs",
-        "reposUrl": "https://api.github.com/users/nomadcn/repos",
-        "receivedEventsUrl": "https://api.github.com/users/nomadcn/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-11T07:43:30.000Z",
-      "publishedAt": "2016-10-11T07:52:03.000Z",
-      "tarballUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/tarball/1.0.7",
-      "zipballUrl": "https://api.github.com/repos/nomadcn/node-os-idle-timer/zipball/1.0.7",
-      "body": "os-idle-timer 1.0.7\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:28:33.249Z"
 }

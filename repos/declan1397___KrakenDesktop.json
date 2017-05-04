@@ -5,7 +5,7 @@
   "owner": {
     "login": "declan1397",
     "id": 15662960,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15662960?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/15662960?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/declan1397",
     "htmlUrl": "https://github.com/declan1397",
@@ -36,20 +36,20 @@
   "deploymentsUrl": "https://api.github.com/repos/declan1397/KrakenDesktop/deployments",
   "createdAt": "2016-11-02T22:08:23.000Z",
   "updatedAt": "2016-11-05T21:01:32.000Z",
-  "pushedAt": "2016-11-16T02:36:43.000Z",
+  "pushedAt": "2016-11-30T03:14:40.000Z",
   "gitUrl": "git://github.com/declan1397/KrakenDesktop.git",
   "sshUrl": "git@github.com:declan1397/KrakenDesktop.git",
   "cloneUrl": "https://github.com/declan1397/KrakenDesktop.git",
   "svnUrl": "https://github.com/declan1397/KrakenDesktop",
   "homepage": null,
-  "size": 122706,
+  "size": 124375,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
+  "hasPages": true,
   "forksCount": 0,
   "mirrorUrl": null,
   "openIssuesCount": 0,
@@ -61,13 +61,7 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
@@ -233,9 +227,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "declan1397"
-  ],
   "firstCommit": {
     "sha": "46e8a022e52d2ffc4dd538b06e00225b6b6c7648",
     "commit": {
@@ -259,5 +250,6 @@
     }
   },
   "filename": "declan1397___KrakenDesktop.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:23:38.909Z"
 }

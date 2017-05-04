@@ -1,11 +1,11 @@
 {
-  "id": 61469650,
+  "id": 76726131,
   "name": ".atom",
   "fullName": "bsed/.atom",
   "owner": {
     "login": "bsed",
     "id": 10845087,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10845087?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/10845087?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/bsed",
     "htmlUrl": "https://github.com/bsed",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/bsed/.atom",
-  "description": null,
+  "description": "fix old error",
   "fork": false,
   "url": "https://api.github.com/repos/bsed/.atom",
   "forksUrl": "https://api.github.com/repos/bsed/.atom/forks",
@@ -34,15 +34,15 @@
   "mergesUrl": "https://api.github.com/repos/bsed/.atom/merges",
   "downloadsUrl": "https://api.github.com/repos/bsed/.atom/downloads",
   "deploymentsUrl": "https://api.github.com/repos/bsed/.atom/deployments",
-  "createdAt": "2016-06-19T07:40:44.000Z",
-  "updatedAt": "2016-10-15T14:55:13.000Z",
-  "pushedAt": "2016-10-15T14:55:07.000Z",
+  "createdAt": "2016-12-17T13:39:31.000Z",
+  "updatedAt": "2016-12-17T13:39:31.000Z",
+  "pushedAt": "2016-12-18T14:11:53.000Z",
   "gitUrl": "git://github.com/bsed/.atom.git",
   "sshUrl": "git@github.com:bsed/.atom.git",
   "cloneUrl": "https://github.com/bsed/.atom.git",
   "svnUrl": "https://github.com/bsed/.atom",
   "homepage": null,
-  "size": 390210,
+  "size": 91613,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": null,
@@ -66,9 +66,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "bsed"
-  ],
   "firstCommit": {
     "sha": "fa4ac0d95ee8190ffa2cdef05e7f855757f97270",
     "commit": {
@@ -92,5 +89,6 @@
     }
   },
   "filename": "bsed___.atom.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:00:41.969Z"
 }

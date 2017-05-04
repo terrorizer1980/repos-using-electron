@@ -5,7 +5,7 @@
   "owner": {
     "login": "roncli",
     "id": 498929,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/498929?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/498929?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/roncli",
     "htmlUrl": "https://github.com/roncli",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/roncli/ChatterGrid/deployments",
   "createdAt": "2016-10-31T07:39:24.000Z",
   "updatedAt": "2016-10-31T23:47:42.000Z",
-  "pushedAt": "2016-11-10T06:37:24.000Z",
+  "pushedAt": "2017-03-21T02:39:54.000Z",
   "gitUrl": "git://github.com/roncli/ChatterGrid.git",
   "sshUrl": "git@github.com:roncli/ChatterGrid.git",
   "cloneUrl": "https://github.com/roncli/ChatterGrid.git",
   "svnUrl": "https://github.com/roncli/ChatterGrid",
   "homepage": null,
-  "size": 4,
+  "size": 188,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -98,9 +98,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "roncli"
-  ],
   "firstCommit": {
     "sha": "618e077d333a801a89319ae8413d9171a794cbb3",
     "commit": {
@@ -124,92 +121,6 @@
     }
   },
   "filename": "roncli___ChatterGrid.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/roncli/ChatterGrid/releases/5177370",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/roncli/ChatterGrid/releases/assets/3002675",
-          "id": 3002675,
-          "name": "ChatterGrid-1.0.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "roncli",
-            "id": 498929,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/498929?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/roncli",
-            "htmlUrl": "https://github.com/roncli",
-            "followersUrl": "https://api.github.com/users/roncli/followers",
-            "subscriptionsUrl": "https://api.github.com/users/roncli/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/roncli/orgs",
-            "reposUrl": "https://api.github.com/users/roncli/repos",
-            "receivedEventsUrl": "https://api.github.com/users/roncli/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 40273373,
-          "downloadCount": 0,
-          "createdAt": "2017-01-17T04:55:06.000Z",
-          "updatedAt": "2017-01-17T04:56:21.000Z",
-          "browserDownloadUrl": "https://github.com/roncli/ChatterGrid/releases/download/v1.0.0/ChatterGrid-1.0.0.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/roncli/ChatterGrid/releases/assets/3002667",
-          "id": 3002667,
-          "name": "ChatterGrid.Setup.1.0.0.exe",
-          "label": null,
-          "uploader": {
-            "login": "roncli",
-            "id": 498929,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/498929?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/roncli",
-            "htmlUrl": "https://github.com/roncli",
-            "followersUrl": "https://api.github.com/users/roncli/followers",
-            "subscriptionsUrl": "https://api.github.com/users/roncli/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/roncli/orgs",
-            "reposUrl": "https://api.github.com/users/roncli/repos",
-            "receivedEventsUrl": "https://api.github.com/users/roncli/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 37325619,
-          "downloadCount": 0,
-          "createdAt": "2017-01-17T04:52:29.000Z",
-          "updatedAt": "2017-01-17T04:54:10.000Z",
-          "browserDownloadUrl": "https://github.com/roncli/ChatterGrid/releases/download/v1.0.0/ChatterGrid.Setup.1.0.0.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/roncli/ChatterGrid/releases/5177370/assets",
-      "htmlUrl": "https://github.com/roncli/ChatterGrid/releases/tag/v1.0.0",
-      "id": 5177370,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "roncli",
-        "id": 498929,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/498929?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/roncli",
-        "htmlUrl": "https://github.com/roncli",
-        "followersUrl": "https://api.github.com/users/roncli/followers",
-        "subscriptionsUrl": "https://api.github.com/users/roncli/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/roncli/orgs",
-        "reposUrl": "https://api.github.com/users/roncli/repos",
-        "receivedEventsUrl": "https://api.github.com/users/roncli/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-01-17T04:49:22.000Z",
-      "publishedAt": "2017-01-17T04:54:25.000Z",
-      "tarballUrl": "https://api.github.com/repos/roncli/ChatterGrid/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/roncli/ChatterGrid/zipball/v1.0.0",
-      "body": "This is the initial release of ChatterGrid.\n\nInstallers are available for Windows and Mac OSX.  If you need ChatterGrid for other operating systems, please see the README for how to run from source.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:34:05.224Z"
 }

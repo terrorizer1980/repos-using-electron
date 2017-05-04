@@ -5,7 +5,7 @@
   "owner": {
     "login": "ungoldman",
     "id": 427322,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/427322?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/427322?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ungoldman",
     "htmlUrl": "https://github.com/ungoldman",
@@ -97,18 +97,9 @@
     "scripts": {
       "start": "electron src",
       "test": "standard && tape test/*.js | tap-spec"
-    },
-    "other": {
-      "author": "Nate Goldman <nate@ngoldman.me>",
-      "bugs": {
-        "url": "https://github.com/ngoldman/proton/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ungoldman"
-  ],
   "firstCommit": {
     "sha": "312478be1b6c342f439deaf4ac0a7d74c260ed00",
     "commit": {
@@ -132,5 +123,6 @@
     }
   },
   "filename": "ungoldman___proton.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:41:10.009Z"
 }

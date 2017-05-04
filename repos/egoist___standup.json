@@ -5,7 +5,7 @@
   "owner": {
     "login": "egoist",
     "id": 8784712,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8784712?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8784712?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/egoist",
     "htmlUrl": "https://github.com/egoist",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/egoist/standup/downloads",
   "deploymentsUrl": "https://api.github.com/repos/egoist/standup/deployments",
   "createdAt": "2016-05-03T10:20:24.000Z",
-  "updatedAt": "2016-09-24T17:08:02.000Z",
+  "updatedAt": "2016-12-05T01:18:46.000Z",
   "pushedAt": "2016-05-16T09:57:49.000Z",
   "gitUrl": "git://github.com/egoist/standup.git",
   "sshUrl": "git@github.com:egoist/standup.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/egoist/standup",
   "homepage": null,
   "size": 329,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -81,9 +81,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "egoist"
-  ],
   "firstCommit": {
     "sha": "717c62a24dcdcc220ebe1ccd3773130e75523bed",
     "commit": {
@@ -107,5 +104,6 @@
     }
   },
   "filename": "egoist___standup.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:54:36.517Z"
 }

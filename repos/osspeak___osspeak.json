@@ -5,7 +5,7 @@
   "owner": {
     "login": "osspeak",
     "id": 20570113,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20570113?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20570113?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/osspeak",
     "htmlUrl": "https://github.com/osspeak",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/osspeak/osspeak/downloads",
   "deploymentsUrl": "https://api.github.com/repos/osspeak/osspeak/deployments",
   "createdAt": "2016-07-21T05:07:42.000Z",
-  "updatedAt": "2016-10-22T05:26:52.000Z",
-  "pushedAt": "2016-11-07T04:43:29.000Z",
+  "updatedAt": "2017-01-13T04:20:47.000Z",
+  "pushedAt": "2017-05-04T04:18:03.000Z",
   "gitUrl": "git://github.com/osspeak/osspeak.git",
   "sshUrl": "git@github.com:osspeak/osspeak.git",
   "cloneUrl": "https://github.com/osspeak/osspeak.git",
   "svnUrl": "https://github.com/osspeak/osspeak",
   "homepage": null,
-  "size": 8180,
+  "size": 9056,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "Python",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 2,
-  "openIssues": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -71,7 +71,7 @@
   "organization": {
     "login": "osspeak",
     "id": 20570113,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20570113?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20570113?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/osspeak",
     "htmlUrl": "https://github.com/osspeak",
@@ -86,9 +86,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "evfredericksen"
-  ],
   "firstCommit": {
     "sha": "ece91f00a2a9c103e917c4c1dae6afe01e01aadc",
     "commit": {
@@ -112,124 +109,6 @@
     }
   },
   "filename": "osspeak___osspeak.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/osspeak/osspeak/releases/4765904",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/osspeak/osspeak/releases/assets/2721760",
-          "id": 2721760,
-          "name": "windows-cli.zip",
-          "label": "",
-          "uploader": {
-            "login": "evfredericksen",
-            "id": 4108096,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4108096?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/evfredericksen",
-            "htmlUrl": "https://github.com/evfredericksen",
-            "followersUrl": "https://api.github.com/users/evfredericksen/followers",
-            "subscriptionsUrl": "https://api.github.com/users/evfredericksen/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/evfredericksen/orgs",
-            "reposUrl": "https://api.github.com/users/evfredericksen/repos",
-            "receivedEventsUrl": "https://api.github.com/users/evfredericksen/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 59574147,
-          "downloadCount": 1,
-          "createdAt": "2016-11-27T06:27:04.000Z",
-          "updatedAt": "2016-11-27T06:29:36.000Z",
-          "browserDownloadUrl": "https://github.com/osspeak/osspeak/releases/download/v0.0.3/windows-cli.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/osspeak/osspeak/releases/4765904/assets",
-      "htmlUrl": "https://github.com/osspeak/osspeak/releases/tag/v0.0.3",
-      "id": 4765904,
-      "tagName": "v0.0.3",
-      "targetCommitish": "master",
-      "name": "v0.0.3",
-      "draft": false,
-      "author": {
-        "login": "evfredericksen",
-        "id": 4108096,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4108096?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/evfredericksen",
-        "htmlUrl": "https://github.com/evfredericksen",
-        "followersUrl": "https://api.github.com/users/evfredericksen/followers",
-        "subscriptionsUrl": "https://api.github.com/users/evfredericksen/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/evfredericksen/orgs",
-        "reposUrl": "https://api.github.com/users/evfredericksen/repos",
-        "receivedEventsUrl": "https://api.github.com/users/evfredericksen/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-27T04:17:49.000Z",
-      "publishedAt": "2016-11-27T06:26:55.000Z",
-      "tarballUrl": "https://api.github.com/repos/osspeak/osspeak/tarball/v0.0.3",
-      "zipballUrl": "https://api.github.com/repos/osspeak/osspeak/zipball/v0.0.3",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/osspeak/osspeak/releases/4522430",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/osspeak/osspeak/releases/assets/2558877",
-          "id": 2558877,
-          "name": "windows-cli.zip",
-          "label": "",
-          "uploader": {
-            "login": "evfredericksen",
-            "id": 4108096,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4108096?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/evfredericksen",
-            "htmlUrl": "https://github.com/evfredericksen",
-            "followersUrl": "https://api.github.com/users/evfredericksen/followers",
-            "subscriptionsUrl": "https://api.github.com/users/evfredericksen/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/evfredericksen/orgs",
-            "reposUrl": "https://api.github.com/users/evfredericksen/repos",
-            "receivedEventsUrl": "https://api.github.com/users/evfredericksen/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 6269094,
-          "downloadCount": 0,
-          "createdAt": "2016-10-31T01:08:37.000Z",
-          "updatedAt": "2016-10-31T01:08:47.000Z",
-          "browserDownloadUrl": "https://github.com/osspeak/osspeak/releases/download/v0.0.1/windows-cli.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/osspeak/osspeak/releases/4522430/assets",
-      "htmlUrl": "https://github.com/osspeak/osspeak/releases/tag/v0.0.1",
-      "id": 4522430,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "v0.0.1",
-      "draft": false,
-      "author": {
-        "login": "evfredericksen",
-        "id": 4108096,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4108096?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/evfredericksen",
-        "htmlUrl": "https://github.com/evfredericksen",
-        "followersUrl": "https://api.github.com/users/evfredericksen/followers",
-        "subscriptionsUrl": "https://api.github.com/users/evfredericksen/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/evfredericksen/orgs",
-        "reposUrl": "https://api.github.com/users/evfredericksen/repos",
-        "receivedEventsUrl": "https://api.github.com/users/evfredericksen/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-30T04:22:00.000Z",
-      "publishedAt": "2016-10-31T01:08:37.000Z",
-      "tarballUrl": "https://api.github.com/repos/osspeak/osspeak/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/osspeak/osspeak/zipball/v0.0.1",
-      "body": "automate build process\nbasic functionality\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:30:01.651Z"
 }

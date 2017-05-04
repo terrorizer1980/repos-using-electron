@@ -5,7 +5,7 @@
   "owner": {
     "login": "maddes",
     "id": 1455722,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1455722?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1455722?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/maddes",
     "htmlUrl": "https://github.com/maddes",
@@ -76,9 +76,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "maddes"
-  ],
   "firstCommit": {
     "sha": "ab2c1c52397ccf1065ae5a251c9f9a76b5525da4",
     "commit": {
@@ -102,96 +99,26 @@
     }
   },
   "filename": "maddes___mice.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/maddes/mice/releases/2793701",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/maddes/mice/releases/assets/1411626",
-          "id": 1411626,
-          "name": "mice.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "maddes",
-            "id": 1455722,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1455722?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/maddes",
-            "htmlUrl": "https://github.com/maddes",
-            "followersUrl": "https://api.github.com/users/maddes/followers",
-            "subscriptionsUrl": "https://api.github.com/users/maddes/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/maddes/orgs",
-            "reposUrl": "https://api.github.com/users/maddes/repos",
-            "receivedEventsUrl": "https://api.github.com/users/maddes/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 40024333,
-          "downloadCount": 3,
-          "createdAt": "2016-03-11T15:39:02.000Z",
-          "updatedAt": "2016-03-11T15:45:39.000Z",
-          "browserDownloadUrl": "https://github.com/maddes/mice/releases/download/1.1.0/mice.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/maddes/mice/releases/2793701/assets",
-      "htmlUrl": "https://github.com/maddes/mice/releases/tag/1.1.0",
-      "id": 2793701,
-      "tagName": "1.1.0",
-      "targetCommitish": "master",
-      "name": "v1.1.0",
-      "draft": false,
-      "author": {
-        "login": "maddes",
-        "id": 1455722,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1455722?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/maddes",
-        "htmlUrl": "https://github.com/maddes",
-        "followersUrl": "https://api.github.com/users/maddes/followers",
-        "subscriptionsUrl": "https://api.github.com/users/maddes/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/maddes/orgs",
-        "reposUrl": "https://api.github.com/users/maddes/repos",
-        "receivedEventsUrl": "https://api.github.com/users/maddes/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-03-11T15:34:09.000Z",
-      "publishedAt": "2016-03-11T15:36:30.000Z",
-      "tarballUrl": "https://api.github.com/repos/maddes/mice/tarball/1.1.0",
-      "zipballUrl": "https://api.github.com/repos/maddes/mice/zipball/1.1.0",
-      "body": "It's alive!\n\nIt tracks correctly now and copying doesn't keep the annoying selection.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/maddes/mice/releases/2793696",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/maddes/mice/releases/2793696/assets",
-      "htmlUrl": "https://github.com/maddes/mice/releases/tag/1.0.0",
-      "id": 2793696,
-      "tagName": "1.0.0",
-      "targetCommitish": "b00674639de2f094820c655b5a9ac93739f21356",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "maddes",
-        "id": 1455722,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1455722?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/maddes",
-        "htmlUrl": "https://github.com/maddes",
-        "followersUrl": "https://api.github.com/users/maddes/followers",
-        "subscriptionsUrl": "https://api.github.com/users/maddes/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/maddes/orgs",
-        "reposUrl": "https://api.github.com/users/maddes/repos",
-        "receivedEventsUrl": "https://api.github.com/users/maddes/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-03-11T12:09:31.000Z",
-      "publishedAt": "2016-03-11T15:35:23.000Z",
-      "tarballUrl": "https://api.github.com/repos/maddes/mice/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/maddes/mice/zipball/1.0.0",
-      "body": "Launch!\n\nbtw, don't use this version, it doesn't work…\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/maddes/mice",
+  "url": "https://api.github.com/repos/maddes/mice",
+  "forksUrl": "https://api.github.com/repos/maddes/mice/forks",
+  "teamsUrl": "https://api.github.com/repos/maddes/mice/teams",
+  "hooksUrl": "https://api.github.com/repos/maddes/mice/hooks",
+  "eventsUrl": "https://api.github.com/repos/maddes/mice/events",
+  "tagsUrl": "https://api.github.com/repos/maddes/mice/tags",
+  "languagesUrl": "https://api.github.com/repos/maddes/mice/languages",
+  "stargazersUrl": "https://api.github.com/repos/maddes/mice/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/maddes/mice/contributors",
+  "subscribersUrl": "https://api.github.com/repos/maddes/mice/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/maddes/mice/subscription",
+  "mergesUrl": "https://api.github.com/repos/maddes/mice/merges",
+  "downloadsUrl": "https://api.github.com/repos/maddes/mice/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/maddes/mice/deployments",
+  "gitUrl": "git://github.com/maddes/mice.git",
+  "sshUrl": "git@github.com:maddes/mice.git",
+  "cloneUrl": "https://github.com/maddes/mice.git",
+  "svnUrl": "https://github.com/maddes/mice",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T16:41:41.685Z"
 }

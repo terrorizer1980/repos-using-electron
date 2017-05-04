@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "alm-helper",
     "version": "1.0.0",
@@ -96,9 +96,6 @@
       "node-libs-browser": "^0.5.2",
       "webpack": "^1.9.12",
       "webpack-dev-server": "^1.9.0"
-    },
-    "other": {
-      "author": "Shane Wignall"
     }
   },
   "packageStatus": 200,
@@ -127,5 +124,6 @@
       "commentCount": 0
     }
   },
-  "filename": "shanewignall___alm-helper.json"
+  "filename": "shanewignall___alm-helper.json",
+  "lastFetchedAt": "2017-05-04T19:57:47.750Z"
 }

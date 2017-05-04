@@ -5,7 +5,7 @@
   "owner": {
     "login": "stevenbraham",
     "id": 1886415,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1886415?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1886415?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/stevenbraham",
     "htmlUrl": "https://github.com/stevenbraham",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/stevenbraham/mandrill-handlebars-helper/downloads",
   "deploymentsUrl": "https://api.github.com/repos/stevenbraham/mandrill-handlebars-helper/deployments",
   "createdAt": "2016-10-13T17:45:16.000Z",
-  "updatedAt": "2016-10-14T16:07:50.000Z",
-  "pushedAt": "2016-11-06T21:25:02.000Z",
+  "updatedAt": "2017-02-14T14:23:36.000Z",
+  "pushedAt": "2017-02-14T16:14:13.000Z",
   "gitUrl": "git://github.com/stevenbraham/mandrill-handlebars-helper.git",
   "sshUrl": "git@github.com:stevenbraham/mandrill-handlebars-helper.git",
   "cloneUrl": "https://github.com/stevenbraham/mandrill-handlebars-helper.git",
   "svnUrl": "https://github.com/stevenbraham/mandrill-handlebars-helper",
   "homepage": "",
-  "size": 12,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 15,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -103,9 +103,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "stevenbraham"
-  ],
   "firstCommit": {
     "sha": "bc8593d3b81e1faba74c79cf36c361c74a8cc46f",
     "commit": {
@@ -129,37 +126,6 @@
     }
   },
   "filename": "stevenbraham___mandrill-handlebars-helper.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/stevenbraham/mandrill-handlebars-helper/releases/4585389",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/stevenbraham/mandrill-handlebars-helper/releases/4585389/assets",
-      "htmlUrl": "https://github.com/stevenbraham/mandrill-handlebars-helper/releases/tag/1.0.0",
-      "id": 4585389,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "Version 1",
-      "draft": false,
-      "author": {
-        "login": "stevenbraham",
-        "id": 1886415,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1886415?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/stevenbraham",
-        "htmlUrl": "https://github.com/stevenbraham",
-        "followersUrl": "https://api.github.com/users/stevenbraham/followers",
-        "subscriptionsUrl": "https://api.github.com/users/stevenbraham/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/stevenbraham/orgs",
-        "reposUrl": "https://api.github.com/users/stevenbraham/repos",
-        "receivedEventsUrl": "https://api.github.com/users/stevenbraham/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-14T16:48:12.000Z",
-      "publishedAt": "2016-11-06T21:25:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/stevenbraham/mandrill-handlebars-helper/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/stevenbraham/mandrill-handlebars-helper/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:11:08.685Z"
 }

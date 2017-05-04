@@ -5,7 +5,7 @@
   "owner": {
     "login": "arifcakiroglu",
     "id": 1484664,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1484664?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1484664?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/arifcakiroglu",
     "htmlUrl": "https://github.com/arifcakiroglu",
@@ -20,12 +20,12 @@
   "description": "Minimal ftp",
   "fork": false,
   "createdAt": "2015-10-17T20:44:51.000Z",
-  "updatedAt": "2016-06-20T12:52:52.000Z",
+  "updatedAt": "2016-12-22T16:14:29.000Z",
   "pushedAt": "2015-10-21T07:06:59.000Z",
   "homepage": "",
   "size": 8656,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "stargazersCount": 8,
+  "watchersCount": 8,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 2,
   "openIssues": 2,
-  "watchers": 7,
+  "watchers": 8,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -75,9 +75,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "arifcakiroglu"
-  ],
   "firstCommit": {
     "sha": "cdad53b583f17ac4e5bb4d2e3ccf22a2c96559fd",
     "commit": {
@@ -101,65 +98,26 @@
     }
   },
   "filename": "arifcakiroglu___minimal-ftp.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/releases/1993848",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/releases/assets/961966",
-          "id": 961966,
-          "name": "minimal-ftp.v0.2-alpha.dmg",
-          "label": null,
-          "uploader": {
-            "login": "arifcakiroglu",
-            "id": 1484664,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1484664?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/arifcakiroglu",
-            "htmlUrl": "https://github.com/arifcakiroglu",
-            "followersUrl": "https://api.github.com/users/arifcakiroglu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/arifcakiroglu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/arifcakiroglu/orgs",
-            "reposUrl": "https://api.github.com/users/arifcakiroglu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/arifcakiroglu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 35182710,
-          "downloadCount": 7,
-          "createdAt": "2015-10-21T07:00:34.000Z",
-          "updatedAt": "2015-10-21T07:04:05.000Z",
-          "browserDownloadUrl": "https://github.com/arifcakiroglu/minimal-ftp/releases/download/v0.2-alpha/minimal-ftp.v0.2-alpha.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/releases/1993848/assets",
-      "htmlUrl": "https://github.com/arifcakiroglu/minimal-ftp/releases/tag/v0.2-alpha",
-      "id": 1993848,
-      "tagName": "v0.2-alpha",
-      "targetCommitish": "master",
-      "name": "v0.2-alpha",
-      "draft": false,
-      "author": {
-        "login": "arifcakiroglu",
-        "id": 1484664,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1484664?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/arifcakiroglu",
-        "htmlUrl": "https://github.com/arifcakiroglu",
-        "followersUrl": "https://api.github.com/users/arifcakiroglu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/arifcakiroglu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/arifcakiroglu/orgs",
-        "reposUrl": "https://api.github.com/users/arifcakiroglu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/arifcakiroglu/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-10-20T18:32:26.000Z",
-      "publishedAt": "2015-10-21T07:00:07.000Z",
-      "tarballUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/tarball/v0.2-alpha",
-      "zipballUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/zipball/v0.2-alpha",
-      "body": "## This is pre-alpha release for test\n\nChangelog:\n- Remove some duplicate files option of BrowserWindow.\n- Add toolbar.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/arifcakiroglu/minimal-ftp",
+  "url": "https://api.github.com/repos/arifcakiroglu/minimal-ftp",
+  "forksUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/forks",
+  "teamsUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/teams",
+  "hooksUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/hooks",
+  "eventsUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/events",
+  "tagsUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/tags",
+  "languagesUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/languages",
+  "stargazersUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/contributors",
+  "subscribersUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/subscription",
+  "mergesUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/merges",
+  "downloadsUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/arifcakiroglu/minimal-ftp/deployments",
+  "gitUrl": "git://github.com/arifcakiroglu/minimal-ftp.git",
+  "sshUrl": "git@github.com:arifcakiroglu/minimal-ftp.git",
+  "cloneUrl": "https://github.com/arifcakiroglu/minimal-ftp.git",
+  "svnUrl": "https://github.com/arifcakiroglu/minimal-ftp",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T08:01:46.692Z"
 }

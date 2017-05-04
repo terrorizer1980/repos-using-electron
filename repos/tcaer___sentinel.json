@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "editor",
     "version": "1.0.0",
@@ -77,9 +77,6 @@
     "dependencies": {
       "electron": "^1.4.4",
       "jquery": "^3.1.1"
-    },
-    "other": {
-      "author": "Tino Caer"
     }
   },
   "packageStatus": 200,
@@ -108,5 +105,6 @@
       "commentCount": 0
     }
   },
-  "filename": "tcaer___sentinel.json"
+  "filename": "tcaer___sentinel.json",
+  "lastFetchedAt": "2017-05-04T21:11:23.399Z"
 }

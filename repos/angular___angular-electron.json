@@ -5,7 +5,7 @@
   "owner": {
     "login": "angular",
     "id": 139426,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/139426?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/139426?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/angular",
     "htmlUrl": "https://github.com/angular",
@@ -20,21 +20,21 @@
   "description": "Angular2 + Electron",
   "fork": false,
   "createdAt": "2016-02-10T00:35:35.000Z",
-  "updatedAt": "2016-11-04T07:03:54.000Z",
-  "pushedAt": "2016-11-04T08:43:53.000Z",
+  "updatedAt": "2017-05-04T13:51:07.000Z",
+  "pushedAt": "2017-04-14T09:55:32.000Z",
   "homepage": null,
-  "size": 14,
-  "stargazersCount": 322,
-  "watchersCount": 322,
+  "size": 73,
+  "stargazersCount": 460,
+  "watchersCount": 460,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 67,
-  "openIssuesCount": 14,
-  "openIssues": 14,
-  "watchers": 322,
+  "forksCount": 101,
+  "openIssuesCount": 20,
+  "openIssues": 20,
+  "watchers": 460,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "angular",
     "id": 139426,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/139426?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/139426?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/angular",
     "htmlUrl": "https://github.com/angular",
@@ -56,8 +56,8 @@
     "receivedEventsUrl": "https://api.github.com/users/angular/received_events",
     "type": "Organization"
   },
-  "networkCount": 67,
-  "subscribersCount": 49,
+  "networkCount": 101,
+  "subscribersCount": 54,
   "status": 200,
   "packageJSON": {
     "name": "@angular2/electron",
@@ -115,12 +115,6 @@
   "cloneUrl": "https://github.com/angular/angular-electron.git",
   "svnUrl": "https://github.com/angular/angular-electron",
   "mirrorUrl": null,
-  "contributors": [
-    "robwormald",
-    "matsko",
-    "dsebastien",
-    "NathanWalker"
-  ],
   "firstCommit": {
     "sha": "eff42f5a451d6fbf2f299490a84e7570fa750a61",
     "commit": {
@@ -144,5 +138,6 @@
     }
   },
   "filename": "angular___angular-electron.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:36:51.410Z"
 }

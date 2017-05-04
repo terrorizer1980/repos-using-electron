@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "keyword-index-builder",
     "version": "1.0.0",
@@ -60,21 +60,14 @@
       "start": "electron main.js",
       "postinstall": "cd app && npm install"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Sirius-A/keyword-index-builder.git"
-    },
+    "repository": "https://github.com/Sirius-A/keyword-index-builder",
     "keywords": [
       "Electron",
       "keyword",
       "index",
       "builder"
     ],
-    "author": "Fabio Zuber",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/Sirius-A/keyword-index-builder/issues"
-    },
     "homepage": "https://github.com/Sirius-A/keyword-index-builder#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -83,5 +76,7 @@
   "packageStatus": 404,
   "contributors": [
     "Sirius-A"
-  ]
+  ],
+  "filename": "Sirius-A___keyword-index-builder.json",
+  "lastFetchedAt": "2017-05-04T15:30:07.084Z"
 }

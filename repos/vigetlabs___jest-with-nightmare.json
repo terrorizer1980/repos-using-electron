@@ -6,7 +6,7 @@
   "owner": {
     "login": "vigetlabs",
     "id": 4845,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4845?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4845?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vigetlabs",
     "htmlUrl": "https://github.com/vigetlabs",
@@ -36,7 +36,7 @@
   "downloadsUrl": "https://api.github.com/repos/vigetlabs/jest-with-nightmare/downloads",
   "deploymentsUrl": "https://api.github.com/repos/vigetlabs/jest-with-nightmare/deployments",
   "createdAt": "2016-10-18T16:52:02.000Z",
-  "updatedAt": "2016-12-26T13:48:19.000Z",
+  "updatedAt": "2017-03-24T00:02:06.000Z",
   "pushedAt": "2016-12-09T19:37:09.000Z",
   "gitUrl": "git://github.com/vigetlabs/jest-with-nightmare.git",
   "sshUrl": "git@github.com:vigetlabs/jest-with-nightmare.git",
@@ -44,18 +44,18 @@
   "svnUrl": "https://github.com/vigetlabs/jest-with-nightmare",
   "homepage": null,
   "size": 93,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 4,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -66,7 +66,7 @@
   "organization": {
     "login": "vigetlabs",
     "id": 4845,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4845?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4845?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vigetlabs",
     "htmlUrl": "https://github.com/vigetlabs",
@@ -77,7 +77,7 @@
     "receivedEventsUrl": "https://api.github.com/users/vigetlabs/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -104,9 +104,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "nhunzaker"
-  ],
   "firstCommit": {
     "sha": "f951b486bf521eac7712c58d4d99f8fbd3657a28",
     "commit": {
@@ -129,5 +126,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:55:15.649Z"
 }

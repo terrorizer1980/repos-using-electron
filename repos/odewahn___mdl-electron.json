@@ -5,7 +5,7 @@
   "owner": {
     "login": "odewahn",
     "id": 668868,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/668868?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/668868?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/odewahn",
     "htmlUrl": "https://github.com/odewahn",
@@ -17,15 +17,15 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-01-20T19:07:18.000Z",
-  "updatedAt": "2016-05-24T06:01:33.000Z",
+  "updatedAt": "2017-02-15T10:15:24.000Z",
   "pushedAt": "2016-01-20T21:44:14.000Z",
   "homepage": null,
   "size": 1265,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -78,9 +78,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "odewahn"
-  ],
   "firstCommit": {
     "sha": "749282f69db5d4d706bcbe4cc7f5cf89951d7395",
     "commit": {
@@ -104,65 +101,26 @@
     }
   },
   "filename": "odewahn___mdl-electron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/odewahn/mdl-electron/releases/2462314",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/odewahn/mdl-electron/releases/assets/1229016",
-          "id": 1229016,
-          "name": "MDLElecton.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "odewahn",
-            "id": 668868,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/668868?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/odewahn",
-            "htmlUrl": "https://github.com/odewahn",
-            "followersUrl": "https://api.github.com/users/odewahn/followers",
-            "subscriptionsUrl": "https://api.github.com/users/odewahn/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/odewahn/orgs",
-            "reposUrl": "https://api.github.com/users/odewahn/repos",
-            "receivedEventsUrl": "https://api.github.com/users/odewahn/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 124451978,
-          "downloadCount": 1,
-          "createdAt": "2016-01-20T19:10:14.000Z",
-          "updatedAt": "2016-01-20T19:11:46.000Z",
-          "browserDownloadUrl": "https://github.com/odewahn/mdl-electron/releases/download/0.0.1/MDLElecton.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/odewahn/mdl-electron/releases/2462314/assets",
-      "htmlUrl": "https://github.com/odewahn/mdl-electron/releases/tag/0.0.1",
-      "id": 2462314,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "odewahn",
-        "id": 668868,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/668868?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/odewahn",
-        "htmlUrl": "https://github.com/odewahn",
-        "followersUrl": "https://api.github.com/users/odewahn/followers",
-        "subscriptionsUrl": "https://api.github.com/users/odewahn/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/odewahn/orgs",
-        "reposUrl": "https://api.github.com/users/odewahn/repos",
-        "receivedEventsUrl": "https://api.github.com/users/odewahn/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-20T18:59:42.000Z",
-      "publishedAt": "2016-01-20T19:18:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/odewahn/mdl-electron/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/odewahn/mdl-electron/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/odewahn/mdl-electron",
+  "url": "https://api.github.com/repos/odewahn/mdl-electron",
+  "forksUrl": "https://api.github.com/repos/odewahn/mdl-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/odewahn/mdl-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/odewahn/mdl-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/odewahn/mdl-electron/events",
+  "tagsUrl": "https://api.github.com/repos/odewahn/mdl-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/odewahn/mdl-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/odewahn/mdl-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/odewahn/mdl-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/odewahn/mdl-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/odewahn/mdl-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/odewahn/mdl-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/odewahn/mdl-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/odewahn/mdl-electron/deployments",
+  "gitUrl": "git://github.com/odewahn/mdl-electron.git",
+  "sshUrl": "git@github.com:odewahn/mdl-electron.git",
+  "cloneUrl": "https://github.com/odewahn/mdl-electron.git",
+  "svnUrl": "https://github.com/odewahn/mdl-electron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:25:50.257Z"
 }

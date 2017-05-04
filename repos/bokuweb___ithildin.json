@@ -5,7 +5,7 @@
   "owner": {
     "login": "bokuweb",
     "id": 10220449,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10220449?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10220449?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/bokuweb",
     "htmlUrl": "https://github.com/bokuweb",
@@ -20,12 +20,12 @@
   "description": "Twitter Client built on Electron with Mithril.js",
   "fork": false,
   "createdAt": "2015-08-31T13:31:51.000Z",
-  "updatedAt": "2016-08-07T12:46:58.000Z",
+  "updatedAt": "2017-03-17T11:52:42.000Z",
   "pushedAt": "2015-09-17T12:01:51.000Z",
   "homepage": "",
   "size": 2349,
-  "stargazersCount": 27,
-  "watchersCount": 27,
+  "stargazersCount": 28,
+  "watchersCount": 28,
   "language": "CoffeeScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 3,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 27,
+  "watchers": 28,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -91,10 +91,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "bokuweb",
-    "usagi-f"
-  ],
   "firstCommit": {
     "sha": "5ad31808a974a7ad81359e2b1826f11130757f50",
     "commit": {
@@ -118,65 +114,26 @@
     }
   },
   "filename": "bokuweb___ithildin.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/bokuweb/ithildin/releases/1814500",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/bokuweb/ithildin/releases/assets/865701",
-          "id": 865701,
-          "name": "ithildin-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "bokuweb",
-            "id": 10220449,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/10220449?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/bokuweb",
-            "htmlUrl": "https://github.com/bokuweb",
-            "followersUrl": "https://api.github.com/users/bokuweb/followers",
-            "subscriptionsUrl": "https://api.github.com/users/bokuweb/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/bokuweb/orgs",
-            "reposUrl": "https://api.github.com/users/bokuweb/repos",
-            "receivedEventsUrl": "https://api.github.com/users/bokuweb/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 45659399,
-          "downloadCount": 17,
-          "createdAt": "2015-09-15T10:17:38.000Z",
-          "updatedAt": "2015-09-15T10:17:52.000Z",
-          "browserDownloadUrl": "https://github.com/bokuweb/ithildin/releases/download/v0.0.1/ithildin-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/bokuweb/ithildin/releases/1814500/assets",
-      "htmlUrl": "https://github.com/bokuweb/ithildin/releases/tag/v0.0.1",
-      "id": 1814500,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "bokuweb",
-        "id": 10220449,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10220449?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/bokuweb",
-        "htmlUrl": "https://github.com/bokuweb",
-        "followersUrl": "https://api.github.com/users/bokuweb/followers",
-        "subscriptionsUrl": "https://api.github.com/users/bokuweb/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/bokuweb/orgs",
-        "reposUrl": "https://api.github.com/users/bokuweb/repos",
-        "receivedEventsUrl": "https://api.github.com/users/bokuweb/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-15T10:08:11.000Z",
-      "publishedAt": "2015-09-15T10:18:13.000Z",
-      "tarballUrl": "https://api.github.com/repos/bokuweb/ithildin/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/bokuweb/ithildin/zipball/v0.0.1",
-      "body": "initial release\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/bokuweb/ithildin",
+  "url": "https://api.github.com/repos/bokuweb/ithildin",
+  "forksUrl": "https://api.github.com/repos/bokuweb/ithildin/forks",
+  "teamsUrl": "https://api.github.com/repos/bokuweb/ithildin/teams",
+  "hooksUrl": "https://api.github.com/repos/bokuweb/ithildin/hooks",
+  "eventsUrl": "https://api.github.com/repos/bokuweb/ithildin/events",
+  "tagsUrl": "https://api.github.com/repos/bokuweb/ithildin/tags",
+  "languagesUrl": "https://api.github.com/repos/bokuweb/ithildin/languages",
+  "stargazersUrl": "https://api.github.com/repos/bokuweb/ithildin/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/bokuweb/ithildin/contributors",
+  "subscribersUrl": "https://api.github.com/repos/bokuweb/ithildin/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/bokuweb/ithildin/subscription",
+  "mergesUrl": "https://api.github.com/repos/bokuweb/ithildin/merges",
+  "downloadsUrl": "https://api.github.com/repos/bokuweb/ithildin/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/bokuweb/ithildin/deployments",
+  "gitUrl": "git://github.com/bokuweb/ithildin.git",
+  "sshUrl": "git@github.com:bokuweb/ithildin.git",
+  "cloneUrl": "https://github.com/bokuweb/ithildin.git",
+  "svnUrl": "https://github.com/bokuweb/ithildin",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:52:22.639Z"
 }

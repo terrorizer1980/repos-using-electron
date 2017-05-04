@@ -5,7 +5,7 @@
   "owner": {
     "login": "evolition",
     "id": 16922626,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16922626?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16922626?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/evolition",
     "htmlUrl": "https://github.com/evolition",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/evolition/playmaster",
-  "description": "Next level table top roleplaying",
+  "description": "Open sourced next-level Tabletop Roleplaying ",
   "fork": false,
   "url": "https://api.github.com/repos/evolition/playmaster",
   "forksUrl": "https://api.github.com/repos/evolition/playmaster/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/evolition/playmaster/downloads",
   "deploymentsUrl": "https://api.github.com/repos/evolition/playmaster/deployments",
   "createdAt": "2016-07-29T04:28:31.000Z",
-  "updatedAt": "2016-10-22T16:47:23.000Z",
-  "pushedAt": "2016-11-16T09:31:20.000Z",
+  "updatedAt": "2017-02-09T09:47:51.000Z",
+  "pushedAt": "2017-04-27T15:57:41.000Z",
   "gitUrl": "git://github.com/evolition/playmaster.git",
   "sshUrl": "git@github.com:evolition/playmaster.git",
   "cloneUrl": "https://github.com/evolition/playmaster.git",
   "svnUrl": "https://github.com/evolition/playmaster",
-  "homepage": "http://evolition.io",
-  "size": 15645,
+  "homepage": "https://evolition.io/playmaster",
+  "size": 29851,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -71,7 +71,7 @@
   "organization": {
     "login": "evolition",
     "id": 16922626,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16922626?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16922626?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/evolition",
     "htmlUrl": "https://github.com/evolition",
@@ -147,10 +147,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "aestrro",
-    "jcache"
-  ],
   "firstCommit": {
     "sha": "30ea78df5125a09946ce3aeda16ce5d4317b47f8",
     "commit": {
@@ -174,65 +170,6 @@
     }
   },
   "filename": "evolition___playmaster.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/evolition/playmaster/releases/5474172",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/evolition/playmaster/releases/assets/3203889",
-          "id": 3203889,
-          "name": "playmaster-0.0.4.dmg",
-          "label": null,
-          "uploader": {
-            "login": "aestrro",
-            "id": 1408518,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1408518?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/aestrro",
-            "htmlUrl": "https://github.com/aestrro",
-            "followersUrl": "https://api.github.com/users/aestrro/followers",
-            "subscriptionsUrl": "https://api.github.com/users/aestrro/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/aestrro/orgs",
-            "reposUrl": "https://api.github.com/users/aestrro/repos",
-            "receivedEventsUrl": "https://api.github.com/users/aestrro/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 63448589,
-          "downloadCount": 5,
-          "createdAt": "2017-02-16T07:27:30.000Z",
-          "updatedAt": "2017-02-16T07:27:55.000Z",
-          "browserDownloadUrl": "https://github.com/evolition/playmaster/releases/download/v0.0.1/playmaster-0.0.4.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/evolition/playmaster/releases/5474172/assets",
-      "htmlUrl": "https://github.com/evolition/playmaster/releases/tag/v0.0.1",
-      "id": 5474172,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "Pre-Release Test",
-      "draft": false,
-      "author": {
-        "login": "aestrro",
-        "id": 1408518,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1408518?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/aestrro",
-        "htmlUrl": "https://github.com/aestrro",
-        "followersUrl": "https://api.github.com/users/aestrro/followers",
-        "subscriptionsUrl": "https://api.github.com/users/aestrro/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/aestrro/orgs",
-        "reposUrl": "https://api.github.com/users/aestrro/repos",
-        "receivedEventsUrl": "https://api.github.com/users/aestrro/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-30T09:00:05.000Z",
-      "publishedAt": "2017-02-16T07:28:00.000Z",
-      "tarballUrl": "https://api.github.com/repos/evolition/playmaster/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/evolition/playmaster/zipball/v0.0.1",
-      "body": "Testing Pre-Release"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:10:50.700Z"
 }

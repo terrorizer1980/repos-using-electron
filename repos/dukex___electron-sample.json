@@ -5,7 +5,7 @@
   "owner": {
     "login": "dukex",
     "id": 91538,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/91538?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/91538?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dukex",
     "htmlUrl": "https://github.com/dukex",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "paulcbetts",
       "id": 1396,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1396?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1396?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/paulcbetts",
       "htmlUrl": "https://github.com/paulcbetts",
@@ -79,7 +79,7 @@
     "downloadsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/downloads",
     "deploymentsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/deployments",
     "createdAt": "2015-07-19T23:26:48.000Z",
-    "updatedAt": "2016-11-03T19:07:58.000Z",
+    "updatedAt": "2016-12-22T20:10:27.000Z",
     "pushedAt": "2015-07-19T23:27:21.000Z",
     "gitUrl": "git://github.com/paulcbetts/electron-sample.git",
     "sshUrl": "git@github.com:paulcbetts/electron-sample.git",
@@ -87,18 +87,19 @@
     "svnUrl": "https://github.com/paulcbetts/electron-sample",
     "homepage": null,
     "size": 83,
-    "stargazersCount": 1,
-    "watchersCount": 1,
+    "stargazersCount": 2,
+    "watchersCount": 2,
     "language": "CoffeeScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 0,
+    "forksCount": 12,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
-    "watchers": 1,
+    "watchers": 2,
     "defaultBranch": "master"
   },
   "source": {
@@ -108,7 +109,7 @@
     "owner": {
       "login": "paulcbetts",
       "id": 1396,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1396?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1396?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/paulcbetts",
       "htmlUrl": "https://github.com/paulcbetts",
@@ -138,7 +139,7 @@
     "downloadsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/downloads",
     "deploymentsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/deployments",
     "createdAt": "2015-07-19T23:26:48.000Z",
-    "updatedAt": "2016-11-03T19:07:58.000Z",
+    "updatedAt": "2016-12-22T20:10:27.000Z",
     "pushedAt": "2015-07-19T23:27:21.000Z",
     "gitUrl": "git://github.com/paulcbetts/electron-sample.git",
     "sshUrl": "git@github.com:paulcbetts/electron-sample.git",
@@ -146,21 +147,22 @@
     "svnUrl": "https://github.com/paulcbetts/electron-sample",
     "homepage": null,
     "size": 83,
-    "stargazersCount": 1,
-    "watchersCount": 1,
+    "stargazersCount": 2,
+    "watchersCount": 2,
     "language": "CoffeeScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 0,
+    "forksCount": 12,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
-    "watchers": 1,
+    "watchers": 2,
     "defaultBranch": "master"
   },
-  "networkCount": 0,
+  "networkCount": 12,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -211,11 +213,6 @@
   "cloneUrl": "https://github.com/dukex/electron-sample.git",
   "svnUrl": "https://github.com/dukex/electron-sample",
   "mirrorUrl": null,
-  "contributors": [
-    "benogle",
-    "paulcbetts",
-    "hokein"
-  ],
   "firstCommit": {
     "sha": "8e711838d0e78d2b5aedacc677911dffd39db34b",
     "commit": {
@@ -240,5 +237,6 @@
   },
   "sourceRepo": "paulcbetts/electron-sample",
   "filename": "dukex___electron-sample.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:32:16.034Z"
 }

@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "heatvision",
     "version": "4.2.98",
@@ -62,12 +62,6 @@
     "homepage": "https://www.karyfoundation.org/developer/comment",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
-    },
-    "other": {
-      "author": "Kary Foundation",
-      "bugs": {
-        "url": "https://github.com/karyfoundationl/comment/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -117,5 +111,6 @@
     }
   },
   "filename": "pmkary___heatvision.json",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T05:19:45.244Z"
 }

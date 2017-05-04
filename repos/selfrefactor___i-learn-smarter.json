@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "i-learn-smarter",
     "version": "1.0.0",
@@ -87,11 +87,7 @@
       "watch": "babel watchBefore.js --out-file watch.js",
       "test": "mocha --timeout 15000 test.js"
     },
-    "author": "self_refactor",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/selfrefactor/i-learn-smarter.git"
-    },
+    "repository": "https://github.com/selfrefactor/i-learn-smarter",
     "license": "ISC",
     "dependencies": {
       "body-parser": "*",
@@ -173,10 +169,15 @@
           }
         ]
       ]
+    },
+    "other": {
+      "author": "self_refactor"
     }
   },
   "packageStatus": 200,
   "contributors": [
     "selfrefactor"
-  ]
+  ],
+  "filename": "selfrefactor___i-learn-smarter.json",
+  "lastFetchedAt": "2017-05-04T05:03:11.237Z"
 }

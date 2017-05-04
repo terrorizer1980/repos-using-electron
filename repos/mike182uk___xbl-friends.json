@@ -5,7 +5,7 @@
   "owner": {
     "login": "mike182uk",
     "id": 991592,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/991592?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/991592?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mike182uk",
     "htmlUrl": "https://github.com/mike182uk",
@@ -20,20 +20,20 @@
   "description": ":video_game: A menu bar application to see when your Xbox live friends are online",
   "fork": false,
   "createdAt": "2016-03-02T22:01:47.000Z",
-  "updatedAt": "2016-06-04T13:51:31.000Z",
-  "pushedAt": "2016-06-04T19:34:25.000Z",
+  "updatedAt": "2016-12-21T16:14:21.000Z",
+  "pushedAt": "2017-01-03T19:51:23.000Z",
   "homepage": "",
-  "size": 137,
+  "size": 2918,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": true,
+  "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 6,
+  "openIssues": 6,
   "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
@@ -41,9 +41,15 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
-  "subscribersCount": 0,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "xbl-friends",
@@ -136,9 +142,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mike182uk"
-  ],
   "firstCommit": {
     "sha": "0c175567540e02dc739ef4755d079e88846d8e5c",
     "commit": {
@@ -162,65 +165,26 @@
     }
   },
   "filename": "mike182uk___xbl-friends.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mike182uk/xbl-friends/releases/5059934",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mike182uk/xbl-friends/releases/assets/2920598",
-          "id": 2920598,
-          "name": "xbl-friends-darwin-x64-1.0.0.tar.bz2",
-          "label": "",
-          "uploader": {
-            "login": "mike182uk",
-            "id": 991592,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/991592?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mike182uk",
-            "htmlUrl": "https://github.com/mike182uk",
-            "followersUrl": "https://api.github.com/users/mike182uk/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mike182uk/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mike182uk/orgs",
-            "reposUrl": "https://api.github.com/users/mike182uk/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mike182uk/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-bzip2",
-          "state": "uploaded",
-          "size": 38106086,
-          "downloadCount": 2,
-          "createdAt": "2017-01-03T19:53:01.000Z",
-          "updatedAt": "2017-01-03T19:53:02.000Z",
-          "browserDownloadUrl": "https://github.com/mike182uk/xbl-friends/releases/download/1.0.0/xbl-friends-darwin-x64-1.0.0.tar.bz2"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mike182uk/xbl-friends/releases/5059934/assets",
-      "htmlUrl": "https://github.com/mike182uk/xbl-friends/releases/tag/1.0.0",
-      "id": 5059934,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": null,
-      "draft": false,
-      "author": {
-        "login": "mike182uk",
-        "id": 991592,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/991592?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mike182uk",
-        "htmlUrl": "https://github.com/mike182uk",
-        "followersUrl": "https://api.github.com/users/mike182uk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mike182uk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mike182uk/orgs",
-        "reposUrl": "https://api.github.com/users/mike182uk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mike182uk/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-01-03T19:46:35.000Z",
-      "publishedAt": "2017-01-03T19:53:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/mike182uk/xbl-friends/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/mike182uk/xbl-friends/zipball/1.0.0",
-      "body": null
-    }
-  ]
+  "htmlUrl": "https://github.com/mike182uk/xbl-friends",
+  "url": "https://api.github.com/repos/mike182uk/xbl-friends",
+  "forksUrl": "https://api.github.com/repos/mike182uk/xbl-friends/forks",
+  "teamsUrl": "https://api.github.com/repos/mike182uk/xbl-friends/teams",
+  "hooksUrl": "https://api.github.com/repos/mike182uk/xbl-friends/hooks",
+  "eventsUrl": "https://api.github.com/repos/mike182uk/xbl-friends/events",
+  "tagsUrl": "https://api.github.com/repos/mike182uk/xbl-friends/tags",
+  "languagesUrl": "https://api.github.com/repos/mike182uk/xbl-friends/languages",
+  "stargazersUrl": "https://api.github.com/repos/mike182uk/xbl-friends/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/mike182uk/xbl-friends/contributors",
+  "subscribersUrl": "https://api.github.com/repos/mike182uk/xbl-friends/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/mike182uk/xbl-friends/subscription",
+  "mergesUrl": "https://api.github.com/repos/mike182uk/xbl-friends/merges",
+  "downloadsUrl": "https://api.github.com/repos/mike182uk/xbl-friends/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/mike182uk/xbl-friends/deployments",
+  "gitUrl": "git://github.com/mike182uk/xbl-friends.git",
+  "sshUrl": "git@github.com:mike182uk/xbl-friends.git",
+  "cloneUrl": "https://github.com/mike182uk/xbl-friends.git",
+  "svnUrl": "https://github.com/mike182uk/xbl-friends",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:18:29.971Z"
 }

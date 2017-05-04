@@ -1,12 +1,12 @@
 {
   "filename": "MeiQuant___Heron-UI.json",
   "id": 75282111,
-  "name": "Heron-client",
-  "fullName": "MeiQuant/Heron-client",
+  "name": "heron-client",
+  "fullName": "MeiQuant/heron-client",
   "owner": {
     "login": "MeiQuant",
     "id": 20348400,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20348400?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20348400?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MeiQuant",
     "htmlUrl": "https://github.com/MeiQuant",
@@ -18,30 +18,30 @@
     "type": "Organization"
   },
   "private": false,
-  "htmlUrl": "https://github.com/MeiQuant/Heron-client",
+  "htmlUrl": "https://github.com/MeiQuant/heron-client",
   "description": "client for Heron",
   "fork": false,
-  "url": "https://api.github.com/repos/MeiQuant/Heron-client",
-  "forksUrl": "https://api.github.com/repos/MeiQuant/Heron-client/forks",
-  "teamsUrl": "https://api.github.com/repos/MeiQuant/Heron-client/teams",
-  "hooksUrl": "https://api.github.com/repos/MeiQuant/Heron-client/hooks",
-  "eventsUrl": "https://api.github.com/repos/MeiQuant/Heron-client/events",
-  "tagsUrl": "https://api.github.com/repos/MeiQuant/Heron-client/tags",
-  "languagesUrl": "https://api.github.com/repos/MeiQuant/Heron-client/languages",
-  "stargazersUrl": "https://api.github.com/repos/MeiQuant/Heron-client/stargazers",
-  "contributorsUrl": "https://api.github.com/repos/MeiQuant/Heron-client/contributors",
-  "subscribersUrl": "https://api.github.com/repos/MeiQuant/Heron-client/subscribers",
-  "subscriptionUrl": "https://api.github.com/repos/MeiQuant/Heron-client/subscription",
-  "mergesUrl": "https://api.github.com/repos/MeiQuant/Heron-client/merges",
-  "downloadsUrl": "https://api.github.com/repos/MeiQuant/Heron-client/downloads",
-  "deploymentsUrl": "https://api.github.com/repos/MeiQuant/Heron-client/deployments",
+  "url": "https://api.github.com/repos/MeiQuant/heron-client",
+  "forksUrl": "https://api.github.com/repos/MeiQuant/heron-client/forks",
+  "teamsUrl": "https://api.github.com/repos/MeiQuant/heron-client/teams",
+  "hooksUrl": "https://api.github.com/repos/MeiQuant/heron-client/hooks",
+  "eventsUrl": "https://api.github.com/repos/MeiQuant/heron-client/events",
+  "tagsUrl": "https://api.github.com/repos/MeiQuant/heron-client/tags",
+  "languagesUrl": "https://api.github.com/repos/MeiQuant/heron-client/languages",
+  "stargazersUrl": "https://api.github.com/repos/MeiQuant/heron-client/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/MeiQuant/heron-client/contributors",
+  "subscribersUrl": "https://api.github.com/repos/MeiQuant/heron-client/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/MeiQuant/heron-client/subscription",
+  "mergesUrl": "https://api.github.com/repos/MeiQuant/heron-client/merges",
+  "downloadsUrl": "https://api.github.com/repos/MeiQuant/heron-client/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/MeiQuant/heron-client/deployments",
   "createdAt": "2016-12-01T10:32:51.000Z",
-  "updatedAt": "2016-12-04T13:46:16.000Z",
-  "pushedAt": "2016-12-21T11:49:13.000Z",
-  "gitUrl": "git://github.com/MeiQuant/Heron-client.git",
-  "sshUrl": "git@github.com:MeiQuant/Heron-client.git",
-  "cloneUrl": "https://github.com/MeiQuant/Heron-client.git",
-  "svnUrl": "https://github.com/MeiQuant/Heron-client",
+  "updatedAt": "2017-02-05T01:19:48.000Z",
+  "pushedAt": "2017-03-24T05:09:48.000Z",
+  "gitUrl": "git://github.com/MeiQuant/heron-client.git",
+  "sshUrl": "git@github.com:MeiQuant/heron-client.git",
+  "cloneUrl": "https://github.com/MeiQuant/heron-client.git",
+  "svnUrl": "https://github.com/MeiQuant/heron-client",
   "homepage": "",
   "size": 1431,
   "stargazersCount": 0,
@@ -72,7 +72,7 @@
   "organization": {
     "login": "MeiQuant",
     "id": 20348400,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20348400?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20348400?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MeiQuant",
     "htmlUrl": "https://github.com/MeiQuant",
@@ -207,9 +207,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "onthedesk"
-  ],
   "firstCommit": {
     "sha": "dba1dfc3fbb4882e0513810b3a1446a4291e346f",
     "commit": {
@@ -232,5 +229,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:35:18.227Z"
 }

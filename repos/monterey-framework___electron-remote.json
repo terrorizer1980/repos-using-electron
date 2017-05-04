@@ -6,7 +6,7 @@
   "owner": {
     "login": "monterey-framework",
     "id": 20094769,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20094769?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/20094769?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/monterey-framework",
     "htmlUrl": "https://github.com/monterey-framework",
@@ -66,7 +66,7 @@
   "organization": {
     "login": "monterey-framework",
     "id": 20094769,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20094769?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/20094769?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/monterey-framework",
     "htmlUrl": "https://github.com/monterey-framework",
@@ -84,7 +84,7 @@
     "owner": {
       "login": "electron-userland",
       "id": 17519142,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/17519142?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/electron-userland",
       "htmlUrl": "https://github.com/electron-userland",
@@ -114,26 +114,27 @@
     "downloadsUrl": "https://api.github.com/repos/electron-userland/electron-remote/downloads",
     "deploymentsUrl": "https://api.github.com/repos/electron-userland/electron-remote/deployments",
     "createdAt": "2016-04-27T01:53:44.000Z",
-    "updatedAt": "2016-12-30T03:14:39.000Z",
-    "pushedAt": "2016-12-22T19:23:00.000Z",
+    "updatedAt": "2017-05-03T13:36:25.000Z",
+    "pushedAt": "2017-04-05T17:50:23.000Z",
     "gitUrl": "git://github.com/electron-userland/electron-remote.git",
     "sshUrl": "git@github.com:electron-userland/electron-remote.git",
     "cloneUrl": "https://github.com/electron-userland/electron-remote.git",
     "svnUrl": "https://github.com/electron-userland/electron-remote",
     "homepage": null,
-    "size": 278,
-    "stargazersCount": 121,
-    "watchersCount": 121,
+    "size": 301,
+    "stargazersCount": 178,
+    "watchersCount": 178,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 7,
+    "forksCount": 10,
     "mirrorUrl": null,
     "openIssuesCount": 3,
     "openIssues": 3,
-    "watchers": 121,
+    "watchers": 178,
     "defaultBranch": "master"
   },
   "source": {
@@ -143,7 +144,7 @@
     "owner": {
       "login": "electron-userland",
       "id": 17519142,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/17519142?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/electron-userland",
       "htmlUrl": "https://github.com/electron-userland",
@@ -173,29 +174,30 @@
     "downloadsUrl": "https://api.github.com/repos/electron-userland/electron-remote/downloads",
     "deploymentsUrl": "https://api.github.com/repos/electron-userland/electron-remote/deployments",
     "createdAt": "2016-04-27T01:53:44.000Z",
-    "updatedAt": "2016-12-30T03:14:39.000Z",
-    "pushedAt": "2016-12-22T19:23:00.000Z",
+    "updatedAt": "2017-05-03T13:36:25.000Z",
+    "pushedAt": "2017-04-05T17:50:23.000Z",
     "gitUrl": "git://github.com/electron-userland/electron-remote.git",
     "sshUrl": "git@github.com:electron-userland/electron-remote.git",
     "cloneUrl": "https://github.com/electron-userland/electron-remote.git",
     "svnUrl": "https://github.com/electron-userland/electron-remote",
     "homepage": null,
-    "size": 278,
-    "stargazersCount": 121,
-    "watchersCount": 121,
+    "size": 301,
+    "stargazersCount": 178,
+    "watchersCount": 178,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 7,
+    "forksCount": 10,
     "mirrorUrl": null,
     "openIssuesCount": 3,
     "openIssues": 3,
-    "watchers": 121,
+    "watchers": 178,
     "defaultBranch": "master"
   },
-  "networkCount": 7,
+  "networkCount": 10,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -246,10 +248,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "paulcbetts",
-    "JeroenVinke"
-  ],
   "firstCommit": {
     "sha": "fc0b650ea17229189f89eb89303ff8d70a5995fa",
     "commit": {
@@ -272,37 +270,6 @@
       "commentCount": 0
     }
   },
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/monterey-framework/electron-remote/releases/3975099",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/monterey-framework/electron-remote/releases/3975099/assets",
-      "htmlUrl": "https://github.com/monterey-framework/electron-remote/releases/tag/0.5.12",
-      "id": 3975099,
-      "tagName": "0.5.12",
-      "targetCommitish": "master",
-      "name": "0.5.12",
-      "draft": false,
-      "author": {
-        "login": "JeroenVinke",
-        "id": 2189477,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2189477?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/JeroenVinke",
-        "htmlUrl": "https://github.com/JeroenVinke",
-        "followersUrl": "https://api.github.com/users/JeroenVinke/followers",
-        "subscriptionsUrl": "https://api.github.com/users/JeroenVinke/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/JeroenVinke/orgs",
-        "reposUrl": "https://api.github.com/users/JeroenVinke/repos",
-        "receivedEventsUrl": "https://api.github.com/users/JeroenVinke/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-08-26T06:56:55.000Z",
-      "publishedAt": "2016-08-25T17:53:13.000Z",
-      "tarballUrl": "https://api.github.com/repos/monterey-framework/electron-remote/tarball/0.5.12",
-      "zipballUrl": "https://api.github.com/repos/monterey-framework/electron-remote/zipball/0.5.12",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:00:59.575Z"
 }

@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "devDependencies": {
       "electron": "^1.4.1",
@@ -231,5 +231,6 @@
       "zipballUrl": "https://api.github.com/repos/SofusA/Gframe/zipball/0.0.1",
       "body": "This is a very early release. \nA lot of features are missing.\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T20:06:57.983Z"
 }

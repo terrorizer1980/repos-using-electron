@@ -5,7 +5,7 @@
   "owner": {
     "login": "Infragistics",
     "id": 1493269,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1493269?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1493269?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Infragistics",
     "htmlUrl": "https://github.com/Infragistics",
@@ -20,21 +20,21 @@
   "description": "A simple web content editor built with Electron",
   "fork": false,
   "createdAt": "2015-07-30T21:59:35.000Z",
-  "updatedAt": "2016-10-28T22:31:34.000Z",
-  "pushedAt": "2016-11-02T21:56:30.000Z",
+  "updatedAt": "2017-04-03T01:10:14.000Z",
+  "pushedAt": "2017-04-12T22:25:49.000Z",
   "homepage": "https://waffle.io/infragistics/livewire",
-  "size": 1345,
-  "stargazersCount": 13,
-  "watchersCount": 13,
+  "size": 1373,
+  "stargazersCount": 16,
+  "watchersCount": 16,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
-  "openIssuesCount": 32,
-  "openIssues": 32,
-  "watchers": 13,
+  "forksCount": 6,
+  "openIssuesCount": 33,
+  "openIssues": 33,
+  "watchers": 16,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "Infragistics",
     "id": 1493269,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1493269?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1493269?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Infragistics",
     "htmlUrl": "https://github.com/Infragistics",
@@ -56,8 +56,8 @@
     "receivedEventsUrl": "https://api.github.com/users/Infragistics/received_events",
     "type": "Organization"
   },
-  "networkCount": 5,
-  "subscribersCount": 16,
+  "networkCount": 6,
+  "subscribersCount": 14,
   "status": 200,
   "packageJSON": {
     "name": "livewire",
@@ -114,14 +114,6 @@
   "cloneUrl": "https://github.com/Infragistics/livewire.git",
   "svnUrl": "https://github.com/Infragistics/livewire",
   "mirrorUrl": null,
-  "contributors": [
-    "craigshoemaker",
-    "kacheshmarova",
-    "pablopnn",
-    "alhalama",
-    "ig-ealbert",
-    "skrustev"
-  ],
   "firstCommit": {
     "sha": "3d15c38c39269400ede6a7ba1c78fe73aa26f5f8",
     "commit": {
@@ -145,37 +137,6 @@
     }
   },
   "filename": "Infragistics___livewire.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Infragistics/livewire/releases/5468298",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Infragistics/livewire/releases/5468298/assets",
-      "htmlUrl": "https://github.com/Infragistics/livewire/releases/tag/v1.2.0",
-      "id": 5468298,
-      "tagName": "v1.2.0",
-      "targetCommitish": "master",
-      "name": "Livewire v1.2.0",
-      "draft": false,
-      "author": {
-        "login": "craigshoemaker",
-        "id": 127797,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/127797?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/craigshoemaker",
-        "htmlUrl": "https://github.com/craigshoemaker",
-        "followersUrl": "https://api.github.com/users/craigshoemaker/followers",
-        "subscriptionsUrl": "https://api.github.com/users/craigshoemaker/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/craigshoemaker/orgs",
-        "reposUrl": "https://api.github.com/users/craigshoemaker/repos",
-        "receivedEventsUrl": "https://api.github.com/users/craigshoemaker/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-02-15T18:13:22.000Z",
-      "publishedAt": "2017-02-15T18:15:29.000Z",
-      "tarballUrl": "https://api.github.com/repos/Infragistics/livewire/tarball/v1.2.0",
-      "zipballUrl": "https://api.github.com/repos/Infragistics/livewire/zipball/v1.2.0",
-      "body": "## New Features\r\n- Addition of `table-plain` class for AsciiDoc tables. Apply to table via `role=table-plain`\r\n- Includes Japanese and English default table of contents macro (`toc::[]`) text \r\n- Drag-and-drop support to open files\r\n- Dirty checking documents when you close a tab or the application window\r\n- Update Save As HTML implementation\r\n- Addition of toggle for line numbers (available from Format menu)\r\n\r\n\r\n## Updates and Changes\r\n- Updated a number of out-of-date packages (now works with latest version of Node.js)\r\nv"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:04:10.155Z"
 }

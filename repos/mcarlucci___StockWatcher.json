@@ -5,7 +5,7 @@
   "owner": {
     "login": "mcarlucci",
     "id": 3534153,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3534153?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3534153?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mcarlucci",
     "htmlUrl": "https://github.com/mcarlucci",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/deployments",
   "createdAt": "2016-11-05T05:16:34.000Z",
-  "updatedAt": "2016-11-09T07:40:28.000Z",
-  "pushedAt": "2016-11-10T08:23:47.000Z",
+  "updatedAt": "2016-11-27T21:30:04.000Z",
+  "pushedAt": "2017-04-29T05:05:08.000Z",
   "gitUrl": "git://github.com/mcarlucci/StockWatcher.git",
   "sshUrl": "git@github.com:mcarlucci/StockWatcher.git",
   "cloneUrl": "https://github.com/mcarlucci/StockWatcher.git",
   "svnUrl": "https://github.com/mcarlucci/StockWatcher",
   "homepage": "",
-  "size": 39091,
+  "size": 39092,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -91,9 +91,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mcarlucci"
-  ],
   "firstCommit": {
     "sha": "56b94d18558ba152117e827301e635d110d386bb",
     "commit": {
@@ -117,124 +114,6 @@
     }
   },
   "filename": "mcarlucci___StockWatcher.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mcarlucci/StockWatcher/releases/4767991",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mcarlucci/StockWatcher/releases/assets/2723608",
-          "id": 2723608,
-          "name": "StockWatcher-Mac-OS-X.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "mcarlucci",
-            "id": 3534153,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3534153?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mcarlucci",
-            "htmlUrl": "https://github.com/mcarlucci",
-            "followersUrl": "https://api.github.com/users/mcarlucci/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mcarlucci/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mcarlucci/orgs",
-            "reposUrl": "https://api.github.com/users/mcarlucci/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mcarlucci/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 120617799,
-          "downloadCount": 2,
-          "createdAt": "2016-11-27T21:07:44.000Z",
-          "updatedAt": "2016-11-27T21:13:52.000Z",
-          "browserDownloadUrl": "https://github.com/mcarlucci/StockWatcher/releases/download/v1.0.1/StockWatcher-Mac-OS-X.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/releases/4767991/assets",
-      "htmlUrl": "https://github.com/mcarlucci/StockWatcher/releases/tag/v1.0.1",
-      "id": 4767991,
-      "tagName": "v1.0.1",
-      "targetCommitish": "master",
-      "name": "v1.0.1",
-      "draft": false,
-      "author": {
-        "login": "mcarlucci",
-        "id": 3534153,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3534153?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mcarlucci",
-        "htmlUrl": "https://github.com/mcarlucci",
-        "followersUrl": "https://api.github.com/users/mcarlucci/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mcarlucci/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mcarlucci/orgs",
-        "reposUrl": "https://api.github.com/users/mcarlucci/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mcarlucci/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-27T21:00:18.000Z",
-      "publishedAt": "2016-11-27T21:12:51.000Z",
-      "tarballUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/tarball/v1.0.1",
-      "zipballUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/zipball/v1.0.1",
-      "body": "Release Notes:\n- adds visual display of company name for corresponding inputed ticker symbol\n- improvements and bug fixes\n"
-    },
-    {
-      "url": "https://api.github.com/repos/mcarlucci/StockWatcher/releases/4578863",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mcarlucci/StockWatcher/releases/assets/2604724",
-          "id": 2604724,
-          "name": "StockWatcher-Mac-OS-X.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "mcarlucci",
-            "id": 3534153,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3534153?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mcarlucci",
-            "htmlUrl": "https://github.com/mcarlucci",
-            "followersUrl": "https://api.github.com/users/mcarlucci/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mcarlucci/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mcarlucci/orgs",
-            "reposUrl": "https://api.github.com/users/mcarlucci/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mcarlucci/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 120618544,
-          "downloadCount": 1,
-          "createdAt": "2016-11-07T22:02:47.000Z",
-          "updatedAt": "2016-11-07T22:06:58.000Z",
-          "browserDownloadUrl": "https://github.com/mcarlucci/StockWatcher/releases/download/v1.0.0/StockWatcher-Mac-OS-X.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/releases/4578863/assets",
-      "htmlUrl": "https://github.com/mcarlucci/StockWatcher/releases/tag/v1.0.0",
-      "id": 4578863,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "mcarlucci",
-        "id": 3534153,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3534153?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mcarlucci",
-        "htmlUrl": "https://github.com/mcarlucci",
-        "followersUrl": "https://api.github.com/users/mcarlucci/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mcarlucci/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mcarlucci/orgs",
-        "reposUrl": "https://api.github.com/users/mcarlucci/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mcarlucci/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-05T05:14:59.000Z",
-      "publishedAt": "2016-11-05T05:23:36.000Z",
-      "tarballUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/mcarlucci/StockWatcher/zipball/v1.0.0",
-      "body": "First release\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:15:43.331Z"
 }

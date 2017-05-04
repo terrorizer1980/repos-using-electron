@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-quick-start",
     "version": "1.0.0",
@@ -84,9 +84,6 @@
     },
     "dependencies": {
       "marked": "^0.3.6"
-    },
-    "other": {
-      "author": "ltaoo"
     }
   },
   "packageStatus": 200,
@@ -115,5 +112,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ltaoo___electron-study.json"
+  "filename": "ltaoo___electron-study.json",
+  "lastFetchedAt": "2017-05-04T15:24:37.935Z"
 }

@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "html2pdf",
     "version": "1.0.0",
@@ -86,9 +86,6 @@
     "dependencies": {
       "phantomjs": "*",
       "nodepdf": "*"
-    },
-    "other": {
-      "author": "xiaoerge"
     }
   },
   "packageStatus": 200,
@@ -117,5 +114,6 @@
       "commentCount": 0
     }
   },
-  "filename": "xiaoerge___html2pdf.json"
+  "filename": "xiaoerge___html2pdf.json",
+  "lastFetchedAt": "2017-05-04T17:41:32.680Z"
 }

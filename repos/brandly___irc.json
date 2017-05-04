@@ -5,7 +5,7 @@
   "owner": {
     "login": "brandly",
     "id": 820696,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/820696?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/820696?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/brandly",
     "htmlUrl": "https://github.com/brandly",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/brandly/irc/downloads",
   "deploymentsUrl": "https://api.github.com/repos/brandly/irc/deployments",
   "createdAt": "2015-03-16T02:10:34.000Z",
-  "updatedAt": "2016-09-14T19:54:37.000Z",
+  "updatedAt": "2017-03-30T19:17:23.000Z",
   "pushedAt": "2016-05-24T06:08:52.000Z",
   "gitUrl": "git://github.com/brandly/irc.git",
   "sshUrl": "git@github.com:brandly/irc.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/brandly/irc",
   "homepage": "",
   "size": 65,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "stargazersCount": 11,
+  "watchersCount": 11,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 5,
+  "watchers": 11,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "networkCount": 3,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "irc",
@@ -106,10 +106,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "brandly",
-    "gilesvangruisen"
-  ],
   "firstCommit": {
     "sha": "1c0b4c6145784d60761238bccfc3607af4a292e3",
     "commit": {
@@ -133,5 +129,6 @@
     }
   },
   "filename": "brandly___irc.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:01:30.057Z"
 }

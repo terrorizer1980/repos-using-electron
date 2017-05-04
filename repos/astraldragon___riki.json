@@ -1,11 +1,11 @@
 {
-  "id": 63288742,
+  "id": 79664501,
   "name": "riki",
   "fullName": "astraldragon/riki",
   "owner": {
     "login": "astraldragon",
     "id": 846931,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/846931?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/846931?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/astraldragon",
     "htmlUrl": "https://github.com/astraldragon",
@@ -17,33 +17,39 @@
     "type": "User"
   },
   "private": false,
-  "description": "riki",
+  "description": "React Native app using Kitsu API",
   "fork": false,
-  "createdAt": "2016-07-14T00:27:42.000Z",
-  "updatedAt": "2016-07-17T22:21:15.000Z",
-  "pushedAt": "2016-07-28T01:27:44.000Z",
+  "createdAt": "2017-01-21T18:30:43.000Z",
+  "updatedAt": "2017-03-25T16:15:33.000Z",
+  "pushedAt": "2017-05-01T09:16:03.000Z",
   "homepage": null,
-  "size": 97,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 223,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "riki",
@@ -102,9 +108,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "astraldragon"
-  ],
   "firstCommit": {
     "sha": "eb9b43f9c6593581d3963a83dd4b85a7634c9085",
     "commit": {
@@ -128,5 +131,26 @@
     }
   },
   "filename": "astraldragon___riki.json",
-  "releases": []
+  "htmlUrl": "https://github.com/astraldragon/riki",
+  "url": "https://api.github.com/repos/astraldragon/riki",
+  "forksUrl": "https://api.github.com/repos/astraldragon/riki/forks",
+  "teamsUrl": "https://api.github.com/repos/astraldragon/riki/teams",
+  "hooksUrl": "https://api.github.com/repos/astraldragon/riki/hooks",
+  "eventsUrl": "https://api.github.com/repos/astraldragon/riki/events",
+  "tagsUrl": "https://api.github.com/repos/astraldragon/riki/tags",
+  "languagesUrl": "https://api.github.com/repos/astraldragon/riki/languages",
+  "stargazersUrl": "https://api.github.com/repos/astraldragon/riki/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/astraldragon/riki/contributors",
+  "subscribersUrl": "https://api.github.com/repos/astraldragon/riki/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/astraldragon/riki/subscription",
+  "mergesUrl": "https://api.github.com/repos/astraldragon/riki/merges",
+  "downloadsUrl": "https://api.github.com/repos/astraldragon/riki/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/astraldragon/riki/deployments",
+  "gitUrl": "git://github.com/astraldragon/riki.git",
+  "sshUrl": "git@github.com:astraldragon/riki.git",
+  "cloneUrl": "https://github.com/astraldragon/riki.git",
+  "svnUrl": "https://github.com/astraldragon/riki",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T05:36:04.800Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "SimulatedGREG",
     "id": 8327811,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8327811?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8327811?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SimulatedGREG",
     "htmlUrl": "https://github.com/SimulatedGREG",
@@ -17,24 +17,24 @@
     "type": "User"
   },
   "private": false,
-  "description": "An Electron & Vue.js quick start boilerplate with vue-cli support",
+  "description": "An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack.",
   "fork": false,
   "createdAt": "2016-05-12T07:08:12.000Z",
-  "updatedAt": "2016-08-15T03:23:14.000Z",
-  "pushedAt": "2016-08-15T05:23:56.000Z",
-  "homepage": "https://simulatedgreg.gitbooks.io/electron-vue/content/index.html",
-  "size": 3855,
-  "stargazersCount": 177,
-  "watchersCount": 177,
+  "updatedAt": "2017-05-04T18:30:07.000Z",
+  "pushedAt": "2017-05-04T03:31:03.000Z",
+  "homepage": "https://simulatedgreg.gitbooks.io/electron-vue/content/",
+  "size": 4763,
+  "stargazersCount": 1794,
+  "watchersCount": 1794,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
-  "forksCount": 6,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 177,
+  "forksCount": 139,
+  "openIssuesCount": 16,
+  "openIssues": 16,
+  "watchers": 1794,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,17 +48,10 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 6,
-  "subscribersCount": 12,
+  "networkCount": 139,
+  "subscribersCount": 76,
   "status": 200,
   "packageStatus": 200,
-  "contributors": [
-    "SimulatedGREG",
-    "sqlwwx",
-    "malept",
-    "techtolentino",
-    "lidashuang"
-  ],
   "packageJSON": {
     "name": "electron-vue",
     "version": "0.0.0",
@@ -79,12 +72,6 @@
     "homepage": "https://github.com/SimulatedGREG/electron-vue#readme",
     "devDependencies": {
       "suppose": "^0.6.1"
-    },
-    "other": {
-      "author": "Greg Holguin <simulatedgreg@gmail.com> (https://github.com/SimulatedGREG)",
-      "bugs": {
-        "url": "https://github.com/SimulatedGREG/electron-vue/issues"
-      }
     }
   },
   "firstCommit": {
@@ -110,5 +97,26 @@
     }
   },
   "filename": "SimulatedGREG___electron-vue.json",
-  "releases": []
+  "htmlUrl": "https://github.com/SimulatedGREG/electron-vue",
+  "url": "https://api.github.com/repos/SimulatedGREG/electron-vue",
+  "forksUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/forks",
+  "teamsUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/teams",
+  "hooksUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/hooks",
+  "eventsUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/events",
+  "tagsUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/tags",
+  "languagesUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/languages",
+  "stargazersUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/contributors",
+  "subscribersUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/subscription",
+  "mergesUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/merges",
+  "downloadsUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/SimulatedGREG/electron-vue/deployments",
+  "gitUrl": "git://github.com/SimulatedGREG/electron-vue.git",
+  "sshUrl": "git@github.com:SimulatedGREG/electron-vue.git",
+  "cloneUrl": "https://github.com/SimulatedGREG/electron-vue.git",
+  "svnUrl": "https://github.com/SimulatedGREG/electron-vue",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:33:10.914Z"
 }

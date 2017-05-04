@@ -5,7 +5,7 @@
   "owner": {
     "login": "TerraTex-Community",
     "id": 19823686,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19823686?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/19823686?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/TerraTex-Community",
     "htmlUrl": "https://github.com/TerraTex-Community",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel",
-  "description": "Controlpanel for MTA:SA TerraTex Reloaded Reallife",
+  "description": "Controlpanel for MTA:SA TerraTex Reloaded Reallife - Support but no Development anymore",
   "fork": false,
   "url": "https://api.github.com/repos/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel",
   "forksUrl": "https://api.github.com/repos/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel/downloads",
   "deploymentsUrl": "https://api.github.com/repos/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel/deployments",
   "createdAt": "2016-10-07T11:55:03.000Z",
-  "updatedAt": "2016-10-10T15:33:54.000Z",
-  "pushedAt": "2016-11-11T15:11:35.000Z",
+  "updatedAt": "2017-03-15T15:29:56.000Z",
+  "pushedAt": "2016-12-02T22:31:45.000Z",
   "gitUrl": "git://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel.git",
   "sshUrl": "git@github.com:TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel.git",
   "cloneUrl": "https://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel.git",
   "svnUrl": "https://github.com/TerraTex-Community/MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel",
-  "homepage": null,
-  "size": 71697,
+  "homepage": "",
+  "size": 71756,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "TypeScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "TerraTex-Community",
     "id": 19823686,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19823686?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/19823686?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/TerraTex-Community",
     "htmlUrl": "https://github.com/TerraTex-Community",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/TerraTex-Community/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
@@ -236,9 +236,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "geramy92"
-  ],
   "firstCommit": {
     "sha": "645efeff9939d1b0c65371b3b66a64ac1bbde353",
     "commit": {
@@ -262,5 +259,6 @@
     }
   },
   "filename": "TerraTex-Community___MTA-SA-TerraTex-Reloaded-Reallife-Controlpanel.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:26:43.380Z"
 }

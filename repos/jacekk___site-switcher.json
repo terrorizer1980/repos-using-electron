@@ -5,7 +5,7 @@
   "owner": {
     "login": "jacekk",
     "id": 1695878,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1695878?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1695878?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jacekk",
     "htmlUrl": "https://github.com/jacekk",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/jacekk/site-switcher",
-  "description": null,
+  "description": "http://switcher.jacek-k.net",
   "fork": false,
   "url": "https://api.github.com/repos/jacekk/site-switcher",
   "forksUrl": "https://api.github.com/repos/jacekk/site-switcher/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/jacekk/site-switcher/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jacekk/site-switcher/deployments",
   "createdAt": "2016-10-24T02:54:03.000Z",
-  "updatedAt": "2016-10-24T02:54:59.000Z",
-  "pushedAt": "2016-11-08T23:42:09.000Z",
+  "updatedAt": "2017-01-24T23:53:20.000Z",
+  "pushedAt": "2017-02-11T23:55:39.000Z",
   "gitUrl": "git://github.com/jacekk/site-switcher.git",
   "sshUrl": "git@github.com:jacekk/site-switcher.git",
   "cloneUrl": "https://github.com/jacekk/site-switcher.git",
   "svnUrl": "https://github.com/jacekk/site-switcher",
-  "homepage": null,
-  "size": 157,
+  "homepage": "",
+  "size": 176,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -119,15 +119,9 @@
       "redux-localstorage": "^0.4.1",
       "uuid": "^2.0.3",
       "validator": "^6.1.0"
-    },
-    "other": {
-      "author": "https://github.com/jacekk"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jacekk"
-  ],
   "firstCommit": {
     "sha": "24d461b817bc2fcb5bd67cf6834c6bf44fe19e97",
     "commit": {
@@ -151,5 +145,6 @@
     }
   },
   "filename": "jacekk___site-switcher.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:06:25.333Z"
 }

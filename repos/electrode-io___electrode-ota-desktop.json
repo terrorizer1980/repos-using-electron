@@ -5,7 +5,7 @@
   "owner": {
     "login": "electrode-io",
     "id": 20847973,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20847973?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20847973?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/electrode-io",
     "htmlUrl": "https://github.com/electrode-io",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/deployments",
   "createdAt": "2016-10-14T05:46:55.000Z",
-  "updatedAt": "2016-11-01T16:33:25.000Z",
-  "pushedAt": "2016-10-19T23:19:38.000Z",
+  "updatedAt": "2017-02-27T02:35:37.000Z",
+  "pushedAt": "2016-11-16T17:35:18.000Z",
   "gitUrl": "git://github.com/electrode-io/electrode-ota-desktop.git",
   "sshUrl": "git@github.com:electrode-io/electrode-ota-desktop.git",
   "cloneUrl": "https://github.com/electrode-io/electrode-ota-desktop.git",
   "svnUrl": "https://github.com/electrode-io/electrode-ota-desktop",
   "homepage": null,
-  "size": 2798,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "size": 2793,
+  "stargazersCount": 14,
+  "watchersCount": 14,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 7,
+  "watchers": 14,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "electrode-io",
     "id": 20847973,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20847973?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/20847973?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/electrode-io",
     "htmlUrl": "https://github.com/electrode-io",
@@ -83,7 +83,7 @@
     "type": "Organization"
   },
   "networkCount": 2,
-  "subscribersCount": 9,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "electrode-ota-desktop",
@@ -214,9 +214,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jspears"
-  ],
   "firstCommit": {
     "sha": "77bf6764816ce3ede64041929044b5ff956eae62",
     "commit": {
@@ -240,124 +237,6 @@
     }
   },
   "filename": "electrode-io___electrode-ota-desktop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/releases/4396692",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/releases/assets/2501524",
-          "id": 2501524,
-          "name": "ElectrodeOTA-0.14.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "jspears",
-            "id": 1071,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1071?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jspears",
-            "htmlUrl": "https://github.com/jspears",
-            "followersUrl": "https://api.github.com/users/jspears/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jspears/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jspears/orgs",
-            "reposUrl": "https://api.github.com/users/jspears/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jspears/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 42677103,
-          "downloadCount": 11,
-          "createdAt": "2016-10-19T23:20:30.000Z",
-          "updatedAt": "2016-10-19T23:21:12.000Z",
-          "browserDownloadUrl": "https://github.com/electrode-io/electrode-ota-desktop/releases/download/0.14.1/ElectrodeOTA-0.14.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/releases/4396692/assets",
-      "htmlUrl": "https://github.com/electrode-io/electrode-ota-desktop/releases/tag/0.14.1",
-      "id": 4396692,
-      "tagName": "0.14.1",
-      "targetCommitish": "master",
-      "name": "ElectrodeOTA - with feeling.",
-      "draft": false,
-      "author": {
-        "login": "jspears",
-        "id": 1071,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1071?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jspears",
-        "htmlUrl": "https://github.com/jspears",
-        "followersUrl": "https://api.github.com/users/jspears/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jspears/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jspears/orgs",
-        "reposUrl": "https://api.github.com/users/jspears/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jspears/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-14T23:05:10.000Z",
-      "publishedAt": "2016-10-15T06:42:49.000Z",
-      "tarballUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/tarball/0.14.1",
-      "zipballUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/zipball/0.14.1",
-      "body": "Fancy splash screen so waiting isn't such a pain.\nCode Signing working.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/releases/4395378",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/releases/assets/2477489",
-          "id": 2477489,
-          "name": "ElectrodeOTA-0.14.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "jspears",
-            "id": 1071,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1071?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jspears",
-            "htmlUrl": "https://github.com/jspears",
-            "followersUrl": "https://api.github.com/users/jspears/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jspears/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jspears/orgs",
-            "reposUrl": "https://api.github.com/users/jspears/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jspears/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 50955826,
-          "downloadCount": 0,
-          "createdAt": "2016-10-14T23:02:10.000Z",
-          "updatedAt": "2016-10-14T23:02:28.000Z",
-          "browserDownloadUrl": "https://github.com/electrode-io/electrode-ota-desktop/releases/download/0.14.0/ElectrodeOTA-0.14.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/releases/4395378/assets",
-      "htmlUrl": "https://github.com/electrode-io/electrode-ota-desktop/releases/tag/0.14.0",
-      "id": 4395378,
-      "tagName": "0.14.0",
-      "targetCommitish": "master",
-      "name": "ElectrodeOTA",
-      "draft": false,
-      "author": {
-        "login": "jspears",
-        "id": 1071,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1071?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jspears",
-        "htmlUrl": "https://github.com/jspears",
-        "followersUrl": "https://api.github.com/users/jspears/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jspears/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jspears/orgs",
-        "reposUrl": "https://api.github.com/users/jspears/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jspears/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-14T22:55:13.000Z",
-      "publishedAt": "2016-10-14T23:02:33.000Z",
-      "tarballUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/tarball/0.14.0",
-      "zipballUrl": "https://api.github.com/repos/electrode-io/electrode-ota-desktop/zipball/0.14.0",
-      "body": "This is an unsigned version of the ElectrodeOTA Desktop.   If your brave you can run it by Ctrl+click or right click on the app. And Selecting Open.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:18:30.075Z"
 }

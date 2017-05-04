@@ -5,7 +5,7 @@
   "owner": {
     "login": "callum",
     "id": 1245446,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1245446?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1245446?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/callum",
     "htmlUrl": "https://github.com/callum",
@@ -75,9 +75,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "callum"
-  ],
   "firstCommit": {
     "sha": "9d7a8173941d9651741402cc988cf92231c06aa4",
     "commit": {
@@ -101,65 +98,26 @@
     }
   },
   "filename": "callum___version.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/callum/version/releases/2645452",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/callum/version/releases/assets/1329095",
-          "id": 1329095,
-          "name": "Version-v0.0.1-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "callum",
-            "id": 1245446,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1245446?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/callum",
-            "htmlUrl": "https://github.com/callum",
-            "followersUrl": "https://api.github.com/users/callum/followers",
-            "subscriptionsUrl": "https://api.github.com/users/callum/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/callum/orgs",
-            "reposUrl": "https://api.github.com/users/callum/repos",
-            "receivedEventsUrl": "https://api.github.com/users/callum/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 118640363,
-          "downloadCount": 3,
-          "createdAt": "2016-02-19T10:40:27.000Z",
-          "updatedAt": "2016-02-19T10:44:07.000Z",
-          "browserDownloadUrl": "https://github.com/callum/version/releases/download/v0.0.1/Version-v0.0.1-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/callum/version/releases/2645452/assets",
-      "htmlUrl": "https://github.com/callum/version/releases/tag/v0.0.1",
-      "id": 2645452,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "version v0.0.1",
-      "draft": false,
-      "author": {
-        "login": "callum",
-        "id": 1245446,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1245446?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/callum",
-        "htmlUrl": "https://github.com/callum",
-        "followersUrl": "https://api.github.com/users/callum/followers",
-        "subscriptionsUrl": "https://api.github.com/users/callum/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/callum/orgs",
-        "reposUrl": "https://api.github.com/users/callum/repos",
-        "receivedEventsUrl": "https://api.github.com/users/callum/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-19T02:02:05.000Z",
-      "publishedAt": "2016-02-19T02:27:12.000Z",
-      "tarballUrl": "https://api.github.com/repos/callum/version/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/callum/version/zipball/v0.0.1",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/callum/version",
+  "url": "https://api.github.com/repos/callum/version",
+  "forksUrl": "https://api.github.com/repos/callum/version/forks",
+  "teamsUrl": "https://api.github.com/repos/callum/version/teams",
+  "hooksUrl": "https://api.github.com/repos/callum/version/hooks",
+  "eventsUrl": "https://api.github.com/repos/callum/version/events",
+  "tagsUrl": "https://api.github.com/repos/callum/version/tags",
+  "languagesUrl": "https://api.github.com/repos/callum/version/languages",
+  "stargazersUrl": "https://api.github.com/repos/callum/version/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/callum/version/contributors",
+  "subscribersUrl": "https://api.github.com/repos/callum/version/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/callum/version/subscription",
+  "mergesUrl": "https://api.github.com/repos/callum/version/merges",
+  "downloadsUrl": "https://api.github.com/repos/callum/version/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/callum/version/deployments",
+  "gitUrl": "git://github.com/callum/version.git",
+  "sshUrl": "git@github.com:callum/version.git",
+  "cloneUrl": "https://github.com/callum/version.git",
+  "svnUrl": "https://github.com/callum/version",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:03:49.510Z"
 }

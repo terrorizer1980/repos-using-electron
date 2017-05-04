@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "csv-validator",
     "version": "0.1.0",
@@ -95,9 +95,6 @@
     },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
-    },
-    "other": {
-      "author": "bn"
     }
   },
   "packageStatus": 200,
@@ -126,5 +123,6 @@
       "commentCount": 0
     }
   },
-  "filename": "bertranoel___electron-csv-validator.json"
+  "filename": "bertranoel___electron-csv-validator.json",
+  "lastFetchedAt": "2017-05-04T18:09:04.870Z"
 }

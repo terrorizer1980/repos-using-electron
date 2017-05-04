@@ -5,7 +5,7 @@
   "owner": {
     "login": "weexteam",
     "id": 19679046,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19679046?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19679046?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/weexteam",
     "htmlUrl": "https://github.com/weexteam",
@@ -20,21 +20,21 @@
   "description": "A simple IDE for quickly experiencing.",
   "fork": false,
   "createdAt": "2016-06-29T12:42:11.000Z",
-  "updatedAt": "2016-08-04T07:59:37.000Z",
+  "updatedAt": "2017-04-16T14:49:27.000Z",
   "pushedAt": "2016-07-18T09:22:51.000Z",
   "homepage": null,
   "size": 194,
-  "stargazersCount": 14,
-  "watchersCount": 14,
+  "stargazersCount": 38,
+  "watchersCount": 38,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 4,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 14,
+  "forksCount": 11,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 38,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "weexteam",
     "id": 19679046,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19679046?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19679046?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/weexteam",
     "htmlUrl": "https://github.com/weexteam",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/weexteam/received_events",
     "type": "Organization"
   },
-  "networkCount": 4,
-  "subscribersCount": 9,
+  "networkCount": 11,
+  "subscribersCount": 12,
   "status": 200,
   "packageJSON": {
     "name": "weex-ide",
@@ -100,9 +100,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "terrykingcha"
-  ],
   "firstCommit": {
     "sha": "925781533255e6d275db4e26b97c466a74400df7",
     "commit": {
@@ -126,65 +123,26 @@
     }
   },
   "filename": "weexteam___weex-ide.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/weexteam/weex-ide/releases/3679298",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/weexteam/weex-ide/releases/assets/2005734",
-          "id": 2005734,
-          "name": "Weex-IDE-darwin-x64-for-macos-0.1.2.dmg",
-          "label": null,
-          "uploader": {
-            "login": "terrykingcha",
-            "id": 1314662,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1314662?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/terrykingcha",
-            "htmlUrl": "https://github.com/terrykingcha",
-            "followersUrl": "https://api.github.com/users/terrykingcha/followers",
-            "subscriptionsUrl": "https://api.github.com/users/terrykingcha/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/terrykingcha/orgs",
-            "reposUrl": "https://api.github.com/users/terrykingcha/repos",
-            "receivedEventsUrl": "https://api.github.com/users/terrykingcha/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 50722995,
-          "downloadCount": 1604,
-          "createdAt": "2016-07-18T09:13:58.000Z",
-          "updatedAt": "2016-07-18T09:21:09.000Z",
-          "browserDownloadUrl": "https://github.com/weexteam/weex-ide/releases/download/0.1.2/Weex-IDE-darwin-x64-for-macos-0.1.2.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/weexteam/weex-ide/releases/3679298/assets",
-      "htmlUrl": "https://github.com/weexteam/weex-ide/releases/tag/0.1.2",
-      "id": 3679298,
-      "tagName": "0.1.2",
-      "targetCommitish": "master",
-      "name": "A WYSIWYG IDE for Weex",
-      "draft": false,
-      "author": {
-        "login": "terrykingcha",
-        "id": 1314662,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1314662?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/terrykingcha",
-        "htmlUrl": "https://github.com/terrykingcha",
-        "followersUrl": "https://api.github.com/users/terrykingcha/followers",
-        "subscriptionsUrl": "https://api.github.com/users/terrykingcha/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/terrykingcha/orgs",
-        "reposUrl": "https://api.github.com/users/terrykingcha/repos",
-        "receivedEventsUrl": "https://api.github.com/users/terrykingcha/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-29T16:23:46.000Z",
-      "publishedAt": "2016-07-18T09:21:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/weexteam/weex-ide/tarball/0.1.2",
-      "zipballUrl": "https://api.github.com/repos/weexteam/weex-ide/zipball/0.1.2",
-      "body": "# Change logs\n\n## 0.1.2\n- Fix tcp connection.\n\n## 0.1.1\n- Fix tcp connection.\n- Add Helper Menu.\n- Add About Menu.\n\n## 0.1.0\n- Complete the basic features.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/weexteam/weex-ide",
+  "url": "https://api.github.com/repos/weexteam/weex-ide",
+  "forksUrl": "https://api.github.com/repos/weexteam/weex-ide/forks",
+  "teamsUrl": "https://api.github.com/repos/weexteam/weex-ide/teams",
+  "hooksUrl": "https://api.github.com/repos/weexteam/weex-ide/hooks",
+  "eventsUrl": "https://api.github.com/repos/weexteam/weex-ide/events",
+  "tagsUrl": "https://api.github.com/repos/weexteam/weex-ide/tags",
+  "languagesUrl": "https://api.github.com/repos/weexteam/weex-ide/languages",
+  "stargazersUrl": "https://api.github.com/repos/weexteam/weex-ide/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/weexteam/weex-ide/contributors",
+  "subscribersUrl": "https://api.github.com/repos/weexteam/weex-ide/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/weexteam/weex-ide/subscription",
+  "mergesUrl": "https://api.github.com/repos/weexteam/weex-ide/merges",
+  "downloadsUrl": "https://api.github.com/repos/weexteam/weex-ide/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/weexteam/weex-ide/deployments",
+  "gitUrl": "git://github.com/weexteam/weex-ide.git",
+  "sshUrl": "git@github.com:weexteam/weex-ide.git",
+  "cloneUrl": "https://github.com/weexteam/weex-ide.git",
+  "svnUrl": "https://github.com/weexteam/weex-ide",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:24:43.500Z"
 }

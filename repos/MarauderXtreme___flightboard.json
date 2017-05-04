@@ -5,7 +5,7 @@
   "owner": {
     "login": "MarauderXtreme",
     "id": 6439489,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6439489?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6439489?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MarauderXtreme",
     "htmlUrl": "https://github.com/MarauderXtreme",
@@ -35,8 +35,8 @@
   "downloadsUrl": "https://api.github.com/repos/MarauderXtreme/flightboard/downloads",
   "deploymentsUrl": "https://api.github.com/repos/MarauderXtreme/flightboard/deployments",
   "createdAt": "2014-04-01T05:39:36.000Z",
-  "updatedAt": "2016-06-02T16:57:56.000Z",
-  "pushedAt": "2016-06-06T08:36:38.000Z",
+  "updatedAt": "2017-03-27T06:24:30.000Z",
+  "pushedAt": "2017-03-27T06:26:24.000Z",
   "gitUrl": "git://github.com/MarauderXtreme/flightboard.git",
   "sshUrl": "git@github.com:MarauderXtreme/flightboard.git",
   "cloneUrl": "https://github.com/MarauderXtreme/flightboard.git",
@@ -61,7 +61,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -79,10 +85,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "MarauderXtreme",
-    "JustusAdam"
-  ],
   "firstCommit": {
     "sha": "a9310796df9626e3592ae1203ac2b589264a17fe",
     "commit": {
@@ -106,5 +108,6 @@
     }
   },
   "filename": "MarauderXtreme___flightboard.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T09:03:44.789Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "256dpi",
     "id": 696886,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/696886?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/696886?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/256dpi",
     "htmlUrl": "https://github.com/256dpi",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 1,
-  "openIssuesCount": 1,
-  "openIssues": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
   "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
@@ -65,9 +65,6 @@
     "dependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "256dpi"
-  ],
   "firstCommit": {
     "sha": "4947cc059b1e88af24c75f545c302ce240314336",
     "commit": {
@@ -91,65 +88,26 @@
     }
   },
   "filename": "256dpi___bespoke-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/256dpi/bespoke-app/releases/2950596",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/256dpi/bespoke-app/releases/assets/1509009",
-          "id": 1509009,
-          "name": "Bespoke.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "256dpi",
-            "id": 696886,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/696886?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/256dpi",
-            "htmlUrl": "https://github.com/256dpi",
-            "followersUrl": "https://api.github.com/users/256dpi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/256dpi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/256dpi/orgs",
-            "reposUrl": "https://api.github.com/users/256dpi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/256dpi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 51727772,
-          "downloadCount": 4,
-          "createdAt": "2016-04-04T21:27:35.000Z",
-          "updatedAt": "2016-04-04T21:28:04.000Z",
-          "browserDownloadUrl": "https://github.com/256dpi/bespoke-app/releases/download/v0.1.0/Bespoke.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/256dpi/bespoke-app/releases/2950596/assets",
-      "htmlUrl": "https://github.com/256dpi/bespoke-app/releases/tag/v0.1.0",
-      "id": 2950596,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "256dpi",
-        "id": 696886,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/696886?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/256dpi",
-        "htmlUrl": "https://github.com/256dpi",
-        "followersUrl": "https://api.github.com/users/256dpi/followers",
-        "subscriptionsUrl": "https://api.github.com/users/256dpi/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/256dpi/orgs",
-        "reposUrl": "https://api.github.com/users/256dpi/repos",
-        "receivedEventsUrl": "https://api.github.com/users/256dpi/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-04-04T21:27:19.000Z",
-      "publishedAt": "2016-04-04T21:28:05.000Z",
-      "tarballUrl": "https://api.github.com/repos/256dpi/bespoke-app/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/256dpi/bespoke-app/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/256dpi/bespoke-app",
+  "url": "https://api.github.com/repos/256dpi/bespoke-app",
+  "forksUrl": "https://api.github.com/repos/256dpi/bespoke-app/forks",
+  "teamsUrl": "https://api.github.com/repos/256dpi/bespoke-app/teams",
+  "hooksUrl": "https://api.github.com/repos/256dpi/bespoke-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/256dpi/bespoke-app/events",
+  "tagsUrl": "https://api.github.com/repos/256dpi/bespoke-app/tags",
+  "languagesUrl": "https://api.github.com/repos/256dpi/bespoke-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/256dpi/bespoke-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/256dpi/bespoke-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/256dpi/bespoke-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/256dpi/bespoke-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/256dpi/bespoke-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/256dpi/bespoke-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/256dpi/bespoke-app/deployments",
+  "gitUrl": "git://github.com/256dpi/bespoke-app.git",
+  "sshUrl": "git@github.com:256dpi/bespoke-app.git",
+  "cloneUrl": "https://github.com/256dpi/bespoke-app.git",
+  "svnUrl": "https://github.com/256dpi/bespoke-app",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:17:48.933Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "rhysd",
     "id": 823277,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/823277?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/rhysd",
     "htmlUrl": "https://github.com/rhysd",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/rhysd/electron-open-url/downloads",
   "deploymentsUrl": "https://api.github.com/repos/rhysd/electron-open-url/deployments",
   "createdAt": "2016-11-12T10:57:27.000Z",
-  "updatedAt": "2016-11-12T11:12:25.000Z",
-  "pushedAt": "2016-11-12T15:00:57.000Z",
+  "updatedAt": "2017-02-19T21:22:38.000Z",
+  "pushedAt": "2017-02-15T07:01:12.000Z",
   "gitUrl": "git://github.com/rhysd/electron-open-url.git",
   "sshUrl": "git@github.com:rhysd/electron-open-url.git",
   "cloneUrl": "https://github.com/rhysd/electron-open-url.git",
   "svnUrl": "https://github.com/rhysd/electron-open-url",
   "homepage": null,
-  "size": 9,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 18,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": null,
     "featured": false
   },
-  "networkCount": 1,
+  "networkCount": 2,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -97,18 +97,9 @@
     },
     "peerDependencies": {
       "electron": "^1.4.6"
-    },
-    "other": {
-      "author": "rhysd <lin90162@yahoo.co.jp>",
-      "bugs": {
-        "url": "https://github.com/rhysd/electron-open/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "rhysd"
-  ],
   "firstCommit": {
     "sha": "9859221aea4799d838bb747de31b2e330b4eae35",
     "commit": {
@@ -132,5 +123,6 @@
     }
   },
   "filename": "rhysd___electron-open-url.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:34:02.432Z"
 }

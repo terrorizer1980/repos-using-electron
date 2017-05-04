@@ -5,7 +5,7 @@
   "owner": {
     "login": "nodejs",
     "id": 9950313,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9950313?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/9950313?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nodejs",
     "htmlUrl": "https://github.com/nodejs",
@@ -20,21 +20,21 @@
   "description": "Electron based installer for Node.js.",
   "fork": false,
   "createdAt": "2016-07-01T03:33:46.000Z",
-  "updatedAt": "2016-08-15T04:26:58.000Z",
-  "pushedAt": "2016-08-05T20:33:29.000Z",
+  "updatedAt": "2017-05-04T13:15:40.000Z",
+  "pushedAt": "2017-04-09T11:52:49.000Z",
   "homepage": null,
-  "size": 43,
-  "stargazersCount": 162,
-  "watchersCount": 162,
-  "language": "HTML",
+  "size": 134,
+  "stargazersCount": 180,
+  "watchersCount": 180,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 17,
-  "openIssuesCount": 12,
-  "openIssues": 12,
-  "watchers": 162,
+  "forksCount": 22,
+  "openIssuesCount": 13,
+  "openIssues": 13,
+  "watchers": 180,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "nodejs",
     "id": 9950313,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9950313?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/9950313?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nodejs",
     "htmlUrl": "https://github.com/nodejs",
@@ -56,7 +56,7 @@
     "receivedEventsUrl": "https://api.github.com/users/nodejs/received_events",
     "type": "Organization"
   },
-  "networkCount": 17,
+  "networkCount": 22,
   "subscribersCount": 24,
   "status": 200,
   "packageJSON": {
@@ -93,16 +93,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mikeal",
-    "JoeDoyle23",
-    "Fishrock123",
-    "azat-co",
-    "addaleax",
-    "develar",
-    "evanlucas",
-    "homosaur"
-  ],
   "firstCommit": {
     "sha": "602ba5f226207db99fbf7f5c478ac0b4c561b10f",
     "commit": {
@@ -126,5 +116,26 @@
     }
   },
   "filename": "nodejs___installer.json",
-  "releases": []
+  "htmlUrl": "https://github.com/nodejs/installer",
+  "url": "https://api.github.com/repos/nodejs/installer",
+  "forksUrl": "https://api.github.com/repos/nodejs/installer/forks",
+  "teamsUrl": "https://api.github.com/repos/nodejs/installer/teams",
+  "hooksUrl": "https://api.github.com/repos/nodejs/installer/hooks",
+  "eventsUrl": "https://api.github.com/repos/nodejs/installer/events",
+  "tagsUrl": "https://api.github.com/repos/nodejs/installer/tags",
+  "languagesUrl": "https://api.github.com/repos/nodejs/installer/languages",
+  "stargazersUrl": "https://api.github.com/repos/nodejs/installer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/nodejs/installer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/nodejs/installer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/nodejs/installer/subscription",
+  "mergesUrl": "https://api.github.com/repos/nodejs/installer/merges",
+  "downloadsUrl": "https://api.github.com/repos/nodejs/installer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/nodejs/installer/deployments",
+  "gitUrl": "git://github.com/nodejs/installer.git",
+  "sshUrl": "git@github.com:nodejs/installer.git",
+  "cloneUrl": "https://github.com/nodejs/installer.git",
+  "svnUrl": "https://github.com/nodejs/installer",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:09:10.770Z"
 }

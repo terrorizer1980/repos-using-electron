@@ -5,7 +5,7 @@
   "owner": {
     "login": "EmbedWithUs",
     "id": 19613332,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19613332?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19613332?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/EmbedWithUs",
     "htmlUrl": "https://github.com/EmbedWithUs",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/EmbedWithUs/mirror-magic/downloads",
   "deploymentsUrl": "https://api.github.com/repos/EmbedWithUs/mirror-magic/deployments",
   "createdAt": "2016-06-26T15:40:37.000Z",
-  "updatedAt": "2016-07-01T22:43:51.000Z",
-  "pushedAt": "2016-08-14T18:00:09.000Z",
+  "updatedAt": "2017-01-09T15:27:55.000Z",
+  "pushedAt": "2017-01-09T15:27:51.000Z",
   "gitUrl": "git://github.com/EmbedWithUs/mirror-magic.git",
   "sshUrl": "git@github.com:EmbedWithUs/mirror-magic.git",
   "cloneUrl": "https://github.com/EmbedWithUs/mirror-magic.git",
   "svnUrl": "https://github.com/EmbedWithUs/mirror-magic",
   "homepage": "",
-  "size": 9,
+  "size": 4585,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "CSS",
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -61,17 +61,11 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "organization": {
     "login": "EmbedWithUs",
     "id": 19613332,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19613332?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/19613332?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/EmbedWithUs",
     "htmlUrl": "https://github.com/EmbedWithUs",
@@ -125,10 +119,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "codethebeard",
-    "markus8585"
-  ],
   "firstCommit": {
     "sha": "de95b10f7da1465b0e2fab138abeca87f8cb632c",
     "commit": {
@@ -152,5 +142,6 @@
     }
   },
   "filename": "EmbedWithUs___mirror-magic.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:38:47.707Z"
 }

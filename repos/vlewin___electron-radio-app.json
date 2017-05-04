@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-radio-app",
     "productName": "electron-radio-app",
@@ -63,11 +63,7 @@
       "build": "electron-packager . Electron-Tray-Radio --platform=all --arch=x64 --version=0.36.0 --ignore='node_modules/electron-(packager|prebuild)'",
       "publish": "publish-release --template notes.md --assets electron-radio-app.zip"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/vlewin/electron-radio-app"
-    },
-    "author": "",
+    "repository": "https://github.com/vlewin/electron-radio-app",
     "license": "BSD-2-Clause",
     "dependencies": {
       "jsdom": "latest",
@@ -94,5 +90,7 @@
   "packageStatus": 404,
   "contributors": [
     "vlewin"
-  ]
+  ],
+  "filename": "vlewin___electron-radio-app.json",
+  "lastFetchedAt": "2017-05-04T20:29:26.350Z"
 }

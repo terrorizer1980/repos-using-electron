@@ -168,14 +168,13 @@
   },
   "networkCount": 16,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "harmony",
     "productName": "Harmony",
     "version": "0.2.4",
     "description": "Listen to music from Spotify, SoundCloud, Google Play Music or your local disk,",
     "main": "main.js",
-    "author": "Vincent L <vincelwt@users.noreply.github.com>",
     "license": "GPL-3.0",
     "homepage": "https://github.com/vincelwt/harmony",
     "scripts": {
@@ -210,10 +209,7 @@
       "mpris-service": "^1.1.1",
       "mediakeys": "github:nogizhopaboroda/mediakeys"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/vincelwt/harmony.git"
-    },
+    "repository": "https://github.com/vincelwt/harmony",
     "build": {
       "asar": false,
       "appId": "com.vincelwt.harmony",
@@ -226,6 +222,9 @@
         "category": "Music;Audio;AudioVideo",
         "packageCategory": "sound"
       }
+    },
+    "other": {
+      "author": "Vincent L <vincelwt@users.noreply.github.com>"
     }
   },
   "packageStatus": 404,
@@ -237,5 +236,7 @@
     "ajaysreedhar",
     "sagidayan",
     "freaktechnik"
-  ]
+  ],
+  "filename": "magnobiet___harmony.json",
+  "lastFetchedAt": "2017-05-04T20:10:14.037Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "blainesch",
     "id": 769039,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/769039?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/769039?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/blainesch",
     "htmlUrl": "https://github.com/blainesch",
@@ -20,21 +20,21 @@
   "description": ":boom: A node module for sending notifications in electron applications.",
   "fork": false,
   "createdAt": "2016-04-18T17:23:53.000Z",
-  "updatedAt": "2016-08-31T07:42:52.000Z",
-  "pushedAt": "2016-08-28T19:04:10.000Z",
+  "updatedAt": "2017-05-03T17:09:08.000Z",
+  "pushedAt": "2017-03-02T21:49:45.000Z",
   "homepage": "",
-  "size": 199,
-  "stargazersCount": 32,
-  "watchersCount": 32,
+  "size": 275,
+  "stargazersCount": 86,
+  "watchersCount": 86,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 8,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 32,
+  "forksCount": 20,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 86,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 8,
-  "subscribersCount": 2,
+  "networkCount": 20,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "electron-notifications",
@@ -86,11 +86,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "blainesch",
-    "koush",
-    "ivuk"
-  ],
   "firstCommit": {
     "sha": "e6d99f292dc7bee251c9e1e950b172a714c58c14",
     "commit": {
@@ -114,5 +109,26 @@
     }
   },
   "filename": "blainesch___electron-notifications.json",
-  "releases": []
+  "htmlUrl": "https://github.com/blainesch/electron-notifications",
+  "url": "https://api.github.com/repos/blainesch/electron-notifications",
+  "forksUrl": "https://api.github.com/repos/blainesch/electron-notifications/forks",
+  "teamsUrl": "https://api.github.com/repos/blainesch/electron-notifications/teams",
+  "hooksUrl": "https://api.github.com/repos/blainesch/electron-notifications/hooks",
+  "eventsUrl": "https://api.github.com/repos/blainesch/electron-notifications/events",
+  "tagsUrl": "https://api.github.com/repos/blainesch/electron-notifications/tags",
+  "languagesUrl": "https://api.github.com/repos/blainesch/electron-notifications/languages",
+  "stargazersUrl": "https://api.github.com/repos/blainesch/electron-notifications/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/blainesch/electron-notifications/contributors",
+  "subscribersUrl": "https://api.github.com/repos/blainesch/electron-notifications/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/blainesch/electron-notifications/subscription",
+  "mergesUrl": "https://api.github.com/repos/blainesch/electron-notifications/merges",
+  "downloadsUrl": "https://api.github.com/repos/blainesch/electron-notifications/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/blainesch/electron-notifications/deployments",
+  "gitUrl": "git://github.com/blainesch/electron-notifications.git",
+  "sshUrl": "git@github.com:blainesch/electron-notifications.git",
+  "cloneUrl": "https://github.com/blainesch/electron-notifications.git",
+  "svnUrl": "https://github.com/blainesch/electron-notifications",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:52:21.048Z"
 }

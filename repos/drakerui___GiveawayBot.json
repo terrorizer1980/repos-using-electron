@@ -6,7 +6,7 @@
   "owner": {
     "login": "drakerui",
     "id": 18153914,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18153914?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/18153914?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/drakerui",
     "htmlUrl": "https://github.com/drakerui",
@@ -37,13 +37,13 @@
   "deploymentsUrl": "https://api.github.com/repos/drakerui/GiveawayBot/deployments",
   "createdAt": "2016-12-10T22:24:38.000Z",
   "updatedAt": "2016-12-16T12:42:09.000Z",
-  "pushedAt": "2017-01-05T17:55:03.000Z",
+  "pushedAt": "2017-02-21T15:37:56.000Z",
   "gitUrl": "git://github.com/drakerui/GiveawayBot.git",
   "sshUrl": "git@github.com:drakerui/GiveawayBot.git",
   "cloneUrl": "https://github.com/drakerui/GiveawayBot.git",
   "svnUrl": "https://github.com/drakerui/GiveawayBot",
   "homepage": null,
-  "size": 276,
+  "size": 280,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -97,9 +97,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "drakerui"
-  ],
   "firstCommit": {
     "sha": "f99e4e110a1be3d732738e5ef81f8000fb2e35ba",
     "commit": {
@@ -122,65 +119,6 @@
       "commentCount": 0
     }
   },
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/drakerui/GiveawayBot/releases/4930011",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/drakerui/GiveawayBot/releases/assets/2831511",
-          "id": 2831511,
-          "name": "giveawaybot.Setup.0.0.1.exe",
-          "label": null,
-          "uploader": {
-            "login": "drakerui",
-            "id": 18153914,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/18153914?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/drakerui",
-            "htmlUrl": "https://github.com/drakerui",
-            "followersUrl": "https://api.github.com/users/drakerui/followers",
-            "subscriptionsUrl": "https://api.github.com/users/drakerui/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/drakerui/orgs",
-            "reposUrl": "https://api.github.com/users/drakerui/repos",
-            "receivedEventsUrl": "https://api.github.com/users/drakerui/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 35258488,
-          "downloadCount": 1,
-          "createdAt": "2016-12-15T14:04:49.000Z",
-          "updatedAt": "2016-12-15T14:04:59.000Z",
-          "browserDownloadUrl": "https://github.com/drakerui/GiveawayBot/releases/download/0.0.1/giveawaybot.Setup.0.0.1.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/drakerui/GiveawayBot/releases/4930011/assets",
-      "htmlUrl": "https://github.com/drakerui/GiveawayBot/releases/tag/0.0.1",
-      "id": 4930011,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "test(win)",
-      "draft": false,
-      "author": {
-        "login": "drakerui",
-        "id": 18153914,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18153914?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/drakerui",
-        "htmlUrl": "https://github.com/drakerui",
-        "followersUrl": "https://api.github.com/users/drakerui/followers",
-        "subscriptionsUrl": "https://api.github.com/users/drakerui/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/drakerui/orgs",
-        "reposUrl": "https://api.github.com/users/drakerui/repos",
-        "receivedEventsUrl": "https://api.github.com/users/drakerui/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-15T13:04:10.000Z",
-      "publishedAt": "2016-12-15T14:05:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/drakerui/GiveawayBot/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/drakerui/GiveawayBot/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:26:51.696Z"
 }

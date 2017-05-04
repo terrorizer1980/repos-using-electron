@@ -5,7 +5,7 @@
   "owner": {
     "login": "shekit",
     "id": 8786917,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8786917?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8786917?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/shekit",
     "htmlUrl": "https://github.com/shekit",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/shekit/peeqo-robot",
-  "description": "an emotive robot",
+  "description": "The world's first robot to interact through GIFs...'nuf said",
   "fork": false,
   "url": "https://api.github.com/repos/shekit/peeqo-robot",
   "forksUrl": "https://api.github.com/repos/shekit/peeqo-robot/forks",
@@ -35,40 +35,43 @@
   "downloadsUrl": "https://api.github.com/repos/shekit/peeqo-robot/downloads",
   "deploymentsUrl": "https://api.github.com/repos/shekit/peeqo-robot/deployments",
   "createdAt": "2016-04-11T18:12:05.000Z",
-  "updatedAt": "2016-04-11T18:15:00.000Z",
-  "pushedAt": "2016-11-16T22:08:44.000Z",
+  "updatedAt": "2017-05-04T01:52:59.000Z",
+  "pushedAt": "2017-04-07T19:15:22.000Z",
   "gitUrl": "git://github.com/shekit/peeqo-robot.git",
   "sshUrl": "git@github.com:shekit/peeqo-robot.git",
   "cloneUrl": "https://github.com/shekit/peeqo-robot.git",
   "svnUrl": "https://github.com/shekit/peeqo-robot",
-  "homepage": null,
-  "size": 102846,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "homepage": "http://peeqo.com",
+  "size": 187494,
+  "stargazersCount": 303,
+  "watchersCount": 303,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 49,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 303,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "license": {
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
+  },
+  "networkCount": 49,
+  "subscribersCount": 32,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "shekit"
-  ],
   "firstCommit": {
     "sha": "4e9e157699b568157e2c88c2f70146498d6e2b92",
     "commit": {
@@ -92,5 +95,6 @@
     }
   },
   "filename": "shekit___peeqo-robot.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:36:54.403Z"
 }

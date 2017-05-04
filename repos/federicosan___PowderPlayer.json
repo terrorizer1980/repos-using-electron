@@ -5,7 +5,7 @@
   "owner": {
     "login": "federicosan",
     "id": 5906694,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5906694?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5906694?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/federicosan",
     "htmlUrl": "https://github.com/federicosan",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "Irrelon",
       "id": 492293,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/492293?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/492293?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/Irrelon",
       "htmlUrl": "https://github.com/Irrelon",
@@ -91,10 +91,11 @@
     "watchersCount": 0,
     "language": "JavaScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 1,
+    "forksCount": 2,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
@@ -108,7 +109,7 @@
     "owner": {
       "login": "jaruba",
       "id": 1777923,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1777923?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/1777923?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/jaruba",
       "htmlUrl": "https://github.com/jaruba",
@@ -138,29 +139,30 @@
     "downloadsUrl": "https://api.github.com/repos/jaruba/PowderPlayer/downloads",
     "deploymentsUrl": "https://api.github.com/repos/jaruba/PowderPlayer/deployments",
     "createdAt": "2015-03-06T20:12:19.000Z",
-    "updatedAt": "2016-08-12T20:38:53.000Z",
-    "pushedAt": "2016-07-12T19:47:32.000Z",
+    "updatedAt": "2017-04-29T06:20:20.000Z",
+    "pushedAt": "2017-01-25T10:39:49.000Z",
     "gitUrl": "git://github.com/jaruba/PowderPlayer.git",
     "sshUrl": "git@github.com:jaruba/PowderPlayer.git",
     "cloneUrl": "https://github.com/jaruba/PowderPlayer.git",
     "svnUrl": "https://github.com/jaruba/PowderPlayer",
     "homepage": "http://powder.media/",
-    "size": 327334,
-    "stargazersCount": 298,
-    "watchersCount": 298,
+    "size": 326591,
+    "stargazersCount": 372,
+    "watchersCount": 372,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 49,
+    "forksCount": 67,
     "mirrorUrl": null,
-    "openIssuesCount": 29,
-    "openIssues": 29,
-    "watchers": 298,
+    "openIssuesCount": 37,
+    "openIssues": 37,
+    "watchers": 372,
     "defaultBranch": "react-polymer"
   },
-  "networkCount": 49,
+  "networkCount": 67,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -254,19 +256,9 @@
     },
     "optionalDependencies": {
       "electron-prebuilt": "0.37.6"
-    },
-    "other": {
-      "author": "Branza Victor-Alexandru <branza.alex@gmail.com>",
-      "bugs": "https://github.com/jaruba/PowderPlayer/issues"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jaruba",
-    "luigiplr",
-    "vankasteelj",
-    "Ivshti"
-  ],
   "firstCommit": {
     "sha": "e89a7bda449017e38b0bdbd145a5e35725d8742e",
     "commit": {
@@ -290,5 +282,26 @@
     }
   },
   "filename": "federicosan___PowderPlayer.json",
-  "releases": []
+  "htmlUrl": "https://github.com/federicosan/PowderPlayer",
+  "url": "https://api.github.com/repos/federicosan/PowderPlayer",
+  "forksUrl": "https://api.github.com/repos/federicosan/PowderPlayer/forks",
+  "teamsUrl": "https://api.github.com/repos/federicosan/PowderPlayer/teams",
+  "hooksUrl": "https://api.github.com/repos/federicosan/PowderPlayer/hooks",
+  "eventsUrl": "https://api.github.com/repos/federicosan/PowderPlayer/events",
+  "tagsUrl": "https://api.github.com/repos/federicosan/PowderPlayer/tags",
+  "languagesUrl": "https://api.github.com/repos/federicosan/PowderPlayer/languages",
+  "stargazersUrl": "https://api.github.com/repos/federicosan/PowderPlayer/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/federicosan/PowderPlayer/contributors",
+  "subscribersUrl": "https://api.github.com/repos/federicosan/PowderPlayer/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/federicosan/PowderPlayer/subscription",
+  "mergesUrl": "https://api.github.com/repos/federicosan/PowderPlayer/merges",
+  "downloadsUrl": "https://api.github.com/repos/federicosan/PowderPlayer/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/federicosan/PowderPlayer/deployments",
+  "gitUrl": "git://github.com/federicosan/PowderPlayer.git",
+  "sshUrl": "git@github.com:federicosan/PowderPlayer.git",
+  "cloneUrl": "https://github.com/federicosan/PowderPlayer.git",
+  "svnUrl": "https://github.com/federicosan/PowderPlayer",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:53:57.684Z"
 }

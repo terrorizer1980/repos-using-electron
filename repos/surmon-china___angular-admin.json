@@ -5,7 +5,7 @@
   "owner": {
     "login": "surmon-china",
     "id": 14019524,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/14019524?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/14019524?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/surmon-china",
     "htmlUrl": "https://github.com/surmon-china",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/surmon-china/angular-admin",
-  "description": "The admin template by Angular2 for Nodepress",
+  "description": "😜The admin template by Angular4 and Bootstrap4 for nodepress.",
   "fork": false,
   "url": "https://api.github.com/repos/surmon-china/angular-admin",
   "forksUrl": "https://api.github.com/repos/surmon-china/angular-admin/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/surmon-china/angular-admin/downloads",
   "deploymentsUrl": "https://api.github.com/repos/surmon-china/angular-admin/deployments",
   "createdAt": "2016-09-23T01:59:08.000Z",
-  "updatedAt": "2016-11-10T03:57:53.000Z",
-  "pushedAt": "2016-11-10T03:57:51.000Z",
+  "updatedAt": "2017-05-03T09:46:51.000Z",
+  "pushedAt": "2017-04-19T10:00:37.000Z",
   "gitUrl": "git://github.com/surmon-china/angular-admin.git",
   "sshUrl": "git@github.com:surmon-china/angular-admin.git",
   "cloneUrl": "https://github.com/surmon-china/angular-admin.git",
   "svnUrl": "https://github.com/surmon-china/angular-admin",
-  "homepage": null,
-  "size": 10833,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "homepage": "https://admin.surmon.me",
+  "size": 23336,
+  "stargazersCount": 111,
+  "watchersCount": 111,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 33,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 111,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 33,
+  "subscribersCount": 7,
   "status": 200,
   "packageJSON": {
     "name": "ng2-admin",
@@ -221,9 +221,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "surmon-china"
-  ],
   "firstCommit": {
     "sha": "8cf1ac71646268680b7cc52763c78299a5895f56",
     "commit": {
@@ -247,5 +244,6 @@
     }
   },
   "filename": "surmon-china___angular-admin.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:09:39.414Z"
 }

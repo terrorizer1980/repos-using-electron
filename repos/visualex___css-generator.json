@@ -1,11 +1,11 @@
 {
   "id": 14423044,
-  "name": "css-generator",
-  "fullName": "visualex/css-generator",
+  "name": "cssgen",
+  "fullName": "visualex/cssgen",
   "owner": {
     "login": "visualex",
     "id": 3214697,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3214697?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/3214697?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/visualex",
     "htmlUrl": "https://github.com/visualex",
@@ -17,32 +17,32 @@
     "type": "User"
   },
   "private": false,
-  "htmlUrl": "https://github.com/visualex/css-generator",
+  "htmlUrl": "https://github.com/visualex/cssgen",
   "description": "Tired of writing SASS & CSS? Automatic, clean formatted CSS markup for your apps.",
   "fork": false,
-  "url": "https://api.github.com/repos/visualex/css-generator",
-  "forksUrl": "https://api.github.com/repos/visualex/css-generator/forks",
-  "teamsUrl": "https://api.github.com/repos/visualex/css-generator/teams",
-  "hooksUrl": "https://api.github.com/repos/visualex/css-generator/hooks",
-  "eventsUrl": "https://api.github.com/repos/visualex/css-generator/events",
-  "tagsUrl": "https://api.github.com/repos/visualex/css-generator/tags",
-  "languagesUrl": "https://api.github.com/repos/visualex/css-generator/languages",
-  "stargazersUrl": "https://api.github.com/repos/visualex/css-generator/stargazers",
-  "contributorsUrl": "https://api.github.com/repos/visualex/css-generator/contributors",
-  "subscribersUrl": "https://api.github.com/repos/visualex/css-generator/subscribers",
-  "subscriptionUrl": "https://api.github.com/repos/visualex/css-generator/subscription",
-  "mergesUrl": "https://api.github.com/repos/visualex/css-generator/merges",
-  "downloadsUrl": "https://api.github.com/repos/visualex/css-generator/downloads",
-  "deploymentsUrl": "https://api.github.com/repos/visualex/css-generator/deployments",
+  "url": "https://api.github.com/repos/visualex/cssgen",
+  "forksUrl": "https://api.github.com/repos/visualex/cssgen/forks",
+  "teamsUrl": "https://api.github.com/repos/visualex/cssgen/teams",
+  "hooksUrl": "https://api.github.com/repos/visualex/cssgen/hooks",
+  "eventsUrl": "https://api.github.com/repos/visualex/cssgen/events",
+  "tagsUrl": "https://api.github.com/repos/visualex/cssgen/tags",
+  "languagesUrl": "https://api.github.com/repos/visualex/cssgen/languages",
+  "stargazersUrl": "https://api.github.com/repos/visualex/cssgen/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/visualex/cssgen/contributors",
+  "subscribersUrl": "https://api.github.com/repos/visualex/cssgen/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/visualex/cssgen/subscription",
+  "mergesUrl": "https://api.github.com/repos/visualex/cssgen/merges",
+  "downloadsUrl": "https://api.github.com/repos/visualex/cssgen/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/visualex/cssgen/deployments",
   "createdAt": "2013-11-15T11:49:20.000Z",
-  "updatedAt": "2016-11-07T01:40:06.000Z",
-  "pushedAt": "2016-11-09T00:25:25.000Z",
-  "gitUrl": "git://github.com/visualex/css-generator.git",
-  "sshUrl": "git@github.com:visualex/css-generator.git",
-  "cloneUrl": "https://github.com/visualex/css-generator.git",
-  "svnUrl": "https://github.com/visualex/css-generator",
+  "updatedAt": "2016-12-16T03:01:05.000Z",
+  "pushedAt": "2017-01-13T18:14:06.000Z",
+  "gitUrl": "git://github.com/visualex/cssgen.git",
+  "sshUrl": "git@github.com:visualex/cssgen.git",
+  "cloneUrl": "https://github.com/visualex/cssgen.git",
+  "svnUrl": "https://github.com/visualex/cssgen",
   "homepage": "",
-  "size": 44352,
+  "size": 49120,
   "stargazersCount": 3,
   "watchersCount": 3,
   "language": "JavaScript",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 10,
+  "openIssues": 10,
   "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
@@ -62,10 +62,10 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
   "networkCount": 1,
@@ -96,9 +96,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "visualex"
-  ],
   "firstCommit": {
     "sha": "52f528afc65c0a1ae5e3d2f76e3bf4ef1e9d2fcf",
     "commit": {
@@ -122,5 +119,6 @@
     }
   },
   "filename": "visualex___css-generator.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:41:32.572Z"
 }

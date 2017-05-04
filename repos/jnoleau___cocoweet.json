@@ -5,7 +5,7 @@
   "owner": {
     "login": "jnoleau",
     "id": 1775047,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1775047?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1775047?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jnoleau",
     "htmlUrl": "https://github.com/jnoleau",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/jnoleau/cocoweet/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jnoleau/cocoweet/deployments",
   "createdAt": "2016-09-16T16:32:57.000Z",
-  "updatedAt": "2016-11-07T18:29:42.000Z",
-  "pushedAt": "2016-11-07T18:29:51.000Z",
+  "updatedAt": "2017-01-31T09:58:38.000Z",
+  "pushedAt": "2017-03-04T18:42:37.000Z",
   "gitUrl": "git://github.com/jnoleau/cocoweet.git",
   "sshUrl": "git@github.com:jnoleau/cocoweet.git",
   "cloneUrl": "https://github.com/jnoleau/cocoweet.git",
   "svnUrl": "https://github.com/jnoleau/cocoweet",
-  "homepage": null,
-  "size": 27,
+  "homepage": "https://jnoleau.github.io/cocoweet/",
+  "size": 1544,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": true,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
-  "networkCount": 0,
-  "subscribersCount": 0,
+  "networkCount": 2,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "cocoweet",
@@ -119,9 +119,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jnoleau"
-  ],
   "firstCommit": {
     "sha": "0935a02ee517f58594232d37c46646eabf4d2727",
     "commit": {
@@ -145,5 +142,6 @@
     }
   },
   "filename": "jnoleau___cocoweet.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:23:37.896Z"
 }

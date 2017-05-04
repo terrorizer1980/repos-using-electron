@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Galla",
     "version": "0.0.1",
@@ -59,21 +59,14 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/ScarletFloppy/Galla.git"
-    },
+    "repository": "https://github.com/ScarletFloppy/Galla",
     "keywords": [
       "Galla",
       "Media",
       "Viewer",
       "Electron"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/ScarletFloppy/Galla/issues"
-    },
     "homepage": "https://github.com/ScarletFloppy/Galla#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -82,5 +75,7 @@
   "packageStatus": 404,
   "contributors": [
     "ScarletFloppy"
-  ]
+  ],
+  "filename": "ScarletFloppy___Galla.json",
+  "lastFetchedAt": "2017-05-04T05:36:09.717Z"
 }

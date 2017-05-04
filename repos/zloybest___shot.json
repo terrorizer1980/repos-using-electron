@@ -5,7 +5,7 @@
   "owner": {
     "login": "zloybest",
     "id": 2968744,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2968744?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2968744?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zloybest",
     "htmlUrl": "https://github.com/zloybest",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/zloybest/shot/downloads",
   "deploymentsUrl": "https://api.github.com/repos/zloybest/shot/deployments",
   "createdAt": "2016-10-15T10:22:58.000Z",
-  "updatedAt": "2016-10-15T10:25:13.000Z",
-  "pushedAt": "2016-10-15T10:27:04.000Z",
+  "updatedAt": "2017-03-16T03:03:36.000Z",
+  "pushedAt": "2017-03-01T15:52:53.000Z",
   "gitUrl": "git://github.com/zloybest/shot.git",
   "sshUrl": "git@github.com:zloybest/shot.git",
   "cloneUrl": "https://github.com/zloybest/shot.git",
   "svnUrl": "https://github.com/zloybest/shot",
   "homepage": null,
-  "size": 93,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 98,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -91,9 +91,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "zloybest"
-  ],
   "firstCommit": {
     "sha": "14b3b8cc09448ff28453bf518d6b3015401e68ae",
     "commit": {
@@ -117,183 +114,6 @@
     }
   },
   "filename": "zloybest___shot.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/zloybest/shot/releases/5136983",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/zloybest/shot/releases/assets/2996888",
-          "id": 2996888,
-          "name": "Shot-1.0.2.dmg",
-          "label": null,
-          "uploader": {
-            "login": "zloybest",
-            "id": 2968744,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2968744?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/zloybest",
-            "htmlUrl": "https://github.com/zloybest",
-            "followersUrl": "https://api.github.com/users/zloybest/followers",
-            "subscriptionsUrl": "https://api.github.com/users/zloybest/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/zloybest/orgs",
-            "reposUrl": "https://api.github.com/users/zloybest/repos",
-            "receivedEventsUrl": "https://api.github.com/users/zloybest/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 37083564,
-          "downloadCount": 6,
-          "createdAt": "2017-01-16T10:11:00.000Z",
-          "updatedAt": "2017-01-16T10:11:20.000Z",
-          "browserDownloadUrl": "https://github.com/zloybest/shot/releases/download/v1.0.2-alpha/Shot-1.0.2.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/zloybest/shot/releases/5136983/assets",
-      "htmlUrl": "https://github.com/zloybest/shot/releases/tag/v1.0.2-alpha",
-      "id": 5136983,
-      "tagName": "v1.0.2-alpha",
-      "targetCommitish": "master",
-      "name": "v1.0.2-alpha",
-      "draft": false,
-      "author": {
-        "login": "zloybest",
-        "id": 2968744,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2968744?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zloybest",
-        "htmlUrl": "https://github.com/zloybest",
-        "followersUrl": "https://api.github.com/users/zloybest/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zloybest/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zloybest/orgs",
-        "reposUrl": "https://api.github.com/users/zloybest/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zloybest/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2017-01-12T05:54:56.000Z",
-      "publishedAt": "2017-01-12T05:56:49.000Z",
-      "tarballUrl": "https://api.github.com/repos/zloybest/shot/tarball/v1.0.2-alpha",
-      "zipballUrl": "https://api.github.com/repos/zloybest/shot/zipball/v1.0.2-alpha",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/zloybest/shot/releases/4739919",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/zloybest/shot/releases/assets/2702674",
-          "id": 2702674,
-          "name": "Shot-1.0.1.dmg",
-          "label": null,
-          "uploader": {
-            "login": "zloybest",
-            "id": 2968744,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2968744?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/zloybest",
-            "htmlUrl": "https://github.com/zloybest",
-            "followersUrl": "https://api.github.com/users/zloybest/followers",
-            "subscriptionsUrl": "https://api.github.com/users/zloybest/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/zloybest/orgs",
-            "reposUrl": "https://api.github.com/users/zloybest/repos",
-            "receivedEventsUrl": "https://api.github.com/users/zloybest/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 37037380,
-          "downloadCount": 7,
-          "createdAt": "2016-11-23T11:25:47.000Z",
-          "updatedAt": "2016-11-23T12:01:20.000Z",
-          "browserDownloadUrl": "https://github.com/zloybest/shot/releases/download/v1.0.1-alpha/Shot-1.0.1.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/zloybest/shot/releases/4739919/assets",
-      "htmlUrl": "https://github.com/zloybest/shot/releases/tag/v1.0.1-alpha",
-      "id": 4739919,
-      "tagName": "v1.0.1-alpha",
-      "targetCommitish": "master",
-      "name": "v1.0.1-alpha",
-      "draft": false,
-      "author": {
-        "login": "zloybest",
-        "id": 2968744,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2968744?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zloybest",
-        "htmlUrl": "https://github.com/zloybest",
-        "followersUrl": "https://api.github.com/users/zloybest/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zloybest/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zloybest/orgs",
-        "reposUrl": "https://api.github.com/users/zloybest/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zloybest/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-23T11:18:01.000Z",
-      "publishedAt": "2016-11-23T11:20:12.000Z",
-      "tarballUrl": "https://api.github.com/repos/zloybest/shot/tarball/v1.0.1-alpha",
-      "zipballUrl": "https://api.github.com/repos/zloybest/shot/zipball/v1.0.1-alpha",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/zloybest/shot/releases/4737906",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/zloybest/shot/releases/assets/2701363",
-          "id": 2701363,
-          "name": "Shot-1.0.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "zloybest",
-            "id": 2968744,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2968744?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/zloybest",
-            "htmlUrl": "https://github.com/zloybest",
-            "followersUrl": "https://api.github.com/users/zloybest/followers",
-            "subscriptionsUrl": "https://api.github.com/users/zloybest/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/zloybest/orgs",
-            "reposUrl": "https://api.github.com/users/zloybest/repos",
-            "receivedEventsUrl": "https://api.github.com/users/zloybest/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 37075656,
-          "downloadCount": 1,
-          "createdAt": "2016-11-23T06:45:22.000Z",
-          "updatedAt": "2016-11-23T07:09:09.000Z",
-          "browserDownloadUrl": "https://github.com/zloybest/shot/releases/download/v1.0.0-alpha/Shot-1.0.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/zloybest/shot/releases/4737906/assets",
-      "htmlUrl": "https://github.com/zloybest/shot/releases/tag/v1.0.0-alpha",
-      "id": 4737906,
-      "tagName": "v1.0.0-alpha",
-      "targetCommitish": "master",
-      "name": "v1.0.0-alpha",
-      "draft": false,
-      "author": {
-        "login": "zloybest",
-        "id": 2968744,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2968744?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zloybest",
-        "htmlUrl": "https://github.com/zloybest",
-        "followersUrl": "https://api.github.com/users/zloybest/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zloybest/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zloybest/orgs",
-        "reposUrl": "https://api.github.com/users/zloybest/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zloybest/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-15T10:27:04.000Z",
-      "publishedAt": "2016-11-23T06:44:55.000Z",
-      "tarballUrl": "https://api.github.com/repos/zloybest/shot/tarball/v1.0.0-alpha",
-      "zipballUrl": "https://api.github.com/repos/zloybest/shot/zipball/v1.0.0-alpha",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:47:37.835Z"
 }

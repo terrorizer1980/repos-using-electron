@@ -5,7 +5,7 @@
   "owner": {
     "login": "feross",
     "id": 121766,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/121766?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/121766?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/feross",
     "htmlUrl": "https://github.com/feross",
@@ -35,30 +35,30 @@
   "downloadsUrl": "https://api.github.com/repos/feross/electron-workshop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/feross/electron-workshop/deployments",
   "createdAt": "2016-10-19T09:55:18.000Z",
-  "updatedAt": "2016-11-04T09:57:33.000Z",
-  "pushedAt": "2016-10-29T07:04:11.000Z",
+  "updatedAt": "2017-05-04T13:10:42.000Z",
+  "pushedAt": "2017-03-22T21:28:47.000Z",
   "gitUrl": "git://github.com/feross/electron-workshop.git",
   "sshUrl": "git@github.com:feross/electron-workshop.git",
   "cloneUrl": "https://github.com/feross/electron-workshop.git",
   "svnUrl": "https://github.com/feross/electron-workshop",
   "homepage": "",
-  "size": 281,
-  "stargazersCount": 359,
-  "watchersCount": 359,
+  "size": 304,
+  "stargazersCount": 448,
+  "watchersCount": 448,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 26,
+  "forksCount": 40,
   "mirrorUrl": null,
-  "openIssuesCount": 10,
-  "openIssues": 10,
-  "watchers": 359,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 448,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
-    "push": false,
+    "push": true,
     "pull": true
   },
   "license": {
@@ -68,8 +68,8 @@
     "url": null,
     "featured": false
   },
-  "networkCount": 26,
-  "subscribersCount": 7,
+  "networkCount": 40,
+  "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
     "name": "electron-workshop",
@@ -102,10 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "feross",
-    "simeg"
-  ],
   "firstCommit": {
     "sha": "c9e04493ec5d4a5e923d61a1cb2be6a7722b93a9",
     "commit": {
@@ -129,5 +125,9 @@
     }
   },
   "filename": "feross___electron-workshop.json",
-  "releases": []
+  "hasProjects": true,
+  "allowSquashMerge": true,
+  "allowMergeCommit": true,
+  "allowRebaseMerge": true,
+  "lastFetchedAt": "2017-05-04T18:08:53.937Z"
 }

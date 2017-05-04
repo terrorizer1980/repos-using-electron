@@ -5,7 +5,7 @@
   "owner": {
     "login": "erbridge",
     "id": 1027364,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1027364?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/erbridge",
     "htmlUrl": "https://github.com/erbridge",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/erbridge/rendezvous/deployments",
   "createdAt": "2015-12-12T11:20:21.000Z",
   "updatedAt": "2016-05-14T05:35:02.000Z",
-  "pushedAt": "2016-05-15T19:05:08.000Z",
+  "pushedAt": "2016-11-28T14:05:00.000Z",
   "gitUrl": "git://github.com/erbridge/rendezvous.git",
   "sshUrl": "git@github.com:erbridge/rendezvous.git",
   "cloneUrl": "https://github.com/erbridge/rendezvous.git",
   "svnUrl": "https://github.com/erbridge/rendezvous",
   "homepage": "https://squarebridges.itch.io/midnight-rendezvous",
-  "size": 46044,
+  "size": 46045,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -52,8 +52,8 @@
   "hasPages": true,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -112,9 +112,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "erbridge"
-  ],
   "firstCommit": {
     "sha": "f6cc8533686148ea989bad8ce22dfd776c8b4047",
     "commit": {
@@ -138,119 +135,6 @@
     }
   },
   "filename": "erbridge___rendezvous.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/erbridge/rendezvous/releases/2316802",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/erbridge/rendezvous/releases/assets/1145052",
-          "id": 1145052,
-          "name": "MidnightRendezvous-darwin-x64-0.1.0.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "erbridge",
-            "id": 1027364,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/erbridge",
-            "htmlUrl": "https://github.com/erbridge",
-            "followersUrl": "https://api.github.com/users/erbridge/followers",
-            "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-            "reposUrl": "https://api.github.com/users/erbridge/repos",
-            "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 83113489,
-          "downloadCount": 73,
-          "createdAt": "2015-12-19T22:52:46.000Z",
-          "updatedAt": "2015-12-19T23:26:55.000Z",
-          "browserDownloadUrl": "https://github.com/erbridge/rendezvous/releases/download/v0.1.0/MidnightRendezvous-darwin-x64-0.1.0.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/erbridge/rendezvous/releases/assets/1145131",
-          "id": 1145131,
-          "name": "MidnightRendezvous-linux-x64-0.1.0.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "erbridge",
-            "id": 1027364,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/erbridge",
-            "htmlUrl": "https://github.com/erbridge",
-            "followersUrl": "https://api.github.com/users/erbridge/followers",
-            "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-            "reposUrl": "https://api.github.com/users/erbridge/repos",
-            "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 82097874,
-          "downloadCount": 226,
-          "createdAt": "2015-12-20T00:16:15.000Z",
-          "updatedAt": "2015-12-20T00:51:12.000Z",
-          "browserDownloadUrl": "https://github.com/erbridge/rendezvous/releases/download/v0.1.0/MidnightRendezvous-linux-x64-0.1.0.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/erbridge/rendezvous/releases/assets/1145429",
-          "id": 1145429,
-          "name": "MidnightRendezvous-win32-x64-0.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "erbridge",
-            "id": 1027364,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/erbridge",
-            "htmlUrl": "https://github.com/erbridge",
-            "followersUrl": "https://api.github.com/users/erbridge/followers",
-            "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-            "reposUrl": "https://api.github.com/users/erbridge/repos",
-            "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 94212832,
-          "downloadCount": 310,
-          "createdAt": "2015-12-20T04:53:32.000Z",
-          "updatedAt": "2015-12-20T05:28:33.000Z",
-          "browserDownloadUrl": "https://github.com/erbridge/rendezvous/releases/download/v0.1.0/MidnightRendezvous-win32-x64-0.1.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/erbridge/rendezvous/releases/2316802/assets",
-      "htmlUrl": "https://github.com/erbridge/rendezvous/releases/tag/v0.1.0",
-      "id": 2316802,
-      "tagName": "v0.1.0",
-      "targetCommitish": "gh-pages",
-      "name": "v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "erbridge",
-        "id": 1027364,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/erbridge",
-        "htmlUrl": "https://github.com/erbridge",
-        "followersUrl": "https://api.github.com/users/erbridge/followers",
-        "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-        "reposUrl": "https://api.github.com/users/erbridge/repos",
-        "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-12-19T22:49:44.000Z",
-      "publishedAt": "2015-12-20T05:28:59.000Z",
-      "tarballUrl": "https://api.github.com/repos/erbridge/rendezvous/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/erbridge/rendezvous/zipball/v0.1.0",
-      "body": "Initial release of the Ludum Dare build.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:06:05.608Z"
 }

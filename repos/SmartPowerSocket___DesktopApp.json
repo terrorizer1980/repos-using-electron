@@ -5,7 +5,7 @@
   "owner": {
     "login": "SmartPowerSocket",
     "id": 19299772,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19299772?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19299772?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SmartPowerSocket",
     "htmlUrl": "https://github.com/SmartPowerSocket",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/SmartPowerSocket/DesktopApp/deployments",
   "createdAt": "2016-05-11T05:35:16.000Z",
   "updatedAt": "2016-10-30T20:15:45.000Z",
-  "pushedAt": "2016-11-13T04:28:18.000Z",
+  "pushedAt": "2017-03-22T02:00:51.000Z",
   "gitUrl": "git://github.com/SmartPowerSocket/DesktopApp.git",
   "sshUrl": "git@github.com:SmartPowerSocket/DesktopApp.git",
   "cloneUrl": "https://github.com/SmartPowerSocket/DesktopApp.git",
   "svnUrl": "https://github.com/SmartPowerSocket/DesktopApp",
   "homepage": "",
-  "size": 58596,
+  "size": 58601,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "SmartPowerSocket",
     "id": 19299772,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19299772?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19299772?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SmartPowerSocket",
     "htmlUrl": "https://github.com/SmartPowerSocket",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/SmartPowerSocket/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -219,37 +219,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "chentsulin",
-    "jhen0409",
-    "danielmapar",
-    "iDuuck",
-    "akovalyov",
-    "Kilian",
-    "Yeti-or",
-    "danielbushman",
-    "epilande",
-    "suribit",
-    "LongLiveCHIEF",
-    "tsemerad",
-    "davej",
-    "domasx2",
-    "pwmckenna",
-    "catalinmiron",
-    "amilajack",
-    "crucialfelix",
-    "lmatteis",
-    "matbush",
-    "olegakbarov",
-    "pascalw",
-    "the4dpatrick",
-    "vramana",
-    "shea256",
-    "RyanAtViceSoftware",
-    "sergeybekrin",
-    "ttacon",
-    "slightlytyler"
-  ],
   "firstCommit": {
     "sha": "9d7637e47e7c637c857b31e058ea969f7fd30122",
     "commit": {
@@ -274,5 +243,6 @@
   },
   "filename": "SmartPowerSocket___DesktopApp.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:12:21.866Z"
 }

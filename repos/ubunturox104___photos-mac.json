@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "photos-mac",
     "productName": "Photos for Mac",
@@ -306,5 +306,6 @@
       "zipballUrl": "https://api.github.com/repos/ubunturox104/photos-mac/zipball/1.0.0",
       "body": "**Please note the Gatekeeper issues!**\nThis version is not signed, so it will get blocked by Apple's Gatekeeper feature automatically. You can either right-click on the app and click \"Open\", disable Gatekeeper (not recommended), or runs this command in the Terminal:\n\n`xattr -d com.apple.quarantine (location of Photos for Mac app)`\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T19:39:38.820Z"
 }

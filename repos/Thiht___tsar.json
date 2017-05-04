@@ -5,7 +5,7 @@
   "owner": {
     "login": "Thiht",
     "id": 2796344,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2796344?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2796344?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Thiht",
     "htmlUrl": "https://github.com/Thiht",
@@ -17,23 +17,23 @@
     "type": "User"
   },
   "private": false,
-  "description": "The RSS reader that doesn't suck",
+  "description": "A new age for RSS",
   "fork": false,
   "createdAt": "2016-07-05T12:03:04.000Z",
-  "updatedAt": "2016-07-05T12:03:23.000Z",
-  "pushedAt": "2016-07-15T13:21:10.000Z",
-  "homepage": null,
-  "size": 3,
+  "updatedAt": "2017-03-06T20:13:10.000Z",
+  "pushedAt": "2017-02-08T00:12:15.000Z",
+  "homepage": "",
+  "size": 130,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 10,
+  "openIssues": 10,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -110,18 +110,9 @@
     },
     "optionalDependencies": {
       "cors-anywhere": "^0.4.0"
-    },
-    "other": {
-      "author": "Thibaut Rousseau",
-      "bugs": {
-        "url": "https://github.com/Thiht/tsar/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Thiht"
-  ],
   "firstCommit": {
     "sha": "1ce0d9d440b71143895b76d83db1881cfe54554f",
     "commit": {
@@ -145,5 +136,26 @@
     }
   },
   "filename": "Thiht___tsar.json",
-  "releases": []
+  "htmlUrl": "https://github.com/Thiht/tsar",
+  "url": "https://api.github.com/repos/Thiht/tsar",
+  "forksUrl": "https://api.github.com/repos/Thiht/tsar/forks",
+  "teamsUrl": "https://api.github.com/repos/Thiht/tsar/teams",
+  "hooksUrl": "https://api.github.com/repos/Thiht/tsar/hooks",
+  "eventsUrl": "https://api.github.com/repos/Thiht/tsar/events",
+  "tagsUrl": "https://api.github.com/repos/Thiht/tsar/tags",
+  "languagesUrl": "https://api.github.com/repos/Thiht/tsar/languages",
+  "stargazersUrl": "https://api.github.com/repos/Thiht/tsar/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Thiht/tsar/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Thiht/tsar/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Thiht/tsar/subscription",
+  "mergesUrl": "https://api.github.com/repos/Thiht/tsar/merges",
+  "downloadsUrl": "https://api.github.com/repos/Thiht/tsar/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Thiht/tsar/deployments",
+  "gitUrl": "git://github.com/Thiht/tsar.git",
+  "sshUrl": "git@github.com:Thiht/tsar.git",
+  "cloneUrl": "https://github.com/Thiht/tsar.git",
+  "svnUrl": "https://github.com/Thiht/tsar",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:20:30.437Z"
 }

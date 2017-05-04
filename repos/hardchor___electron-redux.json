@@ -5,7 +5,7 @@
   "owner": {
     "login": "hardchor",
     "id": 307162,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/307162?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/307162?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hardchor",
     "htmlUrl": "https://github.com/hardchor",
@@ -35,35 +35,41 @@
   "downloadsUrl": "https://api.github.com/repos/hardchor/electron-redux/downloads",
   "deploymentsUrl": "https://api.github.com/repos/hardchor/electron-redux/deployments",
   "createdAt": "2016-10-11T17:58:49.000Z",
-  "updatedAt": "2016-11-02T21:07:21.000Z",
-  "pushedAt": "2016-11-02T15:54:47.000Z",
+  "updatedAt": "2017-05-04T14:17:25.000Z",
+  "pushedAt": "2017-04-28T00:31:11.000Z",
   "gitUrl": "git://github.com/hardchor/electron-redux.git",
   "sshUrl": "git@github.com:hardchor/electron-redux.git",
   "cloneUrl": "https://github.com/hardchor/electron-redux.git",
   "svnUrl": "https://github.com/hardchor/electron-redux",
   "homepage": "",
-  "size": 104,
-  "stargazersCount": 13,
-  "watchersCount": 13,
+  "size": 157,
+  "stargazersCount": 76,
+  "watchersCount": 76,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 6,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 13,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 76,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 1,
-  "subscribersCount": 2,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 6,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "electron-redux",
@@ -111,10 +117,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "hardchor",
-    "waffle-iron"
-  ],
   "firstCommit": {
     "sha": "b3ab4357552a736c50c21c733030b67a1385860f",
     "commit": {
@@ -138,5 +140,6 @@
     }
   },
   "filename": "hardchor___electron-redux.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:52:23.996Z"
 }

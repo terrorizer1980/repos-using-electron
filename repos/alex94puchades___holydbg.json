@@ -60,10 +60,7 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/alex94puchades/holydbg.git"
-    },
+    "repository": "https://github.com/alex94puchades/holydbg",
     "keywords": [
       "holydbg",
       "debug",
@@ -72,11 +69,7 @@
       "electron",
       "polymer"
     ],
-    "author": "Alejandro Caravaca Puchades <alex94puchades@gmail.com>",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/alex94puchades/holydbg/issues"
-    },
     "homepage": "https://github.com/alex94puchades/holydbg#readme",
     "devDependencies": {
       "babel-core": "^6.4.0",
@@ -111,5 +104,7 @@
   "packageStatus": 404,
   "contributors": [
     "alex94puchades"
-  ]
+  ],
+  "filename": "alex94puchades___holydbg.json",
+  "lastFetchedAt": "2017-05-04T20:10:29.522Z"
 }

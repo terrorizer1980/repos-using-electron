@@ -54,10 +54,7 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/alex94puchades/electron-angular2-es6-starter"
-    },
+    "repository": "https://github.com/alex94puchades/electron-angular2-es6-starter",
     "keywords": [
       "electron",
       "angular2",
@@ -65,7 +62,6 @@
       "node",
       "es6"
     ],
-    "author": "Alejandro Caravaca Puchades <alex94puchades@gmail.com>",
     "license": "ISC",
     "devDependencies": {
       "babel": "^6.3.26",
@@ -107,5 +103,7 @@
       }
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "alex94puchades___electron-angular2-babel-starter.json",
+  "lastFetchedAt": "2017-05-04T20:28:41.228Z"
 }

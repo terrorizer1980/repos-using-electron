@@ -5,7 +5,7 @@
   "owner": {
     "login": "oskarkrawczyk",
     "id": 34213,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/34213?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/34213?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/oskarkrawczyk",
     "htmlUrl": "https://github.com/oskarkrawczyk",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/oskarkrawczyk/overcast-mac",
-  "description": "Unofficial Overcast Mac app",
+  "description": "Unofficial Overcast Mac app.",
   "fork": false,
   "url": "https://api.github.com/repos/oskarkrawczyk/overcast-mac",
   "forksUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/downloads",
   "deploymentsUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/deployments",
   "createdAt": "2016-09-29T19:52:58.000Z",
-  "updatedAt": "2016-11-14T16:17:56.000Z",
-  "pushedAt": "2016-10-29T10:21:25.000Z",
+  "updatedAt": "2017-05-02T20:39:20.000Z",
+  "pushedAt": "2017-01-30T19:20:57.000Z",
   "gitUrl": "git://github.com/oskarkrawczyk/overcast-mac.git",
   "sshUrl": "git@github.com:oskarkrawczyk/overcast-mac.git",
   "cloneUrl": "https://github.com/oskarkrawczyk/overcast-mac.git",
   "svnUrl": "https://github.com/oskarkrawczyk/overcast-mac",
-  "homepage": null,
-  "size": 322,
-  "stargazersCount": 40,
-  "watchersCount": 40,
+  "homepage": "",
+  "size": 320,
+  "stargazersCount": 49,
+  "watchersCount": 49,
   "language": "CSS",
-  "hasIssues": true,
+  "hasIssues": false,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
-  "forksCount": 3,
+  "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 40,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 49,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 3,
-  "subscribersCount": 3,
+  "networkCount": 5,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "overcast-mac",
@@ -102,10 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "oskarkrawczyk",
-    "dubstrike"
-  ],
   "firstCommit": {
     "sha": "6e858c2599c48516946107cb0a0ec0f57e772749",
     "commit": {
@@ -129,124 +125,6 @@
     }
   },
   "filename": "oskarkrawczyk___overcast-mac.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/releases/4290110",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/releases/assets/2415138",
-          "id": 2415138,
-          "name": "Overcast-osx-0.9.1.zip",
-          "label": null,
-          "uploader": {
-            "login": "oskarkrawczyk",
-            "id": 34213,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/34213?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/oskarkrawczyk",
-            "htmlUrl": "https://github.com/oskarkrawczyk",
-            "followersUrl": "https://api.github.com/users/oskarkrawczyk/followers",
-            "subscriptionsUrl": "https://api.github.com/users/oskarkrawczyk/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/oskarkrawczyk/orgs",
-            "reposUrl": "https://api.github.com/users/oskarkrawczyk/repos",
-            "receivedEventsUrl": "https://api.github.com/users/oskarkrawczyk/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41327610,
-          "downloadCount": 58,
-          "createdAt": "2016-10-03T15:14:43.000Z",
-          "updatedAt": "2016-10-03T15:15:20.000Z",
-          "browserDownloadUrl": "https://github.com/oskarkrawczyk/overcast-mac/releases/download/v0.9.1/Overcast-osx-0.9.1.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/releases/4290110/assets",
-      "htmlUrl": "https://github.com/oskarkrawczyk/overcast-mac/releases/tag/v0.9.1",
-      "id": 4290110,
-      "tagName": "v0.9.1",
-      "targetCommitish": "master",
-      "name": "0.9.1",
-      "draft": false,
-      "author": {
-        "login": "oskarkrawczyk",
-        "id": 34213,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/34213?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/oskarkrawczyk",
-        "htmlUrl": "https://github.com/oskarkrawczyk",
-        "followersUrl": "https://api.github.com/users/oskarkrawczyk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/oskarkrawczyk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/oskarkrawczyk/orgs",
-        "reposUrl": "https://api.github.com/users/oskarkrawczyk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/oskarkrawczyk/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-03T15:13:13.000Z",
-      "publishedAt": "2016-10-03T15:15:23.000Z",
-      "tarballUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/tarball/v0.9.1",
-      "zipballUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/zipball/v0.9.1",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/releases/4273735",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/releases/assets/2403911",
-          "id": 2403911,
-          "name": "Overcast-osx-0.9.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "oskarkrawczyk",
-            "id": 34213,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/34213?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/oskarkrawczyk",
-            "htmlUrl": "https://github.com/oskarkrawczyk",
-            "followersUrl": "https://api.github.com/users/oskarkrawczyk/followers",
-            "subscriptionsUrl": "https://api.github.com/users/oskarkrawczyk/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/oskarkrawczyk/orgs",
-            "reposUrl": "https://api.github.com/users/oskarkrawczyk/repos",
-            "receivedEventsUrl": "https://api.github.com/users/oskarkrawczyk/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41844320,
-          "downloadCount": 20,
-          "createdAt": "2016-09-30T13:42:28.000Z",
-          "updatedAt": "2016-10-02T18:49:00.000Z",
-          "browserDownloadUrl": "https://github.com/oskarkrawczyk/overcast-mac/releases/download/v0.9.0/Overcast-osx-0.9.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/releases/4273735/assets",
-      "htmlUrl": "https://github.com/oskarkrawczyk/overcast-mac/releases/tag/v0.9.0",
-      "id": 4273735,
-      "tagName": "v0.9.0",
-      "targetCommitish": "master",
-      "name": "0.9.0",
-      "draft": false,
-      "author": {
-        "login": "oskarkrawczyk",
-        "id": 34213,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/34213?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/oskarkrawczyk",
-        "htmlUrl": "https://github.com/oskarkrawczyk",
-        "followersUrl": "https://api.github.com/users/oskarkrawczyk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/oskarkrawczyk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/oskarkrawczyk/orgs",
-        "reposUrl": "https://api.github.com/users/oskarkrawczyk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/oskarkrawczyk/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-09-30T13:11:49.000Z",
-      "publishedAt": "2016-09-30T13:43:08.000Z",
-      "tarballUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/tarball/v0.9.0",
-      "zipballUrl": "https://api.github.com/repos/oskarkrawczyk/overcast-mac/zipball/v0.9.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": false,
+  "lastFetchedAt": "2017-05-04T19:47:26.620Z"
 }

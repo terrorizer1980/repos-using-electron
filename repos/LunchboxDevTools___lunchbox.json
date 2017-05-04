@@ -5,7 +5,7 @@
   "owner": {
     "login": "LunchboxDevTools",
     "id": 16226682,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16226682?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16226682?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LunchboxDevTools",
     "htmlUrl": "https://github.com/LunchboxDevTools",
@@ -17,15 +17,15 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2015-10-04T19:26:21.000Z",
-  "updatedAt": "2016-05-26T19:17:34.000Z",
+  "updatedAt": "2017-04-06T00:06:57.000Z",
   "pushedAt": "2016-05-18T01:13:01.000Z",
   "homepage": null,
   "size": 2155,
-  "stargazersCount": 14,
-  "watchersCount": 14,
+  "stargazersCount": 18,
+  "watchersCount": 18,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 3,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 14,
+  "watchers": 18,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "LunchboxDevTools",
     "id": 16226682,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16226682?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16226682?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LunchboxDevTools",
     "htmlUrl": "https://github.com/LunchboxDevTools",
@@ -90,10 +90,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "yuriybabenko",
-    "jrh327"
-  ],
   "firstCommit": {
     "sha": "0827e4c44fa55631e24dec9e6da66124b7f6d54d",
     "commit": {
@@ -117,5 +113,26 @@
     }
   },
   "filename": "LunchboxDevTools___lunchbox.json",
-  "releases": []
+  "htmlUrl": "https://github.com/LunchboxDevTools/lunchbox",
+  "url": "https://api.github.com/repos/LunchboxDevTools/lunchbox",
+  "forksUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/forks",
+  "teamsUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/teams",
+  "hooksUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/hooks",
+  "eventsUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/events",
+  "tagsUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/tags",
+  "languagesUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/languages",
+  "stargazersUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/contributors",
+  "subscribersUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/subscription",
+  "mergesUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/merges",
+  "downloadsUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/LunchboxDevTools/lunchbox/deployments",
+  "gitUrl": "git://github.com/LunchboxDevTools/lunchbox.git",
+  "sshUrl": "git@github.com:LunchboxDevTools/lunchbox.git",
+  "cloneUrl": "https://github.com/LunchboxDevTools/lunchbox.git",
+  "svnUrl": "https://github.com/LunchboxDevTools/lunchbox",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:25:39.309Z"
 }

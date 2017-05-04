@@ -5,7 +5,7 @@
   "owner": {
     "login": "juristr",
     "id": 542458,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/542458?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/542458?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/juristr",
     "htmlUrl": "https://github.com/juristr",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "robwormald",
       "id": 534930,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/534930?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/534930?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/robwormald",
       "htmlUrl": "https://github.com/robwormald",
@@ -79,7 +79,7 @@
     "downloadsUrl": "https://api.github.com/repos/robwormald/ng2-electron/downloads",
     "deploymentsUrl": "https://api.github.com/repos/robwormald/ng2-electron/deployments",
     "createdAt": "2015-11-21T08:14:53.000Z",
-    "updatedAt": "2016-08-16T12:57:19.000Z",
+    "updatedAt": "2017-03-09T23:42:02.000Z",
     "pushedAt": "2016-02-13T03:41:53.000Z",
     "gitUrl": "git://github.com/robwormald/ng2-electron.git",
     "sshUrl": "git@github.com:robwormald/ng2-electron.git",
@@ -87,18 +87,19 @@
     "svnUrl": "https://github.com/robwormald/ng2-electron",
     "homepage": null,
     "size": 177,
-    "stargazersCount": 29,
-    "watchersCount": 29,
+    "stargazersCount": 31,
+    "watchersCount": 31,
     "language": "CSS",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 4,
+    "forksCount": 5,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
-    "watchers": 29,
+    "watchers": 31,
     "defaultBranch": "master"
   },
   "source": {
@@ -108,7 +109,7 @@
     "owner": {
       "login": "robwormald",
       "id": 534930,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/534930?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/534930?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/robwormald",
       "htmlUrl": "https://github.com/robwormald",
@@ -138,7 +139,7 @@
     "downloadsUrl": "https://api.github.com/repos/robwormald/ng2-electron/downloads",
     "deploymentsUrl": "https://api.github.com/repos/robwormald/ng2-electron/deployments",
     "createdAt": "2015-11-21T08:14:53.000Z",
-    "updatedAt": "2016-08-16T12:57:19.000Z",
+    "updatedAt": "2017-03-09T23:42:02.000Z",
     "pushedAt": "2016-02-13T03:41:53.000Z",
     "gitUrl": "git://github.com/robwormald/ng2-electron.git",
     "sshUrl": "git@github.com:robwormald/ng2-electron.git",
@@ -146,21 +147,22 @@
     "svnUrl": "https://github.com/robwormald/ng2-electron",
     "homepage": null,
     "size": 177,
-    "stargazersCount": 29,
-    "watchersCount": 29,
+    "stargazersCount": 31,
+    "watchersCount": 31,
     "language": "CSS",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 4,
+    "forksCount": 5,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
-    "watchers": 29,
+    "watchers": 31,
     "defaultBranch": "master"
   },
-  "networkCount": 4,
+  "networkCount": 5,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -207,9 +209,6 @@
   "cloneUrl": "https://github.com/juristr/ng2-electron.git",
   "svnUrl": "https://github.com/juristr/ng2-electron",
   "mirrorUrl": null,
-  "contributors": [
-    "robwormald"
-  ],
   "firstCommit": {
     "sha": "1b67e54af001b390839546f986537cb1b7fc7bdf",
     "commit": {
@@ -234,5 +233,6 @@
   },
   "filename": "juristr___ng2-electron.json",
   "sourceRepo": "robwormald/ng2-electron",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:53:58.512Z"
 }

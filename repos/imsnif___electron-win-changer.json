@@ -5,7 +5,7 @@
   "owner": {
     "login": "imsnif",
     "id": 795598,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/795598?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/795598?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/imsnif",
     "htmlUrl": "https://github.com/imsnif",
@@ -36,7 +36,7 @@
   "deploymentsUrl": "https://api.github.com/repos/imsnif/electron-win-changer/deployments",
   "createdAt": "2016-10-03T12:48:08.000Z",
   "updatedAt": "2016-10-03T12:48:32.000Z",
-  "pushedAt": "2016-10-03T13:04:27.000Z",
+  "pushedAt": "2016-11-05T11:18:39.000Z",
   "gitUrl": "git://github.com/imsnif/electron-win-changer.git",
   "sshUrl": "git@github.com:imsnif/electron-win-changer.git",
   "cloneUrl": "https://github.com/imsnif/electron-win-changer.git",
@@ -61,7 +61,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
@@ -80,9 +86,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "imsnif"
-  ],
   "firstCommit": {
     "sha": "7bed33da84458855748aadf05efb39e8f78dba48",
     "commit": {
@@ -106,5 +109,6 @@
     }
   },
   "filename": "imsnif___electron-win-changer.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:31:42.264Z"
 }

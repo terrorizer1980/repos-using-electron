@@ -5,7 +5,7 @@
   "owner": {
     "login": "lkathous",
     "id": 16774445,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16774445?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16774445?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lkathous",
     "htmlUrl": "https://github.com/lkathous",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/lkathous/Electron-2048",
-  "description": "打算写一个正常的2048，并让它能自动游戏，嘿嘿嘿",
+  "description": "打算写一个正常的2048，并让它能自动游戏，嘿嘿嘿（TODO: AI没有完成）",
   "fork": false,
   "url": "https://api.github.com/repos/lkathous/Electron-2048",
   "forksUrl": "https://api.github.com/repos/lkathous/Electron-2048/forks",
@@ -35,13 +35,13 @@
   "downloadsUrl": "https://api.github.com/repos/lkathous/Electron-2048/downloads",
   "deploymentsUrl": "https://api.github.com/repos/lkathous/Electron-2048/deployments",
   "createdAt": "2016-09-26T14:57:40.000Z",
-  "updatedAt": "2016-10-03T04:16:52.000Z",
+  "updatedAt": "2017-03-05T10:53:46.000Z",
   "pushedAt": "2016-10-23T10:43:16.000Z",
   "gitUrl": "git://github.com/lkathous/Electron-2048.git",
   "sshUrl": "git@github.com:lkathous/Electron-2048.git",
   "cloneUrl": "https://github.com/lkathous/Electron-2048.git",
   "svnUrl": "https://github.com/lkathous/Electron-2048",
-  "homepage": null,
+  "homepage": "",
   "size": 604,
   "stargazersCount": 0,
   "watchersCount": 0,
@@ -79,9 +79,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lkathous"
-  ],
   "firstCommit": {
     "sha": "ad429d548d30eeaeed37d8e3f5e6fa029b987ab5",
     "commit": {
@@ -105,5 +102,6 @@
     }
   },
   "filename": "lkathous___Electron-2048.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:52:36.000Z"
 }

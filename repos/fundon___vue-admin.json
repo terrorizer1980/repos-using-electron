@@ -5,7 +5,7 @@
   "owner": {
     "login": "vue-bulma",
     "id": 20152452,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20152452?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20152452?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vue-bulma",
     "htmlUrl": "https://github.com/vue-bulma",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/vue-bulma/vue-admin",
-  "description": "Vue Admin Panel Framework, Powered by Vue 2.0 and Bulma 0.2",
+  "description": "Vue Admin Panel Framework, Powered by Vue 2.0 and Bulma 0.3",
   "fork": false,
   "url": "https://api.github.com/repos/vue-bulma/vue-admin",
   "forksUrl": "https://api.github.com/repos/vue-bulma/vue-admin/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/vue-bulma/vue-admin/downloads",
   "deploymentsUrl": "https://api.github.com/repos/vue-bulma/vue-admin/deployments",
   "createdAt": "2016-06-03T02:15:58.000Z",
-  "updatedAt": "2016-11-16T13:58:54.000Z",
-  "pushedAt": "2016-11-16T17:06:47.000Z",
+  "updatedAt": "2017-05-04T19:01:47.000Z",
+  "pushedAt": "2017-05-04T06:02:58.000Z",
   "gitUrl": "git://github.com/vue-bulma/vue-admin.git",
   "sshUrl": "git@github.com:vue-bulma/vue-admin.git",
   "cloneUrl": "https://github.com/vue-bulma/vue-admin.git",
   "svnUrl": "https://github.com/vue-bulma/vue-admin",
-  "homepage": "https://vue-admin.fundon.me",
-  "size": 138084,
-  "stargazersCount": 1720,
-  "watchersCount": 1720,
+  "homepage": "https://admin.vuebulma.com",
+  "size": 175877,
+  "stargazersCount": 4146,
+  "watchersCount": 4146,
   "language": "Vue",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 258,
+  "forksCount": 671,
   "mirrorUrl": null,
-  "openIssuesCount": 23,
-  "openIssues": 23,
-  "watchers": 1720,
+  "openIssuesCount": 52,
+  "openIssues": 52,
+  "watchers": 4146,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "vue-bulma",
     "id": 20152452,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20152452?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20152452?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vue-bulma",
     "htmlUrl": "https://github.com/vue-bulma",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/vue-bulma/received_events",
     "type": "Organization"
   },
-  "networkCount": 258,
-  "subscribersCount": 93,
+  "networkCount": 671,
+  "subscribersCount": 227,
   "status": 200,
   "packageJSON": {
     "name": "vue-admin",
@@ -201,16 +201,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "fundon",
-    "luventa",
-    "hnakamur",
-    "JeOam",
-    "kartsims",
-    "Erkajp",
-    "martinhearn",
-    "zhuwei05"
-  ],
   "firstCommit": {
     "sha": "974d7e7652c1bf0ee716a295064c3aa804793187",
     "commit": {
@@ -234,5 +224,6 @@
     }
   },
   "filename": "fundon___vue-admin.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:51:54.194Z"
 }

@@ -183,7 +183,7 @@
   },
   "networkCount": 905,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "hyperterm",
     "version": "0.7.0",
@@ -352,5 +352,6 @@
       "commentCount": 0
     }
   },
-  "sourceRepo": "zeit/hyperterm"
+  "sourceRepo": "zeit/hyperterm",
+  "lastFetchedAt": "2017-05-04T20:07:03.100Z"
 }

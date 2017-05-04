@@ -6,7 +6,7 @@
   "owner": {
     "login": "ssbc",
     "id": 10190339,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10190339?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10190339?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ssbc",
     "htmlUrl": "https://github.com/ssbc",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/ssbc/patchbay",
-  "description": "A client (and library) of depject modules for the Secure Scuttlebutt distributed social network",
+  "description": "An alternative Secure Scuttlebutt client interface that is fully compatible with Patchwork",
   "fork": false,
   "url": "https://api.github.com/repos/ssbc/patchbay",
   "forksUrl": "https://api.github.com/repos/ssbc/patchbay/forks",
@@ -36,43 +36,37 @@
   "downloadsUrl": "https://api.github.com/repos/ssbc/patchbay/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ssbc/patchbay/deployments",
   "createdAt": "2016-05-11T01:38:55.000Z",
-  "updatedAt": "2017-01-16T06:25:28.000Z",
-  "pushedAt": "2017-01-20T01:08:39.000Z",
+  "updatedAt": "2017-05-04T18:58:14.000Z",
+  "pushedAt": "2017-05-04T10:16:19.000Z",
   "gitUrl": "git://github.com/ssbc/patchbay.git",
   "sshUrl": "git@github.com:ssbc/patchbay.git",
   "cloneUrl": "https://github.com/ssbc/patchbay.git",
   "svnUrl": "https://github.com/ssbc/patchbay",
   "homepage": "http://scuttlebot.io/",
-  "size": 1154,
-  "stargazersCount": 37,
-  "watchersCount": 37,
+  "size": 2351,
+  "stargazersCount": 77,
+  "watchersCount": 77,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 13,
+  "forksCount": 24,
   "mirrorUrl": null,
-  "openIssuesCount": 13,
-  "openIssues": 13,
-  "watchers": 37,
+  "openIssuesCount": 24,
+  "openIssues": 24,
+  "watchers": 77,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "organization": {
     "login": "ssbc",
     "id": 10190339,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10190339?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10190339?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ssbc",
     "htmlUrl": "https://github.com/ssbc",
@@ -83,8 +77,8 @@
     "receivedEventsUrl": "https://api.github.com/users/ssbc/received_events",
     "type": "Organization"
   },
-  "networkCount": 13,
-  "subscribersCount": 8,
+  "networkCount": 24,
+  "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
     "name": "patchbay",
@@ -169,20 +163,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "dominictarr",
-    "clehner",
-    "mixmix",
-    "evbogue",
-    "ahdinosaur",
-    "arj03",
-    "cryptix",
-    "gwenbell",
-    "mmckegg",
-    "magician11",
-    "kyrias",
-    "wanderer"
-  ],
   "firstCommit": {
     "sha": "1ed42bd9f36becb191c331ca40892cc3262c8e08",
     "commit": {
@@ -205,5 +185,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:20:58.018Z"
 }

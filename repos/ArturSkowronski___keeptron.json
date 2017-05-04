@@ -5,7 +5,7 @@
   "owner": {
     "login": "ArturSkowronski",
     "id": 395778,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/395778?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ArturSkowronski",
     "htmlUrl": "https://github.com/ArturSkowronski",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/ArturSkowronski/keeptron",
-  "description": null,
+  "description": "Electron desktop application for Google Keep",
   "fork": false,
   "url": "https://api.github.com/repos/ArturSkowronski/keeptron",
   "forksUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/deployments",
   "createdAt": "2016-09-21T08:42:18.000Z",
-  "updatedAt": "2016-09-21T09:23:29.000Z",
-  "pushedAt": "2016-10-19T20:38:37.000Z",
+  "updatedAt": "2017-03-20T11:39:43.000Z",
+  "pushedAt": "2017-02-25T07:31:10.000Z",
   "gitUrl": "git://github.com/ArturSkowronski/keeptron.git",
   "sshUrl": "git@github.com:ArturSkowronski/keeptron.git",
   "cloneUrl": "https://github.com/ArturSkowronski/keeptron.git",
   "svnUrl": "https://github.com/ArturSkowronski/keeptron",
-  "homepage": null,
-  "size": 103,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "homepage": "",
+  "size": 276,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,11 +62,11 @@
     "pull": true
   },
   "license": {
-    "key": "cc0-1.0",
-    "name": "Creative Commons Zero v1.0 Universal",
-    "spdxId": "CC0-1.0",
-    "url": "https://api.github.com/licenses/cc0-1.0",
-    "featured": false
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
   "networkCount": 0,
   "subscribersCount": 2,
@@ -98,9 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ArturSkowronski"
-  ],
   "firstCommit": {
     "sha": "9b4e9e1168efa6b3287f864512505de463492cda",
     "commit": {
@@ -124,242 +121,6 @@
     }
   },
   "filename": "ArturSkowronski___keeptron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/5430234",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/assets/3173131",
-          "id": 3173131,
-          "name": "Keeptron-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "ArturSkowronski",
-            "id": 395778,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ArturSkowronski",
-            "htmlUrl": "https://github.com/ArturSkowronski",
-            "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-            "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43731501,
-          "downloadCount": 1,
-          "createdAt": "2017-02-11T21:48:21.000Z",
-          "updatedAt": "2017-02-11T21:48:48.000Z",
-          "browserDownloadUrl": "https://github.com/ArturSkowronski/keeptron/releases/download/v0.3.1-alpha/Keeptron-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/5430234/assets",
-      "htmlUrl": "https://github.com/ArturSkowronski/keeptron/releases/tag/v0.3.1-alpha",
-      "id": 5430234,
-      "tagName": "v0.3.1-alpha",
-      "targetCommitish": "master",
-      "name": "Alpha Release 0.3.1",
-      "draft": false,
-      "author": {
-        "login": "ArturSkowronski",
-        "id": 395778,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ArturSkowronski",
-        "htmlUrl": "https://github.com/ArturSkowronski",
-        "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-        "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2017-02-11T21:39:32.000Z",
-      "publishedAt": "2017-02-11T21:48:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/tarball/v0.3.1-alpha",
-      "zipballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/zipball/v0.3.1-alpha",
-      "body": "Fixed Bugs\r\n-------\r\n* ESC shortcut is deregistered after closing window\r\n\r\nKnown bugs\r\n------\r\n* Don't run with disabled internet connection - app will timeout\r\n* Size of binary is growning up even without adding much code"
-    },
-    {
-      "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/5373440",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/assets/3135698",
-          "id": 3135698,
-          "name": "Keeptron-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "ArturSkowronski",
-            "id": 395778,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ArturSkowronski",
-            "htmlUrl": "https://github.com/ArturSkowronski",
-            "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-            "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 129087601,
-          "downloadCount": 1,
-          "createdAt": "2017-02-06T17:59:24.000Z",
-          "updatedAt": "2017-02-06T18:01:06.000Z",
-          "browserDownloadUrl": "https://github.com/ArturSkowronski/keeptron/releases/download/v0.3-alpha/Keeptron-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/5373440/assets",
-      "htmlUrl": "https://github.com/ArturSkowronski/keeptron/releases/tag/v0.3-alpha",
-      "id": 5373440,
-      "tagName": "v0.3-alpha",
-      "targetCommitish": "master",
-      "name": "Alpha Release 0.3",
-      "draft": false,
-      "author": {
-        "login": "ArturSkowronski",
-        "id": 395778,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ArturSkowronski",
-        "htmlUrl": "https://github.com/ArturSkowronski",
-        "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-        "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2017-02-05T10:52:17.000Z",
-      "publishedAt": "2017-02-06T18:01:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/tarball/v0.3-alpha",
-      "zipballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/zipball/v0.3-alpha",
-      "body": "Alpha version of application! Stay Tuned for more!\r\n\r\nNew Functionalities\r\n-------\r\n* Menu Bar icon fits color of chosen system color scheme \r\n* Clicked links open in system default browser\r\n\r\nKnown bugs\r\n------\r\n* Don't run with disabled internet connection - app will timeout\r\n* Size of binary is growning up even without adding much code"
-    },
-    {
-      "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/5362964",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/assets/3128462",
-          "id": 3128462,
-          "name": "Keeptron.zip",
-          "label": null,
-          "uploader": {
-            "login": "ArturSkowronski",
-            "id": 395778,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ArturSkowronski",
-            "htmlUrl": "https://github.com/ArturSkowronski",
-            "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-            "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 86418781,
-          "downloadCount": 1,
-          "createdAt": "2017-02-05T10:54:20.000Z",
-          "updatedAt": "2017-02-05T10:54:48.000Z",
-          "browserDownloadUrl": "https://github.com/ArturSkowronski/keeptron/releases/download/v0.2-alpha/Keeptron.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/5362964/assets",
-      "htmlUrl": "https://github.com/ArturSkowronski/keeptron/releases/tag/v0.2-alpha",
-      "id": 5362964,
-      "tagName": "v0.2-alpha",
-      "targetCommitish": "master",
-      "name": "Alpha Release 0.2",
-      "draft": false,
-      "author": {
-        "login": "ArturSkowronski",
-        "id": 395778,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ArturSkowronski",
-        "htmlUrl": "https://github.com/ArturSkowronski",
-        "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-        "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2017-02-05T10:52:17.000Z",
-      "publishedAt": "2017-02-05T10:55:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/tarball/v0.2-alpha",
-      "zipballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/zipball/v0.2-alpha",
-      "body": "Second alpha version of application! Stay Tuned for more!\r\n\r\nNew Functionalities\r\n-------\r\n* UI Fixes\r\n* Autostart with Mac (automatic, not configurable yet, you can disable it with Login Item)\r\n\r\nKnown bugs\r\n------\r\n* Don't run with disabled internet connection - app will timeout\r\n"
-    },
-    {
-      "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/4221918",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/assets/2370849",
-          "id": 2370849,
-          "name": "Keeper.zip",
-          "label": null,
-          "uploader": {
-            "login": "ArturSkowronski",
-            "id": 395778,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ArturSkowronski",
-            "htmlUrl": "https://github.com/ArturSkowronski",
-            "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-            "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44350683,
-          "downloadCount": 0,
-          "createdAt": "2016-09-24T19:23:45.000Z",
-          "updatedAt": "2016-09-24T19:32:29.000Z",
-          "browserDownloadUrl": "https://github.com/ArturSkowronski/keeptron/releases/download/v0.1-alpha/Keeper.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/releases/4221918/assets",
-      "htmlUrl": "https://github.com/ArturSkowronski/keeptron/releases/tag/v0.1-alpha",
-      "id": 4221918,
-      "tagName": "v0.1-alpha",
-      "targetCommitish": "master",
-      "name": "Alpha Release 0.1",
-      "draft": false,
-      "author": {
-        "login": "ArturSkowronski",
-        "id": 395778,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/395778?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ArturSkowronski",
-        "htmlUrl": "https://github.com/ArturSkowronski",
-        "followersUrl": "https://api.github.com/users/ArturSkowronski/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ArturSkowronski/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ArturSkowronski/orgs",
-        "reposUrl": "https://api.github.com/users/ArturSkowronski/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ArturSkowronski/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-09-23T21:06:45.000Z",
-      "publishedAt": "2016-09-24T19:41:13.000Z",
-      "tarballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/tarball/v0.1-alpha",
-      "zipballUrl": "https://api.github.com/repos/ArturSkowronski/keeptron/zipball/v0.1-alpha",
-      "body": "First alpha version of application! Stay Tuned for more!\n- Support for standard system keyboard shortcuts\n- Popup Window opens  \n- OSX Version only\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:09:29.889Z"
 }

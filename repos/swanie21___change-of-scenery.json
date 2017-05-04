@@ -6,7 +6,7 @@
   "owner": {
     "login": "swanie21",
     "id": 17103622,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17103622?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/17103622?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/swanie21",
     "htmlUrl": "https://github.com/swanie21",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/swanie21/change-of-scenery",
-  "description": "Electron and Vue.js desktop application to set Mac OS desktop background ",
+  "description": "Electron app to change Mac OS desktop background image with Applescripts",
   "fork": false,
   "url": "https://api.github.com/repos/swanie21/change-of-scenery",
   "forksUrl": "https://api.github.com/repos/swanie21/change-of-scenery/forks",
@@ -36,14 +36,14 @@
   "downloadsUrl": "https://api.github.com/repos/swanie21/change-of-scenery/downloads",
   "deploymentsUrl": "https://api.github.com/repos/swanie21/change-of-scenery/deployments",
   "createdAt": "2016-12-05T23:10:26.000Z",
-  "updatedAt": "2016-12-13T03:33:48.000Z",
-  "pushedAt": "2016-12-13T17:52:28.000Z",
+  "updatedAt": "2017-02-01T21:36:25.000Z",
+  "pushedAt": "2017-01-29T14:20:00.000Z",
   "gitUrl": "git://github.com/swanie21/change-of-scenery.git",
   "sshUrl": "git@github.com:swanie21/change-of-scenery.git",
   "cloneUrl": "https://github.com/swanie21/change-of-scenery.git",
   "svnUrl": "https://github.com/swanie21/change-of-scenery",
   "homepage": "",
-  "size": 41544,
+  "size": 52136,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -51,7 +51,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -63,7 +63,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -150,10 +150,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "swanie21",
-    "bretthev"
-  ],
   "firstCommit": {
     "sha": "334bdf16c3fa2810a609b27739c21a105f710161",
     "commit": {
@@ -176,5 +172,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:34:38.223Z"
 }

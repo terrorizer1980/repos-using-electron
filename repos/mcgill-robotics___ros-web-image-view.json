@@ -5,7 +5,7 @@
   "owner": {
     "login": "mcgill-robotics",
     "id": 3902669,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3902669?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3902669?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mcgill-robotics",
     "htmlUrl": "https://github.com/mcgill-robotics",
@@ -20,13 +20,13 @@
   "description": "The missing ROS client for web_video_server  ",
   "fork": false,
   "createdAt": "2016-05-15T23:39:36.000Z",
-  "updatedAt": "2016-05-17T04:16:34.000Z",
-  "pushedAt": "2016-05-17T04:15:15.000Z",
+  "updatedAt": "2017-05-04T07:58:43.000Z",
+  "pushedAt": "2017-02-26T17:35:33.000Z",
   "homepage": "",
   "size": 122,
   "stargazersCount": 1,
   "watchersCount": 1,
-  "language": "JavaScript",
+  "language": "CMake",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "mcgill-robotics",
     "id": 3902669,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3902669?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3902669?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mcgill-robotics",
     "htmlUrl": "https://github.com/mcgill-robotics",
@@ -63,7 +63,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 4,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "web-image-view",
@@ -102,9 +102,6 @@
   "cloneUrl": "https://github.com/mcgill-robotics/ros-web-image-view.git",
   "svnUrl": "https://github.com/mcgill-robotics/ros-web-image-view",
   "mirrorUrl": null,
-  "contributors": [
-    "anassinator"
-  ],
   "firstCommit": {
     "sha": "2b778a5c12f6dc5d1795d45d9ab4d73aeea4d331",
     "commit": {
@@ -128,37 +125,6 @@
     }
   },
   "filename": "mcgill-robotics___ros-web-image-view.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mcgill-robotics/ros-web-image-view/releases/3238687",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/mcgill-robotics/ros-web-image-view/releases/3238687/assets",
-      "htmlUrl": "https://github.com/mcgill-robotics/ros-web-image-view/releases/tag/v0.1.0",
-      "id": 3238687,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Initial release",
-      "draft": false,
-      "author": {
-        "login": "anassinator",
-        "id": 723610,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/723610?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/anassinator",
-        "htmlUrl": "https://github.com/anassinator",
-        "followersUrl": "https://api.github.com/users/anassinator/followers",
-        "subscriptionsUrl": "https://api.github.com/users/anassinator/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/anassinator/orgs",
-        "reposUrl": "https://api.github.com/users/anassinator/repos",
-        "receivedEventsUrl": "https://api.github.com/users/anassinator/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-05-17T04:15:00.000Z",
-      "publishedAt": "2016-05-17T04:15:42.000Z",
-      "tarballUrl": "https://api.github.com/repos/mcgill-robotics/ros-web-image-view/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/mcgill-robotics/ros-web-image-view/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:24:05.685Z"
 }

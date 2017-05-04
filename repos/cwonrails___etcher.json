@@ -173,15 +173,11 @@
     "engines": {
       "node": "6.1.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:resin-io/etcher.git"
-    },
+    "repository": "https://github.com/resin-io/etcher",
     "scripts": {
       "test": "gulp lint && electron-mocha --recursive --renderer tests/gui -R min",
       "start": "electron lib/start.js"
     },
-    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "Apache-2.0",
     "copyright": "Copyright 2016 Resinio Ltd",
     "packageIgnore": [
@@ -256,6 +252,9 @@
       "jshint": "^2.9.1",
       "jshint-stylish": "^2.0.1",
       "mochainon": "^1.0.0"
+    },
+    "other": {
+      "author": "Juan Cruz Viotti <juan@resin.io>"
     }
   },
   "packageStatus": 404,
@@ -264,5 +263,7 @@
     "fedealconada",
     "alexandrosm",
     "igorklopov"
-  ]
+  ],
+  "filename": "cwonrails___etcher.json",
+  "lastFetchedAt": "2017-05-04T20:10:11.484Z"
 }

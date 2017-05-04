@@ -5,7 +5,7 @@
   "owner": {
     "login": "i5sing",
     "id": 20367728,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20367728?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20367728?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/i5sing",
     "htmlUrl": "https://github.com/i5sing",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/i5sing/i5SING",
-  "description": "中国原创音乐基地桌5sing PC版",
+  "description": "中国原创音乐基地桌5sing PC版 http://i5sing.com ",
   "fork": false,
   "url": "https://api.github.com/repos/i5sing/i5SING",
   "forksUrl": "https://api.github.com/repos/i5sing/i5SING/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/i5sing/i5SING/downloads",
   "deploymentsUrl": "https://api.github.com/repos/i5sing/i5SING/deployments",
   "createdAt": "2016-07-11T02:24:09.000Z",
-  "updatedAt": "2016-11-13T14:05:00.000Z",
-  "pushedAt": "2016-11-14T03:28:53.000Z",
+  "updatedAt": "2017-04-15T03:13:52.000Z",
+  "pushedAt": "2017-02-07T17:23:30.000Z",
   "gitUrl": "git://github.com/i5sing/i5SING.git",
   "sshUrl": "git@github.com:i5sing/i5SING.git",
   "cloneUrl": "https://github.com/i5sing/i5SING.git",
   "svnUrl": "https://github.com/i5sing/i5SING",
-  "homepage": "http://i5sing.com",
-  "size": 2593,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "homepage": "http://beta.i5sing.com",
+  "size": 9253,
+  "stargazersCount": 8,
+  "watchersCount": 8,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 3,
   "mirrorUrl": null,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 3,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 8,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "i5sing",
     "id": 20367728,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20367728?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20367728?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/i5sing",
     "htmlUrl": "https://github.com/i5sing",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/i5sing/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 3,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -148,9 +148,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "miaowing"
-  ],
   "firstCommit": {
     "sha": "2fab908c3a1fb312f633207e928136eac1d8be6e",
     "commit": {
@@ -174,65 +171,6 @@
     }
   },
   "filename": "i5sing___i5SING.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/i5sing/i5SING/releases/4519186",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/i5sing/i5SING/releases/assets/2555070",
-          "id": 2555070,
-          "name": "mac_0.0.1.zip",
-          "label": null,
-          "uploader": {
-            "login": "miaowing",
-            "id": 12780562,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12780562?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/miaowing",
-            "htmlUrl": "https://github.com/miaowing",
-            "followersUrl": "https://api.github.com/users/miaowing/followers",
-            "subscriptionsUrl": "https://api.github.com/users/miaowing/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/miaowing/orgs",
-            "reposUrl": "https://api.github.com/users/miaowing/repos",
-            "receivedEventsUrl": "https://api.github.com/users/miaowing/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 55572202,
-          "downloadCount": 0,
-          "createdAt": "2016-10-30T03:00:14.000Z",
-          "updatedAt": "2016-10-30T03:02:49.000Z",
-          "browserDownloadUrl": "https://github.com/i5sing/i5SING/releases/download/0.0.1/mac_0.0.1.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/i5sing/i5SING/releases/4519186/assets",
-      "htmlUrl": "https://github.com/i5sing/i5SING/releases/tag/0.0.1",
-      "id": 4519186,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "0.0.1",
-      "draft": false,
-      "author": {
-        "login": "miaowing",
-        "id": 12780562,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12780562?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/miaowing",
-        "htmlUrl": "https://github.com/miaowing",
-        "followersUrl": "https://api.github.com/users/miaowing/followers",
-        "subscriptionsUrl": "https://api.github.com/users/miaowing/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/miaowing/orgs",
-        "reposUrl": "https://api.github.com/users/miaowing/repos",
-        "receivedEventsUrl": "https://api.github.com/users/miaowing/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-28T15:11:04.000Z",
-      "publishedAt": "2016-10-30T03:02:54.000Z",
-      "tarballUrl": "https://api.github.com/repos/i5sing/i5SING/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/i5sing/i5SING/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:21:31.111Z"
 }

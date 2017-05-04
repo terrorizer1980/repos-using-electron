@@ -5,7 +5,7 @@
   "owner": {
     "login": "huangruichang",
     "id": 4167510,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4167510?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4167510?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/huangruichang",
     "htmlUrl": "https://github.com/huangruichang",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/huangruichang/treex",
-  "description": null,
+  "description": "(WIP)基于 electron 和 nodegit 开发的 git 客户端。",
   "fork": false,
   "url": "https://api.github.com/repos/huangruichang/treex",
   "forksUrl": "https://api.github.com/repos/huangruichang/treex/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/huangruichang/treex/downloads",
   "deploymentsUrl": "https://api.github.com/repos/huangruichang/treex/deployments",
   "createdAt": "2016-06-05T15:12:34.000Z",
-  "updatedAt": "2016-06-05T15:13:23.000Z",
-  "pushedAt": "2016-11-12T09:57:08.000Z",
+  "updatedAt": "2017-03-30T10:19:30.000Z",
+  "pushedAt": "2017-03-20T08:21:42.000Z",
   "gitUrl": "git://github.com/huangruichang/treex.git",
   "sshUrl": "git@github.com:huangruichang/treex.git",
   "cloneUrl": "https://github.com/huangruichang/treex.git",
   "svnUrl": "https://github.com/huangruichang/treex",
-  "homepage": null,
-  "size": 91,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "homepage": "",
+  "size": 669,
+  "stargazersCount": 18,
+  "watchersCount": 18,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 18,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -63,7 +63,7 @@
   },
   "license": null,
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "treex",
@@ -111,9 +111,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "huangruichang"
-  ],
   "firstCommit": {
     "sha": "11f683163a2803134a9b5328a6f4a50052158259",
     "commit": {
@@ -137,5 +134,6 @@
     }
   },
   "filename": "huangruichang___treex.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:54:44.389Z"
 }

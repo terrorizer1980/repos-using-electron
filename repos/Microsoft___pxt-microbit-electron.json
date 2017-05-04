@@ -84,7 +84,7 @@
   },
   "networkCount": 2,
   "subscribersCount": 8,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "pxt-microbit-electron",
     "version": "1.0.0",
@@ -114,9 +114,6 @@
       "innosetup-compiler": "^5.5.9",
       "rimraf": "^2.5.4",
       "typescript": "2.0.9"
-    },
-    "other": {
-      "author": "Microsoft"
     }
   },
   "packageStatus": 200,
@@ -146,5 +143,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Microsoft___pxt-microbit-electron.json"
+  "filename": "Microsoft___pxt-microbit-electron.json",
+  "lastFetchedAt": "2017-05-04T21:24:23.989Z"
 }

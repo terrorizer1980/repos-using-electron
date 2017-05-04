@@ -5,7 +5,7 @@
   "owner": {
     "login": "hironobu-igawa",
     "id": 10894490,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10894490?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/10894490?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hironobu-igawa",
     "htmlUrl": "https://github.com/hironobu-igawa",
@@ -17,7 +17,7 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-05-26T22:57:39.000Z",
   "updatedAt": "2016-05-30T10:36:01.000Z",
@@ -76,9 +76,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "hironobu-igawa"
-  ],
   "firstCommit": {
     "sha": "afe3ef10381f29b84c971878d10bde051fe3b55d",
     "commit": {
@@ -102,92 +99,26 @@
     }
   },
   "filename": "hironobu-igawa___sharing-doc.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/hironobu-igawa/sharing-doc/releases/3318396",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/hironobu-igawa/sharing-doc/releases/assets/1751537",
-          "id": 1751537,
-          "name": "sharing-doc-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "hironobu-igawa",
-            "id": 10894490,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/10894490?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/hironobu-igawa",
-            "htmlUrl": "https://github.com/hironobu-igawa",
-            "followersUrl": "https://api.github.com/users/hironobu-igawa/followers",
-            "subscriptionsUrl": "https://api.github.com/users/hironobu-igawa/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/hironobu-igawa/orgs",
-            "reposUrl": "https://api.github.com/users/hironobu-igawa/repos",
-            "receivedEventsUrl": "https://api.github.com/users/hironobu-igawa/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 41973357,
-          "downloadCount": 0,
-          "createdAt": "2016-05-27T05:43:06.000Z",
-          "updatedAt": "2016-05-27T05:45:24.000Z",
-          "browserDownloadUrl": "https://github.com/hironobu-igawa/sharing-doc/releases/download/0.0.0/sharing-doc-win32-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/hironobu-igawa/sharing-doc/releases/assets/1751538",
-          "id": 1751538,
-          "name": "sharing-doc-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "hironobu-igawa",
-            "id": 10894490,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/10894490?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/hironobu-igawa",
-            "htmlUrl": "https://github.com/hironobu-igawa",
-            "followersUrl": "https://api.github.com/users/hironobu-igawa/followers",
-            "subscriptionsUrl": "https://api.github.com/users/hironobu-igawa/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/hironobu-igawa/orgs",
-            "reposUrl": "https://api.github.com/users/hironobu-igawa/repos",
-            "receivedEventsUrl": "https://api.github.com/users/hironobu-igawa/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 51513211,
-          "downloadCount": 3,
-          "createdAt": "2016-05-27T05:43:06.000Z",
-          "updatedAt": "2016-05-27T05:47:54.000Z",
-          "browserDownloadUrl": "https://github.com/hironobu-igawa/sharing-doc/releases/download/0.0.0/sharing-doc-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/releases/3318396/assets",
-      "htmlUrl": "https://github.com/hironobu-igawa/sharing-doc/releases/tag/0.0.0",
-      "id": 3318396,
-      "tagName": "0.0.0",
-      "targetCommitish": "master",
-      "name": "Created prototype",
-      "draft": false,
-      "author": {
-        "login": "hironobu-igawa",
-        "id": 10894490,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10894490?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/hironobu-igawa",
-        "htmlUrl": "https://github.com/hironobu-igawa",
-        "followersUrl": "https://api.github.com/users/hironobu-igawa/followers",
-        "subscriptionsUrl": "https://api.github.com/users/hironobu-igawa/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/hironobu-igawa/orgs",
-        "reposUrl": "https://api.github.com/users/hironobu-igawa/repos",
-        "receivedEventsUrl": "https://api.github.com/users/hironobu-igawa/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-27T05:41:08.000Z",
-      "publishedAt": "2016-05-27T05:51:20.000Z",
-      "tarballUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/tarball/0.0.0",
-      "zipballUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/zipball/0.0.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/hironobu-igawa/sharing-doc",
+  "url": "https://api.github.com/repos/hironobu-igawa/sharing-doc",
+  "forksUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/forks",
+  "teamsUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/teams",
+  "hooksUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/hooks",
+  "eventsUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/events",
+  "tagsUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/tags",
+  "languagesUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/languages",
+  "stargazersUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/contributors",
+  "subscribersUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/subscription",
+  "mergesUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/merges",
+  "downloadsUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/hironobu-igawa/sharing-doc/deployments",
+  "gitUrl": "git://github.com/hironobu-igawa/sharing-doc.git",
+  "sshUrl": "git@github.com:hironobu-igawa/sharing-doc.git",
+  "cloneUrl": "https://github.com/hironobu-igawa/sharing-doc.git",
+  "svnUrl": "https://github.com/hironobu-igawa/sharing-doc",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:51:37.489Z"
 }

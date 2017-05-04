@@ -5,7 +5,7 @@
   "owner": {
     "login": "yangmls",
     "id": 1272678,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1272678?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1272678?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/yangmls",
     "htmlUrl": "https://github.com/yangmls",
@@ -110,9 +110,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "yangmls"
-  ],
   "firstCommit": {
     "sha": "025d1c4867061dae924f1f9eeac355a9ec04e976",
     "commit": {
@@ -136,65 +133,6 @@
     }
   },
   "filename": "yangmls___authenticator.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/yangmls/authenticator/releases/3140365",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/yangmls/authenticator/releases/assets/1628122",
-          "id": 1628122,
-          "name": "Authenticator.zip",
-          "label": null,
-          "uploader": {
-            "login": "yangmls",
-            "id": 1272678,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1272678?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/yangmls",
-            "htmlUrl": "https://github.com/yangmls",
-            "followersUrl": "https://api.github.com/users/yangmls/followers",
-            "subscriptionsUrl": "https://api.github.com/users/yangmls/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/yangmls/orgs",
-            "reposUrl": "https://api.github.com/users/yangmls/repos",
-            "receivedEventsUrl": "https://api.github.com/users/yangmls/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43725859,
-          "downloadCount": 12,
-          "createdAt": "2016-05-02T14:15:18.000Z",
-          "updatedAt": "2016-05-02T14:17:57.000Z",
-          "browserDownloadUrl": "https://github.com/yangmls/authenticator/releases/download/v1.0.0/Authenticator.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/yangmls/authenticator/releases/3140365/assets",
-      "htmlUrl": "https://github.com/yangmls/authenticator/releases/tag/v1.0.0",
-      "id": 3140365,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "yangmls",
-        "id": 1272678,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1272678?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/yangmls",
-        "htmlUrl": "https://github.com/yangmls",
-        "followersUrl": "https://api.github.com/users/yangmls/followers",
-        "subscriptionsUrl": "https://api.github.com/users/yangmls/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/yangmls/orgs",
-        "reposUrl": "https://api.github.com/users/yangmls/repos",
-        "receivedEventsUrl": "https://api.github.com/users/yangmls/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-02T13:59:49.000Z",
-      "publishedAt": "2016-05-02T14:18:11.000Z",
-      "tarballUrl": "https://api.github.com/repos/yangmls/authenticator/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/yangmls/authenticator/zipball/v1.0.0",
-      "body": "v1.0.0 is released\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:10:53.644Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "arkenthera",
     "id": 5428012,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5428012?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/5428012?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/arkenthera",
     "htmlUrl": "https://github.com/arkenthera",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/downloads",
   "deploymentsUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/deployments",
   "createdAt": "2016-10-01T16:12:18.000Z",
-  "updatedAt": "2016-11-05T02:46:52.000Z",
-  "pushedAt": "2016-11-04T23:29:12.000Z",
+  "updatedAt": "2017-04-27T12:51:54.000Z",
+  "pushedAt": "2017-02-07T08:23:12.000Z",
   "gitUrl": "git://github.com/arkenthera/electron-vibrancy.git",
   "sshUrl": "git@github.com:arkenthera/electron-vibrancy.git",
   "cloneUrl": "https://github.com/arkenthera/electron-vibrancy.git",
   "svnUrl": "https://github.com/arkenthera/electron-vibrancy",
   "homepage": null,
-  "size": 73,
-  "stargazersCount": 17,
-  "watchersCount": 17,
+  "size": 111,
+  "stargazersCount": 153,
+  "watchersCount": 153,
   "language": "C++",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 7,
   "mirrorUrl": null,
   "openIssuesCount": 2,
   "openIssues": 2,
-  "watchers": 17,
+  "watchers": 153,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 1,
-  "subscribersCount": 7,
+  "networkCount": 7,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "electron-vibrancy",
@@ -105,19 +105,9 @@
     ],
     "license": "MIT",
     "gypfile": true,
-    "homepage": "https://github.com/arkenthera/electron-vibrancy#readme",
-    "other": {
-      "author": "arkenthera",
-      "bugs": {
-        "url": "https://github.com/arkenthera/electron-vibrancy/issues"
-      }
-    }
+    "homepage": "https://github.com/arkenthera/electron-vibrancy#readme"
   },
   "packageStatus": 404,
-  "contributors": [
-    "arkenthera",
-    "knpwrs"
-  ],
   "firstCommit": {
     "sha": "0ad2263e867ac3fda536a28950bb42adec04ab25",
     "commit": {
@@ -141,130 +131,6 @@
     }
   },
   "filename": "arkenthera___electron-vibrancy.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4579993",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4579993/assets",
-      "htmlUrl": "https://github.com/arkenthera/electron-vibrancy/releases/tag/0.1.3",
-      "id": 4579993,
-      "tagName": "0.1.3",
-      "targetCommitish": "master",
-      "name": "v0.1.3",
-      "draft": false,
-      "author": {
-        "login": "arkenthera",
-        "id": 5428012,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5428012?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/arkenthera",
-        "htmlUrl": "https://github.com/arkenthera",
-        "followersUrl": "https://api.github.com/users/arkenthera/followers",
-        "subscriptionsUrl": "https://api.github.com/users/arkenthera/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/arkenthera/orgs",
-        "reposUrl": "https://api.github.com/users/arkenthera/repos",
-        "receivedEventsUrl": "https://api.github.com/users/arkenthera/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-05T14:44:49.000Z",
-      "publishedAt": "2016-11-05T14:56:43.000Z",
-      "tarballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/tarball/0.1.3",
-      "zipballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/zipball/0.1.3",
-      "body": "# Changelog\n- Fixed a potential bug concerning `viewIndex` on macOS.\n- Added tests and linters\n"
-    },
-    {
-      "url": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4531201",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4531201/assets",
-      "htmlUrl": "https://github.com/arkenthera/electron-vibrancy/releases/tag/0.1.2",
-      "id": 4531201,
-      "tagName": "0.1.2",
-      "targetCommitish": "master",
-      "name": "v0.1.2",
-      "draft": false,
-      "author": {
-        "login": "arkenthera",
-        "id": 5428012,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5428012?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/arkenthera",
-        "htmlUrl": "https://github.com/arkenthera",
-        "followersUrl": "https://api.github.com/users/arkenthera/followers",
-        "subscriptionsUrl": "https://api.github.com/users/arkenthera/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/arkenthera/orgs",
-        "reposUrl": "https://api.github.com/users/arkenthera/repos",
-        "receivedEventsUrl": "https://api.github.com/users/arkenthera/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-31T07:46:13.000Z",
-      "publishedAt": "2016-10-31T20:53:07.000Z",
-      "tarballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/tarball/0.1.2",
-      "zipballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/zipball/0.1.2",
-      "body": "# Changelog\n- Fixed #6\n- Added more screenshots for macOS\n"
-    },
-    {
-      "url": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4518871",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4518871/assets",
-      "htmlUrl": "https://github.com/arkenthera/electron-vibrancy/releases/tag/0.1.1",
-      "id": 4518871,
-      "tagName": "0.1.1",
-      "targetCommitish": "master",
-      "name": "electron-vibrancy v0.1.1",
-      "draft": false,
-      "author": {
-        "login": "arkenthera",
-        "id": 5428012,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5428012?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/arkenthera",
-        "htmlUrl": "https://github.com/arkenthera",
-        "followersUrl": "https://api.github.com/users/arkenthera/followers",
-        "subscriptionsUrl": "https://api.github.com/users/arkenthera/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/arkenthera/orgs",
-        "reposUrl": "https://api.github.com/users/arkenthera/repos",
-        "receivedEventsUrl": "https://api.github.com/users/arkenthera/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-29T23:43:32.000Z",
-      "publishedAt": "2016-10-29T23:45:27.000Z",
-      "tarballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/tarball/0.1.1",
-      "zipballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/zipball/0.1.1",
-      "body": "Bug Fixes\n- Removed `node-inspector` so the project can be built on node `v.7.0.0`\n"
-    },
-    {
-      "url": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4517345",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/releases/4517345/assets",
-      "htmlUrl": "https://github.com/arkenthera/electron-vibrancy/releases/tag/0.1.0",
-      "id": 4517345,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "First release with Windows and macOS support",
-      "draft": false,
-      "author": {
-        "login": "arkenthera",
-        "id": 5428012,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5428012?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/arkenthera",
-        "htmlUrl": "https://github.com/arkenthera",
-        "followersUrl": "https://api.github.com/users/arkenthera/followers",
-        "subscriptionsUrl": "https://api.github.com/users/arkenthera/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/arkenthera/orgs",
-        "reposUrl": "https://api.github.com/users/arkenthera/repos",
-        "receivedEventsUrl": "https://api.github.com/users/arkenthera/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-29T14:51:18.000Z",
-      "publishedAt": "2016-10-29T14:56:22.000Z",
-      "tarballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/arkenthera/electron-vibrancy/zipball/0.1.0",
-      "body": "`npm install electron-vibrancy`\n\nCurrent platforms\n- Windows 10\n- macOS 10.10+\n\nCurrent Features\n- Enable/Disable blur behind for whole window on Windows and macOS\n- Add/Remove/Update smaller vibrant views and update them (only on macOS)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:16:56.997Z"
 }

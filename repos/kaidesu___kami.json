@@ -5,7 +5,7 @@
   "owner": {
     "login": "kaidesu",
     "id": 355659,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/355659?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/355659?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kaidesu",
     "htmlUrl": "https://github.com/kaidesu",
@@ -20,12 +20,12 @@
   "description": "Simple markdown editor built in Electron.",
   "fork": false,
   "createdAt": "2015-10-20T00:12:26.000Z",
-  "updatedAt": "2015-10-20T01:24:22.000Z",
+  "updatedAt": "2016-11-29T21:01:12.000Z",
   "pushedAt": "2015-10-22T22:59:03.000Z",
   "homepage": null,
   "size": 916,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -49,7 +49,7 @@
     "featured": true
   },
   "networkCount": 1,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "kami-app",
@@ -65,9 +65,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "kaidesu"
-  ],
   "firstCommit": {
     "sha": "3df5840f836001f24c0fe1ba6e090232a4d05aff",
     "commit": {
@@ -91,151 +88,26 @@
     }
   },
   "filename": "kaidesu___kami.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/kaidesu/kami/releases/2005567",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/kaidesu/kami/releases/assets/967489",
-          "id": 967489,
-          "name": "kami-linux-x64-v0.0.2.zip",
-          "label": null,
-          "uploader": {
-            "login": "kaidesu",
-            "id": 355659,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/355659?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/kaidesu",
-            "htmlUrl": "https://github.com/kaidesu",
-            "followersUrl": "https://api.github.com/users/kaidesu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/kaidesu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/kaidesu/orgs",
-            "reposUrl": "https://api.github.com/users/kaidesu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/kaidesu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 39834489,
-          "downloadCount": 3,
-          "createdAt": "2015-10-22T23:00:22.000Z",
-          "updatedAt": "2015-10-22T23:00:52.000Z",
-          "browserDownloadUrl": "https://github.com/kaidesu/kami/releases/download/v0.0.2/kami-linux-x64-v0.0.2.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/kaidesu/kami/releases/assets/969655",
-          "id": 969655,
-          "name": "kami-win32-x64-v0.0.2.zip",
-          "label": null,
-          "uploader": {
-            "login": "kaidesu",
-            "id": 355659,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/355659?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/kaidesu",
-            "htmlUrl": "https://github.com/kaidesu",
-            "followersUrl": "https://api.github.com/users/kaidesu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/kaidesu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/kaidesu/orgs",
-            "reposUrl": "https://api.github.com/users/kaidesu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/kaidesu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 50113979,
-          "downloadCount": 9,
-          "createdAt": "2015-10-23T15:27:19.000Z",
-          "updatedAt": "2015-10-23T15:28:41.000Z",
-          "browserDownloadUrl": "https://github.com/kaidesu/kami/releases/download/v0.0.2/kami-win32-x64-v0.0.2.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/kaidesu/kami/releases/2005567/assets",
-      "htmlUrl": "https://github.com/kaidesu/kami/releases/tag/v0.0.2",
-      "id": 2005567,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "v0.0.2",
-      "draft": false,
-      "author": {
-        "login": "kaidesu",
-        "id": 355659,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/355659?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/kaidesu",
-        "htmlUrl": "https://github.com/kaidesu",
-        "followersUrl": "https://api.github.com/users/kaidesu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/kaidesu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/kaidesu/orgs",
-        "reposUrl": "https://api.github.com/users/kaidesu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/kaidesu/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-10-22T22:56:27.000Z",
-      "publishedAt": "2015-10-22T22:59:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/kaidesu/kami/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/kaidesu/kami/zipball/v0.0.2",
-      "body": "- UI Tweaks\n"
-    },
-    {
-      "url": "https://api.github.com/repos/kaidesu/kami/releases/2003874",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/kaidesu/kami/releases/assets/966640",
-          "id": 966640,
-          "name": "kami-linux-x64-v0.0.1.zip",
-          "label": null,
-          "uploader": {
-            "login": "kaidesu",
-            "id": 355659,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/355659?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/kaidesu",
-            "htmlUrl": "https://github.com/kaidesu",
-            "followersUrl": "https://api.github.com/users/kaidesu/followers",
-            "subscriptionsUrl": "https://api.github.com/users/kaidesu/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/kaidesu/orgs",
-            "reposUrl": "https://api.github.com/users/kaidesu/repos",
-            "receivedEventsUrl": "https://api.github.com/users/kaidesu/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 39104801,
-          "downloadCount": 0,
-          "createdAt": "2015-10-22T17:26:52.000Z",
-          "updatedAt": "2015-10-22T17:27:21.000Z",
-          "browserDownloadUrl": "https://github.com/kaidesu/kami/releases/download/v0.0.1/kami-linux-x64-v0.0.1.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/kaidesu/kami/releases/2003874/assets",
-      "htmlUrl": "https://github.com/kaidesu/kami/releases/tag/v0.0.1",
-      "id": 2003874,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "v0.0.1",
-      "draft": false,
-      "author": {
-        "login": "kaidesu",
-        "id": 355659,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/355659?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/kaidesu",
-        "htmlUrl": "https://github.com/kaidesu",
-        "followersUrl": "https://api.github.com/users/kaidesu/followers",
-        "subscriptionsUrl": "https://api.github.com/users/kaidesu/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/kaidesu/orgs",
-        "reposUrl": "https://api.github.com/users/kaidesu/repos",
-        "receivedEventsUrl": "https://api.github.com/users/kaidesu/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-10-22T16:39:30.000Z",
-      "publishedAt": "2015-10-22T17:26:39.000Z",
-      "tarballUrl": "https://api.github.com/repos/kaidesu/kami/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/kaidesu/kami/zipball/v0.0.1",
-      "body": "Initial pre-release version of kami.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/kaidesu/kami",
+  "url": "https://api.github.com/repos/kaidesu/kami",
+  "forksUrl": "https://api.github.com/repos/kaidesu/kami/forks",
+  "teamsUrl": "https://api.github.com/repos/kaidesu/kami/teams",
+  "hooksUrl": "https://api.github.com/repos/kaidesu/kami/hooks",
+  "eventsUrl": "https://api.github.com/repos/kaidesu/kami/events",
+  "tagsUrl": "https://api.github.com/repos/kaidesu/kami/tags",
+  "languagesUrl": "https://api.github.com/repos/kaidesu/kami/languages",
+  "stargazersUrl": "https://api.github.com/repos/kaidesu/kami/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/kaidesu/kami/contributors",
+  "subscribersUrl": "https://api.github.com/repos/kaidesu/kami/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/kaidesu/kami/subscription",
+  "mergesUrl": "https://api.github.com/repos/kaidesu/kami/merges",
+  "downloadsUrl": "https://api.github.com/repos/kaidesu/kami/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/kaidesu/kami/deployments",
+  "gitUrl": "git://github.com/kaidesu/kami.git",
+  "sshUrl": "git@github.com:kaidesu/kami.git",
+  "cloneUrl": "https://github.com/kaidesu/kami.git",
+  "svnUrl": "https://github.com/kaidesu/kami",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:59:07.160Z"
 }

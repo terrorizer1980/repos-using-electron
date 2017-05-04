@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Visuata",
     "version": "0.0.1",
@@ -93,12 +93,6 @@
       "systemjs": "^0.19.8",
       "traceur": "0.0.93",
       "typescript": "^1.7.5"
-    },
-    "other": {
-      "author": "GitHub",
-      "bugs": {
-        "url": "https://github.com/atom/electron-quick-start/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +121,6 @@
       "commentCount": 0
     }
   },
-  "filename": "aarondelani___visuata-app.json"
+  "filename": "aarondelani___visuata-app.json",
+  "lastFetchedAt": "2017-05-04T21:12:13.654Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "karissa",
     "id": 633012,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/633012?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/633012?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/karissa",
     "htmlUrl": "https://github.com/karissa",
@@ -17,10 +17,10 @@
     "type": "User"
   },
   "private": false,
-  "description": ":computer: A cross-platform menubar application for dat.",
+  "description": "deprecated",
   "fork": false,
   "createdAt": "2015-11-21T23:43:43.000Z",
-  "updatedAt": "2016-08-07T14:43:01.000Z",
+  "updatedAt": "2017-02-11T11:06:18.000Z",
   "pushedAt": "2016-04-20T07:07:33.000Z",
   "homepage": "http://dat-data.com",
   "size": 457,
@@ -31,7 +31,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 7,
+  "forksCount": 6,
   "openIssuesCount": 6,
   "openIssues": 6,
   "watchers": 85,
@@ -42,8 +42,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 7,
-  "subscribersCount": 10,
+  "networkCount": 6,
+  "subscribersCount": 9,
   "status": 200,
   "packageJSON": {
     "name": "dat-app",
@@ -78,11 +78,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "karissa",
-    "maxogden",
-    "waldoj"
-  ],
   "firstCommit": {
     "sha": "57d2bd47fe2e22f13f9833b63a940d894f1d53c1",
     "commit": {
@@ -106,5 +101,26 @@
     }
   },
   "filename": "karissa___dat-menubar.json",
-  "releases": []
+  "htmlUrl": "https://github.com/karissa/dat-menubar",
+  "url": "https://api.github.com/repos/karissa/dat-menubar",
+  "forksUrl": "https://api.github.com/repos/karissa/dat-menubar/forks",
+  "teamsUrl": "https://api.github.com/repos/karissa/dat-menubar/teams",
+  "hooksUrl": "https://api.github.com/repos/karissa/dat-menubar/hooks",
+  "eventsUrl": "https://api.github.com/repos/karissa/dat-menubar/events",
+  "tagsUrl": "https://api.github.com/repos/karissa/dat-menubar/tags",
+  "languagesUrl": "https://api.github.com/repos/karissa/dat-menubar/languages",
+  "stargazersUrl": "https://api.github.com/repos/karissa/dat-menubar/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/karissa/dat-menubar/contributors",
+  "subscribersUrl": "https://api.github.com/repos/karissa/dat-menubar/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/karissa/dat-menubar/subscription",
+  "mergesUrl": "https://api.github.com/repos/karissa/dat-menubar/merges",
+  "downloadsUrl": "https://api.github.com/repos/karissa/dat-menubar/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/karissa/dat-menubar/deployments",
+  "gitUrl": "git://github.com/karissa/dat-menubar.git",
+  "sshUrl": "git@github.com:karissa/dat-menubar.git",
+  "cloneUrl": "https://github.com/karissa/dat-menubar.git",
+  "svnUrl": "https://github.com/karissa/dat-menubar",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:20:59.365Z"
 }

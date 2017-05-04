@@ -5,7 +5,7 @@
   "owner": {
     "login": "archesproject",
     "id": 1852613,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1852613?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1852613?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/archesproject",
     "htmlUrl": "https://github.com/archesproject",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 7,
-  "openIssues": 7,
+  "openIssuesCount": 8,
+  "openIssues": 8,
   "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
@@ -45,7 +45,7 @@
   "organization": {
     "login": "archesproject",
     "id": 1852613,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1852613?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1852613?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/archesproject",
     "htmlUrl": "https://github.com/archesproject",
@@ -151,12 +151,6 @@
   "cloneUrl": "https://github.com/archesproject/arches-installer.git",
   "svnUrl": "https://github.com/archesproject/arches-installer",
   "mirrorUrl": null,
-  "contributors": [
-    "robgaston",
-    "ryan86",
-    "jmunowitch",
-    "apeters"
-  ],
   "firstCommit": {
     "sha": "61798c02e3b7d8e9480ae94769be8f9ccfb8ac8f",
     "commit": {
@@ -180,119 +174,6 @@
     }
   },
   "filename": "archesproject___arches-installer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/archesproject/arches-installer/releases/2576200",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/archesproject/arches-installer/releases/assets/1291204",
-          "id": 1291204,
-          "name": "ArchesInstaller-v0.1-alpha.0-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "robgaston",
-            "id": 1187406,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1187406?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/robgaston",
-            "htmlUrl": "https://github.com/robgaston",
-            "followersUrl": "https://api.github.com/users/robgaston/followers",
-            "subscriptionsUrl": "https://api.github.com/users/robgaston/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/robgaston/orgs",
-            "reposUrl": "https://api.github.com/users/robgaston/repos",
-            "receivedEventsUrl": "https://api.github.com/users/robgaston/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 65153495,
-          "downloadCount": 6,
-          "createdAt": "2016-02-09T00:09:27.000Z",
-          "updatedAt": "2016-02-09T00:12:03.000Z",
-          "browserDownloadUrl": "https://github.com/archesproject/arches-installer/releases/download/v0.1-alpha.0/ArchesInstaller-v0.1-alpha.0-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/archesproject/arches-installer/releases/assets/1291233",
-          "id": 1291233,
-          "name": "ArchesInstaller-v0.1-alpha.0-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "robgaston",
-            "id": 1187406,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1187406?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/robgaston",
-            "htmlUrl": "https://github.com/robgaston",
-            "followersUrl": "https://api.github.com/users/robgaston/followers",
-            "subscriptionsUrl": "https://api.github.com/users/robgaston/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/robgaston/orgs",
-            "reposUrl": "https://api.github.com/users/robgaston/repos",
-            "receivedEventsUrl": "https://api.github.com/users/robgaston/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 271230705,
-          "downloadCount": 4,
-          "createdAt": "2016-02-09T00:18:23.000Z",
-          "updatedAt": "2016-02-09T00:28:48.000Z",
-          "browserDownloadUrl": "https://github.com/archesproject/arches-installer/releases/download/v0.1-alpha.0/ArchesInstaller-v0.1-alpha.0-win32-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/archesproject/arches-installer/releases/assets/1291692",
-          "id": 1291692,
-          "name": "ArchesInstaller-v0.1-alpha.0-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "robgaston",
-            "id": 1187406,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1187406?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/robgaston",
-            "htmlUrl": "https://github.com/robgaston",
-            "followersUrl": "https://api.github.com/users/robgaston/followers",
-            "subscriptionsUrl": "https://api.github.com/users/robgaston/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/robgaston/orgs",
-            "reposUrl": "https://api.github.com/users/robgaston/repos",
-            "receivedEventsUrl": "https://api.github.com/users/robgaston/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 553130351,
-          "downloadCount": 2,
-          "createdAt": "2016-02-09T04:43:39.000Z",
-          "updatedAt": "2016-02-09T05:09:58.000Z",
-          "browserDownloadUrl": "https://github.com/archesproject/arches-installer/releases/download/v0.1-alpha.0/ArchesInstaller-v0.1-alpha.0-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/archesproject/arches-installer/releases/2576200/assets",
-      "htmlUrl": "https://github.com/archesproject/arches-installer/releases/tag/v0.1-alpha.0",
-      "id": 2576200,
-      "tagName": "v0.1-alpha.0",
-      "targetCommitish": "master",
-      "name": "v0.1-alpha.0",
-      "draft": false,
-      "author": {
-        "login": "robgaston",
-        "id": 1187406,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1187406?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/robgaston",
-        "htmlUrl": "https://github.com/robgaston",
-        "followersUrl": "https://api.github.com/users/robgaston/followers",
-        "subscriptionsUrl": "https://api.github.com/users/robgaston/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/robgaston/orgs",
-        "reposUrl": "https://api.github.com/users/robgaston/repos",
-        "receivedEventsUrl": "https://api.github.com/users/robgaston/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-02-09T00:06:18.000Z",
-      "publishedAt": "2016-02-09T00:12:55.000Z",
-      "tarballUrl": "https://api.github.com/repos/archesproject/arches-installer/tarball/v0.1-alpha.0",
-      "zipballUrl": "https://api.github.com/repos/archesproject/arches-installer/zipball/v0.1-alpha.0",
-      "body": "Initial alpha release to test release/distribution pacakaging\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:11:45.555Z"
 }

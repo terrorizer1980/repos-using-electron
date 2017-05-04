@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "orbital",
     "version": "0.0.0",
@@ -115,11 +115,6 @@
       "react": "^0.14.0",
       "react-dom": "^0.14.0",
       "sqlite3": "^3.1.0"
-    },
-    "other": {
-      "bugs": {
-        "url": "https://github.com/inukshuk/orbital/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -148,5 +143,6 @@
       "commentCount": 0
     }
   },
-  "filename": "inukshuk___orbital.json"
+  "filename": "inukshuk___orbital.json",
+  "lastFetchedAt": "2017-05-04T17:45:53.992Z"
 }

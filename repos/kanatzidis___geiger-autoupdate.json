@@ -5,7 +5,7 @@
   "owner": {
     "login": "kanatzidis",
     "id": 806823,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/806823?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/806823?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kanatzidis",
     "htmlUrl": "https://github.com/kanatzidis",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/kanatzidis/geiger-autoupdate/deployments",
   "createdAt": "2016-11-12T18:05:05.000Z",
   "updatedAt": "2016-11-12T18:18:24.000Z",
-  "pushedAt": "2016-11-15T01:31:28.000Z",
+  "pushedAt": "2016-12-29T04:10:53.000Z",
   "gitUrl": "git://github.com/kanatzidis/geiger-autoupdate.git",
   "sshUrl": "git@github.com:kanatzidis/geiger-autoupdate.git",
   "cloneUrl": "https://github.com/kanatzidis/geiger-autoupdate.git",
   "svnUrl": "https://github.com/kanatzidis/geiger-autoupdate",
   "homepage": null,
-  "size": 20,
+  "size": 12,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -90,18 +90,9 @@
     "dependencies": {
       "request": "^2.78.0",
       "require-dir": "^0.3.1"
-    },
-    "other": {
-      "author": "Alabaster Technologies, LLC",
-      "bugs": {
-        "url": "https://github.com/kanatzidis/geiger-autoupdate/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "kanatzidis"
-  ],
   "firstCommit": {
     "sha": "151c54f5d4d30d3d8629fd9b8faef8a4cc6d14ab",
     "commit": {
@@ -125,5 +116,6 @@
     }
   },
   "filename": "kanatzidis___geiger-autoupdate.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:49:29.364Z"
 }

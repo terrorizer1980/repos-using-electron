@@ -74,18 +74,11 @@
       "start": "electron main.js",
       "test": "mocha"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tumlt/tumlt-app.git"
-    },
+    "repository": "https://github.com/tumlt/tumlt-app",
     "keywords": [
       "tumlt"
     ],
-    "author": "Casey Rodarmor",
     "license": "UNLICENSED",
-    "bugs": {
-      "url": "https://github.com/tumlt/tumlt-app/issues"
-    },
     "homepage": "https://github.com/tumlt/tumlt-app",
     "dependencies": {
       "babel-runtime": "^6.3.19",
@@ -106,10 +99,18 @@
       "babel-preset-stage-3": "^6.3.13",
       "electron-prebuilt": "^0.36.0",
       "mocha": "^2.3.4"
+    },
+    "other": {
+      "author": "Casey Rodarmor",
+      "bugs": {
+        "url": "https://github.com/tumlt/tumlt-app/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "casey"
-  ]
+  ],
+  "filename": "tumlt___tumlt-app.json",
+  "lastFetchedAt": "2017-05-04T20:43:41.405Z"
 }

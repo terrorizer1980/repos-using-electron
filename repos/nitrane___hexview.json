@@ -5,7 +5,7 @@
   "owner": {
     "login": "nitrane",
     "id": 8423601,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8423601?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/8423601?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nitrane",
     "htmlUrl": "https://github.com/nitrane",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/nitrane/hexview/downloads",
   "deploymentsUrl": "https://api.github.com/repos/nitrane/hexview/deployments",
   "createdAt": "2015-09-03T16:10:47.000Z",
-  "updatedAt": "2015-09-07T03:08:10.000Z",
-  "pushedAt": "2015-09-09T01:16:26.000Z",
+  "updatedAt": "2017-02-12T14:35:06.000Z",
+  "pushedAt": "2017-02-12T14:35:04.000Z",
   "gitUrl": "git://github.com/nitrane/hexview.git",
   "sshUrl": "git@github.com:nitrane/hexview.git",
   "cloneUrl": "https://github.com/nitrane/hexview.git",
   "svnUrl": "https://github.com/nitrane/hexview",
   "homepage": null,
-  "size": 794,
+  "size": 576,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "nitrane",
     "id": 8423601,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8423601?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/8423601?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nitrane",
     "htmlUrl": "https://github.com/nitrane",
@@ -83,7 +83,7 @@
     "owner": {
       "login": "twotymz",
       "id": 5822167,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5822167?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/5822167?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/twotymz",
       "htmlUrl": "https://github.com/twotymz",
@@ -125,10 +125,11 @@
     "watchersCount": 0,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 1,
+    "forksCount": 2,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
@@ -142,7 +143,7 @@
     "owner": {
       "login": "twotymz",
       "id": 5822167,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/5822167?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/5822167?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/twotymz",
       "htmlUrl": "https://github.com/twotymz",
@@ -184,17 +185,18 @@
     "watchersCount": 0,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 1,
+    "forksCount": 2,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
     "watchers": 0,
     "defaultBranch": "master"
   },
-  "networkCount": 1,
+  "networkCount": 2,
   "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
@@ -206,9 +208,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "twotymz"
-  ],
   "firstCommit": {
     "sha": "1f4e99fa625d74efed0a72b81c2af0138ea53a69",
     "commit": {
@@ -233,5 +232,6 @@
   },
   "filename": "nitrane___hexview.json",
   "sourceRepo": "twotymz/hexview",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:51:31.567Z"
 }

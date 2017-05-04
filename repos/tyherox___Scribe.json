@@ -1,11 +1,11 @@
 {
-  "id": 54166852,
+  "id": 75282675,
   "name": "Scribe",
   "fullName": "tyherox/Scribe",
   "owner": {
     "login": "tyherox",
     "id": 10558097,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10558097?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/10558097?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tyherox",
     "htmlUrl": "https://github.com/tyherox",
@@ -17,34 +17,40 @@
     "type": "User"
   },
   "private": false,
-  "description": "Scribe is a craftable writing environment designed to be easily customized. Build your perfect workspace by using interactive widgets, powerful-plugins, and atmospheric themes.",
+  "description": null,
   "fork": false,
-  "createdAt": "2016-03-18T02:28:58.000Z",
-  "updatedAt": "2016-07-31T08:17:26.000Z",
-  "pushedAt": "2016-08-07T16:01:45.000Z",
-  "homepage": "ryestory.com",
-  "size": 109488,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "createdAt": "2016-12-01T10:40:30.000Z",
+  "updatedAt": "2016-12-01T10:43:08.000Z",
+  "pushedAt": "2017-04-04T07:57:12.000Z",
+  "homepage": null,
+  "size": 1506,
+  "stargazersCount": 0,
+  "watchersCount": 0,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 2,
-  "subscribersCount": 3,
-  "status": 404,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 1,
+  "subscribersCount": 2,
+  "status": 200,
   "packageJSON": {
     "name": "scribe",
     "version": "0.0.1",
@@ -66,26 +72,44 @@
       "react": "^15.3.0",
       "react-dom": "^15.3.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tyherox/Scribe.git"
-    },
+    "repository": "https://github.com/tyherox/Scribe",
     "keywords": [
       "Word",
       "Processor",
       "Text",
       "Editor"
     ],
-    "author": "John Bae",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tyherox/Scribe/issues"
-    },
-    "homepage": "https://github.com/tyherox/Scribe#readme"
+    "homepage": "https://github.com/tyherox/Scribe#readme",
+    "other": {
+      "author": "John Bae",
+      "bugs": {
+        "url": "https://github.com/tyherox/Scribe/issues"
+      }
+    }
   },
   "packageStatus": 404,
-  "contributors": [
-    "tyherox",
-    "kadr13"
-  ]
+  "filename": "tyherox___Scribe.json",
+  "htmlUrl": "https://github.com/tyherox/Scribe",
+  "url": "https://api.github.com/repos/tyherox/Scribe",
+  "forksUrl": "https://api.github.com/repos/tyherox/Scribe/forks",
+  "teamsUrl": "https://api.github.com/repos/tyherox/Scribe/teams",
+  "hooksUrl": "https://api.github.com/repos/tyherox/Scribe/hooks",
+  "eventsUrl": "https://api.github.com/repos/tyherox/Scribe/events",
+  "tagsUrl": "https://api.github.com/repos/tyherox/Scribe/tags",
+  "languagesUrl": "https://api.github.com/repos/tyherox/Scribe/languages",
+  "stargazersUrl": "https://api.github.com/repos/tyherox/Scribe/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/tyherox/Scribe/contributors",
+  "subscribersUrl": "https://api.github.com/repos/tyherox/Scribe/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/tyherox/Scribe/subscription",
+  "mergesUrl": "https://api.github.com/repos/tyherox/Scribe/merges",
+  "downloadsUrl": "https://api.github.com/repos/tyherox/Scribe/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/tyherox/Scribe/deployments",
+  "gitUrl": "git://github.com/tyherox/Scribe.git",
+  "sshUrl": "git@github.com:tyherox/Scribe.git",
+  "cloneUrl": "https://github.com/tyherox/Scribe.git",
+  "svnUrl": "https://github.com/tyherox/Scribe",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:40:34.703Z"
 }

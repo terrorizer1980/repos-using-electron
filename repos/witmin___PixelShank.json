@@ -5,7 +5,7 @@
   "owner": {
     "login": "witmin",
     "id": 1169366,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1169366?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1169366?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/witmin",
     "htmlUrl": "https://github.com/witmin",
@@ -20,12 +20,12 @@
   "description": "Add pixel size mark on image and save as .png. Build with p5.js, electron and canvas.",
   "fork": false,
   "createdAt": "2015-11-24T09:32:19.000Z",
-  "updatedAt": "2016-01-26T02:23:57.000Z",
+  "updatedAt": "2016-11-15T06:02:20.000Z",
   "pushedAt": "2015-12-07T07:11:16.000Z",
   "homepage": "http://millielin.com/posts/pixelshank",
   "size": 609,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 3,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 7,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -49,7 +49,7 @@
     "featured": true
   },
   "networkCount": 3,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "pixelshank",
@@ -79,9 +79,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "witmin"
-  ],
   "firstCommit": {
     "sha": "68600065887f18ce31ab1344e651640c15c90f14",
     "commit": {
@@ -105,92 +102,26 @@
     }
   },
   "filename": "witmin___PixelShank.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/witmin/PixelShank/releases/2211031",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/witmin/PixelShank/releases/assets/1087362",
-          "id": 1087362,
-          "name": "PixelShank-darwin-x64-v0.0.2-Mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "witmin",
-            "id": 1169366,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1169366?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/witmin",
-            "htmlUrl": "https://github.com/witmin",
-            "followersUrl": "https://api.github.com/users/witmin/followers",
-            "subscriptionsUrl": "https://api.github.com/users/witmin/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/witmin/orgs",
-            "reposUrl": "https://api.github.com/users/witmin/repos",
-            "receivedEventsUrl": "https://api.github.com/users/witmin/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 49462918,
-          "downloadCount": 16,
-          "createdAt": "2015-12-01T15:05:51.000Z",
-          "updatedAt": "2015-12-02T04:18:36.000Z",
-          "browserDownloadUrl": "https://github.com/witmin/PixelShank/releases/download/v0.0.2/PixelShank-darwin-x64-v0.0.2-Mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/witmin/PixelShank/releases/assets/1086237",
-          "id": 1086237,
-          "name": "PixelShank-win32-x64-v0.02.zip",
-          "label": null,
-          "uploader": {
-            "login": "witmin",
-            "id": 1169366,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1169366?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/witmin",
-            "htmlUrl": "https://github.com/witmin",
-            "followersUrl": "https://api.github.com/users/witmin/followers",
-            "subscriptionsUrl": "https://api.github.com/users/witmin/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/witmin/orgs",
-            "reposUrl": "https://api.github.com/users/witmin/repos",
-            "receivedEventsUrl": "https://api.github.com/users/witmin/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 48086243,
-          "downloadCount": 22,
-          "createdAt": "2015-12-01T06:04:30.000Z",
-          "updatedAt": "2015-12-01T06:07:08.000Z",
-          "browserDownloadUrl": "https://github.com/witmin/PixelShank/releases/download/v0.0.2/PixelShank-win32-x64-v0.02.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/witmin/PixelShank/releases/2211031/assets",
-      "htmlUrl": "https://github.com/witmin/PixelShank/releases/tag/v0.0.2",
-      "id": 2211031,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "v0.0.2-Pre-Alpha",
-      "draft": false,
-      "author": {
-        "login": "witmin",
-        "id": 1169366,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1169366?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/witmin",
-        "htmlUrl": "https://github.com/witmin",
-        "followersUrl": "https://api.github.com/users/witmin/followers",
-        "subscriptionsUrl": "https://api.github.com/users/witmin/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/witmin/orgs",
-        "reposUrl": "https://api.github.com/users/witmin/repos",
-        "receivedEventsUrl": "https://api.github.com/users/witmin/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-12-01T05:57:41.000Z",
-      "publishedAt": "2015-12-01T06:07:32.000Z",
-      "tarballUrl": "https://api.github.com/repos/witmin/PixelShank/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/witmin/PixelShank/zipball/v0.0.2",
-      "body": "- Import a local image\n- Click to add pixel measuring mark\n- Undo the last mark\n- Export the marked image as png file.\n\nAttached is the windows zipped file. Unpack it and run \"pixelshank.exe\" to start it.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/witmin/PixelShank",
+  "url": "https://api.github.com/repos/witmin/PixelShank",
+  "forksUrl": "https://api.github.com/repos/witmin/PixelShank/forks",
+  "teamsUrl": "https://api.github.com/repos/witmin/PixelShank/teams",
+  "hooksUrl": "https://api.github.com/repos/witmin/PixelShank/hooks",
+  "eventsUrl": "https://api.github.com/repos/witmin/PixelShank/events",
+  "tagsUrl": "https://api.github.com/repos/witmin/PixelShank/tags",
+  "languagesUrl": "https://api.github.com/repos/witmin/PixelShank/languages",
+  "stargazersUrl": "https://api.github.com/repos/witmin/PixelShank/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/witmin/PixelShank/contributors",
+  "subscribersUrl": "https://api.github.com/repos/witmin/PixelShank/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/witmin/PixelShank/subscription",
+  "mergesUrl": "https://api.github.com/repos/witmin/PixelShank/merges",
+  "downloadsUrl": "https://api.github.com/repos/witmin/PixelShank/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/witmin/PixelShank/deployments",
+  "gitUrl": "git://github.com/witmin/PixelShank.git",
+  "sshUrl": "git@github.com:witmin/PixelShank.git",
+  "cloneUrl": "https://github.com/witmin/PixelShank.git",
+  "svnUrl": "https://github.com/witmin/PixelShank",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:18:04.544Z"
 }

@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "press-control",
     "productName": "PressControl",
@@ -80,10 +80,7 @@
     "homepage": "https://github.com/pravdomil/press-control#readme",
     "keywords": [
       "WordPress"
-    ],
-    "other": {
-      "author": "pravdomil.cz"
-    }
+    ]
   },
   "packageStatus": 200,
   "contributors": [
@@ -111,5 +108,6 @@
       "commentCount": 0
     }
   },
-  "filename": "pravdomil___press-control.json"
+  "filename": "pravdomil___press-control.json",
+  "lastFetchedAt": "2017-05-04T20:31:28.674Z"
 }

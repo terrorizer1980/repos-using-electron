@@ -162,7 +162,7 @@
   },
   "networkCount": 3,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "pokemon",
     "version": "1.0.0",
@@ -172,7 +172,6 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Mal Graty <mal.graty@googlemail.com>",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "~0.27.3",
@@ -203,5 +202,7 @@
   "contributors": [
     "mal",
     "PannenkoekenNL"
-  ]
+  ],
+  "filename": "PannenkoekenNL___pokemon.json",
+  "lastFetchedAt": "2017-05-04T21:30:55.129Z"
 }

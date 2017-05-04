@@ -5,7 +5,7 @@
   "owner": {
     "login": "JhnBrunelle",
     "id": 20272851,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20272851?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20272851?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/JhnBrunelle",
     "htmlUrl": "https://github.com/JhnBrunelle",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/downloads",
   "deploymentsUrl": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/deployments",
   "createdAt": "2016-08-28T11:10:37.000Z",
-  "updatedAt": "2016-09-02T03:14:03.000Z",
+  "updatedAt": "2017-04-20T22:35:23.000Z",
   "pushedAt": "2016-09-13T02:54:29.000Z",
   "gitUrl": "git://github.com/JhnBrunelle/Quick-Calc.git",
   "sshUrl": "git@github.com:JhnBrunelle/Quick-Calc.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/JhnBrunelle/Quick-Calc",
   "homepage": "",
   "size": 23,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -157,9 +157,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "JhnBrunelle"
-  ],
   "firstCommit": {
     "sha": "02f502b743973dab8c6f64eae205eac551cecc45",
     "commit": {
@@ -183,65 +180,6 @@
     }
   },
   "filename": "JhnBrunelle___Quick-Calc.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/releases/4033313",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/releases/assets/2243815",
-          "id": 2243815,
-          "name": "Quick.Calc.zip",
-          "label": null,
-          "uploader": {
-            "login": "JhnBrunelle",
-            "id": 20272851,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/20272851?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/JhnBrunelle",
-            "htmlUrl": "https://github.com/JhnBrunelle",
-            "followersUrl": "https://api.github.com/users/JhnBrunelle/followers",
-            "subscriptionsUrl": "https://api.github.com/users/JhnBrunelle/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/JhnBrunelle/orgs",
-            "reposUrl": "https://api.github.com/users/JhnBrunelle/repos",
-            "receivedEventsUrl": "https://api.github.com/users/JhnBrunelle/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42068659,
-          "downloadCount": 2,
-          "createdAt": "2016-09-01T21:13:18.000Z",
-          "updatedAt": "2016-09-01T21:14:27.000Z",
-          "browserDownloadUrl": "https://github.com/JhnBrunelle/Quick-Calc/releases/download/v1.0/Quick.Calc.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/releases/4033313/assets",
-      "htmlUrl": "https://github.com/JhnBrunelle/Quick-Calc/releases/tag/v1.0",
-      "id": 4033313,
-      "tagName": "v1.0",
-      "targetCommitish": "master",
-      "name": "Initial Release",
-      "draft": false,
-      "author": {
-        "login": "JhnBrunelle",
-        "id": 20272851,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20272851?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/JhnBrunelle",
-        "htmlUrl": "https://github.com/JhnBrunelle",
-        "followersUrl": "https://api.github.com/users/JhnBrunelle/followers",
-        "subscriptionsUrl": "https://api.github.com/users/JhnBrunelle/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/JhnBrunelle/orgs",
-        "reposUrl": "https://api.github.com/users/JhnBrunelle/repos",
-        "receivedEventsUrl": "https://api.github.com/users/JhnBrunelle/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-01T21:11:55.000Z",
-      "publishedAt": "2016-09-01T21:15:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/tarball/v1.0",
-      "zipballUrl": "https://api.github.com/repos/JhnBrunelle/Quick-Calc/zipball/v1.0",
-      "body": "## Release Notes\n- OSX support ONLY \n- Use CMD+Q to Quit\n- Download .zip and run app, calculator icon will appear in menubar\n- known bug: Icon may not appear in dark mode 👎 \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:51:07.802Z"
 }

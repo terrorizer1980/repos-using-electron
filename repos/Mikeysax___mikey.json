@@ -5,7 +5,7 @@
   "owner": {
     "login": "Mikeysax",
     "id": 15805689,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15805689?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/15805689?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Mikeysax",
     "htmlUrl": "https://github.com/Mikeysax",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/Mikeysax/mikey/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Mikeysax/mikey/deployments",
   "createdAt": "2016-04-15T14:32:41.000Z",
-  "updatedAt": "2016-10-08T16:44:21.000Z",
-  "pushedAt": "2016-10-20T22:45:59.000Z",
+  "updatedAt": "2017-03-09T13:10:23.000Z",
+  "pushedAt": "2017-03-08T04:49:28.000Z",
   "gitUrl": "git://github.com/Mikeysax/mikey.git",
   "sshUrl": "git@github.com:Mikeysax/mikey.git",
   "cloneUrl": "https://github.com/Mikeysax/mikey.git",
   "svnUrl": "https://github.com/Mikeysax/mikey",
   "homepage": "https://www.npmjs.com/package/mikey",
-  "size": 3065,
+  "size": 3452,
   "stargazersCount": 40,
   "watchersCount": 40,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 1,
-  "subscribersCount": 2,
+  "networkCount": 3,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "mikey",
@@ -115,16 +115,9 @@
     },
     "devDependencies": {
       "mocha": "^2.4.5"
-    },
-    "other": {
-      "author": "Michael Farrell"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Mikeysax",
-    "nahue"
-  ],
   "firstCommit": {
     "sha": "89dffa3e7be7b7173187be02f2ed23683523cdab",
     "commit": {
@@ -148,5 +141,6 @@
     }
   },
   "filename": "Mikeysax___mikey.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:06:31.680Z"
 }

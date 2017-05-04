@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-base-app",
     "version": "0.0.1",
@@ -91,9 +91,6 @@
     },
     "dependencies": {
       "electron-window-manager": "^1.0.1"
-    },
-    "other": {
-      "author": "Rick Darlington"
     }
   },
   "packageStatus": 200,
@@ -122,5 +119,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ricklusive___electron-base.json"
+  "filename": "ricklusive___electron-base.json",
+  "lastFetchedAt": "2017-05-04T14:25:19.725Z"
 }

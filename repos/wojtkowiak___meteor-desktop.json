@@ -5,7 +5,7 @@
   "owner": {
     "login": "wojtkowiak",
     "id": 8668306,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8668306?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/8668306?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wojtkowiak",
     "htmlUrl": "https://github.com/wojtkowiak",
@@ -20,30 +20,36 @@
   "description": "Build a Meteor's desktop client with hot code push.",
   "fork": false,
   "createdAt": "2016-05-04T12:18:00.000Z",
-  "updatedAt": "2016-07-11T20:59:53.000Z",
-  "pushedAt": "2016-07-08T13:08:48.000Z",
+  "updatedAt": "2017-05-02T05:00:11.000Z",
+  "pushedAt": "2017-05-04T12:15:46.000Z",
   "homepage": null,
-  "size": 701,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 2279,
+  "stargazersCount": 258,
+  "watchersCount": 258,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 1,
+  "forksCount": 27,
+  "openIssuesCount": 21,
+  "openIssues": 21,
+  "watchers": 258,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 27,
+  "subscribersCount": 26,
   "status": 200,
   "packageJSON": {
     "name": "meteor-desktop",
@@ -164,9 +170,6 @@
     "homepage": "https://github.com/wojtkowiak/meteor-desktop"
   },
   "packageStatus": 200,
-  "contributors": [
-    "wojtkowiak"
-  ],
   "firstCommit": {
     "sha": "b6b10cc7bb8b299e53108f4790ff5e15aa008b2c",
     "commit": {
@@ -190,5 +193,26 @@
     }
   },
   "filename": "wojtkowiak___meteor-desktop.json",
-  "releases": []
+  "htmlUrl": "https://github.com/wojtkowiak/meteor-desktop",
+  "url": "https://api.github.com/repos/wojtkowiak/meteor-desktop",
+  "forksUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/forks",
+  "teamsUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/teams",
+  "hooksUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/hooks",
+  "eventsUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/events",
+  "tagsUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/tags",
+  "languagesUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/languages",
+  "stargazersUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/subscription",
+  "mergesUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/merges",
+  "downloadsUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/wojtkowiak/meteor-desktop/deployments",
+  "gitUrl": "git://github.com/wojtkowiak/meteor-desktop.git",
+  "sshUrl": "git@github.com:wojtkowiak/meteor-desktop.git",
+  "cloneUrl": "https://github.com/wojtkowiak/meteor-desktop.git",
+  "svnUrl": "https://github.com/wojtkowiak/meteor-desktop",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:48:16.612Z"
 }

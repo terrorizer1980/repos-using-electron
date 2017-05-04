@@ -5,7 +5,7 @@
   "owner": {
     "login": "mccxiv",
     "id": 1700359,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1700359?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1700359?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mccxiv",
     "htmlUrl": "https://github.com/mccxiv",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/mccxiv/xiv-auto-typer/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mccxiv/xiv-auto-typer/deployments",
   "createdAt": "2015-08-20T20:43:56.000Z",
-  "updatedAt": "2015-08-21T03:44:43.000Z",
+  "updatedAt": "2017-03-18T20:21:22.000Z",
   "pushedAt": "2015-10-25T18:26:00.000Z",
   "gitUrl": "git://github.com/mccxiv/xiv-auto-typer.git",
   "sshUrl": "git@github.com:mccxiv/xiv-auto-typer.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/mccxiv/xiv-auto-typer",
   "homepage": null,
   "size": 152,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -87,9 +87,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mccxiv"
-  ],
   "firstCommit": {
     "sha": "d4069fb437cccca08dace49a683a4212c1ea99d8",
     "commit": {
@@ -113,92 +110,6 @@
     }
   },
   "filename": "mccxiv___xiv-auto-typer.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mccxiv/xiv-auto-typer/releases/1711931",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mccxiv/xiv-auto-typer/releases/assets/811948",
-          "id": 811948,
-          "name": "Xiv-Auto-Typer-0.0.2.zip",
-          "label": null,
-          "uploader": {
-            "login": "mccxiv",
-            "id": 1700359,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1700359?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mccxiv",
-            "htmlUrl": "https://github.com/mccxiv",
-            "followersUrl": "https://api.github.com/users/mccxiv/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mccxiv/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mccxiv/orgs",
-            "reposUrl": "https://api.github.com/users/mccxiv/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mccxiv/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 59832004,
-          "downloadCount": 6,
-          "createdAt": "2015-08-24T06:08:47.000Z",
-          "updatedAt": "2015-08-24T06:18:27.000Z",
-          "browserDownloadUrl": "https://github.com/mccxiv/xiv-auto-typer/releases/download/0.0.2/Xiv-Auto-Typer-0.0.2.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/mccxiv/xiv-auto-typer/releases/assets/811809",
-          "id": 811809,
-          "name": "Xiv-Auto-Typer-Setup-0.0.2.exe",
-          "label": null,
-          "uploader": {
-            "login": "mccxiv",
-            "id": 1700359,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1700359?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mccxiv",
-            "htmlUrl": "https://github.com/mccxiv",
-            "followersUrl": "https://api.github.com/users/mccxiv/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mccxiv/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mccxiv/orgs",
-            "reposUrl": "https://api.github.com/users/mccxiv/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mccxiv/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 40864768,
-          "downloadCount": 7,
-          "createdAt": "2015-08-24T04:00:05.000Z",
-          "updatedAt": "2015-08-24T04:12:26.000Z",
-          "browserDownloadUrl": "https://github.com/mccxiv/xiv-auto-typer/releases/download/0.0.2/Xiv-Auto-Typer-Setup-0.0.2.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mccxiv/xiv-auto-typer/releases/1711931/assets",
-      "htmlUrl": "https://github.com/mccxiv/xiv-auto-typer/releases/tag/0.0.2",
-      "id": 1711931,
-      "tagName": "0.0.2",
-      "targetCommitish": "master",
-      "name": "0.0.2",
-      "draft": false,
-      "author": {
-        "login": "mccxiv",
-        "id": 1700359,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1700359?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mccxiv",
-        "htmlUrl": "https://github.com/mccxiv",
-        "followersUrl": "https://api.github.com/users/mccxiv/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mccxiv/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mccxiv/orgs",
-        "reposUrl": "https://api.github.com/users/mccxiv/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mccxiv/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-08-24T03:00:39.000Z",
-      "publishedAt": "2015-08-24T04:44:27.000Z",
-      "tarballUrl": "https://api.github.com/repos/mccxiv/xiv-auto-typer/tarball/0.0.2",
-      "zipballUrl": "https://api.github.com/repos/mccxiv/xiv-auto-typer/zipball/0.0.2",
-      "body": "First release\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:35:27.238Z"
 }

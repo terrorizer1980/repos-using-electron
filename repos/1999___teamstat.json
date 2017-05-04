@@ -59,7 +59,6 @@
       "start": "npm run clean && npm run build && ./node_modules/.bin/electron .",
       "lint": "./node_modules/.bin/eslint src/"
     },
-    "author": "Dmitry Sorin <dsorin@yandex-team.ru>",
     "license": "MIT",
     "dependencies": {
       "babel-cli": "^6.11.4",
@@ -89,5 +88,7 @@
   "packageStatus": 404,
   "contributors": [
     "1999"
-  ]
+  ],
+  "filename": "1999___teamstat.json",
+  "lastFetchedAt": "2017-05-04T20:37:14.438Z"
 }

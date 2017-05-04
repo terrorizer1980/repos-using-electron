@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "packer",
     "version": "0.0.0",
@@ -154,5 +154,7 @@
       "source-map-support": "^0.4.0"
     }
   },
-  "packageStatus": 200
+  "packageStatus": 200,
+  "filename": "JacobSoderblom___packer.json",
+  "lastFetchedAt": "2017-05-04T18:26:36.044Z"
 }

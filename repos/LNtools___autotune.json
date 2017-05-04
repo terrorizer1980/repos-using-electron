@@ -6,7 +6,7 @@
   "owner": {
     "login": "LNtools",
     "id": 22778868,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22778868?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22778868?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LNtools",
     "htmlUrl": "https://github.com/LNtools",
@@ -37,13 +37,13 @@
   "deploymentsUrl": "https://api.github.com/repos/LNtools/autotune/deployments",
   "createdAt": "2016-10-11T21:54:04.000Z",
   "updatedAt": "2016-10-11T21:54:06.000Z",
-  "pushedAt": "2016-11-01T20:56:58.000Z",
+  "pushedAt": "2017-01-06T13:04:18.000Z",
   "gitUrl": "git://github.com/LNtools/autotune.git",
   "sshUrl": "git@github.com:LNtools/autotune.git",
   "cloneUrl": "https://github.com/LNtools/autotune.git",
   "svnUrl": "https://github.com/LNtools/autotune",
   "homepage": "",
-  "size": 152041,
+  "size": 160782,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -66,7 +66,7 @@
   "organization": {
     "login": "LNtools",
     "id": 22778868,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22778868?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22778868?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LNtools",
     "htmlUrl": "https://github.com/LNtools",
@@ -84,7 +84,7 @@
     "owner": {
       "login": "voxmedia",
       "id": 316807,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316807?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/316807?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/voxmedia",
       "htmlUrl": "https://github.com/voxmedia",
@@ -114,26 +114,27 @@
     "downloadsUrl": "https://api.github.com/repos/voxmedia/autotune/downloads",
     "deploymentsUrl": "https://api.github.com/repos/voxmedia/autotune/deployments",
     "createdAt": "2015-02-04T16:35:39.000Z",
-    "updatedAt": "2016-11-23T23:46:03.000Z",
-    "pushedAt": "2016-11-18T20:02:26.000Z",
+    "updatedAt": "2017-04-25T13:33:38.000Z",
+    "pushedAt": "2017-04-27T17:06:29.000Z",
     "gitUrl": "git://github.com/voxmedia/autotune.git",
     "sshUrl": "git@github.com:voxmedia/autotune.git",
     "cloneUrl": "https://github.com/voxmedia/autotune.git",
     "svnUrl": "https://github.com/voxmedia/autotune",
     "homepage": "",
-    "size": 154154,
-    "stargazersCount": 373,
-    "watchersCount": 373,
+    "size": 182710,
+    "stargazersCount": 393,
+    "watchersCount": 393,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 32,
+    "forksCount": 33,
     "mirrorUrl": null,
-    "openIssuesCount": 39,
-    "openIssues": 39,
-    "watchers": 373,
+    "openIssuesCount": 46,
+    "openIssues": 46,
+    "watchers": 393,
     "defaultBranch": "master"
   },
   "source": {
@@ -143,7 +144,7 @@
     "owner": {
       "login": "voxmedia",
       "id": 316807,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/316807?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/316807?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/voxmedia",
       "htmlUrl": "https://github.com/voxmedia",
@@ -173,30 +174,31 @@
     "downloadsUrl": "https://api.github.com/repos/voxmedia/autotune/downloads",
     "deploymentsUrl": "https://api.github.com/repos/voxmedia/autotune/deployments",
     "createdAt": "2015-02-04T16:35:39.000Z",
-    "updatedAt": "2016-11-23T23:46:03.000Z",
-    "pushedAt": "2016-11-18T20:02:26.000Z",
+    "updatedAt": "2017-04-25T13:33:38.000Z",
+    "pushedAt": "2017-04-27T17:06:29.000Z",
     "gitUrl": "git://github.com/voxmedia/autotune.git",
     "sshUrl": "git@github.com:voxmedia/autotune.git",
     "cloneUrl": "https://github.com/voxmedia/autotune.git",
     "svnUrl": "https://github.com/voxmedia/autotune",
     "homepage": "",
-    "size": 154154,
-    "stargazersCount": 373,
-    "watchersCount": 373,
+    "size": 182710,
+    "stargazersCount": 393,
+    "watchersCount": 393,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 32,
+    "forksCount": 33,
     "mirrorUrl": null,
-    "openIssuesCount": 39,
-    "openIssues": 39,
-    "watchers": 373,
+    "openIssuesCount": 46,
+    "openIssues": 46,
+    "watchers": 393,
     "defaultBranch": "master"
   },
-  "networkCount": 32,
-  "subscribersCount": 3,
+  "networkCount": 33,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "autotune",
@@ -300,32 +302,9 @@
           "jquery:jQuery"
         ]
       }
-    },
-    "other": {
-      "author": {
-        "name": "Ryan Mark",
-        "email": "ryan.mark@voxmedia.com"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ryanmark",
-    "caseymm",
-    "kavyasukumar",
-    "aidanfeay",
-    "zohf",
-    "clifff",
-    "edenthecat",
-    "cschiewek",
-    "twelvelabs",
-    "clodo",
-    "maclover7",
-    "eelzon",
-    "pardo-bsso",
-    "banderson623",
-    "jarib"
-  ],
   "firstCommit": {
     "sha": "5ceb2e2317671864c074fd660b190702999a629c",
     "commit": {
@@ -348,5 +327,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:51:58.015Z"
 }

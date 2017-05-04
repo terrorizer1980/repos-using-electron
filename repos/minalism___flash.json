@@ -53,28 +53,29 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/minalism/flash"
-    },
+    "repository": "https://github.com/minalism/flash",
     "keywords": [
       "best ide",
       "programmers",
       "flash",
       "text Editor"
     ],
-    "author": "Martin Kirilov",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/minalism/flash/issues"
-    },
     "homepage": "https://github.com/minalism/flash#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.4"
+    },
+    "other": {
+      "author": "Martin Kirilov",
+      "bugs": {
+        "url": "https://github.com/minalism/flash/issues"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "minalism"
-  ]
+  ],
+  "filename": "minalism___flash.json",
+  "lastFetchedAt": "2017-05-04T20:10:34.542Z"
 }

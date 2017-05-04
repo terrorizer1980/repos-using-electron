@@ -5,7 +5,7 @@
   "owner": {
     "login": "Blanket-Warriors",
     "id": 11801386,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11801386?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11801386?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Blanket-Warriors",
     "htmlUrl": "https://github.com/Blanket-Warriors",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/Blanket-Warriors/BentoTime/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Blanket-Warriors/BentoTime/deployments",
   "createdAt": "2015-10-04T04:43:10.000Z",
-  "updatedAt": "2016-02-19T06:57:40.000Z",
-  "pushedAt": "2016-09-03T23:31:57.000Z",
+  "updatedAt": "2017-04-04T16:36:29.000Z",
+  "pushedAt": "2017-04-10T00:30:19.000Z",
   "gitUrl": "git://github.com/Blanket-Warriors/BentoTime.git",
   "sshUrl": "git@github.com:Blanket-Warriors/BentoTime.git",
   "cloneUrl": "https://github.com/Blanket-Warriors/BentoTime.git",
   "svnUrl": "https://github.com/Blanket-Warriors/BentoTime",
   "homepage": null,
-  "size": 5741,
+  "size": 5805,
   "stargazersCount": 2,
   "watchersCount": 2,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 4,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "Blanket-Warriors",
     "id": 11801386,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11801386?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11801386?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Blanket-Warriors",
     "htmlUrl": "https://github.com/Blanket-Warriors",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/Blanket-Warriors/received_events",
     "type": "Organization"
   },
-  "networkCount": 4,
+  "networkCount": 3,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -168,11 +168,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ivebencrazy",
-    "ddrabik",
-    "aj-adams"
-  ],
   "firstCommit": {
     "sha": "92a32f819a4671da7e2a42c7b78d4d7c4756a5c3",
     "commit": {
@@ -196,119 +191,6 @@
     }
   },
   "filename": "Blanket-Warriors___BentoTime.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Blanket-Warriors/BentoTime/releases/3518209",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Blanket-Warriors/BentoTime/releases/assets/1897701",
-          "id": 1897701,
-          "name": "Bentotime-Mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "ivebencrazy",
-            "id": 8182843,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8182843?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ivebencrazy",
-            "htmlUrl": "https://github.com/ivebencrazy",
-            "followersUrl": "https://api.github.com/users/ivebencrazy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ivebencrazy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ivebencrazy/orgs",
-            "reposUrl": "https://api.github.com/users/ivebencrazy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ivebencrazy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 47868749,
-          "downloadCount": 13,
-          "createdAt": "2016-06-24T15:24:04.000Z",
-          "updatedAt": "2016-06-24T15:25:57.000Z",
-          "browserDownloadUrl": "https://github.com/Blanket-Warriors/BentoTime/releases/download/1.0.0/Bentotime-Mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/Blanket-Warriors/BentoTime/releases/assets/1897702",
-          "id": 1897702,
-          "name": "Bentotime-Windows.zip",
-          "label": null,
-          "uploader": {
-            "login": "ivebencrazy",
-            "id": 8182843,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8182843?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ivebencrazy",
-            "htmlUrl": "https://github.com/ivebencrazy",
-            "followersUrl": "https://api.github.com/users/ivebencrazy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ivebencrazy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ivebencrazy/orgs",
-            "reposUrl": "https://api.github.com/users/ivebencrazy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ivebencrazy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 57781449,
-          "downloadCount": 2,
-          "createdAt": "2016-06-24T15:24:08.000Z",
-          "updatedAt": "2016-06-24T15:25:57.000Z",
-          "browserDownloadUrl": "https://github.com/Blanket-Warriors/BentoTime/releases/download/1.0.0/Bentotime-Windows.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/Blanket-Warriors/BentoTime/releases/assets/1897704",
-          "id": 1897704,
-          "name": "Bentotime.-.Linux.zip",
-          "label": null,
-          "uploader": {
-            "login": "ivebencrazy",
-            "id": 8182843,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8182843?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ivebencrazy",
-            "htmlUrl": "https://github.com/ivebencrazy",
-            "followersUrl": "https://api.github.com/users/ivebencrazy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ivebencrazy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ivebencrazy/orgs",
-            "reposUrl": "https://api.github.com/users/ivebencrazy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ivebencrazy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 46692697,
-          "downloadCount": 6,
-          "createdAt": "2016-06-24T15:24:44.000Z",
-          "updatedAt": "2016-06-24T15:25:51.000Z",
-          "browserDownloadUrl": "https://github.com/Blanket-Warriors/BentoTime/releases/download/1.0.0/Bentotime.-.Linux.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Blanket-Warriors/BentoTime/releases/3518209/assets",
-      "htmlUrl": "https://github.com/Blanket-Warriors/BentoTime/releases/tag/1.0.0",
-      "id": 3518209,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "Version 1.0 ",
-      "draft": false,
-      "author": {
-        "login": "ivebencrazy",
-        "id": 8182843,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8182843?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ivebencrazy",
-        "htmlUrl": "https://github.com/ivebencrazy",
-        "followersUrl": "https://api.github.com/users/ivebencrazy/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ivebencrazy/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ivebencrazy/orgs",
-        "reposUrl": "https://api.github.com/users/ivebencrazy/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ivebencrazy/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-06-24T15:20:53.000Z",
-      "publishedAt": "2016-06-24T15:25:57.000Z",
-      "tarballUrl": "https://api.github.com/repos/Blanket-Warriors/BentoTime/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/Blanket-Warriors/BentoTime/zipball/1.0.0",
-      "body": "This is the initial release of Bentotime. It is meant to be a basic implementation of a manga-reading application. It has the ability to:\n- Search for and read manga\n- Save manga as bookmarks\n- See when a manga has new chapters\n- 🍱 \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:12:55.466Z"
 }

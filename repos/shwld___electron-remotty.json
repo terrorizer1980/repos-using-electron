@@ -5,7 +5,7 @@
   "owner": {
     "login": "shwld",
     "id": 6434981,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6434981?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6434981?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/shwld",
     "htmlUrl": "https://github.com/shwld",
@@ -35,8 +35,8 @@
   "downloadsUrl": "https://api.github.com/repos/shwld/electron-remotty/downloads",
   "deploymentsUrl": "https://api.github.com/repos/shwld/electron-remotty/deployments",
   "createdAt": "2016-07-01T09:13:23.000Z",
-  "updatedAt": "2016-07-02T08:26:05.000Z",
-  "pushedAt": "2016-07-02T09:20:02.000Z",
+  "updatedAt": "2017-01-07T08:03:21.000Z",
+  "pushedAt": "2017-01-07T08:03:20.000Z",
   "gitUrl": "git://github.com/shwld/electron-remotty.git",
   "sshUrl": "git@github.com:shwld/electron-remotty.git",
   "cloneUrl": "https://github.com/shwld/electron-remotty.git",
@@ -69,7 +69,7 @@
     "featured": true
   },
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
     "main": "src/main.js",
@@ -88,9 +88,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "shwld"
-  ],
   "firstCommit": {
     "sha": "57977d7b7ee9194b9d52ffb8591434478e3e7542",
     "commit": {
@@ -114,92 +111,6 @@
     }
   },
   "filename": "shwld___electron-remotty.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/shwld/electron-remotty/releases/3568382",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/shwld/electron-remotty/releases/assets/1933413",
-          "id": 1933413,
-          "name": "electron-remotty-windows64-0.0.1.zip",
-          "label": null,
-          "uploader": {
-            "login": "shwld",
-            "id": 6434981,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6434981?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/shwld",
-            "htmlUrl": "https://github.com/shwld",
-            "followersUrl": "https://api.github.com/users/shwld/followers",
-            "subscriptionsUrl": "https://api.github.com/users/shwld/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/shwld/orgs",
-            "reposUrl": "https://api.github.com/users/shwld/repos",
-            "receivedEventsUrl": "https://api.github.com/users/shwld/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 53287224,
-          "downloadCount": 1,
-          "createdAt": "2016-07-02T09:20:37.000Z",
-          "updatedAt": "2016-07-02T09:22:37.000Z",
-          "browserDownloadUrl": "https://github.com/shwld/electron-remotty/releases/download/0.0.1/electron-remotty-windows64-0.0.1.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/shwld/electron-remotty/releases/assets/1929210",
-          "id": 1929210,
-          "name": "electron-remotty.macos64-0.0.1.zip",
-          "label": null,
-          "uploader": {
-            "login": "shwld",
-            "id": 6434981,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6434981?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/shwld",
-            "htmlUrl": "https://github.com/shwld",
-            "followersUrl": "https://api.github.com/users/shwld/followers",
-            "subscriptionsUrl": "https://api.github.com/users/shwld/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/shwld/orgs",
-            "reposUrl": "https://api.github.com/users/shwld/repos",
-            "receivedEventsUrl": "https://api.github.com/users/shwld/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42711698,
-          "downloadCount": 7,
-          "createdAt": "2016-07-01T10:41:35.000Z",
-          "updatedAt": "2016-07-02T09:22:37.000Z",
-          "browserDownloadUrl": "https://github.com/shwld/electron-remotty/releases/download/0.0.1/electron-remotty.macos64-0.0.1.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/shwld/electron-remotty/releases/3568382/assets",
-      "htmlUrl": "https://github.com/shwld/electron-remotty/releases/tag/0.0.1",
-      "id": 3568382,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "ver 0.0.1",
-      "draft": false,
-      "author": {
-        "login": "shwld",
-        "id": 6434981,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6434981?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/shwld",
-        "htmlUrl": "https://github.com/shwld",
-        "followersUrl": "https://api.github.com/users/shwld/followers",
-        "subscriptionsUrl": "https://api.github.com/users/shwld/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/shwld/orgs",
-        "reposUrl": "https://api.github.com/users/shwld/repos",
-        "receivedEventsUrl": "https://api.github.com/users/shwld/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-07-01T10:31:17.000Z",
-      "publishedAt": "2016-07-01T10:42:08.000Z",
-      "tarballUrl": "https://api.github.com/repos/shwld/electron-remotty/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/shwld/electron-remotty/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:12:05.359Z"
 }

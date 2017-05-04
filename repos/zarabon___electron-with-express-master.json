@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-with-express",
     "description": "Demonstrates spawning Express from Electron and using it to serve content",
@@ -125,5 +125,6 @@
     }
   },
   "filename": "zarabon___electron-with-express-master.json",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T15:13:57.603Z"
 }

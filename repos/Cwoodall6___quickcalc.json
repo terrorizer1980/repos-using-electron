@@ -5,7 +5,7 @@
   "owner": {
     "login": "Cwoodall6",
     "id": 8728281,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8728281?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8728281?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Cwoodall6",
     "htmlUrl": "https://github.com/Cwoodall6",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/deployments",
   "createdAt": "2016-09-23T14:36:50.000Z",
-  "updatedAt": "2016-11-01T09:21:09.000Z",
-  "pushedAt": "2016-10-24T20:11:59.000Z",
+  "updatedAt": "2017-04-27T12:25:00.000Z",
+  "pushedAt": "2017-04-17T15:42:06.000Z",
   "gitUrl": "git://github.com/Cwoodall6/quickcalc.git",
   "sshUrl": "git@github.com:Cwoodall6/quickcalc.git",
   "cloneUrl": "https://github.com/Cwoodall6/quickcalc.git",
   "svnUrl": "https://github.com/Cwoodall6/quickcalc",
   "homepage": null,
-  "size": 1475,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "size": 1624,
+  "stargazersCount": 28,
+  "watchersCount": 28,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 5,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 28,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 5,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "quickcalc",
@@ -102,9 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Cwoodall6"
-  ],
   "firstCommit": {
     "sha": "30bc0f0ee2571467170e58b7f8c4aa157710f70d",
     "commit": {
@@ -128,151 +125,6 @@
     }
   },
   "filename": "Cwoodall6___quickcalc.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Cwoodall6/quickcalc/releases/4462851",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Cwoodall6/quickcalc/releases/assets/2658194",
-          "id": 2658194,
-          "name": "quickcalc-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "Cwoodall6",
-            "id": 8728281,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8728281?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Cwoodall6",
-            "htmlUrl": "https://github.com/Cwoodall6",
-            "followersUrl": "https://api.github.com/users/Cwoodall6/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Cwoodall6/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Cwoodall6/orgs",
-            "reposUrl": "https://api.github.com/users/Cwoodall6/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Cwoodall6/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 48164200,
-          "downloadCount": 113,
-          "createdAt": "2016-11-17T03:13:00.000Z",
-          "updatedAt": "2016-11-17T03:13:17.000Z",
-          "browserDownloadUrl": "https://github.com/Cwoodall6/quickcalc/releases/download/v1.1.0/quickcalc-win32-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/Cwoodall6/quickcalc/releases/assets/2524126",
-          "id": 2524126,
-          "name": "quickcalc.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "Cwoodall6",
-            "id": 8728281,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8728281?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Cwoodall6",
-            "htmlUrl": "https://github.com/Cwoodall6",
-            "followersUrl": "https://api.github.com/users/Cwoodall6/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Cwoodall6/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Cwoodall6/orgs",
-            "reposUrl": "https://api.github.com/users/Cwoodall6/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Cwoodall6/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 47320583,
-          "downloadCount": 45,
-          "createdAt": "2016-10-24T20:05:07.000Z",
-          "updatedAt": "2016-10-24T20:05:39.000Z",
-          "browserDownloadUrl": "https://github.com/Cwoodall6/quickcalc/releases/download/v1.1.0/quickcalc.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/releases/4462851/assets",
-      "htmlUrl": "https://github.com/Cwoodall6/quickcalc/releases/tag/v1.1.0",
-      "id": 4462851,
-      "tagName": "v1.1.0",
-      "targetCommitish": "master",
-      "name": "quickcalc_v1.1.0",
-      "draft": false,
-      "author": {
-        "login": "Cwoodall6",
-        "id": 8728281,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8728281?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Cwoodall6",
-        "htmlUrl": "https://github.com/Cwoodall6",
-        "followersUrl": "https://api.github.com/users/Cwoodall6/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Cwoodall6/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Cwoodall6/orgs",
-        "reposUrl": "https://api.github.com/users/Cwoodall6/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Cwoodall6/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-24T04:25:41.000Z",
-      "publishedAt": "2016-10-24T04:35:56.000Z",
-      "tarballUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/tarball/v1.1.0",
-      "zipballUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/zipball/v1.1.0",
-      "body": "#HUGE UPDATE:\n- Windows Version added\n- improved UI\n- a plethora of new functions:\n- advanced calculations\n"
-    },
-    {
-      "url": "https://api.github.com/repos/Cwoodall6/quickcalc/releases/4218520",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Cwoodall6/quickcalc/releases/assets/2367700",
-          "id": 2367700,
-          "name": "quickcalc.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "Cwoodall6",
-            "id": 8728281,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8728281?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Cwoodall6",
-            "htmlUrl": "https://github.com/Cwoodall6",
-            "followersUrl": "https://api.github.com/users/Cwoodall6/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Cwoodall6/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Cwoodall6/orgs",
-            "reposUrl": "https://api.github.com/users/Cwoodall6/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Cwoodall6/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 40997589,
-          "downloadCount": 36,
-          "createdAt": "2016-09-23T22:02:08.000Z",
-          "updatedAt": "2016-09-23T22:02:31.000Z",
-          "browserDownloadUrl": "https://github.com/Cwoodall6/quickcalc/releases/download/v1.0.0/quickcalc.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/releases/4218520/assets",
-      "htmlUrl": "https://github.com/Cwoodall6/quickcalc/releases/tag/v1.0.0",
-      "id": 4218520,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "quickcalc_v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "Cwoodall6",
-        "id": 8728281,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8728281?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Cwoodall6",
-        "htmlUrl": "https://github.com/Cwoodall6",
-        "followersUrl": "https://api.github.com/users/Cwoodall6/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Cwoodall6/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Cwoodall6/orgs",
-        "reposUrl": "https://api.github.com/users/Cwoodall6/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Cwoodall6/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-23T21:57:02.000Z",
-      "publishedAt": "2016-09-23T22:04:42.000Z",
-      "tarballUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/Cwoodall6/quickcalc/zipball/v1.0.0",
-      "body": "First Release!!!\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:17:40.113Z"
 }

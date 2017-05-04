@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "vcore-server",
     "private": true,
@@ -130,7 +130,6 @@
       "desktop": "cd desktop && electron ."
     },
     "main": "app.js",
-    "author": "timl",
     "license": "private",
     "dependencies": {
       "prompt": "^1.0.0"
@@ -161,5 +160,7 @@
       "url": "https://api.github.com/repos/timlycett/view-seed/git/commits/6c00bf0db4f213cfb97d0d93208b8b66c6859991",
       "commentCount": 0
     }
-  }
+  },
+  "filename": "timlycett___view-seed.json",
+  "lastFetchedAt": "2017-05-04T20:13:38.000Z"
 }

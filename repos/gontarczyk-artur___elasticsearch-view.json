@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "elasticsearch-view",
     "description": "Management Tool for Elasticsearch",
@@ -88,9 +88,6 @@
       "electron": "1.4.6",
       "electron-builder": "8.6.0",
       "gulp": "3.9.1"
-    },
-    "other": {
-      "author": "Artur Gontarczyk <gontarczyk.artur@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -119,5 +116,6 @@
       "commentCount": 0
     }
   },
-  "filename": "gontarczyk-artur___elasticsearch-view.json"
+  "filename": "gontarczyk-artur___elasticsearch-view.json",
+  "lastFetchedAt": "2017-05-04T20:03:44.443Z"
 }

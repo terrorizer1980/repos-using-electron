@@ -5,7 +5,7 @@
   "owner": {
     "login": "ExtremeModeration",
     "id": 10204023,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10204023?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/10204023?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ExtremeModeration",
     "htmlUrl": "https://github.com/ExtremeModeration",
@@ -20,13 +20,13 @@
   "description": "A desktop application command center. Control stream settings, read chat, and control the bot!",
   "fork": false,
   "createdAt": "2014-12-18T20:57:36.000Z",
-  "updatedAt": "2015-06-22T06:29:55.000Z",
-  "pushedAt": "2015-06-28T00:36:41.000Z",
+  "updatedAt": "2017-01-13T19:39:20.000Z",
+  "pushedAt": "2017-01-13T19:39:40.000Z",
   "homepage": null,
-  "size": 660,
-  "stargazersCount": 0,
-  "watchersCount": 0,
-  "language": "CSS",
+  "size": 514,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,16 +42,16 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
+    "key": "isc",
+    "name": "ISC License",
+    "spdxId": "ISC",
+    "url": "https://api.github.com/licenses/isc",
+    "featured": false
   },
   "organization": {
     "login": "ExtremeModeration",
     "id": 10204023,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10204023?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/10204023?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ExtremeModeration",
     "htmlUrl": "https://github.com/ExtremeModeration",
@@ -154,7 +154,6 @@
   "cloneUrl": "https://github.com/ExtremeModeration/CommandCenter.git",
   "svnUrl": "https://github.com/ExtremeModeration/CommandCenter",
   "mirrorUrl": null,
-  "contributors": [],
   "firstCommit": {
     "sha": "c65bf203b47cf1df63f3e65415f2cf83b669b248",
     "commit": {
@@ -178,5 +177,6 @@
     }
   },
   "filename": "ExtremeModeration___CommandCenter.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:41:04.610Z"
 }

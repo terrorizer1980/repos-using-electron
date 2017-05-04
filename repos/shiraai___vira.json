@@ -5,7 +5,7 @@
   "owner": {
     "login": "shiraai",
     "id": 15001003,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15001003?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/15001003?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/shiraai",
     "htmlUrl": "https://github.com/shiraai",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/shiraai/vira/downloads",
   "deploymentsUrl": "https://api.github.com/repos/shiraai/vira/deployments",
   "createdAt": "2016-05-02T03:17:59.000Z",
-  "updatedAt": "2016-05-02T20:50:42.000Z",
+  "updatedAt": "2017-03-03T20:38:51.000Z",
   "pushedAt": "2016-05-28T15:33:59.000Z",
   "gitUrl": "git://github.com/shiraai/vira.git",
   "sshUrl": "git@github.com:shiraai/vira.git",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 0,
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "shiraai",
     "id": 15001003,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15001003?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/15001003?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/shiraai",
     "htmlUrl": "https://github.com/shiraai",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/shiraai/received_events",
     "type": "Organization"
   },
-  "networkCount": 1,
-  "subscribersCount": 1,
+  "networkCount": 0,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "vira",
@@ -93,11 +93,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "gyaru",
-    "rekyuu",
-    "nopppers"
-  ],
   "firstCommit": {
     "sha": "3bf103cd48832bc1801a5a33171b47366af94da9",
     "commit": {
@@ -121,5 +116,6 @@
     }
   },
   "filename": "shiraai___vira.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:42:31.140Z"
 }

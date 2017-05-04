@@ -170,11 +170,6 @@
     "description": "My excellent app",
     "license": "MIT",
     "repository": "vdemedes/npm-search",
-    "author": {
-      "name": "vdemedes",
-      "email": "vdemedes@gmail.com",
-      "url": "github.com/vdemedes"
-    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -216,10 +211,19 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "vdemedes",
+        "email": "vdemedes@gmail.com",
+        "url": "github.com/vdemedes"
+      }
     }
   },
   "packageStatus": 404,
   "contributors": [
     "vdemedes"
-  ]
+  ],
+  "filename": "sindresorhus___npm-search.json",
+  "lastFetchedAt": "2017-05-04T18:03:18.720Z"
 }

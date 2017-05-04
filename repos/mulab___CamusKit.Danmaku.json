@@ -64,7 +64,7 @@
   },
   "networkCount": 1,
   "subscribersCount": 9,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "camuskit-danmaku",
     "productName": "Camuskit.Danmaku",
@@ -72,11 +72,6 @@
     "description": "CamusKit.Danmaku",
     "license": "MIT",
     "repository": "mulab/camuskit-danmaku",
-    "author": {
-      "name": "TennyZhuang",
-      "email": "zty0826@gmail.com",
-      "url": "lab.mu"
-    },
     "electronVersion": "1.2.3",
     "scripts": {
       "postinstall": "bower install",
@@ -107,6 +102,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "TennyZhuang",
+        "email": "zty0826@gmail.com",
+        "url": "lab.mu"
+      }
     }
   },
   "packageStatus": 404,
@@ -114,5 +116,7 @@
     "benpigchu",
     "SongzhouYang",
     "TennyZhuang"
-  ]
+  ],
+  "filename": "mulab___CamusKit.Danmaku.json",
+  "lastFetchedAt": "2017-05-04T21:02:00.730Z"
 }

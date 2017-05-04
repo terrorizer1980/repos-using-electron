@@ -5,7 +5,7 @@
   "owner": {
     "login": "uetchy",
     "id": 431808,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/431808?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/431808?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/uetchy",
     "htmlUrl": "https://github.com/uetchy",
@@ -120,9 +120,6 @@
   "cloneUrl": "https://github.com/uetchy/MacArthur.git",
   "svnUrl": "https://github.com/uetchy/MacArthur",
   "mirrorUrl": null,
-  "contributors": [
-    "uetchy"
-  ],
   "firstCommit": {
     "sha": "a50f64e8b51a5100bfdd0c76b356a53ded00b4dc",
     "commit": {
@@ -146,65 +143,6 @@
     }
   },
   "filename": "uetchy___MacArthur.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/uetchy/MacArthur/releases/3821451",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/uetchy/MacArthur/releases/assets/2099303",
-          "id": 2099303,
-          "name": "MacArthur-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "uetchy",
-            "id": 431808,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/431808?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/uetchy",
-            "htmlUrl": "https://github.com/uetchy",
-            "followersUrl": "https://api.github.com/users/uetchy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/uetchy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/uetchy/orgs",
-            "reposUrl": "https://api.github.com/users/uetchy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/uetchy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 46754412,
-          "downloadCount": 0,
-          "createdAt": "2016-08-05T11:36:59.000Z",
-          "updatedAt": "2016-08-05T11:38:53.000Z",
-          "browserDownloadUrl": "https://github.com/uetchy/MacArthur/releases/download/v1.0.0/MacArthur-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/uetchy/MacArthur/releases/3821451/assets",
-      "htmlUrl": "https://github.com/uetchy/MacArthur/releases/tag/v1.0.0",
-      "id": 3821451,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "uetchy",
-        "id": 431808,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/431808?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/uetchy",
-        "htmlUrl": "https://github.com/uetchy",
-        "followersUrl": "https://api.github.com/users/uetchy/followers",
-        "subscriptionsUrl": "https://api.github.com/users/uetchy/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/uetchy/orgs",
-        "reposUrl": "https://api.github.com/users/uetchy/repos",
-        "receivedEventsUrl": "https://api.github.com/users/uetchy/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-08-05T11:36:10.000Z",
-      "publishedAt": "2016-08-05T12:15:45.000Z",
-      "tarballUrl": "https://api.github.com/repos/uetchy/MacArthur/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/uetchy/MacArthur/zipball/v1.0.0",
-      "body": "First release!\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-03T20:05:11.858Z"
 }

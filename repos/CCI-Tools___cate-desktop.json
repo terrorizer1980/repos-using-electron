@@ -5,7 +5,7 @@
   "owner": {
     "login": "CCI-Tools",
     "id": 17924920,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17924920?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/17924920?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/CCI-Tools",
     "htmlUrl": "https://github.com/CCI-Tools",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/CCI-Tools/cate-desktop",
-  "description": "Desktop GUI for Cate",
+  "description": "Desktop GUI for the ESA CCI Toolbox (Cate)",
   "fork": false,
   "url": "https://api.github.com/repos/CCI-Tools/cate-desktop",
   "forksUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/CCI-Tools/cate-desktop/deployments",
   "createdAt": "2016-11-02T15:03:15.000Z",
-  "updatedAt": "2016-11-10T11:44:59.000Z",
-  "pushedAt": "2016-11-16T22:07:06.000Z",
+  "updatedAt": "2017-02-24T13:42:20.000Z",
+  "pushedAt": "2017-04-25T12:09:24.000Z",
   "gitUrl": "git://github.com/CCI-Tools/cate-desktop.git",
   "sshUrl": "git@github.com:CCI-Tools/cate-desktop.git",
   "cloneUrl": "https://github.com/CCI-Tools/cate-desktop.git",
   "svnUrl": "https://github.com/CCI-Tools/cate-desktop",
-  "homepage": null,
-  "size": 7152,
+  "homepage": "",
+  "size": 9238,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "TypeScript",
@@ -50,10 +50,10 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -71,7 +71,7 @@
   "organization": {
     "login": "CCI-Tools",
     "id": 17924920,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17924920?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/17924920?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/CCI-Tools",
     "htmlUrl": "https://github.com/CCI-Tools",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/CCI-Tools/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "networkCount": 1,
+  "subscribersCount": 7,
   "status": 200,
   "packageJSON": {
     "name": "cate-desktop",
@@ -159,9 +159,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "forman"
-  ],
   "firstCommit": {
     "sha": "eea472b234c70e310a9f7f0f9a1420bdfd318144",
     "commit": {
@@ -185,5 +182,6 @@
     }
   },
   "filename": "CCI-Tools___cate-desktop.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:25:30.223Z"
 }

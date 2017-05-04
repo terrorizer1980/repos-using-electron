@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "youths",
     "version": "0.1.0",
@@ -90,12 +90,6 @@
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
-    },
-    "other": {
-      "author": "GitHub",
-      "bugs": {
-        "url": "https://github.com/electron/electron-quick-start/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -124,5 +118,6 @@
       "commentCount": 0
     }
   },
-  "filename": "TNT-Likely___desktopApp.json"
+  "filename": "TNT-Likely___desktopApp.json",
+  "lastFetchedAt": "2017-05-04T18:20:35.735Z"
 }

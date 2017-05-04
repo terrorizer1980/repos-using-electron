@@ -84,12 +84,11 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "ng2-admin",
     "version": "0.7.0",
     "description": "Angular 2 and Bootstrap 4 Admin Template.",
-    "author": "akveo",
     "homepage": "http://akveo.github.io/ng2-admin/",
     "license": "MIT",
     "dependencies": {
@@ -231,13 +230,7 @@
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/akveo/ng2-admin.git"
-    },
-    "bugs": {
-      "url": "https://github.com/akveo/ng2-admin/issues"
-    },
+    "repository": "https://github.com/akveo/ng2-admin",
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -246,5 +239,7 @@
   "packageStatus": 200,
   "contributors": [
     "CyberKronos"
-  ]
+  ],
+  "filename": "Viralyze___old-sway-trading-dashboard.json",
+  "lastFetchedAt": "2017-05-04T16:45:12.659Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "neruchev",
     "id": 12457398,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12457398?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/12457398?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/neruchev",
     "htmlUrl": "https://github.com/neruchev",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/neruchev/i18next-electron-language-detector/downloads",
   "deploymentsUrl": "https://api.github.com/repos/neruchev/i18next-electron-language-detector/deployments",
   "createdAt": "2016-10-02T14:15:56.000Z",
-  "updatedAt": "2016-10-02T14:22:42.000Z",
+  "updatedAt": "2016-12-17T11:21:41.000Z",
   "pushedAt": "2016-10-22T21:50:17.000Z",
   "gitUrl": "git://github.com/neruchev/i18next-electron-language-detector.git",
   "sshUrl": "git@github.com:neruchev/i18next-electron-language-detector.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/neruchev/i18next-electron-language-detector",
   "homepage": null,
   "size": 4,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 3,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -97,21 +97,9 @@
       "babel-plugin-add-module-exports": "*",
       "babel-preset-es2015": "*",
       "babel-register": "*"
-    },
-    "other": {
-      "author": {
-        "name": "Cyril Neruchev",
-        "email": "k.neruchev@gmail.com"
-      },
-      "bugs": {
-        "url": "https://github.com/neruchev/i18next-electron-language-detector/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "neruchev"
-  ],
   "firstCommit": {
     "sha": "fc23bb9cf4e20ebaf62cad2239c4a54f8ff078df",
     "commit": {
@@ -135,5 +123,6 @@
     }
   },
   "filename": "neruchev___i18next-electron-language-detector.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:12:38.993Z"
 }

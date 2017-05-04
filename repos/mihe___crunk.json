@@ -5,7 +5,7 @@
   "owner": {
     "login": "mihe",
     "id": 4884246,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4884246?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/4884246?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mihe",
     "htmlUrl": "https://github.com/mihe",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/mihe/crunk",
-  "description": "Music player that aims to support sources such as YouTube, SoundCloud and Reddit",
+  "description": "🎵 Electron-powered music player sourcing social platforms",
   "fork": false,
   "url": "https://api.github.com/repos/mihe/crunk",
   "forksUrl": "https://api.github.com/repos/mihe/crunk/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/mihe/crunk/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mihe/crunk/deployments",
   "createdAt": "2016-09-03T14:45:01.000Z",
-  "updatedAt": "2016-10-19T18:28:21.000Z",
-  "pushedAt": "2016-10-20T08:49:46.000Z",
+  "updatedAt": "2017-01-09T03:51:52.000Z",
+  "pushedAt": "2017-03-28T18:01:48.000Z",
   "gitUrl": "git://github.com/mihe/crunk.git",
   "sshUrl": "git@github.com:mihe/crunk.git",
   "cloneUrl": "https://github.com/mihe/crunk.git",
   "svnUrl": "https://github.com/mihe/crunk",
   "homepage": "",
-  "size": 226,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 680,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -115,9 +115,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mihe"
-  ],
   "firstCommit": {
     "sha": "181eff0f45df9d0f82fb866cb8e4cbe09021f6e4",
     "commit": {
@@ -141,5 +138,6 @@
     }
   },
   "filename": "mihe___crunk.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:31:04.195Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "nikharris0",
     "id": 794090,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/794090?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/794090?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nikharris0",
     "htmlUrl": "https://github.com/nikharris0",
@@ -20,12 +20,12 @@
   "description": "An electron-based, cross-platform app for using Apple's iCloud",
   "fork": false,
   "createdAt": "2016-05-18T02:42:24.000Z",
-  "updatedAt": "2016-05-18T02:45:41.000Z",
+  "updatedAt": "2016-11-07T17:15:31.000Z",
   "pushedAt": "2016-05-18T03:58:59.000Z",
   "homepage": null,
   "size": 3,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -91,9 +91,6 @@
   "cloneUrl": "https://github.com/nikharris0/electron-cloud.git",
   "svnUrl": "https://github.com/nikharris0/electron-cloud",
   "mirrorUrl": null,
-  "contributors": [
-    "nikharris0"
-  ],
   "firstCommit": {
     "sha": "5788ecb2c6865ee6baa08bc693ff9c3513e9c28b",
     "commit": {
@@ -117,92 +114,6 @@
     }
   },
   "filename": "nikharris0___electron-cloud.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/nikharris0/electron-cloud/releases/3247674",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/nikharris0/electron-cloud/releases/assets/1699372",
-          "id": 1699372,
-          "name": "electron-cloud-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "nikharris0",
-            "id": 794090,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/794090?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/nikharris0",
-            "htmlUrl": "https://github.com/nikharris0",
-            "followersUrl": "https://api.github.com/users/nikharris0/followers",
-            "subscriptionsUrl": "https://api.github.com/users/nikharris0/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/nikharris0/orgs",
-            "reposUrl": "https://api.github.com/users/nikharris0/repos",
-            "receivedEventsUrl": "https://api.github.com/users/nikharris0/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 40451467,
-          "downloadCount": 3,
-          "createdAt": "2016-05-18T03:47:12.000Z",
-          "updatedAt": "2016-05-18T03:51:44.000Z",
-          "browserDownloadUrl": "https://github.com/nikharris0/electron-cloud/releases/download/0.0.1/electron-cloud-linux-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/nikharris0/electron-cloud/releases/assets/1699376",
-          "id": 1699376,
-          "name": "electron-cloud-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "nikharris0",
-            "id": 794090,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/794090?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/nikharris0",
-            "htmlUrl": "https://github.com/nikharris0",
-            "followersUrl": "https://api.github.com/users/nikharris0/followers",
-            "subscriptionsUrl": "https://api.github.com/users/nikharris0/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/nikharris0/orgs",
-            "reposUrl": "https://api.github.com/users/nikharris0/repos",
-            "receivedEventsUrl": "https://api.github.com/users/nikharris0/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 51142418,
-          "downloadCount": 0,
-          "createdAt": "2016-05-18T03:48:00.000Z",
-          "updatedAt": "2016-05-18T03:53:44.000Z",
-          "browserDownloadUrl": "https://github.com/nikharris0/electron-cloud/releases/download/0.0.1/electron-cloud-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/nikharris0/electron-cloud/releases/3247674/assets",
-      "htmlUrl": "https://github.com/nikharris0/electron-cloud/releases/tag/0.0.1",
-      "id": 3247674,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "First Release",
-      "draft": false,
-      "author": {
-        "login": "nikharris0",
-        "id": 794090,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/794090?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/nikharris0",
-        "htmlUrl": "https://github.com/nikharris0",
-        "followersUrl": "https://api.github.com/users/nikharris0/followers",
-        "subscriptionsUrl": "https://api.github.com/users/nikharris0/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/nikharris0/orgs",
-        "reposUrl": "https://api.github.com/users/nikharris0/repos",
-        "receivedEventsUrl": "https://api.github.com/users/nikharris0/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-18T02:47:15.000Z",
-      "publishedAt": "2016-05-18T03:58:59.000Z",
-      "tarballUrl": "https://api.github.com/repos/nikharris0/electron-cloud/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/nikharris0/electron-cloud/zipball/0.0.1",
-      "body": "First release of Electron Cloud. Builds are provided for Linux and Windows.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:13:23.077Z"
 }

@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "joint-electron",
     "version": "1.0.0",
@@ -74,14 +74,18 @@
       "build:app": "cd app && npm run build",
       "build": "npm run build:app && electron-packager ./app JointElectron --overwrite --all=true --out=./build"
     },
-    "author": "jens-a-e",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.2.1"
+    },
+    "other": {
+      "author": "jens-a-e"
     }
   },
   "packageStatus": 200,
   "contributors": [
     "jens-a-e"
-  ]
+  ],
+  "filename": "jens-a-e___joint-electron.json",
+  "lastFetchedAt": "2017-05-04T21:09:06.733Z"
 }

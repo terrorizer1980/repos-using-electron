@@ -59,21 +59,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -82,5 +75,7 @@
   "packageStatus": 404,
   "contributors": [
     "Lamod"
-  ]
+  ],
+  "filename": "Lamod___LuaViewDebugger.json",
+  "lastFetchedAt": "2017-05-04T21:02:46.782Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "davidroyer",
     "id": 8834693,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8834693?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/8834693?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/davidroyer",
     "htmlUrl": "https://github.com/davidroyer",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/davidroyer/pocketvue/downloads",
   "deploymentsUrl": "https://api.github.com/repos/davidroyer/pocketvue/deployments",
   "createdAt": "2016-11-16T17:07:50.000Z",
-  "updatedAt": "2016-11-26T10:38:03.000Z",
+  "updatedAt": "2017-04-22T23:18:05.000Z",
   "pushedAt": "2016-11-19T04:11:24.000Z",
   "gitUrl": "git://github.com/davidroyer/pocketvue.git",
   "sshUrl": "git@github.com:davidroyer/pocketvue.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/davidroyer/pocketvue",
   "homepage": null,
   "size": 1087,
-  "stargazersCount": 9,
-  "watchersCount": 9,
+  "stargazersCount": 15,
+  "watchersCount": 15,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 3,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 9,
+  "watchers": 15,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,7 +62,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 1,
+  "networkCount": 3,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -118,9 +118,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "davidroyer"
-  ],
   "firstCommit": {
     "sha": "d92f827478e8f8142af0e11467b3e8477023b80d",
     "commit": {
@@ -144,155 +141,6 @@
     }
   },
   "filename": "davidroyer___pocketvue.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/davidroyer/pocketvue/releases/4704948",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/davidroyer/pocketvue/releases/4704948/assets",
-      "htmlUrl": "https://github.com/davidroyer/pocketvue/releases/tag/1.03-alpha",
-      "id": 4704948,
-      "tagName": "1.03-alpha",
-      "targetCommitish": "master",
-      "name": "PocketVue 1.03-alpha",
-      "draft": false,
-      "author": {
-        "login": "davidroyer",
-        "id": 8834693,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8834693?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/davidroyer",
-        "htmlUrl": "https://github.com/davidroyer",
-        "followersUrl": "https://api.github.com/users/davidroyer/followers",
-        "subscriptionsUrl": "https://api.github.com/users/davidroyer/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/davidroyer/orgs",
-        "reposUrl": "https://api.github.com/users/davidroyer/repos",
-        "receivedEventsUrl": "https://api.github.com/users/davidroyer/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-19T04:04:08.000Z",
-      "publishedAt": "2016-11-19T04:11:23.000Z",
-      "tarballUrl": "https://api.github.com/repos/davidroyer/pocketvue/tarball/1.03-alpha",
-      "zipballUrl": "https://api.github.com/repos/davidroyer/pocketvue/zipball/1.03-alpha",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/davidroyer/pocketvue/releases/4700638",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/davidroyer/pocketvue/releases/assets/2668787",
-          "id": 2668787,
-          "name": "PocketVue-MAC-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "davidroyer",
-            "id": 8834693,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8834693?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/davidroyer",
-            "htmlUrl": "https://github.com/davidroyer",
-            "followersUrl": "https://api.github.com/users/davidroyer/followers",
-            "subscriptionsUrl": "https://api.github.com/users/davidroyer/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/davidroyer/orgs",
-            "reposUrl": "https://api.github.com/users/davidroyer/repos",
-            "receivedEventsUrl": "https://api.github.com/users/davidroyer/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41084849,
-          "downloadCount": 3,
-          "createdAt": "2016-11-18T16:44:08.000Z",
-          "updatedAt": "2016-11-18T16:44:18.000Z",
-          "browserDownloadUrl": "https://github.com/davidroyer/pocketvue/releases/download/1.02-alpha/PocketVue-MAC-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/davidroyer/pocketvue/releases/4700638/assets",
-      "htmlUrl": "https://github.com/davidroyer/pocketvue/releases/tag/1.02-alpha",
-      "id": 4700638,
-      "tagName": "1.02-alpha",
-      "targetCommitish": "master",
-      "name": "PocketVue 1.02-alpha",
-      "draft": false,
-      "author": {
-        "login": "davidroyer",
-        "id": 8834693,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8834693?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/davidroyer",
-        "htmlUrl": "https://github.com/davidroyer",
-        "followersUrl": "https://api.github.com/users/davidroyer/followers",
-        "subscriptionsUrl": "https://api.github.com/users/davidroyer/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/davidroyer/orgs",
-        "reposUrl": "https://api.github.com/users/davidroyer/repos",
-        "receivedEventsUrl": "https://api.github.com/users/davidroyer/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-18T16:42:18.000Z",
-      "publishedAt": "2016-11-18T16:45:02.000Z",
-      "tarballUrl": "https://api.github.com/repos/davidroyer/pocketvue/tarball/1.02-alpha",
-      "zipballUrl": "https://api.github.com/repos/davidroyer/pocketvue/zipball/1.02-alpha",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/davidroyer/pocketvue/releases/4693660",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/davidroyer/pocketvue/releases/assets/2664613",
-          "id": 2664613,
-          "name": "PocketVue-MAC-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "davidroyer",
-            "id": 8834693,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8834693?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/davidroyer",
-            "htmlUrl": "https://github.com/davidroyer",
-            "followersUrl": "https://api.github.com/users/davidroyer/followers",
-            "subscriptionsUrl": "https://api.github.com/users/davidroyer/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/davidroyer/orgs",
-            "reposUrl": "https://api.github.com/users/davidroyer/repos",
-            "receivedEventsUrl": "https://api.github.com/users/davidroyer/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41084837,
-          "downloadCount": 2,
-          "createdAt": "2016-11-18T00:40:41.000Z",
-          "updatedAt": "2016-11-18T00:41:41.000Z",
-          "browserDownloadUrl": "https://github.com/davidroyer/pocketvue/releases/download/1.01-alpha/PocketVue-MAC-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/davidroyer/pocketvue/releases/4693660/assets",
-      "htmlUrl": "https://github.com/davidroyer/pocketvue/releases/tag/1.01-alpha",
-      "id": 4693660,
-      "tagName": "1.01-alpha",
-      "targetCommitish": "master",
-      "name": "PocketVue ",
-      "draft": false,
-      "author": {
-        "login": "davidroyer",
-        "id": 8834693,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8834693?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/davidroyer",
-        "htmlUrl": "https://github.com/davidroyer",
-        "followersUrl": "https://api.github.com/users/davidroyer/followers",
-        "subscriptionsUrl": "https://api.github.com/users/davidroyer/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/davidroyer/orgs",
-        "reposUrl": "https://api.github.com/users/davidroyer/repos",
-        "receivedEventsUrl": "https://api.github.com/users/davidroyer/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-18T00:22:29.000Z",
-      "publishedAt": "2016-11-18T00:42:09.000Z",
-      "tarballUrl": "https://api.github.com/repos/davidroyer/pocketvue/tarball/1.01-alpha",
-      "zipballUrl": "https://api.github.com/repos/davidroyer/pocketvue/zipball/1.01-alpha",
-      "body": "Working example of Mac Desktop App using Electron and Vue.js\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:32:45.653Z"
 }

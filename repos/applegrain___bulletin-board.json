@@ -5,7 +5,7 @@
   "owner": {
     "login": "applegrain",
     "id": 10555255,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10555255?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/10555255?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/applegrain",
     "htmlUrl": "https://github.com/applegrain",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/applegrain/bulletin-board/downloads",
   "deploymentsUrl": "https://api.github.com/repos/applegrain/bulletin-board/deployments",
   "createdAt": "2016-07-31T03:42:29.000Z",
-  "updatedAt": "2016-09-05T16:41:41.000Z",
+  "updatedAt": "2017-03-18T09:07:06.000Z",
   "pushedAt": "2016-09-05T16:41:41.000Z",
   "gitUrl": "git://github.com/applegrain/bulletin-board.git",
   "sshUrl": "git@github.com:applegrain/bulletin-board.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/applegrain/bulletin-board",
   "homepage": "",
   "size": 22,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "up-and-running",
   "permissions": {
     "admin": false,
@@ -95,9 +95,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "applegrain"
-  ],
   "firstCommit": {
     "sha": "83940afbd49748a8aa582636ff3162b9f4b8938e",
     "commit": {
@@ -121,5 +118,6 @@
     }
   },
   "filename": "applegrain___bulletin-board.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:41:44.168Z"
 }

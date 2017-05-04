@@ -179,21 +179,14 @@
       "build:win": "./scripts/build.sh win32 ia32",
       "build:win32": "./scripts/build.sh win32 ia32"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/geeeeeeeeek/wechat-electron.git"
-    },
+    "repository": "https://github.com/geeeeeeeeek/wechat-electron",
     "keywords": [
       "Electron",
       "WeChat",
       "微信",
       "Web"
     ],
-    "author": "Zhongyi Tong",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/geeeeeeeeek/wechat-electron/issues"
-    },
     "homepage": "https://github.com/geeeeeeeeek/wechat-electron/",
     "dependencies": {
       "electron-prebuilt": "^0.36.9",
@@ -210,5 +203,7 @@
     "iamcc",
     "gucheen",
     "wenLiangcan"
-  ]
+  ],
+  "filename": "articoder___electronic-wechat.json",
+  "lastFetchedAt": "2017-05-04T19:35:50.224Z"
 }

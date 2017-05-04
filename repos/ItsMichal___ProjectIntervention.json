@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 3,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "projectintervention",
     "version": "0.0.1",
@@ -84,12 +84,6 @@
     "homepage": "https://github.com/ItsMichal/ProjectIntervention#readme",
     "dependencies": {
       "electron": "^1.4.1"
-    },
-    "other": {
-      "author": "CLASSIFIED",
-      "bugs": {
-        "url": "https://github.com/ItsMichal/ProjectIntervention/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +113,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ItsMichal___ProjectIntervention.json"
+  "filename": "ItsMichal___ProjectIntervention.json",
+  "lastFetchedAt": "2017-05-04T20:32:12.887Z"
 }

@@ -162,7 +162,7 @@
   },
   "networkCount": 10,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "trailbot-client",
     "version": "0.2.0",
@@ -181,7 +181,6 @@
     "repository": "https://github.com/trailbot/client",
     "homepage": "https://trailbot.io",
     "license": "MIT",
-    "author": "Adán Sánchez de Pedro Crespo <adan@stampery.com>",
     "contributors": [],
     "dependencies": {
       "electron-bin": "^0.37.3",
@@ -207,11 +206,16 @@
     },
     "bin": {
       "trailbot-client": "./run.js"
+    },
+    "other": {
+      "author": "Adán Sánchez de Pedro Crespo <adan@stampery.com>"
     }
   },
   "packageStatus": 404,
   "contributors": [
     "aesedepece",
     "burguesia"
-  ]
+  ],
+  "filename": "sepehr___client.json",
+  "lastFetchedAt": "2017-05-04T17:33:46.675Z"
 }

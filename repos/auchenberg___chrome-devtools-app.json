@@ -5,7 +5,7 @@
   "owner": {
     "login": "auchenberg",
     "id": 173559,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/173559?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/173559?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/auchenberg",
     "htmlUrl": "https://github.com/auchenberg",
@@ -20,21 +20,21 @@
   "description": "Chrome DevTools packaged as an app via Electron",
   "fork": false,
   "createdAt": "2014-11-17T06:06:51.000Z",
-  "updatedAt": "2016-08-09T05:45:17.000Z",
+  "updatedAt": "2017-04-28T13:05:45.000Z",
   "pushedAt": "2015-11-20T08:39:32.000Z",
   "homepage": "",
   "size": 226344,
-  "stargazersCount": 1295,
-  "watchersCount": 1295,
+  "stargazersCount": 1389,
+  "watchersCount": 1389,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 73,
-  "openIssuesCount": 14,
-  "openIssues": 14,
-  "watchers": 1295,
+  "forksCount": 81,
+  "openIssuesCount": 15,
+  "openIssues": 15,
+  "watchers": 1389,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 73,
-  "subscribersCount": 47,
+  "networkCount": 81,
+  "subscribersCount": 49,
   "status": 200,
   "packageJSON": {
     "name": "chrome-devtools",
@@ -87,14 +87,6 @@
     "homepage": "https://github.com/auchenberg/chrome-devtools-app"
   },
   "packageStatus": 200,
-  "contributors": [
-    "auchenberg",
-    "gingermusketeer",
-    "vanjacosic",
-    "shidel-dev",
-    "pertrai1",
-    "gitter-badger"
-  ],
   "firstCommit": {
     "sha": "2777474a16f7f2bee1caca7066ce0465bf86d6ec",
     "commit": {
@@ -118,65 +110,26 @@
     }
   },
   "filename": "auchenberg___chrome-devtools-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/auchenberg/chrome-devtools-app/releases/2158469",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/auchenberg/chrome-devtools-app/releases/assets/1053892",
-          "id": 1053892,
-          "name": "chrome-devtools-app_1.1.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "auchenberg",
-            "id": 173559,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/173559?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/auchenberg",
-            "htmlUrl": "https://github.com/auchenberg",
-            "followersUrl": "https://api.github.com/users/auchenberg/followers",
-            "subscriptionsUrl": "https://api.github.com/users/auchenberg/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/auchenberg/orgs",
-            "reposUrl": "https://api.github.com/users/auchenberg/repos",
-            "receivedEventsUrl": "https://api.github.com/users/auchenberg/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 45916776,
-          "downloadCount": 1928,
-          "createdAt": "2015-11-20T08:27:47.000Z",
-          "updatedAt": "2015-11-20T08:28:19.000Z",
-          "browserDownloadUrl": "https://github.com/auchenberg/chrome-devtools-app/releases/download/v1.1.0/chrome-devtools-app_1.1.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/releases/2158469/assets",
-      "htmlUrl": "https://github.com/auchenberg/chrome-devtools-app/releases/tag/v1.1.0",
-      "id": 2158469,
-      "tagName": "v1.1.0",
-      "targetCommitish": "master",
-      "name": "v1.1.0",
-      "draft": false,
-      "author": {
-        "login": "auchenberg",
-        "id": 173559,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/173559?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/auchenberg",
-        "htmlUrl": "https://github.com/auchenberg",
-        "followersUrl": "https://api.github.com/users/auchenberg/followers",
-        "subscriptionsUrl": "https://api.github.com/users/auchenberg/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/auchenberg/orgs",
-        "reposUrl": "https://api.github.com/users/auchenberg/repos",
-        "receivedEventsUrl": "https://api.github.com/users/auchenberg/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-20T08:25:41.000Z",
-      "publishedAt": "2015-11-20T08:28:25.000Z",
-      "tarballUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/tarball/v1.1.0",
-      "zipballUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/zipball/v1.1.0",
-      "body": "- DevTools upgraded to revision 202726 \n- New “official” logo \n- Migration to Electron\n- New official DMG installer for Mac\n\nA big shootout to [@vanjacosic](https://github.com/vanjacosic) for Electron and installer work.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/auchenberg/chrome-devtools-app",
+  "url": "https://api.github.com/repos/auchenberg/chrome-devtools-app",
+  "forksUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/forks",
+  "teamsUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/teams",
+  "hooksUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/events",
+  "tagsUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/tags",
+  "languagesUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/auchenberg/chrome-devtools-app/deployments",
+  "gitUrl": "git://github.com/auchenberg/chrome-devtools-app.git",
+  "sshUrl": "git@github.com:auchenberg/chrome-devtools-app.git",
+  "cloneUrl": "https://github.com/auchenberg/chrome-devtools-app.git",
+  "svnUrl": "https://github.com/auchenberg/chrome-devtools-app",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:55:49.552Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "samiconductor",
     "id": 603812,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/603812?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/603812?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/samiconductor",
     "htmlUrl": "https://github.com/samiconductor",
@@ -21,7 +21,7 @@
   "fork": false,
   "createdAt": "2016-08-08T05:24:05.000Z",
   "updatedAt": "2016-08-08T05:25:46.000Z",
-  "pushedAt": "2016-08-21T05:03:57.000Z",
+  "pushedAt": "2016-12-07T02:42:46.000Z",
   "homepage": null,
   "size": 408,
   "stargazersCount": 0,
@@ -112,9 +112,6 @@
   "cloneUrl": "https://github.com/samiconductor/chromiarm.git",
   "svnUrl": "https://github.com/samiconductor/chromiarm",
   "mirrorUrl": null,
-  "contributors": [
-    "samiconductor"
-  ],
   "firstCommit": {
     "sha": "c94cdde2e605ddfb74056344ab8b755a1e6b2faa",
     "commit": {
@@ -138,123 +135,6 @@
     }
   },
   "filename": "samiconductor___chromiarm.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/samiconductor/chromiarm/releases/3933984",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/samiconductor/chromiarm/releases/assets/2176484",
-          "id": 2176484,
-          "name": "chromiarm_0.2.0_amd64.deb",
-          "label": null,
-          "uploader": {
-            "login": "samiconductor",
-            "id": 603812,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/603812?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/samiconductor",
-            "htmlUrl": "https://github.com/samiconductor",
-            "followersUrl": "https://api.github.com/users/samiconductor/followers",
-            "subscriptionsUrl": "https://api.github.com/users/samiconductor/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/samiconductor/orgs",
-            "reposUrl": "https://api.github.com/users/samiconductor/repos",
-            "receivedEventsUrl": "https://api.github.com/users/samiconductor/received_events",
-            "type": "User"
-          },
-          "contentType": "application/vnd.debian.binary-package",
-          "state": "uploaded",
-          "size": 30486444,
-          "downloadCount": 0,
-          "createdAt": "2016-08-21T05:09:52.000Z",
-          "updatedAt": "2016-08-21T05:10:35.000Z",
-          "browserDownloadUrl": "https://github.com/samiconductor/chromiarm/releases/download/0.2.0/chromiarm_0.2.0_amd64.deb"
-        },
-        {
-          "url": "https://api.github.com/repos/samiconductor/chromiarm/releases/assets/2176485",
-          "id": 2176485,
-          "name": "chromiarm_0.2.0_i386.deb",
-          "label": null,
-          "uploader": {
-            "login": "samiconductor",
-            "id": 603812,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/603812?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/samiconductor",
-            "htmlUrl": "https://github.com/samiconductor",
-            "followersUrl": "https://api.github.com/users/samiconductor/followers",
-            "subscriptionsUrl": "https://api.github.com/users/samiconductor/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/samiconductor/orgs",
-            "reposUrl": "https://api.github.com/users/samiconductor/repos",
-            "receivedEventsUrl": "https://api.github.com/users/samiconductor/received_events",
-            "type": "User"
-          },
-          "contentType": "application/vnd.debian.binary-package",
-          "state": "uploaded",
-          "size": 31292246,
-          "downloadCount": 0,
-          "createdAt": "2016-08-21T05:09:52.000Z",
-          "updatedAt": "2016-08-21T05:11:17.000Z",
-          "browserDownloadUrl": "https://github.com/samiconductor/chromiarm/releases/download/0.2.0/chromiarm_0.2.0_i386.deb"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/samiconductor/chromiarm/releases/3933984/assets",
-      "htmlUrl": "https://github.com/samiconductor/chromiarm/releases/tag/0.2.0",
-      "id": 3933984,
-      "tagName": "0.2.0",
-      "targetCommitish": "master",
-      "name": "Debian Packages",
-      "draft": false,
-      "author": {
-        "login": "samiconductor",
-        "id": 603812,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/603812?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/samiconductor",
-        "htmlUrl": "https://github.com/samiconductor",
-        "followersUrl": "https://api.github.com/users/samiconductor/followers",
-        "subscriptionsUrl": "https://api.github.com/users/samiconductor/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/samiconductor/orgs",
-        "reposUrl": "https://api.github.com/users/samiconductor/repos",
-        "receivedEventsUrl": "https://api.github.com/users/samiconductor/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-21T04:58:42.000Z",
-      "publishedAt": "2016-08-21T05:11:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/samiconductor/chromiarm/tarball/0.2.0",
-      "zipballUrl": "https://api.github.com/repos/samiconductor/chromiarm/zipball/0.2.0",
-      "body": "- Configured electron builder and electron installer debian to build amd64 and i386 debian packages (#1)\n"
-    },
-    {
-      "url": "https://api.github.com/repos/samiconductor/chromiarm/releases/3893531",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/samiconductor/chromiarm/releases/3893531/assets",
-      "htmlUrl": "https://github.com/samiconductor/chromiarm/releases/tag/0.1.0",
-      "id": 3893531,
-      "tagName": "0.1.0",
-      "targetCommitish": "ec85598d93ddb3671cf6a218300eda3428e8c4b4",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "samiconductor",
-        "id": 603812,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/603812?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/samiconductor",
-        "htmlUrl": "https://github.com/samiconductor",
-        "followersUrl": "https://api.github.com/users/samiconductor/followers",
-        "subscriptionsUrl": "https://api.github.com/users/samiconductor/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/samiconductor/orgs",
-        "reposUrl": "https://api.github.com/users/samiconductor/repos",
-        "receivedEventsUrl": "https://api.github.com/users/samiconductor/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-08T05:38:26.000Z",
-      "publishedAt": "2016-08-16T02:35:04.000Z",
-      "tarballUrl": "https://api.github.com/repos/samiconductor/chromiarm/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/samiconductor/chromiarm/zipball/0.1.0",
-      "body": "- URL bar\n  - Text updates with the URL of the current page on load\n  - If text starts with a scheme, load URL\n  - If text is entered with no scheme and starts with a valid domain, prefix with https and load URL\n  - Else search Google for text\n- Backwards and forwards buttons\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:24:02.920Z"
 }

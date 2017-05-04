@@ -5,7 +5,7 @@
   "owner": {
     "login": "vzaccaria",
     "id": 1923591,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1923591?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1923591?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vzaccaria",
     "htmlUrl": "https://github.com/vzaccaria",
@@ -20,12 +20,12 @@
   "description": "A tiny tool to make teaching easier.",
   "fork": false,
   "createdAt": "2016-04-07T15:55:53.000Z",
-  "updatedAt": "2016-06-19T09:20:56.000Z",
+  "updatedAt": "2016-12-20T04:19:10.000Z",
   "pushedAt": "2016-04-13T10:07:21.000Z",
   "homepage": "",
   "size": 2076,
-  "stargazersCount": 21,
-  "watchersCount": 21,
+  "stargazersCount": 22,
+  "watchersCount": 22,
   "language": "C++",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 21,
+  "watchers": 22,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -135,9 +135,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "vzaccaria"
-  ],
   "firstCommit": {
     "sha": "643026872112a264fcff473d8f5e8a55f35ff3db",
     "commit": {
@@ -161,65 +158,26 @@
     }
   },
   "filename": "vzaccaria___teasy.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/vzaccaria/teasy/releases/3009505",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/vzaccaria/teasy/releases/assets/1544116",
-          "id": 1544116,
-          "name": "Teasy.app.zip",
-          "label": "",
-          "uploader": {
-            "login": "vzaccaria",
-            "id": 1923591,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1923591?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/vzaccaria",
-            "htmlUrl": "https://github.com/vzaccaria",
-            "followersUrl": "https://api.github.com/users/vzaccaria/followers",
-            "subscriptionsUrl": "https://api.github.com/users/vzaccaria/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/vzaccaria/orgs",
-            "reposUrl": "https://api.github.com/users/vzaccaria/repos",
-            "receivedEventsUrl": "https://api.github.com/users/vzaccaria/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 79219948,
-          "downloadCount": 6,
-          "createdAt": "2016-04-13T10:07:22.000Z",
-          "updatedAt": "2016-04-13T10:08:04.000Z",
-          "browserDownloadUrl": "https://github.com/vzaccaria/teasy/releases/download/v2.0.0rc1/Teasy.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/vzaccaria/teasy/releases/3009505/assets",
-      "htmlUrl": "https://github.com/vzaccaria/teasy/releases/tag/v2.0.0rc1",
-      "id": 3009505,
-      "tagName": "v2.0.0rc1",
-      "targetCommitish": "master",
-      "name": "v2.0.0rc1",
-      "draft": false,
-      "author": {
-        "login": "vzaccaria",
-        "id": 1923591,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1923591?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/vzaccaria",
-        "htmlUrl": "https://github.com/vzaccaria",
-        "followersUrl": "https://api.github.com/users/vzaccaria/followers",
-        "subscriptionsUrl": "https://api.github.com/users/vzaccaria/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/vzaccaria/orgs",
-        "reposUrl": "https://api.github.com/users/vzaccaria/repos",
-        "receivedEventsUrl": "https://api.github.com/users/vzaccaria/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-04-13T10:05:06.000Z",
-      "publishedAt": "2016-04-13T10:07:21.000Z",
-      "tarballUrl": "https://api.github.com/repos/vzaccaria/teasy/tarball/v2.0.0rc1",
-      "zipballUrl": "https://api.github.com/repos/vzaccaria/teasy/zipball/v2.0.0rc1",
-      "body": null
-    }
-  ]
+  "htmlUrl": "https://github.com/vzaccaria/teasy",
+  "url": "https://api.github.com/repos/vzaccaria/teasy",
+  "forksUrl": "https://api.github.com/repos/vzaccaria/teasy/forks",
+  "teamsUrl": "https://api.github.com/repos/vzaccaria/teasy/teams",
+  "hooksUrl": "https://api.github.com/repos/vzaccaria/teasy/hooks",
+  "eventsUrl": "https://api.github.com/repos/vzaccaria/teasy/events",
+  "tagsUrl": "https://api.github.com/repos/vzaccaria/teasy/tags",
+  "languagesUrl": "https://api.github.com/repos/vzaccaria/teasy/languages",
+  "stargazersUrl": "https://api.github.com/repos/vzaccaria/teasy/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/vzaccaria/teasy/contributors",
+  "subscribersUrl": "https://api.github.com/repos/vzaccaria/teasy/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/vzaccaria/teasy/subscription",
+  "mergesUrl": "https://api.github.com/repos/vzaccaria/teasy/merges",
+  "downloadsUrl": "https://api.github.com/repos/vzaccaria/teasy/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/vzaccaria/teasy/deployments",
+  "gitUrl": "git://github.com/vzaccaria/teasy.git",
+  "sshUrl": "git@github.com:vzaccaria/teasy.git",
+  "cloneUrl": "https://github.com/vzaccaria/teasy.git",
+  "svnUrl": "https://github.com/vzaccaria/teasy",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T05:24:53.007Z"
 }

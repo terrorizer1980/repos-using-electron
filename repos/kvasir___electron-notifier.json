@@ -5,7 +5,7 @@
   "owner": {
     "login": "kvasir",
     "id": 11892109,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11892109?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/11892109?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kvasir",
     "htmlUrl": "https://github.com/kvasir",
@@ -20,12 +20,12 @@
   "description": "Add cross-platform notifications to Electron apps.",
   "fork": false,
   "createdAt": "2015-11-09T22:01:45.000Z",
-  "updatedAt": "2015-11-09T22:15:09.000Z",
+  "updatedAt": "2016-09-06T15:34:55.000Z",
   "pushedAt": "2015-11-14T09:43:51.000Z",
   "homepage": null,
   "size": 0,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "kvasir",
     "id": 11892109,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11892109?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/11892109?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kvasir",
     "htmlUrl": "https://github.com/kvasir",
@@ -114,10 +114,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "seriema",
-    "MartinSandstrom"
-  ],
   "firstCommit": {
     "sha": "ff6f55b77dcd39292ad88d763d909459c2727521",
     "commit": {
@@ -141,37 +137,26 @@
     }
   },
   "filename": "kvasir___electron-notifier.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/kvasir/electron-notifier/releases/2097962",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/kvasir/electron-notifier/releases/2097962/assets",
-      "htmlUrl": "https://github.com/kvasir/electron-notifier/releases/tag/v0.0.0",
-      "id": 2097962,
-      "tagName": "v0.0.0",
-      "targetCommitish": "master",
-      "name": "v0.0.0 telefrag",
-      "draft": false,
-      "author": {
-        "login": "seriema",
-        "id": 693684,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/693684?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/seriema",
-        "htmlUrl": "https://github.com/seriema",
-        "followersUrl": "https://api.github.com/users/seriema/followers",
-        "subscriptionsUrl": "https://api.github.com/users/seriema/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/seriema/orgs",
-        "reposUrl": "https://api.github.com/users/seriema/repos",
-        "receivedEventsUrl": "https://api.github.com/users/seriema/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-11-09T22:14:51.000Z",
-      "publishedAt": "2015-11-09T22:16:13.000Z",
-      "tarballUrl": "https://api.github.com/repos/kvasir/electron-notifier/tarball/v0.0.0",
-      "zipballUrl": "https://api.github.com/repos/kvasir/electron-notifier/zipball/v0.0.0",
-      "body": "Proof of concept. Global override of Notifications API in Electron.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/kvasir/electron-notifier",
+  "url": "https://api.github.com/repos/kvasir/electron-notifier",
+  "forksUrl": "https://api.github.com/repos/kvasir/electron-notifier/forks",
+  "teamsUrl": "https://api.github.com/repos/kvasir/electron-notifier/teams",
+  "hooksUrl": "https://api.github.com/repos/kvasir/electron-notifier/hooks",
+  "eventsUrl": "https://api.github.com/repos/kvasir/electron-notifier/events",
+  "tagsUrl": "https://api.github.com/repos/kvasir/electron-notifier/tags",
+  "languagesUrl": "https://api.github.com/repos/kvasir/electron-notifier/languages",
+  "stargazersUrl": "https://api.github.com/repos/kvasir/electron-notifier/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/kvasir/electron-notifier/contributors",
+  "subscribersUrl": "https://api.github.com/repos/kvasir/electron-notifier/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/kvasir/electron-notifier/subscription",
+  "mergesUrl": "https://api.github.com/repos/kvasir/electron-notifier/merges",
+  "downloadsUrl": "https://api.github.com/repos/kvasir/electron-notifier/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/kvasir/electron-notifier/deployments",
+  "gitUrl": "git://github.com/kvasir/electron-notifier.git",
+  "sshUrl": "git@github.com:kvasir/electron-notifier.git",
+  "cloneUrl": "https://github.com/kvasir/electron-notifier.git",
+  "svnUrl": "https://github.com/kvasir/electron-notifier",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:15:49.010Z"
 }

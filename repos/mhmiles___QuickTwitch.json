@@ -5,7 +5,7 @@
   "owner": {
     "login": "mhmiles",
     "id": 575802,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/575802?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/575802?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mhmiles",
     "htmlUrl": "https://github.com/mhmiles",
@@ -36,7 +36,7 @@
   "deploymentsUrl": "https://api.github.com/repos/mhmiles/QuickTwitch/deployments",
   "createdAt": "2016-07-21T08:30:14.000Z",
   "updatedAt": "2016-10-26T18:18:16.000Z",
-  "pushedAt": "2016-10-26T18:18:13.000Z",
+  "pushedAt": "2016-12-29T01:39:08.000Z",
   "gitUrl": "git://github.com/mhmiles/QuickTwitch.git",
   "sshUrl": "git@github.com:mhmiles/QuickTwitch.git",
   "cloneUrl": "https://github.com/mhmiles/QuickTwitch.git",
@@ -174,9 +174,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mhmiles"
-  ],
   "firstCommit": {
     "sha": "e868a44d2974e3b9bfad2c841e6b29ddbbb7a371",
     "commit": {
@@ -200,37 +197,6 @@
     }
   },
   "filename": "mhmiles___QuickTwitch.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mhmiles/QuickTwitch/releases/5029198",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/mhmiles/QuickTwitch/releases/5029198/assets",
-      "htmlUrl": "https://github.com/mhmiles/QuickTwitch/releases/tag/v0.0.1",
-      "id": 5029198,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "Initial release",
-      "draft": false,
-      "author": {
-        "login": "mhmiles",
-        "id": 575802,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/575802?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mhmiles",
-        "htmlUrl": "https://github.com/mhmiles",
-        "followersUrl": "https://api.github.com/users/mhmiles/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mhmiles/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mhmiles/orgs",
-        "reposUrl": "https://api.github.com/users/mhmiles/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mhmiles/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-26T18:18:05.000Z",
-      "publishedAt": "2016-12-29T01:37:57.000Z",
-      "tarballUrl": "https://api.github.com/repos/mhmiles/QuickTwitch/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/mhmiles/QuickTwitch/zipball/v0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:26:40.287Z"
 }

@@ -6,7 +6,7 @@
   "owner": {
     "login": "piezo",
     "id": 745014,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/745014?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/745014?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/piezo",
     "htmlUrl": "https://github.com/piezo",
@@ -66,7 +66,7 @@
   "organization": {
     "login": "piezo",
     "id": 745014,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/745014?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/745014?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/piezo",
     "htmlUrl": "https://github.com/piezo",
@@ -84,7 +84,7 @@
     "owner": {
       "login": "micnews",
       "id": 7944468,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/7944468?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/micnews",
       "htmlUrl": "https://github.com/micnews",
@@ -115,24 +115,25 @@
     "deploymentsUrl": "https://api.github.com/repos/micnews/embeds/deployments",
     "createdAt": "2016-03-16T10:28:37.000Z",
     "updatedAt": "2016-11-01T09:30:40.000Z",
-    "pushedAt": "2016-11-29T19:37:19.000Z",
+    "pushedAt": "2017-04-29T07:15:03.000Z",
     "gitUrl": "git://github.com/micnews/embeds.git",
     "sshUrl": "git@github.com:micnews/embeds.git",
     "cloneUrl": "https://github.com/micnews/embeds.git",
     "svnUrl": "https://github.com/micnews/embeds",
     "homepage": null,
-    "size": 146,
+    "size": 181,
     "stargazersCount": 4,
     "watchersCount": 4,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 5,
+    "forksCount": 7,
     "mirrorUrl": null,
-    "openIssuesCount": 10,
-    "openIssues": 10,
+    "openIssuesCount": 29,
+    "openIssues": 29,
     "watchers": 4,
     "defaultBranch": "master"
   },
@@ -143,7 +144,7 @@
     "owner": {
       "login": "micnews",
       "id": 7944468,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/7944468?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/7944468?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/micnews",
       "htmlUrl": "https://github.com/micnews",
@@ -174,28 +175,29 @@
     "deploymentsUrl": "https://api.github.com/repos/micnews/embeds/deployments",
     "createdAt": "2016-03-16T10:28:37.000Z",
     "updatedAt": "2016-11-01T09:30:40.000Z",
-    "pushedAt": "2016-11-29T19:37:19.000Z",
+    "pushedAt": "2017-04-29T07:15:03.000Z",
     "gitUrl": "git://github.com/micnews/embeds.git",
     "sshUrl": "git@github.com:micnews/embeds.git",
     "cloneUrl": "https://github.com/micnews/embeds.git",
     "svnUrl": "https://github.com/micnews/embeds",
     "homepage": null,
-    "size": 146,
+    "size": 181,
     "stargazersCount": 4,
     "watchersCount": 4,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 5,
+    "forksCount": 7,
     "mirrorUrl": null,
-    "openIssuesCount": 10,
-    "openIssues": 10,
+    "openIssuesCount": 29,
+    "openIssues": 29,
     "watchers": 4,
     "defaultBranch": "master"
   },
-  "networkCount": 5,
+  "networkCount": 7,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -265,13 +267,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "kesla",
-    "iefserge",
-    "ellell",
-    "greenkeeperio-bot",
-    "orrybaram"
-  ],
   "firstCommit": {
     "sha": "ffcffaef8a1db918137b268c506c19b89eaeb011",
     "commit": {
@@ -294,5 +289,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:29:55.578Z"
 }

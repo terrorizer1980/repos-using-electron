@@ -5,7 +5,7 @@
   "owner": {
     "login": "fbedussi",
     "id": 9413715,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/9413715?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/9413715?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/fbedussi",
     "htmlUrl": "https://github.com/fbedussi",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/downloads",
   "deploymentsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/deployments",
   "createdAt": "2016-11-18T17:11:41.000Z",
-  "updatedAt": "2016-11-29T20:18:24.000Z",
-  "pushedAt": "2016-11-29T21:25:36.000Z",
+  "updatedAt": "2017-04-02T17:10:20.000Z",
+  "pushedAt": "2017-04-25T19:57:56.000Z",
   "gitUrl": "git://github.com/fbedussi/reveal-js-editor.git",
   "sshUrl": "git@github.com:fbedussi/reveal-js-editor.git",
   "cloneUrl": "https://github.com/fbedussi/reveal-js-editor.git",
   "svnUrl": "https://github.com/fbedussi/reveal-js-editor",
   "homepage": "",
-  "size": 373,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 2767,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
-  "openIssuesCount": 12,
-  "openIssues": 12,
-  "watchers": 0,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": null,
     "featured": false
   },
-  "networkCount": 0,
+  "networkCount": 2,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -116,11 +116,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "fbedussi",
-    "feross",
-    "simeg"
-  ],
   "firstCommit": {
     "sha": "c9e04493ec5d4a5e923d61a1cb2be6a7722b93a9",
     "commit": {
@@ -145,37 +140,6 @@
   },
   "filename": "fbedussi___reveal-js-editor.json",
   "sourceRepo": "feross/electron-workshop",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/fbedussi/reveal-js-editor/releases/5433818",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/releases/5433818/assets",
-      "htmlUrl": "https://github.com/fbedussi/reveal-js-editor/releases/tag/v1.1",
-      "id": 5433818,
-      "tagName": "v1.1",
-      "targetCommitish": "master",
-      "name": "release 1.1 - React version",
-      "draft": false,
-      "author": {
-        "login": "fbedussi",
-        "id": 9413715,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9413715?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/fbedussi",
-        "htmlUrl": "https://github.com/fbedussi",
-        "followersUrl": "https://api.github.com/users/fbedussi/followers",
-        "subscriptionsUrl": "https://api.github.com/users/fbedussi/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/fbedussi/orgs",
-        "reposUrl": "https://api.github.com/users/fbedussi/repos",
-        "receivedEventsUrl": "https://api.github.com/users/fbedussi/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-02-12T10:52:06.000Z",
-      "publishedAt": "2017-02-12T20:49:10.000Z",
-      "tarballUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/tarball/v1.1",
-      "zipballUrl": "https://api.github.com/repos/fbedussi/reveal-js-editor/zipball/v1.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:29:45.469Z"
 }

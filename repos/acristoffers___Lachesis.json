@@ -5,7 +5,7 @@
   "owner": {
     "login": "acristoffers",
     "id": 2191364,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2191364?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2191364?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/acristoffers",
     "htmlUrl": "https://github.com/acristoffers",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/acristoffers/Lachesis/downloads",
   "deploymentsUrl": "https://api.github.com/repos/acristoffers/Lachesis/deployments",
   "createdAt": "2016-10-25T14:26:25.000Z",
-  "updatedAt": "2016-10-25T14:26:38.000Z",
-  "pushedAt": "2016-10-28T11:27:34.000Z",
+  "updatedAt": "2017-04-13T21:36:37.000Z",
+  "pushedAt": "2017-05-01T21:46:48.000Z",
   "gitUrl": "git://github.com/acristoffers/Lachesis.git",
   "sshUrl": "git@github.com:acristoffers/Lachesis.git",
   "cloneUrl": "https://github.com/acristoffers/Lachesis.git",
   "svnUrl": "https://github.com/acristoffers/Lachesis",
   "homepage": null,
-  "size": 4310,
+  "size": 4374,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "Java",
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -89,19 +89,9 @@
       "uglifyjs": "*",
       "bower": "*",
       "sync-request": "*"
-    },
-    "other": {
-      "author": {
-        "name": "Álan Crístoffer",
-        "email": "acristoffers@gmail.com",
-        "url": "https://github.com/acristoffers/moirai"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "acristoffers"
-  ],
   "firstCommit": {
     "sha": "520e727d6195bed75def604bd878fcb16ae23a0a",
     "commit": {
@@ -125,5 +115,6 @@
     }
   },
   "filename": "acristoffers___Lachesis.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:10:16.135Z"
 }

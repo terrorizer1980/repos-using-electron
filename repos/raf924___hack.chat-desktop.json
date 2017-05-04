@@ -5,7 +5,7 @@
   "owner": {
     "login": "raf924",
     "id": 2406923,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2406923?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2406923?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/raf924",
     "htmlUrl": "https://github.com/raf924",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/raf924/hack.chat-desktop",
-  "description": "Desktop client for hack.chat",
+  "description": "Desktop client for hack.chat (Soon to be for other services)",
   "fork": false,
   "url": "https://api.github.com/repos/raf924/hack.chat-desktop",
   "forksUrl": "https://api.github.com/repos/raf924/hack.chat-desktop/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/raf924/hack.chat-desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/raf924/hack.chat-desktop/deployments",
   "createdAt": "2015-08-12T23:05:33.000Z",
-  "updatedAt": "2016-11-10T21:12:39.000Z",
-  "pushedAt": "2016-11-17T00:26:29.000Z",
+  "updatedAt": "2017-01-16T04:51:17.000Z",
+  "pushedAt": "2017-03-14T16:48:15.000Z",
   "gitUrl": "git://github.com/raf924/hack.chat-desktop.git",
   "sshUrl": "git@github.com:raf924/hack.chat-desktop.git",
   "cloneUrl": "https://github.com/raf924/hack.chat-desktop.git",
   "svnUrl": "https://github.com/raf924/hack.chat-desktop",
-  "homepage": null,
-  "size": 5440,
-  "stargazersCount": 1,
-  "watchersCount": 1,
-  "language": "JavaScript",
+  "homepage": "",
+  "size": 5643,
+  "stargazersCount": 3,
+  "watchersCount": 3,
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 1,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -63,7 +63,7 @@
   },
   "license": null,
   "networkCount": 1,
-  "subscribersCount": 2,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "hack.chat-desktop",
@@ -113,9 +113,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "raf924"
-  ],
   "firstCommit": {
     "sha": "f456de6fff791405e51435d029eb74ef87ba3715",
     "commit": {
@@ -139,5 +136,6 @@
     }
   },
   "filename": "raf924___hack.chat-desktop.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:31:45.780Z"
 }

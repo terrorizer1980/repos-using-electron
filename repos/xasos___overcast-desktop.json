@@ -5,7 +5,7 @@
   "owner": {
     "login": "xasos",
     "id": 6235280,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6235280?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6235280?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/xasos",
     "htmlUrl": "https://github.com/xasos",
@@ -20,12 +20,12 @@
   "description": ":headphones: Overcast Podcast Player with Electron",
   "fork": false,
   "createdAt": "2014-12-28T17:38:40.000Z",
-  "updatedAt": "2016-10-27T19:10:55.000Z",
+  "updatedAt": "2017-04-26T10:53:21.000Z",
   "pushedAt": "2016-01-06T23:26:30.000Z",
   "homepage": "",
   "size": 78636,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "stargazersCount": 13,
+  "watchersCount": 13,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 5,
+  "watchers": 13,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -49,7 +49,7 @@
     "featured": true
   },
   "networkCount": 0,
-  "subscribersCount": 0,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "overcast-desktop",
@@ -95,9 +95,6 @@
   "cloneUrl": "https://github.com/xasos/overcast-desktop.git",
   "svnUrl": "https://github.com/xasos/overcast-desktop",
   "mirrorUrl": null,
-  "contributors": [
-    "xasos"
-  ],
   "firstCommit": {
     "sha": "d17ccc5cb54d0fb6cafe07cc49ea3cacf4549d3d",
     "commit": {
@@ -121,119 +118,6 @@
     }
   },
   "filename": "xasos___overcast-desktop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/xasos/overcast-desktop/releases/2362371",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/xasos/overcast-desktop/releases/assets/1170250",
-          "id": 1170250,
-          "name": "overcast-darwin-x64.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "xasos",
-            "id": 6235280,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6235280?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/xasos",
-            "htmlUrl": "https://github.com/xasos",
-            "followersUrl": "https://api.github.com/users/xasos/followers",
-            "subscriptionsUrl": "https://api.github.com/users/xasos/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/xasos/orgs",
-            "reposUrl": "https://api.github.com/users/xasos/repos",
-            "receivedEventsUrl": "https://api.github.com/users/xasos/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-gzip",
-          "state": "uploaded",
-          "size": 41348037,
-          "downloadCount": 50,
-          "createdAt": "2016-01-02T03:51:40.000Z",
-          "updatedAt": "2016-01-02T03:58:45.000Z",
-          "browserDownloadUrl": "https://github.com/xasos/overcast-desktop/releases/download/0.1.0/overcast-darwin-x64.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/xasos/overcast-desktop/releases/assets/1170338",
-          "id": 1170338,
-          "name": "overcast-linux-x64.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "xasos",
-            "id": 6235280,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6235280?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/xasos",
-            "htmlUrl": "https://github.com/xasos",
-            "followersUrl": "https://api.github.com/users/xasos/followers",
-            "subscriptionsUrl": "https://api.github.com/users/xasos/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/xasos/orgs",
-            "reposUrl": "https://api.github.com/users/xasos/repos",
-            "receivedEventsUrl": "https://api.github.com/users/xasos/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-gzip",
-          "state": "uploaded",
-          "size": 24480540,
-          "downloadCount": 9,
-          "createdAt": "2016-01-02T05:30:30.000Z",
-          "updatedAt": "2016-01-02T05:35:02.000Z",
-          "browserDownloadUrl": "https://github.com/xasos/overcast-desktop/releases/download/0.1.0/overcast-linux-x64.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/xasos/overcast-desktop/releases/assets/1170332",
-          "id": 1170332,
-          "name": "overcast-win32-x64.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "xasos",
-            "id": 6235280,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6235280?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/xasos",
-            "htmlUrl": "https://github.com/xasos",
-            "followersUrl": "https://api.github.com/users/xasos/followers",
-            "subscriptionsUrl": "https://api.github.com/users/xasos/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/xasos/orgs",
-            "reposUrl": "https://api.github.com/users/xasos/repos",
-            "receivedEventsUrl": "https://api.github.com/users/xasos/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-gzip",
-          "state": "uploaded",
-          "size": 29344704,
-          "downloadCount": 17,
-          "createdAt": "2016-01-02T05:20:30.000Z",
-          "updatedAt": "2016-01-02T05:25:50.000Z",
-          "browserDownloadUrl": "https://github.com/xasos/overcast-desktop/releases/download/0.1.0/overcast-win32-x64.tar.gz"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/xasos/overcast-desktop/releases/2362371/assets",
-      "htmlUrl": "https://github.com/xasos/overcast-desktop/releases/tag/0.1.0",
-      "id": 2362371,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "0.1.0",
-      "draft": false,
-      "author": {
-        "login": "xasos",
-        "id": 6235280,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6235280?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/xasos",
-        "htmlUrl": "https://github.com/xasos",
-        "followersUrl": "https://api.github.com/users/xasos/followers",
-        "subscriptionsUrl": "https://api.github.com/users/xasos/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/xasos/orgs",
-        "reposUrl": "https://api.github.com/users/xasos/repos",
-        "receivedEventsUrl": "https://api.github.com/users/xasos/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-01-02T03:10:56.000Z",
-      "publishedAt": "2016-01-02T03:59:30.000Z",
-      "tarballUrl": "https://api.github.com/repos/xasos/overcast-desktop/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/xasos/overcast-desktop/zipball/0.1.0",
-      "body": "Initial Release.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:31:38.367Z"
 }

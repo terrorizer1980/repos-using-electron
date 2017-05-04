@@ -6,7 +6,7 @@
   "owner": {
     "login": "graphcool",
     "id": 17219288,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17219288?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/17219288?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/graphcool",
     "htmlUrl": "https://github.com/graphcool",
@@ -19,7 +19,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/graphcool/prep",
-  "description": "Pre-renders your web app (React, Angular, ...) into static HTML based on your specified routes enabling SEO for single page applications.",
+  "description": "Pre-renders your web app (React, Vue, Angular, ...) into static HTML based on your specified routes enabling SEO for single page applications.",
   "fork": false,
   "url": "https://api.github.com/repos/graphcool/prep",
   "forksUrl": "https://api.github.com/repos/graphcool/prep/forks",
@@ -36,26 +36,26 @@
   "downloadsUrl": "https://api.github.com/repos/graphcool/prep/downloads",
   "deploymentsUrl": "https://api.github.com/repos/graphcool/prep/deployments",
   "createdAt": "2016-05-07T16:24:02.000Z",
-  "updatedAt": "2017-01-15T20:12:06.000Z",
-  "pushedAt": "2017-01-16T16:48:33.000Z",
+  "updatedAt": "2017-04-25T23:11:06.000Z",
+  "pushedAt": "2017-03-05T15:02:59.000Z",
   "gitUrl": "git://github.com/graphcool/prep.git",
   "sshUrl": "git@github.com:graphcool/prep.git",
   "cloneUrl": "https://github.com/graphcool/prep.git",
   "svnUrl": "https://github.com/graphcool/prep",
   "homepage": "",
-  "size": 157,
-  "stargazersCount": 20,
-  "watchersCount": 20,
+  "size": 102,
+  "stargazersCount": 35,
+  "watchersCount": 35,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 3,
+  "forksCount": 4,
   "mirrorUrl": null,
   "openIssuesCount": 2,
   "openIssues": 2,
-  "watchers": 20,
+  "watchers": 35,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -72,7 +72,7 @@
   "organization": {
     "login": "graphcool",
     "id": 17219288,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17219288?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/17219288?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/graphcool",
     "htmlUrl": "https://github.com/graphcool",
@@ -83,7 +83,7 @@
     "receivedEventsUrl": "https://api.github.com/users/graphcool/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
+  "networkCount": 4,
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
@@ -138,11 +138,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "schickling",
-    "brene",
-    "timsuchanek"
-  ],
   "firstCommit": {
     "sha": "21b261f14e0443bb2dfe7ea6d66519c2774e26ef",
     "commit": {
@@ -165,5 +160,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:20:10.403Z"
 }

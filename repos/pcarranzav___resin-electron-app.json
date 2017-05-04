@@ -5,7 +5,7 @@
   "owner": {
     "login": "pcarranzav",
     "id": 2223590,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2223590?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2223590?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/pcarranzav",
     "htmlUrl": "https://github.com/pcarranzav",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/pcarranzav/resin-electron-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/pcarranzav/resin-electron-app/deployments",
   "createdAt": "2015-11-03T19:07:38.000Z",
-  "updatedAt": "2016-05-25T03:05:19.000Z",
+  "updatedAt": "2016-12-08T10:38:49.000Z",
   "pushedAt": "2015-11-11T18:42:12.000Z",
   "gitUrl": "git://github.com/pcarranzav/resin-electron-app.git",
   "sshUrl": "git@github.com:pcarranzav/resin-electron-app.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/pcarranzav/resin-electron-app",
   "homepage": null,
   "size": 3820,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": false,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "owner": {
       "login": "shaunmulligan",
       "id": 3915043,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3915043?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/3915043?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/shaunmulligan",
       "htmlUrl": "https://github.com/shaunmulligan",
@@ -111,6 +111,7 @@
     "watchersCount": 0,
     "language": "HTML",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
@@ -128,7 +129,7 @@
     "owner": {
       "login": "shaunmulligan",
       "id": 3915043,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/3915043?v=3",
+      "avatarUrl": "https://avatars2.githubusercontent.com/u/3915043?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/shaunmulligan",
       "htmlUrl": "https://github.com/shaunmulligan",
@@ -170,6 +171,7 @@
     "watchersCount": 0,
     "language": "HTML",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
@@ -184,11 +186,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "shaunmulligan",
-    "pcarranzav",
-    "Page-"
-  ],
   "firstCommit": {
     "sha": "ec92ab59830fdd586c8ad621d4d0c9fb0317f6ac",
     "commit": {
@@ -212,5 +209,6 @@
     }
   },
   "filename": "pcarranzav___resin-electron-app.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:47:14.342Z"
 }

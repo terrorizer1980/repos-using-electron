@@ -5,7 +5,7 @@
   "owner": {
     "login": "jampajeen",
     "id": 5140402,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5140402?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5140402?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jampajeen",
     "htmlUrl": "https://github.com/jampajeen",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "officert",
       "id": 4620560,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4620560?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/4620560?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/officert",
       "htmlUrl": "https://github.com/officert",
@@ -79,26 +79,27 @@
     "downloadsUrl": "https://api.github.com/repos/officert/mongotron/downloads",
     "deploymentsUrl": "https://api.github.com/repos/officert/mongotron/deployments",
     "createdAt": "2015-08-12T20:20:10.000Z",
-    "updatedAt": "2016-11-04T09:37:48.000Z",
-    "pushedAt": "2016-10-06T19:44:27.000Z",
+    "updatedAt": "2017-05-03T14:54:31.000Z",
+    "pushedAt": "2017-01-19T06:21:50.000Z",
     "gitUrl": "git://github.com/officert/mongotron.git",
     "sshUrl": "git@github.com:officert/mongotron.git",
     "cloneUrl": "https://github.com/officert/mongotron.git",
     "svnUrl": "https://github.com/officert/mongotron",
     "homepage": "http://mongotron.io",
     "size": 9088,
-    "stargazersCount": 1836,
-    "watchersCount": 1836,
+    "stargazersCount": 2151,
+    "watchersCount": 2151,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 131,
+    "forksCount": 160,
     "mirrorUrl": null,
-    "openIssuesCount": 34,
-    "openIssues": 34,
-    "watchers": 1836,
+    "openIssuesCount": 41,
+    "openIssues": 41,
+    "watchers": 2151,
     "defaultBranch": "master"
   },
   "source": {
@@ -108,7 +109,7 @@
     "owner": {
       "login": "officert",
       "id": 4620560,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4620560?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/4620560?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/officert",
       "htmlUrl": "https://github.com/officert",
@@ -138,29 +139,30 @@
     "downloadsUrl": "https://api.github.com/repos/officert/mongotron/downloads",
     "deploymentsUrl": "https://api.github.com/repos/officert/mongotron/deployments",
     "createdAt": "2015-08-12T20:20:10.000Z",
-    "updatedAt": "2016-11-04T09:37:48.000Z",
-    "pushedAt": "2016-10-06T19:44:27.000Z",
+    "updatedAt": "2017-05-03T14:54:31.000Z",
+    "pushedAt": "2017-01-19T06:21:50.000Z",
     "gitUrl": "git://github.com/officert/mongotron.git",
     "sshUrl": "git@github.com:officert/mongotron.git",
     "cloneUrl": "https://github.com/officert/mongotron.git",
     "svnUrl": "https://github.com/officert/mongotron",
     "homepage": "http://mongotron.io",
     "size": 9088,
-    "stargazersCount": 1836,
-    "watchersCount": 1836,
+    "stargazersCount": 2151,
+    "watchersCount": 2151,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 131,
+    "forksCount": 160,
     "mirrorUrl": null,
-    "openIssuesCount": 34,
-    "openIssues": 34,
-    "watchers": 1836,
+    "openIssuesCount": 41,
+    "openIssues": 41,
+    "watchers": 2151,
     "defaultBranch": "master"
   },
-  "networkCount": 131,
+  "networkCount": 160,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -230,10 +232,7 @@
     "keywords": [
       "mongo"
     ],
-    "license": "MIT",
-    "other": {
-      "author": "Tim Officer"
-    }
+    "license": "MIT"
   },
   "packageStatus": 404,
   "htmlUrl": "https://github.com/jampajeen/mongotron",
@@ -256,24 +255,6 @@
   "cloneUrl": "https://github.com/jampajeen/mongotron.git",
   "svnUrl": "https://github.com/jampajeen/mongotron",
   "mirrorUrl": null,
-  "contributors": [
-    "officert",
-    "joshmadewell",
-    "jojobyte",
-    "simonbengtsson",
-    "AddoSolutions",
-    "travispett",
-    "BrianRosamilia",
-    "bitdeli-chef",
-    "Edmeral",
-    "dawsonbotsford",
-    "MadLittleMods",
-    "montogeek",
-    "yuanoook",
-    "pnicorelli",
-    "sanosom",
-    "gitter-badger"
-  ],
   "firstCommit": {
     "sha": "7aaa978c1eec99827cc82caed3c52f6da10c3aaa",
     "commit": {
@@ -297,5 +278,6 @@
     }
   },
   "filename": "jampajeen___mongotron.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:24:58.104Z"
 }

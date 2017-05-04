@@ -6,7 +6,7 @@
   "owner": {
     "login": "aguai",
     "id": 110466,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/110466?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/110466?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/aguai",
     "htmlUrl": "https://github.com/aguai",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "lmatteis",
       "id": 535442,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/535442?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/535442?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/lmatteis",
       "htmlUrl": "https://github.com/lmatteis",
@@ -100,7 +100,7 @@
     "downloadsUrl": "https://api.github.com/repos/lmatteis/peer-tweet/downloads",
     "deploymentsUrl": "https://api.github.com/repos/lmatteis/peer-tweet/deployments",
     "createdAt": "2016-02-05T23:32:21.000Z",
-    "updatedAt": "2017-01-11T08:18:24.000Z",
+    "updatedAt": "2017-04-30T21:04:25.000Z",
     "pushedAt": "2016-03-10T22:56:11.000Z",
     "gitUrl": "git://github.com/lmatteis/peer-tweet.git",
     "sshUrl": "git@github.com:lmatteis/peer-tweet.git",
@@ -108,18 +108,19 @@
     "svnUrl": "https://github.com/lmatteis/peer-tweet",
     "homepage": "",
     "size": 831,
-    "stargazersCount": 863,
-    "watchersCount": 863,
+    "stargazersCount": 876,
+    "watchersCount": 876,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 34,
+    "forksCount": 37,
     "mirrorUrl": null,
     "openIssuesCount": 6,
     "openIssues": 6,
-    "watchers": 863,
+    "watchers": 876,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "lmatteis",
       "id": 535442,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/535442?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/535442?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/lmatteis",
       "htmlUrl": "https://github.com/lmatteis",
@@ -159,7 +160,7 @@
     "downloadsUrl": "https://api.github.com/repos/lmatteis/peer-tweet/downloads",
     "deploymentsUrl": "https://api.github.com/repos/lmatteis/peer-tweet/deployments",
     "createdAt": "2016-02-05T23:32:21.000Z",
-    "updatedAt": "2017-01-11T08:18:24.000Z",
+    "updatedAt": "2017-04-30T21:04:25.000Z",
     "pushedAt": "2016-03-10T22:56:11.000Z",
     "gitUrl": "git://github.com/lmatteis/peer-tweet.git",
     "sshUrl": "git@github.com:lmatteis/peer-tweet.git",
@@ -167,21 +168,22 @@
     "svnUrl": "https://github.com/lmatteis/peer-tweet",
     "homepage": "",
     "size": 831,
-    "stargazersCount": 863,
-    "watchersCount": 863,
+    "stargazersCount": 876,
+    "watchersCount": 876,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 34,
+    "forksCount": 37,
     "mirrorUrl": null,
     "openIssuesCount": 6,
     "openIssues": 6,
-    "watchers": 863,
+    "watchers": 876,
     "defaultBranch": "master"
   },
-  "networkCount": 34,
+  "networkCount": 37,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -284,9 +286,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lmatteis"
-  ],
   "firstCommit": {
     "sha": "f52055b7c08716193abae4788d9117ebd1c05634",
     "commit": {
@@ -310,5 +309,6 @@
     }
   },
   "sourceRepo": "lmatteis/peer-tweet",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:00:05.815Z"
 }

@@ -1,11 +1,11 @@
 {
-  "id": 39918991,
+  "id": 89147950,
   "name": "Nearby-Live-Desktop",
   "fullName": "N3TC4T/Nearby-Live-Desktop",
   "owner": {
     "login": "N3TC4T",
     "id": 6250203,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6250203?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6250203?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/N3TC4T",
     "htmlUrl": "https://github.com/N3TC4T",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/N3TC4T/Nearby-Live-Desktop",
-  "description": "Use Nearby Live on your OS X or Linux desktop.",
+  "description": "Nearby Live for OS X and Linux desktop",
   "fork": false,
   "url": "https://api.github.com/repos/N3TC4T/Nearby-Live-Desktop",
   "forksUrl": "https://api.github.com/repos/N3TC4T/Nearby-Live-Desktop/forks",
@@ -34,35 +34,41 @@
   "mergesUrl": "https://api.github.com/repos/N3TC4T/Nearby-Live-Desktop/merges",
   "downloadsUrl": "https://api.github.com/repos/N3TC4T/Nearby-Live-Desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/N3TC4T/Nearby-Live-Desktop/deployments",
-  "createdAt": "2015-07-29T22:17:52.000Z",
-  "updatedAt": "2016-11-07T19:46:11.000Z",
-  "pushedAt": "2016-11-07T19:50:35.000Z",
+  "createdAt": "2017-04-23T14:29:34.000Z",
+  "updatedAt": "2017-04-26T13:47:42.000Z",
+  "pushedAt": "2017-04-23T14:45:34.000Z",
   "gitUrl": "git://github.com/N3TC4T/Nearby-Live-Desktop.git",
   "sshUrl": "git@github.com:N3TC4T/Nearby-Live-Desktop.git",
   "cloneUrl": "https://github.com/N3TC4T/Nearby-Live-Desktop.git",
   "svnUrl": "https://github.com/N3TC4T/Nearby-Live-Desktop",
   "homepage": null,
-  "size": 4689,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 4683,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 0,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 1,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -175,9 +181,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "N3TC4T"
-  ],
   "firstCommit": {
     "sha": "c98f6858bfcb945285a48dde797e176fc96baa63",
     "commit": {
@@ -201,5 +204,6 @@
     }
   },
   "filename": "N3TC4T___Nearby-Live-Desktop.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:09:36.550Z"
 }

@@ -84,7 +84,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "owser",
     "version": "0.1.0",
@@ -113,9 +113,6 @@
     "node": {
       "__dirname": false,
       "__filename": false
-    },
-    "other": {
-      "author": "bit-room (http://github.com/bit-room)"
     }
   },
   "packageStatus": 200,
@@ -145,5 +142,6 @@
       "commentCount": 0
     }
   },
-  "filename": "bit-room___owser-main.json"
+  "filename": "bit-room___owser-main.json",
+  "lastFetchedAt": "2017-05-04T18:25:01.115Z"
 }

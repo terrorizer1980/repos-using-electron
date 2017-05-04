@@ -5,7 +5,7 @@
   "owner": {
     "login": "ivanmaulana",
     "id": 7250449,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7250449?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/7250449?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ivanmaulana",
     "htmlUrl": "https://github.com/ivanmaulana",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/ivanmaulana/simeta/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ivanmaulana/simeta/deployments",
   "createdAt": "2016-11-08T17:58:30.000Z",
-  "updatedAt": "2016-11-08T19:21:14.000Z",
-  "pushedAt": "2016-11-11T10:15:21.000Z",
+  "updatedAt": "2017-03-13T11:08:02.000Z",
+  "pushedAt": "2017-05-04T17:55:21.000Z",
   "gitUrl": "git://github.com/ivanmaulana/simeta.git",
   "sshUrl": "git@github.com:ivanmaulana/simeta.git",
   "cloneUrl": "https://github.com/ivanmaulana/simeta.git",
   "svnUrl": "https://github.com/ivanmaulana/simeta",
-  "homepage": null,
-  "size": 12424,
+  "homepage": "http://simeta.apps.cs.ipb.ac.id",
+  "size": 13113,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "TypeScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -242,34 +242,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "nnixaa",
-    "smartapant",
-    "Tibing",
-    "ivanmaulana",
-    "iamdavidfrancis",
-    "GRoguelon",
-    "lugovsky",
-    "AlbertXingZhang",
-    "Gelio",
-    "kaleguy",
-    "KostyaDanovsky",
-    "RonnyRoos",
-    "gavinzhou",
-    "kbrandwijk",
-    "Awk34",
-    "pritambaral",
-    "ESadouski",
-    "Kaizeras",
-    "mterwoord",
-    "michaeljota",
-    "myadhdoutlet",
-    "smith64fx",
-    "ThomasDupuis",
-    "bnayalivne",
-    "dimkk",
-    "shootermv"
-  ],
   "firstCommit": {
     "sha": "6558ee2fc448a5bebd8ef5643a9a4d54408d3477",
     "commit": {
@@ -294,5 +266,6 @@
   },
   "filename": "ivanmaulana___simeta.json",
   "sourceRepo": "akveo/ng2-admin",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:26:20.312Z"
 }

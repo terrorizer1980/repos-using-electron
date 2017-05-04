@@ -1,11 +1,11 @@
 {
-  "id": 61229931,
-  "name": "mSQLite",
-  "fullName": "aidangrabe/mSQLite",
+  "id": 79033312,
+  "name": "msqlite",
+  "fullName": "aidangrabe/msqlite",
   "owner": {
     "login": "aidangrabe",
     "id": 3810454,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3810454?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3810454?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/aidangrabe",
     "htmlUrl": "https://github.com/aidangrabe",
@@ -17,16 +17,16 @@
     "type": "User"
   },
   "private": false,
-  "description": "Android SQLite viewer",
+  "description": "Android SQLite browser and query runner written in Kotlin",
   "fork": false,
-  "createdAt": "2016-06-15T18:13:24.000Z",
-  "updatedAt": "2016-06-15T18:19:14.000Z",
-  "pushedAt": "2016-06-15T18:19:14.000Z",
+  "createdAt": "2017-01-15T13:08:26.000Z",
+  "updatedAt": "2017-01-15T13:08:46.000Z",
+  "pushedAt": "2017-01-23T22:48:52.000Z",
   "homepage": null,
-  "size": 3,
+  "size": 70,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "JavaScript",
+  "language": "Kotlin",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -43,7 +43,7 @@
   },
   "license": null,
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "electron-quick-start",
@@ -67,9 +67,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "aidangrabe"
-  ],
   "firstCommit": {
     "sha": "74b728720f92361bf5e00afd22a5d9f9a4deacc4",
     "commit": {
@@ -93,5 +90,26 @@
     }
   },
   "filename": "aidangrabe___mSQLite.json",
-  "releases": []
+  "htmlUrl": "https://github.com/aidangrabe/msqlite",
+  "url": "https://api.github.com/repos/aidangrabe/msqlite",
+  "forksUrl": "https://api.github.com/repos/aidangrabe/msqlite/forks",
+  "teamsUrl": "https://api.github.com/repos/aidangrabe/msqlite/teams",
+  "hooksUrl": "https://api.github.com/repos/aidangrabe/msqlite/hooks",
+  "eventsUrl": "https://api.github.com/repos/aidangrabe/msqlite/events",
+  "tagsUrl": "https://api.github.com/repos/aidangrabe/msqlite/tags",
+  "languagesUrl": "https://api.github.com/repos/aidangrabe/msqlite/languages",
+  "stargazersUrl": "https://api.github.com/repos/aidangrabe/msqlite/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/aidangrabe/msqlite/contributors",
+  "subscribersUrl": "https://api.github.com/repos/aidangrabe/msqlite/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/aidangrabe/msqlite/subscription",
+  "mergesUrl": "https://api.github.com/repos/aidangrabe/msqlite/merges",
+  "downloadsUrl": "https://api.github.com/repos/aidangrabe/msqlite/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/aidangrabe/msqlite/deployments",
+  "gitUrl": "git://github.com/aidangrabe/msqlite.git",
+  "sshUrl": "git@github.com:aidangrabe/msqlite.git",
+  "cloneUrl": "https://github.com/aidangrabe/msqlite.git",
+  "svnUrl": "https://github.com/aidangrabe/msqlite",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:30:35.556Z"
 }

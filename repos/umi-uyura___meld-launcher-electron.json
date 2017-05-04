@@ -5,7 +5,7 @@
   "owner": {
     "login": "umi-uyura",
     "id": 3012651,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3012651?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/3012651?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/umi-uyura",
     "htmlUrl": "https://github.com/umi-uyura",
@@ -17,7 +17,7 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2015-09-16T08:05:32.000Z",
   "updatedAt": "2015-09-16T08:07:14.000Z",
@@ -82,9 +82,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "umi-uyura"
-  ],
   "firstCommit": {
     "sha": "5883519ec2440386d032e6f0ef48f9881bda655e",
     "commit": {
@@ -108,65 +105,26 @@
     }
   },
   "filename": "umi-uyura___meld-launcher-electron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/releases/1868266",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/releases/assets/893390",
-          "id": 893390,
-          "name": "Meld.Launcher.Electron.zip",
-          "label": null,
-          "uploader": {
-            "login": "umi-uyura",
-            "id": 3012651,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3012651?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/umi-uyura",
-            "htmlUrl": "https://github.com/umi-uyura",
-            "followersUrl": "https://api.github.com/users/umi-uyura/followers",
-            "subscriptionsUrl": "https://api.github.com/users/umi-uyura/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/umi-uyura/orgs",
-            "reposUrl": "https://api.github.com/users/umi-uyura/repos",
-            "receivedEventsUrl": "https://api.github.com/users/umi-uyura/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 105301021,
-          "downloadCount": 0,
-          "createdAt": "2015-09-25T15:01:36.000Z",
-          "updatedAt": "2015-09-25T15:08:27.000Z",
-          "browserDownloadUrl": "https://github.com/umi-uyura/meld-launcher-electron/releases/download/v0.0.1/Meld.Launcher.Electron.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/releases/1868266/assets",
-      "htmlUrl": "https://github.com/umi-uyura/meld-launcher-electron/releases/tag/v0.0.1",
-      "id": 1868266,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "umi-uyura",
-        "id": 3012651,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3012651?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/umi-uyura",
-        "htmlUrl": "https://github.com/umi-uyura",
-        "followersUrl": "https://api.github.com/users/umi-uyura/followers",
-        "subscriptionsUrl": "https://api.github.com/users/umi-uyura/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/umi-uyura/orgs",
-        "reposUrl": "https://api.github.com/users/umi-uyura/repos",
-        "receivedEventsUrl": "https://api.github.com/users/umi-uyura/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-25T14:57:14.000Z",
-      "publishedAt": "2015-09-25T15:11:51.000Z",
-      "tarballUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/zipball/v0.0.1",
-      "body": "Port of NW.js version\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/umi-uyura/meld-launcher-electron",
+  "url": "https://api.github.com/repos/umi-uyura/meld-launcher-electron",
+  "forksUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/forks",
+  "teamsUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/teams",
+  "hooksUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/hooks",
+  "eventsUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/events",
+  "tagsUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/tags",
+  "languagesUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/languages",
+  "stargazersUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/subscription",
+  "mergesUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/merges",
+  "downloadsUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/umi-uyura/meld-launcher-electron/deployments",
+  "gitUrl": "git://github.com/umi-uyura/meld-launcher-electron.git",
+  "sshUrl": "git@github.com:umi-uyura/meld-launcher-electron.git",
+  "cloneUrl": "https://github.com/umi-uyura/meld-launcher-electron.git",
+  "svnUrl": "https://github.com/umi-uyura/meld-launcher-electron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:56:19.413Z"
 }

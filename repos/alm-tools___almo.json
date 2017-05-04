@@ -5,7 +5,7 @@
   "owner": {
     "login": "alm-tools",
     "id": 16392812,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16392812?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16392812?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/alm-tools",
     "htmlUrl": "https://github.com/alm-tools",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/alm-tools/almo/downloads",
   "deploymentsUrl": "https://api.github.com/repos/alm-tools/almo/deployments",
   "createdAt": "2016-07-08T07:11:07.000Z",
-  "updatedAt": "2016-10-18T00:45:27.000Z",
+  "updatedAt": "2016-12-12T11:13:14.000Z",
   "pushedAt": "2016-07-11T08:23:35.000Z",
   "gitUrl": "git://github.com/alm-tools/almo.git",
   "sshUrl": "git@github.com:alm-tools/almo.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/alm-tools/almo",
   "homepage": null,
   "size": 60,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "alm-tools",
     "id": 16392812,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16392812?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/16392812?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/alm-tools",
     "htmlUrl": "https://github.com/alm-tools",
@@ -77,7 +77,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 3,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "almo",
@@ -106,9 +106,6 @@
     "devDependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "basarat"
-  ],
   "firstCommit": {
     "sha": "8eb175caa3ee684c633363db2b6440eb335ad5cd",
     "commit": {
@@ -132,5 +129,6 @@
     }
   },
   "filename": "alm-tools___almo.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:57:38.748Z"
 }

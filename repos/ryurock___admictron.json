@@ -1,11 +1,11 @@
 {
-  "id": 54759608,
+  "id": 74684631,
   "name": "admictron",
   "fullName": "ryurock/admictron",
   "owner": {
     "login": "ryurock",
     "id": 1619084,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1619084?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1619084?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ryurock",
     "htmlUrl": "https://github.com/ryurock",
@@ -17,23 +17,23 @@
     "type": "User"
   },
   "private": false,
-  "description": "admin page for electron",
+  "description": "electron admin",
   "fork": false,
-  "createdAt": "2016-03-26T02:56:55.000Z",
-  "updatedAt": "2016-03-26T03:53:39.000Z",
-  "pushedAt": "2016-07-25T22:38:33.000Z",
+  "createdAt": "2016-11-24T15:22:34.000Z",
+  "updatedAt": "2016-11-27T08:10:55.000Z",
+  "pushedAt": "2016-11-29T16:26:08.000Z",
   "homepage": null,
-  "size": 462,
+  "size": 24,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "HTML",
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 1,
-  "openIssues": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -41,13 +41,7 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "cc0-1.0",
-    "name": "Creative Commons Zero v1.0 Universal",
-    "spdxId": "CC0-1.0",
-    "url": "https://api.github.com/licenses/cc0-1.0",
-    "featured": false
-  },
+  "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -76,9 +70,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ryurock"
-  ],
   "firstCommit": {
     "sha": "d5c107901d589feeac398ddbde75713f43f7b797",
     "commit": {
@@ -102,5 +93,26 @@
     }
   },
   "filename": "ryurock___admictron.json",
-  "releases": []
+  "htmlUrl": "https://github.com/ryurock/admictron",
+  "url": "https://api.github.com/repos/ryurock/admictron",
+  "forksUrl": "https://api.github.com/repos/ryurock/admictron/forks",
+  "teamsUrl": "https://api.github.com/repos/ryurock/admictron/teams",
+  "hooksUrl": "https://api.github.com/repos/ryurock/admictron/hooks",
+  "eventsUrl": "https://api.github.com/repos/ryurock/admictron/events",
+  "tagsUrl": "https://api.github.com/repos/ryurock/admictron/tags",
+  "languagesUrl": "https://api.github.com/repos/ryurock/admictron/languages",
+  "stargazersUrl": "https://api.github.com/repos/ryurock/admictron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/ryurock/admictron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/ryurock/admictron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/ryurock/admictron/subscription",
+  "mergesUrl": "https://api.github.com/repos/ryurock/admictron/merges",
+  "downloadsUrl": "https://api.github.com/repos/ryurock/admictron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/ryurock/admictron/deployments",
+  "gitUrl": "git://github.com/ryurock/admictron.git",
+  "sshUrl": "git@github.com:ryurock/admictron.git",
+  "cloneUrl": "https://github.com/ryurock/admictron.git",
+  "svnUrl": "https://github.com/ryurock/admictron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:46:23.523Z"
 }

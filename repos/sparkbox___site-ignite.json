@@ -5,7 +5,7 @@
   "owner": {
     "login": "sparkbox",
     "id": 524508,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/524508?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/524508?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sparkbox",
     "htmlUrl": "https://github.com/sparkbox",
@@ -20,12 +20,12 @@
   "description": "An Electron app that aims to be a GUI wrapper around our static template projects.",
   "fork": false,
   "createdAt": "2016-02-01T01:27:01.000Z",
-  "updatedAt": "2016-04-13T00:06:57.000Z",
+  "updatedAt": "2017-03-19T18:20:14.000Z",
   "pushedAt": "2016-05-28T19:41:42.000Z",
   "homepage": "sparkbox.github.io/site-ignite",
   "size": 13528,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 7,
+  "watchersCount": 7,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 2,
+  "watchers": 7,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "sparkbox",
     "id": 524508,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/524508?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/524508?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sparkbox",
     "htmlUrl": "https://github.com/sparkbox",
@@ -57,7 +57,7 @@
     "type": "Organization"
   },
   "networkCount": 1,
-  "subscribersCount": 9,
+  "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
     "name": "site-ignite",
@@ -97,10 +97,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "zastrow",
-    "asimpson"
-  ],
   "firstCommit": {
     "sha": "a4f28f515b00e844bd9e8959aae879658db4c746",
     "commit": {
@@ -124,124 +120,26 @@
     }
   },
   "filename": "sparkbox___site-ignite.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/sparkbox/site-ignite/releases/2530228",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/sparkbox/site-ignite/releases/assets/1266411",
-          "id": 1266411,
-          "name": "Ignite.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "zastrow",
-            "id": 1128391,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1128391?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/zastrow",
-            "htmlUrl": "https://github.com/zastrow",
-            "followersUrl": "https://api.github.com/users/zastrow/followers",
-            "subscriptionsUrl": "https://api.github.com/users/zastrow/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/zastrow/orgs",
-            "reposUrl": "https://api.github.com/users/zastrow/repos",
-            "receivedEventsUrl": "https://api.github.com/users/zastrow/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 119060934,
-          "downloadCount": 18,
-          "createdAt": "2016-02-01T17:43:06.000Z",
-          "updatedAt": "2016-02-01T17:43:51.000Z",
-          "browserDownloadUrl": "https://github.com/sparkbox/site-ignite/releases/download/v0.1.1-beta/Ignite.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/sparkbox/site-ignite/releases/2530228/assets",
-      "htmlUrl": "https://github.com/sparkbox/site-ignite/releases/tag/v0.1.1-beta",
-      "id": 2530228,
-      "tagName": "v0.1.1-beta",
-      "targetCommitish": "master",
-      "name": "Updated of first beta release",
-      "draft": false,
-      "author": {
-        "login": "zastrow",
-        "id": 1128391,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1128391?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zastrow",
-        "htmlUrl": "https://github.com/zastrow",
-        "followersUrl": "https://api.github.com/users/zastrow/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zastrow/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zastrow/orgs",
-        "reposUrl": "https://api.github.com/users/zastrow/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zastrow/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-02-01T14:28:38.000Z",
-      "publishedAt": "2016-02-01T15:41:18.000Z",
-      "tarballUrl": "https://api.github.com/repos/sparkbox/site-ignite/tarball/v0.1.1-beta",
-      "zipballUrl": "https://api.github.com/repos/sparkbox/site-ignite/zipball/v0.1.1-beta",
-      "body": "![](http://i.giphy.com/aFXCrCd4L9ams.gif)\n\nUpdated icon\n\n…because @zastrow\n"
-    },
-    {
-      "url": "https://api.github.com/repos/sparkbox/site-ignite/releases/2526338",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/sparkbox/site-ignite/releases/assets/1263731",
-          "id": 1263731,
-          "name": "Ignite.zip",
-          "label": null,
-          "uploader": {
-            "login": "asimpson",
-            "id": 1048831,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1048831?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/asimpson",
-            "htmlUrl": "https://github.com/asimpson",
-            "followersUrl": "https://api.github.com/users/asimpson/followers",
-            "subscriptionsUrl": "https://api.github.com/users/asimpson/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/asimpson/orgs",
-            "reposUrl": "https://api.github.com/users/asimpson/repos",
-            "receivedEventsUrl": "https://api.github.com/users/asimpson/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 67818090,
-          "downloadCount": 1,
-          "createdAt": "2016-02-01T01:33:17.000Z",
-          "updatedAt": "2016-02-01T01:34:46.000Z",
-          "browserDownloadUrl": "https://github.com/sparkbox/site-ignite/releases/download/v0.1-beta/Ignite.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/sparkbox/site-ignite/releases/2526338/assets",
-      "htmlUrl": "https://github.com/sparkbox/site-ignite/releases/tag/v0.1-beta",
-      "id": 2526338,
-      "tagName": "v0.1-beta",
-      "targetCommitish": "master",
-      "name": "First beta release",
-      "draft": false,
-      "author": {
-        "login": "asimpson",
-        "id": 1048831,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1048831?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/asimpson",
-        "htmlUrl": "https://github.com/asimpson",
-        "followersUrl": "https://api.github.com/users/asimpson/followers",
-        "subscriptionsUrl": "https://api.github.com/users/asimpson/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/asimpson/orgs",
-        "reposUrl": "https://api.github.com/users/asimpson/repos",
-        "receivedEventsUrl": "https://api.github.com/users/asimpson/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-02-01T01:26:43.000Z",
-      "publishedAt": "2016-02-01T01:35:04.000Z",
-      "tarballUrl": "https://api.github.com/repos/sparkbox/site-ignite/tarball/v0.1-beta",
-      "zipballUrl": "https://api.github.com/repos/sparkbox/site-ignite/zipball/v0.1-beta",
-      "body": "This marks the first beta release for Site Ignite. \n\n![getinsertpic.com](http://media0.giphy.com/media/osMIREQbo3s2c/200.gif)\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/sparkbox/site-ignite",
+  "url": "https://api.github.com/repos/sparkbox/site-ignite",
+  "forksUrl": "https://api.github.com/repos/sparkbox/site-ignite/forks",
+  "teamsUrl": "https://api.github.com/repos/sparkbox/site-ignite/teams",
+  "hooksUrl": "https://api.github.com/repos/sparkbox/site-ignite/hooks",
+  "eventsUrl": "https://api.github.com/repos/sparkbox/site-ignite/events",
+  "tagsUrl": "https://api.github.com/repos/sparkbox/site-ignite/tags",
+  "languagesUrl": "https://api.github.com/repos/sparkbox/site-ignite/languages",
+  "stargazersUrl": "https://api.github.com/repos/sparkbox/site-ignite/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/sparkbox/site-ignite/contributors",
+  "subscribersUrl": "https://api.github.com/repos/sparkbox/site-ignite/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/sparkbox/site-ignite/subscription",
+  "mergesUrl": "https://api.github.com/repos/sparkbox/site-ignite/merges",
+  "downloadsUrl": "https://api.github.com/repos/sparkbox/site-ignite/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/sparkbox/site-ignite/deployments",
+  "gitUrl": "git://github.com/sparkbox/site-ignite.git",
+  "sshUrl": "git@github.com:sparkbox/site-ignite.git",
+  "cloneUrl": "https://github.com/sparkbox/site-ignite.git",
+  "svnUrl": "https://github.com/sparkbox/site-ignite",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:53:35.244Z"
 }

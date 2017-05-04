@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Headset",
     "version": "0.2.4",
@@ -148,5 +148,6 @@
       "zipballUrl": "https://api.github.com/repos/danielravina/headset/zipball/v0.2.3",
       "body": "Changelog:\n- Quiet auto update\n- remove irrelevant subreddits\n- have the ability to view all sub reddits\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T18:11:30.370Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "onbjerg",
     "id": 8862627,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8862627?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8862627?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/onbjerg",
     "htmlUrl": "https://github.com/onbjerg",
@@ -20,10 +20,10 @@
   "description": ":link: a beautiful and modern IRC client powered by the web",
   "fork": false,
   "createdAt": "2015-08-20T17:09:05.000Z",
-  "updatedAt": "2016-03-23T01:29:56.000Z",
-  "pushedAt": "2015-11-17T16:03:57.000Z",
+  "updatedAt": "2017-02-04T21:58:12.000Z",
+  "pushedAt": "2017-02-04T21:58:22.000Z",
   "homepage": "",
-  "size": 16,
+  "size": 17,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -41,13 +41,7 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "gpl-2.0",
-    "name": "GNU General Public License v2.0",
-    "spdxId": "GPL-2.0",
-    "url": "https://api.github.com/licenses/gpl-2.0",
-    "featured": false
-  },
+  "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -104,9 +98,6 @@
   "cloneUrl": "https://github.com/onbjerg/minimal.git",
   "svnUrl": "https://github.com/onbjerg/minimal",
   "mirrorUrl": null,
-  "contributors": [
-    "onbjerg"
-  ],
   "firstCommit": {
     "sha": "59fc0a0ceaf379c1e29e1ec4ccce5091f851dcbe",
     "commit": {
@@ -130,5 +121,6 @@
     }
   },
   "filename": "onbjerg___minimal.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:28:36.339Z"
 }

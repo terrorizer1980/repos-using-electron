@@ -5,7 +5,7 @@
   "owner": {
     "login": "image-js",
     "id": 12996949,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12996949?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12996949?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/image-js",
     "htmlUrl": "https://github.com/image-js",
@@ -20,10 +20,10 @@
   "description": "Image editor based on electron",
   "fork": false,
   "createdAt": "2015-10-23T17:48:57.000Z",
-  "updatedAt": "2016-09-09T09:50:43.000Z",
-  "pushedAt": "2016-01-30T10:31:05.000Z",
+  "updatedAt": "2016-11-20T07:47:30.000Z",
+  "pushedAt": "2016-11-20T07:47:29.000Z",
   "homepage": null,
-  "size": 6,
+  "size": 7,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -31,7 +31,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
   "watchers": 1,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "image-js",
     "id": 12996949,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12996949?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12996949?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/image-js",
     "htmlUrl": "https://github.com/image-js",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/image-js/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "editor",
@@ -105,9 +105,6 @@
   "cloneUrl": "https://github.com/image-js/editor.git",
   "svnUrl": "https://github.com/image-js/editor",
   "mirrorUrl": null,
-  "contributors": [
-    "targos"
-  ],
   "firstCommit": {
     "sha": "f1ec0f53df9f51f7e810eacddb77f79ff61e23f5",
     "commit": {
@@ -131,5 +128,6 @@
     }
   },
   "filename": "image-js___editor.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:42:08.825Z"
 }

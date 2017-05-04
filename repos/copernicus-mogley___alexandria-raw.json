@@ -5,7 +5,7 @@
   "owner": {
     "login": "copernicus-mogley",
     "id": 6251098,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6251098?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6251098?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/copernicus-mogley",
     "htmlUrl": "https://github.com/copernicus-mogley",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/copernicus-mogley/alexandria-raw/downloads",
   "deploymentsUrl": "https://api.github.com/repos/copernicus-mogley/alexandria-raw/deployments",
   "createdAt": "2016-08-16T12:55:37.000Z",
-  "updatedAt": "2016-08-16T13:01:42.000Z",
-  "pushedAt": "2016-08-16T16:34:30.000Z",
+  "updatedAt": "2017-01-02T16:13:06.000Z",
+  "pushedAt": "2017-02-12T13:11:15.000Z",
   "gitUrl": "git://github.com/copernicus-mogley/alexandria-raw.git",
   "sshUrl": "git@github.com:copernicus-mogley/alexandria-raw.git",
   "cloneUrl": "https://github.com/copernicus-mogley/alexandria-raw.git",
   "svnUrl": "https://github.com/copernicus-mogley/alexandria-raw",
   "homepage": "",
-  "size": 526,
+  "size": 531,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -98,9 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "copernicus-mogley"
-  ],
   "firstCommit": {
     "sha": "1376b9930ae5b6a20b85ba007a41b6a1df97b2d3",
     "commit": {
@@ -124,65 +121,6 @@
     }
   },
   "filename": "copernicus-mogley___alexandria-raw.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/copernicus-mogley/alexandria-raw/releases/3897286",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/copernicus-mogley/alexandria-raw/releases/assets/2155246",
-          "id": 2155246,
-          "name": "Alexandria-RAW-0.0.2.deb",
-          "label": null,
-          "uploader": {
-            "login": "copernicus-mogley",
-            "id": 6251098,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6251098?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/copernicus-mogley",
-            "htmlUrl": "https://github.com/copernicus-mogley",
-            "followersUrl": "https://api.github.com/users/copernicus-mogley/followers",
-            "subscriptionsUrl": "https://api.github.com/users/copernicus-mogley/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/copernicus-mogley/orgs",
-            "reposUrl": "https://api.github.com/users/copernicus-mogley/repos",
-            "receivedEventsUrl": "https://api.github.com/users/copernicus-mogley/received_events",
-            "type": "User"
-          },
-          "contentType": "application/vnd.debian.binary-package",
-          "state": "uploaded",
-          "size": 30537308,
-          "downloadCount": 0,
-          "createdAt": "2016-08-16T14:53:48.000Z",
-          "updatedAt": "2016-08-16T14:58:36.000Z",
-          "browserDownloadUrl": "https://github.com/copernicus-mogley/alexandria-raw/releases/download/v0.0.2/Alexandria-RAW-0.0.2.deb"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/copernicus-mogley/alexandria-raw/releases/3897286/assets",
-      "htmlUrl": "https://github.com/copernicus-mogley/alexandria-raw/releases/tag/v0.0.2",
-      "id": 3897286,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "First Release",
-      "draft": false,
-      "author": {
-        "login": "copernicus-mogley",
-        "id": 6251098,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6251098?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/copernicus-mogley",
-        "htmlUrl": "https://github.com/copernicus-mogley",
-        "followersUrl": "https://api.github.com/users/copernicus-mogley/followers",
-        "subscriptionsUrl": "https://api.github.com/users/copernicus-mogley/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/copernicus-mogley/orgs",
-        "reposUrl": "https://api.github.com/users/copernicus-mogley/repos",
-        "receivedEventsUrl": "https://api.github.com/users/copernicus-mogley/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-16T15:25:42.000Z",
-      "publishedAt": "2016-08-16T13:55:48.000Z",
-      "tarballUrl": "https://api.github.com/repos/copernicus-mogley/alexandria-raw/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/copernicus-mogley/alexandria-raw/zipball/v0.0.2",
-      "body": "Loads application with embedded and playable single Artifact via localhost:8080 while IPFS daemon is running.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:00:20.066Z"
 }

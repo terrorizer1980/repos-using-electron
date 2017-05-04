@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electronize",
     "version": "0.0.3",
@@ -103,9 +103,6 @@
       "grunt-contrib-coffee": "^0.13.0",
       "grunt-contrib-copy": "^0.8.2",
       "mocha": "^2.3.3"
-    },
-    "other": {
-      "author": "Jensen Bernard"
     }
   },
   "packageStatus": 200,
@@ -135,5 +132,6 @@
     }
   },
   "filename": "Jense5___electronize.json",
-  "releases": []
+  "releases": [],
+  "lastFetchedAt": "2017-05-04T15:24:42.973Z"
 }

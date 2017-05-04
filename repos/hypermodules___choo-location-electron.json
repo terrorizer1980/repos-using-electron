@@ -5,7 +5,7 @@
   "owner": {
     "login": "hypermodules",
     "id": 16354492,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16354492?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16354492?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hypermodules",
     "htmlUrl": "https://github.com/hypermodules",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/hypermodules/choo-location-electron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/hypermodules/choo-location-electron/deployments",
   "createdAt": "2016-08-07T23:34:26.000Z",
-  "updatedAt": "2016-10-25T19:16:49.000Z",
-  "pushedAt": "2016-11-01T17:45:58.000Z",
+  "updatedAt": "2016-11-11T05:02:33.000Z",
+  "pushedAt": "2017-05-01T00:28:18.000Z",
   "gitUrl": "git://github.com/hypermodules/choo-location-electron.git",
   "sshUrl": "git@github.com:hypermodules/choo-location-electron.git",
   "cloneUrl": "https://github.com/hypermodules/choo-location-electron.git",
   "svnUrl": "https://github.com/hypermodules/choo-location-electron",
   "homepage": "https://www.npmjs.com/package/choo-location-electron",
-  "size": 13,
-  "stargazersCount": 10,
-  "watchersCount": 10,
+  "size": 16,
+  "stargazersCount": 11,
+  "watchersCount": 11,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,13 +52,13 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 10,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 11,
   "defaultBranch": "master",
   "permissions": {
-    "admin": false,
-    "push": false,
+    "admin": true,
+    "push": true,
     "pull": true
   },
   "license": {
@@ -71,7 +71,7 @@
   "organization": {
     "login": "hypermodules",
     "id": 16354492,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16354492?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16354492?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hypermodules",
     "htmlUrl": "https://github.com/hypermodules",
@@ -110,21 +110,9 @@
     },
     "peerDependencies": {
       "electron": "~1.4.0"
-    },
-    "other": {
-      "author": "sethvincent",
-      "bugs": {
-        "url": "https://github.com/hypermodules/choo-location-electron/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "bcomnes",
-    "ungoldman",
-    "greenkeeperio-bot",
-    "sethvincent"
-  ],
   "firstCommit": {
     "sha": "2bb66106adc20f3bcf78200d108131d0e52fc791",
     "commit": {
@@ -148,5 +136,9 @@
     }
   },
   "filename": "hypermodules___choo-location-electron.json",
-  "releases": []
+  "hasProjects": true,
+  "allowSquashMerge": true,
+  "allowMergeCommit": true,
+  "allowRebaseMerge": true,
+  "lastFetchedAt": "2017-05-04T05:33:58.370Z"
 }

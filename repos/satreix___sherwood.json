@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "sherwood",
     "version": "0.0.1",
@@ -85,9 +85,6 @@
       "react": "^15.1.0",
       "react-dom": "^15.1.0",
       "robinhood": "^0.3.1"
-    },
-    "other": {
-      "author": "satreix"
     }
   },
   "packageStatus": 200,
@@ -116,5 +113,6 @@
       "commentCount": 0
     }
   },
-  "filename": "satreix___sherwood.json"
+  "filename": "satreix___sherwood.json",
+  "lastFetchedAt": "2017-05-04T05:03:01.208Z"
 }

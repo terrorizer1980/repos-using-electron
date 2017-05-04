@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "elm-journal",
     "version": "0.0.1",
@@ -95,9 +95,6 @@
       "less-loader": "^2.2.3",
       "style-loader": "^0.13.1",
       "webpack": "^1.13.2"
-    },
-    "other": {
-      "author": "Michael Combs"
     }
   },
   "packageStatus": 200,
@@ -126,5 +123,6 @@
       "commentCount": 0
     }
   },
-  "filename": "MichaelCombs28___elm-journal.json"
+  "filename": "MichaelCombs28___elm-journal.json",
+  "lastFetchedAt": "2017-05-04T20:55:50.068Z"
 }

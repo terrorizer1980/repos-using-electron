@@ -5,7 +5,7 @@
   "owner": {
     "login": "empirefox",
     "id": 5887597,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5887597?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/5887597?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/empirefox",
     "htmlUrl": "https://github.com/empirefox",
@@ -17,7 +17,7 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2015-07-18T12:28:25.000Z",
   "updatedAt": "2016-01-17T06:39:57.000Z",
@@ -94,17 +94,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "szwacz",
-    "empirefox",
-    "ingro",
-    "plrthink",
-    "yailPeralta",
-    "bradvogel",
-    "huyhong",
-    "markmont",
-    "carlosperate"
-  ],
   "firstCommit": {
     "sha": "2ba72e027f73930230395c17eb6b8bbdfb785872",
     "commit": {
@@ -129,37 +118,26 @@
   },
   "sourceRepo": "synthetos/TinyG-Updater",
   "filename": "empirefox___ic-client.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/empirefox/ic-client/releases/1615963",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/empirefox/ic-client/releases/1615963/assets",
-      "htmlUrl": "https://github.com/empirefox/ic-client/releases/tag/v0.1.0",
-      "id": 1615963,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Related to signaling server v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "empirefox",
-        "id": 5887597,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5887597?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/empirefox",
-        "htmlUrl": "https://github.com/empirefox",
-        "followersUrl": "https://api.github.com/users/empirefox/followers",
-        "subscriptionsUrl": "https://api.github.com/users/empirefox/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/empirefox/orgs",
-        "reposUrl": "https://api.github.com/users/empirefox/repos",
-        "receivedEventsUrl": "https://api.github.com/users/empirefox/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-07-28T01:50:35.000Z",
-      "publishedAt": "2015-08-01T05:53:46.000Z",
-      "tarballUrl": "https://api.github.com/repos/empirefox/ic-client/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/empirefox/ic-client/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/empirefox/ic-client",
+  "url": "https://api.github.com/repos/empirefox/ic-client",
+  "forksUrl": "https://api.github.com/repos/empirefox/ic-client/forks",
+  "teamsUrl": "https://api.github.com/repos/empirefox/ic-client/teams",
+  "hooksUrl": "https://api.github.com/repos/empirefox/ic-client/hooks",
+  "eventsUrl": "https://api.github.com/repos/empirefox/ic-client/events",
+  "tagsUrl": "https://api.github.com/repos/empirefox/ic-client/tags",
+  "languagesUrl": "https://api.github.com/repos/empirefox/ic-client/languages",
+  "stargazersUrl": "https://api.github.com/repos/empirefox/ic-client/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/empirefox/ic-client/contributors",
+  "subscribersUrl": "https://api.github.com/repos/empirefox/ic-client/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/empirefox/ic-client/subscription",
+  "mergesUrl": "https://api.github.com/repos/empirefox/ic-client/merges",
+  "downloadsUrl": "https://api.github.com/repos/empirefox/ic-client/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/empirefox/ic-client/deployments",
+  "gitUrl": "git://github.com/empirefox/ic-client.git",
+  "sshUrl": "git@github.com:empirefox/ic-client.git",
+  "cloneUrl": "https://github.com/empirefox/ic-client.git",
+  "svnUrl": "https://github.com/empirefox/ic-client",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:36:28.063Z"
 }

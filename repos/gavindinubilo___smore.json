@@ -5,7 +5,7 @@
   "owner": {
     "login": "gavindinubilo",
     "id": 2745145,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2745145?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2745145?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/gavindinubilo",
     "htmlUrl": "https://github.com/gavindinubilo",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/gavindinubilo/smore/downloads",
   "deploymentsUrl": "https://api.github.com/repos/gavindinubilo/smore/deployments",
   "createdAt": "2016-06-29T06:38:01.000Z",
-  "updatedAt": "2016-10-31T06:56:36.000Z",
+  "updatedAt": "2017-04-18T07:58:47.000Z",
   "pushedAt": "2016-08-02T18:06:31.000Z",
   "gitUrl": "git://github.com/gavindinubilo/smore.git",
   "sshUrl": "git@github.com:gavindinubilo/smore.git",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 10,
+  "forksCount": 9,
   "mirrorUrl": null,
   "openIssuesCount": 2,
   "openIssues": 2,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 10,
-  "subscribersCount": 7,
+  "networkCount": 9,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "electron-react-boilerplate",
@@ -200,37 +200,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "chentsulin",
-    "jhen0409",
-    "iDuuck",
-    "gavindinubilo",
-    "akovalyov",
-    "Kilian",
-    "Yeti-or",
-    "danielbushman",
-    "epilande",
-    "suribit",
-    "LongLiveCHIEF",
-    "davej",
-    "tsemerad",
-    "domasx2",
-    "pwmckenna",
-    "catalinmiron",
-    "amilajack",
-    "crucialfelix",
-    "lmatteis",
-    "matbush",
-    "olegakbarov",
-    "pascalw",
-    "the4dpatrick",
-    "vramana",
-    "shea256",
-    "RyanAtViceSoftware",
-    "sergeybekrin",
-    "ttacon",
-    "slightlytyler"
-  ],
   "firstCommit": {
     "sha": "9d7637e47e7c637c857b31e058ea969f7fd30122",
     "commit": {
@@ -255,5 +224,6 @@
   },
   "filename": "gavindinubilo___smore.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:32:17.861Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "studioalgorhythmics",
     "id": 7562047,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7562047?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7562047?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/studioalgorhythmics",
     "htmlUrl": "https://github.com/studioalgorhythmics",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/studioalgorhythmics/models-of-self-organization/downloads",
   "deploymentsUrl": "https://api.github.com/repos/studioalgorhythmics/models-of-self-organization/deployments",
   "createdAt": "2015-12-02T13:47:52.000Z",
-  "updatedAt": "2016-04-06T13:52:40.000Z",
+  "updatedAt": "2017-03-04T18:31:13.000Z",
   "pushedAt": "2015-12-17T14:37:41.000Z",
   "gitUrl": "git://github.com/studioalgorhythmics/models-of-self-organization.git",
   "sshUrl": "git@github.com:studioalgorhythmics/models-of-self-organization.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/studioalgorhythmics/models-of-self-organization",
   "homepage": null,
   "size": 1848,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "studioalgorhythmics",
     "id": 7562047,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7562047?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/7562047?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/studioalgorhythmics",
     "htmlUrl": "https://github.com/studioalgorhythmics",
@@ -104,15 +104,9 @@
       "release": "gulp release --env=production",
       "start": "node ./tasks/start",
       "test": "node ./tasks/start --env=test"
-    },
-    "other": {
-      "author": "Chris Sattinger <crucialfelix@gmail.com>"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "crucialfelix"
-  ],
   "firstCommit": {
     "sha": "ea50b5ac3d7435583fc13d03b18f3c502719c404",
     "commit": {
@@ -136,5 +130,6 @@
     }
   },
   "filename": "studioalgorhythmics___models-of-self-organization.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:20:54.013Z"
 }

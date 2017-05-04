@@ -162,16 +162,12 @@
   },
   "networkCount": 395,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "hyperterm",
     "version": "0.7.1",
     "description": "Web app that runs in the renderer process",
     "repository": "zeit/hyperterm",
-    "author": {
-      "name": "Guillermo Rauch",
-      "email": "rauchg@zeit.co"
-    },
     "greenkeeper": {
       "emails": false
     },
@@ -268,6 +264,12 @@
       "pack": "npm run build && build --dir && babel --no-comments --compact --minified --out-file app/dist/bundle.js app/dist/bundle.js",
       "dist": "npm run build && build",
       "release": "npm run build && build --publish=onTagOrDraft"
+    },
+    "other": {
+      "author": {
+        "name": "Guillermo Rauch",
+        "email": "rauchg@zeit.co"
+      }
     }
   },
   "packageStatus": 404,
@@ -327,5 +329,7 @@
     "itswil",
     "ZakariaRidouh",
     "stephenkingsley"
-  ]
+  ],
+  "filename": "rpunkfu___hyperterm.json",
+  "lastFetchedAt": "2017-05-04T21:15:09.675Z"
 }

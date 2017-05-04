@@ -5,7 +5,7 @@
   "owner": {
     "login": "wy182000",
     "id": 2117407,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2117407?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2117407?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/wy182000",
     "htmlUrl": "https://github.com/wy182000",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/wy182000/electron_nodejs_native_addon/downloads",
   "deploymentsUrl": "https://api.github.com/repos/wy182000/electron_nodejs_native_addon/deployments",
   "createdAt": "2016-07-24T03:58:08.000Z",
-  "updatedAt": "2016-07-24T14:30:03.000Z",
+  "updatedAt": "2017-03-01T12:00:21.000Z",
   "pushedAt": "2016-07-24T15:15:38.000Z",
   "gitUrl": "git://github.com/wy182000/electron_nodejs_native_addon.git",
   "sshUrl": "git@github.com:wy182000/electron_nodejs_native_addon.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/wy182000/electron_nodejs_native_addon",
   "homepage": "",
   "size": 5,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/cc0-1.0",
     "featured": false
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -106,9 +106,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "wy182000"
-  ],
   "firstCommit": {
     "sha": "a5998169e96f9bc50c3aa67f3bbd000b62d839e3",
     "commit": {
@@ -132,37 +129,6 @@
     }
   },
   "filename": "wy182000___electron_nodejs_native_addon.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/wy182000/electron_nodejs_native_addon/releases/3727214",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/wy182000/electron_nodejs_native_addon/releases/3727214/assets",
-      "htmlUrl": "https://github.com/wy182000/electron_nodejs_native_addon/releases/tag/1.0",
-      "id": 3727214,
-      "tagName": "1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "wy182000",
-        "id": 2117407,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2117407?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/wy182000",
-        "htmlUrl": "https://github.com/wy182000",
-        "followersUrl": "https://api.github.com/users/wy182000/followers",
-        "subscriptionsUrl": "https://api.github.com/users/wy182000/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/wy182000/orgs",
-        "reposUrl": "https://api.github.com/users/wy182000/repos",
-        "receivedEventsUrl": "https://api.github.com/users/wy182000/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-24T04:50:30.000Z",
-      "publishedAt": "2016-07-24T15:15:38.000Z",
-      "tarballUrl": "https://api.github.com/repos/wy182000/electron_nodejs_native_addon/tarball/1.0",
-      "zipballUrl": "https://api.github.com/repos/wy182000/electron_nodejs_native_addon/zipball/1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:50:25.181Z"
 }

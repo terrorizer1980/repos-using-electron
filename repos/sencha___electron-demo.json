@@ -5,7 +5,7 @@
   "owner": {
     "login": "sencha",
     "id": 333591,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/333591?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/333591?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sencha",
     "htmlUrl": "https://github.com/sencha",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/sencha/electron-demo/downloads",
   "deploymentsUrl": "https://api.github.com/repos/sencha/electron-demo/deployments",
   "createdAt": "2016-10-29T20:49:52.000Z",
-  "updatedAt": "2016-11-10T22:09:43.000Z",
-  "pushedAt": "2016-11-03T19:14:29.000Z",
+  "updatedAt": "2017-03-09T12:56:02.000Z",
+  "pushedAt": "2016-11-24T12:45:04.000Z",
   "gitUrl": "git://github.com/sencha/electron-demo.git",
   "sshUrl": "git@github.com:sencha/electron-demo.git",
   "cloneUrl": "https://github.com/sencha/electron-demo.git",
   "svnUrl": "https://github.com/sencha/electron-demo",
   "homepage": null,
   "size": 103,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "stargazersCount": 11,
+  "watchersCount": 11,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 7,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 7,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 11,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "sencha",
     "id": 333591,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/333591?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/333591?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sencha",
     "htmlUrl": "https://github.com/sencha",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/sencha/received_events",
     "type": "Organization"
   },
-  "networkCount": 5,
-  "subscribersCount": 13,
+  "networkCount": 7,
+  "subscribersCount": 14,
   "status": 200,
   "packageJSON": {
     "name": "ext-electron",
@@ -109,10 +109,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "dongryphon",
-    "kkrohe"
-  ],
   "firstCommit": {
     "sha": "b312996effcedec464286d7a6dd0554f6633f270",
     "commit": {
@@ -136,5 +132,6 @@
     }
   },
   "filename": "sencha___electron-demo.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:28:11.461Z"
 }

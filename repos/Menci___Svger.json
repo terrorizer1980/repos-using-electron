@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "svger",
     "version": "0.0.1",
@@ -60,18 +60,11 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Menci/Svger.git"
-    },
+    "repository": "https://github.com/Menci/Svger",
     "keywords": [
       "svg"
     ],
-    "author": "Menci",
     "license": "GPL-3.0",
-    "bugs": {
-      "url": "https://github.com/Menci/Svger/issues"
-    },
     "homepage": "https://github.com/Menci/Svger#readme",
     "dependencies": {
       "configstore": "^2.0.0",
@@ -84,5 +77,7 @@
   "packageStatus": 404,
   "contributors": [
     "Menci"
-  ]
+  ],
+  "filename": "Menci___Svger.json",
+  "lastFetchedAt": "2017-05-04T05:08:23.844Z"
 }

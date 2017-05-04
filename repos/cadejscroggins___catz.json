@@ -5,7 +5,7 @@
   "owner": {
     "login": "cadejscroggins",
     "id": 2367158,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2367158?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2367158?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/cadejscroggins",
     "htmlUrl": "https://github.com/cadejscroggins",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/cadejscroggins/catz/downloads",
   "deploymentsUrl": "https://api.github.com/repos/cadejscroggins/catz/deployments",
   "createdAt": "2014-03-19T06:55:23.000Z",
-  "updatedAt": "2016-10-30T21:50:23.000Z",
-  "pushedAt": "2016-10-26T00:26:31.000Z",
+  "updatedAt": "2017-05-04T13:20:40.000Z",
+  "pushedAt": "2017-03-11T03:49:57.000Z",
   "gitUrl": "git://github.com/cadejscroggins/catz.git",
   "sshUrl": "git@github.com:cadejscroggins/catz.git",
   "cloneUrl": "https://github.com/cadejscroggins/catz.git",
   "svnUrl": "https://github.com/cadejscroggins/catz",
   "homepage": "https://catz.io",
-  "size": 15620,
-  "stargazersCount": 105,
-  "watchersCount": 105,
+  "size": 15395,
+  "stargazersCount": 123,
+  "watchersCount": 123,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 61,
+  "forksCount": 68,
   "mirrorUrl": null,
   "openIssuesCount": 8,
   "openIssues": 8,
-  "watchers": 105,
+  "watchers": 123,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 61,
-  "subscribersCount": 31,
+  "networkCount": 68,
+  "subscribersCount": 34,
   "status": 200,
   "packageJSON": {
     "name": "catz",
@@ -126,13 +126,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "cadejscroggins",
-    "inverse",
-    "janurag",
-    "infosec-au",
-    "gitter-badger"
-  ],
   "firstCommit": {
     "sha": "0b099e404a65e29200601fcd8827918ca1cf639a",
     "commit": {
@@ -156,37 +149,6 @@
     }
   },
   "filename": "cadejscroggins___catz.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/cadejscroggins/catz/releases/4725883",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/cadejscroggins/catz/releases/4725883/assets",
-      "htmlUrl": "https://github.com/cadejscroggins/catz/releases/tag/v0.1.0",
-      "id": 4725883,
-      "tagName": "v0.1.0",
-      "targetCommitish": "5d5661e9b563bae082bd8c03ebc09a6fa331e49b",
-      "name": "v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "cadejscroggins",
-        "id": 2367158,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2367158?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/cadejscroggins",
-        "htmlUrl": "https://github.com/cadejscroggins",
-        "followersUrl": "https://api.github.com/users/cadejscroggins/followers",
-        "subscriptionsUrl": "https://api.github.com/users/cadejscroggins/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/cadejscroggins/orgs",
-        "reposUrl": "https://api.github.com/users/cadejscroggins/repos",
-        "receivedEventsUrl": "https://api.github.com/users/cadejscroggins/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-22T05:37:04.000Z",
-      "publishedAt": "2016-11-22T05:37:35.000Z",
-      "tarballUrl": "https://api.github.com/repos/cadejscroggins/catz/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/cadejscroggins/catz/zipball/v0.1.0",
-      "body": "### Added\n- All\n\n### Changed\n- Neh\n\n### Fixed\n- Neh\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:21:47.240Z"
 }

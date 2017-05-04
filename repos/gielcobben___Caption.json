@@ -5,7 +5,7 @@
   "owner": {
     "login": "gielcobben",
     "id": 2663212,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2663212?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2663212?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/gielcobben",
     "htmlUrl": "https://github.com/gielcobben",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/gielcobben/Caption",
-  "description": "Captionapp",
+  "description": "Caption — Find the right subtitles. Easy.",
   "fork": false,
   "url": "https://api.github.com/repos/gielcobben/Caption",
   "forksUrl": "https://api.github.com/repos/gielcobben/Caption/forks",
@@ -35,41 +35,35 @@
   "downloadsUrl": "https://api.github.com/repos/gielcobben/Caption/downloads",
   "deploymentsUrl": "https://api.github.com/repos/gielcobben/Caption/deployments",
   "createdAt": "2016-10-17T12:11:00.000Z",
-  "updatedAt": "2016-10-24T09:51:59.000Z",
-  "pushedAt": "2016-10-27T15:46:33.000Z",
+  "updatedAt": "2017-05-03T15:44:32.000Z",
+  "pushedAt": "2017-04-09T12:20:14.000Z",
   "gitUrl": "git://github.com/gielcobben/Caption.git",
   "sshUrl": "git@github.com:gielcobben/Caption.git",
   "cloneUrl": "https://github.com/gielcobben/Caption.git",
   "svnUrl": "https://github.com/gielcobben/Caption",
-  "homepage": null,
-  "size": 219,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "homepage": "https://getcaption.co/",
+  "size": 1242,
+  "stargazersCount": 643,
+  "watchersCount": 643,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 37,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 2,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 643,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "license": null,
+  "networkCount": 37,
+  "subscribersCount": 21,
   "status": 200,
   "packageJSON": {
     "name": "caption",
@@ -192,9 +186,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "gielcobben"
-  ],
   "firstCommit": {
     "sha": "e948fd4a3d1530854991d600a556bbae5538de49",
     "commit": {
@@ -218,92 +209,6 @@
     }
   },
   "filename": "gielcobben___Caption.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/gielcobben/Caption/releases/5395429",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/gielcobben/Caption/releases/assets/3149149",
-          "id": 3149149,
-          "name": "Caption-v1.0.0-darwin_x64.dmg",
-          "label": null,
-          "uploader": {
-            "login": "gielcobben",
-            "id": 2663212,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2663212?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/gielcobben",
-            "htmlUrl": "https://github.com/gielcobben",
-            "followersUrl": "https://api.github.com/users/gielcobben/followers",
-            "subscriptionsUrl": "https://api.github.com/users/gielcobben/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/gielcobben/orgs",
-            "reposUrl": "https://api.github.com/users/gielcobben/repos",
-            "receivedEventsUrl": "https://api.github.com/users/gielcobben/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 50533467,
-          "downloadCount": 8524,
-          "createdAt": "2017-02-08T13:35:48.000Z",
-          "updatedAt": "2017-02-08T13:36:19.000Z",
-          "browserDownloadUrl": "https://github.com/gielcobben/Caption/releases/download/v1.0.0/Caption-v1.0.0-darwin_x64.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/gielcobben/Caption/releases/assets/3149138",
-          "id": 3149138,
-          "name": "Caption-v1.0.0-darwin_x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "gielcobben",
-            "id": 2663212,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2663212?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/gielcobben",
-            "htmlUrl": "https://github.com/gielcobben",
-            "followersUrl": "https://api.github.com/users/gielcobben/followers",
-            "subscriptionsUrl": "https://api.github.com/users/gielcobben/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/gielcobben/orgs",
-            "reposUrl": "https://api.github.com/users/gielcobben/repos",
-            "receivedEventsUrl": "https://api.github.com/users/gielcobben/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 48411187,
-          "downloadCount": 77,
-          "createdAt": "2017-02-08T13:33:33.000Z",
-          "updatedAt": "2017-02-08T13:34:01.000Z",
-          "browserDownloadUrl": "https://github.com/gielcobben/Caption/releases/download/v1.0.0/Caption-v1.0.0-darwin_x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/gielcobben/Caption/releases/5395429/assets",
-      "htmlUrl": "https://github.com/gielcobben/Caption/releases/tag/v1.0.0",
-      "id": 5395429,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "Caption v1.0",
-      "draft": false,
-      "author": {
-        "login": "gielcobben",
-        "id": 2663212,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2663212?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/gielcobben",
-        "htmlUrl": "https://github.com/gielcobben",
-        "followersUrl": "https://api.github.com/users/gielcobben/followers",
-        "subscriptionsUrl": "https://api.github.com/users/gielcobben/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/gielcobben/orgs",
-        "reposUrl": "https://api.github.com/users/gielcobben/repos",
-        "receivedEventsUrl": "https://api.github.com/users/gielcobben/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-02-08T13:10:22.000Z",
-      "publishedAt": "2017-02-08T13:15:11.000Z",
-      "tarballUrl": "https://api.github.com/repos/gielcobben/Caption/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/gielcobben/Caption/zipball/v1.0.0",
-      "body": "Find the right subtitles. Easy. 🍾 🎉"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:33:25.781Z"
 }

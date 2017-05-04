@@ -5,7 +5,7 @@
   "owner": {
     "login": "Yukaii",
     "id": 4230968,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4230968?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4230968?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Yukaii",
     "htmlUrl": "https://github.com/Yukaii",
@@ -20,12 +20,12 @@
   "description": "an simple imgur album downloader using react, redux and electron.",
   "fork": false,
   "createdAt": "2015-12-27T10:36:24.000Z",
-  "updatedAt": "2016-01-01T17:13:01.000Z",
+  "updatedAt": "2017-04-19T03:43:14.000Z",
   "pushedAt": "2016-01-01T07:01:55.000Z",
   "homepage": "",
   "size": 6692,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -191,9 +191,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Yukaii"
-  ],
   "firstCommit": {
     "sha": "e11ce8bcb73e10844e0b218b6b5d6cd1c3c2b20a",
     "commit": {
@@ -217,65 +214,26 @@
     }
   },
   "filename": "Yukaii___ImgurDownloader.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Yukaii/ImgurDownloader/releases/2360746",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Yukaii/ImgurDownloader/releases/assets/1169071",
-          "id": 1169071,
-          "name": "ImgurDownloader_OS_X.zip",
-          "label": null,
-          "uploader": {
-            "login": "Yukaii",
-            "id": 4230968,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4230968?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Yukaii",
-            "htmlUrl": "https://github.com/Yukaii",
-            "followersUrl": "https://api.github.com/users/Yukaii/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Yukaii/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Yukaii/orgs",
-            "reposUrl": "https://api.github.com/users/Yukaii/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Yukaii/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 50069470,
-          "downloadCount": 2,
-          "createdAt": "2016-01-01T07:03:04.000Z",
-          "updatedAt": "2016-01-01T07:04:20.000Z",
-          "browserDownloadUrl": "https://github.com/Yukaii/ImgurDownloader/releases/download/v0.0.1-alpha/ImgurDownloader_OS_X.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/releases/2360746/assets",
-      "htmlUrl": "https://github.com/Yukaii/ImgurDownloader/releases/tag/v0.0.1-alpha",
-      "id": 2360746,
-      "tagName": "v0.0.1-alpha",
-      "targetCommitish": "master",
-      "name": "0.0.1-alpha release (OS X)",
-      "draft": false,
-      "author": {
-        "login": "Yukaii",
-        "id": 4230968,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4230968?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Yukaii",
-        "htmlUrl": "https://github.com/Yukaii",
-        "followersUrl": "https://api.github.com/users/Yukaii/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Yukaii/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Yukaii/orgs",
-        "reposUrl": "https://api.github.com/users/Yukaii/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Yukaii/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-01T06:51:48.000Z",
-      "publishedAt": "2016-01-01T06:52:27.000Z",
-      "tarballUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/tarball/v0.0.1-alpha",
-      "zipballUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/zipball/v0.0.1-alpha",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/Yukaii/ImgurDownloader",
+  "url": "https://api.github.com/repos/Yukaii/ImgurDownloader",
+  "forksUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/forks",
+  "teamsUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/teams",
+  "hooksUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/hooks",
+  "eventsUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/events",
+  "tagsUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/tags",
+  "languagesUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/languages",
+  "stargazersUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/contributors",
+  "subscribersUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/subscription",
+  "mergesUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/merges",
+  "downloadsUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/Yukaii/ImgurDownloader/deployments",
+  "gitUrl": "git://github.com/Yukaii/ImgurDownloader.git",
+  "sshUrl": "git@github.com:Yukaii/ImgurDownloader.git",
+  "cloneUrl": "https://github.com/Yukaii/ImgurDownloader.git",
+  "svnUrl": "https://github.com/Yukaii/ImgurDownloader",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:10:40.252Z"
 }

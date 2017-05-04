@@ -70,7 +70,7 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "main": "main.js",
     "name": "Honeybird",
@@ -390,5 +390,6 @@
       "zipballUrl": "https://api.github.com/repos/colby-swandale/honeybird/zipball/0.1",
       "body": "This is an initial release, i have tested this on OS X Yosemite, and Windows 8 with great success.\n\nWindows Users: click on the 'electron' executable to extract the resources and open 'electron' again on the extracted folder.\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T18:02:13.530Z"
 }

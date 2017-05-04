@@ -5,7 +5,7 @@
   "owner": {
     "login": "neontribe",
     "id": 814085,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/814085?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/814085?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/neontribe",
     "htmlUrl": "https://github.com/neontribe",
@@ -20,10 +20,10 @@
   "description": "Admin panel for gbptm",
   "fork": false,
   "createdAt": "2016-08-10T14:53:21.000Z",
-  "updatedAt": "2016-08-12T09:18:12.000Z",
-  "pushedAt": "2016-11-01T17:40:31.000Z",
+  "updatedAt": "2016-11-07T18:35:38.000Z",
+  "pushedAt": "2017-04-27T14:46:18.000Z",
   "homepage": null,
-  "size": 3573,
+  "size": 4463,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": true,
   "forksCount": 1,
-  "openIssuesCount": 14,
-  "openIssues": 14,
+  "openIssuesCount": 133,
+  "openIssues": 133,
   "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
@@ -45,7 +45,7 @@
   "organization": {
     "login": "neontribe",
     "id": 814085,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/814085?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/814085?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/neontribe",
     "htmlUrl": "https://github.com/neontribe",
@@ -57,7 +57,7 @@
     "type": "Organization"
   },
   "networkCount": 1,
-  "subscribersCount": 14,
+  "subscribersCount": 13,
   "status": 200,
   "packageJSON": {
     "name": "gbptm-admin",
@@ -127,13 +127,6 @@
   "cloneUrl": "https://github.com/neontribe/gbptm-admin.git",
   "svnUrl": "https://github.com/neontribe/gbptm-admin",
   "mirrorUrl": null,
-  "contributors": [
-    "marxian",
-    "RoboPython",
-    "greenkeeperio-bot",
-    "CSGKCJDBCPQ2K8",
-    "RpprRoger"
-  ],
   "firstCommit": {
     "sha": "ebcaff46f865588490013addc95ee172dafc964e",
     "commit": {
@@ -157,65 +150,6 @@
     }
   },
   "filename": "neontribe___gbptm-admin.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/neontribe/gbptm-admin/releases/4200590",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/neontribe/gbptm-admin/releases/assets/2357084",
-          "id": 2357084,
-          "name": "Archive.zip",
-          "label": null,
-          "uploader": {
-            "login": "Mottokrosh",
-            "id": 1485507,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1485507?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Mottokrosh",
-            "htmlUrl": "https://github.com/Mottokrosh",
-            "followersUrl": "https://api.github.com/users/Mottokrosh/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Mottokrosh/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Mottokrosh/orgs",
-            "reposUrl": "https://api.github.com/users/Mottokrosh/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Mottokrosh/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 46275762,
-          "downloadCount": 13,
-          "createdAt": "2016-09-22T08:13:56.000Z",
-          "updatedAt": "2016-09-22T08:14:50.000Z",
-          "browserDownloadUrl": "https://github.com/neontribe/gbptm-admin/releases/download/v1.0.0/Archive.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/neontribe/gbptm-admin/releases/4200590/assets",
-      "htmlUrl": "https://github.com/neontribe/gbptm-admin/releases/tag/v1.0.0",
-      "id": 4200590,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "Materialised",
-      "draft": false,
-      "author": {
-        "login": "marxian",
-        "id": 474621,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/474621?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/marxian",
-        "htmlUrl": "https://github.com/marxian",
-        "followersUrl": "https://api.github.com/users/marxian/followers",
-        "subscriptionsUrl": "https://api.github.com/users/marxian/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/marxian/orgs",
-        "reposUrl": "https://api.github.com/users/marxian/repos",
-        "receivedEventsUrl": "https://api.github.com/users/marxian/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-21T22:20:24.000Z",
-      "publishedAt": "2016-09-22T08:21:35.000Z",
-      "tarballUrl": "https://api.github.com/repos/neontribe/gbptm-admin/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/neontribe/gbptm-admin/zipball/v1.0.0",
-      "body": "This is largely a reskin of the previous version. We now use material-ui.\n\nFeatures\n- New UI\n- Introducing comparative stats by area\n- Improved search results with pagination\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-03T20:06:07.988Z"
 }

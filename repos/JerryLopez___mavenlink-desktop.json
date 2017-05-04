@@ -1,19 +1,19 @@
 {
   "id": 59330741,
   "name": "mavenlink-desktop",
-  "fullName": "JerryLopez/mavenlink-desktop",
+  "fullName": "jerrylopez/mavenlink-desktop",
   "owner": {
-    "login": "JerryLopez",
+    "login": "jerrylopez",
     "id": 2491416,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2491416?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2491416?v=3",
     "gravatarId": "",
-    "url": "https://api.github.com/users/JerryLopez",
-    "htmlUrl": "https://github.com/JerryLopez",
-    "followersUrl": "https://api.github.com/users/JerryLopez/followers",
-    "subscriptionsUrl": "https://api.github.com/users/JerryLopez/subscriptions",
-    "organizationsUrl": "https://api.github.com/users/JerryLopez/orgs",
-    "reposUrl": "https://api.github.com/users/JerryLopez/repos",
-    "receivedEventsUrl": "https://api.github.com/users/JerryLopez/received_events",
+    "url": "https://api.github.com/users/jerrylopez",
+    "htmlUrl": "https://github.com/jerrylopez",
+    "followersUrl": "https://api.github.com/users/jerrylopez/followers",
+    "subscriptionsUrl": "https://api.github.com/users/jerrylopez/subscriptions",
+    "organizationsUrl": "https://api.github.com/users/jerrylopez/orgs",
+    "reposUrl": "https://api.github.com/users/jerrylopez/repos",
+    "receivedEventsUrl": "https://api.github.com/users/jerrylopez/received_events",
     "type": "User"
   },
   "private": false,
@@ -32,8 +32,8 @@
   "hasWiki": false,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -77,9 +77,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "JerryLopez"
-  ],
   "firstCommit": {
     "sha": "88b28e727ba0340bf1234b97d0114cbac272964b",
     "commit": {
@@ -103,65 +100,26 @@
     }
   },
   "filename": "JerryLopez___mavenlink-desktop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/releases/3276846",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/releases/assets/1723954",
-          "id": 1723954,
-          "name": "mavenlink-v0.1.0.dmg",
-          "label": null,
-          "uploader": {
-            "login": "jerrylopez",
-            "id": 2491416,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2491416?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jerrylopez",
-            "htmlUrl": "https://github.com/jerrylopez",
-            "followersUrl": "https://api.github.com/users/jerrylopez/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jerrylopez/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jerrylopez/orgs",
-            "reposUrl": "https://api.github.com/users/jerrylopez/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jerrylopez/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 41807150,
-          "downloadCount": 8,
-          "createdAt": "2016-05-21T18:24:22.000Z",
-          "updatedAt": "2016-05-21T18:26:02.000Z",
-          "browserDownloadUrl": "https://github.com/jerrylopez/mavenlink-desktop/releases/download/0.1.0/mavenlink-v0.1.0.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/releases/3276846/assets",
-      "htmlUrl": "https://github.com/jerrylopez/mavenlink-desktop/releases/tag/0.1.0",
-      "id": 3276846,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "jerrylopez",
-        "id": 2491416,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2491416?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jerrylopez",
-        "htmlUrl": "https://github.com/jerrylopez",
-        "followersUrl": "https://api.github.com/users/jerrylopez/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jerrylopez/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jerrylopez/orgs",
-        "reposUrl": "https://api.github.com/users/jerrylopez/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jerrylopez/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-21T18:21:05.000Z",
-      "publishedAt": "2016-05-21T18:23:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/zipball/0.1.0",
-      "body": "In this initial release Mavenlink is simply wrapped by electron. \n"
-    }
-  ]
+  "htmlUrl": "https://github.com/jerrylopez/mavenlink-desktop",
+  "url": "https://api.github.com/repos/jerrylopez/mavenlink-desktop",
+  "forksUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/forks",
+  "teamsUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/teams",
+  "hooksUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/hooks",
+  "eventsUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/events",
+  "tagsUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/tags",
+  "languagesUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/languages",
+  "stargazersUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/subscription",
+  "mergesUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/merges",
+  "downloadsUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jerrylopez/mavenlink-desktop/deployments",
+  "gitUrl": "git://github.com/jerrylopez/mavenlink-desktop.git",
+  "sshUrl": "git@github.com:jerrylopez/mavenlink-desktop.git",
+  "cloneUrl": "https://github.com/jerrylopez/mavenlink-desktop.git",
+  "svnUrl": "https://github.com/jerrylopez/mavenlink-desktop",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:23:39.307Z"
 }

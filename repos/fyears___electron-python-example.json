@@ -5,7 +5,7 @@
   "owner": {
     "login": "fyears",
     "id": 1142836,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1142836?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1142836?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/fyears",
     "htmlUrl": "https://github.com/fyears",
@@ -17,33 +17,39 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": "Electron as GUI of Python Applications",
   "fork": false,
   "createdAt": "2015-06-20T19:47:13.000Z",
-  "updatedAt": "2016-08-11T02:54:12.000Z",
-  "pushedAt": "2016-01-27T01:35:16.000Z",
-  "homepage": null,
-  "size": 34,
-  "stargazersCount": 65,
-  "watchersCount": 65,
+  "updatedAt": "2017-05-04T10:11:17.000Z",
+  "pushedAt": "2017-02-27T06:23:55.000Z",
+  "homepage": "",
+  "size": 66,
+  "stargazersCount": 198,
+  "watchersCount": 198,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 8,
+  "forksCount": 28,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 65,
+  "watchers": 198,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 8,
-  "subscribersCount": 5,
+  "license": {
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
+  },
+  "networkCount": 28,
+  "subscribersCount": 16,
   "status": 200,
   "packageJSON": {
     "name": "your-app",
@@ -55,9 +61,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "fyears"
-  ],
   "firstCommit": {
     "sha": "b32d43024606ff1abca94104c2812c12cf772b5b",
     "commit": {
@@ -81,5 +84,26 @@
     }
   },
   "filename": "fyears___electron-python-example.json",
-  "releases": []
+  "htmlUrl": "https://github.com/fyears/electron-python-example",
+  "url": "https://api.github.com/repos/fyears/electron-python-example",
+  "forksUrl": "https://api.github.com/repos/fyears/electron-python-example/forks",
+  "teamsUrl": "https://api.github.com/repos/fyears/electron-python-example/teams",
+  "hooksUrl": "https://api.github.com/repos/fyears/electron-python-example/hooks",
+  "eventsUrl": "https://api.github.com/repos/fyears/electron-python-example/events",
+  "tagsUrl": "https://api.github.com/repos/fyears/electron-python-example/tags",
+  "languagesUrl": "https://api.github.com/repos/fyears/electron-python-example/languages",
+  "stargazersUrl": "https://api.github.com/repos/fyears/electron-python-example/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/fyears/electron-python-example/contributors",
+  "subscribersUrl": "https://api.github.com/repos/fyears/electron-python-example/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/fyears/electron-python-example/subscription",
+  "mergesUrl": "https://api.github.com/repos/fyears/electron-python-example/merges",
+  "downloadsUrl": "https://api.github.com/repos/fyears/electron-python-example/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/fyears/electron-python-example/deployments",
+  "gitUrl": "git://github.com/fyears/electron-python-example.git",
+  "sshUrl": "git@github.com:fyears/electron-python-example.git",
+  "cloneUrl": "https://github.com/fyears/electron-python-example.git",
+  "svnUrl": "https://github.com/fyears/electron-python-example",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:29:12.693Z"
 }

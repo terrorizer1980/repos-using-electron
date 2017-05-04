@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "myOS",
     "version": "1.0.0",
@@ -83,7 +83,6 @@
     "keywords": [
       "Electron"
     ],
-    "author": "",
     "license": "UNLICENSED",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -115,5 +114,7 @@
     "fscherwi",
     "icoxfog417",
     "laiso"
-  ]
+  ],
+  "filename": "Chanran___simulateOS.json",
+  "lastFetchedAt": "2017-05-04T05:27:19.270Z"
 }

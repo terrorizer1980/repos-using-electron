@@ -5,7 +5,7 @@
   "owner": {
     "login": "Shugabuga",
     "id": 10801851,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10801851?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/10801851?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Shugabuga",
     "htmlUrl": "https://github.com/Shugabuga",
@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-quick-start",
     "version": "1.0.0",
@@ -87,7 +87,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [],
   "firstCommit": {
     "sha": "4753a7607648aab120a25d0608a1dca76fda6553",
     "commit": {
@@ -111,37 +110,6 @@
     }
   },
   "filename": "Shugabuga___jeffOS.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Shugabuga/jeffOS/releases/3493276",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Shugabuga/jeffOS/releases/3493276/assets",
-      "htmlUrl": "https://github.com/Shugabuga/jeffOS/releases/tag/Alpha",
-      "id": 3493276,
-      "tagName": "Alpha",
-      "targetCommitish": "master",
-      "name": "jeffOS 0.0.1",
-      "draft": false,
-      "author": {
-        "login": "Shugabuga",
-        "id": 10801851,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10801851?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Shugabuga",
-        "htmlUrl": "https://github.com/Shugabuga",
-        "followersUrl": "https://api.github.com/users/Shugabuga/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Shugabuga/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Shugabuga/orgs",
-        "reposUrl": "https://api.github.com/users/Shugabuga/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Shugabuga/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-06-21T20:22:24.000Z",
-      "publishedAt": "2016-06-21T20:30:33.000Z",
-      "tarballUrl": "https://api.github.com/repos/Shugabuga/jeffOS/tarball/Alpha",
-      "zipballUrl": "https://api.github.com/repos/Shugabuga/jeffOS/zipball/Alpha",
-      "body": "This is the initial public release of jeffOS.\n\n**Note: Only the `jeffOS-mas-x64` build has been tested!**\n\nTIP: Clicking [here](http://j-co.ga/jeffOS/jeffos.html) will open jeffOS after initial run.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:30:10.933Z"
 }

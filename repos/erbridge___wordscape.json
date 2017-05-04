@@ -5,7 +5,7 @@
   "owner": {
     "login": "erbridge",
     "id": 1027364,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1027364?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/erbridge",
     "htmlUrl": "https://github.com/erbridge",
@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-01-24T22:25:20.000Z",
   "updatedAt": "2016-03-10T17:04:58.000Z",
-  "pushedAt": "2016-01-24T22:34:00.000Z",
+  "pushedAt": "2016-11-28T14:06:05.000Z",
   "homepage": "https://erbridge.itch.io/wordscape",
-  "size": 15,
+  "size": 14,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -81,9 +81,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "erbridge"
-  ],
   "firstCommit": {
     "sha": "9c8561570cb199fc7a1f1918ca351f4b0407aa88",
     "commit": {
@@ -107,119 +104,26 @@
     }
   },
   "filename": "erbridge___wordscape.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/erbridge/wordscape/releases/2483398",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/erbridge/wordscape/releases/assets/1241089",
-          "id": 1241089,
-          "name": "WordScape-darwin-x64-0.1.0.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "erbridge",
-            "id": 1027364,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/erbridge",
-            "htmlUrl": "https://github.com/erbridge",
-            "followersUrl": "https://api.github.com/users/erbridge/followers",
-            "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-            "reposUrl": "https://api.github.com/users/erbridge/repos",
-            "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 40390027,
-          "downloadCount": 4,
-          "createdAt": "2016-01-24T23:09:52.000Z",
-          "updatedAt": "2016-01-24T23:23:15.000Z",
-          "browserDownloadUrl": "https://github.com/erbridge/wordscape/releases/download/v0.1.0/WordScape-darwin-x64-0.1.0.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/erbridge/wordscape/releases/assets/1241119",
-          "id": 1241119,
-          "name": "WordScape-linux-x64-0.1.0.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "erbridge",
-            "id": 1027364,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/erbridge",
-            "htmlUrl": "https://github.com/erbridge",
-            "followersUrl": "https://api.github.com/users/erbridge/followers",
-            "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-            "reposUrl": "https://api.github.com/users/erbridge/repos",
-            "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 39352190,
-          "downloadCount": 17,
-          "createdAt": "2016-01-24T23:27:02.000Z",
-          "updatedAt": "2016-01-24T23:45:23.000Z",
-          "browserDownloadUrl": "https://github.com/erbridge/wordscape/releases/download/v0.1.0/WordScape-linux-x64-0.1.0.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/erbridge/wordscape/releases/assets/1241150",
-          "id": 1241150,
-          "name": "WordScape-win32-x64-0.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "erbridge",
-            "id": 1027364,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/erbridge",
-            "htmlUrl": "https://github.com/erbridge",
-            "followersUrl": "https://api.github.com/users/erbridge/followers",
-            "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-            "reposUrl": "https://api.github.com/users/erbridge/repos",
-            "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 51471348,
-          "downloadCount": 30,
-          "createdAt": "2016-01-24T23:45:36.000Z",
-          "updatedAt": "2016-01-25T00:02:26.000Z",
-          "browserDownloadUrl": "https://github.com/erbridge/wordscape/releases/download/v0.1.0/WordScape-win32-x64-0.1.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/erbridge/wordscape/releases/2483398/assets",
-      "htmlUrl": "https://github.com/erbridge/wordscape/releases/tag/v0.1.0",
-      "id": 2483398,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Initial Release",
-      "draft": false,
-      "author": {
-        "login": "erbridge",
-        "id": 1027364,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1027364?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/erbridge",
-        "htmlUrl": "https://github.com/erbridge",
-        "followersUrl": "https://api.github.com/users/erbridge/followers",
-        "subscriptionsUrl": "https://api.github.com/users/erbridge/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/erbridge/orgs",
-        "reposUrl": "https://api.github.com/users/erbridge/repos",
-        "receivedEventsUrl": "https://api.github.com/users/erbridge/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-24T22:31:25.000Z",
-      "publishedAt": "2016-01-24T23:26:15.000Z",
-      "tarballUrl": "https://api.github.com/repos/erbridge/wordscape/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/erbridge/wordscape/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/erbridge/wordscape",
+  "url": "https://api.github.com/repos/erbridge/wordscape",
+  "forksUrl": "https://api.github.com/repos/erbridge/wordscape/forks",
+  "teamsUrl": "https://api.github.com/repos/erbridge/wordscape/teams",
+  "hooksUrl": "https://api.github.com/repos/erbridge/wordscape/hooks",
+  "eventsUrl": "https://api.github.com/repos/erbridge/wordscape/events",
+  "tagsUrl": "https://api.github.com/repos/erbridge/wordscape/tags",
+  "languagesUrl": "https://api.github.com/repos/erbridge/wordscape/languages",
+  "stargazersUrl": "https://api.github.com/repos/erbridge/wordscape/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/erbridge/wordscape/contributors",
+  "subscribersUrl": "https://api.github.com/repos/erbridge/wordscape/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/erbridge/wordscape/subscription",
+  "mergesUrl": "https://api.github.com/repos/erbridge/wordscape/merges",
+  "downloadsUrl": "https://api.github.com/repos/erbridge/wordscape/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/erbridge/wordscape/deployments",
+  "gitUrl": "git://github.com/erbridge/wordscape.git",
+  "sshUrl": "git@github.com:erbridge/wordscape.git",
+  "cloneUrl": "https://github.com/erbridge/wordscape.git",
+  "svnUrl": "https://github.com/erbridge/wordscape",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:30:57.449Z"
 }

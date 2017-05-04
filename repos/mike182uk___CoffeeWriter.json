@@ -5,7 +5,7 @@
   "owner": {
     "login": "mike182uk",
     "id": 991592,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/991592?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/991592?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mike182uk",
     "htmlUrl": "https://github.com/mike182uk",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/mike182uk/CoffeeWriter",
-  "description": "☕ A simple desktop app for quickly compiling CoffeeScript",
+  "description": "☕ A simple desktop app for quickly compiling CoffeeScript (macOS)",
   "fork": false,
   "url": "https://api.github.com/repos/mike182uk/CoffeeWriter",
   "forksUrl": "https://api.github.com/repos/mike182uk/CoffeeWriter/forks",
@@ -35,21 +35,21 @@
   "downloadsUrl": "https://api.github.com/repos/mike182uk/CoffeeWriter/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mike182uk/CoffeeWriter/deployments",
   "createdAt": "2016-09-14T22:44:50.000Z",
-  "updatedAt": "2016-09-16T19:16:56.000Z",
-  "pushedAt": "2016-09-16T20:10:44.000Z",
+  "updatedAt": "2016-12-21T09:32:28.000Z",
+  "pushedAt": "2017-01-03T16:28:51.000Z",
   "gitUrl": "git://github.com/mike182uk/CoffeeWriter.git",
   "sshUrl": "git@github.com:mike182uk/CoffeeWriter.git",
   "cloneUrl": "https://github.com/mike182uk/CoffeeWriter.git",
   "svnUrl": "https://github.com/mike182uk/CoffeeWriter",
-  "homepage": null,
-  "size": 317259,
+  "homepage": "",
+  "size": 840,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": true,
+  "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
   "openIssuesCount": 3,
@@ -116,9 +116,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mike182uk"
-  ],
   "firstCommit": {
     "sha": "ea3e06f6662782d5f33af165a62c36ecdd79077a",
     "commit": {
@@ -142,65 +139,6 @@
     }
   },
   "filename": "mike182uk___CoffeeWriter.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mike182uk/CoffeeWriter/releases/4967220",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mike182uk/CoffeeWriter/releases/assets/2856266",
-          "id": 2856266,
-          "name": "CoffeeWriter-darwin-x64-1.0.0.tar.bz2",
-          "label": "",
-          "uploader": {
-            "login": "mike182uk",
-            "id": 991592,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/991592?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mike182uk",
-            "htmlUrl": "https://github.com/mike182uk",
-            "followersUrl": "https://api.github.com/users/mike182uk/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mike182uk/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mike182uk/orgs",
-            "reposUrl": "https://api.github.com/users/mike182uk/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mike182uk/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-bzip2",
-          "state": "uploaded",
-          "size": 37019765,
-          "downloadCount": 2,
-          "createdAt": "2016-12-20T12:07:27.000Z",
-          "updatedAt": "2016-12-20T12:07:28.000Z",
-          "browserDownloadUrl": "https://github.com/mike182uk/CoffeeWriter/releases/download/1.0.0/CoffeeWriter-darwin-x64-1.0.0.tar.bz2"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mike182uk/CoffeeWriter/releases/4967220/assets",
-      "htmlUrl": "https://github.com/mike182uk/CoffeeWriter/releases/tag/1.0.0",
-      "id": 4967220,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "mike182uk",
-        "id": 991592,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/991592?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mike182uk",
-        "htmlUrl": "https://github.com/mike182uk",
-        "followersUrl": "https://api.github.com/users/mike182uk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mike182uk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mike182uk/orgs",
-        "reposUrl": "https://api.github.com/users/mike182uk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mike182uk/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-20T12:06:07.000Z",
-      "publishedAt": "2016-12-20T12:10:36.000Z",
-      "tarballUrl": "https://api.github.com/repos/mike182uk/CoffeeWriter/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/mike182uk/CoffeeWriter/zipball/1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:51:45.946Z"
 }

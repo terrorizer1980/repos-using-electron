@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Counter",
     "version": "0.2.0",
@@ -176,5 +176,6 @@
       "zipballUrl": "https://api.github.com/repos/MindOfThomas/counter/zipball/0.1.0",
       "body": "So far, the following features are implemented and should work:\n- +1 button increments the counter and clicking on the first number (the \"count\" number) in the counter decrements\n- \"Reset\" button sets the count to zero\n- Clicking the second number (the \"target\" number) allows you to change the target\n- Clicking the title above the counter allows you to set a custom title\n- The progress bar gives a more visual representation of the count's progress (placing the cursor over the progress bar will show the count (out of target) as a percentage)\n- The count, title, and window position/dimensions should be saved between sessions\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-03T20:07:53.288Z"
 }

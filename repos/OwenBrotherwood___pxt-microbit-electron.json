@@ -182,15 +182,12 @@
   },
   "networkCount": 2,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "code-the-microbit",
     "version": "1.0.0",
     "description": "Blocks / Javascript editor",
-    "author": "Microsoft",
-    "repository": {
-      "url": "https://github.com/Microsoft/pxt-microbit-electron"
-    },
+    "repository": "https://github.com/Microsoft/pxt-microbit-electron",
     "license": "MIT",
     "main": "main.js",
     "scripts": {
@@ -213,5 +210,7 @@
   "contributors": [
     "guillaumejenkins",
     "OwenBrotherwood"
-  ]
+  ],
+  "filename": "OwenBrotherwood___pxt-microbit-electron.json",
+  "lastFetchedAt": "2017-05-04T06:01:35.583Z"
 }

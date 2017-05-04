@@ -5,7 +5,7 @@
   "owner": {
     "login": "AWAKENS-dev",
     "id": 20502002,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20502002?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20502002?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AWAKENS-dev",
     "htmlUrl": "https://github.com/AWAKENS-dev",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/AWAKENS-dev/example-app-electron",
-  "description": "Example app with awtk API in Electron (Node.js)",
+  "description": "[deprecated] Example app with awtk API in Electron (Node.js)",
   "fork": false,
   "url": "https://api.github.com/repos/AWAKENS-dev/example-app-electron",
   "forksUrl": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/forks",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/downloads",
   "deploymentsUrl": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/deployments",
   "createdAt": "2016-07-31T08:02:57.000Z",
-  "updatedAt": "2016-10-26T03:13:03.000Z",
+  "updatedAt": "2017-02-06T08:36:17.000Z",
   "pushedAt": "2016-10-26T03:13:03.000Z",
   "gitUrl": "git://github.com/AWAKENS-dev/example-app-electron.git",
   "sshUrl": "git@github.com:AWAKENS-dev/example-app-electron.git",
@@ -71,7 +71,7 @@
   "organization": {
     "login": "AWAKENS-dev",
     "id": 20502002,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20502002?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20502002?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AWAKENS-dev",
     "htmlUrl": "https://github.com/AWAKENS-dev",
@@ -113,9 +113,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "knmkr"
-  ],
   "firstCommit": {
     "sha": "6ff6f2210e4002f1c2bcd6696322acaa79f33c8e",
     "commit": {
@@ -139,65 +136,6 @@
     }
   },
   "filename": "AWAKENS-dev___example-app-electron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/releases/3830865",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/releases/assets/2108010",
-          "id": 2108010,
-          "name": "example-app-electron.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "knmkr",
-            "id": 1478450,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1478450?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/knmkr",
-            "htmlUrl": "https://github.com/knmkr",
-            "followersUrl": "https://api.github.com/users/knmkr/followers",
-            "subscriptionsUrl": "https://api.github.com/users/knmkr/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/knmkr/orgs",
-            "reposUrl": "https://api.github.com/users/knmkr/repos",
-            "receivedEventsUrl": "https://api.github.com/users/knmkr/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 52107514,
-          "downloadCount": 0,
-          "createdAt": "2016-08-07T12:11:26.000Z",
-          "updatedAt": "2016-08-07T12:11:40.000Z",
-          "browserDownloadUrl": "https://github.com/AWAKENS-dev/example-app-electron/releases/download/0.0.1/example-app-electron.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/releases/3830865/assets",
-      "htmlUrl": "https://github.com/AWAKENS-dev/example-app-electron/releases/tag/0.0.1",
-      "id": 3830865,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "knmkr",
-        "id": 1478450,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1478450?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/knmkr",
-        "htmlUrl": "https://github.com/knmkr",
-        "followersUrl": "https://api.github.com/users/knmkr/followers",
-        "subscriptionsUrl": "https://api.github.com/users/knmkr/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/knmkr/orgs",
-        "reposUrl": "https://api.github.com/users/knmkr/repos",
-        "receivedEventsUrl": "https://api.github.com/users/knmkr/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-07T12:11:03.000Z",
-      "publishedAt": "2016-08-07T12:11:42.000Z",
-      "tarballUrl": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/AWAKENS-dev/example-app-electron/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:21:40.586Z"
 }

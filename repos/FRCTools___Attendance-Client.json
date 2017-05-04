@@ -5,7 +5,7 @@
   "owner": {
     "login": "FRCTools",
     "id": 21225473,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/21225473?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/21225473?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/FRCTools",
     "htmlUrl": "https://github.com/FRCTools",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/FRCTools/Attendance-Client/downloads",
   "deploymentsUrl": "https://api.github.com/repos/FRCTools/Attendance-Client/deployments",
   "createdAt": "2016-08-20T02:50:25.000Z",
-  "updatedAt": "2016-08-24T22:05:38.000Z",
-  "pushedAt": "2016-09-29T02:15:07.000Z",
+  "updatedAt": "2016-12-08T04:55:34.000Z",
+  "pushedAt": "2017-05-04T16:48:10.000Z",
   "gitUrl": "git://github.com/FRCTools/Attendance-Client.git",
   "sshUrl": "git@github.com:FRCTools/Attendance-Client.git",
   "cloneUrl": "https://github.com/FRCTools/Attendance-Client.git",
   "svnUrl": "https://github.com/FRCTools/Attendance-Client",
   "homepage": "",
-  "size": 3303,
+  "size": 4814,
   "stargazersCount": 2,
   "watchersCount": 2,
   "language": "JavaScript",
@@ -50,10 +50,10 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 6,
-  "openIssues": 6,
+  "openIssuesCount": 10,
+  "openIssues": 10,
   "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
@@ -71,7 +71,7 @@
   "organization": {
     "login": "FRCTools",
     "id": 21225473,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/21225473?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/21225473?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/FRCTools",
     "htmlUrl": "https://github.com/FRCTools",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/FRCTools/received_events",
     "type": "Organization"
   },
-  "networkCount": 1,
+  "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -115,10 +115,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "andrewda",
-    "evanmhm"
-  ],
   "firstCommit": {
     "sha": "ac8a58fc1b1462f3bfef3f1646de27d992c4e295",
     "commit": {
@@ -142,65 +138,6 @@
     }
   },
   "filename": "FRCTools___Attendance-Client.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/FRCTools/Attendance-Client/releases/4236925",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/FRCTools/Attendance-Client/releases/assets/2381679",
-          "id": 2381679,
-          "name": "attendance_1.0.0.exe",
-          "label": null,
-          "uploader": {
-            "login": "evanmhm",
-            "id": 15006399,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/15006399?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/evanmhm",
-            "htmlUrl": "https://github.com/evanmhm",
-            "followersUrl": "https://api.github.com/users/evanmhm/followers",
-            "subscriptionsUrl": "https://api.github.com/users/evanmhm/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/evanmhm/orgs",
-            "reposUrl": "https://api.github.com/users/evanmhm/repos",
-            "receivedEventsUrl": "https://api.github.com/users/evanmhm/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 41604044,
-          "downloadCount": 4,
-          "createdAt": "2016-09-27T06:21:57.000Z",
-          "updatedAt": "2016-09-27T22:58:09.000Z",
-          "browserDownloadUrl": "https://github.com/FRCTools/Attendance-Client/releases/download/v1.0.0/attendance_1.0.0.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/FRCTools/Attendance-Client/releases/4236925/assets",
-      "htmlUrl": "https://github.com/FRCTools/Attendance-Client/releases/tag/v1.0.0",
-      "id": 4236925,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "evanmhm",
-        "id": 15006399,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15006399?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/evanmhm",
-        "htmlUrl": "https://github.com/evanmhm",
-        "followersUrl": "https://api.github.com/users/evanmhm/followers",
-        "subscriptionsUrl": "https://api.github.com/users/evanmhm/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/evanmhm/orgs",
-        "reposUrl": "https://api.github.com/users/evanmhm/repos",
-        "receivedEventsUrl": "https://api.github.com/users/evanmhm/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-27T06:19:53.000Z",
-      "publishedAt": "2016-09-27T06:23:37.000Z",
-      "tarballUrl": "https://api.github.com/repos/FRCTools/Attendance-Client/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/FRCTools/Attendance-Client/zipball/v1.0.0",
-      "body": "Our first release sporting a fancy look and features such as signing in, out, making new accounts for students and metors, and checking time signed in.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:00:53.382Z"
 }

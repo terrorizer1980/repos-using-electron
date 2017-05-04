@@ -5,7 +5,7 @@
   "owner": {
     "login": "Charlotteis",
     "id": 542140,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/542140?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/542140?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Charlotteis",
     "htmlUrl": "https://github.com/Charlotteis",
@@ -49,7 +49,7 @@
     "owner": {
       "login": "mikaturunen",
       "id": 1472272,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1472272?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1472272?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/mikaturunen",
       "htmlUrl": "https://github.com/mikaturunen",
@@ -91,10 +91,11 @@
     "watchersCount": 9,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 6,
+    "forksCount": 5,
     "mirrorUrl": null,
     "openIssuesCount": 1,
     "openIssues": 1,
@@ -108,7 +109,7 @@
     "owner": {
       "login": "mikaturunen",
       "id": 1472272,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/1472272?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/1472272?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/mikaturunen",
       "htmlUrl": "https://github.com/mikaturunen",
@@ -150,17 +151,18 @@
     "watchersCount": 9,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
-    "forksCount": 6,
+    "forksCount": 5,
     "mirrorUrl": null,
     "openIssuesCount": 1,
     "openIssues": 1,
     "watchers": 9,
     "defaultBranch": "master"
   },
-  "networkCount": 6,
+  "networkCount": 5,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -221,9 +223,6 @@
   "cloneUrl": "https://github.com/Charlotteis/electron-twitter.git",
   "svnUrl": "https://github.com/Charlotteis/electron-twitter",
   "mirrorUrl": null,
-  "contributors": [
-    "mikaturunen"
-  ],
   "firstCommit": {
     "sha": "7dc95739725cae586187093c7a80459b9be4b080",
     "commit": {
@@ -248,5 +247,6 @@
   },
   "filename": "Charlotteis___electron-twitter.json",
   "sourceRepo": "mikaturunen/electron-twitter",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:02:55.606Z"
 }

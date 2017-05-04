@@ -5,7 +5,7 @@
   "owner": {
     "login": "omegaup",
     "id": 558429,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/558429?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/558429?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/omegaup",
     "htmlUrl": "https://github.com/omegaup",
@@ -20,21 +20,21 @@
   "description": "Compilador y evaluador de Karel en javascript",
   "fork": false,
   "createdAt": "2013-04-21T22:32:53.000Z",
-  "updatedAt": "2016-02-13T23:09:46.000Z",
-  "pushedAt": "2016-03-16T05:53:18.000Z",
+  "updatedAt": "2017-05-01T23:00:20.000Z",
+  "pushedAt": "2017-05-03T03:33:12.000Z",
   "homepage": null,
-  "size": 2965,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "size": 3139,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 4,
-  "openIssuesCount": 11,
-  "openIssues": 11,
-  "watchers": 3,
+  "forksCount": 5,
+  "openIssuesCount": 12,
+  "openIssues": 12,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "omegaup",
     "id": 558429,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/558429?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/558429?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/omegaup",
     "htmlUrl": "https://github.com/omegaup",
@@ -62,7 +62,7 @@
     "receivedEventsUrl": "https://api.github.com/users/omegaup/received_events",
     "type": "Organization"
   },
-  "networkCount": 4,
+  "networkCount": 5,
   "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
@@ -167,12 +167,6 @@
   "cloneUrl": "https://github.com/omegaup/karel.js.git",
   "svnUrl": "https://github.com/omegaup/karel.js",
   "mirrorUrl": null,
-  "contributors": [
-    "lhchavez",
-    "categulario",
-    "pacharrin",
-    "frcepeda"
-  ],
   "firstCommit": {
     "sha": "10e07176ec54faaf6799e55f60de41d45f2956ce",
     "commit": {
@@ -196,92 +190,6 @@
     }
   },
   "filename": "omegaup___karel.js.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/omegaup/karel.js/releases/2659003",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/omegaup/karel.js/releases/assets/1337918",
-          "id": 1337918,
-          "name": "karel.js.Setup.exe",
-          "label": null,
-          "uploader": {
-            "login": "lhchavez",
-            "id": 168028,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/168028?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lhchavez",
-            "htmlUrl": "https://github.com/lhchavez",
-            "followersUrl": "https://api.github.com/users/lhchavez/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lhchavez/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lhchavez/orgs",
-            "reposUrl": "https://api.github.com/users/lhchavez/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lhchavez/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-ms-dos-executable",
-          "state": "uploaded",
-          "size": 42922197,
-          "downloadCount": 52,
-          "createdAt": "2016-02-22T00:08:40.000Z",
-          "updatedAt": "2016-02-22T00:09:40.000Z",
-          "browserDownloadUrl": "https://github.com/omegaup/karel.js/releases/download/v0.2.1/karel.js.Setup.exe"
-        },
-        {
-          "url": "https://api.github.com/repos/omegaup/karel.js/releases/assets/1337922",
-          "id": 1337922,
-          "name": "karel.zip",
-          "label": null,
-          "uploader": {
-            "login": "lhchavez",
-            "id": 168028,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/168028?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lhchavez",
-            "htmlUrl": "https://github.com/lhchavez",
-            "followersUrl": "https://api.github.com/users/lhchavez/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lhchavez/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lhchavez/orgs",
-            "reposUrl": "https://api.github.com/users/lhchavez/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lhchavez/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 2032152,
-          "downloadCount": 19,
-          "createdAt": "2016-02-22T00:09:53.000Z",
-          "updatedAt": "2016-02-22T00:09:57.000Z",
-          "browserDownloadUrl": "https://github.com/omegaup/karel.js/releases/download/v0.2.1/karel.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/omegaup/karel.js/releases/2659003/assets",
-      "htmlUrl": "https://github.com/omegaup/karel.js/releases/tag/v0.2.1",
-      "id": 2659003,
-      "tagName": "v0.2.1",
-      "targetCommitish": "master",
-      "name": "v0.2.1",
-      "draft": false,
-      "author": {
-        "login": "lhchavez",
-        "id": 168028,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/168028?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lhchavez",
-        "htmlUrl": "https://github.com/lhchavez",
-        "followersUrl": "https://api.github.com/users/lhchavez/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lhchavez/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lhchavez/orgs",
-        "reposUrl": "https://api.github.com/users/lhchavez/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lhchavez/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-20T15:17:29.000Z",
-      "publishedAt": "2016-02-22T00:10:00.000Z",
-      "tarballUrl": "https://api.github.com/repos/omegaup/karel.js/tarball/v0.2.1",
-      "zipballUrl": "https://api.github.com/repos/omegaup/karel.js/zipball/v0.2.1",
-      "body": "- Primera versión pública de Karel.js\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:55:36.485Z"
 }

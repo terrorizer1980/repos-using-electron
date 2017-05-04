@@ -5,7 +5,7 @@
   "owner": {
     "login": "dqisme",
     "id": 11534233,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11534233?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/11534233?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dqisme",
     "htmlUrl": "https://github.com/dqisme",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/dqisme/nomnoml-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/dqisme/nomnoml-app/deployments",
   "createdAt": "2016-03-22T10:31:18.000Z",
-  "updatedAt": "2016-11-02T14:22:42.000Z",
+  "updatedAt": "2016-12-08T17:41:30.000Z",
   "pushedAt": "2016-06-16T03:57:35.000Z",
   "gitUrl": "git://github.com/dqisme/nomnoml-app.git",
   "sshUrl": "git@github.com:dqisme/nomnoml-app.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/dqisme/nomnoml-app",
   "homepage": "",
   "size": 37599,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 2,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -79,15 +79,9 @@
       "build": "mkdir output && cp -a ./src/Electron.app ./output/ && cp ./src/Info.plist ./output/Electron.app/Contents && cp -a ./app ./output/Electron.app/Contents/Resources/ && cp ./src/nomnoml.icns ./output/Electron.app/Contents/Resources && rm -rf ./output/Nomnoml.app && mv ./output/Electron.app ./output/Nomnoml.app",
       "start": "open ./output/Nomnoml.app"
     },
-    "license": "ISC",
-    "other": {
-      "author": "dq"
-    }
+    "license": "ISC"
   },
   "packageStatus": 200,
-  "contributors": [
-    "dqisme"
-  ],
   "firstCommit": {
     "sha": "3e9e1a41537431764391a231d578993dbeb8503d",
     "commit": {
@@ -111,5 +105,6 @@
     }
   },
   "filename": "dqisme___nomnoml-app.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:46:19.515Z"
 }

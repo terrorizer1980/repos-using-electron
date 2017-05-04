@@ -5,7 +5,7 @@
   "owner": {
     "login": "dvajs",
     "id": 20552239,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20552239?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20552239?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dvajs",
     "htmlUrl": "https://github.com/dvajs",
@@ -35,43 +35,37 @@
   "downloadsUrl": "https://api.github.com/repos/dvajs/dva-gui/downloads",
   "deploymentsUrl": "https://api.github.com/repos/dvajs/dva-gui/deployments",
   "createdAt": "2016-09-29T08:55:32.000Z",
-  "updatedAt": "2016-11-03T16:44:11.000Z",
-  "pushedAt": "2016-10-30T09:42:04.000Z",
+  "updatedAt": "2017-04-11T13:36:48.000Z",
+  "pushedAt": "2017-01-07T08:51:39.000Z",
   "gitUrl": "git://github.com/dvajs/dva-gui.git",
   "sshUrl": "git@github.com:dvajs/dva-gui.git",
   "cloneUrl": "https://github.com/dvajs/dva-gui.git",
   "svnUrl": "https://github.com/dvajs/dva-gui",
   "homepage": null,
-  "size": 42561,
-  "stargazersCount": 14,
-  "watchersCount": 14,
+  "size": 1134,
+  "stargazersCount": 31,
+  "watchersCount": 31,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 6,
-  "openIssues": 6,
-  "watchers": 14,
+  "openIssuesCount": 3,
+  "openIssues": 3,
+  "watchers": 31,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "organization": {
     "login": "dvajs",
     "id": 20552239,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20552239?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20552239?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dvajs",
     "htmlUrl": "https://github.com/dvajs",
@@ -82,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/dvajs/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
@@ -110,12 +104,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "sorrycc",
-    "ChrisFan",
-    "jaredleechn",
-    "wenshiqi0"
-  ],
   "firstCommit": {
     "sha": "350e7f607e501fafec3ec835754bd2581add23b8",
     "commit": {
@@ -139,5 +127,6 @@
     }
   },
   "filename": "dvajs___dva-gui.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:10:04.138Z"
 }

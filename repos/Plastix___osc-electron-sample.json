@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "osc-electron-sample",
     "version": "1.0.0",
@@ -78,9 +78,6 @@
     },
     "dependencies": {
       "osc": "^2.1.0"
-    },
-    "other": {
-      "author": "Plastix"
     }
   },
   "packageStatus": 200,
@@ -109,5 +106,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Plastix___osc-electron-sample.json"
+  "filename": "Plastix___osc-electron-sample.json",
+  "lastFetchedAt": "2017-05-04T05:25:38.157Z"
 }

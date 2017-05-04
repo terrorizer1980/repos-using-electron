@@ -5,7 +5,7 @@
   "owner": {
     "login": "mozilla-magnet",
     "id": 17905978,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17905978?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/17905978?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mozilla-magnet",
     "htmlUrl": "https://github.com/mozilla-magnet",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/deployments",
   "createdAt": "2016-07-07T08:46:03.000Z",
-  "updatedAt": "2016-11-06T23:02:11.000Z",
+  "updatedAt": "2016-11-21T21:28:36.000Z",
   "pushedAt": "2016-09-08T14:32:10.000Z",
   "gitUrl": "git://github.com/mozilla-magnet/magnet-client-desktop.git",
   "sshUrl": "git@github.com:mozilla-magnet/magnet-client-desktop.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/mozilla-magnet/magnet-client-desktop",
   "homepage": "",
   "size": 1995,
-  "stargazersCount": 26,
-  "watchersCount": 26,
+  "stargazersCount": 27,
+  "watchersCount": 27,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 8,
   "openIssues": 8,
-  "watchers": 26,
+  "watchers": 27,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "mozilla-magnet",
     "id": 17905978,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17905978?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/17905978?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mozilla-magnet",
     "htmlUrl": "https://github.com/mozilla-magnet",
@@ -102,9 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "wilsonpage"
-  ],
   "firstCommit": {
     "sha": "74623355cf9e779e38f35422eaa4ce668d2494f2",
     "commit": {
@@ -128,242 +125,6 @@
     }
   },
   "filename": "mozilla-magnet___magnet-client-desktop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/4081278",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/assets/2278416",
-          "id": 2278416,
-          "name": "ProjectMagnet-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "wilsonpage",
-            "id": 1020551,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/wilsonpage",
-            "htmlUrl": "https://github.com/wilsonpage",
-            "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-            "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-            "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-            "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44403344,
-          "downloadCount": 36,
-          "createdAt": "2016-09-08T14:33:05.000Z",
-          "updatedAt": "2016-09-08T14:33:21.000Z",
-          "browserDownloadUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/download/v1.2.0/ProjectMagnet-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/4081278/assets",
-      "htmlUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/tag/v1.2.0",
-      "id": 4081278,
-      "tagName": "v1.2.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "wilsonpage",
-        "id": 1020551,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/wilsonpage",
-        "htmlUrl": "https://github.com/wilsonpage",
-        "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-        "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-        "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-        "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-08T14:32:01.000Z",
-      "publishedAt": "2016-09-08T14:33:25.000Z",
-      "tarballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/tarball/v1.2.0",
-      "zipballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/zipball/v1.2.0",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/4062497",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/assets/2265928",
-          "id": 2265928,
-          "name": "Magnet-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "wilsonpage",
-            "id": 1020551,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/wilsonpage",
-            "htmlUrl": "https://github.com/wilsonpage",
-            "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-            "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-            "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-            "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44400640,
-          "downloadCount": 14,
-          "createdAt": "2016-09-06T16:35:18.000Z",
-          "updatedAt": "2016-09-06T16:35:26.000Z",
-          "browserDownloadUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/download/v1.1.2/Magnet-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/4062497/assets",
-      "htmlUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/tag/v1.1.2",
-      "id": 4062497,
-      "tagName": "v1.1.2",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "wilsonpage",
-        "id": 1020551,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/wilsonpage",
-        "htmlUrl": "https://github.com/wilsonpage",
-        "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-        "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-        "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-        "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-06T16:32:07.000Z",
-      "publishedAt": "2016-09-06T16:35:29.000Z",
-      "tarballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/tarball/v1.1.2",
-      "zipballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/zipball/v1.1.2",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/3733161",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/assets/2042746",
-          "id": 2042746,
-          "name": "Magnet-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "wilsonpage",
-            "id": 1020551,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/wilsonpage",
-            "htmlUrl": "https://github.com/wilsonpage",
-            "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-            "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-            "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-            "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43216498,
-          "downloadCount": 18,
-          "createdAt": "2016-07-25T15:49:26.000Z",
-          "updatedAt": "2016-07-25T15:56:44.000Z",
-          "browserDownloadUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/download/v1.1.1/Magnet-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/3733161/assets",
-      "htmlUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/tag/v1.1.1",
-      "id": 3733161,
-      "tagName": "v1.1.1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "wilsonpage",
-        "id": 1020551,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/wilsonpage",
-        "htmlUrl": "https://github.com/wilsonpage",
-        "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-        "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-        "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-        "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-25T15:43:25.000Z",
-      "publishedAt": "2016-07-25T15:49:12.000Z",
-      "tarballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/tarball/v1.1.1",
-      "zipballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/zipball/v1.1.1",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/3731619",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/assets/2041984",
-          "id": 2041984,
-          "name": "Magnet-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "wilsonpage",
-            "id": 1020551,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/wilsonpage",
-            "htmlUrl": "https://github.com/wilsonpage",
-            "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-            "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-            "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-            "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43242517,
-          "downloadCount": 1,
-          "createdAt": "2016-07-25T12:50:17.000Z",
-          "updatedAt": "2016-07-25T12:58:18.000Z",
-          "browserDownloadUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/download/v1.1.0/Magnet-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/releases/3731619/assets",
-      "htmlUrl": "https://github.com/mozilla-magnet/magnet-client-desktop/releases/tag/v1.1.0",
-      "id": 3731619,
-      "tagName": "v1.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "wilsonpage",
-        "id": 1020551,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1020551?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/wilsonpage",
-        "htmlUrl": "https://github.com/wilsonpage",
-        "followersUrl": "https://api.github.com/users/wilsonpage/followers",
-        "subscriptionsUrl": "https://api.github.com/users/wilsonpage/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/wilsonpage/orgs",
-        "reposUrl": "https://api.github.com/users/wilsonpage/repos",
-        "receivedEventsUrl": "https://api.github.com/users/wilsonpage/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-25T12:13:41.000Z",
-      "publishedAt": "2016-07-25T13:03:04.000Z",
-      "tarballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/tarball/v1.1.0",
-      "zipballUrl": "https://api.github.com/repos/mozilla-magnet/magnet-client-desktop/zipball/v1.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:10:05.514Z"
 }

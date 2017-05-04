@@ -6,7 +6,7 @@
   "owner": {
     "login": "IngeniumGolf",
     "id": 3875950,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3875950?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3875950?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/IngeniumGolf",
     "htmlUrl": "https://github.com/IngeniumGolf",
@@ -66,7 +66,7 @@
   "organization": {
     "login": "IngeniumGolf",
     "id": 3875950,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3875950?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3875950?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/IngeniumGolf",
     "htmlUrl": "https://github.com/IngeniumGolf",
@@ -84,7 +84,7 @@
     "owner": {
       "login": "bendrucker",
       "id": 808808,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/808808?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/808808?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/bendrucker",
       "htmlUrl": "https://github.com/bendrucker",
@@ -126,6 +126,7 @@
     "watchersCount": 0,
     "language": "JavaScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
@@ -143,7 +144,7 @@
     "owner": {
       "login": "maxogden",
       "id": 39759,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/39759?v=3",
+      "avatarUrl": "https://avatars3.githubusercontent.com/u/39759?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/maxogden",
       "htmlUrl": "https://github.com/maxogden",
@@ -173,7 +174,7 @@
     "downloadsUrl": "https://api.github.com/repos/maxogden/electron-spawn/downloads",
     "deploymentsUrl": "https://api.github.com/repos/maxogden/electron-spawn/deployments",
     "createdAt": "2015-04-28T19:59:02.000Z",
-    "updatedAt": "2017-01-17T18:38:04.000Z",
+    "updatedAt": "2017-04-29T11:24:27.000Z",
     "pushedAt": "2016-10-04T10:10:21.000Z",
     "gitUrl": "git://github.com/maxogden/electron-spawn.git",
     "sshUrl": "git@github.com:maxogden/electron-spawn.git",
@@ -181,18 +182,19 @@
     "svnUrl": "https://github.com/maxogden/electron-spawn",
     "homepage": null,
     "size": 22,
-    "stargazersCount": 149,
-    "watchersCount": 149,
+    "stargazersCount": 159,
+    "watchersCount": 159,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
     "forksCount": 16,
     "mirrorUrl": null,
-    "openIssuesCount": 9,
-    "openIssues": 9,
-    "watchers": 149,
+    "openIssuesCount": 10,
+    "openIssues": 10,
+    "watchers": 159,
     "defaultBranch": "master"
   },
   "networkCount": 16,
@@ -232,15 +234,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "maxogden",
-    "substack",
-    "shama",
-    "mmckegg",
-    "jsdnxx",
-    "nrn",
-    "TuckerWhitehouse"
-  ],
   "firstCommit": {
     "sha": "813d1bc7473bd986b8269238bc586da01fe81df8",
     "commit": {
@@ -264,5 +257,6 @@
     }
   },
   "sourceRepo": "maxogden/electron-spawn",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:42:05.068Z"
 }

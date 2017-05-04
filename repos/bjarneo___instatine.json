@@ -5,7 +5,7 @@
   "owner": {
     "login": "bjarneo",
     "id": 1419214,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1419214?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/bjarneo",
     "htmlUrl": "https://github.com/bjarneo",
@@ -20,12 +20,12 @@
   "description": "Unofficial Instagram electron desktop application",
   "fork": false,
   "createdAt": "2016-05-11T18:12:20.000Z",
-  "updatedAt": "2016-05-11T18:41:59.000Z",
+  "updatedAt": "2017-03-23T20:51:04.000Z",
   "pushedAt": "2016-05-11T18:27:48.000Z",
   "homepage": null,
   "size": 82,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 1,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 1,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -49,7 +49,7 @@
     "featured": true
   },
   "networkCount": 1,
-  "subscribersCount": 1,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "instatine",
@@ -82,9 +82,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "bjarneo"
-  ],
   "firstCommit": {
     "sha": "373daf859f6a0eabbebaa38216c5ccdcae905707",
     "commit": {
@@ -108,119 +105,26 @@
     }
   },
   "filename": "bjarneo___instatine.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/bjarneo/instatine/releases/3204959",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/bjarneo/instatine/releases/assets/1671469",
-          "id": 1671469,
-          "name": "instatine-linux-0.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "bjarneo",
-            "id": 1419214,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/bjarneo",
-            "htmlUrl": "https://github.com/bjarneo",
-            "followersUrl": "https://api.github.com/users/bjarneo/followers",
-            "subscriptionsUrl": "https://api.github.com/users/bjarneo/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/bjarneo/orgs",
-            "reposUrl": "https://api.github.com/users/bjarneo/repos",
-            "receivedEventsUrl": "https://api.github.com/users/bjarneo/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 39832378,
-          "downloadCount": 6,
-          "createdAt": "2016-05-11T18:15:34.000Z",
-          "updatedAt": "2016-05-11T18:21:57.000Z",
-          "browserDownloadUrl": "https://github.com/bjarneo/instatine/releases/download/v0.1.0/instatine-linux-0.1.0.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/bjarneo/instatine/releases/assets/1671529",
-          "id": 1671529,
-          "name": "instatine-osx-0.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "bjarneo",
-            "id": 1419214,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/bjarneo",
-            "htmlUrl": "https://github.com/bjarneo",
-            "followersUrl": "https://api.github.com/users/bjarneo/followers",
-            "subscriptionsUrl": "https://api.github.com/users/bjarneo/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/bjarneo/orgs",
-            "reposUrl": "https://api.github.com/users/bjarneo/repos",
-            "receivedEventsUrl": "https://api.github.com/users/bjarneo/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 39705737,
-          "downloadCount": 16,
-          "createdAt": "2016-05-11T18:25:24.000Z",
-          "updatedAt": "2016-05-11T18:27:35.000Z",
-          "browserDownloadUrl": "https://github.com/bjarneo/instatine/releases/download/v0.1.0/instatine-osx-0.1.0.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/bjarneo/instatine/releases/assets/1671468",
-          "id": 1671468,
-          "name": "instatine-windows-0.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "bjarneo",
-            "id": 1419214,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/bjarneo",
-            "htmlUrl": "https://github.com/bjarneo",
-            "followersUrl": "https://api.github.com/users/bjarneo/followers",
-            "subscriptionsUrl": "https://api.github.com/users/bjarneo/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/bjarneo/orgs",
-            "reposUrl": "https://api.github.com/users/bjarneo/repos",
-            "receivedEventsUrl": "https://api.github.com/users/bjarneo/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 40248284,
-          "downloadCount": 30,
-          "createdAt": "2016-05-11T18:15:34.000Z",
-          "updatedAt": "2016-05-11T18:16:44.000Z",
-          "browserDownloadUrl": "https://github.com/bjarneo/instatine/releases/download/v0.1.0/instatine-windows-0.1.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/bjarneo/instatine/releases/3204959/assets",
-      "htmlUrl": "https://github.com/bjarneo/instatine/releases/tag/v0.1.0",
-      "id": 3204959,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Initial release",
-      "draft": false,
-      "author": {
-        "login": "bjarneo",
-        "id": 1419214,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1419214?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/bjarneo",
-        "htmlUrl": "https://github.com/bjarneo",
-        "followersUrl": "https://api.github.com/users/bjarneo/followers",
-        "subscriptionsUrl": "https://api.github.com/users/bjarneo/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/bjarneo/orgs",
-        "reposUrl": "https://api.github.com/users/bjarneo/repos",
-        "receivedEventsUrl": "https://api.github.com/users/bjarneo/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-11T18:12:44.000Z",
-      "publishedAt": "2016-05-11T18:27:48.000Z",
-      "tarballUrl": "https://api.github.com/repos/bjarneo/instatine/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/bjarneo/instatine/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/bjarneo/instatine",
+  "url": "https://api.github.com/repos/bjarneo/instatine",
+  "forksUrl": "https://api.github.com/repos/bjarneo/instatine/forks",
+  "teamsUrl": "https://api.github.com/repos/bjarneo/instatine/teams",
+  "hooksUrl": "https://api.github.com/repos/bjarneo/instatine/hooks",
+  "eventsUrl": "https://api.github.com/repos/bjarneo/instatine/events",
+  "tagsUrl": "https://api.github.com/repos/bjarneo/instatine/tags",
+  "languagesUrl": "https://api.github.com/repos/bjarneo/instatine/languages",
+  "stargazersUrl": "https://api.github.com/repos/bjarneo/instatine/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/bjarneo/instatine/contributors",
+  "subscribersUrl": "https://api.github.com/repos/bjarneo/instatine/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/bjarneo/instatine/subscription",
+  "mergesUrl": "https://api.github.com/repos/bjarneo/instatine/merges",
+  "downloadsUrl": "https://api.github.com/repos/bjarneo/instatine/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/bjarneo/instatine/deployments",
+  "gitUrl": "git://github.com/bjarneo/instatine.git",
+  "sshUrl": "git@github.com:bjarneo/instatine.git",
+  "cloneUrl": "https://github.com/bjarneo/instatine.git",
+  "svnUrl": "https://github.com/bjarneo/instatine",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:11:49.569Z"
 }

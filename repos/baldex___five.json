@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "scripts": {
       "postinstall": "install-app-deps",
@@ -133,5 +133,6 @@
       "commentCount": 0
     }
   },
-  "filename": "baldex___five.json"
+  "filename": "baldex___five.json",
+  "lastFetchedAt": "2017-05-04T21:02:31.730Z"
 }

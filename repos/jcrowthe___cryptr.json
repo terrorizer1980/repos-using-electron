@@ -50,7 +50,7 @@
   },
   "networkCount": 1,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "cryptr",
     "version": "1.0.9",
@@ -262,5 +262,6 @@
       "zipballUrl": "https://api.github.com/repos/jcrowthe/cryptr/zipball/1.0.9",
       "body": "- [SECURITY] Fixed an issue where secrets are not cleared on logout. Now, they are cleared from RAM (confirmed through RAM dump).\n- [BUG] Linux copy button fixed\n- [ENHANCEMENT] Username is now autofilled from the last used credentials\n- [ENHANCEMENT] \"Clear\" button added to search field\n- [ENHANCEMENT] Search field now automatically cleared at logout\n- [ENHANCEMENT] Cursor now autofocuses on either username or password field on initial load\n- [ENHANCEMENT] Command + F or Ctrl + F now brings cursor to search field\n- [ENHANCEMENT] Icon fixed in Linux\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T05:33:03.204Z"
 }

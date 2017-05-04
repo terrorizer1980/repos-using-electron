@@ -6,7 +6,7 @@
   "owner": {
     "login": "sangjeedondrub",
     "id": 1996003,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1996003?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1996003?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sangjeedondrub",
     "htmlUrl": "https://github.com/sangjeedondrub",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "rhysd",
       "id": 823277,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/823277?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/rhysd",
       "htmlUrl": "https://github.com/rhysd",
@@ -100,7 +100,7 @@
     "downloadsUrl": "https://api.github.com/repos/rhysd/Trendy/downloads",
     "deploymentsUrl": "https://api.github.com/repos/rhysd/Trendy/deployments",
     "createdAt": "2015-09-08T16:39:23.000Z",
-    "updatedAt": "2017-01-17T23:50:15.000Z",
+    "updatedAt": "2017-04-27T19:24:40.000Z",
     "pushedAt": "2015-10-11T06:31:34.000Z",
     "gitUrl": "git://github.com/rhysd/Trendy.git",
     "sshUrl": "git@github.com:rhysd/Trendy.git",
@@ -108,18 +108,19 @@
     "svnUrl": "https://github.com/rhysd/Trendy",
     "homepage": "http://rhysd.github.io/Trendy/",
     "size": 9364,
-    "stargazersCount": 138,
-    "watchersCount": 138,
+    "stargazersCount": 148,
+    "watchersCount": 148,
     "language": "TypeScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 6,
+    "forksCount": 7,
     "mirrorUrl": null,
     "openIssuesCount": 5,
     "openIssues": 5,
-    "watchers": 138,
+    "watchers": 148,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "rhysd",
       "id": 823277,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/823277?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/rhysd",
       "htmlUrl": "https://github.com/rhysd",
@@ -159,7 +160,7 @@
     "downloadsUrl": "https://api.github.com/repos/rhysd/Trendy/downloads",
     "deploymentsUrl": "https://api.github.com/repos/rhysd/Trendy/deployments",
     "createdAt": "2015-09-08T16:39:23.000Z",
-    "updatedAt": "2017-01-17T23:50:15.000Z",
+    "updatedAt": "2017-04-27T19:24:40.000Z",
     "pushedAt": "2015-10-11T06:31:34.000Z",
     "gitUrl": "git://github.com/rhysd/Trendy.git",
     "sshUrl": "git@github.com:rhysd/Trendy.git",
@@ -167,21 +168,22 @@
     "svnUrl": "https://github.com/rhysd/Trendy",
     "homepage": "http://rhysd.github.io/Trendy/",
     "size": 9364,
-    "stargazersCount": 138,
-    "watchersCount": 138,
+    "stargazersCount": 148,
+    "watchersCount": 148,
     "language": "TypeScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 6,
+    "forksCount": 7,
     "mirrorUrl": null,
     "openIssuesCount": 5,
     "openIssues": 5,
-    "watchers": 138,
+    "watchers": 148,
     "defaultBranch": "master"
   },
-  "networkCount": 6,
+  "networkCount": 7,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -222,9 +224,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "rhysd"
-  ],
   "firstCommit": {
     "sha": "e2eb598ee111eefb559294a37171002e1d6bb81f",
     "commit": {
@@ -248,5 +247,6 @@
     }
   },
   "sourceRepo": "rhysd/Trendy",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:24:27.172Z"
 }

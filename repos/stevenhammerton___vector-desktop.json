@@ -44,24 +44,25 @@
   "license": null,
   "networkCount": 2,
   "subscribersCount": 4,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "vector-desktop",
     "version": "0.0.1",
     "description": "Vector Desktop",
-    "author": "Steven Hammerton",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/stevenhammerton/vector-desktop"
-    },
+    "repository": "https://github.com/stevenhammerton/vector-desktop",
     "license": "Apache-2.0",
     "devDependencies": {
       "electron-prebuilt": "^0.34.1"
+    },
+    "other": {
+      "author": "Steven Hammerton"
     }
   },
   "packageStatus": 404,
   "contributors": [
     "stevenhammerton"
-  ]
+  ],
+  "filename": "stevenhammerton___vector-desktop.json",
+  "lastFetchedAt": "2017-05-04T19:52:18.090Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "CloudRail",
     "id": 8102495,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8102495?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8102495?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/CloudRail",
     "htmlUrl": "https://github.com/CloudRail",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/CloudRail/cloudrail-si-node-sdk/downloads",
   "deploymentsUrl": "https://api.github.com/repos/CloudRail/cloudrail-si-node-sdk/deployments",
   "createdAt": "2016-06-27T15:28:40.000Z",
-  "updatedAt": "2016-11-14T16:17:27.000Z",
-  "pushedAt": "2016-11-09T16:06:59.000Z",
+  "updatedAt": "2017-04-11T16:00:36.000Z",
+  "pushedAt": "2017-04-18T09:00:09.000Z",
   "gitUrl": "git://github.com/CloudRail/cloudrail-si-node-sdk.git",
   "sshUrl": "git@github.com:CloudRail/cloudrail-si-node-sdk.git",
   "cloneUrl": "https://github.com/CloudRail/cloudrail-si-node-sdk.git",
   "svnUrl": "https://github.com/CloudRail/cloudrail-si-node-sdk",
   "homepage": "https://cloudrail.com",
-  "size": 327,
-  "stargazersCount": 197,
-  "watchersCount": 197,
+  "size": 492,
+  "stargazersCount": 211,
+  "watchersCount": 211,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 13,
+  "forksCount": 23,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 197,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 211,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "CloudRail",
     "id": 8102495,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8102495?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8102495?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/CloudRail",
     "htmlUrl": "https://github.com/CloudRail",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/CloudRail/received_events",
     "type": "Organization"
   },
-  "networkCount": 13,
+  "networkCount": 23,
   "subscribersCount": 18,
   "status": 200,
   "packageJSON": {
@@ -125,17 +125,9 @@
       "bluebird": "^3.4.1",
       "opn": "^4.0.2",
       "xmldoc": "^0.5.1"
-    },
-    "other": {
-      "author": "CloudRail <info@cloudrail.com> (https://cloudrail.com)"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "FlorianWendel",
-    "felixkm",
-    "PatrickStoklasa"
-  ],
   "firstCommit": {
     "sha": "7d78777d0c232479cf7ef190cdb1b59628ac4724",
     "commit": {
@@ -159,5 +151,6 @@
     }
   },
   "filename": "CloudRail___cloudrail-si-node-sdk.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:07:02.034Z"
 }

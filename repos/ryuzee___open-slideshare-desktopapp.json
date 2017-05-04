@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 1,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "OpenSlideshareApp",
     "version": "0.0.1",
@@ -80,9 +80,6 @@
       "mocha": "^2.3.3",
       "power-assert": "^1.0.1",
       "request": "*"
-    },
-    "other": {
-      "author": "Ryutaro YOSHIBA"
     }
   },
   "packageStatus": 200,
@@ -111,5 +108,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ryuzee___open-slideshare-desktopapp.json"
+  "filename": "ryuzee___open-slideshare-desktopapp.json",
+  "lastFetchedAt": "2017-05-04T17:50:41.693Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "brunnobb",
     "id": 5216188,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5216188?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/5216188?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/brunnobb",
     "htmlUrl": "https://github.com/brunnobb",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/brunnobb/react-cordova-boilerplate/deployments",
   "createdAt": "2016-10-03T19:12:44.000Z",
   "updatedAt": "2016-10-03T19:20:14.000Z",
-  "pushedAt": "2016-10-25T18:54:55.000Z",
+  "pushedAt": "2017-05-04T16:36:09.000Z",
   "gitUrl": "git://github.com/brunnobb/react-cordova-boilerplate.git",
   "sshUrl": "git@github.com:brunnobb/react-cordova-boilerplate.git",
   "cloneUrl": "https://github.com/brunnobb/react-cordova-boilerplate.git",
   "svnUrl": "https://github.com/brunnobb/react-cordova-boilerplate",
   "homepage": null,
-  "size": 291,
+  "size": 17961,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -116,15 +116,9 @@
       "browser": "set NODE_ENV=development&&npm run webpack&&http-server ./www/ -i --cors -c-1 -o",
       "android": "set NODE_ENV=development&&npm run webpack&&cd cordova&&cordova run android",
       "ios": "set NODE_ENV=development&&npm run webpack&&cd cordova&&cordova run ios"
-    },
-    "other": {
-      "author": ""
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "brunnobb"
-  ],
   "firstCommit": {
     "sha": "2ee7c0415d250ce9ab6cc1f6110d508c469498de",
     "commit": {
@@ -148,5 +142,6 @@
     }
   },
   "filename": "brunnobb___react-cordova-boilerplate.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:12:32.477Z"
 }

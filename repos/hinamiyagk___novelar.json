@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "novelar",
     "version": "0.0.1",
@@ -123,12 +123,6 @@
         "babel-register"
       ],
       "babel": "inherit"
-    },
-    "other": {
-      "author": "Hinata",
-      "bugs": {
-        "url": "https://github.com/hinamiyagk/novelar/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -157,5 +151,6 @@
       "commentCount": 0
     }
   },
-  "filename": "hinamiyagk___novelar.json"
+  "filename": "hinamiyagk___novelar.json",
+  "lastFetchedAt": "2017-05-04T05:26:43.206Z"
 }

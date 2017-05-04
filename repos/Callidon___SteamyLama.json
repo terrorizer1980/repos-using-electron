@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "SteamyLama",
     "productName": "Steamylama",
@@ -141,13 +141,6 @@
           }
         ]
       }
-    },
-    "other": {
-      "author": {
-        "name": "Thomas Minier",
-        "email": "tminier01@gmail.com",
-        "url": "github.com/Callidon/SteamyLama"
-      }
     }
   },
   "packageStatus": 200,
@@ -176,5 +169,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Callidon___SteamyLama.json"
+  "filename": "Callidon___SteamyLama.json",
+  "lastFetchedAt": "2017-05-04T20:54:29.777Z"
 }

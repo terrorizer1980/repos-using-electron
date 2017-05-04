@@ -5,7 +5,7 @@
   "owner": {
     "login": "richard457",
     "id": 8529700,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8529700?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/8529700?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/richard457",
     "htmlUrl": "https://github.com/richard457",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/richard457/streamup-open/downloads",
   "deploymentsUrl": "https://api.github.com/repos/richard457/streamup-open/deployments",
   "createdAt": "2016-05-06T05:07:34.000Z",
-  "updatedAt": "2016-08-01T07:52:01.000Z",
-  "pushedAt": "2016-09-18T11:39:31.000Z",
+  "updatedAt": "2017-03-10T10:53:14.000Z",
+  "pushedAt": "2017-04-29T16:10:33.000Z",
   "gitUrl": "git://github.com/richard457/streamup-open.git",
   "sshUrl": "git@github.com:richard457/streamup-open.git",
   "cloneUrl": "https://github.com/richard457/streamup-open.git",
   "svnUrl": "https://github.com/richard457/streamup-open",
   "homepage": null,
-  "size": 142892,
+  "size": 126473,
   "stargazersCount": 3,
   "watchersCount": 3,
   "language": "JavaScript",
@@ -50,10 +50,10 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 7,
+  "forksCount": 13,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
+  "openIssuesCount": 5,
+  "openIssues": 5,
   "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
@@ -61,15 +61,9 @@
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
-  "networkCount": 7,
-  "subscribersCount": 5,
+  "license": null,
+  "networkCount": 13,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "sbox",
@@ -122,32 +116,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "richard457",
-    "Stephn-R",
-    "brightely",
-    "kevinsawicki",
-    "cgaubuchon",
-    "tcyrus",
-    "zeke",
-    "izuzak",
-    "bokuweb",
-    "galeksandrp",
-    "clemens-tolboom",
-    "posva",
-    "thompsonemerson",
-    "IonicaBizau",
-    "johnmuhl",
-    "phanect",
-    "louistsaitszho",
-    "pierredup",
-    "sahildua2305",
-    "tkrugg",
-    "Shriken",
-    "fscherwi",
-    "icoxfog417",
-    "laiso"
-  ],
   "firstCommit": {
     "sha": "b7f2f7acf6ac34927b70963e0769dcf7621f9381",
     "commit": {
@@ -171,5 +139,6 @@
     }
   },
   "filename": "richard457___streamup-open.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:05:43.552Z"
 }

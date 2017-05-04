@@ -5,7 +5,7 @@
   "owner": {
     "login": "AamuLumi",
     "id": 1839713,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1839713?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1839713?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AamuLumi",
     "htmlUrl": "https://github.com/AamuLumi",
@@ -127,9 +127,6 @@
     "homepage": "https://github.com/AamuLumi/EschVG#readme"
   },
   "packageStatus": 200,
-  "contributors": [
-    "AamuLumi"
-  ],
   "firstCommit": {
     "sha": "5a99b90df5569c929b09f135c5645ab44fb9fd00",
     "commit": {
@@ -153,92 +150,6 @@
     }
   },
   "filename": "AamuLumi___EschVG.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/AamuLumi/EschVG/releases/4273599",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/AamuLumi/EschVG/releases/assets/2403847",
-          "id": 2403847,
-          "name": "EschVG-linux-x64.tar.gz",
-          "label": null,
-          "uploader": {
-            "login": "AamuLumi",
-            "id": 1839713,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1839713?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/AamuLumi",
-            "htmlUrl": "https://github.com/AamuLumi",
-            "followersUrl": "https://api.github.com/users/AamuLumi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/AamuLumi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/AamuLumi/orgs",
-            "reposUrl": "https://api.github.com/users/AamuLumi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/AamuLumi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/gzip",
-          "state": "uploaded",
-          "size": 46921087,
-          "downloadCount": 0,
-          "createdAt": "2016-09-30T13:28:48.000Z",
-          "updatedAt": "2016-09-30T13:29:18.000Z",
-          "browserDownloadUrl": "https://github.com/AamuLumi/EschVG/releases/download/0.0.1/EschVG-linux-x64.tar.gz"
-        },
-        {
-          "url": "https://api.github.com/repos/AamuLumi/EschVG/releases/assets/2403826",
-          "id": 2403826,
-          "name": "EschVG-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "AamuLumi",
-            "id": 1839713,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1839713?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/AamuLumi",
-            "htmlUrl": "https://github.com/AamuLumi",
-            "followersUrl": "https://api.github.com/users/AamuLumi/followers",
-            "subscriptionsUrl": "https://api.github.com/users/AamuLumi/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/AamuLumi/orgs",
-            "reposUrl": "https://api.github.com/users/AamuLumi/repos",
-            "receivedEventsUrl": "https://api.github.com/users/AamuLumi/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 57923698,
-          "downloadCount": 2,
-          "createdAt": "2016-09-30T13:25:56.000Z",
-          "updatedAt": "2016-09-30T13:27:15.000Z",
-          "browserDownloadUrl": "https://github.com/AamuLumi/EschVG/releases/download/0.0.1/EschVG-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/AamuLumi/EschVG/releases/4273599/assets",
-      "htmlUrl": "https://github.com/AamuLumi/EschVG/releases/tag/0.0.1",
-      "id": 4273599,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "EschVG - 0.0.1 - First release",
-      "draft": false,
-      "author": {
-        "login": "AamuLumi",
-        "id": 1839713,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1839713?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/AamuLumi",
-        "htmlUrl": "https://github.com/AamuLumi",
-        "followersUrl": "https://api.github.com/users/AamuLumi/followers",
-        "subscriptionsUrl": "https://api.github.com/users/AamuLumi/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/AamuLumi/orgs",
-        "reposUrl": "https://api.github.com/users/AamuLumi/repos",
-        "receivedEventsUrl": "https://api.github.com/users/AamuLumi/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-30T13:21:27.000Z",
-      "publishedAt": "2016-09-30T13:35:06.000Z",
-      "tarballUrl": "https://api.github.com/repos/AamuLumi/EschVG/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/AamuLumi/EschVG/zipball/0.0.1",
-      "body": "First release of the project.\n\n_0.0.1 Features :_\n- Color selection\n- Line and picker tools\n- Show and hide grid\n- Draw middle lines\n- Save, load and export in PNG/SVG\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:17:05.832Z"
 }

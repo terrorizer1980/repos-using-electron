@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "comic-app",
     "version": "0.0.1",
@@ -53,20 +53,13 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/alice-em/comic-app.git"
-    },
+    "repository": "https://github.com/alice-em/comic-app",
     "keywords": [
       "comic",
       "ebook",
       "pdf"
     ],
-    "author": "the illustrious alice maldonado",
     "license": "BSD-2-Clause",
-    "bugs": {
-      "url": "https://github.com/alice-em/comic-app/issues"
-    },
     "devDependencies": {
       "electron-prebuilt": "^0.36.4",
       "fs": "^0.0.2",
@@ -85,5 +78,7 @@
       "dialog": "^0.1.8"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "alice-em___comic-app.json",
+  "lastFetchedAt": "2017-05-04T15:27:13.306Z"
 }

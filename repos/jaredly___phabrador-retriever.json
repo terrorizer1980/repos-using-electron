@@ -5,7 +5,7 @@
   "owner": {
     "login": "jaredly",
     "id": 112170,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/112170?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/112170?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jaredly",
     "htmlUrl": "https://github.com/jaredly",
@@ -32,8 +32,8 @@
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
-  "openIssuesCount": 5,
-  "openIssues": 5,
+  "openIssuesCount": 6,
+  "openIssues": 6,
   "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
@@ -80,9 +80,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jaredly"
-  ],
   "firstCommit": {
     "sha": "424d450a4c3010c4a1ade1fb135793b85b2fe260",
     "commit": {
@@ -106,65 +103,26 @@
     }
   },
   "filename": "jaredly___phabrador-retriever.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jaredly/phabrador-retriever/releases/2982357",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jaredly/phabrador-retriever/releases/assets/1526448",
-          "id": 1526448,
-          "name": "phabrador-retriever.zip",
-          "label": null,
-          "uploader": {
-            "login": "jaredly",
-            "id": 112170,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/112170?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/jaredly",
-            "htmlUrl": "https://github.com/jaredly",
-            "followersUrl": "https://api.github.com/users/jaredly/followers",
-            "subscriptionsUrl": "https://api.github.com/users/jaredly/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/jaredly/orgs",
-            "reposUrl": "https://api.github.com/users/jaredly/repos",
-            "receivedEventsUrl": "https://api.github.com/users/jaredly/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 47970735,
-          "downloadCount": 12,
-          "createdAt": "2016-04-08T16:49:16.000Z",
-          "updatedAt": "2016-04-08T16:49:32.000Z",
-          "browserDownloadUrl": "https://github.com/jaredly/phabrador-retriever/releases/download/v0.0.1/phabrador-retriever.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/releases/2982357/assets",
-      "htmlUrl": "https://github.com/jaredly/phabrador-retriever/releases/tag/v0.0.1",
-      "id": 2982357,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "for sharing",
-      "draft": false,
-      "author": {
-        "login": "jaredly",
-        "id": 112170,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/112170?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jaredly",
-        "htmlUrl": "https://github.com/jaredly",
-        "followersUrl": "https://api.github.com/users/jaredly/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jaredly/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jaredly/orgs",
-        "reposUrl": "https://api.github.com/users/jaredly/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jaredly/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-04-08T15:55:27.000Z",
-      "publishedAt": "2016-04-08T16:49:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/zipball/v0.0.1",
-      "body": "first release!\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/jaredly/phabrador-retriever",
+  "url": "https://api.github.com/repos/jaredly/phabrador-retriever",
+  "forksUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/forks",
+  "teamsUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/teams",
+  "hooksUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/hooks",
+  "eventsUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/events",
+  "tagsUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/tags",
+  "languagesUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/languages",
+  "stargazersUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/subscription",
+  "mergesUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/merges",
+  "downloadsUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jaredly/phabrador-retriever/deployments",
+  "gitUrl": "git://github.com/jaredly/phabrador-retriever.git",
+  "sshUrl": "git@github.com:jaredly/phabrador-retriever.git",
+  "cloneUrl": "https://github.com/jaredly/phabrador-retriever.git",
+  "svnUrl": "https://github.com/jaredly/phabrador-retriever",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:23:07.207Z"
 }

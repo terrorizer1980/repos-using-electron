@@ -44,12 +44,11 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "chemistry",
     "version": "0.0.1rc",
     "description": "An Editor to bring the many OS together",
-    "author": "Jose Ortiz <joselevelsup@gmail.com>",
     "main": "config/app.js",
     "scripts": {
       "test": "electron ."
@@ -64,7 +63,12 @@
       "path": "^0.12.7",
       "shelljs": "^0.5.3"
     },
-    "devDependencies": {}
+    "devDependencies": {},
+    "other": {
+      "author": "Jose Ortiz <joselevelsup@gmail.com>"
+    }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "joselevelsup___Chemistry.json",
+  "lastFetchedAt": "2017-05-04T17:44:35.752Z"
 }

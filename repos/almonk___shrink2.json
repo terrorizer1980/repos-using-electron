@@ -5,7 +5,7 @@
   "owner": {
     "login": "almonk",
     "id": 51724,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/51724?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/51724?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/almonk",
     "htmlUrl": "https://github.com/almonk",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/almonk/shrink2/downloads",
   "deploymentsUrl": "https://api.github.com/repos/almonk/shrink2/deployments",
   "createdAt": "2016-10-17T10:07:23.000Z",
-  "updatedAt": "2016-10-17T10:08:26.000Z",
-  "pushedAt": "2016-10-19T09:47:28.000Z",
+  "updatedAt": "2017-03-23T01:48:11.000Z",
+  "pushedAt": "2016-12-19T09:14:34.000Z",
   "gitUrl": "git://github.com/almonk/shrink2.git",
   "sshUrl": "git@github.com:almonk/shrink2.git",
   "cloneUrl": "https://github.com/almonk/shrink2.git",
   "svnUrl": "https://github.com/almonk/shrink2",
   "homepage": null,
-  "size": 82774,
-  "stargazersCount": 0,
-  "watchersCount": 0,
-  "language": "HTML",
+  "size": 126334,
+  "stargazersCount": 133,
+  "watchersCount": 133,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 6,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 2,
+  "openIssues": 2,
+  "watchers": 133,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
-  "subscribersCount": 0,
+  "networkCount": 6,
+  "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
     "name": "shrink2",
@@ -163,9 +163,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "almonk"
-  ],
   "firstCommit": {
     "sha": "5e9236166ed87e4ef3960bbc62381b399cb08132",
     "commit": {
@@ -189,124 +186,6 @@
     }
   },
   "filename": "almonk___shrink2.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/almonk/shrink2/releases/4951162",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/almonk/shrink2/releases/assets/2845609",
-          "id": 2845609,
-          "name": "Shrink.zip",
-          "label": null,
-          "uploader": {
-            "login": "almonk",
-            "id": 51724,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/51724?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/almonk",
-            "htmlUrl": "https://github.com/almonk",
-            "followersUrl": "https://api.github.com/users/almonk/followers",
-            "subscriptionsUrl": "https://api.github.com/users/almonk/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/almonk/orgs",
-            "reposUrl": "https://api.github.com/users/almonk/repos",
-            "receivedEventsUrl": "https://api.github.com/users/almonk/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42588733,
-          "downloadCount": 272,
-          "createdAt": "2016-12-18T15:00:26.000Z",
-          "updatedAt": "2016-12-18T15:03:51.000Z",
-          "browserDownloadUrl": "https://github.com/almonk/shrink2/releases/download/beta/Shrink.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/almonk/shrink2/releases/4951162/assets",
-      "htmlUrl": "https://github.com/almonk/shrink2/releases/tag/beta",
-      "id": 4951162,
-      "tagName": "beta",
-      "targetCommitish": "master",
-      "name": "Beta 1",
-      "draft": false,
-      "author": {
-        "login": "almonk",
-        "id": 51724,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51724?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/almonk",
-        "htmlUrl": "https://github.com/almonk",
-        "followersUrl": "https://api.github.com/users/almonk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/almonk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/almonk/orgs",
-        "reposUrl": "https://api.github.com/users/almonk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/almonk/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-12-18T14:58:38.000Z",
-      "publishedAt": "2016-12-18T15:04:08.000Z",
-      "tarballUrl": "https://api.github.com/repos/almonk/shrink2/tarball/beta",
-      "zipballUrl": "https://api.github.com/repos/almonk/shrink2/zipball/beta",
-      "body": "**Please note you will need to create a Github personal access token with the `repo` scope to use Shrink.**\n- Added new Shrink icon (thanks @dizzyup !)\n- Ready for public release\n"
-    },
-    {
-      "url": "https://api.github.com/repos/almonk/shrink2/releases/4758064",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/almonk/shrink2/releases/assets/2715317",
-          "id": 2715317,
-          "name": "Shrink.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "almonk",
-            "id": 51724,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/51724?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/almonk",
-            "htmlUrl": "https://github.com/almonk",
-            "followersUrl": "https://api.github.com/users/almonk/followers",
-            "subscriptionsUrl": "https://api.github.com/users/almonk/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/almonk/orgs",
-            "reposUrl": "https://api.github.com/users/almonk/repos",
-            "receivedEventsUrl": "https://api.github.com/users/almonk/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42588732,
-          "downloadCount": 6,
-          "createdAt": "2016-11-25T11:19:44.000Z",
-          "updatedAt": "2016-11-25T11:20:02.000Z",
-          "browserDownloadUrl": "https://github.com/almonk/shrink2/releases/download/alpha/Shrink.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/almonk/shrink2/releases/4758064/assets",
-      "htmlUrl": "https://github.com/almonk/shrink2/releases/tag/alpha",
-      "id": 4758064,
-      "tagName": "alpha",
-      "targetCommitish": "master",
-      "name": "Shrink2 Alpha 1",
-      "draft": false,
-      "author": {
-        "login": "almonk",
-        "id": 51724,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/51724?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/almonk",
-        "htmlUrl": "https://github.com/almonk",
-        "followersUrl": "https://api.github.com/users/almonk/followers",
-        "subscriptionsUrl": "https://api.github.com/users/almonk/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/almonk/orgs",
-        "reposUrl": "https://api.github.com/users/almonk/repos",
-        "receivedEventsUrl": "https://api.github.com/users/almonk/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-25T11:18:16.000Z",
-      "publishedAt": "2016-11-25T11:20:06.000Z",
-      "tarballUrl": "https://api.github.com/repos/almonk/shrink2/tarball/alpha",
-      "zipballUrl": "https://api.github.com/repos/almonk/shrink2/zipball/alpha",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:16:04.706Z"
 }

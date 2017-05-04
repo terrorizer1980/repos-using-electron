@@ -5,7 +5,7 @@
   "owner": {
     "login": "jasonLaster",
     "id": 254562,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/254562?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/254562?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jasonLaster",
     "htmlUrl": "https://github.com/jasonLaster",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/jasonLaster/debugger.app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jasonLaster/debugger.app/deployments",
   "createdAt": "2016-05-20T23:41:22.000Z",
-  "updatedAt": "2016-11-16T21:30:57.000Z",
-  "pushedAt": "2016-11-16T22:57:55.000Z",
+  "updatedAt": "2017-01-26T11:49:27.000Z",
+  "pushedAt": "2016-11-30T19:08:41.000Z",
   "gitUrl": "git://github.com/jasonLaster/debugger.app.git",
   "sshUrl": "git@github.com:jasonLaster/debugger.app.git",
   "cloneUrl": "https://github.com/jasonLaster/debugger.app.git",
   "svnUrl": "https://github.com/jasonLaster/debugger.app",
   "homepage": "",
-  "size": 5,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "size": 10,
+  "stargazersCount": 9,
+  "watchersCount": 9,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 2,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 4,
+  "openIssuesCount": 8,
+  "openIssues": 8,
+  "watchers": 9,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": false
   },
   "networkCount": 2,
-  "subscribersCount": 1,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "debugger.app",
@@ -94,15 +94,9 @@
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.7"
-    },
-    "other": {
-      "author": "Jason Laster"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jasonLaster"
-  ],
   "firstCommit": {
     "sha": "1d7b194779561c673fbccf18f114826687fd83f3",
     "commit": {
@@ -127,5 +121,6 @@
   },
   "filename": "jasonLaster___debugger.html.app.json",
   "sourceRepo": "gedaiu/Voice",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:34:58.811Z"
 }

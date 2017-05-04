@@ -5,7 +5,7 @@
   "owner": {
     "login": "selfrefactor",
     "id": 2149294,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2149294?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/2149294?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/selfrefactor",
     "htmlUrl": "https://github.com/selfrefactor",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/selfrefactor/ils",
-  "description": "The current code base of my project in progress ",
+  "description": "Web applications for learning German language",
   "fork": false,
   "url": "https://api.github.com/repos/selfrefactor/ils",
   "forksUrl": "https://api.github.com/repos/selfrefactor/ils/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/selfrefactor/ils/downloads",
   "deploymentsUrl": "https://api.github.com/repos/selfrefactor/ils/deployments",
   "createdAt": "2016-06-24T02:15:53.000Z",
-  "updatedAt": "2016-10-24T13:02:15.000Z",
-  "pushedAt": "2016-11-16T21:04:16.000Z",
+  "updatedAt": "2017-01-15T21:59:26.000Z",
+  "pushedAt": "2017-05-01T09:53:00.000Z",
   "gitUrl": "git://github.com/selfrefactor/ils.git",
   "sshUrl": "git@github.com:selfrefactor/ils.git",
   "cloneUrl": "https://github.com/selfrefactor/ils.git",
   "svnUrl": "https://github.com/selfrefactor/ils",
   "homepage": "https://ilearnsmarter.com/",
-  "size": 102154,
+  "size": 156983,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 23,
-  "openIssues": 23,
+  "openIssuesCount": 16,
+  "openIssues": 16,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -275,15 +275,9 @@
       "webpack": "^1.13.2",
       "webpack-dev-server": "*",
       "zen-observable": "*"
-    },
-    "other": {
-      "author": "selfrefactor"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "selfrefactor"
-  ],
   "firstCommit": {
     "sha": "4da3639ca9c606eac325c7e345732ed46c1847b5",
     "commit": {
@@ -307,5 +301,6 @@
     }
   },
   "filename": "selfrefactor___ils.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:21:20.534Z"
 }

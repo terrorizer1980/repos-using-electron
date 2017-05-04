@@ -5,7 +5,7 @@
   "owner": {
     "login": "DotHide",
     "id": 1009741,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1009741?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1009741?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/DotHide",
     "htmlUrl": "https://github.com/DotHide",
@@ -20,7 +20,7 @@
   "description": "Another Anki Application using Electron",
   "fork": false,
   "createdAt": "2016-04-13T06:06:31.000Z",
-  "updatedAt": "2016-07-19T07:23:38.000Z",
+  "updatedAt": "2017-04-01T12:15:53.000Z",
   "pushedAt": "2016-04-16T14:50:21.000Z",
   "homepage": null,
   "size": 38,
@@ -121,9 +121,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "DotHide"
-  ],
   "firstCommit": {
     "sha": "3c3df087552a2dd6e94c974f1d64f81e1575446b",
     "commit": {
@@ -147,37 +144,26 @@
     }
   },
   "filename": "DotHide___AnkiPlus.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/DotHide/AnkiPlus/releases/3026626",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/DotHide/AnkiPlus/releases/3026626/assets",
-      "htmlUrl": "https://github.com/DotHide/AnkiPlus/releases/tag/v1.0.0",
-      "id": 3026626,
-      "tagName": "v1.0.0",
-      "targetCommitish": "cacd6b442fc77f8a44db5cf505e39394a7e8065e",
-      "name": "v1.0.0",
-      "draft": false,
-      "author": {
-        "login": "DotHide",
-        "id": 1009741,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1009741?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/DotHide",
-        "htmlUrl": "https://github.com/DotHide",
-        "followersUrl": "https://api.github.com/users/DotHide/followers",
-        "subscriptionsUrl": "https://api.github.com/users/DotHide/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/DotHide/orgs",
-        "reposUrl": "https://api.github.com/users/DotHide/repos",
-        "receivedEventsUrl": "https://api.github.com/users/DotHide/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-04-15T09:38:49.000Z",
-      "publishedAt": "2016-04-15T09:40:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/DotHide/AnkiPlus/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/DotHide/AnkiPlus/zipball/v1.0.0",
-      "body": "<a name\"1.0.0\"></a>\n\n## 1.0.0 (2016-04-15)\n\n#### Bug Fixes\n- **Router:** Fix router for electron ([b19142c6](https://github.com/DotHide/AnkiPlus/commit/b19142c6))\n\n#### Features\n- **Blocks:**\n  - Update Blocks functions ([44772ffb](https://github.com/DotHide/AnkiPlus/commit/44772ffb))\n  - Added blocks include exception, logger & router ([c6f6a054](https://github.com/DotHide/AnkiPlus/commit/c6f6a054))\n- **Core:** Create core module ([b2bd74b4](https://github.com/DotHide/AnkiPlus/commit/b2bd74b4))\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/DotHide/AnkiPlus",
+  "url": "https://api.github.com/repos/DotHide/AnkiPlus",
+  "forksUrl": "https://api.github.com/repos/DotHide/AnkiPlus/forks",
+  "teamsUrl": "https://api.github.com/repos/DotHide/AnkiPlus/teams",
+  "hooksUrl": "https://api.github.com/repos/DotHide/AnkiPlus/hooks",
+  "eventsUrl": "https://api.github.com/repos/DotHide/AnkiPlus/events",
+  "tagsUrl": "https://api.github.com/repos/DotHide/AnkiPlus/tags",
+  "languagesUrl": "https://api.github.com/repos/DotHide/AnkiPlus/languages",
+  "stargazersUrl": "https://api.github.com/repos/DotHide/AnkiPlus/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/DotHide/AnkiPlus/contributors",
+  "subscribersUrl": "https://api.github.com/repos/DotHide/AnkiPlus/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/DotHide/AnkiPlus/subscription",
+  "mergesUrl": "https://api.github.com/repos/DotHide/AnkiPlus/merges",
+  "downloadsUrl": "https://api.github.com/repos/DotHide/AnkiPlus/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/DotHide/AnkiPlus/deployments",
+  "gitUrl": "git://github.com/DotHide/AnkiPlus.git",
+  "sshUrl": "git@github.com:DotHide/AnkiPlus.git",
+  "cloneUrl": "https://github.com/DotHide/AnkiPlus.git",
+  "svnUrl": "https://github.com/DotHide/AnkiPlus",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:21:30.688Z"
 }

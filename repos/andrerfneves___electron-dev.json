@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-react-boilerplate",
     "productName": "ElectronReact",
@@ -210,15 +210,6 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
-    },
-    "other": {
-      "author": "C. T. Lin <chentsulin@gmail.com> (https://github.com/chentsulin)",
-      "bugs": {
-        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-      },
-      "directories": {
-        "test": "test"
-      }
     }
   },
   "packageStatus": 200,
@@ -247,5 +238,6 @@
       "commentCount": 0
     }
   },
-  "filename": "andrerfneves___electron-dev.json"
+  "filename": "andrerfneves___electron-dev.json",
+  "lastFetchedAt": "2017-05-04T05:18:18.045Z"
 }

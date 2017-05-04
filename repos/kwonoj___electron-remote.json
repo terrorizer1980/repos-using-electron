@@ -6,7 +6,7 @@
   "owner": {
     "login": "kwonoj",
     "id": 1210596,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1210596?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1210596?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/kwonoj",
     "htmlUrl": "https://github.com/kwonoj",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "electron-userland",
       "id": 17519142,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/17519142?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/electron-userland",
       "htmlUrl": "https://github.com/electron-userland",
@@ -100,26 +100,27 @@
     "downloadsUrl": "https://api.github.com/repos/electron-userland/electron-remote/downloads",
     "deploymentsUrl": "https://api.github.com/repos/electron-userland/electron-remote/deployments",
     "createdAt": "2016-04-27T01:53:44.000Z",
-    "updatedAt": "2016-12-30T03:14:39.000Z",
-    "pushedAt": "2016-12-22T19:23:00.000Z",
+    "updatedAt": "2017-05-03T13:36:25.000Z",
+    "pushedAt": "2017-04-05T17:50:23.000Z",
     "gitUrl": "git://github.com/electron-userland/electron-remote.git",
     "sshUrl": "git@github.com:electron-userland/electron-remote.git",
     "cloneUrl": "https://github.com/electron-userland/electron-remote.git",
     "svnUrl": "https://github.com/electron-userland/electron-remote",
     "homepage": null,
-    "size": 278,
-    "stargazersCount": 121,
-    "watchersCount": 121,
+    "size": 301,
+    "stargazersCount": 178,
+    "watchersCount": 178,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 7,
+    "forksCount": 10,
     "mirrorUrl": null,
     "openIssuesCount": 3,
     "openIssues": 3,
-    "watchers": 121,
+    "watchers": 178,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "electron-userland",
       "id": 17519142,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/17519142?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/electron-userland",
       "htmlUrl": "https://github.com/electron-userland",
@@ -159,29 +160,30 @@
     "downloadsUrl": "https://api.github.com/repos/electron-userland/electron-remote/downloads",
     "deploymentsUrl": "https://api.github.com/repos/electron-userland/electron-remote/deployments",
     "createdAt": "2016-04-27T01:53:44.000Z",
-    "updatedAt": "2016-12-30T03:14:39.000Z",
-    "pushedAt": "2016-12-22T19:23:00.000Z",
+    "updatedAt": "2017-05-03T13:36:25.000Z",
+    "pushedAt": "2017-04-05T17:50:23.000Z",
     "gitUrl": "git://github.com/electron-userland/electron-remote.git",
     "sshUrl": "git@github.com:electron-userland/electron-remote.git",
     "cloneUrl": "https://github.com/electron-userland/electron-remote.git",
     "svnUrl": "https://github.com/electron-userland/electron-remote",
     "homepage": null,
-    "size": 278,
-    "stargazersCount": 121,
-    "watchersCount": 121,
+    "size": 301,
+    "stargazersCount": 178,
+    "watchersCount": 178,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
-    "forksCount": 7,
+    "forksCount": 10,
     "mirrorUrl": null,
     "openIssuesCount": 3,
     "openIssues": 3,
-    "watchers": 121,
+    "watchers": 178,
     "defaultBranch": "master"
   },
-  "networkCount": 7,
+  "networkCount": 10,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -235,10 +237,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "paulcbetts",
-    "CharlieHess"
-  ],
   "firstCommit": {
     "sha": "fc0b650ea17229189f89eb89303ff8d70a5995fa",
     "commit": {
@@ -261,5 +259,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:31:24.295Z"
 }

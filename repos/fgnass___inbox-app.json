@@ -5,7 +5,7 @@
   "owner": {
     "login": "fgnass",
     "id": 89450,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/89450?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/89450?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/fgnass",
     "htmlUrl": "https://github.com/fgnass",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/fgnass/inbox-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/fgnass/inbox-app/deployments",
   "createdAt": "2015-12-14T13:38:30.000Z",
-  "updatedAt": "2016-11-15T01:25:01.000Z",
-  "pushedAt": "2016-11-07T18:37:54.000Z",
+  "updatedAt": "2017-04-27T02:22:17.000Z",
+  "pushedAt": "2017-02-20T06:28:48.000Z",
   "gitUrl": "git://github.com/fgnass/inbox-app.git",
   "sshUrl": "git@github.com:fgnass/inbox-app.git",
   "cloneUrl": "https://github.com/fgnass/inbox-app.git",
   "svnUrl": "https://github.com/fgnass/inbox-app",
   "homepage": "",
-  "size": 283,
-  "stargazersCount": 158,
-  "watchersCount": 158,
+  "size": 265,
+  "stargazersCount": 199,
+  "watchersCount": 199,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 17,
+  "forksCount": 23,
   "mirrorUrl": null,
   "openIssuesCount": 6,
   "openIssues": 6,
-  "watchers": 158,
+  "watchers": 199,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/unlicense",
     "featured": false
   },
-  "networkCount": 17,
-  "subscribersCount": 7,
+  "networkCount": 23,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "inbox-app",
@@ -96,11 +96,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "fgnass",
-    "federicoiosue",
-    "kthompson"
-  ],
   "firstCommit": {
     "sha": "f52c348d3fb7d64b02c853def6eabbbf0315eb49",
     "commit": {
@@ -124,65 +119,6 @@
     }
   },
   "filename": "fgnass___inbox-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/fgnass/inbox-app/releases/2525945",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/fgnass/inbox-app/releases/assets/1263400",
-          "id": 1263400,
-          "name": "Inbox.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "fgnass",
-            "id": 89450,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/89450?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/fgnass",
-            "htmlUrl": "https://github.com/fgnass",
-            "followersUrl": "https://api.github.com/users/fgnass/followers",
-            "subscriptionsUrl": "https://api.github.com/users/fgnass/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/fgnass/orgs",
-            "reposUrl": "https://api.github.com/users/fgnass/repos",
-            "receivedEventsUrl": "https://api.github.com/users/fgnass/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 50802745,
-          "downloadCount": 647,
-          "createdAt": "2016-01-31T22:30:51.000Z",
-          "updatedAt": "2016-01-31T22:38:22.000Z",
-          "browserDownloadUrl": "https://github.com/fgnass/inbox-app/releases/download/v1.0.0/Inbox.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/fgnass/inbox-app/releases/2525945/assets",
-      "htmlUrl": "https://github.com/fgnass/inbox-app/releases/tag/v1.0.0",
-      "id": 2525945,
-      "tagName": "v1.0.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "fgnass",
-        "id": 89450,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/89450?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/fgnass",
-        "htmlUrl": "https://github.com/fgnass",
-        "followersUrl": "https://api.github.com/users/fgnass/followers",
-        "subscriptionsUrl": "https://api.github.com/users/fgnass/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/fgnass/orgs",
-        "reposUrl": "https://api.github.com/users/fgnass/repos",
-        "receivedEventsUrl": "https://api.github.com/users/fgnass/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-30T23:59:31.000Z",
-      "publishedAt": "2016-01-31T22:30:14.000Z",
-      "tarballUrl": "https://api.github.com/repos/fgnass/inbox-app/tarball/v1.0.0",
-      "zipballUrl": "https://api.github.com/repos/fgnass/inbox-app/zipball/v1.0.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:43:45.292Z"
 }

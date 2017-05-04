@@ -5,7 +5,7 @@
   "owner": {
     "login": "zhuangqh",
     "id": 12205760,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12205760?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12205760?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zhuangqh",
     "htmlUrl": "https://github.com/zhuangqh",
@@ -90,9 +90,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "zhuangqh"
-  ],
   "firstCommit": {
     "sha": "be7c9e738ae01ba3d0a31a193b48a6e54613feae",
     "commit": {
@@ -116,65 +113,6 @@
     }
   },
   "filename": "zhuangqh___cora.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/zhuangqh/cora/releases/4148881",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/zhuangqh/cora/releases/assets/2321773",
-          "id": 2321773,
-          "name": "cora-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "zhuangqh",
-            "id": 12205760,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/12205760?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/zhuangqh",
-            "htmlUrl": "https://github.com/zhuangqh",
-            "followersUrl": "https://api.github.com/users/zhuangqh/followers",
-            "subscriptionsUrl": "https://api.github.com/users/zhuangqh/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/zhuangqh/orgs",
-            "reposUrl": "https://api.github.com/users/zhuangqh/repos",
-            "receivedEventsUrl": "https://api.github.com/users/zhuangqh/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 45518457,
-          "downloadCount": 0,
-          "createdAt": "2016-09-16T03:21:20.000Z",
-          "updatedAt": "2016-09-16T03:23:02.000Z",
-          "browserDownloadUrl": "https://github.com/zhuangqh/cora/releases/download/alpha/cora-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/zhuangqh/cora/releases/4148881/assets",
-      "htmlUrl": "https://github.com/zhuangqh/cora/releases/tag/alpha",
-      "id": 4148881,
-      "tagName": "alpha",
-      "targetCommitish": "master",
-      "name": "available for macOS",
-      "draft": false,
-      "author": {
-        "login": "zhuangqh",
-        "id": 12205760,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12205760?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/zhuangqh",
-        "htmlUrl": "https://github.com/zhuangqh",
-        "followersUrl": "https://api.github.com/users/zhuangqh/followers",
-        "subscriptionsUrl": "https://api.github.com/users/zhuangqh/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/zhuangqh/orgs",
-        "reposUrl": "https://api.github.com/users/zhuangqh/repos",
-        "receivedEventsUrl": "https://api.github.com/users/zhuangqh/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-16T03:09:22.000Z",
-      "publishedAt": "2016-09-16T03:17:27.000Z",
-      "tarballUrl": "https://api.github.com/repos/zhuangqh/cora/tarball/alpha",
-      "zipballUrl": "https://api.github.com/repos/zhuangqh/cora/zipball/alpha",
-      "body": "Main features are completed. It should be optimized later.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:35:06.160Z"
 }

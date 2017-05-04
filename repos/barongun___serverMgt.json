@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "servermgt",
     "version": "0.0.1",
@@ -77,11 +77,12 @@
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
-    "author": "barongun",
     "license": "MIT"
   },
   "packageStatus": 200,
   "contributors": [
     "barongun"
-  ]
+  ],
+  "filename": "barongun___serverMgt.json",
+  "lastFetchedAt": "2017-05-04T17:58:24.953Z"
 }

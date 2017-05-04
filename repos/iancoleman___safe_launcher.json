@@ -182,7 +182,7 @@
   },
   "networkCount": 38,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "safe-launcher",
     "productName": "SAFE Launcher",
@@ -792,5 +792,6 @@
       "zipballUrl": "https://api.github.com/repos/iancoleman/safe_launcher/zipball/0.8.0-ML1",
       "body": "Safe Network Launcher v0.8.0-ML1\n\nThis release contains support for multiple languages - English and Chinese (Simplified)\n\nFor the original Alpha Launcher please see the [MaidSafe download page](https://maidsafe.net/alpha.html).\n\nThe source code for this release can be found in [commit 5ec3c10](https://github.com/iancoleman/safe_launcher/tree/5ec3c10835a35d44cc18c8cfdbde78a01753ba7e) of the [alpha-i18n branch](https://github.com/iancoleman/safe_launcher/tree/alpha-i18n).\n\nSpeak English and another language? Want to contribute translations? Please see [the instructions](https://github.com/iancoleman/safe_launcher/tree/alpha-i18n#adding-translations) in the readme.\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T15:28:53.549Z"
 }

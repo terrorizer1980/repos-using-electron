@@ -5,7 +5,7 @@
   "owner": {
     "login": "ags131",
     "id": 1013519,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1013519?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1013519?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ags131",
     "htmlUrl": "https://github.com/ags131",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/ags131/screeps-client-3D/deployments",
   "createdAt": "2016-09-20T16:20:48.000Z",
   "updatedAt": "2016-09-20T16:36:32.000Z",
-  "pushedAt": "2016-09-20T16:38:08.000Z",
+  "pushedAt": "2016-11-22T14:10:21.000Z",
   "gitUrl": "git://github.com/ags131/screeps-client-3D.git",
   "sshUrl": "git@github.com:ags131/screeps-client-3D.git",
   "cloneUrl": "https://github.com/ags131/screeps-client-3D.git",
   "svnUrl": "https://github.com/ags131/screeps-client-3D",
   "homepage": null,
-  "size": 33328,
+  "size": 33333,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/isc",
     "featured": false
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "screeps-client",
@@ -89,9 +89,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ags131"
-  ],
   "firstCommit": {
     "sha": "2a58ef74fa6e46bf7810012bb92a3bb2edf5e251",
     "commit": {
@@ -115,5 +112,6 @@
     }
   },
   "filename": "ags131___screeps-client-3D.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:41:09.883Z"
 }

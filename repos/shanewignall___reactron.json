@@ -5,7 +5,7 @@
   "owner": {
     "login": "shanewignall",
     "id": 10188338,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10188338?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/10188338?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/shanewignall",
     "htmlUrl": "https://github.com/shanewignall",
@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": "A simple electron/react seed project for SPAs",
+  "description": "A minimal Electron/React seed application",
   "fork": false,
   "createdAt": "2016-08-30T05:33:22.000Z",
-  "updatedAt": "2016-08-30T05:35:25.000Z",
-  "pushedAt": "2016-08-30T05:37:01.000Z",
-  "homepage": null,
-  "size": 25,
+  "updatedAt": "2017-01-19T02:25:43.000Z",
+  "pushedAt": "2017-04-21T17:24:01.000Z",
+  "homepage": "",
+  "size": 411,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -31,9 +31,9 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "forksCount": 1,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -42,7 +42,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -80,18 +80,9 @@
       "webpack": "*",
       "webpack-dev-server": "*"
     },
-    "homepage": "https://github.com/shanewignall/reactron#readme",
-    "other": {
-      "author": "Shane Wignall",
-      "bugs": {
-        "url": "https://github.com/shanewignall/reactron/issues"
-      }
-    }
+    "homepage": "https://github.com/shanewignall/reactron#readme"
   },
   "packageStatus": 404,
-  "contributors": [
-    "shanewignall"
-  ],
   "firstCommit": {
     "sha": "3fbe14bd9b95b83effb16facd4b436f07aef3de6",
     "commit": {
@@ -115,5 +106,26 @@
     }
   },
   "filename": "shanewignall___reactron.json",
-  "releases": []
+  "htmlUrl": "https://github.com/shanewignall/reactron",
+  "url": "https://api.github.com/repos/shanewignall/reactron",
+  "forksUrl": "https://api.github.com/repos/shanewignall/reactron/forks",
+  "teamsUrl": "https://api.github.com/repos/shanewignall/reactron/teams",
+  "hooksUrl": "https://api.github.com/repos/shanewignall/reactron/hooks",
+  "eventsUrl": "https://api.github.com/repos/shanewignall/reactron/events",
+  "tagsUrl": "https://api.github.com/repos/shanewignall/reactron/tags",
+  "languagesUrl": "https://api.github.com/repos/shanewignall/reactron/languages",
+  "stargazersUrl": "https://api.github.com/repos/shanewignall/reactron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/shanewignall/reactron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/shanewignall/reactron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/shanewignall/reactron/subscription",
+  "mergesUrl": "https://api.github.com/repos/shanewignall/reactron/merges",
+  "downloadsUrl": "https://api.github.com/repos/shanewignall/reactron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/shanewignall/reactron/deployments",
+  "gitUrl": "git://github.com/shanewignall/reactron.git",
+  "sshUrl": "git@github.com:shanewignall/reactron.git",
+  "cloneUrl": "https://github.com/shanewignall/reactron.git",
+  "svnUrl": "https://github.com/shanewignall/reactron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:45:35.581Z"
 }

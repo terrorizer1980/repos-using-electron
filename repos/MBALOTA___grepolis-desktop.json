@@ -5,7 +5,7 @@
   "owner": {
     "login": "MBALOTA",
     "id": 13562297,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13562297?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/13562297?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MBALOTA",
     "htmlUrl": "https://github.com/MBALOTA",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/MBALOTA/grepolis-desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/MBALOTA/grepolis-desktop/deployments",
   "createdAt": "2016-10-29T12:58:53.000Z",
-  "updatedAt": "2016-10-29T20:11:28.000Z",
+  "updatedAt": "2017-02-13T19:26:30.000Z",
   "pushedAt": "2016-10-29T15:27:00.000Z",
   "gitUrl": "git://github.com/MBALOTA/grepolis-desktop.git",
   "sshUrl": "git@github.com:MBALOTA/grepolis-desktop.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/MBALOTA/grepolis-desktop",
   "homepage": null,
   "size": 1941,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 0,
+  "watchersCount": 0,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": true
   },
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "build": {
@@ -130,9 +130,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "MBALOTA"
-  ],
   "firstCommit": {
     "sha": "504b36b81db602dabfd11f80799914d1064f981e",
     "commit": {
@@ -156,92 +153,6 @@
     }
   },
   "filename": "MBALOTA___grepolis-desktop.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/MBALOTA/grepolis-desktop/releases/4517392",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/MBALOTA/grepolis-desktop/releases/assets/2553420",
-          "id": 2553420,
-          "name": "Grepolis.Desktop.Installer.0.0.0.exe",
-          "label": null,
-          "uploader": {
-            "login": "MBALOTA",
-            "id": 13562297,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/13562297?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MBALOTA",
-            "htmlUrl": "https://github.com/MBALOTA",
-            "followersUrl": "https://api.github.com/users/MBALOTA/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MBALOTA/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MBALOTA/orgs",
-            "reposUrl": "https://api.github.com/users/MBALOTA/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MBALOTA/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 33578076,
-          "downloadCount": 2,
-          "createdAt": "2016-10-29T15:16:14.000Z",
-          "updatedAt": "2016-10-29T15:21:03.000Z",
-          "browserDownloadUrl": "https://github.com/MBALOTA/grepolis-desktop/releases/download/0.0.0/Grepolis.Desktop.Installer.0.0.0.exe"
-        },
-        {
-          "url": "https://api.github.com/repos/MBALOTA/grepolis-desktop/releases/assets/2553428",
-          "id": 2553428,
-          "name": "Grepolis.Desktop.Portable.0.0.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "MBALOTA",
-            "id": 13562297,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/13562297?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MBALOTA",
-            "htmlUrl": "https://github.com/MBALOTA",
-            "followersUrl": "https://api.github.com/users/MBALOTA/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MBALOTA/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MBALOTA/orgs",
-            "reposUrl": "https://api.github.com/users/MBALOTA/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MBALOTA/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 54069221,
-          "downloadCount": 1,
-          "createdAt": "2016-10-29T15:18:43.000Z",
-          "updatedAt": "2016-10-29T15:21:03.000Z",
-          "browserDownloadUrl": "https://github.com/MBALOTA/grepolis-desktop/releases/download/0.0.0/Grepolis.Desktop.Portable.0.0.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/MBALOTA/grepolis-desktop/releases/4517392/assets",
-      "htmlUrl": "https://github.com/MBALOTA/grepolis-desktop/releases/tag/0.0.0",
-      "id": 4517392,
-      "tagName": "0.0.0",
-      "targetCommitish": "master",
-      "name": "Release 0",
-      "draft": false,
-      "author": {
-        "login": "MBALOTA",
-        "id": 13562297,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/13562297?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/MBALOTA",
-        "htmlUrl": "https://github.com/MBALOTA",
-        "followersUrl": "https://api.github.com/users/MBALOTA/followers",
-        "subscriptionsUrl": "https://api.github.com/users/MBALOTA/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/MBALOTA/orgs",
-        "reposUrl": "https://api.github.com/users/MBALOTA/repos",
-        "receivedEventsUrl": "https://api.github.com/users/MBALOTA/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-29T13:19:07.000Z",
-      "publishedAt": "2016-10-29T15:21:03.000Z",
-      "tarballUrl": "https://api.github.com/repos/MBALOTA/grepolis-desktop/tarball/0.0.0",
-      "zipballUrl": "https://api.github.com/repos/MBALOTA/grepolis-desktop/zipball/0.0.0",
-      "body": "The first and initial release does not have a lot of features, but Grepolis is playable as a standalone application.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:18:49.622Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "mstorm",
     "id": 689676,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/689676?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/689676?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mstorm",
     "htmlUrl": "https://github.com/mstorm",
@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-08-05T11:57:00.000Z",
   "updatedAt": "2016-08-05T11:57:23.000Z",
-  "pushedAt": "2016-08-05T11:57:22.000Z",
+  "pushedAt": "2016-11-03T07:01:33.000Z",
   "homepage": null,
-  "size": 20,
+  "size": 23,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -41,7 +41,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
@@ -62,9 +68,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mstorm"
-  ],
   "firstCommit": {
     "sha": "d2253d0bee2f22fd7a4a6ba25cc143997b3556b1",
     "commit": {
@@ -88,37 +91,26 @@
     }
   },
   "filename": "mstorm___6music.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mstorm/6music/releases/4555827",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/mstorm/6music/releases/4555827/assets",
-      "htmlUrl": "https://github.com/mstorm/6music/releases/tag/v0.0.2",
-      "id": 4555827,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "v0.0.2",
-      "draft": false,
-      "author": {
-        "login": "mstorm",
-        "id": 689676,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/689676?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mstorm",
-        "htmlUrl": "https://github.com/mstorm",
-        "followersUrl": "https://api.github.com/users/mstorm/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mstorm/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mstorm/orgs",
-        "reposUrl": "https://api.github.com/users/mstorm/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mstorm/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-03T06:59:32.000Z",
-      "publishedAt": "2016-11-03T07:01:32.000Z",
-      "tarballUrl": "https://api.github.com/repos/mstorm/6music/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/mstorm/6music/zipball/v0.0.2",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/mstorm/6music",
+  "url": "https://api.github.com/repos/mstorm/6music",
+  "forksUrl": "https://api.github.com/repos/mstorm/6music/forks",
+  "teamsUrl": "https://api.github.com/repos/mstorm/6music/teams",
+  "hooksUrl": "https://api.github.com/repos/mstorm/6music/hooks",
+  "eventsUrl": "https://api.github.com/repos/mstorm/6music/events",
+  "tagsUrl": "https://api.github.com/repos/mstorm/6music/tags",
+  "languagesUrl": "https://api.github.com/repos/mstorm/6music/languages",
+  "stargazersUrl": "https://api.github.com/repos/mstorm/6music/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/mstorm/6music/contributors",
+  "subscribersUrl": "https://api.github.com/repos/mstorm/6music/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/mstorm/6music/subscription",
+  "mergesUrl": "https://api.github.com/repos/mstorm/6music/merges",
+  "downloadsUrl": "https://api.github.com/repos/mstorm/6music/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/mstorm/6music/deployments",
+  "gitUrl": "git://github.com/mstorm/6music.git",
+  "sshUrl": "git@github.com:mstorm/6music.git",
+  "cloneUrl": "https://github.com/mstorm/6music.git",
+  "svnUrl": "https://github.com/mstorm/6music",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T05:00:11.930Z"
 }

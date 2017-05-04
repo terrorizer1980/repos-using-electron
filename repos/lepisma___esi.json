@@ -5,7 +5,7 @@
   "owner": {
     "login": "lepisma",
     "id": 2487306,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2487306?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2487306?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lepisma",
     "htmlUrl": "https://github.com/lepisma",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/lepisma/esi",
-  "description": null,
+  "description": "Emacs based personal assistant",
   "fork": false,
   "url": "https://api.github.com/repos/lepisma/esi",
   "forksUrl": "https://api.github.com/repos/lepisma/esi/forks",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/lepisma/esi/downloads",
   "deploymentsUrl": "https://api.github.com/repos/lepisma/esi/deployments",
   "createdAt": "2016-03-02T05:31:19.000Z",
-  "updatedAt": "2016-03-02T05:31:28.000Z",
-  "pushedAt": "2016-03-02T05:31:27.000Z",
+  "updatedAt": "2017-04-30T07:03:13.000Z",
+  "pushedAt": "2017-05-02T06:25:08.000Z",
   "gitUrl": "git://github.com/lepisma/esi.git",
   "sshUrl": "git@github.com:lepisma/esi.git",
   "cloneUrl": "https://github.com/lepisma/esi.git",
   "svnUrl": "https://github.com/lepisma/esi",
-  "homepage": null,
-  "size": 7,
+  "homepage": "",
+  "size": 55,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "JavaScript",
+  "language": "Emacs Lisp",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -66,9 +66,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "lepisma"
-  ],
   "firstCommit": {
     "sha": "cc327ba2132fb9d444c76b0ecae1a0f6517c7e92",
     "commit": {
@@ -92,5 +89,6 @@
     }
   },
   "filename": "lepisma___esi.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:31:29.335Z"
 }

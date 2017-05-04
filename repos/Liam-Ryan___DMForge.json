@@ -5,7 +5,7 @@
   "owner": {
     "login": "Liam-Ryan",
     "id": 6696533,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6696533?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/6696533?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Liam-Ryan",
     "htmlUrl": "https://github.com/Liam-Ryan",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/Liam-Ryan/DMForge/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Liam-Ryan/DMForge/deployments",
   "createdAt": "2015-11-07T23:56:38.000Z",
-  "updatedAt": "2016-10-01T09:07:47.000Z",
-  "pushedAt": "2015-11-08T19:20:19.000Z",
+  "updatedAt": "2017-01-11T16:55:14.000Z",
+  "pushedAt": "2017-01-11T16:55:12.000Z",
   "gitUrl": "git://github.com/Liam-Ryan/DMForge.git",
   "sshUrl": "git@github.com:Liam-Ryan/DMForge.git",
   "cloneUrl": "https://github.com/Liam-Ryan/DMForge.git",
   "svnUrl": "https://github.com/Liam-Ryan/DMForge",
   "homepage": "",
-  "size": 0,
+  "size": 7,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -62,11 +62,11 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
   "networkCount": 0,
   "subscribersCount": 1,
@@ -125,9 +125,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Liam-Ryan"
-  ],
   "firstCommit": {
     "sha": "196bb0950accf0041c46dce051584203aed38311",
     "commit": {
@@ -151,5 +148,6 @@
     }
   },
   "filename": "Liam-Ryan___DMForge.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:45:33.874Z"
 }

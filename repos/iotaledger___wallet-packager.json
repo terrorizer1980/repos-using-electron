@@ -5,7 +5,7 @@
   "owner": {
     "login": "iotaledger",
     "id": 20126597,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20126597?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20126597?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/iotaledger",
     "htmlUrl": "https://github.com/iotaledger",
@@ -35,8 +35,8 @@
   "downloadsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/downloads",
   "deploymentsUrl": "https://api.github.com/repos/iotaledger/wallet-packager/deployments",
   "createdAt": "2016-07-20T15:41:59.000Z",
-  "updatedAt": "2016-08-02T18:22:30.000Z",
-  "pushedAt": "2016-09-22T13:16:05.000Z",
+  "updatedAt": "2016-12-02T13:18:41.000Z",
+  "pushedAt": "2016-12-02T19:49:13.000Z",
   "gitUrl": "git://github.com/iotaledger/wallet-packager.git",
   "sshUrl": "git@github.com:iotaledger/wallet-packager.git",
   "cloneUrl": "https://github.com/iotaledger/wallet-packager.git",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "iotaledger",
     "id": 20126597,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20126597?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/20126597?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/iotaledger",
     "htmlUrl": "https://github.com/iotaledger",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/iotaledger/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
@@ -151,10 +151,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "atypicalprogrammer",
-    "domschiener"
-  ],
   "firstCommit": {
     "sha": "10400cca001a647463881ada00fec035941a1d44",
     "commit": {
@@ -178,5 +174,6 @@
     }
   },
   "filename": "iotaledger___wallet-packager.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:54:19.299Z"
 }

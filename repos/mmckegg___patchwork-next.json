@@ -5,7 +5,7 @@
   "owner": {
     "login": "mmckegg",
     "id": 66834,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/66834?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/66834?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mmckegg",
     "htmlUrl": "https://github.com/mmckegg",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/mmckegg/patchwork-next",
-  "description": "[WIP] patchwork rewrite using patchbay",
+  "description": "Now located at ssbc/patchwork! This repo will continue to be mirrored until 31 March 2017.",
   "fork": false,
   "url": "https://api.github.com/repos/mmckegg/patchwork-next",
   "forksUrl": "https://api.github.com/repos/mmckegg/patchwork-next/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/mmckegg/patchwork-next/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mmckegg/patchwork-next/deployments",
   "createdAt": "2016-10-27T03:09:09.000Z",
-  "updatedAt": "2016-10-30T01:32:35.000Z",
-  "pushedAt": "2016-11-05T00:28:41.000Z",
+  "updatedAt": "2017-04-07T18:24:36.000Z",
+  "pushedAt": "2017-03-18T07:02:51.000Z",
   "gitUrl": "git://github.com/mmckegg/patchwork-next.git",
   "sshUrl": "git@github.com:mmckegg/patchwork-next.git",
   "cloneUrl": "https://github.com/mmckegg/patchwork-next.git",
   "svnUrl": "https://github.com/mmckegg/patchwork-next",
-  "homepage": null,
-  "size": 111,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "homepage": "http://github.com/ssbc/patchwork",
+  "size": 1028,
+  "stargazersCount": 36,
+  "watchersCount": 36,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 3,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 36,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 1,
-  "subscribersCount": 1,
+  "networkCount": 2,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "patchwork-next",
@@ -118,10 +118,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mmckegg",
-    "ahdinosaur"
-  ],
   "firstCommit": {
     "sha": "572440feaf959755763efb726087066a6f5b29db",
     "commit": {
@@ -145,5 +141,6 @@
     }
   },
   "filename": "mmckegg___patchwork-next.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:58:04.668Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "k0sukey",
     "id": 687233,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/687233?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/687233?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/k0sukey",
     "htmlUrl": "https://github.com/k0sukey",
@@ -20,30 +20,36 @@
   "description": "Desktop screen recording app.",
   "fork": false,
   "createdAt": "2015-12-15T05:23:14.000Z",
-  "updatedAt": "2016-07-21T03:43:04.000Z",
-  "pushedAt": "2015-12-16T06:44:19.000Z",
+  "updatedAt": "2017-01-07T06:04:37.000Z",
+  "pushedAt": "2016-12-20T09:49:53.000Z",
   "homepage": null,
-  "size": 1595,
-  "stargazersCount": 14,
-  "watchersCount": 14,
-  "language": "CSS",
+  "size": 1626,
+  "stargazersCount": 22,
+  "watchersCount": 22,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 3,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 14,
+  "watchers": 22,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 1,
-  "subscribersCount": 3,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 3,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "Rec",
@@ -62,9 +68,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "k0sukey"
-  ],
   "firstCommit": {
     "sha": "566d98fc9fe57bf7ecf2aaca763dbc6ea416a093",
     "commit": {
@@ -88,65 +91,26 @@
     }
   },
   "filename": "k0sukey___Rec.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/k0sukey/Rec/releases/2288368",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/k0sukey/Rec/releases/assets/1132990",
-          "id": 1132990,
-          "name": "Rec-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "k0sukey",
-            "id": 687233,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/687233?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/k0sukey",
-            "htmlUrl": "https://github.com/k0sukey",
-            "followersUrl": "https://api.github.com/users/k0sukey/followers",
-            "subscriptionsUrl": "https://api.github.com/users/k0sukey/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/k0sukey/orgs",
-            "reposUrl": "https://api.github.com/users/k0sukey/repos",
-            "receivedEventsUrl": "https://api.github.com/users/k0sukey/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 39556451,
-          "downloadCount": 83,
-          "createdAt": "2015-12-16T06:45:36.000Z",
-          "updatedAt": "2015-12-16T06:46:06.000Z",
-          "browserDownloadUrl": "https://github.com/k0sukey/Rec/releases/download/0.0.1/Rec-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/k0sukey/Rec/releases/2288368/assets",
-      "htmlUrl": "https://github.com/k0sukey/Rec/releases/tag/0.0.1",
-      "id": 2288368,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "initial release",
-      "draft": false,
-      "author": {
-        "login": "k0sukey",
-        "id": 687233,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/687233?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/k0sukey",
-        "htmlUrl": "https://github.com/k0sukey",
-        "followersUrl": "https://api.github.com/users/k0sukey/followers",
-        "subscriptionsUrl": "https://api.github.com/users/k0sukey/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/k0sukey/orgs",
-        "reposUrl": "https://api.github.com/users/k0sukey/repos",
-        "receivedEventsUrl": "https://api.github.com/users/k0sukey/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-12-15T05:23:35.000Z",
-      "publishedAt": "2015-12-15T05:25:21.000Z",
-      "tarballUrl": "https://api.github.com/repos/k0sukey/Rec/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/k0sukey/Rec/zipball/0.0.1",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/k0sukey/Rec",
+  "url": "https://api.github.com/repos/k0sukey/Rec",
+  "forksUrl": "https://api.github.com/repos/k0sukey/Rec/forks",
+  "teamsUrl": "https://api.github.com/repos/k0sukey/Rec/teams",
+  "hooksUrl": "https://api.github.com/repos/k0sukey/Rec/hooks",
+  "eventsUrl": "https://api.github.com/repos/k0sukey/Rec/events",
+  "tagsUrl": "https://api.github.com/repos/k0sukey/Rec/tags",
+  "languagesUrl": "https://api.github.com/repos/k0sukey/Rec/languages",
+  "stargazersUrl": "https://api.github.com/repos/k0sukey/Rec/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/k0sukey/Rec/contributors",
+  "subscribersUrl": "https://api.github.com/repos/k0sukey/Rec/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/k0sukey/Rec/subscription",
+  "mergesUrl": "https://api.github.com/repos/k0sukey/Rec/merges",
+  "downloadsUrl": "https://api.github.com/repos/k0sukey/Rec/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/k0sukey/Rec/deployments",
+  "gitUrl": "git://github.com/k0sukey/Rec.git",
+  "sshUrl": "git@github.com:k0sukey/Rec.git",
+  "cloneUrl": "https://github.com/k0sukey/Rec.git",
+  "svnUrl": "https://github.com/k0sukey/Rec",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:19:09.857Z"
 }

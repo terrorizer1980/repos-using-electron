@@ -5,7 +5,7 @@
   "owner": {
     "login": "feross",
     "id": 121766,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/121766?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/121766?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/feross",
     "htmlUrl": "https://github.com/feross",
@@ -20,21 +20,21 @@
   "description": "P2P Whiteboard powered by WebRTC and WebTorrent",
   "fork": false,
   "createdAt": "2014-09-07T11:53:49.000Z",
-  "updatedAt": "2016-08-04T06:37:14.000Z",
-  "pushedAt": "2016-05-02T11:21:41.000Z",
+  "updatedAt": "2017-04-14T09:23:13.000Z",
+  "pushedAt": "2017-01-25T07:35:41.000Z",
   "homepage": "http://whiteboard.webtorrent.io",
-  "size": 42,
-  "stargazersCount": 61,
-  "watchersCount": 61,
+  "size": 30,
+  "stargazersCount": 81,
+  "watchersCount": 81,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 15,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 61,
+  "forksCount": 17,
+  "openIssuesCount": 4,
+  "openIssues": 4,
+  "watchers": 81,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 15,
-  "subscribersCount": 9,
+  "networkCount": 17,
+  "subscribersCount": 14,
   "status": 200,
   "packageJSON": {
     "name": "whiteboard",
@@ -102,10 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "feross",
-    "LinusU"
-  ],
   "firstCommit": {
     "sha": "ecdb75bec88cf8eccad01ef61c0ddf3275644e27",
     "commit": {
@@ -129,5 +125,26 @@
     }
   },
   "filename": "feross___whiteboard.json",
-  "releases": []
+  "htmlUrl": "https://github.com/feross/whiteboard",
+  "url": "https://api.github.com/repos/feross/whiteboard",
+  "forksUrl": "https://api.github.com/repos/feross/whiteboard/forks",
+  "teamsUrl": "https://api.github.com/repos/feross/whiteboard/teams",
+  "hooksUrl": "https://api.github.com/repos/feross/whiteboard/hooks",
+  "eventsUrl": "https://api.github.com/repos/feross/whiteboard/events",
+  "tagsUrl": "https://api.github.com/repos/feross/whiteboard/tags",
+  "languagesUrl": "https://api.github.com/repos/feross/whiteboard/languages",
+  "stargazersUrl": "https://api.github.com/repos/feross/whiteboard/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/feross/whiteboard/contributors",
+  "subscribersUrl": "https://api.github.com/repos/feross/whiteboard/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/feross/whiteboard/subscription",
+  "mergesUrl": "https://api.github.com/repos/feross/whiteboard/merges",
+  "downloadsUrl": "https://api.github.com/repos/feross/whiteboard/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/feross/whiteboard/deployments",
+  "gitUrl": "git://github.com/feross/whiteboard.git",
+  "sshUrl": "git@github.com:feross/whiteboard.git",
+  "cloneUrl": "https://github.com/feross/whiteboard.git",
+  "svnUrl": "https://github.com/feross/whiteboard",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:11:53.379Z"
 }

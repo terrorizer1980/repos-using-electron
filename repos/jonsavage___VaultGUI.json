@@ -5,7 +5,7 @@
   "owner": {
     "login": "jonsavage",
     "id": 4032410,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4032410?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/4032410?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jonsavage",
     "htmlUrl": "https://github.com/jonsavage",
@@ -17,16 +17,16 @@
     "type": "User"
   },
   "private": false,
-  "description": "A crossplatform desktop app for interacting with a Hashicorp Vault",
+  "description": "A cross-platform desktop app for interacting with a Hashicorp Vault",
   "fork": false,
   "createdAt": "2016-05-20T19:09:55.000Z",
-  "updatedAt": "2016-10-28T18:04:15.000Z",
-  "pushedAt": "2016-11-04T21:04:06.000Z",
+  "updatedAt": "2017-03-23T13:28:03.000Z",
+  "pushedAt": "2017-04-15T21:48:21.000Z",
   "homepage": "",
-  "size": 183584,
-  "stargazersCount": 1,
-  "watchersCount": 1,
-  "language": "CSS",
+  "size": 187483,
+  "stargazersCount": 4,
+  "watchersCount": 4,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -43,7 +43,7 @@
   },
   "license": null,
   "networkCount": 0,
-  "subscribersCount": 3,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "VaultGUI",
@@ -89,10 +89,6 @@
   "cloneUrl": "https://github.com/jonsavage/VaultGUI.git",
   "svnUrl": "https://github.com/jonsavage/VaultGUI",
   "mirrorUrl": null,
-  "contributors": [
-    "jonsavage",
-    "FGS-JSavage"
-  ],
   "firstCommit": {
     "sha": "f3751c1f12c1c915cf2f118e11d81583b68b6e69",
     "commit": {
@@ -116,5 +112,6 @@
     }
   },
   "filename": "jonsavage___VaultGUI.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:07:33.798Z"
 }

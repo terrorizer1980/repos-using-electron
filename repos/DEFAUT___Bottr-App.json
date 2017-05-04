@@ -6,7 +6,7 @@
   "owner": {
     "login": "DEFAUT",
     "id": 5656177,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5656177?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/5656177?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/DEFAUT",
     "htmlUrl": "https://github.com/DEFAUT",
@@ -70,7 +70,7 @@
     "owner": {
       "login": "Bottr-js",
       "id": 21014628,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/21014628?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/21014628?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/Bottr-js",
       "htmlUrl": "https://github.com/Bottr-js",
@@ -100,7 +100,7 @@
     "downloadsUrl": "https://api.github.com/repos/Bottr-js/Bottr-App/downloads",
     "deploymentsUrl": "https://api.github.com/repos/Bottr-js/Bottr-App/deployments",
     "createdAt": "2016-08-31T08:41:03.000Z",
-    "updatedAt": "2017-01-04T20:10:03.000Z",
+    "updatedAt": "2017-04-16T12:16:21.000Z",
     "pushedAt": "2017-01-04T20:09:59.000Z",
     "gitUrl": "git://github.com/Bottr-js/Bottr-App.git",
     "sshUrl": "git@github.com:Bottr-js/Bottr-App.git",
@@ -108,18 +108,19 @@
     "svnUrl": "https://github.com/Bottr-js/Bottr-App",
     "homepage": "http://bottr.co",
     "size": 53919,
-    "stargazersCount": 1,
-    "watchersCount": 1,
+    "stargazersCount": 3,
+    "watchersCount": 3,
     "language": "Java",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": false,
     "hasPages": false,
-    "forksCount": 4,
+    "forksCount": 5,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
-    "watchers": 1,
+    "watchers": 3,
     "defaultBranch": "master"
   },
   "source": {
@@ -129,7 +130,7 @@
     "owner": {
       "login": "Bottr-js",
       "id": 21014628,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/21014628?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/21014628?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/Bottr-js",
       "htmlUrl": "https://github.com/Bottr-js",
@@ -159,7 +160,7 @@
     "downloadsUrl": "https://api.github.com/repos/Bottr-js/Bottr-App/downloads",
     "deploymentsUrl": "https://api.github.com/repos/Bottr-js/Bottr-App/deployments",
     "createdAt": "2016-08-31T08:41:03.000Z",
-    "updatedAt": "2017-01-04T20:10:03.000Z",
+    "updatedAt": "2017-04-16T12:16:21.000Z",
     "pushedAt": "2017-01-04T20:09:59.000Z",
     "gitUrl": "git://github.com/Bottr-js/Bottr-App.git",
     "sshUrl": "git@github.com:Bottr-js/Bottr-App.git",
@@ -167,21 +168,22 @@
     "svnUrl": "https://github.com/Bottr-js/Bottr-App",
     "homepage": "http://bottr.co",
     "size": 53919,
-    "stargazersCount": 1,
-    "watchersCount": 1,
+    "stargazersCount": 3,
+    "watchersCount": 3,
     "language": "Java",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": false,
     "hasPages": false,
-    "forksCount": 4,
+    "forksCount": 5,
     "mirrorUrl": null,
     "openIssuesCount": 0,
     "openIssues": 0,
-    "watchers": 1,
+    "watchers": 3,
     "defaultBranch": "master"
   },
-  "networkCount": 4,
+  "networkCount": 5,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -229,9 +231,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "DEFAUT"
-  ],
   "firstCommit": {
     "sha": "0056a1fbebe526dc6ddb854cddd148af327f0814",
     "commit": {
@@ -255,5 +254,6 @@
     }
   },
   "sourceRepo": "Bottr-js/Bottr-App",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:03:12.076Z"
 }

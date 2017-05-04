@@ -5,7 +5,7 @@
   "owner": {
     "login": "Songbee",
     "id": 3640224,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3640224?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3640224?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Songbee",
     "htmlUrl": "https://github.com/Songbee",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/Songbee/desktop",
-  "description": "Post-cloud music streaming",
+  "description": "Post-cloud music streaming [CURRENT BUILD IS BROKEN]",
   "fork": false,
   "url": "https://api.github.com/repos/Songbee/desktop",
   "forksUrl": "https://api.github.com/repos/Songbee/desktop/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/Songbee/desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Songbee/desktop/deployments",
   "createdAt": "2016-11-12T06:35:09.000Z",
-  "updatedAt": "2016-11-24T11:06:05.000Z",
-  "pushedAt": "2016-11-27T07:30:45.000Z",
+  "updatedAt": "2017-04-20T22:44:20.000Z",
+  "pushedAt": "2017-02-17T21:12:14.000Z",
   "gitUrl": "git://github.com/Songbee/desktop.git",
   "sshUrl": "git@github.com:Songbee/desktop.git",
   "cloneUrl": "https://github.com/Songbee/desktop.git",
   "svnUrl": "https://github.com/Songbee/desktop",
   "homepage": "",
-  "size": 124,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "size": 138,
+  "stargazersCount": 17,
+  "watchersCount": 17,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
-  "openIssuesCount": 2,
-  "openIssues": 2,
-  "watchers": 1,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 17,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,16 +62,16 @@
     "pull": true
   },
   "license": {
-    "key": "unlicense",
-    "name": "The Unlicense",
-    "spdxId": "Unlicense",
-    "url": "https://api.github.com/licenses/unlicense",
-    "featured": false
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "featured": true
   },
   "organization": {
     "login": "Songbee",
     "id": 3640224,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3640224?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/3640224?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Songbee",
     "htmlUrl": "https://github.com/Songbee",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/Songbee/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 2,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "songbee-desktop",
@@ -201,9 +201,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "iamale"
-  ],
   "firstCommit": {
     "sha": "129685d37eadb8cb6cbb26a6294e85a1b53b9caa",
     "commit": {
@@ -227,5 +224,6 @@
     }
   },
   "filename": "Songbee___desktop.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:29:42.415Z"
 }

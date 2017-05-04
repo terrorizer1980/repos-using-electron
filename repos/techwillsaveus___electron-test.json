@@ -78,7 +78,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "ElectronTest",
     "version": "0.0.1",
@@ -90,10 +90,7 @@
     "dependencies": {
       "electron": "^1.4.3"
     },
-    "devDependencies": {},
-    "other": {
-      "author": "Technology Will Save Us"
-    }
+    "devDependencies": {}
   },
   "packageStatus": 200,
   "contributors": [
@@ -121,5 +118,6 @@
       "commentCount": 0
     }
   },
-  "filename": "techwillsaveus___electron-test.json"
+  "filename": "techwillsaveus___electron-test.json",
+  "lastFetchedAt": "2017-05-04T20:30:35.561Z"
 }

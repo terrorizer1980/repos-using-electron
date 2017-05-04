@@ -5,7 +5,7 @@
   "owner": {
     "login": "dfrankland",
     "id": 2488926,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2488926?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2488926?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dfrankland",
     "htmlUrl": "https://github.com/dfrankland",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/dfrankland/nginx-indicator/downloads",
   "deploymentsUrl": "https://api.github.com/repos/dfrankland/nginx-indicator/deployments",
   "createdAt": "2016-10-20T20:09:27.000Z",
-  "updatedAt": "2016-10-21T21:02:28.000Z",
-  "pushedAt": "2016-10-21T21:04:19.000Z",
+  "updatedAt": "2017-04-29T03:16:44.000Z",
+  "pushedAt": "2017-04-29T03:16:42.000Z",
   "gitUrl": "git://github.com/dfrankland/nginx-indicator.git",
   "sshUrl": "git@github.com:dfrankland/nginx-indicator.git",
   "cloneUrl": "https://github.com/dfrankland/nginx-indicator.git",
   "svnUrl": "https://github.com/dfrankland/nginx-indicator",
   "homepage": "",
-  "size": 35,
+  "size": 44,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -102,9 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "dfrankland"
-  ],
   "firstCommit": {
     "sha": "59e0cb2329e6580fbb52eb9a3e5a42c4d1a39455",
     "commit": {
@@ -128,92 +125,6 @@
     }
   },
   "filename": "dfrankland___nginx-indicator.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/dfrankland/nginx-indicator/releases/4454451",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/dfrankland/nginx-indicator/releases/assets/2512303",
-          "id": 2512303,
-          "name": "nginx-indicator-1.0.0-mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "dfrankland",
-            "id": 2488926,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2488926?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dfrankland",
-            "htmlUrl": "https://github.com/dfrankland",
-            "followersUrl": "https://api.github.com/users/dfrankland/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dfrankland/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dfrankland/orgs",
-            "reposUrl": "https://api.github.com/users/dfrankland/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dfrankland/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41009783,
-          "downloadCount": 0,
-          "createdAt": "2016-10-21T21:03:50.000Z",
-          "updatedAt": "2016-10-21T21:04:00.000Z",
-          "browserDownloadUrl": "https://github.com/dfrankland/nginx-indicator/releases/download/1.0.0/nginx-indicator-1.0.0-mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/dfrankland/nginx-indicator/releases/assets/2512304",
-          "id": 2512304,
-          "name": "nginx-indicator-1.0.0-x86_64.AppImage",
-          "label": null,
-          "uploader": {
-            "login": "dfrankland",
-            "id": 2488926,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2488926?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/dfrankland",
-            "htmlUrl": "https://github.com/dfrankland",
-            "followersUrl": "https://api.github.com/users/dfrankland/followers",
-            "subscriptionsUrl": "https://api.github.com/users/dfrankland/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/dfrankland/orgs",
-            "reposUrl": "https://api.github.com/users/dfrankland/repos",
-            "receivedEventsUrl": "https://api.github.com/users/dfrankland/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 44498944,
-          "downloadCount": 0,
-          "createdAt": "2016-10-21T21:04:05.000Z",
-          "updatedAt": "2016-10-21T21:04:13.000Z",
-          "browserDownloadUrl": "https://github.com/dfrankland/nginx-indicator/releases/download/1.0.0/nginx-indicator-1.0.0-x86_64.AppImage"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/dfrankland/nginx-indicator/releases/4454451/assets",
-      "htmlUrl": "https://github.com/dfrankland/nginx-indicator/releases/tag/1.0.0",
-      "id": 4454451,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "MVP",
-      "draft": false,
-      "author": {
-        "login": "dfrankland",
-        "id": 2488926,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2488926?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/dfrankland",
-        "htmlUrl": "https://github.com/dfrankland",
-        "followersUrl": "https://api.github.com/users/dfrankland/followers",
-        "subscriptionsUrl": "https://api.github.com/users/dfrankland/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/dfrankland/orgs",
-        "reposUrl": "https://api.github.com/users/dfrankland/repos",
-        "receivedEventsUrl": "https://api.github.com/users/dfrankland/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-21T21:00:20.000Z",
-      "publishedAt": "2016-10-21T21:04:19.000Z",
-      "tarballUrl": "https://api.github.com/repos/dfrankland/nginx-indicator/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/dfrankland/nginx-indicator/zipball/1.0.0",
-      "body": "Does as the descriptions say, nothing more. May or may not start up on its own after first time running.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:16:04.939Z"
 }

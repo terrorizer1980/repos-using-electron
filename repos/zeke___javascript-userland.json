@@ -6,7 +6,7 @@
   "owner": {
     "login": "zeke",
     "id": 2289,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2289?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2289?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zeke",
     "htmlUrl": "https://github.com/zeke",
@@ -117,9 +117,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "zeke"
-  ],
   "firstCommit": {
     "sha": "d0a1aefec78e257166204bf299926c1c0260bd22",
     "commit": {
@@ -142,5 +139,9 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "allowSquashMerge": true,
+  "allowMergeCommit": true,
+  "allowRebaseMerge": true,
+  "lastFetchedAt": "2017-05-04T21:15:24.708Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "4gray",
     "id": 1503032,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1503032?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1503032?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/4gray",
     "htmlUrl": "https://github.com/4gray",
@@ -35,22 +35,22 @@
   "downloadsUrl": "https://api.github.com/repos/4gray/oversetter/downloads",
   "deploymentsUrl": "https://api.github.com/repos/4gray/oversetter/deployments",
   "createdAt": "2016-11-02T13:30:09.000Z",
-  "updatedAt": "2016-11-02T13:50:42.000Z",
-  "pushedAt": "2016-11-03T12:43:05.000Z",
+  "updatedAt": "2016-12-26T17:54:10.000Z",
+  "pushedAt": "2017-02-15T19:15:34.000Z",
   "gitUrl": "git://github.com/4gray/oversetter.git",
   "sshUrl": "git@github.com:4gray/oversetter.git",
   "cloneUrl": "https://github.com/4gray/oversetter.git",
   "svnUrl": "https://github.com/4gray/oversetter",
   "homepage": "",
-  "size": 87,
+  "size": 1154,
   "stargazersCount": 1,
   "watchersCount": 1,
-  "language": "JavaScript",
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -137,9 +137,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "4gray"
-  ],
   "firstCommit": {
     "sha": "3893529b2eb12e5d252214cf9946094fa15633e1",
     "commit": {
@@ -163,5 +160,6 @@
     }
   },
   "filename": "4gray___oversetter.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:16:07.395Z"
 }

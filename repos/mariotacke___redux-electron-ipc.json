@@ -5,7 +5,7 @@
   "owner": {
     "login": "mariotacke",
     "id": 4942019,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4942019?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4942019?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mariotacke",
     "htmlUrl": "https://github.com/mariotacke",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/mariotacke/redux-electron-ipc/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mariotacke/redux-electron-ipc/deployments",
   "createdAt": "2016-05-31T23:27:38.000Z",
-  "updatedAt": "2016-11-09T10:35:14.000Z",
-  "pushedAt": "2016-09-29T20:13:43.000Z",
+  "updatedAt": "2017-05-03T04:37:37.000Z",
+  "pushedAt": "2017-04-10T05:28:19.000Z",
   "gitUrl": "git://github.com/mariotacke/redux-electron-ipc.git",
   "sshUrl": "git@github.com:mariotacke/redux-electron-ipc.git",
   "cloneUrl": "https://github.com/mariotacke/redux-electron-ipc.git",
   "svnUrl": "https://github.com/mariotacke/redux-electron-ipc",
   "homepage": null,
-  "size": 20,
-  "stargazersCount": 12,
-  "watchersCount": 12,
+  "size": 25,
+  "stargazersCount": 24,
+  "watchersCount": 24,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 12,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 24,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -105,18 +105,9 @@
       "redux": "^3.5.2",
       "redux-thunk": "^2.1.0",
       "webpack": "^1.13.1"
-    },
-    "other": {
-      "author": "Mario Tacke <tacke.mario@gmail.com>",
-      "bugs": {
-        "url": "https://github.com/mariotacke/redux-electron-ipc/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mariotacke"
-  ],
   "firstCommit": {
     "sha": "6cbf540bc5f58d1ce4341f550f46286e61f27c43",
     "commit": {
@@ -140,5 +131,6 @@
     }
   },
   "filename": "mariotacke___redux-electron-ipc.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:51:06.632Z"
 }

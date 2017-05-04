@@ -5,7 +5,7 @@
   "owner": {
     "login": "jndachenhaus",
     "id": 13964975,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13964975?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/13964975?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jndachenhaus",
     "htmlUrl": "https://github.com/jndachenhaus",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/deployments",
   "createdAt": "2016-10-31T22:44:58.000Z",
-  "updatedAt": "2016-11-04T12:00:36.000Z",
-  "pushedAt": "2016-11-04T21:55:59.000Z",
+  "updatedAt": "2017-02-03T18:43:27.000Z",
+  "pushedAt": "2017-04-14T17:24:10.000Z",
   "gitUrl": "git://github.com/jndachenhaus/discord-lite.git",
   "sshUrl": "git@github.com:jndachenhaus/discord-lite.git",
   "cloneUrl": "https://github.com/jndachenhaus/discord-lite.git",
   "svnUrl": "https://github.com/jndachenhaus/discord-lite",
   "homepage": "",
-  "size": 325,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 157206,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 2,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 2,
-  "subscribersCount": 2,
+  "networkCount": 5,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "discord-lite",
@@ -94,9 +94,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jndachenhaus"
-  ],
   "firstCommit": {
     "sha": "277d44936638f2ca6e2a063e11f0bb430e6f9049",
     "commit": {
@@ -120,124 +117,6 @@
     }
   },
   "filename": "jndachenhaus___discord-lite.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jndachenhaus/discord-lite/releases/4863789",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jndachenhaus/discord-lite/releases/assets/2786949",
-          "id": 2786949,
-          "name": "discord-lite.Setup.0.4.4-alpha.exe",
-          "label": null,
-          "uploader": {
-            "login": "R3alCl0ud",
-            "id": 6125664,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6125664?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/R3alCl0ud",
-            "htmlUrl": "https://github.com/R3alCl0ud",
-            "followersUrl": "https://api.github.com/users/R3alCl0ud/followers",
-            "subscriptionsUrl": "https://api.github.com/users/R3alCl0ud/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/R3alCl0ud/orgs",
-            "reposUrl": "https://api.github.com/users/R3alCl0ud/repos",
-            "receivedEventsUrl": "https://api.github.com/users/R3alCl0ud/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 46529841,
-          "downloadCount": 49,
-          "createdAt": "2016-12-08T05:03:56.000Z",
-          "updatedAt": "2016-12-08T05:04:31.000Z",
-          "browserDownloadUrl": "https://github.com/jndachenhaus/discord-lite/releases/download/v0.4.4-alpha/discord-lite.Setup.0.4.4-alpha.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/releases/4863789/assets",
-      "htmlUrl": "https://github.com/jndachenhaus/discord-lite/releases/tag/v0.4.4-alpha",
-      "id": 4863789,
-      "tagName": "v0.4.4-alpha",
-      "targetCommitish": "in-dev",
-      "name": "v0.4.4-alpha",
-      "draft": false,
-      "author": {
-        "login": "R3alCl0ud",
-        "id": 6125664,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6125664?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/R3alCl0ud",
-        "htmlUrl": "https://github.com/R3alCl0ud",
-        "followersUrl": "https://api.github.com/users/R3alCl0ud/followers",
-        "subscriptionsUrl": "https://api.github.com/users/R3alCl0ud/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/R3alCl0ud/orgs",
-        "reposUrl": "https://api.github.com/users/R3alCl0ud/repos",
-        "receivedEventsUrl": "https://api.github.com/users/R3alCl0ud/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-08T02:55:07.000Z",
-      "publishedAt": "2016-12-08T05:05:37.000Z",
-      "tarballUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/tarball/v0.4.4-alpha",
-      "zipballUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/zipball/v0.4.4-alpha",
-      "body": "## Changes\n- Removed email/password login entirely\n\n# Discord Lite v0.4.4-Alpha\n\n**What've we got so far?** Most of the basic features, plus a few extra sweets...\n- Login with a regular or bot account.\n- Send messages through guilds and DMs.\n- Display of attachments and markdown.\n\n**Well, that's an oversimplified version of what we've got right now. Stay tuned for more updates!**\n\n## To Do\n- \\- [x] Login\n- \\- [x] Login with a bot account\n- \\- [x] Display guild in correct order\n- \\- [x] Handle DMs\n- \\- [ ] Handle Group DMs\n- \\- [x] Switching channels\n- \\- [ ] Remembering selected channel when switching guilds\n- \\- [x] Display message markdown correctly\n- \\- [ ] Display emoji correctly\n- \\- [x] Display mentions correctly\n- \\- [ ] Easy mention system\n- \\- [ ] Edit messages\n- \\- [ ] Display embeds\n- \\- [ ] Send embeds\n- \\- [x] Display attachments\n- \\- [ ] Upload attachments\n- \\- [ ] Channel members list\n- \\- [ ] Popouts (ei. usercards)\n- \\- [ ] Automatically install updates\n\n## Known Bugs\n- The client won't always load correctly from the login screen, unless client is restarted.\n- Token sometimes wont go into localstorage, can be manually put in.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/jndachenhaus/discord-lite/releases/4863002",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jndachenhaus/discord-lite/releases/assets/2786499",
-          "id": 2786499,
-          "name": "discord-lite.Setup.0.4.3-alpha.exe",
-          "label": null,
-          "uploader": {
-            "login": "R3alCl0ud",
-            "id": 6125664,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6125664?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/R3alCl0ud",
-            "htmlUrl": "https://github.com/R3alCl0ud",
-            "followersUrl": "https://api.github.com/users/R3alCl0ud/followers",
-            "subscriptionsUrl": "https://api.github.com/users/R3alCl0ud/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/R3alCl0ud/orgs",
-            "reposUrl": "https://api.github.com/users/R3alCl0ud/repos",
-            "receivedEventsUrl": "https://api.github.com/users/R3alCl0ud/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 46530772,
-          "downloadCount": 1,
-          "createdAt": "2016-12-08T02:52:20.000Z",
-          "updatedAt": "2016-12-08T02:52:54.000Z",
-          "browserDownloadUrl": "https://github.com/jndachenhaus/discord-lite/releases/download/v0.4.3-alpha/discord-lite.Setup.0.4.3-alpha.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/releases/4863002/assets",
-      "htmlUrl": "https://github.com/jndachenhaus/discord-lite/releases/tag/v0.4.3-alpha",
-      "id": 4863002,
-      "tagName": "v0.4.3-alpha",
-      "targetCommitish": "in-dev",
-      "name": "v0.4.3-alpha",
-      "draft": false,
-      "author": {
-        "login": "R3alCl0ud",
-        "id": 6125664,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6125664?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/R3alCl0ud",
-        "htmlUrl": "https://github.com/R3alCl0ud",
-        "followersUrl": "https://api.github.com/users/R3alCl0ud/followers",
-        "subscriptionsUrl": "https://api.github.com/users/R3alCl0ud/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/R3alCl0ud/orgs",
-        "reposUrl": "https://api.github.com/users/R3alCl0ud/repos",
-        "receivedEventsUrl": "https://api.github.com/users/R3alCl0ud/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-08T02:55:07.000Z",
-      "publishedAt": "2016-12-08T03:05:39.000Z",
-      "tarballUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/tarball/v0.4.3-alpha",
-      "zipballUrl": "https://api.github.com/repos/jndachenhaus/discord-lite/zipball/v0.4.3-alpha",
-      "body": "# Discord Lite v0.4.3-Alpha\n\n**What've we got so far?** Most of the basic features, plus a few extra sweets...\n- Login with a regular or bot account.\n- Send messages through guilds and DMs.\n- Display of attachments and markdown.\n\n**Well, that's an oversimplified version of what we've got right now. Stay tuned for more updates!**\n\n## To Do\n- \\- [x] Login\n- \\- [x] Login with a bot account\n- \\- [x] Display guild in correct order\n- \\- [x] Handle dms\n- \\- [x] Switching channels\n- \\- [ ] Remembering selected channel when switching guilds\n- \\- [x] Display message markdown correctly\n- \\- [ ] Display emoji correctly\n- \\- [x] Display mentions correctly\n- \\- [ ] Easy mention system\n- \\- [ ] Edit messages\n- \\- [ ] Display embeds\n- \\- [ ] Send embeds\n- \\- [x] Display attachments\n- \\- [ ] Upload attachments\n- \\- [ ] Channel members list\n- \\- [ ] Popouts (ei. usercards)\n- \\- [ ] Automatically install updates\n\n## Known Bugs\n- The client won't always load correctly from the login screen, unless client is restarted.\n- Token sometimes wont go into localstorage, can be manually put in.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:30:42.825Z"
 }

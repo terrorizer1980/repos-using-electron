@@ -5,7 +5,7 @@
   "owner": {
     "login": "cryptag",
     "id": 20253311,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20253311?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20253311?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/cryptag",
     "htmlUrl": "https://github.com/cryptag",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/cryptag/cryptask/downloads",
   "deploymentsUrl": "https://api.github.com/repos/cryptag/cryptask/deployments",
   "createdAt": "2016-06-27T04:37:02.000Z",
-  "updatedAt": "2016-11-04T11:22:26.000Z",
+  "updatedAt": "2017-03-24T15:53:43.000Z",
   "pushedAt": "2016-09-05T04:25:46.000Z",
   "gitUrl": "git://github.com/cryptag/cryptask.git",
   "sshUrl": "git@github.com:cryptag/cryptask.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/cryptag/cryptask",
   "homepage": "https://www.cryptag.org/",
   "size": 18,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 2,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "cryptag",
     "id": 20253311,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20253311?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20253311?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/cryptag",
     "htmlUrl": "https://github.com/cryptag",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/cryptag/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -120,9 +120,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "elimisteve"
-  ],
   "firstCommit": {
     "sha": "f6b5a2c0571043e8a278e249bde3ab44ba828103",
     "commit": {
@@ -146,5 +143,6 @@
     }
   },
   "filename": "cryptag___cryptask.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:28:25.313Z"
 }

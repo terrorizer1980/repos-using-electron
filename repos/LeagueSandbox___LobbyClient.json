@@ -5,7 +5,7 @@
   "owner": {
     "login": "LeagueSandbox",
     "id": 18346087,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18346087?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/18346087?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LeagueSandbox",
     "htmlUrl": "https://github.com/LeagueSandbox",
@@ -20,22 +20,22 @@
   "description": "League Sandbox's Launcher Client",
   "fork": false,
   "createdAt": "2016-04-09T12:00:53.000Z",
-  "updatedAt": "2016-05-01T12:24:47.000Z",
-  "pushedAt": "2016-08-10T18:46:48.000Z",
+  "updatedAt": "2017-02-12T22:45:46.000Z",
+  "pushedAt": "2017-05-04T07:25:39.000Z",
   "homepage": null,
-  "size": 319,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 1487,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 4,
-  "openIssuesCount": 4,
-  "openIssues": 4,
-  "watchers": 2,
-  "defaultBranch": "master",
+  "forksCount": 6,
+  "openIssuesCount": 8,
+  "openIssues": 8,
+  "watchers": 4,
+  "defaultBranch": "indev",
   "permissions": {
     "admin": false,
     "push": false,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "LeagueSandbox",
     "id": 18346087,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18346087?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/18346087?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/LeagueSandbox",
     "htmlUrl": "https://github.com/LeagueSandbox",
@@ -56,8 +56,8 @@
     "receivedEventsUrl": "https://api.github.com/users/LeagueSandbox/received_events",
     "type": "Organization"
   },
-  "networkCount": 4,
-  "subscribersCount": 5,
+  "networkCount": 6,
+  "subscribersCount": 14,
   "status": 200,
   "packageJSON": {
     "name": "leaguesandbox-lobbyclient",
@@ -115,11 +115,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "molenzwiebel",
-    "MythicManiac",
-    "DeudlyYT"
-  ],
   "firstCommit": {
     "sha": "7b5751c15978f090d50017057689b993952c55d3",
     "commit": {
@@ -143,5 +138,26 @@
     }
   },
   "filename": "LeagueSandbox___LobbyClient.json",
-  "releases": []
+  "htmlUrl": "https://github.com/LeagueSandbox/LobbyClient",
+  "url": "https://api.github.com/repos/LeagueSandbox/LobbyClient",
+  "forksUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/forks",
+  "teamsUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/teams",
+  "hooksUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/hooks",
+  "eventsUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/events",
+  "tagsUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/tags",
+  "languagesUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/languages",
+  "stargazersUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/contributors",
+  "subscribersUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/subscription",
+  "mergesUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/merges",
+  "downloadsUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/LeagueSandbox/LobbyClient/deployments",
+  "gitUrl": "git://github.com/LeagueSandbox/LobbyClient.git",
+  "sshUrl": "git@github.com:LeagueSandbox/LobbyClient.git",
+  "cloneUrl": "https://github.com/LeagueSandbox/LobbyClient.git",
+  "svnUrl": "https://github.com/LeagueSandbox/LobbyClient",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:29:41.166Z"
 }

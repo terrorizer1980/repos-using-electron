@@ -5,7 +5,7 @@
   "owner": {
     "login": "lazybios",
     "id": 1796906,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1796906?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1796906?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lazybios",
     "htmlUrl": "https://github.com/lazybios",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/lazybios/emoji-menu/downloads",
   "deploymentsUrl": "https://api.github.com/repos/lazybios/emoji-menu/deployments",
   "createdAt": "2016-05-28T05:24:28.000Z",
-  "updatedAt": "2016-08-08T08:51:52.000Z",
+  "updatedAt": "2016-11-18T05:23:46.000Z",
   "pushedAt": "2016-09-08T06:39:06.000Z",
   "gitUrl": "git://github.com/lazybios/emoji-menu.git",
   "sshUrl": "git@github.com:lazybios/emoji-menu.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/lazybios/emoji-menu",
   "homepage": "http://lazybios.com/emoji-menu",
   "size": 8171,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 2,
   "openIssues": 2,
-  "watchers": 3,
+  "watchers": 4,
   "defaultBranch": "develop",
   "permissions": {
     "admin": false,
@@ -108,11 +108,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lazybios",
-    "runfastlynda",
-    "cvley"
-  ],
   "firstCommit": {
     "sha": "a6daa9c777c539d791dbb21cf99dc16ccdf60e09",
     "commit": {
@@ -136,65 +131,6 @@
     }
   },
   "filename": "lazybios___emoji-menu.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/lazybios/emoji-menu/releases/3830092",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lazybios/emoji-menu/releases/assets/2107231",
-          "id": 2107231,
-          "name": "emoji-menu-0.1.0.dmg.zip",
-          "label": null,
-          "uploader": {
-            "login": "lazybios",
-            "id": 1796906,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1796906?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lazybios",
-            "htmlUrl": "https://github.com/lazybios",
-            "followersUrl": "https://api.github.com/users/lazybios/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lazybios/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lazybios/orgs",
-            "reposUrl": "https://api.github.com/users/lazybios/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lazybios/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 43027352,
-          "downloadCount": 5,
-          "createdAt": "2016-08-07T03:49:05.000Z",
-          "updatedAt": "2016-08-07T03:54:46.000Z",
-          "browserDownloadUrl": "https://github.com/lazybios/emoji-menu/releases/download/v0.1.0/emoji-menu-0.1.0.dmg.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lazybios/emoji-menu/releases/3830092/assets",
-      "htmlUrl": "https://github.com/lazybios/emoji-menu/releases/tag/v0.1.0",
-      "id": 3830092,
-      "tagName": "v0.1.0",
-      "targetCommitish": "develop",
-      "name": "0.1.0",
-      "draft": false,
-      "author": {
-        "login": "lazybios",
-        "id": 1796906,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1796906?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lazybios",
-        "htmlUrl": "https://github.com/lazybios",
-        "followersUrl": "https://api.github.com/users/lazybios/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lazybios/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lazybios/orgs",
-        "reposUrl": "https://api.github.com/users/lazybios/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lazybios/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-08-07T03:44:44.000Z",
-      "publishedAt": "2016-08-07T03:59:11.000Z",
-      "tarballUrl": "https://api.github.com/repos/lazybios/emoji-menu/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/lazybios/emoji-menu/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:14:00.823Z"
 }

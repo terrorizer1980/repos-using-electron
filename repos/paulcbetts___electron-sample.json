@@ -5,7 +5,7 @@
   "owner": {
     "login": "paulcbetts",
     "id": 1396,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1396?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1396?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/paulcbetts",
     "htmlUrl": "https://github.com/paulcbetts",
@@ -18,23 +18,23 @@
   },
   "private": false,
   "description": "Sample app using the CLI",
-  "fork": true,
+  "fork": false,
   "createdAt": "2015-07-19T23:26:48.000Z",
-  "updatedAt": "2015-11-08T22:36:47.000Z",
+  "updatedAt": "2016-12-22T20:10:27.000Z",
   "pushedAt": "2015-07-19T23:27:21.000Z",
   "homepage": null,
   "size": 83,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "CoffeeScript",
   "hasIssues": false,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 12,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -186,9 +186,6 @@
     "dependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "benogle"
-  ],
   "firstCommit": {
     "sha": "8e711838d0e78d2b5aedacc677911dffd39db34b",
     "commit": {
@@ -212,5 +209,26 @@
     }
   },
   "filename": "paulcbetts___electron-sample.json",
-  "releases": []
+  "htmlUrl": "https://github.com/paulcbetts/electron-sample",
+  "url": "https://api.github.com/repos/paulcbetts/electron-sample",
+  "forksUrl": "https://api.github.com/repos/paulcbetts/electron-sample/forks",
+  "teamsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/teams",
+  "hooksUrl": "https://api.github.com/repos/paulcbetts/electron-sample/hooks",
+  "eventsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/events",
+  "tagsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/tags",
+  "languagesUrl": "https://api.github.com/repos/paulcbetts/electron-sample/languages",
+  "stargazersUrl": "https://api.github.com/repos/paulcbetts/electron-sample/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/contributors",
+  "subscribersUrl": "https://api.github.com/repos/paulcbetts/electron-sample/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/paulcbetts/electron-sample/subscription",
+  "mergesUrl": "https://api.github.com/repos/paulcbetts/electron-sample/merges",
+  "downloadsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/paulcbetts/electron-sample/deployments",
+  "gitUrl": "git://github.com/paulcbetts/electron-sample.git",
+  "sshUrl": "git@github.com:paulcbetts/electron-sample.git",
+  "cloneUrl": "https://github.com/paulcbetts/electron-sample.git",
+  "svnUrl": "https://github.com/paulcbetts/electron-sample",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:57:47.617Z"
 }

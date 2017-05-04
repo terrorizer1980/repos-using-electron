@@ -5,7 +5,7 @@
   "owner": {
     "login": "Or3stis",
     "id": 11923550,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11923550?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/11923550?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Or3stis",
     "htmlUrl": "https://github.com/Or3stis",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/Or3stis/apparatus/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Or3stis/apparatus/deployments",
   "createdAt": "2016-05-30T20:24:25.000Z",
-  "updatedAt": "2016-10-26T22:01:13.000Z",
-  "pushedAt": "2016-11-11T14:01:43.000Z",
+  "updatedAt": "2017-03-18T00:24:37.000Z",
+  "pushedAt": "2017-04-26T20:30:49.000Z",
   "gitUrl": "git://github.com/Or3stis/apparatus.git",
   "sshUrl": "git@github.com:Or3stis/apparatus.git",
   "cloneUrl": "https://github.com/Or3stis/apparatus.git",
   "svnUrl": "https://github.com/Or3stis/apparatus",
   "homepage": "",
-  "size": 43899,
+  "size": 45015,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -62,11 +62,11 @@
     "pull": true
   },
   "license": {
-    "key": "cc0-1.0",
-    "name": "Creative Commons Zero v1.0 Universal",
-    "spdxId": "CC0-1.0",
-    "url": "https://api.github.com/licenses/cc0-1.0",
-    "featured": false
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
   "networkCount": 0,
   "subscribersCount": 2,
@@ -93,9 +93,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Or3stis"
-  ],
   "firstCommit": {
     "sha": "c6e3ffa1795b396a6313d7c168000542a2b7578a",
     "commit": {
@@ -119,5 +116,6 @@
     }
   },
   "filename": "Or3stis___apparatus.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:40:00.975Z"
 }

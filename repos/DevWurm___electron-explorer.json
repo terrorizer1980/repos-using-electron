@@ -1,11 +1,11 @@
 {
-  "id": 69360453,
+  "id": 78228037,
   "name": "electron-explorer",
   "fullName": "DevWurm/electron-explorer",
   "owner": {
     "login": "DevWurm",
     "id": 11690650,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11690650?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/11690650?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/DevWurm",
     "htmlUrl": "https://github.com/DevWurm",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/DevWurm/electron-explorer",
-  "description": "A simple file explorer for testing the Integration of Angular2 in Electron.",
+  "description": "A basic file explorer as example for bulding desktop apps with Electron and Angular 2",
   "fork": false,
   "url": "https://api.github.com/repos/DevWurm/electron-explorer",
   "forksUrl": "https://api.github.com/repos/DevWurm/electron-explorer/forks",
@@ -34,18 +34,18 @@
   "mergesUrl": "https://api.github.com/repos/DevWurm/electron-explorer/merges",
   "downloadsUrl": "https://api.github.com/repos/DevWurm/electron-explorer/downloads",
   "deploymentsUrl": "https://api.github.com/repos/DevWurm/electron-explorer/deployments",
-  "createdAt": "2016-09-27T13:37:25.000Z",
-  "updatedAt": "2016-09-27T13:39:35.000Z",
-  "pushedAt": "2016-09-27T13:39:32.000Z",
+  "createdAt": "2017-01-06T18:14:42.000Z",
+  "updatedAt": "2017-02-10T04:05:20.000Z",
+  "pushedAt": "2017-02-14T08:49:08.000Z",
   "gitUrl": "git://github.com/DevWurm/electron-explorer.git",
   "sshUrl": "git@github.com:DevWurm/electron-explorer.git",
   "cloneUrl": "https://github.com/DevWurm/electron-explorer.git",
   "svnUrl": "https://github.com/DevWurm/electron-explorer",
   "homepage": null,
-  "size": 16,
-  "stargazersCount": 0,
-  "watchersCount": 0,
-  "language": "TypeScript",
+  "size": 20,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": true
   },
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "electron-explorer",
@@ -123,10 +123,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "DevWurm",
-    "angular-cli"
-  ],
   "firstCommit": {
     "sha": "94048b9a517002d6e71508f88d4471446e7c3970",
     "commit": {
@@ -150,5 +146,6 @@
     }
   },
   "filename": "DevWurm___electron-explorer.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:03:58.496Z"
 }

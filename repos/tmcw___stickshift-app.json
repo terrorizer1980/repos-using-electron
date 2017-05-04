@@ -5,7 +5,7 @@
   "owner": {
     "login": "tmcw",
     "id": 32314,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/32314?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/32314?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tmcw",
     "htmlUrl": "https://github.com/tmcw",
@@ -20,12 +20,12 @@
   "description": "Stickshift as a desktop application.",
   "fork": false,
   "createdAt": "2015-04-25T21:46:27.000Z",
-  "updatedAt": "2016-05-13T00:41:08.000Z",
-  "pushedAt": "2015-04-28T15:23:12.000Z",
+  "updatedAt": "2017-03-25T01:38:44.000Z",
+  "pushedAt": "2017-04-10T21:31:23.000Z",
   "homepage": "https://github.com/tmcw/stickshift",
-  "size": 145,
-  "stargazersCount": 28,
-  "watchersCount": 28,
+  "size": 37,
+  "stargazersCount": 29,
+  "watchersCount": 29,
   "language": "JavaScript",
   "hasIssues": false,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 2,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 28,
+  "watchers": 29,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -89,9 +89,6 @@
   "cloneUrl": "https://github.com/tmcw/stickshift-app.git",
   "svnUrl": "https://github.com/tmcw/stickshift-app",
   "mirrorUrl": null,
-  "contributors": [
-    "tmcw"
-  ],
   "firstCommit": {
     "sha": "31c4e0fcf42118858d2864ee51d54b5d44ba7d78",
     "commit": {
@@ -115,65 +112,6 @@
     }
   },
   "filename": "tmcw___stickshift-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/tmcw/stickshift-app/releases/1228005",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/tmcw/stickshift-app/releases/assets/550040",
-          "id": 550040,
-          "name": "Stickshift.zip",
-          "label": null,
-          "uploader": {
-            "login": "tmcw",
-            "id": 32314,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/32314?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/tmcw",
-            "htmlUrl": "https://github.com/tmcw",
-            "followersUrl": "https://api.github.com/users/tmcw/followers",
-            "subscriptionsUrl": "https://api.github.com/users/tmcw/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/tmcw/orgs",
-            "reposUrl": "https://api.github.com/users/tmcw/repos",
-            "receivedEventsUrl": "https://api.github.com/users/tmcw/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 36757455,
-          "downloadCount": 16,
-          "createdAt": "2015-04-28T15:23:05.000Z",
-          "updatedAt": "2015-04-28T15:23:09.000Z",
-          "browserDownloadUrl": "https://github.com/tmcw/stickshift-app/releases/download/1.0.0beta1/Stickshift.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/tmcw/stickshift-app/releases/1228005/assets",
-      "htmlUrl": "https://github.com/tmcw/stickshift-app/releases/tag/1.0.0beta1",
-      "id": 1228005,
-      "tagName": "1.0.0beta1",
-      "targetCommitish": "master",
-      "name": "First release",
-      "draft": false,
-      "author": {
-        "login": "tmcw",
-        "id": 32314,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/32314?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/tmcw",
-        "htmlUrl": "https://github.com/tmcw",
-        "followersUrl": "https://api.github.com/users/tmcw/followers",
-        "subscriptionsUrl": "https://api.github.com/users/tmcw/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/tmcw/orgs",
-        "reposUrl": "https://api.github.com/users/tmcw/repos",
-        "receivedEventsUrl": "https://api.github.com/users/tmcw/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-04-28T15:22:03.000Z",
-      "publishedAt": "2015-04-28T15:23:12.000Z",
-      "tarballUrl": "https://api.github.com/repos/tmcw/stickshift-app/tarball/1.0.0beta1",
-      "zipballUrl": "https://api.github.com/repos/tmcw/stickshift-app/zipball/1.0.0beta1",
-      "body": "This is the first release: an app bundle, tested on OSX only.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:55:00.462Z"
 }

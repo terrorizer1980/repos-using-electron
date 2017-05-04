@@ -5,7 +5,7 @@
   "owner": {
     "login": "abec",
     "id": 2106636,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2106636?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/2106636?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/abec",
     "htmlUrl": "https://github.com/abec",
@@ -113,9 +113,6 @@
     "__electron-version": "0.34.2"
   },
   "packageStatus": 200,
-  "contributors": [
-    "abec"
-  ],
   "firstCommit": {
     "sha": "fb5e85f3128ccee696f0fa2a7db9da91ace19de3",
     "commit": {
@@ -139,65 +136,26 @@
     }
   },
   "filename": "abec___regrok.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/abec/regrok/releases/2202172",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/abec/regrok/releases/assets/1081327",
-          "id": 1081327,
-          "name": "ReGrok-mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "abec",
-            "id": 2106636,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2106636?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/abec",
-            "htmlUrl": "https://github.com/abec",
-            "followersUrl": "https://api.github.com/users/abec/followers",
-            "subscriptionsUrl": "https://api.github.com/users/abec/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/abec/orgs",
-            "reposUrl": "https://api.github.com/users/abec/repos",
-            "receivedEventsUrl": "https://api.github.com/users/abec/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 77235725,
-          "downloadCount": 0,
-          "createdAt": "2015-11-29T11:17:27.000Z",
-          "updatedAt": "2015-11-29T11:22:12.000Z",
-          "browserDownloadUrl": "https://github.com/abec/regrok/releases/download/0.1.0/ReGrok-mac.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/abec/regrok/releases/2202172/assets",
-      "htmlUrl": "https://github.com/abec/regrok/releases/tag/0.1.0",
-      "id": 2202172,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "v0.1.0",
-      "draft": false,
-      "author": {
-        "login": "abec",
-        "id": 2106636,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2106636?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/abec",
-        "htmlUrl": "https://github.com/abec",
-        "followersUrl": "https://api.github.com/users/abec/followers",
-        "subscriptionsUrl": "https://api.github.com/users/abec/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/abec/orgs",
-        "reposUrl": "https://api.github.com/users/abec/repos",
-        "receivedEventsUrl": "https://api.github.com/users/abec/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-11-29T11:19:16.000Z",
-      "publishedAt": "2015-11-29T11:22:17.000Z",
-      "tarballUrl": "https://api.github.com/repos/abec/regrok/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/abec/regrok/zipball/0.1.0",
-      "body": "1. Basic client side encryption\n2. Write an entry\n3. Delete several entries\n4. Markdown support\n5. Database driven configuration through settings\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/abec/regrok",
+  "url": "https://api.github.com/repos/abec/regrok",
+  "forksUrl": "https://api.github.com/repos/abec/regrok/forks",
+  "teamsUrl": "https://api.github.com/repos/abec/regrok/teams",
+  "hooksUrl": "https://api.github.com/repos/abec/regrok/hooks",
+  "eventsUrl": "https://api.github.com/repos/abec/regrok/events",
+  "tagsUrl": "https://api.github.com/repos/abec/regrok/tags",
+  "languagesUrl": "https://api.github.com/repos/abec/regrok/languages",
+  "stargazersUrl": "https://api.github.com/repos/abec/regrok/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/abec/regrok/contributors",
+  "subscribersUrl": "https://api.github.com/repos/abec/regrok/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/abec/regrok/subscription",
+  "mergesUrl": "https://api.github.com/repos/abec/regrok/merges",
+  "downloadsUrl": "https://api.github.com/repos/abec/regrok/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/abec/regrok/deployments",
+  "gitUrl": "git://github.com/abec/regrok.git",
+  "sshUrl": "git@github.com:abec/regrok.git",
+  "cloneUrl": "https://github.com/abec/regrok.git",
+  "svnUrl": "https://github.com/abec/regrok",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:47:41.674Z"
 }

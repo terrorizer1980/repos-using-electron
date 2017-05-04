@@ -5,7 +5,7 @@
   "owner": {
     "login": "MatthijsKaminski",
     "id": 6402904,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6402904?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6402904?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MatthijsKaminski",
     "htmlUrl": "https://github.com/MatthijsKaminski",
@@ -17,7 +17,7 @@
     "type": "User"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-02-14T12:20:54.000Z",
   "updatedAt": "2016-09-08T05:07:16.000Z",
@@ -69,9 +69,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "MatthijsKaminski"
-  ],
   "firstCommit": {
     "sha": "7b7dcab986a1f2789a58121fba4f19eaab2c938d",
     "commit": {
@@ -95,37 +92,26 @@
     }
   },
   "filename": "MatthijsKaminski___AnalyzeTool.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/releases/4007450",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/releases/4007450/assets",
-      "htmlUrl": "https://github.com/MatthijsKaminski/AnalyzeTool/releases/tag/v1.2",
-      "id": 4007450,
-      "tagName": "v1.2",
-      "targetCommitish": "master",
-      "name": "Hadoop Analyzer Tool",
-      "draft": false,
-      "author": {
-        "login": "MatthijsKaminski",
-        "id": 6402904,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6402904?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/MatthijsKaminski",
-        "htmlUrl": "https://github.com/MatthijsKaminski",
-        "followersUrl": "https://api.github.com/users/MatthijsKaminski/followers",
-        "subscriptionsUrl": "https://api.github.com/users/MatthijsKaminski/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/MatthijsKaminski/orgs",
-        "reposUrl": "https://api.github.com/users/MatthijsKaminski/repos",
-        "receivedEventsUrl": "https://api.github.com/users/MatthijsKaminski/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-08-30T11:21:34.000Z",
-      "publishedAt": "2016-08-30T11:48:29.000Z",
-      "tarballUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/tarball/v1.2",
-      "zipballUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/zipball/v1.2",
-      "body": "A tool for analyzing Hadoop MapReduce jobs\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/MatthijsKaminski/AnalyzeTool",
+  "url": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool",
+  "forksUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/forks",
+  "teamsUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/teams",
+  "hooksUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/hooks",
+  "eventsUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/events",
+  "tagsUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/tags",
+  "languagesUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/languages",
+  "stargazersUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/contributors",
+  "subscribersUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/subscription",
+  "mergesUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/merges",
+  "downloadsUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/MatthijsKaminski/AnalyzeTool/deployments",
+  "gitUrl": "git://github.com/MatthijsKaminski/AnalyzeTool.git",
+  "sshUrl": "git@github.com:MatthijsKaminski/AnalyzeTool.git",
+  "cloneUrl": "https://github.com/MatthijsKaminski/AnalyzeTool.git",
+  "svnUrl": "https://github.com/MatthijsKaminski/AnalyzeTool",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T20:27:47.171Z"
 }

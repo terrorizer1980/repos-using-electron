@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "office-management-system",
     "version": "0.1.0",
@@ -84,12 +84,6 @@
       "electron-prebuilt": "*",
       "jquery": "*",
       "hammerjs": "*"
-    },
-    "other": {
-      "author": "Sayantan Bakshi",
-      "bugs": {
-        "url": "https://github.com/bob005/oms/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +112,6 @@
       "commentCount": 0
     }
   },
-  "filename": "bob005___oms.json"
+  "filename": "bob005___oms.json",
+  "lastFetchedAt": "2017-05-04T20:46:46.858Z"
 }

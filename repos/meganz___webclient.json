@@ -5,7 +5,7 @@
   "owner": {
     "login": "meganz",
     "id": 4920706,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4920706?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/4920706?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/meganz",
     "htmlUrl": "https://github.com/meganz",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/meganz/webclient/downloads",
   "deploymentsUrl": "https://api.github.com/repos/meganz/webclient/deployments",
   "createdAt": "2016-01-19T23:06:11.000Z",
-  "updatedAt": "2016-11-16T11:13:11.000Z",
-  "pushedAt": "2016-11-03T02:04:53.000Z",
+  "updatedAt": "2017-05-01T15:35:57.000Z",
+  "pushedAt": "2017-05-02T03:08:36.000Z",
   "gitUrl": "git://github.com/meganz/webclient.git",
   "sshUrl": "git@github.com:meganz/webclient.git",
   "cloneUrl": "https://github.com/meganz/webclient.git",
   "svnUrl": "https://github.com/meganz/webclient",
   "homepage": "",
-  "size": 224159,
-  "stargazersCount": 155,
-  "watchersCount": 155,
+  "size": 249261,
+  "stargazersCount": 262,
+  "watchersCount": 262,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 47,
+  "forksCount": 81,
   "mirrorUrl": null,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 155,
+  "openIssuesCount": 8,
+  "openIssues": 8,
+  "watchers": 262,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "meganz",
     "id": 4920706,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4920706?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/4920706?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/meganz",
     "htmlUrl": "https://github.com/meganz",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/meganz/received_events",
     "type": "Organization"
   },
-  "networkCount": 47,
-  "subscribersCount": 29,
+  "networkCount": 81,
+  "subscribersCount": 34,
   "status": 200,
   "packageJSON": {
     "name": "Mega_Webclient",
@@ -157,39 +157,9 @@
       "plato": "^1.5.0",
       "sinon": "~1.13.0",
       "webpack-dev-server": "^1.14.0"
-    },
-    "other": {
-      "author": "Mega Limited",
-      "bugs": {
-        "url": "https://issues.developers.mega.co.nz/projects/webclient"
-      },
-      "directories": {
-        "src": "js",
-        "test": "test",
-        "doc": "doc"
-      },
-      "readmeFilename": "README.md"
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "cr-nz",
-    "diegocr",
-    "crodas",
-    "aloncar",
-    "andreidymovich",
-    "pohutukawa",
-    "lpetrov",
-    "andremeister",
-    "ortmann",
-    "BramvanderKolk",
-    "vibornoff",
-    "wizzard",
-    "vincentguoy",
-    "xofhound",
-    "infinity0",
-    "Scribilicious"
-  ],
   "firstCommit": {
     "sha": "d7e7df96e891f74914864c4832698ffd7e39a7a0",
     "commit": {
@@ -213,5 +183,6 @@
     }
   },
   "filename": "meganz___webclient.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:35:16.997Z"
 }

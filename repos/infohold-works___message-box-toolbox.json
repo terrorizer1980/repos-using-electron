@@ -64,13 +64,12 @@
   },
   "networkCount": 3,
   "subscribersCount": 3,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "message-box-toolbox",
     "productName": "Message Box ToolBox",
     "description": "消息盒子 - 运维工具",
     "version": "0.1.0",
-    "author": "xiaoluoboding <xiaoluoboding@gmail.com>",
     "devDependencies": {
       "asar": "^0.7.2",
       "babel-loader": "^5.4.0",
@@ -114,5 +113,7 @@
   "contributors": [
     "dongjiqiang",
     "xiaoluoboding"
-  ]
+  ],
+  "filename": "infohold-works___message-box-toolbox.json",
+  "lastFetchedAt": "2017-05-04T21:22:45.689Z"
 }

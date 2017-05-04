@@ -5,7 +5,7 @@
   "owner": {
     "login": "seanbuscay",
     "id": 830242,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/830242?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/830242?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/seanbuscay",
     "htmlUrl": "https://github.com/seanbuscay",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/downloads",
   "deploymentsUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/deployments",
   "createdAt": "2016-11-10T02:04:25.000Z",
-  "updatedAt": "2016-11-13T19:42:43.000Z",
+  "updatedAt": "2017-04-30T00:39:39.000Z",
   "pushedAt": "2016-11-15T02:50:40.000Z",
   "gitUrl": "git://github.com/seanbuscay/electron-drupal.git",
   "sshUrl": "git@github.com:seanbuscay/electron-drupal.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/seanbuscay/electron-drupal",
   "homepage": null,
   "size": 3635,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": true
   },
   "networkCount": 0,
-  "subscribersCount": 0,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "electron-drupal",
@@ -104,9 +104,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "seanbuscay"
-  ],
   "firstCommit": {
     "sha": "f0c7ccb6008600793eef7499f8f558b64ee07866",
     "commit": {
@@ -130,68 +127,6 @@
     }
   },
   "filename": "seanbuscay___electron-drupal.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4659024",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4659024/assets",
-      "htmlUrl": "https://github.com/seanbuscay/electron-drupal/releases/tag/v0.1.1",
-      "id": 4659024,
-      "tagName": "v0.1.1",
-      "targetCommitish": "master",
-      "name": "New commands to cleanup the previous installs.  New PHP error logging.",
-      "draft": false,
-      "author": {
-        "login": "seanbuscay",
-        "id": 830242,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/830242?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/seanbuscay",
-        "htmlUrl": "https://github.com/seanbuscay",
-        "followersUrl": "https://api.github.com/users/seanbuscay/followers",
-        "subscriptionsUrl": "https://api.github.com/users/seanbuscay/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/seanbuscay/orgs",
-        "reposUrl": "https://api.github.com/users/seanbuscay/repos",
-        "receivedEventsUrl": "https://api.github.com/users/seanbuscay/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-15T02:48:21.000Z",
-      "publishedAt": "2016-11-15T02:50:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/tarball/v0.1.1",
-      "zipballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/zipball/v0.1.1",
-      "body": "Add two script commands to cleanup the previous install before running `npm install` again:\n- `npm run wipe`\n  - will backup the current Drupal web directory\n  - will remove everything installed by `npm install`\n  - except any backups of the Drupal web directory\n- `npm run wipe-all`\n  - will remove everything installed by `npm install`\n  - including any backups of the Drupal web directory\n\nPHP now logs errors to `logs/electron-php-errors.log`\n\nTurn back on node integration between the browser window and the app. \n\nComment out the web preference settings to lower the browser security level for testing.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4658972",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/releases/4658972/assets",
-      "htmlUrl": "https://github.com/seanbuscay/electron-drupal/releases/tag/v0.1.0",
-      "id": 4658972,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Initial Release.",
-      "draft": false,
-      "author": {
-        "login": "seanbuscay",
-        "id": 830242,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/830242?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/seanbuscay",
-        "htmlUrl": "https://github.com/seanbuscay",
-        "followersUrl": "https://api.github.com/users/seanbuscay/followers",
-        "subscriptionsUrl": "https://api.github.com/users/seanbuscay/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/seanbuscay/orgs",
-        "reposUrl": "https://api.github.com/users/seanbuscay/repos",
-        "receivedEventsUrl": "https://api.github.com/users/seanbuscay/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-13T19:42:20.000Z",
-      "publishedAt": "2016-11-15T02:38:30.000Z",
-      "tarballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/seanbuscay/electron-drupal/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:41:47.915Z"
 }

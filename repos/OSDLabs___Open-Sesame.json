@@ -5,7 +5,7 @@
   "owner": {
     "login": "OSDLabs",
     "id": 20873547,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20873547?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/20873547?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/OSDLabs",
     "htmlUrl": "https://github.com/OSDLabs",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/OSDLabs/Open-Sesame/downloads",
   "deploymentsUrl": "https://api.github.com/repos/OSDLabs/Open-Sesame/deployments",
   "createdAt": "2016-10-29T12:46:32.000Z",
-  "updatedAt": "2016-10-29T22:55:23.000Z",
-  "pushedAt": "2016-10-31T18:04:25.000Z",
+  "updatedAt": "2017-02-25T11:19:50.000Z",
+  "pushedAt": "2016-12-18T18:57:47.000Z",
   "gitUrl": "git://github.com/OSDLabs/Open-Sesame.git",
   "sshUrl": "git@github.com:OSDLabs/Open-Sesame.git",
   "cloneUrl": "https://github.com/OSDLabs/Open-Sesame.git",
   "svnUrl": "https://github.com/OSDLabs/Open-Sesame",
   "homepage": null,
-  "size": 8,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "size": 15,
+  "stargazersCount": 7,
+  "watchersCount": 7,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 7,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "OSDLabs",
     "id": 20873547,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20873547?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/20873547?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/OSDLabs",
     "htmlUrl": "https://github.com/OSDLabs",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/OSDLabs/received_events",
     "type": "Organization"
   },
-  "networkCount": 2,
-  "subscribersCount": 5,
+  "networkCount": 5,
+  "subscribersCount": 7,
   "status": 200,
   "packageJSON": {
     "name": "OpenSesame",
@@ -112,9 +112,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "prampey"
-  ],
   "firstCommit": {
     "sha": "e8b62c6c8b4379cfcfa651eb44d0b664c91db4fa",
     "commit": {
@@ -138,5 +135,6 @@
     }
   },
   "filename": "OSDLabs___Open-Sesame.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:25:08.799Z"
 }

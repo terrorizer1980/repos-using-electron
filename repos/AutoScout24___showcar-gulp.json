@@ -5,7 +5,7 @@
   "owner": {
     "login": "AutoScout24",
     "id": 4965235,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4965235?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4965235?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AutoScout24",
     "htmlUrl": "https://github.com/AutoScout24",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/AutoScout24/showcar-gulp",
-  "description": "Shared build steps for projects using the ShowCar UI Library",
+  "description": "Unified frontend build pipeline for projects using the ShowCar UI Library",
   "fork": false,
   "url": "https://api.github.com/repos/AutoScout24/showcar-gulp",
   "forksUrl": "https://api.github.com/repos/AutoScout24/showcar-gulp/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/AutoScout24/showcar-gulp/downloads",
   "deploymentsUrl": "https://api.github.com/repos/AutoScout24/showcar-gulp/deployments",
   "createdAt": "2016-11-21T13:53:03.000Z",
-  "updatedAt": "2016-11-21T15:53:30.000Z",
-  "pushedAt": "2016-11-29T12:10:40.000Z",
+  "updatedAt": "2017-03-06T17:16:09.000Z",
+  "pushedAt": "2017-05-02T16:02:31.000Z",
   "gitUrl": "git://github.com/AutoScout24/showcar-gulp.git",
   "sshUrl": "git@github.com:AutoScout24/showcar-gulp.git",
   "cloneUrl": "https://github.com/AutoScout24/showcar-gulp.git",
   "svnUrl": "https://github.com/AutoScout24/showcar-gulp",
   "homepage": "",
-  "size": 160,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 255,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "AutoScout24",
     "id": 4965235,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4965235?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4965235?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AutoScout24",
     "htmlUrl": "https://github.com/AutoScout24",
@@ -82,9 +82,9 @@
     "receivedEventsUrl": "https://api.github.com/users/AutoScout24/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 8,
-  "status": 200,
+  "networkCount": 1,
+  "subscribersCount": 11,
+  "status": 404,
   "packageJSON": {
     "name": "showcar-gulp",
     "version": "0.10.0",
@@ -141,10 +141,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "bdadam",
-    "dzubovaautoscout24"
-  ],
   "firstCommit": {
     "sha": "e802a1641618d5d2f0686e2fab1d4badb25921a9",
     "commit": {
@@ -168,5 +164,6 @@
     }
   },
   "filename": "AutoScout24___showcar-gulp.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-03T21:19:04.578Z"
 }

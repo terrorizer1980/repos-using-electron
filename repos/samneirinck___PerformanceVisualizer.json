@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 2,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electron-react-boilerplate",
     "productName": "ElectronReact",
@@ -94,19 +94,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/chentsulin"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -182,6 +171,16 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/chentsulin"
+      },
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -210,5 +209,7 @@
     "RyanAtViceSoftware",
     "ttacon",
     "slightlytyler"
-  ]
+  ],
+  "filename": "samneirinck___PerformanceVisualizer.json",
+  "lastFetchedAt": "2017-05-04T17:50:27.676Z"
 }

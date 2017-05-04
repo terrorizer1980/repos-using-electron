@@ -5,7 +5,7 @@
   "owner": {
     "login": "lockys",
     "id": 3911469,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3911469?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3911469?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lockys",
     "htmlUrl": "https://github.com/lockys",
@@ -20,12 +20,12 @@
   "description": "[NOT WORK NOW] 一個小工具讓你快速看你今天 Dcard 抽到的是誰",
   "fork": false,
   "createdAt": "2015-11-10T20:38:45.000Z",
-  "updatedAt": "2016-08-10T16:58:49.000Z",
+  "updatedAt": "2017-04-24T14:58:16.000Z",
   "pushedAt": "2015-12-24T18:18:41.000Z",
   "homepage": "http://lockys.github.io/dcard-bar",
   "size": 1167,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 4,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -100,9 +100,6 @@
   "cloneUrl": "https://github.com/lockys/dcard-bar.git",
   "svnUrl": "https://github.com/lockys/dcard-bar",
   "mirrorUrl": null,
-  "contributors": [
-    "lockys"
-  ],
   "firstCommit": {
     "sha": "7f5f47a37102e77a2aa923f0378397243bb4d46f",
     "commit": {
@@ -126,151 +123,6 @@
     }
   },
   "filename": "lockys___dcard-bar.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/lockys/dcard-bar/releases/2107448",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lockys/dcard-bar/releases/assets/1156002",
-          "id": 1156002,
-          "name": "dcard-bar-setup.exe",
-          "label": null,
-          "uploader": {
-            "login": "lockys",
-            "id": 3911469,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3911469?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lockys",
-            "htmlUrl": "https://github.com/lockys",
-            "followersUrl": "https://api.github.com/users/lockys/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lockys/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lockys/orgs",
-            "reposUrl": "https://api.github.com/users/lockys/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lockys/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 52456960,
-          "downloadCount": 11,
-          "createdAt": "2015-12-24T08:17:38.000Z",
-          "updatedAt": "2015-12-24T08:18:10.000Z",
-          "browserDownloadUrl": "https://github.com/lockys/dcard-bar/releases/download/0.0.2/dcard-bar-setup.exe"
-        },
-        {
-          "url": "https://api.github.com/repos/lockys/dcard-bar/releases/assets/1026690",
-          "id": 1026690,
-          "name": "dcard-card-bar.zip",
-          "label": null,
-          "uploader": {
-            "login": "lockys",
-            "id": 3911469,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3911469?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lockys",
-            "htmlUrl": "https://github.com/lockys",
-            "followersUrl": "https://api.github.com/users/lockys/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lockys/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lockys/orgs",
-            "reposUrl": "https://api.github.com/users/lockys/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lockys/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41148690,
-          "downloadCount": 7,
-          "createdAt": "2015-11-11T12:20:46.000Z",
-          "updatedAt": "2015-11-11T12:21:04.000Z",
-          "browserDownloadUrl": "https://github.com/lockys/dcard-bar/releases/download/0.0.2/dcard-card-bar.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lockys/dcard-bar/releases/2107448/assets",
-      "htmlUrl": "https://github.com/lockys/dcard-bar/releases/tag/0.0.2",
-      "id": 2107448,
-      "tagName": "0.0.2",
-      "targetCommitish": "master",
-      "name": "0.0.2",
-      "draft": false,
-      "author": {
-        "login": "lockys",
-        "id": 3911469,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3911469?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lockys",
-        "htmlUrl": "https://github.com/lockys",
-        "followersUrl": "https://api.github.com/users/lockys/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lockys/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lockys/orgs",
-        "reposUrl": "https://api.github.com/users/lockys/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lockys/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-11-11T10:06:58.000Z",
-      "publishedAt": "2015-11-11T10:08:24.000Z",
-      "tarballUrl": "https://api.github.com/repos/lockys/dcard-bar/tarball/0.0.2",
-      "zipballUrl": "https://api.github.com/repos/lockys/dcard-bar/zipball/0.0.2",
-      "body": "This version adds the functionality of notification when midnight.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/lockys/dcard-bar/releases/2104642",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/lockys/dcard-bar/releases/assets/1025051",
-          "id": 1025051,
-          "name": "dcard-card-bar.zip",
-          "label": null,
-          "uploader": {
-            "login": "lockys",
-            "id": 3911469,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/3911469?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/lockys",
-            "htmlUrl": "https://github.com/lockys",
-            "followersUrl": "https://api.github.com/users/lockys/followers",
-            "subscriptionsUrl": "https://api.github.com/users/lockys/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/lockys/orgs",
-            "reposUrl": "https://api.github.com/users/lockys/repos",
-            "receivedEventsUrl": "https://api.github.com/users/lockys/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 40515600,
-          "downloadCount": 0,
-          "createdAt": "2015-11-10T21:15:19.000Z",
-          "updatedAt": "2015-11-10T21:16:31.000Z",
-          "browserDownloadUrl": "https://github.com/lockys/dcard-bar/releases/download/0.0.1/dcard-card-bar.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/lockys/dcard-bar/releases/2104642/assets",
-      "htmlUrl": "https://github.com/lockys/dcard-bar/releases/tag/0.0.1",
-      "id": 2104642,
-      "tagName": "0.0.1",
-      "targetCommitish": "master",
-      "name": "First release.",
-      "draft": false,
-      "author": {
-        "login": "lockys",
-        "id": 3911469,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/3911469?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/lockys",
-        "htmlUrl": "https://github.com/lockys",
-        "followersUrl": "https://api.github.com/users/lockys/followers",
-        "subscriptionsUrl": "https://api.github.com/users/lockys/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/lockys/orgs",
-        "reposUrl": "https://api.github.com/users/lockys/repos",
-        "receivedEventsUrl": "https://api.github.com/users/lockys/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-11-10T21:01:09.000Z",
-      "publishedAt": "2015-11-10T21:04:18.000Z",
-      "tarballUrl": "https://api.github.com/repos/lockys/dcard-bar/tarball/0.0.1",
-      "zipballUrl": "https://api.github.com/repos/lockys/dcard-bar/zipball/0.0.1",
-      "body": "This is alpha version.\nFeel feel to file any issues.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:15:07.263Z"
 }

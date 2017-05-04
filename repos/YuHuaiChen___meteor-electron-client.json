@@ -5,7 +5,7 @@
   "owner": {
     "login": "DaxChen",
     "id": 11501545,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11501545?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/11501545?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/DaxChen",
     "htmlUrl": "https://github.com/DaxChen",
@@ -20,21 +20,21 @@
   "description": "A boilerplate to use meteor to build desktop apps!",
   "fork": false,
   "createdAt": "2015-09-19T13:21:37.000Z",
-  "updatedAt": "2016-08-01T02:49:27.000Z",
+  "updatedAt": "2017-03-08T13:48:32.000Z",
   "pushedAt": "2015-10-16T17:16:16.000Z",
   "homepage": null,
   "size": 126,
-  "stargazersCount": 50,
-  "watchersCount": 50,
+  "stargazersCount": 51,
+  "watchersCount": 51,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 6,
+  "forksCount": 9,
   "openIssuesCount": 2,
   "openIssues": 2,
-  "watchers": 50,
+  "watchers": 51,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 6,
+  "networkCount": 9,
   "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
@@ -78,18 +78,9 @@
       "meteor-build-client": "^0.1.6",
       "run-sequence": "^1.1.3",
       "yargs": "^3.25.0"
-    },
-    "other": {
-      "author": "YuHuaiChen",
-      "bugs": {
-        "url": "https://github.com/YuHuaiChen/meteor-electron-client/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "DaxChen"
-  ],
   "firstCommit": {
     "sha": "8ac6784305413a32229db44f292a975610366e2a",
     "commit": {
@@ -113,68 +104,26 @@
     }
   },
   "filename": "YuHuaiChen___meteor-electron-client.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/DaxChen/meteor-electron-client/releases/1846755",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/releases/1846755/assets",
-      "htmlUrl": "https://github.com/DaxChen/meteor-electron-client/releases/tag/v1.1.0",
-      "id": 1846755,
-      "tagName": "v1.1.0",
-      "targetCommitish": "master",
-      "name": "support build for all platforms",
-      "draft": false,
-      "author": {
-        "login": "DaxChen",
-        "id": 11501545,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11501545?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/DaxChen",
-        "htmlUrl": "https://github.com/DaxChen",
-        "followersUrl": "https://api.github.com/users/DaxChen/followers",
-        "subscriptionsUrl": "https://api.github.com/users/DaxChen/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/DaxChen/orgs",
-        "reposUrl": "https://api.github.com/users/DaxChen/repos",
-        "receivedEventsUrl": "https://api.github.com/users/DaxChen/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-21T23:42:18.000Z",
-      "publishedAt": "2015-09-21T23:49:32.000Z",
-      "tarballUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/tarball/v1.1.0",
-      "zipballUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/zipball/v1.1.0",
-      "body": "gulp build-all can package for all platforms\n"
-    },
-    {
-      "url": "https://api.github.com/repos/DaxChen/meteor-electron-client/releases/1839231",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/releases/1839231/assets",
-      "htmlUrl": "https://github.com/DaxChen/meteor-electron-client/releases/tag/v1.0",
-      "id": 1839231,
-      "tagName": "v1.0",
-      "targetCommitish": "master",
-      "name": "tested for MacOS Yosemite",
-      "draft": false,
-      "author": {
-        "login": "DaxChen",
-        "id": 11501545,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11501545?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/DaxChen",
-        "htmlUrl": "https://github.com/DaxChen",
-        "followersUrl": "https://api.github.com/users/DaxChen/followers",
-        "subscriptionsUrl": "https://api.github.com/users/DaxChen/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/DaxChen/orgs",
-        "reposUrl": "https://api.github.com/users/DaxChen/repos",
-        "receivedEventsUrl": "https://api.github.com/users/DaxChen/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-19T22:42:19.000Z",
-      "publishedAt": "2015-09-19T22:43:37.000Z",
-      "tarballUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/tarball/v1.0",
-      "zipballUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/zipball/v1.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/DaxChen/meteor-electron-client",
+  "url": "https://api.github.com/repos/DaxChen/meteor-electron-client",
+  "forksUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/forks",
+  "teamsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/teams",
+  "hooksUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/hooks",
+  "eventsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/events",
+  "tagsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/tags",
+  "languagesUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/languages",
+  "stargazersUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/contributors",
+  "subscribersUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/subscription",
+  "mergesUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/merges",
+  "downloadsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/DaxChen/meteor-electron-client/deployments",
+  "gitUrl": "git://github.com/DaxChen/meteor-electron-client.git",
+  "sshUrl": "git@github.com:DaxChen/meteor-electron-client.git",
+  "cloneUrl": "https://github.com/DaxChen/meteor-electron-client.git",
+  "svnUrl": "https://github.com/DaxChen/meteor-electron-client",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T14:29:55.565Z"
 }

@@ -50,17 +50,14 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "angular-draw-chem-electron",
     "description": "AngularJS-based tool for drawing structural formulas in svg - desktop version",
     "version": "1.0.0",
     "main": "main.js",
     "productName": "adChem",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/MMMalik/angular-draw-chem-electron"
-    },
+    "repository": "https://github.com/MMMalik/angular-draw-chem-electron",
     "keywords": [
       "molecule editor",
       "structural formula",
@@ -69,7 +66,6 @@
       "electron",
       "chemistry"
     ],
-    "author": "Michał Malik <michalmmalik@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "angular-draw-chem": "^2.0.0-beta",
@@ -86,5 +82,7 @@
       "karma-nyan-reporter": "^0.2.4"
     }
   },
-  "packageStatus": 404
+  "packageStatus": 404,
+  "filename": "MMMalik___angular-draw-chem-electron.json",
+  "lastFetchedAt": "2017-05-04T20:46:30.827Z"
 }

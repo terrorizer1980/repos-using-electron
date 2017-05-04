@@ -5,7 +5,7 @@
   "owner": {
     "login": "pwambach",
     "id": 1611635,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1611635?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1611635?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/pwambach",
     "htmlUrl": "https://github.com/pwambach",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/pwambach/fat-file-finder/downloads",
   "deploymentsUrl": "https://api.github.com/repos/pwambach/fat-file-finder/deployments",
   "createdAt": "2015-09-11T19:23:02.000Z",
-  "updatedAt": "2016-11-16T06:05:29.000Z",
-  "pushedAt": "2016-05-29T11:31:41.000Z",
+  "updatedAt": "2017-04-25T06:48:28.000Z",
+  "pushedAt": "2016-12-23T09:45:51.000Z",
   "gitUrl": "git://github.com/pwambach/fat-file-finder.git",
   "sshUrl": "git@github.com:pwambach/fat-file-finder.git",
   "cloneUrl": "https://github.com/pwambach/fat-file-finder.git",
   "svnUrl": "https://github.com/pwambach/fat-file-finder",
   "homepage": "",
   "size": 1085,
-  "stargazersCount": 87,
-  "watchersCount": 87,
+  "stargazersCount": 113,
+  "watchersCount": 113,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 12,
+  "forksCount": 16,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 87,
+  "watchers": 113,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 12,
-  "subscribersCount": 6,
+  "networkCount": 16,
+  "subscribersCount": 8,
   "status": 200,
   "packageJSON": {
     "name": "fat-file-finder",
@@ -105,10 +105,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "pwambach",
-    "andirotter"
-  ],
   "firstCommit": {
     "sha": "e4f7030777a0c6ff03a87b87ca95c589575f4a7f",
     "commit": {
@@ -132,65 +128,6 @@
     }
   },
   "filename": "pwambach___fat-file-finder.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/pwambach/fat-file-finder/releases/1832804",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/pwambach/fat-file-finder/releases/assets/874159",
-          "id": 874159,
-          "name": "FatFileFinder-0.1.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "pwambach",
-            "id": 1611635,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1611635?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/pwambach",
-            "htmlUrl": "https://github.com/pwambach",
-            "followersUrl": "https://api.github.com/users/pwambach/followers",
-            "subscriptionsUrl": "https://api.github.com/users/pwambach/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/pwambach/orgs",
-            "reposUrl": "https://api.github.com/users/pwambach/repos",
-            "receivedEventsUrl": "https://api.github.com/users/pwambach/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 54264108,
-          "downloadCount": 348,
-          "createdAt": "2015-09-18T08:05:58.000Z",
-          "updatedAt": "2015-09-18T08:13:42.000Z",
-          "browserDownloadUrl": "https://github.com/pwambach/fat-file-finder/releases/download/0.1.0/FatFileFinder-0.1.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/pwambach/fat-file-finder/releases/1832804/assets",
-      "htmlUrl": "https://github.com/pwambach/fat-file-finder/releases/tag/0.1.0",
-      "id": 1832804,
-      "tagName": "0.1.0",
-      "targetCommitish": "master",
-      "name": "FatFileFinder-0.1.0",
-      "draft": false,
-      "author": {
-        "login": "pwambach",
-        "id": 1611635,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1611635?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/pwambach",
-        "htmlUrl": "https://github.com/pwambach",
-        "followersUrl": "https://api.github.com/users/pwambach/followers",
-        "subscriptionsUrl": "https://api.github.com/users/pwambach/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/pwambach/orgs",
-        "reposUrl": "https://api.github.com/users/pwambach/repos",
-        "receivedEventsUrl": "https://api.github.com/users/pwambach/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-18T07:59:47.000Z",
-      "publishedAt": "2015-09-18T08:55:44.000Z",
-      "tarballUrl": "https://api.github.com/repos/pwambach/fat-file-finder/tarball/0.1.0",
-      "zipballUrl": "https://api.github.com/repos/pwambach/fat-file-finder/zipball/0.1.0",
-      "body": "Initial version\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:13:54.682Z"
 }

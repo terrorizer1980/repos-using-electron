@@ -5,7 +5,7 @@
   "owner": {
     "login": "renhongl",
     "id": 16144833,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16144833?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16144833?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/renhongl",
     "htmlUrl": "https://github.com/renhongl",
@@ -17,15 +17,15 @@
     "type": "User"
   },
   "private": false,
-  "description": null,
+  "description": "初次涉及Electron，可以聊天、听歌、游戏。",
   "fork": false,
   "createdAt": "2016-04-27T09:17:04.000Z",
-  "updatedAt": "2016-08-17T15:07:48.000Z",
-  "pushedAt": "2016-08-21T14:46:57.000Z",
-  "homepage": null,
-  "size": 18542,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "updatedAt": "2017-02-20T14:21:33.000Z",
+  "pushedAt": "2017-01-09T11:55:23.000Z",
+  "homepage": "https://renhongl.github.io/2016/11/15/%E5%BA%94%E7%94%A8%E5%B9%B3%E5%8F%B0%E6%A1%8C%E9%9D%A2%E7%89%88/",
+  "size": 18544,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,14 +34,20 @@
   "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
@@ -91,9 +97,6 @@
   "cloneUrl": "https://github.com/renhongl/applicationPlatform.git",
   "svnUrl": "https://github.com/renhongl/applicationPlatform",
   "mirrorUrl": null,
-  "contributors": [
-    "renhongl"
-  ],
   "firstCommit": {
     "sha": "184f65ca15a18254fadecd6fbaa000787b7e7935",
     "commit": {
@@ -117,5 +120,6 @@
     }
   },
   "filename": "renhongl___applicationPlatform.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:24:37.870Z"
 }

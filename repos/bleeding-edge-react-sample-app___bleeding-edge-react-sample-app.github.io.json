@@ -5,7 +5,7 @@
   "owner": {
     "login": "bleeding-edge-react-sample-app",
     "id": 15526317,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15526317?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/15526317?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/bleeding-edge-react-sample-app",
     "htmlUrl": "https://github.com/bleeding-edge-react-sample-app",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/bleeding-edge-react-sample-app/bleeding-edge-react-sample-app.github.io/downloads",
   "deploymentsUrl": "https://api.github.com/repos/bleeding-edge-react-sample-app/bleeding-edge-react-sample-app.github.io/deployments",
   "createdAt": "2015-09-15T10:41:29.000Z",
-  "updatedAt": "2016-08-26T04:35:18.000Z",
+  "updatedAt": "2017-04-18T09:12:21.000Z",
   "pushedAt": "2016-04-06T04:50:42.000Z",
   "gitUrl": "git://github.com/bleeding-edge-react-sample-app/bleeding-edge-react-sample-app.github.io.git",
   "sshUrl": "git@github.com:bleeding-edge-react-sample-app/bleeding-edge-react-sample-app.github.io.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/bleeding-edge-react-sample-app/bleeding-edge-react-sample-app.github.io",
   "homepage": "https://bleeding-edge-react-sample-app.github.io",
   "size": 480,
-  "stargazersCount": 16,
-  "watchersCount": 16,
+  "stargazersCount": 32,
+  "watchersCount": 32,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 2,
+  "forksCount": 11,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 16,
+  "watchers": 32,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "bleeding-edge-react-sample-app",
     "id": 15526317,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/15526317?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/15526317?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/bleeding-edge-react-sample-app",
     "htmlUrl": "https://github.com/bleeding-edge-react-sample-app",
@@ -76,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/bleeding-edge-react-sample-app/received_events",
     "type": "Organization"
   },
-  "networkCount": 2,
-  "subscribersCount": 3,
+  "networkCount": 11,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "react-no-compromise-boilerplate",
@@ -172,9 +172,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "brigand"
-  ],
   "firstCommit": {
     "sha": "427c6bf8762504e89a61b5bd1677a9c29dc2a613",
     "commit": {
@@ -198,5 +195,6 @@
     }
   },
   "filename": "bleeding-edge-react-sample-app___bleeding-edge-react-sample-app.github.io.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:43:11.193Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "testobject",
     "id": 1665315,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1665315?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1665315?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/testobject",
     "htmlUrl": "https://github.com/testobject",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 6,
+  "forksCount": 5,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "testobject",
     "id": 1665315,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1665315?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/1665315?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/testobject",
     "htmlUrl": "https://github.com/testobject",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/testobject/received_events",
     "type": "Organization"
   },
-  "networkCount": 6,
+  "networkCount": 5,
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
@@ -123,9 +123,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "aluedeke"
-  ],
   "firstCommit": {
     "sha": "d940b9f4430b28b77b67865a6c6a8fd8ae2dd9a4",
     "commit": {
@@ -149,5 +146,6 @@
     }
   },
   "filename": "testobject___appium-inspector.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:02:06.104Z"
 }

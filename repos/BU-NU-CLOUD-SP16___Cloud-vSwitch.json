@@ -5,7 +5,7 @@
   "owner": {
     "login": "BU-NU-CLOUD-SP16",
     "id": 16908803,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16908803?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16908803?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/BU-NU-CLOUD-SP16",
     "htmlUrl": "https://github.com/BU-NU-CLOUD-SP16",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/downloads",
   "deploymentsUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/deployments",
   "createdAt": "2016-01-27T01:20:12.000Z",
-  "updatedAt": "2016-07-01T17:37:49.000Z",
+  "updatedAt": "2016-12-17T19:51:32.000Z",
   "pushedAt": "2016-04-29T03:42:27.000Z",
   "gitUrl": "git://github.com/BU-NU-CLOUD-SP16/Cloud-vSwitch.git",
   "sshUrl": "git@github.com:BU-NU-CLOUD-SP16/Cloud-vSwitch.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/BU-NU-CLOUD-SP16/Cloud-vSwitch",
   "homepage": "http://bu-nu-cloud-sp16.github.io/Cloud-vSwitch/",
   "size": 98575,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 6,
+  "forksCount": 5,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 4,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "BU-NU-CLOUD-SP16",
     "id": 16908803,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16908803?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/16908803?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/BU-NU-CLOUD-SP16",
     "htmlUrl": "https://github.com/BU-NU-CLOUD-SP16",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/BU-NU-CLOUD-SP16/received_events",
     "type": "Organization"
   },
-  "networkCount": 6,
+  "networkCount": 5,
   "subscribersCount": 7,
   "status": 200,
   "packageJSON": {
@@ -113,20 +113,9 @@
     },
     "main": "app.js",
     "repository": "https://github.com/ubuntu/vSwitch-API",
-    "license": "",
-    "other": {
-      "author": "ubuntu"
-    }
+    "license": ""
   },
   "packageStatus": 200,
-  "contributors": [
-    "jarguellososa",
-    "shwsun",
-    "jas91",
-    "varshithkumar",
-    "troyxuanyichen",
-    "chris-void"
-  ],
   "firstCommit": {
     "sha": "d5ff2f91f920ea1d062b45d288c8e325293d685b",
     "commit": {
@@ -150,68 +139,6 @@
     }
   },
   "filename": "BU-NU-CLOUD-SP16___Cloud-vSwitch.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/releases/3113268",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/releases/3113268/assets",
-      "htmlUrl": "https://github.com/BU-NU-CLOUD-SP16/Cloud-vSwitch/releases/tag/v0.2",
-      "id": 3113268,
-      "tagName": "v0.2",
-      "targetCommitish": "master",
-      "name": "Final release",
-      "draft": false,
-      "author": {
-        "login": "shwsun",
-        "id": 15823053,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15823053?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/shwsun",
-        "htmlUrl": "https://github.com/shwsun",
-        "followersUrl": "https://api.github.com/users/shwsun/followers",
-        "subscriptionsUrl": "https://api.github.com/users/shwsun/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/shwsun/orgs",
-        "reposUrl": "https://api.github.com/users/shwsun/repos",
-        "receivedEventsUrl": "https://api.github.com/users/shwsun/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-04-27T16:25:29.000Z",
-      "publishedAt": "2016-04-27T21:26:39.000Z",
-      "tarballUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/tarball/v0.2",
-      "zipballUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/zipball/v0.2",
-      "body": "During this release, which is also the final release! We anounced exciting new features, more documents and the project is tested. \n\nFor more details, please visit the main web page and look into the README.md file !\n\nThanks!  \n"
-    },
-    {
-      "url": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/releases/2998695",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/releases/2998695/assets",
-      "htmlUrl": "https://github.com/BU-NU-CLOUD-SP16/Cloud-vSwitch/releases/tag/v0.1",
-      "id": 2998695,
-      "tagName": "v0.1",
-      "targetCommitish": "master",
-      "name": "First release of Cloud vSwitch",
-      "draft": false,
-      "author": {
-        "login": "shwsun",
-        "id": 15823053,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/15823053?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/shwsun",
-        "htmlUrl": "https://github.com/shwsun",
-        "followersUrl": "https://api.github.com/users/shwsun/followers",
-        "subscriptionsUrl": "https://api.github.com/users/shwsun/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/shwsun/orgs",
-        "reposUrl": "https://api.github.com/users/shwsun/repos",
-        "receivedEventsUrl": "https://api.github.com/users/shwsun/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-04-12T01:27:44.000Z",
-      "publishedAt": "2016-04-12T01:35:28.000Z",
-      "tarballUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/tarball/v0.1",
-      "zipballUrl": "https://api.github.com/repos/BU-NU-CLOUD-SP16/Cloud-vSwitch/zipball/v0.1",
-      "body": "First release, which supports the virtual LAN setup in cloud environment. \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:13:16.567Z"
 }

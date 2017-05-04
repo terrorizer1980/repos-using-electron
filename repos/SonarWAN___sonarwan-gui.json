@@ -5,7 +5,7 @@
   "owner": {
     "login": "SonarWAN",
     "id": 19353381,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19353381?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19353381?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SonarWAN",
     "htmlUrl": "https://github.com/SonarWAN",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/SonarWAN/sonarwan-gui/downloads",
   "deploymentsUrl": "https://api.github.com/repos/SonarWAN/sonarwan-gui/deployments",
   "createdAt": "2016-10-11T15:20:46.000Z",
-  "updatedAt": "2016-10-11T16:19:03.000Z",
-  "pushedAt": "2016-10-27T22:09:56.000Z",
+  "updatedAt": "2016-12-11T17:14:01.000Z",
+  "pushedAt": "2016-12-20T18:24:19.000Z",
   "gitUrl": "git://github.com/SonarWAN/sonarwan-gui.git",
   "sshUrl": "git@github.com:SonarWAN/sonarwan-gui.git",
   "cloneUrl": "https://github.com/SonarWAN/sonarwan-gui.git",
   "svnUrl": "https://github.com/SonarWAN/sonarwan-gui",
   "homepage": null,
-  "size": 401,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 446,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "SonarWAN",
     "id": 19353381,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19353381?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/19353381?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SonarWAN",
     "htmlUrl": "https://github.com/SonarWAN",
@@ -129,10 +129,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "federicobond",
-    "iitzco"
-  ],
   "firstCommit": {
     "sha": "e35860c13d75204c45e465fbea4adcd76f36d631",
     "commit": {
@@ -156,5 +152,6 @@
     }
   },
   "filename": "SonarWAN___sonarwan-gui.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:10:01.060Z"
 }

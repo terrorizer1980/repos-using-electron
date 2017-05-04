@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "super-event-listener",
     "version": "0.9.1",
@@ -151,12 +151,6 @@
           }
         }
       }
-    },
-    "other": {
-      "author": "subuta <shunta.3110@gmail.com> (https://github.com/subuta)",
-      "bugs": {
-        "url": "https://github.com/subuta/super-event-listener/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -185,5 +179,6 @@
       "commentCount": 0
     }
   },
-  "filename": "subuta___super-event-listener.json"
+  "filename": "subuta___super-event-listener.json",
+  "lastFetchedAt": "2017-05-04T05:06:39.663Z"
 }

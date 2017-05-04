@@ -5,7 +5,7 @@
   "owner": {
     "login": "AwesomeApp",
     "id": 22096809,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22096809?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22096809?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AwesomeApp",
     "htmlUrl": "https://github.com/AwesomeApp",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/AwesomeApp/awesome-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/AwesomeApp/awesome-app/deployments",
   "createdAt": "2016-10-26T08:29:34.000Z",
-  "updatedAt": "2016-11-02T12:52:31.000Z",
-  "pushedAt": "2016-11-02T14:28:29.000Z",
+  "updatedAt": "2016-11-15T09:39:13.000Z",
+  "pushedAt": "2016-11-16T17:18:27.000Z",
   "gitUrl": "git://github.com/AwesomeApp/awesome-app.git",
   "sshUrl": "git@github.com:AwesomeApp/awesome-app.git",
   "cloneUrl": "https://github.com/AwesomeApp/awesome-app.git",
   "svnUrl": "https://github.com/AwesomeApp/awesome-app",
   "homepage": "",
-  "size": 44,
-  "stargazersCount": 2,
-  "watchersCount": 2,
+  "size": 125,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 4,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 2,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "AwesomeApp",
     "id": 22096809,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22096809?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22096809?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AwesomeApp",
     "htmlUrl": "https://github.com/AwesomeApp",
@@ -82,7 +82,7 @@
     "receivedEventsUrl": "https://api.github.com/users/AwesomeApp/received_events",
     "type": "Organization"
   },
-  "networkCount": 1,
+  "networkCount": 4,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -186,9 +186,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "fundon"
-  ],
   "firstCommit": {
     "sha": "8fb8a0de5c1dd58d0dcbd009168e04ae2ef18a34",
     "commit": {
@@ -212,5 +209,6 @@
     }
   },
   "filename": "AwesomeApp___awesome-app.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:23:54.444Z"
 }

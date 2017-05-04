@@ -5,7 +5,7 @@
   "owner": {
     "login": "gillyb",
     "id": 1319502,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1319502?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1319502?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/gillyb",
     "htmlUrl": "https://github.com/gillyb",
@@ -20,21 +20,21 @@
   "description": "A native version of the kibana sense plugin",
   "fork": false,
   "createdAt": "2016-02-10T20:41:19.000Z",
-  "updatedAt": "2016-07-11T10:14:19.000Z",
+  "updatedAt": "2017-04-06T09:19:29.000Z",
   "pushedAt": "2016-03-15T18:18:57.000Z",
   "homepage": null,
   "size": 85048,
-  "stargazersCount": 9,
-  "watchersCount": 9,
+  "stargazersCount": 15,
+  "watchersCount": 15,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
-  "openIssuesCount": 4,
-  "openIssues": 4,
-  "watchers": 9,
+  "forksCount": 3,
+  "openIssuesCount": 7,
+  "openIssues": 7,
+  "watchers": 15,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,7 +48,7 @@
     "url": "https://api.github.com/licenses/apache-2.0",
     "featured": true
   },
-  "networkCount": 1,
+  "networkCount": 3,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -73,9 +73,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "gillyb"
-  ],
   "firstCommit": {
     "sha": "a5afc7b3984c8f29063119c605fda2fddc11f692",
     "commit": {
@@ -99,65 +96,26 @@
     }
   },
   "filename": "gillyb___sensitive.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/gillyb/sensitive/releases/2635528",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/gillyb/sensitive/releases/assets/1321967",
-          "id": 1321967,
-          "name": "Sensitive-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "gillyb",
-            "id": 1319502,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1319502?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/gillyb",
-            "htmlUrl": "https://github.com/gillyb",
-            "followersUrl": "https://api.github.com/users/gillyb/followers",
-            "subscriptionsUrl": "https://api.github.com/users/gillyb/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/gillyb/orgs",
-            "reposUrl": "https://api.github.com/users/gillyb/repos",
-            "receivedEventsUrl": "https://api.github.com/users/gillyb/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 45936926,
-          "downloadCount": 51,
-          "createdAt": "2016-02-17T21:09:04.000Z",
-          "updatedAt": "2016-02-17T21:11:02.000Z",
-          "browserDownloadUrl": "https://github.com/gillyb/sensitive/releases/download/Mac_0.1/Sensitive-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/gillyb/sensitive/releases/2635528/assets",
-      "htmlUrl": "https://github.com/gillyb/sensitive/releases/tag/Mac_0.1",
-      "id": 2635528,
-      "tagName": "Mac_0.1",
-      "targetCommitish": "master",
-      "name": "Mac OS",
-      "draft": false,
-      "author": {
-        "login": "gillyb",
-        "id": 1319502,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1319502?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/gillyb",
-        "htmlUrl": "https://github.com/gillyb",
-        "followersUrl": "https://api.github.com/users/gillyb/followers",
-        "subscriptionsUrl": "https://api.github.com/users/gillyb/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/gillyb/orgs",
-        "reposUrl": "https://api.github.com/users/gillyb/repos",
-        "receivedEventsUrl": "https://api.github.com/users/gillyb/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-02-17T21:02:51.000Z",
-      "publishedAt": "2016-02-17T21:11:50.000Z",
-      "tarballUrl": "https://api.github.com/repos/gillyb/sensitive/tarball/Mac_0.1",
-      "zipballUrl": "https://api.github.com/repos/gillyb/sensitive/zipball/Mac_0.1",
-      "body": "This is a working executable for MacOS.\nDownload the file Sensitive-darwin-x64.zip and unzip it's contents.\n\nPlease let me know if you run into any problems.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/gillyb/sensitive",
+  "url": "https://api.github.com/repos/gillyb/sensitive",
+  "forksUrl": "https://api.github.com/repos/gillyb/sensitive/forks",
+  "teamsUrl": "https://api.github.com/repos/gillyb/sensitive/teams",
+  "hooksUrl": "https://api.github.com/repos/gillyb/sensitive/hooks",
+  "eventsUrl": "https://api.github.com/repos/gillyb/sensitive/events",
+  "tagsUrl": "https://api.github.com/repos/gillyb/sensitive/tags",
+  "languagesUrl": "https://api.github.com/repos/gillyb/sensitive/languages",
+  "stargazersUrl": "https://api.github.com/repos/gillyb/sensitive/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/gillyb/sensitive/contributors",
+  "subscribersUrl": "https://api.github.com/repos/gillyb/sensitive/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/gillyb/sensitive/subscription",
+  "mergesUrl": "https://api.github.com/repos/gillyb/sensitive/merges",
+  "downloadsUrl": "https://api.github.com/repos/gillyb/sensitive/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/gillyb/sensitive/deployments",
+  "gitUrl": "git://github.com/gillyb/sensitive.git",
+  "sshUrl": "git@github.com:gillyb/sensitive.git",
+  "cloneUrl": "https://github.com/gillyb/sensitive.git",
+  "svnUrl": "https://github.com/gillyb/sensitive",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:27:11.302Z"
 }

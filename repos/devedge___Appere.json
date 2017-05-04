@@ -5,7 +5,7 @@
   "owner": {
     "login": "devedge",
     "id": 16330401,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16330401?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16330401?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/devedge",
     "htmlUrl": "https://github.com/devedge",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/devedge/Appere",
-  "description": "A lightweight, minimalistic image viewer",
+  "description": "A simple, minimalistic image viewer",
   "fork": false,
   "url": "https://api.github.com/repos/devedge/Appere",
   "forksUrl": "https://api.github.com/repos/devedge/Appere/forks",
@@ -35,14 +35,14 @@
   "downloadsUrl": "https://api.github.com/repos/devedge/Appere/downloads",
   "deploymentsUrl": "https://api.github.com/repos/devedge/Appere/deployments",
   "createdAt": "2016-09-18T21:11:43.000Z",
-  "updatedAt": "2016-09-24T19:11:19.000Z",
-  "pushedAt": "2016-10-09T23:23:11.000Z",
+  "updatedAt": "2017-03-06T20:25:52.000Z",
+  "pushedAt": "2017-03-09T02:19:39.000Z",
   "gitUrl": "git://github.com/devedge/Appere.git",
   "sshUrl": "git@github.com:devedge/Appere.git",
   "cloneUrl": "https://github.com/devedge/Appere.git",
   "svnUrl": "https://github.com/devedge/Appere",
   "homepage": "",
-  "size": 634,
+  "size": 986,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -62,10 +62,10 @@
     "pull": true
   },
   "license": {
-    "key": "gpl-3.0",
-    "name": "GNU General Public License v3.0",
-    "spdxId": "GPL-3.0",
-    "url": "https://api.github.com/licenses/gpl-3.0",
+    "key": "apache-2.0",
+    "name": "Apache License 2.0",
+    "spdxId": "Apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
     "featured": true
   },
   "networkCount": 0,
@@ -91,9 +91,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "devedge"
-  ],
   "firstCommit": {
     "sha": "a5aca0240eec9248d405ddbcff069cf27eb5823a",
     "commit": {
@@ -117,5 +114,6 @@
     }
   },
   "filename": "devedge___Appere.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:59:18.061Z"
 }

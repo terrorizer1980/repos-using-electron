@@ -5,7 +5,7 @@
   "owner": {
     "login": "anseki",
     "id": 4763469,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4763469?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4763469?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/anseki",
     "htmlUrl": "https://github.com/anseki",
@@ -20,30 +20,36 @@
   "description": "Helper with GUI to generate color codes such as CSS color notations.",
   "fork": false,
   "createdAt": "2016-02-22T10:26:39.000Z",
-  "updatedAt": "2016-08-03T10:40:06.000Z",
-  "pushedAt": "2016-06-20T06:51:04.000Z",
+  "updatedAt": "2017-04-06T12:07:16.000Z",
+  "pushedAt": "2017-04-20T19:13:53.000Z",
   "homepage": null,
-  "size": 1751,
-  "stargazersCount": 8,
-  "watchersCount": 8,
+  "size": 1790,
+  "stargazersCount": 21,
+  "watchersCount": 21,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 8,
+  "forksCount": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 21,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 0,
-  "subscribersCount": 3,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 3,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "vscode-color",
@@ -154,9 +160,6 @@
     "publisher": "anseki"
   },
   "packageStatus": 200,
-  "contributors": [
-    "anseki"
-  ],
   "firstCommit": {
     "sha": "d9ac4b6db7a14290d0115be3b55c80a3edb33c27",
     "commit": {
@@ -180,5 +183,26 @@
     }
   },
   "filename": "anseki___vscode-color.json",
-  "releases": []
+  "htmlUrl": "https://github.com/anseki/vscode-color",
+  "url": "https://api.github.com/repos/anseki/vscode-color",
+  "forksUrl": "https://api.github.com/repos/anseki/vscode-color/forks",
+  "teamsUrl": "https://api.github.com/repos/anseki/vscode-color/teams",
+  "hooksUrl": "https://api.github.com/repos/anseki/vscode-color/hooks",
+  "eventsUrl": "https://api.github.com/repos/anseki/vscode-color/events",
+  "tagsUrl": "https://api.github.com/repos/anseki/vscode-color/tags",
+  "languagesUrl": "https://api.github.com/repos/anseki/vscode-color/languages",
+  "stargazersUrl": "https://api.github.com/repos/anseki/vscode-color/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/anseki/vscode-color/contributors",
+  "subscribersUrl": "https://api.github.com/repos/anseki/vscode-color/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/anseki/vscode-color/subscription",
+  "mergesUrl": "https://api.github.com/repos/anseki/vscode-color/merges",
+  "downloadsUrl": "https://api.github.com/repos/anseki/vscode-color/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/anseki/vscode-color/deployments",
+  "gitUrl": "git://github.com/anseki/vscode-color.git",
+  "sshUrl": "git@github.com:anseki/vscode-color.git",
+  "cloneUrl": "https://github.com/anseki/vscode-color.git",
+  "svnUrl": "https://github.com/anseki/vscode-color",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:02:17.595Z"
 }

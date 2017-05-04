@@ -5,7 +5,7 @@
   "owner": {
     "login": "jpwbernardi",
     "id": 8059779,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8059779?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/8059779?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jpwbernardi",
     "htmlUrl": "https://github.com/jpwbernardi",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/deployments",
   "createdAt": "2016-08-02T20:18:46.000Z",
-  "updatedAt": "2016-08-10T18:07:09.000Z",
-  "pushedAt": "2016-10-25T18:08:08.000Z",
+  "updatedAt": "2017-01-29T21:30:58.000Z",
+  "pushedAt": "2017-02-11T12:54:52.000Z",
   "gitUrl": "git://github.com/jpwbernardi/Gerador-de-horarios.git",
   "sshUrl": "git@github.com:jpwbernardi/Gerador-de-horarios.git",
   "cloneUrl": "https://github.com/jpwbernardi/Gerador-de-horarios.git",
   "svnUrl": "https://github.com/jpwbernardi/Gerador-de-horarios",
   "homepage": null,
-  "size": 51769,
-  "stargazersCount": 0,
-  "watchersCount": 0,
-  "language": "HTML",
+  "size": 53992,
+  "stargazersCount": 1,
+  "watchersCount": 1,
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": false
   },
   "networkCount": 0,
-  "subscribersCount": 8,
+  "subscribersCount": 9,
   "status": 200,
   "packageJSON": {
     "name": "Gerador-de-horarios",
@@ -98,12 +98,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ggabriel96",
-    "jpwbernardi",
-    "vladimirbelinski",
-    "DaviRP"
-  ],
   "firstCommit": {
     "sha": "9a45671b888ca942c50078cfd00ee6d81fd47edd",
     "commit": {
@@ -127,92 +121,6 @@
     }
   },
   "filename": "jpwbernardi___Gerador-de-horarios.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/releases/5418934",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/releases/assets/3164374",
-          "id": 3164374,
-          "name": "Gerador-de-horarios-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "ggabriel96",
-            "id": 4575887,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4575887?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ggabriel96",
-            "htmlUrl": "https://github.com/ggabriel96",
-            "followersUrl": "https://api.github.com/users/ggabriel96/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ggabriel96/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ggabriel96/orgs",
-            "reposUrl": "https://api.github.com/users/ggabriel96/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ggabriel96/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 80957689,
-          "downloadCount": 2,
-          "createdAt": "2017-02-10T11:24:46.000Z",
-          "updatedAt": "2017-02-10T11:26:30.000Z",
-          "browserDownloadUrl": "https://github.com/jpwbernardi/Gerador-de-horarios/releases/download/v1.0/Gerador-de-horarios-linux-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/releases/assets/3167264",
-          "id": 3167264,
-          "name": "Gerador-de-horarios-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "ggabriel96",
-            "id": 4575887,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4575887?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ggabriel96",
-            "htmlUrl": "https://github.com/ggabriel96",
-            "followersUrl": "https://api.github.com/users/ggabriel96/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ggabriel96/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ggabriel96/orgs",
-            "reposUrl": "https://api.github.com/users/ggabriel96/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ggabriel96/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 90626498,
-          "downloadCount": 0,
-          "createdAt": "2017-02-10T19:40:00.000Z",
-          "updatedAt": "2017-02-10T20:11:22.000Z",
-          "browserDownloadUrl": "https://github.com/jpwbernardi/Gerador-de-horarios/releases/download/v1.0/Gerador-de-horarios-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/releases/5418934/assets",
-      "htmlUrl": "https://github.com/jpwbernardi/Gerador-de-horarios/releases/tag/v1.0",
-      "id": 5418934,
-      "tagName": "v1.0",
-      "targetCommitish": "master",
-      "name": "Gerador de horários v1.0",
-      "draft": false,
-      "author": {
-        "login": "ggabriel96",
-        "id": 4575887,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4575887?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ggabriel96",
-        "htmlUrl": "https://github.com/ggabriel96",
-        "followersUrl": "https://api.github.com/users/ggabriel96/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ggabriel96/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ggabriel96/orgs",
-        "reposUrl": "https://api.github.com/users/ggabriel96/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ggabriel96/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2017-02-09T23:26:38.000Z",
-      "publishedAt": "2017-02-10T20:13:27.000Z",
-      "tarballUrl": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/tarball/v1.0",
-      "zipballUrl": "https://api.github.com/repos/jpwbernardi/Gerador-de-horarios/zipball/v1.0",
-      "body": "## Características da versão 1.0\r\n\r\n- Manutenção de professores, CCRs, associações e restrições de professores;\r\n- Disposição das associações na grade de horários com *drag-and-drop*;\r\n- As restrições dos professores são aplicadas na grade;\r\n- Ativar e desativar restrições com um simples clique;\r\n- Gerar PDF das associações contidas na grade;\r\n- Documentação do usuário embutida;\r\n- Design responsivo.\r\n\r\n## Observações sobre a versão Linux:\r\n\r\n- Caso o software abra, mas o banco de dados não esteja acessível (por exemplo, os cadastros não exibem nenhum resultado), tente abrir o executável pelo terminal;\r\n- Caso o software abra, mas exiba apenas uma tela preta, tente abrir o executável pelo terminal com o argumento `--disable-gpu` ([#4380 @ Electron](https://github.com/electron/electron/issues/4380))."
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:49:24.576Z"
 }

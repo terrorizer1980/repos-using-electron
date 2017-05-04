@@ -5,7 +5,7 @@
   "owner": {
     "login": "aul12",
     "id": 5586958,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/5586958?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/5586958?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/aul12",
     "htmlUrl": "https://github.com/aul12",
@@ -46,10 +46,6 @@
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "aul12",
-    "ottojo"
-  ],
   "firstCommit": {
     "sha": "e9412236e45c49b14a365ab832c4ca684b9a9fd7",
     "commit": {
@@ -73,124 +69,26 @@
     }
   },
   "filename": "aul12___eduJS.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/aul12/eduJS/releases/2482821",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/aul12/eduJS/releases/assets/1240581",
-          "id": 1240581,
-          "name": "eduJS-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "aul12",
-            "id": 5586958,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5586958?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/aul12",
-            "htmlUrl": "https://github.com/aul12",
-            "followersUrl": "https://api.github.com/users/aul12/followers",
-            "subscriptionsUrl": "https://api.github.com/users/aul12/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/aul12/orgs",
-            "reposUrl": "https://api.github.com/users/aul12/repos",
-            "receivedEventsUrl": "https://api.github.com/users/aul12/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41579400,
-          "downloadCount": 0,
-          "createdAt": "2016-01-24T18:57:06.000Z",
-          "updatedAt": "2016-01-24T19:03:34.000Z",
-          "browserDownloadUrl": "https://github.com/aul12/eduJS/releases/download/v0.1.1-beta/eduJS-linux-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/aul12/eduJS/releases/2482821/assets",
-      "htmlUrl": "https://github.com/aul12/eduJS/releases/tag/v0.1.1-beta",
-      "id": 2482821,
-      "tagName": "v0.1.1-beta",
-      "targetCommitish": "master",
-      "name": "Added Downloads",
-      "draft": false,
-      "author": {
-        "login": "aul12",
-        "id": 5586958,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5586958?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/aul12",
-        "htmlUrl": "https://github.com/aul12",
-        "followersUrl": "https://api.github.com/users/aul12/followers",
-        "subscriptionsUrl": "https://api.github.com/users/aul12/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/aul12/orgs",
-        "reposUrl": "https://api.github.com/users/aul12/repos",
-        "receivedEventsUrl": "https://api.github.com/users/aul12/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-01-24T17:53:12.000Z",
-      "publishedAt": "2016-01-24T19:50:30.000Z",
-      "tarballUrl": "https://api.github.com/repos/aul12/eduJS/tarball/v0.1.1-beta",
-      "zipballUrl": "https://api.github.com/repos/aul12/eduJS/zipball/v0.1.1-beta",
-      "body": "- Win ia32 and x64\n- Linux ia32 and x64\n- OSX x64\n"
-    },
-    {
-      "url": "https://api.github.com/repos/aul12/eduJS/releases/2482742",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/aul12/eduJS/releases/assets/1240536",
-          "id": 1240536,
-          "name": "eduJS-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "aul12",
-            "id": 5586958,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/5586958?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/aul12",
-            "htmlUrl": "https://github.com/aul12",
-            "followersUrl": "https://api.github.com/users/aul12/followers",
-            "subscriptionsUrl": "https://api.github.com/users/aul12/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/aul12/orgs",
-            "reposUrl": "https://api.github.com/users/aul12/repos",
-            "receivedEventsUrl": "https://api.github.com/users/aul12/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 41579400,
-          "downloadCount": 0,
-          "createdAt": "2016-01-24T18:31:29.000Z",
-          "updatedAt": "2016-01-24T18:37:24.000Z",
-          "browserDownloadUrl": "https://github.com/aul12/eduJS/releases/download/v0.1-beta/eduJS-linux-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/aul12/eduJS/releases/2482742/assets",
-      "htmlUrl": "https://github.com/aul12/eduJS/releases/tag/v0.1-beta",
-      "id": 2482742,
-      "tagName": "v0.1-beta",
-      "targetCommitish": "master",
-      "name": "First release",
-      "draft": false,
-      "author": {
-        "login": "aul12",
-        "id": 5586958,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5586958?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/aul12",
-        "htmlUrl": "https://github.com/aul12",
-        "followersUrl": "https://api.github.com/users/aul12/followers",
-        "subscriptionsUrl": "https://api.github.com/users/aul12/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/aul12/orgs",
-        "reposUrl": "https://api.github.com/users/aul12/repos",
-        "receivedEventsUrl": "https://api.github.com/users/aul12/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-01-24T17:53:12.000Z",
-      "publishedAt": "2016-01-24T18:45:31.000Z",
-      "tarballUrl": "https://api.github.com/repos/aul12/eduJS/tarball/v0.1-beta",
-      "zipballUrl": "https://api.github.com/repos/aul12/eduJS/zipball/v0.1-beta",
-      "body": "Working:\n- Editor\n- Designer\n- Examples\n- Preview\n- ADB integration\n\nKnown issues:\n- Sometimes the UI doesn't get styled correctly and the links to the code aren't generated\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/aul12/eduJS",
+  "url": "https://api.github.com/repos/aul12/eduJS",
+  "forksUrl": "https://api.github.com/repos/aul12/eduJS/forks",
+  "teamsUrl": "https://api.github.com/repos/aul12/eduJS/teams",
+  "hooksUrl": "https://api.github.com/repos/aul12/eduJS/hooks",
+  "eventsUrl": "https://api.github.com/repos/aul12/eduJS/events",
+  "tagsUrl": "https://api.github.com/repos/aul12/eduJS/tags",
+  "languagesUrl": "https://api.github.com/repos/aul12/eduJS/languages",
+  "stargazersUrl": "https://api.github.com/repos/aul12/eduJS/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/aul12/eduJS/contributors",
+  "subscribersUrl": "https://api.github.com/repos/aul12/eduJS/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/aul12/eduJS/subscription",
+  "mergesUrl": "https://api.github.com/repos/aul12/eduJS/merges",
+  "downloadsUrl": "https://api.github.com/repos/aul12/eduJS/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/aul12/eduJS/deployments",
+  "gitUrl": "git://github.com/aul12/eduJS.git",
+  "sshUrl": "git@github.com:aul12/eduJS.git",
+  "cloneUrl": "https://github.com/aul12/eduJS.git",
+  "svnUrl": "https://github.com/aul12/eduJS",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T09:03:58.114Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "ElmCast",
     "id": 13173280,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13173280?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/13173280?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ElmCast",
     "htmlUrl": "https://github.com/ElmCast",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/ElmCast/elm-ide/downloads",
   "deploymentsUrl": "https://api.github.com/repos/ElmCast/elm-ide/deployments",
   "createdAt": "2016-10-10T23:14:22.000Z",
-  "updatedAt": "2016-11-14T04:51:13.000Z",
+  "updatedAt": "2017-02-26T19:56:51.000Z",
   "pushedAt": "2016-10-15T21:52:27.000Z",
   "gitUrl": "git://github.com/ElmCast/elm-ide.git",
   "sshUrl": "git@github.com:ElmCast/elm-ide.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/ElmCast/elm-ide",
   "homepage": "",
   "size": 62,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "stargazersCount": 5,
+  "watchersCount": 5,
   "language": "Elm",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 4,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 5,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "ElmCast",
     "id": 13173280,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13173280?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/13173280?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ElmCast",
     "htmlUrl": "https://github.com/ElmCast",
@@ -76,7 +76,7 @@
     "receivedEventsUrl": "https://api.github.com/users/ElmCast/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
@@ -104,9 +104,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ajhager"
-  ],
   "firstCommit": {
     "sha": "db5d3c9f3df964d201487ce2dd34d5ca1194b7a7",
     "commit": {
@@ -130,5 +127,6 @@
     }
   },
   "filename": "ElmCast___elm-ide.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:29:04.734Z"
 }

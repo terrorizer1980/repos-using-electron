@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "electronic-dingtalk",
     "version": "1.0.0",
@@ -63,9 +63,6 @@
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^1.2.5"
-    },
-    "other": {
-      "author": "Wenhao Zhu"
     }
   },
   "packageStatus": 200,
@@ -94,5 +91,6 @@
       "commentCount": 0
     }
   },
-  "filename": "weehowe-z___electronic-dingtalk.json"
+  "filename": "weehowe-z___electronic-dingtalk.json",
+  "lastFetchedAt": "2017-05-04T14:21:39.976Z"
 }

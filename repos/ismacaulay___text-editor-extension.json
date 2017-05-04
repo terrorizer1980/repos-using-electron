@@ -70,7 +70,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "text-editor-extension",
     "version": "0.0.1",
@@ -99,9 +99,6 @@
       "react-dom": "^15.3.2",
       "react-desktop": "^0.2.14",
       "react-tap-event-plugin": "^1.0.0"
-    },
-    "other": {
-      "author": "Ian Macaulay"
     }
   },
   "packageStatus": 200,
@@ -130,5 +127,6 @@
       "commentCount": 0
     }
   },
-  "filename": "ismacaulay___text-editor-extension.json"
+  "filename": "ismacaulay___text-editor-extension.json",
+  "lastFetchedAt": "2017-05-04T20:59:33.051Z"
 }

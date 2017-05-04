@@ -5,7 +5,7 @@
   "owner": {
     "login": "blinfo",
     "id": 6410446,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6410446?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6410446?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/blinfo",
     "htmlUrl": "https://github.com/blinfo",
@@ -17,7 +17,7 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-01-25T18:21:32.000Z",
   "updatedAt": "2016-01-25T18:24:08.000Z",
@@ -51,7 +51,7 @@
   "organization": {
     "login": "blinfo",
     "id": 6410446,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6410446?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/6410446?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/blinfo",
     "htmlUrl": "https://github.com/blinfo",
@@ -63,7 +63,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 14,
+  "subscribersCount": 15,
   "status": 200,
   "packageJSON": {
     "name": "bl-agent-electron",
@@ -96,10 +96,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "ekbomp",
-    "prerik"
-  ],
   "firstCommit": {
     "sha": "70042fd9494cd3de212388275dbb5d9e1fbe7aca",
     "commit": {
@@ -123,5 +119,26 @@
     }
   },
   "filename": "blinfo___BlAgentElectron.json",
-  "releases": []
+  "htmlUrl": "https://github.com/blinfo/BlAgentElectron",
+  "url": "https://api.github.com/repos/blinfo/BlAgentElectron",
+  "forksUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/forks",
+  "teamsUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/teams",
+  "hooksUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/hooks",
+  "eventsUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/events",
+  "tagsUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/tags",
+  "languagesUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/languages",
+  "stargazersUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/contributors",
+  "subscribersUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/subscription",
+  "mergesUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/merges",
+  "downloadsUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/blinfo/BlAgentElectron/deployments",
+  "gitUrl": "git://github.com/blinfo/BlAgentElectron.git",
+  "sshUrl": "git@github.com:blinfo/BlAgentElectron.git",
+  "cloneUrl": "https://github.com/blinfo/BlAgentElectron.git",
+  "svnUrl": "https://github.com/blinfo/BlAgentElectron",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:43:12.190Z"
 }

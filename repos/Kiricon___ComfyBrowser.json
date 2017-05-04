@@ -5,7 +5,7 @@
   "owner": {
     "login": "Kiricon",
     "id": 8783576,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8783576?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/8783576?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Kiricon",
     "htmlUrl": "https://github.com/Kiricon",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/Kiricon/ComfyBrowser/deployments",
   "createdAt": "2016-10-15T03:44:21.000Z",
   "updatedAt": "2016-10-29T20:41:36.000Z",
-  "pushedAt": "2016-10-31T17:28:30.000Z",
+  "pushedAt": "2017-04-07T14:06:48.000Z",
   "gitUrl": "git://github.com/Kiricon/ComfyBrowser.git",
   "sshUrl": "git@github.com:Kiricon/ComfyBrowser.git",
   "cloneUrl": "https://github.com/Kiricon/ComfyBrowser.git",
   "svnUrl": "https://github.com/Kiricon/ComfyBrowser",
   "homepage": "http://comfybrowser.com",
-  "size": 141,
+  "size": 137,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "TypeScript",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 20,
-  "openIssues": 20,
+  "openIssuesCount": 21,
+  "openIssues": 21,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -93,9 +93,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Kiricon"
-  ],
   "firstCommit": {
     "sha": "fa78c03214dd6427a721e70aa22c17f07ef11c98",
     "commit": {
@@ -119,37 +116,6 @@
     }
   },
   "filename": "Kiricon___ComfyBrowser.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Kiricon/ComfyBrowser/releases/4445234",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Kiricon/ComfyBrowser/releases/4445234/assets",
-      "htmlUrl": "https://github.com/Kiricon/ComfyBrowser/releases/tag/v0.3-alpha",
-      "id": 4445234,
-      "tagName": "v0.3-alpha",
-      "targetCommitish": "master",
-      "name": "Minimal Requirements for Working Browser",
-      "draft": false,
-      "author": {
-        "login": "Kiricon",
-        "id": 8783576,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8783576?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Kiricon",
-        "htmlUrl": "https://github.com/Kiricon",
-        "followersUrl": "https://api.github.com/users/Kiricon/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Kiricon/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Kiricon/orgs",
-        "reposUrl": "https://api.github.com/users/Kiricon/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Kiricon/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-10-20T15:06:37.000Z",
-      "publishedAt": "2016-10-20T20:45:59.000Z",
-      "tarballUrl": "https://api.github.com/repos/Kiricon/ComfyBrowser/tarball/v0.3-alpha",
-      "zipballUrl": "https://api.github.com/repos/Kiricon/ComfyBrowser/zipball/v0.3-alpha",
-      "body": "A version with a minimal working browser. Tabs and displaying web pages is current working along with basic window controls.  \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:16:38.972Z"
 }

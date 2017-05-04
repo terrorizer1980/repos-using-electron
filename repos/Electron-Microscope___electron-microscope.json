@@ -5,7 +5,7 @@
   "owner": {
     "login": "Electron-Microscope",
     "id": 22497040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22497040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22497040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Electron-Microscope",
     "htmlUrl": "https://github.com/Electron-Microscope",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/Electron-Microscope/electron-microscope/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Electron-Microscope/electron-microscope/deployments",
   "createdAt": "2016-09-28T11:39:42.000Z",
-  "updatedAt": "2016-09-28T12:43:26.000Z",
-  "pushedAt": "2016-11-07T15:49:08.000Z",
+  "updatedAt": "2017-03-21T09:35:21.000Z",
+  "pushedAt": "2017-01-16T09:17:08.000Z",
   "gitUrl": "git://github.com/Electron-Microscope/electron-microscope.git",
   "sshUrl": "git@github.com:Electron-Microscope/electron-microscope.git",
   "cloneUrl": "https://github.com/Electron-Microscope/electron-microscope.git",
   "svnUrl": "https://github.com/Electron-Microscope/electron-microscope",
-  "homepage": null,
-  "size": 13060,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "homepage": "",
+  "size": 13066,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 10,
   "openIssues": 10,
-  "watchers": 0,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "Electron-Microscope",
     "id": 22497040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22497040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/22497040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Electron-Microscope",
     "htmlUrl": "https://github.com/Electron-Microscope",
@@ -83,7 +83,7 @@
     "type": "Organization"
   },
   "networkCount": 0,
-  "subscribersCount": 2,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "electron-microscope",
@@ -154,10 +154,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "DevWurm",
-    "R-on"
-  ],
   "firstCommit": {
     "sha": "bb8b86543eacffb5d97b7dc0c2d9be5b390724b9",
     "commit": {
@@ -181,37 +177,6 @@
     }
   },
   "filename": "Electron-Microscope___electron-microscope.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Electron-Microscope/electron-microscope/releases/4591368",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/Electron-Microscope/electron-microscope/releases/4591368/assets",
-      "htmlUrl": "https://github.com/Electron-Microscope/electron-microscope/releases/tag/1.0.0-beta1",
-      "id": 4591368,
-      "tagName": "1.0.0-beta1",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "DevWurm",
-        "id": 11690650,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11690650?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/DevWurm",
-        "htmlUrl": "https://github.com/DevWurm",
-        "followersUrl": "https://api.github.com/users/DevWurm/followers",
-        "subscriptionsUrl": "https://api.github.com/users/DevWurm/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/DevWurm/orgs",
-        "reposUrl": "https://api.github.com/users/DevWurm/repos",
-        "receivedEventsUrl": "https://api.github.com/users/DevWurm/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-04T15:42:10.000Z",
-      "publishedAt": "2016-11-07T15:08:53.000Z",
-      "tarballUrl": "https://api.github.com/repos/Electron-Microscope/electron-microscope/tarball/1.0.0-beta1",
-      "zipballUrl": "https://api.github.com/repos/Electron-Microscope/electron-microscope/zipball/1.0.0-beta1",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:24:15.017Z"
 }

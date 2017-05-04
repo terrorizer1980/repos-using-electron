@@ -1,11 +1,11 @@
 {
-  "id": 68958847,
+  "id": 75852022,
   "name": "magellan",
   "fullName": "FantasticFiasco/magellan",
   "owner": {
     "login": "FantasticFiasco",
     "id": 8513095,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8513095?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/8513095?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/FantasticFiasco",
     "htmlUrl": "https://github.com/FantasticFiasco",
@@ -34,26 +34,26 @@
   "mergesUrl": "https://api.github.com/repos/FantasticFiasco/magellan/merges",
   "downloadsUrl": "https://api.github.com/repos/FantasticFiasco/magellan/downloads",
   "deploymentsUrl": "https://api.github.com/repos/FantasticFiasco/magellan/deployments",
-  "createdAt": "2016-09-22T20:17:06.000Z",
-  "updatedAt": "2016-11-06T21:38:11.000Z",
-  "pushedAt": "2016-09-27T22:32:34.000Z",
+  "createdAt": "2016-12-07T15:58:16.000Z",
+  "updatedAt": "2017-02-17T18:44:06.000Z",
+  "pushedAt": "2017-02-20T21:42:57.000Z",
   "gitUrl": "git://github.com/FantasticFiasco/magellan.git",
   "sshUrl": "git@github.com:FantasticFiasco/magellan.git",
   "cloneUrl": "https://github.com/FantasticFiasco/magellan.git",
   "svnUrl": "https://github.com/FantasticFiasco/magellan",
   "homepage": null,
-  "size": 20,
+  "size": 837,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "JavaScript",
+  "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
+  "openIssuesCount": 0,
+  "openIssues": 0,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -62,19 +62,16 @@
     "pull": true
   },
   "license": {
-    "key": "apache-2.0",
-    "name": "Apache License 2.0",
-    "spdxId": "Apache-2.0",
-    "url": "https://api.github.com/licenses/apache-2.0",
+    "key": "gpl-3.0",
+    "name": "GNU General Public License v3.0",
+    "spdxId": "GPL-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
     "featured": true
   },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "FantasticFiasco"
-  ],
   "firstCommit": {
     "sha": "764974f93d5b3fecce318bc732cbf5e8d7a16f9c",
     "commit": {
@@ -98,5 +95,6 @@
     }
   },
   "filename": "FantasticFiasco___magellan.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:30:15.108Z"
 }

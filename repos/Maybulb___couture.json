@@ -5,7 +5,7 @@
   "owner": {
     "login": "Maybulb",
     "id": 11701934,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11701934?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11701934?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Maybulb",
     "htmlUrl": "https://github.com/Maybulb",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/Maybulb/couture/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Maybulb/couture/deployments",
   "createdAt": "2016-11-12T21:07:20.000Z",
-  "updatedAt": "2016-11-17T08:30:25.000Z",
+  "updatedAt": "2017-02-28T16:29:39.000Z",
   "pushedAt": "2016-11-17T08:30:36.000Z",
   "gitUrl": "git://github.com/Maybulb/couture.git",
   "sshUrl": "git@github.com:Maybulb/couture.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/Maybulb/couture",
   "homepage": "",
   "size": 43,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "stargazersCount": 4,
+  "watchersCount": 4,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 3,
+  "watchers": 4,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -65,7 +65,7 @@
   "organization": {
     "login": "Maybulb",
     "id": 11701934,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11701934?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11701934?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Maybulb",
     "htmlUrl": "https://github.com/Maybulb",
@@ -105,12 +105,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "trmml",
-    "gthn",
-    "BenP51",
-    "soops"
-  ],
   "firstCommit": {
     "sha": "1dabb2837f46d10a94aaccbed9daa4f463fef9b5",
     "commit": {
@@ -134,65 +128,6 @@
     }
   },
   "filename": "Maybulb___couture.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/Maybulb/couture/releases/4646385",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/Maybulb/couture/releases/assets/2636908",
-          "id": 2636908,
-          "name": "Couture.zip",
-          "label": null,
-          "uploader": {
-            "login": "trmml",
-            "id": 4617414,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4617414?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/trmml",
-            "htmlUrl": "https://github.com/trmml",
-            "followersUrl": "https://api.github.com/users/trmml/followers",
-            "subscriptionsUrl": "https://api.github.com/users/trmml/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/trmml/orgs",
-            "reposUrl": "https://api.github.com/users/trmml/repos",
-            "receivedEventsUrl": "https://api.github.com/users/trmml/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 42781434,
-          "downloadCount": 5,
-          "createdAt": "2016-11-13T17:57:43.000Z",
-          "updatedAt": "2016-11-13T17:57:55.000Z",
-          "browserDownloadUrl": "https://github.com/Maybulb/couture/releases/download/1.0.0/Couture.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/Maybulb/couture/releases/4646385/assets",
-      "htmlUrl": "https://github.com/Maybulb/couture/releases/tag/1.0.0",
-      "id": 4646385,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "Couture 1.0.0",
-      "draft": false,
-      "author": {
-        "login": "trmml",
-        "id": 4617414,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4617414?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/trmml",
-        "htmlUrl": "https://github.com/trmml",
-        "followersUrl": "https://api.github.com/users/trmml/followers",
-        "subscriptionsUrl": "https://api.github.com/users/trmml/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/trmml/orgs",
-        "reposUrl": "https://api.github.com/users/trmml/repos",
-        "receivedEventsUrl": "https://api.github.com/users/trmml/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-13T17:32:06.000Z",
-      "publishedAt": "2016-11-13T17:58:47.000Z",
-      "tarballUrl": "https://api.github.com/repos/Maybulb/couture/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/Maybulb/couture/zipball/1.0.0",
-      "body": "For those who want a little bit of health picking what to wear in the morning, Couture is an app that structures an outfit based on your clothing interests and economic budget.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:38:20.342Z"
 }

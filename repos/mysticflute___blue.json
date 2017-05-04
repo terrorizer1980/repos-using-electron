@@ -5,7 +5,7 @@
   "owner": {
     "login": "mysticflute",
     "id": 327116,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/327116?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/327116?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mysticflute",
     "htmlUrl": "https://github.com/mysticflute",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/mysticflute/blue/downloads",
   "deploymentsUrl": "https://api.github.com/repos/mysticflute/blue/deployments",
   "createdAt": "2016-09-19T05:45:59.000Z",
-  "updatedAt": "2016-11-11T20:39:14.000Z",
+  "updatedAt": "2017-04-09T08:16:02.000Z",
   "pushedAt": "2016-10-21T03:10:15.000Z",
   "gitUrl": "git://github.com/mysticflute/blue.git",
   "sshUrl": "git@github.com:mysticflute/blue.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/mysticflute/blue",
   "homepage": null,
   "size": 2529,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 7,
+  "watchersCount": 7,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 1,
+  "watchers": 7,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "featured": false
   },
   "networkCount": 0,
-  "subscribersCount": 0,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "blue",
@@ -109,9 +109,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mysticflute"
-  ],
   "firstCommit": {
     "sha": "11ca3862e0b2dd42c766512371573b5a30e9c363",
     "commit": {
@@ -135,124 +132,6 @@
     }
   },
   "filename": "mysticflute___blue.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/mysticflute/blue/releases/4446557",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mysticflute/blue/releases/assets/2507777",
-          "id": 2507777,
-          "name": "Blue.app.zip",
-          "label": "",
-          "uploader": {
-            "login": "mysticflute",
-            "id": 327116,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/327116?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mysticflute",
-            "htmlUrl": "https://github.com/mysticflute",
-            "followersUrl": "https://api.github.com/users/mysticflute/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mysticflute/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mysticflute/orgs",
-            "reposUrl": "https://api.github.com/users/mysticflute/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mysticflute/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 55499116,
-          "downloadCount": 42,
-          "createdAt": "2016-10-21T00:08:50.000Z",
-          "updatedAt": "2016-10-21T00:09:30.000Z",
-          "browserDownloadUrl": "https://github.com/mysticflute/blue/releases/download/v0.4.0/Blue.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mysticflute/blue/releases/4446557/assets",
-      "htmlUrl": "https://github.com/mysticflute/blue/releases/tag/v0.4.0",
-      "id": 4446557,
-      "tagName": "v0.4.0",
-      "targetCommitish": "master",
-      "name": "blue v0.4.0",
-      "draft": false,
-      "author": {
-        "login": "mysticflute",
-        "id": 327116,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/327116?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mysticflute",
-        "htmlUrl": "https://github.com/mysticflute",
-        "followersUrl": "https://api.github.com/users/mysticflute/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mysticflute/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mysticflute/orgs",
-        "reposUrl": "https://api.github.com/users/mysticflute/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mysticflute/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-20T23:59:52.000Z",
-      "publishedAt": "2016-10-21T00:08:50.000Z",
-      "tarballUrl": "https://api.github.com/repos/mysticflute/blue/tarball/v0.4.0",
-      "zipballUrl": "https://api.github.com/repos/mysticflute/blue/zipball/v0.4.0",
-      "body": "1. Support macOS Sierra.\n2. Add option to automatically quit app after a successful switch.\n3. Bug fixes.\n"
-    },
-    {
-      "url": "https://api.github.com/repos/mysticflute/blue/releases/4165305",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/mysticflute/blue/releases/assets/2333794",
-          "id": 2333794,
-          "name": "Blue.app.zip",
-          "label": "",
-          "uploader": {
-            "login": "mysticflute",
-            "id": 327116,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/327116?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/mysticflute",
-            "htmlUrl": "https://github.com/mysticflute",
-            "followersUrl": "https://api.github.com/users/mysticflute/followers",
-            "subscriptionsUrl": "https://api.github.com/users/mysticflute/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/mysticflute/orgs",
-            "reposUrl": "https://api.github.com/users/mysticflute/repos",
-            "receivedEventsUrl": "https://api.github.com/users/mysticflute/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 55266416,
-          "downloadCount": 0,
-          "createdAt": "2016-09-19T06:32:18.000Z",
-          "updatedAt": "2016-09-19T06:33:12.000Z",
-          "browserDownloadUrl": "https://github.com/mysticflute/blue/releases/download/v0.3.1/Blue.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/mysticflute/blue/releases/4165305/assets",
-      "htmlUrl": "https://github.com/mysticflute/blue/releases/tag/v0.3.1",
-      "id": 4165305,
-      "tagName": "v0.3.1",
-      "targetCommitish": "master",
-      "name": "blue v0.3.1",
-      "draft": false,
-      "author": {
-        "login": "mysticflute",
-        "id": 327116,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/327116?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/mysticflute",
-        "htmlUrl": "https://github.com/mysticflute",
-        "followersUrl": "https://api.github.com/users/mysticflute/followers",
-        "subscriptionsUrl": "https://api.github.com/users/mysticflute/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/mysticflute/orgs",
-        "reposUrl": "https://api.github.com/users/mysticflute/repos",
-        "receivedEventsUrl": "https://api.github.com/users/mysticflute/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-10T20:04:05.000Z",
-      "publishedAt": "2016-09-19T06:32:17.000Z",
-      "tarballUrl": "https://api.github.com/repos/mysticflute/blue/tarball/v0.3.1",
-      "zipballUrl": "https://api.github.com/repos/mysticflute/blue/zipball/v0.3.1",
-      "body": "First public version\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:08:15.256Z"
 }

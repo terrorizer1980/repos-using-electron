@@ -5,7 +5,7 @@
   "owner": {
     "login": "SpineMC",
     "id": 22967212,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22967212?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/22967212?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SpineMC",
     "htmlUrl": "https://github.com/SpineMC",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/SpineMC/Client/deployments",
   "createdAt": "2016-10-20T20:12:37.000Z",
   "updatedAt": "2016-10-20T20:14:25.000Z",
-  "pushedAt": "2016-11-02T15:23:18.000Z",
+  "pushedAt": "2016-12-27T22:16:03.000Z",
   "gitUrl": "git://github.com/SpineMC/Client.git",
   "sshUrl": "git@github.com:SpineMC/Client.git",
   "cloneUrl": "https://github.com/SpineMC/Client.git",
   "svnUrl": "https://github.com/SpineMC/Client",
   "homepage": null,
-  "size": 1959,
+  "size": 2249,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "TypeScript",
@@ -65,7 +65,7 @@
   "organization": {
     "login": "SpineMC",
     "id": 22967212,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/22967212?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/22967212?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/SpineMC",
     "htmlUrl": "https://github.com/SpineMC",
@@ -178,19 +178,9 @@
       "semver": "^5.3.0",
       "typescript": "^2.0.6",
       "zip-zip-top": "^0.2.0"
-    },
-    "other": {
-      "author": {
-        "name": "Michael Beier",
-        "email": "mb@intelligentgraphics.biz",
-        "url": "michaelbeier.biz"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "MichaelBeier"
-  ],
   "firstCommit": {
     "sha": "654f731fb063084c1e74ffd4af414c94d5dc063a",
     "commit": {
@@ -214,151 +204,6 @@
     }
   },
   "filename": "SpineMC___Client.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/SpineMC/Client/releases/4645192",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/SpineMC/Client/releases/assets/2636015",
-          "id": 2636015,
-          "name": "Spine.Setup.0.3.8.win.exe",
-          "label": null,
-          "uploader": {
-            "login": "MichaelBeier",
-            "id": 880642,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/880642?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MichaelBeier",
-            "htmlUrl": "https://github.com/MichaelBeier",
-            "followersUrl": "https://api.github.com/users/MichaelBeier/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MichaelBeier/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MichaelBeier/orgs",
-            "reposUrl": "https://api.github.com/users/MichaelBeier/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MichaelBeier/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 56351232,
-          "downloadCount": 9,
-          "createdAt": "2016-11-13T08:39:27.000Z",
-          "updatedAt": "2016-11-19T11:36:40.000Z",
-          "browserDownloadUrl": "https://github.com/SpineMC/Client/releases/download/0.3.8/Spine.Setup.0.3.8.win.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/SpineMC/Client/releases/4645192/assets",
-      "htmlUrl": "https://github.com/SpineMC/Client/releases/tag/0.3.8",
-      "id": 4645192,
-      "tagName": "0.3.8",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "MichaelBeier",
-        "id": 880642,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/880642?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/MichaelBeier",
-        "htmlUrl": "https://github.com/MichaelBeier",
-        "followersUrl": "https://api.github.com/users/MichaelBeier/followers",
-        "subscriptionsUrl": "https://api.github.com/users/MichaelBeier/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/MichaelBeier/orgs",
-        "reposUrl": "https://api.github.com/users/MichaelBeier/repos",
-        "receivedEventsUrl": "https://api.github.com/users/MichaelBeier/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-13T08:38:24.000Z",
-      "publishedAt": "2016-11-13T09:06:20.000Z",
-      "tarballUrl": "https://api.github.com/repos/SpineMC/Client/tarball/0.3.8",
-      "zipballUrl": "https://api.github.com/repos/SpineMC/Client/zipball/0.3.8",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/SpineMC/Client/releases/4520430",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/SpineMC/Client/releases/assets/2556717",
-          "id": 2556717,
-          "name": "Spine-0.3.7.dmg.zip",
-          "label": null,
-          "uploader": {
-            "login": "MichaelBeier",
-            "id": 880642,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/880642?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MichaelBeier",
-            "htmlUrl": "https://github.com/MichaelBeier",
-            "followersUrl": "https://api.github.com/users/MichaelBeier/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MichaelBeier/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MichaelBeier/orgs",
-            "reposUrl": "https://api.github.com/users/MichaelBeier/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MichaelBeier/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 38146150,
-          "downloadCount": 0,
-          "createdAt": "2016-10-30T14:28:25.000Z",
-          "updatedAt": "2016-10-30T14:42:18.000Z",
-          "browserDownloadUrl": "https://github.com/SpineMC/Client/releases/download/0.3.7/Spine-0.3.7.dmg.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/SpineMC/Client/releases/assets/2556761",
-          "id": 2556761,
-          "name": "Spine.Setup.0.3.7.exe.zip",
-          "label": null,
-          "uploader": {
-            "login": "MichaelBeier",
-            "id": 880642,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/880642?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/MichaelBeier",
-            "htmlUrl": "https://github.com/MichaelBeier",
-            "followersUrl": "https://api.github.com/users/MichaelBeier/followers",
-            "subscriptionsUrl": "https://api.github.com/users/MichaelBeier/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/MichaelBeier/orgs",
-            "reposUrl": "https://api.github.com/users/MichaelBeier/repos",
-            "receivedEventsUrl": "https://api.github.com/users/MichaelBeier/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 56400372,
-          "downloadCount": 4,
-          "createdAt": "2016-10-30T14:44:35.000Z",
-          "updatedAt": "2016-10-30T15:07:45.000Z",
-          "browserDownloadUrl": "https://github.com/SpineMC/Client/releases/download/0.3.7/Spine.Setup.0.3.7.exe.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/SpineMC/Client/releases/4520430/assets",
-      "htmlUrl": "https://github.com/SpineMC/Client/releases/tag/0.3.7",
-      "id": 4520430,
-      "tagName": "0.3.7",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "MichaelBeier",
-        "id": 880642,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/880642?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/MichaelBeier",
-        "htmlUrl": "https://github.com/MichaelBeier",
-        "followersUrl": "https://api.github.com/users/MichaelBeier/followers",
-        "subscriptionsUrl": "https://api.github.com/users/MichaelBeier/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/MichaelBeier/orgs",
-        "reposUrl": "https://api.github.com/users/MichaelBeier/repos",
-        "receivedEventsUrl": "https://api.github.com/users/MichaelBeier/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-30T14:07:51.000Z",
-      "publishedAt": "2016-10-30T15:08:16.000Z",
-      "tarballUrl": "https://api.github.com/repos/SpineMC/Client/tarball/0.3.7",
-      "zipballUrl": "https://api.github.com/repos/SpineMC/Client/zipball/0.3.7",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:14:30.780Z"
 }

@@ -6,7 +6,7 @@
   "owner": {
     "login": "vadimdemedes",
     "id": 697676,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/697676?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/697676?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vadimdemedes",
     "htmlUrl": "https://github.com/vadimdemedes",
@@ -36,7 +36,7 @@
   "downloadsUrl": "https://api.github.com/repos/vadimdemedes/npm-search/downloads",
   "deploymentsUrl": "https://api.github.com/repos/vadimdemedes/npm-search/deployments",
   "createdAt": "2016-06-23T11:59:28.000Z",
-  "updatedAt": "2017-01-09T23:40:13.000Z",
+  "updatedAt": "2017-04-27T18:51:49.000Z",
   "pushedAt": "2016-06-23T21:55:56.000Z",
   "gitUrl": "git://github.com/vadimdemedes/npm-search.git",
   "sshUrl": "git@github.com:vadimdemedes/npm-search.git",
@@ -44,18 +44,18 @@
   "svnUrl": "https://github.com/vadimdemedes/npm-search",
   "homepage": null,
   "size": 631,
-  "stargazersCount": 91,
-  "watchersCount": 91,
+  "stargazersCount": 95,
+  "watchersCount": 95,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 5,
+  "forksCount": 6,
   "mirrorUrl": null,
   "openIssuesCount": 8,
   "openIssues": 8,
-  "watchers": 91,
+  "watchers": 95,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -69,7 +69,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 5,
+  "networkCount": 6,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -123,10 +123,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "vadimdemedes",
-    "sindresorhus"
-  ],
   "firstCommit": {
     "sha": "2b1fb14d9ccca5dd4e5653589802064162bbc9f0",
     "commit": {
@@ -150,5 +146,6 @@
     }
   },
   "sourceRepo": "vdemedes/npm-search",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T13:05:22.564Z"
 }

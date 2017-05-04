@@ -6,7 +6,7 @@
   "owner": {
     "login": "timwis",
     "id": 761444,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/761444?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/761444?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/timwis",
     "htmlUrl": "https://github.com/timwis",
@@ -36,7 +36,7 @@
   "downloadsUrl": "https://api.github.com/repos/timwis/markdown-menubar/downloads",
   "deploymentsUrl": "https://api.github.com/repos/timwis/markdown-menubar/deployments",
   "createdAt": "2016-11-16T13:21:42.000Z",
-  "updatedAt": "2016-11-30T03:10:36.000Z",
+  "updatedAt": "2017-04-19T03:27:40.000Z",
   "pushedAt": "2016-11-29T13:11:12.000Z",
   "gitUrl": "git://github.com/timwis/markdown-menubar.git",
   "sshUrl": "git@github.com:timwis/markdown-menubar.git",
@@ -44,8 +44,8 @@
   "svnUrl": "https://github.com/timwis/markdown-menubar",
   "homepage": null,
   "size": 61,
-  "stargazersCount": 25,
-  "watchersCount": 25,
+  "stargazersCount": 30,
+  "watchersCount": 30,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -53,9 +53,9 @@
   "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 10,
-  "openIssues": 10,
-  "watchers": 25,
+  "openIssuesCount": 11,
+  "openIssues": 11,
+  "watchers": 30,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -102,9 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "timwis"
-  ],
   "firstCommit": {
     "sha": "d5c0474ce692a31af587be2d370951a5cc18cad3",
     "commit": {
@@ -127,173 +124,6 @@
       "commentCount": 0
     }
   },
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/timwis/markdown-menubar/releases/4783247",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/timwis/markdown-menubar/releases/assets/2734242",
-          "id": 2734242,
-          "name": "markdown-menubar-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "timwis",
-            "id": 761444,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/761444?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/timwis",
-            "htmlUrl": "https://github.com/timwis",
-            "followersUrl": "https://api.github.com/users/timwis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/timwis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/timwis/orgs",
-            "reposUrl": "https://api.github.com/users/timwis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/timwis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 125715436,
-          "downloadCount": 6,
-          "createdAt": "2016-11-29T13:09:41.000Z",
-          "updatedAt": "2016-11-29T13:11:05.000Z",
-          "browserDownloadUrl": "https://github.com/timwis/markdown-menubar/releases/download/v1.0/markdown-menubar-darwin-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/timwis/markdown-menubar/releases/assets/2734252",
-          "id": 2734252,
-          "name": "markdown-menubar-linux-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "timwis",
-            "id": 761444,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/761444?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/timwis",
-            "htmlUrl": "https://github.com/timwis",
-            "followersUrl": "https://api.github.com/users/timwis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/timwis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/timwis/orgs",
-            "reposUrl": "https://api.github.com/users/timwis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/timwis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 47155072,
-          "downloadCount": 0,
-          "createdAt": "2016-11-29T13:11:30.000Z",
-          "updatedAt": "2016-11-29T13:12:27.000Z",
-          "browserDownloadUrl": "https://github.com/timwis/markdown-menubar/releases/download/v1.0/markdown-menubar-linux-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/timwis/markdown-menubar/releases/assets/2734251",
-          "id": 2734251,
-          "name": "markdown-menubar-linux-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "timwis",
-            "id": 761444,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/761444?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/timwis",
-            "htmlUrl": "https://github.com/timwis",
-            "followersUrl": "https://api.github.com/users/timwis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/timwis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/timwis/orgs",
-            "reposUrl": "https://api.github.com/users/timwis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/timwis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 45918452,
-          "downloadCount": 0,
-          "createdAt": "2016-11-29T13:11:24.000Z",
-          "updatedAt": "2016-11-29T13:11:55.000Z",
-          "browserDownloadUrl": "https://github.com/timwis/markdown-menubar/releases/download/v1.0/markdown-menubar-linux-x64.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/timwis/markdown-menubar/releases/assets/2734257",
-          "id": 2734257,
-          "name": "markdown-menubar-win32-ia32.zip",
-          "label": null,
-          "uploader": {
-            "login": "timwis",
-            "id": 761444,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/761444?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/timwis",
-            "htmlUrl": "https://github.com/timwis",
-            "followersUrl": "https://api.github.com/users/timwis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/timwis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/timwis/orgs",
-            "reposUrl": "https://api.github.com/users/timwis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/timwis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 46603947,
-          "downloadCount": 0,
-          "createdAt": "2016-11-29T13:13:08.000Z",
-          "updatedAt": "2016-11-29T13:14:15.000Z",
-          "browserDownloadUrl": "https://github.com/timwis/markdown-menubar/releases/download/v1.0/markdown-menubar-win32-ia32.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/timwis/markdown-menubar/releases/assets/2734256",
-          "id": 2734256,
-          "name": "markdown-menubar-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "timwis",
-            "id": 761444,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/761444?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/timwis",
-            "htmlUrl": "https://github.com/timwis",
-            "followersUrl": "https://api.github.com/users/timwis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/timwis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/timwis/orgs",
-            "reposUrl": "https://api.github.com/users/timwis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/timwis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 56924432,
-          "downloadCount": 1,
-          "createdAt": "2016-11-29T13:13:04.000Z",
-          "updatedAt": "2016-11-29T13:13:43.000Z",
-          "browserDownloadUrl": "https://github.com/timwis/markdown-menubar/releases/download/v1.0/markdown-menubar-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/timwis/markdown-menubar/releases/4783247/assets",
-      "htmlUrl": "https://github.com/timwis/markdown-menubar/releases/tag/v1.0",
-      "id": 4783247,
-      "tagName": "v1.0",
-      "targetCommitish": "master",
-      "name": "v1.0",
-      "draft": false,
-      "author": {
-        "login": "timwis",
-        "id": 761444,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/761444?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/timwis",
-        "htmlUrl": "https://github.com/timwis",
-        "followersUrl": "https://api.github.com/users/timwis/followers",
-        "subscriptionsUrl": "https://api.github.com/users/timwis/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/timwis/orgs",
-        "reposUrl": "https://api.github.com/users/timwis/repos",
-        "receivedEventsUrl": "https://api.github.com/users/timwis/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-29T13:07:38.000Z",
-      "publishedAt": "2016-11-29T13:11:11.000Z",
-      "tarballUrl": "https://api.github.com/repos/timwis/markdown-menubar/tarball/v1.0",
-      "zipballUrl": "https://api.github.com/repos/timwis/markdown-menubar/zipball/v1.0",
-      "body": "![screenshot](http://i.imgur.com/aHhOqYJ.png)\n- Markdown syntax highlighting\n- Specify the directory to save in\n- Ensures auto-generated filename is available (including when you switch directory)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:41:22.659Z"
 }

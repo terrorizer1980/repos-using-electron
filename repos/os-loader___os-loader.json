@@ -5,7 +5,7 @@
   "owner": {
     "login": "os-loader",
     "id": 20151909,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20151909?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20151909?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/os-loader",
     "htmlUrl": "https://github.com/os-loader",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/os-loader/os-loader/downloads",
   "deploymentsUrl": "https://api.github.com/repos/os-loader/os-loader/deployments",
   "createdAt": "2016-06-18T10:22:23.000Z",
-  "updatedAt": "2016-08-08T08:29:31.000Z",
+  "updatedAt": "2016-11-18T15:53:23.000Z",
   "pushedAt": "2016-09-04T15:18:42.000Z",
   "gitUrl": "git://github.com/os-loader/os-loader.git",
   "sshUrl": "git@github.com:os-loader/os-loader.git",
@@ -43,8 +43,8 @@
   "svnUrl": "https://github.com/os-loader/os-loader",
   "homepage": "https://os-loader.github.io",
   "size": 1218,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 4,
   "openIssues": 4,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "os-loader",
     "id": 20151909,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/20151909?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/20151909?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/os-loader",
     "htmlUrl": "https://github.com/os-loader",
@@ -106,18 +106,9 @@
       "chai": "^3.5.0",
       "mocha": "^3.0.2",
       "socket.io": "^1.4.8"
-    },
-    "other": {
-      "author": "Maciej Krüger <mkg20001@gmail.com>",
-      "bugs": {
-        "url": "https://github.com/os-loader/os-loader/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mkg20001"
-  ],
   "firstCommit": {
     "sha": "c7b7dd995b23b606eb8c34bb24f6f0c3f463a0f1",
     "commit": {
@@ -141,5 +132,6 @@
     }
   },
   "filename": "os-loader___os-loader.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:10:48.172Z"
 }

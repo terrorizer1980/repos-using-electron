@@ -5,7 +5,7 @@
   "owner": {
     "login": "scriptspry",
     "id": 19214202,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19214202?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/19214202?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/scriptspry",
     "htmlUrl": "https://github.com/scriptspry",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/scriptspry/Saavn-Mac/downloads",
   "deploymentsUrl": "https://api.github.com/repos/scriptspry/Saavn-Mac/deployments",
   "createdAt": "2016-07-30T18:37:35.000Z",
-  "updatedAt": "2016-11-01T19:05:40.000Z",
-  "pushedAt": "2016-11-03T05:01:37.000Z",
+  "updatedAt": "2017-01-02T15:44:01.000Z",
+  "pushedAt": "2016-12-08T17:57:24.000Z",
   "gitUrl": "git://github.com/scriptspry/Saavn-Mac.git",
   "sshUrl": "git@github.com:scriptspry/Saavn-Mac.git",
   "cloneUrl": "https://github.com/scriptspry/Saavn-Mac.git",
   "svnUrl": "https://github.com/scriptspry/Saavn-Mac",
   "homepage": null,
-  "size": 10847,
-  "stargazersCount": 4,
-  "watchersCount": 4,
+  "size": 10850,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 4,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 4,
+  "openIssuesCount": 8,
+  "openIssues": 8,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,7 +62,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 4,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -91,9 +91,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "scriptspry"
-  ],
   "firstCommit": {
     "sha": "2cce9fbb198f82a1927b153246b488b5afc1b082",
     "commit": {
@@ -117,65 +114,6 @@
     }
   },
   "filename": "scriptspry___Saavn-Mac.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/scriptspry/Saavn-Mac/releases/4859301",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/scriptspry/Saavn-Mac/releases/assets/2783820",
-          "id": 2783820,
-          "name": "SaavnMac.zip",
-          "label": null,
-          "uploader": {
-            "login": "scriptspry",
-            "id": 19214202,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/19214202?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/scriptspry",
-            "htmlUrl": "https://github.com/scriptspry",
-            "followersUrl": "https://api.github.com/users/scriptspry/followers",
-            "subscriptionsUrl": "https://api.github.com/users/scriptspry/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/scriptspry/orgs",
-            "reposUrl": "https://api.github.com/users/scriptspry/repos",
-            "receivedEventsUrl": "https://api.github.com/users/scriptspry/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 50275416,
-          "downloadCount": 5,
-          "createdAt": "2016-12-07T18:38:26.000Z",
-          "updatedAt": "2016-12-07T18:39:13.000Z",
-          "browserDownloadUrl": "https://github.com/scriptspry/Saavn-Mac/releases/download/v0.0.2/SaavnMac.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/scriptspry/Saavn-Mac/releases/4859301/assets",
-      "htmlUrl": "https://github.com/scriptspry/Saavn-Mac/releases/tag/v0.0.2",
-      "id": 4859301,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "Basic Usable Version",
-      "draft": false,
-      "author": {
-        "login": "scriptspry",
-        "id": 19214202,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/19214202?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/scriptspry",
-        "htmlUrl": "https://github.com/scriptspry",
-        "followersUrl": "https://api.github.com/users/scriptspry/followers",
-        "subscriptionsUrl": "https://api.github.com/users/scriptspry/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/scriptspry/orgs",
-        "reposUrl": "https://api.github.com/users/scriptspry/repos",
-        "receivedEventsUrl": "https://api.github.com/users/scriptspry/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-03T05:01:29.000Z",
-      "publishedAt": "2016-12-07T18:41:08.000Z",
-      "tarballUrl": "https://api.github.com/repos/scriptspry/Saavn-Mac/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/scriptspry/Saavn-Mac/zipball/v0.0.2",
-      "body": "Basic functionality working:\n- Keyboard Shortcuts for play/pause/next\n- Hide on Cmd-W, Cmd-H, Cmd-M\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:27:47.519Z"
 }

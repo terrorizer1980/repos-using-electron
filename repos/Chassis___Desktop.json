@@ -6,7 +6,7 @@
   "owner": {
     "login": "Chassis",
     "id": 6822036,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6822036?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6822036?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Chassis",
     "htmlUrl": "https://github.com/Chassis",
@@ -36,26 +36,26 @@
   "downloadsUrl": "https://api.github.com/repos/Chassis/Desktop/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Chassis/Desktop/deployments",
   "createdAt": "2016-12-14T07:07:42.000Z",
-  "updatedAt": "2016-12-14T07:08:05.000Z",
-  "pushedAt": "2017-01-18T07:51:38.000Z",
+  "updatedAt": "2017-05-01T20:50:40.000Z",
+  "pushedAt": "2017-04-10T07:18:27.000Z",
   "gitUrl": "git://github.com/Chassis/Desktop.git",
   "sshUrl": "git@github.com:Chassis/Desktop.git",
   "cloneUrl": "https://github.com/Chassis/Desktop.git",
   "svnUrl": "https://github.com/Chassis/Desktop",
   "homepage": null,
-  "size": 561,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 549,
+  "stargazersCount": 17,
+  "watchersCount": 17,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
-  "hasWiki": true,
+  "hasWiki": false,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 6,
-  "openIssues": 6,
-  "watchers": 0,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 17,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -72,7 +72,7 @@
   "organization": {
     "login": "Chassis",
     "id": 6822036,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6822036?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6822036?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Chassis",
     "htmlUrl": "https://github.com/Chassis",
@@ -83,8 +83,8 @@
     "receivedEventsUrl": "https://api.github.com/users/Chassis/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
     "name": "chassis-desktop",
@@ -213,9 +213,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "rmccue"
-  ],
   "firstCommit": {
     "sha": "73adb57b06072c5b37d2d472062af2c6582fc2e1",
     "commit": {
@@ -238,5 +235,6 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": false,
+  "lastFetchedAt": "2017-05-04T21:22:33.684Z"
 }

@@ -78,7 +78,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 8,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "meteor-package",
     "version": "0.0.1",
@@ -103,12 +103,6 @@
       "meteor-shell": "git://github.com/newspring/meteor-shell",
       "minimist": "^1.2.0",
       "underscore": "^1.8.3"
-    },
-    "other": {
-      "author": "johnthepink",
-      "bugs": {
-        "url": "https://github.com/newspring/meteor-package/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +131,6 @@
       "commentCount": 0
     }
   },
-  "filename": "NewSpring___meteor-package.json"
+  "filename": "NewSpring___meteor-package.json",
+  "lastFetchedAt": "2017-05-04T18:14:20.738Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "marco-ponds",
     "id": 3726510,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3726510?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/3726510?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/marco-ponds",
     "htmlUrl": "https://github.com/marco-ponds",
@@ -17,15 +17,15 @@
     "type": "User"
   },
   "private": false,
-  "description": null,
+  "description": "Mage Studio is a Game Editor, built on top of Mage Engine, embedded in Electron. Mage Studio will allow to easily develop 3D apps using WebGL.",
   "fork": false,
   "createdAt": "2015-04-09T07:51:30.000Z",
-  "updatedAt": "2016-10-27T22:57:25.000Z",
-  "pushedAt": "2016-10-30T23:42:07.000Z",
-  "homepage": null,
-  "size": 7385,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "updatedAt": "2017-02-23T14:50:17.000Z",
+  "pushedAt": "2017-05-01T00:41:07.000Z",
+  "homepage": "http://www.mage.studio/",
+  "size": 10085,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 0,
   "openIssuesCount": 5,
   "openIssues": 5,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -76,12 +76,6 @@
       "ncp": "*",
       "remote": "*",
       "serve-static": "*"
-    },
-    "other": {
-      "author": "Marco Stagni <marcostagni.com>",
-      "bugs": {
-        "url": "https://github.com/marco-ponds/WageEditor/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -105,9 +99,6 @@
   "cloneUrl": "https://github.com/marco-ponds/Mage-Studio.git",
   "svnUrl": "https://github.com/marco-ponds/Mage-Studio",
   "mirrorUrl": null,
-  "contributors": [
-    "marco-ponds"
-  ],
   "firstCommit": {
     "sha": "f38ac47de41507d424f3291978e3777fab68b038",
     "commit": {
@@ -131,5 +122,6 @@
     }
   },
   "filename": "marco-ponds___WageEditor.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T17:56:27.950Z"
 }

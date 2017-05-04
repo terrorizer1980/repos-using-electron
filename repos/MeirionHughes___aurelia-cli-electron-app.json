@@ -5,7 +5,7 @@
   "owner": {
     "login": "MeirionHughes",
     "id": 3584509,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/3584509?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/3584509?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/MeirionHughes",
     "htmlUrl": "https://github.com/MeirionHughes",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/MeirionHughes/aurelia-cli-electron-app",
-  "description": null,
+  "description": "A basic example of aurelia (cli) running in electron with vscode breakpoint debugging",
   "fork": false,
   "url": "https://api.github.com/repos/MeirionHughes/aurelia-cli-electron-app",
   "forksUrl": "https://api.github.com/repos/MeirionHughes/aurelia-cli-electron-app/forks",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/MeirionHughes/aurelia-cli-electron-app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/MeirionHughes/aurelia-cli-electron-app/deployments",
   "createdAt": "2016-10-12T15:25:13.000Z",
-  "updatedAt": "2016-11-10T08:12:26.000Z",
-  "pushedAt": "2016-11-16T08:31:42.000Z",
+  "updatedAt": "2017-04-08T19:04:49.000Z",
+  "pushedAt": "2017-04-06T08:38:58.000Z",
   "gitUrl": "git://github.com/MeirionHughes/aurelia-cli-electron-app.git",
   "sshUrl": "git@github.com:MeirionHughes/aurelia-cli-electron-app.git",
   "cloneUrl": "https://github.com/MeirionHughes/aurelia-cli-electron-app.git",
   "svnUrl": "https://github.com/MeirionHughes/aurelia-cli-electron-app",
-  "homepage": null,
-  "size": 363,
-  "stargazersCount": 6,
-  "watchersCount": 6,
+  "homepage": "",
+  "size": 368,
+  "stargazersCount": 24,
+  "watchersCount": 24,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 4,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 6,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 24,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 2,
-  "subscribersCount": 3,
+  "networkCount": 4,
+  "subscribersCount": 7,
   "status": 200,
   "packageJSON": {
     "name": "aurelia-cli-electron-app",
@@ -129,10 +129,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "MeirionHughes",
-    "javiercbk"
-  ],
   "firstCommit": {
     "sha": "e7bd1e5d7f40a31f5fba62a6c0261ef5b23301b2",
     "commit": {
@@ -156,5 +152,6 @@
     }
   },
   "filename": "MeirionHughes___aurelia-cli-electron-app.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:56:55.711Z"
 }

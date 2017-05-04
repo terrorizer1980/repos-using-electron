@@ -5,7 +5,7 @@
   "owner": {
     "login": "nteract",
     "id": 12401040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12401040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nteract",
     "htmlUrl": "https://github.com/nteract",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/nteract/associator/deployments",
   "createdAt": "2016-04-26T23:25:03.000Z",
   "updatedAt": "2016-04-27T01:12:24.000Z",
-  "pushedAt": "2016-06-10T23:24:08.000Z",
+  "pushedAt": "2017-01-20T21:48:51.000Z",
   "gitUrl": "git://github.com/nteract/associator.git",
   "sshUrl": "git@github.com:nteract/associator.git",
   "cloneUrl": "https://github.com/nteract/associator.git",
   "svnUrl": "https://github.com/nteract/associator",
   "homepage": "",
-  "size": 21,
+  "size": 20,
   "stargazersCount": 2,
   "watchersCount": 2,
   "language": "JavaScript",
@@ -71,7 +71,7 @@
   "organization": {
     "login": "nteract",
     "id": 12401040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12401040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/12401040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/nteract",
     "htmlUrl": "https://github.com/nteract",
@@ -110,19 +110,9 @@
     },
     "optionalDependencies": {
       "elevator": "^1.0.0"
-    },
-    "other": {
-      "author": "nteract contributors",
-      "bugs": {
-        "url": "https://github.com/nteract/associator/issues"
-      }
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jdfreder",
-    "rgbkrk"
-  ],
   "firstCommit": {
     "sha": "b073aa6759544f2b7fe2e7956c0bf97f23efcc07",
     "commit": {
@@ -146,5 +136,6 @@
     }
   },
   "filename": "nteract___associator.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:13:14.517Z"
 }

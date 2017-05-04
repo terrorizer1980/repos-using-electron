@@ -6,7 +6,7 @@
   "owner": {
     "login": "threepointone",
     "id": 18808,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/18808?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/18808?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/threepointone",
     "htmlUrl": "https://github.com/threepointone",
@@ -36,26 +36,26 @@
   "downloadsUrl": "https://api.github.com/repos/threepointone/ratpack/downloads",
   "deploymentsUrl": "https://api.github.com/repos/threepointone/ratpack/deployments",
   "createdAt": "2017-01-04T14:03:53.000Z",
-  "updatedAt": "2017-01-18T22:11:21.000Z",
-  "pushedAt": "2017-01-16T06:14:22.000Z",
+  "updatedAt": "2017-04-28T09:00:59.000Z",
+  "pushedAt": "2017-02-07T12:23:23.000Z",
   "gitUrl": "git://github.com/threepointone/ratpack.git",
   "sshUrl": "git@github.com:threepointone/ratpack.git",
   "cloneUrl": "https://github.com/threepointone/ratpack.git",
   "svnUrl": "https://github.com/threepointone/ratpack",
   "homepage": null,
   "size": 1597,
-  "stargazersCount": 176,
-  "watchersCount": 176,
+  "stargazersCount": 188,
+  "watchersCount": 188,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 9,
+  "forksCount": 10,
   "mirrorUrl": null,
-  "openIssuesCount": 23,
-  "openIssues": 23,
-  "watchers": 176,
+  "openIssuesCount": 24,
+  "openIssues": 24,
+  "watchers": 188,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -63,8 +63,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 9,
-  "subscribersCount": 11,
+  "networkCount": 10,
+  "subscribersCount": 9,
   "status": 200,
   "packageJSON": {
     "name": "ratpack",
@@ -158,9 +158,6 @@
     "devDependencies": {}
   },
   "packageStatus": 200,
-  "contributors": [
-    "threepointone"
-  ],
   "firstCommit": {
     "sha": "b0c4d7f391c64675eb6c3eec09163ce70b28be9e",
     "commit": {
@@ -183,124 +180,6 @@
       "commentCount": 0
     }
   },
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/threepointone/ratpack/releases/5137202",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/threepointone/ratpack/releases/assets/2972339",
-          "id": 2972339,
-          "name": "ratpack.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "threepointone",
-            "id": 18808,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/18808?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/threepointone",
-            "htmlUrl": "https://github.com/threepointone",
-            "followersUrl": "https://api.github.com/users/threepointone/followers",
-            "subscriptionsUrl": "https://api.github.com/users/threepointone/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/threepointone/orgs",
-            "reposUrl": "https://api.github.com/users/threepointone/repos",
-            "receivedEventsUrl": "https://api.github.com/users/threepointone/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 69288751,
-          "downloadCount": 15,
-          "createdAt": "2017-01-12T06:49:50.000Z",
-          "updatedAt": "2017-01-12T06:50:41.000Z",
-          "browserDownloadUrl": "https://github.com/threepointone/ratpack/releases/download/v1.0.6/ratpack.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/threepointone/ratpack/releases/5137202/assets",
-      "htmlUrl": "https://github.com/threepointone/ratpack/releases/tag/v1.0.6",
-      "id": 5137202,
-      "tagName": "v1.0.6",
-      "targetCommitish": "master",
-      "name": "slightly more useful",
-      "draft": false,
-      "author": {
-        "login": "threepointone",
-        "id": 18808,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18808?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/threepointone",
-        "htmlUrl": "https://github.com/threepointone",
-        "followersUrl": "https://api.github.com/users/threepointone/followers",
-        "subscriptionsUrl": "https://api.github.com/users/threepointone/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/threepointone/orgs",
-        "reposUrl": "https://api.github.com/users/threepointone/repos",
-        "receivedEventsUrl": "https://api.github.com/users/threepointone/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2017-01-12T05:32:11.000Z",
-      "publishedAt": "2017-01-12T06:48:52.000Z",
-      "tarballUrl": "https://api.github.com/repos/threepointone/ratpack/tarball/v1.0.6",
-      "zipballUrl": "https://api.github.com/repos/threepointone/ratpack/zipball/v1.0.6",
-      "body": "- cli\n- DnD to dock / right click on .js file > open > with > ratpack \n- 'globally' install to `~/.ratpack/node_modules`\n- config via [pragmas](https://github.com/threepointone/ratpack/blob/master/docs/pragmas.md)\n- linting \n"
-    },
-    {
-      "url": "https://api.github.com/repos/threepointone/ratpack/releases/5066789",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/threepointone/ratpack/releases/assets/2945027",
-          "id": 2945027,
-          "name": "ratpack.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "threepointone",
-            "id": 18808,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/18808?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/threepointone",
-            "htmlUrl": "https://github.com/threepointone",
-            "followersUrl": "https://api.github.com/users/threepointone/followers",
-            "subscriptionsUrl": "https://api.github.com/users/threepointone/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/threepointone/orgs",
-            "reposUrl": "https://api.github.com/users/threepointone/repos",
-            "receivedEventsUrl": "https://api.github.com/users/threepointone/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 64541040,
-          "downloadCount": 9,
-          "createdAt": "2017-01-07T16:23:10.000Z",
-          "updatedAt": "2017-01-07T16:24:45.000Z",
-          "browserDownloadUrl": "https://github.com/threepointone/ratpack/releases/download/0.1-prototype/ratpack.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/threepointone/ratpack/releases/5066789/assets",
-      "htmlUrl": "https://github.com/threepointone/ratpack/releases/tag/0.1-prototype",
-      "id": 5066789,
-      "tagName": "0.1-prototype",
-      "targetCommitish": "master",
-      "name": "putting it out there",
-      "draft": false,
-      "author": {
-        "login": "threepointone",
-        "id": 18808,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18808?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/threepointone",
-        "htmlUrl": "https://github.com/threepointone",
-        "followersUrl": "https://api.github.com/users/threepointone/followers",
-        "subscriptionsUrl": "https://api.github.com/users/threepointone/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/threepointone/orgs",
-        "reposUrl": "https://api.github.com/users/threepointone/repos",
-        "receivedEventsUrl": "https://api.github.com/users/threepointone/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2017-01-04T14:05:46.000Z",
-      "publishedAt": "2017-01-04T14:15:48.000Z",
-      "tarballUrl": "https://api.github.com/repos/threepointone/ratpack/tarball/0.1-prototype",
-      "zipballUrl": "https://api.github.com/repos/threepointone/ratpack/zipball/0.1-prototype",
-      "body": "mac only for now. just to share the idea, get some feedback. \n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:24:04.919Z"
 }

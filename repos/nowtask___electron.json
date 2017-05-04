@@ -78,7 +78,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "nowtask",
     "version": "0.1.0",
@@ -93,15 +93,8 @@
       "update": "node_modules/.bin/jspm update",
       "electron": "node_modules/.bin/electron src/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nowtask/electron.git"
-    },
-    "author": "nownabe",
+    "repository": "https://github.com/nowtask/electron",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/nowtask/electron/issues"
-    },
     "homepage": "https://github.com/nowtask/electron#readme",
     "devDependencies": {
       "chokidar-socket-emitter": "^0.5.2",
@@ -131,10 +124,18 @@
         "redux-logger": "npm:redux-logger@^2.6.1",
         "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.6.0"
       }
+    },
+    "other": {
+      "author": "nownabe",
+      "bugs": {
+        "url": "https://github.com/nowtask/electron/issues"
+      }
     }
   },
   "packageStatus": 200,
   "contributors": [
     "nownabe"
-  ]
+  ],
+  "filename": "nowtask___electron.json",
+  "lastFetchedAt": "2017-05-04T09:02:57.287Z"
 }

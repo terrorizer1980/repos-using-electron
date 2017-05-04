@@ -5,7 +5,7 @@
   "owner": {
     "login": "questbeat",
     "id": 1830355,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1830355?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1830355?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/questbeat",
     "htmlUrl": "https://github.com/questbeat",
@@ -20,12 +20,12 @@
   "description": "GitHub activity & notification viewer. Made with Electron.",
   "fork": false,
   "createdAt": "2015-09-28T13:26:59.000Z",
-  "updatedAt": "2016-10-22T20:20:57.000Z",
+  "updatedAt": "2017-05-03T13:37:38.000Z",
   "pushedAt": "2016-01-20T05:31:04.000Z",
   "homepage": "",
   "size": 348,
-  "stargazersCount": 46,
-  "watchersCount": 46,
+  "stargazersCount": 52,
+  "watchersCount": 52,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -34,7 +34,7 @@
   "forksCount": 3,
   "openIssuesCount": 6,
   "openIssues": 6,
-  "watchers": 46,
+  "watchers": 52,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -123,9 +123,6 @@
   "cloneUrl": "https://github.com/questbeat/PopHub-Electron.git",
   "svnUrl": "https://github.com/questbeat/PopHub-Electron",
   "mirrorUrl": null,
-  "contributors": [
-    "questbeat"
-  ],
   "firstCommit": {
     "sha": "4fdd4a6a4ff1008fd45cf5969a4b37afca93432e",
     "commit": {
@@ -149,65 +146,6 @@
     }
   },
   "filename": "questbeat___PopHub-Electron.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/questbeat/PopHub-Electron/releases/1877268",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/questbeat/PopHub-Electron/releases/assets/899297",
-          "id": 899297,
-          "name": "PopHub-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "questbeat",
-            "id": 1830355,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1830355?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/questbeat",
-            "htmlUrl": "https://github.com/questbeat",
-            "followersUrl": "https://api.github.com/users/questbeat/followers",
-            "subscriptionsUrl": "https://api.github.com/users/questbeat/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/questbeat/orgs",
-            "reposUrl": "https://api.github.com/users/questbeat/repos",
-            "receivedEventsUrl": "https://api.github.com/users/questbeat/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 36496312,
-          "downloadCount": 62,
-          "createdAt": "2015-09-28T14:03:43.000Z",
-          "updatedAt": "2015-09-28T14:04:07.000Z",
-          "browserDownloadUrl": "https://github.com/questbeat/PopHub-Electron/releases/download/v0.0.1/PopHub-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/questbeat/PopHub-Electron/releases/1877268/assets",
-      "htmlUrl": "https://github.com/questbeat/PopHub-Electron/releases/tag/v0.0.1",
-      "id": 1877268,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "v0.0.1",
-      "draft": false,
-      "author": {
-        "login": "questbeat",
-        "id": 1830355,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1830355?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/questbeat",
-        "htmlUrl": "https://github.com/questbeat",
-        "followersUrl": "https://api.github.com/users/questbeat/followers",
-        "subscriptionsUrl": "https://api.github.com/users/questbeat/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/questbeat/orgs",
-        "reposUrl": "https://api.github.com/users/questbeat/repos",
-        "receivedEventsUrl": "https://api.github.com/users/questbeat/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2015-09-28T14:01:16.000Z",
-      "publishedAt": "2015-09-28T14:04:10.000Z",
-      "tarballUrl": "https://api.github.com/repos/questbeat/PopHub-Electron/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/questbeat/PopHub-Electron/zipball/v0.0.1",
-      "body": "- First release\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:04:30.813Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "mmckegg",
     "id": 66834,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/66834?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/66834?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/mmckegg",
     "htmlUrl": "https://github.com/mmckegg",
@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": "Observ object for arranging, trimming and adjusting multiple audio clips on a timeline using Web Audio.",
+  "description": "DEPRECATED: merged into loop-drop-app",
   "fork": false,
   "createdAt": "2015-08-09T14:26:11.000Z",
-  "updatedAt": "2016-06-19T04:42:59.000Z",
-  "pushedAt": "2016-08-01T04:13:00.000Z",
-  "homepage": null,
-  "size": 13,
+  "updatedAt": "2016-08-21T02:24:12.000Z",
+  "pushedAt": "2016-08-21T02:27:06.000Z",
+  "homepage": "",
+  "size": 14,
   "stargazersCount": 3,
   "watchersCount": 3,
   "language": "JavaScript",
@@ -86,9 +86,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "mmckegg"
-  ],
   "firstCommit": {
     "sha": "61126b11e06426e0073e40d3c9fdd38c127c578c",
     "commit": {
@@ -112,5 +109,26 @@
     }
   },
   "filename": "mmckegg___audio-timeline.json",
-  "releases": []
+  "htmlUrl": "https://github.com/mmckegg/audio-timeline",
+  "url": "https://api.github.com/repos/mmckegg/audio-timeline",
+  "forksUrl": "https://api.github.com/repos/mmckegg/audio-timeline/forks",
+  "teamsUrl": "https://api.github.com/repos/mmckegg/audio-timeline/teams",
+  "hooksUrl": "https://api.github.com/repos/mmckegg/audio-timeline/hooks",
+  "eventsUrl": "https://api.github.com/repos/mmckegg/audio-timeline/events",
+  "tagsUrl": "https://api.github.com/repos/mmckegg/audio-timeline/tags",
+  "languagesUrl": "https://api.github.com/repos/mmckegg/audio-timeline/languages",
+  "stargazersUrl": "https://api.github.com/repos/mmckegg/audio-timeline/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/mmckegg/audio-timeline/contributors",
+  "subscribersUrl": "https://api.github.com/repos/mmckegg/audio-timeline/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/mmckegg/audio-timeline/subscription",
+  "mergesUrl": "https://api.github.com/repos/mmckegg/audio-timeline/merges",
+  "downloadsUrl": "https://api.github.com/repos/mmckegg/audio-timeline/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/mmckegg/audio-timeline/deployments",
+  "gitUrl": "git://github.com/mmckegg/audio-timeline.git",
+  "sshUrl": "git@github.com:mmckegg/audio-timeline.git",
+  "cloneUrl": "https://github.com/mmckegg/audio-timeline.git",
+  "svnUrl": "https://github.com/mmckegg/audio-timeline",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:53:56.231Z"
 }

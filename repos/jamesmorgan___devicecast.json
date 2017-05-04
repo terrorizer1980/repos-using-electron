@@ -5,7 +5,7 @@
   "owner": {
     "login": "jamesmorgan",
     "id": 110869,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/110869?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/110869?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jamesmorgan",
     "htmlUrl": "https://github.com/jamesmorgan",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/jamesmorgan/devicecast/downloads",
   "deploymentsUrl": "https://api.github.com/repos/jamesmorgan/devicecast/deployments",
   "createdAt": "2016-01-10T17:08:23.000Z",
-  "updatedAt": "2016-08-27T00:53:27.000Z",
+  "updatedAt": "2017-04-07T12:06:42.000Z",
   "pushedAt": "2016-01-27T22:00:18.000Z",
   "gitUrl": "git://github.com/jamesmorgan/devicecast.git",
   "sshUrl": "git@github.com:jamesmorgan/devicecast.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/jamesmorgan/devicecast",
   "homepage": "",
   "size": 3765,
-  "stargazersCount": 6,
-  "watchersCount": 6,
+  "stargazersCount": 10,
+  "watchersCount": 10,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 6,
+  "watchers": 10,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 1,
-  "subscribersCount": 2,
+  "networkCount": 2,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "devicecast",
@@ -114,9 +114,6 @@
     ]
   },
   "packageStatus": 200,
-  "contributors": [
-    "jamesmorgan"
-  ],
   "firstCommit": {
     "sha": "9951771440aae7d2124a155203d873bdd0d8b0a5",
     "commit": {
@@ -140,37 +137,6 @@
     }
   },
   "filename": "jamesmorgan___devicecast.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jamesmorgan/devicecast/releases/2504780",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/jamesmorgan/devicecast/releases/2504780/assets",
-      "htmlUrl": "https://github.com/jamesmorgan/devicecast/releases/tag/0.3.0",
-      "id": 2504780,
-      "tagName": "0.3.0",
-      "targetCommitish": "master",
-      "name": "0.3.0",
-      "draft": false,
-      "author": {
-        "login": "jamesmorgan",
-        "id": 110869,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/110869?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jamesmorgan",
-        "htmlUrl": "https://github.com/jamesmorgan",
-        "followersUrl": "https://api.github.com/users/jamesmorgan/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jamesmorgan/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jamesmorgan/orgs",
-        "reposUrl": "https://api.github.com/users/jamesmorgan/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jamesmorgan/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-01-27T21:57:46.000Z",
-      "publishedAt": "2016-01-27T21:58:14.000Z",
-      "tarballUrl": "https://api.github.com/repos/jamesmorgan/devicecast/tarball/0.3.0",
-      "zipballUrl": "https://api.github.com/repos/jamesmorgan/devicecast/zipball/0.3.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:41:57.770Z"
 }

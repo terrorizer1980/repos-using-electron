@@ -1,11 +1,11 @@
 {
-  "id": 48170900,
+  "id": 75300966,
   "name": "englishextra-app",
   "fullName": "englishextra/englishextra-app",
   "owner": {
     "login": "englishextra",
     "id": 537127,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/537127?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/537127?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/englishextra",
     "htmlUrl": "https://github.com/englishextra",
@@ -17,13 +17,13 @@
     "type": "User"
   },
   "private": false,
-  "description": "“English Grammar for Russian-Speakers.” — A Working App for You to Build with Phonegap & Electron",
+  "description": "English Grammar for Russian-Speakers (a mobile app)",
   "fork": false,
-  "createdAt": "2015-12-17T11:36:19.000Z",
-  "updatedAt": "2016-07-16T15:56:54.000Z",
-  "pushedAt": "2016-08-12T22:11:56.000Z",
+  "createdAt": "2016-12-01T14:36:16.000Z",
+  "updatedAt": "2017-04-11T19:07:26.000Z",
+  "pushedAt": "2017-05-04T12:27:14.000Z",
   "homepage": "https://app-englishextra.rhcloud.com/",
-  "size": 98686,
+  "size": 4172,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "HTML",
@@ -31,7 +31,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "openIssuesCount": 0,
   "openIssues": 0,
   "watchers": 0,
@@ -42,19 +42,16 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
+    "key": "other",
+    "name": "Other",
+    "spdxId": null,
+    "url": null,
+    "featured": false
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "englishextra"
-  ],
   "firstCommit": {
     "sha": "510d25a77e15f183afa1e4000a156ec0c7d4f2f3",
     "commit": {
@@ -78,5 +75,26 @@
     }
   },
   "filename": "englishextra___englishextra-app.json",
-  "releases": []
+  "htmlUrl": "https://github.com/englishextra/englishextra-app",
+  "url": "https://api.github.com/repos/englishextra/englishextra-app",
+  "forksUrl": "https://api.github.com/repos/englishextra/englishextra-app/forks",
+  "teamsUrl": "https://api.github.com/repos/englishextra/englishextra-app/teams",
+  "hooksUrl": "https://api.github.com/repos/englishextra/englishextra-app/hooks",
+  "eventsUrl": "https://api.github.com/repos/englishextra/englishextra-app/events",
+  "tagsUrl": "https://api.github.com/repos/englishextra/englishextra-app/tags",
+  "languagesUrl": "https://api.github.com/repos/englishextra/englishextra-app/languages",
+  "stargazersUrl": "https://api.github.com/repos/englishextra/englishextra-app/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/englishextra/englishextra-app/contributors",
+  "subscribersUrl": "https://api.github.com/repos/englishextra/englishextra-app/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/englishextra/englishextra-app/subscription",
+  "mergesUrl": "https://api.github.com/repos/englishextra/englishextra-app/merges",
+  "downloadsUrl": "https://api.github.com/repos/englishextra/englishextra-app/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/englishextra/englishextra-app/deployments",
+  "gitUrl": "git://github.com/englishextra/englishextra-app.git",
+  "sshUrl": "git@github.com:englishextra/englishextra-app.git",
+  "cloneUrl": "https://github.com/englishextra/englishextra-app.git",
+  "svnUrl": "https://github.com/englishextra/englishextra-app",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T15:35:07.526Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "sztupy",
     "id": 96418,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/96418?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/96418?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sztupy",
     "htmlUrl": "https://github.com/sztupy",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/sztupy/tumblr-exif-check/downloads",
   "deploymentsUrl": "https://api.github.com/repos/sztupy/tumblr-exif-check/deployments",
   "createdAt": "2016-10-27T01:05:34.000Z",
-  "updatedAt": "2016-10-27T01:06:41.000Z",
+  "updatedAt": "2017-01-23T13:55:42.000Z",
   "pushedAt": "2016-10-27T10:50:18.000Z",
   "gitUrl": "git://github.com/sztupy/tumblr-exif-check.git",
   "sshUrl": "git@github.com:sztupy/tumblr-exif-check.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/sztupy/tumblr-exif-check",
   "homepage": "",
   "size": 96,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "stargazersCount": 2,
+  "watchersCount": 2,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/agpl-3.0",
     "featured": false
   },
-  "networkCount": 0,
+  "networkCount": 2,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -104,9 +104,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "sztupy"
-  ],
   "firstCommit": {
     "sha": "a859c9007b571897f6f0eb80090e2c8526ed5fbd",
     "commit": {
@@ -130,92 +127,6 @@
     }
   },
   "filename": "sztupy___tumblr-exif-check.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/sztupy/tumblr-exif-check/releases/4498778",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/sztupy/tumblr-exif-check/releases/assets/2540616",
-          "id": 2540616,
-          "name": "tumblr-exif-check-1.0.1-mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "sztupy",
-            "id": 96418,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/96418?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sztupy",
-            "htmlUrl": "https://github.com/sztupy",
-            "followersUrl": "https://api.github.com/users/sztupy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sztupy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sztupy/orgs",
-            "reposUrl": "https://api.github.com/users/sztupy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sztupy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 50363428,
-          "downloadCount": 21,
-          "createdAt": "2016-10-27T10:49:30.000Z",
-          "updatedAt": "2016-10-27T10:49:47.000Z",
-          "browserDownloadUrl": "https://github.com/sztupy/tumblr-exif-check/releases/download/1.0.1/tumblr-exif-check-1.0.1-mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/sztupy/tumblr-exif-check/releases/assets/2540618",
-          "id": 2540618,
-          "name": "tumblr-exif-check-1.0.1-win.zip",
-          "label": null,
-          "uploader": {
-            "login": "sztupy",
-            "id": 96418,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/96418?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/sztupy",
-            "htmlUrl": "https://github.com/sztupy",
-            "followersUrl": "https://api.github.com/users/sztupy/followers",
-            "subscriptionsUrl": "https://api.github.com/users/sztupy/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/sztupy/orgs",
-            "reposUrl": "https://api.github.com/users/sztupy/repos",
-            "receivedEventsUrl": "https://api.github.com/users/sztupy/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 63461095,
-          "downloadCount": 74,
-          "createdAt": "2016-10-27T10:50:33.000Z",
-          "updatedAt": "2016-10-27T10:50:50.000Z",
-          "browserDownloadUrl": "https://github.com/sztupy/tumblr-exif-check/releases/download/1.0.1/tumblr-exif-check-1.0.1-win.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/sztupy/tumblr-exif-check/releases/4498778/assets",
-      "htmlUrl": "https://github.com/sztupy/tumblr-exif-check/releases/tag/1.0.1",
-      "id": 4498778,
-      "tagName": "1.0.1",
-      "targetCommitish": "master",
-      "name": "1.0.1",
-      "draft": false,
-      "author": {
-        "login": "sztupy",
-        "id": 96418,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/96418?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/sztupy",
-        "htmlUrl": "https://github.com/sztupy",
-        "followersUrl": "https://api.github.com/users/sztupy/followers",
-        "subscriptionsUrl": "https://api.github.com/users/sztupy/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/sztupy/orgs",
-        "reposUrl": "https://api.github.com/users/sztupy/repos",
-        "receivedEventsUrl": "https://api.github.com/users/sztupy/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-10-27T10:18:56.000Z",
-      "publishedAt": "2016-10-27T10:50:18.000Z",
-      "tarballUrl": "https://api.github.com/repos/sztupy/tumblr-exif-check/tarball/1.0.1",
-      "zipballUrl": "https://api.github.com/repos/sztupy/tumblr-exif-check/zipball/1.0.1",
-      "body": "Initial cross platform release. Please download the appropriate package for your browser.\n\nNote for Windows users: Simply extract the zip, and double click on `tumblr-exif-check` to start the app.\n\nNote for OSX users: The code is unsigned on so after extracting you might need to enable 3rd party apps for it to start (`Apple button` -> `System Preferences` -> `Security & Privacy` -> `Open anyway`) \n\nNote for Linux users: please download the source of the project, extract, install node.js using your distro's package manager then type `npm start` in the extracted directory to start the application\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:44:10.482Z"
 }

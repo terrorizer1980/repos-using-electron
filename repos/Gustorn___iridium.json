@@ -1,11 +1,11 @@
 {
-  "id": 73023288,
+  "id": 79399469,
   "name": "iridium",
   "fullName": "Gustorn/iridium",
   "owner": {
     "login": "Gustorn",
     "id": 2189776,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2189776?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/2189776?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Gustorn",
     "htmlUrl": "https://github.com/Gustorn",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/Gustorn/iridium",
-  "description": "An SRS based Japanese learning tool powered by Electron",
+  "description": "An SRS based Japanese learning tool",
   "fork": false,
   "url": "https://api.github.com/repos/Gustorn/iridium",
   "forksUrl": "https://api.github.com/repos/Gustorn/iridium/forks",
@@ -34,18 +34,18 @@
   "mergesUrl": "https://api.github.com/repos/Gustorn/iridium/merges",
   "downloadsUrl": "https://api.github.com/repos/Gustorn/iridium/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Gustorn/iridium/deployments",
-  "createdAt": "2016-11-06T22:32:30.000Z",
-  "updatedAt": "2016-11-06T23:00:25.000Z",
-  "pushedAt": "2016-11-11T15:14:55.000Z",
+  "createdAt": "2017-01-19T00:38:54.000Z",
+  "updatedAt": "2017-01-19T00:39:13.000Z",
+  "pushedAt": "2017-01-22T23:41:59.000Z",
   "gitUrl": "git://github.com/Gustorn/iridium.git",
   "sshUrl": "git@github.com:Gustorn/iridium.git",
   "cloneUrl": "https://github.com/Gustorn/iridium.git",
   "svnUrl": "https://github.com/Gustorn/iridium",
   "homepage": null,
-  "size": 143,
+  "size": 707,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "TypeScript",
+  "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -62,10 +62,10 @@
     "pull": true
   },
   "license": {
-    "key": "gpl-3.0",
-    "name": "GNU General Public License v3.0",
-    "spdxId": "GPL-3.0",
-    "url": "https://api.github.com/licenses/gpl-3.0",
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
   "networkCount": 0,
@@ -173,9 +173,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Gustorn"
-  ],
   "firstCommit": {
     "sha": "e92703032dd2d55e9369856f18a604868438ad55",
     "commit": {
@@ -199,5 +196,6 @@
     }
   },
   "filename": "Gustorn___iridium.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T13:05:03.545Z"
 }

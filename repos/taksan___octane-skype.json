@@ -5,7 +5,7 @@
   "owner": {
     "login": "taksan",
     "id": 96873,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/96873?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/96873?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/taksan",
     "htmlUrl": "https://github.com/taksan",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/taksan/octane-skype/deployments",
   "createdAt": "2016-08-28T19:14:09.000Z",
   "updatedAt": "2016-08-28T19:14:27.000Z",
-  "pushedAt": "2016-10-25T17:28:44.000Z",
+  "pushedAt": "2017-02-09T17:06:43.000Z",
   "gitUrl": "git://github.com/taksan/octane-skype.git",
   "sshUrl": "git@github.com:taksan/octane-skype.git",
   "cloneUrl": "https://github.com/taksan/octane-skype.git",
   "svnUrl": "https://github.com/taksan/octane-skype",
   "homepage": null,
-  "size": 929,
+  "size": 930,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -120,9 +120,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "taksan"
-  ],
   "firstCommit": {
     "sha": "ec44294266086c4b0b3898779aba8294b9614743",
     "commit": {
@@ -146,65 +143,6 @@
     }
   },
   "filename": "taksan___octane-skype.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/taksan/octane-skype/releases/4097899",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/taksan/octane-skype/releases/assets/2290103",
-          "id": 2290103,
-          "name": "Windows-x64-Octane-Skype.Setup.1.0.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "taksan",
-            "id": 96873,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/96873?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/taksan",
-            "htmlUrl": "https://github.com/taksan",
-            "followersUrl": "https://api.github.com/users/taksan/followers",
-            "subscriptionsUrl": "https://api.github.com/users/taksan/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/taksan/orgs",
-            "reposUrl": "https://api.github.com/users/taksan/repos",
-            "receivedEventsUrl": "https://api.github.com/users/taksan/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-zip-compressed",
-          "state": "uploaded",
-          "size": 36220547,
-          "downloadCount": 2,
-          "createdAt": "2016-09-10T23:05:47.000Z",
-          "updatedAt": "2016-09-10T23:06:48.000Z",
-          "browserDownloadUrl": "https://github.com/taksan/octane-skype/releases/download/1.0.4/Windows-x64-Octane-Skype.Setup.1.0.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/taksan/octane-skype/releases/4097899/assets",
-      "htmlUrl": "https://github.com/taksan/octane-skype/releases/tag/1.0.4",
-      "id": 4097899,
-      "tagName": "1.0.4",
-      "targetCommitish": "master",
-      "name": "Octante Alpha",
-      "draft": false,
-      "author": {
-        "login": "taksan",
-        "id": 96873,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/96873?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/taksan",
-        "htmlUrl": "https://github.com/taksan",
-        "followersUrl": "https://api.github.com/users/taksan/followers",
-        "subscriptionsUrl": "https://api.github.com/users/taksan/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/taksan/orgs",
-        "reposUrl": "https://api.github.com/users/taksan/repos",
-        "receivedEventsUrl": "https://api.github.com/users/taksan/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-09-10T04:30:35.000Z",
-      "publishedAt": "2016-09-10T23:09:11.000Z",
-      "tarballUrl": "https://api.github.com/repos/taksan/octane-skype/tarball/1.0.4",
-      "zipballUrl": "https://api.github.com/repos/taksan/octane-skype/zipball/1.0.4",
-      "body": "# Alpha version of octane skype.\n\nThis is the first mostly stable version with all features. \n\nWindows binary attached. You can download the Ubuntu/Debian file in the ppa:\n\n[https://launchpad.net/~g-takeuchi/+archive/ubuntu/octane-skype](Octane Skype Launchpad PPA)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:30:07.936Z"
 }

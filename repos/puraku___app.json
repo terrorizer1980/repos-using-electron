@@ -5,7 +5,7 @@
   "owner": {
     "login": "puraku",
     "id": 23046507,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23046507?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/23046507?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/puraku",
     "htmlUrl": "https://github.com/puraku",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/puraku/app/downloads",
   "deploymentsUrl": "https://api.github.com/repos/puraku/app/deployments",
   "createdAt": "2016-10-25T05:12:21.000Z",
-  "updatedAt": "2016-11-16T01:32:31.000Z",
-  "pushedAt": "2016-11-12T03:13:08.000Z",
+  "updatedAt": "2017-03-18T08:02:35.000Z",
+  "pushedAt": "2017-02-25T12:32:58.000Z",
   "gitUrl": "git://github.com/puraku/app.git",
   "sshUrl": "git@github.com:puraku/app.git",
   "cloneUrl": "https://github.com/puraku/app.git",
   "svnUrl": "https://github.com/puraku/app",
   "homepage": "",
-  "size": 1617,
-  "stargazersCount": 17,
-  "watchersCount": 17,
+  "size": 1629,
+  "stargazersCount": 26,
+  "watchersCount": 26,
   "language": "Vue",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 4,
-  "openIssues": 4,
-  "watchers": 17,
+  "openIssuesCount": 6,
+  "openIssues": 6,
+  "watchers": 26,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "puraku",
     "id": 23046507,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/23046507?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/23046507?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/puraku",
     "htmlUrl": "https://github.com/puraku",
@@ -82,8 +82,8 @@
     "receivedEventsUrl": "https://api.github.com/users/puraku/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 2,
+  "networkCount": 1,
+  "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
     "name": "puraku-client",
@@ -157,9 +157,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "Yukaii"
-  ],
   "firstCommit": {
     "sha": "7cfd074bc1638358f8076cfa024e45284db51b9a",
     "commit": {
@@ -183,119 +180,6 @@
     }
   },
   "filename": "puraku___app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/puraku/app/releases/4633754",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/puraku/app/releases/assets/2627962",
-          "id": 2627962,
-          "name": "Puraku-0.8.7-mac.zip",
-          "label": null,
-          "uploader": {
-            "login": "Yukaii",
-            "id": 4230968,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4230968?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Yukaii",
-            "htmlUrl": "https://github.com/Yukaii",
-            "followersUrl": "https://api.github.com/users/Yukaii/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Yukaii/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Yukaii/orgs",
-            "reposUrl": "https://api.github.com/users/Yukaii/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Yukaii/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44912783,
-          "downloadCount": 1,
-          "createdAt": "2016-11-11T08:38:32.000Z",
-          "updatedAt": "2016-11-11T08:40:28.000Z",
-          "browserDownloadUrl": "https://github.com/puraku/app/releases/download/v0.8.7/Puraku-0.8.7-mac.zip"
-        },
-        {
-          "url": "https://api.github.com/repos/puraku/app/releases/assets/2627963",
-          "id": 2627963,
-          "name": "Puraku-0.8.7.dmg",
-          "label": null,
-          "uploader": {
-            "login": "Yukaii",
-            "id": 4230968,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4230968?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Yukaii",
-            "htmlUrl": "https://github.com/Yukaii",
-            "followersUrl": "https://api.github.com/users/Yukaii/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Yukaii/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Yukaii/orgs",
-            "reposUrl": "https://api.github.com/users/Yukaii/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Yukaii/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 41740695,
-          "downloadCount": 2,
-          "createdAt": "2016-11-11T08:38:35.000Z",
-          "updatedAt": "2016-11-11T08:41:08.000Z",
-          "browserDownloadUrl": "https://github.com/puraku/app/releases/download/v0.8.7/Puraku-0.8.7.dmg"
-        },
-        {
-          "url": "https://api.github.com/repos/puraku/app/releases/assets/2627961",
-          "id": 2627961,
-          "name": "Puraku.Setup.0.8.7.exe",
-          "label": null,
-          "uploader": {
-            "login": "Yukaii",
-            "id": 4230968,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/4230968?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/Yukaii",
-            "htmlUrl": "https://github.com/Yukaii",
-            "followersUrl": "https://api.github.com/users/Yukaii/followers",
-            "subscriptionsUrl": "https://api.github.com/users/Yukaii/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/Yukaii/orgs",
-            "reposUrl": "https://api.github.com/users/Yukaii/repos",
-            "receivedEventsUrl": "https://api.github.com/users/Yukaii/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 59625984,
-          "downloadCount": 4,
-          "createdAt": "2016-11-11T08:38:26.000Z",
-          "updatedAt": "2016-11-11T08:39:54.000Z",
-          "browserDownloadUrl": "https://github.com/puraku/app/releases/download/v0.8.7/Puraku.Setup.0.8.7.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/puraku/app/releases/4633754/assets",
-      "htmlUrl": "https://github.com/puraku/app/releases/tag/v0.8.7",
-      "id": 4633754,
-      "tagName": "v0.8.7",
-      "targetCommitish": "master",
-      "name": "v0.8.7",
-      "draft": false,
-      "author": {
-        "login": "Yukaii",
-        "id": 4230968,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4230968?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/Yukaii",
-        "htmlUrl": "https://github.com/Yukaii",
-        "followersUrl": "https://api.github.com/users/Yukaii/followers",
-        "subscriptionsUrl": "https://api.github.com/users/Yukaii/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/Yukaii/orgs",
-        "reposUrl": "https://api.github.com/users/Yukaii/repos",
-        "receivedEventsUrl": "https://api.github.com/users/Yukaii/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-11-11T08:33:34.000Z",
-      "publishedAt": "2016-11-11T08:41:59.000Z",
-      "tarballUrl": "https://api.github.com/repos/puraku/app/tarball/v0.8.7",
-      "zipballUrl": "https://api.github.com/repos/puraku/app/zipball/v0.8.7",
-      "body": "完成度 87%，不能再高了。\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:20:27.110Z"
 }

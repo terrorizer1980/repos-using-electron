@@ -5,7 +5,7 @@
   "owner": {
     "login": "digideskio",
     "id": 14135456,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/14135456?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/14135456?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/digideskio",
     "htmlUrl": "https://github.com/digideskio",
@@ -35,7 +35,7 @@
   "downloadsUrl": "https://api.github.com/repos/digideskio/mbp/downloads",
   "deploymentsUrl": "https://api.github.com/repos/digideskio/mbp/deployments",
   "createdAt": "2016-06-10T07:49:27.000Z",
-  "updatedAt": "2016-10-07T14:11:25.000Z",
+  "updatedAt": "2017-03-11T10:25:13.000Z",
   "pushedAt": "2016-06-10T07:51:59.000Z",
   "gitUrl": "git://github.com/digideskio/mbp.git",
   "sshUrl": "git@github.com:digideskio/mbp.git",
@@ -43,18 +43,18 @@
   "svnUrl": "https://github.com/digideskio/mbp",
   "homepage": null,
   "size": 6800,
-  "stargazersCount": 1,
-  "watchersCount": 1,
+  "stargazersCount": 3,
+  "watchersCount": 3,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 3,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,8 +68,8 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
-  "subscribersCount": 1,
+  "networkCount": 1,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "megaboilerplate",
@@ -146,9 +146,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "digideskio"
-  ],
   "firstCommit": {
     "sha": "d2f2dc9c8c2df1ab480f505bdd6a12956f7304ae",
     "commit": {
@@ -172,5 +169,6 @@
     }
   },
   "filename": "digideskio___mbp.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:21:50.612Z"
 }

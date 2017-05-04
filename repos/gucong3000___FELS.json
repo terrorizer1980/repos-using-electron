@@ -5,7 +5,7 @@
   "owner": {
     "login": "gucong3000",
     "id": 1171691,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1171691?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1171691?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/gucong3000",
     "htmlUrl": "https://github.com/gucong3000",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/gucong3000/FELS/downloads",
   "deploymentsUrl": "https://api.github.com/repos/gucong3000/FELS/deployments",
   "createdAt": "2016-03-14T06:52:06.000Z",
-  "updatedAt": "2016-11-09T09:44:58.000Z",
-  "pushedAt": "2016-11-14T07:06:16.000Z",
+  "updatedAt": "2017-04-15T01:00:27.000Z",
+  "pushedAt": "2017-05-03T01:36:05.000Z",
   "gitUrl": "git://github.com/gucong3000/FELS.git",
   "sshUrl": "git@github.com:gucong3000/FELS.git",
   "cloneUrl": "https://github.com/gucong3000/FELS.git",
   "svnUrl": "https://github.com/gucong3000/FELS",
   "homepage": "",
-  "size": 811,
-  "stargazersCount": 9,
-  "watchersCount": 9,
+  "size": 916,
+  "stargazersCount": 12,
+  "watchersCount": 12,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,9 +52,9 @@
   "hasPages": false,
   "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 2,
-  "openIssues": 2,
-  "watchers": 9,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 12,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -213,10 +213,6 @@
     "version": "1.0.0"
   },
   "packageStatus": 200,
-  "contributors": [
-    "gucong3000",
-    "tsaowe"
-  ],
   "firstCommit": {
     "sha": "7e4ff2c20250ca34cd3e172f33f5b64ab1d341fe",
     "commit": {
@@ -240,65 +236,6 @@
     }
   },
   "filename": "gucong3000___FELS.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/gucong3000/FELS/releases/3947414",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/gucong3000/FELS/releases/assets/2188222",
-          "id": 2188222,
-          "name": "FELS_Setup_x64.exe",
-          "label": null,
-          "uploader": {
-            "login": "gucong3000",
-            "id": 1171691,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1171691?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/gucong3000",
-            "htmlUrl": "https://github.com/gucong3000",
-            "followersUrl": "https://api.github.com/users/gucong3000/followers",
-            "subscriptionsUrl": "https://api.github.com/users/gucong3000/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/gucong3000/orgs",
-            "reposUrl": "https://api.github.com/users/gucong3000/repos",
-            "receivedEventsUrl": "https://api.github.com/users/gucong3000/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 223415,
-          "downloadCount": 3,
-          "createdAt": "2016-08-23T07:17:39.000Z",
-          "updatedAt": "2016-08-23T07:17:42.000Z",
-          "browserDownloadUrl": "https://github.com/gucong3000/FELS/releases/download/1.0.0/FELS_Setup_x64.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/gucong3000/FELS/releases/3947414/assets",
-      "htmlUrl": "https://github.com/gucong3000/FELS/releases/tag/1.0.0",
-      "id": 3947414,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "Window x64 预览版",
-      "draft": false,
-      "author": {
-        "login": "gucong3000",
-        "id": 1171691,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1171691?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/gucong3000",
-        "htmlUrl": "https://github.com/gucong3000",
-        "followersUrl": "https://api.github.com/users/gucong3000/followers",
-        "subscriptionsUrl": "https://api.github.com/users/gucong3000/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/gucong3000/orgs",
-        "reposUrl": "https://api.github.com/users/gucong3000/repos",
-        "receivedEventsUrl": "https://api.github.com/users/gucong3000/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-08-23T06:23:26.000Z",
-      "publishedAt": "2016-08-23T06:25:39.000Z",
-      "tarballUrl": "https://api.github.com/repos/gucong3000/FELS/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/gucong3000/FELS/zipball/1.0.0",
-      "body": "代码审查功能已完全可用\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T15:26:24.242Z"
 }

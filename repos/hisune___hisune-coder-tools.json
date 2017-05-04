@@ -5,7 +5,7 @@
   "owner": {
     "login": "hisune",
     "id": 7941669,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/7941669?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/7941669?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hisune",
     "htmlUrl": "https://github.com/hisune",
@@ -20,30 +20,36 @@
   "description": "Electron Hisune Coder Tool",
   "fork": false,
   "createdAt": "2015-06-11T03:09:01.000Z",
-  "updatedAt": "2016-10-31T09:27:39.000Z",
-  "pushedAt": "2016-10-27T06:29:45.000Z",
+  "updatedAt": "2017-05-03T05:24:50.000Z",
+  "pushedAt": "2017-03-24T02:35:04.000Z",
   "homepage": "https://hisune.com/view/44/electron-hct",
-  "size": 40657,
-  "stargazersCount": 23,
-  "watchersCount": 23,
+  "size": 40685,
+  "stargazersCount": 27,
+  "watchersCount": 27,
   "language": "HTML",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 4,
+  "forksCount": 7,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 23,
+  "watchers": 27,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": null,
-  "networkCount": 4,
-  "subscribersCount": 3,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
+  "networkCount": 7,
+  "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
     "name": "HCT",
@@ -97,9 +103,6 @@
   "cloneUrl": "https://github.com/hisune/hisune-coder-tools.git",
   "svnUrl": "https://github.com/hisune/hisune-coder-tools",
   "mirrorUrl": null,
-  "contributors": [
-    "hisune"
-  ],
   "firstCommit": {
     "sha": "94ddcaa068c1d3a0332017142839245a719814aa",
     "commit": {
@@ -123,5 +126,6 @@
     }
   },
   "filename": "hisune___hisune-coder-tools.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:03:41.977Z"
 }

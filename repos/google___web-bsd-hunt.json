@@ -5,7 +5,7 @@
   "owner": {
     "login": "google",
     "id": 1342004,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1342004?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/google",
     "htmlUrl": "https://github.com/google",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/google/web-bsd-hunt/downloads",
   "deploymentsUrl": "https://api.github.com/repos/google/web-bsd-hunt/deployments",
   "createdAt": "2016-09-30T23:04:28.000Z",
-  "updatedAt": "2016-10-30T04:44:00.000Z",
-  "pushedAt": "2016-11-05T23:07:23.000Z",
+  "updatedAt": "2017-05-03T06:10:55.000Z",
+  "pushedAt": "2017-03-26T17:33:07.000Z",
   "gitUrl": "git://github.com/google/web-bsd-hunt.git",
   "sshUrl": "git@github.com:google/web-bsd-hunt.git",
   "cloneUrl": "https://github.com/google/web-bsd-hunt.git",
   "svnUrl": "https://github.com/google/web-bsd-hunt",
   "homepage": "",
   "size": 10857,
-  "stargazersCount": 13,
-  "watchersCount": 13,
+  "stargazersCount": 18,
+  "watchersCount": 18,
   "language": "Go",
   "hasIssues": true,
   "hasDownloads": false,
   "hasWiki": false,
   "hasPages": false,
-  "forksCount": 3,
+  "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 3,
-  "openIssues": 3,
-  "watchers": 13,
+  "openIssuesCount": 5,
+  "openIssues": 5,
+  "watchers": 18,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -71,7 +71,7 @@
   "organization": {
     "login": "google",
     "id": 1342004,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1342004?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1342004?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/google",
     "htmlUrl": "https://github.com/google",
@@ -82,15 +82,10 @@
     "receivedEventsUrl": "https://api.github.com/users/google/received_events",
     "type": "Organization"
   },
-  "networkCount": 3,
-  "subscribersCount": 5,
+  "networkCount": 5,
+  "subscribersCount": 6,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "tadhunt",
-    "pmonkelban",
-    "speakerbug"
-  ],
   "firstCommit": {
     "sha": "7b65165d158a7e8de7b1fcb7aaa19b90f031155b",
     "commit": {
@@ -114,5 +109,6 @@
     }
   },
   "filename": "google___web-bsd-hunt.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:15:27.001Z"
 }

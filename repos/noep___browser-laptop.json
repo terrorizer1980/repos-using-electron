@@ -162,7 +162,7 @@
   },
   "networkCount": 372,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "brave",
     "version": "0.7.12",
@@ -190,9 +190,6 @@
       "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*Test.js')"
     },
     "repository": "brave/browser-laptop",
-    "author": {
-      "name": "Brave Developers <support@brave.com>"
-    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -212,9 +209,6 @@
       }
     ],
     "license": "MPL-2.0",
-    "bugs": {
-      "url": "https://github.com/bbondy/electron-sample/issues"
-    },
     "homepage": "https://github.com/bbondy/electron-sample#readme",
     "dependencies": {
       "abp-filter-parser-cpp": "1.1.x",
@@ -295,6 +289,14 @@
     "engineStrict": true,
     "engines": {
       "node": ">= 5.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Brave Developers <support@brave.com>"
+      },
+      "bugs": {
+        "url": "https://github.com/bbondy/electron-sample/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -325,5 +327,7 @@
     "megazoll",
     "jiangyang",
     "yurenju"
-  ]
+  ],
+  "filename": "noep___browser-laptop.json",
+  "lastFetchedAt": "2017-05-04T18:22:38.505Z"
 }

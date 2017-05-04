@@ -5,7 +5,7 @@
   "owner": {
     "login": "jjbandit",
     "id": 6423361,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6423361?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6423361?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/jjbandit",
     "htmlUrl": "https://github.com/jjbandit",
@@ -85,9 +85,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "jjbandit"
-  ],
   "firstCommit": {
     "sha": "b033ea36c2ba71e58e684b65a5630d8da5e94a6e",
     "commit": {
@@ -111,68 +108,26 @@
     }
   },
   "filename": "jjbandit___alphaterm.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/jjbandit/alphaterm/releases/2156797",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/jjbandit/alphaterm/releases/2156797/assets",
-      "htmlUrl": "https://github.com/jjbandit/alphaterm/releases/tag/v0.0.1",
-      "id": 2156797,
-      "tagName": "v0.0.1",
-      "targetCommitish": "master",
-      "name": "v0.0.1",
-      "draft": false,
-      "author": {
-        "login": "jjbandit",
-        "id": 6423361,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6423361?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jjbandit",
-        "htmlUrl": "https://github.com/jjbandit",
-        "followersUrl": "https://api.github.com/users/jjbandit/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jjbandit/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jjbandit/orgs",
-        "reposUrl": "https://api.github.com/users/jjbandit/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jjbandit/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-11-19T16:03:24.000Z",
-      "publishedAt": "2015-11-19T23:07:23.000Z",
-      "tarballUrl": "https://api.github.com/repos/jjbandit/alphaterm/tarball/v0.0.1",
-      "zipballUrl": "https://api.github.com/repos/jjbandit/alphaterm/zipball/v0.0.1",
-      "body": "Rebuilt the frontend in React and implemented Facebooks Flux pattern.  \n"
-    },
-    {
-      "url": "https://api.github.com/repos/jjbandit/alphaterm/releases/1907267",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/jjbandit/alphaterm/releases/1907267/assets",
-      "htmlUrl": "https://github.com/jjbandit/alphaterm/releases/tag/v0.0.0",
-      "id": 1907267,
-      "tagName": "v0.0.0",
-      "targetCommitish": "master",
-      "name": "First release",
-      "draft": false,
-      "author": {
-        "login": "jjbandit",
-        "id": 6423361,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6423361?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/jjbandit",
-        "htmlUrl": "https://github.com/jjbandit",
-        "followersUrl": "https://api.github.com/users/jjbandit/followers",
-        "subscriptionsUrl": "https://api.github.com/users/jjbandit/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/jjbandit/orgs",
-        "reposUrl": "https://api.github.com/users/jjbandit/repos",
-        "receivedEventsUrl": "https://api.github.com/users/jjbandit/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-10-03T14:42:06.000Z",
-      "publishedAt": "2015-10-04T00:08:32.000Z",
-      "tarballUrl": "https://api.github.com/repos/jjbandit/alphaterm/tarball/v0.0.0",
-      "zipballUrl": "https://api.github.com/repos/jjbandit/alphaterm/zipball/v0.0.0",
-      "body": "This first version release has basic interface to run arbitrary commands, and display output of those commands in the electron browser-window.  By manually modifying the source to load localhost:1337/term a term.js terminal window may also be used to run commands.  A long road lies ahead.\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/jjbandit/alphaterm",
+  "url": "https://api.github.com/repos/jjbandit/alphaterm",
+  "forksUrl": "https://api.github.com/repos/jjbandit/alphaterm/forks",
+  "teamsUrl": "https://api.github.com/repos/jjbandit/alphaterm/teams",
+  "hooksUrl": "https://api.github.com/repos/jjbandit/alphaterm/hooks",
+  "eventsUrl": "https://api.github.com/repos/jjbandit/alphaterm/events",
+  "tagsUrl": "https://api.github.com/repos/jjbandit/alphaterm/tags",
+  "languagesUrl": "https://api.github.com/repos/jjbandit/alphaterm/languages",
+  "stargazersUrl": "https://api.github.com/repos/jjbandit/alphaterm/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/jjbandit/alphaterm/contributors",
+  "subscribersUrl": "https://api.github.com/repos/jjbandit/alphaterm/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/jjbandit/alphaterm/subscription",
+  "mergesUrl": "https://api.github.com/repos/jjbandit/alphaterm/merges",
+  "downloadsUrl": "https://api.github.com/repos/jjbandit/alphaterm/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/jjbandit/alphaterm/deployments",
+  "gitUrl": "git://github.com/jjbandit/alphaterm.git",
+  "sshUrl": "git@github.com:jjbandit/alphaterm.git",
+  "cloneUrl": "https://github.com/jjbandit/alphaterm.git",
+  "svnUrl": "https://github.com/jjbandit/alphaterm",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T21:22:06.728Z"
 }

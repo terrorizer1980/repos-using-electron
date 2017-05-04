@@ -1,11 +1,11 @@
 {
-  "id": 66493013,
+  "id": 51470509,
   "name": "WebExpress",
   "fullName": "Sential/WebExpress",
   "owner": {
     "login": "Sential",
     "id": 11065386,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11065386?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11065386?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/Sential",
     "htmlUrl": "https://github.com/Sential",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/Sential/WebExpress",
-  "description": "An advanced Internet browser made in Electron",
+  "description": "This is advanced internet browser created in C# WPF.",
   "fork": false,
   "url": "https://api.github.com/repos/Sential/WebExpress",
   "forksUrl": "https://api.github.com/repos/Sential/WebExpress/forks",
@@ -34,27 +34,27 @@
   "mergesUrl": "https://api.github.com/repos/Sential/WebExpress/merges",
   "downloadsUrl": "https://api.github.com/repos/Sential/WebExpress/downloads",
   "deploymentsUrl": "https://api.github.com/repos/Sential/WebExpress/deployments",
-  "createdAt": "2016-08-24T19:25:05.000Z",
-  "updatedAt": "2016-11-12T02:19:36.000Z",
-  "pushedAt": "2016-11-15T19:55:34.000Z",
+  "createdAt": "2016-02-10T20:39:07.000Z",
+  "updatedAt": "2017-04-10T07:33:49.000Z",
+  "pushedAt": "2017-03-29T20:48:33.000Z",
   "gitUrl": "git://github.com/Sential/WebExpress.git",
   "sshUrl": "git@github.com:Sential/WebExpress.git",
   "cloneUrl": "https://github.com/Sential/WebExpress.git",
   "svnUrl": "https://github.com/Sential/WebExpress",
   "homepage": "",
-  "size": 1781,
-  "stargazersCount": 2,
-  "watchersCount": 2,
-  "language": "JavaScript",
+  "size": 152300,
+  "stargazersCount": 20,
+  "watchersCount": 20,
+  "language": "C#",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 2,
+  "forksCount": 9,
   "mirrorUrl": null,
-  "openIssuesCount": 5,
-  "openIssues": 5,
-  "watchers": 2,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 20,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 2,
-  "subscribersCount": 2,
+  "networkCount": 9,
+  "subscribersCount": 12,
   "status": 200,
   "packageJSON": {
     "name": "WebExpress",
@@ -98,10 +98,6 @@
     "license": "MIT"
   },
   "packageStatus": 200,
-  "contributors": [
-    "Sential",
-    "xNerhu22"
-  ],
   "firstCommit": {
     "sha": "408161d03c7c93a1b6615133d13dc1348fdc3ea5",
     "commit": {
@@ -125,5 +121,6 @@
     }
   },
   "filename": "Sential___WebExpress.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:26:45.225Z"
 }

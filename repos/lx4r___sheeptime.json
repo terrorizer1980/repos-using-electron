@@ -5,7 +5,7 @@
   "owner": {
     "login": "lx4r",
     "id": 1402895,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1402895?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/1402895?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/lx4r",
     "htmlUrl": "https://github.com/lx4r",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/lx4r/sheeptime",
-  "description": "a simple time tracker",
+  "description": "a simple time tracker powered by Electron + Vue",
   "fork": false,
   "url": "https://api.github.com/repos/lx4r/sheeptime",
   "forksUrl": "https://api.github.com/repos/lx4r/sheeptime/forks",
@@ -35,25 +35,25 @@
   "downloadsUrl": "https://api.github.com/repos/lx4r/sheeptime/downloads",
   "deploymentsUrl": "https://api.github.com/repos/lx4r/sheeptime/deployments",
   "createdAt": "2016-08-21T16:59:37.000Z",
-  "updatedAt": "2016-10-22T15:36:16.000Z",
-  "pushedAt": "2016-11-05T15:40:47.000Z",
+  "updatedAt": "2017-04-06T17:55:57.000Z",
+  "pushedAt": "2017-05-01T15:54:38.000Z",
   "gitUrl": "git://github.com/lx4r/sheeptime.git",
   "sshUrl": "git@github.com:lx4r/sheeptime.git",
   "cloneUrl": "https://github.com/lx4r/sheeptime.git",
   "svnUrl": "https://github.com/lx4r/sheeptime",
   "homepage": "http://sheeptime.l3r.de",
-  "size": 274,
+  "size": 371,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "Vue",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": true,
+  "hasPages": false,
   "forksCount": 0,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
+  "openIssuesCount": 15,
+  "openIssues": 15,
   "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
@@ -106,9 +106,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "lx4r"
-  ],
   "firstCommit": {
     "sha": "af387681ad39b80091e0b7b79ec3133536ab1925",
     "commit": {
@@ -132,5 +129,6 @@
     }
   },
   "filename": "lx4r___sheeptime.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:23:05.769Z"
 }

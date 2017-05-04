@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "proton-template-app",
     "version": "1.0.0",
@@ -78,9 +78,6 @@
     },
     "dependencies": {
       "electron-window-manager": "^1.0.1"
-    },
-    "other": {
-      "author": "Connor Sears"
     }
   },
   "packageStatus": 200,
@@ -109,5 +106,6 @@
       "commentCount": 0
     }
   },
-  "filename": "tspaulding0222___LearningElectron.json"
+  "filename": "tspaulding0222___LearningElectron.json",
+  "lastFetchedAt": "2017-05-04T17:42:48.083Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "TeselaGen",
     "id": 1185304,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1185304?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1185304?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/TeselaGen",
     "htmlUrl": "https://github.com/TeselaGen",
@@ -35,43 +35,37 @@
   "downloadsUrl": "https://api.github.com/repos/TeselaGen/openVectorEditor/downloads",
   "deploymentsUrl": "https://api.github.com/repos/TeselaGen/openVectorEditor/deployments",
   "createdAt": "2015-04-12T07:16:35.000Z",
-  "updatedAt": "2016-11-07T03:49:28.000Z",
-  "pushedAt": "2016-10-28T21:24:08.000Z",
+  "updatedAt": "2017-01-30T05:18:21.000Z",
+  "pushedAt": "2017-04-24T22:42:21.000Z",
   "gitUrl": "git://github.com/TeselaGen/openVectorEditor.git",
   "sshUrl": "git@github.com:TeselaGen/openVectorEditor.git",
   "cloneUrl": "https://github.com/TeselaGen/openVectorEditor.git",
   "svnUrl": "https://github.com/TeselaGen/openVectorEditor",
   "homepage": null,
-  "size": 7504,
-  "stargazersCount": 5,
-  "watchersCount": 5,
+  "size": 7664,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 11,
+  "forksCount": 12,
   "mirrorUrl": null,
   "openIssuesCount": 11,
   "openIssues": 11,
-  "watchers": 5,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "bsd-3-clause",
-    "name": "BSD 3-clause \"New\" or \"Revised\" License",
-    "spdxId": "BSD-3-Clause",
-    "url": "https://api.github.com/licenses/bsd-3-clause",
-    "featured": false
-  },
+  "license": null,
   "organization": {
     "login": "TeselaGen",
     "id": 1185304,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1185304?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/1185304?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/TeselaGen",
     "htmlUrl": "https://github.com/TeselaGen",
@@ -82,8 +76,8 @@
     "receivedEventsUrl": "https://api.github.com/users/TeselaGen/received_events",
     "type": "Organization"
   },
-  "networkCount": 11,
-  "subscribersCount": 21,
+  "networkCount": 12,
+  "subscribersCount": 20,
   "status": 200,
   "packageJSON": {
     "name": "openVectorEditor",
@@ -318,17 +312,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "tnrich",
-    "jakecoble",
-    "slafrance",
-    "salafrance",
-    "nixonpjoshua",
-    "thirdknife",
-    "craftjk",
-    "waffle-iron",
-    "gitter-badger"
-  ],
   "firstCommit": {
     "sha": "53437e2410cefbc6f4d5dc43a0c29e93c64e1996",
     "commit": {
@@ -352,5 +335,6 @@
     }
   },
   "filename": "TeselaGen___openVectorEditor.json",
-  "releases": []
+  "hasProjects": false,
+  "lastFetchedAt": "2017-05-04T20:52:57.225Z"
 }

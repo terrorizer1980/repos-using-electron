@@ -1,11 +1,11 @@
 {
-  "id": 65220909,
+  "id": 74455494,
   "name": "invest",
   "fullName": "prasann/invest",
   "owner": {
     "login": "prasann",
     "id": 380340,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/380340?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/380340?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/prasann",
     "htmlUrl": "https://github.com/prasann",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/prasann/invest",
-  "description": null,
+  "description": "React/Express app to manage my equity portfoios",
   "fork": false,
   "url": "https://api.github.com/repos/prasann/invest",
   "forksUrl": "https://api.github.com/repos/prasann/invest/forks",
@@ -34,15 +34,15 @@
   "mergesUrl": "https://api.github.com/repos/prasann/invest/merges",
   "downloadsUrl": "https://api.github.com/repos/prasann/invest/downloads",
   "deploymentsUrl": "https://api.github.com/repos/prasann/invest/deployments",
-  "createdAt": "2016-08-08T16:34:07.000Z",
-  "updatedAt": "2016-08-08T16:34:28.000Z",
-  "pushedAt": "2016-08-08T16:34:27.000Z",
+  "createdAt": "2016-11-22T09:19:13.000Z",
+  "updatedAt": "2016-11-22T09:19:40.000Z",
+  "pushedAt": "2016-11-22T10:32:55.000Z",
   "gitUrl": "git://github.com/prasann/invest.git",
   "sshUrl": "git@github.com:prasann/invest.git",
   "cloneUrl": "https://github.com/prasann/invest.git",
   "svnUrl": "https://github.com/prasann/invest",
   "homepage": null,
-  "size": 4,
+  "size": 104,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -61,7 +61,13 @@
     "push": false,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
+  },
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
@@ -96,9 +102,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "prasann"
-  ],
   "firstCommit": {
     "sha": "ac0c23a7fb89336c59b2e65a2d7e63dcc57dadaa",
     "commit": {
@@ -122,5 +125,6 @@
     }
   },
   "filename": "prasann___invest.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:43:35.431Z"
 }

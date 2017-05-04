@@ -5,7 +5,7 @@
   "owner": {
     "login": "all-user",
     "id": 6180236,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6180236?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/6180236?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/all-user",
     "htmlUrl": "https://github.com/all-user",
@@ -21,9 +21,9 @@
   "fork": false,
   "createdAt": "2016-05-09T13:57:47.000Z",
   "updatedAt": "2016-05-30T23:17:30.000Z",
-  "pushedAt": "2016-07-18T05:26:17.000Z",
+  "pushedAt": "2016-11-23T15:52:12.000Z",
   "homepage": null,
-  "size": 620,
+  "size": 1099,
   "stargazersCount": 1,
   "watchersCount": 1,
   "language": "JavaScript",
@@ -108,9 +108,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "all-user"
-  ],
   "firstCommit": {
     "sha": "c017db970989232831b88f82731a75794b16d968",
     "commit": {
@@ -134,65 +131,26 @@
     }
   },
   "filename": "all-user___live-cam-clock.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/all-user/live-cam-clock/releases/3278863",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/all-user/live-cam-clock/releases/assets/1726429",
-          "id": 1726429,
-          "name": "osx.zip",
-          "label": "",
-          "uploader": {
-            "login": "all-user",
-            "id": 6180236,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/6180236?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/all-user",
-            "htmlUrl": "https://github.com/all-user",
-            "followersUrl": "https://api.github.com/users/all-user/followers",
-            "subscriptionsUrl": "https://api.github.com/users/all-user/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/all-user/orgs",
-            "reposUrl": "https://api.github.com/users/all-user/repos",
-            "receivedEventsUrl": "https://api.github.com/users/all-user/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 122466426,
-          "downloadCount": 0,
-          "createdAt": "2016-05-22T14:52:51.000Z",
-          "updatedAt": "2016-05-22T14:53:05.000Z",
-          "browserDownloadUrl": "https://github.com/all-user/live-cam-clock/releases/download/v0.0.3/osx.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/all-user/live-cam-clock/releases/3278863/assets",
-      "htmlUrl": "https://github.com/all-user/live-cam-clock/releases/tag/v0.0.3",
-      "id": 3278863,
-      "tagName": "v0.0.3",
-      "targetCommitish": "master",
-      "name": "v0.0.3",
-      "draft": false,
-      "author": {
-        "login": "all-user",
-        "id": 6180236,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/6180236?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/all-user",
-        "htmlUrl": "https://github.com/all-user",
-        "followersUrl": "https://api.github.com/users/all-user/followers",
-        "subscriptionsUrl": "https://api.github.com/users/all-user/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/all-user/orgs",
-        "reposUrl": "https://api.github.com/users/all-user/repos",
-        "receivedEventsUrl": "https://api.github.com/users/all-user/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-22T14:47:38.000Z",
-      "publishedAt": "2016-05-22T14:52:51.000Z",
-      "tarballUrl": "https://api.github.com/repos/all-user/live-cam-clock/tarball/v0.0.3",
-      "zipballUrl": "https://api.github.com/repos/all-user/live-cam-clock/zipball/v0.0.3",
-      "body": "# Just wrapping a browser demo.\n\n[My blog post](http://memowomome.hatenablog.com/entry/2016/05/09/014650)\n"
-    }
-  ]
+  "htmlUrl": "https://github.com/all-user/live-cam-clock",
+  "url": "https://api.github.com/repos/all-user/live-cam-clock",
+  "forksUrl": "https://api.github.com/repos/all-user/live-cam-clock/forks",
+  "teamsUrl": "https://api.github.com/repos/all-user/live-cam-clock/teams",
+  "hooksUrl": "https://api.github.com/repos/all-user/live-cam-clock/hooks",
+  "eventsUrl": "https://api.github.com/repos/all-user/live-cam-clock/events",
+  "tagsUrl": "https://api.github.com/repos/all-user/live-cam-clock/tags",
+  "languagesUrl": "https://api.github.com/repos/all-user/live-cam-clock/languages",
+  "stargazersUrl": "https://api.github.com/repos/all-user/live-cam-clock/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/all-user/live-cam-clock/contributors",
+  "subscribersUrl": "https://api.github.com/repos/all-user/live-cam-clock/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/all-user/live-cam-clock/subscription",
+  "mergesUrl": "https://api.github.com/repos/all-user/live-cam-clock/merges",
+  "downloadsUrl": "https://api.github.com/repos/all-user/live-cam-clock/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/all-user/live-cam-clock/deployments",
+  "gitUrl": "git://github.com/all-user/live-cam-clock.git",
+  "sshUrl": "git@github.com:all-user/live-cam-clock.git",
+  "cloneUrl": "https://github.com/all-user/live-cam-clock.git",
+  "svnUrl": "https://github.com/all-user/live-cam-clock",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T04:56:53.515Z"
 }

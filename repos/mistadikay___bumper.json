@@ -50,7 +50,7 @@
   },
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "bumper",
     "productName": "Bumper",
@@ -414,5 +414,6 @@
       "zipballUrl": "https://api.github.com/repos/mistadikay/bumper/zipball/v0.0.1",
       "body": "This little app lives in Mac OS menubar and suppose to show and update outdated npm dependencies for local apps using npm or npm packages\n- :heavy_plus_sign: add local repo by absolute path\n- :heavy_plus_sign: list added repos\n- :heavy_plus_sign: remove repo\n- :heavy_plus_sign: show outdated deps in a very ugly way\n- :heavy_plus_sign: quit (OMG!) the app\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T20:00:28.368Z"
 }

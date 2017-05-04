@@ -64,20 +64,11 @@
   },
   "networkCount": 2,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "PartyRooms",
     "description": "PartyRooms: share, discover, enjoy",
     "version": "0.1.0-pre-alpha.0",
-    "author": {
-      "name": "Vasiliy Yorkin",
-      "email": "vasiliy.yorkin@gmail.com",
-      "url": "https://github.com/vyorkin"
-    },
-    "bugs": {
-      "url": "https://github.com/partyrooms/web/issues",
-      "email": "vasiliy.yorkin@gmail.com"
-    },
     "config": {
       "https": false,
       "host": "0.0.0.0",
@@ -342,10 +333,7 @@
     "license": "MIT",
     "main": "src/server/index.js",
     "private": true,
-    "repository": {
-      "type": "git",
-      "url": "partyrooms/web"
-    },
+    "repository": "https://github.com/partyrooms/web",
     "scripts": {
       "build": "gulp build",
       "build:full": "gulp build:full",
@@ -365,11 +353,24 @@
       "test:mocha": "mocha ./test/app/modules/**/*.test.js",
       "test:mocha:watch": "npm run test:mocha -- --watch",
       "test:watch": "karma start --watch -- --test"
+    },
+    "other": {
+      "author": {
+        "name": "Vasiliy Yorkin",
+        "email": "vasiliy.yorkin@gmail.com",
+        "url": "https://github.com/vyorkin"
+      },
+      "bugs": {
+        "url": "https://github.com/partyrooms/web/issues",
+        "email": "vasiliy.yorkin@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
   "contributors": [
     "vyorkin",
     "greenkeeperio-bot"
-  ]
+  ],
+  "filename": "partyrooms___web.json",
+  "lastFetchedAt": "2017-05-04T17:55:01.436Z"
 }

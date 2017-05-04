@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 4,
   "subscribersCount": 9,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Wunderlistux",
     "version": "0.0.6",
@@ -101,15 +101,7 @@
     "license": "MIT",
     "repository": "https://github.com/edipox/wunderlistux",
     "homepage": "https://github.com/edipox/wunderlistux",
-    "engines": {},
-    "other": {
-      "author": {
-        "name": "Edipo da Silva",
-        "url": "https://github.com/edipox",
-        "email": "edipo@openmailbox.org"
-      },
-      "bugs": "https://github.com/edipox/wunderlistux/issues"
-    }
+    "engines": {}
   },
   "packageStatus": 200,
   "contributors": [
@@ -522,5 +514,6 @@
       "zipballUrl": "https://api.github.com/repos/edipox/wunderlistux/zipball/0.0.5-linux-ia32",
       "body": "Release 0.0.5 for linux ia32\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T15:12:43.435Z"
 }

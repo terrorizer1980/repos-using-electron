@@ -44,7 +44,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "Finnick",
     "version": "0.4.0",
@@ -155,5 +155,6 @@
       "zipballUrl": "https://api.github.com/repos/terrillo/Finnick/zipball/0.2.0v",
       "body": "- New Content Editor\n- Full screen editor\n- Fixed Word count bug\n- blockquote support\n- Strikethrough support\n- Heading 1, 2, 3, and 4 support\n- Justification text support\n"
     }
-  ]
+  ],
+  "lastFetchedAt": "2017-05-04T17:57:45.816Z"
 }

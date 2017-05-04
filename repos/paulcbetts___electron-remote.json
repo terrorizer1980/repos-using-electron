@@ -6,7 +6,7 @@
   "owner": {
     "login": "electron-userland",
     "id": 17519142,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/17519142?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/electron-userland",
     "htmlUrl": "https://github.com/electron-userland",
@@ -36,26 +36,26 @@
   "downloadsUrl": "https://api.github.com/repos/electron-userland/electron-remote/downloads",
   "deploymentsUrl": "https://api.github.com/repos/electron-userland/electron-remote/deployments",
   "createdAt": "2016-04-27T01:53:44.000Z",
-  "updatedAt": "2016-12-30T03:14:39.000Z",
-  "pushedAt": "2016-12-22T19:23:00.000Z",
+  "updatedAt": "2017-05-03T13:36:25.000Z",
+  "pushedAt": "2017-04-05T17:50:23.000Z",
   "gitUrl": "git://github.com/electron-userland/electron-remote.git",
   "sshUrl": "git@github.com:electron-userland/electron-remote.git",
   "cloneUrl": "https://github.com/electron-userland/electron-remote.git",
   "svnUrl": "https://github.com/electron-userland/electron-remote",
   "homepage": null,
-  "size": 278,
-  "stargazersCount": 121,
-  "watchersCount": 121,
+  "size": 301,
+  "stargazersCount": 178,
+  "watchersCount": 178,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": true,
-  "forksCount": 7,
+  "forksCount": 10,
   "mirrorUrl": null,
   "openIssuesCount": 3,
   "openIssues": 3,
-  "watchers": 121,
+  "watchers": 178,
   "defaultBranch": "master",
   "permissions": {
     "admin": true,
@@ -72,7 +72,7 @@
   "organization": {
     "login": "electron-userland",
     "id": 17519142,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17519142?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/17519142?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/electron-userland",
     "htmlUrl": "https://github.com/electron-userland",
@@ -83,8 +83,8 @@
     "receivedEventsUrl": "https://api.github.com/users/electron-userland/received_events",
     "type": "Organization"
   },
-  "networkCount": 7,
-  "subscribersCount": 6,
+  "networkCount": 10,
+  "subscribersCount": 7,
   "status": 200,
   "packageJSON": {
     "name": "electron-remote",
@@ -134,10 +134,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "paulcbetts",
-    "CharlieHess"
-  ],
   "firstCommit": {
     "sha": "fc0b650ea17229189f89eb89303ff8d70a5995fa",
     "commit": {
@@ -160,5 +156,9 @@
       "commentCount": 0
     }
   },
-  "releases": []
+  "hasProjects": true,
+  "allowSquashMerge": true,
+  "allowMergeCommit": true,
+  "allowRebaseMerge": true,
+  "lastFetchedAt": "2017-05-04T19:31:04.118Z"
 }

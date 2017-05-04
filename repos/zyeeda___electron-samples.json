@@ -5,7 +5,7 @@
   "owner": {
     "login": "zyeeda",
     "id": 1826025,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1826025?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1826025?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zyeeda",
     "htmlUrl": "https://github.com/zyeeda",
@@ -17,7 +17,7 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2015-05-21T05:38:17.000Z",
   "updatedAt": "2015-05-21T08:21:48.000Z",
@@ -45,7 +45,7 @@
   "organization": {
     "login": "zyeeda",
     "id": 1826025,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1826025?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1826025?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/zyeeda",
     "htmlUrl": "https://github.com/zyeeda",
@@ -113,10 +113,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "tangrui",
-    "shiyiwang"
-  ],
   "firstCommit": {
     "sha": "b997cbde5ab671cc350c7bb032fa9eb70a4b299d",
     "commit": {
@@ -140,5 +136,26 @@
     }
   },
   "filename": "zyeeda___electron-samples.json",
-  "releases": []
+  "htmlUrl": "https://github.com/zyeeda/electron-samples",
+  "url": "https://api.github.com/repos/zyeeda/electron-samples",
+  "forksUrl": "https://api.github.com/repos/zyeeda/electron-samples/forks",
+  "teamsUrl": "https://api.github.com/repos/zyeeda/electron-samples/teams",
+  "hooksUrl": "https://api.github.com/repos/zyeeda/electron-samples/hooks",
+  "eventsUrl": "https://api.github.com/repos/zyeeda/electron-samples/events",
+  "tagsUrl": "https://api.github.com/repos/zyeeda/electron-samples/tags",
+  "languagesUrl": "https://api.github.com/repos/zyeeda/electron-samples/languages",
+  "stargazersUrl": "https://api.github.com/repos/zyeeda/electron-samples/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/zyeeda/electron-samples/contributors",
+  "subscribersUrl": "https://api.github.com/repos/zyeeda/electron-samples/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/zyeeda/electron-samples/subscription",
+  "mergesUrl": "https://api.github.com/repos/zyeeda/electron-samples/merges",
+  "downloadsUrl": "https://api.github.com/repos/zyeeda/electron-samples/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/zyeeda/electron-samples/deployments",
+  "gitUrl": "git://github.com/zyeeda/electron-samples.git",
+  "sshUrl": "git@github.com:zyeeda/electron-samples.git",
+  "cloneUrl": "https://github.com/zyeeda/electron-samples.git",
+  "svnUrl": "https://github.com/zyeeda/electron-samples",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T17:54:40.350Z"
 }

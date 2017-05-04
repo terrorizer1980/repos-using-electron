@@ -1,11 +1,11 @@
 {
-  "id": 64586803,
+  "id": 87108079,
   "name": "poloniex-watch",
   "fullName": "knoopx/poloniex-watch",
   "owner": {
     "login": "knoopx",
     "id": 100993,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/100993?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/100993?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/knoopx",
     "htmlUrl": "https://github.com/knoopx",
@@ -17,24 +17,24 @@
     "type": "User"
   },
   "private": false,
-  "description": " A desktop client for poloniex.com. Watch markets and track your orders from your menu bar.",
+  "description": "Realtime Poloniex dashboard",
   "fork": false,
-  "createdAt": "2016-07-31T09:31:41.000Z",
-  "updatedAt": "2016-11-02T13:22:03.000Z",
-  "pushedAt": "2016-11-02T13:22:02.000Z",
-  "homepage": "",
-  "size": 846,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "createdAt": "2017-04-03T18:39:05.000Z",
+  "updatedAt": "2017-05-03T01:49:23.000Z",
+  "pushedAt": "2017-04-10T16:00:17.000Z",
+  "homepage": "https://knoopx.github.io/poloniex-watch/",
+  "size": 1598,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
-  "forksCount": 1,
+  "hasPages": true,
+  "forksCount": 0,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,8 +42,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 1,
-  "subscribersCount": 1,
+  "networkCount": 0,
+  "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
     "name": "poloniex-watch",
@@ -159,9 +159,6 @@
   "cloneUrl": "https://github.com/knoopx/poloniex-watch.git",
   "svnUrl": "https://github.com/knoopx/poloniex-watch",
   "mirrorUrl": null,
-  "contributors": [
-    "knoopx"
-  ],
   "firstCommit": {
     "sha": "036c61628b0c2a613cec1963e860bf1c5030aa8c",
     "commit": {
@@ -185,124 +182,6 @@
     }
   },
   "filename": "knoopx___poloniex-watch.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/knoopx/poloniex-watch/releases/3868907",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/knoopx/poloniex-watch/releases/assets/2133433",
-          "id": 2133433,
-          "name": "Poloniex.Watch.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "knoopx",
-            "id": 100993,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/100993?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/knoopx",
-            "htmlUrl": "https://github.com/knoopx",
-            "followersUrl": "https://api.github.com/users/knoopx/followers",
-            "subscriptionsUrl": "https://api.github.com/users/knoopx/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/knoopx/orgs",
-            "reposUrl": "https://api.github.com/users/knoopx/repos",
-            "receivedEventsUrl": "https://api.github.com/users/knoopx/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 130360804,
-          "downloadCount": 30,
-          "createdAt": "2016-08-11T19:07:44.000Z",
-          "updatedAt": "2016-08-11T19:11:14.000Z",
-          "browserDownloadUrl": "https://github.com/knoopx/poloniex-watch/releases/download/v0.2.0/Poloniex.Watch.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/knoopx/poloniex-watch/releases/3868907/assets",
-      "htmlUrl": "https://github.com/knoopx/poloniex-watch/releases/tag/v0.2.0",
-      "id": 3868907,
-      "tagName": "v0.2.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "knoopx",
-        "id": 100993,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/100993?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/knoopx",
-        "htmlUrl": "https://github.com/knoopx",
-        "followersUrl": "https://api.github.com/users/knoopx/followers",
-        "subscriptionsUrl": "https://api.github.com/users/knoopx/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/knoopx/orgs",
-        "reposUrl": "https://api.github.com/users/knoopx/repos",
-        "receivedEventsUrl": "https://api.github.com/users/knoopx/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-08-03T19:30:27.000Z",
-      "publishedAt": "2016-08-11T19:17:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/knoopx/poloniex-watch/tarball/v0.2.0",
-      "zipballUrl": "https://api.github.com/repos/knoopx/poloniex-watch/zipball/v0.2.0",
-      "body": ""
-    },
-    {
-      "url": "https://api.github.com/repos/knoopx/poloniex-watch/releases/3806230",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/knoopx/poloniex-watch/releases/assets/2089272",
-          "id": 2089272,
-          "name": "Poloniex.Watch.app.zip",
-          "label": null,
-          "uploader": {
-            "login": "knoopx",
-            "id": 100993,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/100993?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/knoopx",
-            "htmlUrl": "https://github.com/knoopx",
-            "followersUrl": "https://api.github.com/users/knoopx/followers",
-            "subscriptionsUrl": "https://api.github.com/users/knoopx/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/knoopx/orgs",
-            "reposUrl": "https://api.github.com/users/knoopx/repos",
-            "receivedEventsUrl": "https://api.github.com/users/knoopx/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 130066120,
-          "downloadCount": 1,
-          "createdAt": "2016-08-03T19:33:58.000Z",
-          "updatedAt": "2016-08-03T19:37:42.000Z",
-          "browserDownloadUrl": "https://github.com/knoopx/poloniex-watch/releases/download/v0.1.0/Poloniex.Watch.app.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/knoopx/poloniex-watch/releases/3806230/assets",
-      "htmlUrl": "https://github.com/knoopx/poloniex-watch/releases/tag/v0.1.0",
-      "id": 3806230,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "",
-      "draft": false,
-      "author": {
-        "login": "knoopx",
-        "id": 100993,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/100993?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/knoopx",
-        "htmlUrl": "https://github.com/knoopx",
-        "followersUrl": "https://api.github.com/users/knoopx/followers",
-        "subscriptionsUrl": "https://api.github.com/users/knoopx/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/knoopx/orgs",
-        "reposUrl": "https://api.github.com/users/knoopx/repos",
-        "receivedEventsUrl": "https://api.github.com/users/knoopx/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-08-03T19:30:27.000Z",
-      "publishedAt": "2016-08-03T19:38:46.000Z",
-      "tarballUrl": "https://api.github.com/repos/knoopx/poloniex-watch/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/knoopx/poloniex-watch/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T19:56:19.583Z"
 }

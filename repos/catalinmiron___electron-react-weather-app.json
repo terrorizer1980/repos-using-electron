@@ -5,7 +5,7 @@
   "owner": {
     "login": "catalinmiron",
     "id": 2805320,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/2805320?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/2805320?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/catalinmiron",
     "htmlUrl": "https://github.com/catalinmiron",
@@ -20,21 +20,21 @@
   "description": "An Electron and React powered app for Weather.",
   "fork": false,
   "createdAt": "2016-07-26T19:06:16.000Z",
-  "updatedAt": "2016-08-05T02:50:52.000Z",
+  "updatedAt": "2017-04-09T16:28:51.000Z",
   "pushedAt": "2016-07-27T17:44:31.000Z",
   "homepage": null,
   "size": 54688,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "stargazersCount": 15,
+  "watchersCount": 15,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 1,
   "openIssuesCount": 1,
   "openIssues": 1,
-  "watchers": 7,
+  "watchers": 15,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -42,7 +42,7 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -167,9 +167,6 @@
   "cloneUrl": "https://github.com/catalinmiron/electron-react-weather-app.git",
   "svnUrl": "https://github.com/catalinmiron/electron-react-weather-app",
   "mirrorUrl": null,
-  "contributors": [
-    "catalinmiron"
-  ],
   "firstCommit": {
     "sha": "8163d53967e74d169e768784e17630e163d19c15",
     "commit": {
@@ -193,65 +190,6 @@
     }
   },
   "filename": "catalinmiron___electron-react-weather-app.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/catalinmiron/electron-react-weather-app/releases/3745021",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/catalinmiron/electron-react-weather-app/releases/assets/2049974",
-          "id": 2049974,
-          "name": "WeatheReact-1.0.0-osx.dmg",
-          "label": null,
-          "uploader": {
-            "login": "catalinmiron",
-            "id": 2805320,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/2805320?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/catalinmiron",
-            "htmlUrl": "https://github.com/catalinmiron",
-            "followersUrl": "https://api.github.com/users/catalinmiron/followers",
-            "subscriptionsUrl": "https://api.github.com/users/catalinmiron/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/catalinmiron/orgs",
-            "reposUrl": "https://api.github.com/users/catalinmiron/repos",
-            "receivedEventsUrl": "https://api.github.com/users/catalinmiron/received_events",
-            "type": "User"
-          },
-          "contentType": "application/octet-stream",
-          "state": "uploaded",
-          "size": 72673057,
-          "downloadCount": 2,
-          "createdAt": "2016-07-26T21:09:32.000Z",
-          "updatedAt": "2016-07-26T21:16:01.000Z",
-          "browserDownloadUrl": "https://github.com/catalinmiron/electron-react-weather-app/releases/download/1.0/WeatheReact-1.0.0-osx.dmg"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/catalinmiron/electron-react-weather-app/releases/3745021/assets",
-      "htmlUrl": "https://github.com/catalinmiron/electron-react-weather-app/releases/tag/1.0",
-      "id": 3745021,
-      "tagName": "1.0",
-      "targetCommitish": "master",
-      "name": "Version 1.0",
-      "draft": false,
-      "author": {
-        "login": "catalinmiron",
-        "id": 2805320,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/2805320?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/catalinmiron",
-        "htmlUrl": "https://github.com/catalinmiron",
-        "followersUrl": "https://api.github.com/users/catalinmiron/followers",
-        "subscriptionsUrl": "https://api.github.com/users/catalinmiron/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/catalinmiron/orgs",
-        "reposUrl": "https://api.github.com/users/catalinmiron/repos",
-        "receivedEventsUrl": "https://api.github.com/users/catalinmiron/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-07-26T21:02:49.000Z",
-      "publishedAt": "2016-07-26T21:04:14.000Z",
-      "tarballUrl": "https://api.github.com/repos/catalinmiron/electron-react-weather-app/tarball/1.0",
-      "zipballUrl": "https://api.github.com/repos/catalinmiron/electron-react-weather-app/zipball/1.0",
-      "body": "### WeatheReact v1.0\n\n![background](https://cloud.githubusercontent.com/assets/2805320/17155344/60b692e2-538d-11e6-8f32-8f7132b9cecd.png)\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:51:23.765Z"
 }

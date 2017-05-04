@@ -6,7 +6,7 @@
   "owner": {
     "login": "socialbase",
     "id": 10221933,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10221933?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/10221933?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/socialbase",
     "htmlUrl": "https://github.com/socialbase",
@@ -66,7 +66,7 @@
   "organization": {
     "login": "socialbase",
     "id": 10221933,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10221933?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/10221933?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/socialbase",
     "htmlUrl": "https://github.com/socialbase",
@@ -84,7 +84,7 @@
     "owner": {
       "login": "matheuslc",
       "id": 4161171,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4161171?v=3",
+      "avatarUrl": "https://avatars0.githubusercontent.com/u/4161171?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/matheuslc",
       "htmlUrl": "https://github.com/matheuslc",
@@ -126,6 +126,7 @@
     "watchersCount": 0,
     "language": "JavaScript",
     "hasIssues": false,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": false,
@@ -143,7 +144,7 @@
     "owner": {
       "login": "angular-macgyver",
       "id": 4999275,
-      "avatarUrl": "https://avatars.githubusercontent.com/u/4999275?v=3",
+      "avatarUrl": "https://avatars1.githubusercontent.com/u/4999275?v=3",
       "gravatarId": "",
       "url": "https://api.github.com/users/angular-macgyver",
       "htmlUrl": "https://github.com/angular-macgyver",
@@ -174,24 +175,25 @@
     "deploymentsUrl": "https://api.github.com/repos/angular-macgyver/MacGyver/deployments",
     "createdAt": "2014-09-24T21:15:42.000Z",
     "updatedAt": "2016-11-09T03:53:48.000Z",
-    "pushedAt": "2016-10-19T08:17:07.000Z",
+    "pushedAt": "2016-12-18T09:45:59.000Z",
     "gitUrl": "git://github.com/angular-macgyver/MacGyver.git",
     "sshUrl": "git@github.com:angular-macgyver/MacGyver.git",
     "cloneUrl": "https://github.com/angular-macgyver/MacGyver.git",
     "svnUrl": "https://github.com/angular-macgyver/MacGyver",
     "homepage": "http://angular-macgyver.github.io/MacGyver",
-    "size": 8136,
+    "size": 8094,
     "stargazersCount": 61,
     "watchersCount": 61,
     "language": "JavaScript",
     "hasIssues": true,
+    "hasProjects": true,
     "hasDownloads": true,
     "hasWiki": true,
     "hasPages": true,
     "forksCount": 21,
     "mirrorUrl": null,
-    "openIssuesCount": 9,
-    "openIssues": 9,
+    "openIssuesCount": 7,
+    "openIssues": 7,
     "watchers": 61,
     "defaultBranch": "master"
   },
@@ -249,22 +251,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "adrianlee44",
-    "colinkahn",
-    "monoclefox",
-    "ilyakam",
-    "chemoish",
-    "cyborgspider",
-    "cjcenizal",
-    "matheuslc",
-    "danersc",
-    "Foxandxss",
-    "kastork",
-    "martinburger",
-    "xaviershay",
-    "ifitzpatrick"
-  ],
   "firstCommit": {
     "sha": "2f22a8a471df9373aa8bd9c531a47bbc65c6dbe6",
     "commit": {
@@ -288,5 +274,6 @@
     }
   },
   "sourceRepo": "angular-macgyver/MacGyver",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T16:44:42.762Z"
 }

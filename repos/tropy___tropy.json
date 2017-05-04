@@ -5,7 +5,7 @@
   "owner": {
     "login": "tropy",
     "id": 12413946,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12413946?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12413946?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tropy",
     "htmlUrl": "https://github.com/tropy",
@@ -17,24 +17,24 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "Image Management for Researchers and Archives",
+  "description": "Research photo management",
   "fork": false,
   "createdAt": "2015-11-03T21:29:09.000Z",
-  "updatedAt": "2016-08-07T14:30:42.000Z",
-  "pushedAt": "2016-08-12T22:27:13.000Z",
-  "homepage": "",
-  "size": 48466,
-  "stargazersCount": 7,
-  "watchersCount": 7,
+  "updatedAt": "2017-05-03T16:45:04.000Z",
+  "pushedAt": "2017-05-04T16:16:04.000Z",
+  "homepage": "https://tropy.org",
+  "size": 61617,
+  "stargazersCount": 33,
+  "watchersCount": 33,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 7,
+  "forksCount": 3,
+  "openIssuesCount": 13,
+  "openIssues": 13,
+  "watchers": 33,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -51,7 +51,7 @@
   "organization": {
     "login": "tropy",
     "id": 12413946,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/12413946?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/12413946?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/tropy",
     "htmlUrl": "https://github.com/tropy",
@@ -62,8 +62,8 @@
     "receivedEventsUrl": "https://api.github.com/users/tropy/received_events",
     "type": "Organization"
   },
-  "networkCount": 0,
-  "subscribersCount": 8,
+  "networkCount": 3,
+  "subscribersCount": 12,
   "status": 200,
   "packageJSON": {
     "name": "tropy",
@@ -165,10 +165,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "inukshuk",
-    "johanneskrtek"
-  ],
   "firstCommit": {
     "sha": "9010f632fbc940aa0862a359a8546189709ae7d2",
     "commit": {
@@ -192,5 +188,26 @@
     }
   },
   "filename": "tropy___tropy.json",
-  "releases": []
+  "htmlUrl": "https://github.com/tropy/tropy",
+  "url": "https://api.github.com/repos/tropy/tropy",
+  "forksUrl": "https://api.github.com/repos/tropy/tropy/forks",
+  "teamsUrl": "https://api.github.com/repos/tropy/tropy/teams",
+  "hooksUrl": "https://api.github.com/repos/tropy/tropy/hooks",
+  "eventsUrl": "https://api.github.com/repos/tropy/tropy/events",
+  "tagsUrl": "https://api.github.com/repos/tropy/tropy/tags",
+  "languagesUrl": "https://api.github.com/repos/tropy/tropy/languages",
+  "stargazersUrl": "https://api.github.com/repos/tropy/tropy/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/tropy/tropy/contributors",
+  "subscribersUrl": "https://api.github.com/repos/tropy/tropy/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/tropy/tropy/subscription",
+  "mergesUrl": "https://api.github.com/repos/tropy/tropy/merges",
+  "downloadsUrl": "https://api.github.com/repos/tropy/tropy/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/tropy/tropy/deployments",
+  "gitUrl": "git://github.com/tropy/tropy.git",
+  "sshUrl": "git@github.com:tropy/tropy.git",
+  "cloneUrl": "https://github.com/tropy/tropy.git",
+  "svnUrl": "https://github.com/tropy/tropy",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T16:46:07.801Z"
 }

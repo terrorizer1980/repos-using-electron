@@ -5,7 +5,7 @@
   "owner": {
     "login": "michaeljota",
     "id": 10507776,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/10507776?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/10507776?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/michaeljota",
     "htmlUrl": "https://github.com/michaeljota",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/michaeljota/angular2-ultimate-starter/downloads",
   "deploymentsUrl": "https://api.github.com/repos/michaeljota/angular2-ultimate-starter/deployments",
   "createdAt": "2016-11-06T23:41:34.000Z",
-  "updatedAt": "2016-11-06T23:51:31.000Z",
-  "pushedAt": "2016-11-13T18:14:38.000Z",
+  "updatedAt": "2017-03-12T09:53:26.000Z",
+  "pushedAt": "2017-01-31T14:11:37.000Z",
   "gitUrl": "git://github.com/michaeljota/angular2-ultimate-starter.git",
   "sshUrl": "git@github.com:michaeljota/angular2-ultimate-starter.git",
   "cloneUrl": "https://github.com/michaeljota/angular2-ultimate-starter.git",
   "svnUrl": "https://github.com/michaeljota/angular2-ultimate-starter",
-  "homepage": "",
-  "size": 266,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "homepage": "https://michaeljota.github.io/angular2-ultimate-starter/",
+  "size": 2322,
+  "stargazersCount": 6,
+  "watchersCount": 6,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
-  "forksCount": 0,
+  "hasPages": true,
+  "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
-  "watchers": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
+  "watchers": 6,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,7 +68,7 @@
     "url": "https://api.github.com/licenses/mit",
     "featured": true
   },
-  "networkCount": 0,
+  "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
@@ -230,7 +230,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [],
   "firstCommit": {
     "sha": "e1c93c053c48bdc484d98f15a0d60634b1af51eb",
     "commit": {
@@ -254,37 +253,6 @@
     }
   },
   "filename": "michaeljota___angular2-ultimate-starter.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/michaeljota/angular2-ultimate-starter/releases/4709175",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/michaeljota/angular2-ultimate-starter/releases/4709175/assets",
-      "htmlUrl": "https://github.com/michaeljota/angular2-ultimate-starter/releases/tag/v0.0.2",
-      "id": 4709175,
-      "tagName": "v0.0.2",
-      "targetCommitish": "master",
-      "name": "destruct-inator",
-      "draft": false,
-      "author": {
-        "login": "michaeljota",
-        "id": 10507776,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/10507776?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/michaeljota",
-        "htmlUrl": "https://github.com/michaeljota",
-        "followersUrl": "https://api.github.com/users/michaeljota/followers",
-        "subscriptionsUrl": "https://api.github.com/users/michaeljota/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/michaeljota/orgs",
-        "reposUrl": "https://api.github.com/users/michaeljota/repos",
-        "receivedEventsUrl": "https://api.github.com/users/michaeljota/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-11-20T13:50:21.000Z",
-      "publishedAt": "2016-11-20T14:02:34.000Z",
-      "tarballUrl": "https://api.github.com/repos/michaeljota/angular2-ultimate-starter/tarball/v0.0.2",
-      "zipballUrl": "https://api.github.com/repos/michaeljota/angular2-ultimate-starter/zipball/v0.0.2",
-      "body": "<a name=\"0.0.2\"></a>\n\n## 0.0.2 (2016-11-20)\n\n# Destruct-inator\n\n### Features\n- **module:** add ng2-responsive ([22b0aff](https://github.com/michaeljota/angular2-ultimate-starter/commit/22b0aff))\n- **package:** add node-sass, sass-loader, and base64-inline-loader. ([7a516c3](https://github.com/michaeljota/angular2-ultimate-starter/commit/7a516c3))\n- **webpack:** configure loaders for scss, css and fonts files. ([d2cfce9](https://github.com/michaeljota/angular2-ultimate-starter/commit/d2cfce9))\n\n### Notes\n- First release with changelog\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T06:01:35.585Z"
 }

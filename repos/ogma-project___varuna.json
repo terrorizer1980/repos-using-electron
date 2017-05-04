@@ -5,7 +5,7 @@
   "owner": {
     "login": "ogma-project",
     "id": 17516268,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17516268?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17516268?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ogma-project",
     "htmlUrl": "https://github.com/ogma-project",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/ogma-project/varuna/deployments",
   "createdAt": "2016-10-21T18:58:14.000Z",
   "updatedAt": "2016-10-21T18:59:46.000Z",
-  "pushedAt": "2016-10-30T09:58:16.000Z",
+  "pushedAt": "2016-11-07T20:24:58.000Z",
   "gitUrl": "git://github.com/ogma-project/varuna.git",
   "sshUrl": "git@github.com:ogma-project/varuna.git",
   "cloneUrl": "https://github.com/ogma-project/varuna.git",
   "svnUrl": "https://github.com/ogma-project/varuna",
   "homepage": null,
-  "size": 23,
+  "size": 22,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "PureScript",
@@ -52,8 +52,8 @@
   "hasPages": false,
   "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 0,
-  "openIssues": 0,
+  "openIssuesCount": 1,
+  "openIssues": 1,
   "watchers": 0,
   "defaultBranch": "master",
   "permissions": {
@@ -65,7 +65,7 @@
   "organization": {
     "login": "ogma-project",
     "id": 17516268,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/17516268?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/17516268?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/ogma-project",
     "htmlUrl": "https://github.com/ogma-project",
@@ -107,9 +107,6 @@
     "private": true
   },
   "packageStatus": 200,
-  "contributors": [
-    "lethom"
-  ],
   "firstCommit": {
     "sha": "f581bd82cdad438f4a41496483ea68d594756f69",
     "commit": {
@@ -133,5 +130,6 @@
     }
   },
   "filename": "ogma-project___varuna.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:34:23.220Z"
 }

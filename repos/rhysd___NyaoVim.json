@@ -5,7 +5,7 @@
   "owner": {
     "login": "rhysd",
     "id": 823277,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/823277?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/rhysd",
     "htmlUrl": "https://github.com/rhysd",
@@ -20,21 +20,21 @@
   "description": "Web-enhanced Extensible Neovim Frontend",
   "fork": false,
   "createdAt": "2015-10-23T18:08:11.000Z",
-  "updatedAt": "2016-11-05T05:53:23.000Z",
-  "pushedAt": "2016-10-26T06:51:56.000Z",
+  "updatedAt": "2017-05-04T07:29:14.000Z",
+  "pushedAt": "2017-05-04T15:33:44.000Z",
   "homepage": "",
-  "size": 8397,
-  "stargazersCount": 1373,
-  "watchersCount": 1373,
+  "size": 8391,
+  "stargazersCount": 1629,
+  "watchersCount": 1629,
   "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 36,
-  "openIssuesCount": 28,
-  "openIssues": 28,
-  "watchers": 1373,
+  "forksCount": 42,
+  "openIssuesCount": 39,
+  "openIssues": 39,
+  "watchers": 1629,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -48,8 +48,8 @@
     "url": null,
     "featured": false
   },
-  "networkCount": 36,
-  "subscribersCount": 50,
+  "networkCount": 42,
+  "subscribersCount": 57,
   "status": 200,
   "packageJSON": {
     "name": "nyaovim",
@@ -127,15 +127,6 @@
   "cloneUrl": "https://github.com/rhysd/NyaoVim.git",
   "svnUrl": "https://github.com/rhysd/NyaoVim",
   "mirrorUrl": null,
-  "contributors": [
-    "rhysd",
-    "haifengkao",
-    "e-jigsaw",
-    "autozimu",
-    "munyari",
-    "chemzqm",
-    "miyakogi"
-  ],
   "firstCommit": {
     "sha": "b0798dc8318284c2662dc34237bf0c784549f483",
     "commit": {
@@ -159,65 +150,6 @@
     }
   },
   "filename": "rhysd___NyaoVim.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/rhysd/NyaoVim/releases/2342671",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/rhysd/NyaoVim/releases/assets/2400953",
-          "id": 2400953,
-          "name": "NyaoVim-darwin-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "rhysd",
-            "id": 823277,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/rhysd",
-            "htmlUrl": "https://github.com/rhysd",
-            "followersUrl": "https://api.github.com/users/rhysd/followers",
-            "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-            "reposUrl": "https://api.github.com/users/rhysd/repos",
-            "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 44226121,
-          "downloadCount": 518,
-          "createdAt": "2016-09-30T02:40:43.000Z",
-          "updatedAt": "2016-09-30T02:40:52.000Z",
-          "browserDownloadUrl": "https://github.com/rhysd/NyaoVim/releases/download/pre-alpha/NyaoVim-darwin-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/rhysd/NyaoVim/releases/2342671/assets",
-      "htmlUrl": "https://github.com/rhysd/NyaoVim/releases/tag/pre-alpha",
-      "id": 2342671,
-      "tagName": "pre-alpha",
-      "targetCommitish": "master",
-      "name": "Experimental pre-alpha release (v0.0.22)",
-      "draft": false,
-      "author": {
-        "login": "rhysd",
-        "id": 823277,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/823277?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/rhysd",
-        "htmlUrl": "https://github.com/rhysd",
-        "followersUrl": "https://api.github.com/users/rhysd/followers",
-        "subscriptionsUrl": "https://api.github.com/users/rhysd/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/rhysd/orgs",
-        "reposUrl": "https://api.github.com/users/rhysd/repos",
-        "receivedEventsUrl": "https://api.github.com/users/rhysd/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2015-12-26T18:29:05.000Z",
-      "publishedAt": "2015-12-26T18:48:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/rhysd/NyaoVim/tarball/pre-alpha",
-      "zipballUrl": "https://api.github.com/repos/rhysd/NyaoVim/zipball/pre-alpha",
-      "body": "**Please use npm package for now**\n\n![2015-12-27 3 41 07](https://cloud.githubusercontent.com/assets/823277/12007526/15b76ab6-ac4c-11e5-92ef-4551c8caad01.png)\n\nExperimental pre-alpha release mainly for check after packaging.  I only release app for my environment (darwin, x64) and it may be older than npm package.  \nBinary here will be dynamically updated.\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:11:35.301Z"
 }

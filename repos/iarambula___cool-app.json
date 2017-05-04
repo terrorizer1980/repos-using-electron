@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "cool-app",
     "version": "1.0.0",
@@ -84,12 +84,6 @@
     "devDependencies": {
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.2"
-    },
-    "other": {
-      "author": "Ivan Arambula",
-      "bugs": {
-        "url": "https://github.com/iarambula/cool-app/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -118,5 +112,6 @@
       "commentCount": 0
     }
   },
-  "filename": "iarambula___cool-app.json"
+  "filename": "iarambula___cool-app.json",
+  "lastFetchedAt": "2017-05-04T05:20:17.363Z"
 }

@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "kitty_diagramming",
     "version": "1.0.0",
@@ -93,9 +93,6 @@
       "electron-prebuilt": "^1.0.1",
       "style-loader": "^0.13.1",
       "webpack": "^1.13.0"
-    },
-    "other": {
-      "author": "Paul-Yves Lucas"
     }
   },
   "packageStatus": 200,
@@ -124,5 +121,6 @@
       "commentCount": 0
     }
   },
-  "filename": "Paul-Yves___kittyDiagramming.json"
+  "filename": "Paul-Yves___kittyDiagramming.json",
+  "lastFetchedAt": "2017-05-04T18:30:52.548Z"
 }

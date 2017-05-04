@@ -5,7 +5,7 @@
   "owner": {
     "login": "sozercan",
     "id": 852750,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/852750?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/852750?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/sozercan",
     "htmlUrl": "https://github.com/sozercan",
@@ -36,13 +36,13 @@
   "deploymentsUrl": "https://api.github.com/repos/sozercan/manifoldjs-win32/deployments",
   "createdAt": "2016-07-25T23:35:20.000Z",
   "updatedAt": "2016-07-28T21:03:41.000Z",
-  "pushedAt": "2016-07-28T21:03:40.000Z",
+  "pushedAt": "2017-04-13T18:59:36.000Z",
   "gitUrl": "git://github.com/sozercan/manifoldjs-win32.git",
   "sshUrl": "git@github.com:sozercan/manifoldjs-win32.git",
   "cloneUrl": "https://github.com/sozercan/manifoldjs-win32.git",
   "svnUrl": "https://github.com/sozercan/manifoldjs-win32",
   "homepage": null,
-  "size": 7,
+  "size": 31,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "JavaScript",
@@ -50,7 +50,7 @@
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 0,
+  "forksCount": 2,
   "mirrorUrl": null,
   "openIssuesCount": 1,
   "openIssues": 1,
@@ -62,8 +62,8 @@
     "pull": true
   },
   "license": null,
-  "networkCount": 0,
-  "subscribersCount": 0,
+  "networkCount": 2,
+  "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
     "name": "manifoldjs-win32",
@@ -117,22 +117,9 @@
       "test": "grunt",
       "debug-tests": "mocha test/**/*.js --debug-brk"
     },
-    "homepage": "https://github.com/sozercan/manifoldjs-win32",
-    "other": {
-      "author": {
-        "name": "Sertac Ozercan",
-        "email": "sozercan@gmail.com",
-        "url": "http://sertacozercan.com"
-      },
-      "bugs": {
-        "url": "https://github.com/sozercan/manifoldjs-win32/issues"
-      }
-    }
+    "homepage": "https://github.com/sozercan/manifoldjs-win32"
   },
   "packageStatus": 200,
-  "contributors": [
-    "sozercan"
-  ],
   "firstCommit": {
     "sha": "ca0f0827d7bf51a1abf05fdd23dbe3bb6a49e5b2",
     "commit": {
@@ -156,5 +143,6 @@
     }
   },
   "filename": "sozercan___manifoldjs-win32.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T05:37:00.840Z"
 }

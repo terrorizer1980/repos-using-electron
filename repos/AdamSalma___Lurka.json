@@ -5,7 +5,7 @@
   "owner": {
     "login": "AdamSalma",
     "id": 19699110,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/19699110?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/19699110?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/AdamSalma",
     "htmlUrl": "https://github.com/AdamSalma",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/AdamSalma/Lurka",
-  "description": "A unified desktop app for viewing online messaging boards such as 4chan, reddit, and imgur",
+  "description": "4chan desktop application",
   "fork": false,
   "url": "https://api.github.com/repos/AdamSalma/Lurka",
   "forksUrl": "https://api.github.com/repos/AdamSalma/Lurka/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/AdamSalma/Lurka/downloads",
   "deploymentsUrl": "https://api.github.com/repos/AdamSalma/Lurka/deployments",
   "createdAt": "2016-06-02T01:00:29.000Z",
-  "updatedAt": "2016-10-29T00:47:42.000Z",
-  "pushedAt": "2016-11-15T20:40:03.000Z",
+  "updatedAt": "2017-01-30T15:09:39.000Z",
+  "pushedAt": "2017-05-03T20:38:41.000Z",
   "gitUrl": "git://github.com/AdamSalma/Lurka.git",
   "sshUrl": "git@github.com:AdamSalma/Lurka.git",
   "cloneUrl": "https://github.com/AdamSalma/Lurka.git",
   "svnUrl": "https://github.com/AdamSalma/Lurka",
   "homepage": "",
-  "size": 4065,
-  "stargazersCount": 0,
-  "watchersCount": 0,
+  "size": 5002,
+  "stargazersCount": 1,
+  "watchersCount": 1,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -54,7 +54,7 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 0,
+  "watchers": 1,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -62,11 +62,11 @@
     "pull": true
   },
   "license": {
-    "key": "other",
-    "name": "Other",
-    "spdxId": null,
-    "url": null,
-    "featured": false
+    "key": "mit",
+    "name": "MIT License",
+    "spdxId": "MIT",
+    "url": "https://api.github.com/licenses/mit",
+    "featured": true
   },
   "networkCount": 0,
   "subscribersCount": 1,
@@ -137,9 +137,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "AdamSalma"
-  ],
   "firstCommit": {
     "sha": "64836269098e0fdae00ae432e15f5399df89fb8c",
     "commit": {
@@ -163,5 +160,6 @@
     }
   },
   "filename": "AdamSalma___Lurka.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T21:01:40.569Z"
 }

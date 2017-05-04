@@ -64,7 +64,7 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "status": 200,
+  "status": 404,
   "packageJSON": {
     "name": "MagicBox",
     "version": "0.0.0",
@@ -79,7 +79,6 @@
       "music",
       "player"
     ],
-    "author": "PDD",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -122,10 +121,15 @@
       "redux-electron-store": "^0.3.10",
       "redux-thunk": "^1.0.3",
       "underscore": "^1.8.3"
+    },
+    "other": {
+      "author": "PDD"
     }
   },
   "packageStatus": 200,
   "contributors": [
     "chunmu"
-  ]
+  ],
+  "filename": "chunmu___query.json",
+  "lastFetchedAt": "2017-05-04T18:00:50.323Z"
 }

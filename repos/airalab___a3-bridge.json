@@ -5,7 +5,7 @@
   "owner": {
     "login": "airalab",
     "id": 13998040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13998040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/13998040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/airalab",
     "htmlUrl": "https://github.com/airalab",
@@ -17,11 +17,11 @@
     "type": "Organization"
   },
   "private": false,
-  "description": "",
+  "description": null,
   "fork": false,
   "createdAt": "2016-04-06T06:33:32.000Z",
   "updatedAt": "2016-04-19T12:47:59.000Z",
-  "pushedAt": "2016-05-26T11:42:51.000Z",
+  "pushedAt": "2017-01-20T07:06:35.000Z",
   "homepage": null,
   "size": 67927,
   "stargazersCount": 0,
@@ -42,16 +42,16 @@
     "pull": true
   },
   "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
+    "key": "bsd-3-clause",
+    "name": "BSD 3-clause \"New\" or \"Revised\" License",
+    "spdxId": "BSD-3-Clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "featured": false
   },
   "organization": {
     "login": "airalab",
     "id": 13998040,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/13998040?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/13998040?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/airalab",
     "htmlUrl": "https://github.com/airalab",
@@ -63,7 +63,7 @@
     "type": "Organization"
   },
   "networkCount": 1,
-  "subscribersCount": 2,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "a3",
@@ -94,11 +94,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "vol4tim",
-    "ensrationis",
-    "gitter-badger"
-  ],
   "firstCommit": {
     "sha": "3ea0aa6ae3d67c09d3dcb54c2af64153b985564c",
     "commit": {
@@ -122,65 +117,26 @@
     }
   },
   "filename": "airalab___a3-bridge.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/airalab/a3-bridge/releases/3059306",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/airalab/a3-bridge/releases/assets/1575099",
-          "id": 1575099,
-          "name": "a3-win32-x64.zip",
-          "label": null,
-          "uploader": {
-            "login": "ensrationis",
-            "id": 14291169,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/14291169?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/ensrationis",
-            "htmlUrl": "https://github.com/ensrationis",
-            "followersUrl": "https://api.github.com/users/ensrationis/followers",
-            "subscriptionsUrl": "https://api.github.com/users/ensrationis/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/ensrationis/orgs",
-            "reposUrl": "https://api.github.com/users/ensrationis/repos",
-            "receivedEventsUrl": "https://api.github.com/users/ensrationis/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 55709352,
-          "downloadCount": 3,
-          "createdAt": "2016-04-20T11:42:07.000Z",
-          "updatedAt": "2016-04-20T11:43:06.000Z",
-          "browserDownloadUrl": "https://github.com/airalab/a3-bridge/releases/download/v0.1.0/a3-win32-x64.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/airalab/a3-bridge/releases/3059306/assets",
-      "htmlUrl": "https://github.com/airalab/a3-bridge/releases/tag/v0.1.0",
-      "id": 3059306,
-      "tagName": "v0.1.0",
-      "targetCommitish": "master",
-      "name": "Win release only",
-      "draft": false,
-      "author": {
-        "login": "ensrationis",
-        "id": 14291169,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/14291169?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/ensrationis",
-        "htmlUrl": "https://github.com/ensrationis",
-        "followersUrl": "https://api.github.com/users/ensrationis/followers",
-        "subscriptionsUrl": "https://api.github.com/users/ensrationis/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/ensrationis/orgs",
-        "reposUrl": "https://api.github.com/users/ensrationis/repos",
-        "receivedEventsUrl": "https://api.github.com/users/ensrationis/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-04-20T08:03:25.000Z",
-      "publishedAt": "2016-04-21T07:31:40.000Z",
-      "tarballUrl": "https://api.github.com/repos/airalab/a3-bridge/tarball/v0.1.0",
-      "zipballUrl": "https://api.github.com/repos/airalab/a3-bridge/zipball/v0.1.0",
-      "body": ""
-    }
-  ]
+  "htmlUrl": "https://github.com/airalab/a3-bridge",
+  "url": "https://api.github.com/repos/airalab/a3-bridge",
+  "forksUrl": "https://api.github.com/repos/airalab/a3-bridge/forks",
+  "teamsUrl": "https://api.github.com/repos/airalab/a3-bridge/teams",
+  "hooksUrl": "https://api.github.com/repos/airalab/a3-bridge/hooks",
+  "eventsUrl": "https://api.github.com/repos/airalab/a3-bridge/events",
+  "tagsUrl": "https://api.github.com/repos/airalab/a3-bridge/tags",
+  "languagesUrl": "https://api.github.com/repos/airalab/a3-bridge/languages",
+  "stargazersUrl": "https://api.github.com/repos/airalab/a3-bridge/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/airalab/a3-bridge/contributors",
+  "subscribersUrl": "https://api.github.com/repos/airalab/a3-bridge/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/airalab/a3-bridge/subscription",
+  "mergesUrl": "https://api.github.com/repos/airalab/a3-bridge/merges",
+  "downloadsUrl": "https://api.github.com/repos/airalab/a3-bridge/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/airalab/a3-bridge/deployments",
+  "gitUrl": "git://github.com/airalab/a3-bridge.git",
+  "sshUrl": "git@github.com:airalab/a3-bridge.git",
+  "cloneUrl": "https://github.com/airalab/a3-bridge.git",
+  "svnUrl": "https://github.com/airalab/a3-bridge",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T19:34:54.137Z"
 }

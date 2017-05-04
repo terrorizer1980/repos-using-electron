@@ -5,7 +5,7 @@
   "owner": {
     "login": "hypermodules",
     "id": 16354492,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16354492?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16354492?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hypermodules",
     "htmlUrl": "https://github.com/hypermodules",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/hypermodules/hyperamp",
-  "description": ":construction: A humble music library",
+  "description": ":construction: A humble music player",
   "fork": false,
   "url": "https://api.github.com/repos/hypermodules/hyperamp",
   "forksUrl": "https://api.github.com/repos/hypermodules/hyperamp/forks",
@@ -35,16 +35,16 @@
   "downloadsUrl": "https://api.github.com/repos/hypermodules/hyperamp/downloads",
   "deploymentsUrl": "https://api.github.com/repos/hypermodules/hyperamp/deployments",
   "createdAt": "2016-07-30T22:22:44.000Z",
-  "updatedAt": "2016-11-03T14:48:56.000Z",
-  "pushedAt": "2016-11-16T20:44:22.000Z",
+  "updatedAt": "2017-04-28T00:09:32.000Z",
+  "pushedAt": "2017-05-04T00:44:36.000Z",
   "gitUrl": "git://github.com/hypermodules/hyperamp.git",
   "sshUrl": "git@github.com:hypermodules/hyperamp.git",
   "cloneUrl": "https://github.com/hypermodules/hyperamp.git",
   "svnUrl": "https://github.com/hypermodules/hyperamp",
   "homepage": "",
-  "size": 703,
-  "stargazersCount": 10,
-  "watchersCount": 10,
+  "size": 3379,
+  "stargazersCount": 43,
+  "watchersCount": 43,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
@@ -52,20 +52,26 @@
   "hasPages": false,
   "forksCount": 1,
   "mirrorUrl": null,
-  "openIssuesCount": 9,
-  "openIssues": 9,
-  "watchers": 10,
+  "openIssuesCount": 14,
+  "openIssues": 14,
+  "watchers": 43,
   "defaultBranch": "master",
   "permissions": {
-    "admin": false,
-    "push": false,
+    "admin": true,
+    "push": true,
     "pull": true
   },
-  "license": null,
+  "license": {
+    "key": "isc",
+    "name": "ISC License",
+    "spdxId": "ISC",
+    "url": "https://api.github.com/licenses/isc",
+    "featured": false
+  },
   "organization": {
     "login": "hypermodules",
     "id": 16354492,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/16354492?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/16354492?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/hypermodules",
     "htmlUrl": "https://github.com/hypermodules",
@@ -80,11 +86,6 @@
   "subscribersCount": 3,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "ungoldman",
-    "bcomnes",
-    "greenkeeperio-bot"
-  ],
   "firstCommit": {
     "sha": "0e020985a63d99fa2b15498e35ecb70b3a8636fc",
     "commit": {
@@ -108,5 +109,9 @@
     }
   },
   "filename": "hypermodules___hyperamp.json",
-  "releases": []
+  "hasProjects": true,
+  "allowSquashMerge": true,
+  "allowMergeCommit": true,
+  "allowRebaseMerge": true,
+  "lastFetchedAt": "2017-05-04T16:45:17.668Z"
 }

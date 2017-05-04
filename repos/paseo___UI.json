@@ -5,7 +5,7 @@
   "owner": {
     "login": "paseo",
     "id": 4105545,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/4105545?v=3",
+    "avatarUrl": "https://avatars1.githubusercontent.com/u/4105545?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/paseo",
     "htmlUrl": "https://github.com/paseo",
@@ -133,9 +133,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "paseo"
-  ],
   "firstCommit": {
     "sha": "ad8c363249d4727af38f3e8a5e2771121b07b056",
     "commit": {
@@ -159,37 +156,6 @@
     }
   },
   "filename": "paseo___UI.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/paseo/UI/releases/2742961",
-      "assets": [],
-      "assetsUrl": "https://api.github.com/repos/paseo/UI/releases/2742961/assets",
-      "htmlUrl": "https://github.com/paseo/UI/releases/tag/1.0",
-      "id": 2742961,
-      "tagName": "1.0",
-      "targetCommitish": "master",
-      "name": "v1.0",
-      "draft": false,
-      "author": {
-        "login": "paseo",
-        "id": 4105545,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4105545?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/paseo",
-        "htmlUrl": "https://github.com/paseo",
-        "followersUrl": "https://api.github.com/users/paseo/followers",
-        "subscriptionsUrl": "https://api.github.com/users/paseo/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/paseo/orgs",
-        "reposUrl": "https://api.github.com/users/paseo/repos",
-        "receivedEventsUrl": "https://api.github.com/users/paseo/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-02-08T07:59:26.000Z",
-      "publishedAt": "2016-03-04T09:26:22.000Z",
-      "tarballUrl": "https://api.github.com/repos/paseo/UI/tarball/1.0",
-      "zipballUrl": "https://api.github.com/repos/paseo/UI/zipball/1.0",
-      "body": ""
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T20:00:03.020Z"
 }

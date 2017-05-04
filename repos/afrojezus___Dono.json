@@ -5,7 +5,7 @@
   "owner": {
     "login": "afrojezus",
     "id": 8195155,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/8195155?v=3",
+    "avatarUrl": "https://avatars3.githubusercontent.com/u/8195155?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/afrojezus",
     "htmlUrl": "https://github.com/afrojezus",
@@ -18,7 +18,7 @@
   },
   "private": false,
   "htmlUrl": "https://github.com/afrojezus/Dono",
-  "description": "anime player",
+  "description": "outdated, check out 'yura' instead",
   "fork": false,
   "url": "https://api.github.com/repos/afrojezus/Dono",
   "forksUrl": "https://api.github.com/repos/afrojezus/Dono/forks",
@@ -35,21 +35,21 @@
   "downloadsUrl": "https://api.github.com/repos/afrojezus/Dono/downloads",
   "deploymentsUrl": "https://api.github.com/repos/afrojezus/Dono/deployments",
   "createdAt": "2016-11-06T13:59:01.000Z",
-  "updatedAt": "2016-11-06T18:35:21.000Z",
-  "pushedAt": "2016-11-16T23:02:08.000Z",
+  "updatedAt": "2017-04-07T20:40:47.000Z",
+  "pushedAt": "2017-03-14T21:00:18.000Z",
   "gitUrl": "git://github.com/afrojezus/Dono.git",
   "sshUrl": "git@github.com:afrojezus/Dono.git",
   "cloneUrl": "https://github.com/afrojezus/Dono.git",
   "svnUrl": "https://github.com/afrojezus/Dono",
-  "homepage": null,
-  "size": 60881,
+  "homepage": "",
+  "size": 73203,
   "stargazersCount": 0,
   "watchersCount": 0,
   "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
-  "hasPages": false,
+  "hasPages": true,
   "forksCount": 0,
   "mirrorUrl": null,
   "openIssuesCount": 0,
@@ -69,7 +69,7 @@
     "featured": false
   },
   "networkCount": 0,
-  "subscribersCount": 1,
+  "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
     "name": "dono",
@@ -92,9 +92,6 @@
     }
   },
   "packageStatus": 200,
-  "contributors": [
-    "afrojezus"
-  ],
   "firstCommit": {
     "sha": "aa72e3839483d6673c524a3252f55f8ab345c5ba",
     "commit": {
@@ -118,65 +115,6 @@
     }
   },
   "filename": "afrojezus___Dono.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/afrojezus/Dono/releases/4962281",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/afrojezus/Dono/releases/assets/2852648",
-          "id": 2852648,
-          "name": "Dono.Setup.0.1.0.exe",
-          "label": null,
-          "uploader": {
-            "login": "afrojezus",
-            "id": 8195155,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/8195155?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/afrojezus",
-            "htmlUrl": "https://github.com/afrojezus",
-            "followersUrl": "https://api.github.com/users/afrojezus/followers",
-            "subscriptionsUrl": "https://api.github.com/users/afrojezus/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/afrojezus/orgs",
-            "reposUrl": "https://api.github.com/users/afrojezus/repos",
-            "receivedEventsUrl": "https://api.github.com/users/afrojezus/received_events",
-            "type": "User"
-          },
-          "contentType": "application/x-msdownload",
-          "state": "uploaded",
-          "size": 59233765,
-          "downloadCount": 1,
-          "createdAt": "2016-12-19T22:26:45.000Z",
-          "updatedAt": "2016-12-19T22:27:27.000Z",
-          "browserDownloadUrl": "https://github.com/afrojezus/Dono/releases/download/e1/Dono.Setup.0.1.0.exe"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/afrojezus/Dono/releases/4962281/assets",
-      "htmlUrl": "https://github.com/afrojezus/Dono/releases/tag/e1",
-      "id": 4962281,
-      "tagName": "e1",
-      "targetCommitish": "master",
-      "name": "development build e1",
-      "draft": false,
-      "author": {
-        "login": "afrojezus",
-        "id": 8195155,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8195155?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/afrojezus",
-        "htmlUrl": "https://github.com/afrojezus",
-        "followersUrl": "https://api.github.com/users/afrojezus/followers",
-        "subscriptionsUrl": "https://api.github.com/users/afrojezus/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/afrojezus/orgs",
-        "reposUrl": "https://api.github.com/users/afrojezus/repos",
-        "receivedEventsUrl": "https://api.github.com/users/afrojezus/received_events",
-        "type": "User"
-      },
-      "prerelease": true,
-      "createdAt": "2016-12-19T22:24:22.000Z",
-      "publishedAt": "2016-12-19T23:02:43.000Z",
-      "tarballUrl": "https://api.github.com/repos/afrojezus/Dono/tarball/e1",
-      "zipballUrl": "https://api.github.com/repos/afrojezus/Dono/zipball/e1",
-      "body": "wip Dono\n- can search anime and show info on about them, but not on characters and staff\n- cannot stream, play or fetch animes yet\n\nsome hiccups on the way perhaps. have fun !\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T18:26:13.245Z"
 }

@@ -5,7 +5,7 @@
   "owner": {
     "login": "thardes2",
     "id": 6141477,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/6141477?v=3",
+    "avatarUrl": "https://avatars0.githubusercontent.com/u/6141477?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/thardes2",
     "htmlUrl": "https://github.com/thardes2",
@@ -35,17 +35,17 @@
   "downloadsUrl": "https://api.github.com/repos/thardes2/Angular2-Electron-Ionic/downloads",
   "deploymentsUrl": "https://api.github.com/repos/thardes2/Angular2-Electron-Ionic/deployments",
   "createdAt": "2016-06-23T12:33:41.000Z",
-  "updatedAt": "2016-10-01T03:53:32.000Z",
-  "pushedAt": "2016-09-30T10:32:56.000Z",
+  "updatedAt": "2017-01-21T20:42:03.000Z",
+  "pushedAt": "2017-02-14T13:06:37.000Z",
   "gitUrl": "git://github.com/thardes2/Angular2-Electron-Ionic.git",
   "sshUrl": "git@github.com:thardes2/Angular2-Electron-Ionic.git",
   "cloneUrl": "https://github.com/thardes2/Angular2-Electron-Ionic.git",
   "svnUrl": "https://github.com/thardes2/Angular2-Electron-Ionic",
   "homepage": "",
-  "size": 1734,
-  "stargazersCount": 1,
-  "watchersCount": 1,
-  "language": "JavaScript",
+  "size": 1090,
+  "stargazersCount": 2,
+  "watchersCount": 2,
+  "language": "TypeScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -54,20 +54,14 @@
   "mirrorUrl": null,
   "openIssuesCount": 0,
   "openIssues": 0,
-  "watchers": 1,
+  "watchers": 2,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
     "push": false,
     "pull": true
   },
-  "license": {
-    "key": "mit",
-    "name": "MIT License",
-    "spdxId": "MIT",
-    "url": "https://api.github.com/licenses/mit",
-    "featured": true
-  },
+  "license": null,
   "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
@@ -120,16 +114,9 @@
       "cordova-plugin-statusbar",
       "ionic-plugin-keyboard"
     ],
-    "cordovaPlatforms": [],
-    "other": {
-      "author": "software@abelssoft.de"
-    }
+    "cordovaPlatforms": []
   },
   "packageStatus": 200,
-  "contributors": [
-    "thardes2",
-    "npmcdn-to-unpkg-bot"
-  ],
   "firstCommit": {
     "sha": "7fe983504a2d9401ec310b3f2db3aad85a16aef6",
     "commit": {
@@ -153,5 +140,6 @@
     }
   },
   "filename": "thardes2___Angular2-Electron-Ionic.json",
-  "releases": []
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:23:50.340Z"
 }

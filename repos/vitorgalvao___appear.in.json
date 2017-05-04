@@ -5,7 +5,7 @@
   "owner": {
     "login": "vitorgalvao",
     "id": 1699443,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/1699443?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/1699443?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/vitorgalvao",
     "htmlUrl": "https://github.com/vitorgalvao",
@@ -35,26 +35,26 @@
   "downloadsUrl": "https://api.github.com/repos/vitorgalvao/appear.in/downloads",
   "deploymentsUrl": "https://api.github.com/repos/vitorgalvao/appear.in/deployments",
   "createdAt": "2016-05-29T15:23:14.000Z",
-  "updatedAt": "2016-10-31T11:40:03.000Z",
-  "pushedAt": "2016-10-31T11:40:02.000Z",
+  "updatedAt": "2017-04-27T02:26:48.000Z",
+  "pushedAt": "2017-03-10T02:54:52.000Z",
   "gitUrl": "git://github.com/vitorgalvao/appear.in.git",
   "sshUrl": "git@github.com:vitorgalvao/appear.in.git",
   "cloneUrl": "https://github.com/vitorgalvao/appear.in.git",
   "svnUrl": "https://github.com/vitorgalvao/appear.in",
   "homepage": null,
-  "size": 268,
-  "stargazersCount": 3,
-  "watchersCount": 3,
+  "size": 109,
+  "stargazersCount": 22,
+  "watchersCount": 22,
   "language": "JavaScript",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
   "hasPages": false,
-  "forksCount": 1,
+  "forksCount": 5,
   "mirrorUrl": null,
-  "openIssuesCount": 1,
-  "openIssues": 1,
-  "watchers": 3,
+  "openIssuesCount": 0,
+  "openIssues": 0,
+  "watchers": 22,
   "defaultBranch": "master",
   "permissions": {
     "admin": false,
@@ -68,13 +68,10 @@
     "url": "https://api.github.com/licenses/unlicense",
     "featured": false
   },
-  "networkCount": 1,
+  "networkCount": 5,
   "subscribersCount": 1,
   "status": 200,
   "packageStatus": 404,
-  "contributors": [
-    "vitorgalvao"
-  ],
   "firstCommit": {
     "sha": "0d56c76acaba3ac79c9fab63ddafa2ab3d9038f6",
     "commit": {
@@ -98,65 +95,6 @@
     }
   },
   "filename": "vitorgalvao___appear.in.json",
-  "releases": [
-    {
-      "url": "https://api.github.com/repos/vitorgalvao/appear.in/releases/3343534",
-      "assets": [
-        {
-          "url": "https://api.github.com/repos/vitorgalvao/appear.in/releases/assets/1773214",
-          "id": 1773214,
-          "name": "appear.in-osx-1.0.0.zip",
-          "label": null,
-          "uploader": {
-            "login": "vitorgalvao",
-            "id": 1699443,
-            "avatarUrl": "https://avatars.githubusercontent.com/u/1699443?v=3",
-            "gravatarId": "",
-            "url": "https://api.github.com/users/vitorgalvao",
-            "htmlUrl": "https://github.com/vitorgalvao",
-            "followersUrl": "https://api.github.com/users/vitorgalvao/followers",
-            "subscriptionsUrl": "https://api.github.com/users/vitorgalvao/subscriptions",
-            "organizationsUrl": "https://api.github.com/users/vitorgalvao/orgs",
-            "reposUrl": "https://api.github.com/users/vitorgalvao/repos",
-            "receivedEventsUrl": "https://api.github.com/users/vitorgalvao/received_events",
-            "type": "User"
-          },
-          "contentType": "application/zip",
-          "state": "uploaded",
-          "size": 39922252,
-          "downloadCount": 86,
-          "createdAt": "2016-05-31T20:03:18.000Z",
-          "updatedAt": "2016-05-31T20:06:15.000Z",
-          "browserDownloadUrl": "https://github.com/vitorgalvao/appear.in/releases/download/1.0.0/appear.in-osx-1.0.0.zip"
-        }
-      ],
-      "assetsUrl": "https://api.github.com/repos/vitorgalvao/appear.in/releases/3343534/assets",
-      "htmlUrl": "https://github.com/vitorgalvao/appear.in/releases/tag/1.0.0",
-      "id": 3343534,
-      "tagName": "1.0.0",
-      "targetCommitish": "master",
-      "name": "1.0.0",
-      "draft": false,
-      "author": {
-        "login": "vitorgalvao",
-        "id": 1699443,
-        "avatarUrl": "https://avatars.githubusercontent.com/u/1699443?v=3",
-        "gravatarId": "",
-        "url": "https://api.github.com/users/vitorgalvao",
-        "htmlUrl": "https://github.com/vitorgalvao",
-        "followersUrl": "https://api.github.com/users/vitorgalvao/followers",
-        "subscriptionsUrl": "https://api.github.com/users/vitorgalvao/subscriptions",
-        "organizationsUrl": "https://api.github.com/users/vitorgalvao/orgs",
-        "reposUrl": "https://api.github.com/users/vitorgalvao/repos",
-        "receivedEventsUrl": "https://api.github.com/users/vitorgalvao/received_events",
-        "type": "User"
-      },
-      "prerelease": false,
-      "createdAt": "2016-05-31T19:53:05.000Z",
-      "publishedAt": "2016-05-31T20:08:36.000Z",
-      "tarballUrl": "https://api.github.com/repos/vitorgalvao/appear.in/tarball/1.0.0",
-      "zipballUrl": "https://api.github.com/repos/vitorgalvao/appear.in/zipball/1.0.0",
-      "body": "Initial release.\n\nThank you to the appear.in team for [letting me use the name and icon](https://github.com/vitorgalvao/appear.in/pull/1).\n"
-    }
-  ]
+  "hasProjects": true,
+  "lastFetchedAt": "2017-05-04T14:24:46.567Z"
 }

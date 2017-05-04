@@ -5,7 +5,7 @@
   "owner": {
     "login": "dashaudio",
     "id": 11558647,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11558647?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11558647?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dashaudio",
     "htmlUrl": "https://github.com/dashaudio",
@@ -20,13 +20,13 @@
   "description": "Dash Web Components",
   "fork": false,
   "createdAt": "2016-03-08T16:26:02.000Z",
-  "updatedAt": "2016-08-11T15:56:09.000Z",
-  "pushedAt": "2016-08-12T15:18:31.000Z",
+  "updatedAt": "2016-08-23T15:20:01.000Z",
+  "pushedAt": "2016-08-23T15:29:01.000Z",
   "homepage": "https://components.dashaudio.co/",
-  "size": 1797,
+  "size": 1816,
   "stargazersCount": 0,
   "watchersCount": 0,
-  "language": "HTML",
+  "language": "CSS",
   "hasIssues": true,
   "hasDownloads": true,
   "hasWiki": true,
@@ -45,7 +45,7 @@
   "organization": {
     "login": "dashaudio",
     "id": 11558647,
-    "avatarUrl": "https://avatars.githubusercontent.com/u/11558647?v=3",
+    "avatarUrl": "https://avatars2.githubusercontent.com/u/11558647?v=3",
     "gravatarId": "",
     "url": "https://api.github.com/users/dashaudio",
     "htmlUrl": "https://github.com/dashaudio",
@@ -114,15 +114,9 @@
       "build": "gulp build",
       "test": "gulp test"
     },
-    "license": "ISC",
-    "other": {
-      "author": "Dash Product Team"
-    }
+    "license": "ISC"
   },
   "packageStatus": 200,
-  "contributors": [
-    "danhalliday"
-  ],
   "firstCommit": {
     "sha": "1763d98a475601698200603734939dd7fa6c76aa",
     "commit": {
@@ -146,5 +140,26 @@
     }
   },
   "filename": "dashaudio___dash-components.json",
-  "releases": []
+  "htmlUrl": "https://github.com/dashaudio/dash-components",
+  "url": "https://api.github.com/repos/dashaudio/dash-components",
+  "forksUrl": "https://api.github.com/repos/dashaudio/dash-components/forks",
+  "teamsUrl": "https://api.github.com/repos/dashaudio/dash-components/teams",
+  "hooksUrl": "https://api.github.com/repos/dashaudio/dash-components/hooks",
+  "eventsUrl": "https://api.github.com/repos/dashaudio/dash-components/events",
+  "tagsUrl": "https://api.github.com/repos/dashaudio/dash-components/tags",
+  "languagesUrl": "https://api.github.com/repos/dashaudio/dash-components/languages",
+  "stargazersUrl": "https://api.github.com/repos/dashaudio/dash-components/stargazers",
+  "contributorsUrl": "https://api.github.com/repos/dashaudio/dash-components/contributors",
+  "subscribersUrl": "https://api.github.com/repos/dashaudio/dash-components/subscribers",
+  "subscriptionUrl": "https://api.github.com/repos/dashaudio/dash-components/subscription",
+  "mergesUrl": "https://api.github.com/repos/dashaudio/dash-components/merges",
+  "downloadsUrl": "https://api.github.com/repos/dashaudio/dash-components/downloads",
+  "deploymentsUrl": "https://api.github.com/repos/dashaudio/dash-components/deployments",
+  "gitUrl": "git://github.com/dashaudio/dash-components.git",
+  "sshUrl": "git@github.com:dashaudio/dash-components.git",
+  "cloneUrl": "https://github.com/dashaudio/dash-components.git",
+  "svnUrl": "https://github.com/dashaudio/dash-components",
+  "hasProjects": true,
+  "mirrorUrl": null,
+  "lastFetchedAt": "2017-05-04T18:35:09.090Z"
 }
