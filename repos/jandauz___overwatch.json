@@ -83,6 +83,7 @@
       "app": "cross-env NODE_ENV=development electron app/",
       "lint": "eslint client/* app/* --ext .js --ext .vue"
     },
+    "author": "Jan Dauz <jan.dauz@sita.aero>",
     "license": "MIT",
     "dependencies": {
       "auth0-js": "^7.4.0",
@@ -154,5 +155,6 @@
   },
   "filename": "jandauz___overwatch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:54.903Z"
+  "lastFetchedAt": "2017-05-04T04:59:54.903Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:08.829Z"
 }

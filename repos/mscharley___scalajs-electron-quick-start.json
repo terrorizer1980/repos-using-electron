@@ -201,13 +201,20 @@
       "debug": "rm -fv src/main/electron/${npm_package_name}* && sbt clean fastOptJS && cp -v target/scala-*/${npm_package_name}* src/main/electron/ && electron src/main/electron/${npm_package_name}-launcher.js",
       "test": "sbt test"
     },
-    "repository": "https://github.com/mscharley/scalajs-electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mscharley/scalajs-electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "Scala",
       "Scala.js"
     ],
+    "author": "Matthew Scharley",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mscharley/scalajs-electron-quick-start/issues"
+    },
     "homepage": "https://github.com/mscharley/scalajs-electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.1",
@@ -239,5 +246,6 @@
   },
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:58:37.463Z"
+  "lastFetchedAt": "2017-05-03T19:58:37.463Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:12.971Z"
 }

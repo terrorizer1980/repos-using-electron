@@ -88,43 +88,60 @@
   "packageJSON": {
     "private": true,
     "scripts": {
-      "postinstall:x64": "install-app-deps",
-      "postinstall:ia32": "install-app-deps --arch ia32",
-      "start": "npm run compile && electron ./app",
+      "postinstall": "install-app-deps",
+      "start": "set NODE_ENV=production&& npm run compile && electron ./app",
+      "dev": "set NODE_ENV=development&& npm-run-all --parallel hmr-server app",
       "clean": "rimraf dist && rimraf ./app/node_modules",
       "clean:win": "rimraf dist/win",
       "compile": "webpack",
       "pack": "npm run compile && build",
-      "dist": "npm run compile && build",
       "release": "npm run compile && build",
-      "dist:x64": "./node_modules/.bin/build --platform win32 --arch x64",
-      "dist:ia32": "./node_modules/.bin/build --platform win32 --arch ia32",
+      "dist": "set NODE_ENV=production&& npm run compile && build --ia32 --x64",
       "setupEnv": "npm config set msvs_version 2015",
       "watch": "webpack --watch",
-      "test": "mocha app/tests/testSetup.js \"app/tests/**/*.js\" --reporter progress"
+      "test": "mocha app/tests/testSetup.js \"app/tests/**/*.js\" --reporter progress",
+      "hmr-server": "node ./webpack_tools/hmrServer.js",
+      "app": "electron ./app"
     },
     "build": {
-      "app-bundle-id": "radiosys.hoverboard",
-      "app-category-type": "public.app-category.application"
+      "appId": "radiosys.hoverboard",
+      "publish": {
+        "provider": "generic",
+        "url": "https://your.hosting.environment/electron-app/"
+      },
+      "mac": {
+        "app-category-type": "public.app-category.application"
+      },
+      "win": {}
     },
     "devDependencies": {
       "babel-core": "^6.11.4",
       "babel-loader": "^6.2.4",
+      "babel-plugin-transform-react-constant-elements": "^6.22.0",
+      "babel-plugin-transform-react-remove-prop-types": "^0.2.11",
       "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.11.1",
+      "babel-preset-react-hmre": "^1.1.1",
       "chai": "^3.5.0",
       "css-loader": "^0.23.1",
-      "electron-builder": "3.25.0",
-      "electron-packager": "^7.0.2",
-      "electron-prebuilt": "1.1.1",
+      "electron": "1.4.15",
+      "electron-builder": "^11.5.1",
+      "electron-packager": "^8.5.1",
+      "express": "^4.14.1",
       "json-loader": "^0.5.4",
       "mocha": "^3.0.2",
+      "node-sass": "^3.8.0",
+      "npm-run-all": "^4.0.1",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "react-hot-loader": "^1.3.1",
       "rimraf": "^2.5.2",
       "sass-loader": "^4.0.0",
       "sinon": "^1.17.5",
       "style-loader": "^0.13.1",
-      "babel-preset-react": "^6.11.1",
-      "node-sass": "^3.8.0",
-      "webpack": "^1.13.1"
+      "webpack": "^1.13.1",
+      "webpack-dev-middleware": "^1.9.0",
+      "webpack-hot-middleware": "^2.16.1"
     },
     "dependencies": {
       "path": "^0.12.7"
@@ -155,5 +172,6 @@
   },
   "filename": "RadioSystems___hoverboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:55.899Z"
+  "lastFetchedAt": "2017-05-04T21:12:55.899Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:19.177Z"
 }

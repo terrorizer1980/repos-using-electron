@@ -47,12 +47,12 @@
   "status": 200,
   "packageJSON": {
     "name": "record-desktop",
-    "version": "0.4.12",
+    "version": "0.5.2",
     "description": "Record gifs and take screenshots on linux, built with electron.",
     "main": "dist/main.js",
     "scripts": {
       "start": "NODE_ENV=development electron ./dist/main.js",
-      "test": "ava",
+      "test": "ava 'src/**/*.spec.js'",
       "test:watch": "nodemon --exec ava",
       "prebuild": "rm -rf dist && mkdir dist",
       "build": "npm-run-all --parallel build:electron build:frontend",
@@ -61,17 +61,25 @@
       "build:electron:watch": "babel --watch -d dist/ src/",
       "build:frontend": "NODE_ENV=production webpack",
       "build:frontend:watch": "webpack-dev-server",
-      "prepublish": "npm run build",
+      "precommit": "npm run lint",
       "electron": "NODE_ENV=development electron ./dist/main.js",
       "lint": "eslint src/* frontend/**/*.js",
-      "build:electron-pkg": "rm -rf dist-pkg && electron-packager . record-desktop --platform linux --arch x64 --out dist-pkg/ --ignore \"node_modules/electron.*\"",
+      "build:electron-pkg": "rm -rf dist-pkg && electron-packager . record-desktop --platform linux --arch x64 --out dist-pkg/",
       "build:electron-deb": "npm run build:electron-pkg && electron-installer-debian --src dist-pkg/record-desktop-linux-x64/ --dest dist-pkg/installers/ --arch amd64"
     },
     "bin": {
       "record-desktop": "app.js"
     },
+    "ava": {
+      "require": [
+        "babel-register"
+      ]
+    },
     "preferGlobal": "true",
-    "repository": "https://github.com/ewnd9/record-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ewnd9/record-desktop.git"
+    },
     "keywords": [
       "gif",
       "electron",
@@ -86,9 +94,11 @@
       "icon.png",
       "icon-recording.png"
     ],
+    "author": "ewnd9 <ewndnine@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "configstore": "^1.4.0",
+      "electron-localshortcut": "^1.1.1",
       "electron-prebuilt": "^0.36.9",
       "electron-save-file": "^1.0.2",
       "globby": "^4.0.0",
@@ -102,7 +112,7 @@
       "winston": "^2.1.1"
     },
     "devDependencies": {
-      "ava": "^0.13.0",
+      "ava": "^0.18.2",
       "babel-cli": "^6.4.0",
       "babel-core": "^6.4.0",
       "babel-eslint": "^5.0.0",
@@ -121,10 +131,12 @@
       "eslint": "^1.10.3",
       "eslint-plugin-react": "^3.16.1",
       "file-loader": "^0.8.5",
+      "husky": "^0.13.1",
       "json-loader": "^0.5.4",
       "lodash": "^4.5.0",
       "nodemon": "^1.8.1",
       "npm-run-all": "^1.4.0",
+      "proxyquire": "^1.7.11",
       "react": "^0.14.6",
       "react-component-gallery": "^1.2.1",
       "react-dom": "^0.14.6",
@@ -182,5 +194,6 @@
   },
   "filename": "ewnd9___record-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:03.329Z"
+  "lastFetchedAt": "2017-05-04T17:48:03.329Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:29.711Z"
 }

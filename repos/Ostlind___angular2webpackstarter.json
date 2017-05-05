@@ -80,6 +80,7 @@
       "webpack",
       "typescript"
     ],
+    "author": "fabio ostlind <patrick@angularclass.com>",
     "homepage": "https://github.com/Ostlind/angular2-webpack-starter",
     "license": "MIT",
     "scripts": {
@@ -221,17 +222,11 @@
       "webpack-merge": "^0.14.1"
     },
     "repository": {
-      "user": "angularclass",
-      "repo": "angular2-webpack-starter",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/angularclass/angular2-webpack-starter/tarball/master",
-      "clone_url": "https://github.com/angularclass/angular2-webpack-starter",
-      "https_url": "https://github.com/angularclass/angular2-webpack-starter",
-      "travis_url": "https://travis-ci.org/angularclass/angular2-webpack-starter",
-      "zip_url": "https://github.com/angularclass/angular2-webpack-starter/archive/master.zip",
-      "api_url": "https://api.github.com/repos/angularclass/angular2-webpack-starter"
+      "type": "git",
+      "url": "https://github.com/angularclass/angular2-webpack-starter.git"
+    },
+    "bugs": {
+      "url": "https://github.com/angularclass/angular2-webpack-starter/issues"
     },
     "engines": {
       "node": ">= 4.2.1",
@@ -264,5 +259,6 @@
   "filename": "Ostlind___angular2webpackstarter.json",
   "sourceRepo": "cmelo/angular2-electron-starter",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:07.806Z"
+  "lastFetchedAt": "2017-05-04T20:32:07.806Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:18.982Z"
 }

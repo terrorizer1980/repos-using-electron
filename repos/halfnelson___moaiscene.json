@@ -75,19 +75,15 @@
     "name": "SkelEktron",
     "description": "Unofficial Electron Template Application",
     "version": "0.0.2",
+    "author": {
+      "name": "Vito Tardia / BZ Coding",
+      "email": "vito@bzcoding.com",
+      "url": "https://bzcoding.com/"
+    },
     "license": "MIT",
     "repository": {
-      "user": "BZCoding",
-      "repo": "SkelEktron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/BZCoding/SkelEktron/tarball/master",
-      "clone_url": "https://github.com/BZCoding/SkelEktron",
-      "https_url": "https://github.com/BZCoding/SkelEktron",
-      "travis_url": "https://travis-ci.org/BZCoding/SkelEktron",
-      "zip_url": "https://github.com/BZCoding/SkelEktron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/BZCoding/SkelEktron"
+      "type": "git",
+      "url": "https://github.com/BZCoding/SkelEktron.git"
     },
     "main": "main.js",
     "scripts": {
@@ -227,5 +223,6 @@
   "filename": "halfnelson___moaiscene.json",
   "sourceRepo": "sswayney/SkelEktron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:34.855Z"
+  "lastFetchedAt": "2017-05-04T19:58:34.855Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:11.387Z"
 }

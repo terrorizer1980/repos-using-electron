@@ -67,54 +67,86 @@
   "status": 200,
   "packageJSON": {
     "name": "dodoc",
-    "version": "0.8.2",
-    "description": "Dodoc is a documentation tool for children",
+    "version": "5.2.0",
+    "description": "Dodoc is a documentation tool for creativity.",
+    "author": "L’Atelier des Chercheurs <http://latelier-des-chercheurs.fr/>",
+    "homepage": "https://github.com/l-atelier-des-chercheurs/dodoc#readme",
+    "license": "CC-BY-NC-SA-4.0",
+    "main": "main.js",
+    "private": true,
     "scripts": {
-      "start": "node index.js",
-      "debug": "node --inspect index.js --debug"
+      "start": "electron .",
+      "debug": "electron . --debug --verbose",
+      "debug-watch": "nodemon  -e js,json --ignore client/ --ignore views/ --exec \"electron --debug=5858 main --debug --verbose\"",
+      "inspect-main": "electron-inspector",
+      "postinstall": "install-app-deps",
+      "rebuild": "electron-rebuild -f -w sharp",
+      "pack": "build --dir",
+      "dist": "build"
     },
-    "repository": "https://github.com/sarahgarcin/opendoc-tangible",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/l-atelier-des-chercheurs/dodoc.git"
+    },
+    "bugs": {
+      "url": "https://github.com/l-atelier-des-chercheurs/dodoc/issues"
+    },
+    "build": {
+      "electronVersion": "1.4.8",
+      "appId": "dodoc",
+      "asar": false,
+      "mac": {
+        "category": "public.app-category.education"
+      },
+      "win": {
+        "iconUrl": "http://latelier-des-chercheurs.fr/icon.ico"
+      }
+    },
     "dependencies": {
       "body-parser": "^1.15.0",
       "connect-multiparty": "^2.0.0",
       "dodoc-parsedown": "git+https://github.com/louis-ev/dodoc-parsedown.git",
-      "download": "^3.3.0",
-      "express": "3.1.0",
-      "ffmpeg": "0.0.4",
+      "download": "^5.0.2",
+      "electron-log": "^1.2.2",
+      "express": "4.14.0",
+      "ffmpeg-static": "^2.0.0",
       "flags": "^0.1.3",
-      "fluent-ffmpeg": "^2.0.1",
-      "fs-extra": "^0.18.0",
+      "fluent-ffmpeg": "^2.1.0",
+      "fs-extra": "^1.0.0",
       "ftp": "^0.3.10",
       "glob": "*",
+      "glob-electron": "^0.1.0",
       "gm": "^1.22.0",
-      "gulp-uglify": "^2.0.0",
       "gulp-util": "^3.0.7",
-      "i18n": "^0.5.0",
+      "i18n": "^0.8.3",
       "jade": "*",
-      "jsftp": "^1.5.4",
-      "markdown-it": "^6.0.1",
-      "markdown-parse": "^0.2.1",
       "marky-mark": "^1.2.1",
       "merge": "^1.2.0",
       "moment": "^2.12.0",
+      "node-localstorage": "^1.3.0",
+      "pad-left": "^2.1.0",
       "path": "^0.12.7",
-      "recordrtc-socketio": "*",
-      "serve-favicon": "^2.3.0",
+      "phantom": "^3.2.0",
+      "sharp": "^0.17.0",
       "slugg": "^1.0.0",
-      "socket.io": "^1.3.5",
-      "socketio-file-upload": "^0.4.4",
-      "underscore": "*",
-      "video-recorder": "*"
+      "socket.io": "^1.3.5"
     },
     "devDependencies": {
+      "electron-builder": "^10.8.1",
+      "electron-packager": "^8.4.0",
+      "electron-prebuilt": "^1.4.8",
+      "electron-rebuild": "^1.4.0",
       "gulp": "^3.9.0",
       "gulp-concat": "^2.6.0",
       "gulp-jshint": "^2.0.1",
       "gulp-minify-css": "^1.2.3",
       "gulp-plumber": "^1.0.1",
       "gulp-rename": "^1.2.2",
-      "gulp-sass": "^2.1.1",
-      "jshint": "^2.9.3"
+      "gulp-sass": "^3.0.0",
+      "gulp-sourcemaps": "^1.9.1",
+      "gulp-uglify": "^2.0.0",
+      "jshint": "^2.9.3",
+      "nodemon": "^1.11.0"
     }
   },
   "packageStatus": 200,
@@ -156,5 +188,6 @@
     "receivedEventsUrl": "https://api.github.com/users/l-atelier-des-chercheurs/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T04:56:26.918Z"
+  "lastFetchedAt": "2017-05-04T04:56:26.918Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:28.259Z"
 }

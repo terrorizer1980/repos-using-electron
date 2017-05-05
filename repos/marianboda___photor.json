@@ -50,7 +50,10 @@
     "version": "0.0.1",
     "description": "atom shell test",
     "main": "main.js",
-    "repository": "https://github.com/marianboda/atom-shell-tryout",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/marianboda/atom-shell-tryout.git"
+    },
     "scripts": {
       "test": "jest",
       "run": "./binaries/Electron.app/Contents/MacOS/Electron .",
@@ -72,6 +75,7 @@
         "node_modules/react"
       ]
     },
+    "author": "Marian Boda",
     "license": "ISC",
     "dependencies": {
       "async": "^1.4.2",
@@ -154,5 +158,6 @@
   "svnUrl": "https://github.com/marianboda/photor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:07:21.766Z"
+  "lastFetchedAt": "2017-05-04T05:07:21.766Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:15.985Z"
 }

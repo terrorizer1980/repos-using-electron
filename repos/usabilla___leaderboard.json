@@ -90,29 +90,45 @@
     "version": "1.0.0",
     "description": "Leaderboard, a timing game",
     "scripts": {
+      "test": "karma start karma.config.js --single-run",
+      "test:watch": "karma start karma.config.js",
       "start": "./script/start.sh",
       "package": "./script/package.sh",
-      "typings": "typings",
-      "postinstall": "./script/postinstall.sh"
+      "commit": "git-cz",
+      "lint": "tslint -c tslint.json 'src/**/*.ts'",
+      "lint:fix": "yarn lint -- --fix"
     },
-    "repository": "https://github.com/usabilla/leaderboard",
+    "author": {
+      "name": "Spyros Ioakeimidis",
+      "email": "spyros@usabilla.com",
+      "url": "http://www.spyros.io"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/usabilla/leaderboard.git"
+    },
     "keywords": [
-      "Usabilla",
-      "Leaderboard",
-      "Electron",
-      "AngularJS"
+      "usabilla",
+      "leaderboard",
+      "electron",
+      "angular",
+      "game"
     ],
+    "bugs": {
+      "url": "https://github.com/usabilla/leaderboard/issues"
+    },
+    "homepage": "https://github.com/usabilla/leaderboard#readme",
     "main": "main.js",
     "license": "MIT",
     "dependencies": {
-      "angucomplete-alt": "^2.4.2",
+      "angucomplete-alt": "^3.0.0",
       "angular": "^1.5.8",
       "angular-audio": "^1.7.3",
       "angular-hotkeys": "^1.7.0",
       "angular-local-storage": "^0.5.0",
       "angular-messages": "^1.5.8",
       "angular-timer": "^1.3.3",
-      "angular-ui-router": "^0.3.1",
+      "angular-ui-router": "^0.4.2",
       "humanize-duration": "^3.9.1",
       "lodash": "^4.15.0",
       "moment": "^2.14.1",
@@ -121,24 +137,48 @@
       "uikit": "^2.27.1"
     },
     "devDependencies": {
-      "concurrently": "^2.2.0",
-      "css-loader": "^0.25.0",
+      "@types/angular": "^1.6.6",
+      "@types/angular-hotkeys": "^0.0.31",
+      "@types/angular-ui-router": "^1.1.36",
+      "@types/core-js": "^0.9.35",
+      "@types/jasmine": "^2.5.43",
+      "@types/jquery": "^2.0.40",
+      "@types/node": "^7.0.5",
+      "@types/randomstring": "^1.1.5",
+      "angular-mocks": "^1.6.2",
+      "awesome-typescript-loader": "^3.0.4",
+      "commitizen": "^2.9.6",
+      "concurrently": "^3.3.0",
+      "css-loader": "^0.26.1",
+      "cz-conventional-changelog": "^1.2.0",
       "devtron": "^1.3.0",
+      "electron": "^1.6.0",
       "electron-packager": "^8.0.0",
-      "electron-prebuilt": "^1.3.5",
-      "extract-text-webpack-plugin": "^1.0.1",
-      "file-loader": "^0.9.0",
+      "extract-text-webpack-plugin": "^2.0.0-rc.3",
+      "file-loader": "^0.10.0",
       "html-loader": "^0.4.3",
       "html-webpack-plugin": "^2.22.0",
-      "ng-annotate-loader": "^0.1.1",
-      "node-sass": "^3.9.3",
-      "sass-loader": "^4.0.2",
+      "jasmine-core": "^2.5.2",
+      "karma": "^1.4.1",
+      "karma-electron": "^5.1.1",
+      "karma-jasmine": "^1.1.0",
+      "karma-webpack": "^2.0.2",
+      "ng-annotate-loader": "^0.2.0",
+      "node-sass": "^4.5.0",
+      "rimraf": "^2.5.4",
+      "sass-loader": "^6.0.1",
       "style-loader": "^0.13.1",
-      "ts-loader": "^0.8.2",
-      "typescript": "^1.8.10",
-      "webpack": "^1.13.2",
-      "webpack-dev-server": "^1.15.1",
-      "webpack-merge": "^0.14.1"
+      "tslint": "^4.4.2",
+      "typescript": "^2.2.0",
+      "wallaby-webpack": "^0.0.33",
+      "webpack": "^2.2.1",
+      "webpack-dev-server": "^2.3.0",
+      "webpack-merge": "^2.6.1"
+    },
+    "config": {
+      "commitizen": {
+        "path": "node_modules/cz-conventional-changelog"
+      }
     }
   },
   "packageStatus": 200,
@@ -166,5 +206,6 @@
   },
   "filename": "usabilla___leaderboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:46:15.482Z"
+  "lastFetchedAt": "2017-05-04T19:46:15.482Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:52.160Z"
 }

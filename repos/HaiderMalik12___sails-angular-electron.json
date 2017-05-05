@@ -173,6 +173,11 @@
     "description": "Basic cross platform desktop application built with SailsJS, AngularJS and Electron",
     "main": "./app/app.js",
     "license": "MIT",
+    "author": {
+      "name": "Jose Antonio Sanchez",
+      "email": "jasancheg@email.com",
+      "url": "inideaweb.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -186,17 +191,8 @@
       "build": "grunt build"
     },
     "repository": {
-      "user": "jasancheg",
-      "repo": "sails-angular-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jasancheg/sails-angular-electron/tarball/master",
-      "clone_url": "https://github.com/jasancheg/sails-angular-electron",
-      "https_url": "https://github.com/jasancheg/sails-angular-electron",
-      "travis_url": "https://travis-ci.org/jasancheg/sails-angular-electron",
-      "zip_url": "https://github.com/jasancheg/sails-angular-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jasancheg/sails-angular-electron"
+      "type": "git",
+      "url": "git+https://github.com/jasancheg/sails-angular-electron.git"
     },
     "keywords": [
       "SailsJS",
@@ -205,6 +201,9 @@
       "Rest API",
       "UI"
     ],
+    "bugs": {
+      "url": "https://github.com/jasancheg/sails-angular-electron/issues"
+    },
     "homepage": "https://github.com/jasancheg/sails-angular-electron#readme",
     "devDependencies": {
       "electron-packager": "^5.0.1",
@@ -293,5 +292,6 @@
   "svnUrl": "https://github.com/HaiderMalik12/sails-angular-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:30:38.967Z"
+  "lastFetchedAt": "2017-05-04T19:30:38.967Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:06.911Z"
 }

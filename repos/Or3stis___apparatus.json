@@ -79,17 +79,25 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Or3stis/apparatus",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Or3stis/apparatus"
+    },
     "keywords": [
       "Electron",
       "network",
       "security"
     ],
-    "license": "CC0-1.0",
+    "author": "or3stis",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Or3stis/apparatus//issues"
+    },
     "homepage": "https://github.com/Or3stis/apparatus/#readme",
     "devDependencies": {
-      "electron": "^1.4.5",
-      "jsonfile": "^2.3.1"
+      "devtron": "^1.4.0",
+      "electron": "^1.6.2",
+      "jsonfile": "^2.4.0"
     }
   },
   "packageStatus": 200,
@@ -117,5 +125,6 @@
   },
   "filename": "Or3stis___apparatus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:40:00.975Z"
+  "lastFetchedAt": "2017-05-04T19:40:00.975Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:37.050Z"
 }

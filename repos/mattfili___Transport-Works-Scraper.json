@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/mattfili/Transport-Works-Scraper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mattfili/Transport-Works-Scraper.git"
+    },
+    "author": "Matt Fili <mfili@airvel.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mattfili/Transport-Works-Scraper/issues"
+    },
     "homepage": "https://github.com/mattfili/Transport-Works-Scraper#readme",
     "devDependencies": {
       "asar": "^0.9.1",
@@ -113,5 +120,6 @@
   },
   "filename": "mattfili___Transport-Works-Scraper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:01.395Z"
+  "lastFetchedAt": "2017-05-04T17:48:01.395Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:29.375Z"
 }

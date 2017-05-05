@@ -73,42 +73,46 @@
   "status": 200,
   "packageJSON": {
     "name": "router-cnc-nodejs-arduino",
-    "version": "0.1.0",
+    "version": "0.3.0",
     "description": "cnc realizado con nodejs electron serialport arduino.",
     "dependencies": {},
     "devDependencies": {
-      "colors": "~1.1.2",
-      "electron-builder": "~5.12.1",
-      "electron-packager": "~7.3.0",
-      "electron-prebuilt": "1.2.7",
-      "electron-rebuild": "~1.1.5",
-      "grunt": "~1.0.1",
-      "grunt-contrib-jade": "~1.0.0",
-      "grunt-contrib-jshint": "~1.0.0",
-      "grunt-contrib-watch": "~1.0.0",
-      "grunt-docco-plus": "~2.0.1",
-      "grunt-mocha-test": "~0.12.7",
-      "grunt-shell": "~1.3.0",
-      "grunt-zip": "~0.17.1",
-      "jade": "~1.11.0",
-      "jshint": "~2.9.2",
-      "jshint-stylish": "~2.2.0",
-      "load-grunt-tasks": "~3.5.0",
-      "mocha": "~2.5.3",
-      "zombie": "~4.2.1"
+      "pug": "^2.0.0-beta11",
+      "electron": "1.6.2",
+      "electron-packager": "^8.5.2",
+      "grunt": "^1.0.1",
+      "grunt-electron-packager": "0.1.0",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-contrib-pug": "^1.0.0",
+      "grunt-contrib-watch": "^1.0.0",
+      "grunt-docco": "^0.5.0",
+      "grunt-mocha-test": "^0.13.2",
+      "grunt-shell": "^2.1.0",
+      "jshint": "^2.9.4",
+      "jshint-stylish": "^2.2.1",
+      "load-grunt-tasks": "^3.5.2",
+      "mocha": "^3.2.0"
     },
     "scripts": {
-      "rebuild": "grunt buildsp",
+      "postinstall": "cd ./app/ ; npm install",
+      "rebuild": "grunt buildmodule",
       "start": "grunt run",
       "test": "mocha ./tests/**/*.js"
     },
+    "author": {
+      "name": "Marani Matias Ezequiel",
+      "email": "maranimatias@gmail.com"
+    },
     "engines": {
-      "node": "~6.3.0",
-      "npm": "~3.8.9"
+      "node": "~6.9.3",
+      "npm": "~4.0.5"
     },
     "private": false,
     "license": "MIT",
-    "repository": "https://github.com/MaraniMatias/router-cnc-nodejs-arduino",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MaraniMatias/router-cnc-nodejs-arduino"
+    },
     "keywords": [
       "cnc",
       "arduino",
@@ -118,8 +122,13 @@
       "serialport",
       "gcode"
     ],
+    "directories": {
+      "buildResources": "build",
+      "output": "./dist",
+      "app": "./app"
+    },
     "build": {
-      "asar": false,
+      "asar": true,
       "compression": "maximum",
       "appId": "CNC-ino",
       "app-category-type": "public.app-category.education",
@@ -127,11 +136,11 @@
       "win": {
         "target": "tar.xz",
         "title": "CNC-ino",
-        "icon": "./app/recursos/icon.ico",
-        "publisher": "cnc realizado con nodejs electron serialport arduino."
+        "icon": "./app/recursos/mac-win/app",
+        "publisher": "CNC realizado con nodejs electron serialport arduino."
       },
       "linux": {
-        "description": "cnc realizado con nodejs electron serialport arduino.",
+        "description": "CNC realizado con nodejs electron serialport arduino.",
         "synopsis": "Arduino + SerialPort + NodeJS + ElectronJS + AngularJS + Semantic UI",
         "executable": "CNC-ino",
         "target": "deb",
@@ -164,5 +173,6 @@
   },
   "filename": "MaraniMatias___cnc-arduino-nodejs-electronjs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:46.295Z"
+  "lastFetchedAt": "2017-05-04T15:26:46.295Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:16.971Z"
 }

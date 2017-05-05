@@ -200,17 +200,8 @@
       "electron-prebuilt": "^0.34.3"
     },
     "repository": {
-      "user": "sapjax",
-      "repo": "fewords",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/sapjax/fewords/tarball/master",
-      "clone_url": "https://github.com/sapjax/fewords",
-      "https_url": "https://github.com/sapjax/fewords",
-      "travis_url": "https://travis-ci.org/sapjax/fewords",
-      "zip_url": "https://github.com/sapjax/fewords/archive/master.zip",
-      "api_url": "https://api.github.com/repos/sapjax/fewords"
+      "type": "git",
+      "url": "https://github.com/sapjax/fewords"
     },
     "license": "MIT"
   },
@@ -260,5 +251,6 @@
   "filename": "luzc08___fewords.json",
   "sourceRepo": "sapjax/fewords",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:35.159Z"
+  "lastFetchedAt": "2017-05-04T05:10:35.159Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:06.910Z"
 }

@@ -53,7 +53,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/godds/happifier",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/godds/happifier.git"
+    },
+    "author": "Graham Odds",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     }
@@ -103,5 +107,6 @@
   "svnUrl": "https://github.com/godds/grumpaway",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:00:56.367Z"
+  "lastFetchedAt": "2017-05-04T18:00:56.367Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:20.033Z"
 }

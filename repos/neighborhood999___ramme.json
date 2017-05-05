@@ -172,6 +172,11 @@
     "license": "MIT",
     "main": "main.js",
     "repository": "terkelg/ramme",
+    "author": {
+      "name": "Terkel Gjervig",
+      "email": "hello@terkel.com",
+      "url": "terkel.com"
+    },
     "scripts": {
       "start": "electron .",
       "build": "npm run build:macos && npm run build:linux && npm run build:windows",
@@ -241,5 +246,6 @@
   "filename": "neighborhood999___ramme.json",
   "sourceRepo": "terkelg/ramme",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:27.790Z"
+  "lastFetchedAt": "2017-05-04T17:33:27.790Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:25.404Z"
 }

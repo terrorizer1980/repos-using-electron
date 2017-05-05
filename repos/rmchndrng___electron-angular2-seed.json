@@ -60,7 +60,10 @@
       "tsc:w": "tsc -w",
       "start": "concurrent \"npm run tsc:w\" \"electron main.js\" "
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -68,7 +71,11 @@
       "tutorial",
       "angular2"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "angular2": "2.0.0-beta.0",
@@ -131,5 +138,6 @@
   },
   "filename": "rmchndrng___electron-angular2-seed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:53:26.399Z"
+  "lastFetchedAt": "2017-05-04T20:53:26.399Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:36.496Z"
 }

@@ -73,5 +73,32 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:38:26.396Z"
+  "lastFetchedAt": "2017-05-04T17:38:26.396Z",
+  "packageJSON": {
+    "name": "blihgui",
+    "version": "1.0.0",
+    "description": "GUI for EPITECH blih",
+    "main": "src/main.js",
+    "scripts": {
+      "start": "nodemon --watch index.html src/* csss/* templates/* --exec electron src/main.js"
+    },
+    "author": "Yann Carlen",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "nodemon": "^1.11.0"
+    },
+    "dependencies": {
+      "angular": "^1.6.3",
+      "angular-local-storage": "^0.5.2",
+      "angular-spinner": "^1.0.1",
+      "angular-ui-router": "^0.4.2",
+      "bootstrap": "^3.3.7",
+      "crypto": "0.0.3",
+      "jquery": "^3.2.1",
+      "request": "^2.81.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:53:35.730Z"
 }

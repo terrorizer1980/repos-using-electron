@@ -57,13 +57,17 @@
     "version": "0.0.1-alpha",
     "electronVersion": "1.3.2",
     "description": "A Joomla! CMS Manager",
+    "author": "elkuku",
     "license": "SEE LICENSE IN copying",
     "main": "main.js",
     "scripts": {
       "start": "./node_modules/.bin/electron .",
       "build": "electron-packager . $npm_package_productName --platform=linux --arch=x64 --version=$npm_package_electronVersion --out=build --overwrite && cd build/$npm_package_productName-linux-x64/ && zip -ryq9 ../$npm_package_productName-linux-\"$npm_package_version\".zip *"
     },
-    "repository": "https://github.com/elkuku/joomanager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/elkuku/joomanager.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.3.2"
     },
@@ -125,5 +129,6 @@
   },
   "filename": "elkuku___joomlanager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:10.447Z"
+  "lastFetchedAt": "2017-05-04T21:21:10.447Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:45.832Z"
 }

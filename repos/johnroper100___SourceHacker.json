@@ -73,5 +73,40 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:52:10.419Z"
+  "lastFetchedAt": "2017-05-04T17:52:10.419Z",
+  "packageJSON": {
+    "name": "sourcehacker",
+    "version": "1.0.0",
+    "description": "A hacking game",
+    "main": "app.js",
+    "scripts": {
+      "start": "nodemon app.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johnroper100/SourceHacker.git"
+    },
+    "keywords": [
+      "hack",
+      "game",
+      "videogame",
+      "hacker"
+    ],
+    "author": "John Roper",
+    "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/johnroper100/SourceHacker/issues"
+    },
+    "homepage": "https://github.com/johnroper100/SourceHacker#readme",
+    "dependencies": {
+      "electron": "^1.4.15",
+      "express": "^4.14.1",
+      "jquery": "^3.1.1",
+      "moniker": "^0.1.2",
+      "socket.io": "^1.7.3"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T06:35:06.990Z"
 }

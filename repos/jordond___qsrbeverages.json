@@ -70,6 +70,7 @@
     "version": "0.0.1",
     "description": "QSR Beverages",
     "main": "./bin/server.js",
+    "author": "Jordon de Hoog",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 0",
       "lint": "eslint -c .eslintrc src",
@@ -208,5 +209,6 @@
   },
   "filename": "jordond___qsrbeverages.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:08.377Z"
+  "lastFetchedAt": "2017-05-04T19:44:08.377Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:22.133Z"
 }

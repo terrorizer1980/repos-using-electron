@@ -80,6 +80,7 @@
       "build-client": "babel-node -- ./node_modules/.bin/webpack -p --config ./webpack/webpack.config.js",
       "build-client-dev": "NODE_ENV=development babel-node -- ./node_modules/.bin/webpack -d --progress --colors -v --config ./webpack/webpack.config.js"
     },
+    "author": "idan@gazit.me",
     "license": "MIT",
     "repository": "https://github.com/idan/ticker",
     "dependencies": {
@@ -153,5 +154,6 @@
   },
   "filename": "idan___ticker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:13.387Z"
+  "lastFetchedAt": "2017-05-04T15:33:13.387Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:24.588Z"
 }

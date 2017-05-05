@@ -75,6 +75,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "YJ Kim",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.12.0",
@@ -118,5 +119,6 @@
   },
   "filename": "yjkimjunior___Clafairy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:17.252Z"
+  "lastFetchedAt": "2017-05-04T18:17:17.252Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:55.410Z"
 }

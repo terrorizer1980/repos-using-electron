@@ -55,6 +55,7 @@
     "name": "electron-ng2",
     "version": "0.0.0",
     "description": "Sample ng2 app with electron. https://auth0.com/blog/2015/12/15/create-a-desktop-app-with-angular-2-and-electron",
+    "author": "Christian Katzorke <ckatzorke@gmail.com>",
     "homepage": "https://auth0.com/blog/2015/12/15/create-a-desktop-app-with-angular-2-and-electron",
     "license": "MIT",
     "scripts": {
@@ -79,7 +80,13 @@
       "reflect-metadata": "0.1.2",
       "rxjs": "5.0.0-beta.0"
     },
-    "repository": "https://github.com/ckatzorke/electron-ng2"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ckatzorke/electron-ng2.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ckatzorke/electron-ng2/issues"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -126,5 +133,6 @@
   "svnUrl": "https://github.com/ckatzorke/electron-ng2",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:25:41.290Z"
+  "lastFetchedAt": "2017-05-04T15:25:41.290Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:29.272Z"
 }

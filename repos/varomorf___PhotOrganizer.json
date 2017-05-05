@@ -57,17 +57,8 @@
     "description": "A simple app to help organize photos into groups (to be saved, to be deleted, to be edited, ...).",
     "main": "index.js",
     "repository": {
-      "user": "varomorf",
-      "repo": "PhotOrganizer",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/varomorf/PhotOrganizer/tarball/master",
-      "clone_url": "https://github.com/varomorf/PhotOrganizer",
-      "https_url": "https://github.com/varomorf/PhotOrganizer",
-      "travis_url": "https://travis-ci.org/varomorf/PhotOrganizer",
-      "zip_url": "https://github.com/varomorf/PhotOrganizer/archive/master.zip",
-      "api_url": "https://api.github.com/repos/varomorf/PhotOrganizer"
+      "type": "git",
+      "url": "git+https://github.com/varomorf/PhotOrganizer.git"
     },
     "keywords": [
       "pictures",
@@ -76,7 +67,11 @@
       "manage",
       "manager"
     ],
+    "author": "varomorf@gmail.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/varomorf/PhotOrganizer/issues"
+    },
     "homepage": "https://github.com/varomorf/PhotOrganizer#readme",
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
@@ -156,5 +151,6 @@
   "svnUrl": "https://github.com/varomorf/esguil-PhotOrganizer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:08:57.657Z"
+  "lastFetchedAt": "2017-05-04T20:08:57.657Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:06.472Z"
 }

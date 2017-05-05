@@ -48,8 +48,15 @@
   "packageJSON": {
     "name": "captains-log",
     "description": "Timestamped notes written to a yaml file in the directory of your choice.",
+    "author": "Ben <benjvogt@gmail.com>",
     "version": "0.1.0",
-    "repository": "https://github.com/vogtb/captains-log",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vogtb/captains-log.git"
+    },
+    "bugs": {
+      "url": "https://github.com/vogtb/captains-log/issues"
+    },
     "main": "main.js",
     "license": "MIT",
     "dependencies": {
@@ -106,5 +113,6 @@
   },
   "filename": "vogtb___captains-log.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:40.469Z"
+  "lastFetchedAt": "2017-05-04T20:03:40.469Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:59.044Z"
 }

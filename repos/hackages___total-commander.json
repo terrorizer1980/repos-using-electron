@@ -93,14 +93,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-core": "^6.6.4",
@@ -139,5 +146,6 @@
   },
   "filename": "hackages___total-commander.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:44.618Z"
+  "lastFetchedAt": "2017-05-04T19:30:44.618Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:31.889Z"
 }

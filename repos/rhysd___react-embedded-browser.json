@@ -84,7 +84,14 @@
       "electron",
       "browser"
     ],
-    "repository": "https://github.com/rhysd/react-embedded-browser",
+    "author": "rhysd <lin90162@yahoo.co.jp>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rhysd/react-embedded-browser.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rhysd/react-embedded-browser/issues"
+    },
     "license": "MIT",
     "devDependencies": {
       "typescript": "^1.6.0-beta"
@@ -120,5 +127,6 @@
   },
   "filename": "rhysd___react-embedded-browser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:12.967Z"
+  "lastFetchedAt": "2017-05-04T14:52:12.967Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:42.552Z"
 }

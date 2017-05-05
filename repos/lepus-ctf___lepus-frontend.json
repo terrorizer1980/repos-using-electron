@@ -83,13 +83,20 @@
       "package:all": "gulp package:all",
       "postinstall": "gulp download:font"
     },
-    "repository": "https://github.com/lepus-ctf/lepus-frontend",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lepus-ctf/lepus-frontend.git"
+    },
     "keywords": [
       "lepus-ctf",
       "ctf",
       "electron"
     ],
+    "author": "mzyy94",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lepus-ctf/lepus-frontend/issues"
+    },
     "homepage": "https://github.com/lepus-ctf/lepus-frontend",
     "devDependencies": {
       "electron-packager": "^5.0.2",
@@ -184,5 +191,6 @@
   "svnUrl": "https://github.com/lepus-ctf/lepus-frontend",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:52:40.272Z"
+  "lastFetchedAt": "2017-05-04T20:52:40.272Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:22.997Z"
 }

@@ -55,14 +55,21 @@
       "start": "electron main.js",
       "release": "gulp release --env=production"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -147,5 +154,6 @@
   },
   "filename": "bluewings___electro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:04.967Z"
+  "lastFetchedAt": "2017-05-04T21:24:04.967Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:30.951Z"
 }

@@ -83,6 +83,7 @@
       "electron": "electron main.js",
       "packager": "npm run webpack && electron-packager . MyApp"
     },
+    "author": "Anthony Calandra",
     "license": "MIT",
     "dependencies": {
       "react": "^0.14.2",
@@ -131,5 +132,6 @@
   },
   "filename": "AnthonyCalandra___electron-quick-start.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:29:06.791Z"
+  "lastFetchedAt": "2017-05-04T18:29:06.791Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:16.051Z"
 }

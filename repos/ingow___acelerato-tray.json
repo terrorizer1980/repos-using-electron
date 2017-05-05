@@ -72,6 +72,10 @@
     "description": "My phenomenal app",
     "license": "MIT",
     "repository": "ingow/acelerato",
+    "author": {
+      "name": "Ingo",
+      "email": "ingo@moinformatica.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron ./app/",
@@ -134,5 +138,6 @@
   },
   "filename": "ingow___acelerato-tray.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:48.721Z"
+  "lastFetchedAt": "2017-05-04T20:45:48.721Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:40.802Z"
 }

@@ -75,12 +75,19 @@
       "compile:watch": "webpack -w",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/tomkp/wifi",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomkp/wifi.git"
+    },
     "keywords": [
       "electron",
       "wifi"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/tomkp/wifi/issues"
+    },
     "homepage": "https://github.com/tomkp/wifi#readme",
     "dependencies": {
       "electron-debug": "^1.0.1",
@@ -139,5 +146,6 @@
   },
   "filename": "tomkp___wifi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:48.295Z"
+  "lastFetchedAt": "2017-05-04T18:04:48.295Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:43.826Z"
 }

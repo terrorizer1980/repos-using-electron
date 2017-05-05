@@ -69,7 +69,7 @@
     "private": true,
     "scripts": {
       "postinstall": "install-app-deps",
-      "start": "npm install && electron ./app",
+      "start": "npm install && ./node_modules/.bin/electron ./app",
       "pack": "build --dir",
       "distall": "build --dir --ia32 --x64  -m dmg -l deb rpm -w NSIS",
       "distmac": "build --dir --x64  -m dmg",
@@ -81,16 +81,12 @@
       "asar": false,
       "mac": {
         "category": "public.app-category.productivity"
-      },
-      "win": {
-        "iconUrl": "https://raw.githubusercontent.com/keverw/steemwrite/master/build/icon.ico"
       }
     },
     "devDependencies": {
       "debug-menu": "0.4.0",
-      "electron": "1.4.6",
-      "electron-builder": "7.24.1",
-      "electron-reload": "1.0.3"
+      "electron": "1.4.10",
+      "electron-builder": "10.3.0"
     }
   },
   "packageStatus": 200,
@@ -118,5 +114,6 @@
   },
   "filename": "keverw___SteemWrite.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:42.357Z"
+  "lastFetchedAt": "2017-05-04T19:36:42.357Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:52.974Z"
 }

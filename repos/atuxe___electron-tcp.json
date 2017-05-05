@@ -73,12 +73,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atuxe/electron-tcp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atuxe/electron-tcp.git"
+    },
     "keywords": [
       "Electron",
       "TCP"
     ],
+    "author": "Atuxe",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atuxe/electron-tcp/issues"
+    },
     "homepage": "https://github.com/atuxe/electron-tcp#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -109,5 +116,6 @@
   },
   "filename": "atuxe___electron-tcp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:21.160Z"
+  "lastFetchedAt": "2017-05-04T21:19:21.160Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:57.875Z"
 }

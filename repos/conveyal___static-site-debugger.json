@@ -74,6 +74,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron index.js"
     },
+    "author": "Matthew Wigginton Conway <mconway@conveyal.com>",
     "license": "MIT",
     "dependencies": {
       "babel-core": "^6.1.21",
@@ -138,5 +139,6 @@
   },
   "filename": "conveyal___static-site-debugger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:04.168Z"
+  "lastFetchedAt": "2017-05-04T17:42:04.168Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:03.825Z"
 }

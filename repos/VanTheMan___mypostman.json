@@ -80,9 +80,14 @@
       "client",
       "postman"
     ],
+    "author": "tnm",
     "license": "ISC",
     "dependencies": {
+      "bootstrap": "^3.3.7",
       "electron": "^1.4.10",
+      "es6-promise": "^4.0.5",
+      "isomorphic-fetch": "^2.2.1",
+      "jquery": "^3.1.1",
       "photon": "^2.0.0",
       "react": "^15.4.1",
       "react-dom": "^15.4.1"
@@ -94,10 +99,13 @@
       "babel-preset-react": "^6.16.0",
       "babelify": "^7.3.0",
       "browserify": "^13.1.1",
+      "css-loader": "^0.26.1",
+      "file-loader": "^0.10.0",
       "jshint": "^2.9.4",
       "jshint-loader": "^0.8.3",
       "node-libs-browser": "^2.0.0",
       "react": "^15.4.1",
+      "url-loader": "^0.5.7",
       "webpack": "^1.13.3"
     }
   },
@@ -125,5 +133,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:01:06.439Z"
+  "lastFetchedAt": "2017-05-04T18:01:06.439Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:01.312Z"
 }

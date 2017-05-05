@@ -73,7 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/bipbop/placas-wiki",
+    "repository": {
+      "type": "git",
+      "url": "git@bitbucket.org:bipbop/placas-wiki.git"
+    },
+    "author": {
+      "name": "BIPBOP",
+      "email": "desenvolvimento@bipbop.com.br",
+      "url": "http://www.bipbop.com.br/"
+    },
     "license": "mit",
     "devDependencies": {
       "browserify": "~8.1.0",
@@ -163,5 +171,6 @@
   "svnUrl": "https://github.com/bipbop/placas-wiki",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:30:46.954Z"
+  "lastFetchedAt": "2017-05-04T15:30:46.954Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:15.951Z"
 }

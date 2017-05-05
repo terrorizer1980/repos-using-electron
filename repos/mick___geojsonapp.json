@@ -65,8 +65,15 @@
     "bin": {
       "geojsonapp": "./bin/cli.js"
     },
-    "repository": "https://github.com/mick/geojsonapp",
-    "license": "MIT"
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mick/geojsonapp.git"
+    },
+    "author": "Mick Thompson",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mick/geojsonapp/issues"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/mick/geojsonapp",
@@ -113,5 +120,6 @@
   },
   "filename": "mick___geojsonapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:32:06.636Z"
+  "lastFetchedAt": "2017-05-04T18:32:06.636Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:00.404Z"
 }

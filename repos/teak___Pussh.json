@@ -82,7 +82,7 @@
     },
     "devDependencies": {
       "electron-builder": "^5.30.0",
-      "electron-prebuilt": "^1.3.3"
+      "electron": "^1.6.2"
     },
     "build": {
       "appId": "com.nightdev.pussh",
@@ -117,5 +117,6 @@
   },
   "filename": "teak___Pussh.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:13.350Z"
+  "lastFetchedAt": "2017-05-04T20:22:13.350Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:51.932Z"
 }

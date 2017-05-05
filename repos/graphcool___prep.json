@@ -88,7 +88,7 @@
   "status": 200,
   "packageJSON": {
     "name": "prep",
-    "version": "1.5.1",
+    "version": "1.6.0",
     "description": "Server-side rendering tool for your web app. Prerenders your app into static HTML files and supports routing.",
     "bin": "lib/index.js",
     "files": [
@@ -102,7 +102,10 @@
       "build": "rm -rf lib && mkdir lib && babel src/index.js -o lib/index.js",
       "test": "echo \"No tests yet\""
     },
-    "repository": "https://github.com/graphcool/prep",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/graphcool/prep.git"
+    },
     "keywords": [
       "server-side",
       "rendering",
@@ -113,7 +116,11 @@
       "prerender",
       "isomorphic"
     ],
+    "author": "Johannes Schickling <johannes@graph.cool>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/graphcool/prep/issues"
+    },
     "homepage": "https://github.com/graphcool/prep#readme",
     "devDependencies": {
       "babel-cli": "^6.7.7",
@@ -132,7 +139,7 @@
       "express-history-api-fallback": "^2.1.0",
       "html-minifier": "^3.2.3",
       "mkdirp": "^0.5.1",
-      "nightmare": "^2.9.1",
+      "nightmare": "2.9.0",
       "serve-static": "^1.10.2",
       "sitemap": "^1.9.0"
     }
@@ -161,5 +168,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:10.403Z"
+  "lastFetchedAt": "2017-05-04T15:20:10.403Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:26.158Z"
 }

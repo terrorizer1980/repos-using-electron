@@ -55,13 +55,20 @@
       "start": "./node_modules/.bin/electron .",
       "build": "./node_modules/.bin/electron-packager . $npm_package_productName --overwrite --out=dist --ignore='^/dist$' --platform=darwin --arch=x64 --version=0.36.5 --app-version=$npm_package_version --icon=desktop-habitica-icon.icns"
     },
-    "repository": "https://github.com/ZachGawlik/desktop-habitica",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ZachGawlik/desktop-habitica.git"
+    },
     "keywords": [
       "habitica",
       "habitRPG",
       "electron-app"
     ],
+    "author": "Zach Gawlik",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ZachGawlik/desktop-habitica/issues"
+    },
     "homepage": "https://github.com/ZachGawlik/desktop-habitica#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/ZachGawlik/desktop-habitica",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:32:40.575Z"
+  "lastFetchedAt": "2017-05-04T17:32:40.575Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:06.053Z"
 }

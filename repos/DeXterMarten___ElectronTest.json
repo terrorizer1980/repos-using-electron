@@ -50,8 +50,12 @@
     "version": "1.0.0",
     "description": "a test app",
     "main": "main.js",
+    "author": "Tim Schmidt",
     "license": "MIT",
-    "repository": "https://github.com/DeXterMarten/ElectronTest",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DeXterMarten/ElectronTest.git"
+    },
     "scripts": {
       "start": "./node_modules/.bin/electron ."
     },
@@ -104,5 +108,6 @@
   },
   "filename": "DeXterMarten___ElectronTest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:40.370Z"
+  "lastFetchedAt": "2017-05-04T20:15:40.370Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:45.044Z"
 }

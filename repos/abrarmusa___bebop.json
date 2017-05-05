@@ -56,6 +56,7 @@
     "version": "1.0.0",
     "description": "A simple template app for Proton",
     "main": "app.js",
+    "author": "Connor Sears",
     "scripts": {
       "start": "electron ."
     },
@@ -229,19 +230,13 @@
       "react-dom": "^0.14.1"
     },
     "repository": {
-      "user": "abrarmusa",
-      "repo": "bebop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/abrarmusa/bebop/tarball/master",
-      "clone_url": "https://github.com/abrarmusa/bebop",
-      "https_url": "https://github.com/abrarmusa/bebop",
-      "travis_url": "https://travis-ci.org/abrarmusa/bebop",
-      "zip_url": "https://github.com/abrarmusa/bebop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/abrarmusa/bebop"
+      "type": "git",
+      "url": "git+https://github.com/abrarmusa/bebop.git"
     },
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/abrarmusa/bebop/issues"
+    },
     "homepage": "https://github.com/abrarmusa/bebop#readme"
   },
   "packageStatus": 200,
@@ -290,5 +285,6 @@
   "svnUrl": "https://github.com/abrarmusa/bebop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T06:01:53.560Z"
+  "lastFetchedAt": "2017-05-04T06:01:53.560Z",
+  "packageLastFetchedAt": "2017-05-05T15:10:25.430Z"
 }

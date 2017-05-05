@@ -53,19 +53,29 @@
   "status": 200,
   "packageJSON": {
     "name": "electronify",
-    "version": "2.0.2",
+    "version": "2.0.4",
     "description": "The simplest way to build Electron apps.",
     "main": "lib/index.js",
+    "directories": {
+      "example": "example"
+    },
     "scripts": {
       "test": "electron example"
     },
-    "repository": "https://github.com/IonicaBizau/electronify",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/IonicaBizau/electronify.git"
+    },
     "keywords": [
       "electron",
       "applications",
       "desktop"
     ],
+    "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IonicaBizau/electronify/issues"
+    },
     "homepage": "https://github.com/IonicaBizau/electronify#readme",
     "blah": {
       "ex_img": "http://i.imgur.com/o5sBv1w.png",
@@ -83,12 +93,11 @@
       "bin/",
       "app/",
       "lib/",
-      "build/",
       "dist/",
       "src/",
+      "scripts/",
       "resources/",
       "menu/",
-      "scripts/",
       "cli.js",
       "index.js"
     ]
@@ -138,5 +147,6 @@
   },
   "filename": "IonicaBizau___electronify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:58:29.998Z"
+  "lastFetchedAt": "2017-05-04T17:58:29.998Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:34.557Z"
 }

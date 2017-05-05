@@ -60,7 +60,11 @@
     "scripts": {
       "app": "electron ."
     },
-    "repository": "https://github.com/notwaldorf/is-mu-an-asleep",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/notwaldorf/is-mu-an-asleep.git"
+    },
+    "author": "Monica Dinculescu <noms@google.com>",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -108,5 +112,6 @@
   },
   "filename": "notwaldorf___is-mu-an-asleep.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:23:10.496Z"
+  "lastFetchedAt": "2017-05-04T20:23:10.496Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:07.243Z"
 }

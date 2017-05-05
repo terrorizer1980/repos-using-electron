@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -124,5 +131,6 @@
   },
   "filename": "emilsoman___electron-es6-react-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:52.796Z"
+  "lastFetchedAt": "2017-05-03T20:04:52.796Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:59.841Z"
 }

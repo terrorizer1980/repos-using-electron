@@ -184,6 +184,7 @@
       "all": "npm run dist && npm run release && npm run deploy",
       "reload": "live-reload app --port 35729"
     },
+    "author": "Vjekoslav Ratkajec",
     "devDependencies": {
       "electron-builder": "^4.2.2",
       "electron-prebuilt": "^1.0.2",
@@ -263,5 +264,6 @@
   "svnUrl": "https://github.com/aaroncalderon/ea-todo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:43:51.260Z"
+  "lastFetchedAt": "2017-05-04T19:43:51.260Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:55.907Z"
 }

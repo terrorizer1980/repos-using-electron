@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Small description for bartleby goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -173,5 +178,6 @@
   "svnUrl": "https://github.com/JessicaG/bartelby",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:22:16.663Z"
+  "lastFetchedAt": "2017-05-04T21:22:16.663Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:42.590Z"
 }

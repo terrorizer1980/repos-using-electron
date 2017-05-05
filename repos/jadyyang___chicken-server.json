@@ -75,11 +75,21 @@
       "express": "^4.13.4"
     },
     "description": "chicken-server",
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/jadyyang/chicken-server",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jadyyang/chicken-server.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jadyyang/chicken-server/issues"
+    },
     "homepage": "https://github.com/jadyyang/chicken-server#readme"
   },
   "packageStatus": 200,
@@ -107,5 +117,6 @@
   },
   "filename": "jadyyang___chicken-server.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:45.877Z"
+  "lastFetchedAt": "2017-05-04T18:03:45.877Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:22.744Z"
 }

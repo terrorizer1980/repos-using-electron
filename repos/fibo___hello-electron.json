@@ -79,8 +79,18 @@
       "start": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/fibo/hello-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fibo/hello-electron.git"
+    },
+    "author": {
+      "name": "Gianluca Casati",
+      "url": "http://g14n.info"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fibo/hello-electron/issues"
+    },
     "homepage": "https://github.com/fibo/hello-electron#readme",
     "pre-commit": [
       "lint"
@@ -125,5 +135,6 @@
   },
   "filename": "fibo___hello-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:27.277Z"
+  "lastFetchedAt": "2017-05-04T14:52:27.277Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:39.072Z"
 }

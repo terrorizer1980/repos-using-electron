@@ -80,17 +80,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "SWBennett06",
-      "repo": "electron-experiments",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/SWBennett06/electron-experiments/tarball/master",
-      "clone_url": "https://github.com/SWBennett06/electron-experiments",
-      "https_url": "https://github.com/SWBennett06/electron-experiments",
-      "travis_url": "https://travis-ci.org/SWBennett06/electron-experiments",
-      "zip_url": "https://github.com/SWBennett06/electron-experiments/archive/master.zip",
-      "api_url": "https://api.github.com/repos/SWBennett06/electron-experiments"
+      "type": "git",
+      "url": "git+https://github.com/SWBennett06/electron-experiments.git"
     },
     "keywords": [
       "Electron",
@@ -98,7 +89,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/SWBennett06/electron-experiments/issues"
+    },
     "homepage": "https://github.com/SWBennett06/electron-experiments#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -130,5 +125,6 @@
   "filename": "SWBennett06___electron-experiments.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:20.535Z"
+  "lastFetchedAt": "2017-05-04T15:28:20.535Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:19.169Z"
 }

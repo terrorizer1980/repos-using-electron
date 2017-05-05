@@ -75,6 +75,7 @@
       "start": "electron dir/lib/main/main.js",
       "dev": "npm start && npm run babel-watch"
     },
+    "author": "Jeroen de Jong",
     "license": "ISC",
     "devDependencies": {
       "babel-cli": "^6.14.0",
@@ -116,5 +117,6 @@
   },
   "filename": "JeroenDeJong___route-maker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:09.801Z"
+  "lastFetchedAt": "2017-05-04T18:00:09.801Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:37.375Z"
 }

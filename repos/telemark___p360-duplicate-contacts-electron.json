@@ -95,14 +95,21 @@
       "setup": "npm install && node setup.js",
       "ship": "electron-packager ./ p360Duplicates --all --out ~/Desktop/p360Duplicates --version 0.36.0"
     },
-    "repository": "https://github.com/telemark/p360-duplicate-contacts-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/telemark/p360-duplicate-contacts-electron.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/telemark/p360-duplicate-contacts-electron/issues"
+    },
     "homepage": "https://github.com/telemark/p360-duplicate-contacts-electron",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -138,5 +145,6 @@
   },
   "filename": "telemark___p360-duplicate-contacts-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:26.166Z"
+  "lastFetchedAt": "2017-05-04T20:01:26.166Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:05.749Z"
 }

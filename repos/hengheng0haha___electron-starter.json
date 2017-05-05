@@ -96,7 +96,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/hengheng0haha/electron-starter",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hengheng0haha/electron-starter.git"
+    },
+    "author": {
+      "name": "Baxter",
+      "email": "332395368@qq.com",
+      "url": "https://github.com/hengheng0haha"
+    },
     "license": "MIT",
     "keywords": [
       "electron",
@@ -201,5 +209,6 @@
   },
   "filename": "hengheng0haha___electron-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:20.665Z"
+  "lastFetchedAt": "2017-05-04T18:08:20.665Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:51.613Z"
 }

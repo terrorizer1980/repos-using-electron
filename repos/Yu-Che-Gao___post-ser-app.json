@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Yu-Che-Gao/post-ser-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yu-Che-Gao/post-ser-app.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Yu-Che-Gao/post-ser-app/issues"
+    },
     "homepage": "https://github.com/Yu-Che-Gao/post-ser-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -117,5 +124,6 @@
   },
   "filename": "Yu-Che-Gao___post-ser-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:29.644Z"
+  "lastFetchedAt": "2017-05-04T21:05:29.644Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:50.250Z"
 }

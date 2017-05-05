@@ -74,8 +74,15 @@
       "package": "epi",
       "start": "electron index.js"
     },
-    "repository": "https://github.com/maclover7/slack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maclover7/slack.git"
+    },
+    "author": "Jon Moss <me@jonathanmoss.me>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maclover7/slack/issues"
+    },
     "homepage": "https://github.com/maclover7/slack#readme",
     "devDependencies": {
       "electron-packager-interactive": "0.0.5",
@@ -110,5 +117,6 @@
   },
   "filename": "maclover7___slack.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:22.688Z"
+  "lastFetchedAt": "2017-05-04T04:58:22.688Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:59.285Z"
 }

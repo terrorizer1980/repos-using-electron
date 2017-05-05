@@ -86,11 +86,18 @@
       "release:osx": "gulp dist && gulp release:darwin",
       "release:linux": "gulp dist && gulp release:linux"
     },
-    "repository": "https://github.com/takeokunn/electron_build_system",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/takeokunn/electron_build_system.git"
+    },
     "keywords": [
       "electron"
     ],
+    "author": "takeokunn",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/takeokunn/electron_build_system/issues"
+    },
     "homepage": "https://github.com/takeokunn/electron_build_system#readme",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -157,5 +164,6 @@
   },
   "filename": "takeokunn___electron_build_system.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:57.609Z"
+  "lastFetchedAt": "2017-05-04T20:37:57.609Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:12.993Z"
 }

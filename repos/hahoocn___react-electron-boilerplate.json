@@ -84,14 +84,21 @@
       "clean": "rimraf build",
       "clean:release": "rimraf release"
     },
-    "repository": "https://github.com/hahoocn/react-electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hahoocn/react-electron-boilerplate.git"
+    },
     "keywords": [
       "electron",
       "react",
       "boilerplate",
       "redux"
     ],
+    "author": "Ray Guo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hahoocn/react-electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/hahoocn/react-electron-boilerplate#readme",
     "devDependencies": {
       "autoprefixer": "^6.5.1",
@@ -193,5 +200,6 @@
   "svnUrl": "https://github.com/hahoocn/react-electron-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:16:16.436Z"
+  "lastFetchedAt": "2017-05-04T20:16:16.436Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:59.622Z"
 }

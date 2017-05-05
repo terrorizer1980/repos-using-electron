@@ -189,12 +189,14 @@
     "name": "jbrowse",
     "main": "browser/main.js",
     "repository": "https://github.com/GMOD/jbrowse.git",
-    "dependencies": {},
     "devDependencies": {
-      "electron-prebuilt": "^0.35.4"
+      "electron": "^1.6.2"
     },
     "scripts": {
       "start": "electron browser/main.js"
+    },
+    "dependencies": {
+      "electron-screenshot": "^1.0.4"
     }
   },
   "packageStatus": 200,
@@ -243,5 +245,6 @@
   "svnUrl": "https://github.com/Arabidopsis-Information-Portal/jbrowse",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:42:39.261Z"
+  "lastFetchedAt": "2017-05-04T19:42:39.261Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:06.332Z"
 }

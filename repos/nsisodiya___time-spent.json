@@ -79,11 +79,18 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/nsisodiya/time-spent",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nsisodiya/time-spent.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "Narendra Sisodiya",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nsisodiya/time-spent/issues"
+    },
     "homepage": "https://github.com/nsisodiya/time-spent#readme",
     "devDependencies": {
       "electron-installer-dmg": "^0.1.1",
@@ -118,5 +125,6 @@
   },
   "filename": "nsisodiya___time-spent.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:57.272Z"
+  "lastFetchedAt": "2017-05-04T17:37:57.272Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:47.937Z"
 }

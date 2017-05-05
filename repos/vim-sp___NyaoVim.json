@@ -198,17 +198,8 @@
       "clean": "rm -rf \"$(npm prefix)/build\" \"$(npm prefix)/typings\" \"$(npm prefix)/bower_components\" \"$(npm prefix)/node_modules\""
     },
     "repository": {
-      "user": "rhysd",
-      "repo": "NyaoVim",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rhysd/NyaoVim/tarball/master",
-      "clone_url": "https://github.com/rhysd/NyaoVim",
-      "https_url": "https://github.com/rhysd/NyaoVim",
-      "travis_url": "https://travis-ci.org/rhysd/NyaoVim",
-      "zip_url": "https://github.com/rhysd/NyaoVim/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rhysd/NyaoVim"
+      "type": "git",
+      "url": "git+https://github.com/rhysd/NyaoVim.git"
     },
     "keywords": [
       "editor",
@@ -221,7 +212,11 @@
       "cat",
       "meow"
     ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rhysd/NyaoVim/issues"
+    },
     "homepage": "https://github.com/rhysd/NyaoVim#readme",
     "dependencies": {
       "about-window": "^0.1.0",
@@ -283,5 +278,6 @@
   "filename": "vim-sp___NyaoVim.json",
   "sourceRepo": "rhysd/NyaoVim",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:25:09.177Z"
+  "lastFetchedAt": "2017-05-04T15:25:09.177Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:26.184Z"
 }

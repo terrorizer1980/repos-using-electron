@@ -78,6 +78,11 @@
     "description": "My awe-inspiring app",
     "license": "MIT",
     "repository": "nicolasbatistoni/tuitpic",
+    "author": {
+      "name": "Nicolás Batistoni",
+      "email": "nicolas.batistoni@hotmail.com",
+      "url": "vanguardit.com.ar"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -137,5 +142,6 @@
   },
   "filename": "nicolasbatistoni___tuitpic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:50.841Z"
+  "lastFetchedAt": "2017-05-04T20:54:50.841Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:24.685Z"
 }

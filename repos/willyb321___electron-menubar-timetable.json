@@ -53,27 +53,30 @@
   "status": 200,
   "packageJSON": {
     "name": "TimeTable",
-    "version": "1.5.77",
+    "version": "1.6.2",
     "description": "Get your TimeTable in your menubar!",
     "license": "MIT",
-    "repository": "https://github.com/willyb321/electron-menubar-timetable",
+    "author": "Willyb321",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/willyb321/electron-menubar-timetable"
+    },
+    "bugs": {
+      "url": "https://github.com/willyb321/electron-menubar-timetable/issues"
+    },
     "main": "./main.js",
     "scripts": {
       "lint": "xo",
-      "build": "electron-zip-packager . --platform=darwin --arch=x64 --icon=./TimeTable.icns --prune --app-version=${npm_package_version}",
-      "pretest": "echo pls work",
       "test": "npm run lint",
-      "electron": "electron .",
-      "deps": "ncu -u -a",
-      "prestart": "npm install",
-      "start": "npm run electron"
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build",
+      "release": "build -m"
     },
     "devDependencies": {
-      "electron": "^1.4.4",
-      "electron-zip-packager": "^4.0.0",
-      "menubar": "^5.1.0",
-      "standard": "^8.4.0",
-      "xo": "^0.17.0"
+      "electron": "^1.4.13",
+      "xo": "^0.17.1",
+      "electron-builder": "13.9.0"
     },
     "dependencies": {
       "electron-config": "^0.2.1",
@@ -83,7 +86,38 @@
       "ignores": [
         "test.js"
       ]
-    }
+    },
+    "build": {
+      "appId": "com.willyb321.electron-menubar-timetable"
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "dmg": {
+        "contents": [
+          {
+            "x": 110,
+            "y": 150
+          },
+          {
+            "x": 240,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          }
+        ]
+      },
+      "linux": {
+        "target": [
+          "deb"
+        ]
+      }
+    },
+    "category": "public.app-category.reference",
+    "publish": [
+      "github"
+    ]
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/willyb321/electron-menubar-timetable",
@@ -130,5 +164,6 @@
   },
   "filename": "willyb321___electron-menubar-timetable.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:37.928Z"
+  "lastFetchedAt": "2017-05-04T20:19:37.928Z",
+  "packageLastFetchedAt": "2017-05-05T13:37:34.475Z"
 }

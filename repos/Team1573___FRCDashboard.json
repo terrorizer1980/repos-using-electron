@@ -208,8 +208,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/FRCDashboard/FRCDashboard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FRCDashboard/FRCDashboard"
+    },
+    "author": "FRCDashboard",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/FRCDashboard/FRCDashboard/issues"
+    },
     "homepage": "http://frcdashboard.github.io",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -240,5 +247,6 @@
   },
   "sourceRepo": "FRCDashboard/FRCDashboard",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:06.293Z"
+  "lastFetchedAt": "2017-05-04T21:11:06.293Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:31.052Z"
 }

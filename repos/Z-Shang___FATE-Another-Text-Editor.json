@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron ./src/main.js"
     },
-    "repository": "https://github.com/z-shang/fate-another-text-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/z-shang/fate-another-text-editor.git"
+    },
+    "author": "Z-Shang",
     "license": "GPL-3.0+",
+    "bugs": {
+      "url": "https://github.com/z-shang/fate-another-text-editor/issues"
+    },
     "homepage": "https://github.com/z-shang/fate-another-text-editor#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -112,5 +119,6 @@
   },
   "filename": "Z-Shang___FATE-Another-Text-Editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:26.675Z"
+  "lastFetchedAt": "2017-05-04T18:08:26.675Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:24.726Z"
 }

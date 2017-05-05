@@ -76,9 +76,13 @@
     "version": "1.0.0",
     "description": "electron app",
     "main": "index.js",
+    "author": "glassonion1",
     "npmName": "electron-react-redux-boilerplate",
     "license": "MIT",
-    "repository": "https://github.com/glassonion1/electron-react-redux-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/glassonion1/electron-react-redux-boilerplate.git"
+    },
     "keywords": [
       "electron",
       "react",
@@ -127,5 +131,6 @@
   },
   "filename": "glassonion1___electron-react-redux-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:50.658Z"
+  "lastFetchedAt": "2017-05-04T15:13:50.658Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:49.596Z"
 }

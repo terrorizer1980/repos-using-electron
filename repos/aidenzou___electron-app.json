@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron ./main.js"
     },
-    "repository": "https://github.com/aidenzou/electron-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aidenzou/electron-app.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/aidenzou/electron-app/issues"
+    },
     "homepage": "https://github.com/aidenzou/electron-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.2"
@@ -108,5 +115,6 @@
   },
   "filename": "aidenzou___electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:45.857Z"
+  "lastFetchedAt": "2017-05-04T18:03:45.857Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:44.557Z"
 }

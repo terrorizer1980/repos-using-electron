@@ -73,5 +73,41 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:59:27.164Z"
+  "lastFetchedAt": "2017-05-04T17:59:27.164Z",
+  "packageJSON": {
+    "name": "electron-sqlite3-quick-start",
+    "version": "1.0.0",
+    "description": "An example of electron with sqlite3",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "rebuild": "electron-rebuild -f -w sqlite3",
+      "package": "electron-packager . --production"
+    },
+    "repository": "https://github.com/raksa/electron-sqlite3-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo",
+      "example",
+      "sqlite3"
+    ],
+    "author": "Raksa Eng",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.15",
+      "electron-packager": "^8.6.0",
+      "electron-prebuilt": "^1.4.13",
+      "electron-rebuild": "^1.5.7"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.2.1",
+      "sqlite3": "^3.1.8"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:29:20.315Z"
 }

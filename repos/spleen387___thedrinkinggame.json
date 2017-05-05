@@ -69,8 +69,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/spleen387/thedrinkinggame",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/spleen387/thedrinkinggame.git"
+    },
+    "author": "Spencer Killen",
     "license": "None",
+    "bugs": {
+      "url": "https://github.com/spleen387/thedrinkinggame/issues"
+    },
     "homepage": "https://github.com/spleen387/thedrinkinggame"
   },
   "packageStatus": 200,
@@ -118,5 +125,6 @@
   "svnUrl": "https://github.com/Spensaur-K/thedrinkinggame",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:40:49.527Z"
+  "lastFetchedAt": "2017-05-04T19:40:49.527Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:28.727Z"
 }

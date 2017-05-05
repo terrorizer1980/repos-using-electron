@@ -88,14 +88,21 @@
         "es2015"
       ]
     },
-    "repository": "https://github.com/ecmadao/Electron-Search-App",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ecmadao/Electron-Search-App.git"
+    },
     "keywords": [
       "Electron",
       "React",
       "Redux",
       "Webpack"
     ],
+    "author": "Ecmadao",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ecmadao/Electron-Search-App/issues"
+    },
     "homepage": "https://github.com/ecmadao/Electron-Search-App#readme",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -171,5 +178,6 @@
   },
   "filename": "ecmadao___Electron-Search-App.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:34.724Z"
+  "lastFetchedAt": "2017-05-04T15:29:34.724Z",
+  "packageLastFetchedAt": "2017-05-05T14:25:02.654Z"
 }

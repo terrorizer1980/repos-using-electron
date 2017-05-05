@@ -74,72 +74,91 @@
   "packageJSON": {
     "name": "elite-journal",
     "productName": "Elite Journal",
-    "version": "1.6.22",
+    "version": "1.13.0",
     "description": "Parsing the elite dangerous journal and putting it in a cool format!",
     "license": "MIT",
+    "private": true,
     "repository": "willyb321/elite-journal",
+    "author": {
+      "name": "willyb321",
+      "email": "wbwilliam7@gmail.com",
+      "url": "tehsuperwilly.tech"
+    },
     "scripts": {
-      "test": "mocha --reporter mocha-circleci-reporter ./test.js && xo",
-      "start": "electron .",
+      "test": "gulp test",
+      "prestart": "gulp && gulp index",
+      "start": "set NODE_ENV=development && electron app/indexbuild.js",
       "build": "electron-zip-packager . --out=dist --overwrite --platform=win32 --arch=x64 --prune --asar",
-      "pack": "build --dir",
-      "dist": "build -w --x64",
-      "release": "build -w --x64",
-      "tag": "release-it"
+      "pack": "gulp index && gulp build:pack",
+      "dist": "gulp index && gulp build:dist",
+      "release": "gulp index && gulp build:dist",
+      "tag": "release-it",
+      "lint": "xo",
+      "docs": "jsdoc -c ./conf.json",
+      "postinstall": "(cd app && yarn install)",
+      "deps": "(ncu -au && cd app && ncu -au && cd .. && yarn install)"
     },
     "keywords": [
       "electron-app",
       "electron"
     ],
-    "dependencies": {
-      "bugsnag": "^1.8.0",
-      "electron-auto-updater": "^0.4.0",
-      "electron-debug": "^1.0.1",
-      "electron-is-dev": "^0.1.2",
-      "fs.extra": "^1.3.2",
-      "jsonfile": "^2.4.0",
-      "line-by-line": "^0.1.5",
-      "node-watch": "^0.4.1",
-      "source-map-support": "^0.4.6",
-      "tableify": "^1.0.0",
-      "underscore": "^1.8.3"
-    },
     "devDependencies": {
+      "ava": "^0.19.1",
+      "babel-core": "^6.24.1",
+      "babel-preset-latest": "^6.24.1",
+      "del": "^2.2.2",
       "devtron": "^1.4.0",
-      "electron": "^1.4.5",
-      "electron-builder": "^7.18.1",
-      "electron-zip-packager": "^4.0.0",
-      "mocha": "^3.1.2",
-      "mocha-circleci-reporter": "^0.0.2",
-      "release-it": "^2.4.3",
-      "spectron": "^3.4.0",
-      "xo": "^0.17.0"
+      "electron": "^1.6.2",
+      "electron-builder": "^16.8.3",
+      "gulp": "^3.9.1",
+      "gulp-ava": "^0.16.0",
+      "gulp-babel": "^6.1.2",
+      "gulp-concat": "^2.6.1",
+      "gulp-if": "^2.0.2",
+      "gulp-inject": "^4.2.0",
+      "gulp-sourcemaps": "^2.6.0",
+      "gulp-uglify": "^2.1.2",
+      "gulp-xo": "^0.15.0",
+      "jake": "latest",
+      "jsdoc": "^3.4.3",
+      "jsdoc-export-default-interop": "^0.3.1",
+      "npm-check-updates": "^2.10.5",
+      "release-it": "^2.7.1",
+      "rimraf": "^2.6.1",
+      "spectron": "^3.6.1",
+      "xo": "^0.18.1"
     },
+    "ava": {},
     "xo": {
       "esnext": true,
       "envs": [
         "node",
         "browser"
       ],
+      "reporter": "mocha-circleci-reporter",
       "ignores": [
-        "test.js"
+        "tests/*",
+        "test.js",
+        "gulpfile.babel.js",
+        "app/indexbuild.*",
+        "docs/scripts/*",
+        "docs/scripts/prettify/*"
       ]
     },
     "build": {
       "appId": "com.willyb321.elite-journal",
       "nsis": {
-        "oneClick": true
+        "oneClick": false,
+        "allowToChangeInstallationDirectory": true
       },
       "win": {
         "target": [
           "nsis"
         ],
         "publish": [
-          "bintray",
-          "github"
-        ],
-        "iconUrl": "https://github.com/willyb321/elite-journal/blob/master/build/icon.ico?raw=true",
-        "remoteReleases": true
+          "github",
+          "bintray"
+        ]
       }
     }
   },
@@ -168,5 +187,6 @@
   },
   "filename": "willyb321___elite-journal.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:39.312Z"
+  "lastFetchedAt": "2017-05-04T18:17:39.312Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:32.346Z"
 }

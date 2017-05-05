@@ -76,9 +76,13 @@
     "description": "test",
     "main": "main.js",
     "license": "MIT",
+    "author": "Victor Pasynok <binjospookie@gmail.com>",
     "email": "binjospookie@gmail.com",
     "scripts": {
       "start": "electron ."
+    },
+    "bugs": {
+      "url": "https://github.com/binjospookie/electron_example/issues"
     },
     "homepage": "https://github.com/binjospookie/electron_example/",
     "devDependencies": {
@@ -123,5 +127,6 @@
   },
   "filename": "binjospookie___electron_example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:19.760Z"
+  "lastFetchedAt": "2017-05-04T15:33:19.760Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:11.983Z"
 }

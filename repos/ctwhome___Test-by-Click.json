@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ctwhome/Test-by-Click",
+    "repository": {
+      "type": "git",
+      "url": "git+https://ctwhome@github.com/ctwhome/Test-by-Click.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ctwhome/Test-by-Click/issues"
+    },
     "homepage": "https://github.com/ctwhome/Test-by-Click#readme",
     "dependencies": {
       "electron": "^0.4.1"
@@ -111,5 +118,6 @@
   },
   "filename": "ctwhome___Test-by-Click.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:36.596Z"
+  "lastFetchedAt": "2017-05-04T19:30:36.596Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:36.978Z"
 }

@@ -59,12 +59,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/sean-clayton/music-app-mockup",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sean-clayton/music-app-mockup.git"
+    },
     "keywords": [
       "electron",
       "react"
     ],
+    "author": "Sean Clayton",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sean-clayton/music-app-mockup/issues"
+    },
     "homepage": "https://github.com/sean-clayton/music-app-mockup",
     "dependencies": {
       "react": "^0.13.3",
@@ -136,5 +143,6 @@
   },
   "filename": "sean-clayton___music-app-mockup.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:56.868Z"
+  "lastFetchedAt": "2017-05-04T17:44:56.868Z",
+  "packageLastFetchedAt": "2017-05-05T17:39:53.738Z"
 }

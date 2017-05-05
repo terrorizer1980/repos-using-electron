@@ -56,7 +56,10 @@
     "description": "An attack tree visualisation tool",
     "version": "0.2.1",
     "private": true,
-    "repository": "https://github.com/jimmythompson/ent",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/jimmythompson/ent.git"
+    },
     "main": "main.js",
     "dependencies": {
       "d3": "^3.5.5",
@@ -144,5 +147,6 @@
   "svnUrl": "https://github.com/jimmythompson/ent",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:09:20.953Z"
+  "lastFetchedAt": "2017-05-04T18:09:20.953Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:43.840Z"
 }

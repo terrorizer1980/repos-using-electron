@@ -99,14 +99,27 @@
       "gui"
     ],
     "homepage": "",
+    "bugs": {
+      "url": "https://github.com/monterey-framework/prototyper/issues"
+    },
     "main": "app/index.js",
     "license": "CC0-1.0",
-    "repository": "https://github.com/monterey-framework/prototyper",
+    "author": {
+      "name": "aureliatools",
+      "email": "info@aureliatools.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/monterey-framework/prototyper"
+    },
     "scripts": {
       "postinstall": "install-app-deps",
       "pack": "build --dir",
       "dist": "gulp clean-installer-dist && gulp build && build",
       "setup": "node utils -setup"
+    },
+    "directories": {
+      "app": "app"
     },
     "build": {
       "appId": "monterey",
@@ -202,5 +215,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:18.815Z"
+  "lastFetchedAt": "2017-05-04T20:32:18.815Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:33.675Z"
 }

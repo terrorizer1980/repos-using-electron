@@ -81,14 +81,21 @@
       "start": "electron main.js",
       "test": "karma start karma.conf.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "del": "^2.2.0",
@@ -134,5 +141,6 @@
   },
   "filename": "ponyesteves___muuw.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:33.312Z"
+  "lastFetchedAt": "2017-05-04T14:54:33.312Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:18.720Z"
 }

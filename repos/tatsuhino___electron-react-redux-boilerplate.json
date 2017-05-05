@@ -56,20 +56,12 @@
     "version": "1.0.0",
     "description": "electron app",
     "main": "index.js",
+    "author": "glassonion1",
     "npmName": "electron-react-redux-boilerplate",
     "license": "MIT",
     "repository": {
-      "user": "glassonion1",
-      "repo": "electron-react-redux-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/glassonion1/electron-react-redux-boilerplate/tarball/master",
-      "clone_url": "https://github.com/glassonion1/electron-react-redux-boilerplate",
-      "https_url": "https://github.com/glassonion1/electron-react-redux-boilerplate",
-      "travis_url": "https://travis-ci.org/glassonion1/electron-react-redux-boilerplate",
-      "zip_url": "https://github.com/glassonion1/electron-react-redux-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/glassonion1/electron-react-redux-boilerplate"
+      "type": "git",
+      "url": "https://github.com/glassonion1/electron-react-redux-boilerplate.git"
     },
     "keywords": [
       "electron",
@@ -140,5 +132,6 @@
   "svnUrl": "https://github.com/tatsuhino/electron-react-redux-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:29:07.982Z"
+  "lastFetchedAt": "2017-05-04T14:29:07.982Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:16.464Z"
 }

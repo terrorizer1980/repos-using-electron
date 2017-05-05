@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/amitv87/AwesomeApp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amitv87/AwesomeApp.git"
+    },
     "keywords": [
       "Awesome RTC",
       "remote desktop",
@@ -112,5 +115,6 @@
   "svnUrl": "https://github.com/amitv87/AwesomeApp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:09:13.344Z"
+  "lastFetchedAt": "2017-05-04T20:09:13.344Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:34.044Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -127,5 +134,6 @@
   },
   "filename": "huseyinozyilmaz___notetxt-electron-poc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:40:38.005Z"
+  "lastFetchedAt": "2017-05-04T20:40:38.005Z",
+  "packageLastFetchedAt": "2017-05-05T04:34:42.409Z"
 }

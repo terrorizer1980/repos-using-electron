@@ -79,13 +79,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Alinuxfriend/Manjaro_Welcome",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Alinuxfriend/Manjaro_Welcome.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "homepage": "https://github.com/electron/electron-quick-start.git#readme",
     "devDependencies": {
@@ -118,5 +122,6 @@
   },
   "filename": "Alinuxfriend___Manjaro_Welcome.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:58.342Z"
+  "lastFetchedAt": "2017-05-04T05:10:58.342Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:52.338Z"
 }

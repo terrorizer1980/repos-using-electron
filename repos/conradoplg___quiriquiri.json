@@ -83,10 +83,12 @@
       "pack": "build --dir",
       "dist": "build --linux --win --x64"
     },
+    "author": "Conrado P. L. Gouvea",
     "license": "MIT",
     "dependencies": {
       "electron-json-storage": "^2.0.0",
       "featherlight": "^1.4.1",
+      "is-in-viewport": "^2.4.2",
       "jquery": "^3.1.0",
       "jquery-ui-dist": "^1.12.1",
       "jsdom": "^9.5.0",
@@ -133,5 +135,6 @@
   },
   "filename": "conradoplg___quiriquiri.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:16:10.736Z"
+  "lastFetchedAt": "2017-05-04T21:16:10.736Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:33.165Z"
 }

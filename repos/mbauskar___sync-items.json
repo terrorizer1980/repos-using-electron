@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/mbauskar/sync_items",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mbauskar/sync_items.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/mbauskar/sync_items/issues"
+    },
     "homepage": "https://github.com/mbauskar/sync_items#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -111,5 +118,6 @@
   },
   "filename": "mbauskar___sync-items.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:11.973Z"
+  "lastFetchedAt": "2017-05-04T05:09:11.973Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:52.434Z"
 }

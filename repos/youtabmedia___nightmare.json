@@ -209,18 +209,10 @@
       "test": "make test"
     },
     "repository": {
-      "user": "segmentio",
-      "repo": "nightmare",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/segmentio/nightmare/tarball/master",
-      "clone_url": "https://github.com/segmentio/nightmare",
-      "https_url": "https://github.com/segmentio/nightmare",
-      "travis_url": "https://travis-ci.org/segmentio/nightmare",
-      "zip_url": "https://github.com/segmentio/nightmare/archive/master.zip",
-      "api_url": "https://api.github.com/repos/segmentio/nightmare"
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
     },
+    "author": "Segment",
     "keywords": [
       "nightmare",
       "electron"
@@ -281,5 +273,6 @@
   },
   "sourceRepo": "segmentio/nightmare",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:06.195Z"
+  "lastFetchedAt": "2017-05-04T20:48:06.195Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:24.647Z"
 }

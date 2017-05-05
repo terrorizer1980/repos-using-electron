@@ -80,14 +80,21 @@
       "start": "electron main.js",
       "test": "node_modules/mocha/bin/mocha test/basic-functions-test.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -124,5 +131,6 @@
   },
   "filename": "alanmbarr___electronCameraKiosk.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:51.687Z"
+  "lastFetchedAt": "2017-05-04T14:46:51.687Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:53.102Z"
 }

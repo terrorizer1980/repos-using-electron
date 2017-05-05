@@ -72,84 +72,133 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "GitWatch",
-    "version": "1.0.0",
+    "name": "PiGit",
+    "version": "0.5.2",
     "description": "electron app to watch git repos",
     "main": "main.js",
+    "build": {
+      "appId": "net.kfiku.pigit",
+      "copyright": "© Kfiku - Grzegorz Klimek",
+      "asar": true,
+      "productName": "PiGit",
+      "icon": "icon.icns",
+      "mac": {
+        "category": "public.app-category.productivity",
+        "target": "dmg"
+      },
+      "dmg": {
+        "backgroundColor": "#ffffff"
+      },
+      "linux": {
+        "maintainer": "Grzegorz Klimek",
+        "category": "Utility",
+        "description": "electron app to watch git repos",
+        "packageCategory": "Utility",
+        "arch": [
+          "x64"
+        ],
+        "target": [
+          "deb",
+          "rpm",
+          "zip"
+        ]
+      },
+      "win": {
+        "icon": "icon.ico"
+      },
+      "files": [
+        "node_modules",
+        "src",
+        "logo",
+        "main.js",
+        "LICENSE"
+      ]
+    },
     "scripts": {
-      "test": "npm run test:cov",
+      "test": "npm run lint && npm run test:cov",
       "postinstall": "npm run build",
-      "dev": "export NODE_ENV=dev && concurrently 'npm run lint' 'npm run css-w' 'npm run ts-w' 'npm start -- dev'",
+      "dev": "export NODE_ENV=dev && npm run css && concurrently 'npm run css-w' 'npm run ts-w' 'npm start -- dev'",
       "lint": "tslint src/**/*.tsx src/**/*.ts -c tslint.json",
       "clean": "find src -name \"*.js*\" -type f -delete",
-      "test:cov": "npm run ts && ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test/unit/**/*.js",
+      "test:cov": "npm run clean && ts-node ./node_modules/istanbul/lib/cli.js cover -e .ts ./node_modules/.bin/_mocha test/unit/**/*.ts",
       "test:unit": "npm run clean && ts-node ./node_modules/.bin/_mocha test/unit/**/*.ts",
-      "build": "npm run lint && npm run css && npm run ts",
+      "build": "npm run css && npm run ts",
       "start": "electron .",
-      "css": "postcss -o src/css/bundle.css -u precss src/css/all.css",
+      "css": "node-sass src/scss/all.scss src/css/bundle.css",
+      "css-w": "chokidar 'src/scss/**/*.scss' -c 'npm run css'",
       "ts": "tsc",
-      "css-w": "npm run css -- -w",
-      "ts-w": "npm run ts -- -w",
-      "test:unit-w": "chokidar test/unit/**/*.ts src/**/*.ts -c 'npm run test:unit' "
+      "ts-w": "npm run ts -- -w ",
+      "package": "npm run build:linux && npm run build:win && npm run build:mac",
+      "package:linux": "build --linux",
+      "package:win": "build --win",
+      "package:mac": "build --mac",
+      "test:unit-w": "chokidar 'test/unit/**/*.ts' 'src/**/*.ts' -c 'npm run test:unit' "
     },
-    "repository": "https://github.com/kfiku/gitWatch",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kfiku/piGit.git"
+    },
     "keywords": [
       "Electron",
       "Git",
       "watch"
     ],
+    "author": {
+      "name": "Grzegorz Klimek",
+      "email": "kfiku.com@gmail.com",
+      "url": "https://github.com/kfiku"
+    },
     "license": "MIT",
-    "homepage": "https://github.com/kfiku/gitWatch",
+    "bugs": {
+      "url": "https://github.com/kfiku/piGit/issues"
+    },
+    "homepage": "https://github.com/kfiku/piGit",
     "devDependencies": {
-      "@types/chai": "^3.4.34",
-      "@types/mocha": "^2.2.32",
-      "@types/node": "^6.0.46",
-      "chai": "^3.5.0",
-      "chokidar": "^1.6.0",
-      "chokidar-cli": "^1.2.0",
-      "css-loader": "^0.25.0",
-      "devtron": "^1.4.0",
-      "electron": "^1.4.5",
-      "electron-devtools-installer": "^2.0.1",
-      "istanbul": "^1.1.0-alpha.1",
-      "mocha": "^3.1.2",
-      "postcss": "^5.2.0",
-      "postcss-cli": "^2.6.0",
-      "precss": "^1.4.0",
-      "style-loader": "^0.13.1",
-      "ts-node": "^1.7.0",
-      "tslint": "^4.0.0-dev.1",
-      "typescript": "^2.0"
+      "@types/async": "~2.0.37",
+      "@types/chai": "~3.5.0",
+      "@types/electron": "~1.4.31",
+      "@types/es6-promise": "0.0.32",
+      "@types/mocha": "~2.2.35",
+      "@types/node": "~7.0.7",
+      "@types/react": "~15.0.15",
+      "@types/react-dom": "~0.14.20",
+      "@types/react-redux": "~4.4.32",
+      "@types/redux-thunk": "~2.1.0",
+      "@types/sortablejs": "~1.3.31",
+      "chai": "~3.5.0",
+      "chokidar": "~1.6.0",
+      "chokidar-cli": "~1.2.0",
+      "concurrently": "~3.1.0",
+      "devtron": "~1.4.0",
+      "electron": "~1.6.2",
+      "electron-debug": "~1.1.0",
+      "electron-devtools-installer": "~2.2.0",
+      "electron-installer-debian": "~0.5.0",
+      "electron-packager": "~8.6.0",
+      "istanbul": "~1.1.0-alpha.1",
+      "js-yaml": "~3.8.2",
+      "mocha": "~3.1.2",
+      "node-sass": "~4.5.1",
+      "release-it": "^2.6.0",
+      "ts-node": "^3.0.2",
+      "tslint": "^4.5.1",
+      "typescript": "~2.1"
     },
     "dependencies": {
-      "@types/async": "^2.0.32",
-      "@types/electron": "^1.4.24",
-      "@types/glob": "^5.0.30",
-      "@types/moment": "^2.13.0",
-      "@types/node": "^6.0.45",
-      "@types/react": "^0.14.41",
-      "@types/react-dom": "^0.14.18",
-      "@types/react-redux": "^4.4.32",
-      "@types/redux": "^3.6.31",
-      "@types/redux-logger": "^2.6.32",
-      "@types/sortablejs": "^1.3.30",
-      "async": "^2.0.1",
-      "bulma": "^0.2.3",
+      "async": "~2.3.0",
       "classnames": "~2.2.5",
-      "concurrently": "^3.1.0",
-      "director": "~1.2.8",
-      "electron-debug": "^1.1.0",
-      "electron-settings": "^2.2.1",
-      "font-awesome": "^4.6.3",
-      "moment": "^2.16.0",
-      "react": "^15.3.1",
-      "react-dom": "^15.3.1",
-      "react-redux": "^4.4.5",
-      "redux": "^3.6.0",
-      "redux-logger": "^2.7.4",
-      "redux-thunk": "^2.1.0",
-      "simple-git": "^1.48.0",
-      "sortablejs": "^1.5.0-rc1"
+      "diff2html": "^2.0.12",
+      "electron-settings": "~3.0.1",
+      "es6-promisify": "~5.0.0",
+      "moment": "~2.18.0",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "react-inlinesvg": "~0.5.5",
+      "react-redux": "^5.0.3",
+      "redux": "~3.6.0",
+      "redux-thunk": "^2.2.0",
+      "simple-git": "^1.67.0",
+      "sortablejs": "~1.5.1"
     }
   },
   "packageStatus": 200,
@@ -178,5 +227,6 @@
   "filename": "kfiku___gitWatch.json",
   "sourceRepo": "kfiku/piGit",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:06:58.767Z"
+  "lastFetchedAt": "2017-05-04T18:06:58.767Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:52.778Z"
 }

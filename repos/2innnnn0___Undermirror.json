@@ -75,14 +75,21 @@
       "start": "electron main.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "install": "^0.6.1",
@@ -117,5 +124,6 @@
   },
   "filename": "2innnnn0___Undermirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:53:17.166Z"
+  "lastFetchedAt": "2017-05-04T17:53:17.166Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:28.716Z"
 }

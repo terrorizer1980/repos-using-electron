@@ -80,6 +80,7 @@
       "start": "electron ./app/main.js",
       "build": "electron-packager ./app $npm_package_productName --platform=darwin --arch=x64 --ignore=node_modules --icon=icons/icon --overwrite --out=./release"
     },
+    "author": "Harry",
     "license": "GNU",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -113,5 +114,6 @@
   },
   "filename": "harrypujols___electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:18.480Z"
+  "lastFetchedAt": "2017-05-04T20:37:18.480Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:47.322Z"
 }

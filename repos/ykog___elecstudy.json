@@ -78,6 +78,11 @@
     "description": "My excellent app",
     "license": "MIT",
     "repository": "ykog/elec-sample",
+    "author": {
+      "name": "KOGURE Yoji",
+      "email": "yjkogure@enceladus.co.jp",
+      "url": "github.com/ykog"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -133,5 +138,6 @@
   },
   "filename": "ykog___elecstudy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:41.675Z"
+  "lastFetchedAt": "2017-05-04T20:38:41.675Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:26.895Z"
 }

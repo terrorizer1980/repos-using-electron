@@ -79,12 +79,16 @@
     "scripts": {
       "start": "electron . -r"
     },
-    "repository": "https://github.com/HappiApi/DAAH2",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/HappiApi/DAAH2.git"
+    },
     "keywords": [
       "electronic",
       "circuit",
       "simulation"
     ],
+    "author": "DAAH",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.3",
@@ -122,5 +126,6 @@
   },
   "filename": "HappiApi___DAAH2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:19:39.813Z"
+  "lastFetchedAt": "2017-05-04T18:19:39.813Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:35.410Z"
 }

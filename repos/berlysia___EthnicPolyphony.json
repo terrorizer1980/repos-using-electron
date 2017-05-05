@@ -67,6 +67,7 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
+    "author": "berlysia",
     "license": "MIT",
     "dependencies": {
       "bemmer": "^1.0.0",
@@ -87,17 +88,11 @@
       "electron-prebuilt": "^0.36.9"
     },
     "repository": {
-      "user": "berlysia",
-      "repo": "EthnicPolyphony",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/berlysia/EthnicPolyphony/tarball/master",
-      "clone_url": "https://github.com/berlysia/EthnicPolyphony",
-      "https_url": "https://github.com/berlysia/EthnicPolyphony",
-      "travis_url": "https://travis-ci.org/berlysia/EthnicPolyphony",
-      "zip_url": "https://github.com/berlysia/EthnicPolyphony/archive/master.zip",
-      "api_url": "https://api.github.com/repos/berlysia/EthnicPolyphony"
+      "type": "git",
+      "url": "git+https://github.com/berlysia/EthnicPolyphony.git"
+    },
+    "bugs": {
+      "url": "https://github.com/berlysia/EthnicPolyphony/issues"
     },
     "homepage": "https://github.com/berlysia/EthnicPolyphony#readme"
   },
@@ -147,5 +142,6 @@
   "filename": "berlysia___EthnicPolyphony.json",
   "sourceRepo": "kanosaki/petulant-octo-spork",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:32:11.808Z"
+  "lastFetchedAt": "2017-05-04T19:32:11.808Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:30.712Z"
 }

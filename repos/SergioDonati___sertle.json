@@ -67,29 +67,45 @@
   "status": 200,
   "packageJSON": {
     "name": "sertle",
-    "version": "0.0.5",
-    "private": true,
-    "description": "Lightweight application to help to manage customers and make invoices.",
+    "version": "0.0.8",
+    "private": false,
+    "description": "Lightweight application to help to manage customers and invoices.",
     "scripts": {
       "postinstall": "install-app-deps",
       "start": "npm install && electron ./app",
       "pack": "build --dir --x64",
-      "dist": "build --x64"
+      "dist": "build --x64",
+      "import": "node imports/fromCSVDeskDot.js"
     },
-    "repository": "https://github.com/SergioDonati/sertle",
+    "author": "donati.sergio@gmail.com",
+    "license": "GPL-3.0",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/SergioDonati/sertle.git"
+    },
     "build": {
       "appId": "com.sertle.desktop.app",
       "category": "public.app-category.business",
       "productName": "Sertle",
       "license": "GPL-3.0",
       "win": {
-        "msi": true
+        "target": [
+          "squirrel",
+          "zip",
+          "nsis"
+        ],
+        "msi": true,
+        "publish": [
+          "github"
+        ]
       }
     },
     "devDependencies": {
+      "csv-parser": "^1.11.0",
       "devtron": "^1.4.0",
-      "electron-builder": "^7.22.1",
-      "electron-prebuilt": "^1.4.5"
+      "electron": "^1.4.15",
+      "electron-builder": "^10.17.3",
+      "lokijs": "^1.4.2"
     }
   },
   "packageStatus": 200,
@@ -117,5 +133,6 @@
   },
   "filename": "SergioDonati___sertle.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:24.810Z"
+  "lastFetchedAt": "2017-05-04T05:07:24.810Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:45.873Z"
 }

@@ -89,17 +89,13 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "vincealdrin",
-      "repo": "marphil-pos",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/vincealdrin/marphil-pos/tarball/master",
-      "clone_url": "https://github.com/vincealdrin/marphil-pos",
-      "https_url": "https://github.com/vincealdrin/marphil-pos",
-      "travis_url": "https://travis-ci.org/vincealdrin/marphil-pos",
-      "zip_url": "https://github.com/vincealdrin/marphil-pos/archive/master.zip",
-      "api_url": "https://api.github.com/repos/vincealdrin/marphil-pos"
+      "type": "git",
+      "url": "git+https://github.com/vincealdrin/marphil-pos"
+    },
+    "author": {
+      "name": "vnc",
+      "email": "cabreravnc@yahoo.com",
+      "url": "https://github.com/vincealdrin"
     },
     "license": "MIT",
     "keywords": [
@@ -209,5 +205,6 @@
   "filename": "szwork2013___marphil-pos.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:51:58.909Z"
+  "lastFetchedAt": "2017-05-04T20:51:58.909Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:43.737Z"
 }

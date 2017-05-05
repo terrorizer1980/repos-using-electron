@@ -79,14 +79,13 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "@angular/common": "~2.1.2",
-      "@angular/compiler": "~2.1.2",
-      "@angular/core": "~2.1.2",
-      "@angular/forms": "~2.1.2",
-      "@angular/platform-browser": "~2.1.2",
-      "@angular/platform-browser-dynamic": "~2.1.2",
-      "@angular/router": "~3.1.2",
-      "@types/lodash": "^4.14.37",
+      "@angular/common": "~2.2.0",
+      "@angular/compiler": "~2.2.0",
+      "@angular/core": "~2.2.0",
+      "@angular/forms": "~2.2.0",
+      "@angular/platform-browser": "~2.2.0",
+      "@angular/platform-browser-dynamic": "~2.2.0",
+      "@angular/router": "~3.2.0",
       "bootstrap": "^3.3.7",
       "core-js": "^2.4.1",
       "electron": "^1.4.4",
@@ -103,6 +102,7 @@
       "@types/electron": "^1.4.25",
       "@types/nedb": "0.0.31",
       "@types/node": "^6.0.45",
+      "@types/lodash": "^4.14.37",
       "npm-run-all": "^3.1.1",
       "typescript": "^2.0.6"
     }
@@ -132,5 +132,6 @@
   },
   "filename": "laland___okeanna.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:23:04.754Z"
+  "lastFetchedAt": "2017-05-04T15:23:04.754Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:41.755Z"
 }

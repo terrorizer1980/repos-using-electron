@@ -81,7 +81,10 @@
       "mocha": "^2.4.5",
       "redux-devtools": "^3.1.1"
     },
-    "repository": "https://github.com/tokno/vending-machine-react-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tokno/vending-machine-react-electron.git"
+    },
     "dependencies": {
       "babel": "^6.5.2",
       "babel-preset-react": "^6.5.0",
@@ -117,5 +120,6 @@
   },
   "filename": "tokno___vending-machine-react-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:53:55.667Z"
+  "lastFetchedAt": "2017-05-04T20:53:55.667Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:57.849Z"
 }

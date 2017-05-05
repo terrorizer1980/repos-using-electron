@@ -186,6 +186,23 @@
     "description": "Unofficial Facebook Messenger app",
     "license": "MIT",
     "repository": "sindresorhus/caprine",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "maintainers": [
+      {
+        "name": "Oskar Krawczyk",
+        "email": "oskar.krawczyk@gmail.com",
+        "url": "krawczyk.io"
+      },
+      {
+        "name": "Daniel Pham",
+        "email": "pham.dany@gmail.com",
+        "url": "danhp.github.io"
+      }
+    ],
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -214,19 +231,7 @@
       "rules": {
         "import/no-extraneous-dependencies": 0
       }
-    },
-    "owners": [
-      {
-        "name": "Oskar Krawczyk",
-        "email": "oskar.krawczyk@gmail.com",
-        "url": "krawczyk.io"
-      },
-      {
-        "name": "Daniel Pham",
-        "email": "pham.dany@gmail.com",
-        "url": "danhp.github.io"
-      }
-    ]
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -274,5 +279,6 @@
   "svnUrl": "https://github.com/maniacs-oss/caprine",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:30:15.202Z"
+  "lastFetchedAt": "2017-05-04T05:30:15.202Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:23.415Z"
 }

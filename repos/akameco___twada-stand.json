@@ -60,6 +60,7 @@
       "release:osx": "electron-packager ./dist twada-stand --out=./release --platform=darwin --arch=x64 --version=0.37.2 --overwrite --asar",
       "release:win": "electron-packager ./dist twada-stand --out=./release --platform=win32 --arch=x64 --version=0.37.2 --overwrite --asar"
     },
+    "author": "akameco <akameco.t@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -121,5 +122,6 @@
   "svnUrl": "https://github.com/akameco/twada-stand",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:03:02.925Z"
+  "lastFetchedAt": "2017-05-04T21:03:02.925Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:20.562Z"
 }

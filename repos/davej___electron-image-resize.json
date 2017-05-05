@@ -57,6 +57,11 @@
     "description": "Resize images using Electron. Supports all image types that Chromium/Electron supports, outputs to png, jpeg, dataUrl or NativeImage.",
     "license": "MIT",
     "repository": "davej/electron-image-resize",
+    "author": {
+      "name": "DaveJ",
+      "email": "dave@davejeffery.com",
+      "url": "twitter.com/DaveJ"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -133,5 +138,6 @@
   },
   "filename": "davej___electron-image-resize.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:24.149Z"
+  "lastFetchedAt": "2017-05-04T17:59:24.149Z",
+  "packageLastFetchedAt": "2017-05-04T22:03:13.200Z"
 }

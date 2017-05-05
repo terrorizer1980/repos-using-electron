@@ -66,6 +66,7 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
+    "author": "juhee.bak",
     "dependencies": {
       "jquery": "^2.2.0",
       "jquery-ui": "^1.10.5"
@@ -103,9 +104,15 @@
       "test:unit": "npm run lint && jest -c ./scripts/unit-test.json"
     },
     "version": "0.0.1",
-    "repository": "https://github.com/junthus/six",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/junthus/six.git"
+    },
     "keywords": [],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/junthus/six/issues"
+    },
     "homepage": "https://github.com/junthus/six"
   },
   "packageStatus": 200,
@@ -133,5 +140,6 @@
   },
   "filename": "junthus___six.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:56.202Z"
+  "lastFetchedAt": "2017-05-04T05:32:56.202Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:43.486Z"
 }

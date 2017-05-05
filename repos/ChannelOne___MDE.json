@@ -73,29 +73,75 @@
   "status": 200,
   "packageJSON": {
     "name": "mde",
-    "version": "1.0.0",
+    "productName": "MDE",
+    "homePage": "https://github.com/ChannelOne/MDE",
+    "version": "0.1.2",
     "description": "A Markdown Editor",
     "main": "build/window.js",
     "scripts": {
-      "server": "http-server ./ -p8085",
-      "test": "node ./build/test/test.js"
+      "start": "http-server ./ -p8085",
+      "test": "mocha ./build/test --harmony",
+      "updateVersion": "node ./build/versionPatch.js",
+      "pack": "build --dir",
+      "dist": "build"
     },
-    "repository": "https://github.com/ChannelOne/MDE",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ChannelOne/MDE.git"
+    },
     "keywords": [
       "editor"
     ],
+    "author": "DZ Chan",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ChannelOne/MDE/issues"
+    },
     "homepage": "https://github.com/ChannelOne/MDE#readme",
     "dependencies": {
+      "@types/marked": "0.0.28",
+      "@types/mocha": "^2.2.38",
+      "codemirror": "^5.24.2",
       "gulp": "^3.9.1",
       "gulp-cached": "^1.1.0",
       "gulp-sourcemaps": "^2.1.1",
       "gulp-typescript": "^3.0.2",
+      "js-beautify": "^1.6.11",
       "list-diff2": "^0.1.4",
-      "sinon": "^1.17.6"
+      "marked": "^0.3.6",
+      "sinon": "^1.17.6",
+      "typescript-collections": "^1.2.3",
+      "typescript-domhelper": "^1.1.0"
     },
     "devDependencies": {
-      "electron": "^1.4.3"
+      "electron": "^1.6.6",
+      "electron-builder": "^10.15.1",
+      "electron-winstaller": "^2.5.1",
+      "gulp-typedoc": "^2.0.2",
+      "mocha": "^3.2.0",
+      "typedoc": "^0.5.5",
+      "typescript": "^2.1.6"
+    },
+    "build": {
+      "appId": "MDE Editor",
+      "win": {
+        "icon": "./build_resources/icon.ico"
+      },
+      "fileAssociations": [
+        {
+          "ext": "md",
+          "name": "Markdown"
+        }
+      ],
+      "directories": {
+        "buildResources": "build_resources"
+      },
+      "nsis": {
+        "oneClick": false,
+        "perMachine": true,
+        "include": "./build_resources/installer.nsh",
+        "runAfterFinish": false
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +169,6 @@
   },
   "filename": "ChannelOne___MDE.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:33.450Z"
+  "lastFetchedAt": "2017-05-04T20:07:33.450Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:58.130Z"
 }

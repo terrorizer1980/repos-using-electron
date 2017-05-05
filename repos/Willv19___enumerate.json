@@ -79,6 +79,11 @@
     "description": "An Electron todo list application",
     "license": "MIT",
     "repository": "Willv19/enumerate",
+    "author": {
+      "name": "Will V",
+      "email": "will_vauclain@asl.org",
+      "url": "willv19.github.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -136,5 +141,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:43.210Z"
+  "lastFetchedAt": "2017-05-04T14:50:43.210Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:38.895Z"
 }

@@ -185,19 +185,14 @@
       "test": "standard index.js app/search.js app/settings.js"
     },
     "repository": {
-      "user": "muan",
-      "repo": "mojibar",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/muan/mojibar/tarball/master",
-      "clone_url": "https://github.com/muan/mojibar",
-      "https_url": "https://github.com/muan/mojibar",
-      "travis_url": "https://travis-ci.org/muan/mojibar",
-      "zip_url": "https://github.com/muan/mojibar/archive/master.zip",
-      "api_url": "https://api.github.com/repos/muan/mojibar"
+      "type": "git",
+      "url": "git+https://github.com/muan/mojibar.git"
     },
+    "author": "Mu-An Chiou <me@muanchiou.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/muan/mojibar/issues"
+    },
     "homepage": "https://github.com/muan/mojibar#readme"
   },
   "packageStatus": 200,
@@ -246,5 +241,6 @@
   "svnUrl": "https://github.com/bevacqua/mojibar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:11:39.538Z"
+  "lastFetchedAt": "2017-05-04T21:11:39.538Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:19.899Z"
 }

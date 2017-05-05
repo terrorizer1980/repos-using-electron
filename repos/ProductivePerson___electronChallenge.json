@@ -83,17 +83,8 @@
       "build": "electron-packager . lastTenBitcoins --all;"
     },
     "repository": {
-      "user": "ProductivePerson",
-      "repo": "electronChallenge",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ProductivePerson/electronChallenge/tarball/master",
-      "clone_url": "https://github.com/ProductivePerson/electronChallenge",
-      "https_url": "https://github.com/ProductivePerson/electronChallenge",
-      "travis_url": "https://travis-ci.org/ProductivePerson/electronChallenge",
-      "zip_url": "https://github.com/ProductivePerson/electronChallenge/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ProductivePerson/electronChallenge"
+      "type": "git",
+      "url": "git+https://github.com/ProductivePerson/electronChallenge"
     },
     "keywords": [
       "Electron",
@@ -101,7 +92,11 @@
       "transactions",
       "codingChallenge"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ProductivePerson/electronChallenge/issues"
+    },
     "homepage": "https://github.com/ProductivePerson/electronChallenge#readme",
     "devDependencies": {
       "electron": "^1.3.4"
@@ -137,5 +132,6 @@
   "filename": "ProductivePerson___electronChallenge.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:10:21.135Z"
+  "lastFetchedAt": "2017-05-04T18:10:21.135Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:29.880Z"
 }

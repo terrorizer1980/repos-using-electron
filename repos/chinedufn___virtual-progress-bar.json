@@ -55,7 +55,10 @@
       "deploy": "mkdirp example-dist && browserify demo/browser.js | htmlify > example-dist/index.html && gh-pages -d example-dist",
       "test": "standard && node test/virtual-progress-bar.js && browserify test/virtual-progress-bar.js | testron"
     },
-    "repository": "https://github.com/chinedufn/virtual-progress-bar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chinedufn/virtual-progress-bar.git"
+    },
     "keywords": [
       "virtual",
       "dom",
@@ -64,7 +67,11 @@
       "component",
       "react"
     ],
+    "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chinedufn/virtual-progress-bar/issues"
+    },
     "homepage": "https://github.com/chinedufn/virtual-progress-bar#readme",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -130,5 +137,6 @@
   "svnUrl": "https://github.com/chinedufn/virtual-progress-bar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:01:53.278Z"
+  "lastFetchedAt": "2017-05-04T20:01:53.278Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:42.352Z"
 }

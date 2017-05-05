@@ -59,14 +59,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/refucktor/catalog",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/refucktor/catalog.git"
+    },
     "keywords": [
       "catalog",
       "desktop",
       "app",
       "nodejs"
     ],
+    "author": "reFucktor <hmvalcarcel@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/refucktor/catalog/issues"
+    },
     "homepage": "https://github.com/refucktor/catalog#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.7"
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/refucktor/catalog",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:19:01.200Z"
+  "lastFetchedAt": "2017-05-04T15:19:01.200Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:56.870Z"
 }

@@ -87,7 +87,7 @@
   "status": 200,
   "packageJSON": {
     "name": "googletasks-desktop",
-    "version": "0.1.0",
+    "version": "0.1.2",
     "description": "A desktop app for Google Tasks, using Electron like container",
     "main": "src/main.js",
     "scripts": {
@@ -102,6 +102,7 @@
       "Desktop",
       "Windows"
     ],
+    "author": "arnolem",
     "license": "GNU",
     "devDependencies": {
       "electron": "^1.4.1",
@@ -133,5 +134,6 @@
   },
   "filename": "wixiweb___googletasks-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:01.730Z"
+  "lastFetchedAt": "2017-05-04T05:07:01.730Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:44.905Z"
 }

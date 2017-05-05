@@ -90,6 +90,7 @@
     "description": "Connected Car POC that uses the Reekoh IoT Application Integration Platform. For use in demos.",
     "version": "1.0.0",
     "main": "main.js",
+    "author": "Reekoh, Inc.",
     "license": "MIT",
     "scripts": {
       "start": "node ./start-electron.js",
@@ -154,5 +155,6 @@
   },
   "filename": "Reekoh___connected-car-poc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:09:41.020Z"
+  "lastFetchedAt": "2017-05-04T18:09:41.020Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:00.950Z"
 }

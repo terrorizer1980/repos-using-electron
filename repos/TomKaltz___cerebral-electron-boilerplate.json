@@ -72,6 +72,10 @@
     "main": "index.js",
     "description": "Starter boilerplate for using Cererbral with Electron",
     "license": "ISC",
+    "author": {
+      "name": "Tom Kaltz",
+      "email": "tomkaltz@gmail.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -158,5 +162,6 @@
   },
   "filename": "TomKaltz___cerebral-electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:32.320Z"
+  "lastFetchedAt": "2017-05-04T18:17:32.320Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:34.566Z"
 }

@@ -61,14 +61,21 @@
       "pack:osx": "electron-packager . Rested --overwrite --platform=darwin --arch=x64 --version=0.36.7 --icon=assets/rested.icns --out=dist --prune --ignore=dist",
       "build:osx": "npm run pack:osx && electron-builder dist/osx/Boxy.app --platform=osx --out=\"dist/osx\" --config=packager.json"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-builder": "^2.7.2",
@@ -126,5 +133,6 @@
   },
   "filename": "bibhas2___rested.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:12.291Z"
+  "lastFetchedAt": "2017-05-04T19:54:12.291Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:22.903Z"
 }

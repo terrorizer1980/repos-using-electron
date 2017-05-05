@@ -68,22 +68,29 @@
     "main": "main.js",
     "scripts": {
       "start": "electron .",
-      "test": "standard **/*.js",
+      "test": "standard lib/*.js lib/verify/*.js menus/*.js main.js",
+      "clean": "rimraf built/*",
       "build-chals": "node lib/build-challenges.js",
       "build-pages": "node lib/build-pages.js",
-      "build-zhtw": "node lib/build-challenges.js zhtw",
-      "build-ja": "node lib/build-challenges.js ja",
-      "build-all": "npm run build-chals && npm run build-pages && npm run build-zhtw && npm run build-ja",
-      "pack-mac": "electron-packager . Git-it --platform=darwin --arch=x64   --icon=assets/git-it.icns --overwrite --ignore=/out/ --ignore=assets/PortableGit --prune=true --out=out",
-      "pack-lin": "electron-packager . Git-it --platform=linux  --arch=x64   --icon=assets/git-it.png  --overwrite --ignore=/out/ --ignore=assets/PortableGit --prune=true --out=out",
-      "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=/out/ --prune=true --out=out "
+      "build-all": "npm run clean && npm run build-chals && npm run build-pages",
+      "pack-mac": "electron-packager . Git-it --platform=darwin --arch=x64   --icon=assets/git-it.icns --overwrite --ignore=/out/ --ignore=assets/PortableGit --ignore=resources --prune=true --out=out",
+      "pack-lin": "electron-packager . Git-it --platform=linux  --arch=x64   --icon=assets/git-it.png  --overwrite --ignore=/out/ --ignore=assets/PortableGit --ignore=resources --prune=true --out=out",
+      "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=/out/ --ignore=resources --prune=true --out=out "
     },
-    "repository": "https://github.com/jlord/git-it-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
+    },
+    "author": "Jessica Lord",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
     "homepage": "https://github.com/jlord/git-it-electron",
     "devDependencies": {
       "electron": "^1.4.3",
       "electron-packager": "^8.0.0",
+      "rimraf": "^2.5.4",
       "standard": "^5.4.1"
     },
     "dependencies": {
@@ -138,5 +145,6 @@
   },
   "filename": "jlord___git-it-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:44.875Z"
+  "lastFetchedAt": "2017-05-04T17:51:44.875Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:16.711Z"
 }

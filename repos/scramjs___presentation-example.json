@@ -85,8 +85,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "start": "electron node_modules/scram-engine/main.js app/index.html",
-      "dev-window": "electron node_modules/scram-engine/main.js app/index.html -d"
+      "start": "electron node_modules/scram-engine/main.js --entry-file app/index.html",
+      "dev-window": "electron node_modules/scram-engine/main.js --entry-file app/index.html --window"
     },
     "repository": {
       "type": "git",
@@ -99,9 +99,8 @@
     },
     "homepage": "https://github.com/scramjs/presentation-example#readme",
     "dependencies": {
-      "electron-prebuilt": "^1.2.1",
       "express": "^4.13.4",
-      "scram-engine": "^0.2.2"
+      "scram-engine": "^0.4.4"
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,6 @@
   },
   "filename": "scramjs___presentation-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:04.642Z"
+  "lastFetchedAt": "2017-05-04T14:46:04.642Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:33.384Z"
 }

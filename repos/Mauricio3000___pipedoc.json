@@ -74,10 +74,14 @@
       "start": "electron .",
       "build-linux": "electron-packager . Pipedoc --platform=linux --arch=x64 --prune"
     },
-    "repository": "https://github.com/Mauricio3000/pipedoc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Mauricio3000/pipedoc.git"
+    },
     "keywords": [
       "Flowchar"
     ],
+    "author": "Mauricio Santos-Hoyos",
     "license": "GPL-3.0",
     "peerDependencies": {},
     "dependencies": {
@@ -85,6 +89,9 @@
       "aurelia-fetch-client": "^1.0.0",
       "aurelia-animator-css": "^1.0.0",
       "bluebird": "^3.4.1"
+    },
+    "bugs": {
+      "url": "https://github.com/Mauricio3000/pipedoc/issues"
     },
     "homepage": "https://github.com/Mauricio3000/pipedoc#README.md",
     "devDependencies": {
@@ -163,5 +170,6 @@
   },
   "filename": "Mauricio3000___pipedoc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:07:34.079Z"
+  "lastFetchedAt": "2017-05-03T20:07:34.079Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:22.765Z"
 }

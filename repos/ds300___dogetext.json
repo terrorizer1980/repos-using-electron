@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/ds300/dogetext",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ds300/dogetext.git"
+    },
     "keywords": [
       "wow",
       "such",
       "text",
       "edit"
     ],
+    "author": "David Sheldrick",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/ds300/dogetext/issues"
+    },
     "homepage": "https://github.com/ds300/dogetext",
     "devDependencies": {
       "ddom": "0.0.8",
@@ -116,5 +123,6 @@
   },
   "filename": "ds300___dogetext.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:19.594Z"
+  "lastFetchedAt": "2017-05-04T18:26:19.594Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:33.130Z"
 }

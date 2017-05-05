@@ -96,6 +96,11 @@
       "3d",
       "graphics"
     ],
+    "author": {
+      "name": "variable.io",
+      "email": "contact@variable.io",
+      "url": "http://variable.io"
+    },
     "contributors": [
       {
         "name": "Marcin Ignac",
@@ -109,7 +114,11 @@
       }
     ],
     "main": "index.js",
-    "repository": "https://github.com/pex-gl/pex-examples",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pex-gl/pex-examples.git"
+    },
+    "bugs": "https://github.com/pex-gl/pex-examples/issues",
     "license": "MIT",
     "dependencies": {
       "browserify": "^10.2.6",
@@ -170,5 +179,6 @@
   },
   "filename": "pex-gl___pex-examples.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:47.813Z"
+  "lastFetchedAt": "2017-05-04T21:02:47.813Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:43.031Z"
 }

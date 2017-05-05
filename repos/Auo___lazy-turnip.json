@@ -72,6 +72,11 @@
     "description": "An application to handle installation of world of warcraft addons",
     "license": "MIT",
     "repository": "auo/lazy-turnip",
+    "author": {
+      "name": "Andreas Lindgren",
+      "email": "",
+      "url": "https://github.com/auo/lazy-turnip"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -153,5 +158,6 @@
   },
   "filename": "Auo___lazy-turnip.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:50.158Z"
+  "lastFetchedAt": "2017-05-04T19:42:50.158Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:10.579Z"
 }

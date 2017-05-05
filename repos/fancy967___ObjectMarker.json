@@ -73,7 +73,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/fancy967/ObjectMarker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fancy967/ObjectMarker.git"
+    },
     "keywords": [
       "Object",
       "Marker",
@@ -81,6 +84,7 @@
       "PASCAL",
       "VOC"
     ],
+    "author": "fancy967",
     "dependencies": {
       "xml2js": "*"
     },
@@ -114,5 +118,6 @@
   },
   "filename": "fancy967___ObjectMarker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:44.554Z"
+  "lastFetchedAt": "2017-05-04T14:24:44.554Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:52.557Z"
 }

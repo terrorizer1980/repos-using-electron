@@ -76,8 +76,15 @@
       "electron": "electron app",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/inthedark122/tasks-for-day-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/inthedark122/tasks-for-day-electron.git"
+    },
+    "author": "Oleg Kutsenko",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/inthedark122/tasks-for-day-electron/issues"
+    },
     "homepage": "https://github.com/inthedark122/tasks-for-day-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.4",
@@ -122,5 +129,6 @@
   },
   "filename": "inthedark122___tasks-for-day-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:25.025Z"
+  "lastFetchedAt": "2017-05-04T17:36:25.025Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:33.939Z"
 }

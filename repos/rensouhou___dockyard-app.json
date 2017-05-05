@@ -112,8 +112,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/rensouhou/dockyard-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rensouhou/dockyard-app.git"
+    },
+    "author": {
+      "name": "Stefan Rimaila",
+      "email": "stefan@rimaila.fi",
+      "url": "https://github.com/stuf"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rensouhou/dockyard-app/issues"
+    },
     "keywords": [],
     "homepage": "https://github.com/rensouhou/dockyard-app#readme",
     "devDependencies": {
@@ -252,5 +263,6 @@
   },
   "filename": "rensouhou___dockyard-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:23.895Z"
+  "lastFetchedAt": "2017-05-04T20:46:23.895Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:07.108Z"
 }

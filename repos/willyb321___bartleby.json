@@ -170,6 +170,10 @@
     "version": "0.0.0",
     "description": "Small description for bartleby goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -179,6 +183,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -288,5 +293,6 @@
   "svnUrl": "https://github.com/willyb321/bartleby",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:03:10.763Z"
+  "lastFetchedAt": "2017-05-04T18:03:10.763Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:45.992Z"
 }

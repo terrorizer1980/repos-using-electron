@@ -79,11 +79,18 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/aksahli/yuki",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aksahli/yuki.git"
+    },
     "keywords": [
       "torrent"
     ],
+    "author": "aksahli",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/aksahli/yuki/issues"
+    },
     "homepage": "https://github.com/aksahli/yuki#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -114,5 +121,6 @@
   },
   "filename": "aksahli___yuki.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:43.757Z"
+  "lastFetchedAt": "2017-05-04T19:38:43.757Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:40.419Z"
 }

@@ -101,7 +101,15 @@
       "type": "git",
       "url": "git+ssh://git@github.com:cskeppstedt/electron-tap-view.git"
     },
+    "author": {
+      "name": "Christoffer Skeppstedt",
+      "email": "c.skeppstedt@gmail.com",
+      "url": "https://github.com/cskeppstedt"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cskeppstedt/electron-tap-view/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -215,5 +223,6 @@
   },
   "filename": "cskeppstedt___electron-tap-view.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:46.606Z"
+  "lastFetchedAt": "2017-05-04T19:30:46.606Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:03.942Z"
 }

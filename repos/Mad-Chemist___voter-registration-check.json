@@ -76,6 +76,11 @@
     "version": "1.0.0",
     "description": "Builds an electron project",
     "main": "electron-build.js",
+    "author": {
+      "name": "Vico Bertogli III",
+      "email": "th@css.expert",
+      "url": "http://www.css.expert/"
+    },
     "contributors": [
       "Vico Bertogli III <th@css.expert> (https://github.com/mad-chemist)",
       "Francis Kabinoff <francis.kabinoff@gmail.com> (https://github.com/fkabinoff)"
@@ -86,6 +91,9 @@
       "electron-prebuilt": "^0.37.8"
     },
     "build": {},
+    "directories": {
+      "app": "./app"
+    },
     "scripts": {
       "postinstall": "install-app-deps",
       "start": "./app/node_modules/.bin/electron ./app",
@@ -119,5 +127,6 @@
   },
   "filename": "Mad-Chemist___voter-registration-check.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:20.960Z"
+  "lastFetchedAt": "2017-05-04T18:15:20.960Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:26.826Z"
 }

@@ -74,14 +74,21 @@
       "start": "electron main.js",
       "mongo": "mongod"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -113,5 +120,6 @@
   },
   "filename": "youngwind___GithubStarManager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:22:47.382Z"
+  "lastFetchedAt": "2017-05-04T18:22:47.382Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:54.824Z"
 }

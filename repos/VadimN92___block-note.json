@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron index.js"
     },
-    "repository": "https://github.com/VadimN92/block-note",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VadimN92/block-note.git"
+    },
+    "author": "Vadim Nagirniak",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/VadimN92/block-note/issues"
+    },
     "homepage": "https://github.com/VadimN92/block-note#readme",
     "dependencies": {
       "electron-prebuilt": "^1.4.5"
@@ -105,5 +112,6 @@
   },
   "filename": "VadimN92___block-note.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:29.273Z"
+  "lastFetchedAt": "2017-05-04T18:17:29.273Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:12.611Z"
 }

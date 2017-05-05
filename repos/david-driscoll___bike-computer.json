@@ -82,12 +82,19 @@
       "tsc": "tsc",
       "tsc:w": "tsc -w"
     },
-    "repository": "https://github.com/david-driscoll/bike-computer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/david-driscoll/bike-computer.git"
+    },
     "keywords": [
       "bike",
       "bicycle"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/david-driscoll/bike-computer/issues"
+    },
     "homepage": "https://github.com/david-driscoll/bike-computer#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.0",
@@ -145,5 +152,6 @@
   },
   "filename": "david-driscoll___bike-computer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:39.786Z"
+  "lastFetchedAt": "2017-05-04T20:54:39.786Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:16.197Z"
 }

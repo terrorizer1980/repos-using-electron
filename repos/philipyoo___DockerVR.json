@@ -73,5 +73,50 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:37:41.670Z"
+  "lastFetchedAt": "2017-05-04T19:37:41.670Z",
+  "packageJSON": {
+    "name": "DockerVR",
+    "version": "0.0.1",
+    "description": "Manage Docker containers in VR",
+    "license": "MIT",
+    "repository": "philipyoo/DockerVR",
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --asar --overwrite --all"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "index.css",
+      "app.js"
+    ],
+    "keywords": [
+      "electron",
+      "docker",
+      "a-frame",
+      "vr"
+    ],
+    "dependencies": {
+      "budo": "^9.4.7",
+      "dockerode": "^2.3.1",
+      "electron-debug": "^1.0.0",
+      "electron-packager": "^8.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^8.0.0",
+      "electron": "^1.3.3",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:06:30.766Z"
 }

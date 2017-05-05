@@ -58,6 +58,11 @@
     "description": "Do your math.",
     "license": "MIT",
     "repository": "hemanth/math-pad",
+    "author": {
+      "name": "Hemanth.HM",
+      "email": "hemanth.hm@gmail.com",
+      "url": "h3manth.com"
+    },
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
@@ -126,5 +131,6 @@
   },
   "filename": "hemanth___math-pad.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:05.574Z"
+  "lastFetchedAt": "2017-05-04T14:55:05.574Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:00.291Z"
 }

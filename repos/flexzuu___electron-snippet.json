@@ -76,6 +76,7 @@
       "package:mac": "electron-packager electron 'Snippet' --out=dist --asar --overwrite --icon=icon.icns"
     },
     "keywords": [],
+    "author": "Jonas Faber",
     "devDependencies": {
       "electron-packager": "^8.1.0"
     }
@@ -105,5 +106,6 @@
   },
   "filename": "flexzuu___electron-snippet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:33.308Z"
+  "lastFetchedAt": "2017-05-04T20:56:33.308Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:13.612Z"
 }

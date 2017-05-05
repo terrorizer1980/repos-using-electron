@@ -74,10 +74,15 @@
   "packageJSON": {
     "name": "logotron",
     "productName": "Logotron",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Have fun to learn LOGO programming with electron!",
     "license": "MIT",
     "repository": "katsew/logotron",
+    "author": {
+      "name": "katsew",
+      "email": "y.katsew@gmail.com",
+      "url": "katsew.github.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -93,10 +98,17 @@
     ],
     "keywords": [
       "electron-app",
-      "electron"
+      "electron",
+      "LOGO",
+      "turtle graphics",
+      "education",
+      "computer graphics",
+      "html5",
+      "canvas"
     ],
     "dependencies": {
-      "electron-debug": "^1.0.0"
+      "electron-debug": "^1.0.0",
+      "logo-command-parser": "^0.3.0"
     },
     "devDependencies": {
       "@types/debug": "0.0.29",
@@ -140,5 +152,6 @@
   },
   "filename": "katsew___logotron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:10.813Z"
+  "lastFetchedAt": "2017-05-04T15:15:10.813Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:16.560Z"
 }

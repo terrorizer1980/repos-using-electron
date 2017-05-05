@@ -87,35 +87,36 @@
   "status": 200,
   "packageJSON": {
     "name": "wakatime-desktop",
-    "version": "1.0.0",
-    "description": "WakaTime desktop program.",
-    "main": "src/js/main.js",
+    "version": "0.0.1",
+    "author": "WakaTime",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/wakatime/wakatime-desktop",
+    "description": "The WakaTime desktop app.",
+    "main": "out/app.js",
     "scripts": {
-      "start": "electron src/js/main.js"
+      "start": "electron out/app.js",
+      "build": "tsc"
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/wakatime/wakatime-desktop.git"
+    },
+    "bugs": {
+      "url": "https://github.com/wakatime/wakatime-desktop/issues"
     },
     "keywords": [
-      "Electron",
-      "quick",
-      "start",
-      "tutorial"
+      "quantified self",
+      "time tracking"
     ],
-    "license": "CC0-1.0",
-    "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
-      "electron-prebuilt": "^1.1.1"
+      "electron": "^1.4.15",
+      "typescript": "^2.1.6"
+    },
+    "dependencies": {
+      "@types/node": "^7.0.5",
+      "@types/react": "^15.0.9",
+      "async-file": "^2.0.2",
+      "react": "^15.4.2"
     }
   },
   "packageStatus": 200,
@@ -144,5 +145,6 @@
   "sourceRepo": "gedaiu/Voice",
   "filename": "wakatime___wakatime-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:25.669Z"
+  "lastFetchedAt": "2017-05-04T20:49:25.669Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:00.714Z"
 }

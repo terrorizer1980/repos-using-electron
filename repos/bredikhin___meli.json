@@ -59,6 +59,7 @@
     "scripts": {
       "pack": "electron-packager ./ meli --platform=darwin --arch=x64 --icon=./icons/meli.icns"
     },
+    "author": "",
     "license": "MIT",
     "dependencies": {
       "menubar": "^3.0.0"
@@ -113,5 +114,6 @@
   },
   "filename": "bredikhin___meli.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:18.634Z"
+  "lastFetchedAt": "2017-05-04T17:33:18.634Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:22.225Z"
 }

@@ -69,8 +69,9 @@
     "name": "alephba_print",
     "title": "Alephba Print",
     "description": "Alephba Print",
-    "version": "1.9.8",
+    "version": "1.9.9",
     "license": "ISC",
+    "author": "nainemom <nainemom@gmail.com>",
     "main": "main.js",
     "build": {
       "asar": false,
@@ -97,7 +98,13 @@
       "nai-sql": "git+https://github.com/nainemom/nai-sql.git",
       "socket.io": "^1.4.6"
     },
-    "repository": "https://github.com/9000000g/alephba-print"
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/9000000g/alephba-print.git"
+    },
+    "bugs": {
+      "url": "https://github.com/9000000g/alephba-print/issues"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -124,5 +131,6 @@
   },
   "filename": "9000000g___alephba-print.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:29:05.388Z"
+  "lastFetchedAt": "2017-05-04T18:29:05.388Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:56.888Z"
 }

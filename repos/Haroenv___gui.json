@@ -170,6 +170,10 @@
     "version": "0.0.3",
     "description": "A desktop app to fetch and submit exercism.io problems",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -179,6 +183,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "active-model-adapter": "2.1.1",
@@ -328,5 +333,6 @@
   "filename": "Haroenv___gui.json",
   "sourceRepo": "exercism/gui",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:42.451Z"
+  "lastFetchedAt": "2017-05-04T19:44:42.451Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:10.649Z"
 }

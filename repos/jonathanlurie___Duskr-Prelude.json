@@ -59,8 +59,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/jonathanlurie/Duskr-Prelude",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jonathanlurie/Duskr-Prelude.git"
+    },
+    "author": "Jonathan Lurie / Duskr",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jonathanlurie/Duskr-Prelude/issues"
+    },
     "homepage": "http://duskr.co/prelude",
     "dependencies": {
       "electron-drag": "^1.1.0",
@@ -116,5 +123,6 @@
   },
   "filename": "jonathanlurie___Duskr-Prelude.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:58.085Z"
+  "lastFetchedAt": "2017-05-04T21:24:58.085Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:13.392Z"
 }

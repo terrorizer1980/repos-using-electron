@@ -58,6 +58,11 @@
     "description": "My phenomenal app",
     "license": "MIT",
     "repository": "bang88/herb",
+    "author": {
+      "name": "bang",
+      "email": "yuhuidev@gmail.com",
+      "url": "github.com/bang88/herb"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -136,5 +141,6 @@
   "svnUrl": "https://github.com/bang88/herb",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:50:53.858Z"
+  "lastFetchedAt": "2017-05-04T19:50:53.858Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:34.355Z"
 }

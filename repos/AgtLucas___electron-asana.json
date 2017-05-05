@@ -94,8 +94,15 @@
       "media/icon.png",
       "media/Icon.icns"
     ],
-    "repository": "https://github.com/AgtLucas/asana-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AgtLucas/asana-app.git"
+    },
+    "author": "Lucas",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AgtLucas/asana-app/issues"
+    },
     "homepage": "https://github.com/AgtLucas/asana-app#readme",
     "dependencies": {
       "electron-debug": "^0.2.1"
@@ -130,5 +137,6 @@
   },
   "filename": "AgtLucas___electron-asana.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:25.859Z"
+  "lastFetchedAt": "2017-05-04T17:41:25.859Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:41.586Z"
 }

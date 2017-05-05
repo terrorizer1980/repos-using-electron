@@ -74,14 +74,21 @@
       "start": "electron .",
       "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./icon.icns --overwrite"
     },
-    "repository": "https://github.com/haiyon/ustock",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/haiyon/ustock.git"
+    },
     "keywords": [
       "macOS",
       "Stock",
       "macOS",
       "Client"
     ],
+    "author": "CC. Shen <ihaiyon@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/haiyon/ustock/issues"
+    },
     "homepage": "https://github.com/haiyon/ustock#readme",
     "devDependencies": {
       "electron-packager": "^8.1.0",
@@ -113,5 +120,6 @@
   },
   "filename": "haiyon___uStock.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:51.509Z"
+  "lastFetchedAt": "2017-05-04T18:25:51.509Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:16.391Z"
 }

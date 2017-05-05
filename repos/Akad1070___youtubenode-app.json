@@ -82,7 +82,10 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Akad1070/youtubenode-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Akad1070/youtubenode-app.git"
+    },
     "keywords": [
       "youtube",
       "node",
@@ -90,7 +93,11 @@
       "react",
       "electron"
     ],
+    "author": "A. Kad",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Akad1070/youtubenode-app/issues"
+    },
     "homepage": "https://github.com/Akad1070/youtubenode-app#readme",
     "devDependencies": {
       "babel-cli": "^6.16.0",
@@ -159,5 +166,6 @@
   },
   "filename": "Akad1070___youtubenode-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:17.283Z"
+  "lastFetchedAt": "2017-05-04T14:25:17.283Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:00.976Z"
 }

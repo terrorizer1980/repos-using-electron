@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron js/e_launch.js"
     },
-    "repository": "https://github.com/justintjones/epicnote",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/justintjones/epicnote"
+    },
+    "author": "Justin T Jones",
     "license": "AGPL-3.0",
     "dependencies": {
       "electron": "*",
@@ -105,5 +109,6 @@
   },
   "filename": "JustinTJones___epicnote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:32.944Z"
+  "lastFetchedAt": "2017-05-04T20:06:32.944Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:12.412Z"
 }

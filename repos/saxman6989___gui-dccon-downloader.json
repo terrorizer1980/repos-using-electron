@@ -59,11 +59,18 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/saxman6989/gui-dccon-downloader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/saxman6989/gui-dccon-downloader.git"
+    },
     "keywords": [
       "dccon"
     ],
+    "author": "Saxman",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/saxman6989/gui-dccon-downloader/issues"
+    },
     "homepage": "https://github.com/saxman6989/gui-dccon-downloader",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -122,5 +129,6 @@
   "svnUrl": "https://github.com/saxman6989/gui-dccon-downloader",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:03:18.926Z"
+  "lastFetchedAt": "2017-05-04T21:03:18.926Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:03.880Z"
 }

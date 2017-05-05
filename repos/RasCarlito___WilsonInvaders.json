@@ -180,14 +180,21 @@
       "postinstall": "bower install",
       "start": "electron app/main.js"
     },
-    "repository": "https://github.com/eleven-labs/WilsonInvaders",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eleven-labs/WilsonInvaders.git"
+    },
     "keywords": [
       "WilsonInvaders",
       "wilson",
       "invaders",
       "game"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/eleven-labs/WilsonInvaders/issues"
+    },
     "homepage": "https://github.com/eleven-labs/WilsonInvaders#readme",
     "devDependencies": {
       "cz-conventional-changelog": "^1.1.5",
@@ -244,5 +251,6 @@
   },
   "filename": "RasCarlito___WilsonInvaders.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:57.211Z"
+  "lastFetchedAt": "2017-05-04T17:42:57.211Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:00.403Z"
 }

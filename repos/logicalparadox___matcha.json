@@ -46,6 +46,7 @@
   "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
+    "author": "Jake Luer <jake@alogicalparadox.com>",
     "name": "matcha",
     "description": "Benchmark your code.",
     "keyword": [
@@ -54,7 +55,10 @@
       "performance"
     ],
     "version": "0.7.0",
-    "repository": "https://github.com/logicalparadox/matcha",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/logicalparadox/matcha.git"
+    },
     "main": "index",
     "bin": {
       "matcha": "./bin/matcha",
@@ -115,5 +119,6 @@
   "svnUrl": "https://github.com/logicalparadox/matcha",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:54:25.707Z"
+  "lastFetchedAt": "2017-05-04T20:54:25.707Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:35.395Z"
 }

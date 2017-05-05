@@ -73,34 +73,49 @@
   "status": 200,
   "packageJSON": {
     "name": "redux-electron-ipc",
-    "version": "1.1.3",
+    "version": "1.1.9",
     "description": "Redux Electron IPC Middleware",
     "main": "index.js",
     "scripts": {
-      "test": "./node_modules/.bin/mocha --compilers js:babel-core/register",
-      "lint": "./node_modules/.bin/eslint .",
-      "build": "./node_modules/.bin/webpack && cross-env WEBPACK_ENV=production ./node_modules/.bin/webpack",
-      "dev": "./node_modules/.bin/webpack --watch"
+      "test": "mocha",
+      "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -x 'example/**/*.js' -- test/*.js",
+      "test-coveralls": "istanbul cover node_modules/mocha/bin/_mocha -x 'example/**/*.js' --report lcovonly -- test/*.js && cat ./coverage/lcov.info | coveralls --verbose && rm -rf ./coverage",
+      "lint": "eslint .",
+      "build": "webpack && cross-env WEBPACK_ENV=production webpack",
+      "dev": "webpack --watch"
     },
+    "files": [
+      "dist"
+    ],
     "keywords": [
       "redux",
       "electron",
       "ipc",
       "middleware"
     ],
-    "repository": "https://github.com/mariotacke/redux-electron-ipc",
+    "author": "Mario Tacke <tacke.mario@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mariotacke/redux-electron-ipc.git"
+    },
+    "bugs": {
+      "url": "https://github.com/mariotacke/redux-electron-ipc/issues"
+    },
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.9.1",
-      "babel-eslint": "^6.0.4",
+      "babel-eslint": "^7.1.1",
       "babel-loader": "^6.2.4",
       "babel-plugin-add-module-exports": "^0.2.1",
       "babel-preset-es2015": "^6.9.0",
       "babel-register": "^6.9.0",
       "chai": "^3.5.0",
-      "cross-env": "^2.0.1",
-      "eslint": "^2.11.1",
-      "mocha": "^2.5.3",
+      "coveralls": "^2.11.15",
+      "cross-env": "^3.1.3",
+      "eslint": "^3.12.2",
+      "istanbul": "^1.1.0-alpha.1",
+      "mocha": "^3.2.0",
+      "mocha-lcov-reporter": "^1.2.0",
       "proxyquire": "^1.7.9",
       "redux": "^3.5.2",
       "redux-thunk": "^2.1.0",
@@ -132,5 +147,6 @@
   },
   "filename": "mariotacke___redux-electron-ipc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:51:06.632Z"
+  "lastFetchedAt": "2017-05-04T20:51:06.632Z",
+  "packageLastFetchedAt": "2017-05-05T13:58:05.543Z"
 }

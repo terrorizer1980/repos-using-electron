@@ -61,8 +61,15 @@
       "prepublish": "gulp dist",
       "start": "electron ."
     },
-    "repository": "https://github.com/nathanial/main-menu",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/nathanial/main-menu.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nathanial/main-menu/issues"
+    },
     "homepage": "https://github.com/nathanial/main-menu#readme",
     "devDependencies": {
       "electron-connect": "^0.3.3",
@@ -135,5 +142,6 @@
   },
   "filename": "nathanial___main-menu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:36:28.729Z"
+  "lastFetchedAt": "2017-05-04T05:36:28.729Z",
+  "packageLastFetchedAt": "2017-05-05T14:29:54.472Z"
 }

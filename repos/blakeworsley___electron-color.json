@@ -77,9 +77,16 @@
       "postinstall": "electron-rebuild",
       "build": "electron-packager . 'Electron Color' --out='build' --icon='eyedropper.icns'"
     },
-    "repository": "https://github.com/blakeworsley/electron-color",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blakeworsley/electron-color.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/blakeworsley/electron-color/issues"
+    },
     "homepage": "https://github.com/blakeworsley/electron-color#readme",
     "dependencies": {
       "electron": "^1.4.10",
@@ -120,5 +127,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:22.427Z"
+  "lastFetchedAt": "2017-05-04T18:12:22.427Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:47.049Z"
 }

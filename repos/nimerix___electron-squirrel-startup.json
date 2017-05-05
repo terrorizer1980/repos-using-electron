@@ -190,20 +190,12 @@
     "name": "electron-squirrel-startup",
     "version": "1.0.0",
     "description": "Default Squirrel.Windows event handler for your Electron apps.",
+    "author": "Lucas Hrabovsky <lucas@mongodb.com> (http://imlucas.com)",
     "homepage": "http://github.com/mongodb-js/electron-squirrel-startup",
     "license": "Apache-2.0",
     "repository": {
-      "user": "mongodb-js",
-      "repo": "electron-squirrel-startup",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mongodb-js/electron-squirrel-startup/tarball/master",
-      "clone_url": "https://github.com/mongodb-js/electron-squirrel-startup",
-      "https_url": "https://github.com/mongodb-js/electron-squirrel-startup",
-      "travis_url": "https://travis-ci.org/mongodb-js/electron-squirrel-startup",
-      "zip_url": "https://github.com/mongodb-js/electron-squirrel-startup/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mongodb-js/electron-squirrel-startup"
+      "type": "git",
+      "url": "https://github.com/mongodb-js/electron-squirrel-startup.git"
     },
     "scripts": {
       "ci": "xvfb-maybe npm test",
@@ -262,5 +254,6 @@
   },
   "sourceRepo": "mongodb-js/electron-squirrel-startup",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:29.674Z"
+  "lastFetchedAt": "2017-05-04T19:36:29.674Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:11.949Z"
 }

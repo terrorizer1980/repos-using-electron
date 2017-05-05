@@ -74,35 +74,48 @@
   "packageJSON": {
     "name": "pacman-html5",
     "description": "Pacman written in TypeScript",
-    "version": "0.1.0",
+    "version": "3.0.0",
     "license": "MIT",
-    "repository": "https://github.com/bobbylight/PacmanJS",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bobbylight/PacmanJS.git"
+    },
     "scripts": {
-      "start": "electron src/js/electron-main.js"
+      "clean": "rimraf build",
+      "build": "NODE_ENV=production webpack --config webpack/webpack.config.js",
+      "watch": "NODE_ENV=dev webpack --config webpack/webpack.config.js --watch",
+      "start": "electron src/js/electron-main.js",
+      "test": "NODE_ENV=test karma start"
     },
     "devDependencies": {
-      "dateformat": "^1.0.12",
-      "del": "^2.1.0",
-      "electron": "^0.4.1",
-      "electron-prebuilt": "^0.36.7",
-      "gulp": "^3.9.0",
-      "gulp-concat-css": "^2.2.0",
-      "gulp-cssmin": "^0.1.7",
-      "gulp-debug": "^2.1.2",
-      "gulp-electron": "0.0.10",
-      "gulp-jshint": "^2.0.0",
-      "gulp-replace": "^0.5.4",
-      "gulp-rev": "^6.0.1",
-      "gulp-sourcemaps": "^1.6.0",
-      "gulp-tslint": "^4.1.2",
-      "gulp-typescript": "^2.10.0",
-      "gulp-uglify": "^1.5.1",
-      "gulp-usemin": "^0.3.15",
-      "jshint": "^2.8.0",
-      "jshint-stylish": "^2.1.0",
-      "run-sequence": "^1.1.5",
-      "tslint": "^3.2.0",
-      "typescript": "^1.7.3"
+      "@types/electron": "1.4.35",
+      "copy-webpack-plugin": "4.0.1",
+      "css-loader": "0.28.0",
+      "electron": "1.6.2",
+      "gtp": "1.1.0",
+      "istanbul": "0.4.5",
+      "istanbul-instrumenter-loader": "2.0.0",
+      "jasmine": "2.5.3",
+      "karma": "1.6.0",
+      "karma-coverage": "1.1.1",
+      "karma-jasmine": "1.1.0",
+      "karma-phantomjs-launcher": "1.0.4",
+      "karma-requirejs": "1.1.0",
+      "karma-sourcemap-loader": "0.3.7",
+      "karma-typescript-preprocessor": "0.3.1",
+      "karma-webpack": "2.0.3",
+      "rimraf": "2.6.1",
+      "string-replace-webpack-plugin": "0.1.3",
+      "style-loader": "0.16.1",
+      "ts-loader": "2.0.3",
+      "tslint": "5.0.0",
+      "tslint-loader": "3.5.2",
+      "typescript": "2.2.2",
+      "webpack": "2.3.3",
+      "webpack-target-electron-renderer": "0.4.0"
+    },
+    "dependencies": {
+      "@types/jasmine": "2.5.47"
     }
   },
   "packageStatus": 200,
@@ -130,5 +143,6 @@
   },
   "filename": "bobbylight___PacmanJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:56.987Z"
+  "lastFetchedAt": "2017-05-04T05:00:56.987Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:07.818Z"
 }

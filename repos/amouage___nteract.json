@@ -199,17 +199,8 @@
       "postinstall": "electron-rebuild"
     },
     "repository": {
-      "user": "nteract",
-      "repo": "nteract",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/nteract/nteract/tarball/master",
-      "clone_url": "https://github.com/nteract/nteract",
-      "https_url": "https://github.com/nteract/nteract",
-      "travis_url": "https://travis-ci.org/nteract/nteract",
-      "zip_url": "https://github.com/nteract/nteract/archive/master.zip",
-      "api_url": "https://api.github.com/repos/nteract/nteract"
+      "type": "git",
+      "url": "https://github.com/nteract/nteract.git"
     },
     "keywords": [
       "jupyter",
@@ -218,7 +209,11 @@
       "nteract",
       "data"
     ],
+    "author": "nteract contributors",
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/nteract/nteract/issues"
+    },
     "homepage": "https://github.com/nteract/nteract",
     "dependencies": {
       "codemirror": "^5.16.0",
@@ -330,5 +325,6 @@
   "filename": "amouage___nteract.json",
   "sourceRepo": "nteract/nteract",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:07.904Z"
+  "lastFetchedAt": "2017-05-04T20:19:07.904Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:46.926Z"
 }

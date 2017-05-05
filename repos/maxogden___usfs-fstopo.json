@@ -73,8 +73,15 @@
       "start": "electron index.js"
     },
     "keywords": [],
+    "author": "",
     "license": "ISC",
-    "repository": "https://github.com/maxogden/usfs-fstopo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maxogden/usfs-fstopo.git"
+    },
+    "bugs": {
+      "url": "https://github.com/maxogden/usfs-fstopo/issues"
+    },
     "homepage": "https://github.com/maxogden/usfs-fstopo#readme",
     "description": "Scrapes all the FSTopo topographic forest PDF maps from [the U.S. Forest Service FSTopo website](http://data.fs.usda.gov/geodata/rastergateway/states-regions/states.php).",
     "dependencies": {
@@ -108,5 +115,6 @@
   },
   "filename": "maxogden___usfs-fstopo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:36.838Z"
+  "lastFetchedAt": "2017-05-04T19:39:36.838Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:08.217Z"
 }

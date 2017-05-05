@@ -63,6 +63,7 @@
       "start": "npm run bundle && electron ./app --devtools",
       "watch": "nodemon -e js,css,html,json --watch app --ignore app/gen build/bundle.js"
     },
+    "author": "Pat Cavit <npm@patcavit.com>",
     "license": "MIT",
     "devDependencies": {
       "cssnano": "^3.5.2",
@@ -137,5 +138,6 @@
   },
   "filename": "tivac___c-hat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:36.003Z"
+  "lastFetchedAt": "2017-05-03T20:06:36.003Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:39.574Z"
 }

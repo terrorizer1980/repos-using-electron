@@ -192,17 +192,8 @@
     "description": "The Simplenote app running as an electron app.",
     "main": "desktop/index.js",
     "repository": {
-      "user": "Automattic",
-      "repo": "simplenote-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Automattic/simplenote-electron/tarball/master",
-      "clone_url": "https://github.com/Automattic/simplenote-electron",
-      "https_url": "https://github.com/Automattic/simplenote-electron",
-      "travis_url": "https://travis-ci.org/Automattic/simplenote-electron",
-      "zip_url": "https://github.com/Automattic/simplenote-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Automattic/simplenote-electron"
+      "type": "git",
+      "url": "git://github.com/Automattic/simplenote-electron.git"
     },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -211,6 +202,7 @@
       "lint": "`npm bin`/eslint lib",
       "start": "NODE_ENV=hot node devServer.js"
     },
+    "author": "",
     "license": "ISC",
     "engines": {
       "node": "5.12.0",
@@ -296,5 +288,6 @@
   "filename": "hugofqueiros___simplenote-electron.json",
   "sourceRepo": "Automattic/simplenote-electron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:15.628Z"
+  "lastFetchedAt": "2017-05-04T11:04:15.628Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:04.562Z"
 }

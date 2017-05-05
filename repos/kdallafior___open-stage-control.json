@@ -171,6 +171,10 @@
     "description": "A libre desktop OSC bi-directionnal control surface application.",
     "version": "0.6.0",
     "main": "index.js",
+    "author": {
+      "name": "Jean-Emmanuel Doucet / AMMD",
+      "email": "jeannot@ammd.net"
+    },
     "dependencies": {
       "node-osc": "2.0.3",
       "yargs": "4.7.1",
@@ -206,17 +210,8 @@
       "multi-touch"
     ],
     "repository": {
-      "user": "jean-emmanuel",
-      "repo": "Open-Stage-Control",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jean-emmanuel/Open-Stage-Control/tarball/master",
-      "clone_url": "https://github.com/jean-emmanuel/Open-Stage-Control",
-      "https_url": "https://github.com/jean-emmanuel/Open-Stage-Control",
-      "travis_url": "https://travis-ci.org/jean-emmanuel/Open-Stage-Control",
-      "zip_url": "https://github.com/jean-emmanuel/Open-Stage-Control/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jean-emmanuel/Open-Stage-Control"
+      "type": "git",
+      "url": "https://github.com/jean-emmanuel/Open-Stage-Control"
     },
     "licence": "GPL-3.0"
   },
@@ -266,5 +261,6 @@
   "filename": "kdallafior___open-stage-control.json",
   "sourceRepo": "jean-emmanuel/open-stage-control",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:35:14.952Z"
+  "lastFetchedAt": "2017-05-04T18:35:14.952Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:05.308Z"
 }

@@ -72,17 +72,11 @@
     "description": "Zulip Desktop App",
     "license": "MIT",
     "repository": {
-      "user": "zulip",
-      "repo": "zulip-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/zulip/zulip-electron/tarball/master",
-      "clone_url": "https://github.com/zulip/zulip-electron",
-      "https_url": "https://github.com/zulip/zulip-electron",
-      "travis_url": "https://travis-ci.org/zulip/zulip-electron",
-      "zip_url": "https://github.com/zulip/zulip-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/zulip/zulip-electron"
+      "type": "git",
+      "url": "https://github.com/zulip/zulip-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zulip/zulip-electron/issues"
     },
     "main": "app/main/index.js",
     "scripts": {
@@ -148,5 +142,6 @@
   "filename": "zeenfaizpy___zulip-electron.json",
   "sourceRepo": "zulip/zulip-electron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:30:29.784Z"
+  "lastFetchedAt": "2017-05-04T18:30:29.784Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:24.504Z"
 }

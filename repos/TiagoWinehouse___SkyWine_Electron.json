@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/TiagoWinehouse/SkyWine_Electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TiagoWinehouse/SkyWine_Electron.git"
+    },
     "keywords": [
       "electron",
       "arduino",
       "angularjs",
       "nodejs"
     ],
+    "author": "Tiago Nunes (Winehouse)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/TiagoWinehouse/SkyWine_Electron/issues"
+    },
     "homepage": "https://github.com/TiagoWinehouse/SkyWine_Electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.33.3"
@@ -111,5 +118,6 @@
   },
   "filename": "TiagoWinehouse___SkyWine_Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:55.862Z"
+  "lastFetchedAt": "2017-05-04T04:59:55.862Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:28.333Z"
 }

@@ -70,16 +70,26 @@
     "name": "electron-clipboard-memo",
     "version": "1.0.0",
     "description": "Sample project for training",
-    "main": "index.js",
+    "main": "app/app.js",
     "scripts": {
-      "start": "electron index.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "electron app/app.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dist-pack": "mkdir -p dist && cp -R package.json app dist/ && ( cd dist/ && npm install --production ) && electron-packager dist/ 'electron-clipboard-memo' --out pkg --overwrite --platform darwin --arch=x64 && rm -rf dist/ "
     },
-    "repository": "https://github.com/tamano/electron-clipboard-memo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tamano/electron-clipboard-memo.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "MIT",
     "dependencies": {
-      "electron": "^1.4.13"
+      "ace-min-noconflict": "^1.1.9",
+      "electron": "^1.4.13",
+      "photon": "git+https://github.com/connors/photon.git"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.5.1"
     }
   },
   "packageStatus": 200,
@@ -106,5 +116,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:06.038Z"
+  "lastFetchedAt": "2017-05-04T18:15:06.038Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:06.823Z"
 }

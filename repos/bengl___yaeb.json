@@ -78,7 +78,11 @@
     "description": "Minimalist electron browser",
     "license": "MIT",
     "repository": "git@github.com:bengl/yaeb.git",
+    "bugs": {
+      "url": "https://github.com/bengl/yaeb/issues"
+    },
     "homepage": "https://github.com/bengl/yaeb#readme",
+    "author": "Bryan English <bryan@bryanenglish.com>",
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -133,5 +137,6 @@
   },
   "filename": "bengl___yaeb.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:37:52.667Z"
+  "lastFetchedAt": "2017-05-04T19:37:52.667Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:53.498Z"
 }

@@ -75,7 +75,10 @@
       "package": "electron-packager . Birdbar --platform=darwin --arch=x64 --version=0.36.3 --overwrite --asar=true --icon=icons/Birdbar_icon/BirdBar.icns --prune",
       "zip": "zip -r Birdbar-darwin.zip Birdbar-darwin-x64"
     },
-    "repository": "https://github.com/gcwelborn/Birdbar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gcwelborn/Birdbar.git"
+    },
     "keywords": [
       "twitter",
       "feed",
@@ -85,7 +88,11 @@
       "react",
       "electron"
     ],
+    "author": "gcwelborn",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gcwelborn/Birdbar/issues"
+    },
     "homepage": "https://github.com/gcwelborn/Birdbar#readme",
     "devDependencies": {
       "electron-packager": "^5.2.0"
@@ -123,5 +130,6 @@
   },
   "filename": "gcwelborn___Birdbar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:05.521Z"
+  "lastFetchedAt": "2017-05-04T20:44:05.521Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:52.931Z"
 }

@@ -70,6 +70,10 @@
     "version": "1.0.2",
     "description": "Subtitle GUI for opensubtitles.org",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "start": "node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ."
     },
@@ -78,6 +82,7 @@
       "node": ">= 0.10.0"
     },
     "main": "main.js",
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.1.2",
@@ -133,5 +138,6 @@
   },
   "filename": "oleander___subtitle.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:37.145Z"
+  "lastFetchedAt": "2017-05-04T17:46:37.145Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:05.898Z"
 }

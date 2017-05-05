@@ -75,6 +75,7 @@
       "start": "./node_modules/.bin/electron .",
       "build": "./node_modules/.bin/electron-packager ./ electron-training --platform=darwin --arch=x64  --overwrite"
     },
+    "author": "@dgomezfonnegra",
     "license": "ISC",
     "dependencies": {
       "electron": "^1.4.12"
@@ -108,5 +109,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:56.925Z"
+  "lastFetchedAt": "2017-05-04T18:08:56.925Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:47.026Z"
 }

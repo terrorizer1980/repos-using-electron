@@ -73,24 +73,32 @@
   "status": 200,
   "packageJSON": {
     "name": "MediaCenter",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "A Node.js-Based HTPC/Smart-TV core/host application",
     "main": "server.js",
     "scripts": {
       "start": "electron server.js"
     },
-    "repository": "https://github.com/ScarletFloppy/MediaCenter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ScarletFloppy/MediaCenter.git"
+    },
     "keywords": [
-      "HTPC",
       "Media",
       "Center"
     ],
+    "author": "ScarletFloppy",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/ScarletFloppy/MediaCenter/issues"
+    },
     "homepage": "https://github.com/ScarletFloppy/MediaCenter#readme",
     "dependencies": {
       "electron-prebuilt": "latest",
+      "hammerjs": "latest",
       "jquery": "latest",
-      "bootstrap": "latest",
+      "materialize-css": "latest",
+      "material-design-icons": "latest",
       "express": "latest",
       "ip": "latest",
       "spotify-web-api-node": "latest"
@@ -121,5 +129,6 @@
   },
   "filename": "ScarletFloppy___MediaCenter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:18:25.326Z"
+  "lastFetchedAt": "2017-05-04T15:18:25.326Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:18.828Z"
 }

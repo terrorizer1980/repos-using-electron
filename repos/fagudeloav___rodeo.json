@@ -170,20 +170,12 @@
     "productName": "Rodeo",
     "version": "2.0.9",
     "description": "An IDE for data science.",
+    "author": "The Yhat Team <team@yhathq.com> (https://www.yhat.com/products/rodeo)",
     "license": "AGPL-3.0",
     "main": "app/node",
     "repository": {
-      "user": "yhat",
-      "repo": "rodeo",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/yhat/rodeo/tarball/master",
-      "clone_url": "https://github.com/yhat/rodeo",
-      "https_url": "https://github.com/yhat/rodeo",
-      "travis_url": "https://travis-ci.org/yhat/rodeo",
-      "zip_url": "https://github.com/yhat/rodeo/archive/master.zip",
-      "api_url": "https://api.github.com/repos/yhat/rodeo"
+      "type": "git",
+      "url": "git+ssh://git@github.com/yhat/rodeo.git"
     },
     "scripts": {
       "start": "electron app",
@@ -358,5 +350,6 @@
   "svnUrl": "https://github.com/fagudeloav/rodeo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:33:00.682Z"
+  "lastFetchedAt": "2017-05-04T15:33:00.682Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:30.585Z"
 }

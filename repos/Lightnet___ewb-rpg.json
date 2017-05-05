@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Lightnet",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -138,5 +145,6 @@
   },
   "filename": "Lightnet___ewb-rpg.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:16.481Z"
+  "lastFetchedAt": "2017-05-04T17:55:16.481Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:02.794Z"
 }

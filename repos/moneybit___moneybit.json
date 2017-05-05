@@ -97,8 +97,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/moneybit/middleend",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/moneybit/middleend.git"
+    },
+    "author": "Athan Clark",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/moneybit/middleend/issues"
+    },
     "homepage": "https://github.com/moneybit/middleend#readme"
   },
   "packageStatus": 200,
@@ -126,5 +133,6 @@
   },
   "filename": "moneybit___moneybit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:47.667Z"
+  "lastFetchedAt": "2017-05-04T16:41:47.667Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:00.114Z"
 }

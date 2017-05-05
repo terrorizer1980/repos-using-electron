@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Help Croissant collect pizza and avoid naps by jumping over her cat beds!",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.1.2",
@@ -152,5 +157,6 @@
   },
   "filename": "mtmckenna___croissant-runner-ember.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:29.345Z"
+  "lastFetchedAt": "2017-05-04T20:15:29.345Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:31.688Z"
 }

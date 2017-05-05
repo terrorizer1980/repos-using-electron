@@ -210,19 +210,14 @@
       "win-bundle": "electron-packager . Playback --platform=win32 --arch=ia32 --version=0.27.2 --icon=icon.ico"
     },
     "repository": {
-      "user": "mafintosh",
-      "repo": "playback",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mafintosh/playback/tarball/master",
-      "clone_url": "https://github.com/mafintosh/playback",
-      "https_url": "https://github.com/mafintosh/playback",
-      "travis_url": "https://travis-ci.org/mafintosh/playback",
-      "zip_url": "https://github.com/mafintosh/playback/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mafintosh/playback"
+      "type": "git",
+      "url": "https://github.com/mafintosh/playback.git"
     },
+    "author": "Mathias Buus (@mafintosh)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mafintosh/playback/issues"
+    },
     "homepage": "https://github.com/mafintosh/playback"
   },
   "packageStatus": 200,
@@ -271,5 +266,6 @@
   "svnUrl": "https://github.com/ishan-marikar/playback",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:28:32.723Z"
+  "lastFetchedAt": "2017-05-04T05:28:32.723Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:09.061Z"
 }

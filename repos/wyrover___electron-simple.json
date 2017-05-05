@@ -78,7 +78,11 @@
     "scripts": {
       "start": "electron ./app/main.js"
     },
-    "repository": "https://github.com/dbackowski/electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dbackowski/electron-boilerplate.git"
+    },
+    "author": "Damian Baćkowski",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.9"
@@ -109,5 +113,6 @@
   },
   "filename": "wyrover___electron-simple.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:22.657Z"
+  "lastFetchedAt": "2017-05-04T16:45:22.657Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:31.886Z"
 }

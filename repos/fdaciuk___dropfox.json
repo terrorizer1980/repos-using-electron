@@ -173,6 +173,11 @@
     "license": "MIT",
     "main": "build/electron/index.js",
     "repository": "developit/dropfox",
+    "author": {
+      "name": "Jason Miller",
+      "email": "jason@developit.ca",
+      "url": "http://jasonformat.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -285,5 +290,6 @@
   "svnUrl": "https://github.com/fdaciuk/dropfox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:04:44.903Z"
+  "lastFetchedAt": "2017-05-03T20:04:44.903Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:11.654Z"
 }

@@ -74,6 +74,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/bundle.js --debug --verbose"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "browserify": "^13.0.1",
@@ -118,5 +119,6 @@
   },
   "filename": "donb1991___super-cool-ticket-tracker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:31.773Z"
+  "lastFetchedAt": "2017-05-04T17:34:31.773Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:22.106Z"
 }

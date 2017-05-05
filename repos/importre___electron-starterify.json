@@ -59,12 +59,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/importre/electron-starterify",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/importre/electron-starterify.git"
+    },
     "keywords": [
       "electron",
       "react"
     ],
+    "author": "Jaewe Heo",
     "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/importre/electron-starterify/issues"
+    },
     "homepage": "https://github.com/importre/electron-starterify#readme",
     "dependencies": {
       "react": "^0.13.3",
@@ -135,5 +142,6 @@
   },
   "filename": "importre___electron-starterify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:16.023Z"
+  "lastFetchedAt": "2017-05-04T17:42:16.023Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:56.939Z"
 }

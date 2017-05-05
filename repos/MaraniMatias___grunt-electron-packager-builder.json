@@ -55,6 +55,7 @@
     "name": "grunt-electron-packager-builder",
     "version": "0.0.7",
     "description": "Package Electron apps. Grunt task to electron-prebuilt , electron-packager and electron-builder.",
+    "author": "Marani Matias Ezequiel",
     "email": "maranimatias@gmail.com",
     "engines": {
       "node": "~6.1.0",
@@ -62,7 +63,10 @@
     },
     "private": false,
     "license": "MIT",
-    "repository": "https://github.com/MaraniMatias/grunt-electron-packager-builder",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MaraniMatias/grunt-electron-packager-builder"
+    },
     "files": [
       "tasks"
     ],
@@ -198,5 +202,6 @@
   },
   "filename": "MaraniMatias___grunt-electron-packager-builder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:08:35.709Z"
+  "lastFetchedAt": "2017-05-04T21:08:35.709Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:09.646Z"
 }

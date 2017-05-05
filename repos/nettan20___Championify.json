@@ -196,21 +196,13 @@
       "postinstall": "./node_modules/.bin/gulp setup"
     },
     "repository": {
-      "user": "dustinblackman",
-      "repo": "Championify",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/dustinblackman/Championify/tarball/master",
-      "clone_url": "https://github.com/dustinblackman/Championify",
-      "https_url": "https://github.com/dustinblackman/Championify",
-      "travis_url": "https://travis-ci.org/dustinblackman/Championify",
-      "zip_url": "https://github.com/dustinblackman/Championify/archive/master.zip",
-      "api_url": "https://api.github.com/repos/dustinblackman/Championify"
+      "type": "git",
+      "url": "https://github.com/dustinblackman/Championify.git"
     },
     "engines": {
       "node": ">=0.12.2"
     },
+    "author": "Dustin Blackman",
     "license": "MIT",
     "electron-deps": [
       "glob",
@@ -310,5 +302,6 @@
   "svnUrl": "https://github.com/nettan20/Championify",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:52:39.288Z"
+  "lastFetchedAt": "2017-05-04T19:52:39.288Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:45.891Z"
 }

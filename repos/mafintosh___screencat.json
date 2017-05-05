@@ -182,6 +182,7 @@
       "dev": "wzrd remote.js:remote-bundle.js",
       "test": "standard"
     },
+    "author": "max ogden",
     "license": "BSD",
     "dependencies": {
       "menubar": "^2.0.4",
@@ -202,17 +203,11 @@
       "wzrd": "^1.2.1"
     },
     "repository": {
-      "user": "maxogden",
-      "repo": "screencat",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/maxogden/screencat/tarball/master",
-      "clone_url": "https://github.com/maxogden/screencat",
-      "https_url": "https://github.com/maxogden/screencat",
-      "travis_url": "https://travis-ci.org/maxogden/screencat",
-      "zip_url": "https://github.com/maxogden/screencat/archive/master.zip",
-      "api_url": "https://api.github.com/repos/maxogden/screencat"
+      "type": "git",
+      "url": "https://github.com/maxogden/screencat.git"
+    },
+    "bugs": {
+      "url": "https://github.com/maxogden/screencat/issues"
     },
     "homepage": "https://github.com/maxogden/screencat"
   },
@@ -262,5 +257,6 @@
   "sourceRepo": "maxogden/screencat",
   "filename": "mafintosh___screencat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:51.337Z"
+  "lastFetchedAt": "2017-05-04T17:59:51.337Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:05.017Z"
 }

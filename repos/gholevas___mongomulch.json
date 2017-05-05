@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/gholevas/mongomulch",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gholevas/mongomulch.git"
+    },
     "keywords": [
       "mongodb",
       "seeder",
       "mongoose"
     ],
+    "author": "Team Mulch",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/gholevas/mongomulch/issues"
+    },
     "homepage": "https://mongomulch.com",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -166,5 +173,6 @@
   },
   "filename": "gholevas___mongomulch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:29:57.722Z"
+  "lastFetchedAt": "2017-05-04T05:29:57.722Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:32.816Z"
 }

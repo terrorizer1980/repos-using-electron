@@ -84,6 +84,7 @@
       "clear:build": "rimraf dist",
       "electron:run": "electron ."
     },
+    "author": "AndyRightNow",
     "license": "MIT",
     "dependencies": {
       "@angular/common": "2.0.0",
@@ -169,5 +170,6 @@
   },
   "filename": "AndyRightNow___schedule-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:12.758Z"
+  "lastFetchedAt": "2017-05-04T05:30:12.758Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:08.125Z"
 }

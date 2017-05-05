@@ -187,5 +187,30 @@
   "networkCount": 2,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:58:57.103Z"
+  "lastFetchedAt": "2017-05-04T17:58:57.103Z",
+  "packageJSON": {
+    "name": "anvil",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "pack": "electron-packager . --icon=app/icons/app-icon --overwrite",
+      "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+      "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+      "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+      "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "menubar": "^5.2.3",
+      "osap": "^1.0.2"
+    },
+    "devDependencies": {
+      "electron": "^1.6.6"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:27:18.966Z"
 }

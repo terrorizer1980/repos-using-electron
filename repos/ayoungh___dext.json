@@ -210,7 +210,11 @@
       "start": "npm run build && npm run dev",
       "test": "jest --coverage --verbose"
     },
-    "repository": "https://github.com/vutran/dext",
+    "author": "Vu Tran <vu@vu-tran.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vutran/dext"
+    },
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.18.0",
@@ -283,5 +287,6 @@
   },
   "sourceRepo": "vutran/dext",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:28.118Z"
+  "lastFetchedAt": "2017-05-04T20:34:28.118Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:19.591Z"
 }

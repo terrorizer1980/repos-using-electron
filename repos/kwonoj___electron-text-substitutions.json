@@ -196,7 +196,10 @@
       "prepublish": "npm run compile",
       "test": "electron-mocha --renderer ./test"
     },
-    "repository": "https://github.com/CharlieHess/electron-text-substitutions",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/CharlieHess/electron-text-substitutions"
+    },
     "os": [
       "darwin"
     ],
@@ -205,6 +208,7 @@
       "substitutions",
       "electron"
     ],
+    "author": "Charlie Hess",
     "devDependencies": {
       "babel-cli": "^6.9.0",
       "babel-eslint": "^6.0.4",
@@ -251,5 +255,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:07.697Z"
+  "lastFetchedAt": "2017-05-04T15:21:07.697Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:24.767Z"
 }

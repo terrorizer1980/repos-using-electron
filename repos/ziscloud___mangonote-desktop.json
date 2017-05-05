@@ -82,7 +82,11 @@
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
       "distribute": "electron-packager . Electrogram --platform=darwin --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/electrogram  --asar"
     },
-    "repository": "https://github.com/ziscloud/mangonote-desktop",
+    "author": "Tony Wang",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ziscloud/mangonote-desktop.git"
+    },
     "license": "MIT",
     "devDependencies": {
       "css-loader": "^0.  23.1",
@@ -138,5 +142,6 @@
   },
   "filename": "ziscloud___mangonote-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:20:47.487Z"
+  "lastFetchedAt": "2017-05-04T21:20:47.487Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:47.492Z"
 }

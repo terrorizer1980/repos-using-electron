@@ -73,12 +73,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/raphaelfruneaux/meuponto-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/raphaelfruneaux/meuponto-electron.git"
+    },
     "keywords": [
       "meuponto",
       "electron"
     ],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/raphaelfruneaux/meuponto-electron/issues"
+    },
     "homepage": "https://github.com/raphaelfruneaux/meuponto-electron#readme",
     "devDependencies": {
       "Q": "0.0.1",
@@ -113,5 +120,6 @@
   },
   "filename": "raphaelfruneaux___meuponto-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:31.877Z"
+  "lastFetchedAt": "2017-05-04T19:58:31.877Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:44.572Z"
 }

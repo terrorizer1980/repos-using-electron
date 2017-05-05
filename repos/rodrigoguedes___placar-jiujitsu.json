@@ -85,12 +85,19 @@
       "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
       "test:watch": "npm run test -- --watch"
     },
-    "repository": "https://github.com/rodrigoguedes/placar-jiujitsu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rodrigoguedes/placar-jiujitsu.git"
+    },
     "keywords": [
       "Placar Digital",
       "JiuJitsu"
     ],
+    "author": "Rodrigo Guedes de Souza",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/rodrigoguedes/placar-jiujitsu/issues"
+    },
     "homepage": "https://github.com/rodrigoguedes/placar-jiujitsu#readme",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -144,5 +151,6 @@
   },
   "filename": "rodrigoguedes___placar-jiujitsu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:57.802Z"
+  "lastFetchedAt": "2017-05-04T05:22:57.802Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:42.260Z"
 }

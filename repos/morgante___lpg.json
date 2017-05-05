@@ -73,11 +73,18 @@
     "scripts": {
       "start": "node index.js"
     },
-    "repository": "https://github.com/morgante/lpg",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/morgante/lpg.git"
+    },
     "keywords": [
       "lpg"
     ],
+    "author": "Morgante Pell",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/morgante/lpg/issues"
+    },
     "homepage": "https://github.com/morgante/lpg",
     "dependencies": {
       "express": "^4.13.4",
@@ -109,5 +116,6 @@
   },
   "filename": "morgante___lpg.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:01.862Z"
+  "lastFetchedAt": "2017-05-04T05:06:01.862Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:35.580Z"
 }

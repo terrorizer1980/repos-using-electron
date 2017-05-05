@@ -77,7 +77,18 @@
     "version": "0.0.1",
     "description": "Electron application",
     "license": "MIT",
-    "repository": "https://github.com/uraway/react-redux-electron-builder-boilerplate",
+    "author": {
+      "name": "Masato Urai",
+      "email": "masato.u0107@gmail.com",
+      "url": "https://github.com/uraway"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/uraway/react-redux-electron-builder-boilerplate.git"
+    },
+    "bugs": {
+      "url": "https://github.com/uraway/react-redux-electron-builder-boilerplate/issues"
+    },
     "homepage": "https://github.com/uraway/react-redux-electron-builder-boilerplate#readme",
     "keywords": [
       "electron",
@@ -183,5 +194,6 @@
   },
   "filename": "uraway___react-redux-electron-builder-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:48.790Z"
+  "lastFetchedAt": "2017-05-04T14:54:48.790Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:02.603Z"
 }

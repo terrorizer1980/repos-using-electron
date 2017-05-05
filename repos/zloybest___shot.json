@@ -67,18 +67,22 @@
   "status": 200,
   "packageJSON": {
     "name": "Shot",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "Simple screenshot creator for setted time interval",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "node_modules/.bin/build",
+      "start": "electron index.js"
     },
+    "author": "",
     "license": "ISC",
     "dependencies": {
       "zip-folder": "^1.0.0"
     },
     "devDependencies": {
-      "electron": "1.4.3"
+      "electron": "1.4.3",
+      "electron-builder": "^8.6.0"
     },
     "build": {
       "appId": "com.zloy.shot",
@@ -115,5 +119,6 @@
   },
   "filename": "zloybest___shot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:47:37.835Z"
+  "lastFetchedAt": "2017-05-04T14:47:37.835Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:54.180Z"
 }

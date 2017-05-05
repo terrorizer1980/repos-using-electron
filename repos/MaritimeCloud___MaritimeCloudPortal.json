@@ -87,8 +87,9 @@
   "status": 200,
   "packageJSON": {
     "name": "maritime-cloud-management-portal",
-    "version": "0.0.1",
+    "version": "0.5.0",
     "description": "Management Portal for the Maritime Cloud",
+    "author": "Danish Maritime Authority",
     "homepage": "http://maritimecloud.net",
     "license": "Apache 2.0",
     "dependencies": {
@@ -141,6 +142,7 @@
       "ng2-tree": "^0.0.2-7",
       "ng2-uploader": "1.1.0",
       "normalize.css": "^4.1.1",
+      "primeng": "^2.0.0",
       "rxjs": "5.0.0-beta.12",
       "tether": "^1.2.4",
       "web-animations-js": "^2.2.2",
@@ -202,7 +204,7 @@
       "webpack": "webpack",
       "webpack-dev-server": "webpack-dev-server",
       "webdriver-manager": "webdriver-manager",
-      "clean": "npm cache clean && npm run rimraf -- node_modules doc coverage dist",
+      "clean:dontuse": "npm cache clean && npm run rimraf -- node_modules doc coverage dist",
       "clean:dist": "npm run rimraf -- dist",
       "preclean:install": "npm run clean",
       "clean:install": "npm set progress=false && npm install",
@@ -213,12 +215,17 @@
       "watch:dev:hmr": "npm run watch:dev -- --hot",
       "watch:prod": "npm run build:prod -- --watch",
       "build": "npm run build:dev",
+      "prebuild": "npm run clean:dist",
       "prebuild:dev": "npm run clean:dist",
-      "build:dev": "webpack --config config/webpack.dev.js --progress --profile",
+      "build:test": "webpack --config config/webpack.test.js --progress --profile",
+      "build:staging": "webpack --config config/webpack.staging.js --progress --profile",
+      "build:temp-prod": "webpack --config config/webpack.temp-prod.js --progress --profile",
       "prebuild:prod": "npm run clean:dist",
       "build:prod": "webpack --config config/webpack.prod.js  --progress --profile --bail",
       "server": "npm run server:dev",
-      "server:dev": "webpack-dev-server --config config/webpack.dev.js --progress --profile --watch --content-base src/",
+      "server:test": "webpack-dev-server --config config/webpack.dev-test.js --progress --profile --watch --content-base src/",
+      "server:staging": "webpack-dev-server --config config/webpack.dev-staging.js --progress --profile --watch --content-base src/",
+      "server:temp-prod": "webpack-dev-server --config config/webpack.dev-temp-prod.js --progress --profile --watch --content-base src/",
       "server:dev:hmr": "npm run server:dev -- --inline --hot",
       "server:prod": "http-server dist --cors",
       "webdriver:update": "npm run webdriver-manager update",
@@ -228,13 +235,21 @@
       "pretest": "npm run lint",
       "docs": "npm run typedoc -- --options typedoc.json --exclude '**/*.spec.ts' ./src/",
       "gh-pages": "wintersmith build -C docs && gh-pages -d docs/build",
-      "start": "npm run server:dev",
+      "start-test": "npm run server:test",
+      "start-staging": "npm run server:staging",
+      "start-temp-prod": "npm run server:temp-prod",
       "start:hmr": "npm run server:dev:hmr",
       "version": "npm run build",
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
     },
-    "repository": "https://github.com/MaritimeCloud/MaritimeCloudPortal",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MaritimeCloud/MaritimeCloudPortal.git"
+    },
+    "bugs": {
+      "url": "https://github.com/MaritimeCloud/MaritimeCloudPortal/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -265,5 +280,6 @@
   },
   "filename": "MaritimeCloud___MaritimeCloudPortal.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:03.998Z"
+  "lastFetchedAt": "2017-05-04T19:52:03.998Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:17.184Z"
 }

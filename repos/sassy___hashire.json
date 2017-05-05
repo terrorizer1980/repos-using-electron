@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "hashire",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "description": "",
     "bin": {
       "hashire": "bin/hashire"
@@ -75,7 +75,7 @@
     },
     "license": "MIT",
     "dependencies": {
-      "electron-prebuilt": "^0.31.1"
+      "electron": "^1.4.5"
     }
   },
   "packageStatus": 200,
@@ -123,5 +123,6 @@
   "svnUrl": "https://github.com/sassy/hashire",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:59:04.761Z"
+  "lastFetchedAt": "2017-05-04T04:59:04.761Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:55.954Z"
 }

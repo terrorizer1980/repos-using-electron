@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/mikey10055/musicapp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mikey10055/musicapp.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "mikey10055",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mikey10055/musicapp/issues"
+    },
     "homepage": "https://github.com/mikey10055/musicapp/#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -117,5 +124,6 @@
   },
   "filename": "mikey10055___musicapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:09.980Z"
+  "lastFetchedAt": "2017-05-04T21:13:09.980Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:06.323Z"
 }

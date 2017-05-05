@@ -54,6 +54,7 @@
       "start": "electron .",
       "build": "electron-packager . pbCNC --platform=darwin --arch=x64 --version=0.36.0 --asar=false --prune=true"
     },
+    "author": "mick",
     "devDependencies": {
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "0.36.0",
@@ -109,5 +110,6 @@
   },
   "filename": "mickbalaban___cnc-app-native.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:21:33.259Z"
+  "lastFetchedAt": "2017-05-04T20:21:33.259Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:09.987Z"
 }

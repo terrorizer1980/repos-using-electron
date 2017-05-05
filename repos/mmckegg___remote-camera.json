@@ -56,8 +56,15 @@
     "bin": {
       "remote-camera": "./cli.js"
     },
-    "repository": "https://github.com/mmckegg/remote-camera",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mmckegg/remote-camera.git"
+    },
+    "author": "Matt McKegg",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mmckegg/remote-camera/issues"
+    },
     "homepage": "https://github.com/mmckegg/remote-camera",
     "dependencies": {
       "beefy": "~2.1.5",
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/mmckegg/remote-camera",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:46:30.114Z"
+  "lastFetchedAt": "2017-05-04T17:46:30.114Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:34.808Z"
 }

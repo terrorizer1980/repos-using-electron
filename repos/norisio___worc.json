@@ -254,8 +254,15 @@
         "^.+\\.(css|less)$": "identity-obj-proxy"
       }
     },
-    "repository": "https://github.com/shibe97/worc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shibe97/worc.git"
+    },
+    "author": "shibe97",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shibe97/worc/issues"
+    },
     "homepage": "https://github.com/shibe97/worc#readme"
   },
   "packageStatus": 200,
@@ -283,5 +290,6 @@
   },
   "sourceRepo": "shibe97/worc",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:52:59.183Z"
+  "lastFetchedAt": "2017-05-04T17:52:59.183Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:08.611Z"
 }

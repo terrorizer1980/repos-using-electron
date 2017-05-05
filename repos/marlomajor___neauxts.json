@@ -170,6 +170,10 @@
     "version": "0.0.0",
     "description": "Small description for bartleby goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -179,6 +183,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -287,5 +292,6 @@
   "svnUrl": "https://github.com/marlomajor/neauxts",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:47:12.471Z"
+  "lastFetchedAt": "2017-05-04T16:47:12.471Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:40.755Z"
 }

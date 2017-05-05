@@ -87,8 +87,19 @@
       "package": "node package.js",
       "package-all": "node package.js --all"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -168,5 +179,6 @@
   },
   "filename": "mmai___xbrightness.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:40:23.687Z"
+  "lastFetchedAt": "2017-05-04T17:40:23.687Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:45.361Z"
 }

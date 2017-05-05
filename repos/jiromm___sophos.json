@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/jiromm/sophos",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jiromm/sophos.git"
+    },
     "keywords": [
       "Electron",
       "sophos",
       "library",
       "update"
     ],
+    "author": "Aram Baghdasaryan <xquack@gmail.com>",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/jiromm/sophos/issues"
+    },
     "homepage": "https://github.com/jiromm/sophos",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -122,5 +129,6 @@
   },
   "filename": "jiromm___sophos.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:13.792Z"
+  "lastFetchedAt": "2017-05-04T20:46:13.792Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:48.842Z"
 }

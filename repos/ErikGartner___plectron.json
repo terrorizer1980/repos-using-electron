@@ -58,6 +58,11 @@
     "description": "Plex in Electron",
     "license": "MIT",
     "repository": "ErikGartner/plectron",
+    "author": {
+      "name": "Erik",
+      "email": "xxxsmoizxxx@gmail.com",
+      "url": "gartner.io"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -134,5 +139,6 @@
   "svnUrl": "https://github.com/ErikGartner/plectron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:36:21.728Z"
+  "lastFetchedAt": "2017-05-04T05:36:21.728Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:15.685Z"
 }

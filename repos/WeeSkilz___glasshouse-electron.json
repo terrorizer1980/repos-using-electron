@@ -78,6 +78,11 @@
     "description": "My groovy app",
     "license": "MIT",
     "repository": "WeeSkilz/glasshouse-desktop",
+    "author": {
+      "name": "Connor",
+      "email": "connorlurring@gmail.com",
+      "url": "connorl.com"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -135,5 +140,6 @@
   },
   "filename": "WeeSkilz___glasshouse-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:38.941Z"
+  "lastFetchedAt": "2017-05-04T05:00:38.941Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:37.632Z"
 }

@@ -74,8 +74,15 @@
       "inspect-main": "electron-inspector",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/rafael-kennedy/campaign-finance-map",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rafael-kennedy/campaign-finance-map.git"
+    },
+    "author": "Rafael Kennedy",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rafael-kennedy/campaign-finance-map/issues"
+    },
     "homepage": "https://github.com/rafael-kennedy/campaign-finance-map#readme",
     "dependencies": {
       "app-root-path": "^2.0.1",
@@ -115,5 +122,6 @@
   },
   "filename": "rafael-kennedy___crypto-composer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:30:37.933Z"
+  "lastFetchedAt": "2017-05-04T15:30:37.933Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:28.897Z"
 }

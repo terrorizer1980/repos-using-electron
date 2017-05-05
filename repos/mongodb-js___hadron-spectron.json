@@ -81,5 +81,51 @@
   "networkCount": 0,
   "subscribersCount": 5,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:05:53.214Z"
+  "lastFetchedAt": "2017-05-04T18:05:53.214Z",
+  "packageJSON": {
+    "name": "hadron-spectron",
+    "version": "0.0.1",
+    "description": "Hadron Spectron Test Support",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha",
+      "fmt": "mongodb-js-fmt ./*.js ./test/*.js",
+      "check": "mongodb-js-precommit"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mongodb-js/hadron-spectron.git"
+    },
+    "precommit": [
+      "check"
+    ],
+    "keywords": [
+      "Hadron",
+      "Spectron",
+      "Testing"
+    ],
+    "author": "Durran Jordan <durran@gmail.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/mongodb-js/hadron-spectron/issues"
+    },
+    "homepage": "https://github.com/mongodb-js/hadron-spectron#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron": "^1.6.1",
+      "eslint-config-mongodb-js": "^2.2.0",
+      "mocha": "^3.2.0",
+      "mongodb-js-fmt": "0.0.3",
+      "mongodb-js-precommit": "^0.2.9",
+      "pre-commit": "^1.2.2"
+    },
+    "dependencies": {
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "debug": "mongodb-js/debug#v2.2.3",
+      "spectron": "^3.6.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T01:25:21.561Z"
 }

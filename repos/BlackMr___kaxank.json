@@ -70,17 +70,7 @@
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
     "repository": {
-      "user": "NathanWalker",
-      "repo": "angular2-seed-advanced",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/NathanWalker/angular2-seed-advanced/tarball/master",
-      "clone_url": "https://github.com/NathanWalker/angular2-seed-advanced",
-      "https_url": "https://github.com/NathanWalker/angular2-seed-advanced",
-      "travis_url": "https://travis-ci.org/NathanWalker/angular2-seed-advanced",
-      "zip_url": "https://github.com/NathanWalker/angular2-seed-advanced/archive/master.zip",
-      "api_url": "https://api.github.com/repos/NathanWalker/angular2-seed-advanced"
+      "url": "https://github.com/NathanWalker/angular2-seed-advanced"
     },
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
@@ -128,6 +118,7 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
+    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -267,5 +258,6 @@
   "filename": "BlackMr___kaxank.json",
   "sourceRepo": "NathanWalker/angular-seed-advanced",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:32.314Z"
+  "lastFetchedAt": "2017-05-04T19:43:32.314Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:55.197Z"
 }

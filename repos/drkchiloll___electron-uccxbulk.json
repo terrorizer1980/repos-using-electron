@@ -55,8 +55,15 @@
       "build": "webpack",
       "watch": "webpack --watch"
     },
-    "repository": "https://github.com/drkchiloll/electron-uccxbulk",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/drkchiloll/electron-uccxbulk.git"
+    },
+    "author": "Sam Womack",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/drkchiloll/electron-uccxbulk/issues"
+    },
     "homepage": "https://github.com/drkchiloll/electron-uccxbulk#readme",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -122,5 +129,6 @@
   "svnUrl": "https://github.com/drkchiloll/electron-uccxbulk",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:23:37.824Z"
+  "lastFetchedAt": "2017-05-04T15:23:37.824Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:06.994Z"
 }

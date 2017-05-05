@@ -59,6 +59,7 @@
     "scripts": {
       "start": "electron main.js"
     },
+    "author": "gcwelborn",
     "license": "UNLICENSED",
     "devDependencies": {
       "electron-prebuilt": "^0.36.8"
@@ -68,7 +69,10 @@
       "node-bebop": "^0.4.1",
       "skeleton-css": "^2.0.4"
     },
-    "repository": "https://github.com/gcwelborn/drone-dashboard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gcwelborn/drone-dashboard.git"
+    },
     "keywords": [
       "Parrot",
       "Drone",
@@ -78,6 +82,9 @@
       "Github",
       "Electron"
     ],
+    "bugs": {
+      "url": "https://github.com/gcwelborn/drone-dashboard/issues"
+    },
     "homepage": "https://github.com/gcwelborn/drone-dashboard#readme"
   },
   "packageStatus": 200,
@@ -125,5 +132,6 @@
   },
   "filename": "gcwelborn___drone-dashboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:15.589Z"
+  "lastFetchedAt": "2017-05-04T15:21:15.589Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:10.698Z"
 }

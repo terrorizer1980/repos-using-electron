@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/choodcode/electron-sandbox",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/choodcode/electron-sandbox.git"
+    },
     "license": "MIT",
     "homepage": "http://electron.atom.io/docs/tutorial/quick-start/",
     "devDependencies": {
@@ -111,5 +114,6 @@
   },
   "filename": "choodex___electron-sandbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:26.696Z"
+  "lastFetchedAt": "2017-05-04T21:28:26.696Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:39.103Z"
 }

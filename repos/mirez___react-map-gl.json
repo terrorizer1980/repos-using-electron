@@ -178,17 +178,8 @@
       "react mapbox"
     ],
     "repository": {
-      "user": "uber",
-      "repo": "react-map-gl",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/uber/react-map-gl/tarball/master",
-      "clone_url": "https://github.com/uber/react-map-gl",
-      "https_url": "https://github.com/uber/react-map-gl",
-      "travis_url": "https://travis-ci.org/uber/react-map-gl",
-      "zip_url": "https://github.com/uber/react-map-gl/archive/master.zip",
-      "api_url": "https://api.github.com/repos/uber/react-map-gl"
+      "type": "git",
+      "url": "https://github.com/uber/react-map-gl.git"
     },
     "license": "MIT",
     "dependencies": {
@@ -296,5 +287,6 @@
   "svnUrl": "https://github.com/mirez/react-map-gl",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:18:30.284Z"
+  "lastFetchedAt": "2017-05-04T05:18:30.284Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:12.606Z"
 }

@@ -77,6 +77,10 @@
     "description": "oauth2-dialog",
     "main": "index.js",
     "bin": "./cli.js",
+    "author": {
+      "name": "Fredrik A. Kristiansen",
+      "email": "fredrikaxk@gmail.com"
+    },
     "license": "ISC",
     "engines": {
       "node": ">= 6.9"
@@ -111,5 +115,6 @@
   },
   "filename": "FredrikAleksander___oauth2-dialog.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:14.358Z"
+  "lastFetchedAt": "2017-05-04T14:50:14.358Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:12.802Z"
 }

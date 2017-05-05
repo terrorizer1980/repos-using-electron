@@ -73,11 +73,11 @@
   "status": 200,
   "packageJSON": {
     "name": "lyricfier",
-    "version": "0.2.1",
+    "version": "0.2.5",
     "description": "Fetching lyrics for spotify desktop client",
     "main": "main.js",
     "scripts": {
-      "prestart": "tsc",
+      "prestart": "tsc && lessc render/less/main.less render/css/main.css",
       "start": "electron .",
       "dist:linux64": "electron-zip-packager  . --arch=x64 --platform=linux  --overwrite --prune --out=build/ --icon=render/img/icon.png",
       "dist:linux32": "electron-zip-packager  . --arch=ia32 --platform=linux  --overwrite --prune --out=build/ --icon=render/img/icon.png",
@@ -89,14 +89,21 @@
       "pretest": "tsc test/*Test.ts --module commonjs && tsc",
       "test": "mocha"
     },
-    "repository": "https://github.com/emilioastarita/lyrics-spotify",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/emilioastarita/lyrics-spotify.git"
+    },
     "keywords": [
       "spotify",
       "lyrics",
       "electron",
       "nodejs"
     ],
+    "author": "Emilio Astarita",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/emilioastarita/lyrics-spotify/issues"
+    },
     "homepage": "https://github.com/emilioastarita/lyrics-spotify#readme",
     "dependencies": {
       "async": "^2.0.1",
@@ -110,19 +117,20 @@
       "vue-class-component": "^3.2.0"
     },
     "devDependencies": {
-      "@types/electron": "latest",
+      "@types/electron": "1.3.20",
       "@types/electron-json-storage": "latest",
-      "@types/node": "4.0.30",
-      "@types/vue": "latest",
       "@types/mocha": "latest",
+      "@types/node": "4.0.30",
       "electron-builder": "^6.4.0",
       "electron-packager": "^7.7.0",
-      "electron-prebuilt": "^1.2.0",
+      "electron-prebuilt": "^1.4.10",
       "electron-zip-packager": "^3.0.0",
       "gulp": "^3.9.1",
       "gulp-less": "^3.1.0",
       "gulp-livereload": "^3.8.1",
-      "typescript": "^2.0.0"
+      "less": "^2.7.1",
+      "mocha": "^3.2.0",
+      "typescript": "^2.1.0"
     }
   },
   "packageStatus": 200,
@@ -150,5 +158,6 @@
   },
   "filename": "emilioastarita___lyricfier.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:15.532Z"
+  "lastFetchedAt": "2017-05-04T05:35:15.532Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:46.603Z"
 }

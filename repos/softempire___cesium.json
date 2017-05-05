@@ -171,6 +171,10 @@
     "description": "Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin.",
     "homepage": "http://cesiumjs.org",
     "license": "Apache-2.0",
+    "author": {
+      "name": "Analytical Graphics, Inc.",
+      "url": "http://www.agi.com"
+    },
     "contributors": {
       "name": "Cesium community",
       "url": "https://github.com/AnalyticalGraphicsInc/cesium/blob/master/CONTRIBUTORS.md"
@@ -183,17 +187,12 @@
       "globe"
     ],
     "repository": {
-      "user": "AnalyticalGraphicsInc",
-      "repo": "cesium",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/AnalyticalGraphicsInc/cesium/tarball/master",
-      "clone_url": "https://github.com/AnalyticalGraphicsInc/cesium",
-      "https_url": "https://github.com/AnalyticalGraphicsInc/cesium",
-      "travis_url": "https://travis-ci.org/AnalyticalGraphicsInc/cesium",
-      "zip_url": "https://github.com/AnalyticalGraphicsInc/cesium/archive/master.zip",
-      "api_url": "https://api.github.com/repos/AnalyticalGraphicsInc/cesium"
+      "type": "git",
+      "url": "https://github.com/AnalyticalGraphicsInc/cesium.git"
+    },
+    "bugs": {
+      "url": "https://github.com/AnalyticalGraphicsInc/cesium/issues",
+      "email": "cesium-dev@googlegroups.com"
     },
     "dependencies": {
       "requirejs": "2.2.0"
@@ -312,5 +311,6 @@
   "svnUrl": "https://github.com/softempire/cesium",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:47:15.848Z"
+  "lastFetchedAt": "2017-05-04T14:47:15.848Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:08.490Z"
 }

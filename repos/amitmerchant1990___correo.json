@@ -80,7 +80,11 @@
     "scripts": {
       "start": "electron index.js --disable-gpu"
     },
-    "repository": "https://github.com/amitmerchant1990/correo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amitmerchant1990/correo",
+      "docs": "https://github.com/amitmerchant1990/correo/blob/master/README.md"
+    },
     "keywords": [
       "electron",
       "gmail",
@@ -92,8 +96,16 @@
       "html",
       "desktop"
     ],
+    "author": "Amit Merchant <bullredeyes@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amitmerchant1990/correo/issues"
+    },
     "homepage": "https://github.com/amitmerchant1990/correo#readme",
+    "_npmUser": {
+      "name": "amit_merchant",
+      "email": "bullredeyes@gmail.com"
+    },
     "devDependencies": {
       "devtron": "^1.1.2",
       "electron-packager": "^7.0.3",
@@ -102,20 +114,6 @@
     },
     "dependencies": {
       "menubar": "latest"
-    },
-    "lastPublisher": {
-      "name": "amit_merchant",
-      "email": "bullredeyes@gmail.com"
-    },
-    "other": {
-      "_npmUser": {
-        "name": "amit_merchant",
-        "email": "bullredeyes@gmail.com"
-      },
-      "author": "Amit Merchant <bullredeyes@gmail.com>",
-      "bugs": {
-        "url": "https://github.com/amitmerchant1990/correo/issues"
-      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +141,6 @@
   },
   "filename": "amitmerchant1990___correo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:57.888Z"
+  "lastFetchedAt": "2017-05-04T21:02:57.888Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:41.170Z"
 }

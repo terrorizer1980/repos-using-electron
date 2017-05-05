@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/manudwarf/mordin",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/manudwarf/mordin.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Emmanuel Bourgerie <manu@bourgerie.fr>",
     "license": "Apache",
+    "bugs": {
+      "url": "https://github.com/manudwarf/mordin/issues"
+    },
     "homepage": "https://github.com/manudwarf/mordin#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -117,5 +124,6 @@
   },
   "filename": "manudwarf___mordin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:27.879Z"
+  "lastFetchedAt": "2017-05-04T18:34:27.879Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:29.417Z"
 }

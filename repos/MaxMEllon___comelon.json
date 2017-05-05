@@ -56,9 +56,16 @@
     "version": "v0.4.5",
     "main": "main.js",
     "license": "MIT",
-    "repository": "https://github.com/MaxMEllon/comelon",
+    "author": "MaxMEllon <maxmellon1994@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MaxMEllon/comelon.git"
+    },
     "description": "nicolive comment viewer on electron",
     "homepage": "https://github.com/MaxMEllon/comelon",
+    "bugs": {
+      "url": "https://github.com/MaxMEllon/comelon/issues"
+    },
     "bin": {
       "comelon": "./bin/cli.js"
     },
@@ -176,5 +183,6 @@
   "svnUrl": "https://github.com/MaxMEllon/comelon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:20:13.759Z"
+  "lastFetchedAt": "2017-05-04T18:20:13.759Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:38.024Z"
 }

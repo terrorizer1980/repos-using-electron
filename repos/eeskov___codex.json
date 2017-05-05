@@ -74,7 +74,11 @@
       "start": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/eeskov/codex",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/eeskov/codex.git"
+    },
+    "author": "eeskov",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.8"
@@ -114,5 +118,6 @@
   },
   "filename": "eeskov___codex.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:04.645Z"
+  "lastFetchedAt": "2017-05-04T17:54:04.645Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:07.348Z"
 }

@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/archiloque/rogue_space_bot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/archiloque/rogue_space_bot.git"
+    },
     "keywords": [
       "game",
       "roguelike"
     ],
+    "author": "Julien Kirch",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/archiloque/rogue_space_bot/issues"
+    },
     "homepage": "https://github.com/archiloque/rogue_space_bot",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -119,5 +126,6 @@
   },
   "filename": "archiloque___rogue_space_bot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:29.752Z"
+  "lastFetchedAt": "2017-05-04T05:22:29.752Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:47.617Z"
 }

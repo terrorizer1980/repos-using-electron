@@ -76,11 +76,22 @@
       "test": "mocha test",
       "dist": "build --publish=onTag"
     },
-    "repository": "https://github.com/Hatisoft/koteky",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Hatisoft/koteky.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": {
+      "name": "Hati Software",
+      "email": "contact@hatisoft.net",
+      "url": "http://hatisoft.net/"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Hatisoft/koteky/issues"
+    },
     "homepage": "https://github.com/Hatisoft/koteky#readme",
     "devDependencies": {
       "blanket": "^1.2.1",
@@ -173,5 +184,6 @@
   "svnUrl": "https://github.com/Hatisoft/koteky",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:07:17.521Z"
+  "lastFetchedAt": "2017-05-04T18:07:17.521Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:38.548Z"
 }

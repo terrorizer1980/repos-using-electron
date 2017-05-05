@@ -57,6 +57,7 @@
       "gh": "npm run build && gh-pages -d dist",
       "app": "NODE_ENV=development electron app/"
     },
+    "author": "egoist <0x142857@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "clipboard": "^1.5.12",
@@ -135,5 +136,6 @@
   "svnUrl": "https://github.com/egoist/rem",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:31:37.737Z"
+  "lastFetchedAt": "2017-05-04T19:31:37.737Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:39.419Z"
 }

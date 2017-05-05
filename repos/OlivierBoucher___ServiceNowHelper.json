@@ -59,6 +59,7 @@
       "watchServer": "gulp serve",
       "watch": "concurrent \"npm run watchClient\" \"npm run watchServer\""
     },
+    "author": "Olivier Boucher <info@OlivierBoucher.com>",
     "license": "MIT",
     "repository": "https://github.com/OlivierBoucher/ServiceNowHelper",
     "devDependencies": {
@@ -120,5 +121,6 @@
   },
   "filename": "OlivierBoucher___ServiceNowHelper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:33:34.301Z"
+  "lastFetchedAt": "2017-05-04T05:33:34.301Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:34.956Z"
 }

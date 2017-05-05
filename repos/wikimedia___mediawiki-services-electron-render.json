@@ -87,7 +87,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-render-service",
-    "version": "0.7.0",
+    "version": "0.10.0",
     "description": "Microservice for rendering PDF/PNG/JPEG from HTML with Electron",
     "bin": {
       "electron-render-service": "./bin/electron-render-service.js"
@@ -107,39 +107,31 @@
       "html",
       "microservice"
     ],
+    "author": "Mihkel Sokk <mihkelsokk@gmail.com>",
     "license": "MIT",
     "repository": {
-      "user": "msokk",
-      "repo": "electron-render-service",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/msokk/electron-render-service/tarball/master",
-      "clone_url": "https://github.com/msokk/electron-render-service",
-      "https_url": "https://github.com/msokk/electron-render-service",
-      "travis_url": "https://travis-ci.org/msokk/electron-render-service",
-      "zip_url": "https://github.com/msokk/electron-render-service/archive/master.zip",
-      "api_url": "https://api.github.com/repos/msokk/electron-render-service"
+      "type": "git",
+      "url": "https://github.com/msokk/electron-render-service.git"
     },
     "dependencies": {
-      "async": "^1.5.2",
-      "electron-prebuilt": "^1.2.5",
-      "express": "^4.14.0",
-      "express-validator": "^2.20.8",
-      "morgan": "^1.7.0",
-      "response-time": "^2.3.1",
-      "retry": "^0.9.0"
+      "async": "^2.1.5",
+      "electron": "^1.6.2",
+      "express": "^4.15.2",
+      "express-validator": "^3.1.2",
+      "morgan": "^1.8.1",
+      "response-time": "^2.3.2",
+      "retry": "^0.10.1"
     },
     "devDependencies": {
-      "eslint": "^2.13.1",
-      "eslint-config-airbnb-base": "^3.0.1",
-      "eslint-plugin-import": "^1.9.2",
-      "mocha": "^2.5.3",
-      "supertest": "^1.2.0"
+      "eslint": "^3.17.1",
+      "eslint-config-airbnb-base": "^11.1.1",
+      "eslint-plugin-import": "^2.2.0",
+      "mocha": "^3.2.0",
+      "supertest": "^3.0.0"
     },
     "deploy": {
       "target": "debian",
-      "node": "4.4.6",
+      "node": "6.9.1",
       "dependencies": {
         "_all": []
       }
@@ -171,5 +163,6 @@
   "filename": "wikimedia___mediawiki-services-electron-render.json",
   "sourceRepo": "msokk/electron-render-service",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:25:20.082Z"
+  "lastFetchedAt": "2017-05-04T15:25:20.082Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:06.442Z"
 }

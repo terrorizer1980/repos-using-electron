@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -113,5 +116,6 @@
   },
   "filename": "lukeinator42___themostdangerouswritingappdesktopedition.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:21.788Z"
+  "lastFetchedAt": "2017-05-04T20:24:21.788Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:10.325Z"
 }

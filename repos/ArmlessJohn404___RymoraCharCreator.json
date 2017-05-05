@@ -60,17 +60,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "ArmlessJohn404",
-      "repo": "RymoraCharCreator",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ArmlessJohn404/RymoraCharCreator/tarball/master",
-      "clone_url": "https://github.com/ArmlessJohn404/RymoraCharCreator",
-      "https_url": "https://github.com/ArmlessJohn404/RymoraCharCreator",
-      "travis_url": "https://travis-ci.org/ArmlessJohn404/RymoraCharCreator",
-      "zip_url": "https://github.com/ArmlessJohn404/RymoraCharCreator/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ArmlessJohn404/RymoraCharCreator"
+      "type": "git",
+      "url": "git+https://github.com/ArmlessJohn404/RymoraCharCreator.git"
     },
     "keywords": [
       "Electron",
@@ -78,7 +69,11 @@
       "start",
       "tutorial"
     ],
+    "author": "Luiz Eduardo Amaral",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ArmlessJohn404/RymoraCharCreator/issues"
+    },
     "homepage": "https://github.com/ArmlessJohn404/RymoraCharCreator#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -130,5 +125,6 @@
   "svnUrl": "https://github.com/ArmlessJohn404/RymoraCharCreator",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:10:24.121Z"
+  "lastFetchedAt": "2017-05-04T18:10:24.121Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:14.438Z"
 }

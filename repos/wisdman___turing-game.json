@@ -75,10 +75,17 @@
     "name": "turing-game",
     "version": "0.0.1",
     "description": "Turing test game for RedPepper Agency",
+    "author": "Wisdman <wisdman@ajaw.it>",
     "license": "MIT",
     "private": true,
     "homepage": "https://github.com/wisdman/turing-game#readme",
-    "repository": "https://github.com/wisdman/turing-game",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wisdman/turing-game.git"
+    },
+    "bugs": {
+      "url": "https://github.com/wisdman/turing-game/issues"
+    },
     "main": "main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -118,5 +125,6 @@
   },
   "filename": "wisdman___turing-game.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:57.572Z"
+  "lastFetchedAt": "2017-05-04T19:55:57.572Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:40.635Z"
 }

@@ -57,13 +57,22 @@
       "build": "webpack --watch",
       "pack": "electron-packager . --platform=mas --arch=x64 --prune --icon=app.icns --out=release --overwrite --app-version=0.1.4"
     },
-    "repository": "https://github.com/zenxds/fe-tools",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zenxds/fe-tools",
+      "package": "https://raw.githubusercontent.com/zenxds/fe-tools/master/package.json",
+      "releases": "https://github.com/zenxds/fe-tools/releases"
+    },
     "keywords": [
       "GUI",
       "electron",
       "fe",
       "tools"
     ],
+    "author": {
+      "name": "dongshuang.xds",
+      "email": "dongshuang.xds@alibaba-inc.com"
+    },
     "license": "ISC",
     "devDependencies": {
       "babel-core": "~6.9.1",
@@ -143,5 +152,6 @@
   "svnUrl": "https://github.com/zenxds/fe-tools",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:23:01.761Z"
+  "lastFetchedAt": "2017-05-04T20:23:01.761Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:18.644Z"
 }

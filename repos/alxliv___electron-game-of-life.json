@@ -79,13 +79,17 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/alxliv/electron-game-of-life",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alxliv/electron-game-of-life.git"
+    },
     "keywords": [
       "game-of-life",
       "conway",
       "electron",
       "example"
     ],
+    "author": "Alex Livshitz",
     "license": "MIT",
     "homepage": "https://github.com/alxliv/electron-game-of-life",
     "devDependencies": {
@@ -117,5 +121,6 @@
   },
   "filename": "alxliv___electron-game-of-life.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:02:57.484Z"
+  "lastFetchedAt": "2017-05-04T09:02:57.484Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:50.556Z"
 }

@@ -62,12 +62,16 @@
       "debug": "electron main.js --debug",
       "package": "electron-packager . linear --platform=darwin --arch=all --version=1.2.2 --icon=src/assets/images/lrMacIcon.icns --out=dist --overwrite"
     },
-    "repository": "https://github.com/mikaa123/linear",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mikaa123/linear.git"
+    },
     "keywords": [
       "ruler",
       "measure",
       "electron"
     ],
+    "author": "Michael Sokol",
     "license": "MIT",
     "homepage": "http://mikaa123.github.io/linear-website/",
     "devDependencies": {
@@ -135,5 +139,6 @@
   },
   "filename": "mikaa123___linear.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:01.318Z"
+  "lastFetchedAt": "2017-05-04T17:47:01.318Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:03.884Z"
 }

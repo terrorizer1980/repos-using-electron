@@ -72,8 +72,8 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "duronto-typer",
-    "version": "0.1.0",
+    "name": "fj-typer",
+    "version": "0.2.0",
     "description": "An accessible touch typing tutor",
     "main": "main.js",
     "scripts": {
@@ -81,31 +81,40 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/nadu/duronto_typer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nadu/duronto_typer.git"
+    },
     "keywords": [
       "Electron",
       "touchtype",
       "accessible",
       "keyboard"
     ],
+    "author": "Nadu",
     "license": "CC0-1.0",
-    "homepage": "https://github.com/nadu/duronto_typert#readme",
+    "bugs": {
+      "url": "https://github.com/nadu/fj_typer/issues"
+    },
+    "homepage": "https://github.com/nadu/fj_typer#readme",
     "devDependencies": {
       "chokidar": "^1.6.0",
       "electron-builder": "^5.26.0",
       "electron-prebuilt": "^1.2.0",
+      "electron-rebuild": "^1.5.7",
       "electron-reload": "^1.0.2",
       "electron-windows-installer": "^1.4.2"
     },
     "dependencies": {
       "fs": "0.0.2",
-      "jquery": "2.2.4"
+      "jquery": "2.2.4",
+      "nconf": "^0.8.4"
     },
     "build": {
-      "appId": "com.naduism.durontotyper",
-      "category": "education.typing",
+      "appId": "com.naduism.fjtyper",
+      "category": "assistivetech.touchtyping",
       "win": {
-        "iconUrl": ""
+        "iconUrl": "app/images/fj_typer_logo.png"
       }
     }
   },
@@ -134,5 +143,6 @@
   },
   "filename": "nadu___fj_typer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:16:16.174Z"
+  "lastFetchedAt": "2017-05-04T18:16:16.174Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:34.270Z"
 }

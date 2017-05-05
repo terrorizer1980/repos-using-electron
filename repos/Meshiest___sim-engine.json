@@ -73,12 +73,16 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/meshiest/sim-engine",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meshiest/sim-engine.git"
+    },
     "keywords": [
       "dating",
       "simulator",
       "game engine"
     ],
+    "author": "Meshiest",
     "homepage": "https://github.com/meshiest/sim-engine#readme",
     "devDependencies": {
       "electron": "^1.3.4"
@@ -109,5 +113,6 @@
   },
   "filename": "Meshiest___sim-engine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:18.674Z"
+  "lastFetchedAt": "2017-05-04T15:29:18.674Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:29.728Z"
 }

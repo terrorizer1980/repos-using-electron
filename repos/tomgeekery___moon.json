@@ -79,7 +79,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/tomgeekery/moon",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomgeekery/moon.git"
+    },
+    "author": "tomgeekery",
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-settings": "^2.2.2",
@@ -111,5 +115,6 @@
   },
   "filename": "tomgeekery___moon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:05.243Z"
+  "lastFetchedAt": "2017-05-04T18:17:05.243Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:39.255Z"
 }

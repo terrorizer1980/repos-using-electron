@@ -80,7 +80,10 @@
       "test": "mocha",
       "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
     },
-    "repository": "https://github.com/nathanchapman/busted",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nathanchapman/busted.git"
+    },
     "keywords": [
       "busted",
       "iframe",
@@ -89,7 +92,11 @@
       "clickjacking"
     ],
     "tonicExampleFilename": "example.js",
+    "author": "Nathan Chapman <nathanchapman@utexas.edu> (http://nathanchapman.io)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nathanchapman/busted/issues"
+    },
     "homepage": "https://github.com/nathanchapman/busted#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -126,5 +133,6 @@
   },
   "filename": "nathanchapman___busted.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:10.598Z"
+  "lastFetchedAt": "2017-05-04T05:14:10.598Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:49.913Z"
 }

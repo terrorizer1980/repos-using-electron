@@ -50,6 +50,7 @@
     "version": "0.1.1",
     "description": "Compile your Stylus with ease",
     "main": "app/bundle.main.js",
+    "author": "Nathan G <n6g7@gnab.fr>",
     "scripts": {
       "pretest": "eslint --ext js,jsx src test",
       "test": "mocha --compilers js:babel-core/register --require test/helper.js --recursive",
@@ -57,7 +58,13 @@
       "build": "webpack && rm -r dist || build -mwl",
       "dev": "NODE_ENV=dev electron ."
     },
-    "repository": "https://github.com/n6g7/stylay",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/n6g7/stylay.git"
+    },
+    "bugs": {
+      "url": "https://github.com/n6g7/stylay/issues"
+    },
     "homepage": "https://github.com/n6g7/stylay#readme",
     "dependencies": {
       "immutable": "^3.8.1",
@@ -180,5 +187,6 @@
   },
   "filename": "n6g7___stylay.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:05.182Z"
+  "lastFetchedAt": "2017-05-04T20:56:05.182Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:45.393Z"
 }

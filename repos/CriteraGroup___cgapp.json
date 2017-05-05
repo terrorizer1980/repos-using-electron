@@ -91,6 +91,7 @@
       "start": "npm run styles && npm run electron",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Kevin Warnock <kevin.warnock@capitalone.com> (http://github.com/folterung)",
     "license": "ISC",
     "dependencies": {
       "angular": "^1.5.8",
@@ -134,5 +135,6 @@
   },
   "filename": "CriteraGroup___cgapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:23.133Z"
+  "lastFetchedAt": "2017-05-04T20:07:23.133Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:09.436Z"
 }

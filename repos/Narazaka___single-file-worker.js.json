@@ -73,7 +73,14 @@
     "scripts": {
       "test": "mocha && karma start --single-run"
     },
-    "repository": "https://github.com/Narazaka/single-file-worker.js",
+    "author": {
+      "name": "narazaka",
+      "url": "http://narazaka.net/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Narazaka/single-file-worker.js.git"
+    },
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -121,5 +128,6 @@
   },
   "filename": "Narazaka___single-file-worker.js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:42.707Z"
+  "lastFetchedAt": "2017-05-04T19:31:42.707Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:51.825Z"
 }

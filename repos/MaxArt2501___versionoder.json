@@ -78,6 +78,11 @@
     "description": "Node version manager with an Electron-based GUI",
     "license": "MIT",
     "repository": "MaxArt/versionoder",
+    "author": {
+      "name": "Massimo Artizzu",
+      "email": "maxart.x@gmail.com",
+      "url": "github.com/MaxArt2501/versionoder"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -138,5 +143,6 @@
   },
   "filename": "MaxArt2501___versionoder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:42.850Z"
+  "lastFetchedAt": "2017-05-04T20:58:42.850Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:18.825Z"
 }

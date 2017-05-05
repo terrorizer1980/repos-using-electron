@@ -75,11 +75,18 @@
       "prestart": "npm install",
       "start": "electron ."
     },
-    "repository": "https://github.com/e-xtrategy/electron-file-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/e-xtrategy/electron-file-editor.git"
+    },
     "keywords": [
       "electron"
     ],
+    "author": "e-xtrategy",
     "license": "WTFPL",
+    "bugs": {
+      "url": "https://github.com/e-xtrategy/electron-file-editor/issues"
+    },
     "homepage": "https://github.com/e-xtrategy/electron-file-editor#readme",
     "devDependencies": {
       "babel-core": "6.7.7",
@@ -141,5 +148,6 @@
   "svnUrl": "https://github.com/e-xtrategy/electron-file-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:25:26.788Z"
+  "lastFetchedAt": "2017-05-04T20:25:26.788Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:54.950Z"
 }

@@ -83,13 +83,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/SkyZH/streaming",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SkyZH/streaming.git"
+    },
     "keywords": [
       "streaming",
       "electron",
       "stream"
     ],
+    "author": "SkyZH",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SkyZH/streaming/issues"
+    },
     "homepage": "https://github.com/SkyZH/streaming#readme"
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   },
   "filename": "SkyZH___streaming.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:26.336Z"
+  "lastFetchedAt": "2017-05-04T21:06:26.336Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:13.150Z"
 }

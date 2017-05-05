@@ -87,11 +87,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/tina/frontend",
+    "repository": {
+      "type": "git",
+      "url": "git@git.4sense.eu:tina/frontend.git"
+    },
     "keywords": [
       "Development",
       "Tina"
     ],
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -143,5 +147,6 @@
   },
   "filename": "347tina___stockit-frontend.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:51.839Z"
+  "lastFetchedAt": "2017-05-04T20:05:51.839Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:07.772Z"
 }

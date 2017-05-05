@@ -70,6 +70,10 @@
     "version": "1.0.0",
     "description": "NodejsConsoleApp1",
     "main": "boot_electron.js",
+    "author": {
+      "name": "ip",
+      "email": ""
+    },
     "scripts": {
       "electron": "./node_modules/.bin/electron boot_electron.js"
     },
@@ -121,5 +125,6 @@
   },
   "filename": "ip821___jstc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:11.700Z"
+  "lastFetchedAt": "2017-05-04T20:18:11.700Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:53.831Z"
 }

@@ -84,6 +84,10 @@
     "version": "0.0.0",
     "description": "Small description for huayra-comic goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -93,6 +97,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -190,5 +195,6 @@
   },
   "filename": "HuayraLinux___huayra-comic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:27.837Z"
+  "lastFetchedAt": "2017-05-04T19:39:27.837Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:04.677Z"
 }

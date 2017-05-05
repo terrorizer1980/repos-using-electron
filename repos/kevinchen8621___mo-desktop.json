@@ -90,11 +90,18 @@
       "rebuild": "./node_modules/.bin/electron-rebuild",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/kevinchen8621/mo-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kevinchen8621/mo-desktop.git"
+    },
     "keywords": [
       "pkm"
     ],
+    "author": "kevinchen8621",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/kevinchen8621/mo-desktop/issues"
+    },
     "homepage": "https://github.com/kevinchen8621/mo-desktop#readme",
     "dependencies": {
       "cheerio": "^0.22.0",
@@ -140,5 +147,6 @@
   },
   "filename": "kevinchen8621___mo-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:56.941Z"
+  "lastFetchedAt": "2017-05-04T05:16:56.941Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:14.145Z"
 }

@@ -134,11 +134,22 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -274,5 +285,6 @@
   },
   "filename": "JumpingRock___react-sandbox-site.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:25:07.149Z"
+  "lastFetchedAt": "2017-05-04T21:25:07.149Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:58.100Z"
 }

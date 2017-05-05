@@ -69,6 +69,7 @@
     "name": "nano-sql",
     "version": "0.1.0",
     "description": "Nano viewer for MySQL",
+    "author": "Juan Emilio Turk <juanemilioturk@gmail.com>",
     "main": "main.js",
     "scripts": {
       "start": "cross-env NODE_ENV=development webpack --hot && electron .",
@@ -76,8 +77,10 @@
       "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
     },
     "dependencies": {
+      "bulma": "^0.3.1",
       "electron": "^1.4.4",
       "lodash": "^4.16.6",
+      "mssql": "^3.3.0",
       "mysql": "^2.11.1",
       "vue": "^2.0.1",
       "vue-electron": "^1.0.4",
@@ -91,7 +94,9 @@
       "cross-env": "^3.0.0",
       "css-loader": "^0.25.0",
       "devtron": "^1.4.0",
+      "eslint": "^3.15.0",
       "file-loader": "^0.9.0",
+      "style-loader": "^0.13.1",
       "vue-loader": "^9.7.0",
       "webpack": "^2.1.0-beta.25",
       "webpack-dev-server": "^2.1.0-beta.0"
@@ -122,5 +127,6 @@
   },
   "filename": "juanem1___nano-sql.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:32:54.645Z"
+  "lastFetchedAt": "2017-05-04T15:32:54.645Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:48.241Z"
 }

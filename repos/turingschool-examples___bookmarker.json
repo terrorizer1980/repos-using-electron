@@ -89,9 +89,16 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/stevekinney/fem-bookmarker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stevekinney/fem-bookmarker.git"
+    },
     "keywords": [],
+    "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/stevekinney/fem-bookmarker/issues"
+    },
     "homepage": "https://github.com/stevekinney/fem-bookmarker#readme",
     "dependencies": {
       "electron": "^1.4.6"
@@ -126,5 +133,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:02:17.651Z"
+  "lastFetchedAt": "2017-05-04T06:02:17.651Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:37.642Z"
 }

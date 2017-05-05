@@ -73,13 +73,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/agilInespasa/musicPlayer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/agilInespasa/musicPlayer"
+    },
     "keywords": [
       "Electron",
       "music",
       "player",
       "html5"
     ],
+    "author": "Antonio Gil",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -110,5 +114,6 @@
   },
   "filename": "AgilInespasa___musicPlayer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:40.891Z"
+  "lastFetchedAt": "2017-05-04T19:58:40.891Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:24.209Z"
 }

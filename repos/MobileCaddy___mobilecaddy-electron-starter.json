@@ -89,14 +89,18 @@
     "name": "mobilecaddy-desktop",
     "productName": "mobilecaddy-desktop",
     "version": "1.0.0",
-    "description": "A minimal Electron application",
+    "description": "A minimal MobileCaddy Desktop Client",
+    "author": "MobileCaddy <support@mobilecaddy.net>",
     "license": "MIT",
     "main": "main.js",
     "buildName": "BIZ001",
     "loginEndpoint": "https://login.salesforce.com",
     "salesforceApiVersion": "v30.0",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "rebuild": "electron-rebuild -f -w sqlite3",
+      "pack": "build --dir",
+      "dist": "build"
     },
     "repository": "https://github.com/mobilecaddy/mobilecaddy-electron-starter",
     "keywords": [
@@ -106,10 +110,47 @@
       "starter",
       "demo"
     ],
-    "devDependencies": {},
-    "dependencies": {
+    "build": {
+      "appId": "net.mobilecaddy.bizCaddy-desktop",
+      "copyright": "Copyright © 2017 MobileCaddy",
+      "productName": "BizCaddy",
+      "asar": false,
+      "compression": "normal",
+      "linux": {
+        "category": "Office",
+        "target": "deb",
+        "desktop": {
+          "Type": "Application",
+          "Encoding": "UTF-8",
+          "Name": "BizCaddy Desktop",
+          "Commnent": "A minimal MobileCaddy Desktop Client",
+          "Exec": "/usr/local/bin/mobilecaddy-desktop",
+          "Icon": "/opt/mobilecaddy-desktop/resources/app/icon.png",
+          "Terminal": "false"
+        },
+        "executableName": "BizCaddy"
+      },
+      "win": {
+        "icon": "build/icons/icon",
+        "legalTrademark": "BizCaddy is a trademark of MobileCaddy"
+      },
+      "nsis": {
+        "oneClick": false
+      }
+    },
+    "devDependencies": {
+      "devtron": "^1.4.0",
       "electron": "^1.4.1",
-      "mobilecaddy-electron": "git+https://github.com/MobileCaddy/mobilecaddy-electron#develop"
+      "electron-builder": "next",
+      "electron-prebuilt": "^1.4.13",
+      "electron-rebuild": "^1.5.4"
+    },
+    "dependencies": {
+      "electron-debug": "^1.1.0",
+      "electron-is-dev": "^0.1.2",
+      "mobilecaddy-electron": "git+https://github.com/MobileCaddy/mobilecaddy-electron",
+      "rimraf": "^2.5.4",
+      "sqlite3": "^3.1.8"
     }
   },
   "packageStatus": 200,
@@ -138,5 +179,6 @@
   "filename": "MobileCaddy___mobilecaddy-electron-starter.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:31.187Z"
+  "lastFetchedAt": "2017-05-04T14:50:31.187Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:44.604Z"
 }

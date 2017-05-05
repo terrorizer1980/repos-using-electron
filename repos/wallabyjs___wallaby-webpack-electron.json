@@ -84,11 +84,21 @@
     "version": "1.0.0",
     "description": "Wallaby.js Webpack sample",
     "main": "index.js",
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/wallabyjs/wallaby-webpack-sample",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wallabyjs/wallaby-webpack-sample.git"
+    },
+    "author": "Artem Govorov",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wallabyjs/wallaby-webpack-sample/issues"
+    },
     "homepage": "https://github.com/wallabyjs/wallaby-webpack-sample",
     "devDependencies": {
       "babel-core": "^6.1.2",
@@ -125,5 +135,6 @@
   },
   "filename": "wallabyjs___wallaby-webpack-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:22.972Z"
+  "lastFetchedAt": "2017-05-04T14:21:22.972Z",
+  "packageLastFetchedAt": "2017-05-05T14:23:47.738Z"
 }

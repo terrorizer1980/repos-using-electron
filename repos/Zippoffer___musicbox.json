@@ -81,12 +81,19 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/Zippoffer/musicbox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Zippoffer/musicbox.git"
+    },
     "keywords": [
       "react",
       "music"
     ],
+    "author": "Christopher Hill",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Zippoffer/musicbox/issues"
+    },
     "homepage": "https://github.com/Zippoffer/musicbox#readme",
     "dependencies": {
       "axios": "^0.9.1",
@@ -133,5 +140,6 @@
   },
   "filename": "Zippoffer___musicbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:32.541Z"
+  "lastFetchedAt": "2017-05-04T15:28:32.541Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:22.371Z"
 }

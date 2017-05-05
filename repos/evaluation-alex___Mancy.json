@@ -215,6 +215,7 @@
       "TypeScript",
       "LiveScript"
     ],
+    "author": "Prince John Wesley <princejohnwesley@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.3.13",
@@ -267,17 +268,11 @@
       "typescript": "1.6.2"
     },
     "repository": {
-      "user": "princejwesley",
-      "repo": "Mancy",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/princejwesley/Mancy/tarball/master",
-      "clone_url": "https://github.com/princejwesley/Mancy",
-      "https_url": "https://github.com/princejwesley/Mancy",
-      "travis_url": "https://travis-ci.org/princejwesley/Mancy",
-      "zip_url": "https://github.com/princejwesley/Mancy/archive/master.zip",
-      "api_url": "https://api.github.com/repos/princejwesley/Mancy"
+      "type": "git",
+      "url": "https://github.com/princejwesley/Mancy.git"
+    },
+    "bugs": {
+      "url": "https://github.com/princejwesley/Mancy/issues"
     },
     "homepage": "https://github.com/princejwesley/Mancy"
   },
@@ -327,5 +322,6 @@
   "filename": "evaluation-alex___Mancy.json",
   "sourceRepo": "princejwesley/Mancy",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:22.277Z"
+  "lastFetchedAt": "2017-05-04T21:19:22.277Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:49.576Z"
 }

@@ -59,12 +59,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/maximilianredt/EasyWebradio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maximilianredt/EasyWebradio.git"
+    },
     "keywords": [
       "Webradio",
       "leightweight"
     ],
+    "author": "Maximilian Redt",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maximilianredt/EasyWebradio/issues"
+    },
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -115,5 +122,6 @@
   "svnUrl": "https://github.com/maximilianredt/EasyWebradio",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:05:55.950Z"
+  "lastFetchedAt": "2017-05-03T20:05:55.950Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:38.739Z"
 }

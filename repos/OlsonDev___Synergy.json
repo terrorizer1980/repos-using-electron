@@ -71,8 +71,15 @@
     "description": "Private",
     "private": true,
     "main": "dist/main/index.js",
-    "repository": "https://github.com/OlsonDev/Synergy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OlsonDev/Synergy.git"
+    },
+    "bugs": {
+      "url": "https://github.com/OlsonDev/Synergy/issues"
+    },
     "homepage": "https://github.com/OlsonDev/Synergy#readme",
+    "author": "Josh Olson",
     "license": "UNLICENSED",
     "dependencies": {
       "fs-extra": "^0.27.0",
@@ -127,5 +134,6 @@
   },
   "filename": "OlsonDev___Synergy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:44:41.533Z"
+  "lastFetchedAt": "2017-05-04T16:44:41.533Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:05.236Z"
 }

@@ -73,7 +73,11 @@
     },
     "version": "0.0.1",
     "description": "Electron Example 3",
-    "repository": "https://github.com/saan1984/ElectronExample3",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronExample3.git"
+    },
+    "author": "Sandeep Kumar Patel",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -104,5 +108,6 @@
   },
   "filename": "saan1984___ElectronExample3.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:25.544Z"
+  "lastFetchedAt": "2017-05-04T14:45:25.544Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:26.137Z"
 }

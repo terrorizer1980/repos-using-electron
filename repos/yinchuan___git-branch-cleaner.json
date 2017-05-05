@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/yinchuan/git-branch-cleaner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yinchuan/git-branch-cleaner.git"
+    },
     "keywords": [
       "git"
     ],
+    "author": "yinchuan",
     "license": "GPL",
+    "bugs": {
+      "url": "https://github.com/yinchuan/git-branch-cleaner/issues"
+    },
     "homepage": "https://github.com/yinchuan/git-branch-cleaner",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -113,5 +120,6 @@
   },
   "filename": "yinchuan___git-branch-cleaner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:24.405Z"
+  "lastFetchedAt": "2017-05-04T15:20:24.405Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:15.846Z"
 }

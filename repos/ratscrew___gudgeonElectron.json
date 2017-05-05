@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/ratscrew/gudgeonElectron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ratscrew/gudgeonElectron.git"
+    },
+    "author": "Aidan Grace",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ratscrew/gudgeonElectron/issues"
+    },
     "homepage": "https://github.com/ratscrew/gudgeonElectron#readme",
     "dependencies": {
-      "electron-prebuilt": "^1.0.2"
+      "npm install electron-packager -g": "^1.0.2"
     }
   },
   "packageStatus": 200,
@@ -105,5 +112,6 @@
   },
   "filename": "ratscrew___gudgeonElectron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:21.863Z"
+  "lastFetchedAt": "2017-05-04T05:16:21.863Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:52.386Z"
 }

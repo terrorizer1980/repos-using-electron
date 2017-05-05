@@ -53,12 +53,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/widged/electron-screenshot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/widged/electron-screenshot.git"
+    },
     "keywords": [
       "electron",
       "screenshot"
     ],
+    "author": "Marielle <mlange@widged.com> (http://widged.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/widged/electron-screenshot/issues"
+    },
     "homepage": "https://github.com/widged/electron-screenshot#readme",
     "dependencies": {
       "electron-prebuilt": "^0.34.0",
@@ -110,5 +117,6 @@
   "svnUrl": "https://github.com/widged/electron-screenshot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:25:11.876Z"
+  "lastFetchedAt": "2017-05-04T20:25:11.876Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:49.529Z"
 }

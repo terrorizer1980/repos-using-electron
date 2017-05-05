@@ -55,7 +55,10 @@
     "name": "sound-warp",
     "version": "0.5.7",
     "description": "SoundWarp frontend application",
-    "repository": "https://github.com/SoundWarp/sound-warp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SoundWarp/sound-warp.git"
+    },
     "devDependencies": {
       "babel-eslint": "^4.1.0",
       "bower": "^1.5.1",
@@ -133,5 +136,6 @@
   "svnUrl": "https://github.com/dkfiresky/sound-warp-player-deprecated",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:05:05.413Z"
+  "lastFetchedAt": "2017-05-04T18:05:05.413Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:43.199Z"
 }

@@ -74,13 +74,16 @@
   "packageJSON": {
     "name": "qrcode.app",
     "productName": "qrcode.app",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Offline QR-Code Generator",
     "main": "index.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/simonmeusel/qrcode.app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simonmeusel/qrcode.app.git"
+    },
     "keywords": [
       "offline",
       "secure",
@@ -88,7 +91,11 @@
       "windows",
       "linux"
     ],
+    "author": "Simon Meusel",
     "license": "SEE LICENSE IN LICENSE FILE",
+    "bugs": {
+      "url": "https://github.com/simonmeusel/qrcode.app/issues"
+    },
     "homepage": "https://github.com/simonmeusel/qrcode.app#readme",
     "devDependencies": {
       "electron": "^1.4.3"
@@ -119,5 +126,6 @@
   },
   "filename": "simonmeusel___qrcode.app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:03:27.297Z"
+  "lastFetchedAt": "2017-05-04T05:03:27.297Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:13.266Z"
 }

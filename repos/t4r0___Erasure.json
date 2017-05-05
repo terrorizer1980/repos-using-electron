@@ -83,13 +83,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/t4r0/Erasure",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/t4r0/Erasure.git"
+    },
     "keywords": [
       "animation",
       "electron",
       "css"
     ],
+    "author": "Estuardo Diaz",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/t4r0/Erasure/issues"
+    },
     "homepage": "https://github.com/t4r0/Erasure#readme"
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   },
   "filename": "t4r0___Erasure.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:41.272Z"
+  "lastFetchedAt": "2017-05-04T17:47:41.272Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:42.891Z"
 }

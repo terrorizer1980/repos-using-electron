@@ -70,11 +70,15 @@
     "version": "1.0.0",
     "description": "Github notification monitor. Lite.",
     "main": "index.js",
-    "repository": "https://github.com/tborychowski/gitweet2",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tborychowski/gitweet2.git"
+    },
     "scripts": {
       "start": "electron --enable-transparent-visuals --disable-gpu index.js",
       "package": "electron-packager . --platform=darwin"
     },
+    "author": "Tom <tborychowski@gmail.com>",
     "license": "MIT",
     "dependencies": {},
     "devDependencies": {
@@ -107,5 +111,6 @@
   },
   "filename": "tborychowski___gitweet2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:37:42.767Z"
+  "lastFetchedAt": "2017-05-04T19:37:42.767Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:31.362Z"
 }

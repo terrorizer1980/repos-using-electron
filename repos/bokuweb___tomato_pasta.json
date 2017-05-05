@@ -71,12 +71,19 @@
       "zip-win32": "cd packages && zip -r pasta-win32-x64.zip pasta-win32-x64",
       "zip-linux": "cd packages && zip -r pasta-linux-x64.zip pasta-linux-x64"
     },
-    "repository": "https://github.com/bokuweb/tomato_pasta",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bokuweb/tomato_pasta"
+    },
     "keywords": [
       "Electron",
       "Hatena"
     ],
+    "author": "bokuweb",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bokuweb/tomato_pasta/issues"
+    },
     "homepage": "https://github.com/bokuweb/tomato_pasta",
     "devDependencies": {
       "babel-plugin-espower": "1.0.0",
@@ -167,5 +174,6 @@
   },
   "filename": "bokuweb___tomato_pasta.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:52.627Z"
+  "lastFetchedAt": "2017-05-04T21:11:52.627Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:35.758Z"
 }

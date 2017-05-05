@@ -89,6 +89,7 @@
       "postinstall": "npm run lint:fix && cd app && npm install",
       "vue:route": "node tasks/vue/route.js"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -159,5 +160,6 @@
   },
   "filename": "NathanBland___address-book.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:32.694Z"
+  "lastFetchedAt": "2017-05-04T19:31:32.694Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:04.807Z"
 }

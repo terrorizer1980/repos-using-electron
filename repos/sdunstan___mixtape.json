@@ -79,7 +79,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/sdunstan/mixtape",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sdunstan/mixtape.git"
+    },
+    "author": "Steve Dunstan",
     "license": "Apache-2.0",
     "homepage": "https://github.com/sdunstan/mixtape",
     "devDependencies": {
@@ -119,5 +123,6 @@
   },
   "filename": "sdunstan___mixtape.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:17.369Z"
+  "lastFetchedAt": "2017-05-04T15:16:17.369Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:51.865Z"
 }

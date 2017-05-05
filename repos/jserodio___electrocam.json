@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/jserodio/electrocam",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jserodio/electrocam.git"
+    },
     "keywords": [
       "Electron",
       "electrocam",
       "webcam",
       "test"
     ],
+    "author": "jserodio",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/jserodio/electrocam/issues"
+    },
     "homepage": "https://github.com/jserodio/electrocam",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -117,5 +124,6 @@
   },
   "filename": "jserodio___electrocam.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:00.043Z"
+  "lastFetchedAt": "2017-05-04T19:51:00.043Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:15.543Z"
 }

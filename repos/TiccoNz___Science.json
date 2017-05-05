@@ -68,23 +68,26 @@
   "packageJSON": {
     "name": "science",
     "version": "1.0.0",
-    "description": "school application",
-    "main": "app.js",
+    "description": "",
+    "main": "main.js",
     "scripts": {
-      "test": "",
+      "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/TiccoNz/Science",
-    "keywords": [
-      "Math",
-      "and",
-      "physc"
-    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TiccoNz/Science.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TiccoNz/Science/issues"
+    },
     "homepage": "https://github.com/TiccoNz/Science#readme",
     "devDependencies": {
-      "electron": "^1.4.1",
-      "gulp": "^3.9.1"
+      "electron": "^1.4.13",
+      "node-sass": "^4.1.1",
+      "pug": "^2.0.0-beta6"
     }
   },
   "packageStatus": 200,
@@ -112,5 +115,6 @@
   },
   "filename": "TiccoNz___Science.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:16:13.691Z"
+  "lastFetchedAt": "2017-05-04T21:16:13.691Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:34.668Z"
 }

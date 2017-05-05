@@ -84,6 +84,10 @@
     "version": "0.0.3",
     "description": "Small description for ember-barista-ui goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -93,10 +97,14 @@
       "snyk-protect": "snyk protect",
       "prepublish": "npm run snyk-protect"
     },
-    "repository": "https://github.com/ciena-blueplanet/ember-barista-ui",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ciena-blueplanet/ember-barista-ui.git"
+    },
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "Seena",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -229,5 +237,6 @@
   },
   "filename": "ciena-blueplanet___ember-barista-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:35.321Z"
+  "lastFetchedAt": "2017-05-04T21:26:35.321Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:41.485Z"
 }

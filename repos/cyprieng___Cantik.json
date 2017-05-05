@@ -54,12 +54,19 @@
     "scripts": {
       "start": "electron src/main.js"
     },
-    "repository": "https://github.com/cyprieng/Cantik---Electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cyprieng/Cantik---Electron.git"
+    },
     "keywords": [
       "Cantik",
       "Music",
       "Player"
     ],
+    "author": "cyprieng",
+    "bugs": {
+      "url": "https://github.com/cyprieng/Cantik---Electron/issues"
+    },
     "dependencies": {
       "electron-prebuilt": "^1.0.1",
       "coffee-script": "^1.10.0",
@@ -141,5 +148,6 @@
     "receivedEventsUrl": "https://api.github.com/users/Cantik-Music-Player/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T05:15:37.071Z"
+  "lastFetchedAt": "2017-05-04T05:15:37.071Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:24.644Z"
 }

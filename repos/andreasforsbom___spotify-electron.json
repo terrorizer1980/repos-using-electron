@@ -79,12 +79,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/andreasforsbom/spotify-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andreasforsbom/spotify-electron.git"
+    },
     "keywords": [
       "Spotify",
       "electron"
     ],
+    "author": "Andreas Forsbom",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/andreasforsbom/spotify-electron/issues"
+    },
     "homepage": "https://github.com/andreasforsbom/spotify-electron#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.7"
@@ -115,5 +122,6 @@
   },
   "filename": "andreasforsbom___spotify-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:18:51.275Z"
+  "lastFetchedAt": "2017-05-04T15:18:51.275Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:14.917Z"
 }

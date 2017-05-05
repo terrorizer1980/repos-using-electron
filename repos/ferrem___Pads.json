@@ -90,8 +90,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ferrem/Pads",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ferrem/Pads.git"
+    },
+    "author": "Mel Ferrer",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ferrem/Pads/issues"
+    },
     "homepage": "https://github.com/ferrem/Pads#readme"
   },
   "packageStatus": 200,
@@ -119,5 +126,6 @@
   },
   "filename": "ferrem___Pads.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:34.300Z"
+  "lastFetchedAt": "2017-05-04T18:00:34.300Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:54.126Z"
 }

@@ -53,6 +53,7 @@
     "scripts": {
       "test": "node ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --ui bdd -R spec"
     },
+    "author": "Jamezs (AccessDenied)",
     "license": "MIT",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -109,5 +110,6 @@
   },
   "filename": "Zayelion___YGO-Ascension.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:46:43.574Z"
+  "lastFetchedAt": "2017-05-04T19:46:43.574Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:13.033Z"
 }

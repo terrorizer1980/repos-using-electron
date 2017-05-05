@@ -92,7 +92,17 @@
       "build-windows": "electron-packager ./build-publish ElectronAngular --app-version=1.0.0 --version=1.2.5 --asar=true --platform=win32  --arch=ia32 --overwrite --out ./build",
       "build-mac": "electron-packager ./build-publish ElectronAngular     --app-version=1.0.0 --version=1.2.5 --asar=true --platform=darwin --arch=x64  --overwrite --out ./build"
     },
-    "repository": "https://github.com/Oceanware/electronangularjses6",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Oceanware/electronangularjses6.git"
+    },
+    "author": {
+      "name": "Karl Shifflett",
+      "url": "http://oceanware.wordpress.com"
+    },
+    "bugs": {
+      "url": "https://github.com/oceanware/electronangularjses6"
+    },
     "homepage": "https://github.com/oceanware/electronangularjses6",
     "keywords": [
       "electron",
@@ -178,5 +188,6 @@
   },
   "filename": "Oceanware___ElectronAngularJSES6.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:24.258Z"
+  "lastFetchedAt": "2017-05-04T20:02:24.258Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:16.242Z"
 }

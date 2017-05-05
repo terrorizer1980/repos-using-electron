@@ -77,9 +77,16 @@
       "vscode"
     ],
     "homepage": "http://aurelia.io",
+    "bugs": {
+      "url": "https://github.com/aurelia/skeleton-navigation-typescript/issues"
+    },
     "license": "CC0-1.0",
+    "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io/)",
     "main": "dist/main.js",
-    "repository": "https://github.com/aurelia/skeleton-navigation-typescript",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/aurelia/skeleton-navigation-typescript"
+    },
     "scripts": {
       "test": "gulp test",
       "e2e": "gulp serve e2e"
@@ -171,5 +178,6 @@
   },
   "filename": "ivarler___AureliaElectronGHSearch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:26.774Z"
+  "lastFetchedAt": "2017-05-04T17:57:26.774Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:06.885Z"
 }

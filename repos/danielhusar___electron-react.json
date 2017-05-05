@@ -60,6 +60,7 @@
       "win": "node_modules\\electron-prebuilt\\dist\\electron .",
       "osx": "node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ."
     },
+    "author": "Denis Vuyka <denis.vuyka@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "markdown-it": "^4.2.1",
@@ -126,5 +127,6 @@
   "svnUrl": "https://github.com/danielhusar/electron-react",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:34:53.521Z"
+  "lastFetchedAt": "2017-05-04T05:34:53.521Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:59.974Z"
 }

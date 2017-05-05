@@ -61,7 +61,11 @@
       "start": "electron .",
       "test": "mocha test"
     },
-    "repository": "https://github.com/michaelenger/Sanntid-Tray",
+    "author": "Michael Enger <michaelenger@live.com>",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/michaelenger/Sanntid-Tray.git"
+    },
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^1.2.6",
@@ -119,5 +123,6 @@
   },
   "filename": "michaelenger___Sanntid-Tray.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:55.996Z"
+  "lastFetchedAt": "2017-05-04T18:04:55.996Z",
+  "packageLastFetchedAt": "2017-05-05T14:34:06.989Z"
 }

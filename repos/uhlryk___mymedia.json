@@ -47,12 +47,15 @@
   "status": 200,
   "packageJSON": {
     "name": "mymedia",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Media files manager",
     "keywords": [],
     "main": "src/main.js",
     "homepage": "https://github.com/uhlryk/mymedia",
-    "repository": "https://github.com/uhlryk/mymedia",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/uhlryk/mymedia.git"
+    },
     "scripts": {
       "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
       "test-watch": "npm test -- --watch",
@@ -71,6 +74,10 @@
     },
     "electronVersion": "v0.36.4",
     "license": "MIT",
+    "author": "Krzysztof Sztompka <sztompka.krzysztof@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/uhlryk/mymedia/issues"
+    },
     "devDependencies": {
       "asar": "^0.11.0",
       "babel-core": "^6.9.0",
@@ -127,28 +134,37 @@
       "webpack-hot-middleware": "^2.10.0"
     },
     "dependencies": {
+      "bluebird": "^3.5.0",
       "bootstrap-sass": "^3.3.6",
+      "classnames": "^2.2.5",
       "compass-mixins": "^0.12.10",
       "css-modules-require-hook": "^4.0.0",
+      "dist-exiftool": "^10.33.1",
       "electron-debug": "^1.0.0",
+      "electron-devtools-installer": "^2.1.0",
+      "electron-json-storage": "^3.0.5",
+      "extensioner": "^1.6.0",
       "filesize": "^3.3.0",
-      "font-awesome": "^4.6.3",
+      "font-awesome": "^4.7.0",
       "fs": "0.0.2",
-      "griddle-callback": "^0.2.1",
-      "griddle-react": "^0.5.1",
       "lodash": "^4.13.1",
       "md5": "^2.1.0",
+      "node-exiftool": "^2.1.1",
       "node-sass": "^3.8.0",
+      "open": "0.0.5",
       "path": "^0.12.7",
       "postcss": "^5.0.21",
       "react": "^15.1.0",
-      "react-bootstrap": "^0.30.5",
+      "react-autosuggest": "^8.0.0",
       "react-dom": "^15.1.0",
       "react-notification-system": "^0.2.7",
       "react-redux": "^4.4.5",
       "react-router": "^2.4.1",
       "react-router-redux": "^4.0.4",
+      "react-select": "^1.0.0-rc.2",
+      "react-tooltip": "^3.2.2",
       "redux": "^3.5.2",
+      "redux-devtools-extension": "^2.13.0",
       "redux-thunk": "^2.1.0",
       "sass-loader": "^3.2.0",
       "source-map-support": "^0.4.0",
@@ -204,5 +220,6 @@
   },
   "filename": "uhlryk___mymedia.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:00.836Z"
+  "lastFetchedAt": "2017-05-04T18:20:00.836Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:56.616Z"
 }

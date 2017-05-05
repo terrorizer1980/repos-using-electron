@@ -97,7 +97,11 @@
       "mc",
       "electron"
     ],
-    "repository": "https://github.com/52mc/McLauncher",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/52mc/McLauncher.git"
+    },
+    "author": "eeve",
     "devDependencies": {
       "adm-zip": "^0.4.7",
       "angular": "^1.5.8",
@@ -164,5 +168,6 @@
   },
   "filename": "52mc___McLauncher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:19.198Z"
+  "lastFetchedAt": "2017-05-04T19:43:19.198Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:17.653Z"
 }

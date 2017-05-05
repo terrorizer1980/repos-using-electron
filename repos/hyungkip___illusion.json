@@ -67,5 +67,51 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:24:42.277Z"
+  "lastFetchedAt": "2017-05-04T05:24:42.277Z",
+  "packageJSON": {
+    "name": "illusion",
+    "version": "1.0.0",
+    "description": "display project",
+    "main": "app.js",
+    "scripts": {
+      "start": "electron .",
+      "controls": "START=controls electron .",
+      "test": "karma start"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hyungkip/illusion.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/hyungkip/illusion/issues"
+    },
+    "homepage": "https://github.com/hyungkip/illusion#readme",
+    "dependencies": {
+      "body-parser": "^1.16.0",
+      "bootstrap": "^3.3.7",
+      "ejs": "^2.5.5",
+      "electron": "^1.5.0",
+      "electron-rebuild": "^1.5.7",
+      "express": "^4.14.1",
+      "fs": "0.0.1-security",
+      "jquery": "^3.1.1",
+      "onoff": "^1.0.0",
+      "request": "^2.81.0"
+    },
+    "devDependencies": {
+      "browserify": "^11.1.0",
+      "jasmine-core": "^2.5.2",
+      "jasmine-node": "^1.14.5",
+      "karma": "^1.5.0",
+      "karma-browserify": "^5.1.1",
+      "karma-chrome-launcher": "^2.0.0",
+      "karma-electron": "^5.1.1",
+      "karma-jasmine": "^1.1.0",
+      "watchify": "^3.9.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:32:54.004Z"
 }

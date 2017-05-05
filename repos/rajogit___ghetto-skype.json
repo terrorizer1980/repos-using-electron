@@ -197,13 +197,20 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/stanfieldr/ghetto-skype",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stanfieldr/ghetto-skype.git"
+    },
     "keywords": [
       "web",
       "skype",
       "wrapper"
     ],
+    "author": "Robert Stanfield <robert@stanfield.it>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/stanfieldr/ghetto-skype/issues"
+    },
     "homepage": "https://github.com/stanfieldr/ghetto-skype#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -246,5 +253,6 @@
   },
   "sourceRepo": "stanfieldr/ghetto-skype",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:57:13.811Z"
+  "lastFetchedAt": "2017-05-04T19:57:13.811Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:07.369Z"
 }

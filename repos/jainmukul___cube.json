@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "jainmukul",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -123,5 +124,6 @@
   },
   "filename": "jainmukul___cube.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:20.225Z"
+  "lastFetchedAt": "2017-05-04T21:19:20.225Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:07.132Z"
 }

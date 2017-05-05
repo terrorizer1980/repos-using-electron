@@ -70,7 +70,10 @@
     "version": "0.0.1",
     "description": "yp-viewer made by electron",
     "main": "index.js",
-    "repository": "https://github.com/DoG-peer/electric-yp",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/DoG-peer/electric-yp.git"
+    },
     "scripts": {
       "start": "electron ./build",
       "setup": "npm i; gulp",
@@ -79,6 +82,7 @@
     "keywords": [
       "peercast"
     ],
+    "author": "DoG",
     "license": "ISC",
     "devDependencies": {
       "coffee-script": "^1.9.3",
@@ -125,5 +129,6 @@
   },
   "filename": "DoG-peer___electric-yp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:12:06.338Z"
+  "lastFetchedAt": "2017-05-04T05:12:06.338Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:16.786Z"
 }

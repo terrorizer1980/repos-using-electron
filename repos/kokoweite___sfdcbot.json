@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/kokoweite/sfdcbot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kokoweite/sfdcbot.git"
+    },
     "keywords": [
       "electron",
       "salesforce",
       "countries&states",
       "bot"
     ],
+    "author": "kokoweite",
     "license": "DBAD",
+    "bugs": {
+      "url": "https://github.com/kokoweite/sfdcbot/issues"
+    },
     "homepage": "https://github.com/kokoweite/sfdcbot",
     "devDependencies": {
       "electron-prebuilt": "^0.37.2",
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/kokoweite/sfdcbot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:20:29.409Z"
+  "lastFetchedAt": "2017-05-04T05:20:29.409Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:18.981Z"
 }

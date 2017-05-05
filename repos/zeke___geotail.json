@@ -69,7 +69,11 @@
       "location",
       "travel"
     ],
+    "author": "zeke",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zeke/geotail/issues"
+    },
     "homepage": "https://github.com/zeke/geotail#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -128,5 +132,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T19:59:10.117Z"
+  "lastFetchedAt": "2017-05-04T19:59:10.117Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:23.434Z"
 }

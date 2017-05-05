@@ -67,11 +67,15 @@
   "status": 200,
   "packageJSON": {
     "name": "html2md",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Desktop application for parsing nodes from Drupal websites.",
+    "author": "Sanich <sancho@cdrpro.ru>",
     "license": "MIT",
     "main": "app.js",
-    "repository": "https://github.com/cdrpro/html2md",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cdrpro/html2md"
+    },
     "scripts": {
       "start": "electron ."
     },
@@ -112,5 +116,6 @@
   },
   "filename": "cdrpro___html2md.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:55.363Z"
+  "lastFetchedAt": "2017-05-04T16:42:55.363Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:42.327Z"
 }

@@ -56,7 +56,15 @@
     "productName": "Kapla",
     "description": "Instrument, mit dem die Abteilung Recht des AWEL Geschäfte erfasst und Fristen kontrolliert",
     "version": "1.0.0",
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Alexander Gabriel",
+      "email": "alex@gabriel-software.ch",
+      "url": "http://gabriel-software.ch"
+    },
     "license": "MIT",
     "main": "main.js",
     "scripts": {
@@ -207,5 +215,6 @@
   "svnUrl": "https://github.com/barbalex/kapla",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:35:56.969Z"
+  "lastFetchedAt": "2017-05-04T17:35:56.969Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:13.902Z"
 }

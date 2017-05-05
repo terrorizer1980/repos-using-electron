@@ -172,7 +172,9 @@
     "appBundleId": "io.yeoman.app",
     "helperBundleId": "io.yeoman.app.helper",
     "description": "An app made with Electron that scaffolds projects using Yeoman",
+    "author": "The Yeoman Team",
     "main": "src/browser/main.js",
+    "bugs": "https://github.com/yeoman/yeoman-app/issues",
     "dependencies": {
       "array.prototype.findindex": "^1.0.0",
       "async": "^1.2.1",
@@ -268,5 +270,6 @@
   "svnUrl": "https://github.com/JordietYahii/yeoman-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:11:26.542Z"
+  "lastFetchedAt": "2017-05-04T21:11:26.542Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:16.795Z"
 }

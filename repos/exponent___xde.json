@@ -92,9 +92,9 @@
       "start": "cross-env XDE_NPM_START=1 npm run _start",
       "rebuild": "gulp rebuild:force",
       "start-hot": "cross-env HOT=1 npm run start",
-      "start-staging": "cross-env XDE_NPM_START=1 EXPONENT_STAGING=1 npm run _start",
+      "start-staging": "cross-env XDE_NPM_START=1 EXPO_STAGING=1 npm run _start",
       "start-staging-hot": "cross-env HOT=1 npm run start-staging",
-      "start-local": "cross-env XDE_NPM_START=1 EXPONENT_LOCAL=1 npm run _start",
+      "start-local": "cross-env XDE_NPM_START=1 EXPO_LOCAL=1 npm run _start",
       "start-local-hot": "cross-env HOT=1 npm run start-local",
       "start-proxy": "cross-env HTTP_PROXY=http://localhost.charlesproxy.com:8888 HTTPS_PROXY=http://localhost.charlesproxy.com:8888 npm start",
       "_start": "concurrently --kill-others --raw \"npm run webpack\" \"npm run app\"",
@@ -108,11 +108,19 @@
       "lint": "eslint src",
       "dist": "gulp clean && npm run build && gulp release",
       "mac": "gulp clean && npm run build && gulp release:mac",
+      "test-mac": "gulp clean && npm run build && gulp test:mac",
       "win": "gulp clean && npm run build && gulp release:windows",
       "linux": "gulp clean && npm run build && gulp release:linux",
       "flow-typed": "flow-typed install --flowVersion=\"$(flow version | awk '{ print $9 }')\" && cd app/ && npm run flow-typed"
     },
     "build": {
+      "publish": [
+        {
+          "provider": "github",
+          "owner": "exponent",
+          "repo": "xde"
+        }
+      ],
       "asar": false,
       "appId": "host.exp.xde",
       "dmg": {
@@ -134,46 +142,47 @@
         "identity": "650 Industries, Inc. (C8D8QTF339)",
         "category": "public.app-category.developer-tools"
       },
-      "win": {
-        "remoteReleases": "https://github.com/exponent/xde"
-      },
       "linux": {
         "category": "Development",
         "target": [
           "AppImage"
         ]
+      },
+      "nsis": {
+        "perMachine": true
       }
     },
     "devDependencies": {
       "@ccheever/crayon": "^5.0.0",
       "@exponent/json-file": "^5.0.1",
-      "@exponent/spawn-async": "^1.2.5",
+      "@exponent/spawn-async": "^1.2.8",
       "babel-core": "^6.18.0",
       "babel-eslint": "^7.1.0",
       "babel-loader": "^6.2.5",
-      "babel-plugin-dev-expression": "^0.2.1",
-      "babel-plugin-flow-react-proptypes": "^0.18.2",
+      "babel-plugin-flow-react-proptypes": "^0.21.0",
+      "babel-plugin-syntax-trailing-function-commas": "^6.22.0",
       "babel-plugin-transform-class-properties": "^6.18.0",
       "babel-plugin-transform-decorators-legacy": "^1.3.4",
-      "babel-plugin-transform-object-rest-spread": "^6.16.0",
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+      "babel-plugin-transform-export-extensions": "^6.22.0",
+      "babel-plugin-transform-object-rest-spread": "^6.22.0",
       "babel-plugin-transform-runtime": "^6.9.0",
-      "babel-preset-es2015": "^6.18.0",
-      "babel-preset-es2015-node6": "^0.3.0",
       "babel-preset-es2017": "^6.16.0",
       "babel-preset-react": "^6.5.0",
       "babel-preset-react-optimize": "^1.0.1",
-      "babel-preset-stage-1": "^6.16.0",
       "concurrently": "^3.1.0",
       "cross-env": "^3.0.0",
-      "electron": "1.4.11",
-      "electron-builder": "^10.6.1",
-      "electron-devtools-installer": "^2.0.1",
-      "electron-rebuild": "^1.5.5",
-      "eslint": "^3.1.1",
-      "eslint-config-exponent": "^4.0.0",
-      "eslint-plugin-babel": "^3.3.0",
+      "electron": "~1.6.0",
+      "electron-builder": "14.4.0",
+      "electron-devtools-installer": "^2.1.0",
+      "electron-rebuild": "^1.5.6",
+      "eslint": "^3.15.0",
+      "eslint-config-exponent": "^5.1.3",
+      "eslint-plugin-babel": "^4.0.1",
+      "eslint-plugin-flowtype": "^2.30.0",
+      "eslint-plugin-import": "^2.2.0",
       "eslint-plugin-react": "^6.3.0",
-      "flow-bin": "^0.36.0",
+      "flow-bin": "^0.38.0",
       "flow-typed": "^2.0.0",
       "getenv": "^0.7.0",
       "gulp": "git+https://github.com/gulpjs/gulp#4.0",
@@ -181,18 +190,20 @@
       "gulp-changed": "^1.3.0",
       "gulp-plumber": "^1.1.0",
       "gulp-rename": "^1.2.2",
-      "gulp-sourcemaps": "^1.6.0",
+      "gulp-sourcemaps": "^2.4.1",
       "gulp-watch": "^4.3.6",
       "gulplog": "^1.0.0",
       "instapromise": "2.0.7",
       "json-loader": "^0.5.4",
+      "mkdirp": "^0.5.1",
+      "node-loader": "^0.6.0",
       "react": "^15.4.1",
       "react-dom": "^15.4.1",
       "react-hot-loader": "3.0.0-beta.6",
       "rimraf": "^2.5.2",
-      "source-map-support": "^0.4.6",
-      "webpack": "2.1.0-beta.27",
-      "webpack-dev-server": "2.1.0-beta.12",
+      "source-map-support": "^0.4.11",
+      "webpack": "^2.2.1",
+      "webpack-dev-server": "^2.3.0",
       "webpack-node-externals": "^1.5.4"
     }
   },
@@ -221,5 +232,6 @@
   },
   "sourceRepo": "exponentjs/xde",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:22.467Z"
+  "lastFetchedAt": "2017-05-04T19:42:22.467Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:57.980Z"
 }

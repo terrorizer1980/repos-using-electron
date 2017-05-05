@@ -74,12 +74,19 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/allencoded/electron-roll20",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/allencoded/electron-roll20.git"
+    },
     "keywords": [
       "roll20",
       "electron"
     ],
+    "author": "Allen Hendricks",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/allencoded/electron-roll20/issues"
+    },
     "homepage": "https://github.com/allencoded/electron-roll20#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7",
@@ -122,5 +129,6 @@
   },
   "filename": "allencoded___electron-roll20.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:51:50.447Z"
+  "lastFetchedAt": "2017-05-04T14:51:50.447Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:45.086Z"
 }

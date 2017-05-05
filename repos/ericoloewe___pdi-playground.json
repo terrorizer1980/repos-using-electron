@@ -69,6 +69,7 @@
     "name": "processamento-digital-de-imagens",
     "version": "0.0.1",
     "description": "A smart photoshop created in a class",
+    "author": "Érico de Souza Loewe <ericoloewe@gmail.com>",
     "main": "main.js",
     "scripts": {
       "start": "gulp build && electron . --enable-logging",
@@ -144,5 +145,6 @@
   },
   "filename": "ericoloewe___pdi-playground.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:25:37.367Z"
+  "lastFetchedAt": "2017-05-04T21:25:37.367Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:47.234Z"
 }

@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Ratikesh",
     "license": "Limetray",
     "dependencies": {
       "axios": "^0.9.1",
@@ -129,5 +130,6 @@
   },
   "filename": "ratikesh9___Music-Palyer-react-electron-.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:43.560Z"
+  "lastFetchedAt": "2017-05-04T20:37:43.560Z",
+  "packageLastFetchedAt": "2017-05-05T03:34:40.184Z"
 }

@@ -55,7 +55,10 @@
       "build": "gulp clean:build",
       "package": "gulp clean && gulp package"
     },
-    "repository": "https://github.com/bchelkow/electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bchelkow/electron.git"
+    },
     "dependencies": {
       "babel-preset-es2015": "^6.9.0",
       "babel-preset-react": "^6.11.1",
@@ -121,5 +124,6 @@
   },
   "filename": "bchelkow___electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:32:22.459Z"
+  "lastFetchedAt": "2017-05-04T15:32:22.459Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:42.848Z"
 }

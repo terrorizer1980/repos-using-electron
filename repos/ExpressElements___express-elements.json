@@ -92,6 +92,11 @@
     "description": "My super-duper app",
     "license": "MIT",
     "repository": "BLamy/express-elements",
+    "author": {
+      "name": "Brett Lamy",
+      "email": "BLamy@calvauto.com",
+      "url": "github.com/blamy"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -149,5 +154,6 @@
   },
   "filename": "ExpressElements___express-elements.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:45:27.251Z"
+  "lastFetchedAt": "2017-05-04T17:45:27.251Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:13.069Z"
 }

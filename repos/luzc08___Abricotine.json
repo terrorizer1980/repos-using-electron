@@ -170,17 +170,11 @@
     "name": "Abricotine",
     "description": "A markdown editor for desktop",
     "repository": {
-      "user": "brrd",
-      "repo": "Abricotine",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/brrd/Abricotine/tarball/master",
-      "clone_url": "https://github.com/brrd/Abricotine",
-      "https_url": "https://github.com/brrd/Abricotine",
-      "travis_url": "https://travis-ci.org/brrd/Abricotine",
-      "zip_url": "https://github.com/brrd/Abricotine/archive/master.zip",
-      "api_url": "https://api.github.com/repos/brrd/Abricotine"
+      "type": "git",
+      "url": "https://github.com/brrd/Abricotine"
+    },
+    "bugs": {
+      "url": "https://github.com/brrd/Abricotine/issues"
     },
     "version": "0.2.3",
     "keywords": [
@@ -193,6 +187,11 @@
       "postinstall": "electron-rebuild && bower install",
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": {
+      "name": "Thomas Brouard",
+      "email": "contact@brrd.fr",
+      "url": "http://brrd.fr"
     },
     "license": "GPL-3.0",
     "dependencies": {
@@ -268,5 +267,6 @@
   "svnUrl": "https://github.com/luzc08/Abricotine",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:07:49.030Z"
+  "lastFetchedAt": "2017-05-04T05:07:49.030Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:48.063Z"
 }

@@ -84,7 +84,10 @@
     "version": "1.0.0",
     "description": "Sample for demonstrating various aspects of modern cross-platform applications.",
     "main": "gulpfile.js",
-    "repository": "https://github.com/thinktecture/boardz-cross-platform-sample",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thinktecture/boardz-cross-platform-sample.git"
+    },
     "scripts": {
       "postinstall": "typings install",
       "build-web": "gulp build-web",
@@ -104,6 +107,10 @@
       "watch-mobile-android": "npm run build-mobile-android && gulp start-mobile-android",
       "watch-mobile-ios": "npm run build-mobile-ios && gulp start-mobile-ios",
       "watch-mobile-windows": "npm run build-mobile-windows && gulp start-mobile-windows"
+    },
+    "author": "Thinktecture AG <office@thinktecture.com>",
+    "bugs": {
+      "url": "https://github.com/thinktecture/boardz-cross-platform-sample/issues"
     },
     "homepage": "https://github.com/thinktecture/boardz-cross-platform-sample#readme",
     "devDependencies": {
@@ -193,5 +200,6 @@
   },
   "filename": "thinktecture___ngeurope-2016-workshop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:16.601Z"
+  "lastFetchedAt": "2017-05-04T17:49:16.601Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:55.938Z"
 }

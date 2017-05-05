@@ -74,18 +74,20 @@
   "status": 200,
   "packageJSON": {
     "name": "tanana",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Software para aprendizado de partituras musicais.",
     "main": "app/main.js",
     "scripts": {
-      "start": "/usr/bin/electron .",
+      "start": "electron .",
       "pack": "build --dir",
-      "dist": "build -lwm"
+      "dist": "build",
+      "dist-windows": "build -w"
     },
     "repository": "https://github.com/graciano/tanana",
     "keywords": [
       "Electron"
     ],
+    "author": "Matheus Graciano <graciano.dev@gmail.com>",
     "license": "BSD-4-Clause",
     "devDependencies": {
       "electron": "1.4.1",
@@ -96,8 +98,8 @@
     "dependencies": {
       "breakpoint-sass": "^2.7.1",
       "electron-settings": "^2.2.2",
+      "opensheetmusicdisplay": "^0.1.0",
       "recursive-readdir": "^2.1.0",
-      "vexflow": "^1.2.83",
       "xml2js": "^0.4.17"
     },
     "build": {
@@ -147,5 +149,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:09.694Z"
+  "lastFetchedAt": "2017-05-04T15:14:09.694Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:57.932Z"
 }

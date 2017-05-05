@@ -196,21 +196,13 @@
       "rebuild": "node ./node_modules/.bin/electron-rebuild"
     },
     "repository": {
-      "user": "dermike",
-      "repo": "slide-beacon-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/dermike/slide-beacon-app/tarball/master",
-      "clone_url": "https://github.com/dermike/slide-beacon-app",
-      "https_url": "https://github.com/dermike/slide-beacon-app",
-      "travis_url": "https://travis-ci.org/dermike/slide-beacon-app",
-      "zip_url": "https://github.com/dermike/slide-beacon-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/dermike/slide-beacon-app"
+      "type": "git",
+      "url": "git://github.com/dermike/slide-beacon-app.git"
     },
     "keywords": [
       "electron"
     ],
+    "author": "Mikael Jergefelt",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "8.1.0",
@@ -249,5 +241,6 @@
   "filename": "HenderOrlando___slide-beacon-app.json",
   "sourceRepo": "dermike/slide-beacon-app",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:03.771Z"
+  "lastFetchedAt": "2017-05-04T20:31:03.771Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:05.582Z"
 }

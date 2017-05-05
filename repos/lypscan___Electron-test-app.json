@@ -53,8 +53,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/lypscan/Electron-test-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lypscan/Electron-test-app.git"
+    },
+    "author": "Me",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lypscan/Electron-test-app/issues"
+    },
     "homepage": "https://github.com/lypscan/Electron-test-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.1"
@@ -105,5 +112,6 @@
   "svnUrl": "https://github.com/mister-glass/Electron-test-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:21:13.608Z"
+  "lastFetchedAt": "2017-05-04T20:21:13.608Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:02.306Z"
 }

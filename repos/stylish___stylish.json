@@ -115,7 +115,11 @@
       "babel-preset-react-hmre": "^1.1.0",
       "lerna": "^1.1.1"
     },
-    "repository": "https://github.com/skypager/skypager",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/skypager/skypager.git"
+    },
+    "author": "Jonathan Soeder <jon@chicago.com",
     "license": "SEE LICENSE IN License.md",
     "scripts": {
       "postinstall": "npm install skypager-cli -g",
@@ -157,5 +161,6 @@
   },
   "filename": "stylish___stylish.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:45:55.991Z"
+  "lastFetchedAt": "2017-05-04T17:45:55.991Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:45.746Z"
 }

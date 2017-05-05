@@ -80,8 +80,15 @@
       "test": "mocha",
       "start": "grunt build-styles && ./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/nikkow/geneatree",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nikkow/geneatree.git"
+    },
+    "author": "Nicolas Nunge <me@nikkow.eu>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/nikkow/geneatree/issues"
+    },
     "homepage": "https://github.com/nikkow/geneatree#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -119,5 +126,6 @@
   },
   "filename": "nikkow___geneatree.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:10.498Z"
+  "lastFetchedAt": "2017-05-04T15:28:10.498Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:07.040Z"
 }

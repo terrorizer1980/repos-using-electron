@@ -74,7 +74,10 @@
       "start": "./bin/cli"
     },
     "preferGlobal": true,
-    "repository": "https://github.com/Urucas/trello-desktop-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Urucas/trello-desktop-app.git"
+    },
     "bin": {
       "trello-desktop": "./bin/cli"
     },
@@ -85,7 +88,11 @@
       "desktop",
       "client"
     ],
+    "author": "Urucas <hello@urucas.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Urucas/trello-desktop-app/issues"
+    },
     "homepage": "https://github.com/Urucas/trello-desktop-app#readme",
     "dependencies": {
       "electron-prebuilt": "^0.30.3"
@@ -136,5 +143,6 @@
   },
   "filename": "Urucas___trello-desktop-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:13:12.586Z"
+  "lastFetchedAt": "2017-05-04T18:13:12.586Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:59.171Z"
 }

@@ -67,5 +67,47 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T15:29:56.726Z"
+  "lastFetchedAt": "2017-05-04T15:29:56.726Z",
+  "packageJSON": {
+    "name": "fire-report",
+    "version": "1.0.0",
+    "description": "",
+    "main": "source/window.js",
+    "scripts": {
+      "app": "electron .",
+      "build": "npm run compile && electron-packager . \"F.I.R.E. Report\" --platform=win32 --arch=x64 --ignore=\"^/\\.idea($|/)|\\.gitignore|README\\.md|webpack\\.config\\.js|.*jsx\" --out=builds --overwrite",
+      "compile": "webpack --define process.env.NODE_ENV='\"production\"'",
+      "watch": "webpack --progress --colors --watch --define process.env.NODE_ENV='\"development\"'"
+    },
+    "author": "",
+    "license": "ISC",
+    "repository": "",
+    "private": true,
+    "devDependencies": {
+      "antd": "^2.9.2",
+      "babel-core": "^6.24.1",
+      "babel-loader": "^7.0.0",
+      "babel-plugin-import": "^1.1.1",
+      "babel-plugin-transform-object-rest-spread": "^6.23.0",
+      "babel-preset-es2016-node5": "^1.1.2",
+      "babel-preset-react": "^6.24.1",
+      "css-loader": "^0.28.0",
+      "electron": "^1.6.5",
+      "electron-packager": "^8.6.0",
+      "immutable": "^3.8.1",
+      "less": "^2.7.2",
+      "less-loader": "^4.0.3",
+      "prop-types": "^15.5.8",
+      "react": "^15.5.4",
+      "react-dom": "^15.5.4",
+      "react-redux": "^5.0.4",
+      "react-transition-group": "^1.1.2",
+      "redux": "^3.6.0",
+      "style-loader": "^0.16.1",
+      "tinycolor2": "^1.4.1",
+      "webpack": "^2.4.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:07:14.853Z"
 }

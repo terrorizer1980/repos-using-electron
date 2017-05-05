@@ -69,6 +69,7 @@
     "name": "electron-agular-app",
     "version": "0.0.1",
     "description": "Prima applicazione desktop con Agular ed Electron",
+    "author": "AR",
     "license": "MIT",
     "devDependencies": {
       "Q": "0.0.1",
@@ -81,7 +82,10 @@
     "dependencies": {
       "electron": "^1.4.4"
     },
-    "repository": "https://github.com/Antonio90/Electron"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Antonio90/Electron.git"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -108,5 +112,6 @@
   },
   "filename": "Antonio90___Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:34:12.062Z"
+  "lastFetchedAt": "2017-05-04T19:34:12.062Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:40.233Z"
 }

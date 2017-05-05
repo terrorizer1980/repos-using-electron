@@ -62,7 +62,10 @@
       "start": "npm run build && electron ./dist/",
       "package": "npm run build && electron-packager . JalaliCalendar --icon=icon.icns --platform=darwin --arch=x64 --version=0.35.1 --out=./bin --prune"
     },
-    "repository": "https://github.com/mamal72/electron-jalali-calendar",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/mamal72/electron-jalali-calendar.git"
+    },
     "keywords": [
       "jalali",
       "date",
@@ -72,7 +75,11 @@
       "electron",
       "persian"
     ],
+    "author": "Mohamad Jahani <m4m4lj@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mamal72/electron-jalali-calendar/issues"
+    },
     "homepage": "https://github.com/mamal72/electron-jalali-calendar#readme",
     "dependencies": {
       "menubar": "^2.3.0",
@@ -146,5 +153,6 @@
   },
   "filename": "mamal72___electron-jalali-calendar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:25:45.620Z"
+  "lastFetchedAt": "2017-05-04T05:25:45.620Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:22.352Z"
 }

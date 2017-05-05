@@ -84,6 +84,10 @@
     "version": "0.0.0",
     "description": "Small description for bb8-app goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -93,6 +97,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -190,5 +195,6 @@
   },
   "filename": "RoboticsClubAtUNT___bb8-command.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:27:06.349Z"
+  "lastFetchedAt": "2017-05-04T14:27:06.349Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:17.098Z"
 }

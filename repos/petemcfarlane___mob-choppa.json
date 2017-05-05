@@ -79,11 +79,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/petemcfarlane/mob-choppa",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/petemcfarlane/mob-choppa.git"
+    },
     "keywords": [
       "Mob Programming",
       "timer"
     ],
+    "author": "Pete McFarlane & friends",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -114,5 +118,6 @@
   },
   "filename": "petemcfarlane___mob-choppa.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:37.348Z"
+  "lastFetchedAt": "2017-05-04T19:54:37.348Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:43.871Z"
 }

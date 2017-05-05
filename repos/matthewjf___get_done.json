@@ -67,5 +67,42 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:35:12.560Z"
+  "lastFetchedAt": "2017-05-04T20:35:12.560Z",
+  "packageJSON": {
+    "name": "do_list",
+    "version": "1.0.0",
+    "description": "get stuff done",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ./main.js",
+      "build": "webpack --watch",
+      "release": "NODE_ENV=production webpack && electron-packager . --overwrite --out release"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "babel-core": "^6.24.0",
+      "babel-loader": "^6.4.1",
+      "babel-preset-es2015": "^6.24.0",
+      "babel-preset-react": "^6.23.0",
+      "electron": "^1.6.2",
+      "keycode": "^2.1.8",
+      "keymaster": "^1.6.2",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "react-redux": "^5.0.3",
+      "redux": "^3.6.0"
+    },
+    "devDependencies": {
+      "css-loader": "^0.27.3",
+      "electron-packager": "^8.6.0",
+      "extract-text-webpack-plugin": "^2.1.0",
+      "node-sass": "^4.5.0",
+      "optimize-css-assets-webpack-plugin": "^1.3.0",
+      "sass-loader": "^6.0.3",
+      "webpack": "^2.2.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:38:30.654Z"
 }

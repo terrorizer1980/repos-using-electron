@@ -108,8 +108,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/LetSpotify/letspotify-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LetSpotify/letspotify-client.git"
+    },
+    "author": {
+      "name": "Daniel Chien",
+      "email": "tanchientw@outlook.com",
+      "url": "https://github.com/easydaniel"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/LetSpotify/issues"
+    },
     "keywords": [
       "LetSpotify",
       "together",
@@ -228,5 +239,6 @@
   },
   "filename": "LetSpotify___letspotify-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:28:27.723Z"
+  "lastFetchedAt": "2017-05-04T14:28:27.723Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:51.466Z"
 }

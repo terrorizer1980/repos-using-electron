@@ -76,6 +76,7 @@
       "build_osx": "electron-packager --overwrite --platform=darwin --arch=x64 --version=0.27.2 . B2R-Grader",
       "build_win32": "electron-packager --overwrite --platform=win32 --arch=ia32 --version=0.27.2 . B2R-Grader"
     },
+    "author": "John Lekberg <jclekberg@uchicago.edu>",
     "license": "MIT",
     "dependencies": {
       "underscore": "^1.8.3"
@@ -114,5 +115,6 @@
   },
   "filename": "kaunta___B2R-Grader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:23:10.760Z"
+  "lastFetchedAt": "2017-05-04T18:23:10.760Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:51.197Z"
 }

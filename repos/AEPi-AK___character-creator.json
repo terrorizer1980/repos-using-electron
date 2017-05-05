@@ -89,8 +89,15 @@
       "build": "./node_modules/webpack/bin/webpack.js",
       "watch": "./node_modules/webpack/bin/webpack.js -w --progress"
     },
-    "repository": "https://github.com/AEPi-AK/character-creator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AEPi-AK/character-creator.git"
+    },
+    "author": "Avi Romanoff <avi@romanoff.me>",
     "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/AEPi-AK/character-creator/issues"
+    },
     "homepage": "https://github.com/AEPi-AK/character-creator#readme",
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -147,5 +154,6 @@
   },
   "filename": "AEPi-AK___character-creator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:34.823Z"
+  "lastFetchedAt": "2017-05-04T05:23:34.823Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:26.776Z"
 }

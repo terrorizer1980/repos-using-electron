@@ -90,7 +90,11 @@
     "bin": {
       "clout": "bin/clout"
     },
-    "repository": "https://github.com/clout-stack/clout-cli",
+    "author": "Muhammad Dadu",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/clout-stack/clout-cli.git"
+    },
     "license": "ISC",
     "dependencies": {
       "archiver": "^0.21.0",
@@ -132,5 +136,6 @@
   },
   "filename": "clout-stack___clout-cli.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:43.832Z"
+  "lastFetchedAt": "2017-05-04T17:44:43.832Z",
+  "packageLastFetchedAt": "2017-05-04T22:02:45.119Z"
 }

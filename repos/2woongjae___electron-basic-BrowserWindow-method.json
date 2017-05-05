@@ -67,5 +67,22 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:59:26.173Z"
+  "lastFetchedAt": "2017-05-04T17:59:26.173Z",
+  "packageJSON": {
+    "name": "electron-basic-BrowserWindow-method",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.6.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:41:52.055Z"
 }

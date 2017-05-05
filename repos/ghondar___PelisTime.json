@@ -194,7 +194,10 @@
         "verbosity": 1
       }
     },
-    "repository": "https://github.com/ghondar/PelisTime",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ghondar/PelisTime.git"
+    },
     "keywords": [
       "react",
       "reactjs",
@@ -208,7 +211,11 @@
       "serie",
       "torrent"
     ],
+    "author": "Ghondar <abgv9221@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ghondar/PelisTime/issues"
+    },
     "homepage": "https://github.com/ghondar/PelisTime#readme"
   },
   "packageStatus": 200,
@@ -236,5 +243,6 @@
   },
   "filename": "ghondar___PelisTime.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:32.435Z"
+  "lastFetchedAt": "2017-05-04T14:24:32.435Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:55.069Z"
 }

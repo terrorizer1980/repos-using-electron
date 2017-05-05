@@ -76,8 +76,12 @@
     "version": "0.0.0",
     "description": "Personal radio player for netease cloudmusic",
     "main": "src/app.js",
+    "author": "Qiu Xiang <xiang.qiu@qq.com>",
     "license": "MIT",
-    "repository": "https://github.com/qiuxiang/personal-radio",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/qiuxiang/personal-radio.git"
+    },
     "scripts": {
       "start": "electron ."
     },
@@ -116,5 +120,6 @@
   },
   "filename": "qiuxiang___personal-radio.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:44.912Z"
+  "lastFetchedAt": "2017-05-04T19:58:44.912Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:38.057Z"
 }

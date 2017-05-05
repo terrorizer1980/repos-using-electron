@@ -78,7 +78,9 @@
     "main": "main.js",
     "scripts": {
       "build": "gulp",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "startp": "node player.js",
+      "starti": "electron ."
     },
     "repository": {
       "type": "git",
@@ -146,5 +148,6 @@
   },
   "filename": "TinyTanic___mooseca.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:09:40.430Z"
+  "lastFetchedAt": "2017-05-04T20:09:40.430Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:27.602Z"
 }

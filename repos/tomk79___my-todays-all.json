@@ -62,8 +62,15 @@
       "start": "electron .",
       "test": "mocha --ui tdd ./tests/"
     },
-    "repository": "https://github.com/tomk79/my-todays-all",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomk79/my-todays-all.git"
+    },
+    "author": "Tomoya Koyanagi <tomk79@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tomk79/my-todays-all/issues"
+    },
     "homepage": "https://github.com/tomk79/my-todays-all#readme",
     "dependencies": {
       "backlog-api": "^1.0.2",
@@ -141,5 +148,6 @@
   "svnUrl": "https://github.com/tomk79/my-todays-all",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:18:55.869Z"
+  "lastFetchedAt": "2017-05-04T20:18:55.869Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:15.942Z"
 }

@@ -53,12 +53,19 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/AntJanus/hRPG-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AntJanus/hRPG-electron.git"
+    },
     "keywords": [
       "electron",
       "habitica"
     ],
+    "author": "Antonin Januska <antjanus>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AntJanus/hRPG-electron/issues"
+    },
     "homepage": "https://github.com/AntJanus/hRPG-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.5"
@@ -109,5 +116,6 @@
   "svnUrl": "https://github.com/AntJanus/hRPG-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:25:23.153Z"
+  "lastFetchedAt": "2017-05-04T21:25:23.153Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:26.752Z"
 }

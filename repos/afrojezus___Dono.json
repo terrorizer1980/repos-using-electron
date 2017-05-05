@@ -75,20 +75,49 @@
     "name": "dono",
     "productName": "Dono",
     "description": "Media player and streamer",
+    "author": "afrojezus",
     "version": "0.1.0",
     "main": "main.js",
     "dependencies": {
       "configstore": "^2.1.0",
       "const": "^1.0.0",
+      "electron": "^1.6.2",
       "electron-cookies": "^1.1.0",
       "electron-debug": "^1.1.0",
-      "electron-prebuilt": "^1.4.5",
+      "electron-reload": "^1.0.3",
       "electron-require": "^0.3.0",
       "electron-titlebar": "0.0.3",
-      "electron-window-state": "^3.1.0"
+      "electron-window-state": "^3.1.0",
+      "handlebars": "^4.0.6",
+      "jquery": "^2.2.3",
+      "mdl-selectfield": "^1.0.4",
+      "moment": "^2.16.0",
+      "nani": "^1.2.0",
+      "node-libs-browser": "^0.5.2",
+      "swiper": "^3.4.0",
+      "watchify": "^3.7.0",
+      "webtorrent": "^0.98.0"
     },
     "devDependencies": {
-      "devtron": "^1.4.0"
+      "devtron": "^1.4.0",
+      "electron-builder": "^10.8.1",
+      "electron-packager": "^8.4.0",
+      "electron-prebuilt": "^1.4.5",
+      "standard": "^8.6.0"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron .",
+      "dev": "NODE_ENV='development' npm run start",
+      "dist": "build --win --x64"
+    },
+    "build": {
+      "appId": "com.afrojezus.dono",
+      "mac-category-type": "public.app-category.entertainment",
+      "dmg": {},
+      "win": {
+        "iconUrl": "./icon.png.ico"
+      }
     }
   },
   "packageStatus": 200,
@@ -116,5 +145,6 @@
   },
   "filename": "afrojezus___Dono.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:13.245Z"
+  "lastFetchedAt": "2017-05-04T18:26:13.245Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:57.128Z"
 }

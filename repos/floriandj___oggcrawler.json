@@ -79,6 +79,11 @@
     "license": "MIT",
     "repository": "floriandj/oggcrawler",
     "main": "main.js",
+    "author": {
+      "name": "Florian de Jong",
+      "email": "florian.de.jong@hotmail.com",
+      "url": "floriandj.nl"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -138,5 +143,6 @@
   },
   "filename": "floriandj___oggcrawler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:25.714Z"
+  "lastFetchedAt": "2017-05-04T20:11:25.714Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:43.417Z"
 }

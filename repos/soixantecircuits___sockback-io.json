@@ -71,6 +71,9 @@
     "description": "An app to record an playback socket.io messages",
     "license": "MIT",
     "repository": "gabrielstuff/sockback-io",
+    "author": {
+      "name": "gabrielstuff"
+    },
     "electronVersion": "0.37.8",
     "scripts": {
       "start": "export NODE_ENV='dev'; electron .",
@@ -169,5 +172,6 @@
   },
   "filename": "soixantecircuits___sockback-io.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:43:06.413Z"
+  "lastFetchedAt": "2017-05-04T16:43:06.413Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:20.106Z"
 }

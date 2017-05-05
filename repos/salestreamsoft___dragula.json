@@ -200,19 +200,14 @@
       "test-watch": "hihat test/*.js -p tap-dev-tool"
     },
     "repository": {
-      "user": "salestream-jacques",
-      "repo": "dragula",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/salestream-jacques/dragula/tarball/master",
-      "clone_url": "https://github.com/salestream-jacques/dragula",
-      "https_url": "https://github.com/salestream-jacques/dragula",
-      "travis_url": "https://travis-ci.org/salestream-jacques/dragula",
-      "zip_url": "https://github.com/salestream-jacques/dragula/archive/master.zip",
-      "api_url": "https://api.github.com/repos/salestream-jacques/dragula"
+      "type": "git",
+      "url": "https://github.com/salestream-jacques/dragula.git"
     },
+    "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bevacqua/dragula/issues"
+    },
     "homepage": "https://github.com/bevacqua/dragula",
     "dependencies": {
       "contra": "1.9.1",
@@ -282,5 +277,6 @@
   "svnUrl": "https://github.com/salestreamsoft/dragula",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:00:06.058Z"
+  "lastFetchedAt": "2017-05-04T05:00:06.058Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:49.973Z"
 }

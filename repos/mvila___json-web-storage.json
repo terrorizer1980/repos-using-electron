@@ -57,13 +57,17 @@
       "serialization",
       "serialize"
     ],
+    "author": "Manuel Vila <mvila@3base.com>",
     "license": "MIT",
     "reveal": true,
     "files": [
       "lib"
     ],
     "main": "lib/index.js",
-    "repository": "https://github.com/mvila/json-web-storage",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mvila/json-web-storage"
+    },
     "scripts": {
       "compile": "babel src --out-dir lib",
       "prepublish": "npm run compile",
@@ -133,5 +137,6 @@
   },
   "filename": "mvila___json-web-storage.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:30.861Z"
+  "lastFetchedAt": "2017-05-04T18:20:30.861Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:51.599Z"
 }

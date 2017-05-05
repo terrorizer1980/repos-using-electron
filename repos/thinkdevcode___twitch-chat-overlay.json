@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/thinkdevcode/twitch-chat-overlay",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thinkdevcode/twitch-chat-overlay"
+    },
     "keywords": [
       "twitch",
       "chat",
       "overlay",
       "thinkdevcode"
     ],
+    "author": "Eugene Alfonso <thinkdevcode@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/thinkdevcode/twitch-chat-overlay/issues"
+    },
     "homepage": "https://github.com/thinkdevcode/twitch-chat-overlay#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -120,5 +127,6 @@
   },
   "filename": "thinkdevcode___twitch-chat-overlay.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:52.060Z"
+  "lastFetchedAt": "2017-05-04T05:09:52.060Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:04.365Z"
 }

@@ -82,7 +82,17 @@
       "graph",
       "interactive"
     ],
-    "repository": "https://github.com/Hyzual/knots-electron",
+    "author": {
+      "name": "Joris MASSON",
+      "email": "hyzual@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Hyzual/knots-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Hyzual/knots-electron/issuers"
+    },
     "main": "main.js",
     "dependencies": {
       "d3": "^4.2.2",
@@ -126,5 +136,6 @@
   },
   "filename": "Hyzual___knots-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:41.486Z"
+  "lastFetchedAt": "2017-05-04T14:24:41.486Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:25.949Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Adam Fowler",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -120,5 +127,6 @@
   },
   "filename": "lilglower___shooter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T08:01:32.625Z"
+  "lastFetchedAt": "2017-05-04T08:01:32.625Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:18.379Z"
 }

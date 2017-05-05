@@ -74,6 +74,7 @@
       "start": "./node_modules/.bin/electron .",
       "build": "electron-packager ./ biTools --all --out=dist --overwrite --ignore=dist"
     },
+    "author": "Houdiini",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
     },
@@ -113,5 +114,6 @@
   },
   "filename": "houdiini___dip2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:40:59.130Z"
+  "lastFetchedAt": "2017-05-04T20:40:59.130Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:04.560Z"
 }

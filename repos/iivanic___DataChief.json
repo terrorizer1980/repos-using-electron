@@ -73,7 +73,13 @@
   "status": 200,
   "packageJSON": {
     "name": "DataChief",
-    "repository": "https://github.com/iivanic/datachief",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/iivanic/datachief.git"
+    },
+    "bugs": {
+      "url": "https://github.com/iivanic/datachief/issues"
+    },
     "version": "0.0.1",
     "description": "Data collection and EForms solution",
     "main": "src/main.js",
@@ -81,6 +87,7 @@
       "start": "electron src/main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Igor Ivanic",
     "license": "GPL-3.0",
     "dependencies": {
       "imap": "0.8.x"
@@ -114,5 +121,6 @@
   },
   "filename": "iivanic___DataChief.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:49.046Z"
+  "lastFetchedAt": "2017-05-04T15:28:49.046Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:23.927Z"
 }

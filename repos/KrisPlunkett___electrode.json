@@ -53,8 +53,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/KrisPlunkett/electrode",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/KrisPlunkett/electrode.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/KrisPlunkett/electrode/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.30.4",
       "grunt": "^0.4.5",
@@ -107,5 +114,6 @@
   },
   "filename": "KrisPlunkett___electrode.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:20.448Z"
+  "lastFetchedAt": "2017-05-04T17:55:20.448Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:00.652Z"
 }

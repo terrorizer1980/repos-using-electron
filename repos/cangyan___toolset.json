@@ -75,14 +75,21 @@
       "watch": "watchify app/* -t babelify -o public/js/bundle.js --debug --verbose",
       "package": "electron-packager ./ ToolsetApp --overwrite --app-version=1.0.0 --platform=linux --arch=x64 --out=../ToolsetApp --version=1.4.5"
     },
-    "repository": "https://github.com/cangyan/toolset",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cangyan/toolset.git"
+    },
     "keywords": [
       "electron",
       "react",
       "programmer",
       "tool"
     ],
+    "author": "Mingfeng Wang",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cangyan/toolset/issues"
+    },
     "homepage": "https://github.com/cangyan/toolset#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -129,5 +136,6 @@
   },
   "filename": "cangyan___toolset.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:18.682Z"
+  "lastFetchedAt": "2017-05-04T14:46:18.682Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:23.665Z"
 }

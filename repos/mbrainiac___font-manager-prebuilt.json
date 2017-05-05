@@ -73,23 +73,23 @@
   "status": 200,
   "packageJSON": {
     "name": "font-manager-prebuilt",
-    "version": "1.4.1",
+    "version": "1.4.14",
     "description": "Provides access to the system font catalog",
     "main": "node_modules/font-manager/build/Release/fontmanager.node",
     "dependencies": {},
     "devDependencies": {
-      "electron-builder": "4.2.6",
-      "electron-prebuilt": "1.4.1"
+      "electron-builder": "11.3.0",
+      "electron": "1.4.14"
     },
     "scripts": {
-      "postinstall": "install-app-deps",
-      "install-app-deps": "node ./node_modules/electron-builder/out/install-app-deps.js",
       "pack": "build",
       "dist": "build",
-      "release": "build"
+      "release": "build",
+      "postinstall": "install-app-deps",
+      "install-app-deps": "node ./node_modules/electron-builder/out/cli/install-app-deps.js"
     },
     "build": {
-      "app-bundle-id": "vn.evolus.font-manager-prebuilt",
+      "appId": "vn.evolus.font-manager-prebuilt",
       "app-category-type": "public.app-category.graphics-design",
       "iconUrl": "https://raw.githubusercontent.com/evolus/pencil/master/build/icon.ico",
       "productName": "fontmanager",
@@ -109,11 +109,14 @@
         "description": "Provides access to the system font catalog",
         "copyright": "Copyright © 2016 Nguyen Tien Dzung. All rights reserved."
       },
-      "download": {
+      "electronDownload": {
         "cache": ".electron-cache"
       }
     },
-    "repository": "https://github.com/mbrainiac/font-manager-prebuilt",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mbrainiac/font-manager-prebuilt.git"
+    },
     "keywords": [
       "font",
       "find",
@@ -125,7 +128,11 @@
       "evolus",
       "evoluspencil"
     ],
+    "author": "Nguyen Tien Dzung <ngtdungnt@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mbrainiac/font-manager-prebuilt/issues"
+    },
     "homepage": "https://github.com/mbrainiac/font-manager-prebuilt",
     "private": true
   },
@@ -154,5 +161,6 @@
   },
   "filename": "mbrainiac___font-manager-prebuilt.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:39.312Z"
+  "lastFetchedAt": "2017-05-04T17:37:39.312Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:01.208Z"
 }

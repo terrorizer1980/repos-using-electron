@@ -80,13 +80,20 @@
     "pre-commit": [
       "pre-commit-lint"
     ],
-    "repository": "https://github.com/skogsmaskin/electron-inbox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/skogsmaskin/electron-inbox.git"
+    },
     "keywords": [
       "Electron",
       "inbox",
       "application"
     ],
+    "author": "skogsmaskin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/skogsmaskin/electron-inbox/issues"
+    },
     "homepage": "https://github.com/skogsmaskin/electron-inbox",
     "devDependencies": {
       "babel-eslint": "^6.0.2",
@@ -128,5 +135,6 @@
   },
   "filename": "skogsmaskin___electron-inbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:39.111Z"
+  "lastFetchedAt": "2017-05-04T05:18:39.111Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:38.005Z"
 }

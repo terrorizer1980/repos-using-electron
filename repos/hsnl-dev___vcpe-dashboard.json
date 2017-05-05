@@ -94,6 +94,7 @@
       "build-x64": "electron-packager . dashboard --overwrite --out=dist --ignore='^/dist$' --prune --platform=win32 --arch=x64 --version=0.36.1",
       "build-ia32": "electron-packager . dashboard --overwrite --out=dist --ignore='^/dist$' --prune --platform=win32 --arch=ia32 --version=0.36.1"
     },
+    "author": "John-Lin <linton.tw@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "del": "^2.2.0",
@@ -135,5 +136,6 @@
   },
   "filename": "hsnl-dev___vcpe-dashboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:02:23.615Z"
+  "lastFetchedAt": "2017-05-04T18:02:23.615Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:49.233Z"
 }

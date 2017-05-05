@@ -57,7 +57,13 @@
     "version": "0.0.2",
     "description": "App to encourage to contribute to open source project on github",
     "main": "src/main.js",
-    "repository": "https://github.com/outsideris/involved",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/outsideris/involved.git"
+    },
+    "bugs": {
+      "url": "https://github.com/outsideris/involved/issues"
+    },
     "licenses": [
       {
         "type": "MIT",
@@ -146,5 +152,6 @@
   "svnUrl": "https://github.com/outsideris/involved",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T09:03:30.679Z"
+  "lastFetchedAt": "2017-05-04T09:03:30.679Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:47.686Z"
 }

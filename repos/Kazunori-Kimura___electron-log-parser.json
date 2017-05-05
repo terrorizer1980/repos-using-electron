@@ -61,6 +61,7 @@
       "build": "node build.js"
     },
     "keywords": [],
+    "author": "Kazunori Kimura <kazunori.kimura.js@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "co": "^4.6.0",
@@ -75,7 +76,13 @@
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "^0.37.6"
     },
-    "repository": "https://github.com/Kazunori-Kimura/electron-log-parser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kazunori-Kimura/electron-log-parser.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Kazunori-Kimura/electron-log-parser/issues"
+    },
     "homepage": "https://github.com/Kazunori-Kimura/electron-log-parser#readme"
   },
   "packageStatus": 200,
@@ -123,5 +130,6 @@
   "svnUrl": "https://github.com/Kazunori-Kimura/electron-log-parser",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:13:50.544Z"
+  "lastFetchedAt": "2017-05-04T05:13:50.544Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:12.513Z"
 }

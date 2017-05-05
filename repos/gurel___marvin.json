@@ -94,8 +94,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/gurel/marvin",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gurel/marvin"
+    },
+    "author": {
+      "name": "Gurel Erceis",
+      "email": "gurel.erceis@gmail.com",
+      "url": "https://github.com/gurel"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gurel/marvin/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -200,5 +211,6 @@
   },
   "filename": "gurel___marvin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:43.196Z"
+  "lastFetchedAt": "2017-05-04T17:59:43.196Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:15.710Z"
 }

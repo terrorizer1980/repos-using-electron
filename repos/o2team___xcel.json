@@ -81,7 +81,7 @@
   "status": 200,
   "packageJSON": {
     "name": "xcel",
-    "version": "1.2.1",
+    "version": "1.3.1",
     "description": "An ultimate excel data filter",
     "scripts": {
       "build": "node tasks/release.js",
@@ -95,7 +95,7 @@
       "vue:route": "node tasks/vue/route.js",
       "pack_ori:electron-packager": "cross-env NODE_ENV=production webpack -p --progress --colors",
       "pack": "build --dir",
-      "dist": "build -mwl"
+      "dist": "build -mwl --ia32 --x64"
     },
     "build": {
       "appId": "com.electron.xcel",
@@ -122,6 +122,7 @@
         "installerHeaderIcon": "build/installerHeaderIcon.ico"
       }
     },
+    "author": "AOTULabs <o2labs@qq.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -139,7 +140,6 @@
       "electron-builder": "^7.18.0",
       "electron-devtools-installer": "^1.1.4",
       "electron-packager": "^7.7.0",
-      "electron-prebuilt": "^1.4.9",
       "electron-rebuild": "^1.1.3",
       "extract-text-webpack-plugin": "^1.0.1",
       "file-loader": "^0.8.5",
@@ -186,5 +186,6 @@
   },
   "filename": "o2team___xcel.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:28.648Z"
+  "lastFetchedAt": "2017-05-04T19:30:28.648Z",
+  "packageLastFetchedAt": "2017-05-05T13:37:40.411Z"
 }

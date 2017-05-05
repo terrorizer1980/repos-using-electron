@@ -76,6 +76,10 @@
       "watch": "node ./node_modules/grunt/bin/grunt",
       "start": "./node_modules/.bin/electron ."
     },
+    "author": {
+      "name": "Jack Q",
+      "email": "qiaobo@outlook.com"
+    },
     "main": "main.js",
     "dependencies": {
       "@angular/common": "^2.4.1",
@@ -154,5 +158,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:22:47.364Z"
+  "lastFetchedAt": "2017-05-04T18:22:47.364Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:56.107Z"
 }

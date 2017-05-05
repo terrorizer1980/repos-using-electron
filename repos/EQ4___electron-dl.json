@@ -185,6 +185,11 @@
     "description": "Simplified file downloads for your Electron app",
     "license": "MIT",
     "repository": "sindresorhus/electron-dl",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
     "scripts": {
       "start": "electron test.js",
       "test": "xo"
@@ -258,5 +263,6 @@
   "svnUrl": "https://github.com/EQ4/electron-dl",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:17:56.187Z"
+  "lastFetchedAt": "2017-05-04T05:17:56.187Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:15.556Z"
 }

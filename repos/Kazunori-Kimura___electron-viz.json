@@ -62,6 +62,7 @@
       "build": "node build.js"
     },
     "keywords": [],
+    "author": "Kazunori Kimura <kazunori.kimura.js@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "@kazunori-kimura/electron-dialog-promise": "^0.2.0",
@@ -77,7 +78,13 @@
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^0.37.7"
     },
-    "repository": "https://github.com/Kazunori-Kimura/electron-viz",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kazunori-Kimura/electron-viz.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Kazunori-Kimura/electron-viz/issues"
+    },
     "homepage": "https://github.com/Kazunori-Kimura/electron-viz#readme"
   },
   "packageStatus": 200,
@@ -125,5 +132,6 @@
   "svnUrl": "https://github.com/Kazunori-Kimura/electron-viz",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:23:05.491Z"
+  "lastFetchedAt": "2017-05-04T20:23:05.491Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:09.905Z"
 }

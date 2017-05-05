@@ -87,24 +87,37 @@
   "status": 200,
   "packageJSON": {
     "name": "cloudrail-si",
-    "repository": "https://github.com/CloudRail/cloudrail-si-node-sdk",
+    "author": "CloudRail <info@cloudrail.com> (https://cloudrail.com)",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/CloudRail/cloudrail-si-node-sdk"
+    },
     "keywords": [
+      "AmazonS3",
       "Box",
+      "Backblaze",
       "Dropbox",
       "Egnyte",
       "Facebook",
+      "FacebookPage",
       "Foursquare",
       "GitHub",
+      "GoogleCloudPlatform",
       "GoogleDrive",
       "GooglePlaces",
       "GooglePlus",
+      "Heroku",
       "Instagram",
       "LinkedIn",
       "MailJet",
+      "MicrosoftAzure",
       "MicrosoftLive",
       "Nexmo",
       "OneDrive",
+      "OneDriveBusiness",
       "PayPal",
+      "ProductHunt",
+      "Rackspace",
       "SendGrid",
       "Slack",
       "Stripe",
@@ -113,12 +126,12 @@
       "Yahoo",
       "Yelp"
     ],
-    "description": "The CloudRail SI SDK for Node.JS, a simple, universal, unified API for the most popular cloud services. Supports: Box, Dropbox, Egnyte, Facebook, Foursquare, GitHub, GoogleDrive, GooglePlaces, GooglePlus, Instagram, LinkedIn, MailJet, MicrosoftLive, Nexmo, OneDrive, PayPal, SendGrid, Slack, Stripe, Twilio, Twitter, Yahoo, Yelp",
+    "description": "The CloudRail SI SDK for Node.JS, a simple, universal, unified API for the most popular cloud services. Supports: AmazonS3, Box, Backblaze, Dropbox, Egnyte, Facebook, FacebookPage, Foursquare, GitHub, GoogleCloudPlatform, GoogleDrive, GooglePlaces, GooglePlus, Heroku, Instagram, LinkedIn, MailJet, MicrosoftAzure, MicrosoftLive, Nexmo, OneDrive, OneDriveBusiness, PayPal, ProductHunt, Rackspace, SendGrid, Slack, Stripe, Twilio, Twitter, Yahoo, Yelp",
     "engines": {
       "node": ">=4.0.0"
     },
     "engineStrict": true,
-    "version": "2.10.0",
+    "version": "2.17.3",
     "main": "index.js",
     "typings": "index.d.ts",
     "dependencies": {
@@ -152,5 +165,6 @@
   },
   "filename": "CloudRail___cloudrail-si-node-sdk.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:02.034Z"
+  "lastFetchedAt": "2017-05-04T20:07:02.034Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:22.753Z"
 }

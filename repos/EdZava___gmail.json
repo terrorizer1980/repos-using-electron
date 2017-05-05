@@ -180,24 +180,19 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "paulot",
-      "repo": "gmail",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/paulot/gmail/tarball/master",
-      "clone_url": "https://github.com/paulot/gmail",
-      "https_url": "https://github.com/paulot/gmail",
-      "travis_url": "https://travis-ci.org/paulot/gmail",
-      "zip_url": "https://github.com/paulot/gmail/archive/master.zip",
-      "api_url": "https://api.github.com/repos/paulot/gmail"
+      "type": "git",
+      "url": "git+https://github.com/paulot/gmail.git"
     },
     "keywords": [
       "gmail",
       "mail",
       "app"
     ],
+    "author": "Paulo Tanaka",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/paulot/gmail/issues"
+    },
     "homepage": "https://github.com/paulot/gmail#readme",
     "dependencies": {
       "bluebird": "^3.0.5",
@@ -257,5 +252,6 @@
   "filename": "EdZava___gmail.json",
   "sourceRepo": "paulot/gmail",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:13.211Z"
+  "lastFetchedAt": "2017-05-04T20:01:13.211Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:51.973Z"
 }

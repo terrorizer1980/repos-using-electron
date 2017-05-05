@@ -171,6 +171,11 @@
     "description": "render ShaderToy demos to PNG",
     "main": "index.js",
     "license": "MIT",
+    "author": {
+      "name": "Matt DesLauriers",
+      "email": "dave.des@gmail.com",
+      "url": "https://github.com/mattdesl"
+    },
     "dependencies": {
       "a-big-triangle": "^1.0.2",
       "canvas-loop": "^1.0.6",
@@ -214,19 +219,13 @@
       "fragment"
     ],
     "repository": {
-      "user": "mattdesl",
-      "repo": "shadertoy-export",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mattdesl/shadertoy-export/tarball/master",
-      "clone_url": "https://github.com/mattdesl/shadertoy-export",
-      "https_url": "https://github.com/mattdesl/shadertoy-export",
-      "travis_url": "https://travis-ci.org/mattdesl/shadertoy-export",
-      "zip_url": "https://github.com/mattdesl/shadertoy-export/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mattdesl/shadertoy-export"
+      "type": "git",
+      "url": "git://github.com/mattdesl/shadertoy-export.git"
     },
     "homepage": "https://github.com/mattdesl/shadertoy-export",
+    "bugs": {
+      "url": "https://github.com/mattdesl/shadertoy-export/issues"
+    },
     "bin": {
       "shadertoy-export": "./bin/index.js"
     }
@@ -277,5 +276,6 @@
   "svnUrl": "https://github.com/mcanthony/shadertoy-export",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:28:49.401Z"
+  "lastFetchedAt": "2017-05-04T20:28:49.401Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:11.019Z"
 }

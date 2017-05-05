@@ -78,6 +78,11 @@
     "description": "My brilliant app",
     "license": "MIT",
     "repository": "juliosueiras/slate-checker",
+    "author": {
+      "name": "Julio Tain Sueiras",
+      "email": "juliosueiras@gmail.com",
+      "url": "juliosueiras.github.io"
+    },
     "scripts": {
       "postinstall": "install-app-deps",
       "pack": "build --dir",
@@ -149,5 +154,6 @@
   },
   "filename": "juliosueiras___slate_checker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:27.262Z"
+  "lastFetchedAt": "2017-05-04T05:19:27.262Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:22.021Z"
 }

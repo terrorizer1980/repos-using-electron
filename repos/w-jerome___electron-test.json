@@ -80,7 +80,11 @@
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
       "start": "electron ."
     },
-    "repository": "https://github.com/w-jerome/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/w-jerome/electron-test.git"
+    },
+    "author": "w-jerome",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -122,5 +126,6 @@
   },
   "filename": "w-jerome___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:08:30.692Z"
+  "lastFetchedAt": "2017-05-04T21:08:30.692Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:50.328Z"
 }

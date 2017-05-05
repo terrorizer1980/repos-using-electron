@@ -88,14 +88,21 @@
     "scripts": {
       "start": "electron dist/main.js"
     },
-    "repository": "https://github.com/marcelrodrigo/mobify-previewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marcelrodrigo/mobify-previewer.git"
+    },
     "keywords": [
       "Mobify",
       "electron",
       "es5",
       "react"
     ],
+    "author": "marcelrodrigo",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/marcelrodrigo/mobify-previewer/issues"
+    },
     "homepage": "https://github.com/marcelrodrigo/mobify-previewer#readme"
   },
   "packageStatus": 200,
@@ -123,5 +130,6 @@
   },
   "filename": "marcelrodrigo___mobify-previewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:51.847Z"
+  "lastFetchedAt": "2017-05-04T20:54:51.847Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:56.580Z"
 }

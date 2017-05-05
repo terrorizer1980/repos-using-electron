@@ -178,17 +178,8 @@
       "test": "snyk test"
     },
     "repository": {
-      "user": "MichMich",
-      "repo": "MagicMirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/MichMich/MagicMirror/tarball/master",
-      "clone_url": "https://github.com/MichMich/MagicMirror",
-      "https_url": "https://github.com/MichMich/MagicMirror",
-      "travis_url": "https://travis-ci.org/MichMich/MagicMirror",
-      "zip_url": "https://github.com/MichMich/MagicMirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/MichMich/MagicMirror"
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
     },
     "keywords": [
       "magic mirror",
@@ -196,8 +187,12 @@
       "mirror UI",
       "modular"
     ],
+    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -268,5 +263,6 @@
   "svnUrl": "https://github.com/niklaswolf/MagicMirror",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:25:16.262Z"
+  "lastFetchedAt": "2017-05-04T15:25:16.262Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:41.932Z"
 }

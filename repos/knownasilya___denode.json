@@ -176,17 +176,8 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "steelbrain",
-      "repo": "denode",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/steelbrain/denode/tarball/master",
-      "clone_url": "https://github.com/steelbrain/denode",
-      "https_url": "https://github.com/steelbrain/denode",
-      "travis_url": "https://travis-ci.org/steelbrain/denode",
-      "zip_url": "https://github.com/steelbrain/denode/archive/master.zip",
-      "api_url": "https://api.github.com/repos/steelbrain/denode"
+      "type": "git",
+      "url": "git+https://github.com/steelbrain/denode.git"
     },
     "keywords": [
       "electron",
@@ -194,7 +185,11 @@
       "debug",
       "profile"
     ],
+    "author": "steelbrain",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/steelbrain/denode/issues"
+    },
     "homepage": "https://github.com/steelbrain/denode#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.6"
@@ -246,5 +241,6 @@
   "filename": "knownasilya___denode.json",
   "sourceRepo": "steelbrain/denode",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:21.913Z"
+  "lastFetchedAt": "2017-05-04T05:35:21.913Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:19.456Z"
 }

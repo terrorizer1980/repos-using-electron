@@ -59,13 +59,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/kek91/administratorsfriend",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kek91/administratorsfriend"
+    },
     "keywords": [
       "Electron",
       "Computer",
       "Dell"
     ],
+    "author": "Kim Eirik Kvassheim",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kek91/administratorsfriend/issues"
+    },
     "homepage": "https://github.com/kek91/administratorsfriend",
     "devDependencies": {
       "electron-prebuilt": "^0.37.6"
@@ -116,5 +123,6 @@
   "svnUrl": "https://github.com/kek91/administratorsfriend",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T19:59:12.345Z"
+  "lastFetchedAt": "2017-05-03T19:59:12.345Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:26.675Z"
 }

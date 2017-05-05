@@ -71,7 +71,14 @@
     "version": "0.2.1",
     "description": "a motley assortment of text processing tools to twiddle and manipulate batches of text from/to various formats",
     "license": "AGPLv3",
-    "repository": "https://github.com/TransparencyToolkit/Twiddler",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TransparencyToolkit/Twiddler"
+    },
+    "author": "Brennan Novak <hi@bnvk.me>",
+    "bugs": {
+      "url": "https://github.com/TransparencyToolkit/Twiddler/issues"
+    },
     "scripts": {
       "test": "mocha test",
       "start": "electron .",
@@ -182,5 +189,6 @@
   "svnUrl": "https://github.com/TransparencyToolkit/Twiddler",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:24:08.745Z"
+  "lastFetchedAt": "2017-05-04T20:24:08.745Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:16.596Z"
 }

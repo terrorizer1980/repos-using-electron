@@ -89,8 +89,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/dforth/electron-example",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dforth/electron-example"
+    },
+    "author": {
+      "name": "Don Forth",
+      "email": "dforth@codehappy.com",
+      "url": "https://github.com/dforth"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dforth/electron-example/issues"
+    },
     "keywords": [
       "electron",
       "example",
@@ -196,5 +207,6 @@
   },
   "filename": "dforth___electron-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:40:41.523Z"
+  "lastFetchedAt": "2017-05-04T16:40:41.523Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:23.545Z"
 }

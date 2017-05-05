@@ -221,19 +221,14 @@
       }
     },
     "repository": {
-      "user": "bevacqua",
-      "repo": "dragula",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bevacqua/dragula/tarball/master",
-      "clone_url": "https://github.com/bevacqua/dragula",
-      "https_url": "https://github.com/bevacqua/dragula",
-      "travis_url": "https://travis-ci.org/bevacqua/dragula",
-      "zip_url": "https://github.com/bevacqua/dragula/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bevacqua/dragula"
+      "type": "git",
+      "url": "https://github.com/bevacqua/dragula.git"
     },
+    "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bevacqua/dragula/issues"
+    },
     "homepage": "https://github.com/bevacqua/dragula",
     "dependencies": {
       "contra": "1.9.1",
@@ -304,5 +299,6 @@
   "svnUrl": "https://github.com/hwl-js/dragula",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:59:07.068Z"
+  "lastFetchedAt": "2017-05-04T20:59:07.068Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:31.592Z"
 }

@@ -67,5 +67,22 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:23:29.141Z"
+  "lastFetchedAt": "2017-05-04T14:23:29.141Z",
+  "packageJSON": {
+    "name": "electron-named-pipe-connect-issue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "author": "",
+    "license": "Public Domain",
+    "devDependencies": {
+      "electron": "1.6.3"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:12:05.705Z"
 }

@@ -74,11 +74,18 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/dragon8897/texas_client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dragon8897/texas_client.git"
+    },
     "keywords": [
       "texas"
     ],
+    "author": "paili",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dragon8897/texas_client/issues"
+    },
     "homepage": "https://github.com/dragon8897/texas_client#readme",
     "dependencies": {
       "collections": "^5.0.6",
@@ -111,5 +118,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:05.477Z"
+  "lastFetchedAt": "2017-05-04T05:13:05.477Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:45.349Z"
 }

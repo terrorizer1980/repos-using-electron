@@ -171,6 +171,7 @@
       "prestart": "elm-make src/Client.elm --output app/client.js && elm-make src/Server.elm --output app/server.js && echo \"module.exports=Elm;\" >> app/server.js",
       "start": "electron app"
     },
+    "author": "astynax",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -222,5 +223,6 @@
   "svnUrl": "https://github.com/silky/elmectron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:25:45.102Z"
+  "lastFetchedAt": "2017-05-04T15:25:45.102Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:53.492Z"
 }

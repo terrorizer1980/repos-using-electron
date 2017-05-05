@@ -87,8 +87,15 @@
     "dependencies": {
       "nconf": "^0.7.2"
     },
-    "repository": "https://github.com/jeasonstudio/zhuanlan_APP",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jeasonstudio/zhuanlan_APP.git"
+    },
+    "author": "Jeason",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jeasonstudio/zhuanlan_APP/issues"
+    },
     "homepage": "https://github.com/jeasonstudio/zhuanlan_APP#readme"
   },
   "packageStatus": 200,
@@ -116,5 +123,6 @@
   },
   "filename": "jeasonstudio___zhuanlan_APP.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:25.274Z"
+  "lastFetchedAt": "2017-05-04T15:19:25.274Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:10.722Z"
 }

@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "resource-backup-tool",
-    "version": "1.0.6",
+    "version": "1.1.0",
     "description": "A tool to backup my teaching resources",
     "main": "main.js",
     "productName": "Resource Backup Tool",
@@ -81,17 +81,25 @@
       "test": "npm run build-tests && NODE_ENV=test mocha --recursive test/tests_src/**/*.tests.js",
       "compile": "npm run build && electron-packager . Resource-Backup-Tool --all --overwrite --out ./compiled",
       "compile-linux": "npm run build && electron-packager . Resource-Backup-Tool --platform=linux --arch=x64 --overwrite --out ./compiled",
+      "compile-win32": "npm run build && electron-packager . Resource-Backup-Tool --platform=win32 --arch=ia32 --overwrite --out ./compiled",
       "precommit": "npm run lint",
       "lint": "tslint src/**.ts?"
     },
-    "repository": "https://github.com/tes/resource-backup-tool",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:tes/resource-backup-tool.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "TES Global",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tes/resource-backup-tool/issues"
+    },
     "homepage": "https://github.com/tes/resource-backup-tool",
     "devDependencies": {
       "body-parser": "^1.15.2",
@@ -175,5 +183,6 @@
   },
   "filename": "tes___resource-backup-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:48.562Z"
+  "lastFetchedAt": "2017-05-04T20:00:48.562Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:59.616Z"
 }

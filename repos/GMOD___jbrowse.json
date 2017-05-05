@@ -90,13 +90,13 @@
     "main": "browser/main.js",
     "repository": "https://github.com/GMOD/jbrowse.git",
     "devDependencies": {
-      "electron-prebuilt": "^1.1.0"
+      "electron": "^1.6.2"
     },
     "scripts": {
       "start": "electron browser/main.js"
     },
     "dependencies": {
-      "electron-screenshot": "^1.0.2"
+      "electron-screenshot": "^1.0.4"
     }
   },
   "packageStatus": 200,
@@ -124,5 +124,6 @@
   },
   "filename": "GMOD___jbrowse.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:57.074Z"
+  "lastFetchedAt": "2017-05-04T16:46:57.074Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:22.646Z"
 }

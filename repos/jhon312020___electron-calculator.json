@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "author": "GitHub",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     }
@@ -103,5 +107,6 @@
   },
   "filename": "jhon312020___electron-calculator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:27.473Z"
+  "lastFetchedAt": "2017-05-04T04:56:27.473Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:51.259Z"
 }

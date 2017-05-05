@@ -82,18 +82,10 @@
       "pack": "./node_modules/.bin/electron-packager . --overwrite"
     },
     "repository": {
-      "user": "sohwendy",
-      "repo": "electron-koa-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/sohwendy/electron-koa-app/tarball/master",
-      "clone_url": "https://github.com/sohwendy/electron-koa-app",
-      "https_url": "https://github.com/sohwendy/electron-koa-app",
-      "travis_url": "https://travis-ci.org/sohwendy/electron-koa-app",
-      "zip_url": "https://github.com/sohwendy/electron-koa-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/sohwendy/electron-koa-app"
+      "type": "git",
+      "url": "git+https://github.com/sohwendy/electron-koa-app.git"
     },
+    "author": "GitHub",
     "license": "MIT",
     "homepage": "https://github.com/sohwendy/electron-koa-app/#readme",
     "devDependencies": {
@@ -129,5 +121,6 @@
   "filename": "sohwendy___electron-koa-app.json",
   "sourceRepo": "gverni/electronExpress",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:32:43.566Z"
+  "lastFetchedAt": "2017-05-04T17:32:43.566Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:06.349Z"
 }

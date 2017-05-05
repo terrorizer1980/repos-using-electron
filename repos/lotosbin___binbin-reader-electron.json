@@ -61,8 +61,15 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/lotosbin/binbin-reader-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lotosbin/binbin-reader-electron.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lotosbin/binbin-reader-electron/issues"
+    },
     "homepage": "https://github.com/lotosbin/binbin-reader-electron#readme",
     "build": {
       "appId": "binbin.reader.electron",
@@ -123,5 +130,6 @@
   "svnUrl": "https://github.com/lotosbin/binbin-reader-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:56:13.985Z"
+  "lastFetchedAt": "2017-05-04T14:56:13.985Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:09.183Z"
 }

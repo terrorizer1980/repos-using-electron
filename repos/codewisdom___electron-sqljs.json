@@ -58,6 +58,11 @@
     "description": "Demonstrates use of sql.js with electron",
     "license": "MIT",
     "repository": "y/y",
+    "author": {
+      "name": "Sam",
+      "email": "samuel.l.sellars@gmail.com",
+      "url": "https://bytes.st"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -137,5 +142,6 @@
   },
   "filename": "codewisdom___electron-sqljs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:15.170Z"
+  "lastFetchedAt": "2017-05-04T05:26:15.170Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:17.700Z"
 }

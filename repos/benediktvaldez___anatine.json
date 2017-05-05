@@ -172,6 +172,11 @@
     "description": "Pristine Twitter app",
     "license": "MIT",
     "repository": "sindresorhus/anatine",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -244,5 +249,6 @@
   "filename": "benediktvaldez___anatine.json",
   "sourceRepo": "sindresorhus/anatine",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:17:43.324Z"
+  "lastFetchedAt": "2017-05-04T05:17:43.324Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:57.743Z"
 }

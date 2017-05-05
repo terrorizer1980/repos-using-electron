@@ -190,19 +190,14 @@
       "package": "$(npm bin)/gulp package"
     },
     "repository": {
-      "user": "hirokidaichi",
-      "repo": "guiflow",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/hirokidaichi/guiflow/tarball/master",
-      "clone_url": "https://github.com/hirokidaichi/guiflow",
-      "https_url": "https://github.com/hirokidaichi/guiflow",
-      "travis_url": "https://travis-ci.org/hirokidaichi/guiflow",
-      "zip_url": "https://github.com/hirokidaichi/guiflow/archive/master.zip",
-      "api_url": "https://api.github.com/repos/hirokidaichi/guiflow"
+      "type": "git",
+      "url": "https://github.com/hirokidaichi/guiflow.git"
     },
+    "author": "hirokidaichi",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hirokidaichi/guiflow/issues"
+    },
     "homepage": "https://github.com/hirokidaichi/guiflow",
     "dependencies": {
       "dialogs": "^1.1.12",
@@ -266,5 +261,6 @@
   "filename": "archives-of-k4zzk___guiflow.json",
   "sourceRepo": "hirokidaichi/guiflow",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:30:56.788Z"
+  "lastFetchedAt": "2017-05-04T18:30:56.788Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:19.913Z"
 }

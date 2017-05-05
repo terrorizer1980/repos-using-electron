@@ -54,9 +54,20 @@
       "Electron",
       "OCaml"
     ],
+    "author": {
+      "name": "Darin Morrison",
+      "email": "freebroccolo@users.noreply.github.com",
+      "url": "https://github.com/freebroccolo/"
+    },
     "license": "ISC",
     "homepage": "https://github.com/freebroccolo/bucklescript-electron#readme",
-    "repository": "https://github.com/freebroccolo/bucklescript-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/freebroccolo/bucklescript-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/freebroccolo/bucklescript-electron/issues"
+    },
     "scripts": {
       "build": "npm run internal:build",
       "build:opt": "NODE_ENV=production npm run internal:build",
@@ -76,6 +87,9 @@
       "test": "npm run internal:build"
     },
     "main": "index.js",
+    "directories": {
+      "example": "./example"
+    },
     "babel": {
       "plugins": [
         "transform-bucklescript"
@@ -144,5 +158,6 @@
   "svnUrl": "https://github.com/freebroccolo/bucklescript-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:47:48.594Z"
+  "lastFetchedAt": "2017-05-04T20:47:48.594Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:49.792Z"
 }

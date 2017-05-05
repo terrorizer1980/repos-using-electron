@@ -112,19 +112,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "UniSiegenCSCW",
-      "repo": "remotino",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/UniSiegenCSCW/remotino/tarball/master",
-      "clone_url": "https://github.com/UniSiegenCSCW/remotino",
-      "https_url": "https://github.com/UniSiegenCSCW/remotino",
-      "travis_url": "https://travis-ci.org/UniSiegenCSCW/remotino",
-      "zip_url": "https://github.com/UniSiegenCSCW/remotino/archive/master.zip",
-      "api_url": "https://api.github.com/repos/UniSiegenCSCW/remotino"
+      "type": "git",
+      "url": "git+https://github.com/UniSiegenCSCW/remotino"
+    },
+    "author": {
+      "name": "Julian Dax",
+      "email": "julian.dax@uni-siegen.dei",
+      "url": "https://github.com/UniSiegenCSCW/remotino"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/UniSiegenCSCW/remotino/issues"
+    },
     "keywords": [
       "electron",
       "arduino",
@@ -250,5 +249,6 @@
   "filename": "UniSiegenCSCW___remotino.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:08.923Z"
+  "lastFetchedAt": "2017-05-04T15:16:08.923Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:53.912Z"
 }

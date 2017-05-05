@@ -91,8 +91,15 @@
     "version": "1.0.0",
     "description": "A Minecraft launcher designed to be compatible with Mojang's own while still providing fantastic modpack support.",
     "main": "launcher.js",
-    "repository": "https://github.com/LexLauncher/Launcher",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LexLauncher/Launcher.git"
+    },
+    "author": "Jamie Mansfield",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/LexLauncher/Launcher/issues"
+    },
     "homepage": "https://github.com/LexLauncher/Launcher",
     "devDependencies": {
       "electron": "^1.4.1",
@@ -134,5 +141,6 @@
   },
   "filename": "LexLauncher___Launcher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:42.008Z"
+  "lastFetchedAt": "2017-05-04T16:46:42.008Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:55.772Z"
 }

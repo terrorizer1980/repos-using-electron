@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for gitaar-frontend-ember goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -182,5 +187,6 @@
   },
   "filename": "montoias___gitaar-electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:05.727Z"
+  "lastFetchedAt": "2017-05-04T20:05:05.727Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:57.990Z"
 }

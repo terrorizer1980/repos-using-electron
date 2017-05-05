@@ -70,7 +70,10 @@
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^1.0.1"
     },
-    "repository": "https://github.com/mohamedhayibor/hubway-alerts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mohamedhayibor/hubway-alerts.git"
+    },
     "keywords": [
       "alerts",
       "bikes",
@@ -78,7 +81,11 @@
       "bike-sharing",
       "systems"
     ],
+    "author": "Mohamed Hayibor (github.com/mohamedhayibor)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mohamedhayibor/hubway-alerts/issues"
+    },
     "homepage": "https://github.com/mohamedhayibor/hubway-alerts#readme",
     "dependencies": {
       "configstore": "^2.0.0"
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/mohamedhayibor/hubway-alerts",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:56:40.326Z"
+  "lastFetchedAt": "2017-05-04T20:56:40.326Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:52.876Z"
 }

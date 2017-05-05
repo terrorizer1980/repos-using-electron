@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Small description for denote goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -138,5 +143,6 @@
   "svnUrl": "https://github.com/eguitarz/denote",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:14:53.406Z"
+  "lastFetchedAt": "2017-05-04T21:14:53.406Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:03.103Z"
 }

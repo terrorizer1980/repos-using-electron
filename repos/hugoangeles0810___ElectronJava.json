@@ -81,22 +81,14 @@
       "build": "electron-packager . --all --overwrite"
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
       "Java"
     ],
+    "author": "Hugo Angeles",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.0.3",
@@ -129,5 +121,6 @@
   "filename": "hugoangeles0810___ElectronJava.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:01:42.512Z"
+  "lastFetchedAt": "2017-05-04T06:01:42.512Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:20.101Z"
 }

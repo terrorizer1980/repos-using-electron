@@ -104,6 +104,7 @@
     "devDependencies": {
       "babel-cli": "^6.18.0",
       "babel-core": "^6.21.0",
+      "babel-plugin-transform-async-to-generator": "^6.16.0",
       "babelify": "^7.3.0",
       "browserify": "^13.1.1",
       "eslint": "^3.9.1",
@@ -128,6 +129,7 @@
       "serial",
       "arduino"
     ],
+    "author": "qcabrol",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -154,5 +156,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:30.697Z"
+  "lastFetchedAt": "2017-05-04T18:08:30.697Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:25.945Z"
 }

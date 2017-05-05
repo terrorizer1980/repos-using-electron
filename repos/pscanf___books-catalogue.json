@@ -83,8 +83,14 @@
       "package": "NODE_ENV=\"prod\" gulp package",
       "test": "gulp test"
     },
-    "repository": "https://github.com/pscanf/catalogo-libri",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pscanf/catalogo-libri.git"
+    },
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/pscanf/catalogo-libri/issues"
+    },
     "homepage": "https://github.com/pscanf/catalogo-libri#readme",
     "devDependencies": {
       "asar": "^0.8.2",
@@ -183,5 +189,6 @@
   },
   "filename": "pscanf___books-catalogue.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:22.715Z"
+  "lastFetchedAt": "2017-05-04T20:54:22.715Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:10.297Z"
 }

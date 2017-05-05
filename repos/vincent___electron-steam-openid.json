@@ -77,6 +77,10 @@
     "description": "An OpenID module to authenticate to Steam for your Electron app.",
     "license": "MIT",
     "repository": "vincent/electron-steam-openid",
+    "author": {
+      "name": "Vincent Lark",
+      "email": "vincent.lark@gmail.com"
+    },
     "files": [
       "index.js"
     ],
@@ -148,5 +152,6 @@
   },
   "filename": "vincent___electron-steam-openid.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:07.730Z"
+  "lastFetchedAt": "2017-05-04T17:34:07.730Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:19.706Z"
 }

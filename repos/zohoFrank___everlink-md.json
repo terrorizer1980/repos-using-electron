@@ -98,19 +98,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "chentsulin",
-      "repo": "electron-react-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate/tarball/master",
-      "clone_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "https_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "travis_url": "https://travis-ci.org/chentsulin/electron-react-boilerplate",
-      "zip_url": "https://github.com/chentsulin/electron-react-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "zohoFrank",
+      "email": "zoho10@outlook.com",
+      "url": "https://zohofrank.github.io/"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zohoFrank/everlink-md/issues"
+    },
     "keywords": [
       "markdown",
       "evernote",
@@ -225,5 +224,6 @@
   "filename": "zohoFrank___everlink-md.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:21:03.931Z"
+  "lastFetchedAt": "2017-05-04T18:21:03.931Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:19.870Z"
 }

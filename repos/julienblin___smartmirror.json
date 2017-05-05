@@ -78,8 +78,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/julienblin/smartmirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/julienblin/smartmirror.git"
+    },
+    "author": "Julien Blin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/julienblin/smartmirror/issues"
+    },
     "homepage": "https://github.com/julienblin/smartmirror#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7",
@@ -111,5 +118,6 @@
   },
   "filename": "julienblin___smartmirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:33.278Z"
+  "lastFetchedAt": "2017-05-04T18:17:33.278Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:26.484Z"
 }

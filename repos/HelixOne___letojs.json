@@ -96,11 +96,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/HelixOne/letojs",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/HelixOne/letojs.git"
+    },
     "keywords": [
       "leto"
     ],
+    "author": {
+      "name": "Zubair Lawrence",
+      "email": "leto@helix.one"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/HelixOne/letojs/issues"
+    },
     "homepage": "https://github.com/HelixOne/letojs#readme",
     "dependencies": {
       "commander": "^2.9.0",
@@ -132,5 +142,6 @@
   },
   "filename": "HelixOne___letojs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:41.292Z"
+  "lastFetchedAt": "2017-05-04T21:05:41.292Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:53.186Z"
 }

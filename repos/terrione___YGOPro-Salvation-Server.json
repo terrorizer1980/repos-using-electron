@@ -78,17 +78,8 @@
       "irc"
     ],
     "repository": {
-      "user": "salvationdevelopment",
-      "repo": "YGOPro-Salvation-Server",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/salvationdevelopment/YGOPro-Salvation-Server/tarball/master",
-      "clone_url": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server",
-      "https_url": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server",
-      "travis_url": "https://travis-ci.org/salvationdevelopment/YGOPro-Salvation-Server",
-      "zip_url": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server/archive/master.zip",
-      "api_url": "https://api.github.com/repos/salvationdevelopment/YGOPro-Salvation-Server"
+      "type": "git",
+      "url": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server.git"
     },
     "dependencies": {
       "colors": "*",
@@ -123,6 +114,8 @@
       "istanbul": "*",
       "mocha": "*"
     },
+    "bugs": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server/issues",
+    "author": "panthrowzay@gmail.com",
     "homepage": "http://ygopro.us",
     "license": "LicenseRef-LICENSE",
     "scripts": {
@@ -156,5 +149,6 @@
   "filename": "terrione___YGOPro-Salvation-Server.json",
   "sourceRepo": "SalvationDevelopment/YGOPro-Salvation-Server",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:47.879Z"
+  "lastFetchedAt": "2017-05-04T20:39:47.879Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:34.286Z"
 }

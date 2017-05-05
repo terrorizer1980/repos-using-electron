@@ -83,6 +83,7 @@
       "watch": "watchify src/index.js -t babelify -o public/js/bundle.js --debug --verbose",
       "package": "electron-packager ./ Showify --all --out ~/Desktop/Showify"
     },
+    "author": "nicolasthy",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -136,5 +137,6 @@
   "filename": "nicolasthy___showify-electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:24.159Z"
+  "lastFetchedAt": "2017-05-04T05:32:24.159Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:23.294Z"
 }

@@ -87,10 +87,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "PVBlue",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^1.2.8"
@@ -128,5 +132,6 @@
   },
   "filename": "SHU-PV-Blue___PvDesignOptimizeSystem-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:37.390Z"
+  "lastFetchedAt": "2017-05-04T17:48:37.390Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:36.180Z"
 }

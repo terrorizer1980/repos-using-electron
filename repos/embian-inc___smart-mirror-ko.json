@@ -89,14 +89,21 @@
       "start": "electron main.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "install": "^0.6.1",
@@ -131,5 +138,6 @@
   },
   "filename": "embian-inc___smart-mirror-ko.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:30.108Z"
+  "lastFetchedAt": "2017-05-04T17:36:30.108Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:31.580Z"
 }

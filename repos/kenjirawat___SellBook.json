@@ -74,7 +74,11 @@
       "test": "node_modules/.bin/mocha test",
       "start": "node index.js"
     },
-    "repository": "https://github.com/segmentio/nightmare",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "kenjirawat",
     "keywords": [
       "nightmare",
       "electron"
@@ -134,5 +138,6 @@
   },
   "filename": "kenjirawat___SellBook.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:53:14.195Z"
+  "lastFetchedAt": "2017-05-04T17:53:14.195Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:11.052Z"
 }

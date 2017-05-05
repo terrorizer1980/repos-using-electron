@@ -57,10 +57,18 @@
     "bin": {
       "dps": "./cli.js"
     },
-    "repository": "https://github.com/karissa/dps",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/karissa/dps.git"
+    },
+    "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/karissa/dps/issues"
+    },
     "homepage": "https://github.com/karissa/dps",
     "dependencies": {
+      "ansi-diff-stream": "^1.2.0",
       "cli-prompt": "^0.4.2",
       "dat-ping": "^1.1.0",
       "debug": "^2.2.0",
@@ -70,10 +78,12 @@
       "format-data": "^2.1.2",
       "got": "^4.1.1",
       "minimist": "^1.2.0",
+      "mkdirp": "^0.5.1",
       "npm-execspawn": "^1.2.1",
       "page": "^1.6.3",
       "pretty-bytes": "^2.0.1",
       "progress": "^1.1.8",
+      "progress-string": "^1.2.1",
       "pump": "^1.0.0",
       "ractive-toolkit": "^1.0.1",
       "relative-date": "^1.1.2",
@@ -134,5 +144,6 @@
   "svnUrl": "https://github.com/karissa/dps",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:25:27.811Z"
+  "lastFetchedAt": "2017-05-04T14:25:27.811Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:12.071Z"
 }

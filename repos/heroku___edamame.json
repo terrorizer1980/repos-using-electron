@@ -81,6 +81,10 @@
       "ember-export-application-global": "^1.0.2",
       "foreman": "^1.3.0"
     },
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "main": "main.js",
     "private": true,
     "repository": "https://github.com/usecanvas/ember-electron.git",
@@ -140,5 +144,6 @@
   "sourceRepo": "usecanvas/ember-electron",
   "filename": "heroku___edamame.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:24.533Z"
+  "lastFetchedAt": "2017-05-04T04:56:24.533Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:58.795Z"
 }

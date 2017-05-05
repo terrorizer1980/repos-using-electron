@@ -75,12 +75,16 @@
       "start": "electron .",
       "buildosx": "electron-packager . --out=dist --overwrite --platform=darwin --arch=x64 --icon=src/img/outliner-display-icon.icns"
     },
-    "repository": "https://github.com/setpixel/script-visualizer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/setpixel/script-visualizer.git"
+    },
     "keywords": [
       "fountain",
       "screenplay",
       "visualizer"
     ],
+    "author": "Charles Forman",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^1.4.5"
@@ -131,5 +135,6 @@
     "receivedEventsUrl": "https://api.github.com/users/wonderunit/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T19:52:49.472Z"
+  "lastFetchedAt": "2017-05-04T19:52:49.472Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:12.045Z"
 }

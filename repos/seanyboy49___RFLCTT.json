@@ -200,15 +200,22 @@
       "snyk-protect": "snyk protect",
       "prepublish": "npm run snyk-protect"
     },
-    "repository": "https://github.com/MichMich/MagicMirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
+    },
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
+    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -259,5 +266,6 @@
   },
   "sourceRepo": "ChesterHub/RFLCTT",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:24.354Z"
+  "lastFetchedAt": "2017-05-04T05:19:24.354Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:58.045Z"
 }

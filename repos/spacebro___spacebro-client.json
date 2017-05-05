@@ -87,19 +87,26 @@
   "status": 200,
   "packageJSON": {
     "name": "spacebro-client",
-    "version": "0.2.1",
-    "description": "Allow to automagically 🌟 connect to a Spacebro server",
+    "version": "0.3.0",
+    "description": "🌟 Connect easily to a Spacebro server",
     "main": "dist/spacebro-client.js",
     "scripts": {
-      "test": "gulp",
+      "test": "ava",
       "lint": "gulp lint",
       "rebuild": "./node_modules/.bin/electron-rebuild",
       "build": "gulp build",
       "coverage": "gulp coverage"
     },
-    "repository": "https://github.com/spacebro/spacebro-client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/spacebro/spacebro-client.git"
+    },
     "keywords": [],
+    "author": "Soixante circuits",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/spacebro/spacebro-client/issues"
+    },
     "homepage": "https://github.com/spacebro/spacebro-client",
     "dependencies": {
       "babel-runtime": "^6.11.6",
@@ -110,6 +117,7 @@
       "socketio-wildcard": "^0.3.0"
     },
     "devDependencies": {
+      "ava": "^0.19.1",
       "babel-cli": "^6.14.0",
       "babel-core": "6.14.0",
       "babel-loader": "6.2.5",
@@ -119,9 +127,9 @@
       "babel-preset-latest": "6.14.0",
       "babel-register": "6.14.0",
       "chai": "3.5.0",
+      "del": "2.2.2",
       "electron": "^1.4.8",
       "electron-rebuild": "^1.4.0",
-      "del": "2.2.2",
       "glob": "7.0.6",
       "gulp": "3.9.1",
       "gulp-eslint": "3.0.1",
@@ -146,6 +154,11 @@
     "babelBoilerplateOptions": {
       "entryFileName": "spacebro-client.js",
       "mainVarName": "spacebroClient"
+    },
+    "ava": {
+      "files": [
+        "test/*.js"
+      ]
     }
   },
   "packageStatus": 200,
@@ -173,5 +186,6 @@
   },
   "filename": "spacebro___spacebro-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:04.965Z"
+  "lastFetchedAt": "2017-05-04T05:00:04.965Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:21.235Z"
 }

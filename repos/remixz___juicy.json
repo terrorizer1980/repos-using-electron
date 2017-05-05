@@ -81,8 +81,15 @@
       "start": "webpack && electron .",
       "dev": "NODE_ENV=development webpack-dev-server & NODE_ENV=development electron ."
     },
-    "repository": "https://github.com/remixz/juicy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/remixz/juicy.git"
+    },
+    "author": "Zach Bruggeman <mail@bruggie.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/remixz/juicy/issues"
+    },
     "homepage": "https://github.com/remixz/juicy#readme",
     "dependencies": {},
     "devDependencies": {
@@ -140,5 +147,6 @@
   },
   "filename": "remixz___juicy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:34.477Z"
+  "lastFetchedAt": "2017-05-04T21:11:34.477Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:01.809Z"
 }

@@ -73,8 +73,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/luandro/ledjam-radio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/luandro/ledjam-radio.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "luandro@gmail.com",
+      "url": "https://github.com/luandro"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/luandro/ledjam-radio/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -177,5 +188,6 @@
   "svnUrl": "https://github.com/luandro/ledjam-radio",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:44:38.599Z"
+  "lastFetchedAt": "2017-05-04T20:44:38.599Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:36.471Z"
 }

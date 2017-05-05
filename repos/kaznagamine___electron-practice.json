@@ -60,9 +60,16 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/kaznagamine/electron-practice",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kaznagamine/electron-practice.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kaznagamine/electron-practice/issues"
+    },
     "homepage": "https://github.com/kaznagamine/electron-practice#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5"
@@ -113,5 +120,6 @@
   },
   "filename": "kaznagamine___electron-practice.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:41:53.185Z"
+  "lastFetchedAt": "2017-05-04T20:41:53.185Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:20.236Z"
 }

@@ -61,6 +61,7 @@
     "scripts": {
       "start": "export NODE_ENV=development && export ELECTRON_ENABLE_LOGGING=true && electron ."
     },
+    "author": "Adam Drago <atdrago+electron-icon@gmail.com>",
     "dependencies": {
       "electron-window": "^0.8.0",
       "icon-gen": "^1.0.4",
@@ -121,5 +122,6 @@
   },
   "filename": "atdrago___electron-icon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:33.614Z"
+  "lastFetchedAt": "2017-05-04T21:28:33.614Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:55.170Z"
 }

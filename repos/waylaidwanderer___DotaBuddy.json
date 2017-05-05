@@ -76,10 +76,11 @@
       "appId": "net.jzhang.dotabuddy",
       "app-category-type": "gaming",
       "asar": false,
-      "compression": "store",
+      "compression": "maximum",
       "win": {
         "target": [
-          "nsis"
+          "nsis",
+          "zip"
         ],
         "icon": "resources/windows/icon.ico"
       },
@@ -154,5 +155,6 @@
   },
   "filename": "waylaidwanderer___DotaBuddy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:05.400Z"
+  "lastFetchedAt": "2017-05-04T18:34:05.400Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:36.377Z"
 }

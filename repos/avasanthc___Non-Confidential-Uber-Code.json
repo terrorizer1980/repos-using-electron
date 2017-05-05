@@ -84,17 +84,8 @@
       "react mapbox"
     ],
     "repository": {
-      "user": "uber",
-      "repo": "react-map-gl",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/uber/react-map-gl/tarball/master",
-      "clone_url": "https://github.com/uber/react-map-gl",
-      "https_url": "https://github.com/uber/react-map-gl",
-      "travis_url": "https://travis-ci.org/uber/react-map-gl",
-      "zip_url": "https://github.com/uber/react-map-gl/archive/master.zip",
-      "api_url": "https://api.github.com/repos/uber/react-map-gl"
+      "type": "git",
+      "url": "https://github.com/uber/react-map-gl.git"
     },
     "license": "MIT",
     "dependencies": {
@@ -188,5 +179,6 @@
   "filename": "avasanthc___Non-Confidential-Uber-Code.json",
   "sourceRepo": "uber/react-map-gl",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:48.626Z"
+  "lastFetchedAt": "2017-05-04T18:18:48.626Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:27.431Z"
 }

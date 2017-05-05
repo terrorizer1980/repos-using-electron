@@ -82,8 +82,15 @@
       "test": "karma start",
       "lint": "tslint -c tslint.json "
     },
-    "repository": "https://github.com/sue71/react-typescript-example",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sue71/react-typescript-example.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sue71/react-typescript-example/issues"
+    },
     "homepage": "https://github.com/sue71/react-typescript-example#readme",
     "dependencies": {
       "electron-debug": "^0.5.2",
@@ -149,5 +156,6 @@
   },
   "filename": "sue71___electron-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:33.132Z"
+  "lastFetchedAt": "2017-05-04T19:52:33.132Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:25.010Z"
 }

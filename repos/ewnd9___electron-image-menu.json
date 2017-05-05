@@ -81,6 +81,7 @@
       "eslint": "^1.10.3",
       "husky": "^0.11.3"
     },
+    "author": "ewnd9 <ewndnine@gmail.com>",
     "keywords": [
       "electron",
       "images",
@@ -90,7 +91,10 @@
       "index.js"
     ],
     "license": "MIT",
-    "repository": "https://github.com/ewnd9/electron-image-menu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ewnd9/electron-image-menu.git"
+    },
     "scripts": {
       "lint": "eslint src/*",
       "prepush": "npm run lint && npm test"
@@ -121,5 +125,6 @@
   },
   "filename": "ewnd9___electron-image-menu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:24.637Z"
+  "lastFetchedAt": "2017-05-04T05:35:24.637Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:19.792Z"
 }

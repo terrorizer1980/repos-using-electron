@@ -174,17 +174,11 @@
       "nvim-md-example": "./example/minimal/cli.js"
     },
     "repository": {
-      "user": "rhysd",
-      "repo": "neovim-component",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rhysd/neovim-component/tarball/master",
-      "clone_url": "https://github.com/rhysd/neovim-component",
-      "https_url": "https://github.com/rhysd/neovim-component",
-      "travis_url": "https://travis-ci.org/rhysd/neovim-component",
-      "zip_url": "https://github.com/rhysd/neovim-component/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rhysd/neovim-component"
+      "type": "git",
+      "url": "https://github.com/rhysd/neovim-component.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rhysd/neovim-component/issues"
     },
     "scripts": {
       "all": "npm run dep && npm run build && npm run example",
@@ -204,6 +198,7 @@
       "NW.js",
       "editor"
     ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
     "dependencies": {
       "flux": "^2.1.1",
@@ -271,5 +266,6 @@
   "svnUrl": "https://github.com/romgrk/neovim-component",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:29:46.017Z"
+  "lastFetchedAt": "2017-05-04T15:29:46.017Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:11.351Z"
 }

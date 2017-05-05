@@ -81,7 +81,11 @@
       "postinstall": "",
       "package": "electron-packager ./app --platform=win32 --arch=ia32 --prune --out=./dist --version=1.0.2 --overwrite --icon=./build/icon.ico --ignore=node_modules/babel --ignore=node_modules/gulp --ignore=node_modules/node-sass"
     },
+    "author": "Led",
     "license": "",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -137,5 +141,6 @@
   },
   "filename": "styoe___lacus-one.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:31:31.331Z"
+  "lastFetchedAt": "2017-05-04T15:31:31.331Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:07.999Z"
 }

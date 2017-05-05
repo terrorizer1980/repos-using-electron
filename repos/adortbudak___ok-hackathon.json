@@ -76,8 +76,15 @@
       "lite": "lite-server",
       "start": "\"npm run lite-server\" "
     },
-    "repository": "https://github.com/adortbudak/ok-hackathon",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/adortbudak/ok-hackathon.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/adortbudak/ok-hackathon/issues"
+    },
     "homepage": "https://github.com/adortbudak/ok-hackathon#readme",
     "devDependencies": {
       "angular2": "^2.0.0-beta.17",
@@ -126,5 +133,6 @@
   },
   "filename": "adortbudak___ok-hackathon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:33.721Z"
+  "lastFetchedAt": "2017-05-04T14:52:33.721Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:48.281Z"
 }

@@ -78,6 +78,11 @@
     "description": "The MoonlightUI desktop application boilerplate",
     "license": "MIT",
     "repository": "",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": ""
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -137,5 +142,6 @@
   },
   "filename": "richardedens___moonlightui-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:52.188Z"
+  "lastFetchedAt": "2017-05-04T05:10:52.188Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:23.636Z"
 }

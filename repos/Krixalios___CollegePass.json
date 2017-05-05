@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "start_dev": "./node_modules/.bin/.electron main.js"
     },
+    "author": "Uros Spasojevic",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^7.0.3",
@@ -112,5 +113,6 @@
   },
   "filename": "Krixalios___CollegePass.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:32:58.548Z"
+  "lastFetchedAt": "2017-05-04T19:32:58.548Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:14.685Z"
 }

@@ -54,7 +54,7 @@
   "packageJSON": {
     "name": "PupaFM",
     "productName": "PupaFM",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "douban.fm Music Desktop Player",
     "main": "./src/main.dev.js",
     "scripts": {
@@ -109,7 +109,13 @@
         ]
       }
     },
-    "repository": "https://github.com/xwartz/PupaFM",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:xwartz/PupaFM.git"
+    },
+    "bugs": {
+      "url": "https://github.com/xwartz/PupaFM/issues"
+    },
     "keywords": [
       "douabn",
       "douabn.fm",
@@ -123,6 +129,7 @@
       "electron",
       "desktop"
     ],
+    "author": "xwartz <stddup@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -220,5 +227,6 @@
   },
   "filename": "xwartz___PupaFM.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:58.670Z"
+  "lastFetchedAt": "2017-05-04T14:24:58.670Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:21.883Z"
 }

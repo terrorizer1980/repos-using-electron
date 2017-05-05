@@ -74,17 +74,8 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -92,7 +83,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -132,5 +127,6 @@
   "filename": "Legendsrifle___HomeStream.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:59:01.393Z"
+  "lastFetchedAt": "2017-05-03T19:59:01.393Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:22.876Z"
 }

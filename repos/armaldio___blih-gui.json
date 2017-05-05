@@ -172,24 +172,19 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "IniterWorker",
-      "repo": "blih-gui",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/IniterWorker/blih-gui/tarball/master",
-      "clone_url": "https://github.com/IniterWorker/blih-gui",
-      "https_url": "https://github.com/IniterWorker/blih-gui",
-      "travis_url": "https://travis-ci.org/IniterWorker/blih-gui",
-      "zip_url": "https://github.com/IniterWorker/blih-gui/archive/master.zip",
-      "api_url": "https://api.github.com/repos/IniterWorker/blih-gui"
+      "type": "git",
+      "url": "git+https://github.com/IniterWorker/blih-gui.git"
     },
     "keywords": [
       "blih",
       "gui",
       "epitech"
     ],
+    "author": "Walter Bonetti",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IniterWorker/blih-gui/issues"
+    },
     "homepage": "https://github.com/IniterWorker/blih-gui#readme",
     "dependencies": {
       "gulp-minify-css": "^1.2.4",
@@ -249,5 +244,6 @@
   "svnUrl": "https://github.com/armaldio/blih-gui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:13:13.633Z"
+  "lastFetchedAt": "2017-05-04T18:13:13.633Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:15.285Z"
 }

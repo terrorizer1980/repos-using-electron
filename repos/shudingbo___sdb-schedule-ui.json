@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/shudingbo/sdb-schedule-ui",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/shudingbo/sdb-schedule-ui"
+    },
     "keywords": [
       "Electron",
       "sdb-schedule",
       "schedule"
     ],
+    "author": "shudingbo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/shudingbo/sdb-schedule-ui/issues",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -124,5 +131,6 @@
   },
   "filename": "shudingbo___sdb-schedule-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:46.902Z"
+  "lastFetchedAt": "2017-05-04T05:16:46.902Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:51.633Z"
 }

@@ -83,6 +83,7 @@
       "zip-darwin": "cd packages/v0.0.1 && zip -r cutecom-clone-darwin-x64.zip cutecom-clone-darwin-x64",
       "zip-win32": "cd packages/v0.0.1 && zip -r cutecom-clone-win32-ia32.zip cutecom-clone-win32-ia32 && zip -r cutecom-clone-win32-x64.zip cutecom-clone-win32-x64"
     },
+    "author": "samurai20000 <samurai20000@gmail.com>(https://github.com/samurai20000)",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.0.2",
@@ -118,5 +119,6 @@
   },
   "filename": "yosmoc___cutecom-clone.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:22.744Z"
+  "lastFetchedAt": "2017-05-04T05:15:22.744Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:52.242Z"
 }

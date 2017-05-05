@@ -173,17 +173,8 @@
     "description": "An image flasher with support for Windows, OS X and GNU/Linux.",
     "homepage": "https://github.com/resin-io/etcher",
     "repository": {
-      "user": "resin-io",
-      "repo": "etcher",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/resin-io/etcher/tarball/master",
-      "clone_url": "https://github.com/resin-io/etcher",
-      "https_url": "https://github.com/resin-io/etcher",
-      "travis_url": "https://travis-ci.org/resin-io/etcher",
-      "zip_url": "https://github.com/resin-io/etcher/archive/master.zip",
-      "api_url": "https://api.github.com/repos/resin-io/etcher"
+      "type": "git",
+      "url": "git@github.com:resin-io/etcher.git"
     },
     "scripts": {
       "test:main": "electron-mocha --recursive tests/src -R progress",
@@ -191,6 +182,7 @@
       "test": "npm run-script test:main && npm run-script test:browser",
       "start": "electron lib/etcher.js"
     },
+    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "Apache-2.0",
     "copyright": "Copyright 2016 Resinio Ltd",
     "packageIgnore": [
@@ -311,5 +303,6 @@
   "filename": "rodoviario___etcher.json",
   "sourceRepo": "resin-io/etcher",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:40.497Z"
+  "lastFetchedAt": "2017-05-04T05:27:40.497Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:42.109Z"
 }

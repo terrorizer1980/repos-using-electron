@@ -83,10 +83,14 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/HoratiuMl/DuolingoDesktopClient",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HoratiuMl/DuolingoDesktopClient.git"
+    },
     "keywords": [
       "Duolingo"
     ],
+    "author": "Horatiu Mlendea <Mlendea.Horatiu@GMail.com>",
     "authorName": "Horatiu Mlendea",
     "linux": {
       "genericName": "Duolingo",
@@ -94,6 +98,9 @@
       "keywords": "Duolingo;Language;Duo;"
     },
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/electron/HoratiuMl/DuolingoDesktopClient"
+    },
     "homepage": "https://github.com/electron/HoratiuMl/DuolingoDesktopClient#readme",
     "devDependencies": {
       "electron": "^1.3.4"
@@ -124,5 +131,6 @@
   },
   "filename": "HoratiuMl___DuolingoDesktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:05.421Z"
+  "lastFetchedAt": "2017-05-04T20:01:05.421Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:03.034Z"
 }

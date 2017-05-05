@@ -80,7 +80,11 @@
       "build_linux": "electron-packager . Desktopr --platform=linux --arch=x64 --version=0.36.0 --icon=Icon.icns",
       "start": "electron ."
     },
-    "repository": "https://github.com/FernandoDoming/desktopr",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/FernandoDoming/desktopr.git"
+    },
+    "author": "Fernando Domínguez",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -128,5 +132,6 @@
   "svnUrl": "https://github.com/FernandoDoming/desktopr",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:37:55.756Z"
+  "lastFetchedAt": "2017-05-04T19:37:55.756Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:08.948Z"
 }

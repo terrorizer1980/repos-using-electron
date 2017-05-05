@@ -190,9 +190,16 @@
     "name": "admin-mongo",
     "version": "0.0.20",
     "description": "A Web user interface to administer MongoDB databases built using Express",
+    "author": "Mark Moffat <mrvautin@gmail.com>",
     "private": false,
-    "repository": "https://github.com/mrvautin/adminmongo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mrvautin/adminmongo"
+    },
     "main": "electron.js",
+    "bugs": {
+      "url": "https://github.com/mrvautin/adminmongo/issues"
+    },
     "scripts": {
       "start": "node app.js",
       "postinstall": "node ./lib/npm_postinstall.js",
@@ -294,5 +301,6 @@
   },
   "sourceRepo": "mrvautin/adminMongo",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:09:00.414Z"
+  "lastFetchedAt": "2017-05-04T20:09:00.414Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:55.436Z"
 }

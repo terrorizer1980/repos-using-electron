@@ -74,8 +74,15 @@
       "build": "browserify app/index.jsx -t [babelify --sourceMap] -d | exorcist bundle.js.map > bundle.js",
       "start": "electron index.js"
     },
-    "repository": "https://github.com/tadashiy1012/resumaker-gui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tadashiy1012/resumaker-gui.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tadashiy1012/resumaker-gui/issues"
+    },
     "homepage": "https://github.com/tadashiy1012/resumaker-gui#readme",
     "dependencies": {
       "electron-packager": "^7.4.0",
@@ -125,5 +132,6 @@
   },
   "filename": "tadashiy1012___resumaker-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:16:09.520Z"
+  "lastFetchedAt": "2017-05-04T20:16:09.520Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:20.407Z"
 }

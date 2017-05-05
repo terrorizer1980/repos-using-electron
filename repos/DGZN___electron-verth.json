@@ -96,8 +96,18 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/DGZN/electron-verth",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DGZN/electron-verth.git"
+    },
+    "author": {
+      "name": "DGZN",
+      "email": "digizn@gmail.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DGZN/electron-verth/issues"
+    },
     "keywords": [],
     "homepage": "https://github.com/DGZN/electron-verth#readme",
     "devDependencies": {
@@ -208,5 +218,6 @@
   },
   "filename": "DGZN___electron-verth.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:48.977Z"
+  "lastFetchedAt": "2017-05-04T17:41:48.977Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:59.359Z"
 }

@@ -73,11 +73,14 @@
       "start": "electron ."
     },
     "devDependencies": {
+      "babel-register": "^6.18.0",
       "electron-prebuilt": "^1.3.5",
       "key-emit": "0.0.4"
     },
     "dependencies": {
-      "jquery": "^3.1.0"
+      "babel-register": "^6.18.0",
+      "jquery": "^3.1.0",
+      "mouse-event": "^1.0.5"
     }
   },
   "packageStatus": 200,
@@ -105,5 +108,6 @@
   },
   "filename": "kdrewgonzales___mollys-adventure.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:12.766Z"
+  "lastFetchedAt": "2017-05-04T20:18:12.766Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:36.783Z"
 }

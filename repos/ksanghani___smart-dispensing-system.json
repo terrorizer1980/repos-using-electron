@@ -82,7 +82,11 @@
       "clean:all": "npm run clean && rm -rf node_modules gulp-electron-cache",
       "lint": "./node_modules/.bin/eslint ."
     },
-    "repository": "https://github.com/store/smart-dispensing-system",
+    "repository": {
+      "type": "git",
+      "url": "git@git.with.me:store/smart-dispensing-system.git"
+    },
+    "author": "Mario Tacke <tacke.mario@gmail.com>",
     "license": "ISC",
     "dependencies": {
       "babel-core": "^6.11.4",
@@ -148,5 +152,6 @@
   },
   "filename": "ksanghani___smart-dispensing-system.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:17:22.045Z"
+  "lastFetchedAt": "2017-05-04T15:17:22.045Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:42.098Z"
 }

@@ -91,6 +91,7 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer-stylus": "^0.11.0",
@@ -163,5 +164,6 @@
   },
   "filename": "zgl2007dj___electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:49.082Z"
+  "lastFetchedAt": "2017-05-03T20:04:49.082Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:20.712Z"
 }

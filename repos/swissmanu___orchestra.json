@@ -56,18 +56,22 @@
     "productName": "Orchestra",
     "description": "Control Harmony Hubs from your computer.",
     "main": "./dist/electron.js",
+    "author": "Manuel Alabor <manuel@alabor.me>",
     "license": "MIT",
-    "repository": "https://github.com/swissmanu/orchestra",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/swissmanu/orchestra.git"
+    },
+    "bugs": {
+      "url": "https://github.com/swissmanu/orchestra/issues"
+    },
     "scripts": {
       "start": "electron src/electron",
       "test": "standard",
       "dev": "NODE_ENV=development electron src/electron & webpack-dev-server --hot --inline --content-base src/client/",
-      "clean": "rm -fr dist release",
-      "dist": "NODE_ENV=production webpack && cp ./src/client/index.html ./dist/client.html",
-      "pack": "npm run pack:darwin",
-      "pack:darwin": "NODE_ENV=production node scripts/package.js --platform=darwin",
-      "build": "npm run build:darwin",
-      "build:darwin": "npm run pack:darwin && electron-builder \"release/darwin-x64/Orchestra-darwin-x64/Orchestra.app\" --platform=osx --out=\"release/darwin-x64\" --config=electron-builder.json",
+      "clean": "rm -fr tmp dist",
+      "prepare": "NODE_ENV=production webpack && cp ./src/client/index.html ./tmp/client.html && cp ./build/package.json ./tmp",
+      "build": "build --mac --x64 --publish never",
       "semantic-release-prepare": "semantic-release pre",
       "semantic-release-publish": "semantic-release post"
     },
@@ -78,7 +82,7 @@
       "electron-ipc-responder": "^1.0.0",
       "history": "^1.17.0",
       "node-uuid": "^1.4.7",
-      "orchestra-jsapi": "^1.2.0",
+      "orchestra-jsapi": "^1.3.0",
       "react": "^0.14.3",
       "react-dom": "^0.14.3",
       "react-redux": "^4.0.6",
@@ -95,10 +99,10 @@
       "copy-loader": "^0.1.3",
       "css-loader": "^0.23.1",
       "cz-conventional-changelog": "^1.1.5",
-      "electron-builder": "^2.6.0",
+      "electron-builder": "^8.6.0",
       "electron-debug": "^0.5.1",
-      "electron-packager": "^5.2.0",
-      "electron-prebuilt": "^0.36.2",
+      "electron-packager": "^8.3.0",
+      "electron-prebuilt": "^1.4.8",
       "extract-text-webpack-plugin": "^0.9.1",
       "file-loader": "^0.8.5",
       "minimist": "^1.2.0",
@@ -127,6 +131,12 @@
     },
     "release": {
       "getLastRelease": "./node_modules/@semantic-release/last-release-git-tag/dist/index.js"
+    },
+    "build": {
+      "appId": "me.alabor.orchestra"
+    },
+    "directories": {
+      "app": "tmp/"
     }
   },
   "packageStatus": 200,
@@ -174,5 +184,6 @@
   },
   "filename": "swissmanu___orchestra.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:25.976Z"
+  "lastFetchedAt": "2017-05-03T20:06:25.976Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:44.501Z"
 }

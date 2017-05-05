@@ -69,7 +69,10 @@
     "name": "mynote",
     "productName": "mynote.com",
     "version": "0.1.0",
-    "repository": "https://github.com/xidianwlc/mynote",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xidianwlc/mynote/"
+    },
     "private": true,
     "description": "Desktop version of mynote.com",
     "main": "build/desktop.js",
@@ -147,5 +150,6 @@
   },
   "filename": "xidianwlc___mynote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:20.267Z"
+  "lastFetchedAt": "2017-05-04T20:15:20.267Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:23.186Z"
 }

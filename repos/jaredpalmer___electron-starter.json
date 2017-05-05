@@ -75,14 +75,21 @@
       "hot": "webpack-dev-server",
       "preview": "electron main.js"
     },
-    "repository": "https://github.com/jaredpalmer/electron-starter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jaredpalmer/electron-starter.git"
+    },
     "keywords": [
       "Electron",
       "React",
       "Webpack"
     ],
+    "author": "Jared Palmer",
     "twitter": "@jaredpalmer",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jaredpalmer/electron-starter/issues"
+    },
     "homepage": "https://github.com/jaredpalmer/electron-starter",
     "devDependencies": {
       "babel-core": "^6.13.2",
@@ -130,5 +137,6 @@
   },
   "filename": "jaredpalmer___electron-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:10.064Z"
+  "lastFetchedAt": "2017-05-04T05:18:10.064Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:55.934Z"
 }

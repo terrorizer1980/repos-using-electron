@@ -191,6 +191,10 @@
     "description": "Web app that runs in the renderer process",
     "repository": "zeit/hyperterm",
     "license": "MIT",
+    "author": {
+      "name": "Zeit, Inc.",
+      "email": "team@zeit.co"
+    },
     "greenkeeper": {
       "emails": false
     },
@@ -329,5 +333,6 @@
   "filename": "rye___hyperterm.json",
   "sourceRepo": "zeit/hyperterm",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:29.604Z"
+  "lastFetchedAt": "2017-05-04T20:44:29.604Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:27.800Z"
 }

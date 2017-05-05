@@ -173,8 +173,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/raggesilver/WYSIWYG",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/raggesilver/WYSIWYG.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/raggesilver/WYSIWYG/issues"
+    },
     "homepage": "https://github.com/raggesilver/WYSIWYG#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.25.1",
@@ -229,5 +236,6 @@
   },
   "filename": "SimonLight001___WYSIWYG.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:37.258Z"
+  "lastFetchedAt": "2017-05-04T21:30:37.258Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:10.192Z"
 }

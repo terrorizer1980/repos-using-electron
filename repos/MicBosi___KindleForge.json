@@ -73,13 +73,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/MicBosi/Miscellaneous/tree/master/kindle-forge",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MicBosi/Miscellaneous/tree/master/kindle-forge"
+    },
     "keywords": [
       "Electron",
       "Kindle",
       "ebook",
       "publishing"
     ],
+    "author": "MicBosi",
     "license": "GPL-3.0",
     "homepage": "https://github.com/MicBosi/Miscellaneous/blob/master/kindle-forge/README.md",
     "devDependencies": {
@@ -118,5 +122,6 @@
   },
   "filename": "MicBosi___KindleForge.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:58.645Z"
+  "lastFetchedAt": "2017-05-04T17:49:58.645Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:50.335Z"
 }

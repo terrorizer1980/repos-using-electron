@@ -192,19 +192,11 @@
       "test": "standard && electron test/app",
       "travis": "standard"
     },
+    "author": "Jens Lind <jens@jensl.se> (jenslind.org)",
     "license": "MIT",
     "repository": {
-      "user": "jenslind",
-      "repo": "electron-gh-releases",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jenslind/electron-gh-releases/tarball/master",
-      "clone_url": "https://github.com/jenslind/electron-gh-releases",
-      "https_url": "https://github.com/jenslind/electron-gh-releases",
-      "travis_url": "https://travis-ci.org/jenslind/electron-gh-releases",
-      "zip_url": "https://github.com/jenslind/electron-gh-releases/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jenslind/electron-gh-releases"
+      "type": "git",
+      "url": "https://github.com/jenslind/electron-gh-releases.git"
     }
   },
   "packageStatus": 200,
@@ -253,5 +245,6 @@
   "filename": "digideskio___electron-gh-releases.json",
   "sourceRepo": "jenslind/electron-gh-releases",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:05.098Z"
+  "lastFetchedAt": "2017-05-04T05:09:05.098Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:41.093Z"
 }

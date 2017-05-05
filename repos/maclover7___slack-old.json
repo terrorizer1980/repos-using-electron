@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/maclover7/slack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maclover7/slack.git"
+    },
+    "author": "Jon Moss",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maclover7/slack/issues"
+    },
     "homepage": "https://github.com/maclover7/slack#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -108,5 +115,6 @@
   },
   "filename": "maclover7___slack-old.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:29:30.644Z"
+  "lastFetchedAt": "2017-05-04T05:29:30.644Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:23.317Z"
 }

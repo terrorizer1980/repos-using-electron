@@ -48,12 +48,19 @@
   "packageJSON": {
     "name": "msync",
     "version": "0.0.1",
+    "author": {
+      "name": "Binayak Ghosh",
+      "email": "ghoshbinayak@gmail.com"
+    },
     "description": "Sync your music with Google Drive.",
     "engines": {
       "node": ">=0.12"
     },
     "main": "./src/launch.js",
-    "repository": "https://github.com/ghoshbinayak/msync",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ghoshbinayak/msync.git"
+    },
     "keywords": [
       "sync",
       "drive",
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/swrdfish/msync",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:06:27.021Z"
+  "lastFetchedAt": "2017-05-03T20:06:27.021Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:12.449Z"
 }

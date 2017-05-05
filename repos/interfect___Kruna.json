@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/interfect/kruna",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/interfect/kruna.git"
+    },
+    "author": "Interfect",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/interfect/kruna/issues"
+    },
     "homepage": "https://github.com/interfect/kruna#readme",
     "dependencies": {
       "av": "^0.4.8",
@@ -119,5 +126,6 @@
   },
   "filename": "interfect___Kruna.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:10.665Z"
+  "lastFetchedAt": "2017-05-04T21:12:10.665Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:43.947Z"
 }

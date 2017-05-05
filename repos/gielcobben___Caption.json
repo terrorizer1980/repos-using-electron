@@ -68,8 +68,8 @@
   "packageJSON": {
     "name": "caption",
     "productName": "Caption",
-    "version": "v0.0.1",
-    "description": "Caption for Mac",
+    "version": "1.2.1",
+    "description": "Find the right subtitles. Easy.",
     "main": "main.js",
     "scripts": {
       "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -82,27 +82,37 @@
       "build": "npm run build-main && npm run build-renderer",
       "start": "cross-env NODE_ENV=production electron ./",
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron -r babel-register -r babel-polyfill ./main.development",
-      "package": "cross-env NODE_ENV=production node -r babel-register -r babel-polyfill package.js",
+      "package": "npm run build && cross-env NODE_ENV=production node -r babel-register -r babel-polyfill package.js && npm run sign && npm run create-dmg",
       "package-all": "npm run package -- --all",
       "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\"",
-      "cleanup": "mop -v"
+      "cleanup": "mop -v",
+      "sign": "electron-osx-sign ./release/darwin-x64/Caption-darwin-x64/Caption.app",
+      "create-dmg": "create-dmg ./release/darwin-x64/Caption-darwin-x64/Caption.app"
     },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/gielcobben/Caption",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gielcobben/Caption.git"
+    },
+    "author": {
+      "name": "Giel Cobben",
+      "email": "g.cobben@gmail.com",
+      "url": "https://github.com/gielcobben"
+    },
     "license": "MIT",
     "keywords": [
       "electron",
-      "boilerplate",
       "react",
       "react-router",
-      "flux",
       "webpack",
-      "react-hot"
+      "react-hot",
+      "subtitles",
+      "download"
     ],
-    "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+    "homepage": "https://getcaption.co/",
     "devDependencies": {
       "asar": "^0.12.3",
       "babel-core": "^6.17.0",
@@ -126,7 +136,7 @@
       "css-loader": "^0.25.0",
       "del": "^2.2.2",
       "devtron": "^1.3.0",
-      "electron": "^1.4.3",
+      "electron": "^1.4.12",
       "electron-devtools-installer": "^2.0.1",
       "electron-packager": "^8.1.0",
       "electron-rebuild": "^1.2.1",
@@ -144,7 +154,6 @@
       "eslint-plugin-react": "^6.3.0",
       "express": "^4.14.0",
       "extract-text-webpack-plugin": "^1.0.1",
-      "fbjs-scripts": "^0.7.1",
       "jsdom": "^9.6.0",
       "json-loader": "^0.5.4",
       "minimist": "^1.2.0",
@@ -152,7 +161,6 @@
       "node-libs-browser": "^1.0.0",
       "node-sass": "^3.10.1",
       "react-addons-test-utils": "^15.3.2",
-      "redux-logger": "^2.7.0",
       "sass-loader": "^4.0.2",
       "sinon": "^1.17.6",
       "spectron": "^3.4.0",
@@ -165,17 +173,27 @@
       "webpack-validator": "^2.2.9"
     },
     "dependencies": {
+      "addic7ed-api": "^1.3.2",
+      "adm-zip": "^0.4.7",
+      "async": "^2.1.5",
+      "bluebird": "^3.5.0",
+      "cheerio": "^0.22.0",
       "css-modules-require-hook": "^4.0.5",
       "electron-debug": "^1.0.1",
+      "electron-json-storage": "^2.0.3",
+      "electron-lets-move": "0.0.4",
+      "electron-window-state": "^4.1.0",
+      "fbjs-scripts": "^0.7.1",
+      "install": "^0.8.2",
+      "junk": "^2.0.0",
+      "npm": "^3.10.9",
+      "opensubtitles-api": "^4.0.0-rc1",
       "postcss": "^5.2.4",
-      "react": "^15.3.2",
-      "react-desktop": "^0.2.14",
-      "react-dom": "^15.3.2",
-      "react-redux": "^4.4.5",
+      "react": "^15.5.0",
+      "react-dom": "^15.5.0",
       "react-router": "^2.8.1",
-      "react-router-redux": "^4.0.6",
-      "redux": "^3.6.0",
-      "redux-thunk": "^2.1.0",
+      "request": "^2.81.0",
+      "request-promise": "^4.2.0",
       "source-map-support": "^0.4.3",
       "subtitler": "^2.6.0",
       "unused-filename": "^0.1.0"
@@ -210,5 +228,6 @@
   },
   "filename": "gielcobben___Caption.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:25.781Z"
+  "lastFetchedAt": "2017-05-04T15:33:25.781Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:36.855Z"
 }

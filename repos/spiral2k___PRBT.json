@@ -66,20 +66,29 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-quick-start",
-    "version": "1.0.0",
-    "description": "A minimal Electron application",
+    "name": "prbt",
+    "version": "0.0.1",
+    "description": "",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "",
     "devDependencies": {
-      "electron": "^1.3.4",
+      "babel-preset-es2015": "^6.18.0",
+      "electron": "*",
       "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.2",
       "gulp-clean-css": "^2.0.12",
       "gulp-closure-compiler": "^0.4.0",
       "gulp-concat": "^2.6.0",
@@ -93,8 +102,8 @@
       "gulp-util": "^3.0.7"
     },
     "dependencies": {
-      "jquery": "^3.1.1",
-      "semantic-ui": "^2.2.4"
+      "electron-browser-window-options": "^1.0.3",
+      "gulp-watch": "^4.3.11"
     }
   },
   "packageStatus": 200,
@@ -122,5 +131,6 @@
   },
   "filename": "spiral2k___PRBT.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:01.768Z"
+  "lastFetchedAt": "2017-05-04T21:00:01.768Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:08.331Z"
 }

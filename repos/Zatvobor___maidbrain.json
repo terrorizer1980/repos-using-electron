@@ -80,8 +80,15 @@
       "start": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Zatvobor/maidbrain",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Zatvobor/maidbrain.git"
+    },
+    "author": "Aleksey Zatvobor <a.zatvornitskiy@gmail.com> (http://github.com/zatvobor)",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/Zatvobor/maidbrain/issues"
+    },
     "homepage": "https://github.com/Zatvobor/maidbrain#readme",
     "devDependencies": {
       "electron-compilers": "^3.0.0",
@@ -116,5 +123,6 @@
   },
   "filename": "Zatvobor___maidbrain.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:37.496Z"
+  "lastFetchedAt": "2017-05-04T21:27:37.496Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:53.084Z"
 }

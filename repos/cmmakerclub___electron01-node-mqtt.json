@@ -73,6 +73,11 @@
     "license": "MIT",
     "main": "index.js",
     "repository": "nazt/electron01",
+    "author": {
+      "name": "Nat Weerawan",
+      "email": "nat@opendream.co.th",
+      "url": "cmmakerclub.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -158,5 +163,6 @@
   "svnUrl": "https://github.com/cmmakerclub/electron01-node-mqtt",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:23:01.760Z"
+  "lastFetchedAt": "2017-05-04T15:23:01.760Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:27.534Z"
 }

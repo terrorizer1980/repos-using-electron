@@ -96,8 +96,15 @@
       "build": "npm run compile && electron .",
       "start": "npm run compile && electron ."
     },
-    "repository": "https://github.com/disk-ally/labs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/disk-ally/labs.git"
+    },
+    "author": "Renan Muniz",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/disk-ally/labs/issues"
+    },
     "homepage": "https://github.com/disk-ally/labs#readme",
     "dependencies": {
       "babel-loader": "^6.2.4",
@@ -144,5 +151,6 @@
   },
   "filename": "disk-ally___labs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:07.188Z"
+  "lastFetchedAt": "2017-05-04T18:26:07.188Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:29.963Z"
 }

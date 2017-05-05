@@ -63,6 +63,7 @@
       "clean": "rm -f build/* & rm npm-debug.log*",
       "electron": "electron src/browser"
     },
+    "author": "nextlevelshit (mail@dailysh.it)",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.4.0",
@@ -140,5 +141,6 @@
   "svnUrl": "https://github.com/nextlevelshit/webpack-electron-angular2-foundation-starterkit",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:45:53.465Z"
+  "lastFetchedAt": "2017-05-04T19:45:53.465Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:26.949Z"
 }

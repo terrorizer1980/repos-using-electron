@@ -78,6 +78,11 @@
     "description": "My mind-blowing app",
     "license": "MIT",
     "repository": "lyckade/flux-capacitor",
+    "author": {
+      "name": "lyckade",
+      "email": "as@lycka.de",
+      "url": "apxp.info"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -144,5 +149,6 @@
   },
   "filename": "lyckade___Flux-Capacitor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:53.625Z"
+  "lastFetchedAt": "2017-05-04T17:43:53.625Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:16.640Z"
 }

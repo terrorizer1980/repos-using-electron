@@ -78,6 +78,7 @@
       "dist": "npm run compile && browserify index.js > browserified.js",
       "start": "npm run dist && electron main.js"
     },
+    "author": "Hiroshi Yamaguchi",
     "license": "BSD-2-Clause",
     "devDependencies": {
       "browserify": "^13.0.1",
@@ -111,5 +112,6 @@
   },
   "filename": "hiroshi-cl___electron-ipc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:58.107Z"
+  "lastFetchedAt": "2017-05-04T21:18:58.107Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:30.645Z"
 }

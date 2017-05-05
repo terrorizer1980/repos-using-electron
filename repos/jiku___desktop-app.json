@@ -91,6 +91,11 @@
       "app-category-type": "public.app-category.music",
       "win": {}
     },
+    "author": {
+      "name": "B.E. Henriksen",
+      "email": "e@jiku.ca",
+      "url": "http://jiku.ca"
+    },
     "license": "MIT",
     "engines": {
       "node": ">= 4"
@@ -132,5 +137,6 @@
   },
   "filename": "jiku___desktop-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:35.076Z"
+  "lastFetchedAt": "2017-05-04T21:04:35.076Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:47.849Z"
 }

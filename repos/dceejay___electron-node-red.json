@@ -167,7 +167,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-node-red",
-    "version": "0.15.2",
+    "version": "0.16.2",
     "description": "Electron Node-RED application starter",
     "main": "main.js",
     "scripts": {
@@ -191,17 +191,8 @@
       "build:armv7l": "npm run pack:armv7l && fpm -s dir -t deb -f -n node-red-electron -v $npm_package_version -m conway@uk.ibm.com -a armv7l -p ../electron-bin -C build/Node-RED-linux-armv7l --prefix=/opt/node-red --after-install=afterinst.sh ./"
     },
     "repository": {
-      "user": "dceejay",
-      "repo": "electron-node-red",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/dceejay/electron-node-red/tarball/master",
-      "clone_url": "https://github.com/dceejay/electron-node-red",
-      "https_url": "https://github.com/dceejay/electron-node-red",
-      "travis_url": "https://travis-ci.org/dceejay/electron-node-red",
-      "zip_url": "https://github.com/dceejay/electron-node-red/archive/master.zip",
-      "api_url": "https://api.github.com/repos/dceejay/electron-node-red"
+      "type": "git",
+      "url": "git+https://github.com/dceejay/electron-node-red.git"
     },
     "dependencies": {
       "node-red": "*",
@@ -211,6 +202,7 @@
       "node-red-node-random": "*",
       "node-red-node-smooth": "*",
       "node-red-contrib-play-audio": "*",
+      "node-red-contrib-n2n": "*",
       "express": "^4.14.0"
     },
     "keywords": [
@@ -226,10 +218,13 @@
         "name": "Nathanaël Lécaudé"
       }
     ],
-    "license": "CC0-1.0",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/dceejay/electron-node-red/issues"
+    },
     "homepage": "https://github.com/dceejay/electron-node-red#readme",
     "devDependencies": {
-      "electron": "^1.4.4",
+      "electron": "^1.4.13",
       "electron-rebuild": "*",
       "electron-squirrel-startup": "*",
       "electron-winstaller": "*"
@@ -281,5 +276,6 @@
   "filename": "dceejay___electron-node-red.json",
   "sourceRepo": "natcl/electron-node-red",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:46.780Z"
+  "lastFetchedAt": "2017-05-04T11:04:46.780Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:22.041Z"
 }

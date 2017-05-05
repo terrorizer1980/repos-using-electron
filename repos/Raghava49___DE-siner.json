@@ -73,13 +73,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Raghava49/DE-siner",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Raghava49/DE-siner.git"
+    },
     "keywords": [
       "DE",
       "siner",
       "DE-siner"
     ],
+    "author": "Raghava chellar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Raghava49/DE-siner/issues"
+    },
     "homepage": "https://github.com/Raghava49/DE-siner#readme",
     "devDependencies": {
       "coffee-script": "^1.9.2",
@@ -114,5 +121,6 @@
   },
   "filename": "Raghava49___DE-siner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:37.044Z"
+  "lastFetchedAt": "2017-05-04T21:18:37.044Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:06.934Z"
 }

@@ -61,13 +61,17 @@
   "status": 200,
   "packageJSON": {
     "name": "nightmare",
-    "version": "2.8.1",
+    "version": "2.10.0",
     "license": "MIT",
     "main": "lib/nightmare.js",
     "scripts": {
       "test": "make test"
     },
-    "repository": "https://github.com/segmentio/nightmare",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "Segment",
     "keywords": [
       "nightmare",
       "electron"
@@ -91,6 +95,7 @@
     "devDependencies": {
       "basic-auth": "^1.0.3",
       "basic-auth-connect": "^1.0.0",
+      "bluebird": "^3.4.0",
       "chai": "^3.4.1",
       "chai-as-promised": "^5.3.0",
       "express": "^4.13.3",
@@ -150,5 +155,6 @@
   "svnUrl": "https://github.com/segmentio/nightmare",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:29:06.585Z"
+  "lastFetchedAt": "2017-05-04T05:29:06.585Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:48.218Z"
 }

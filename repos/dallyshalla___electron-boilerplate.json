@@ -74,7 +74,10 @@
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
       "start": "electron ."
     },
-    "repository": "https://github.com/safex/vote",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/safex/vote.git"
+    },
     "keywords": [
       "Cryptographic",
       "Voting",
@@ -82,7 +85,11 @@
       "Bitcoin",
       "SafeExchangeCoin"
     ],
+    "author": "Dallyshalla",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/safex/vote/issues"
+    },
     "homepage": "https://github.com/safex/vote#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -132,5 +139,6 @@
   },
   "filename": "dallyshalla___electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:42:48.333Z"
+  "lastFetchedAt": "2017-05-04T20:42:48.333Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:20.171Z"
 }

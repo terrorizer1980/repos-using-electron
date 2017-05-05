@@ -201,6 +201,7 @@
       "postinstall": "cd app && npm install",
       "vue:route": "node tasks/vue/route.js"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -259,5 +260,6 @@
   "filename": "GitHubDiom___landleg-electron.json",
   "sourceRepo": "ahonn/landleg-electron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:24.913Z"
+  "lastFetchedAt": "2017-05-04T21:29:24.913Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:15.831Z"
 }

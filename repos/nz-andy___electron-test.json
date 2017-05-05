@@ -84,8 +84,15 @@
       "tsc:w": "tsc -w",
       "typings": "typings"
     },
-    "repository": "https://github.com/nz-andy/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nz-andy/electron-test.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nz-andy/electron-test/issues"
+    },
     "homepage": "https://github.com/nz-andy/electron-test#readme",
     "dependencies": {
       "angular2": "2.0.0-beta.17",
@@ -143,5 +150,6 @@
   },
   "filename": "nz-andy___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:39:40.848Z"
+  "lastFetchedAt": "2017-05-04T17:39:40.848Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:28.704Z"
 }

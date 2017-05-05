@@ -74,13 +74,20 @@
       "start": "DEBUG=* electron .",
       "test": "mocha --compilers coffee:coffee-script/register --require should --require babel-register"
     },
-    "repository": "https://github.com/keroxp/McLion",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/keroxp/McLion.git"
+    },
     "keywords": [
       "Electron",
       "application",
       "shogi"
     ],
+    "author": "Yusuke Sakurai<kerokerokerop@gmail.com>",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/keroxp/McLion/issues"
+    },
     "homepage": "https://github.com/keroxp/McLion",
     "dependencies": {
       "babel-register": "^6.9.0",
@@ -119,5 +126,6 @@
   },
   "filename": "keroxp___McLion.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:02:20.738Z"
+  "lastFetchedAt": "2017-05-04T06:02:20.738Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:48.788Z"
 }

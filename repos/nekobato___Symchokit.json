@@ -78,8 +78,15 @@
       "release": "gulp release"
     },
     "license": "MIT",
-    "repository": "https://github.com/nekobato/Symchokit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nekobato/Symchokit.git"
+    },
     "keywords": [],
+    "author": "nekobato",
+    "bugs": {
+      "url": "https://github.com/nekobato/Symchokit/issues"
+    },
     "homepage": "https://github.com/nekobato/Symchokit#readme",
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -133,5 +140,6 @@
   },
   "filename": "nekobato___Symchokit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:10.172Z"
+  "lastFetchedAt": "2017-05-04T14:22:10.172Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:33.922Z"
 }

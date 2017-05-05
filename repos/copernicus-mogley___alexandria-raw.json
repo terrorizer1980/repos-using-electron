@@ -75,7 +75,7 @@
     "name": "Alexandria-RAW",
     "version": "0.0.2",
     "description": "A stripped-down Alexandria application",
-    "main": "main.js",
+    "main": "src/app/app.js",
     "scripts": {
       "start": "electron ."
     },
@@ -83,18 +83,30 @@
       "appId": "com.alexandria.raw",
       "category": "public.app-category.entertainment"
     },
-    "repository": "https://github.com/copernicus-mogley/alexandria-raw",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/copernicus-mogley/alexandria-raw.git"
+    },
     "keywords": [
       "Alexandria",
       "dloa",
       "decentralized",
       "media"
     ],
+    "author": {
+      "name": "Ryan Taylor",
+      "email": "ryan@9wizards.com"
+    },
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/copernicus-mogley/alexandria-raw/issues"
+    },
     "homepage": "https://github.com/copernicus-mogley/alexandria-raw#alexandria-raw",
     "devDependencies": {
-      "electron-prebuilt": "^1.2.0",
-      "electron-builder": "^5.26.0"
+      "electron": "^1.4.13"
+    },
+    "dependencies": {
+      "jquery": "^3.1.1"
     }
   },
   "packageStatus": 200,
@@ -122,5 +134,6 @@
   },
   "filename": "copernicus-mogley___alexandria-raw.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:20.066Z"
+  "lastFetchedAt": "2017-05-04T20:00:20.066Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:59.728Z"
 }

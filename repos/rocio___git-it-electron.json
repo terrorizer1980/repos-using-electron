@@ -193,19 +193,14 @@
       "pack-win": "electron-packager . Git-it --platform=win32 --arch=ia32  --icon=assets/git-it.ico  --prune=true --out='../Git-it-Packaged-Apps'"
     },
     "repository": {
-      "user": "jlord",
-      "repo": "git-it-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jlord/git-it-electron/tarball/master",
-      "clone_url": "https://github.com/jlord/git-it-electron",
-      "https_url": "https://github.com/jlord/git-it-electron",
-      "travis_url": "https://travis-ci.org/jlord/git-it-electron",
-      "zip_url": "https://github.com/jlord/git-it-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jlord/git-it-electron"
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
     },
+    "author": "Jessica Lord",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
     "homepage": "https://github.com/jlord/git-it-electron",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -265,5 +260,6 @@
   "filename": "rocio___git-it-electron.json",
   "sourceRepo": "jlord/git-it-electron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:06:00.414Z"
+  "lastFetchedAt": "2017-05-04T18:06:00.414Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:24.894Z"
 }

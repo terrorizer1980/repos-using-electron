@@ -80,6 +80,7 @@
       "start": "electron .",
       "build": "electron-packager . StockWatcher --platform=darwin --arch=x64 --version=1.0.0 --overwrite --icon 'stockWatcher.icns'"
     },
+    "author": "Matt Carlucci",
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-packager": "^8.1.0",
@@ -115,5 +116,6 @@
   },
   "filename": "mcarlucci___StockWatcher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:43.331Z"
+  "lastFetchedAt": "2017-05-04T20:15:43.331Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:38.083Z"
 }

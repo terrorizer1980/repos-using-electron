@@ -178,6 +178,7 @@
       "lint": "`npm bin`/eslint lib",
       "start": "NODE_ENV=hot node devServer.js"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "appcache-webpack-plugin": "1.2.1",
@@ -279,5 +280,6 @@
   "svnUrl": "https://github.com/desyncr/simplenote-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:05:04.259Z"
+  "lastFetchedAt": "2017-05-04T21:05:04.259Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:11.201Z"
 }

@@ -83,12 +83,23 @@
         "email": "iyanello@gmail.com"
       }
     ],
-    "repository": "https://github.com/MikeLP/uCard",
+    "bugs": {
+      "url": "https://github.com/MikeLP/uCard/issues",
+      "email": "iyanello@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MikeLP/uCard.git"
+    },
     "keywords": [
       "javascript",
       "nodejs",
       "electron"
     ],
+    "author": {
+      "name": "Yan Zhabin",
+      "email": "iyanello@gmail.com"
+    },
     "license": "ISC",
     "dependencies": {
       "ionicons": "^3.0.0",
@@ -155,5 +166,6 @@
   },
   "filename": "MikeLP___uCard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:09:24.375Z"
+  "lastFetchedAt": "2017-05-04T20:09:24.375Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:50.482Z"
 }

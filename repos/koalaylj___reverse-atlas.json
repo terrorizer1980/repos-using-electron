@@ -74,7 +74,10 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/koalaylj/reverse-atlas",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/koalaylj/reverse-atlas.git"
+    },
     "keywords": [
       "libgdx",
       "atlas",
@@ -83,7 +86,11 @@
       "image",
       "cut"
     ],
+    "author": "yulijun",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/koalaylj/reverse-atlas/issues"
+    },
     "homepage": "https://github.com/koalaylj/reverse-atlas#readme",
     "dependencies": {
       "async": "^2.0.1",
@@ -117,5 +124,6 @@
   },
   "filename": "koalaylj___reverse-atlas.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:45.789Z"
+  "lastFetchedAt": "2017-05-03T20:04:45.789Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:15.751Z"
 }

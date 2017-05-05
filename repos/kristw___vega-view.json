@@ -78,6 +78,11 @@
     "description": "My stunning app",
     "license": "MIT",
     "repository": "kristw/vega-view",
+    "author": {
+      "name": "Krist Wongsuphasawat",
+      "email": "krist.wongz@gmail.com",
+      "url": "kristw.yellowpigz.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -110,6 +115,9 @@
         "node",
         "browser"
       ]
+    },
+    "bugs": {
+      "url": "https://github.com/kristw/vega-view/issues"
     }
   },
   "packageStatus": 200,
@@ -137,5 +145,6 @@
   },
   "filename": "kristw___vega-view.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:37.470Z"
+  "lastFetchedAt": "2017-05-04T05:34:37.470Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:07.986Z"
 }

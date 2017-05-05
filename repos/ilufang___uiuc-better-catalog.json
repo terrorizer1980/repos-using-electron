@@ -79,9 +79,16 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/ilufang/uiuc-better-catalog",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ilufang/uiuc-better-catalog.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ilufang/uiuc-better-catalog/issues"
+    },
     "homepage": "https://github.com/ilufang/uiuc-better-catalog",
     "devDependencies": {
       "electron": "^1.3.4"
@@ -113,5 +120,6 @@
   },
   "filename": "ilufang___uiuc-better-catalog.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:44.246Z"
+  "lastFetchedAt": "2017-05-04T19:35:44.246Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:19.336Z"
 }

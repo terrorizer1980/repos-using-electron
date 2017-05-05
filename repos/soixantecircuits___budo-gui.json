@@ -71,6 +71,9 @@
     "description": "A budo runner, when you need a server",
     "license": "MIT",
     "repository": "gabrielstuff/budo-gui",
+    "author": {
+      "name": "gabrielstuff"
+    },
     "electronVersion": "0.37.7",
     "scripts": {
       "postinstall": "echo $npm_package_version > $npm_package_name.version && git add $npm_package_name.version && git commit -m \"Add version number\"",
@@ -168,5 +171,6 @@
   },
   "filename": "soixantecircuits___budo-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:20.675Z"
+  "lastFetchedAt": "2017-05-04T20:45:20.675Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:01.271Z"
 }

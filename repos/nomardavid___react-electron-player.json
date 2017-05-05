@@ -81,8 +81,15 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/nomardavid/react-electron-player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nomardavid/react-electron-player.git"
+    },
+    "author": "Omar Garcia",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nomardavid/react-electron-player/issues"
+    },
     "homepage": "https://github.com/nomardavid/react-electron-player#readme",
     "devDependencies": {
       "axios": "^0.12.0",
@@ -125,5 +132,6 @@
   },
   "filename": "nomardavid___react-electron-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:30.975Z"
+  "lastFetchedAt": "2017-05-04T15:15:30.975Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:00.035Z"
 }

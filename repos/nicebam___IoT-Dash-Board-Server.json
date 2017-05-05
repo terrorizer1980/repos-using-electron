@@ -74,14 +74,21 @@
     "scripts": {
       "start": "electron main.js "
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "electron-prebuilt": "^0.36.5"
@@ -122,5 +129,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:36.106Z"
+  "lastFetchedAt": "2017-05-04T17:42:36.106Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:53.302Z"
 }

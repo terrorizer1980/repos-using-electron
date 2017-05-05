@@ -67,11 +67,16 @@
   "status": 200,
   "packageJSON": {
     "name": "Kitematic",
-    "version": "0.12.1",
+    "version": "0.17.0",
+    "author": "Kitematic",
     "description": "Simple Docker Container management for Mac OS X, Windows and Ubuntu.",
     "homepage": "https://kitematic.com/",
     "main": "browser.js",
-    "repository": "https://github.com/kitematic/kitematic",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:kitematic/kitematic.git"
+    },
+    "bugs": "https://github.com/kitematic/kitematic/issues",
     "scripts": {
       "start": "grunt",
       "start-dev": "NODE_ENV=development grunt",
@@ -93,7 +98,7 @@
       "async": "^1.4.2",
       "bluebird": "^2.9.24",
       "bugsnag-js": "^2.4.7",
-      "cached-request": "^0.1.4",
+      "cached-request": "^1.1.0",
       "classnames": "^2.1.5",
       "coveralls": "^2.11.2",
       "deep-extend": "^0.4.0",
@@ -116,7 +121,8 @@
       "request-progress": "^0.3.1",
       "rimraf": "^2.3.2",
       "underscore": "^1.8.3",
-      "validator": "^4.1.0"
+      "validator": "^4.1.0",
+      "which": "^1.2.4"
     },
     "devDependencies": {
       "babel": "^5.8.23",
@@ -204,5 +210,6 @@
   },
   "filename": "docker___kitematic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:02.832Z"
+  "lastFetchedAt": "2017-05-04T15:24:02.832Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:57.174Z"
 }

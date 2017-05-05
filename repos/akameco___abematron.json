@@ -79,6 +79,11 @@
     "main": "index.js",
     "license": "MIT",
     "repository": "akameco/abematron",
+    "author": {
+      "name": "akameco",
+      "email": "akameco.t@gmail.com",
+      "url": "akameco.github.io"
+    },
     "scripts": {
       "start": "electron .",
       "build": "npm run build:osx && npm run build:linux && npm run build:windows",
@@ -131,5 +136,6 @@
   },
   "filename": "akameco___abematron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:30:49.605Z"
+  "lastFetchedAt": "2017-05-04T20:30:49.605Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:34.430Z"
 }

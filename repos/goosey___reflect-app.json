@@ -75,8 +75,15 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "author": "alex baldwin <alex@bldwn.co> (http://bldwn.co/)",
     "license": "CC-BY-NC-SA-4.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -137,5 +144,6 @@
   },
   "filename": "goosey___reflect-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:12.341Z"
+  "lastFetchedAt": "2017-05-04T17:38:12.341Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:05.708Z"
 }

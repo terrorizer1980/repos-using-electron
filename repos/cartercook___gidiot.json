@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/cartercook/gidiot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cartercook/gidiot.git"
+    },
+    "author": "Carter Cook",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
       "nodegit": "0.13.2",
@@ -105,5 +109,6 @@
   },
   "filename": "cartercook___gidiot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:01.675Z"
+  "lastFetchedAt": "2017-05-04T20:58:01.675Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:33.509Z"
 }

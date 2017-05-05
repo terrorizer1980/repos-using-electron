@@ -215,8 +215,15 @@
       "build": "npm-run-all sass:build --parallel babel process-index:build --sequential copy-js-subfolders",
       "binaries": "./build.sh"
     },
-    "repository": "https://github.com/OpenBazaar/ob-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OpenBazaar/ob-desktop.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/OpenBazaar/ob-desktop/issues"
+    },
     "homepage": "https://github.com/OpenBazaar/ob-desktop#readme",
     "devDependencies": {
       "babel-cli": "^6.10.1",
@@ -293,5 +300,6 @@
   },
   "sourceRepo": "OpenBazaar/openbazaar-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:14:00.874Z"
+  "lastFetchedAt": "2017-05-04T18:14:00.874Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:04.998Z"
 }

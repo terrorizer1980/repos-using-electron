@@ -81,8 +81,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -204,5 +215,6 @@
   },
   "filename": "mobuter___electronReactHotReload.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:11.661Z"
+  "lastFetchedAt": "2017-05-04T19:31:11.661Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:35.424Z"
 }

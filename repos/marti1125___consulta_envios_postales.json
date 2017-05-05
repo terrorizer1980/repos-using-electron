@@ -80,24 +80,19 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "marti1125",
-      "repo": "consulta_envios_postales",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/marti1125/consulta_envios_postales/tarball/master",
-      "clone_url": "https://github.com/marti1125/consulta_envios_postales",
-      "https_url": "https://github.com/marti1125/consulta_envios_postales",
-      "travis_url": "https://travis-ci.org/marti1125/consulta_envios_postales",
-      "zip_url": "https://github.com/marti1125/consulta_envios_postales/archive/master.zip",
-      "api_url": "https://api.github.com/repos/marti1125/consulta_envios_postales"
+      "type": "git",
+      "url": "git+https://github.com/marti1125/consulta_envios_postales.git"
     },
     "keywords": [
       "electron",
       "consulta",
       "postales"
     ],
+    "author": "Willy Aguirre",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/marti1125/consulta_envios_postales.git"
+    },
     "homepage": "https://github.com/marti1125/consulta_envios_postales#readme",
     "devDependencies": {
       "electron-packager": "^7.1.0",
@@ -130,5 +125,6 @@
   "filename": "marti1125___consulta_envios_postales.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:14.204Z"
+  "lastFetchedAt": "2017-05-04T20:49:14.204Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:00.795Z"
 }

@@ -73,13 +73,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/rbhbokka/gappium",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rbhbokka/gappium.git"
+    },
     "keywords": [
       "appium",
       "gui",
       "electron"
     ],
+    "author": "Kiryl Yemelyanenka <kirill.em@me.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rbhbokka/gappium/issues"
+    },
     "homepage": "https://github.com/rbhbokka/gappium#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.30.4"
@@ -110,5 +117,6 @@
   },
   "filename": "rbhbokka___gappium.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:08.114Z"
+  "lastFetchedAt": "2017-05-04T19:42:08.114Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:38.326Z"
 }

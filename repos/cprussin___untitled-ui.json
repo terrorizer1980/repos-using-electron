@@ -69,6 +69,10 @@
     "name": "ui",
     "version": "0.0.1",
     "description": "You know, a UI.",
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -81,6 +85,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "Connor Prussin <connor@prussin.net>",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -177,5 +182,6 @@
   },
   "filename": "cprussin___untitled-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:12:33.379Z"
+  "lastFetchedAt": "2017-05-04T05:12:33.379Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:42.924Z"
 }

@@ -76,7 +76,11 @@
       "clean": "rm -rf build",
       "postinstall": "cd app && npm install"
     },
-    "repository": "https://github.com/gluxon/LocationServicesController",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gluxon/LocationServicesController"
+    },
+    "author": "gluxon",
     "license": "MPL-2.0",
     "homepage": "",
     "dependencies": {
@@ -115,5 +119,6 @@
   },
   "filename": "gluxon___LocationServicesController.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:29.949Z"
+  "lastFetchedAt": "2017-05-04T20:06:29.949Z",
+  "packageLastFetchedAt": "2017-05-05T11:37:26.845Z"
 }

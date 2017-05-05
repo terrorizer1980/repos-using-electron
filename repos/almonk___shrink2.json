@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for shrink2 goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -159,7 +164,8 @@
     "dependencies": {
       "electron-config": "^0.2.1",
       "electron-default-menu": "^1.0.0",
-      "electron-window-state": "^3.1.0"
+      "electron-window-state": "^3.1.0",
+      "mousetrap": "^1.6.0"
     }
   },
   "packageStatus": 200,
@@ -187,5 +193,6 @@
   },
   "filename": "almonk___shrink2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:16:04.706Z"
+  "lastFetchedAt": "2017-05-04T21:16:04.706Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:05.532Z"
 }

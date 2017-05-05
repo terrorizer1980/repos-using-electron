@@ -70,6 +70,8 @@
     "version": "1.0.0",
     "private": true,
     "description": "MirrorView Application",
+    "author": "Mindaugas Ajauskas",
+    "readmeFilename": "README.md",
     "main": "node-js/main.js",
     "dependencies": {
       "socket.io": "~1.3.4",
@@ -107,5 +109,6 @@
   },
   "filename": "majauskas___MirrorView.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:09:27.951Z"
+  "lastFetchedAt": "2017-05-04T18:09:27.951Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:31.245Z"
 }

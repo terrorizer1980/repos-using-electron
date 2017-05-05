@@ -55,8 +55,12 @@
     "name": "electron-example",
     "version": "1.0.0",
     "description": "Electron example app",
+    "author": "hzeroo",
     "license": "MIT",
-    "repository": "https://github.com/hzeroo/electron-angular-webpack-example",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hzeroo/electron-angular-webpack-example"
+    },
     "scripts": {
       "build-main": "webpack --config webpack.config.electron-main.js --progress --profile --colors",
       "build-renderer": "webpack --config webpack.config.electron-renderer.js --progress --profile --colors",
@@ -133,5 +137,6 @@
   "svnUrl": "https://github.com/hzeroo/electron-angular-webpack-example",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:11:06.230Z"
+  "lastFetchedAt": "2017-05-04T05:11:06.230Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:41.180Z"
 }

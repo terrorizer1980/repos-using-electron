@@ -116,7 +116,7 @@
       "eslint-plugin-react": "^6.3.0",
       "eslint-plugin-standard": "^2.0.0",
       "longjohn": "^0.2.11",
-      "pre-commit": "^1.1.1",
+      "pre-commit": "^1.2.1",
       "react-transform-catch-errors": "^1.0.0",
       "react-transform-hmr": "^1.0.0",
       "redbox-react": "^1.0.5",
@@ -141,7 +141,10 @@
       "electron",
       "station"
     ],
-    "repository": "https://github.com/ipfs/station",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ipfs/station"
+    },
     "authors": [
       "Kristoffer Ström <kristoffer@rymdkoloni.se>",
       "David Dias <daviddias@ipfs.io>",
@@ -149,6 +152,9 @@
       "Friedel Ziegelmayer <dignifiedquire@gmail.com>"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ipfs/station/issues"
+    },
     "homepage": "https://github.com/ipfs/station"
   },
   "packageStatus": 200,
@@ -196,5 +202,6 @@
   "svnUrl": "https://github.com/ipfs/station",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:03:15.277Z"
+  "lastFetchedAt": "2017-05-04T05:03:15.277Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:11.324Z"
 }

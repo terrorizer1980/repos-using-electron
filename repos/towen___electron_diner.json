@@ -74,9 +74,16 @@
       "start": "./node_modules/.bin/electron .",
       "test": "test"
     },
-    "repository": "https://github.com/towen/electron_diner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/towen/electron_diner.git"
+    },
+    "author": "Terry J. Owen",
     "license": "MIT",
     "electronVersion": "0.37.6",
+    "bugs": {
+      "url": "https://github.com/towen/electron_diner/issues"
+    },
     "homepage": "https://github.com/towen/electron_diner#readme",
     "dependencies": {
       "electron-packager": "^6.0.2",
@@ -116,5 +123,6 @@
   },
   "filename": "towen___electron_diner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:41.054Z"
+  "lastFetchedAt": "2017-05-04T19:41:41.054Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:49.322Z"
 }

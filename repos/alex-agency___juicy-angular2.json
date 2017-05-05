@@ -75,7 +75,9 @@
     "name": "juicy-angular2",
     "version": "0.0.0",
     "description": "Angular 2 playground",
-    "repository": "https://github.com/alex-agency/juicy-angular2",
+    "repository": {
+      "url": "https://github.com/alex-agency/juicy-angular2"
+    },
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -114,6 +116,7 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
+    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Alexander Zavgorodniy"
@@ -263,5 +266,6 @@
   },
   "filename": "alex-agency___juicy-angular2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:09:12.353Z"
+  "lastFetchedAt": "2017-05-04T20:09:12.353Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:14.483Z"
 }

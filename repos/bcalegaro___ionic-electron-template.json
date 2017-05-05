@@ -91,7 +91,14 @@
       "sinon"
     ],
     "license": "MIT",
-    "repository": "https://github.com/bcalegaro/projectX",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bcalegaro/projectX"
+    },
+    "author": {
+      "name": "Bruno Crestani Calegaro",
+      "email": "bcalegaro@gmail.com"
+    },
     "dependencies": {},
     "devDependencies": {
       "angular": "1.4.9",
@@ -228,6 +235,9 @@
       "app-bundle-id": "com.br.bruno.projectx",
       "app-category-type": "public.app-category.productivity",
       "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
+    },
+    "directories": {
+      "app": "www"
     }
   },
   "packageStatus": 200,
@@ -255,5 +265,6 @@
   },
   "filename": "bcalegaro___ionic-electron-template.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:07.083Z"
+  "lastFetchedAt": "2017-05-04T19:42:07.083Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:39.222Z"
 }

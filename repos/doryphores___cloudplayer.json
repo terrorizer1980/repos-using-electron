@@ -56,7 +56,10 @@
     "version": "0.0.1",
     "description": "Desktop player for soundcloud.com",
     "main": "app/index.js",
-    "repository": "https://github.com/doryphores/cloudplayer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/doryphores/cloudplayer"
+    },
     "scripts": {
       "start": "npm run build-css -- -m && npm run build-js -- -s && electron app",
       "package": "npm run build-css && npm run build-js && node scripts/package.js",
@@ -64,6 +67,7 @@
       "build-css": "rimraf app/css && mkdirp app/css && stylus src/stylus/app.styl -o app/css/app.css",
       "watch": "npm run build-css -- -w -m & npm run build-js -- -w -s"
     },
+    "author": "Martin Laine",
     "license": "MIT",
     "dependencies": {
       "babel": "^5.8.29",
@@ -119,5 +123,6 @@
   "svnUrl": "https://github.com/doryphores/cloudplayer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:21:51.046Z"
+  "lastFetchedAt": "2017-05-04T14:21:51.046Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:45.531Z"
 }

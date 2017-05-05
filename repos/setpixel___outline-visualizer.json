@@ -75,21 +75,34 @@
       "start": "electron .",
       "buildosx": "electron-packager . --out=dist --overwrite --platform=darwin --arch=x64 --icon=src/img/outliner-display-icon.icns"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Charles Forman",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://setpixel.com",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
     "dependencies": {
+      "electron-canvas-to-buffer": "^2.0.0",
+      "image-size": "^0.5.0",
       "jquery": "^3.1.0",
-      "pdfkit": "^0.7.2"
+      "jsfeat": "0.0.8",
+      "moment": "^2.14.1",
+      "pdfkit": "^0.7.2",
+      "qr-image": "^3.1.0",
+      "qrcode-reader": "^0.2.1"
     }
   },
   "packageStatus": 200,
@@ -117,5 +130,6 @@
   },
   "filename": "setpixel___outline-visualizer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:19.126Z"
+  "lastFetchedAt": "2017-05-04T20:14:19.126Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:26.719Z"
 }

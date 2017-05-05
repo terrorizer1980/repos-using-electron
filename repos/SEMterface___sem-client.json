@@ -93,8 +93,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/SEMterface/sem-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SEMterface/sem-client.git"
+    },
+    "author": "Bret Comnes",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SEMterface/sem-client/issues"
+    },
     "homepage": "https://github.com/SEMterface/sem-client#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -136,5 +143,6 @@
   },
   "filename": "SEMterface___sem-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:24.324Z"
+  "lastFetchedAt": "2017-05-04T19:36:24.324Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:30.395Z"
 }

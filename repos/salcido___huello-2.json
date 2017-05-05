@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "An application for controlling your Philips Hue lights",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -185,5 +190,6 @@
   "svnUrl": "https://github.com/salcido/huello-2",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:22:52.744Z"
+  "lastFetchedAt": "2017-05-04T18:22:52.744Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:46.078Z"
 }

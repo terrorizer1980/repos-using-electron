@@ -170,18 +170,10 @@
     "version": "1.0.0",
     "description": "Builds Cryptocat.",
     "repository": {
-      "user": "cryptocat",
-      "repo": "cryptocat",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/cryptocat/cryptocat/tarball/master",
-      "clone_url": "https://github.com/cryptocat/cryptocat",
-      "https_url": "https://github.com/cryptocat/cryptocat",
-      "travis_url": "https://travis-ci.org/cryptocat/cryptocat",
-      "zip_url": "https://github.com/cryptocat/cryptocat/archive/master.zip",
-      "api_url": "https://api.github.com/repos/cryptocat/cryptocat"
+      "type": "git",
+      "url": "git+https://github.com/cryptocat/cryptocat"
     },
+    "author": "Nadim Kobeissi",
     "license": "GPL-3.0",
     "homepage": "https://crypto.cat",
     "devDependencies": {
@@ -240,5 +232,6 @@
   "svnUrl": "https://github.com/akiraaisha/cryptocat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:11:29.385Z"
+  "lastFetchedAt": "2017-05-04T18:11:29.385Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:21.551Z"
 }

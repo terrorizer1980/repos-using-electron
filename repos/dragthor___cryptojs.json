@@ -72,24 +72,40 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "CryptoJs",
-    "version": "1.0.0",
-    "description": "Simple local encryption.",
+    "name": "crypto-js-password-manager",
+    "version": "1.1.4",
+    "description": "Cross platform - simple local encryption.",
+    "keywords": [
+      "password-manager",
+      "password-store",
+      "cross-platform",
+      "encryption"
+    ],
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "test": "mocha --reporter progress \"tests/**/*.test.js\""
     },
-    "repository": "https://github.com/dragthor/cryptojs",
-    "keywords": [
-      "Electron",
-      "quick",
-      "start",
-      "tutorial"
-    ],
-    "license": "GNU GENERAL PUBLIC LICENSE",
-    "homepage": "http://metroize.com/cryptojs/",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dragthor/cryptojs.git"
+    },
+    "author": "Kris Krause",
+    "license": "GPL-3.0",
+    "engines": {
+      "node": ">=6.9.5",
+      "npm": ">=3.10.10"
+    },
+    "bugs": {
+      "url": "https://github.com/dragthor/cryptojs/issues"
+    },
+    "dependencies": {
+      "electron": "1.6.2"
+    },
     "devDependencies": {
-      "electron-prebuilt": "^1.2.0"
+      "electron": "1.6.2",
+      "chai": "3.5.0",
+      "mocha": "3.2.0"
     }
   },
   "packageStatus": 200,
@@ -117,5 +133,6 @@
   },
   "filename": "dragthor___cryptojs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:02.786Z"
+  "lastFetchedAt": "2017-05-04T18:00:02.786Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:22.742Z"
 }

@@ -88,8 +88,15 @@
       "start": "npm run build && electron .",
       "build": "rm -rf app/ && exec coffee -b -c -o app/ src/"
     },
-    "repository": "https://github.com/nixie-clock/electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nixie-clock/electron.git"
+    },
+    "author": "Nick Iv",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nixie-clock/electron/issues"
+    },
     "homepage": "https://github.com/nixie-clock/electron#readme",
     "devDependencies": {
       "coffee-script": "^1.10.0",
@@ -127,5 +134,6 @@
   },
   "filename": "nixie-clock___screensaver.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:46.328Z"
+  "lastFetchedAt": "2017-05-04T14:22:46.328Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:36.412Z"
 }

@@ -76,19 +76,14 @@
       "build": "tsc"
     },
     "repository": {
-      "user": "styfle",
-      "repo": "magnemite",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/styfle/magnemite/tarball/master",
-      "clone_url": "https://github.com/styfle/magnemite",
-      "https_url": "https://github.com/styfle/magnemite",
-      "travis_url": "https://travis-ci.org/styfle/magnemite",
-      "zip_url": "https://github.com/styfle/magnemite/archive/master.zip",
-      "api_url": "https://api.github.com/repos/styfle/magnemite"
+      "type": "git",
+      "url": "git+https://github.com/styfle/magnemite.git"
     },
+    "author": "styfle",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/styfle/magnemite/issues"
+    },
     "homepage": "https://github.com/styfle/magnemite#readme",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -123,5 +118,6 @@
   "filename": "styfle___magnemite.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:48.844Z"
+  "lastFetchedAt": "2017-05-04T19:38:48.844Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:33.780Z"
 }

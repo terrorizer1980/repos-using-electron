@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for harpia goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -170,5 +175,6 @@
   },
   "filename": "jeanleonino___harpia.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:05.677Z"
+  "lastFetchedAt": "2017-05-04T17:33:05.677Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:21.817Z"
 }

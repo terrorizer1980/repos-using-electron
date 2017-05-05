@@ -78,39 +78,82 @@
     "description": "Cross platform github integration in your desktop menu bar!",
     "license": "MIT",
     "repository": "git@github.com:jamesmorgan/github-explorer-electron.git",
-    "scripts": {
-      "start": "electron .",
-      "build": "electron-packager . --out=dist --asar --overwrite --all"
+    "author": {
+      "name": "James Morgan",
+      "email": "",
+      "url": "http://jem-solutions.co.uk"
     },
-    "files": [
-      "index.js",
-      "index.html",
-      "index.css"
-    ],
+    "scripts": {
+      "clean-ng-build": "rimraf browser-content-build/",
+      "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+      "build-ng2": "webpack --progress --profile --colors --display-error-details --display-cached",
+      "start": "npm run clean-ng-build & npm run watch & electron .",
+      "build": "npm run build-ng2 & npm run build-osx & npm run build-linux",
+      "build-osx": "electron-packager . --overwrite --out=dist --platform=darwin --icon=./resources/tray/icon.icns --enable-logging",
+      "build-linux": "electron-packager . --overwrite --out=dist --platform=linux --icon=./resources/tray/icon.icns --enable-logging"
+    },
     "keywords": [
       "electron-app",
-      "electron"
+      "electron",
+      "github",
+      "github-explorer"
     ],
     "dependencies": {
+      "@angular/common": "~2.2.0",
+      "@angular/compiler": "~2.2.0",
+      "@angular/core": "~2.2.0",
+      "@angular/forms": "~2.2.0",
+      "@angular/http": "~2.2.0",
+      "@angular/platform-browser": "~2.2.0",
+      "@angular/platform-browser-dynamic": "~2.2.0",
+      "@angular/router": "~3.2.0",
+      "@angular/upgrade": "~2.2.0",
+      "@ng-bootstrap/ng-bootstrap": "1.0.0-alpha.14",
+      "angular-in-memory-web-api": "~0.1.15",
       "bluebird": "3.4.6",
+      "bootstrap": "4.0.0-alpha.5",
+      "core-js": "^2.4.1",
       "electron-debug": "1.0.1",
+      "electron-json-storage": "2.1.0",
       "lodash": "4.16.4",
       "menubar": "5.1.0",
       "moment": "2.15.1",
       "node-notifier": "4.6.1",
-      "octonode": "0.7.6"
+      "octonode": "0.7.6",
+      "redux": "3.6.0",
+      "reflect-metadata": "^0.1.8",
+      "rxjs": "5.0.0-beta.12",
+      "systemjs": "0.19.39",
+      "zone.js": "^0.6.25"
     },
     "devDependencies": {
+      "@types/jasmine": "^2.5.35",
+      "@types/node": "^6.0.45",
+      "angular2-template-loader": "^0.4.0",
+      "awesome-typescript-loader": "^2.2.4",
+      "css-loader": "^0.25.0",
       "devtron": "^1.4.0",
-      "electron-packager": "^8.1.0",
-      "electron": "^1.4.3"
-    },
-    "xo": {
-      "esnext": true,
-      "envs": [
-        "node",
-        "browser"
-      ]
+      "electron": "^1.4.3",
+      "electron-packager": "8.3.0",
+      "es6-shim": "0.35.1",
+      "extract-text-webpack-plugin": "^1.0.1",
+      "file-loader": "^0.8.5",
+      "html-loader": "^0.4.3",
+      "html-webpack-plugin": "2.24.1",
+      "jasmine-core": "^2.4.1",
+      "null-loader": "^0.1.1",
+      "raw-loader": "0.5.1",
+      "rimraf": "2.5.4",
+      "style-loader": "^0.13.1",
+      "to-string-loader": "1.1.5",
+      "ts-loader": "1.2.2",
+      "tslint": "4.0.2",
+      "tslint-loader": "3.2.0",
+      "typescript": "^2.0.3",
+      "typings": "2.0.0",
+      "webpack": "^1.13.0",
+      "webpack-dev-server": "^1.14.1",
+      "webpack-merge": "^0.14.0"
     }
   },
   "packageStatus": 200,
@@ -138,5 +181,6 @@
   },
   "filename": "jamesmorgan___github-explorer-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:17:57.178Z"
+  "lastFetchedAt": "2017-05-04T15:17:57.178Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:26.518Z"
 }

@@ -74,6 +74,7 @@
       "start": "electron .",
       "build": "electron-packager . ga-menubar-upload --prune --asar --overwrite --platform=darwin --arch=x64 --out=build --icon=./assets/icon.icns --ignore=.git --ignore=build"
     },
+    "author": "Bryan Berger",
     "license": "ISC",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -108,5 +109,6 @@
   },
   "filename": "bryanberger___ga-menubar-upload.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:31.203Z"
+  "lastFetchedAt": "2017-05-04T20:01:31.203Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:44.409Z"
 }

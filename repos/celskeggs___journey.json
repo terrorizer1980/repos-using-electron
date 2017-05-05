@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/celskeggs/journey",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/celskeggs/journey.git"
+    },
+    "author": "@celskeggs",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/celskeggs/journey/issues"
+    },
     "homepage": "https://github.com/celskeggs/journey/#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -116,5 +123,6 @@
   },
   "filename": "celskeggs___journey.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:49.910Z"
+  "lastFetchedAt": "2017-05-04T20:46:49.910Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:07.760Z"
 }

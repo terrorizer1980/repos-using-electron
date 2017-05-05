@@ -50,12 +50,18 @@
     "version": "1.1.1",
     "description": "Virtual-dom loading dots component",
     "main": "src/virtual-loading-dots.js",
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "demo": "budo demo/browser.js --open --live",
       "deploy": "mkdirp example-dist && browserify demo/browser.js | htmlify > example-dist/index.html && gh-pages -d example-dist",
       "test": "standard && node test/virtual-loading-dots.js && browserify test/virtual-loading-dots.js | testron"
     },
-    "repository": "https://github.com/chinedufn/virtual-loading-dots",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chinedufn/virtual-loading-dots.git"
+    },
     "keywords": [
       "component",
       "load",
@@ -66,7 +72,11 @@
       "virtual-dom",
       "vdom"
     ],
+    "author": "Chinedu Francis Nwafili <frankie.nwafili@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chinedufn/virtual-loading-dots/issues"
+    },
     "homepage": "https://github.com/chinedufn/virtual-loading-dots#readme",
     "dependencies": {
       "create-keyframe": "^1.0.1",
@@ -133,5 +143,6 @@
   "svnUrl": "https://github.com/chinedufn/virtual-loading-dots",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:02:20.145Z"
+  "lastFetchedAt": "2017-05-04T05:02:20.145Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:50.011Z"
 }

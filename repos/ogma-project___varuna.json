@@ -84,19 +84,23 @@
     "version": "0.0.0",
     "description": "ogma in your browser",
     "main": "main-electron.js",
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "build": "make build",
       "test": "npm run build",
       "clean": "make clean",
       "mrproper": "make mrproper"
     },
+    "author": "Thomas Letan",
     "license": "MIT",
     "devDependencies": {
-      "bower": "^1.7.9",
+      "bower": "^1.8.0",
       "electron": "^1.4.4",
-      "node-sass": "^3.10.1",
+      "node-sass": "^3.11.1",
       "pulp": "^9.0.1",
-      "purescript": "^0.9.3"
+      "purescript": "^0.10.1"
     },
     "dependencies": {
       "bootstrap": "^3.3.7",
@@ -131,5 +135,6 @@
   },
   "filename": "ogma-project___varuna.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:23.220Z"
+  "lastFetchedAt": "2017-05-04T20:34:23.220Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:30.225Z"
 }

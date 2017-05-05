@@ -168,18 +168,10 @@
   "packageJSON": {
     "name": "Butter-Desktop",
     "homepage": "https://butterproject.github.io/",
+    "bugs": "https://github.com/butterproject/butter-desktop-angular/issues",
     "repository": {
-      "user": "butterproject",
-      "repo": "butter-desktop-angular",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/butterproject/butter-desktop-angular/tarball/master",
-      "clone_url": "https://github.com/butterproject/butter-desktop-angular",
-      "https_url": "https://github.com/butterproject/butter-desktop-angular",
-      "travis_url": "https://travis-ci.org/butterproject/butter-desktop-angular",
-      "zip_url": "https://github.com/butterproject/butter-desktop-angular/archive/master.zip",
-      "api_url": "https://api.github.com/repos/butterproject/butter-desktop-angular"
+      "type": "git",
+      "url": "https://github.com/butterproject/butter-desktop-angular.git"
     },
     "version": "0.4.0",
     "description": "There's nothing on TV",
@@ -285,5 +277,6 @@
   "svnUrl": "https://github.com/riyadhalnur/butter-desktop-angular",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:25:08.355Z"
+  "lastFetchedAt": "2017-05-04T21:25:08.355Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:20.025Z"
 }

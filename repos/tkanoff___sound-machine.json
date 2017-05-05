@@ -81,6 +81,7 @@
       "package": "electron-packager ./ SoundMachine --platform=darwin --arch=x64 --out ~/Desktop/SoundMachine --version 0.36.2 --overwrite",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Igor",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -115,5 +116,6 @@
   },
   "filename": "tkanoff___sound-machine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:30:05.482Z"
+  "lastFetchedAt": "2017-05-04T20:30:05.482Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:15.780Z"
 }

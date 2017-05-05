@@ -88,7 +88,7 @@
   "packageJSON": {
     "name": "puraku-client",
     "productName": "Puraku",
-    "version": "0.8.7",
+    "version": "0.8.8",
     "description": "跟噗浪官方 iOS App 有 87% 像的電腦版噗浪 App",
     "main": "app/main.js",
     "scripts": {
@@ -100,8 +100,15 @@
       "build:watch": "cross-env NODE_ENV=production webpack --progress --watch --hide-modules",
       "dist": "npm run build && npm run electron:build"
     },
-    "repository": "https://github.com/puraku/client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/puraku/client"
+    },
+    "author": "Yukai Huang <yukaihuangtw@gmail.com> (https://yukaii.tw)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/puraku/client/issues"
+    },
     "homepage": "https://github.com/puraku/client#readme",
     "engines": {
       "node": "6.9.1"
@@ -181,5 +188,6 @@
   },
   "filename": "puraku___app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:27.110Z"
+  "lastFetchedAt": "2017-05-04T20:20:27.110Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:49.022Z"
 }

@@ -76,19 +76,11 @@
     "productName": "Ryanair Pills Manager",
     "description": "A tool to help content team to maintain pills in the Parking drawer",
     "version": "0.2.0",
+    "author": "Lamberto Fichera <fichera.lamberto@gmail.com>",
     "main": "app/index.js",
     "repository": {
-      "user": "n2o1988",
-      "repo": "ryr-pills-manager",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/n2o1988/ryr-pills-manager/tarball/master",
-      "clone_url": "https://github.com/n2o1988/ryr-pills-manager",
-      "https_url": "https://github.com/n2o1988/ryr-pills-manager",
-      "travis_url": "https://travis-ci.org/n2o1988/ryr-pills-manager",
-      "zip_url": "https://github.com/n2o1988/ryr-pills-manager/archive/master.zip",
-      "api_url": "https://api.github.com/repos/n2o1988/ryr-pills-manager"
+      "type": "git",
+      "url": "git+https://github.com/n2o1988/ryr-pills-manager.git"
     },
     "keywords": [
       "pills",
@@ -104,6 +96,9 @@
       "png": "assets/boilerplate.png"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/n2o1988/ryr-pills-manager/issues"
+    },
     "homepage": "https://github.com/n2o1988/ryr-pills-manager#readme",
     "scripts": {
       "postinstall": "npm run app-install && npm run electron-version && npm run rebuild",
@@ -183,5 +178,6 @@
   "filename": "n2o1988___ryr-pills-manager.json",
   "sourceRepo": "appelgriebsch/pouchdb-app",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:53.868Z"
+  "lastFetchedAt": "2017-05-04T20:24:53.868Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:35.636Z"
 }

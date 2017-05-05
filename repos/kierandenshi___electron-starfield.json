@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/kierandenshi/electron-starfield",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kierandenshi/electron-starfield.git"
+    },
+    "author": "kierandenshi@mac.com",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     },
@@ -106,5 +110,6 @@
   },
   "filename": "kierandenshi___electron-starfield.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:56.827Z"
+  "lastFetchedAt": "2017-05-04T19:31:56.827Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:13.617Z"
 }

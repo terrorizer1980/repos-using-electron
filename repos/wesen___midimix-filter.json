@@ -81,8 +81,15 @@
       "start": "electron index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/wesen/midimix-filter",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/wesen/midimix-filter.git"
+    },
+    "author": "Manuel Odendahl",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wesen/midimix-filter/issues"
+    },
     "homepage": "https://github.com/wesen/midimix-filter#readme"
   },
   "packageStatus": 200,
@@ -110,5 +117,6 @@
   },
   "filename": "wesen___midimix-filter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:24:14.921Z"
+  "lastFetchedAt": "2017-05-04T05:24:14.921Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:11.961Z"
 }

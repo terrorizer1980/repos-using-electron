@@ -74,7 +74,10 @@
       "start": "electron main.js",
       "dedupe-infusion": "node -e \"require('dedupe-infusion')();\""
     },
-    "repository": "https://github.com/gpii/gpii-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gpii/gpii-electron.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -117,5 +120,6 @@
   },
   "filename": "sgithens___electron-gpii.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:26.901Z"
+  "lastFetchedAt": "2017-05-04T13:05:26.901Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:13.891Z"
 }

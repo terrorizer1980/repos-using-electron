@@ -73,11 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/jajool/OTS-OPC",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jajool/OTS-OPC.git"
+    },
     "keywords": [
       "opc client",
       "electron"
     ],
+    "author": "Ahmadf",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -112,5 +116,6 @@
   },
   "filename": "jajool___OTS-OPC.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:47:41.018Z"
+  "lastFetchedAt": "2017-05-04T20:47:41.018Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:05.465Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js "
     },
-    "repository": "https://github.com/augustogoncalves/personal-assistant",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/augustogoncalves/personal-assistant"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Augusto Goncalves",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/augustogoncalves/personal-assistant/issues"
+    },
     "homepage": "https://github.com/augustogoncalves/personal-assistant",
     "devDependencies": {
       "electron-prebuilt": "^0.36.5"
@@ -117,5 +124,6 @@
   },
   "filename": "augustogoncalves___personal-assistant.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:30.188Z"
+  "lastFetchedAt": "2017-05-04T20:01:30.188Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:01.019Z"
 }

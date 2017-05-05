@@ -65,6 +65,10 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": {
+      "name": "Jerry-Hong",
+      "email": "s6323859@hotmail.com"
+    },
     "license": "ISC",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -188,5 +192,6 @@
   "svnUrl": "https://github.com/Jerry-Hong/make-friend-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:42:58.417Z"
+  "lastFetchedAt": "2017-05-04T20:42:58.417Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:24.756Z"
 }

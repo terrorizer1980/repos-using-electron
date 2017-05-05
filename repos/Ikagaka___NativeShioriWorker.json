@@ -112,8 +112,15 @@
       "uglify-js": "^2.7.0",
       "worker-client-server": "^0.3.1"
     },
+    "author": {
+      "name": "narazaka",
+      "url": "http://narazaka.net/"
+    },
     "license": "MIT",
-    "repository": "https://github.com/Ikagaka/NativeShioriWorkerClient",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Ikagaka/NativeShioriWorkerClient.git"
+    },
     "devDependencies": {
       "babel-cli": "^6.11.4",
       "browserfs": "^0.5.12",
@@ -163,5 +170,6 @@
   },
   "filename": "Ikagaka___NativeShioriWorker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:31:08.073Z"
+  "lastFetchedAt": "2017-05-04T15:31:08.073Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:11.652Z"
 }

@@ -80,12 +80,16 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/Weasle/atomic-stream-player",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Weasle/atomic-stream-player.git"
+    },
     "keywords": [
       "Electron",
       "Google Music",
       "Amazon Prime Music"
     ],
+    "author": "Florian Sonnenburg",
     "license": "MIT",
     "build": {
       "appId": "de.weasle.asp",
@@ -126,5 +130,6 @@
   },
   "filename": "Weasle___atomic-stream-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:36.064Z"
+  "lastFetchedAt": "2017-05-04T20:18:36.064Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:42.391Z"
 }

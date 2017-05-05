@@ -80,7 +80,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/paulot/gengarjs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/paulot/gengarjs.git"
+    },
     "keywords": [
       "electronjs",
       "electron",
@@ -95,7 +98,11 @@
       "debug": "^2.2.0",
       "electron-prebuilt": "^0.35.1"
     },
+    "author": "Paulo Tanaka",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/paulot/gengarjs/issues"
+    },
     "homepage": "https://github.com/paulot/gengarjs#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.1.18"
@@ -126,5 +133,6 @@
   },
   "filename": "paulot___gengarjs-proto.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:36:59.417Z"
+  "lastFetchedAt": "2017-05-04T20:36:59.417Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:06.103Z"
 }

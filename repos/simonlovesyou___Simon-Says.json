@@ -56,6 +56,9 @@
     "version": "1.0.0",
     "description": "A filesystem directory sorter that will sort the contents of a folder dependent on user specified rules.",
     "main": "client/logic/index.js",
+    "directories": {
+      "test": "test"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.33.6",
       "grunt": "^0.4.5",
@@ -74,11 +77,18 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/simonlovesyou/simon-says",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/simonlovesyou/simon-says.git"
+    },
     "keywords": [
       "fs"
     ],
+    "author": "simonlovesyou",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/simonlovesyou/Simon-says/issues"
+    },
     "homepage": "https://github.com/simonlovesyou/Simon-says"
   },
   "packageStatus": 200,
@@ -126,5 +136,6 @@
   "svnUrl": "https://github.com/simonlovesyou/Simon-Says",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:39:39.585Z"
+  "lastFetchedAt": "2017-05-04T17:39:39.585Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:42.387Z"
 }

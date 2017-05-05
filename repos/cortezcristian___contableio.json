@@ -78,6 +78,11 @@
     "description": "Software Contable",
     "license": "MIT",
     "repository": "cortezcristian/contableio",
+    "author": {
+      "name": "Cristian Cortez",
+      "email": "cortez.cristian@gmail.com",
+      "url": "contable.io"
+    },
     "scripts": {
       "test": "mocha",
       "start": "electron .",
@@ -147,5 +152,6 @@
   },
   "filename": "cortezcristian___contableio.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:21:55.609Z"
+  "lastFetchedAt": "2017-05-04T18:21:55.609Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:28.382Z"
 }

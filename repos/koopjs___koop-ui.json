@@ -69,6 +69,10 @@
     "name": "koop-ui",
     "description": "An experimental user interface for Koop",
     "version": "1.0.0",
+    "author": "Chris Helm",
+    "bugs": {
+      "url": "https://github.com/koopjs/koop-ui/issues"
+    },
     "devDependencies": {
       "bower": "^1.5.2",
       "electron-prebuilt": "^0.30.0",
@@ -84,7 +88,10 @@
     ],
     "license": "Apache-2.0",
     "main": "main.js",
-    "repository": "https://github.com/koopjs/koop-ui",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:koopjs/koop-ui.git"
+    },
     "scripts": {
       "postinstall": "bower install",
       "sass": "node-sass styles/main.scss -o ./styles/css --output-style=compressed",
@@ -136,5 +143,6 @@
   },
   "filename": "koopjs___koop-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:50:58.769Z"
+  "lastFetchedAt": "2017-05-04T17:50:58.769Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:01.910Z"
 }

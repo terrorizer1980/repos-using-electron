@@ -80,17 +80,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "mon0051",
-      "repo": "ConsoleFace",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mon0051/ConsoleFace/tarball/master",
-      "clone_url": "https://github.com/mon0051/ConsoleFace",
-      "https_url": "https://github.com/mon0051/ConsoleFace",
-      "travis_url": "https://travis-ci.org/mon0051/ConsoleFace",
-      "zip_url": "https://github.com/mon0051/ConsoleFace/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mon0051/ConsoleFace"
+      "type": "git",
+      "url": "git+https://github.com/mon0051/ConsoleFace.git"
     },
     "keywords": [
       "Electron",
@@ -115,6 +106,7 @@
       "systemjs": "0.19.27",
       "zone.js": "^0.6.12"
     },
+    "author": "Andrew Monteith",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     }
@@ -145,5 +137,6 @@
   "filename": "mon0051___ConsoleFace.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:47.738Z"
+  "lastFetchedAt": "2017-05-04T14:52:47.738Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:24.041Z"
 }

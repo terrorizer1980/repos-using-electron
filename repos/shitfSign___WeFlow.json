@@ -186,17 +186,8 @@
       }
     },
     "repository": {
-      "user": "weixin",
-      "repo": "WeFlow",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/weixin/WeFlow/tarball/master",
-      "clone_url": "https://github.com/weixin/WeFlow",
-      "https_url": "https://github.com/weixin/WeFlow",
-      "travis_url": "https://travis-ci.org/weixin/WeFlow",
-      "zip_url": "https://github.com/weixin/WeFlow/archive/master.zip",
-      "api_url": "https://api.github.com/repos/weixin/WeFlow"
+      "type": "git",
+      "url": "https://github.com/weixin/WeFlow"
     },
     "keywords": [
       "Electron",
@@ -204,7 +195,11 @@
       "F2E",
       "GUI"
     ],
+    "author": "Littledu,Zedhuang",
     "license": "MIT License",
+    "bugs": {
+      "url": "https://github.com/weixin/WeFlow/issues"
+    },
     "homepage": "https://github.com/weixin/WeFlow#readme",
     "devDependencies": {
       "electron-builder": "^4.2.2",
@@ -296,5 +291,6 @@
   "filename": "shitfSign___WeFlow.json",
   "sourceRepo": "weixin/WeFlow",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:40.535Z"
+  "lastFetchedAt": "2017-05-04T20:43:40.535Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:39.517Z"
 }

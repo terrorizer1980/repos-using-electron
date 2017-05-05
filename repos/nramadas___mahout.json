@@ -76,7 +76,10 @@
       "start-app": "electron ./dist"
     },
     "preferGlobal": true,
-    "repository": "https://github.com/nramadas/mahout",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nramadas/mahout.git"
+    },
     "keywords": [
       "react",
       "redux",
@@ -87,7 +90,11 @@
     "bin": {
       "mahout": "./appStart.js"
     },
+    "author": "nramadas",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nramadas/mahout/bugs"
+    },
     "homepage": "https://github.com/nramadas/mahout#readme",
     "dependencies": {
       "electron": "^1.4.0",
@@ -129,5 +136,6 @@
   },
   "filename": "nramadas___mahout.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:17:59.040Z"
+  "lastFetchedAt": "2017-05-04T05:17:59.040Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:34.840Z"
 }

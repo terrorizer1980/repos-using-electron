@@ -74,8 +74,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -196,5 +207,6 @@
   "svnUrl": "https://github.com/sibsfinx/iq300-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:06:22.351Z"
+  "lastFetchedAt": "2017-05-04T18:06:22.351Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:21.380Z"
 }

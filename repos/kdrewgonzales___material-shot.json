@@ -50,10 +50,12 @@
     "version": "0.1.0",
     "main": "./main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "build": "electron-packager . MaterialShot --all"
     },
     "devDependencies": {
-      "electron-prebuilt": "^1.3.3"
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.3.5"
     },
     "dependencies": {
       "jquery": "^3.1.0",
@@ -106,5 +108,6 @@
   "svnUrl": "https://github.com/kdrewgonzales/material-shot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:42:59.086Z"
+  "lastFetchedAt": "2017-05-04T16:42:59.086Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:30.037Z"
 }

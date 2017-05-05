@@ -128,11 +128,26 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -254,5 +269,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:22.319Z"
+  "lastFetchedAt": "2017-05-04T17:37:22.319Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:48.697Z"
 }

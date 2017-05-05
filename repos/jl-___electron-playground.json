@@ -69,6 +69,7 @@
     "name": "electron-playground",
     "version": "0.0.0",
     "description": "Electron Playgrouond",
+    "author": "zhengjianglong <jlz.cius@gmail.com>",
     "private": true,
     "scripts": {
       "unit": "cross-env NODE_ENV=test karma start test/unit/karma.conf.entry.js",
@@ -181,5 +182,6 @@
   },
   "filename": "jl-___electron-playground.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:30.656Z"
+  "lastFetchedAt": "2017-05-04T15:29:30.656Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:26.720Z"
 }

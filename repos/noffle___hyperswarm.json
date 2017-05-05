@@ -49,7 +49,9 @@
     "name": "hyperswarm",
     "description": "create a webrtc swarm around a hyperlog",
     "version": "0.0.0",
-    "repository": "https://github.com/noffle/hyperswarm",
+    "repository": {
+      "url": "git://github.com/noffle/hyperswarm.git"
+    },
     "main": "index.js",
     "scripts": {
       "test": "electron-spawn test/*.js"
@@ -114,5 +116,6 @@
   "svnUrl": "https://github.com/noffle/hyperswarm",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:20:54.177Z"
+  "lastFetchedAt": "2017-05-04T20:20:54.177Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:45.902Z"
 }

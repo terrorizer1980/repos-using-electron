@@ -75,7 +75,14 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": {
+      "name": "Masato Urai",
+      "url": "https://github.com/uraway"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/uraway/push-notification-demo/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -200,5 +207,6 @@
   "svnUrl": "https://github.com/uraway/push-notification-demo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:32:48.607Z"
+  "lastFetchedAt": "2017-05-04T17:32:48.607Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:19.877Z"
 }

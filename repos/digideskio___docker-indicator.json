@@ -187,6 +187,7 @@
       "build": "npm run pack && node_modules/.bin/electron-builder \"dist/docker-indicator-darwin-x64/docker-indicator.app\" --platform=osx --out=\"dist\" --config=packager.json",
       "start": "electron ."
     },
+    "author": "Kyle Hornberg <kyle.hornberg@gmail.com>",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -235,5 +236,6 @@
   "svnUrl": "https://github.com/digideskio/docker-indicator",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:30:53.012Z"
+  "lastFetchedAt": "2017-05-04T05:30:53.012Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:21.540Z"
 }

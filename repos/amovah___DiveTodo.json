@@ -74,7 +74,7 @@
   "packageJSON": {
     "name": "divetodo",
     "productName": "DiveTodo",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "description": "Design your days and dive to them",
     "main": "build/index.js",
     "scripts": {
@@ -84,9 +84,19 @@
       "build-linux": "./node_modules/electron-packager/cli.js . --platform=linux --arch=x64 --prune",
       "build-windows": "echo \"I hate windows, I love Linux. Use Linux instead.\""
     },
-    "repository": "https://github.com/amovah/divetodo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amovah/divetodo.git"
+    },
+    "author": "Ali Movahedi",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amovah/divetodo/issues"
+    },
     "homepage": "https://github.com/amovah/divetodo#readme",
+    "directories": {
+      "lib": "src"
+    },
     "engines": {
       "node": ">=0.12.0"
     },
@@ -141,5 +151,6 @@
   },
   "filename": "amovah___DiveTodo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:14.910Z"
+  "lastFetchedAt": "2017-05-04T14:53:14.910Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:01.207Z"
 }

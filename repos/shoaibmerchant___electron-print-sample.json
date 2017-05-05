@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/shoaibmerchant/electron-print-sample",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shoaibmerchant/electron-print-sample.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shoaibmerchant/electron-print-sample/issues"
+    },
     "homepage": "https://github.com/shoaibmerchant/electron-print-sample#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.27.1"
@@ -111,5 +118,6 @@
   },
   "filename": "shoaibmerchant___electron-print-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:34.887Z"
+  "lastFetchedAt": "2017-05-04T15:22:34.887Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:34.384Z"
 }

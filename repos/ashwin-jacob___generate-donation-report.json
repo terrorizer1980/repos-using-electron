@@ -73,13 +73,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/ashwin-jacob/generate-donation-report",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ashwin-jacob/generate-donation-report.git"
+    },
     "keywords": [
       "Electron",
       "church",
       "windows"
     ],
+    "author": "ashwin-jacob",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ashwin-jacob/generate-donation-report/issues"
+    },
     "homepage": "https://github.com/ashwin-jacob/generate-donation-report",
     "dependencies": {
       "electron": "^1.4.1",
@@ -112,5 +119,6 @@
   },
   "filename": "ashwin-jacob___generate-donation-report.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:57.026Z"
+  "lastFetchedAt": "2017-05-04T19:51:57.026Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:48.752Z"
 }

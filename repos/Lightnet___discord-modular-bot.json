@@ -75,6 +75,7 @@
     "name": "discord-modular-bot",
     "version": "0.0.1",
     "description": "A minimal bot application",
+    "author": "Lightnet",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
@@ -97,6 +98,9 @@
     },
     "devDependencies": {
       "electron": "^1.4.1"
+    },
+    "directories": {
+      "test": "test"
     }
   },
   "packageStatus": 200,
@@ -124,5 +128,6 @@
   },
   "filename": "Lightnet___discord-modular-bot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:30.873Z"
+  "lastFetchedAt": "2017-05-04T20:12:30.873Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:20.508Z"
 }

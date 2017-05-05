@@ -59,6 +59,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "173210",
     "license": "AGPL-3.0",
     "devDependencies": {
       "cesium": "^1.20.0",
@@ -67,7 +68,13 @@
       "htmlparser2": "^3.9.0"
     },
     "dependencies": {},
-    "repository": "https://github.com/173210/wincesium",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/173210/wincesium.git"
+    },
+    "bugs": {
+      "url": "https://github.com/173210/wincesium/issues"
+    },
     "homepage": "https://github.com/173210/wincesium#readme"
   },
   "packageStatus": 200,
@@ -115,5 +122,6 @@
   },
   "filename": "173210___wincesium.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:55.931Z"
+  "lastFetchedAt": "2017-05-04T14:20:55.931Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:58.250Z"
 }

@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "SpotiWeb",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "Electron wrapper of play.spotify.com",
     "main": "main.js",
     "scripts": {
@@ -61,7 +61,7 @@
       "package": "npm run package:mac && npm run package:win && npm run package:linux",
       "package:mac": "electron-packager ./ SpotiWeb --platform=darwin --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(win32.dll|linux.so)\"",
       "package:win": "electron-packager ./ SpotiWeb --platform=win32 --arch=ia32 --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|linux.so)\"",
-      "package:linux": "electron-packager ./ SpotiWeb --platform=linux --arch=all --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|win32.dll)\"",
+      "package:linux": "electron-packager ./ SpotiWeb --platform=linux --arch=x64 --version=1.1.1 --app-version=$npm_package_version --build-version=$npm_package_version --out=./releases --asar=true --asar-unpack-dir=plugins --overwrite=true --icon=./assets/icon.icns --ignore=\"releases|dist|npm-debug.log|node_modules/(electron-(builder|packager|prebuilt)|devtron)|plugins/PepperFlashPlayer-(mac.plugin|win32.dll)\"",
       "zip:mac": "./mac.sh",
       "zip:win": "./win.sh",
       "zip:linux": "./linux.sh",
@@ -71,12 +71,16 @@
       "build:linux": "npm run package:linux && npm run zip:linux",
       "build": "npm run build:mac && npm run build:win && npm run build:linux"
     },
-    "repository": "https://github.com/tomasmcm/SpotiWeb",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomasmcm/SpotiWeb.git"
+    },
     "keywords": [
       "Electron",
       "Spotify",
       "Web"
     ],
+    "author": "tomasmcm",
     "license": "CC0-1.0",
     "homepage": "https://github.com/tomasmcm/SpotiWeb",
     "dependencies": {
@@ -136,5 +140,6 @@
   "svnUrl": "https://github.com/tomasmcm/SpotiWeb",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:20:08.326Z"
+  "lastFetchedAt": "2017-05-04T21:20:08.326Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:38.362Z"
 }

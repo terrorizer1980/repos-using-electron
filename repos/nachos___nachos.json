@@ -78,12 +78,19 @@
     "pre-commit": [
       "lint"
     ],
-    "repository": "https://github.com/nachos/nachos",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nachos/nachos.git"
+    },
     "keywords": [
       "launcher",
       "desktop"
     ],
+    "author": "Nachos team",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nachos/nachos/issues"
+    },
     "homepage": "https://github.com/nachos/nachos",
     "devDependencies": {
       "del": "^2.0.2",
@@ -175,5 +182,6 @@
   "svnUrl": "https://github.com/nachos/nachos",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:18:51.103Z"
+  "lastFetchedAt": "2017-05-04T21:18:51.103Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:19.890Z"
 }

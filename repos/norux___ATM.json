@@ -61,8 +61,15 @@
       "preinstall": "npm install -g gulp",
       "postinstall": "bower install"
     },
-    "repository": "https://github.com/norux/ATM",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/norux/ATM.git"
+    },
+    "author": "The ATM Team",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/norux/ATM/issues"
+    },
     "homepage": "https://github.com/norux/ATM#readme",
     "devDependencies": {
       "bower": "1.7.9",
@@ -118,5 +125,6 @@
   "svnUrl": "https://github.com/norux/ATM",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:27:23.351Z"
+  "lastFetchedAt": "2017-05-04T05:27:23.351Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:45.720Z"
 }

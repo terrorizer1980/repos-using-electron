@@ -97,15 +97,22 @@
       "htmlvalidator": "html-validator --file=index.html",
       "test": "snyk test"
     },
-    "repository": "https://github.com/MichMich/MagicMirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
+    },
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
+    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -155,5 +162,6 @@
   },
   "filename": "AgoraBinaria___MagicMirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:00.167Z"
+  "lastFetchedAt": "2017-05-04T20:56:00.167Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:10.562Z"
 }

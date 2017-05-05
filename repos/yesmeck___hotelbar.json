@@ -77,19 +77,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "yesmeck",
-      "repo": "hotelbar",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/yesmeck/hotelbar/tarball/master",
-      "clone_url": "https://github.com/yesmeck/hotelbar",
-      "https_url": "https://github.com/yesmeck/hotelbar",
-      "travis_url": "https://travis-ci.org/yesmeck/hotelbar",
-      "zip_url": "https://github.com/yesmeck/hotelbar/archive/master.zip",
-      "api_url": "https://api.github.com/repos/yesmeck/hotelbar"
+      "type": "git",
+      "url": "git+https://github.com/yesmeck/hotelbar.git"
+    },
+    "author": {
+      "name": "Wei Zhu",
+      "email": "yesmeck@gmail.com",
+      "url": "https://github.com/yesmeck"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yesmeck/hotelbar/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -225,5 +224,6 @@
   "svnUrl": "https://github.com/yesmeck/hotelbar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:04:20.871Z"
+  "lastFetchedAt": "2017-05-03T20:04:20.871Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:22.470Z"
 }

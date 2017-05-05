@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/dgrt/dive",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dgrt/dive.git"
+    },
     "keywords": [
       "Electron",
       "dgrt",
       "dive"
     ],
+    "author": "dgrt",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/dgrt/dive/issues"
+    },
     "homepage": "https://github.com/dgrt/dive",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -119,5 +126,6 @@
   },
   "filename": "dgrt___submarine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:28.384Z"
+  "lastFetchedAt": "2017-05-04T20:22:28.384Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:58.623Z"
 }

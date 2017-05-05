@@ -87,7 +87,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Quevent/Quevent",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Quevent/Quevent.git"
+    },
     "keywords": [
       "quevent",
       "TODO",
@@ -95,7 +98,11 @@
       "stack",
       "event"
     ],
+    "author": "Moulindra Muchumari",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Quevent/Quevent/issues"
+    },
     "homepage": "https://github.com/Quevent/Quevent/blob/master/README.md",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -126,5 +133,6 @@
   },
   "filename": "Quevent___Quevent.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:54.015Z"
+  "lastFetchedAt": "2017-05-04T21:12:54.015Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:42.890Z"
 }

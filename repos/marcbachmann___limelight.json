@@ -61,7 +61,11 @@
       "clean": "rm -Rf './Limelight.app'",
       "sign": "codesign --deep -s 'Code Signing' -f 'Limelight.app'"
     },
-    "repository": "https://github.com/marcbachmann/limelight",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marcbachmann/limelight.git"
+    },
+    "author": "Marc Bachmann",
     "dependencies": {
       "async": "^1.4.2",
       "dark-mode": "^1.0.2",
@@ -89,7 +93,13 @@
         "Limelight.app/**"
       ]
     },
-    "homepage": "https://github.com/marcbachmann/limelight#readme"
+    "bugs": {
+      "url": "https://github.com/marcbachmann/limelight/issues"
+    },
+    "homepage": "https://github.com/marcbachmann/limelight#readme",
+    "directories": {
+      "doc": "docs"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/marcbachmann/limelight",
@@ -136,5 +146,6 @@
   },
   "filename": "marcbachmann___limelight.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:49.907Z"
+  "lastFetchedAt": "2017-05-04T14:25:49.907Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:04.659Z"
 }

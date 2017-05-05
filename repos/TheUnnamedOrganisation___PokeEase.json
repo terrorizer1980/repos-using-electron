@@ -201,5 +201,38 @@
   "networkCount": 59,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T15:26:55.423Z"
+  "lastFetchedAt": "2017-05-04T15:26:55.423Z",
+  "packageJSON": {
+    "name": "RocketBot2",
+    "version": "2.9.1",
+    "description": "RocketBot2 (PokeEase Fork)",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "postinstall": "install-app-deps",
+      "pack": "build --dir",
+      "dist": "build --win --x64",
+      "dist32": "build --win --ia32",
+      "zip": "build --win zip --x64",
+      "zip32": "build --win zip --ia32"
+    },
+    "repository": "https://github.com/TheUnnamedOrganisation/RocketBot",
+    "keywords": [
+      "rocketbot2"
+    ],
+    "author": "RocketBot2 Team",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.6.2",
+      "electron-builder": "^16.6.1",
+      "electron-packager": "^8.6.0",
+      "extract-zip": "1.6.0"
+    },
+    "build": {
+      "appId": "RocketBot2",
+      "productName": "RocketBot2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:48:21.040Z"
 }

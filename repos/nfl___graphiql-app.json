@@ -194,8 +194,12 @@
       "package": "node package.js --name=GraphiQL",
       "package-all": "node package.js --name=GraphiQL --all"
     },
+    "author": "Adam Miskiewicz <adam.skevy@mac.com> (http://github.com/skevy)",
     "license": "MIT",
     "homepage": "https://github.com/skevy/graphiql-app",
+    "bugs": {
+      "url": "https://github.com/skevy/graphiql-app/issues"
+    },
     "dependencies": {
       "graphiql": "0.2.3",
       "graphql": "^0.4.2",
@@ -280,5 +284,6 @@
   "svnUrl": "https://github.com/nfl/graphiql-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:21:27.647Z"
+  "lastFetchedAt": "2017-05-04T15:21:27.647Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:03.492Z"
 }

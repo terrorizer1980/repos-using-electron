@@ -87,5 +87,54 @@
   "networkCount": 0,
   "subscribersCount": 5,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:09:03.962Z"
+  "lastFetchedAt": "2017-05-04T05:09:03.962Z",
+  "packageJSON": {
+    "name": "keymetrics-widget",
+    "version": "1.0.0",
+    "description": "NodeJS monitoring",
+    "main": "main.js",
+    "scripts": {
+      "dev": "webpack --watch",
+      "start": "./node_modules/electron/cli.js .",
+      "build": "build --linux deb tar.xz --win --macos --x64 --ia32"
+    },
+    "repository": "https://github.com/keymetrics/keymetrics-widget.git",
+    "keywords": [
+      "pm2",
+      "keymetrics",
+      "km",
+      "monitoring",
+      "widget",
+      "nodejs"
+    ],
+    "author": {
+      "name": "Jimi M",
+      "email": "contact@keymetrics.io",
+      "url": "https://keymetrics.io"
+    },
+    "license": "MIT",
+    "devDependencies": {
+      "babel": "^6.23.0",
+      "babel-core": "^6.23.1",
+      "babel-loader": "^6.3.1",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-preset-react": "^6.23.0",
+      "electron": "^1.4.15",
+      "webpack": "^1.14.0"
+    },
+    "dependencies": {
+      "chart.js": "^2.5.0",
+      "keymetrics-api": "^1.3.0",
+      "menubar": "^5.2.3",
+      "open": "0.0.5",
+      "react": "^15.4.2",
+      "react-chartjs-2": "^2.0.0",
+      "react-dom": "^15.4.2"
+    },
+    "build": {
+      "appId": "io.keymetrics.keymetrics-widget"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T21:58:01.577Z"
 }

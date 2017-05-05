@@ -82,12 +82,19 @@
       "run": "electron .",
       "pack": "electron-packager ./ QPlayer --out ./OutApp --overwrite --all --icon=./view/img/ico.icns"
     },
-    "repository": "https://github.com/NHibiki/QPlayer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NHibiki/QPlayer.git"
+    },
     "keywords": [
       "NHibiki",
       "QPlayer"
     ],
+    "author": "NHibiki",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/NHibiki/QPlayer/issues"
+    },
     "homepage": "https://github.com/NHibiki/QPlayer#readme",
     "dependencies": {
       "electron": "^1.4.11",
@@ -122,5 +129,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:23:54.038Z"
+  "lastFetchedAt": "2017-05-04T21:23:54.038Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:59.070Z"
 }

@@ -78,14 +78,21 @@
       "dev": "electron . --enable-logging",
       "dist:win": "build -w"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-builder": "^5.25.1",
@@ -127,5 +134,6 @@
   },
   "filename": "jurruh___RS232-Comtest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:51:55.894Z"
+  "lastFetchedAt": "2017-05-04T20:51:55.894Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:50.608Z"
 }

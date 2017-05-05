@@ -70,7 +70,10 @@
     "version": "3.0.0",
     "description": "high level way to create menubar desktop applications with atom-shell",
     "main": "index.js",
-    "repository": "https://github.com/maxogden/menubar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maxogden/menubar.git"
+    },
     "scripts": {
       "test": "standard"
     },
@@ -83,7 +86,13 @@
       "mac",
       "app"
     ],
+    "author": {
+      "name": "max ogden"
+    },
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/maxogden/menubar/issues"
+    },
     "homepage": "https://github.com/maxogden/menubar",
     "dependencies": {
       "electron-positioner": "^2.0.1",
@@ -93,12 +102,20 @@
       "standard": "^3.2.1"
     },
     "gitHead": "5b3556711ff099b9b80298d51bf9a4b22cb081e8",
-    "_resolved": "https://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz",
-    "lastPublisher": {
+    "_id": "menubar@3.0.0",
+    "_shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
+    "_from": "menubar@*",
+    "_npmVersion": "2.14.2",
+    "_nodeVersion": "4.0.0",
+    "_npmUser": {
       "name": "maxogden",
       "email": "max@maxogden.com"
     },
-    "owners": [
+    "dist": {
+      "shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
+      "tarball": "http://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz"
+    },
+    "maintainers": [
       {
         "name": "maxogden",
         "email": "max@maxogden.com"
@@ -116,46 +133,8 @@
         "email": "jens@jensl.se"
       }
     ],
-    "other": {
-      "_from": "menubar@*",
-      "_id": "menubar@3.0.0",
-      "_nodeVersion": "4.0.0",
-      "_npmUser": {
-        "name": "maxogden",
-        "email": "max@maxogden.com"
-      },
-      "_npmVersion": "2.14.2",
-      "_shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
-      "author": {
-        "name": "max ogden"
-      },
-      "bugs": {
-        "url": "https://github.com/maxogden/menubar/issues"
-      },
-      "directories": {},
-      "dist": {
-        "shasum": "7bc92949f392f1af6f72aa1dbc4778dde17b6de0",
-        "tarball": "http://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz"
-      },
-      "maintainers": [
-        {
-          "name": "maxogden",
-          "email": "max@maxogden.com"
-        },
-        {
-          "name": "fritzy",
-          "email": "fritzy@netflint.net"
-        },
-        {
-          "name": "fabien-d",
-          "email": "fabien.doiron@gmail.com"
-        },
-        {
-          "name": "jenslind",
-          "email": "jens@jensl.se"
-        }
-      ]
-    }
+    "directories": {},
+    "_resolved": "https://registry.npmjs.org/menubar/-/menubar-3.0.0.tgz"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -182,5 +161,6 @@
   },
   "filename": "sithika-a___testRepo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:14.179Z"
+  "lastFetchedAt": "2017-05-04T05:19:14.179Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:19.470Z"
 }

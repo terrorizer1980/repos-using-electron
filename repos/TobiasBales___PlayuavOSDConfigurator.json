@@ -54,11 +54,19 @@
   "packageJSON": {
     "name": "playuav-osd-configurator",
     "productName": "PlayUAVOSDConfigurator",
-    "version": "0.10.0",
+    "version": "0.12.1",
     "description": "A simple cross platform tool to configure the PlayUAV OSD",
     "main": "main.js",
+    "bugs": {
+      "url": "https://github.com/TobiasBales/PlayuavOSDConfigurator/issues"
+    },
     "contributors": [],
     "license": "MIT",
+    "author": {
+      "name": "Tobias Bales",
+      "email": "tobias.bales@gmail.com",
+      "url": "https://github.com/TobiasBales"
+    },
     "scripts": {
       "build": "webpack webpack.config.js",
       "coveralls": "cross-env NODE_ENV=test istanbul-coveralls",
@@ -95,7 +103,10 @@
         ]
       }
     },
-    "repository": "https://github.com/TobiasBales/PlayuavOSDConfigurator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TobiasBales/PlayuavOSDConfigurator"
+    },
     "keywords": [],
     "dependencies": {
       "bluebird": "2.9.33",
@@ -242,5 +253,6 @@
   },
   "filename": "TobiasBales___PlayuavOSDConfigurator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:34.427Z"
+  "lastFetchedAt": "2017-05-04T17:48:34.427Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:33.569Z"
 }

@@ -179,22 +179,17 @@
       "electron-rebuild": "lib/cli.js"
     },
     "repository": {
-      "user": "paulcbetts",
-      "repo": "electron-rebuild",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/paulcbetts/electron-rebuild/tarball/master",
-      "clone_url": "https://github.com/paulcbetts/electron-rebuild",
-      "https_url": "https://github.com/paulcbetts/electron-rebuild",
-      "travis_url": "https://travis-ci.org/paulcbetts/electron-rebuild",
-      "zip_url": "https://github.com/paulcbetts/electron-rebuild/archive/master.zip",
-      "api_url": "https://api.github.com/repos/paulcbetts/electron-rebuild"
+      "type": "git",
+      "url": "https://github.com/paulcbetts/electron-rebuild"
     },
     "keywords": [
       "electron"
     ],
+    "author": "Paul Betts <paul@paulbetts.org>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/paulcbetts/electron-rebuild/issues"
+    },
     "homepage": "https://github.com/paulcbetts/electron-rebuild",
     "dependencies": {
       "babel-runtime": "^5.8.20",
@@ -261,5 +256,6 @@
   "svnUrl": "https://github.com/ruanhaiqiang/electron-rebuild",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:21:39.220Z"
+  "lastFetchedAt": "2017-05-04T20:21:39.220Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:52.812Z"
 }

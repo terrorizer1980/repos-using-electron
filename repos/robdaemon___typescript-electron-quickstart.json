@@ -80,17 +80,8 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -99,7 +90,11 @@
       "tutorial",
       "TypeScript"
     ],
+    "author": "Robert Roland",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/robdaemon/typescript-electron-quickstart/issues"
+    },
     "homepage": "https://github.com/robdaemon/typescript-electron-quickstart#readme",
     "devDependencies": {
       "browserify": "^13.0.1",
@@ -139,5 +134,6 @@
   "filename": "robdaemon___typescript-electron-quickstart.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:43:00.089Z"
+  "lastFetchedAt": "2017-05-04T16:43:00.089Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:31.938Z"
 }

@@ -50,7 +50,11 @@
     "description": "Write and deploy applications for the Mazda Infotainment System",
     "version": "0.0.4",
     "homepage": "http://flyandi.github.io/mazda-custom-application-sdk/",
-    "repository": "https://github.com/flyandi/mazda-custom-application-sdk",
+    "author": "Andy (flyandi) <flyandi@yahoo.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/flyandi/mazda-custom-application-sdk"
+    },
     "devDependencies": {
       "del": "~2.2.0",
       "gulp": "^3.9.1",
@@ -122,5 +126,6 @@
   "svnUrl": "https://github.com/flyandi/mazda-custom-application-sdk",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:06:09.959Z"
+  "lastFetchedAt": "2017-05-03T20:06:09.959Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:59.647Z"
 }

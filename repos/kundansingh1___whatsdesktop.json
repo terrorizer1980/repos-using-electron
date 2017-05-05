@@ -193,6 +193,11 @@
     "description": "Unofficial WhatsApp app",
     "license": "MIT",
     "repository": "mawie81/whatsdesktop",
+    "author": {
+      "name": "Marcel Wiehle",
+      "email": "marcel@wiehle.me",
+      "url": "http://marcel.wiehle.me"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -279,5 +284,6 @@
   },
   "sourceRepo": "mawie81/whatsdesktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:13.896Z"
+  "lastFetchedAt": "2017-05-04T20:03:13.896Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:23.958Z"
 }

@@ -97,19 +97,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "myapos",
-      "repo": "ClientManager",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/myapos/ClientManager/tarball/master",
-      "clone_url": "https://github.com/myapos/ClientManager",
-      "https_url": "https://github.com/myapos/ClientManager",
-      "travis_url": "https://travis-ci.org/myapos/ClientManager",
-      "zip_url": "https://github.com/myapos/ClientManager/archive/master.zip",
-      "api_url": "https://api.github.com/repos/myapos/ClientManager"
+      "type": "git",
+      "url": "git+https://github.com/myapos/ClientManager"
+    },
+    "author": {
+      "name": "Myron Apostolakis",
+      "email": "myapos@gmail.com",
+      "url": "https://github.com/myapos/ClientManager"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/myapos/ClientManager"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -224,5 +223,6 @@
   "filename": "myapos___ClientManager.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:08.235Z"
+  "lastFetchedAt": "2017-05-04T20:49:08.235Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:54.933Z"
 }

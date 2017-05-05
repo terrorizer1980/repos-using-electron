@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -111,5 +118,6 @@
   },
   "filename": "aatecey___svn-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:12:50.669Z"
+  "lastFetchedAt": "2017-05-04T15:12:50.669Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:14.790Z"
 }

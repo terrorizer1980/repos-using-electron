@@ -75,7 +75,10 @@
       "ipfsd-ctl": "0.1.11",
       "multiaddr": "^0.1.2"
     },
-    "repository": "https://github.com/ipfs/electron-ipfs",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ipfs/electron-ipfs"
+    },
     "devDependencies": {
       "pre-commit": "^1.0.6",
       "standard": "^3.3.2"
@@ -90,8 +93,15 @@
     "keywords": [
       "ipfs"
     ],
+    "author": "Matt Bell <mappum@gmail.com>",
     "license": "MIT",
-    "homepage": "https://github.com/ipfs/node-ipfs-api"
+    "bugs": {
+      "url": "https://github.com/ipfs/node-ipfs-api/issues"
+    },
+    "homepage": "https://github.com/ipfs/node-ipfs-api",
+    "directories": {
+      "example": "examples"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -118,5 +128,6 @@
   },
   "filename": "krl___electron-ipfs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:56.615Z"
+  "lastFetchedAt": "2017-05-04T19:30:56.615Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:47.637Z"
 }

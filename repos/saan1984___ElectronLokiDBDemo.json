@@ -73,7 +73,11 @@
     },
     "version": "0.0.1",
     "description": "ElectronLokiDBDemo",
-    "repository": "https://github.com/saan1984/ElectronLokiDBDemo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronLokiDBDemo.git"
+    },
+    "author": "Sandeep Kumar Patel",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -109,5 +113,6 @@
   },
   "filename": "saan1984___ElectronLokiDBDemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:25.132Z"
+  "lastFetchedAt": "2017-05-04T20:48:25.132Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:36.231Z"
 }

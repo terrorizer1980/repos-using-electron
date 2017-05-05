@@ -60,11 +60,17 @@
       "start": "electron main.js",
       "build": "sh bin/build.sh"
     },
-    "repository": "https://github.com/ksky521/register",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ksky521/register.git"
+    },
     "keywords": [
       "Electron"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ksky521/register/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
     },
@@ -121,5 +127,6 @@
   "svnUrl": "https://github.com/ksky521/register",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:51:49.935Z"
+  "lastFetchedAt": "2017-05-04T19:51:49.935Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:30.168Z"
 }

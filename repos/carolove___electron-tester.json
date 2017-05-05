@@ -75,13 +75,17 @@
     "name": "electron-tester",
     "description": "Electron tester Kit.",
     "version": "1.2.1",
+    "author": "akabeko",
     "license": "MIT",
     "main": "main.js",
     "keywords": [
       "Electron",
       "tester"
     ],
-    "repository": "https://github.com/akabekobeko/examples-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/akabekobeko/examples-electron.git"
+    },
     "babel": {
       "presets": [
         "es2015",
@@ -183,5 +187,6 @@
   },
   "filename": "carolove___electron-tester.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:31:16.085Z"
+  "lastFetchedAt": "2017-05-04T18:31:16.085Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:45.939Z"
 }

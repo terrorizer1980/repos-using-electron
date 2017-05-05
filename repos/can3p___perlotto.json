@@ -82,8 +82,15 @@
         "category": "public.app-category.music"
       }
     },
-    "repository": "https://github.com/can3p/perlotto",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/can3p/perlotto.git"
+    },
+    "author": "Dmitry Petrov",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/can3p/perlotto/issues"
+    },
     "homepage": "https://github.com/can3p/perlotto#readme",
     "devDependencies": {
       "electron-builder": "^6.6.1",
@@ -115,5 +122,6 @@
   },
   "filename": "can3p___perlotto.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:52:01.142Z"
+  "lastFetchedAt": "2017-05-04T20:52:01.142Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:21.904Z"
 }

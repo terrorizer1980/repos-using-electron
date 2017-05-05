@@ -46,6 +46,10 @@
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
+    "author": {
+      "email": "milesoldenburg@gmail.com",
+      "name": "Miles Oldenburg"
+    },
     "description": "DartMatrix: Open source darts companion and statistics app",
     "devDependencies": {
       "appdmg": "^0.3.5",
@@ -124,5 +128,6 @@
   },
   "filename": "milesoldenburg___dartmatrix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:55.066Z"
+  "lastFetchedAt": "2017-05-04T21:24:55.066Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:14.167Z"
 }

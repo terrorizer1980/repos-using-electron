@@ -80,15 +80,22 @@
     "scripts": {
       "start": "electron js/electron.js"
     },
-    "repository": "https://github.com/MichMich/MagicMirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
+    },
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
+    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "grunt": "0.4.0",
@@ -137,5 +144,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:08.893Z"
+  "lastFetchedAt": "2017-05-04T05:16:08.893Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:22.120Z"
 }

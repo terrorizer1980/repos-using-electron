@@ -58,6 +58,11 @@
     "description": "My excellent app",
     "license": "MIT",
     "repository": "vdemedes/npm-search",
+    "author": {
+      "name": "vdemedes",
+      "email": "vdemedes@gmail.com",
+      "url": "github.com/vdemedes"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -146,5 +151,6 @@
   "svnUrl": "https://github.com/vadimdemedes/npm-search",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:19:59.197Z"
+  "lastFetchedAt": "2017-05-04T18:19:59.197Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:54.081Z"
 }

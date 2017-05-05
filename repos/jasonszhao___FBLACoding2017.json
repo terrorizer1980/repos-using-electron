@@ -67,5 +67,52 @@
   "networkCount": 0,
   "subscribersCount": 3,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:33:46.966Z"
+  "lastFetchedAt": "2017-05-04T20:33:46.966Z",
+  "packageJSON": {
+    "name": "fun-operations-management-console",
+    "version": "0.1.0",
+    "description": "FBLA Coding and Programming event submission",
+    "main": "src/app/main.js",
+    "scripts": {
+      "test": "echo \"assertEquals(projectStarted.toDays(), 6) ✓ passed\"",
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "author": "jasonszhao",
+    "license": "none",
+    "dependencies": {
+      "axios": "^0.15.3",
+      "electron-json-storage": "^3.0.1",
+      "lodash": "^4.17.4",
+      "material-design-icons": "^3.0.1",
+      "path": "^0.12.7",
+      "url": "^0.11.0",
+      "vue": "^2.1.10",
+      "vue-multiselect": "^2.0.0-beta.13",
+      "vue-router": "^2.2.0"
+    },
+    "devDependencies": {
+      "electron-builder": "^13.3.2",
+      "electron-connect": "^0.6.1",
+      "gulp": "^3.9.1",
+      "electron": "^1.4.15"
+    },
+    "build": {
+      "appId": "com.codesmoothie.coding",
+      "files": [
+        "src/**/*",
+        "node_modules/**/*",
+        "package.json"
+      ],
+      "mac": {
+        "category": "Education"
+      },
+      "win": {
+        "iconUrl": ""
+      }
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:15:03.313Z"
 }

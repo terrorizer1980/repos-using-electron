@@ -93,8 +93,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Mission-Minecraft/Launcher",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Mission-Minecraft/Launcher.git"
+    },
+    "author": "Mission Minecraft Team",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/Mission-Minecraft/Launcher/issues"
+    },
     "homepage": "https://github.com/Mission-Minecraft/Launcher",
     "devDependencies": {
       "del": "^2.2.2",
@@ -130,5 +137,6 @@
   },
   "filename": "Mission-Minecraft___Launcher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:51:11.331Z"
+  "lastFetchedAt": "2017-05-04T14:51:11.331Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:18.512Z"
 }

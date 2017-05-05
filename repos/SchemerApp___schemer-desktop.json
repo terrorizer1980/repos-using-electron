@@ -87,5 +87,31 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:51:23.386Z"
+  "lastFetchedAt": "2017-05-04T14:51:23.386Z",
+  "packageJSON": {
+    "name": "schemer",
+    "version": "0.1.0",
+    "description": "The electron app for turning your database schema into an ER diagram",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/SchemerApp/schemer-desktop",
+    "keywords": [
+      "Electron",
+      "schema",
+      "Polymer",
+      "database",
+      "sql",
+      "entity",
+      "relationship",
+      "diagram"
+    ],
+    "devDependencies": {
+      "electron": "~1.6.2",
+      "mysqlspec": "SchemerApp/node-mysqlspec"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:31:04.256Z"
 }

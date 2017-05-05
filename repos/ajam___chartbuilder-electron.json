@@ -193,6 +193,11 @@
     "license": "MIT",
     "main": "index.js",
     "repository": "mhkeller/chartbuilder-electron",
+    "author": {
+      "name": "mhkeller",
+      "email": "michael.keller@gmail.com",
+      "url": "github.com/mhkeller"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -265,5 +270,6 @@
   "svnUrl": "https://github.com/ajam/chartbuilder-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:21:49.189Z"
+  "lastFetchedAt": "2017-05-04T14:21:49.189Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:41.060Z"
 }

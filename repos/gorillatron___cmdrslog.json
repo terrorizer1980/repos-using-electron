@@ -74,6 +74,7 @@
       "start": "babel-node index.js --stage=0",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Jørn Andre Tangen, CMDR Blytz",
     "license": "MIT",
     "devDependencies": {
       "babel": "^5.8.21",
@@ -115,5 +116,6 @@
   },
   "filename": "gorillatron___cmdrslog.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:27:08.418Z"
+  "lastFetchedAt": "2017-05-04T15:27:08.418Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:00.200Z"
 }

@@ -80,10 +80,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/heidgera/photoBoard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/heidgera/photoBoard.git"
+    },
     "keywords": [
       "pictures"
     ],
+    "author": "ajhg",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -114,5 +118,6 @@
   },
   "filename": "heidgera___keyProgrammer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:03.534Z"
+  "lastFetchedAt": "2017-05-04T05:05:03.534Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:27.634Z"
 }

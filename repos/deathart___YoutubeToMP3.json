@@ -73,30 +73,42 @@
   "status": 200,
   "packageJSON": {
     "name": "YoutubeToMP3",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Download video from Youtube & Convert to mp3 format & Playlist",
     "main": "app/main.js",
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/deathart/YoutubeToMP3",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/deathart/YoutubeToMP3.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Deathart",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/deathart/YoutubeToMP3/issues"
+    },
     "homepage": "https://github.com/deathart/YoutubeToMP3#readme",
     "dependencies": {
+      "async": "2.1.5",
       "easy-config-json": "0.0.1",
-      "fluent-ffmpeg": "git://github.com/fluent-ffmpeg/node-fluent-ffmpeg",
       "jquery": "^3.1.1",
       "translatejson": "^1.1.7",
+      "which": "^1.2.12",
       "youtube-dl": "^1.11.1"
     },
     "devDependencies": {
-      "electron": "^1.4.4"
+      "electron": "^1.4.15",
+      "electron-packager": "^8.5.2",
+      "jsdoc": "latest",
+      "mocha": "latest",
+      "should": "latest"
     }
   },
   "packageStatus": 200,
@@ -124,5 +136,6 @@
   },
   "filename": "deathart___YoutubeToMP3.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:37:26.327Z"
+  "lastFetchedAt": "2017-05-04T05:37:26.327Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:05.366Z"
 }

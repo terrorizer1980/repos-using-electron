@@ -59,6 +59,11 @@
     "description": "Basic cross platform desktop application built with SailsJS, AngularJS and Electron",
     "main": "./app/app.js",
     "license": "MIT",
+    "author": {
+      "name": "Jose Antonio Sanchez",
+      "email": "jasancheg@email.com",
+      "url": "inideaweb.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -71,7 +76,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "grunt build"
     },
-    "repository": "https://github.com/jasancheg/sails-angular-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jasancheg/sails-angular-electron.git"
+    },
     "keywords": [
       "SailsJS",
       "AngularJS",
@@ -79,6 +87,9 @@
       "Rest API",
       "UI"
     ],
+    "bugs": {
+      "url": "https://github.com/jasancheg/sails-angular-electron/issues"
+    },
     "homepage": "https://github.com/jasancheg/sails-angular-electron#readme",
     "devDependencies": {
       "electron-packager": "^5.0.1",
@@ -166,5 +177,6 @@
   },
   "filename": "jasancheg___sails-angular-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:34.220Z"
+  "lastFetchedAt": "2017-05-04T14:25:34.220Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:11.981Z"
 }

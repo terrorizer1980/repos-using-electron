@@ -106,13 +106,20 @@
         "react"
       ]
     },
-    "repository": "https://github.com/AidanNichol/stedwards-booking-system",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AidanNichol/stedwards-booking-system.git"
+    },
     "keywords": [
       "express",
       "webpack",
       "node"
     ],
+    "author": "Aidan Nichol",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AidanNichol/stedwards-booking-system/issues"
+    },
     "homepage": "https://github.com/AidanNichol/stedwards-booking-system",
     "dependencies": {
       "bootstrap": "^3.3.7",
@@ -251,5 +258,6 @@
   "svnUrl": "https://github.com/AidanNichol/stedwards-booking-system",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:30:25.273Z"
+  "lastFetchedAt": "2017-05-04T21:30:25.273Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:45.781Z"
 }

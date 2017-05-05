@@ -87,12 +87,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/uc2pac/npm-ui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/uc2pac/npm-ui.git"
+    },
     "keywords": [
       "npm",
       "ui"
     ],
+    "author": "yaroslav.basovskyy",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/uc2pac/npm-ui/issues"
+    },
     "homepage": "https://github.com/uc2pac/npm-ui#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.0",
@@ -124,5 +131,6 @@
   },
   "filename": "NPM-UI___npm-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:40:32.547Z"
+  "lastFetchedAt": "2017-05-04T16:40:32.547Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:52.984Z"
 }

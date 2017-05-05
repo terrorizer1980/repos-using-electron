@@ -68,13 +68,17 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "Karl Shifflett",
     "homepage": "http://oceanware.wordpress.com",
     "license": "MIT",
     "keywords": [
       "electron",
       "mongodb"
     ],
-    "repository": "https://github.com/Oceanware/demoelectronmongodb",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Oceanware/demoelectronmongodb.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.2.5"
     },
@@ -127,5 +131,6 @@
   "svnUrl": "https://github.com/Oceanware/DemoElectronMongoDB",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:45:59.787Z"
+  "lastFetchedAt": "2017-05-04T20:45:59.787Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:11.439Z"
 }

@@ -67,14 +67,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/nyampass/robip",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nyampass/robip.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/nyampass/robip/issues"
+    },
     "homepage": "https://github.com/nyampass/robip",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -128,5 +135,6 @@
   "svnUrl": "https://github.com/nyampass/robip",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:44:56.619Z"
+  "lastFetchedAt": "2017-05-04T16:44:56.619Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:02.155Z"
 }

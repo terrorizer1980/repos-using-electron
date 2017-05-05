@@ -92,6 +92,11 @@
     "description": "One place to coordinate support for your loved one.",
     "license": "MIT",
     "repository": "HACC2016/amazingfriends",
+    "author": {
+      "name": "Brandon Baris",
+      "email": "brandonbaris@gmail.com",
+      "url": "amazingfriends.airshipcms.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -152,5 +157,6 @@
   },
   "filename": "HACC2016___amazingfriends.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:32:24.884Z"
+  "lastFetchedAt": "2017-05-04T17:32:24.884Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:30.428Z"
 }

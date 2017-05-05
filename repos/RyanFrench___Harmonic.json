@@ -56,6 +56,7 @@
     "version": "0.1.0",
     "description": "A cross platform desktop client for google play music - built with electron",
     "main": "main.js",
+    "author": "Ryan French <http://ryanfrench.co>",
     "scripts": {
       "start": "electron .",
       "debug": "NODE_ENV=debug electron ."
@@ -110,5 +111,6 @@
   "svnUrl": "https://github.com/RyanFrench/Harmonic",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:39:30.826Z"
+  "lastFetchedAt": "2017-05-04T20:39:30.826Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:50.968Z"
 }

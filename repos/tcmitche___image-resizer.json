@@ -74,6 +74,7 @@
       "start": "electron main.js",
       "build": "./node_modules/babel-cli/bin/babel.js src -d dist"
     },
+    "author": "Travis Mitchell",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.4.0",
@@ -115,5 +116,6 @@
   },
   "filename": "tcmitche___image-resizer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:19.570Z"
+  "lastFetchedAt": "2017-05-04T15:13:19.570Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:13.522Z"
 }

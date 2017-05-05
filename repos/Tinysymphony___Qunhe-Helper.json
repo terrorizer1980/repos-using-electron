@@ -81,23 +81,15 @@
       "test": "electron ."
     },
     "repository": {
-      "user": "Tinysymphony",
-      "repo": "Qunhe-Helper",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Tinysymphony/Qunhe-Helper/tarball/master",
-      "clone_url": "https://github.com/Tinysymphony/Qunhe-Helper",
-      "https_url": "https://github.com/Tinysymphony/Qunhe-Helper",
-      "travis_url": "https://travis-ci.org/Tinysymphony/Qunhe-Helper",
-      "zip_url": "https://github.com/Tinysymphony/Qunhe-Helper/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Tinysymphony/Qunhe-Helper"
+      "type": "git",
+      "url": "git+https://github.com/Tinysymphony/Qunhe-Helper.git"
     },
     "keywords": [
       "Electron",
       "Qunhe",
       "Guozi"
     ],
+    "author": "guozi",
     "license": "MIT",
     "homepage": "https://guozi.wytiny.com",
     "devDependencies": {
@@ -141,5 +133,6 @@
   "filename": "Tinysymphony___Qunhe-Helper.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:11.198Z"
+  "lastFetchedAt": "2017-05-04T21:19:11.198Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:04.984Z"
 }

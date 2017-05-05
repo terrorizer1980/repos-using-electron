@@ -74,14 +74,21 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/phreakradio/Fire-Saga",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/phreakradio/Fire-Saga.git"
+    },
     "keywords": [
       "fire",
       "emblem",
       "online",
       "saga"
     ],
+    "author": "phreakradio",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/phreakradio/Fire-Saga/issues"
+    },
     "devDependencies": {
       "electron": "^1.4.4"
     },
@@ -112,5 +119,6 @@
   },
   "filename": "phreakradio___Fire-Saga.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:51:47.814Z"
+  "lastFetchedAt": "2017-05-04T20:51:47.814Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:23.812Z"
 }

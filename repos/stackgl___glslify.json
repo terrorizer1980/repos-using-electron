@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "glslify",
-    "version": "6.0.1",
+    "version": "6.0.2",
     "description": "A node.js-style module system for GLSL!",
     "main": "index.js",
     "bin": {
@@ -115,7 +115,10 @@
       "tape": "^3.5.0",
       "uniq": "^1.0.1"
     },
-    "repository": "https://github.com/stackgl/glslify",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/stackgl/glslify.git"
+    },
     "keywords": [
       "ecosystem:stackgl",
       "browserify-transform",
@@ -130,7 +133,10 @@
     "browser": {
       "index.js": "./browser.js"
     },
-    "homepage": "https://github.com/stackgl/glslify"
+    "homepage": "https://github.com/stackgl/glslify",
+    "bugs": {
+      "url": "https://github.com/stackgl/glslify/issues"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/stackgl/glslify",
@@ -177,5 +183,6 @@
   },
   "filename": "stackgl___glslify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:32:56.580Z"
+  "lastFetchedAt": "2017-05-04T17:32:56.580Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:26.544Z"
 }

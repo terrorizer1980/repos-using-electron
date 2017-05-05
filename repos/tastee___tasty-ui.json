@@ -191,19 +191,14 @@
       "test": "jest --verbose"
     },
     "repository": {
-      "user": "tastee",
-      "repo": "tastee-ui",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/tastee/tastee-ui/tarball/master",
-      "clone_url": "https://github.com/tastee/tastee-ui",
-      "https_url": "https://github.com/tastee/tastee-ui",
-      "travis_url": "https://travis-ci.org/tastee/tastee-ui",
-      "zip_url": "https://github.com/tastee/tastee-ui/archive/master.zip",
-      "api_url": "https://api.github.com/repos/tastee/tastee-ui"
+      "type": "git",
+      "url": "git+https://github.com/tastee/tastee-ui.git"
     },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tastee/tastee-ui/issues"
+    },
     "jest": {
       "scriptPreprocessor": "node_modules/babel-jest",
       "unmockedModulePathPatterns": [
@@ -306,5 +301,6 @@
   "filename": "tastee___tasty-ui.json",
   "sourceRepo": "stalina/tasty-ui",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:38.870Z"
+  "lastFetchedAt": "2017-05-04T05:11:38.870Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:53.192Z"
 }

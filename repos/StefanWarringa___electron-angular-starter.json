@@ -81,6 +81,7 @@
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
       "electron": "electron app"
     },
+    "author": "Stefan Warringa",
     "license": "MIT",
     "devDependencies": {
       "angular2-template-loader": "^0.4.0",
@@ -131,5 +132,6 @@
   },
   "filename": "StefanWarringa___electron-angular-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:55.709Z"
+  "lastFetchedAt": "2017-05-04T05:22:55.709Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:09.251Z"
 }

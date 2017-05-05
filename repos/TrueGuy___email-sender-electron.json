@@ -54,19 +54,11 @@
       "start": "electron bootstrapper.js"
     },
     "repository": {
-      "user": "TrueGuy",
-      "repo": "email-sender-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/TrueGuy/email-sender-electron/tarball/master",
-      "clone_url": "https://github.com/TrueGuy/email-sender-electron",
-      "https_url": "https://github.com/TrueGuy/email-sender-electron",
-      "travis_url": "https://travis-ci.org/TrueGuy/email-sender-electron",
-      "zip_url": "https://github.com/TrueGuy/email-sender-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/TrueGuy/email-sender-electron"
+      "type": "git",
+      "url": "git+https://github.com/TrueGuy/email-sender-electron.git"
     },
     "keywords": [],
+    "author": "George Fedoseev",
     "devDependencies": {
       "babel": "^6.5.2",
       "babel-cli": "^6.7.7",
@@ -136,5 +128,6 @@
   "filename": "TrueGuy___email-sender-electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:54.978Z"
+  "lastFetchedAt": "2017-05-04T20:57:54.978Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:00.122Z"
 }

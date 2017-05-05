@@ -78,7 +78,11 @@
     "version": "0.2.3",
     "description": "Swimmy is simple GUI tool for manage status of docker-compose",
     "license": "MIT",
-    "repository": "https://github.com/mitsu-ksgr/swimmy",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mitsu-ksgr/swimmy.git"
+    },
+    "author": "mitsu-ksgr <mitsu.naka.dev@gmail.com>",
     "homepage": "https://github.com/mitsu-ksgr/swimmy/blob/develop/README.md",
     "main": "./src/main.js",
     "dependencies": {
@@ -136,5 +140,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:31.412Z"
+  "lastFetchedAt": "2017-05-04T17:48:31.412Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:07.569Z"
 }

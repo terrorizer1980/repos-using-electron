@@ -60,6 +60,7 @@
       "start": "electron ./src/run.js",
       "postinstall": "typings install"
     },
+    "author": "Ed Hinchliffe",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
       "gulp": "^3.9.1",
@@ -125,5 +126,6 @@
   "svnUrl": "https://github.com/redders6600/electron-angular2",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:18:46.785Z"
+  "lastFetchedAt": "2017-05-04T20:18:46.785Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:10.421Z"
 }

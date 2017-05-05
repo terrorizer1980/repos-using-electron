@@ -76,12 +76,19 @@
       "babel-preset-react": "^6.5.0",
       "electron-prebuilt": "^1.2.2"
     },
-    "repository": "https://github.com/zhouanbo/pipelinedog",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zhouanbo/pipelinedog.git"
+    },
     "keywords": [
       "PipelineDog",
       "pipeline"
     ],
+    "author": "Anbo Zhou",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/zhouanbo/pipelinedog/issues"
+    },
     "homepage": "https://github.com/zhouanbo/pipelinedog#readme"
   },
   "packageStatus": 200,
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/zhouanbo/pipelinedog",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:06:43.981Z"
+  "lastFetchedAt": "2017-05-04T20:06:43.981Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:45.575Z"
 }

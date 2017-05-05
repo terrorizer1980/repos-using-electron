@@ -86,7 +86,10 @@
     "files": [
       "lib"
     ],
-    "repository": "https://github.com/schickling/calculate-size",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/schickling/calculate-size.git"
+    },
     "keywords": [
       "font",
       "calculate",
@@ -95,7 +98,11 @@
       "height",
       "dimension"
     ],
+    "author": "Johannes Schickling <schickling.j@gmail.com> (https://github.com/schickling)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/schickling/calculate-size/issues"
+    },
     "homepage": "https://github.com/schickling/calculate-size",
     "devDependencies": {
       "ava": "^0.17.0",
@@ -128,5 +135,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:04.718Z"
+  "lastFetchedAt": "2017-05-04T19:38:04.718Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:01.132Z"
 }

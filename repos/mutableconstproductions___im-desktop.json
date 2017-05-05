@@ -87,14 +87,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/mutableconst/supernova-desktop-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mutableconst/supernova-desktop-electron.git"
+    },
     "keywords": [
       "Electron",
       "text"
     ],
+    "author": "Mutable Const Productions",
     "license": "",
     "dependencies": {
       "angular2": "2.0.0-beta.3"
+    },
+    "bugs": {
+      "url": "https://github.com/mutableconst"
     },
     "homepage": "https://mutableconst.com",
     "devDependencies": {
@@ -126,5 +133,6 @@
   },
   "filename": "mutableconstproductions___im-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:16:56.184Z"
+  "lastFetchedAt": "2017-05-04T18:16:56.184Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:18.299Z"
 }

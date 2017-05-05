@@ -75,13 +75,20 @@
       "package-mac": "electron-packager ./ Quake --platform=darwin --arch=x64 --overwrite",
       "package-win": "electron-packager ./ Quake --platform=win32 --arch=x64 --overwrite"
     },
-    "repository": "https://github.com/dcinzona/electron-quake",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dcinzona/electron-quake.git"
+    },
     "keywords": [
       "Electron",
       "quake",
       "earthquake"
     ],
+    "author": "Gustavo Tandeciarz",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dcinzona/electron-quake/issues"
+    },
     "homepage": "https://github.com/dcinzona/electron-quake#readme",
     "dependencies": {
       "gulp-typescript": "^2.12.2",
@@ -118,5 +125,6 @@
   },
   "filename": "dcinzona___electron-quake.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:35.163Z"
+  "lastFetchedAt": "2017-05-04T05:02:35.163Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:34.813Z"
 }

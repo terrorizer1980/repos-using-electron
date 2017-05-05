@@ -192,6 +192,9 @@
       "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*Test.js')"
     },
     "repository": "brave/browser-laptop",
+    "author": {
+      "name": "Brave Developers <support@brave.com>"
+    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -211,6 +214,9 @@
       }
     ],
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/bbondy/electron-sample/issues"
+    },
     "homepage": "https://github.com/bbondy/electron-sample#readme",
     "dependencies": {
       "abp-filter-parser-cpp": "1.1.x",
@@ -339,5 +345,6 @@
   "filename": "rwaldron___browser-laptop.json",
   "sourceRepo": "brave/browser-laptop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:31.268Z"
+  "lastFetchedAt": "2017-05-04T14:26:31.268Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:24.566Z"
 }

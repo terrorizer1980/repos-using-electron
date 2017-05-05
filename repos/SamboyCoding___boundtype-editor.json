@@ -67,5 +67,26 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T04:57:53.934Z"
+  "lastFetchedAt": "2017-05-04T04:57:53.934Z",
+  "packageJSON": {
+    "name": "boundtype-editor",
+    "version": "1.0.0",
+    "description": "Collaborative Text editor.",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.6.2",
+      "jquery": "^3.2.1",
+      "mime-types": "^2.1.15",
+      "read-text-file": "^1.0.2",
+      "socket.io": "^1.7.3"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:09:19.253Z"
 }

@@ -74,9 +74,17 @@
   "packageJSON": {
     "name": "electron-installer-redhat",
     "description": "Create a Red Hat package for your Electron app.",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "license": "MIT",
-    "repository": "https://github.com/unindented/electron-installer-redhat",
+    "author": {
+      "name": "Daniel Perez Alvarez",
+      "email": "unindented@gmail.com",
+      "url": "http://unindented.org/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/unindented/electron-installer-redhat.git"
+    },
     "keywords": [
       "electron",
       "redhat"
@@ -96,25 +104,26 @@
       "test": "npm run clean && npm run lint && npm run spec"
     },
     "dependencies": {
-      "asar": "^0.12.0",
-      "async": "^2.0.0",
-      "debug": "^2.2.0",
-      "fs-extra": "^1.0.0",
-      "glob": "^7.0.0",
-      "lodash": "^4.0.1",
+      "asar": "^0.13.0",
+      "async": "^2.1.5",
+      "debug": "^2.6.3",
+      "fs-extra": "^2.1.2",
+      "glob": "^7.1.1",
+      "lodash": "^4.17.4",
+      "parse-author": "^2.0.0",
       "temp": "^0.8.3",
-      "word-wrap": "^1.1.0",
-      "yargs": "^6.0.0"
+      "word-wrap": "^1.2.1",
+      "yargs": "7.0.2"
     },
     "devDependencies": {
-      "chai": "^3.4.1",
-      "eslint": "^3.2.2",
-      "eslint-config-standard": "^6.0.0",
-      "eslint-plugin-promise": "^3.0.0",
-      "eslint-plugin-standard": "^2.0.0",
-      "mocha": "^3.0.0",
-      "retry": "^0.10.0",
-      "rimraf": "^2.5.1"
+      "chai": "^3.5.0",
+      "eslint": "^3.18.0",
+      "eslint-config-standard": "^7.1.0",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^2.1.1",
+      "mocha": "^3.2.0",
+      "retry": "^0.10.1",
+      "rimraf": "^2.6.1"
     }
   },
   "packageStatus": 200,
@@ -142,5 +151,6 @@
   },
   "filename": "unindented___electron-installer-redhat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:17.520Z"
+  "lastFetchedAt": "2017-05-04T15:28:17.520Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:36.300Z"
 }

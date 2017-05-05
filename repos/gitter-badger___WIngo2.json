@@ -72,7 +72,10 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/DevVersion/WIngo2",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DevVersion/WIngo2.git"
+    },
     "keywords": [
       "wingo",
       "wg",
@@ -84,11 +87,15 @@
       "werdenfels",
       "gymnasium"
     ],
+    "author": "WIngo Project <developers@wingo-project.io>",
     "contributors": [
       "Paul Thiel <pa_thiel@t-online.de>",
       "Paul Gschwendtner <paulgschwendtner@me.com>"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DevVersion/WIngo2/issues"
+    },
     "homepage": "https://github.com/DevVersion/WIngo2#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -135,5 +142,6 @@
   },
   "filename": "gitter-badger___WIngo2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:33:45.068Z"
+  "lastFetchedAt": "2017-05-04T19:33:45.068Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:02.464Z"
 }

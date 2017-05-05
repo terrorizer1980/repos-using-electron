@@ -69,6 +69,7 @@
     "name": "todo",
     "version": "0.0.1",
     "description": "Simple TODO application built with Electron and AngularJS.",
+    "author": "Dragos",
     "main": "./config/main.js",
     "scripts": {
       "electron": "electron .",
@@ -112,5 +113,6 @@
   },
   "filename": "Inonut___todo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:48:36.921Z"
+  "lastFetchedAt": "2017-05-04T14:48:36.921Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:23.752Z"
 }

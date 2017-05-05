@@ -188,6 +188,7 @@
       "start": "electron main.js",
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js"
     },
+    "author": "Wern Ancheta",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
       "babel-preset-es2015": "^6.9.0",
@@ -249,5 +250,6 @@
   "svnUrl": "https://github.com/sitepoint-editors/electron-soundcloudplayer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:28:34.720Z"
+  "lastFetchedAt": "2017-05-04T15:28:34.720Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:31.194Z"
 }

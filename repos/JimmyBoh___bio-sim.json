@@ -64,8 +64,15 @@
       "version": "git add -A",
       "postversion": "git push && git push --tags && npm publish"
     },
-    "repository": "https://github.com/JimmyBoh/bio-sim",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JimmyBoh/bio-sim.git"
+    },
+    "author": "Jim Buck <jim@jimmyboh.com>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/JimmyBoh/bio-sim/issues"
+    },
     "homepage": "https://github.com/JimmyBoh/bio-sim#readme",
     "devDependencies": {
       "ava": "^0.15.1",
@@ -142,5 +149,6 @@
   },
   "filename": "JimmyBoh___bio-sim.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:20.254Z"
+  "lastFetchedAt": "2017-05-04T20:02:20.254Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:33.105Z"
 }

@@ -170,21 +170,13 @@
     "version": "0.1.24",
     "description": "Dart Development Compiler",
     "homepage": "https://github.com/dart-lang/dev_compiler",
+    "bugs": "https://github.com/dart-lang/dev_compiler/issues",
     "contributors": {
       "Dart Team": "dev-compiler@dartlang.org"
     },
     "repository": {
-      "user": "dart-lang",
-      "repo": "dev_compiler",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/dart-lang/dev_compiler/tarball/master",
-      "clone_url": "https://github.com/dart-lang/dev_compiler",
-      "https_url": "https://github.com/dart-lang/dev_compiler",
-      "travis_url": "https://travis-ci.org/dart-lang/dev_compiler",
-      "zip_url": "https://github.com/dart-lang/dev_compiler/archive/master.zip",
-      "api_url": "https://api.github.com/repos/dart-lang/dev_compiler"
+      "type": "git",
+      "url": "https://github.com/dart-lang/dev_compiler.git"
     },
     "scripts": {
       "postinstall": "./node_modules/.bin/webdriver-manager update",
@@ -250,5 +242,6 @@
   "svnUrl": "https://github.com/quasi-project/dev_compiler",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:29:17.487Z"
+  "lastFetchedAt": "2017-05-04T20:29:17.487Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:46.686Z"
 }

@@ -65,8 +65,15 @@
       "pack:linux": "node tasks/buildPackage.es5.js",
       "pack:osx": "electron-builder electron/osx/flying-illusion-darwin-x64/flying-illusion.app --platform=osx --out=electron/osx --config=resources/config.json"
     },
-    "repository": "https://github.com/xseignard/flying-illusion",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xseignard/flying-illusion.git"
+    },
+    "author": "Xavier Seignard <xavier.seignard@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/xseignard/flying-illusion/issues"
+    },
     "homepage": "https://github.com/xseignard/flying-illusion#readme",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -175,5 +182,6 @@
   "svnUrl": "https://github.com/xseignard/flying-illusion",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:20:21.398Z"
+  "lastFetchedAt": "2017-05-04T05:20:21.398Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:19.398Z"
 }

@@ -79,8 +79,15 @@
       "build": "webpack --config webpack.config.js & bower install",
       "start": "electron ./"
     },
-    "repository": "https://github.com/se0kjun/kakaotalk-viewer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/se0kjun/kakaotalk-viewer.git"
+    },
+    "author": "Seokjun Hong",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/se0kjun/kakaotalk-viewer/issues"
+    },
     "homepage": "https://github.com/se0kjun/kakaotalk-viewer",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -129,5 +136,6 @@
   },
   "filename": "se0kjun___kakaotalk-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:01.777Z"
+  "lastFetchedAt": "2017-05-04T16:46:01.777Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:03.103Z"
 }

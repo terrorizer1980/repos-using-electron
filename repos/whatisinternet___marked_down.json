@@ -69,13 +69,17 @@
     "name": "MarkedDown",
     "version": "0.1.0",
     "description": "A Markdown live preview",
-    "repository": "https://github.com/whatisinternet/marked_down",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/whatisinternet/marked_down.git"
+    },
     "main": "index.js",
     "scripts": {
       "deploy": "NODE_ENV=production webpack -p --config config/application/webpack.production.config.js",
       "deploy-viewer": "NODE_ENV=production webpack -p --config config/application/webpack.electron.config.js",
       "app": "node ./config/application.js"
     },
+    "author": "whatisinternet",
     "license": "BSD 2-Clause",
     "dependencies": {
       "bemmer-node": "^0.1.2",
@@ -135,5 +139,6 @@
   },
   "filename": "whatisinternet___marked_down.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:22.549Z"
+  "lastFetchedAt": "2017-05-04T20:57:22.549Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:15.230Z"
 }

@@ -75,6 +75,7 @@
       "build": "./node_modules/.bin/webpack",
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
+    "author": "@charlesmoss",
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -123,5 +124,6 @@
   },
   "filename": "CharlesAMoss___Electron_React_Webpack_Sass.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:44.790Z"
+  "lastFetchedAt": "2017-05-04T17:44:44.790Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:03.156Z"
 }

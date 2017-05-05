@@ -55,11 +55,18 @@
       "debug": "electron --debug .",
       "build": "node build.js"
     },
-    "repository": "https://github.com/1000ch/desktop-clock",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/1000ch/desktop-clock.git"
+    },
     "keywords": [
       "electron"
     ],
+    "author": "1000ch",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/1000ch/desktop-clock/issues"
+    },
     "homepage": "https://github.com/1000ch/desktop-clock#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.5",
@@ -114,5 +121,6 @@
   "svnUrl": "https://github.com/1000ch/desktop-clock",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T06:02:18.675Z"
+  "lastFetchedAt": "2017-05-04T06:02:18.675Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:20.202Z"
 }

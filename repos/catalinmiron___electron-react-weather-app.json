@@ -93,7 +93,11 @@
         ]
       }
     },
-    "repository": "https://github.com/catalinmiron/electron-react-weather-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/catalinmiron/electron-react-weather-app"
+    },
+    "author": "Catalin Miron",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.8.0",
@@ -191,5 +195,6 @@
   },
   "filename": "catalinmiron___electron-react-weather-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:51:23.765Z"
+  "lastFetchedAt": "2017-05-04T20:51:23.765Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:29.896Z"
 }

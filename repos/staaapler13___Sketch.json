@@ -81,8 +81,15 @@
       "server": "node server/index.js",
       "3-player-demo": "electron index.js & electron index.js & electron index.js & node server/index.js"
     },
-    "repository": "https://github.com/tworns/CS408Team07",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tworns/CS408Team07.git"
+    },
+    "author": "Team 7",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tworns/CS408Team07/issues"
+    },
     "homepage": "https://github.com/tworns/CS408Team07#readme",
     "dependencies": {
       "angular": "^1.4.9",
@@ -129,5 +136,6 @@
   },
   "filename": "staaapler13___Sketch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:48.340Z"
+  "lastFetchedAt": "2017-05-04T21:00:48.340Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:33.268Z"
 }

@@ -47,14 +47,17 @@
   "status": 200,
   "packageJSON": {
     "name": "MageStudio",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Mage Studio",
     "main": "main.js",
     "scripts": {
       "build": "./scripts/haml.sh",
       "start": "npm run build && electron main.js"
     },
-    "repository": "https://github.com/marco-ponds/WageEditor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marco-ponds/Mage-Studio"
+    },
     "keywords": [
       "Mage",
       "Editor",
@@ -66,8 +69,12 @@
       "Canvas",
       "HTML5"
     ],
+    "author": "Marco Stagni <marcostagni.com>",
     "license": "CC0-1.0",
-    "homepage": "https://github.com/marco-pondst/WageEditor#readme",
+    "bugs": {
+      "url": "https://github.com/marco-ponds/Mage-Studio/issues"
+    },
+    "homepage": "https://github.com/marco-pondst/Mage-Studio#readme",
     "devDependencies": {
       "bower": "*",
       "connect": "*",
@@ -76,6 +83,9 @@
       "ncp": "*",
       "remote": "*",
       "serve-static": "*"
+    },
+    "dependencies": {
+      "mage-engine": "0.0.62"
     }
   },
   "packageStatus": 200,
@@ -123,5 +133,6 @@
   },
   "filename": "marco-ponds___WageEditor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:27.950Z"
+  "lastFetchedAt": "2017-05-04T17:56:27.950Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:11.796Z"
 }

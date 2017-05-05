@@ -79,6 +79,11 @@
     "description": "Quickly jot down notes using Markdown syntax",
     "license": "MIT",
     "repository": "spleenboy/jotkick",
+    "author": {
+      "name": "Barrett Alexander",
+      "email": "barrett@clockwork.net",
+      "url": "spleenboy.com"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -168,5 +173,6 @@
   },
   "filename": "spleenboy___jotkick.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:39.599Z"
+  "lastFetchedAt": "2017-05-04T18:18:39.599Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:48.931Z"
 }

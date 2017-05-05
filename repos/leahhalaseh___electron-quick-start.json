@@ -80,14 +80,21 @@
       "start": "electron main.js",
       "build": "electron-packager --platform=darwin --arch=x64 --version=0.36.3 . electron"
     },
-    "repository": "https://github.com/leahhalaseh/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/leahhalaseh/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -122,5 +129,6 @@
   },
   "filename": "leahhalaseh___electron-quick-start.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:35:03.391Z"
+  "lastFetchedAt": "2017-05-04T20:35:03.391Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:20.964Z"
 }

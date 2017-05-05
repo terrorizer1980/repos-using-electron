@@ -53,8 +53,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/somebody1234/Desktop.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/somebody1234/Desktop.js.git"
+    },
+    "author": "Mars Ultor",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/somebody1234/Desktop.js/issues"
+    },
     "homepage": "https://github.com/somebody1234/Desktop.js#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.2",
@@ -109,5 +116,6 @@
   },
   "filename": "somebody1234___Desktop.js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:46.813Z"
+  "lastFetchedAt": "2017-05-04T14:52:46.813Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:36.974Z"
 }

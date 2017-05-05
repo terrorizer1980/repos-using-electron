@@ -80,7 +80,11 @@
       "start": "unset GTK_IM_MODULE && electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ebrelsford/tablespoon-desktop",
+    "author": "Eric Brelsford <ebrelsford@gmail.com> (http://ebrelsford.github.io/)",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ebrelsford/tablespoon-desktop.git"
+    },
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "0.26.1",
@@ -125,5 +129,6 @@
   },
   "filename": "ebrelsford___tablespoon-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:03.392Z"
+  "lastFetchedAt": "2017-05-04T05:04:03.392Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:47.214Z"
 }

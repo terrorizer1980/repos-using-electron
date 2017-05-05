@@ -60,8 +60,15 @@
       "start": "electron build/main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/rjayatilleka/proton",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rjayatilleka/proton.git"
+    },
+    "author": "Ramith Jayatilleka",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rjayatilleka/proton/issues"
+    },
     "homepage": "https://github.com/rjayatilleka/proton#readme",
     "devDependencies": {
       "babel-eslint": "^4.1.6",
@@ -132,5 +139,6 @@
   "svnUrl": "https://github.com/rjayatilleka/proton",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:59:26.011Z"
+  "lastFetchedAt": "2017-05-04T20:59:26.011Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:04.638Z"
 }

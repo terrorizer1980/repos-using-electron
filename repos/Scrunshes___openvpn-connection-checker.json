@@ -79,7 +79,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Scrunshes/openvpn-connection-checker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Scrunshes/openvpn-connection-checker"
+    },
+    "author": "Scrunshes",
     "license": "GNUv3",
     "devDependencies": {
       "electron-packager": "^7.0.3",
@@ -114,5 +118,6 @@
   },
   "filename": "Scrunshes___openvpn-connection-checker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:11.855Z"
+  "lastFetchedAt": "2017-05-04T04:58:11.855Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:28.667Z"
 }

@@ -87,6 +87,7 @@
       "pack-win32": "electron-packager . EVZ --platform=win32 --arch=ia32 --out=dist/  --icon=app/asset/icons/icon.ico",
       "pack": "npm run clean && npm run pack-osx && npm run pack-win32"
     },
+    "author": "Mars Cheng <mc.return.void@gmail.com>",
     "license": "GPL-2.0",
     "devDependencies": {
       "electron": "^1.4.1",
@@ -133,5 +134,6 @@
   },
   "filename": "marscky___evz.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:35.295Z"
+  "lastFetchedAt": "2017-05-04T21:19:35.295Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:33.528Z"
 }

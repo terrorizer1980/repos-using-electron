@@ -172,6 +172,23 @@
     "description": "Unofficial Facebook Messenger app",
     "license": "MIT",
     "repository": "sindresorhus/caprine",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "maintainers": [
+      {
+        "name": "Oskar Krawczyk",
+        "email": "oskar.krawczyk@gmail.com",
+        "url": "krawczyk.io"
+      },
+      {
+        "name": "Daniel Pham",
+        "email": "pham.dany@gmail.com",
+        "url": "danhp.github.io"
+      }
+    ],
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -184,14 +201,12 @@
       "electron-config": "^0.2.1",
       "electron-context-menu": "^0.6.0",
       "electron-debug": "^1.0.0",
-      "electron-dl": "^1.0.0",
-      "electron-vibrancy": "^0.1.0"
+      "electron-dl": "^1.0.0"
     },
     "devDependencies": {
-      "electron": "^1.4.0",
+      "electron": "^1.4.7",
       "electron-packager": "^8.0.0",
-      "xo": "*",
-      "electron-vibrancy": "^0.1.0"
+      "xo": "*"
     },
     "xo": {
       "esnext": true,
@@ -202,19 +217,7 @@
       "rules": {
         "import/no-extraneous-dependencies": 0
       }
-    },
-    "owners": [
-      {
-        "name": "Oskar Krawczyk",
-        "email": "oskar.krawczyk@gmail.com",
-        "url": "krawczyk.io"
-      },
-      {
-        "name": "Daniel Pham",
-        "email": "pham.dany@gmail.com",
-        "url": "danhp.github.io"
-      }
-    ]
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -262,5 +265,6 @@
   "svnUrl": "https://github.com/oskarkrawczyk/caprine",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:48:53.256Z"
+  "lastFetchedAt": "2017-05-04T14:48:53.256Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:29.082Z"
 }

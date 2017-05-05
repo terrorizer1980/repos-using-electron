@@ -83,6 +83,7 @@
       "pack-darwin": "grunt && electron-packager ./build hello --overwrite=true --out=dist --platform=darwin --arch=x64 --version=1.4.2",
       "start": "grunt && electron ./build/main.js"
     },
+    "author": "",
     "license": "ISC",
     "dependencies": {
       "electron": "^1.4.2",
@@ -123,5 +124,6 @@
   },
   "filename": "erikyuzwa___electron-flash-online-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:25.919Z"
+  "lastFetchedAt": "2017-05-04T14:53:25.919Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:36.171Z"
 }

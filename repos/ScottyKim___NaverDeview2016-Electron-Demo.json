@@ -78,6 +78,11 @@
     "description": "Naver Deivew 2016 Demo 1",
     "license": "MIT",
     "repository": "user/repo",
+    "author": {
+      "name": "Scotty Kim",
+      "email": "scotty@protopie.io",
+      "url": "https://www.protopie.io"
+    },
     "scripts": {
       "start": "electron .",
       "dist": "build"
@@ -124,5 +129,6 @@
   },
   "filename": "ScottyKim___NaverDeview2016-Electron-Demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:52.756Z"
+  "lastFetchedAt": "2017-05-04T21:22:52.756Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:11.212Z"
 }

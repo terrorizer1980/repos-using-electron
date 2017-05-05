@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/Ruin0x11/fleet",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ruin0x11/fleet.git"
+    },
+    "author": {
+      "name": "Ian Pickering",
+      "email": "ipickering2@gmail.com",
+      "url": "https://github.com/Ruin0x11"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Ruin0x11/fleet/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -214,5 +225,6 @@
   },
   "filename": "Ruin0x11___fleet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:43:08.382Z"
+  "lastFetchedAt": "2017-05-04T16:43:08.382Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:38.102Z"
 }

@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron bootstraper.js"
     },
-    "repository": "https://github.com/maxmert/electron-es6-react-bootstrap",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maxmert/electron-es6-react-bootstrap.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -88,7 +91,11 @@
       "boilerplate",
       "tutorial"
     ],
+    "author": "maxmert",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maxmert/electron-es6-react-bootstrap/issues"
+    },
     "homepage": "https://github.com/maxmert/electron-es6-react-bootstrap#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -124,5 +131,6 @@
   },
   "filename": "maxmert___electron-es6-react-bootstrap.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:04.055Z"
+  "lastFetchedAt": "2017-05-04T20:07:04.055Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:28.756Z"
 }

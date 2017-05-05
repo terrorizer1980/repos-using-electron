@@ -185,28 +185,23 @@
     "description": "A GUI for Redis",
     "main": "browser.js",
     "repository": {
-      "user": "cpsubrian",
-      "repo": "redis-explorer",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/cpsubrian/redis-explorer/tarball/master",
-      "clone_url": "https://github.com/cpsubrian/redis-explorer",
-      "https_url": "https://github.com/cpsubrian/redis-explorer",
-      "travis_url": "https://travis-ci.org/cpsubrian/redis-explorer",
-      "zip_url": "https://github.com/cpsubrian/redis-explorer/archive/master.zip",
-      "api_url": "https://api.github.com/repos/cpsubrian/redis-explorer"
+      "type": "git",
+      "url": "git://github.com/cpsubrian/redis-explorer.git"
     },
     "homepage": "https://github.com/cpsubrian/redis-explorer",
     "keywords": [
       "redis"
     ],
+    "author": "Brian Link <cpsubrian@gmail.com>",
     "licenses": [
       {
         "type": "Apache-2.0",
         "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
       }
     ],
+    "bugs": {
+      "url": "https://github.com/cpsubrian/redis-explorer/issues"
+    },
     "scripts": {
       "test": "echo 'No Tests'"
     },
@@ -306,5 +301,6 @@
   "svnUrl": "https://github.com/defconcepts/redis-explorer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:08:49.973Z"
+  "lastFetchedAt": "2017-05-04T18:08:49.973Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:56.878Z"
 }

@@ -64,6 +64,10 @@
     "version": "0.0.0",
     "description": "Small description for pizza-order-app goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -73,6 +77,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -185,5 +190,6 @@
   "svnUrl": "https://github.com/SMUCSM/TMHTEmber",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:25:33.089Z"
+  "lastFetchedAt": "2017-05-04T05:25:33.089Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:56.743Z"
 }

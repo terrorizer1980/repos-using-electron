@@ -75,12 +75,19 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/chinmayakelkar/Music-Player-React",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chinmayakelkar/Music-Player-React.git%22.git"
+    },
     "keywords": [
       "react",
       "music"
     ],
+    "author": "Chinmaya S. Kelkar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chinmayakelkar/Music-Player-React.git%22/issues"
+    },
     "homepage": "https://github.com/chinmayakelkar/Music-Player-React.git%22#readme",
     "dependencies": {
       "axios": "^0.9.1",
@@ -123,5 +130,6 @@
   },
   "filename": "chinmayakelkar___Music-Player-React.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:37:32.642Z"
+  "lastFetchedAt": "2017-05-04T19:37:32.642Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:51.584Z"
 }

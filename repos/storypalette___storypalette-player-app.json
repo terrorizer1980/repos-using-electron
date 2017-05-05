@@ -98,11 +98,18 @@
       "deploy": "npm run version && git push --tags origin master",
       "postinstall": "electron-rebuild"
     },
-    "repository": "https://github.com/storypalette/storypalette-player-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/storypalette/storypalette-player-app"
+    },
     "keywords": [
       "storypalette"
     ],
+    "author": "Unsworn",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/storypalette/storypalette-player-app/issues"
+    },
     "homepage": "https://www.storypalette.net",
     "devDependencies": {
       "electron-packager": "^7.4.0",
@@ -138,5 +145,6 @@
   },
   "filename": "storypalette___storypalette-player-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:35.006Z"
+  "lastFetchedAt": "2017-05-04T20:13:35.006Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:21.781Z"
 }

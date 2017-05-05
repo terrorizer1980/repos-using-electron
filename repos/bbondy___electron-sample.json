@@ -80,8 +80,15 @@
       "test": "standard",
       "pack:osx": "electron-builder \"MyApp-darwin-x64/MyApp.app\" --platform=osx --out=\"dist\" --config=builderConfig.json"
     },
-    "repository": "https://github.com/bbondy/electron-sample",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bbondy/electron-sample.git"
+    },
+    "author": "Brian R. Bondy <netzen@gmail.com> (http://www.brianbondy.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bbondy/electron-sample/issues"
+    },
     "homepage": "https://github.com/bbondy/electron-sample#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.8",
@@ -145,5 +152,6 @@
   },
   "filename": "bbondy___electron-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:51.001Z"
+  "lastFetchedAt": "2017-05-04T15:24:51.001Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:45.558Z"
 }

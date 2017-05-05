@@ -74,14 +74,21 @@
       "start": "electron .",
       "release": "electron-packager . --overwrite --asar=true"
     },
-    "repository": "https://github.com/surajpindoria/electron-phonegap",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/surajpindoria/electron-phonegap.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/surajpindoria/electron-phonegap/issues"
+    },
     "homepage": "https://github.com/surajpindoria/electron-phonegap#readme",
     "dependencies": {
       "phonegap": "^6.3.1"
@@ -116,5 +123,6 @@
   },
   "filename": "surajpindoria___electron-phonegap.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:12.455Z"
+  "lastFetchedAt": "2017-05-04T05:28:12.455Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:41.998Z"
 }

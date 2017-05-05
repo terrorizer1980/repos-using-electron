@@ -58,6 +58,11 @@
     "description": "My majestic app",
     "license": "MIT",
     "repository": "spiermar/mojo",
+    "author": {
+      "name": "Martin Spier",
+      "email": "spiermar@gmail.com",
+      "url": "overloaded.io"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -136,5 +141,6 @@
   "svnUrl": "https://github.com/spiermar/mojo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:53:47.490Z"
+  "lastFetchedAt": "2017-05-04T20:53:47.490Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:30.949Z"
 }

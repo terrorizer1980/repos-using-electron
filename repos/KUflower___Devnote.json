@@ -79,13 +79,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "homepage": "https://github.com/KUFlower",
     "devDependencies": {
@@ -122,5 +126,6 @@
   },
   "filename": "KUflower___Devnote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:56.881Z"
+  "lastFetchedAt": "2017-05-04T20:39:56.881Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:35.846Z"
 }

@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "html-to-article-json",
-    "version": "1.19.2",
+    "version": "1.20.1",
     "description": "Converting HTML to article-json",
     "main": "dist/index.js",
     "scripts": {
@@ -84,8 +84,15 @@
       "open-coverage": "npm run test:coverage && nyc report --reporter=lcov && open coverage/lcov-report/index.html",
       "test:node": "babel-tape-runner test/*-test.js"
     },
-    "repository": "https://github.com/micnews/html-to-article-json",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/micnews/html-to-article-json.git"
+    },
+    "author": "mic.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/micnews/html-to-article-json/issues"
+    },
     "homepage": "https://github.com/micnews/html-to-article-json#readme",
     "devDependencies": {
       "babel-cli": "^6.4.5",
@@ -123,7 +130,11 @@
     },
     "pre-commit": [
       "test:coverage"
-    ]
+    ],
+    "directories": {
+      "example": "example",
+      "test": "test"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/micnews/html-to-article-json",
@@ -170,5 +181,6 @@
   },
   "filename": "micnews___html-to-article-json.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:19.892Z"
+  "lastFetchedAt": "2017-05-04T16:46:19.892Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:54.263Z"
 }

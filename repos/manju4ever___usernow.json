@@ -67,5 +67,35 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:02:40.750Z"
+  "lastFetchedAt": "2017-05-04T21:02:40.750Z",
+  "packageJSON": {
+    "name": "usernow",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "and": "^0.0.0",
+      "concurrently": "^3.4.0",
+      "electron": "^1.6.2",
+      "react-scripts": "0.9.5",
+      "wait-on": "^2.0.2"
+    },
+    "homepage": "./",
+    "dependencies": {
+      "cross-env": "^4.0.0",
+      "ip": "^1.1.5",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2"
+    },
+    "main": "src/electron-starter.js",
+    "scripts": {
+      "react-start": "$(npm bin)/react-scripts start",
+      "electron-start": "$(npm bin)/cross-env ELECTRON_DEV=1 $(npm bin)/electron .",
+      "start": "$(npm bin)/concurrently 'npm run react-start' '$(npm bin)/wait-on http://localhost:3000/ && npm run electron-start'",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:48:37.372Z"
 }

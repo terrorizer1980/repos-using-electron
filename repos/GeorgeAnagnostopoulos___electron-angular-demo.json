@@ -79,12 +79,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "Angular 1.x",
       "demo"
     ],
+    "author": "GJA",
     "license": "CC0-1.0",
     "devDependencies": {
       "bower": "^1.7.9",
@@ -121,5 +125,6 @@
   },
   "filename": "GeorgeAnagnostopoulos___electron-angular-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:23.321Z"
+  "lastFetchedAt": "2017-05-04T18:17:23.321Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:13.065Z"
 }

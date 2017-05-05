@@ -196,19 +196,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "amilajack",
-      "repo": "popcorn-time-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/amilajack/popcorn-time-desktop/tarball/master",
-      "clone_url": "https://github.com/amilajack/popcorn-time-desktop",
-      "https_url": "https://github.com/amilajack/popcorn-time-desktop",
-      "travis_url": "https://travis-ci.org/amilajack/popcorn-time-desktop",
-      "zip_url": "https://github.com/amilajack/popcorn-time-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/amilajack/popcorn-time-desktop"
+      "type": "git",
+      "url": "git+https://github.com/amilajack/popcorn-time-desktop.git"
+    },
+    "author": {
+      "name": "Amila Welihinda",
+      "email": "amilajack@gmail.com",
+      "url": "https://github.com/amilajack"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amilajack/popcorn-time-desktop/issues"
+    },
     "keywords": [
       "popcorn-time",
       "popcorn",
@@ -225,6 +224,10 @@
       "win": {
         "iconUrl": "https://cdn.rawgit.com/amilajack/popcorn-time-desktop/master/app/icons/app.ico"
       }
+    },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
     },
     "homepage": "https://github.com/amilajack/popcorn-time-desktop",
     "devDependencies": {
@@ -404,5 +407,6 @@
   "svnUrl": "https://github.com/zakrid/popcorn-time-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:26:02.657Z"
+  "lastFetchedAt": "2017-05-04T15:26:02.657Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:33.536Z"
 }

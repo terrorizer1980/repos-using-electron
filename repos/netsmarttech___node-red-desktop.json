@@ -87,5 +87,38 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:24:42.034Z"
+  "lastFetchedAt": "2017-05-04T21:24:42.034Z",
+  "packageJSON": {
+    "name": "node-red-desktop",
+    "version": "0.1.0",
+    "description": "Node-RED Desktop Application",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/netsmarttech/node-red-desktop.git"
+    },
+    "keywords": [
+      "node-red",
+      "electron"
+    ],
+    "author": "Guilherme Francescon <guilherme.francescon@netsmarttech.com>",
+    "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/netsmarttech/node-red-desktop/issues"
+    },
+    "homepage": "https://github.com/netsmarttech/node-red-desktop#readme",
+    "dependencies": {
+      "electron": "1.6.2",
+      "node-red": "0.16.2"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.6.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:37:56.678Z"
 }

@@ -58,11 +58,15 @@
       "menubar",
       "song"
     ],
+    "author": "Lim Chee Aun <cheeaun@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "user-home": "~2.0.0"
     },
-    "repository": "https://github.com/cheeaun/kyoku",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cheeaun/kyoku"
+    },
     "devDependencies": {
       "electron-packager": "~7.0.1",
       "electron-prebuilt": "~1.0.1"
@@ -118,5 +122,6 @@
   },
   "filename": "cheeaun___kyoku.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:58.775Z"
+  "lastFetchedAt": "2017-05-04T21:22:58.775Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:33.648Z"
 }

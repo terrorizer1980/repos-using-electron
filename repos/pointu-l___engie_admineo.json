@@ -81,9 +81,16 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.5.0",
@@ -123,5 +130,6 @@
   },
   "filename": "pointu-l___engie_admineo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:01.146Z"
+  "lastFetchedAt": "2017-05-04T17:37:01.146Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:41.869Z"
 }

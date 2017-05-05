@@ -74,6 +74,7 @@
       "start": "webpack && electron .",
       "dev": "webpack-dev-server --hot --inline --progress --colors"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^5.5.8",
@@ -118,5 +119,6 @@
   },
   "filename": "samsmo___misty.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:29:29.989Z"
+  "lastFetchedAt": "2017-05-04T05:29:29.989Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:15.427Z"
 }

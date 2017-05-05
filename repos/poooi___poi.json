@@ -87,45 +87,55 @@
   "status": 200,
   "packageJSON": {
     "name": "poi",
-    "version": "v7.2.0-beta.2",
+    "version": "v7.6.0",
     "description": "poi the KanColle Browser Tool",
     "main": "index.js",
     "scripts": {
-      "test": "./node_modules/.bin/mocha --harmony --compilers coffee:coffee-script/register",
+      "test": "mocha --recursive --harmony --require ./test/babelhook",
       "deploy": "gulp deploy",
       "build": "gulp build && build",
       "build_win": "gulp build && build --win --x64 && build --win --ia32",
       "start": "electron .",
       "start_debug": "electron . --debug",
-      "clean": "gulp clean"
+      "clean": "gulp clean",
+      "lint": "eslint . --ext .es --ext .js --ignore-path .gitignore"
     },
-    "repository": "https://github.com/poooi/poi",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/poooi/poi.git"
+    },
     "keywords": [
       "KanColle",
       "Browser",
       "Tool"
     ],
+    "author": {
+      "name": "Magica",
+      "email": "readme.md@gmail.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/poooi/poi/issues"
+    },
     "homepage": "https://github.com/poooi/poi",
     "dependencies": {
-      "babel-core": "^6.13.2",
+      "babel-core": "^6.23.1",
       "babel-plugin-add-module-exports": "^0.2.1",
-      "babel-plugin-transform-async-to-module-method": "^6.8.0",
-      "babel-preset-es2015-node6": "^0.3.0",
-      "babel-preset-react": "^6.5.0",
-      "babel-preset-stage-0": "^6.5.0",
-      "babel-register": "^6.11.6",
+      "babel-preset-es2017-node7": "^0.5.2",
+      "babel-preset-react": "^6.23.0",
+      "babel-preset-stage-0": "^6.22.0",
+      "babel-register": "^6.23.0",
       "bluebird": "^3.4.0",
       "bootstrap": "^3.3.7",
       "classnames": "^2.2.3",
       "coffee-react": "^5.0.0",
       "coffee-script": "^1.9.3",
       "colors": "^1.1.2",
-      "cson": "^3.0.2",
+      "cson": "^4.0.0",
       "fast-memoize": "^2.0.2",
       "flash-player-loader": "^1.1.1",
-      "font-awesome": "^4.6.0",
-      "fs-extra": "^0.30.0",
+      "font-awesome": "^4.7.0",
+      "fs-extra": "^2.1.2",
       "glob": "^7.0.5",
       "header-case-normalizer": "^1.0.3",
       "i18n-2": "^0.6.3",
@@ -133,46 +143,46 @@
       "jquery": "^3.1.0",
       "lodash": "^4.14.1",
       "mime": "^1.3.4",
-      "moment": "^2.14.1",
+      "moment-timezone": "^0.5.11",
       "mousetrap": "^1.5.3",
-      "npm": "^3.10.6",
+      "npm": "^4.4.4",
       "objtree": "^0.1.1",
       "pac-proxy-agent": "^1.0.0",
-      "path-extra": "3.0.0",
-      "poi-lib-battle": "0.0.2",
-      "react": "^15.3.1",
-      "react-addons-shallow-compare": "^15.3.1",
-      "react-bootstrap": "^0.30.3",
-      "react-dom": "^15.3.1",
-      "react-file-dropzone": "^0.2.0",
-      "react-fontawesome": "^1.0.0",
-      "react-portal": "^2.2.1",
-      "react-redux": "^4.4.5",
+      "path-extra": "4.1.0",
+      "poi-lib-battle": "2.2.1",
+      "prop-types": "^15.5.8",
+      "react": "^15.5.4",
+      "react-addons-shallow-compare": "^15.4.0",
+      "react-bootstrap": "^0.30.10",
+      "react-dom": "^15.5.4",
+      "react-file-dropzone": "^0.3.0",
+      "react-fontawesome": "^1.6.1",
+      "react-portal": "^3.0.0",
+      "react-redux": "^5.0.4",
       "react-remarkable": "^1.1.1",
-      "react-safe-render": "^2.0.0",
       "react-toastr": "^2.8.0",
       "reduce-reducers": "^0.1.2",
-      "redux": "^3.5.2",
-      "redux-batched-subscribe": "^0.1.6",
+      "redux": "^3.6.0",
       "redux-observers": "^2.0.1",
       "redux-thunk": "^2.1.0",
       "request": "^2.74.0",
-      "reselect": "^2.5.3",
+      "reselect": "^3.0.0",
       "semver": "^5.3.0",
       "socks5-client": "^1.2.0",
       "socks5-http-client": "^1.0.1"
     },
     "devDependencies": {
-      "asar": "^0.12.1",
+      "asar": "^0.13.0",
       "babel-eslint": "^7.0.0",
       "coffeelint": "^1.11.1",
-      "electron": "^1.4.5",
-      "electron-builder": "^7.11.4",
+      "electron": "~1.6.6",
+      "electron-builder": "^16.6.1",
+      "electron-builder-squirrel-windows": "^16.6.0",
       "eslint": "^3.2.2",
       "eslint-plugin-import": "^2.0.0",
       "eslint-plugin-react": "^6.3.0",
       "git-archive": "^0.1.4",
-      "gulp": "^3.9.0",
+      "gulp": "^3.9.1",
       "mocha": "^3.0.1",
       "mocha-lcov-reporter": "^1.0.0",
       "node-7z": "^0.4.0",
@@ -183,14 +193,19 @@
     },
     "build": {
       "appId": "org.poooi.poi",
-      "app-category-type": "public.app-category.games",
+      "asar": {
+        "smartUnpack": false
+      },
       "extraResources": [
         "PepperFlash/${os}-${arch}"
       ],
       "npmRebuild": false,
       "mac": {
         "icon": "assets/icons/poi.icns",
-        "target": "dmg"
+        "target": [
+          "dmg"
+        ],
+        "category": "public.app-category.games"
       },
       "dmg": {
         "contents": [
@@ -208,7 +223,7 @@
         ]
       },
       "win": {
-        "iconUrl": "https://github.com/poooi/poi/blob/master/assets/icons/poi.ico?raw=true",
+        "icon": "assets/icons/poi.ico",
         "target": [
           "squirrel",
           "7z"
@@ -222,6 +237,9 @@
           "pacman",
           "AppImage"
         ]
+      },
+      "directories": {
+        "app": "app_compiled"
       }
     }
   },
@@ -250,5 +268,6 @@
   },
   "filename": "poooi___poi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:37.267Z"
+  "lastFetchedAt": "2017-05-04T15:26:37.267Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:11.379Z"
 }

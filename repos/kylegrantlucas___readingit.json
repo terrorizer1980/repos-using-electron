@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/kylegrantlucas/readit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kylegrantlucas/readit"
+    },
+    "author": {
+      "name": "Kyle Lucas",
+      "email": "kglucas93@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kylegrantlucas/readit/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -211,5 +222,6 @@
   },
   "filename": "kylegrantlucas___readingit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:30.703Z"
+  "lastFetchedAt": "2017-05-04T20:44:30.703Z",
+  "packageLastFetchedAt": "2017-05-05T14:34:39.027Z"
 }

@@ -67,5 +67,31 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:16:11.447Z"
+  "lastFetchedAt": "2017-05-04T20:16:11.447Z",
+  "packageJSON": {
+    "name": "calendar",
+    "version": "1.0.0",
+    "description": "dut as",
+    "main": "main.js",
+    "scripts": {
+      "test": "tsc calendar.ts test_unintaire_calendar.ts && node test_unintaire_calendar.js",
+      "start": "tsc calendar.ts && electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "None"
+    },
+    "author": "Jerent Steeve",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "license": "MIT",
+    "dependencies": {
+      "fullcalendar": "^3.2.0",
+      "request": "latest",
+      "cheerio": "latest"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:58:39.011Z"
 }

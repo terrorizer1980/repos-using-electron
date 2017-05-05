@@ -64,7 +64,14 @@
     "productName": "ConstructR",
     "version": "0.8.3",
     "description": "Electron-based R shell",
-    "repository": "https://github.com/sdllc/constructr",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sdllc/constructr.git"
+    },
+    "author": {
+      "name": "Structured Data LLC",
+      "email": "info@riskamp.com"
+    },
     "homepage": "https://constructr-project.com/shell",
     "license": "MIT",
     "main": "app/main.js",
@@ -178,5 +185,6 @@
   "svnUrl": "https://github.com/sdllc/constructr",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:33:59.754Z"
+  "lastFetchedAt": "2017-05-04T17:33:59.754Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:03.701Z"
 }

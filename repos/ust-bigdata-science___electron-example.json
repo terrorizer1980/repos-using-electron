@@ -94,6 +94,7 @@
       "start": "electron main.js",
       "build": "electron-packager . macro --platform win32 --arch x64 --out dist/"
     },
+    "author": "Yeonghun Chae",
     "authors": "Yeonghun Chae",
     "dependencies": {
       "cheerio": "^0.20.0",
@@ -145,5 +146,6 @@
   },
   "filename": "ust-bigdata-science___electron-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:19.436Z"
+  "lastFetchedAt": "2017-05-04T20:22:19.436Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:31.715Z"
 }

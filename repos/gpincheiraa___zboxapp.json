@@ -76,6 +76,7 @@
       "build-darwin": "electron-packager . gp-zboxapp --platform=darwin --arch=x64 --version=0.31.1 --out=dist --ignore=\"node_modules/(electron-packager|electron-prebuilt|asar)\" --asar",
       "build-win32": "electron-packager . gp-zboxapp --platform=win32 --arch=x64 --version=0.31.1 --out=dist --ignore=\"node_modules/(electron-packager|electron-prebuilt|asar)\" --asar"
     },
+    "author": "Gonzalo Pincheira A.",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.31.2",
@@ -121,5 +122,6 @@
   },
   "filename": "gpincheiraa___zboxapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:43.099Z"
+  "lastFetchedAt": "2017-05-04T17:47:43.099Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:00.843Z"
 }

@@ -76,12 +76,19 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/CocoaTechDesign/MusicPlayer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CocoaTechDesign/MusicPlayer.git"
+    },
     "keywords": [
       "react",
       "music"
     ],
+    "author": "Christian Nwamba",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/CocoaTechDesign/MusicPlayer"
+    },
     "homepage": "https://github.com/CocoaTechDesign/MusicPlayerelec#readme",
     "dependencies": {
       "axios": "^0.15.0",
@@ -124,5 +131,6 @@
   },
   "filename": "CocoaTechDesign___MusicPlayer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:36.179Z"
+  "lastFetchedAt": "2017-05-04T20:54:36.179Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:16.488Z"
 }

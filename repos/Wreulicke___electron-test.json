@@ -78,8 +78,15 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Wreulicke/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Wreulicke/electron-test.git"
+    },
+    "author": "Wreulicke",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Wreulicke/electron-test/issues"
+    },
     "homepage": "https://github.com/Wreulicke/electron-test#readme"
   },
   "packageStatus": 200,
@@ -107,5 +114,6 @@
   },
   "filename": "Wreulicke___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:16.944Z"
+  "lastFetchedAt": "2017-05-04T18:04:16.944Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:07.997Z"
 }

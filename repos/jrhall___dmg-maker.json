@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/jrhall/dmg-maker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jrhall/dmg-maker.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jrhall/dmg-maker/issues"
+    },
     "homepage": "https://github.com/jrhall/dmg-maker#readme",
     "dependencies": {
       "electron-prebuilt": "^0.35.4"
@@ -105,5 +112,6 @@
   },
   "filename": "jrhall___dmg-maker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:33.445Z"
+  "lastFetchedAt": "2017-05-04T05:34:33.445Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:03.312Z"
 }

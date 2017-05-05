@@ -78,6 +78,11 @@
     "description": "My awe-inspiring app",
     "license": "MIT",
     "repository": "gsaini/electron-project",
+    "author": {
+      "name": "Gopal Saini",
+      "email": "gsaini2@sapient.com",
+      "url": "github.com/gsaini"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -134,5 +139,6 @@
   },
   "filename": "gsaini___electron-project.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:50:21.677Z"
+  "lastFetchedAt": "2017-05-04T17:50:21.677Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:24.817Z"
 }

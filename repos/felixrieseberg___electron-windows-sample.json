@@ -59,7 +59,10 @@
     "scripts": {
       "start": "webpack --progress --colors && electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -67,7 +70,11 @@
       "tutorial",
       "windows"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/felixrieseberg/electron-windows-sample"
+    },
     "homepage": "https://github.com/felixrieseberg/electron-windows-sample#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0",
@@ -126,5 +133,6 @@
   "svnUrl": "https://github.com/felixrieseberg/electron-windows-sample",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:56:43.494Z"
+  "lastFetchedAt": "2017-05-04T04:56:43.494Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:26.980Z"
 }

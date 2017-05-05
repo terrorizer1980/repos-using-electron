@@ -171,6 +171,11 @@
     "description": "local Node/Browser development with Chrome DevTools",
     "main": "index.js",
     "license": "MIT",
+    "author": {
+      "name": "Matt DesLauriers",
+      "email": "dave.des@gmail.com",
+      "url": "https://github.com/mattdesl"
+    },
     "dependencies": {
       "browserify": "^11.0.0",
       "concat-stream": "^1.4.8",
@@ -236,19 +241,13 @@
       "rapid"
     ],
     "repository": {
-      "user": "Jam3",
-      "repo": "hihat",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Jam3/hihat/tarball/master",
-      "clone_url": "https://github.com/Jam3/hihat",
-      "https_url": "https://github.com/Jam3/hihat",
-      "travis_url": "https://travis-ci.org/Jam3/hihat",
-      "zip_url": "https://github.com/Jam3/hihat/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Jam3/hihat"
+      "type": "git",
+      "url": "git://github.com/Jam3/hihat.git"
     },
     "homepage": "https://github.com/Jam3/hihat",
+    "bugs": {
+      "url": "https://github.com/Jam3/hihat/issues"
+    },
     "bin": {
       "hihat": "./bin/cmd.js"
     }
@@ -299,5 +298,6 @@
   "svnUrl": "https://github.com/JamesKyburz/hihat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:04:03.898Z"
+  "lastFetchedAt": "2017-05-04T18:04:03.898Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:31.614Z"
 }

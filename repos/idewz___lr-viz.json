@@ -55,13 +55,20 @@
       "jscs": "jscs .",
       "lint": "jshint ."
     },
-    "repository": "https://github.com/idewz/lr-viz",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/idewz/lr-viz.git"
+    },
     "keywords": [
       "lightroom",
       "catalog",
       "visual"
     ],
+    "author": "Siwadon Saosoong",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/idewz/lr-viz/issues"
+    },
     "homepage": "https://github.com/idewz/lr-viz#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.6",
@@ -124,5 +131,6 @@
   },
   "filename": "idewz___lr-viz.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:44.216Z"
+  "lastFetchedAt": "2017-05-04T14:22:44.216Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:56.822Z"
 }

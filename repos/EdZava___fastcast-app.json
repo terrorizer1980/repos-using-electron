@@ -180,17 +180,8 @@
       "test": "standard"
     },
     "repository": {
-      "user": "jakefb",
-      "repo": "fastcast-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jakefb/fastcast-app/tarball/master",
-      "clone_url": "https://github.com/jakefb/fastcast-app",
-      "https_url": "https://github.com/jakefb/fastcast-app",
-      "travis_url": "https://travis-ci.org/jakefb/fastcast-app",
-      "zip_url": "https://github.com/jakefb/fastcast-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jakefb/fastcast-app"
+      "type": "git",
+      "url": "https://github.com/jakefb/fastcast-app.git"
     },
     "keywords": [
       "electron",
@@ -198,7 +189,15 @@
       "stream",
       "video"
     ],
+    "author": {
+      "name": "Jacob Fulton Buckle",
+      "email": "jacobafb@gmail.com",
+      "url": "https://github.com/jakefb"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jakefb/fastcast-app/issues"
+    },
     "homepage": "https://fastcast.nz",
     "dependencies": {
       "airplay-js": "^0.2.15",
@@ -265,5 +264,6 @@
   "svnUrl": "https://github.com/EdZava/fastcast-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:42:56.159Z"
+  "lastFetchedAt": "2017-05-04T16:42:56.159Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:44.192Z"
 }

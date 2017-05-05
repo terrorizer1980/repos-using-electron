@@ -70,8 +70,15 @@
     "version": "1.0.0",
     "description": "Not yo mama's RSS reader",
     "main": "main.js",
-    "repository": "https://github.com/crabl/news",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/crabl/news.git"
+    },
+    "author": "Chris Rabl <chris@crabl.net>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/crabl/news/issues"
+    },
     "homepage": "https://github.com/crabl/news#readme",
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
@@ -126,5 +133,6 @@
   },
   "filename": "crabl___news.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:30.800Z"
+  "lastFetchedAt": "2017-05-04T05:30:30.800Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:52.131Z"
 }

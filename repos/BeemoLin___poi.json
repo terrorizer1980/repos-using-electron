@@ -83,24 +83,22 @@
       "compile": "gulp compile"
     },
     "repository": {
-      "user": "poooi",
-      "repo": "poi",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/poooi/poi/tarball/master",
-      "clone_url": "https://github.com/poooi/poi",
-      "https_url": "https://github.com/poooi/poi",
-      "travis_url": "https://travis-ci.org/poooi/poi",
-      "zip_url": "https://github.com/poooi/poi/archive/master.zip",
-      "api_url": "https://api.github.com/repos/poooi/poi"
+      "type": "git",
+      "url": "https://github.com/poooi/poi.git"
     },
     "keywords": [
       "KanColle",
       "Browser",
       "Tool"
     ],
+    "author": {
+      "name": "Magica",
+      "email": "readme.md@gmail.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/poooi/poi/issues"
+    },
     "homepage": "https://github.com/poooi/poi",
     "dependencies": {
       "babel-core": "^6.9.0",
@@ -209,6 +207,9 @@
           "pacman"
         ]
       }
+    },
+    "directories": {
+      "app": "app_compiled"
     }
   },
   "packageStatus": 200,
@@ -237,5 +238,6 @@
   "filename": "BeemoLin___poi.json",
   "sourceRepo": "poooi/poi",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:44:34.482Z"
+  "lastFetchedAt": "2017-05-04T16:44:34.482Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:01.712Z"
 }

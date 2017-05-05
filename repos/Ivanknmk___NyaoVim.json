@@ -184,17 +184,8 @@
       "clean": "rm -rf \"$(npm prefix)/build\" \"$(npm prefix)/typings\" \"$(npm prefix)/bower_components\" \"$(npm prefix)/node_modules\""
     },
     "repository": {
-      "user": "rhysd",
-      "repo": "NyaoVim",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rhysd/NyaoVim/tarball/master",
-      "clone_url": "https://github.com/rhysd/NyaoVim",
-      "https_url": "https://github.com/rhysd/NyaoVim",
-      "travis_url": "https://travis-ci.org/rhysd/NyaoVim",
-      "zip_url": "https://github.com/rhysd/NyaoVim/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rhysd/NyaoVim"
+      "type": "git",
+      "url": "git+https://github.com/rhysd/NyaoVim.git"
     },
     "keywords": [
       "editor",
@@ -207,7 +198,11 @@
       "cat",
       "meow"
     ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rhysd/NyaoVim/issues"
+    },
     "homepage": "https://github.com/rhysd/NyaoVim#readme",
     "dependencies": {
       "about-window": "^0.1.0",
@@ -269,5 +264,6 @@
   "svnUrl": "https://github.com/Ivanknmk/NyaoVim",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:00:04.601Z"
+  "lastFetchedAt": "2017-05-04T21:00:04.601Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:21.045Z"
 }

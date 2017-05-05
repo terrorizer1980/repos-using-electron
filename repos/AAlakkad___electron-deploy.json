@@ -81,14 +81,21 @@
       "build": "electron-packager . MyApp --out=dist --platform=linux --arch=x64 --version=0.35.1 --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --overwrite",
       "package": "asar pack MyApp-linux-x64/resources/app MyApp-linux-x64/resources/app.asar"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "asar": "^0.8.3",
@@ -124,5 +131,6 @@
   },
   "filename": "AAlakkad___electron-deploy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:22.152Z"
+  "lastFetchedAt": "2017-05-04T05:02:22.152Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:58.359Z"
 }

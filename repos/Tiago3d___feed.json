@@ -89,6 +89,7 @@
     "name": "ng2-admin",
     "version": "0.7.0",
     "description": "Angular 2 and Bootstrap 4 Admin Template.",
+    "author": "akveo",
     "homepage": "http://akveo.github.io/ng2-admin/",
     "license": "MIT",
     "dependencies": {
@@ -229,17 +230,11 @@
       "electron": "electron ./src/electron/main.js"
     },
     "repository": {
-      "user": "akveo",
-      "repo": "ng2-admin",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/akveo/ng2-admin/tarball/master",
-      "clone_url": "https://github.com/akveo/ng2-admin",
-      "https_url": "https://github.com/akveo/ng2-admin",
-      "travis_url": "https://travis-ci.org/akveo/ng2-admin",
-      "zip_url": "https://github.com/akveo/ng2-admin/archive/master.zip",
-      "api_url": "https://api.github.com/repos/akveo/ng2-admin"
+      "type": "git",
+      "url": "https://github.com/akveo/ng2-admin.git"
+    },
+    "bugs": {
+      "url": "https://github.com/akveo/ng2-admin/issues"
     },
     "engines": {
       "node": ">= 4.2.1",
@@ -272,5 +267,6 @@
   "filename": "Tiago3d___feed.json",
   "sourceRepo": "akveo/ng2-admin",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:21.409Z"
+  "lastFetchedAt": "2017-05-04T17:48:21.409Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:43.226Z"
 }

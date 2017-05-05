@@ -79,7 +79,17 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/sergeybekrin/npmkit",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sergeybekrin/npmkit.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sergeybekrin/npmkit/issues"
+    },
+    "author": {
+      "name": "Sergey Bekrin",
+      "email": "sergey@bekrin.me"
+    },
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.12.1",
@@ -169,7 +179,7 @@
     },
     "devEngines": {
       "node": "5.x || 6.x",
-      "npm": "2.x || 3.x"
+      "npm": "2.x || 3.x || 4.x"
     },
     "build": {
       "appId": "org.npmkit.npmkit",
@@ -204,6 +214,9 @@
           "deb"
         ]
       }
+    },
+    "directories": {
+      "buildResources": "assets"
     }
   },
   "packageStatus": 200,
@@ -251,5 +264,6 @@
   "svnUrl": "https://github.com/sergeybekrin/npmkit",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:30:33.594Z"
+  "lastFetchedAt": "2017-05-04T19:30:33.594Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:05.523Z"
 }

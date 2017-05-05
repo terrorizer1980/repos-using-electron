@@ -81,8 +81,15 @@
       "start": "([ ! -e /app/dist/app-bundle.js ] && grunt browserify:app) && (npm run dev & grunt watch)",
       "test": "grunt"
     },
-    "repository": "https://github.com/HoodieCollin/MC-commander",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/HoodieCollin/MC-commander.git"
+    },
+    "author": "Collin Kokotas",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/HoodieCollin/MC-commander/issues"
+    },
     "homepage": "https://github.com/HoodieCollin/MC-commander",
     "devDependencies": {
       "electron": "^0.4.1",
@@ -127,5 +134,6 @@
   },
   "filename": "HoodieCollin___MC-commander.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:48:05.021Z"
+  "lastFetchedAt": "2017-05-04T14:48:05.021Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:29.569Z"
 }

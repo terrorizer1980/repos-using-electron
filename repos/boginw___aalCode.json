@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/boginw/aalCode",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/boginw/aalCode.git"
+    },
+    "author": "boginw",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/boginw/aalCode/issues"
+    },
     "homepage": "https://github.com/boginw/aalCode#readme",
     "dependencies": {
       "ace-builds": "^1.2.5",
@@ -96,6 +103,7 @@
       "jquery-ui-dist": "^1.12.0",
       "material-design-icons": "^3.0.1",
       "nedb": "^1.8.0",
+      "node-pty": "^0.6.2",
       "prismjs": "^1.5.1",
       "rethinkdb": "^2.3.3",
       "smalltalk": "^2.1.2",
@@ -130,5 +138,6 @@
   },
   "filename": "boginw___aalCode.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:47.173Z"
+  "lastFetchedAt": "2017-05-04T20:14:47.173Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:30.404Z"
 }

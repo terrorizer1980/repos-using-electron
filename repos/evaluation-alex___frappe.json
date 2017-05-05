@@ -204,6 +204,7 @@
     "name": "frappe",
     "version": "0.1.1",
     "main": "dist/main.js",
+    "author": "Nick Baugh <niftylettuce@gmail.com>, Alexander Pantyukhov <alwxndr@gmail.com>",
     "description": "Remotely shake your Android devices (including emulators)",
     "scripts": {
       "start": "NODE_ENV=development electron-compile ./src/ ./media/ && NODE_ENV=development electron src/main.js",
@@ -250,5 +251,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:17.226Z"
+  "lastFetchedAt": "2017-05-04T20:06:17.226Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:20.951Z"
 }

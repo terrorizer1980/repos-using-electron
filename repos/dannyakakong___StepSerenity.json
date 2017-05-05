@@ -83,11 +83,22 @@
       "debug": "electron --enable-logging main.js -w -d",
       "development": "npm run debug"
     },
-    "repository": "https://github.com/dannyakakong/stepserenity",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dannyakakong/stepserenity.git"
+    },
     "keywords": [
       "StepMania"
     ],
+    "author": {
+      "name": "Danny Allen / Wonderscore Ltd",
+      "email": "me@dannya.com",
+      "url": "http://dannya.com/"
+    },
     "homepage": "https://github.com/dannyakakong/stepserenity",
+    "bugs": {
+      "url": "https://github.com/dannyakakong/stepserenity/issues"
+    },
     "dependencies": {
       "class.extend": "^0.9.2",
       "electron-prebuilt": "^0.36.0",
@@ -143,5 +154,6 @@
   },
   "filename": "dannyakakong___StepSerenity.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:25:51.257Z"
+  "lastFetchedAt": "2017-05-04T21:25:51.257Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:59.882Z"
 }

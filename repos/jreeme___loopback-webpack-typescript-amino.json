@@ -124,11 +124,18 @@
       "angular2",
       "ng2-admin"
     ],
+    "author": "John Reeme <john.reeme@soteradefense.com> (http://soteradefense.com)",
     "license": {
       "type": "WTFPL",
       "url": "https://spdx.org/licenses/WTFPL"
     },
-    "repository": "https://github.com/sotera/loopback-webpack-typescript-amino",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sotera/loopback-webpack-typescript-amino.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sotera/loopback-webpack-typescript-amino/issues"
+    },
     "dependencies": {
       "@angular/common": "2.0.0",
       "@angular/compiler": "2.0.0",
@@ -277,5 +284,6 @@
   },
   "filename": "jreeme___loopback-webpack-typescript-amino.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:12.211Z"
+  "lastFetchedAt": "2017-05-04T17:43:12.211Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:28.004Z"
 }

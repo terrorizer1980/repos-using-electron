@@ -82,17 +82,8 @@
       "start": "run-p start:*"
     },
     "repository": {
-      "user": "hermant2",
-      "repo": "InternalSolutions",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/hermant2/InternalSolutions/tarball/master",
-      "clone_url": "https://github.com/hermant2/InternalSolutions",
-      "https_url": "https://github.com/hermant2/InternalSolutions",
-      "travis_url": "https://travis-ci.org/hermant2/InternalSolutions",
-      "zip_url": "https://github.com/hermant2/InternalSolutions/archive/master.zip",
-      "api_url": "https://api.github.com/repos/hermant2/InternalSolutions"
+      "type": "git",
+      "url": "git+https://github.com/hermant2/InternalSolutions.git"
     },
     "keywords": [
       "Electron",
@@ -100,7 +91,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/hermant2/InternalSolutions.git"
+    },
     "homepage": "https://github.com/hermant2/InternalSolutions.git",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -135,5 +130,6 @@
   "filename": "hermant2___InternalSolutions.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:47:25.977Z"
+  "lastFetchedAt": "2017-05-04T20:47:25.977Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:21.722Z"
 }

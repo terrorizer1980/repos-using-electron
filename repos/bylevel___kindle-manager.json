@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/bylevel/kindle-manager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bylevel/kindle-manager.git"
+    },
+    "author": {
+      "name": "chronos",
+      "email": "xielong2@qq.com",
+      "url": "https://github.com/bylevel"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bylevel/kindle-manager/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -210,5 +221,6 @@
   },
   "filename": "bylevel___kindle-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:41.496Z"
+  "lastFetchedAt": "2017-05-04T18:12:41.496Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:38.736Z"
 }

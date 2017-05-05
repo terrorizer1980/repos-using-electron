@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/meganii/electron-flickr-linkbuilder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meganii/electron-flickr-linkbuilder.git"
+    },
     "keywords": [
       "Electron",
       "Flickr",
       "Mithril.js"
     ],
+    "author": "meganii",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/meganii/electron-flickr-linkbuilder/issues"
+    },
     "homepage": "https://github.com/meganii/electron-flickr-linkbuilder#readme",
     "devDependencies": {
       "config": "^1.21.0",
@@ -118,5 +125,6 @@
   },
   "filename": "meganii___electron-flickr-linkbuilder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:32.840Z"
+  "lastFetchedAt": "2017-05-04T17:57:32.840Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:50.708Z"
 }

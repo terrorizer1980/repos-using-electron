@@ -56,7 +56,13 @@
     "version": "0.8.2",
     "description": "Polymer component for Neovim frontend",
     "main": "example/minimal/main.js",
-    "repository": "https://github.com/rhysd/neovim-component",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rhysd/neovim-component.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rhysd/neovim-component/issues"
+    },
     "scripts": {
       "start": "npm run dep && npm run build && npm run example",
       "build": "tsc --pretty -p src && browserify -o build/index.js src/out/index.js",
@@ -75,6 +81,7 @@
       "NW.js",
       "editor"
     ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
     "dependencies": {
       "flux": "^3.0.0",
@@ -141,5 +148,6 @@
   "svnUrl": "https://github.com/rhysd/neovim-component",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:00:43.327Z"
+  "lastFetchedAt": "2017-05-04T18:00:43.327Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:29.395Z"
 }

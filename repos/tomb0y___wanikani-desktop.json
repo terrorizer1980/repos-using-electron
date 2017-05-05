@@ -64,6 +64,7 @@
       "start": "electron .",
       "package": "electron-packager ./ WaniKani --all --out=../wk-release --version=0.33.0 --ignore=./node_modules"
     },
+    "author": "tomboy",
     "license": "GLPv3"
   },
   "packageStatus": 200,
@@ -111,5 +112,6 @@
   },
   "filename": "tomb0y___wanikani-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:30:41.150Z"
+  "lastFetchedAt": "2017-05-04T18:30:41.150Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:38.484Z"
 }

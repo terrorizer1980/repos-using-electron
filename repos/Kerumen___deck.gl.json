@@ -198,17 +198,8 @@
       "layer"
     ],
     "repository": {
-      "user": "uber",
-      "repo": "deck.gl",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/uber/deck.gl/tarball/master",
-      "clone_url": "https://github.com/uber/deck.gl",
-      "https_url": "https://github.com/uber/deck.gl",
-      "travis_url": "https://travis-ci.org/uber/deck.gl",
-      "zip_url": "https://github.com/uber/deck.gl/archive/master.zip",
-      "api_url": "https://api.github.com/repos/uber/deck.gl"
+      "type": "git",
+      "url": "https://github.com/uber/deck.gl.git"
     },
     "main": "index.js",
     "files": [
@@ -347,5 +338,6 @@
   },
   "sourceRepo": "uber/deck.gl",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:53.146Z"
+  "lastFetchedAt": "2017-05-04T05:01:53.146Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:11.039Z"
 }

@@ -189,8 +189,9 @@
     "name": "mapeo-desktop",
     "description": "An experimental offline mapping app based on iD Editor, for indigenous territory mapping in remote environments",
     "productName": "Mapeo",
-    "version": "1.2.8",
+    "version": "1.6.2",
     "productDescription": "Offline Map Editor",
+    "author": "Digital Democracy",
     "main": "app.js",
     "engine": {
       "node": "6.2.1"
@@ -210,17 +211,8 @@
       "postinstall": "npmpd"
     },
     "repository": {
-      "user": "digidem",
-      "repo": "mapeo-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/digidem/mapeo-desktop/tarball/master",
-      "clone_url": "https://github.com/digidem/mapeo-desktop",
-      "https_url": "https://github.com/digidem/mapeo-desktop",
-      "travis_url": "https://travis-ci.org/digidem/mapeo-desktop",
-      "zip_url": "https://github.com/digidem/mapeo-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/digidem/mapeo-desktop"
+      "type": "git",
+      "url": "git+https://github.com/digidem/mapeo-desktop.git"
     },
     "keywords": [
       "osm",
@@ -237,28 +229,34 @@
       "noffle"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/digidem/mapeo-desktop/issues"
+    },
     "homepage": "https://github.com/digidem/mapeo-desktop#readme",
     "dependencies": {
       "JSONStream": "^1.0.3",
       "application-config": "^1.0.1",
       "application-config-path": "^0.1.0",
       "body": "^5.1.0",
+      "bonjour": "^3.5.0",
       "concat-stream": "^1.5.1",
       "ecstatic": "^2.1.0",
       "electron-debug": "^1.0.0",
       "electron-squirrel-startup": "^1.0.0",
-      "electron-winstaller": "^2.3.1",
+      "electron-winstaller": "2.3.4",
       "end-of-stream": "^1.1.0",
-      "hyperlog": "^4.10.0",
+      "hyperlog": "^4.12.0",
+      "hyperlog-sneakernet-replicator": "^1.1.2",
       "insert-css": "^1.0.0",
       "level": "^1.4.0",
       "levelup": "^1.3.1",
       "lodash": "^4.15.0",
       "minimist": "^1.2.0",
+      "mkdirp": "^0.5.1",
       "once": "^1.3.3",
       "osm-p2p": "^1.4.0",
       "osm-p2p-geojson": "^2.0.0",
-      "osm-p2p-server": "^2.0.0-beta3",
+      "osm-p2p-server": "^2.1.2",
       "pump": "^1.0.1",
       "randombytes": "^2.0.3",
       "shpjs": "^3.3.1",
@@ -269,6 +267,7 @@
       "svg-sprite": "^1.3.5",
       "tar-fs": "^1.13.0",
       "through2": "^2.0.1",
+      "to2": "^1.0.0",
       "websocket-stream": "^3.1.0",
       "xhr": "^2.2.0",
       "xtend": "^4.0.1"
@@ -278,7 +277,6 @@
     },
     "devDependencies": {
       "@gmaclennan/concat": "^1.0.0",
-      "browserify": "^13.0.0",
       "cross-env": "^1.0.8",
       "cross-spawn": "^4.0.2",
       "devtron": "^1.2.0",
@@ -286,7 +284,6 @@
       "electron-packager": "^7.6.0",
       "fs-extra": "^0.30.0",
       "iD": "openstreetmap/iD#v1.9.6",
-      "mkdirp": "^0.5.1",
       "npm-platform-dependencies": "0.0.12",
       "rimraf": "^2.5.2",
       "watchify": "^3.7.0"
@@ -318,5 +315,6 @@
   "filename": "noffle___mapeo-desktop.json",
   "sourceRepo": "digidem/mapeo-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:15.494Z"
+  "lastFetchedAt": "2017-05-04T15:13:15.494Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:41.230Z"
 }

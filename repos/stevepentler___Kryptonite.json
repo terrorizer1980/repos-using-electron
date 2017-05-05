@@ -81,12 +81,19 @@
       "start": "electron .",
       "build": "electron-packager . 'Change Me' --platform=all --arch=all --version=0.37.5"
     },
-    "repository": "https://github.com/turingschool-examples/electron-react-starter-kid",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/turingschool-examples/electron-react-starter-kid.git"
+    },
     "keywords": [
       "electron",
       "react"
     ],
+    "author": "Steve Kinney",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/turingschool-examples/electron-react-starter-kid/issues"
+    },
     "homepage": "https://github.com/turingschool-examples/electron-react-starter-kid#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -133,5 +140,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:55.979Z"
+  "lastFetchedAt": "2017-05-04T17:34:55.979Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:24.473Z"
 }

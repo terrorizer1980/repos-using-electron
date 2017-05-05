@@ -80,7 +80,11 @@
       "archive:win32": "zip -j \"dist/win32/MyApp-win-ia32.zip\" \"dist/win32/MyAppSetup.exe\"",
       "archive:win64": "zip -j \"dist/win64/MyApp-win-x64.zip\" \"dist/win64/MyAppSetup.exe\""
     },
-    "repository": "https://github.com/masahirompp/electron-open-url-sample",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/masahirompp/electron-open-url-sample.git"
+    },
+    "author": "masahirompp",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -142,5 +146,6 @@
   "svnUrl": "https://github.com/masahirompp/electron-open-url-sample",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T11:04:34.591Z"
+  "lastFetchedAt": "2017-05-04T11:04:34.591Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:09.748Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/dgrt/particle",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dgrt/particle.git"
+    },
     "keywords": [
       "Electron",
       "dgrt",
       "particle",
       "simulation"
     ],
+    "author": "dgrt",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/dgrt/particle/issues"
+    },
     "homepage": "https://github.com/dgrt/particle",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -117,5 +124,6 @@
   },
   "filename": "dgrt___particle.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:23.751Z"
+  "lastFetchedAt": "2017-05-04T16:41:23.751Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:47.247Z"
 }

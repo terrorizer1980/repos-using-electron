@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Lewb/BlackJack2",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Lewb/BlackJack2.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.36.3"
     }
@@ -109,5 +112,6 @@
   },
   "filename": "LewB___BlackJack2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:24.684Z"
+  "lastFetchedAt": "2017-05-04T05:22:24.684Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:10.484Z"
 }

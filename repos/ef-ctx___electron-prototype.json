@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ef-ctx/electron-prototype",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ef-ctx/electron-prototype.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ef-ctx/electron-prototype/issues"
+    },
     "homepage": "https://github.com/ef-ctx/electron-prototype#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -126,5 +133,6 @@
   "svnUrl": "https://github.com/ef-ctx/electron-prototype",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:23:00.732Z"
+  "lastFetchedAt": "2017-05-04T05:23:00.732Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:58.233Z"
 }

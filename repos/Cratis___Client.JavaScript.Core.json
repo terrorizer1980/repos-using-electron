@@ -94,8 +94,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Cratis/Client.JavaScript.Core",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cratis/Client.JavaScript.Core.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Cratis/Client.JavaScript.Core/issues"
+    },
     "homepage": "https://github.com/Cratis/Client.JavaScript.Core#readme",
     "jspm": {
       "dependencies": {
@@ -184,5 +191,6 @@
   },
   "filename": "Cratis___Client.JavaScript.Core.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:00.711Z"
+  "lastFetchedAt": "2017-05-04T21:29:00.711Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:52.412Z"
 }

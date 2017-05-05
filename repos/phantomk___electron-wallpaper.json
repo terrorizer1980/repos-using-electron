@@ -80,11 +80,18 @@
       "start": "electron main.js",
       "dev": "webpack-dev-server --inline --hot --config build/webpack.dev.config.js"
     },
-    "repository": "https://github.com/phantomk/electron-wallpaper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/phantomk/electron-wallpaper.git"
+    },
     "keywords": [
       "electorn"
     ],
+    "author": "phantomk",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/phantomk/electron-wallpaper/issues"
+    },
     "homepage": "https://github.com/phantomk/electron-wallpaper#readme",
     "dependencies": {
       "cheerio": "^0.19.0",
@@ -127,5 +134,6 @@
   },
   "filename": "phantomk___electron-wallpaper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:38.115Z"
+  "lastFetchedAt": "2017-05-04T20:07:38.115Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:50.974Z"
 }

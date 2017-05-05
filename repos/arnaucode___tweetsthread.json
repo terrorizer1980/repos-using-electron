@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/idoctnef/tweetsthread",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/idoctnef/tweetsthread"
+    },
     "keywords": [
       "twitter",
       "admin",
       "panel",
       "app"
     ],
+    "author": "idoctnef",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/idoctnef/tweetsthread/issues"
+    },
     "homepage": "https://github.com/idoctnef/tweetsthread",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -117,5 +124,6 @@
   },
   "filename": "arnaucode___tweetsthread.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:26.863Z"
+  "lastFetchedAt": "2017-05-04T19:38:26.863Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:11.779Z"
 }

@@ -79,7 +79,11 @@
     "scripts": {
       "start": "gulp"
     },
-    "repository": "https://github.com/jhsu/entrant",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jhsu/entrant"
+    },
+    "author": "Joe Hsu",
     "license": "MIT",
     "homepage": "https://github.com/jhsu/entrant",
     "dependencies": {},
@@ -123,5 +127,6 @@
   },
   "filename": "jhsu___Entrant.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:07.620Z"
+  "lastFetchedAt": "2017-05-04T17:33:07.620Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:10.679Z"
 }

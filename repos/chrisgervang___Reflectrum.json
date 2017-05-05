@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/chrisgervang/SmartMirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chrisgervang/SmartMirror.git"
+    },
     "keywords": [
       "Electron",
       "raspberry pi",
@@ -61,7 +64,11 @@
       "morning",
       "routine"
     ],
+    "author": "Chris Gervang",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chrisgervang/SmartMirror/issues"
+    },
     "homepage": "https://github.com/chrisgervang/SmartMirror#readme",
     "dependencies": {
       "request-promise": "*",
@@ -143,5 +150,6 @@
   "svnUrl": "https://github.com/chrisgervang/reflectrum",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:05:25.730Z"
+  "lastFetchedAt": "2017-05-04T05:05:25.730Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:50.554Z"
 }

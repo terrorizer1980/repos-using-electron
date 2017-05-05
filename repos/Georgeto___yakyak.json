@@ -174,24 +174,19 @@
       "test": "mocha"
     },
     "repository": {
-      "user": "yakyak",
-      "repo": "yakyak",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/yakyak/yakyak/tarball/master",
-      "clone_url": "https://github.com/yakyak/yakyak",
-      "https_url": "https://github.com/yakyak/yakyak",
-      "travis_url": "https://travis-ci.org/yakyak/yakyak",
-      "zip_url": "https://github.com/yakyak/yakyak/archive/master.zip",
-      "api_url": "https://api.github.com/repos/yakyak/yakyak"
+      "type": "git",
+      "url": "https://github.com/yakyak/yakyak"
     },
     "keywords": [
       "hangouts",
       "chat",
       "client"
     ],
+    "author": "Martin Algesten",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yakyak/yakyak/issues"
+    },
     "homepage": "https://github.com/yakyak/yakyak",
     "dependencies": {
       "autosize": "^3.0.8",
@@ -271,5 +266,6 @@
   "svnUrl": "https://github.com/Georgeto/yakyak",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:55:31.057Z"
+  "lastFetchedAt": "2017-05-04T20:55:31.057Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:47.292Z"
 }

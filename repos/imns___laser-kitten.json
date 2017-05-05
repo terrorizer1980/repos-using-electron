@@ -63,6 +63,7 @@
       "release": "gulp release --env=production",
       "install-native": "node ./tasks/install_native_module"
     },
+    "author": "Nate Smith",
     "dependencies": {
       "appdmg": "^0.3.6",
       "asar": "^0.10.0",
@@ -131,5 +132,6 @@
   },
   "filename": "imns___laser-kitten.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:01.785Z"
+  "lastFetchedAt": "2017-05-04T17:41:01.785Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:01.025Z"
 }

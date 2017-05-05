@@ -76,6 +76,10 @@
     "version": "0.0.0",
     "description": "Small description for weightings goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -85,6 +89,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -187,5 +192,6 @@
   },
   "filename": "rrott___weightings.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:39:58.656Z"
+  "lastFetchedAt": "2017-05-04T17:39:58.656Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:02.048Z"
 }

@@ -184,7 +184,10 @@
     "version": "1.1.2",
     "description": "safe secure sharing",
     "main": "app/index.js",
-    "repository": "https://github.com/ssbc/patchwork",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ssbc/patchwork.git"
+    },
     "scripts": {
       "start": "electron .",
       "test": "set -e; for t in api/test/*.js; do node $t; done",
@@ -202,6 +205,7 @@
       "pack:win": "electron-builder \"dist/win/Patchwork-win32\" --platform=win --out=\"dist/win\" --config=packager.json",
       "prepublish": "npm run build:ui"
     },
+    "author": "Paul Frazee <pfrazee@gmail.com>",
     "license": "?",
     "devDependencies": {
       "electron-builder": "^2.0.0",
@@ -294,5 +298,6 @@
   "svnUrl": "https://github.com/firstteam/patchwork",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:13:56.771Z"
+  "lastFetchedAt": "2017-05-04T15:13:56.771Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:31.797Z"
 }

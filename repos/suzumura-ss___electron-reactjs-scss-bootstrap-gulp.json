@@ -74,36 +74,60 @@
   "packageJSON": {
     "name": "electron-reactjs-scss-bootstrap-gulp",
     "version": "1.0.0",
-    "description": "",
+    "description": "Example electron with reactjs, scss, bootstrap and gulp",
+    "repository": "https://github.com/suzumura-ss/electron-reactjs-scss-bootstrap-gulp.git",
+    "author": "Toshiyuki Suzumura",
+    "license": "ISC",
     "main": "main.js",
-    "scripts": {
-      "app": "electron .",
-      "babel": "gulp babel",
-      "scss": "gulp scss",
-      "build": "gulp build",
-      "watch": "gulp watch"
-    },
     "babel": {
       "presets": [
         "react",
         "es2015"
       ]
     },
-    "author": "",
-    "license": "ISC",
+    "build": {
+      "appId": "info.smoche.electron-reactjs-scss-bootstrap-gulp",
+      "category": "public.app-category.utilities",
+      "files": [
+        "**/*",
+        "!build/*",
+        "!test/*",
+        "!.gitignore",
+        "!gulpfile.js"
+      ],
+      "extraResources": []
+    },
+    "scripts": {
+      "app": "./node_modules/.bin/electron .",
+      "compile": "gulp compile",
+      "watch": "gulp watch",
+      "package": "gulp package",
+      "test": "gulp test"
+    },
     "dependencies": {
       "bootstrap": "^3.3.7",
-      "bootstrap.native": "^1.1.0",
-      "electron": "^1.4.5",
+      "bootstrap.native": "^2.0.5",
+      "commander": "^2.9.0",
       "react": "^15.3.2",
       "react-dom": "^15.3.2"
     },
     "devDependencies": {
+      "babel-core": "^6.18.2",
       "babel-preset-es2015": "^6.18.0",
       "babel-preset-react": "^6.16.0",
+      "babel-register": "^6.18.0",
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "electron": "^1.6.0",
+      "electron-builder": "^13.10.0",
       "gulp": "^3.9.1",
       "gulp-babel": "^6.1.2",
-      "gulp-sass": "^2.3.2"
+      "gulp-mocha": "^3.0.1",
+      "gulp-sass": "^3.1.0",
+      "gulp-shell": "^0.5.2",
+      "gulp-sourcemaps": "^2.4.1",
+      "run-sequence": "^1.2.2",
+      "spectron": "^3.4.0"
     }
   },
   "packageStatus": 200,
@@ -131,5 +155,6 @@
   },
   "filename": "suzumura-ss___electron-reactjs-scss-bootstrap-gulp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:47:10.646Z"
+  "lastFetchedAt": "2017-05-04T19:47:10.646Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:12.818Z"
 }

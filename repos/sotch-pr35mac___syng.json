@@ -53,8 +53,11 @@
   "status": 200,
   "packageJSON": {
     "name": "Syng",
-    "version": "0.1.2",
+    "version": "0.2.1",
+    "author": "Preston Stosur-Bassett",
+    "description": "Syng is a free, open-source, cross-platform, Chinese-to-English dictionary app.",
     "repository": "http://github.com/sotch-pr35mac/syng",
+    "homepage": "http://syngdict.com/",
     "license": "Creative Commons Attribution-ShareAlike 3.0 Unported License",
     "main": "src/main.js",
     "dependencies": {
@@ -69,9 +72,11 @@
       "simple-hashtable": "^0.1.3",
       "sweetalert": "^1.1.3",
       "tingodb": "^0.4.2",
+      "titlebar": "^1.4.0",
       "underscore": "^1.8.3"
     },
     "devDependencies": {
+      "electron-packager": "^8.2.0",
       "electron-rebuild": "^1.1.2"
     }
   },
@@ -120,5 +125,6 @@
   },
   "filename": "sotch-pr35mac___syng.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:52.535Z"
+  "lastFetchedAt": "2017-05-04T15:21:52.535Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:08.667Z"
 }

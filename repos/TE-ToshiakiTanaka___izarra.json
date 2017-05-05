@@ -80,8 +80,15 @@
       "run": "electron build/main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/TE-ToshiakiTanaka/izarra",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TE-ToshiakiTanaka/izarra.git"
+    },
+    "author": "Toshiaki.Tanaka",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TE-ToshiakiTanaka/izarra/issues"
+    },
     "homepage": "https://github.com/TE-ToshiakiTanaka/izarra#readme",
     "devDependencies": {
       "del": "^2.2.0",
@@ -120,5 +127,6 @@
   },
   "filename": "TE-ToshiakiTanaka___izarra.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:12.261Z"
+  "lastFetchedAt": "2017-05-04T15:19:12.261Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:33.485Z"
 }

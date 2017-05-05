@@ -62,7 +62,10 @@
       "dev": "webpack-dev-server --inline --hot",
       "build": "webpack -p"
     },
-    "repository": "https://github.com/fwrgit/resin-electronjs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fwrgit/resin-electronjs.git"
+    },
     "keywords": [
       "resin",
       "io",
@@ -77,7 +80,11 @@
       "vue": "^1.0.26",
       "vue-resource": "^1.0.2"
     },
+    "author": "Carlo Maria Curinga",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/fwrgit/resin-electronjs/issues"
+    },
     "homepage": "https://github.com/fwrgit/resin-electronjs#readme",
     "jshintConfig": {
       "esnext": true,
@@ -143,5 +150,6 @@
   "svnUrl": "https://github.com/danielsson/spegel",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:54:41.812Z"
+  "lastFetchedAt": "2017-05-04T20:54:41.812Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:08.845Z"
 }

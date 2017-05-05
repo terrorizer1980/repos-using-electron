@@ -54,12 +54,19 @@
       "start": "electron .",
       "lint": "eslint src"
     },
-    "repository": "https://github.com/applegrain/wilson",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/applegrain/wilson.git"
+    },
     "keywords": [
       "electron",
       "converter"
     ],
+    "author": "Lovisa Svallingson",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/applegrain/wilson/issues"
+    },
     "homepage": "https://github.com/applegrain/wilson#readme",
     "devDependencies": {
       "babel-eslint": "^5.0.0",
@@ -125,5 +132,6 @@
   "svnUrl": "https://github.com/applegrain/wilson",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:26:47.572Z"
+  "lastFetchedAt": "2017-05-04T21:26:47.572Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:25.959Z"
 }

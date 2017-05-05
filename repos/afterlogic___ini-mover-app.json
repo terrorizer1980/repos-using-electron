@@ -89,9 +89,16 @@
       "start": "electron main.js",
       "pack": "electron-packager ./ IniMover --out=build --platform=win32 --arch=x64 --version 1.4.4 --overwrite"
     },
-    "repository": "https://github.com/afterlogic/ini-mover",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/afterlogic/ini-mover.git"
+    },
     "keywords": [],
+    "author": "Afterlogic Corp.",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/afterlogic/ini-mover/issues"
+    },
     "homepage": "https://github.com/afterlogic/ini-mover#readme",
     "dependencies": {
       "conf-cfg-ini": "*",
@@ -130,5 +137,6 @@
   },
   "filename": "afterlogic___ini-mover-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:22.143Z"
+  "lastFetchedAt": "2017-05-04T17:59:22.143Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:10.742Z"
 }

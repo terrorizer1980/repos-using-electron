@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-default-menu": "^0.2.0",
@@ -119,5 +126,6 @@
   },
   "filename": "zubair1024___traktron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:51.741Z"
+  "lastFetchedAt": "2017-05-04T04:58:51.741Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:28.231Z"
 }

@@ -70,11 +70,15 @@
     "version": "1.0.0",
     "description": "Learning electron",
     "main": "main.js",
+    "author": "Josivan de Souza",
     "license": "MIT",
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/josivan/commareagui",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/josivan/commareagui"
+    },
     "dependencies": {
       "@angular/router": "^0.2.0",
       "angular": "^1.5.8",
@@ -123,5 +127,6 @@
   },
   "filename": "josivan___commareagui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:39.825Z"
+  "lastFetchedAt": "2017-05-04T20:25:39.825Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:24.808Z"
 }

@@ -69,12 +69,16 @@
     "name": "T-Ex16",
     "version": "1.0.0",
     "description": "a simple test app for the exploration day",
-    "repository": "https://github.com/GrayOverride/T-Ex16",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/GrayOverride/T-Ex16.git"
+    },
     "main": "main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node_modules/.bin/electron ."
     },
+    "author": "grayoverride, blandine",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "0.36.10",
@@ -107,5 +111,6 @@
   },
   "filename": "GrayOverride___T-Ex16.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:06.090Z"
+  "lastFetchedAt": "2017-05-04T21:10:06.090Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:59.351Z"
 }

@@ -75,22 +75,14 @@
       "startApp": "electron main.js"
     },
     "repository": {
-      "user": "yanyujason",
-      "repo": "Feeds",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/yanyujason/Feeds/tarball/master",
-      "clone_url": "https://github.com/yanyujason/Feeds",
-      "https_url": "https://github.com/yanyujason/Feeds",
-      "travis_url": "https://travis-ci.org/yanyujason/Feeds",
-      "zip_url": "https://github.com/yanyujason/Feeds/archive/master.zip",
-      "api_url": "https://api.github.com/repos/yanyujason/Feeds"
+      "type": "git",
+      "url": "git@github.com:yanyujason/Feeds.git"
     },
     "keywords": [
       "Feeds reader",
       "Node"
     ],
+    "author": "Team awesome",
     "devDependencies": {
       "babel-core": "^6.3.17",
       "babel-loader": "^6.2.0",
@@ -144,5 +136,6 @@
   "filename": "yanyujason___Feeds.json",
   "sourceRepo": "litongxin/Feeds",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:07:00.155Z"
+  "lastFetchedAt": "2017-05-03T20:07:00.155Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:28.689Z"
 }

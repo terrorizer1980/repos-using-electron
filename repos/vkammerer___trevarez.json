@@ -76,7 +76,11 @@
       "cordova:run:ios": "cordova run ios",
       "cordova:release:android": "cordova build --release android"
     },
-    "repository": "https://github.com/xseignard/trevarez",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xseignard/trevarez.git"
+    },
+    "author": "",
     "license": "MIT",
     "homepage": "https://github.com/xseignard/trevarez#readme",
     "devDependencies": {
@@ -159,5 +163,6 @@
   "svnUrl": "https://github.com/xseignard/trevarez",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:28:22.050Z"
+  "lastFetchedAt": "2017-05-04T14:28:22.050Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:14.883Z"
 }

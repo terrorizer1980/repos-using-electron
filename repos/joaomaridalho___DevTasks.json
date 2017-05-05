@@ -79,8 +79,15 @@
     "scripts": {
       "start": "lessc ./assets/css/app.less ./assets/css/app.css && electron ."
     },
-    "repository": "https://github.com/joaomaridalho/DevTasks",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/joaomaridalho/DevTasks.git"
+    },
+    "author": "João Maridalho",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/joaomaridalho/DevTasks/issues"
+    },
     "homepage": "https://github.com/joaomaridalho/DevTasks#readme",
     "devDependencies": {
       "electron": "^1.3.3"
@@ -114,5 +121,6 @@
   },
   "filename": "joaomaridalho___DevTasks.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:35.930Z"
+  "lastFetchedAt": "2017-05-04T05:00:35.930Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:14.858Z"
 }

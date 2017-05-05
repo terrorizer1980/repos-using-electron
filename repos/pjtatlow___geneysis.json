@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "bacteriophage",
       "alignment"
     ],
+    "author": "PJ Tatlow",
     "license": "",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "1.2.0",
@@ -124,5 +131,6 @@
   },
   "filename": "pjtatlow___geneysis.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:01.886Z"
+  "lastFetchedAt": "2017-05-04T20:39:01.886Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:29.935Z"
 }

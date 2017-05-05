@@ -84,14 +84,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/VytorCalixto/Cronos",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/VytorCalixto/Cronos.git"
+    },
     "keywords": [
       "cronos",
       "electron",
       "time",
       "tracker"
     ],
+    "author": "Vytor Calixto <vytorcaxlito@gmail.com> (https://github.com/VytorCalixto)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VytorCalixto/Cronos/issues"
+    },
     "homepage": "https://github.com/VytorCalixto/Cronos"
   },
   "packageStatus": 200,
@@ -119,5 +126,6 @@
   },
   "filename": "VytorCalixto___Cronos.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:43.847Z"
+  "lastFetchedAt": "2017-05-04T14:20:43.847Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:47.511Z"
 }

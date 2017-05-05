@@ -108,8 +108,15 @@
       "electron.js",
       "data visualization"
     ],
+    "author": "Hardy Wu",
     "license": "GPLv2",
-    "repository": "https://github.com/hardywu/flarx",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hardywu/flarx.git"
+    },
+    "bugs": {
+      "url": "https://github.com/hardywu/flarx/issues"
+    },
     "homepage": "https://github.com/hardywu/flarx"
   },
   "packageStatus": 200,
@@ -137,5 +144,6 @@
   },
   "filename": "hardywu___flarx.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:47.308Z"
+  "lastFetchedAt": "2017-05-04T05:11:47.308Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:03.699Z"
 }

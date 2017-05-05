@@ -94,13 +94,20 @@
       "build": "webpack",
       "start": "webpack-dev-server --content-base build"
     },
-    "repository": "https://github.com/owlscreen/owlscreen",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/owlscreen/owlscreen.git"
+    },
     "keywords": [
       "electron",
       "share",
       "screen"
     ],
+    "author": "owlscreen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/owlscreen/owlscreen/issues"
+    },
     "homepage": "https://owlscreen.github.io",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -140,5 +147,6 @@
   },
   "filename": "owlscreen___desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:23.868Z"
+  "lastFetchedAt": "2017-05-04T05:22:23.868Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:16.455Z"
 }

@@ -74,19 +74,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "aallbrig",
-      "repo": "indy-node-code-analysis-desktop-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/aallbrig/indy-node-code-analysis-desktop-app/tarball/master",
-      "clone_url": "https://github.com/aallbrig/indy-node-code-analysis-desktop-app",
-      "https_url": "https://github.com/aallbrig/indy-node-code-analysis-desktop-app",
-      "travis_url": "https://travis-ci.org/aallbrig/indy-node-code-analysis-desktop-app",
-      "zip_url": "https://github.com/aallbrig/indy-node-code-analysis-desktop-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/aallbrig/indy-node-code-analysis-desktop-app"
+      "type": "git",
+      "url": "git+https://github.com/aallbrig/indy-node-code-analysis-desktop-app.git"
+    },
+    "author": {
+      "name": "Andrew Allbright",
+      "email": "aallbrig@gmail.com",
+      "url": "https://github.com/aallbrig"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/aallbrig/indy-node-code-analysis-desktop-app/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -216,5 +215,6 @@
   "svnUrl": "https://github.com/aallbrig/indy-node-code-analysis-desktop-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:10:31.602Z"
+  "lastFetchedAt": "2017-05-04T20:10:31.602Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:29.815Z"
 }

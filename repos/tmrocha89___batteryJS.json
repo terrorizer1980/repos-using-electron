@@ -74,7 +74,11 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/tmrocha89/batteryJS",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tmrocha89/batteryJS.git"
+    },
+    "author": "TmRocha89",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -107,5 +111,6 @@
   },
   "filename": "tmrocha89___batteryJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:25:11.105Z"
+  "lastFetchedAt": "2017-05-04T15:25:11.105Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:38.497Z"
 }

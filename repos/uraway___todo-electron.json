@@ -77,8 +77,19 @@
       "electron": "./node_modules/.bin/electron",
       "build": "./node_modules/.bin/build"
     },
-    "repository": "https://github.com/uraway/todo-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/uraway/todo-electron.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/uraway/todo-electron/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -218,5 +229,6 @@
   },
   "filename": "uraway___todo-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:05.670Z"
+  "lastFetchedAt": "2017-05-04T18:08:05.670Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:11.348Z"
 }

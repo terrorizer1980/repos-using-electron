@@ -81,13 +81,20 @@
       "build": "gulp build",
       "relase": "gulp relase"
     },
-    "repository": "https://github.com/qkrcjfgus33/tcp-tester",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/qkrcjfgus33/tcp-tester.git"
+    },
     "keywords": [
       "Electron",
       "tcp",
       "tester"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/qkrcjfgus33/tcp-tester/issues"
+    },
     "homepage": "https://github.com/qkrcjfgus33/tcp-tester#readme",
     "devDependencies": {
       "babel-core": "^6.9.0",
@@ -130,5 +137,6 @@
   },
   "filename": "qkrcjfgus33___tcp-tester.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:23:17.871Z"
+  "lastFetchedAt": "2017-05-04T20:23:17.871Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:51.893Z"
 }

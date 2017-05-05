@@ -50,7 +50,11 @@
     "description": "The Custom Application SDK Simulator",
     "version": "0.0.2",
     "homepage": "http://flyandi.github.io/mazda-custom-application-sdk/",
-    "repository": "https://github.com/flyandi/mazda-custom-application-sdk-simulator",
+    "author": "Andy (flyandi) <flyandi@yahoo.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/flyandi/mazda-custom-application-sdk-simulator"
+    },
     "devDependencies": {
       "del": "~2.2.0",
       "electron": "^0.4.1",
@@ -119,5 +123,6 @@
   "svnUrl": "https://github.com/flyandi/mazda-custom-application-sdk-simulator",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:19:28.240Z"
+  "lastFetchedAt": "2017-05-04T21:19:28.240Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:15.505Z"
 }

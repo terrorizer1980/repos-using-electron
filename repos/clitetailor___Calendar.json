@@ -69,9 +69,9 @@
     "name": "calendar",
     "version": "0.1.0",
     "scripts": {
-      "start": "electron app/",
-      "build": "webpack --progress --profile --colors --display-error-details --display-cached",
-      "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached"
+      "start": "electron dist/",
+      "build": "gulp && webpack",
+      "webpack": " --progress --profile --colors --display-error-details --display-cached"
     },
     "dependencies": {
       "@angular/common": "~2.0.2",
@@ -79,28 +79,33 @@
       "@angular/core": "~2.0.2",
       "@angular/forms": "~2.0.2",
       "@angular/http": "~2.0.2",
+      "@angular/material": "^2.0.0-alpha.9-3",
       "@angular/platform-browser": "~2.0.2",
       "@angular/platform-browser-dynamic": "~2.0.2",
       "@angular/router": "~3.0.2",
       "@angular/upgrade": "~2.0.2",
       "angular-in-memory-web-api": "~0.1.5",
-      "bootstrap": "^3.3.7",
       "electron": "^1.4.3",
-      "jquery": "3.1.1",
       "reflect-metadata": "^0.1.8",
       "rxjs": "5.0.0-beta.12",
-      "webpack": "^1.13.2",
       "zone.js": "^0.6.25"
     },
     "devDependencies": {
       "angular2-template-loader": "^0.5.0",
       "awesome-typescript-loader": "^2.2.4",
+      "babel-core": "^6.18.2",
+      "babel-loader": "^6.2.8",
+      "babel-preset-latest": "^6.16.0",
+      "bootstrap": "^3.3.7",
       "css-loader": "^0.25.0",
       "electron": "^1.4.3",
       "electron-packager": "8.1.0",
       "electron-reload": "~1.0.2",
+      "extract-loader": "^0.1.0",
       "extract-text-webpack-plugin": "^1.0.1",
       "file-loader": "^0.9.0",
+      "gulp": "^3.9.1",
+      "gulp-sourcemaps": "^1.9.1",
       "html-loader": "^0.4.4",
       "html-webpack-plugin": "^2.22.0",
       "null-loader": "^0.1.1",
@@ -108,8 +113,10 @@
       "style-loader": "^0.13.1",
       "ts-loader": "^0.8.2",
       "typescript": "^2.0.3",
-      "typings": "^1.4.0"
+      "typings": "^1.4.0",
+      "webpack": "^1.13.3"
     },
+    "author": "clitetailor",
     "description": "calendar app",
     "keywords": [
       "calendar"
@@ -142,5 +149,6 @@
   },
   "filename": "clitetailor___Calendar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:58.948Z"
+  "lastFetchedAt": "2017-05-04T05:27:58.948Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:38.698Z"
 }

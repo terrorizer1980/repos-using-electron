@@ -83,9 +83,16 @@
       "build:css": "postcss -c postcss.config.js",
       "watch:css": "nodemon -i dist -e css -x npm run build:css"
     },
-    "repository": "https://github.com/olizilla/trace",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/olizilla/trace.git"
+    },
     "keywords": [],
+    "author": "olizilla",
     "license": "AGPL-3.0",
+    "bugs": {
+      "url": "https://github.com/olizilla/trace/issues"
+    },
     "homepage": "https://github.com/olizilla/trace#readme",
     "devDependencies": {
       "autoprefixer": "^6.3.1",
@@ -133,5 +140,6 @@
   },
   "filename": "olizilla___trace.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:09.538Z"
+  "lastFetchedAt": "2017-05-04T05:28:09.538Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:39.404Z"
 }

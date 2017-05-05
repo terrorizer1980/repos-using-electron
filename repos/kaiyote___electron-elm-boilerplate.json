@@ -196,19 +196,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "kaiyote",
-      "repo": "electron-elm-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kaiyote/electron-elm-boilerplate/tarball/master",
-      "clone_url": "https://github.com/kaiyote/electron-elm-boilerplate",
-      "https_url": "https://github.com/kaiyote/electron-elm-boilerplate",
-      "travis_url": "https://travis-ci.org/kaiyote/electron-elm-boilerplate",
-      "zip_url": "https://github.com/kaiyote/electron-elm-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kaiyote/electron-elm-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/kaiyote/electron-elm-boilerplate.git"
+    },
+    "author": {
+      "name": "Tim Huddle",
+      "email": "tim.huddle88@gmail.com",
+      "url": "https://github.com/kaiyote"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kaiyote/electron-elm-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -311,5 +310,6 @@
   "filename": "kaiyote___electron-elm-boilerplate.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:22.564Z"
+  "lastFetchedAt": "2017-05-04T17:55:22.564Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:26.164Z"
 }

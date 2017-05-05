@@ -82,11 +82,18 @@
       "start": "http-server ./www -a localhost -p 8080 -c-1 -o",
       "update": "npm install && gulp update"
     },
-    "repository": "https://github.com/tlkiong/angularjs_starting_template",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tlkiong/angularjs_starting_template.git"
+    },
     "keywords": [
       "AngularJS Starting Template"
     ],
+    "author": "Kiong",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tlkiong/angularjs_starting_template/issues"
+    },
     "homepage": "https://github.com/tlkiong/angularjs_starting_template#readme",
     "devDependencies": {
       "bower": "^1.6.5",
@@ -132,5 +139,6 @@
   },
   "filename": "rwp140___Simple--Angular-App.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:58:38.393Z"
+  "lastFetchedAt": "2017-05-03T19:58:38.393Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:12.367Z"
 }

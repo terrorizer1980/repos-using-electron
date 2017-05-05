@@ -67,5 +67,21 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:48:44.423Z"
+  "lastFetchedAt": "2017-05-04T17:48:44.423Z",
+  "packageJSON": {
+    "name": "bgg-app",
+    "version": "0.1.0",
+    "description": "Desktop application for boardgamegeek.com created with Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/EthanCabbage/bgg-app.git",
+    "author": "Ethan Cabbage",
+    "devDependencies": {
+      "electron": "^1.4.13"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:35:07.341Z"
 }

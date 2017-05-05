@@ -59,8 +59,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ray851107/poi-proxy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ray851107/poi-proxy.git"
+    },
+    "author": "ray851107",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ray851107/poi-proxy/issues"
+    },
     "homepage": "https://github.com/ray851107/poi-proxy#readme",
     "dependencies": {
       "bluebird": "^3.3.4",
@@ -123,5 +130,6 @@
   "svnUrl": "https://github.com/ray851107/poi-proxy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:26:30.945Z"
+  "lastFetchedAt": "2017-05-04T20:26:30.945Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:35.803Z"
 }

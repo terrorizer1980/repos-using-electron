@@ -77,6 +77,7 @@
     "version": "1.0.2",
     "description": "SealTalk Desktop application.",
     "main": "main.js",
+    "author": "RongCloud",
     "license": "MIT",
     "package": {
       "runtime": "electron",
@@ -96,23 +97,17 @@
     },
     "packageNameTemplate": "{{name}}-v{{version}}-{{platform}}-{{arch}}",
     "repository": {
-      "user": "sealtalk",
-      "repo": "sealtalk-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/sealtalk/sealtalk-desktop/tarball/master",
-      "clone_url": "https://github.com/sealtalk/sealtalk-desktop",
-      "https_url": "https://github.com/sealtalk/sealtalk-desktop",
-      "travis_url": "https://travis-ci.org/sealtalk/sealtalk-desktop",
-      "zip_url": "https://github.com/sealtalk/sealtalk-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/sealtalk/sealtalk-desktop"
+      "type": "git",
+      "url": "https://github.com/sealtalk/sealtalk-desktop.git"
     },
     "keywords": [
       "SealTalk",
       "RongCloud",
       "IM"
     ],
+    "bugs": {
+      "url": "https://github.com/sealtalk/sealtalk-desktop/issues"
+    },
     "homepage": "https://github.com/sealtalk/sealtalk-desktop#readme",
     "devDependencies": {
       "electron-builder": "^2.6.0",
@@ -164,5 +159,6 @@
   "filename": "guanbo123456___sealtalk-desktop.json",
   "sourceRepo": "sealtalk/sealtalk-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:21.742Z"
+  "lastFetchedAt": "2017-05-04T15:33:21.742Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:38.362Z"
 }

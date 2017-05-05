@@ -60,6 +60,7 @@
       "build:main": "webpack --config ./webpack.config.js --color",
       "start": "electron build/bundle.js"
     },
+    "author": "Kentaro Teramoto",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "1.2.8",
@@ -124,5 +125,6 @@
   },
   "filename": "hrl7___AwesomeTwitterClient.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:18.724Z"
+  "lastFetchedAt": "2017-05-04T21:02:18.724Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:01.513Z"
 }

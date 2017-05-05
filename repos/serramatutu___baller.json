@@ -75,13 +75,20 @@
       "prestart": "lessc app/styles/main.less app/stylesheet.css",
       "start": "electron ."
     },
-    "repository": "https://github.com/serramatutu/baller",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/serramatutu/baller.git"
+    },
     "dependencies": {
       "less": ">=2.7.0",
       "electron": ">=1.4.0",
       "jquery": ">=3.0.0"
     },
+    "author": "Lucas Valente",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/serramatutu/baller/issues"
+    },
     "homepage": "https://github.com/serramatutu/baller#readme"
   },
   "packageStatus": 200,
@@ -108,5 +115,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:47:13.943Z"
+  "lastFetchedAt": "2017-05-04T20:47:13.943Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:19.580Z"
 }

@@ -54,7 +54,7 @@
   "packageJSON": {
     "private": true,
     "name": "farnsworth-launcher",
-    "version": "0.2.0",
+    "version": "0.2.4",
     "description": "Fullscreen Application Launcher for TVs",
     "main": "main.js",
     "scripts": {
@@ -62,16 +62,18 @@
       "postinstall": "install-app-deps",
       "debug": "npm install && electron --debug --debug-brk ./app",
       "start": "npm install && electron ./app",
-      "dist": "build --win --osx --linux --x64 && build --win --linux --ia32",
-      "dist:darwin": "build --osx",
+      "dist": "build --win --mac --linux --x64 && build --win --linux --ia32",
+      "dist:darwin": "build --mac",
       "dist:win64": "build --win --x64",
       "dist:win32": "build --win --ia32",
       "dist:linux64": "build --linux --x64",
       "dist:linux32": "build --linux --ia32"
     },
     "build": {
-      "app-bundle-id": "org.mythicnet.farnsworth",
-      "app-category-type": "public.app-category.utilities",
+      "appId": "org.mythicnet.farnsworth",
+      "mac": {
+        "category": "public.app-category.utilities"
+      },
       "linux": {
         "target": [
           "deb",
@@ -81,9 +83,9 @@
       }
     },
     "devDependencies": {
-      "electron-builder": "^4.2.2",
-      "electron-prebuilt": "1.2.1",
-      "rimraf": "^2.5.2"
+      "electron-builder": "^10.17.1",
+      "electron-prebuilt": "1.4.13",
+      "rimraf": "^2.5.4"
     }
   },
   "packageStatus": 200,
@@ -132,5 +134,6 @@
   "filename": "ikogan___farnsworth.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:08:17.224Z"
+  "lastFetchedAt": "2017-05-04T20:08:17.224Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:50.954Z"
 }

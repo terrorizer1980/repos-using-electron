@@ -87,7 +87,14 @@
     "keywords": [
       "RPHaven, electron"
     ],
-    "repository": "https://github.com/aeris/rph-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aeris/rph-desktop.git"
+    },
+    "author": {
+      "name": "Alex Wilson",
+      "email": "a@ax.gy"
+    },
     "main": "main.js",
     "bin": {
       "rph": "./start.js"
@@ -130,5 +137,6 @@
   },
   "filename": "aerislabs___rph-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:36.758Z"
+  "lastFetchedAt": "2017-05-04T18:34:36.758Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:09.752Z"
 }

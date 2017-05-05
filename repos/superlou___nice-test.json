@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for nice-test goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -174,5 +179,6 @@
   },
   "filename": "superlou___nice-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:03.528Z"
+  "lastFetchedAt": "2017-05-04T19:54:03.528Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:56.785Z"
 }

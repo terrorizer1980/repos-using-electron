@@ -53,8 +53,15 @@
     "scripts": {
       "test": "standard && electron test/test.js"
     },
-    "repository": "https://github.com/maxogden/electron-microscope",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maxogden/electron-microscope.git"
+    },
+    "author": "",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/maxogden/electron-microscope/issues"
+    },
     "homepage": "https://github.com/maxogden/electron-microscope#readme",
     "dependencies": {
       "debug": "^2.2.0",
@@ -120,5 +127,6 @@
   "svnUrl": "https://github.com/maxogden/electron-microscope",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:15:54.785Z"
+  "lastFetchedAt": "2017-05-04T05:15:54.785Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:58.104Z"
 }

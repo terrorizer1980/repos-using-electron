@@ -55,10 +55,15 @@
     "name": "trello-desktop",
     "productName": "Trello",
     "desktopName": "Trello",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Unofficial Trello desktop app",
     "license": "MIT",
     "repository": "danielchatfield/trello-desktop",
+    "author": {
+      "name": "Daniel Chatfield",
+      "email": "chatfielddaniel@gmail.com",
+      "url": "http://www.danielchatfield.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -150,5 +155,6 @@
   },
   "filename": "danielchatfield___trello-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:20:38.451Z"
+  "lastFetchedAt": "2017-05-04T21:20:38.451Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:11.321Z"
 }

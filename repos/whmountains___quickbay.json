@@ -54,8 +54,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/whmountains/quickbay",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/whmountains/quickbay.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/whmountains/quickbay/issues"
+    },
     "homepage": "https://github.com/whmountains/quickbay#readme",
     "devDependencies": {
       "babel": "^5.8.29",
@@ -115,5 +122,6 @@
   },
   "filename": "whmountains___quickbay.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:49.691Z"
+  "lastFetchedAt": "2017-05-04T17:56:49.691Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:26.794Z"
 }

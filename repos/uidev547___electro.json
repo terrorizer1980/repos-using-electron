@@ -74,8 +74,15 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/praveenpuglia/electro",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/praveenpuglia/electro.git"
+    },
+    "author": "Praveen Puglia",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/praveenpuglia/electro/issues"
+    },
     "homepage": "https://github.com/praveenpuglia/electro#readme",
     "devDependencies": {
       "bootstrap": "^3.3.5",
@@ -111,5 +118,6 @@
   },
   "filename": "uidev547___electro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:50.557Z"
+  "lastFetchedAt": "2017-05-04T15:21:50.557Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:43.363Z"
 }

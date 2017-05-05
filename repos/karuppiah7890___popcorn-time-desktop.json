@@ -216,8 +216,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/amilajack/popcorn-time-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amilajack/popcorn-time-desktop.git"
+    },
+    "author": {
+      "name": "Amila Welihinda",
+      "email": "amilajack@gmail.com",
+      "url": "https://github.com/amilajack"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amilajack/popcorn-time-desktop/issues"
+    },
     "keywords": [
       "popcorn-time",
       "popcorn",
@@ -234,6 +245,10 @@
       "win": {
         "iconUrl": "https://cdn.rawgit.com/amilajack/popcorn-time-desktop/master/app/icons/app.ico"
       }
+    },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
     },
     "homepage": "https://github.com/amilajack/popcorn-time-desktop",
     "devDependencies": {
@@ -392,5 +407,6 @@
   },
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:08.849Z"
+  "lastFetchedAt": "2017-05-04T21:29:08.849Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:49.381Z"
 }

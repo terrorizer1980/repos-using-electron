@@ -61,14 +61,21 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "webpack": "^1.12.11",
@@ -135,5 +142,6 @@
   },
   "filename": "alexjv89___mindless.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:17.491Z"
+  "lastFetchedAt": "2017-05-04T17:49:17.491Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:02.693Z"
 }

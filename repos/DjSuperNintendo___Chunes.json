@@ -74,11 +74,18 @@
       "start": "electron main.js",
       "build": "start tsc --watch && node-sass main.scss main.css --source-map true --watch"
     },
-    "repository": "https://github.com/DjSuperNintendo/Chunes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DjSuperNintendo/Chunes.git"
+    },
     "keywords": [
       "chunes"
     ],
+    "author": "DjSuperNintendo",
     "license": "",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -119,5 +126,6 @@
   },
   "filename": "DjSuperNintendo___Chunes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:53.179Z"
+  "lastFetchedAt": "2017-05-04T21:30:53.179Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:51.892Z"
 }

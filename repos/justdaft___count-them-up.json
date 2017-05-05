@@ -75,7 +75,9 @@
     "name": "count-them-up",
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
-    "repository": "https://github.com/NathanWalker/angular2-seed-advanced",
+    "repository": {
+      "url": "https://github.com/NathanWalker/angular2-seed-advanced"
+    },
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -106,6 +108,7 @@
       "webdriver-start": "webdriver-manager start",
       "webdriver-update": "webdriver-manager update"
     },
+    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -240,5 +243,6 @@
   },
   "filename": "justdaft___count-them-up.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:56:07.848Z"
+  "lastFetchedAt": "2017-05-04T14:56:07.848Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:47.633Z"
 }

@@ -193,7 +193,10 @@
     "main": "lib/start.js",
     "description": "An image flasher with support for Windows, OS X and GNU/Linux.",
     "homepage": "https://github.com/resin-io/etcher",
-    "repository": "https://github.com/resin-io/etcher",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:resin-io/etcher.git"
+    },
     "scripts": {
       "test": "npm run lint && electron-mocha --recursive --renderer tests/gui -R min",
       "sass": "node-sass ./lib/gui/scss/main.scss > build/css/main.css",
@@ -204,6 +207,7 @@
       "start": "electron lib/start.js",
       "shrinkwrap": "node ./scripts/shrinkwrap.js"
     },
+    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "Apache-2.0",
     "copyright": "Copyright 2016 Resinio Ltd",
     "packageIgnore": [
@@ -322,5 +326,6 @@
   },
   "sourceRepo": "resin-io/etcher",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:48.999Z"
+  "lastFetchedAt": "2017-05-04T21:29:48.999Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:24.608Z"
 }

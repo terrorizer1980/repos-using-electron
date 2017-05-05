@@ -68,6 +68,10 @@
   "packageJSON": {
     "name": "e-synoptic",
     "description": "Simple app to represent data from openweathermap service",
+    "author": {
+      "name": "Igor Onyshchenko",
+      "email": "igor.onyshchenko@gmail.com"
+    },
     "scripts": {
       "start": "electron main.js"
     },
@@ -113,5 +117,6 @@
   },
   "filename": "jolly-roger___e-synoptic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:54.035Z"
+  "lastFetchedAt": "2017-05-04T14:21:54.035Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:31.044Z"
 }

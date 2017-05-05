@@ -95,11 +95,18 @@
       "test": "mocha test/",
       "lint": "jshint **.js"
     },
-    "repository": "https://github.com/pugs-not-drugs/orgviz",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pugs-not-drugs/orgviz.git"
+    },
     "keywords": [
       "github"
     ],
+    "author": "Pugs Not Drugs",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pugs-not-drugs/orgviz/issues"
+    },
     "homepage": "https://github.com/pugs-not-drugs/orgviz#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -139,5 +146,6 @@
   },
   "filename": "Pugs-Not-Drugs___orgviz.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:33:33.312Z"
+  "lastFetchedAt": "2017-05-04T05:33:33.312Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:20.035Z"
 }

@@ -59,7 +59,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/amitmerchant1990/filteron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amitmerchant1990/filteron.git"
+    },
     "keywords": [
       "Electron",
       "image",
@@ -69,28 +72,22 @@
       "node",
       "processing"
     ],
-    "license": "MIT",
-    "homepage": "https://github.com/amitmerchant1990/filteron#readme",
-    "devDependencies": {
-      "electron-prebuilt": "^0.36.0"
+    "author": {
+      "email": "bullredeyes@gmail.com",
+      "name": "Amit Merchant",
+      "url": "http://www.amitmerchant.com"
     },
-    "lastPublisher": {
+    "_npmUser": {
       "email": "bullredeyes@gmail.com",
       "name": "amit_merchant"
     },
-    "other": {
-      "_npmUser": {
-        "email": "bullredeyes@gmail.com",
-        "name": "amit_merchant"
-      },
-      "author": {
-        "email": "bullredeyes@gmail.com",
-        "name": "Amit Merchant",
-        "url": "http://www.amitmerchant.com"
-      },
-      "bugs": {
-        "url": "https://github.com/amitmerchant1990/filteron/issues"
-      }
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amitmerchant1990/filteron/issues"
+    },
+    "homepage": "https://github.com/amitmerchant1990/filteron#readme",
+    "devDependencies": {
+      "electron-prebuilt": "^0.36.0"
     }
   },
   "packageStatus": 200,
@@ -138,5 +135,6 @@
   },
   "filename": "amitmerchant1990___filteron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:42.864Z"
+  "lastFetchedAt": "2017-05-04T18:03:42.864Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:04.708Z"
 }

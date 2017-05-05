@@ -53,10 +53,15 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-oauth2",
-    "version": "2.3.1",
+    "version": "2.4.1",
     "description": "An OAuth2 module for your Electron app.",
     "license": "MIT",
     "repository": "mawie81/electron-oauth2",
+    "author": {
+      "name": "Marcel Wiehle",
+      "email": "mawieh@googlemail.com",
+      "url": "marcel.wiehle.me"
+    },
     "files": [
       "index.js"
     ],
@@ -71,7 +76,7 @@
     ],
     "devDependencies": {
       "ava": "^0.8.0",
-      "electron": "^0.4.1",
+      "electron": "^1.4.1",
       "mocha": "^2.5.3",
       "xo": "^0.12.1"
     },
@@ -87,7 +92,8 @@
       "space": true,
       "globals": [
         "describe",
-        "it"
+        "it",
+        "xdescribe"
       ],
       "rules": {
         "brace-style": [
@@ -146,5 +152,6 @@
   },
   "filename": "mawie81___electron-oauth2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T08:01:29.622Z"
+  "lastFetchedAt": "2017-05-04T08:01:29.622Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:58.544Z"
 }

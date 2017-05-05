@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Yu Lu",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -125,5 +126,6 @@
   },
   "filename": "yulu___electron-react-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:09:12.831Z"
+  "lastFetchedAt": "2017-05-04T21:09:12.831Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:55.667Z"
 }

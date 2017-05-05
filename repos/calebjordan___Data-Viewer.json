@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/calebjordan/data-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/calebjordan/data-viewer"
+    },
     "keywords": [
       "data",
       "viewer",
       "h5",
       "plotly"
     ],
+    "author": "Caleb Jordan",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/calebjordan/data-viewer/issues"
+    },
     "homepage": "https://github.com/calebjordan/data-viewer#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -122,5 +129,6 @@
   },
   "filename": "calebjordan___Data-Viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:34.119Z"
+  "lastFetchedAt": "2017-05-04T20:20:34.119Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:37.110Z"
 }

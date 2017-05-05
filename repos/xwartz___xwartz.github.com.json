@@ -60,12 +60,16 @@
       "build:osx": "electron-packager ./ Mac --out=dist/osx --platform=darwin --arch=x64 --version=0.36.0  --overwrite --ignore=dist",
       "build:win": "electron-packager ./ Win --out=dist/win --platform=win32 --arch=ia32 --version=0.36.0  --overwrite --ignore=dist"
     },
-    "repository": "https://github.com/xwartz/xwartz.github.com",
+    "repository": {
+      "type": "git",
+      "url": "git@xwartz.github.com:xwartz/xwartz.github.com.git"
+    },
     "keywords": [
       "react",
       "xwartz",
       "personal page"
     ],
+    "author": "xwartz <stddup@gmail.com> (https://github.com/xwartz/)",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer-loader": "^3.1.0",
@@ -149,5 +153,6 @@
   "svnUrl": "https://github.com/xwartz/xwartz.github.com",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:40:49.759Z"
+  "lastFetchedAt": "2017-05-04T17:40:49.759Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:21.243Z"
 }

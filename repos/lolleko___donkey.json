@@ -114,7 +114,12 @@
         "donkey",
         "Event",
         "Option",
-        "VDFMap"
+        "VDFMap",
+        "Parser",
+        "BaseValue",
+        "Command",
+        "UndoableCommand",
+        "KVFile"
       ]
     }
   },
@@ -143,5 +148,6 @@
   },
   "filename": "lolleko___donkey.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:16.520Z"
+  "lastFetchedAt": "2017-05-04T15:28:16.520Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:32.969Z"
 }

@@ -87,10 +87,14 @@
   "status": 200,
   "packageJSON": {
     "name": "q2studio",
-    "version": "0.0.1",
+    "version": "2017.4.0",
     "description": "A web-based interface for QIIME 2.",
+    "author": "QIIME 2 Development Team",
     "license": "BSD-3-Clause",
-    "repository": "https://github.com/qiime2/q2studio",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/qiime2/q2studio.git"
+    },
     "scripts": {
       "lint:css": "stylelint 'app/**/*.css' --config config/stylelint.yaml",
       "lint:js": "eslint app/ config/ --ext .js,.jsx --config config/eslint.yaml",
@@ -197,5 +201,6 @@
   },
   "filename": "qiime2___q2studio.json",
   "hasProjects": false,
-  "lastFetchedAt": "2017-05-04T18:17:53.384Z"
+  "lastFetchedAt": "2017-05-04T18:17:53.384Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:27.766Z"
 }

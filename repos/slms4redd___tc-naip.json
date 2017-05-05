@@ -70,6 +70,10 @@
     "version": "0.1.0",
     "description": "NAIP data entry application",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "main": "main.js",
     "scripts": {
       "start": "ember server",
@@ -77,10 +81,14 @@
       "test": "ember test",
       "dev": "nf start"
     },
-    "repository": "https://github.com/alessio-alfonsetti/tc-naip",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alessio-alfonsetti/tc-naip.git"
+    },
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "Stefano Giaccio",
     "license": "GPL-2.0",
     "devDependencies": {
       "body-parser": "^1.14.0",
@@ -154,5 +162,6 @@
   "svnUrl": "https://github.com/slms4redd/tc-naip",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:14:38.736Z"
+  "lastFetchedAt": "2017-05-04T15:14:38.736Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:15.644Z"
 }

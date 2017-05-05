@@ -67,8 +67,19 @@
       "package": "node package.js",
       "package-all": "node package.js --all"
     },
-    "repository": "https://github.com/IlyaPomaskin/KeePass-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IlyaPomaskin/KeePass-electron.git"
+    },
+    "author": {
+      "name": "Ilya Pomaskin",
+      "email": "ilya.pomaskin@gmail.com",
+      "url": "https://github.com/IlyaPomaskin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IlyaPomaskin/KeePass-electron/issues"
+    },
     "keywords": [
       "electron",
       "keepass",
@@ -182,5 +193,6 @@
   "svnUrl": "https://github.com/IlyaPomaskin/KeePass-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:40:15.001Z"
+  "lastFetchedAt": "2017-05-04T20:40:15.001Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:20.636Z"
 }

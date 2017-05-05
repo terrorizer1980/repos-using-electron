@@ -73,7 +73,14 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Felix Kaminski",
+      "email": "kaminski.felix@gmail.com"
+    },
     "license": "MIT",
     "keywords": [],
     "devDependencies": {
@@ -202,5 +209,6 @@
   },
   "filename": "Figedi___Fritzbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:20.750Z"
+  "lastFetchedAt": "2017-05-04T05:07:20.750Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:10.971Z"
 }

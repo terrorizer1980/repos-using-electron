@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/salvatorecriscioneweb/riotjs-electron-example-counter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/salvatorecriscioneweb/riotjs-electron-example-counter.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "bootstrap": "^3.3.6",
@@ -122,5 +129,6 @@
   },
   "filename": "salvatorecriscioneweb___riotjs-electron-example-counter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:16:31.435Z"
+  "lastFetchedAt": "2017-05-04T20:16:31.435Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:29.778Z"
 }

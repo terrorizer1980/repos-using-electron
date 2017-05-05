@@ -167,6 +167,15 @@
     "name": "PartyRooms",
     "description": "PartyRooms: share, discover, enjoy",
     "version": "0.1.0-pre-alpha.0",
+    "author": {
+      "name": "Vasiliy Yorkin",
+      "email": "vasiliy.yorkin@gmail.com",
+      "url": "https://github.com/vyorkin"
+    },
+    "bugs": {
+      "url": "https://github.com/partyrooms/web/issues",
+      "email": "vasiliy.yorkin@gmail.com"
+    },
     "config": {
       "https": false,
       "host": "0.0.0.0",
@@ -419,17 +428,8 @@
     "main": "src/server/index.js",
     "private": true,
     "repository": {
-      "user": "partyrooms",
-      "repo": "web",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/partyrooms/web/tarball/master",
-      "clone_url": "https://github.com/partyrooms/web",
-      "https_url": "https://github.com/partyrooms/web",
-      "travis_url": "https://travis-ci.org/partyrooms/web",
-      "zip_url": "https://github.com/partyrooms/web/archive/master.zip",
-      "api_url": "https://api.github.com/repos/partyrooms/web"
+      "type": "git",
+      "url": "partyrooms/web"
     },
     "scripts": {
       "build": "gulp build",
@@ -498,5 +498,6 @@
   "svnUrl": "https://github.com/Saber-Kurama/web",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:12:12.377Z"
+  "lastFetchedAt": "2017-05-04T05:12:12.377Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:05.723Z"
 }

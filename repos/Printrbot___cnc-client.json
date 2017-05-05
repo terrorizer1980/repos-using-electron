@@ -88,6 +88,7 @@
       "start": "electron .",
       "build": "electron-packager . pbCNC --platform=darwin --arch=x64 --version=0.36.0 --asar=true --prune=true"
     },
+    "author": "mick",
     "devDependencies": {
       "electron-packager": "^5.2.1",
       "electron-prebuilt": "0.36.0",
@@ -123,5 +124,6 @@
   },
   "filename": "Printrbot___cnc-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:55.459Z"
+  "lastFetchedAt": "2017-05-04T21:10:55.459Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:20.675Z"
 }

@@ -72,6 +72,11 @@
     "description": "My outstanding app",
     "license": "MIT",
     "repository": "Kafeen/plinko",
+    "author": {
+      "name": "Matthew Knowles",
+      "email": "",
+      "url": "github.com/kafeen"
+    },
     "scripts": {
       "test": "xo",
       "prestart": "npm install && bower install ./app",
@@ -138,5 +143,6 @@
   },
   "filename": "Kafeen___Plinko.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:20.766Z"
+  "lastFetchedAt": "2017-05-04T17:44:20.766Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:10.899Z"
 }

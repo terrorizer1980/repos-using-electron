@@ -94,6 +94,7 @@
       "test:watch": "npm run test -- --watch",
       "open:cover": "npm run test:cover && open coverage/index.html"
     },
+    "author": "Ilya Ivanov",
     "license": "MIT",
     "dependencies": {
       "font-awesome": "^4.6.3",
@@ -194,5 +195,6 @@
   },
   "filename": "ilyaivanov___True-Tune.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:44.536Z"
+  "lastFetchedAt": "2017-05-04T21:21:44.536Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:52.253Z"
 }

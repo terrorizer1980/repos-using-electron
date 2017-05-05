@@ -73,7 +73,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/BrandonDBrown/tickets",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BrandonDBrown/tickets.git"
+    },
     "keywords": [
       "tickets",
       "work"
@@ -112,5 +115,6 @@
   },
   "filename": "BrandonDBrown___tickets.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:59.123Z"
+  "lastFetchedAt": "2017-05-04T14:49:59.123Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:42.091Z"
 }

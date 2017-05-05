@@ -82,8 +82,18 @@
       "lint": "jshint --config .jshintrc --reporter unix lib tests",
       "readme": "jsdoc2md --template doc/README.hbs lib/storage.js > README.md"
     },
-    "repository": "https://github.com/andrewdw/observable-json-storage",
+    "directories": {
+      "test": "tests"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andrewdw/observable-json-storage.git"
+    },
+    "author": "Andrew Dillion-Walshe",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/andrewdw/observable-json-storage/issues"
+    },
     "keywords": [
       "node",
       "electron",
@@ -136,5 +146,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:34.601Z"
+  "lastFetchedAt": "2017-05-04T19:30:34.601Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:53.042Z"
 }

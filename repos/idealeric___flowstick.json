@@ -80,6 +80,10 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": {
+      "name": "Eric Butler",
+      "email": "idealeric@gmail.com"
+    },
     "devDependencies": {
       "asar": "0.11.0",
       "babel-core": "^6.7.4",
@@ -203,5 +207,6 @@
   },
   "filename": "idealeric___flowstick.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:25.433Z"
+  "lastFetchedAt": "2017-05-04T21:04:25.433Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:57.824Z"
 }

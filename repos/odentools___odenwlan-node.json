@@ -74,8 +74,15 @@
       "start": "electron . --env=development",
       "test": "node_modules/grunt-cli/bin/grunt test"
     },
+    "author": "OdenTools Project",
     "license": "MIT",
-    "repository": "https://github.com/odentools/odenwlan-node",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/odentools/odenwlan-node.git"
+    },
+    "bugs": {
+      "url": "https://github.com/odentools/odenwlan-node/issues"
+    },
     "dependencies": {
       "auto-launch": "^1.1.1",
       "electron-prebuilt": "^0.29.2",
@@ -138,5 +145,6 @@
   "svnUrl": "https://github.com/odentools/odenwlan-node",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:05:03.411Z"
+  "lastFetchedAt": "2017-05-03T20:05:03.411Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:59.086Z"
 }

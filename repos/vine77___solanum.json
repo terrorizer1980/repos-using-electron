@@ -56,6 +56,10 @@
     "version": "0.0.0",
     "description": "Small description for solanum goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember electron:package",
       "start": "ember electron",
@@ -65,6 +69,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -187,5 +192,6 @@
   "svnUrl": "https://github.com/vine77/solanum",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:09:05.911Z"
+  "lastFetchedAt": "2017-05-04T18:09:05.911Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:51.657Z"
 }

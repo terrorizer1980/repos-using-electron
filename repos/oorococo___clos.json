@@ -79,9 +79,16 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/oorococo/clos",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/oorococo/clos.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/oorococo/clos/issues"
+    },
     "homepage": "https://github.com/oorococo/clos#readme",
     "dependencies": {
       "font-awesome": "^4.6.3",
@@ -151,5 +158,6 @@
   },
   "filename": "oorococo___clos.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:36:25.379Z"
+  "lastFetchedAt": "2017-05-04T20:36:25.379Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:41.768Z"
 }

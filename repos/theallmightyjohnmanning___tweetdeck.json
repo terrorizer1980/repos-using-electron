@@ -84,8 +84,15 @@
       "start": "electron main",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/theallmightyjohnmanning/tweetdeck",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/theallmightyjohnmanning/tweetdeck.git"
+    },
+    "author": "John Manning",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/theallmightyjohnmanning/tweetdeck/issues"
+    },
     "homepage": "https://github.com/theallmightyjohnmanning/tweetdeck#readme"
   },
   "packageStatus": 200,
@@ -113,5 +120,6 @@
   },
   "filename": "theallmightyjohnmanning___tweetdeck.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:04.690Z"
+  "lastFetchedAt": "2017-05-04T21:14:04.690Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:58.974Z"
 }

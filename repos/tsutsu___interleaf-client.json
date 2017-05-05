@@ -73,9 +73,16 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/tsutsu/interleaf-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tsutsu/interleaf-client.git"
+    },
     "keywords": [],
+    "author": "Levi Aul",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tsutsu/interleaf-client/issues"
+    },
     "homepage": "https://github.com/tsutsu/interleaf-client#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -110,5 +117,6 @@
   },
   "filename": "tsutsu___interleaf-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:52.348Z"
+  "lastFetchedAt": "2017-05-04T15:19:52.348Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:37.003Z"
 }

@@ -90,8 +90,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/mic-fadeev/postglass",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mic-fadeev/postglass.git"
+    },
+    "author": {
+      "name": "Michael F.",
+      "email": "mic.fadeev@gmail.com",
+      "url": "https://www.upwork.com/freelancers/~019739a15313b8bd52"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mic-fadeev/postglass/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -204,5 +215,6 @@
   },
   "filename": "mic-fadeev___postglass.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:24.045Z"
+  "lastFetchedAt": "2017-05-03T20:06:24.045Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:33.598Z"
 }

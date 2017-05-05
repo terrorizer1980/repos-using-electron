@@ -83,8 +83,15 @@
       "start": "webpack-dev-server",
       "lint": "eslint src/app"
     },
-    "repository": "https://github.com/AscaL/react-electron-todo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AscaL/react-electron-todo.git"
+    },
+    "author": "AscaL",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AscaL/react-electron-todo/issues"
+    },
     "homepage": "https://github.com/AscaL/react-electron-todo#readme",
     "dependencies": {
       "axios": "^0.14.0",
@@ -135,5 +142,6 @@
   },
   "filename": "AscaL___react-electron-todo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:40.976Z"
+  "lastFetchedAt": "2017-05-04T14:53:40.976Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:58.609Z"
 }

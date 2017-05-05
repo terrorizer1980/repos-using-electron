@@ -185,6 +185,11 @@
     "description": "runs Node.js programs through Chromium DevTools",
     "main": "index.js",
     "license": "MIT",
+    "author": {
+      "name": "Matt DesLauriers",
+      "email": "dave.des@gmail.com",
+      "url": "https://github.com/mattdesl"
+    },
     "dependencies": {
       "browser-resolve": "^1.11.0",
       "chokidar": "^1.4.2",
@@ -235,19 +240,13 @@
     },
     "keywords": [],
     "repository": {
-      "user": "Jam3",
-      "repo": "devtool",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Jam3/devtool/tarball/master",
-      "clone_url": "https://github.com/Jam3/devtool",
-      "https_url": "https://github.com/Jam3/devtool",
-      "travis_url": "https://travis-ci.org/Jam3/devtool",
-      "zip_url": "https://github.com/Jam3/devtool/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Jam3/devtool"
+      "type": "git",
+      "url": "git://github.com/Jam3/devtool.git"
     },
     "homepage": "https://github.com/Jam3/devtool",
+    "bugs": {
+      "url": "https://github.com/Jam3/devtool/issues"
+    },
     "bin": {
       "devtool": "./bin/index.js"
     }
@@ -298,5 +297,6 @@
   "svnUrl": "https://github.com/sunyinhuiCoding/devtool",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:37:21.091Z"
+  "lastFetchedAt": "2017-05-04T17:37:21.091Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:44.920Z"
 }

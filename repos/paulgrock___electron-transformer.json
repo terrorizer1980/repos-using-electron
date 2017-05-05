@@ -79,6 +79,11 @@
     "description": "My groundbreaking app",
     "license": "MIT",
     "repository": "paulgrock/electron-transformer",
+    "author": {
+      "name": "Paul Grock",
+      "email": "paulgrock@gmail.com",
+      "url": "paulgrock.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -166,5 +171,6 @@
   },
   "filename": "paulgrock___electron-transformer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:18.554Z"
+  "lastFetchedAt": "2017-05-04T04:57:18.554Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:47.847Z"
 }

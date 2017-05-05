@@ -65,8 +65,15 @@
       "test": "electron test-build/runner/main.js",
       "clean": "gulp clean"
     },
-    "repository": "https://github.com/ueokande/adversaria",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ueokande/adversaria.git"
+    },
+    "author": "Shin'ya Ueoka",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ueokande/adversaria/issues"
+    },
     "homepage": "https://github.com/ueokande/adversaria#readme",
     "devDependencies": {
       "bower": "^1.7.1",
@@ -142,5 +149,6 @@
   "svnUrl": "https://github.com/ueokande/adversaria",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:10:17.531Z"
+  "lastFetchedAt": "2017-05-04T20:10:17.531Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:06.882Z"
 }

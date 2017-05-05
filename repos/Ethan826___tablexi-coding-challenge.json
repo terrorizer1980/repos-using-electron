@@ -54,7 +54,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/ethan826/tablexi-coding-challenge",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ethan826/tablexi-coding-challenge"
+    },
+    "author": "Ethan Kent",
     "homepage": "https://flashbangsplat.com/",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -114,5 +118,6 @@
   },
   "filename": "Ethan826___tablexi-coding-challenge.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:20.918Z"
+  "lastFetchedAt": "2017-05-04T05:00:20.918Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:01.685Z"
 }

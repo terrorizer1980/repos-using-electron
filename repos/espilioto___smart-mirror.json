@@ -174,17 +174,8 @@
       "start": "electron main.js "
     },
     "repository": {
-      "user": "evancohen",
-      "repo": "smart-mirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/evancohen/smart-mirror/tarball/master",
-      "clone_url": "https://github.com/evancohen/smart-mirror",
-      "https_url": "https://github.com/evancohen/smart-mirror",
-      "travis_url": "https://travis-ci.org/evancohen/smart-mirror",
-      "zip_url": "https://github.com/evancohen/smart-mirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/evancohen/smart-mirror"
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
     },
     "keywords": [
       "Electron",
@@ -192,7 +183,11 @@
       "start",
       "tutorial"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "electron-prebuilt": "^0.36.5"
@@ -244,5 +239,6 @@
   "svnUrl": "https://github.com/espilioto/smart-mirror",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:18:41.729Z"
+  "lastFetchedAt": "2017-05-04T18:18:41.729Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:14.266Z"
 }

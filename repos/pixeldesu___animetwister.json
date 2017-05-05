@@ -63,13 +63,20 @@
       "build:linux": "electron-packager . --overwrite --out=dist --ignore='^node_modules$' --prune --platform=linux --arch=x64 --app-bundle-id=com.pixeldesu.animetwister",
       "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^node_modules$' --prune --platform=win32 --arch=ia32 --version-string.ProductName=$npm_package_productName"
     },
-    "repository": "https://github.com/pixeldesu/animetwister",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pixeldesu/animetwister.git"
+    },
     "keywords": [
       "anime",
       "animetwister",
       "Electron"
     ],
+    "author": "pixeldesu",
     "license": "aGPLv3",
+    "bugs": {
+      "url": "https://github.com/pixeldesu/animetwister/issues"
+    },
     "homepage": "https://github.com/pixeldesu/animetwister#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -121,5 +128,6 @@
   "svnUrl": "https://github.com/pixeldesu/animetwister",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:24:20.154Z"
+  "lastFetchedAt": "2017-05-04T15:24:20.154Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:02.004Z"
 }

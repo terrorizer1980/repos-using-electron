@@ -92,7 +92,11 @@
     "window": {
       "toolbar": false
     },
-    "repository": "https://github.com/MystK/horrible-plex",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MystK/horrible-plex.git"
+    },
+    "author": "Antoine Pham",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -120,5 +124,6 @@
   },
   "filename": "MystK___horrible-plex.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:22.050Z"
+  "lastFetchedAt": "2017-05-04T21:04:22.050Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:35.943Z"
 }

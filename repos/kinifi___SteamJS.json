@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/kinifi/SteamJS",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kinifi/SteamJS.git"
+    },
     "keywords": [
       "game",
       "cropping"
     ],
+    "author": "@kinifi",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kinifi/SteamJS/issues"
+    },
     "homepage": "https://github.com/kinifi/SteamJS#readme",
     "dependencies": {
       "colors": "^1.1.2",
@@ -121,5 +128,6 @@
   },
   "filename": "kinifi___SteamJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:30.855Z"
+  "lastFetchedAt": "2017-05-04T19:39:30.855Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:50.065Z"
 }

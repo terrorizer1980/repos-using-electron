@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/serman/medialabccn-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/serman/medialabccn-app.git"
+    },
+    "author": "Sergio Galan",
     "license": "CC0-1.0",
     "dependencies": {
       "jsonfile": "^2.2.3"
@@ -107,5 +111,6 @@
   },
   "filename": "serman___medialabccn-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:17.696Z"
+  "lastFetchedAt": "2017-05-04T15:14:17.696Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:50.414Z"
 }

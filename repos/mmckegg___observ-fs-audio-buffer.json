@@ -54,7 +54,10 @@
       "test": "standard",
       "example": "electron-spawn example.js"
     },
-    "repository": "https://github.com/mmckegg/observ-fs-audio-buffer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mmckegg/observ-fs-audio-buffer"
+    },
     "keywords": [
       "AudioBuffer",
       "waapi",
@@ -62,7 +65,11 @@
       "frp",
       "electron"
     ],
+    "author": "Matt McKegg",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mmckegg/observ-fs-audio-buffer/issues"
+    },
     "homepage": "https://github.com/mmckegg/observ-fs-audio-buffer",
     "dependencies": {
       "observ": "^0.2.0",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/mmckegg/observ-fs-audio-buffer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:07:55.862Z"
+  "lastFetchedAt": "2017-05-04T05:07:55.862Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:40.410Z"
 }

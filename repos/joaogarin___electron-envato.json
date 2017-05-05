@@ -63,8 +63,15 @@
       "webpack-test": "webpack --config webpack.test.js --progress --profile --colors --display-error-details --display-cached",
       "test": "karma start"
     },
-    "repository": "https://github.com/joaogarin/angular2-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/joaogarin/angular2-electron.git"
+    },
+    "author": "joaogarin <github@joaogarin.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/joaogarin/angular2-electron/issues"
+    },
     "homepage": "",
     "dependencies": {
       "@angular/http": "2.0.0-rc.2",
@@ -169,5 +176,6 @@
   "svnUrl": "https://github.com/joaogarin/electron-envato",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:02:30.611Z"
+  "lastFetchedAt": "2017-05-04T18:02:30.611Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:36.885Z"
 }

@@ -79,6 +79,10 @@
       "build": "$(npm bin)/electron-packager . github-garden --out dist --platform=darwin --arch=x64 --version=1.3.4 --overwrite"
     },
     "private": true,
+    "author": "shokohara",
+    "bugs": {
+      "url": "https://github.com/shokohara/github-garden/issues"
+    },
     "homepage": "https://github.com/shokohara/github-garden",
     "devDependencies": {
       "babel-cli": "^6.14.0",
@@ -121,5 +125,6 @@
   },
   "filename": "shokohara___github-garden.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:25.547Z"
+  "lastFetchedAt": "2017-05-04T21:15:25.547Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:47.724Z"
 }

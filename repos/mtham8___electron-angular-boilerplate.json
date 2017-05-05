@@ -70,7 +70,11 @@
     "version": "1.0.0",
     "description": "electron-angular-boilerplate",
     "main": "main.js",
-    "repository": "https://github.com/mtham8/electron-angular-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mtham8/electron-angular-boilerplate.git"
+    },
+    "author": "Michelle Tham",
     "license": "ISC",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -88,6 +92,9 @@
       "electron-app",
       "electron"
     ],
+    "bugs": {
+      "url": "https://github.com/mtham8/electron-angular-boilerplate/issues"
+    },
     "homepage": "https://github.com/mtham8/electron-angular-boilerplate#readme",
     "dependencies": {
       "babel-core": "^6.11.4",
@@ -150,5 +157,6 @@
   },
   "filename": "mtham8___electron-angular-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:18:15.465Z"
+  "lastFetchedAt": "2017-05-04T14:18:15.465Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:45.264Z"
 }

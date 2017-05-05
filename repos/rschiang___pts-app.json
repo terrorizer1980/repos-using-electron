@@ -76,8 +76,15 @@
       "electronify": "^2.0.2"
     },
     "devDependencies": {},
-    "repository": "https://github.com/rschiang/pts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rschiang/pts.git"
+    },
+    "author": "Poren Chiang",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rschiang/pts/issues"
+    },
     "homepage": "https://github.com/rschiang/pts#readme"
   },
   "packageStatus": 200,
@@ -104,5 +111,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:18.890Z"
+  "lastFetchedAt": "2017-05-04T18:34:18.890Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:00.761Z"
 }

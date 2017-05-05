@@ -73,7 +73,11 @@
     "scripts": {
       "start": "node ./start-electron.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "author": "Bradford Lamson-Scribner",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -107,5 +111,6 @@
   },
   "filename": "bradford-hamilton___Electron-App.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:55.890Z"
+  "lastFetchedAt": "2017-05-04T21:29:55.890Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:36.869Z"
 }

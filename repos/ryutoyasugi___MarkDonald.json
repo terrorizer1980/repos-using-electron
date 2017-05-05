@@ -74,13 +74,20 @@
       "start": "gulp",
       "build": "node build.js"
     },
-    "repository": "https://github.com/ryutoyasugi/MarkDonald",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ryutoyasugi/MarkDonald.git"
+    },
     "keywords": [
       "markdown",
       "editor",
       "electron"
     ],
+    "author": "ryutoyasugi",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ryutoyasugi/MarkDonald/issues"
+    },
     "homepage": "https://github.com/ryutoyasugi/MarkDonald#readme",
     "devDependencies": {
       "electron-connect": "^0.4.2",
@@ -121,5 +128,6 @@
   },
   "filename": "ryutoyasugi___MarkDonald.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:46.099Z"
+  "lastFetchedAt": "2017-05-04T14:49:46.099Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:23.842Z"
 }

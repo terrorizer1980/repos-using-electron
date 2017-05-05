@@ -83,14 +83,21 @@
       "styles": "npm run less-dev && chokidar 'styles/*.less' -c 'npm run less-dev'",
       "log": "node test/logs/index.js"
     },
-    "repository": "https://github.com/pauldijou/watch-logs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pauldijou/watch-logs.git"
+    },
     "keywords": [
       "logs",
       "log",
       "viewer",
       "watch"
     ],
+    "author": "Paul Dijou",
     "license": "Apache 2",
+    "bugs": {
+      "url": "https://github.com/pauldijou/watch-logs/issues"
+    },
     "homepage": "https://github.com/pauldijou/watch-logs#readme",
     "devDependencies": {
       "chokidar-cli": "^1.2.0",
@@ -130,5 +137,6 @@
   },
   "filename": "pauldijou___watch-logs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:03.725Z"
+  "lastFetchedAt": "2017-05-04T20:24:03.725Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:05.214Z"
 }

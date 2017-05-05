@@ -76,14 +76,36 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "scripts": {},
+    "scripts": {
+      "lint": "eslint source",
+      "start": "node index.js",
+      "test": "jest && npm run lint"
+    },
     "keywords": [],
     "author": "Joseph Fraley",
     "license": "MIT",
     "dependencies": {
-      "firebase": "^3.6.0",
-      "moment": "^2.16.0",
+      "firebase-admin": "^4.0.3",
+      "node-fetch": "^1.6.3",
       "osmosis": "^1.1.1"
+    },
+    "devDependencies": {
+      "codecov": "^1.0.1",
+      "eslint": "^3.11.0",
+      "jest": "^17.0.3"
+    },
+    "jest": {
+      "testRegex": "__tests__",
+      "coverageDirectory": "./coverage/",
+      "collectCoverage": true,
+      "moduleNameMapper": {
+        "moduleFileExtensions": [
+          "js"
+        ],
+        "moduleDirectories": [
+          "node_modules"
+        ]
+      }
     }
   },
   "packageStatus": 200,
@@ -111,5 +133,6 @@
   },
   "filename": "joefraley___humane-society-scraper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:31:33.135Z"
+  "lastFetchedAt": "2017-05-04T18:31:33.135Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:55.949Z"
 }

@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "",
     "license": "ISC",
-    "repository": "https://github.com/awseward/hello-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/awseward/hello-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/awseward/hello-electron/issues"
+    },
     "devDependencies": {
       "del": "^1.2.0",
       "electron-prebuilt": "^0.29.2",
@@ -114,5 +121,6 @@
   },
   "filename": "awseward___hello-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:01.052Z"
+  "lastFetchedAt": "2017-05-04T18:25:01.052Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:51.934Z"
 }

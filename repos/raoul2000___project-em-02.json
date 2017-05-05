@@ -88,6 +88,7 @@
       "tutorial",
       "demo"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "devtron": "^1.4.0",
@@ -98,8 +99,12 @@
       "electron-json-storage": "^2.0.3",
       "handlebars": "^4.0.5",
       "jquery": "^3.1.1",
+      "nconf": "^0.8.4",
+      "nedb": "^1.8.0",
       "pnotify": "^3.0.0",
       "pure-css-loader": "^1.2.1",
+      "restler": "^3.4.0",
+      "tomcat-scan": "^0.0.2",
       "vue": "^2.0.3"
     }
   },
@@ -128,5 +133,6 @@
   },
   "filename": "raoul2000___project-em-02.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:13.888Z"
+  "lastFetchedAt": "2017-05-04T05:30:13.888Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:24.341Z"
 }

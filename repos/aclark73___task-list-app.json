@@ -80,8 +80,6 @@
       "electron-rebuild": "~1.1.3"
     },
     "dependencies": {
-      "ajax-request": "1.2.1",
-      "request": "2.72.0",
       "electron-json-storage": "2.0.0",
       "electron-prebuilt": "^0.36.5",
       "react": "^0.14.6",
@@ -89,7 +87,8 @@
       "classnames": "2.2.5",
       "configstore": "2.0.0",
       "humanize-duration": "3.9.1",
-      "react-d3-basic": "1.6.11"
+      "react-d3-basic": "1.6.11",
+      "colormap": "2.2.0"
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,6 @@
   "svnUrl": "https://github.com/aclark73/task-list-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:47:08.045Z"
+  "lastFetchedAt": "2017-05-04T20:47:08.045Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:35.047Z"
 }

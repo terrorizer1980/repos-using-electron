@@ -79,7 +79,10 @@
       "start": "HOT=1 NODE_ENV=development electron .",
       "start:win": "set HOT=1 && set NODE_ENV=development && electron ."
     },
-    "repository": "https://github.com/egoist/vuepack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/egoist/vuepack.git"
+    },
     "keywords": [
       "vue",
       "webpack",
@@ -89,7 +92,11 @@
       "mvvm",
       "starter"
     ],
+    "author": "EGOIST",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/egoist/vuepack/issues"
+    },
     "homepage": "https://github.com/egoist/vuepack#readme",
     "devDependencies": {
       "babel-core": "^6.3.13",
@@ -152,5 +159,6 @@
   },
   "filename": "egoist___feeds.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:37:16.898Z"
+  "lastFetchedAt": "2017-05-04T05:37:16.898Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:29.912Z"
 }

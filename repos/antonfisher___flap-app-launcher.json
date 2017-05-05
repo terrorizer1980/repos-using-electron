@@ -74,20 +74,47 @@
   "status": 200,
   "packageJSON": {
     "name": "flap-app-launcher",
-    "version": "0.1.0",
-    "description": "Tiny, slim application launcher",
+    "version": "1.0.5",
+    "description": "Compact applications launcher for Ubuntu",
     "main": "index.js",
+    "bin": "./run-production.js",
     "scripts": {
-      "start": "./node_modules/.bin/electron .",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "dev": "export NODE_ENV=development && electron .",
+      "start": "electron .",
+      "test": "export NODE_ENV=test && mocha --recursive ./tests",
+      "cover": "export NODE_ENV=test && istanbul cover _mocha -- --recursive ./tests",
+      "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls",
+      "test:install-dev-to-global": "sudo npm -g remove flap-app-launcher && sudo npm install -g ./ && npm list -g --depth 0",
+      "test:install-npm-to-global": "sudo npm -g remove flap-app-launcher && sudo npm install -g flap-app-launcher && npm list -g --depth 0",
+      "lint": "eslint --ignore-path .gitignore --ignore-pattern node_modules -- .",
+      "build": "electron-packager --overwrite --out=build --ignore='^(.*tests.*|.*\\.(log|stats|config\\.json|gitignore|idea|travis|eslint).*)$' ./",
+      "postbuild": "cd ./build && tar -czf flap-app-launcher-linux-x64.tar.gz flap-app-launcher-linux-x64",
+      "release:patch": "standard-version -r patch",
+      "release:minor": "standard-version -r minor",
+      "release:major": "standard-version -r major"
     },
     "keywords": [
-      "launcher"
+      "electronjs",
+      "launcher",
+      "ubuntu"
     ],
+    "author": "Anton Fisher <a.fschr@gmail.com> (http://antonfisher.com)",
     "license": "MIT",
+    "dependencies": {
+      "electron": "1.6.6",
+      "winston": "2.3.1"
+    },
     "devDependencies": {
-      "electron": "1.4.13",
-      "electron-reload": "1.1.0"
+      "coveralls": "2.13.1",
+      "electron-packager": "8.6.0",
+      "eslint": "3.19.0",
+      "eslint-config-airbnb-base": "11.1.3",
+      "eslint-plugin-import": "2.2.0",
+      "istanbul": "0.4.5",
+      "mocha": "3.3.0",
+      "mocha-lcov-reporter": "1.3.0",
+      "proxyquire": "1.7.11",
+      "simple-mock": "0.7.3"
     }
   },
   "packageStatus": 200,
@@ -114,5 +141,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:25.085Z"
+  "lastFetchedAt": "2017-05-04T20:20:25.085Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:08.134Z"
 }

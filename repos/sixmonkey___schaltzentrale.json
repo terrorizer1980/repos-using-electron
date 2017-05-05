@@ -110,7 +110,7 @@
     },
     "devDependencies": {
       "chai": "^3.5.0",
-      "electron": "1.4.5",
+      "electron": "latest",
       "electron-builder": "^5.12.1",
       "electron-connect": "^0.6.0",
       "electron-mocha": "^3.0.0",
@@ -161,5 +161,6 @@
   },
   "filename": "sixmonkey___schaltzentrale.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:20:40.398Z"
+  "lastFetchedAt": "2017-05-04T21:20:40.398Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:40.403Z"
 }

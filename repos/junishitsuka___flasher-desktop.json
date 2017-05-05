@@ -54,8 +54,12 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "watch": "gulp watchify"
     },
-    "repository": "https://github.com/junishitsuka/flasher-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/junishitsuka/flasher-desktop.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel": "~5.8.23",
@@ -84,6 +88,9 @@
       "gulp-load-plugins": "~1.0.0",
       "gulp-util": "~3.0.6",
       "gulp-uglify": "~1.4.2"
+    },
+    "bugs": {
+      "url": "https://github.com/junishitsuka/flasher-desktop/issues"
     },
     "homepage": "https://github.com/junishitsuka/flasher-desktop",
     "browserify": {
@@ -146,5 +153,6 @@
   "svnUrl": "https://github.com/junishitsuka/flasher-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:14:40.691Z"
+  "lastFetchedAt": "2017-05-04T05:14:40.691Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:12.276Z"
 }

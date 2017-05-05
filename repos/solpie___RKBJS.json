@@ -76,7 +76,6 @@
       "express": "^4.14.0",
       "nedb": "^1.8.0",
       "qrcodejs": "^1.0.0",
-      "request": "^2.78.0",
       "rest": "^2.0.0",
       "socket.io": "^1.5.1"
     },
@@ -106,11 +105,11 @@
       "app": "electron resources/app",
       "build": "rollup -c&&npm run server-build",
       "view": "webpack --watch --progress --profile --colors --display-error-details --display-cached --config webpack.view.js",
+      "server": "webpack --watch --progress --profile --colors --display-error-details --display-cached --config webpack.server.js",
       "view-build": "webpack --progress --profile --colors --disZplay-error-details --display-cached --config webpack.view.js",
+      "server-build": "webpack --progress --profile --colors --display-error-details --display-cached --config webpack.server.js",
       "pack64": "electron-packager resources/app RKB --ignore=node_modules/electron-* --platform=win32 --arch=x64 --overwrite",
       "pack32": "electron-packager resources/app RKB --ignore=node_modules/electron-* --platform=win32 --arch=ia32 --overwrite",
-      "server": "webpack --watch --progress --profile --colors --display-error-details --display-cached --config webpack.server.js",
-      "server-build": "webpack --progress --profile --colors --display-error-details --display-cached --config webpack.server.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
@@ -141,5 +140,6 @@
   },
   "filename": "solpie___RKBJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:20:10.384Z"
+  "lastFetchedAt": "2017-05-04T21:20:10.384Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:45.069Z"
 }

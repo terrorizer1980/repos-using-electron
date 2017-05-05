@@ -81,5 +81,59 @@
   "networkCount": 0,
   "subscribersCount": 7,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:18:38.084Z"
+  "lastFetchedAt": "2017-05-04T21:18:38.084Z",
+  "packageJSON": {
+    "name": "sincding-electron",
+    "version": "0.0.1",
+    "description": "An UI for sincding",
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/open-source-uc/sincding-electron"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "dev": "npm run electron",
+      "prod": "npm run electron-prod",
+      "electron": "npm run start > start.log & sleep 2; ENV=d electron .",
+      "electron-prod": "npm run build; ENV=p electron .",
+      "lint": "eslint --ignore-pattern '!node_modules/*' --fix ./src ./lib",
+      "deploy": "./scripts/deploy.sh",
+      "pack": "./scripts/pack.sh"
+    },
+    "author": {
+      "name": "Nicolas Gebauer",
+      "mail": "negebauer@uc.cl",
+      "url": "http://negebauer.github.io"
+    },
+    "devDependencies": {
+      "babel-eslint": "^7.1.1",
+      "electron": "^1.6.2",
+      "electron-builder": "^16.6.0",
+      "electron-debug": "^1.1.0",
+      "electron-devtools-installer": "^2.1.0",
+      "eslint": "^3.17.1",
+      "eslint-plugin-babel": "^4.1.1",
+      "eslint-plugin-node": "^4.2.1",
+      "fbjs": "^0.8.12",
+      "react-scripts": "0.9.5"
+    },
+    "dependencies": {
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "sincding": "^1.1.4"
+    },
+    "homepage": "./",
+    "build": {
+      "appId": "com.negebauer.sincding",
+      "mac": {
+        "category": "productivity"
+      },
+      "asar": false
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:36:05.800Z"
 }

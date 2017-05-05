@@ -79,11 +79,18 @@
     "scripts": {
       "test": "exit 0"
     },
-    "repository": "https://github.com/deomitrus/binks",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/deomitrus/binks.git"
+    },
     "keywords": [
       "binks"
     ],
+    "author": "Deomitrus",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/deomitrus/binks/issues"
+    },
     "homepage": "https://github.com/deomitrus/binks#readme",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -124,5 +131,6 @@
   },
   "filename": "deomitrus___binks.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:55.592Z"
+  "lastFetchedAt": "2017-05-04T15:28:55.592Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:13.057Z"
 }

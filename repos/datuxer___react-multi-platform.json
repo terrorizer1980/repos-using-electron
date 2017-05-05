@@ -202,19 +202,14 @@
       "server": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.dev.js --content-base ./dist/ --port 8080 --inline --hot --progress"
     },
     "repository": {
-      "user": "TylerK",
-      "repo": "react-multi-platform",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/TylerK/react-multi-platform/tarball/master",
-      "clone_url": "https://github.com/TylerK/react-multi-platform",
-      "https_url": "https://github.com/TylerK/react-multi-platform",
-      "travis_url": "https://travis-ci.org/TylerK/react-multi-platform",
-      "zip_url": "https://github.com/TylerK/react-multi-platform/archive/master.zip",
-      "api_url": "https://api.github.com/repos/TylerK/react-multi-platform"
+      "type": "git",
+      "url": "git+https://github.com/TylerK/react-multi-platform.git"
     },
+    "author": "Tyler Kelley",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TylerK/react-multi-platform/issues"
+    },
     "homepage": "https://github.com/TylerK/react-multi-platform#readme",
     "dependencies": {
       "react": "^15.1.0",
@@ -307,5 +302,6 @@
   "filename": "datuxer___react-multi-platform.json",
   "sourceRepo": "TylerK/react-multi-platform",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:49.451Z"
+  "lastFetchedAt": "2017-05-04T21:00:49.451Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:17.212Z"
 }

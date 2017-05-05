@@ -56,7 +56,17 @@
     "version": "0.0.1",
     "description": "Windows screen saver that displays a photo slideshow, based on the Electron framework",
     "license": "MIT",
-    "repository": "https://github.com/RandScullard/photo-screen-saver",
+    "author": {
+      "name": "Rand Scullard",
+      "email": "rand@randscullard.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RandScullard/photo-screen-saver.git"
+    },
+    "bugs": {
+      "url": "http://github.com/RandScullard/photo-screen-saver/issues"
+    },
     "scripts": {
       "start": "electron bin"
     },
@@ -71,8 +81,8 @@
       "grunt-contrib-copy": "^1.0.0",
       "grunt-electron": "^5.0.0",
       "grunt-npm-command": "^0.1.2",
-      "grunt-ts": "^6.0.0-beta.3",
-      "typescript": "^2.0.3"
+      "grunt-ts": "^5.5.1",
+      "typescript": "^2.2"
     }
   },
   "packageStatus": 200,
@@ -120,5 +130,6 @@
   "svnUrl": "https://github.com/RandScullard/photo-screen-saver",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:29:30.722Z"
+  "lastFetchedAt": "2017-05-04T18:29:30.722Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:38.645Z"
 }

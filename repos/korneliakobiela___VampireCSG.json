@@ -81,15 +81,25 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "Kornelia Kobiela",
     "license": "ISC",
-    "repository": "https://github.com/korneliakobiela/VampireCSG",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/korneliakobiela/VampireCSG.git"
+    },
     "keywords": [
       "vampire",
       "game",
       "rpg",
       "generator"
     ],
-    "homepage": "https://github.com/korneliakobiela/VampireCSG#readme"
+    "bugs": {
+      "url": "https://github.com/korneliakobiela/VampireCSG/issues"
+    },
+    "homepage": "https://github.com/korneliakobiela/VampireCSG#readme",
+    "directories": {
+      "test": "test"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -116,5 +126,6 @@
   },
   "filename": "korneliakobiela___VampireCSG.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:53:52.625Z"
+  "lastFetchedAt": "2017-05-04T20:53:52.625Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:39.554Z"
 }

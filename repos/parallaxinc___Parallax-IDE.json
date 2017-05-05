@@ -70,6 +70,9 @@
     "version": "0.12.0",
     "description": "Write, compile, and download code to your Parallax Boe-Bot Robot or custom BASIC Stamp microcontroller-based electronic creations.",
     "main": "index.js",
+    "directories": {
+      "test": "test"
+    },
     "dependencies": {
       "@phated/redux-create-store": "^0.3.0",
       "bs2-serial": "^0.15.0",
@@ -126,8 +129,14 @@
       "postinstall": "gulp postinstall",
       "serve": "webpack-dev-server"
     },
-    "repository": "https://github.com/parallaxinc/Parallax-IDE",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/parallaxinc/Parallax-IDE"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/parallaxinc/Parallax-IDE/issues"
+    },
     "homepage": "https://github.com/parallaxinc/Parallax-IDE"
   },
   "packageStatus": 200,
@@ -175,5 +184,6 @@
   },
   "filename": "parallaxinc___Parallax-IDE.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:06.700Z"
+  "lastFetchedAt": "2017-05-04T19:38:06.700Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:29.050Z"
 }

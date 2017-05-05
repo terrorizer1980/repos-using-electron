@@ -73,13 +73,20 @@
     "scripts": {
       "test": "node app.js -test"
     },
-    "repository": "https://github.com/lucaslg26/setfingerGUI",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lucaslg26/setfingerGUI"
+    },
     "keywords": [
       "setfinger",
       "gui",
       "fingerprint"
     ],
+    "author": "Lucas Vasconcelos (@lucaslg26)",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/lucaslg26/setfingerGUI/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "~0.34.0"
     }
@@ -109,5 +116,6 @@
   },
   "filename": "lucaslg26___setfingerGUI.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:07.656Z"
+  "lastFetchedAt": "2017-05-04T20:45:07.656Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:27.600Z"
 }

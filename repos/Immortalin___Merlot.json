@@ -71,12 +71,15 @@
     "description": "Modern Rapid Frontend Development",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "build": "tsc app.ts"
     },
-    "repository": "https://github.com/Immortalin/Merlot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Immortalin/Merlot"
+    },
     "keywords": [
-      "Rapid",
-      "Web",
+      "Rapid Application Development",
       "web template editor",
       "web site builder",
       "web template builder",
@@ -88,7 +91,11 @@
       "RAD",
       "RWD"
     ],
+    "author": "",
     "license": "(GPL-3.0 OR Apache-2.0)",
+    "bugs": {
+      "url": "https://github.com/Immortalin/Merlot/issues"
+    },
     "homepage": "https://github.com/Immortalin/Merlot#readme",
     "dependencies": {
       "grapesjs": "^0.3.18",
@@ -123,5 +130,6 @@
   },
   "filename": "Immortalin___Merlot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:43.768Z"
+  "lastFetchedAt": "2017-05-04T15:14:43.768Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:18.143Z"
 }

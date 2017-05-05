@@ -75,12 +75,16 @@
       "prestart": "npm install",
       "start": "concurrent --kill-others \"gulp sass\" \"electron ./src/main.js\" \"gulp sasswatch\""
     },
-    "repository": "https://github.com/jderus/tinkertron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jderus/tinkertron"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start"
     ],
+    "author": "jderus",
     "dependencies": {
       "bower": "^1.7.7"
     },
@@ -141,5 +145,6 @@
   },
   "filename": "jderus___tinkertron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:00.052Z"
+  "lastFetchedAt": "2017-05-04T20:27:00.052Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:08.985Z"
 }

@@ -72,13 +72,20 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
+    "author": {
+      "name": "Anthony van Winkle",
+      "email": "synthea@anthonyvanwinkle.com"
+    },
     "description": "A Soundboard for Unscripted Theater",
     "license": "Apache-2.0",
     "main": "main.js",
     "name": "synthea",
     "productName": "Synthea",
-    "repository": "https://github.com/avanwinkle/synthea",
-    "version": "0.0.8",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/avanwinkle/synthea.git"
+    },
+    "version": "0.0.9",
     "dependencies": {
       "angular": "^1.5.8",
       "angular-animate": "^1.5.8",
@@ -132,5 +139,6 @@
   },
   "filename": "avanwinkle___synthea.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:18.501Z"
+  "lastFetchedAt": "2017-05-04T17:55:18.501Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:03.033Z"
 }

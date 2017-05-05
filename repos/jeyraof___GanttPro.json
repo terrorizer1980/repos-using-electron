@@ -73,7 +73,14 @@
       "GanttPro",
       "Gantt"
     ],
-    "repository": "https://github.com/jeyraof/GanttPro",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jeyraof/GanttPro.git"
+    },
+    "author": {
+      "name": "Jaeyoung Lee",
+      "email": "jaeyoung@monodiary.net"
+    },
     "main": "main.js",
     "bin": {
       "ganttpro": "./start.js"
@@ -116,5 +123,6 @@
   },
   "filename": "jeyraof___GanttPro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:23.473Z"
+  "lastFetchedAt": "2017-05-04T05:28:23.473Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:29.091Z"
 }

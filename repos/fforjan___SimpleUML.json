@@ -56,9 +56,20 @@
     "productName": "SimpleUML",
     "version": "0.2.0",
     "main": "main.js",
+    "author": {
+      "name": "Frederic -GeoVah- Forjan ",
+      "email": "fforjan@free.fr",
+      "url": "http://github.com/fforjan/"
+    },
     "description": "Trying to have a simple UML editor based on TypeScript/electron and developed with Visual Studio Code",
-    "repository": "https://github.com/fforjan/SimpleUML",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fforjan/SimpleUML.git"
+    },
     "license": "GPLv3",
+    "bugs": {
+      "url": "https://github.com/fforjan/SimpleUML/issues"
+    },
     "homepage": "https://github.com/fforjan/SimpleUML",
     "devDependencies": {
       "electron-prebuilt": "^0.34.4",
@@ -127,5 +138,6 @@
   },
   "filename": "fforjan___SimpleUML.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:34.775Z"
+  "lastFetchedAt": "2017-05-04T15:14:34.775Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:48.525Z"
 }

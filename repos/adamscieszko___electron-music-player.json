@@ -87,6 +87,7 @@
       "watch-scss": "mkdirp public/css && node-sass -w style/global.scss public/css/global.css",
       "watch-js": "mkdirp public/js && watchify app/app.js -t babelify -o public/js/bundle.js -dv"
     },
+    "author": "Adam Ścieszko",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "^6.1.2",
@@ -140,5 +141,6 @@
   },
   "filename": "adamscieszko___electron-music-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:40.793Z"
+  "lastFetchedAt": "2017-05-04T18:03:40.793Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:24.114Z"
 }

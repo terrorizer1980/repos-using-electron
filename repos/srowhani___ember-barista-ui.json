@@ -170,6 +170,10 @@
     "version": "0.0.1",
     "description": "Small description for ember-barista-ui goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -178,21 +182,13 @@
       "compile": "ember electron:package --platform=darwin --arch=x64 --overwrite"
     },
     "repository": {
-      "user": "ciena-blueplanet",
-      "repo": "ember-barista-ui",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ciena-blueplanet/ember-barista-ui/tarball/master",
-      "clone_url": "https://github.com/ciena-blueplanet/ember-barista-ui",
-      "https_url": "https://github.com/ciena-blueplanet/ember-barista-ui",
-      "travis_url": "https://travis-ci.org/ciena-blueplanet/ember-barista-ui",
-      "zip_url": "https://github.com/ciena-blueplanet/ember-barista-ui/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ciena-blueplanet/ember-barista-ui"
+      "type": "git",
+      "url": "git://github.com/ciena-blueplanet/ember-barista-ui.git"
     },
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "Seena",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -344,5 +340,6 @@
   "svnUrl": "https://github.com/srowhani/ember-barista-ui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:26:13.397Z"
+  "lastFetchedAt": "2017-05-04T21:26:13.397Z",
+  "packageLastFetchedAt": "2017-05-04T22:03:06.270Z"
 }

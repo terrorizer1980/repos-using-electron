@@ -72,28 +72,23 @@
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
-    "name": "electron-quick-start",
+    "name": "Docky",
     "version": "1.0.0",
-    "description": "A minimal Electron application",
+    "description": "A PDF Manager",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
-    "keywords": [
-      "Electron",
-      "quick",
-      "start",
-      "tutorial",
-      "demo"
-    ],
+    "author": "Daniel Kukjan, Piotr Maciejko, Michał Malcahn",
     "license": "CC0-1.0",
-    "devDependencies": {
+    "dependencies": {
       "electron": "^1.4.1",
-      "electron-rebuild": "^1.3.0",
       "jquery": "^3.1.1",
-      "sqlite3": "^3.1.6",
-      "stream-equal": "^0.1.9"
+      "node-ensure": "0.0.0",
+      "sqlite3": "^3.1.8"
+    },
+    "devDependencies": {
+      "electron-rebuild": "^1.3.0"
     }
   },
   "packageStatus": 200,
@@ -121,5 +116,6 @@
   },
   "filename": "Corsseir___docky.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:28:31.251Z"
+  "lastFetchedAt": "2017-05-04T20:28:31.251Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:25.023Z"
 }

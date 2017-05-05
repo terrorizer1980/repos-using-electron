@@ -61,6 +61,7 @@
       "build": "webpack --progress -c",
       "build:hot": "webpack --progress -c -w"
     },
+    "author": "Francois Ward",
     "license": "MIT",
     "dependencies": {
       "babel": "^6.3.26",
@@ -152,5 +153,6 @@
   },
   "filename": "Phoenixmatrix___phoenixmatrix-proxy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:27:17.064Z"
+  "lastFetchedAt": "2017-05-04T18:27:17.064Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:38.568Z"
 }

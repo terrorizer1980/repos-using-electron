@@ -74,7 +74,11 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js app/**/*.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/highmax/xk-power-music-player",
+    "author": "alejo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/highmax/xk-power-music-player"
+    },
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -118,5 +122,6 @@
   },
   "filename": "highmax___xk-power-music-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:54.021Z"
+  "lastFetchedAt": "2017-05-03T20:06:54.021Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:06.820Z"
 }

@@ -76,8 +76,12 @@
     "productName": "EasyTrade",
     "description": "An EasyTrade project",
     "version": "0.0.1",
+    "author": "Raul Leite <raul.abreu.leite@gmail.com>",
     "main": "app/index.js",
-    "repository": "https://github.com/rauleite/easy-trade",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rauleite/easy-trade.git"
+    },
     "keywords": [
       "betfair",
       "trade",
@@ -90,6 +94,9 @@
       "png": "app/assets/boilerplate.png"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rauleite/easy-trade/issues"
+    },
     "homepage": "https://github.com/rauleite/easy-trade#readme",
     "scripts": {
       "postinstall": "npm run app-install",
@@ -155,5 +162,6 @@
   },
   "filename": "rauleite___easy-trade.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:07.424Z"
+  "lastFetchedAt": "2017-05-04T17:55:07.424Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:01.886Z"
 }

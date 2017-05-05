@@ -169,6 +169,10 @@
     "name": "lightning-server",
     "description": "lightning dataviz notebooks",
     "version": "1.3.0",
+    "author": {
+      "name": "Matthew Conlen",
+      "email": "code@mathisonian.com"
+    },
     "window": {
       "toolbar": true
     },
@@ -192,17 +196,8 @@
     },
     "homepage": "http://lightning-viz.org",
     "repository": {
-      "user": "lightning-viz",
-      "repo": "lightning",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/lightning-viz/lightning/tarball/master",
-      "clone_url": "https://github.com/lightning-viz/lightning",
-      "https_url": "https://github.com/lightning-viz/lightning",
-      "travis_url": "https://travis-ci.org/lightning-viz/lightning",
-      "zip_url": "https://github.com/lightning-viz/lightning/archive/master.zip",
-      "api_url": "https://api.github.com/repos/lightning-viz/lightning"
+      "type": "git",
+      "url": "https://github.com/lightning-viz/lightning"
     },
     "scripts": {
       "start": "node bin/lightning-server.js",
@@ -362,5 +357,6 @@
   "svnUrl": "https://github.com/joshisa/lightning",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:16:25.222Z"
+  "lastFetchedAt": "2017-05-04T18:16:25.222Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:15.169Z"
 }

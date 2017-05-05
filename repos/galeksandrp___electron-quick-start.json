@@ -171,31 +171,20 @@
     "description": "A minimal Electron application",
     "main": "main.js",
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron ."
     },
-    "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
-      "tutorial"
+      "tutorial",
+      "demo"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
-    "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
-      "electron-prebuilt": "^1.2.0"
+      "electron": "~1.6.2"
     }
   },
   "packageStatus": 200,
@@ -244,5 +233,6 @@
   "filename": "galeksandrp___electron-quick-start.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:41.957Z"
+  "lastFetchedAt": "2017-05-04T19:39:41.957Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:20.128Z"
 }

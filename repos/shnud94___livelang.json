@@ -53,23 +53,39 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
     "dependencies": {
+      "@types/chokidar": "^1.4.29",
+      "@types/electron": "^1.4.26",
+      "@types/immutable": "^3.8.4",
       "@types/jquery": "^2.0.32",
+      "@types/moment": "^2.13.0",
+      "@types/node": "^6.0.46",
       "@types/react": "^0.14.37",
       "@types/react-dom": "^0.14.17",
+      "@types/shelljs": "^0.3.33",
+      "@types/sockjs": "^0.3.30",
       "@types/underscore": "^1.7.33",
+      "binary-search": "^1.3.2",
+      "chokidar": "^1.6.1",
       "debug": "^2.2.0",
       "electron-connect": "^0.4.8",
       "eval": "^0.1.1",
@@ -83,14 +99,21 @@
       "gulp-sass": "^2.3.2",
       "gulp-sourcemaps": "^1.6.0",
       "gulp-typescript": "^2.13.6",
+      "immutable": "^3.8.1",
       "jquery": "^3.1.0",
       "jquery.caret": "^0.3.1",
+      "key-codes": "0.0.1",
+      "line-column": "^1.0.2",
       "merge2": "^1.0.2",
-      "nearley": "^2.7.3",
+      "moment": "^2.17.0",
+      "nearley": "^2.7.8",
       "react": "^15.3.2",
       "react-dom": "^15.3.2",
+      "shelljs": "^0.7.5",
+      "sockjs": "^0.3.18",
       "sync-promise": "^1.0.1",
-      "typescript": "^2.0.3",
+      "sync-request": "^3.0.1",
+      "typescript": "^2.0.10",
       "underscore": "^1.8.3"
     }
   },
@@ -139,5 +162,6 @@
   },
   "filename": "shnud94___livelang.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:25.735Z"
+  "lastFetchedAt": "2017-05-03T20:04:25.735Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:14.837Z"
 }

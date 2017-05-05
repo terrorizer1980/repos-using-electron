@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/flyinggraysons/grade-checker-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/flyinggraysons/grade-checker-app"
+    },
     "keywords": [
       "Electron",
       "grade",
       "checker",
       "app"
     ],
+    "author": "Henry Wildermuth",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/flyinggraysons/grade-checker-app/issues"
+    },
     "homepage": "https://github.com/flyinggraysons/grade-checker-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -117,5 +124,6 @@
   },
   "filename": "FlyingGraysons___grade-checker-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:10:35.227Z"
+  "lastFetchedAt": "2017-05-04T18:10:35.227Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:40.245Z"
 }

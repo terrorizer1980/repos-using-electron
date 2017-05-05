@@ -83,6 +83,7 @@
       "postinstall": "npm run lint:fix && cd app && npm install",
       "vue:route": "node tasks/vue/route.js"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -153,5 +154,6 @@
   },
   "filename": "nsev___pickaxe.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:57.826Z"
+  "lastFetchedAt": "2017-05-04T19:56:57.826Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:15.931Z"
 }

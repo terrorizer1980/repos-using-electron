@@ -180,19 +180,14 @@
       "relase_electron:win64": "npm run build_electron:win && .\\node_modules\\.bin\\build --win --x64"
     },
     "repository": {
-      "user": "fmaru",
-      "repo": "fmaru",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/fmaru/fmaru/tarball/master",
-      "clone_url": "https://github.com/fmaru/fmaru",
-      "https_url": "https://github.com/fmaru/fmaru",
-      "travis_url": "https://travis-ci.org/fmaru/fmaru",
-      "zip_url": "https://github.com/fmaru/fmaru/archive/master.zip",
-      "api_url": "https://api.github.com/repos/fmaru/fmaru"
+      "type": "git",
+      "url": "git+https://github.com/fmaru/fmaru.git"
     },
+    "author": "fmaru",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fmaru/fmaru/issues"
+    },
     "homepage": "https://github.com/fmaru/fmaru",
     "dependencies": {
       "apicache": "0.0.14",
@@ -282,5 +277,6 @@
   "filename": "qkrcjfgus33___fmaru.json",
   "sourceRepo": "fmaru/fmaru",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:08.121Z"
+  "lastFetchedAt": "2017-05-04T19:38:08.121Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:40.990Z"
 }

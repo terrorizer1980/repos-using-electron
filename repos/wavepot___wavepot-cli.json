@@ -85,6 +85,7 @@
     "main": "wavepot.js",
     "bin": "bin/wavepot",
     "description": "wavepot on the terminal",
+    "author": "stagas",
     "license": "MIT",
     "dependencies": {
       "babel-preset-latest": "^6.14.0",
@@ -103,6 +104,11 @@
       "osc": "github:opendsp/osc",
       "sampler": "github:opendsp/sampler"
     },
+    "directories": {
+      "bin": "bin",
+      "example": "example",
+      "lib": "lib"
+    },
     "keywords": [
       "wavepot",
       "audio",
@@ -112,7 +118,13 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/wavepot/wavepot-cli",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wavepot/wavepot-cli.git"
+    },
+    "bugs": {
+      "url": "https://github.com/wavepot/wavepot-cli/issues"
+    },
     "homepage": "https://github.com/wavepot/wavepot-cli#readme"
   },
   "packageStatus": 200,
@@ -140,5 +152,6 @@
   },
   "filename": "wavepot___wavepot-cli.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:33.521Z"
+  "lastFetchedAt": "2017-05-04T18:12:33.521Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:09.721Z"
 }

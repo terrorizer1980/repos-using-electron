@@ -57,17 +57,8 @@
     "description": "this is a play of sample application for the electron-updater project",
     "main": "main.js",
     "repository": {
-      "user": "caracare521",
-      "repo": "Electron-updater-play",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/caracare521/Electron-updater-play/tarball/master",
-      "clone_url": "https://github.com/caracare521/Electron-updater-play",
-      "https_url": "https://github.com/caracare521/Electron-updater-play",
-      "travis_url": "https://travis-ci.org/caracare521/Electron-updater-play",
-      "zip_url": "https://github.com/caracare521/Electron-updater-play/archive/master.zip",
-      "api_url": "https://api.github.com/repos/caracare521/Electron-updater-play"
+      "type": "git",
+      "url": "git://github.com/caracare521/Electron-updater-play.git"
     },
     "scripts": {
       "test": "mocha",
@@ -148,5 +139,6 @@
   "svnUrl": "https://github.com/caracare521/Electron-updater-play",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:01:48.506Z"
+  "lastFetchedAt": "2017-05-04T18:01:48.506Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:55.137Z"
 }

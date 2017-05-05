@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Cristian006/desktron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cristian006/desktron.git"
+    },
     "keywords": [
       "electron",
       "dektop",
       "application",
       "app"
     ],
+    "author": "Cristian Ponce",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Cristian006/desktron/issues"
+    },
     "homepage": "https://github.com/Cristian006/desktron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
@@ -116,5 +123,6 @@
   },
   "filename": "Cristian006___desktron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:50:03.639Z"
+  "lastFetchedAt": "2017-05-04T17:50:03.639Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:19.714Z"
 }

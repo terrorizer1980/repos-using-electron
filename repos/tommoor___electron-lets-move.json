@@ -69,7 +69,7 @@
   "packageJSON": {
     "name": "electron-lets-move",
     "main": "src/index.js",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "license": "MIT",
     "repository": "tommoor/electron-lets-move",
     "dependencies": {
@@ -81,9 +81,6 @@
       "eslint-plugin-import": "^2.2.0",
       "eslint-plugin-jsx-a11y": "^2.2.3",
       "eslint-plugin-react": "^6.8.0"
-    },
-    "peerDependencies": {
-      "electron": "*"
     }
   },
   "packageStatus": 200,
@@ -110,5 +107,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:18:03.137Z"
+  "lastFetchedAt": "2017-05-04T15:18:03.137Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:52.510Z"
 }

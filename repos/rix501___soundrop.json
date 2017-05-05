@@ -71,7 +71,11 @@
     "main": "client/main.js",
     "description": "A soundrop clone built with Elm + Electron + Node.",
     "private": true,
-    "repository": "https://github.com/rix501/soundrop",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:rix501/soundrop.git",
+      "private": true
+    },
     "scripts": {
       "build": "npm-run-all --parallel build:elm build:styles",
       "build:styles": "node-sass client/src/styles --output client/build/styles",
@@ -138,5 +142,6 @@
   },
   "filename": "rix501___soundrop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:03.729Z"
+  "lastFetchedAt": "2017-05-04T15:29:03.729Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:08.667Z"
 }

@@ -59,6 +59,11 @@
     "license": "MIT",
     "main": "index.js",
     "repository": "openframeworks/pgelectron",
+    "author": {
+      "name": "zach lieberman",
+      "email": "?",
+      "url": "openframeworks.cc"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -131,5 +136,6 @@
   "svnUrl": "https://github.com/ofZach/pgElectron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:17:50.843Z"
+  "lastFetchedAt": "2017-05-04T20:17:50.843Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:16.884Z"
 }

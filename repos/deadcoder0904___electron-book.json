@@ -70,6 +70,7 @@
     "version": "1.0.0",
     "description": "Boilerplate App made in Electron",
     "main": "app.js",
+    "author": "Akshay Kadam",
     "license": "MIT",
     "scripts": {
       "package": "asar pack MyApp-linux-x64/resources/app MyApp-linux-x64/resources/app.asar",
@@ -111,5 +112,6 @@
   },
   "filename": "deadcoder0904___electron-book.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:59.427Z"
+  "lastFetchedAt": "2017-05-04T20:56:59.427Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:49.615Z"
 }

@@ -88,8 +88,15 @@
       "react-dom": "^0.14.3",
       "react-split-pane": "^0.1.22"
     },
-    "repository": "https://github.com/andela-earinde/bellatrix",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andela-earinde/bellatrix.git"
+    },
+    "author": "Arinde Eniola",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/andela-earinde/bellatrix/issues"
+    },
     "homepage": "https://github.com/andela-earinde/bellatrix#readme"
   },
   "packageStatus": 200,
@@ -137,5 +144,6 @@
   },
   "filename": "elvongray___bellatrix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:16:37.173Z"
+  "lastFetchedAt": "2017-05-04T18:16:37.173Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:42.618Z"
 }

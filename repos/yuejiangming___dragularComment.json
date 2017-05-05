@@ -92,19 +92,14 @@
       "test-watch": "hihat test/*.js -p tap-dev-tool"
     },
     "repository": {
-      "user": "bevacqua",
-      "repo": "dragula",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bevacqua/dragula/tarball/master",
-      "clone_url": "https://github.com/bevacqua/dragula",
-      "https_url": "https://github.com/bevacqua/dragula",
-      "travis_url": "https://travis-ci.org/bevacqua/dragula",
-      "zip_url": "https://github.com/bevacqua/dragula/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bevacqua/dragula"
+      "type": "git",
+      "url": "https://github.com/bevacqua/dragula.git"
     },
+    "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bevacqua/dragula/issues"
+    },
     "homepage": "https://github.com/bevacqua/dragula",
     "dependencies": {
       "contra": "1.9.4",
@@ -154,5 +149,6 @@
   "filename": "yuejiangming___dragularComment.json",
   "sourceRepo": "bevacqua/dragula",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:03:47.475Z"
+  "lastFetchedAt": "2017-05-04T05:03:47.475Z",
+  "packageLastFetchedAt": "2017-05-05T06:36:03.927Z"
 }

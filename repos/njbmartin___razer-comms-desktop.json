@@ -54,40 +54,49 @@
   "packageJSON": {
     "name": "com.razerzone.comms",
     "productName": "Razer Comms",
-    "version": "0.2.0",
+    "version": "0.2.3",
     "appVersion": {
-      "build": 4
+      "build": 7
     },
     "description": "Razer Comms Desktop Application",
     "main": "main.js",
     "scripts": {
-      "start": "electron main.js",
       "build:osx": "node ./build/build-osx.js",
       "build:win": "node ./build/build-win.js",
-      "setup:win": "node ./build/inno-setup.js",
+      "lint:fix": "standard --fix",
       "release:win": "npm run build:win & npm run setup:win",
-      "lint:fix": "standard --fix"
+      "setup:win": " node ./build/inno-setup.js",
+      "start": "electron main.js",
+      "test": "standard"
     },
-    "repository": "https://github.com/njbmartin/razer-comms-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/njbmartin/razer-comms-desktop.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Razer",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/njbmartin/razer-comms-desktop/issues"
+    },
     "homepage": "https://github.com/njbmartin/razer-comms-desktop",
     "devDependencies": {
-      "electron-packager": "^8.1.0",
-      "innosetup-compiler": "^5.5.9",
-      "standard": "^8.4.0",
-      "eslint": "^3.8.1"
+      "electron-packager": "8.4.0",
+      "innosetup-compiler": "5.5.9",
+      "standard": "8.6.0",
+      "eslint": "3.12.2"
     },
     "dependencies": {
-      "electron": "^1.4.4",
-      "open": "^0.0.5",
-      "auto-launch": "^5.0.1",
-      "es6-promise": "^4.0.5"
+      "auto-launch": "5.0.1",
+      "electron": "1.4.13",
+      "electron-settings": "2.2.2",
+      "es6-promise": "4.0.5",
+      "open": "0.0.5"
     }
   },
   "packageStatus": 200,
@@ -135,5 +144,6 @@
   },
   "filename": "njbmartin___razer-comms-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:58.323Z"
+  "lastFetchedAt": "2017-05-04T05:02:58.323Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:14.751Z"
 }

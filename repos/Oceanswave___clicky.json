@@ -68,7 +68,10 @@
   "packageJSON": {
     "name": "clicky",
     "description": "Clicky clicks things",
-    "repository": "https://github.com/oceanswave/clicky",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/oceanswave/clicky.git"
+    },
     "version": "0.0.1",
     "main": "app.js",
     "devDependencies": {
@@ -120,5 +123,6 @@
   },
   "filename": "Oceanswave___clicky.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:50:48.968Z"
+  "lastFetchedAt": "2017-05-04T19:50:48.968Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:10.428Z"
 }

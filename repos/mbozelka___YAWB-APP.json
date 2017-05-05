@@ -81,8 +81,12 @@
       "webpack-J": "npm run sass && node node_modules/webpack/bin/webpack.js -w "
     },
     "keywords": [],
+    "author": "Matt Bozelka, Robert Contreras, Julia Diliberto",
     "license": "MIT",
-    "repository": "https://github.com/captainMattador/YAWB-APP",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/captainMattador/YAWB-APP.git"
+    },
     "dependencies": {
       "firebase": "^2.4.2",
       "pdfkit": "^0.7.2",
@@ -131,5 +135,6 @@
   },
   "filename": "mbozelka___YAWB-APP.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:48.713Z"
+  "lastFetchedAt": "2017-05-04T20:38:48.713Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:30.607Z"
 }

@@ -90,7 +90,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -197,5 +205,6 @@
   },
   "filename": "kansey___osqueryUI.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:22.733Z"
+  "lastFetchedAt": "2017-05-04T20:05:22.733Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:01.567Z"
 }

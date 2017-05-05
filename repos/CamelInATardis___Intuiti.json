@@ -53,12 +53,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/CamelInATardis/Intuiti",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CamelInATardis/Intuiti.git"
+    },
     "keywords": [
       "Intuiti",
       "IntuitOS"
     ],
+    "author": "CamelInATardis",
     "license": "No License",
+    "bugs": {
+      "url": "https://github.com/CamelInATardis/Intuiti/issues"
+    },
     "homepage": "https://github.com/CamelInATardis/Intuiti#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -109,5 +116,6 @@
   "svnUrl": "https://github.com/itsTurner/Intuiti",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:45:33.290Z"
+  "lastFetchedAt": "2017-05-04T17:45:33.290Z",
+  "packageLastFetchedAt": "2017-05-05T15:29:02.541Z"
 }

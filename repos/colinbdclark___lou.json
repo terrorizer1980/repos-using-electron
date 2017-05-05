@@ -71,9 +71,12 @@
     "description": "Lou, a sound installation by Colin Clark",
     "main": "main.js",
     "version": "2.0.0",
+    "author": "Colin Clark",
     "license": "MIT",
     "repository": "git://github.com/colinbdclark/lou.git",
+    "bugs": "http://github.com/colinbdclark/lou/issues",
     "homepage": "http://github.com/colinbdclark/lou",
+    "readmeFilename": "README.md",
     "dependencies": {
       "infusion": "2.0.0-dev.20151024T031903Z.3da18aa",
       "dedupe-infusion": "1.0.0",
@@ -114,5 +117,6 @@
   },
   "filename": "colinbdclark___lou.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:09.665Z"
+  "lastFetchedAt": "2017-05-04T20:58:09.665Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:47.327Z"
 }

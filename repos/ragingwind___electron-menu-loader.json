@@ -78,6 +78,11 @@
     "description": "Loading a menu template for app running on current platform",
     "license": "MIT",
     "repository": "ragingwind/electron-menu-loader",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -137,5 +142,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:34.963Z"
+  "lastFetchedAt": "2017-05-04T20:06:34.963Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:42.239Z"
 }

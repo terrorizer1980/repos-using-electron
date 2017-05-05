@@ -68,6 +68,7 @@
   "packageJSON": {
     "name": "BiliGif",
     "version": "0.2.0",
+    "author": "nuo9",
     "description": "An intresting application can get and show all gifs from bilibili",
     "main": "src/main.js",
     "scripts": {
@@ -83,6 +84,9 @@
       "gifs"
     ],
     "license": "CC0-1.0",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -114,5 +118,6 @@
   },
   "filename": "nuo9___BiliGif_electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:38.243Z"
+  "lastFetchedAt": "2017-05-04T14:22:38.243Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:40.800Z"
 }

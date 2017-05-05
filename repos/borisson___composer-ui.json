@@ -53,8 +53,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/borisson/composer-ui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/borisson/composer-ui.git"
+    },
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/borisson/composer-ui/issues"
+    },
     "homepage": "https://github.com/borisson/composer-ui#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -105,5 +112,6 @@
   },
   "filename": "borisson___composer-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:30:47.598Z"
+  "lastFetchedAt": "2017-05-04T20:30:47.598Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:21.026Z"
 }

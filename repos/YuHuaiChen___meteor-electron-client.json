@@ -60,13 +60,20 @@
       "start": "gulp",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/YuHuaiChen/meteor-electron-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/YuHuaiChen/meteor-electron-client.git"
+    },
     "keywords": [
       "meteor",
       "electron",
       "meteor-build-client"
     ],
+    "author": "YuHuaiChen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/YuHuaiChen/meteor-electron-client/issues"
+    },
     "homepage": "https://github.com/YuHuaiChen/meteor-electron-client#readme",
     "devDependencies": {
       "asar": "^0.8.0",
@@ -125,5 +132,6 @@
   "svnUrl": "https://github.com/DaxChen/meteor-electron-client",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:29:55.565Z"
+  "lastFetchedAt": "2017-05-04T14:29:55.565Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:21.761Z"
 }

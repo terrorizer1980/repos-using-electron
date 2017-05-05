@@ -76,6 +76,7 @@
     "version": "0.0.0",
     "description": "A buttery AngularJS app boilerplate generator",
     "homepage": "https://github.com/JrPribs/ngGenPlate",
+    "author": "Jon Pribesh <jpribes@wgu.edu> (http://jrpribs.me)",
     "files": [
       "generators"
     ],
@@ -119,8 +120,14 @@
         "mocha": true
       }
     },
-    "repository": "https://github.com/JrPribs/ngGenPlate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JrPribs/ngGenPlate.git"
+    },
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/JrPribs/ngGenPlate/issues"
+    },
     "dependencies": {
       "yeoman-generator": "^0.21.1",
       "chalk": "^1.0.0",
@@ -163,5 +170,6 @@
   },
   "filename": "JrPribs___generator-ngplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:05.995Z"
+  "lastFetchedAt": "2017-05-04T15:24:05.995Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:29.310Z"
 }

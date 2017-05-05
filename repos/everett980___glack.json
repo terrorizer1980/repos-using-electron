@@ -53,14 +53,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "=0.35.4"
@@ -116,5 +123,6 @@
   "svnUrl": "https://github.com/everett980/glack",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:16:27.857Z"
+  "lastFetchedAt": "2017-05-04T05:16:27.857Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:56.953Z"
 }

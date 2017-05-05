@@ -54,13 +54,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/mutahhir/eme",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mutahhir/eme.git"
+    },
     "keywords": [
       "markdown",
       "electron",
       "codemirror"
     ],
+    "author": "Mutahhir Ali Hayat <mutahhir.ali@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mutahhir/eme/issues"
+    },
     "homepage": "https://github.com/mutahhir/eme#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.2",
@@ -136,5 +143,6 @@
   "svnUrl": "https://github.com/mutahhir/eme",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:46:13.088Z"
+  "lastFetchedAt": "2017-05-04T16:46:13.088Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:33.739Z"
 }

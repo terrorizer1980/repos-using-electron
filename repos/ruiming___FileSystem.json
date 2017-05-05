@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron-packager . build --platform=win32 --arch=ia32 --asar --overwrite --icon=./static/pikachu.icns"
     },
-    "repository": "https://github.com/Ruiming/FileSystem",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ruiming/FileSystem.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Ruiming/FileSystem/issues"
+    },
     "homepage": "https://github.com/Ruiming/FileSystem#readme",
+    "author": "Ruiming Zhuang",
     "license": "ISC",
     "dependencies": {
       "base64-img": "^1.0.3",
@@ -121,5 +128,6 @@
   },
   "filename": "ruiming___FileSystem.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:27.315Z"
+  "lastFetchedAt": "2017-05-04T19:36:27.315Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:43.715Z"
 }

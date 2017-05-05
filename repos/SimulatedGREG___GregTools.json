@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/SimulatedGREG/GregTools",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SimulatedGREG/GregTools.git"
+    },
     "keywords": [
       "twitch",
       "chat",
@@ -61,6 +64,7 @@
       "gregsong",
       "overlay"
     ],
+    "author": "SimulatedGREG",
     "devDependencies": {
       "babel-core": "^6.4.5",
       "babel-plugin-transform-runtime": "^6.4.3",
@@ -143,5 +147,6 @@
   },
   "filename": "SimulatedGREG___GregTools.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:54.623Z"
+  "lastFetchedAt": "2017-05-04T04:57:54.623Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:57.372Z"
 }

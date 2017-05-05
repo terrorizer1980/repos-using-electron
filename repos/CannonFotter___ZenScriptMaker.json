@@ -87,11 +87,18 @@
       "start": "electron .",
       "build": "electron-packager . ZenScriptMaker --platform=all --arch=all --version=0.36.7 --icon=icon"
     },
-    "repository": "https://github.com/CannonFotter/ZenScriptMaker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CannonFotter/ZenScriptMaker.git"
+    },
     "keywords": [
       "minetweaker"
     ],
+    "author": "Cannon_fotter",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/CannonFotter/ZenScriptMaker/issues"
+    },
     "homepage": "https://github.com/CannonFotter/ZenScriptMaker#readme"
   },
   "packageStatus": 200,
@@ -119,5 +126,6 @@
   },
   "filename": "CannonFotter___ZenScriptMaker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:03.326Z"
+  "lastFetchedAt": "2017-05-04T05:20:03.326Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:16.929Z"
 }

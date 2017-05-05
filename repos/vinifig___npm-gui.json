@@ -85,8 +85,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/vinifig/npm-gui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vinifig/npm-gui.git"
+    },
+    "author": "vinifig",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vinifig/npm-gui/issues"
+    },
     "homepage": "https://github.com/vinifig/npm-gui#readme"
   },
   "packageStatus": 200,
@@ -114,5 +121,6 @@
   },
   "filename": "vinifig___npm-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:20.187Z"
+  "lastFetchedAt": "2017-05-04T14:50:20.187Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:39.150Z"
 }

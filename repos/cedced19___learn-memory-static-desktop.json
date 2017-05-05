@@ -58,6 +58,11 @@
     "description": "My shining app",
     "license": "MIT",
     "repository": "cedced19/learn-memory-static-desktop",
+    "author": {
+      "name": "Cédric",
+      "email": "cedced19@gmail.com",
+      "url": "cedced19.github.io"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "start": "electron ./",
@@ -130,5 +135,6 @@
   "svnUrl": "https://github.com/cedced19/learn-memory-static-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:18:07.082Z"
+  "lastFetchedAt": "2017-05-04T05:18:07.082Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:45.116Z"
 }

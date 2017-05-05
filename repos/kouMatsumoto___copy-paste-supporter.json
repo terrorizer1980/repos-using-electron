@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ./dist/main.js"
     },
-    "repository": "https://github.com/kouMatsumoto/copy-paste-supporter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kouMatsumoto/copy-paste-supporter"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "@angular/common": "2.0.0",
@@ -147,5 +154,6 @@
   },
   "filename": "kouMatsumoto___copy-paste-supporter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:45.593Z"
+  "lastFetchedAt": "2017-05-04T21:15:45.593Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:04.348Z"
 }

@@ -80,8 +80,15 @@
       "start": "node_modules/.bin/electron .",
       "build": "node build.js"
     },
-    "repository": "https://github.com/hogemomen/sunaba",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hogemomen/sunaba"
+    },
+    "author": "hogemomen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hogemomen/sunaba/issues"
+    },
     "homepage": "https://github.com/hogemomen/sunaba",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -113,5 +120,6 @@
   },
   "filename": "hogemomen___sunaba.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:00.311Z"
+  "lastFetchedAt": "2017-05-04T21:11:00.311Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:18.856Z"
 }

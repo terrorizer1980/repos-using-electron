@@ -112,8 +112,15 @@
       "test": "gulp ",
       "start": "electron ."
     },
-    "repository": "https://github.com/kernspaltung/hic-al",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kernspaltung/hic-al.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kernspaltung/hic-al/issues"
+    },
     "homepage": "https://github.com/kernspaltung/hic-al#readme"
   },
   "packageStatus": 200,
@@ -141,5 +148,6 @@
   },
   "filename": "kernspaltung___INSTRUMENT.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:02.914Z"
+  "lastFetchedAt": "2017-05-04T05:08:02.914Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:20.355Z"
 }

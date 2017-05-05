@@ -59,8 +59,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/dtysky/MoeNotes",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dtysky/MoeNotes.git"
+    },
+    "author": "Tianyu Dai (dtysky)<dtysky@outlook.com>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/dtysky/MoeNotes/issues"
+    },
     "homepage": "http://moe-notes.dtysky.moe",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -170,5 +177,6 @@
   "svnUrl": "https://github.com/dtysky/MoeNotes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:48:04.196Z"
+  "lastFetchedAt": "2017-05-04T14:48:04.196Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:16.548Z"
 }

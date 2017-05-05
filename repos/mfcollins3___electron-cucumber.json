@@ -64,11 +64,20 @@
       "feature"
     ],
     "homepage": "https://github.com/mfcollins3/electron-cucumber",
+    "bugs": "https://github.com/mfcollins3/electron-cucumber/issues",
     "license": "Apache-2.0",
+    "author": {
+      "name": "Michael F. Collins, III",
+      "email": "michael.collins@naked.software",
+      "url": "http://www.michaelfcollins3.me"
+    },
     "bin": {
       "electron-cucumber": "./bin/electron-cucumber"
     },
-    "repository": "https://github.com/mfcollins3/electron-cucumber",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mfcollins3/electron-cucumber.git"
+    },
     "dependencies": {
       "cucumber": "^0.10.2",
       "fs-extra": "^0.30.0",
@@ -123,5 +132,6 @@
   "svnUrl": "https://github.com/mfcollins3/electron-cucumber",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:36:35.779Z"
+  "lastFetchedAt": "2017-05-04T05:36:35.779Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:33.770Z"
 }

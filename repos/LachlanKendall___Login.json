@@ -73,5 +73,38 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:32:47.869Z"
+  "lastFetchedAt": "2017-05-04T20:32:47.869Z",
+  "packageJSON": {
+    "name": "ElectronLogin",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/LachlanKendall/Login.git",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "chromedriver": "^2.27.3",
+      "express": "^4.14.1",
+      "express-handlebars": "^3.0.0",
+      "html-table-to-json": "^0.2.0",
+      "node-schedule": "^1.2.0",
+      "selenium-webdriver": "^3.1.0",
+      "tedious": "^1.14.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:59:07.145Z"
 }

@@ -77,7 +77,10 @@
     "scripts": {
       "test": "mocha"
     },
-    "repository": "https://github.com/eskimopies/Super-Generic-Thing",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eskimopies/Super-Generic-Thing.git"
+    },
     "keywords": [
       "text",
       "lol",
@@ -85,7 +88,11 @@
       "cocks",
       "game"
     ],
+    "author": "Rainbow Ninja Studios",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/eskimopies/Super-Generic-Thing/issues"
+    },
     "homepage": "https://github.com/eskimopies/Super-Generic-Thing#readme"
   },
   "packageStatus": 200,
@@ -113,5 +120,6 @@
   },
   "filename": "eskimopies___Super-Generic-Thing.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:28.950Z"
+  "lastFetchedAt": "2017-05-04T19:51:28.950Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:17.839Z"
 }

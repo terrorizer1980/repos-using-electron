@@ -58,6 +58,11 @@
     "description": "My terrific app",
     "license": "MIT",
     "repository": "jenstitterness/pix",
+    "author": {
+      "name": "Jens Titterness",
+      "email": "jenstitterness@gmail.com",
+      "url": "jenstitterness.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -157,5 +162,6 @@
   "svnUrl": "https://github.com/jenstitterness/pix",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:27:29.430Z"
+  "lastFetchedAt": "2017-05-04T14:27:29.430Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:33.967Z"
 }

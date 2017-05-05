@@ -64,6 +64,10 @@
     "version": "0.0.0",
     "description": "Small description for review-app goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "main": "app.js",
     "scripts": {
       "build": "ember build",
@@ -74,6 +78,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "active-model-adapter": "2.0.1",
@@ -144,5 +149,6 @@
   "svnUrl": "https://github.com/netguru-hackathon/review-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:25:43.870Z"
+  "lastFetchedAt": "2017-05-04T14:25:43.870Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:57.882Z"
 }

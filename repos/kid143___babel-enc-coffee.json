@@ -61,13 +61,17 @@
       "start": "NODE_ENV=production electron .",
       "start-dev": "NODE_ENV=development electron ."
     },
-    "repository": "https://github.com/kid143/babel-enc-coffee",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/kid143/babel-enc-coffee.git"
+    },
     "keywords": [
       "coffeescript",
       "encoding",
       "react.js",
       "electron"
     ],
+    "author": "kid143",
     "license": "MIT",
     "devDependencies": {
       "coffee-loader": "^0.7.2",
@@ -138,5 +142,6 @@
   },
   "filename": "kid143___babel-enc-coffee.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:32:35.572Z"
+  "lastFetchedAt": "2017-05-04T17:32:35.572Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:46.474Z"
 }

@@ -77,6 +77,7 @@
       "start": "NODE_ENV=development electron .",
       "watch": "webpack-dev-server --hot --inline"
     },
+    "author": "Christian Nilsson <christian@klamby.com>",
     "license": "MIT",
     "dependencies": {
       "highlight.js": "^9.0.0",
@@ -132,5 +133,6 @@
   },
   "filename": "klambycom___anteckningar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:07:45.641Z"
+  "lastFetchedAt": "2017-05-04T18:07:45.641Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:01.267Z"
 }

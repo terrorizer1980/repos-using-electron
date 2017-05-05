@@ -53,11 +53,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/overgoro56/magonote",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/overgoro56/magonote.git"
+    },
     "keywords": [
       "magonote"
     ],
+    "author": "overgoro56",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/overgoro56/magonote/issues"
+    },
     "homepage": "https://github.com/overgoro56/magonote#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -108,5 +115,6 @@
   },
   "filename": "overgoro56___magonote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:37.987Z"
+  "lastFetchedAt": "2017-05-04T14:21:37.987Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:15.549Z"
 }

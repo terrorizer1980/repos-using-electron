@@ -81,8 +81,12 @@
       "build": "make clean && make",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Dylan Sarber <dylan@assertclarity.com>",
     "license": "MIT",
-    "repository": "https://github.com/dwsarber/iron-builder",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dwsarber/iron-builder"
+    },
     "devDependencies": {
       "browserify": "^10.1.0",
       "electron-prebuilt": "^0.25.3-2",
@@ -120,5 +124,6 @@
   },
   "filename": "dwsarber___iron-builder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:12:08.633Z"
+  "lastFetchedAt": "2017-05-04T05:12:08.633Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:58.287Z"
 }

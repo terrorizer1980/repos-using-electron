@@ -56,6 +56,11 @@
     "version": "1.1.0",
     "description": "A module for cross platform saving and loading",
     "homepage": "https://github.com/legodude17/electron-save#readme",
+    "author": {
+      "name": "JDB",
+      "email": "",
+      "url": "https://legodude17.github.io"
+    },
     "main": "index.js",
     "keywords": [
       "electron",
@@ -78,7 +83,13 @@
       "test": "echo &#34;Error: No test&#34;; exit 1"
     },
     "license": "MIT",
-    "repository": "https://github.com/legodude17/electron-save"
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/legodude17/electron-save"
+    },
+    "bugs": {
+      "url": ""
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -125,5 +136,6 @@
   "svnUrl": "https://github.com/legodude17/electron-save",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:11:29.729Z"
+  "lastFetchedAt": "2017-05-04T20:11:29.729Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:19.823Z"
 }

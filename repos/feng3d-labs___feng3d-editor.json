@@ -81,5 +81,23 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:18:39.077Z"
+  "lastFetchedAt": "2017-05-04T21:18:39.077Z",
+  "packageJSON": {
+    "name": "feng3d-editor",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "pj",
+    "license": "ISC",
+    "devDependencies": {
+      "electron": "^1.4.4"
+    },
+    "dependencies": {}
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:37:10.174Z"
 }

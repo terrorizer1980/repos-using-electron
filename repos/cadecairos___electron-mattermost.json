@@ -170,6 +170,7 @@
     "version": "1.0.7",
     "description": "Electron-based desktop application for Mattermost",
     "main": "main.js",
+    "author": "Yuya Ochiai",
     "license": "MIT",
     "scripts": {
       "install": "cd src && npm install",
@@ -258,5 +259,6 @@
   "filename": "cadecairos___electron-mattermost.json",
   "sourceRepo": "mattermost/desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:05:46.058Z"
+  "lastFetchedAt": "2017-05-03T20:05:46.058Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:12.186Z"
 }

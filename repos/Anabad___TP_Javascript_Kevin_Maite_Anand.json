@@ -72,9 +72,16 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "",
     "license": "ISC",
     "dependencies": {},
-    "repository": "https://github.com/Anabad/TP_Javascript_Kevin_Maite_Anand",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Anabad/TP_Javascript_Kevin_Maite_Anand.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Anabad/TP_Javascript_Kevin_Maite_Anand/issues"
+    },
     "homepage": "https://github.com/Anabad/TP_Javascript_Kevin_Maite_Anand#readme",
     "description": "TODO",
     "devDependencies": {
@@ -115,5 +122,6 @@
   },
   "filename": "Anabad___TP_Javascript_Kevin_Maite_Anand.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:09.679Z"
+  "lastFetchedAt": "2017-05-04T14:25:09.679Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:15.259Z"
 }

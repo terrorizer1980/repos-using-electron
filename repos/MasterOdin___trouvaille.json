@@ -78,6 +78,11 @@
     "description": "My shining app",
     "license": "MIT",
     "repository": "MasterOdin/trouvaille",
+    "author": {
+      "name": "Matthew Peveler",
+      "email": "matt.peveler@gmail.com",
+      "url": "mpeveler.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -143,5 +148,6 @@
   },
   "filename": "MasterOdin___trouvaille.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:08.267Z"
+  "lastFetchedAt": "2017-05-04T20:02:08.267Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:04.033Z"
 }

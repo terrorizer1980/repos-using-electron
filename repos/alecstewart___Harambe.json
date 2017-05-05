@@ -53,7 +53,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "author": "Collin",
     "license": "ISC",
     "dependencies": {
       "react": "^15.2.1",
@@ -122,5 +126,6 @@
   "svnUrl": "https://github.com/alecstewart/Harambe",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:10:09.151Z"
+  "lastFetchedAt": "2017-05-04T05:10:09.151Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:29.050Z"
 }

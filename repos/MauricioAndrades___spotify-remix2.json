@@ -77,11 +77,18 @@
     "scripts": {
       "start": "nodemon ./bin/www"
     },
-    "repository": "https://github.com/MauricioAndrades/spotify-web-api-redux",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MauricioAndrades/spotify-web-api-redux.git"
+    },
     "keywords": [
       "spotify"
     ],
+    "author": "Mauricio Andrades <mod.and.op@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MauricioAndrades/spotify-web-api-redux/issues"
+    },
     "homepage": "https://github.com/MauricioAndrades/spotify-web-api-redux/readme.md"
   },
   "packageStatus": 200,
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/MauricioAndrades/spotify-web-api-redux",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:07:36.543Z"
+  "lastFetchedAt": "2017-05-04T20:07:36.543Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:03.210Z"
 }

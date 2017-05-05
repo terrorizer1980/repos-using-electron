@@ -78,6 +78,11 @@
     "description": "OSX app for quickly generating fake data. Nice to have when creating wireframes or mock-ups for UI design.",
     "license": "MIT",
     "repository": "simon-johansson/menubar-faker",
+    "author": {
+      "name": "Simon Johansson",
+      "email": "",
+      "url": "https://github.com/simon-johansson/menubar-faker"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -152,5 +157,6 @@
   },
   "filename": "simon-johansson___menubar-faker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:13.156Z"
+  "lastFetchedAt": "2017-05-04T17:43:13.156Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:28.940Z"
 }

@@ -47,25 +47,33 @@
   "status": 200,
   "packageJSON": {
     "name": "pauls-electron-rpc",
-    "version": "2.0.1",
+    "version": "3.1.0",
     "description": "My RPC solution for exporting APIs from the electron background process to renderers and webviews.",
     "main": "index.js",
     "scripts": {
-      "test": "node -e \"require('child_process').spawn(require('electron-prebuilt'), ['./test'], { stdio: 'inherit' })\""
+      "test": "node -e \"require('child_process').spawn(require('electron'), ['./test'], { stdio: 'inherit' })\""
     },
-    "repository": "https://github.com/pfraze/pauls-electron-rpc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pfraze/pauls-electron-rpc.git"
+    },
     "keywords": [
       "electron",
       "rpc",
       "ipc"
     ],
+    "author": "Paul Frazee <pfrazee@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pfraze/pauls-electron-rpc/issues"
+    },
     "homepage": "https://github.com/pfraze/pauls-electron-rpc#readme",
     "devDependencies": {
-      "electron-prebuilt": "^1.2.6",
+      "electron": "1.6.4",
       "multicb": "^1.2.1",
       "tape": "^4.6.0",
-      "tape-dom": "0.0.10"
+      "tape-dom": "0.0.10",
+      "zerr": "^1.0.4"
     }
   },
   "packageStatus": 200,
@@ -113,5 +121,6 @@
   "svnUrl": "https://github.com/pfrazee/pauls-electron-rpc",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:43:49.546Z"
+  "lastFetchedAt": "2017-05-04T20:43:49.546Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:59.622Z"
 }

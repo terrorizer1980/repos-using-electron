@@ -96,6 +96,7 @@
       "prebuild": "webpack -p --config ./webpack.config.prebuild.js",
       "build": "webpack -p --progress --color --config ./webpack.config.production.js"
     },
+    "author": "trungvq",
     "license": "MIT",
     "dependencies": {
       "clipboard": "^1.5.15",
@@ -145,5 +146,6 @@
   },
   "filename": "vistarsoft___git-log-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:32:52.625Z"
+  "lastFetchedAt": "2017-05-04T15:32:52.625Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:23.390Z"
 }

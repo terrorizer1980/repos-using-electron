@@ -84,6 +84,7 @@
       "test": "export NODE_PATH=./src && mocha --opts ./tests/mocha.opts tests/**/*-test.js"
     },
     "keywords": [],
+    "author": "sota1235",
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -166,5 +167,6 @@
   },
   "filename": "sota1235___Kakitama.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:24.286Z"
+  "lastFetchedAt": "2017-05-04T15:19:24.286Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:07.468Z"
 }

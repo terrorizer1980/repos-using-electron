@@ -79,6 +79,10 @@
     "scripts": {
       "start": "./node_modules/.bin/electron index.js"
     },
+    "author": {
+      "name": "facekapow",
+      "email": "facekapow@outlook.com"
+    },
     "license": "MIT",
     "homepage": "https://github.com/facekapow/hypertunes",
     "build": {
@@ -135,5 +139,6 @@
   "svnUrl": "https://github.com/facekapow/hypertunes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:52:55.066Z"
+  "lastFetchedAt": "2017-05-04T17:52:55.066Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:57.318Z"
 }

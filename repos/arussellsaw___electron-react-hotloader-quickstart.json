@@ -82,14 +82,21 @@
       "electron": "electron main.js",
       "lint": "eslint src"
     },
-    "repository": "https://github.com/arussellsaw/electron-react-hotloader-quickstart",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/arussellsaw/electron-react-hotloader-quickstart.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "arussellsaw",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/arussellsaw/electron-react-hotloader-quickstart/issues"
+    },
     "homepage": "https://github.com/arussellsaw/electron-react-hotloader-quickstart#readme",
     "devDependencies": {
       "babel-core": "^6.0.20",
@@ -136,5 +143,6 @@
   },
   "filename": "arussellsaw___electron-react-hotloader-quickstart.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:43.026Z"
+  "lastFetchedAt": "2017-05-04T20:13:43.026Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:12.838Z"
 }

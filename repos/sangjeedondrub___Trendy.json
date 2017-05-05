@@ -195,7 +195,11 @@
     "bin": {
       "stream": "./bin/cli.js"
     },
-    "repository": "https://github.com/rhysd/Trendy",
+    "author": "rhysd <lin90162@yahoo.co.jp>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rhysd/Trendy.git"
+    },
     "keywords": [
       "GitHub",
       "trend",
@@ -203,6 +207,9 @@
       "menubar",
       "Electron"
     ],
+    "bugs": {
+      "url": "https://github.com/rhysd/Trendy/issues"
+    },
     "license": "MIT",
     "scripts": {
       "start": "./bin/cli.js"
@@ -248,5 +255,6 @@
   },
   "sourceRepo": "rhysd/Trendy",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:27.172Z"
+  "lastFetchedAt": "2017-05-04T21:24:27.172Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:23.048Z"
 }

@@ -55,7 +55,14 @@
       "google inbox",
       "electron"
     ],
-    "repository": "https://github.com/andyjbas/doi",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/andyjbas/doi.git"
+    },
+    "bugs": {
+      "url": "https://github.com/andyjbas/doi/issues"
+    },
+    "author": "Andy Bas <code@andybas.com>",
     "main": "index.js",
     "scripts": {
       "start": "node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
@@ -134,5 +141,6 @@
   "svnUrl": "https://github.com/andyjbas/doi",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:05:49.305Z"
+  "lastFetchedAt": "2017-05-04T18:05:49.305Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:33.811Z"
 }

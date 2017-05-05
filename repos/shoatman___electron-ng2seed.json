@@ -78,6 +78,11 @@
     "description": "My astonishing app",
     "license": "MIT",
     "repository": "shoatman/seed",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "github.com/shoatman"
+    },
     "scripts": {
       "etest": "xo",
       "estart": "electron index.js",
@@ -172,5 +177,6 @@
   },
   "filename": "shoatman___electron-ng2seed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:10.204Z"
+  "lastFetchedAt": "2017-05-04T17:47:10.204Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:37.852Z"
 }

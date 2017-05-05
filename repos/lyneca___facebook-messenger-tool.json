@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "fbtool",
-    "version": "1.2.2",
+    "version": "1.5.0",
     "description": "A tool to do things with messenger that you normally can't.",
     "main": "main.js",
     "scripts": {
@@ -86,13 +86,15 @@
       "tool",
       "gui"
     ],
+    "author": "Lyneca",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1"
     },
     "dependencies": {
       "jquery": "^3.1.1",
-      "facebook-chat-api": "^1.2.0"
+      "facebook-chat-api": "^1.2.0",
+      "python-shell": "^0.4.0"
     }
   },
   "packageStatus": 200,
@@ -120,5 +122,6 @@
   },
   "filename": "lyneca___facebook-messenger-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:25.761Z"
+  "lastFetchedAt": "2017-05-04T21:12:25.761Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:03.501Z"
 }

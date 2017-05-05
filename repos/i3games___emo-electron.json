@@ -79,13 +79,15 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "MS",
     "license": "Creative Commons Attribution 4.0, electron: CC0 1.0 Universal, affdex: Commercial License (c) Affectiva",
     "homepage": "",
     "devDependencies": {
       "electron": "^1.3.5"
     },
     "dependencies": {
-      "electron-log": "^1.0.19"
+      "electron": "^1.5.0",
+      "osc": "^2.2.0"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
   "filename": "i3games___emo-electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:43.459Z"
+  "lastFetchedAt": "2017-05-04T19:53:43.459Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:25.484Z"
 }

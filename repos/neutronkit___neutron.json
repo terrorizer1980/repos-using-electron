@@ -89,7 +89,10 @@
     "name": "neutronkit",
     "version": "0.0.2",
     "description": "The easiest way to build Electron apps for OS X, Windows, Linux",
-    "repository": "https://github.com/neutronkit/neutron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/neutronkit/neutron.git"
+    },
     "keywords": [
       "neutron",
       "neutronkit",
@@ -97,7 +100,11 @@
       "desktop",
       "app"
     ],
+    "author": "Arif Cakiroglu <arif@linux.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/neutronkit/neutron/issues"
+    },
     "homepage": "https://neutronkit.com",
     "engines": {
       "node": ">=4"
@@ -169,5 +176,6 @@
   },
   "filename": "neutronkit___neutron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:52.091Z"
+  "lastFetchedAt": "2017-05-04T19:41:52.091Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:05.248Z"
 }

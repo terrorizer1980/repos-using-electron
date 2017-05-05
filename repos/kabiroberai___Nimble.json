@@ -202,17 +202,8 @@
       "start": "gulp && electron ."
     },
     "repository": {
-      "user": "Maybulb",
-      "repo": "Nimble",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Maybulb/Nimble/tarball/master",
-      "clone_url": "https://github.com/Maybulb/Nimble",
-      "https_url": "https://github.com/Maybulb/Nimble",
-      "travis_url": "https://travis-ci.org/Maybulb/Nimble",
-      "zip_url": "https://github.com/Maybulb/Nimble/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Maybulb/Nimble"
+      "type": "git",
+      "url": "git+https://github.com/Maybulb/Nimble.git"
     },
     "keywords": [
       "wolfram",
@@ -220,7 +211,11 @@
       "osx",
       "menubar"
     ],
+    "author": "Maybulb",
     "license": "CC-BY-NC-4.0",
+    "bugs": {
+      "url": "https://github.com/Maybulb/Nimble/issues"
+    },
     "homepage": "https://github.com/Maybulb/Nimble#readme",
     "build": {
       "mac": {
@@ -294,5 +289,6 @@
   "filename": "kabiroberai___Nimble.json",
   "sourceRepo": "Maybulb/Nimble",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:24.955Z"
+  "lastFetchedAt": "2017-05-04T15:15:24.955Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:29.829Z"
 }

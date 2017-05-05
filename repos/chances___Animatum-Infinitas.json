@@ -57,7 +57,10 @@
     "version": "0.1.0",
     "description": "A web application providing a cross-platform solution for animating RCT3 custom scenery.",
     "private": true,
-    "repository": "https://github.com/chances/Animatum-Infinitas",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/chances/Animatum-Infinitas"
+    },
     "keywords": [
       "js",
       "ts",
@@ -65,7 +68,11 @@
       "webapp",
       "rct3"
     ],
+    "author": "Chance Snow <git@chancesnow.me>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chances/Animatum-Infinitas/issues"
+    },
     "homepage": "https://github.com/chances/Animatum-Infinitas",
     "main": "js/main.js",
     "scripts": {
@@ -163,5 +170,6 @@
   "svnUrl": "https://github.com/chances/Animatum-Infinitas",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:42:41.298Z"
+  "lastFetchedAt": "2017-05-04T20:42:41.298Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:14.978Z"
 }

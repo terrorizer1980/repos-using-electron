@@ -68,13 +68,17 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "Karl Shifflett",
     "homepage": "http://oceanware.wordpress.com",
     "license": "MIT",
     "keywords": [
       "electron",
       "desktop integration"
     ],
-    "repository": "https://github.com/Oceanware/hellointegration",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Oceanware/hellointegration.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.2.5"
     }
@@ -124,5 +128,6 @@
   "svnUrl": "https://github.com/Oceanware/hellointegration",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:14:49.178Z"
+  "lastFetchedAt": "2017-05-04T20:14:49.178Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:47.691Z"
 }

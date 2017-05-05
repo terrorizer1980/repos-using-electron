@@ -77,11 +77,18 @@
     "description": "mafintosh/electron-prebuilt on steroids.",
     "main": "index.js",
     "bin": "./index.js",
-    "repository": "https://github.com/johnsusi/newton",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johnsusi/newton.git"
+    },
     "keywords": [
       "electron"
     ],
+    "author": "John Susi <john@susi.se>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/johnsusi/newton/issues"
+    },
     "homepage": "https://github.com/johnsusi/newton#readme",
     "dependencies": {
       "dotenv": "^1.2.0",
@@ -116,5 +123,6 @@
   },
   "filename": "johnsusi___maxwell.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:33:50.589Z"
+  "lastFetchedAt": "2017-05-04T18:33:50.589Z",
+  "packageLastFetchedAt": "2017-05-05T13:37:34.551Z"
 }

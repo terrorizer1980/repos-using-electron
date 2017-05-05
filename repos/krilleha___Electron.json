@@ -59,6 +59,7 @@
       "deploy-osx": "node_modules/.bin/electron-packager ./dist testapp --platform=darwin --arch=all --version=0.33.6 --out=bin --overwrite --ignore=bin",
       "deploy": "npm run deploy-linux && npm run deploy-windows && npm run deploy-osx"
     },
+    "author": "",
     "license": "MIT",
     "dependencies": {
       "electron-packager": "^5.1.0",
@@ -115,5 +116,6 @@
   "svnUrl": "https://github.com/krilleha/Electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:31:28.691Z"
+  "lastFetchedAt": "2017-05-04T19:31:28.691Z",
+  "packageLastFetchedAt": "2017-05-04T22:02:01.028Z"
 }

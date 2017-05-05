@@ -80,8 +80,15 @@
       "start": "electron app --color",
       "pack-renderer": "webpack app/window/renderer.js app/window/renderer.bundle.js --optimize-minimize"
     },
-    "repository": "https://github.com/varbrad/director-of-football",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/varbrad/director-of-football.git"
+    },
+    "author": "Brad Davies <varbrad@users.noreply.github.com>",
     "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+      "url": "https://github.com/varbrad/director-of-football/issues"
+    },
     "homepage": "https://github.com/varbrad/director-of-football#readme",
     "private": true,
     "devDependencies": {
@@ -118,5 +125,6 @@
   },
   "filename": "varbrad___director-of-football.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:59.061Z"
+  "lastFetchedAt": "2017-05-04T19:41:59.061Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:58.609Z"
 }

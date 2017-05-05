@@ -84,7 +84,14 @@
     "engines": {
       "node": ">=0.10.0"
     },
-    "repository": "https://github.com/jdkato/scheduler",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jdkato/scheduler.git"
+    },
+    "bugs": {
+      "url": "https://github.com/jdkato/scheduler/issues"
+    },
+    "author": "Joseph Kato",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -120,5 +127,6 @@
   },
   "filename": "jdkato___Scheduler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:56.550Z"
+  "lastFetchedAt": "2017-05-04T19:55:56.550Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:39.009Z"
 }

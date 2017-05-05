@@ -91,7 +91,10 @@
     "license": "BSD-3-Clause",
     "version": "0.0.0-semantically-release",
     "main": "./lib/arctic-viewer.js",
-    "repository": "https://github.com/Kitware/arctic-viewer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Kitware/arctic-viewer.git"
+    },
     "dependencies": {
       "body-parser": "1.15.2",
       "commander": "2.9.0",
@@ -114,9 +117,10 @@
       "font-awesome": "4.6.3",
       "normalize.css": "5.0.0",
       "kw-web-suite": "2.2.1",
-      "kw-doc": "1.0.15",
+      "kw-doc": "1.0.19",
       "babel-polyfill": "6.16.0",
-      "paraviewweb": "2.2.49"
+      "paraviewweb": "2.2.99",
+      "vtk.js": "2.18.5"
     },
     "scripts": {
       "build": "webpack",
@@ -166,5 +170,6 @@
   },
   "filename": "Kitware___arctic-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:30.462Z"
+  "lastFetchedAt": "2017-05-04T21:27:30.462Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:08.931Z"
 }

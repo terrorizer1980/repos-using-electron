@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -115,5 +122,6 @@
   },
   "filename": "siteslave___moph_angular_basic2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:00.193Z"
+  "lastFetchedAt": "2017-05-04T20:15:00.193Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:47.471Z"
 }

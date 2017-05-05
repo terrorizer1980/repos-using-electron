@@ -60,8 +60,15 @@
       "package:win32": "electron-packager . --platform=win32 --arch=ia32",
       "package:linux": "electron-packager . --platform=linux --arch=x64"
     },
-    "repository": "https://github.com/guzmonne/electron-workshop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/guzmonne/electron-workshop.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/guzmonne/electron-workshop/issues"
+    },
     "homepage": "https://github.com/guzmonne/electron-workshop#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.6"
@@ -118,5 +125,6 @@
   },
   "filename": "guzmonne___electron-workshop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:42.993Z"
+  "lastFetchedAt": "2017-05-04T05:00:42.993Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:56.920Z"
 }

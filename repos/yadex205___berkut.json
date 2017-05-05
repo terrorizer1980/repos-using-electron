@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/yadex205/berkut",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yadex205/berkut.git"
+    },
+    "author": "Kanon Kakuno <yadex205@outlook.jp>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yadex205/berkut/issues"
+    },
     "babel": {
       "presets": [
         "es2015"
@@ -148,5 +155,6 @@
   },
   "filename": "yadex205___berkut.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:34.189Z"
+  "lastFetchedAt": "2017-05-04T14:50:34.189Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:31.049Z"
 }

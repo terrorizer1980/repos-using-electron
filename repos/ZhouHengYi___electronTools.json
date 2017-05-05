@@ -76,6 +76,10 @@
     "version": "0.5.1",
     "description": "Desktop Client for Ghost",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "homepage": "https://github.com/tryghost/ghost-desktop",
     "scripts": {
       "build": "grunt build",
@@ -95,6 +99,7 @@
     "engines": {
       "node": ">= 5.0"
     },
+    "author": "",
     "license": "MIT",
     "optionalDependencies": {
       "grunt-electron-installer-debian": "^0.3.0"
@@ -206,5 +211,6 @@
   },
   "filename": "ZhouHengYi___electronTools.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:22.203Z"
+  "lastFetchedAt": "2017-05-04T21:05:22.203Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:24.722Z"
 }

@@ -73,14 +73,21 @@
     "scripts": {
       "start": "./bin/cli.js"
     },
-    "repository": "https://github.com/Urucas/adb-tcp-quick-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Urucas/adb-tcp-quick-app.git"
+    },
     "keywords": [
       "android",
       "adb",
       "usb",
       "wifi"
     ],
+    "author": "Urucas <hello@urucas.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Urucas/adb-tcp-quick-app/issues"
+    },
     "homepage": "https://github.com/Urucas/adb-tcp-quick-app#readme",
     "dependencies": {
       "angular": "^1.4.7",
@@ -135,5 +142,6 @@
   },
   "filename": "Urucas___adb-tcp-quick-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:54.496Z"
+  "lastFetchedAt": "2017-05-04T20:03:54.496Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:58.379Z"
 }

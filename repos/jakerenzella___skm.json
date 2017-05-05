@@ -174,17 +174,8 @@
       "start": "NODE_ENV=development electron ."
     },
     "repository": {
-      "user": "splashkit",
-      "repo": "skm",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/splashkit/skm/tarball/master",
-      "clone_url": "https://github.com/splashkit/skm",
-      "https_url": "https://github.com/splashkit/skm",
-      "travis_url": "https://travis-ci.org/splashkit/skm",
-      "zip_url": "https://github.com/splashkit/skm/archive/master.zip",
-      "api_url": "https://api.github.com/repos/splashkit/skm"
+      "type": "git",
+      "url": "git+https://github.com/splashkit/skm.git"
     },
     "keywords": [
       "splashkit",
@@ -204,6 +195,9 @@
       }
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/splashkit/skm/issues"
+    },
     "homepage": "https://github.com/splashkit/skm#readme",
     "dependencies": {
       "cli-spinners": "^0.2.0",
@@ -265,5 +259,6 @@
   "filename": "jakerenzella___skm.json",
   "sourceRepo": "splashkit/skm",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:07.013Z"
+  "lastFetchedAt": "2017-05-04T21:18:07.013Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:31.306Z"
 }

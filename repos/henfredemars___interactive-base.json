@@ -80,7 +80,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/henfredemars/interactive-base",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/henfredemars/interactive-base"
+    },
     "keywords": [
       "text",
       "base",
@@ -89,6 +92,7 @@
       "node",
       "electron"
     ],
+    "author": "",
     "license": "SEE LICENSE IN ./LICENSE",
     "dependencies": {
       "angular": "^1.5.3",
@@ -122,5 +126,6 @@
   },
   "filename": "henfredemars___interactive-base.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:42.177Z"
+  "lastFetchedAt": "2017-05-04T05:02:42.177Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:05.011Z"
 }

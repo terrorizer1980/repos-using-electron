@@ -90,11 +90,13 @@
       "clean": "rimraf dst && rimraf pkg",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "raccy",
     "license": "MIT",
     "devDependencies": {
       "@types/electron": "1.4.28",
       "@types/handlebars": "^4.0.31",
-      "@types/jquery": "^2.0.34",
+      "@types/iconv-lite": "^0.0.1",
+      "@types/jquery": "^2.0.39",
       "@types/js-yaml": "^3.5.29",
       "@types/marked": "^0.0.28",
       "@types/node": "^6.0.51",
@@ -122,6 +124,7 @@
     "dependencies": {
       "bootstrap": "4.0.0-alpha.6",
       "handlebars": "^4.0.6",
+      "iconv-lite": "^0.4.15",
       "js-yaml": "^3.7.0",
       "marked": "^0.3.6",
       "node-getopt": "^0.2.3",
@@ -161,5 +164,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:34:13.034Z"
+  "lastFetchedAt": "2017-05-04T19:34:13.034Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:53.097Z"
 }

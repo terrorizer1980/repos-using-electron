@@ -73,10 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/digitalbazaar/bedrock-dev-manager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/digitalbazaar/bedrock-dev-manager.git"
+    },
     "keywords": [
       "bedrock"
     ],
+    "author": {
+      "name": "Digital Bazaar, Inc.",
+      "email": "support@digitalbazaar.com",
+      "url": "http://digitalbazaar.com/"
+    },
+    "bugs": {
+      "url": "https://github.com/digitalbazaar/bedrock-dev-manager/issues"
+    },
     "homepage": "https://github.com/digitalbazaar/bedrock-dev-manager#readme",
     "dependencies": {
       "async": "^1.5.0",
@@ -130,5 +141,6 @@
   },
   "filename": "digitalbazaar___bedrock-dev-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:00.998Z"
+  "lastFetchedAt": "2017-05-04T20:12:00.998Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:25.012Z"
 }

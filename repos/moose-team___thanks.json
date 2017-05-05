@@ -106,8 +106,15 @@
       "publish": "publish-release --template notes.md --assets Thanks.zip",
       "rebuild-leveldb": "cd node_modules/level/node_modules/leveldown && set HOME=~/.electron-gyp && node-gyp rebuild --target=0.30.4 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
     },
-    "repository": "https://github.com/mafintosh/thanks",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mafintosh/thanks.git"
+    },
+    "author": "Mathias Buus (@mafintosh)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mafintosh/thanks/issues"
+    },
     "homepage": "https://github.com/mafintosh/thanks"
   },
   "packageStatus": 200,
@@ -155,5 +162,6 @@
   },
   "filename": "moose-team___thanks.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:05:51.758Z"
+  "lastFetchedAt": "2017-05-04T18:05:51.758Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:33.332Z"
 }

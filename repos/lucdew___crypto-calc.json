@@ -58,7 +58,14 @@
     "description": "Crypto calculator",
     "license": "MIT",
     "main": "index.js",
-    "repository": "https://github.com/lucdew/crypto-calc",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lucdew/crypto-calc"
+    },
+    "author": {
+      "name": "Luc Dewavrin",
+      "url": "https://github.com/lucdew/crypto-calc"
+    },
     "engines": {
       "node": ">=4.2.0"
     },
@@ -153,5 +160,6 @@
   },
   "filename": "lucdew___crypto-calc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:40.510Z"
+  "lastFetchedAt": "2017-05-04T18:12:40.510Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:50.339Z"
 }

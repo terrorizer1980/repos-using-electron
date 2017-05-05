@@ -77,12 +77,19 @@
       "rebuild": "electron-rebuild",
       "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds"
     },
-    "repository": "https://github.com/alexbern/JEFF",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alexbern/JEFF.git"
+    },
     "keywords": [
       "experimantal",
       "installation"
     ],
+    "author": "Alex Bernard",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/alexbern/JEFF/issues"
+    },
     "homepage": "https://github.com/alexbern/JEFF#readme",
     "dependencies": {
       "electron": "^1.4.10",
@@ -124,5 +131,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:14.369Z"
+  "lastFetchedAt": "2017-05-04T20:43:14.369Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:27.865Z"
 }

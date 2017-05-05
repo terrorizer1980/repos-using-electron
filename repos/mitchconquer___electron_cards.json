@@ -72,11 +72,11 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-react-boilerplate",
-    "productName": "ElectronReact",
+    "name": "video_to_flashcards",
+    "productName": "Video to Flashcards",
     "version": "0.11.0",
-    "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
-    "main": "main.js",
+    "description": "Create Anki flashcards from videos and subtitles",
+    "main": "./main.js",
     "scripts": {
       "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
       "test-watch": "npm test -- --watch",
@@ -90,38 +90,40 @@
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron -r babel-register -r babel-polyfill ./main.development",
       "package": "cross-env NODE_ENV=production node -r babel-register -r babel-polyfill package.js",
       "package-all": "npm run package -- --all",
-      "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
+      "postinstall2": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json && node ./node_modules/.bin/electron-rebuild --pre-gyp-fix",
+      "postinstall": "install-app-deps",
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\"",
       "cleanup": "mop -v",
-      "recompile-packages": "./node_modules/.bin/electron-rebuild --pre-gyp-fix"
+      "rebuild-packages": "./node_modules/.bin/electron-rebuild --pre-gyp-fix"
+    },
+    "build": {
+      "nodeGypRebuild": true
     },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "chentsulin",
-      "repo": "electron-react-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate/tarball/master",
-      "clone_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "https_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "travis_url": "https://travis-ci.org/chentsulin/electron-react-boilerplate",
-      "zip_url": "https://github.com/chentsulin/electron-react-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/mitchconquer/electron_cards.git"
+    },
+    "author": {
+      "name": "Mitch Conquer",
+      "email": "mitchconquer@gmail.com",
+      "url": "https://github.com/mitchconquer"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mitchconquer/electron_cards/issues"
+    },
     "keywords": [
       "electron",
-      "boilerplate",
-      "react",
-      "react-router",
-      "flux",
-      "webpack",
-      "react-hot"
+      "SRS",
+      "Anki",
+      "flashcards",
+      "language",
+      "learning"
     ],
-    "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+    "homepage": "https://github.com/mitchconquer/electron_cards#readme",
     "devDependencies": {
       "asar": "^0.12.3",
       "babel-core": "^6.17.0",
@@ -130,6 +132,7 @@
       "babel-plugin-add-module-exports": "^0.2.1",
       "babel-plugin-dev-expression": "^0.2.1",
       "babel-plugin-tcomb": "^0.3.17",
+      "babel-plugin-transform-decorators-legacy": "^1.3.4",
       "babel-plugin-webpack-loaders": "^0.8.0",
       "babel-polyfill": "^6.16.0",
       "babel-preset-es2015": "^6.16.0",
@@ -171,9 +174,10 @@
       "node-libs-browser": "^1.0.0",
       "react-addons-test-utils": "^15.3.2",
       "redux-logger": "^2.7.0",
+      "sass-loader": "^6.0.2",
       "sinon": "^1.17.6",
       "spectron": "^3.4.0",
-      "style-loader": "^0.13.1",
+      "style-loader": "^0.13.2",
       "tcomb": "^3.2.15",
       "webpack": "^1.13.2",
       "webpack-dev-middleware": "^1.8.3",
@@ -184,11 +188,16 @@
     "dependencies": {
       "bluebird": "^3.4.6",
       "bootstrap": "^3.3.7",
+      "classnames": "^2.2.5",
       "css-modules-require-hook": "^4.0.5",
       "electron-debug": "^1.0.1",
+      "eslint-plugin-import": "^2.2.0",
       "font-awesome": "^4.6.3",
+      "node-sass": "^4.5.0",
       "postcss": "^5.2.4",
       "react": "^15.3.2",
+      "react-dnd": "^2.1.4",
+      "react-dnd-html5-backend": "^2.1.2",
       "react-dom": "^15.3.2",
       "react-dropzone": "^3.7.0",
       "react-redux": "^4.4.5",
@@ -196,9 +205,10 @@
       "react-router-redux": "^4.0.6",
       "redux": "^3.6.0",
       "redux-thunk": "^2.1.0",
+      "redux-undo": "^1.0.0-beta9-8",
       "source-map-support": "^0.4.3",
       "sqlite3": "^3.1.8",
-      "videocards": "1.9.0"
+      "videocards": "1.19.0"
     },
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
@@ -231,5 +241,6 @@
   "filename": "mitchconquer___electron_cards.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:33.203Z"
+  "lastFetchedAt": "2017-05-04T05:26:33.203Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:06.985Z"
 }

@@ -77,8 +77,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -92,7 +103,7 @@
     "devDependencies": {
       "asar": "^0.12.3",
       "babel-core": "^6.17.0",
-      "babel-eslint": "^7.0.0",
+      "babel-eslint": "^6.1.2",
       "babel-loader": "^6.2.5",
       "babel-plugin-add-module-exports": "^0.2.1",
       "babel-plugin-dev-expression": "^0.2.1",
@@ -117,7 +128,7 @@
       "electron-packager": "^8.1.0",
       "electron-rebuild": "^1.2.1",
       "enzyme": "^2.4.1",
-      "eslint": "^3.7.1",
+      "eslint": "^3.5.0",
       "eslint-config-airbnb": "^12.0.0",
       "eslint-formatter-pretty": "^1.0.0",
       "eslint-import-resolver-webpack": "^0.6.0",
@@ -127,10 +138,9 @@
       "eslint-plugin-jsx-a11y": "^2.2.2",
       "eslint-plugin-mocha": "^4.6.0",
       "eslint-plugin-promise": "^2.0.1",
-      "eslint-plugin-react": "^6.3.0",
+      "eslint-plugin-react": "^6.2.1",
       "express": "^4.14.0",
       "extract-text-webpack-plugin": "^1.0.1",
-      "fbjs-scripts": "^0.7.1",
       "file-loader": "^0.9.0",
       "jsdom": "^9.6.0",
       "json-loader": "^0.5.4",
@@ -149,7 +159,8 @@
       "webpack-dev-middleware": "^1.8.3",
       "webpack-hot-middleware": "^2.12.2",
       "webpack-merge": "^0.14.1",
-      "webpack-validator": "^2.2.9"
+      "webpack-validator": "^2.2.9",
+      "fbjs-scripts": "^0.7.1"
     },
     "dependencies": {
       "classnames": "^2.2.5",
@@ -159,10 +170,10 @@
       "font-awesome": "^4.6.3",
       "immutable": "^3.8.1",
       "postcss": "^5.2.4",
-      "react": "^15.3.2",
+      "react": "^15.4.1",
       "react-desktop": "^0.2.14",
-      "react-dom": "^15.3.2",
-      "react-redux": "^4.4.5",
+      "react-dom": "^15.4.1",
+      "react-redux": "^4.4.6",
       "react-router": "^2.8.1",
       "react-router-redux": "^4.0.6",
       "react-select": "^1.0.0-rc.2",
@@ -221,5 +232,6 @@
   "svnUrl": "https://github.com/Strnadj/rmtracker",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:17:09.638Z"
+  "lastFetchedAt": "2017-05-04T20:17:09.638Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:59.512Z"
 }

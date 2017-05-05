@@ -184,17 +184,8 @@
     "version": "0.0.9pre",
     "description": "Markdown Presentation Writer (Powered by Electron)",
     "repository": {
-      "user": "yhatt",
-      "repo": "marp",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/yhatt/marp/tarball/master",
-      "clone_url": "https://github.com/yhatt/marp",
-      "https_url": "https://github.com/yhatt/marp",
-      "travis_url": "https://travis-ci.org/yhatt/marp",
-      "zip_url": "https://github.com/yhatt/marp/archive/master.zip",
-      "api_url": "https://api.github.com/repos/yhatt/marp"
+      "type": "git",
+      "url": "https://github.com/yhatt/marp"
     },
     "main": "main.js",
     "scripts": {
@@ -202,6 +193,7 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
+    "author": "Yuki Hattori",
     "license": "MIT",
     "devDependencies": {
       "coffee-script": "^1.10.0",
@@ -290,5 +282,6 @@
   "svnUrl": "https://github.com/Administrate/marp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:23:18.943Z"
+  "lastFetchedAt": "2017-05-04T05:23:18.943Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:37.437Z"
 }

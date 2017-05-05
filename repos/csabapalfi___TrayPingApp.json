@@ -67,5 +67,29 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:28:28.474Z"
+  "lastFetchedAt": "2017-05-04T19:28:28.474Z",
+  "packageJSON": {
+    "name": "TrayPing",
+    "version": "3.3.0",
+    "description": "tray application showing DNS/ping latency",
+    "dependencies": {
+      "dns-socket": "^1.6.1",
+      "ping-lite": "^1.0.2",
+      "resolv": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.13",
+      "electron-installer-dmg": "^0.2.0",
+      "electron-packager": "^8.4.0"
+    },
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build:app": "electron-packager . TrayPing --icon=icon.icns --platform=darwin --arch=x64 --overwrite",
+      "build:dmg": "electron-installer-dmg ./TrayPing-darwin-x64/TrayPing.app TrayPing --overwrite",
+      "build": "npm run build:app && npm run build:dmg"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:56:54.256Z"
 }

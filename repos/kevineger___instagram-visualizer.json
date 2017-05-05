@@ -53,8 +53,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/kevineger/instagram-visualizer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kevineger/instagram-visualizer.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kevineger/instagram-visualizer/issues"
+    },
     "homepage": "https://github.com/kevineger/instagram-visualizer#readme",
     "dependencies": {
       "electron-prebuilt": "^0.34.3",
@@ -106,5 +113,6 @@
   "svnUrl": "https://github.com/kevineger/instagram-visualizer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:52:54.192Z"
+  "lastFetchedAt": "2017-05-04T20:52:54.192Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:45.074Z"
 }

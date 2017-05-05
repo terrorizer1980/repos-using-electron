@@ -63,7 +63,10 @@
       "lint": "eslint src/**/*.js test/**/*.js",
       "pretest": "npm run lint"
     },
-    "repository": "https://github.com/dannyob/dannybot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dannyob/dannybot.git"
+    },
     "keywords": [
       "Danny",
       "bot",
@@ -71,7 +74,11 @@
       "statistics",
       "quantified"
     ],
+    "author": "Danny O'Brien <danny@spesh.com> (http://www.spesh.com/danny/)",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/dannyob/dannybot/issues"
+    },
     "homepage": "https://github.com/dannyob/dannybot#README.md",
     "devDependencies": {
       "babel": "^5.8.23",
@@ -139,5 +146,6 @@
   "svnUrl": "https://github.com/dannyob/dannybot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:47:23.286Z"
+  "lastFetchedAt": "2017-05-04T17:47:23.286Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:29.683Z"
 }

@@ -76,8 +76,15 @@
       "start:server": "node ./devServer.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Darmody/pager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Darmody/pager.git"
+    },
+    "author": "Darmody",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Darmody/pager/issues"
+    },
     "homepage": "https://github.com/Darmody/pager#readme",
     "dependencies": {
       "dotenv": "^2.0.0",
@@ -158,5 +165,6 @@
   },
   "filename": "Darmody___pager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:02.147Z"
+  "lastFetchedAt": "2017-05-04T05:26:02.147Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:16.221Z"
 }

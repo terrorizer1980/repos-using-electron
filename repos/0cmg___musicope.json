@@ -67,5 +67,33 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T15:18:17.314Z"
+  "lastFetchedAt": "2017-05-04T15:18:17.314Z",
+  "packageJSON": {
+    "name": "musicope",
+    "version": "2.0.0",
+    "author": "Oldrich Svec",
+    "license": "MIT",
+    "devDependencies": {
+      "@types/jquery": "*",
+      "@types/mousetrap": "*",
+      "gulp": "*",
+      "gulp-concat": "*",
+      "gulp-rimraf": "*",
+      "gulp-sourcemaps": "*",
+      "gulp-typescript": "*",
+      "rcedit": "*",
+      "run-sequence": "*",
+      "typescript": "*"
+    },
+    "dependencies": {
+      "electron": "*",
+      "framework7": "*",
+      "jquery": "*",
+      "mousetrap": "*",
+      "systemjs": "*",
+      "urijs": "*"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:04:57.521Z"
 }

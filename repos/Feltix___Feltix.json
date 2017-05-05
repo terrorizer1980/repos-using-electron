@@ -96,7 +96,10 @@
       "prepublish": "coffee --compile --bare --output app/ src/",
       "package": "electron-packager . --platform darwin,linux,win32 --arch all --out builds/ --icon app/static/progicon.icns --ignore \"(devREADME.md|node_modules/coffee-script|.vscode|builds|src|[A-z]+.cmd|.git[A-z]*)\""
     },
-    "repository": "https://github.com/Feltix/Feltix",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Feltix/Feltix"
+    },
     "keywords": [
       "Fountain",
       "Screenplays",
@@ -104,7 +107,11 @@
       "Feltix",
       "Extended Fountain"
     ],
+    "author": "Evert Provoost",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Feltix/Feltix/issues"
+    },
     "homepage": "https://github.com/Feltix/Feltix/blob/master/README.md",
     "devDependencies": {
       "coffee-script": "^1.10.0",
@@ -137,5 +144,6 @@
   },
   "filename": "Feltix___Feltix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:06.811Z"
+  "lastFetchedAt": "2017-05-04T16:45:06.811Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:20.128Z"
 }

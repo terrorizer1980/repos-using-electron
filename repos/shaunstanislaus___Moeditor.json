@@ -175,23 +175,18 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "Menci",
-      "repo": "Moeditor",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Menci/Moeditor/tarball/master",
-      "clone_url": "https://github.com/Menci/Moeditor",
-      "https_url": "https://github.com/Menci/Moeditor",
-      "travis_url": "https://travis-ci.org/Menci/Moeditor",
-      "zip_url": "https://github.com/Menci/Moeditor/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Menci/Moeditor"
+      "type": "git",
+      "url": "git+https://github.com/Menci/Moeditor.git"
     },
     "keywords": [
       "markdown",
       "editor"
     ],
+    "author": "Menci",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Menci/Moeditor/issues"
+    },
     "homepage": "https://github.com/Menci/Moeditor#readme",
     "devDependencies": {
       "codemirror": "^5.16.0",
@@ -254,5 +249,6 @@
   "svnUrl": "https://github.com/shaunstanislaus/Moeditor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:34:16.197Z"
+  "lastFetchedAt": "2017-05-04T20:34:16.197Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:34.249Z"
 }

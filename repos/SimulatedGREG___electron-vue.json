@@ -57,7 +57,10 @@
     "version": "0.0.0",
     "description": "An Electron & Vue.js quick start boilerplate with vue-cli support",
     "main": "meta.js",
-    "repository": "https://github.com/SimulatedGREG/electron-vue",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SimulatedGREG/electron-vue.git"
+    },
     "keywords": [
       "electron",
       "vue",
@@ -68,7 +71,11 @@
       "vuex",
       "resource"
     ],
+    "author": "Greg Holguin <simulatedgreg@gmail.com> (https://github.com/SimulatedGREG)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SimulatedGREG/electron-vue/issues"
+    },
     "homepage": "https://github.com/SimulatedGREG/electron-vue#readme",
     "devDependencies": {
       "suppose": "^0.6.1"
@@ -118,5 +125,6 @@
   "svnUrl": "https://github.com/SimulatedGREG/electron-vue",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:33:10.914Z"
+  "lastFetchedAt": "2017-05-04T20:33:10.914Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:58.638Z"
 }

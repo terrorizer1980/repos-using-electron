@@ -83,8 +83,15 @@
       "build-mac": "electron-packager . Moonview --platform=darwin --arch=x64 --icon='./_src/build-assets/mac-icon.icns' --out=dist --ignore='^/dist$' --overwrite",
       "build-win": "electron-packager . Moonview --platform=win32 --arch=x64 --icon='./_src/build-assets/win-icon.ico' --out=dist --ignore='^/dist$' --overwrite"
     },
-    "repository": "https://github.com/teesloane/moonview",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/teesloane/moonview.git"
+    },
+    "author": "Tyler Sloane",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/teesloane/moonview/issues"
+    },
     "homepage": "https://github.com/teesloane/moonview/blob/master/README.md",
     "devDependencies": {
       "babel-eslint": "^6.0.4",
@@ -127,5 +134,6 @@
   },
   "filename": "teesloane___moonview.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:55.933Z"
+  "lastFetchedAt": "2017-05-04T05:08:55.933Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:21.727Z"
 }

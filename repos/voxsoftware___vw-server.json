@@ -70,6 +70,10 @@
     "description": "Un servidor personalizado para aplicaciones multiplataforma. Diseñado para jxcore, nodejs, io.js",
     "version": "2.1.44",
     "license": "MIT",
+    "author": {
+      "name": "James Suárez",
+      "email": "xtreme.maicolxt94@gmail.com"
+    },
     "dependencies": {
       "express": ">=4.13.3",
       "body-parser": ">=1.14.1",
@@ -79,12 +83,17 @@
       "fake-async": ">=0.0.1"
     },
     "devDependencies": {},
-    "repository": "https://github.com/voxsoftware/vw-server",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/voxsoftware/vw-server.git"
+    },
     "engines": {
       "node": ">= 0.6"
     },
     "scripts": {},
-    "owners": [
+    "_id": "vw-server@1.0.0",
+    "_from": "vw-server@*",
+    "maintainers": [
       {
         "name": "James",
         "email": "xtreme.maicolxt94@gmail"
@@ -116,5 +125,6 @@
   },
   "filename": "voxsoftware___vw-server.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:20:02.298Z"
+  "lastFetchedAt": "2017-05-04T21:20:02.298Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:31.638Z"
 }

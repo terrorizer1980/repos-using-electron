@@ -80,8 +80,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/Zippoffer/electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Zippoffer/electron.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Zippoffer/electron/issues"
+    },
     "homepage": "https://github.com/Zippoffer/electron#readme",
     "devDependencies": {
       "electron": "1.4.2"
@@ -115,5 +122,6 @@
   },
   "filename": "Zippoffer___electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:07.930Z"
+  "lastFetchedAt": "2017-05-04T18:20:07.930Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:37.120Z"
 }

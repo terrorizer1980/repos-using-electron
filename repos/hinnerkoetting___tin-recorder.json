@@ -80,18 +80,10 @@
       "debug": "cd app && npm run debug"
     },
     "repository": {
-      "user": "hinnerkoetting",
-      "repo": "tunein-recorder",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/hinnerkoetting/tunein-recorder/tarball/master",
-      "clone_url": "https://github.com/hinnerkoetting/tunein-recorder",
-      "https_url": "https://github.com/hinnerkoetting/tunein-recorder",
-      "travis_url": "https://travis-ci.org/hinnerkoetting/tunein-recorder",
-      "zip_url": "https://github.com/hinnerkoetting/tunein-recorder/archive/master.zip",
-      "api_url": "https://api.github.com/repos/hinnerkoetting/tunein-recorder"
+      "type": "git",
+      "url": "https://github.com/hinnerkoetting/tunein-recorder/"
     },
+    "author": "Hinnerk Oetting",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.0",
@@ -127,5 +119,6 @@
   "filename": "hinnerkoetting___tin-recorder.json",
   "sourceRepo": "hinnerkoetting/tunein-recorder",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:13.472Z"
+  "lastFetchedAt": "2017-05-04T11:04:13.472Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:47.138Z"
 }

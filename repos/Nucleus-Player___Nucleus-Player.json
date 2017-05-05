@@ -79,6 +79,7 @@
       "start": "electron .",
       "watch": "npm run build && gulp watch"
     },
+    "author": "Samuel Attard",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.36.3",
@@ -163,5 +164,6 @@
   },
   "filename": "Nucleus-Player___Nucleus-Player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:25:59.279Z"
+  "lastFetchedAt": "2017-05-04T15:25:59.279Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:25.589Z"
 }

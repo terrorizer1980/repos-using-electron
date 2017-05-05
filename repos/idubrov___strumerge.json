@@ -63,6 +63,7 @@
       "postinstall": "elm-package install -y",
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron --js-flags=\"--harmony_proxies\" ./"
     },
+    "author": "Ivan Dubrov",
     "license": "MIT",
     "dependencies": {
       "ace-builds": "^1.2.2",
@@ -136,5 +137,6 @@
   },
   "filename": "idubrov___strumerge.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:02.466Z"
+  "lastFetchedAt": "2017-05-04T05:20:02.466Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:02.182Z"
 }

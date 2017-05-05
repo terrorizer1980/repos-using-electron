@@ -59,10 +59,14 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/rblades/Sentpletion-App",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rblades/Sentpletion-App.git"
+    },
     "keywords": [
       "pyschology"
     ],
+    "author": "Rob Blades",
     "license": "MIT",
     "homepage": "https://github.com/rblades/Sentpletion-App",
     "devDependencies": {
@@ -119,5 +123,6 @@
   "svnUrl": "https://github.com/rblades/Sentpletion-App",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:23:55.987Z"
+  "lastFetchedAt": "2017-05-04T21:23:55.987Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:56.024Z"
 }

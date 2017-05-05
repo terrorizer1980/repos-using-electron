@@ -75,8 +75,15 @@
       "start": "electron main.js",
       "pack": "electron-packager . FocaMediaCenter --platform=win32,darwin,linux --arch=x64 --out=dist --overwrite"
     },
-    "repository": "https://github.com/Alvaroctal/FocaMediaServer",
+    "repository": {
+      "type": "git",
+      "url": "git+http://github.com/Alvaroctal/FocaMediaServer.git"
+    },
+    "author": "Alvaro Octal",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "http://github.com/Alvaroctal/FocaMediaServer/issues"
+    },
     "homepage": "https://octal.es/foca/",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -121,5 +128,6 @@
   },
   "filename": "Alvaroctal___FocaMediaServer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:14:57.883Z"
+  "lastFetchedAt": "2017-05-04T18:14:57.883Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:14.647Z"
 }

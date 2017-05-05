@@ -64,11 +64,18 @@
       "build": "node_modules/.bin/babel src --out-dir dist",
       "clean": "rm -rf dist"
     },
-    "repository": "https://github.com/BinaryMuse/etch-hooks",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BinaryMuse/etch-hooks.git"
+    },
     "keywords": [
       "virtual-dom dom view element custom-elements dom-diff atom electron hooks etch"
     ],
+    "author": "Michelle Tilley <michelle@michelletilley.net>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/BinaryMuse/etch-hooks/issues"
+    },
     "homepage": "https://github.com/BinaryMuse/etch-hooks",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -137,5 +144,6 @@
   "svnUrl": "https://github.com/BinaryMuse/etch-hooks",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:16:19.952Z"
+  "lastFetchedAt": "2017-05-04T15:16:19.952Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:10.513Z"
 }

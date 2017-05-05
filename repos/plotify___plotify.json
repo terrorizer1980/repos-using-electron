@@ -87,5 +87,86 @@
   "networkCount": 0,
   "subscribersCount": 3,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:22:50.767Z"
+  "lastFetchedAt": "2017-05-04T21:22:50.767Z",
+  "packageJSON": {
+    "name": "plotify",
+    "version": "0.2.0-SNAPSHOT",
+    "description": "Plotify ist eine Software für Schriftsteller/innen, die dir dabei hilft, die Charaktere deiner Geschichte zu planen und zu organisieren. Behalte stets den Überblick und erschaffe eine fantastische Geschichte!",
+    "homepage": "https://github.com/SebastianSchmidt/plotify",
+    "productName": "Plotify",
+    "productDescription": "Plotify ist eine Software für Schriftsteller/innen, die dir dabei hilft, die Charaktere deiner Geschichte zu planen und zu organisieren. Behalte stets den Überblick und erschaffe eine fantastische Geschichte!",
+    "main": "main.js",
+    "scripts": {
+      "rebuild": "electron-rebuild -f -w sqlite3",
+      "start": "gulp",
+      "test": "gulp test",
+      "distribution:linux": "gulp distribution:linux",
+      "distribution:windows": "gulp distribution:windows",
+      "distribution:macos": "gulp distribution:macos"
+    },
+    "private": true,
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:plotify/plotify.git"
+    },
+    "author": "Sebastian Schmidt <email@sebastian-schmidt.info>",
+    "contributors": [
+      {
+        "name": "Sebastian Schmidt",
+        "email": "email@sebastian-schmidt.info"
+      },
+      {
+        "name": "Jasper Meyer",
+        "email": "jasper.meyer@gmx.net"
+      }
+    ],
+    "license": "GPL-3.0",
+    "dependencies": {
+      "electron": "1.6.6",
+      "electron-is-dev": "0.1.2",
+      "electron-rebuild": "1.5.7",
+      "electron-squirrel-startup": "1.0.0",
+      "firstline": "1.2.1",
+      "fs-promise": "2.0.2",
+      "material-ui": "0.18.0",
+      "mz": "2.6.0",
+      "react": "15.5.4",
+      "react-dom": "15.5.4",
+      "react-redux": "5.0.4",
+      "react-tap-event-plugin": "2.0.1",
+      "redux": "3.6.0",
+      "redux-logger": "3.0.1",
+      "redux-thunk": "2.2.0",
+      "redux-title": "0.0.3",
+      "sqlite3": "3.1.8"
+    },
+    "devDependencies": {
+      "babel-plugin-transform-builtin-extend": "1.1.2",
+      "babel-plugin-transform-react-jsx": "6.24.1",
+      "babel-preset-latest": "6.24.1",
+      "chai": "3.5.0",
+      "chai-as-promised": "6.0.0",
+      "check-dependencies": "1.0.1",
+      "electron-packager": "8.6.0",
+      "electron-winstaller": "2.5.2",
+      "gulp": "3.9.1",
+      "gulp-babel": "6.1.2",
+      "gulp-clean": "0.3.2",
+      "gulp-mocha": "4.3.1",
+      "gulp-run-electron": "3.0.1",
+      "gulp-shell": "0.6.3",
+      "gulp-watch": "4.3.11",
+      "license-checker": "9.0.3",
+      "mocha": "3.3.0",
+      "run-sequence": "1.2.2",
+      "sinon": "2.1.0",
+      "sinon-chai": "2.10.0",
+      "tmp": "0.0.31"
+    },
+    "optionalDependencies": {
+      "electron-installer-debian": "0.5.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:42:32.284Z"
 }

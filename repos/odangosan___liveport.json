@@ -76,6 +76,7 @@
       "start": "webpack-dashboard -- webpack-dev-server -d --hot --inline",
       "build": "electron-packager . live_gen --platform=win32 --arch=x64 --version=1.4.6 --out ./release"
     },
+    "author": "https://github.com/odangosan",
     "license": "ISC",
     "devDependencies": {
       "@types/electron": "^1.4.25",
@@ -168,5 +169,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:12:52.509Z"
+  "lastFetchedAt": "2017-05-04T15:12:52.509Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:25.422Z"
 }

@@ -74,17 +74,8 @@
       "test": ""
     },
     "repository": {
-      "user": "dfrankland",
-      "repo": "hyper-transparent-bg",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/dfrankland/hyper-transparent-bg/tarball/master",
-      "clone_url": "https://github.com/dfrankland/hyper-transparent-bg",
-      "https_url": "https://github.com/dfrankland/hyper-transparent-bg",
-      "travis_url": "https://travis-ci.org/dfrankland/hyper-transparent-bg",
-      "zip_url": "https://github.com/dfrankland/hyper-transparent-bg/archive/master.zip",
-      "api_url": "https://api.github.com/repos/dfrankland/hyper-transparent-bg"
+      "type": "git",
+      "url": "git+https://github.com/dfrankland/hyper-transparent-bg.git"
     },
     "keywords": [
       "hyper",
@@ -94,7 +85,11 @@
       "transparent",
       "cool"
     ],
+    "author": "Dylan Frankland <dylan@frankland.io>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dfrankland/hyper-transparent-bg/issues"
+    },
     "homepage": "https://github.com/dfrankland/hyper-transparent-bg#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -127,5 +122,6 @@
   "filename": "dfrankland___hyper-transparent-bg.json",
   "sourceRepo": "dfrankland/hyperterm-transparent-bg",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:46:21.518Z"
+  "lastFetchedAt": "2017-05-04T19:46:21.518Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:51.256Z"
 }

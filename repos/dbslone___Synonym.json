@@ -92,8 +92,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/dbslone/synonym",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dbslone/synonym.git"
+    },
+    "author": {
+      "name": "David Slone",
+      "email": "dbslone@gmail.com",
+      "url": "https://github.com/dbslone/synonym"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dbslone/synonym/issues"
+    },
     "keywords": [
       "synonym",
       "database",
@@ -202,5 +213,6 @@
   },
   "filename": "dbslone___Synonym.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:36:27.355Z"
+  "lastFetchedAt": "2017-05-04T20:36:27.355Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:47.906Z"
 }

@@ -73,7 +73,11 @@
     "scripts": {
       "start": "gulp && electron dist/main.js"
     },
-    "repository": "https://github.com/naruaway/pdftopicker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/naruaway/pdftopicker.git"
+    },
+    "author": "Narutaka Awaya <naru@pixmag.net>",
     "license": "CC0-1.0",
     "devDependencies": {
       "@cycle/core": "^6.0.0",
@@ -119,5 +123,6 @@
   },
   "filename": "naruaway___PDFTopicker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:10.796Z"
+  "lastFetchedAt": "2017-05-04T20:25:10.796Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:23.335Z"
 }

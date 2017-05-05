@@ -73,11 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/abuchanan/mapbox-frame-rendering",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/abuchanan/mapbox-frame-rendering"
+    },
     "keywords": [
       "Electron",
       "Mapbox GL"
     ],
+    "author": "Alex Buchanan <buchanae@gmail.com>",
     "license": "MIT",
     "homepage": "https://github.com/abuchanan/mapbox-frame-rendering",
     "devDependencies": {
@@ -110,5 +114,6 @@
   },
   "filename": "buchanae___mapbox-frame-rendering.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:14.062Z"
+  "lastFetchedAt": "2017-05-04T20:07:14.062Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:58.606Z"
 }

@@ -56,8 +56,14 @@
     "version": "0.0.1",
     "description": "Interactive Javascript console for web pages",
     "private": true,
-    "repository": "https://github.com/orbitbot/mth-console",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/orbitbot/mth-console.git"
+    },
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/orbitbot/mth-console/issues"
+    },
     "homepage": "https://github.com/orbitbot/mth-console",
     "devDependencies": {
       "babel-eslint": "^4.1.3",
@@ -137,5 +143,6 @@
   },
   "filename": "orbitbot___mth-console.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:51.417Z"
+  "lastFetchedAt": "2017-05-04T21:14:51.417Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:54.368Z"
 }

@@ -53,10 +53,15 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-load-devtool",
-    "version": "0.4.0",
+    "version": "0.5.1",
     "description": "Easily load dev-tool for electron",
     "license": "MIT",
     "repository": "akameco/electron-load-devtool",
+    "author": {
+      "name": "akameco",
+      "email": "akameco.t@gmail.com",
+      "url": "akameco.github.io"
+    },
     "scripts": {
       "start": "electron fixture.js",
       "test": "xo"
@@ -73,8 +78,8 @@
       "electron-is-dev": "^0.1.2"
     },
     "devDependencies": {
-      "electron": "^1.4.5",
-      "xo": "^0.17.0"
+      "electron": "^1.4.15",
+      "xo": "^0.17.1"
     },
     "xo": {
       "esnext": true,
@@ -129,5 +134,6 @@
   "svnUrl": "https://github.com/akameco/electron-load-devtool",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:24:29.941Z"
+  "lastFetchedAt": "2017-05-04T05:24:29.941Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:04.973Z"
 }

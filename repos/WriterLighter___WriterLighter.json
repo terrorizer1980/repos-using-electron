@@ -88,55 +88,61 @@
       "start": "gulp run",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/WriterLighter/WriterLighter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/WriterLighter/WriterLighter.git"
+    },
     "keywords": [
       "小説",
       "テキストエディタ"
     ],
+    "author": "ygkn",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/WriterLighter/WriterLighter/issues"
+    },
     "homepage": "https://github.com/WriterLighter/WriterLighter#readme",
     "devDependencies": {
-      "bower": "^1.8.0",
       "del": "^2.2.2",
-      "electron": "^1.4.6",
-      "electron-connect": "^0.6.0",
-      "electron-packager": "^8.2.0",
+      "electron": "^1.6.2",
+      "electron-connect": "^0.6.1",
+      "electron-packager": "^8.6.0",
       "extend": "^3.0.0",
       "gulp": "^3.9.1",
-      "gulp-coffee": "^2.3.2",
-      "gulp-concat": "^2.6.0",
+      "gulp-concat": "^2.6.1",
       "gulp-cssnano": "^2.1.2",
-      "gulp-filter": "^4.0.0",
+      "gulp-filter": "^5.0.0",
       "gulp-gzip": "^1.4.0",
       "gulp-if": "^2.0.2",
       "gulp-install": "^0.6.0",
-      "gulp-less": "^3.2.0",
-      "gulp-load-plugins": "^1.4.0",
+      "gulp-less": "^3.3.0",
+      "gulp-load-plugins": "^1.5.0",
       "gulp-plist": "^0.1.0",
       "gulp-plumber": "^1.1.0",
       "gulp-rename": "^1.2.2",
-      "gulp-sass": "^2.3.2",
-      "gulp-sourcemaps": "^2.2.0",
+      "gulp-sass": "^3.1.0",
+      "gulp-sourcemaps": "^2.4.1",
       "gulp-tar": "^1.9.0",
-      "gulp-uglify": "^2.0.0",
+      "gulp-uglify": "^2.1.0",
       "gulp-useref": "^3.1.2",
-      "gulp-util": "^3.0.7",
-      "gulp-watch": "^4.3.10",
-      "gulp-zip": "^3.2.0",
-      "main-bower-files": "^2.13.1",
+      "gulp-util": "^3.0.8",
+      "gulp-watch": "^4.3.11",
+      "gulp-zip": "^4.0.0",
       "mkdirp": "^0.5.1",
       "run-sequence": "^1.2.2"
     },
     "dependencies": {
-      "accord": "^0.26.3",
-      "cheerio-httpcli": "^0.6.9",
-      "coffee-script": "^1.11.1",
-      "eventemitter2": "^2.1.3",
-      "fs-extra": "^1.0.0",
+      "accord": "^0.26.4",
+      "cheerio-httpcli": "^0.6.11",
+      "coffee-script": "^1.12.4",
+      "eventemitter2": "^3.0.2",
+      "fs-extra": "^2.1.2",
       "glob": "^7.1.1",
-      "js-yaml": "^3.6.1",
+      "html5sortable": "^0.4.4",
+      "jquery": "^3.2.0",
+      "js-yaml": "^3.8.2",
       "mkdirp": "^0.5.1",
-      "sass.js": "^0.9.13"
+      "sass.js": "^0.10.3"
     }
   },
   "packageStatus": 200,
@@ -164,5 +170,6 @@
   },
   "filename": "WriterLighter___WriterLighter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:45.560Z"
+  "lastFetchedAt": "2017-05-04T17:55:45.560Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:44.994Z"
 }

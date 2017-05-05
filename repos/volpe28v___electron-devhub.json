@@ -48,7 +48,8 @@
   "packageJSON": {
     "private": true,
     "scripts": {
-      "start": "electron src"
+      "start": "electron src",
+      "pack": "electron-packager src devhub --out=dist --overwrite --platform=darwin,win32 --arch=x64 --electron-version=1.2.8; zip -r dist/devhub-win32-x64.zip dist/devhub-win32-x64"
     },
     "devDependencies": {
       "electron-prebuilt": "1.2.8"
@@ -99,5 +100,6 @@
   "svnUrl": "https://github.com/volpe28v/electron-devhub",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:07:56.190Z"
+  "lastFetchedAt": "2017-05-04T20:07:56.190Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:19.110Z"
 }

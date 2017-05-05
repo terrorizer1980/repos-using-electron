@@ -56,12 +56,16 @@
     "scripts": {
       "start": "electron app/main.js"
     },
-    "repository": "https://github.com/glamp/hoot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/glamp/hoot.git"
+    },
     "keywords": [
       "Electron",
       "sms",
       "papa"
     ],
+    "author": "Greg Lamp <lamp.greg@gmail.com",
     "license": "MIT",
     "devDependencies": {
       "async": "^1.5.1",
@@ -125,5 +129,6 @@
   "svnUrl": "https://github.com/glamp/Hoot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:58:53.910Z"
+  "lastFetchedAt": "2017-05-04T20:58:53.910Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:49.193Z"
 }

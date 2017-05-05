@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.0.3",
@@ -118,5 +125,6 @@
   },
   "filename": "Yu-Che-Gao___micro_electron_server.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:28:50.041Z"
+  "lastFetchedAt": "2017-05-04T19:28:50.041Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:47.671Z"
 }

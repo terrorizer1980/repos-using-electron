@@ -203,7 +203,10 @@
     "config": {
       "electron-version": "1.2.8"
     },
-    "repository": "https://github.com/BoostIO/Boostnote",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BoostIO/Boostnote.git"
+    },
     "keywords": [
       "boostnote",
       "b00st",
@@ -213,6 +216,7 @@
       "storage",
       "electron"
     ],
+    "author": "Dick Choi <fluke8259@gmail.com> (https://github.com/Rokt33r)",
     "contributors": [
       "Kazu Yokomizo (https://github.com/kazup01)",
       "dojineko (https://github.com/dojineko)",
@@ -221,6 +225,9 @@
       "Fabian Mueller (https://github.com/dotcs)",
       "Yoshihisa Mochihara (https://github.com/yosmoc)"
     ],
+    "bugs": {
+      "url": "https://github.com/BoostIO/Boostnote/issues"
+    },
     "homepage": "https://b00st.io",
     "dependencies": {
       "@rokt33r/markdown-it-math": "^4.0.1",
@@ -325,5 +332,6 @@
   },
   "sourceRepo": "BoostIO/Boostnote",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:01.942Z"
+  "lastFetchedAt": "2017-05-04T17:51:01.942Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:33.766Z"
 }

@@ -73,14 +73,25 @@
     "scripts": {
       "test": "standard"
     },
-    "repository": "https://github.com/jakefb/fastcast-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jakefb/fastcast-app.git"
+    },
     "keywords": [
       "electron",
       "app",
       "stream",
       "video"
     ],
+    "author": {
+      "name": "Jacob Fulton Buckle",
+      "email": "jacobafb@gmail.com",
+      "url": "https://github.com/jakefb"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jakefb/fastcast-app/issues"
+    },
     "homepage": "https://fastcast.nz",
     "dependencies": {
       "airplay-js": "^0.2.15",
@@ -146,5 +157,6 @@
   },
   "filename": "fastcast___fastcast-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:53:58.569Z"
+  "lastFetchedAt": "2017-05-04T20:53:58.569Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:13.987Z"
 }

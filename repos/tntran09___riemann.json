@@ -58,8 +58,15 @@
     "keywords": [
       "riemann"
     ],
+    "author": {
+      "name": "Toan Tran",
+      "email": "ttkbnt@hotmail.com"
+    },
     "license": "ISC",
-    "repository": "https://github.com/tntran09/riemann",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tntran09/riemann.git"
+    },
     "dependencies": {
       "babel-preset-react": "^6.3.13",
       "babelify": "^7.2.0",
@@ -120,5 +127,6 @@
   "svnUrl": "https://github.com/tntran09/riemann",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:46:09.777Z"
+  "lastFetchedAt": "2017-05-04T20:46:09.777Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:51.114Z"
 }

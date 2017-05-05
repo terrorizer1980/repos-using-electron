@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for documentor goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -162,5 +167,6 @@
   },
   "filename": "kushdilip___documentor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:37.990Z"
+  "lastFetchedAt": "2017-05-03T20:06:37.990Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:54.339Z"
 }

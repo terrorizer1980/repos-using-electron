@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/maangulo12/timekeeping-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maangulo12/timekeeping-app.git"
+    },
+    "author": "Miguel A. Angulo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/maangulo12/timekeeping-app/issues"
+    },
     "homepage": "https:///github.com/maangulo12/timekeeping-app#readme",
     "devDependencies": {
       "bower": "^1.7.7",
@@ -115,5 +122,6 @@
   },
   "filename": "maangulo12___timekeeping-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:24.886Z"
+  "lastFetchedAt": "2017-05-04T17:34:24.886Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:33.337Z"
 }

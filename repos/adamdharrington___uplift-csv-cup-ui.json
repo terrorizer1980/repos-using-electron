@@ -48,6 +48,7 @@
   "packageJSON": {
     "name": "uplift-csv-cup-ui",
     "version": "1.0.5",
+    "author": "Adam Harrington <adam.d.harrington@gmail.com> (http://adamharrington.eu)",
     "description": "A GUI CSV processor for transforming payment logs from PayPal or Stripe (or others if extended) into Engaging Networks transaction imports.",
     "keywords": [
       "Engaging Networks",
@@ -63,7 +64,10 @@
       "package-all": "node ./node_modules/electron-packager/cli.js ./ UpliftCUP --all --out ./dist --version 1.2.5 --overwrite --icon=./img/UpliftCSVCUPIcon.png.ico",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/adamdharrington/uplift-csv-cup-ui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/adamdharrington/uplift-csv-cup-ui.git"
+    },
     "dependencies": {
       "jquery": "^2.0.0",
       "uplift-csv-cup": "^1.0.5"
@@ -118,5 +122,6 @@
   },
   "filename": "adamdharrington___uplift-csv-cup-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:11:41.337Z"
+  "lastFetchedAt": "2017-05-04T18:11:41.337Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:33.668Z"
 }

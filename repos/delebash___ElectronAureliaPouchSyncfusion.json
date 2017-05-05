@@ -83,6 +83,7 @@
       "build": "gulp build",
       "watch": "gulp watch"
     },
+    "author": "Daniel Elebash",
     "homepage": "http://ageektech.com",
     "license": "MIT",
     "keywords": [
@@ -92,7 +93,10 @@
       "pouchdb",
       "leveldown"
     ],
-    "repository": "https://github.com/delebash/ElectronAureliaPouchSyncfusion",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/delebash/ElectronAureliaPouchSyncfusion.git"
+    },
     "devDependencies": {
       "aurelia-bundler": "^0.4.0",
       "aurelia-tools": "^0.2.4",
@@ -165,5 +169,6 @@
   },
   "filename": "delebash___ElectronAureliaPouchSyncfusion.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:24:46.432Z"
+  "lastFetchedAt": "2017-05-04T05:24:46.432Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:49.545Z"
 }

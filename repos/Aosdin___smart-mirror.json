@@ -76,14 +76,21 @@
       "microphone-debug": "electron scripts/microphone-debug/main.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "install": "^0.6.1",
@@ -124,5 +131,6 @@
   },
   "filename": "Aosdin___smart-mirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:55.058Z"
+  "lastFetchedAt": "2017-05-04T20:13:55.058Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:45.276Z"
 }

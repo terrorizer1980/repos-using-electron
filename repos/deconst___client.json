@@ -68,22 +68,15 @@
   "packageJSON": {
     "name": "Deconst-Client",
     "version": "0.0.1",
+    "author": "Ash Wilson <ash.wilson@rackspace.com>",
     "description": "Local previews of Deconst-hosted content",
     "homepage": "http://deconst.horse/",
     "main": "browser.js",
     "repository": {
-      "user": "deconst",
-      "repo": "client",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/deconst/client/tarball/master",
-      "clone_url": "https://github.com/deconst/client",
-      "https_url": "https://github.com/deconst/client",
-      "travis_url": "https://travis-ci.org/deconst/client",
-      "zip_url": "https://github.com/deconst/client/archive/master.zip",
-      "api_url": "https://api.github.com/repos/deconst/client"
+      "type": "git",
+      "url": "git@github.com:deconst/client.git"
     },
+    "bugs": "https://github.com/deconst/deconst-docs/issues",
     "scripts": {
       "start": "grunt",
       "test": "jest -c jest-unit.json",
@@ -218,5 +211,6 @@
   "svnUrl": "https://github.com/deconst/client",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:29:31.713Z"
+  "lastFetchedAt": "2017-05-04T19:29:31.713Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:19.660Z"
 }

@@ -77,24 +77,19 @@
       "dist": "build"
     },
     "repository": {
-      "user": "jonatasfreitasv",
-      "repo": "duolingo_desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jonatasfreitasv/duolingo_desktop/tarball/master",
-      "clone_url": "https://github.com/jonatasfreitasv/duolingo_desktop",
-      "https_url": "https://github.com/jonatasfreitasv/duolingo_desktop",
-      "travis_url": "https://travis-ci.org/jonatasfreitasv/duolingo_desktop",
-      "zip_url": "https://github.com/jonatasfreitasv/duolingo_desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jonatasfreitasv/duolingo_desktop"
+      "type": "git",
+      "url": "git+https://github.com/jonatasfreitasv/duolingo_desktop.git"
     },
     "keywords": [
       "mindmeister",
       "desktop",
       "mindmap"
     ],
+    "author": "Jonatas Freitas",
     "license": "",
+    "bugs": {
+      "url": "https://github.com/jonatasfreitasv/duolingo_desktop/issues"
+    },
     "build": {
       "appId": "duolingo_desktop.id",
       "category": "duolingo.desktop.english.learning",
@@ -135,5 +130,6 @@
   "filename": "jonatasfreitasv___duolingo_desktop.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:17:22.977Z"
+  "lastFetchedAt": "2017-05-04T05:17:22.977Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:11.732Z"
 }

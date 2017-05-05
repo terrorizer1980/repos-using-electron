@@ -52,6 +52,11 @@
     "description": "RESTfull services docs generator",
     "license": "MIT",
     "repository": "Linko91/api-docs-gen",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "github.com/Linko91"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -133,5 +138,6 @@
   "svnUrl": "https://github.com/Linko91/api-docs-gen",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:45:38.735Z"
+  "lastFetchedAt": "2017-05-04T20:45:38.735Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:40.857Z"
 }

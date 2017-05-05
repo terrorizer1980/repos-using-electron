@@ -74,7 +74,11 @@
       "start": "electron .",
       "start:app": "webpack-dev-server --devtool eval --progress --color --inline --port 7000"
     },
-    "repository": "https://github.com/rnons/crossed",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rnons/crossed.git"
+    },
+    "author": "rnons",
     "dependencies": {
       "@angular/common": "2.0.1",
       "@angular/compiler": "2.0.1",
@@ -125,5 +129,6 @@
   },
   "filename": "rnons___crossed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:05.665Z"
+  "lastFetchedAt": "2017-05-04T20:58:05.665Z",
+  "packageLastFetchedAt": "2017-05-05T09:36:12.495Z"
 }

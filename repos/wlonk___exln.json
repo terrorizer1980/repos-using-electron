@@ -75,8 +75,12 @@
     "name": "exln",
     "version": "0.1.0",
     "description": "Ex Libris: manage your books",
+    "author": "Kit La Touche <kit@transneptune.net>",
     "license": "MIT",
-    "repository": "https://github.com/wlonk/exln",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wlonk/exln"
+    },
     "scripts": {
       "start": "gulp start",
       "packager": "gulp package"
@@ -144,5 +148,6 @@
   },
   "filename": "wlonk___exln.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:44.296Z"
+  "lastFetchedAt": "2017-05-04T17:47:44.296Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:27.627Z"
 }

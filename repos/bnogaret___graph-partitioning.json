@@ -70,7 +70,10 @@
     "version": "0.0.1",
     "description": "Graph partitioning project",
     "license": "MIT",
-    "repository": "https://github.com/bnogaret/graph-partitioning",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/bnogaret/graph-partitioning.git"
+    },
     "main": "src/main.js",
     "scripts": {
       "lint": "eslint ./",
@@ -111,5 +114,6 @@
   },
   "filename": "bnogaret___graph-partitioning.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:42.259Z"
+  "lastFetchedAt": "2017-05-04T14:26:42.259Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:50.394Z"
 }

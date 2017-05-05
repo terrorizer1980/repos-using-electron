@@ -77,9 +77,13 @@
     "description": "Cross-platform Solidity IDE for Ethereum",
     "main": "main.js",
     "scripts": {
-      "start": "gulp"
+      "start": "gulp",
+      "electron": "electron ."
     },
-    "repository": "https://github.com/hiddentao/ethanol",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hiddentao/ethanol.git"
+    },
     "keywords": [
       "ethereum",
       "solidity",
@@ -88,7 +92,11 @@
       "geth",
       "blockchain"
     ],
+    "author": "Ramesh Nair <ram@hiddentao.com>",
     "license": "AGPL-3.0",
+    "bugs": {
+      "url": "https://github.com/hiddentao/ethanol/issues"
+    },
     "homepage": "https://github.com/hiddentao/ethanol#readme",
     "devDependencies": {
       "aphrodisiac": "^0.3.0",
@@ -134,11 +142,12 @@
     },
     "dependencies": {
       "bluebird": "^3.4.6",
-      "ethereum-client-binaries": "^1.2.0",
+      "ethereum-client-binaries": "latest",
       "eventemitter3": "^2.0.0",
       "geth-private": "^1.7.0",
       "lodash": "^4.15.0",
       "log4js": "^0.6.38",
+      "web3": "latest",
       "yargs": "^5.0.0"
     },
     "browserify": {
@@ -172,5 +181,6 @@
   },
   "filename": "hiddentao___ethanol.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:06.516Z"
+  "lastFetchedAt": "2017-05-04T20:44:06.516Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:08.620Z"
 }

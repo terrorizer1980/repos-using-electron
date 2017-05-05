@@ -73,7 +73,11 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/anth1y/confusb",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/anth1y/confusb"
+    },
+    "author": "",
     "license": "ISC",
     "dependencies": {
       "electron": "^0.4.1",
@@ -114,5 +118,6 @@
   },
   "filename": "anth1y___confusb.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:27.873Z"
+  "lastFetchedAt": "2017-05-04T05:08:27.873Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:23.417Z"
 }

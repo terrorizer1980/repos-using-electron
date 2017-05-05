@@ -81,8 +81,15 @@
       "prestart": "gulp build",
       "start": "node_modules/.bin/electron ./build"
     },
-    "repository": "https://github.com/robert396/elec-ang-tsc-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/robert396/elec-ang-tsc-boilerplate.git"
+    },
+    "author": "Robert Cloutman",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/robert396/elec-ang-tsc-boilerplate/issues"
+    },
     "homepage": "https://github.com/robert396/elec-ang-tsc-boilerplate#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7",
@@ -119,5 +126,6 @@
   },
   "filename": "robert396___elec-ang-tsc-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:58.866Z"
+  "lastFetchedAt": "2017-05-04T17:34:58.866Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:41.337Z"
 }

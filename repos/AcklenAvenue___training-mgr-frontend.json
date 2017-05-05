@@ -76,7 +76,10 @@
     ],
     "license": "MIT",
     "homepage": "https://github.com/AcklenAvenue/Unicron",
-    "repository": "https://github.com/AcklenAvenue/Unicron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AcklenAvenue/Unicron.git"
+    },
     "scripts": {
       "init": "npm install",
       "install": "tsd reinstall --save --overwrite && bower install"
@@ -206,5 +209,6 @@
   "svnUrl": "https://github.com/AcklenAvenue/training-mgr-frontend",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:17:01.472Z"
+  "lastFetchedAt": "2017-05-04T05:17:01.472Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:11.731Z"
 }

@@ -93,8 +93,15 @@
       "win-bundle": "electron-packager . Playback --platform=win32 --arch=ia32 --version=0.35.4 --icon=icon.ico",
       "linux-64-bundle": "electron-packager . Playback --platform=linux --arch=x64 --version=0.35.4 ignore='node_modules/(electron-packager|electron-prebuilt)'"
     },
-    "repository": "https://github.com/mafintosh/playback",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mafintosh/playback.git"
+    },
+    "author": "Mathias Buus (@mafintosh)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mafintosh/playback/issues"
+    },
     "homepage": "https://github.com/mafintosh/playback"
   },
   "packageStatus": 200,
@@ -142,5 +149,6 @@
   "svnUrl": "https://github.com/mafintosh/playback",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:12:36.511Z"
+  "lastFetchedAt": "2017-05-04T18:12:36.511Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:21.589Z"
 }

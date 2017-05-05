@@ -71,7 +71,9 @@
     "main": "main.js",
     "scripts": {
       "start": "electron .",
-      "build": "electron-packager . --platform=darwin"
+      "build-osx": "electron-packager ./ EpicScreen --overwrite --platform=darwin --arch=x64",
+      "build-linux": "electron-packager ./ EpicScreen --overwrite --platform=linux --arch=x64",
+      "build-linux-arm": "electron-packager ./ EpicScreen --overwrite --platform=linux --arch=armv7l"
     },
     "devDependencies": {
       "electron": "^1.4.1",
@@ -81,7 +83,8 @@
       "electron-config": "^0.2.1",
       "file-type": "^3.8.0",
       "jquery": "^3.1.1",
-      "read-chunk": "^2.0.0"
+      "read-chunk": "^2.0.0",
+      "electron-packager": "^8.5.2"
     }
   },
   "packageStatus": 200,
@@ -109,5 +112,6 @@
   },
   "filename": "HalfdanJ___electron-slideshow.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:03.463Z"
+  "lastFetchedAt": "2017-05-04T21:21:03.463Z",
+  "packageLastFetchedAt": "2017-05-05T17:39:37.625Z"
 }

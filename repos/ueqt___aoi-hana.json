@@ -73,15 +73,22 @@
       "build:win32": "npm run prebuild && ./scripts/build.sh win32 ia32",
       "build:win64": "npm run prebuild && ./scripts/build.sh win32 x64"
     },
-    "repository": "https://github.com/ueqt/aoi-hana",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ueqt/aoi-hana.git"
+    },
     "keywords": [
       "Electron",
       "aoi",
       "hana",
       "history"
     ],
+    "author": "ueqt",
     "mail": "ueqtxu@gmail.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ueqt/aoi-hana/issues"
+    },
     "homepage": "https://github.com/ueqt/aoi-hana#readme",
     "dependencies": {
       "electron-debug": "latest",
@@ -142,5 +149,6 @@
   "svnUrl": "https://github.com/ueqt/aoi-hana",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:38:28.756Z"
+  "lastFetchedAt": "2017-05-04T19:38:28.756Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:11.009Z"
 }

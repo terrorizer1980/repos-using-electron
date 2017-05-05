@@ -80,9 +80,9 @@
   "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
-    "name": "ractive-webservice-test",
-    "version": "1.0.0",
-    "description": "",
+    "name": "scada",
+    "version": "0.4.0",
+    "description": "![ScadaJS](https://github.com/aktos-io/scada.js/blob/master/src/client/assets/scadajs.png)",
     "main": "jquery-1.12.0.min.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -92,8 +92,8 @@
       "type": "git",
       "url": "git+https://github.com/ceremcem/livescript-ractive-example-project.git"
     },
-    "author": "",
-    "license": "ISC",
+    "author": "Cerem Cem ASLAN",
+    "license": "MIT",
     "bugs": {
       "url": "https://github.com/ceremcem/livescript-ractive-example-project/issues"
     },
@@ -101,28 +101,34 @@
     "dependencies": {
       "bases": "^0.2.1",
       "body-parser": "^1.15.2",
-      "cheerio": "^0.20.0",
+      "bootstrap": "^3.3.7",
+      "cradle": "git://github.com/ceremcem/cradle.git#patch-1",
       "crypto": "0.0.3",
       "csv-parse": "^1.1.7",
+      "electron": "^1.4.11",
       "emailjs": "^1.0.5",
+      "engine.io": "^1.8.2",
       "express": "^4.14.0",
       "express-http-proxy": "^0.8.0",
       "hashids": "^1.1.1",
       "http-proxy": "^1.14.0",
-      "jquery": "^3.0.0",
       "jstransformer-marked": "^1.0.1",
       "livescript": "~1.4.0",
-      "pouchdb": "^5.4.5",
-      "pouchdb-authentication": "^0.5.3",
+      "mkdirp": "^0.5.1",
+      "nano": "git+https://github.com/aktos-io/nano.git",
       "prelude-ls": "^1.1.2",
+      "ractive": "^0.8.7",
       "randomstring": "^1.1.5",
       "serialport": "^4.0.1",
-      "soap": "^0.16.0"
+      "serve-index": "^1.8.0",
+      "soap": "^0.16.0",
+      "superagent": "^3.1.0",
+      "xml2js": "^0.4.17"
     },
     "devDependencies": {
-      "browserify": "^13.0.1",
-      "browserify-livescript": "^0.2.3",
-      "electron-prebuilt": "^1.2.8",
+      "browserify": "^13.1.1",
+      "browserify-livescript": "git+https://github.com/ceremcem/browserify-livescript.git",
+      "cheerio": "^0.20.0",
       "glob": "^7.0.5",
       "globby": "^5.0.0",
       "gulp": "^3.9.1",
@@ -130,17 +136,36 @@
       "gulp-clean": "^0.3.2",
       "gulp-concat": "^2.6.0",
       "gulp-flatten": "^0.3.0",
-      "gulp-jade": "^1.1.0",
-      "gulp-sourcemaps": "^1.6.0",
+      "gulp-if-else": "^1.0.3",
+      "gulp-pug": "^3.2.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-sourcemaps": "^1.9.1",
       "gulp-tap": "^0.1.3",
       "gulp-uglify": "^1.5.4",
       "gulp-watch": "^4.3.8",
       "node-notifier": "^4.6.1",
+      "optimize-js": "^1.0.2",
+      "pug": "^2.0.0-beta6",
+      "run-sequence": "^1.2.2",
+      "through2": "^2.0.3",
+      "touch": "^1.0.0",
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.7.0",
       "yargs": "^4.8.1"
-    }
+    },
+    "directories": {
+      "doc": "doc"
+    },
+    "keywords": [
+      "scada",
+      "ractive",
+      "realtime",
+      "MRP",
+      "ERP",
+      "distributed",
+      "control"
+    ]
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -167,5 +192,6 @@
   },
   "filename": "aktos-io___aktos-scada2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:33:39.937Z"
+  "lastFetchedAt": "2017-05-04T18:33:39.937Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:04.402Z"
 }

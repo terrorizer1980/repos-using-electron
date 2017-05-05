@@ -175,17 +175,8 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "OpenBazaar",
-      "repo": "OpenBazaar-Installer",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/OpenBazaar/OpenBazaar-Installer/tarball/master",
-      "clone_url": "https://github.com/OpenBazaar/OpenBazaar-Installer",
-      "https_url": "https://github.com/OpenBazaar/OpenBazaar-Installer",
-      "travis_url": "https://travis-ci.org/OpenBazaar/OpenBazaar-Installer",
-      "zip_url": "https://github.com/OpenBazaar/OpenBazaar-Installer/archive/master.zip",
-      "api_url": "https://api.github.com/repos/OpenBazaar/OpenBazaar-Installer"
+      "type": "git",
+      "url": "git+https://github.com/OpenBazaar/OpenBazaar-Installer.git"
     },
     "keywords": [
       "p2p",
@@ -193,7 +184,11 @@
       "ecommerce",
       "decentralized"
     ],
+    "author": "OpenBazaar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/OpenBazaar/OpenBazaar-Installer/issues"
+    },
     "homepage": "https://github.com/OpenBazaar/OpenBazaar-Installer#readme",
     "devDependencies": {
       "electron-installer-dmg": "^0.1.0",
@@ -259,5 +254,6 @@
   "svnUrl": "https://github.com/bankon/OpenBazaar-Installer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:38:28.763Z"
+  "lastFetchedAt": "2017-05-04T20:38:28.763Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:59.602Z"
 }

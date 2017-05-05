@@ -76,13 +76,19 @@
       "start": "electron main.js",
       "preinstall": "./build_gem_deps.sh"
     },
-    "repository": "https://github.com/RIDEeditor/ride",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RIDEeditor/ride"
+    },
     "keywords": [
       "Electron",
       "Ruby",
       "Rails",
       "Editor"
     ],
+    "bugs": {
+      "url": "https://github.com/RIDEeditor/ride/issues"
+    },
     "contributors": [
       {
         "name": "Anmol Desai",
@@ -165,5 +171,6 @@
   },
   "filename": "RIDEeditor___ride.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:54.767Z"
+  "lastFetchedAt": "2017-05-04T20:31:54.767Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:26.240Z"
 }

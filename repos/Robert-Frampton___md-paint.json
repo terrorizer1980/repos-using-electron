@@ -56,13 +56,20 @@
     "bin": {
       "md_paint": "./bin/paint.js"
     },
-    "repository": "https://github.com/Robert-Frampton/md-paint",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Robert-Frampton/md-paint"
+    },
     "keywords": [
       "md",
       "markdown",
       "preview"
     ],
+    "author": "Rob Frampton <rob.g.frampton@gmail.com> (https://github.com/Robert-Frampton)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Robert-Frampton/md-paint/issues"
+    },
     "homepage": "https://github.com/Robert-Frampton/md-paint",
     "dependencies": {
       "electron-prebuilt": "^1.0.1",
@@ -118,5 +125,6 @@
   "svnUrl": "https://github.com/Robert-Frampton/md-paint",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:40:15.738Z"
+  "lastFetchedAt": "2017-05-04T17:40:15.738Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:20.357Z"
 }

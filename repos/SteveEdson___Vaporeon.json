@@ -81,17 +81,8 @@
       "build": "browserify -t vueify -e lib/browser.js -o dist/app.js"
     },
     "repository": {
-      "user": "atom",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/atom/electron-quick-start",
-      "https_url": "https://github.com/atom/electron-quick-start",
-      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
-      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -99,7 +90,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -141,5 +136,6 @@
   "filename": "SteveEdson___Vaporeon.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:46.059Z"
+  "lastFetchedAt": "2017-05-04T14:53:46.059Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:16.997Z"
 }

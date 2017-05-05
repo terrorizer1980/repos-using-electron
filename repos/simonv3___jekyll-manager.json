@@ -59,13 +59,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/simonv3/jekyll-manager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simonv3/jekyll-manager.git"
+    },
     "keywords": [
       "Electron",
       "jekyll",
       "manager"
     ],
+    "author": "Simon Vansintjan",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/simonv3/jekyll-manager/issues"
+    },
     "homepage": "https://github.com/simonv3/jekyll-manager#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -125,5 +132,6 @@
   },
   "filename": "simonv3___jekyll-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:32.056Z"
+  "lastFetchedAt": "2017-05-04T21:18:32.056Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:28.781Z"
 }

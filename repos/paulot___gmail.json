@@ -65,13 +65,20 @@
       "build": "electron-packager . Gmail --platform=darwin --arch=x64 --version=0.35.1 --icon=lib/media/gmail.png",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/paulot/gmail",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/paulot/gmail.git"
+    },
     "keywords": [
       "gmail",
       "mail",
       "app"
     ],
+    "author": "Paulo Tanaka",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/paulot/gmail/issues"
+    },
     "homepage": "https://github.com/paulot/gmail#readme",
     "dependencies": {
       "bluebird": "^3.0.5",
@@ -129,5 +136,6 @@
   },
   "filename": "paulot___gmail.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:50.323Z"
+  "lastFetchedAt": "2017-05-04T21:00:50.323Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:07.275Z"
 }

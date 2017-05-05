@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js "
     },
-    "repository": "https://github.com/dwightee/Mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dwightee/Mirror.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Matt Dwight",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dwightee/Mirror/issues"
+    },
     "homepage": "https://github.com/dwightee/Mirror",
     "devDependencies": {
       "electron-prebuilt": "^0.36.5"
@@ -111,5 +118,6 @@
   },
   "filename": "dwightee___Mirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:41.756Z"
+  "lastFetchedAt": "2017-05-03T20:04:41.756Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:55.786Z"
 }

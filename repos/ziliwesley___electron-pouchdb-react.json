@@ -60,13 +60,20 @@
       "start": "gulp start",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ziliwesley/electron-pouchdb-react",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ziliwesley/electron-pouchdb-react.git"
+    },
     "keywords": [
       "electron",
       "pouchdb",
       "react"
     ],
+    "author": "Zili (ziliwesley@live.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ziliwesley/electron-pouchdb-react/issues"
+    },
     "homepage": "https://github.com/ziliwesley/electron-pouchdb-react#readme",
     "devDependencies": {
       "babel-core": "^5.8.24",
@@ -130,5 +137,6 @@
   },
   "filename": "ziliwesley___electron-pouchdb-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:30.391Z"
+  "lastFetchedAt": "2017-05-04T19:44:30.391Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:21.408Z"
 }

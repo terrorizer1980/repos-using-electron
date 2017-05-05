@@ -109,6 +109,7 @@
       "start": "npm run build && parallelshell 'npm run babel:watch' 'electron .'",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Cory Reed <swashcap@gmail.com>",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -136,5 +137,6 @@
   },
   "filename": "swashcap___little-logger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:39.198Z"
+  "lastFetchedAt": "2017-05-04T19:53:39.198Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:46.522Z"
 }

@@ -75,7 +75,10 @@
       "ci": "npm test"
     },
     "homepage": "http://github.com/mongodb-js/hadron-command-registry",
-    "repository": "https://github.com/mongodb-js/hadron-command-registry",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mongodb-js/hadron-command-registry.git"
+    },
     "dependencies": {
       "clear-cut": "^2.0.1",
       "event-kit": "^2.0.0",
@@ -134,5 +137,6 @@
   },
   "filename": "mongodb-js___hadron-command-registry.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:50.911Z"
+  "lastFetchedAt": "2017-05-04T17:51:50.911Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:31.832Z"
 }

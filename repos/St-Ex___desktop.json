@@ -177,6 +177,10 @@
     "version": "3.4.0",
     "description": "Mattermost Desktop application for Windows, Mac and Linux",
     "main": "main.js",
+    "author": {
+      "name": "Yuya Ochiai",
+      "email": "yuya0321@gmail.com"
+    },
     "license": "Apache-2.0",
     "engines": {
       "node": ">=4.2.0"
@@ -234,6 +238,11 @@
         "synopsis": "Mattermost Desktop",
         "target": "deb"
       }
+    },
+    "directories": {
+      "buildResources": "resources",
+      "app": "dist",
+      "output": "release"
     }
   },
   "packageStatus": 200,
@@ -282,5 +291,6 @@
   "svnUrl": "https://github.com/St-Ex/desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:34:54.247Z"
+  "lastFetchedAt": "2017-05-04T19:34:54.247Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:24.586Z"
 }

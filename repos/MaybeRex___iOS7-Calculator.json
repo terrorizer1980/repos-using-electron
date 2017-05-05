@@ -80,8 +80,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "cordova": "rm -rf cordova/www/app && cp -R app/ cordova/www/ && cd cordova/ && cordova run android"
     },
-    "repository": "https://github.com/MaybeRex/iOS7-Calculator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MaybeRex/iOS7-Calculator.git"
+    },
+    "author": "Mario Solorzano",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MaybeRex/iOS7-Calculator/issues"
+    },
     "homepage": "https://github.com/MaybeRex/iOS7-Calculator#readme",
     "dependencies": {
       "electron-packager": "^5.2.1",
@@ -113,5 +120,6 @@
   },
   "filename": "MaybeRex___iOS7-Calculator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:21.909Z"
+  "lastFetchedAt": "2017-05-04T20:19:21.909Z",
+  "packageLastFetchedAt": "2017-05-05T14:23:36.508Z"
 }

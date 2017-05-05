@@ -71,6 +71,11 @@
     "description": "local Node/Browser development with Chrome DevTools",
     "main": "index.js",
     "license": "MIT",
+    "author": {
+      "name": "Matt DesLauriers",
+      "email": "dave.des@gmail.com",
+      "url": "https://github.com/mattdesl"
+    },
     "dependencies": {
       "browserify": "^11.0.0",
       "concat-stream": "^1.4.8",
@@ -136,8 +141,14 @@
       "fast",
       "rapid"
     ],
-    "repository": "https://github.com/Jam3/hihat",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Jam3/hihat.git"
+    },
     "homepage": "https://github.com/Jam3/hihat",
+    "bugs": {
+      "url": "https://github.com/Jam3/hihat/issues"
+    },
     "bin": {
       "hihat": "./bin/cmd.js"
     }
@@ -187,5 +198,6 @@
   "svnUrl": "https://github.com/Jam3/hihat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:33:05.014Z"
+  "lastFetchedAt": "2017-05-04T20:33:05.014Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:44.353Z"
 }

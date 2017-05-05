@@ -81,8 +81,15 @@
       "prepublish": "gulp dist",
       "start": "electron ."
     },
-    "repository": "https://github.com/nathanial/react-component-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/nathanial/react-component-boilerplate.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nathanial/react-component-boilerplate/issues"
+    },
     "homepage": "https://github.com/nathanial/react-component-boilerplate#readme",
     "devDependencies": {
       "electron-connect": "^0.3.3",
@@ -133,5 +140,6 @@
   },
   "filename": "nathanial___react-component-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:03:38.301Z"
+  "lastFetchedAt": "2017-05-04T05:03:38.301Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:57.822Z"
 }

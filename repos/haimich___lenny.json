@@ -80,8 +80,15 @@
       "start": "electron .",
       "rebuild": "electron-rebuild"
     },
-    "repository": "https://github.com/haimich/lenny",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/haimich/lenny.git"
+    },
+    "author": "",
     "license": "Apache",
+    "bugs": {
+      "url": "https://github.com/haimich/lenny/issues"
+    },
     "homepage": "https://github.com/haimich/lenny#readme",
     "dependencies": {
       "@webcomponents/custom-elements": "^1.0.0-alpha.3",
@@ -119,5 +126,6 @@
   },
   "filename": "haimich___lenny.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:52.206Z"
+  "lastFetchedAt": "2017-05-04T20:01:52.206Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:51.670Z"
 }

@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/nirmalalmara/ara",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nirmalalmara/ara.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Nirmal Almara",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/nirmalalmara/ara/issues"
+    },
     "homepage": "https://github.com/nirmalalmara/ara/#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -111,5 +118,6 @@
   },
   "filename": "mysticmode___ara.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:42.659Z"
+  "lastFetchedAt": "2017-05-04T05:14:42.659Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:59.056Z"
 }

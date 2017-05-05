@@ -84,8 +84,15 @@
       "linter": "eslint ./src",
       "dump_db": "rm ~/Library/Application\\ Support/Electron/db.json"
     },
-    "repository": "https://github.com/sergiovilar/podcast-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sergiovilar/podcast-desktop.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sergiovilar/podcast-desktop/issues"
+    },
     "homepage": "https://github.com/sergiovilar/podcast-desktop#readme",
     "dependencies": {
       "@sergiovilar/amplitudejs": "^2.2.3",
@@ -179,5 +186,6 @@
   },
   "filename": "AnansiPodcast___anansi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:29.101Z"
+  "lastFetchedAt": "2017-05-04T05:16:29.101Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:18.351Z"
 }

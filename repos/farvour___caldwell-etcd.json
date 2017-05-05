@@ -74,6 +74,7 @@
   "packageJSON": {
     "name": "caldwell",
     "description": "An appliation to manage keys and values in an etcd cluster.",
+    "author": "Thomas Farvour <tom@farvour.com>",
     "license": "MIT",
     "version": "0.1.0",
     "scripts": {
@@ -93,7 +94,13 @@
       "etcd",
       "editor"
     ],
-    "repository": "https://github.com/farvour/caldwell-etcd",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/farvour/caldwell-etcd"
+    },
+    "bugs": {
+      "url": "https://github.com/farvour/caldwell-etcd/issues"
+    },
     "homepage": "https://github.com/farvour/caldwell-etcd/README.md",
     "devDependencies": {
       "electron-builder": "^2.7.2",
@@ -129,5 +136,6 @@
   },
   "filename": "farvour___caldwell-etcd.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:40.250Z"
+  "lastFetchedAt": "2017-05-04T15:26:40.250Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:15.443Z"
 }

@@ -80,12 +80,19 @@
       "test": "electron .",
       "build": "electron-packager . Autor --platform=dawrin --arch=x64 --icon=icon.icns"
     },
-    "repository": "https://github.com/dkbhadeshiya/Autor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dkbhadeshiya/Autor.git"
+    },
     "keywords": [
       "Autor",
       "Catagorizer"
     ],
+    "author": "Dhruman Bhadeshiya <dhrumangajjar@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dkbhadeshiya/Autor/issues"
+    },
     "homepage": "https://github.com/dkbhadeshiya/Autor#readme",
     "dependencies": {
       "chokidar": "^1.5.0",
@@ -124,5 +131,6 @@
   },
   "filename": "dkbhadeshiya___Autor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:08:21.207Z"
+  "lastFetchedAt": "2017-05-04T20:08:21.207Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:19.996Z"
 }

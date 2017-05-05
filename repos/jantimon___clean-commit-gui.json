@@ -74,8 +74,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/jantimon/clean-commit-gui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jantimon/clean-commit-gui.git"
+    },
+    "author": {
+      "name": "Jan Nicklas",
+      "email": "j.nicklas@me.com",
+      "url": "https://github.com/jantimon"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -223,5 +234,6 @@
   "svnUrl": "https://github.com/jantimon/clean-commit-gui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:42:44.002Z"
+  "lastFetchedAt": "2017-05-04T16:42:44.002Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:37.236Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-test.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-test/issues"
+    },
     "homepage": "https://github.com/electron/electron-test#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -117,5 +124,6 @@
   },
   "filename": "Jonghee___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:53.224Z"
+  "lastFetchedAt": "2017-05-04T05:02:53.224Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:50.689Z"
 }

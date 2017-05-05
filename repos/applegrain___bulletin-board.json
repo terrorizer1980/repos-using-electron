@@ -74,13 +74,20 @@
       "start": "electron .",
       "test": "mocha"
     },
-    "repository": "https://github.com/applegrain/reactron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/applegrain/reactron.git"
+    },
     "keywords": [
       "react",
       "electron",
       "tutorial"
     ],
+    "author": "Lovisa Svallingson",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/applegrain/reactron/issues"
+    },
     "homepage": "https://github.com/applegrain/reactron#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
@@ -119,5 +126,6 @@
   },
   "filename": "applegrain___bulletin-board.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:41:44.168Z"
+  "lastFetchedAt": "2017-05-04T20:41:44.168Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:19.744Z"
 }

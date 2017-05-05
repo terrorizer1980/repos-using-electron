@@ -54,7 +54,10 @@
       "test": "electron test/app.js",
       "test-rebuild": "electron-rebuild"
     },
-    "repository": "https://github.com/kapetan/electron-drag",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kapetan/electron-drag"
+    },
     "keywords": [
       "electron",
       "mouse",
@@ -62,6 +65,9 @@
       "window"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kapetan/electron-drag/issues"
+    },
     "homepage": "https://github.com/kapetan/electron-drag",
     "optionalDependencies": {
       "osx-mouse": "^1.2.0",
@@ -121,5 +127,6 @@
   },
   "filename": "kapetan___electron-drag.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:57:39.766Z"
+  "lastFetchedAt": "2017-05-04T19:57:39.766Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:23.848Z"
 }

@@ -69,6 +69,7 @@
     "name": "musicon",
     "version": "1.0.0",
     "description": "music player",
+    "author": "EricT",
     "main": "src/browser/main.js",
     "scripts": {
       "start": "electron src/browser/main.js"
@@ -117,5 +118,6 @@
   },
   "filename": "ecti___musicon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:56.862Z"
+  "lastFetchedAt": "2017-05-04T20:45:56.862Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:11.557Z"
 }

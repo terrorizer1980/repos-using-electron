@@ -71,23 +71,35 @@
     "description": "Zebra Label Printing",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "debug": "electron . --enable-logging --remote-debugging-port=9222",
+      "package-linux": "electron-packager . elabel --overwrite --platform=linux --arch=x64 --ignore=oldfiles --icon=assets/icons/elabel.png --prune=true --out=release-builds",
+      "package-win": "electron-packager . elabel --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/elabel.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"Elabel App\""
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": "https://github.com/robmachado/elabel",
     "keywords": [
       "Electron",
       "Zebra",
       "Label",
       "Extruder"
     ],
+    "author": "Roberto L. Machado",
     "license": "MIT",
     "devDependencies": {
-      "electron": "^1.4.1"
+      "asar": "^0.12.4",
+      "electron": "^1.4.13",
+      "electron-builder": "^10.15.1",
+      "electron-packager": "^8.4.0",
+      "electron-rebuild": "^1.5.6"
     },
     "dependencies": {
-      "bootstrap": "^3.3.7",
+      "dotenv": "^2.0.0",
+      "moment": "^2.17.1",
       "mysql": "^2.12.0",
-      "node-printer": "^1.0.2"
+      "nanotimer": "^0.3.14",
+      "node-printer": "^1.0.2",
+      "serialport": "^4.0.7",
+      "string": "^3.3.3"
     }
   },
   "packageStatus": 200,
@@ -115,5 +127,6 @@
   },
   "filename": "robmachado___elabel.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:27.259Z"
+  "lastFetchedAt": "2017-05-04T20:15:27.259Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:44.001Z"
 }

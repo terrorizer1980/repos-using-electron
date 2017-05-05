@@ -54,11 +54,18 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/rntdrts/my-youtube",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rntdrts/my-youtube.git"
+    },
     "keywords": [
       "youtube"
     ],
+    "author": "Renato Duarte",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rntdrts/my-youtube/issues"
+    },
     "homepage": "https://github.com/rntdrts/my-youtube#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.9"
@@ -109,5 +116,6 @@
   },
   "filename": "rntdrts___my-youtube.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:15.572Z"
+  "lastFetchedAt": "2017-05-04T21:00:15.572Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:22.383Z"
 }

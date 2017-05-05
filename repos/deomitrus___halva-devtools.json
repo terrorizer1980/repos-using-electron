@@ -79,12 +79,19 @@
     "scripts": {
       "test": "mocha tests"
     },
-    "repository": "https://github.com/deomitrus/halva-devtools",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/deomitrus/halva-devtools.git"
+    },
     "keywords": [
       "halva",
       "devtools"
     ],
+    "author": "Deomitrus",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/deomitrus/halva-devtools/issues"
+    },
     "homepage": "https://github.com/deomitrus/halva-devtools#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.4.2",
@@ -128,5 +135,6 @@
   },
   "filename": "deomitrus___halva-devtools.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:47.823Z"
+  "lastFetchedAt": "2017-05-04T05:07:47.823Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:36.134Z"
 }

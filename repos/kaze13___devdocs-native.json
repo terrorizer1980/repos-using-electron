@@ -59,12 +59,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/kaze13/devdocs-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kaze13/devdocs-electron.git"
+    },
     "keywords": [
       "Electron",
       "devdocs"
     ],
+    "author": "kaze13",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kaze13/devdocs-electron/issues"
+    },
     "homepage": "https://github.com/kaze13/devdocs-electron/issues",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -128,5 +135,6 @@
   },
   "filename": "kaze13___devdocs-native.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:03.387Z"
+  "lastFetchedAt": "2017-05-04T18:00:03.387Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:53.799Z"
 }

@@ -81,12 +81,19 @@
       "start": "electron main.js",
       "package": "electron-packager ./ first_app --all --out ~/Desktop/FirstApp --version 0.30.2 --overwrite"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Shortexts",
       "Text shorcuts"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -123,5 +130,6 @@
   },
   "filename": "CarlosR2___Shortexts.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:57.255Z"
+  "lastFetchedAt": "2017-05-04T19:43:57.255Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:36.171Z"
 }

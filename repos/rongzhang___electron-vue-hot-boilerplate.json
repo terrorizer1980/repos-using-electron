@@ -63,12 +63,19 @@
       "dev": "gulp dev",
       "dev-run": "electron ."
     },
-    "repository": "https://github.com/rongzhang/electron-vue-hot-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rongzhang/electron-vue-hot-boilerplate.git"
+    },
     "keywords": [
       "vue.js",
       "electron"
     ],
+    "author": "Rong Zhang",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rongzhang/electron-vue-hot-boilerplate/issues"
+    },
     "homepage": "https://github.com/rongzhang/electron-vue-hot-boilerplate/#readme",
     "dependencies": {
       "vue": "^1.0.10",
@@ -157,5 +164,6 @@
   "svnUrl": "https://github.com/rongzhang/electron-vue-hot-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:13:34.504Z"
+  "lastFetchedAt": "2017-05-04T05:13:34.504Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:53.910Z"
 }

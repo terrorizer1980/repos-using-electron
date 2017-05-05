@@ -74,6 +74,7 @@
       "start": "electron .",
       "build": "node ./task/build.js"
     },
+    "author": "sftblw",
     "license": "BSD-2-Clause",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -105,5 +106,6 @@
   },
   "filename": "sftblw___dropReplacer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:23:55.386Z"
+  "lastFetchedAt": "2017-05-04T18:23:55.386Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:07.741Z"
 }

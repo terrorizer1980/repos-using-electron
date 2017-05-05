@@ -82,7 +82,14 @@
       "coverage": "nyc --reporter text --reporter lcov npm test",
       "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
     },
-    "repository": "https://github.com/imsnif/terminal-grid",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/imsnif/terminal-grid.git"
+    },
+    "author": {
+      "name": "Aram Drevekenin",
+      "email": "grimsniffer@gmail.com"
+    },
     "contributors": [
       {
         "name": "Doron Tsur",
@@ -105,6 +112,7 @@
       "electron-rebuild": "^1.2.1",
       "electron-renderer-value": "^1.1.0",
       "pty.js": "^0.3.1",
+      "shorte": "^1.0.0",
       "validate.js": "^0.10.0",
       "xterm": "^1.1.3"
     }
@@ -135,5 +143,6 @@
   "filename": "imsnif___AmoebaTerm.json",
   "sourceRepo": "imsnif/terminal-grid",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:50.549Z"
+  "lastFetchedAt": "2017-05-04T18:25:50.549Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:46.451Z"
 }

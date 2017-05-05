@@ -93,14 +93,21 @@
     "scripts": {
       "start": "./start-app.sh"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "0.36.7"
@@ -131,5 +138,6 @@
   },
   "filename": "balaswecha___kiosk.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:40:26.004Z"
+  "lastFetchedAt": "2017-05-04T20:40:26.004Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:00.251Z"
 }

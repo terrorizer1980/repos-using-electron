@@ -74,13 +74,20 @@
       "start": "electron ./main.js",
       "package": "rm -rf ./release/ && electron-packager ./ Pomodoro --platform=darwin --arch=x64 --out ./release/ --version 0.37.4 --overwrite --icon=./img/pomodoro.icns"
     },
-    "repository": "https://github.com/vadimdez/pomodoro",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vadimdez/pomodoro.git"
+    },
     "keywords": [
       "Electron",
       "pomodoro",
       "timer"
     ],
+    "author": "Vadym Yatsyuk <vadym.yatsyuk@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vadimdez/pomodoro/issues"
+    },
     "homepage": "https://github.com/vadimdez/pomodoro",
     "devDependencies": {
       "electron-packager": "^6.0.0",
@@ -113,5 +120,6 @@
   },
   "filename": "VadimDez___pomodoro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:19.360Z"
+  "lastFetchedAt": "2017-05-04T19:36:19.360Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:30.196Z"
 }

@@ -80,7 +80,13 @@
     "contributors": [
       "Sean Baggaley <coffeescripter@gmail.com> (plussean.co.uk)"
     ],
-    "repository": "https://github.com/PlusGit/aural",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/PlusGit/aural"
+    },
+    "bugs": {
+      "url": "https://github.com/PlusGit/aural/issues"
+    },
     "dependencies": {
       "electron": "0.4.1",
       "electron-prebuilt": "0.32.1",
@@ -117,5 +123,6 @@
   },
   "filename": "csnxs___aural.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:47.354Z"
+  "lastFetchedAt": "2017-05-04T17:54:47.354Z",
+  "packageLastFetchedAt": "2017-05-05T06:36:05.120Z"
 }

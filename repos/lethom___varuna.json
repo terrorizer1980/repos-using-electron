@@ -190,12 +190,16 @@
     "version": "0.0.0",
     "description": "ogma in your browser",
     "main": "main-electron.js",
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "build": "make build",
       "test": "npm run build",
       "clean": "make clean",
       "mrproper": "make mrproper"
     },
+    "author": "Thomas Letan",
     "license": "MIT",
     "devDependencies": {
       "bower": "^1.8.0",
@@ -238,5 +242,6 @@
   "filename": "lethom___varuna.json",
   "sourceRepo": "ogma-project/varuna",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:10:14.635Z"
+  "lastFetchedAt": "2017-05-04T20:10:14.635Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:03.483Z"
 }

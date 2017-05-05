@@ -79,6 +79,11 @@
     "main": "src/index.js",
     "license": "MIT",
     "repository": "sivragav/mediumdesk",
+    "author": {
+      "name": "Sivaprakash Ragavan",
+      "email": "mediumdesk@sivragav.com",
+      "url": "medium.com/desktop-apps"
+    },
     "scripts": {
       "start": "electron src/index.js",
       "build": "npm run build:osx && npm run build:linux && npm run build:windows",
@@ -122,5 +127,6 @@
   "filename": "sivragav___mediumdesk.json",
   "sourceRepo": "clohq/mediumdesk",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:34.637Z"
+  "lastFetchedAt": "2017-05-04T21:03:34.637Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:38.813Z"
 }

@@ -81,7 +81,10 @@
       "build": "electron-packager ./ second-hand --platform=win32 --arch=x64 --icon=img/clock-white-128.ico --out=./build",
       "build!": "electron-packager ./ second-hand --platform=win32 --arch=x64 --icon=img/clock-white-128.ico --out=./build --overwrite"
     },
-    "repository": "https://github.com/vicksonzero/second-hand",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vicksonzero/second-hand.git"
+    },
     "keywords": [
       "timer",
       "clock",
@@ -89,7 +92,11 @@
       "count down",
       "widget"
     ],
+    "author": "Dickson Chui (vicksonzero)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vicksonzero/second-hand/issues"
+    },
     "homepage": "https://github.com/vicksonzero/second-hand",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -126,5 +133,6 @@
   },
   "filename": "vicksonzero___second-hand.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:47:30.802Z"
+  "lastFetchedAt": "2017-05-04T14:47:30.802Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:15.152Z"
 }

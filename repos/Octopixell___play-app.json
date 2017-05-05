@@ -80,8 +80,15 @@
       "Torrents",
       "Tracking"
     ],
+    "author": "Octopixell",
     "license": "CC-BY-NC-4.0",
-    "repository": "https://github.com/Octopixell/play-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Octopixell/play-app.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Octopixell/play-app/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     }
@@ -111,5 +118,6 @@
   },
   "filename": "Octopixell___play-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:34.366Z"
+  "lastFetchedAt": "2017-05-04T20:49:34.366Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:14.916Z"
 }

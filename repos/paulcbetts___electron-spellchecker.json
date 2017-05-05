@@ -82,7 +82,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-spellchecker",
-    "version": "0.7.1",
+    "version": "1.0.7",
     "description": "Implement spellchecking, correctly",
     "scripts": {
       "doc": "esdoc -c ./esdoc.json",
@@ -94,20 +94,28 @@
       "node": "cross-env ELECTRON_RUN_AS_NODE=1 ./node_modules/electron-prebuilt-compile/node_modules/.bin/electron",
       "start": "electron ./example/main.js"
     },
-    "repository": "https://github.com/paulcbetts/electron-spellchecker",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/paulcbetts/electron-spellchecker"
+    },
     "keywords": [
       "spelling",
       "electron",
       "rx"
     ],
+    "author": "Paul Betts <paul@paulbetts.org>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/paulcbetts/electron-spellchecker/issues"
+    },
     "main": "lib/index.js",
     "homepage": "https://github.com/paulcbetts/electron-spellchecker",
     "dependencies": {
       "@paulcbetts/cld": "^2.4.6",
-      "@paulcbetts/spellchecker": "^4.0.4",
-      "debug": "^2.5.1",
-      "electron-remote": "^1.0.8",
+      "@paulcbetts/spellchecker": "^4.0.5",
+      "bcp47": "^1.1.2",
+      "debug": "^2.6.3",
+      "electron-remote": "^1.1.1",
       "keyboard-layout": "^2.0.7",
       "lru-cache": "^4.0.2",
       "mkdirp": "^0.5.1",
@@ -129,7 +137,7 @@
       "cross-env": "^3.1.3",
       "electron-debug": "^1.1.0",
       "electron-mocha": "^3.3.0",
-      "electron-prebuilt-compile": "1.4.12",
+      "electron-prebuilt-compile": "1.6.4",
       "esdoc": "^0.4.8",
       "esdoc-es7-plugin": "0.0.3",
       "esdoc-plugin-async-to-sync": "^0.5.0",
@@ -164,5 +172,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T17:47:20.820Z"
+  "lastFetchedAt": "2017-05-04T17:47:20.820Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:00.956Z"
 }

@@ -61,14 +61,21 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel": "*",
@@ -141,5 +148,6 @@
   "svnUrl": "https://github.com/rickyrauch/browser",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:10:24.632Z"
+  "lastFetchedAt": "2017-05-04T20:10:24.632Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:22.465Z"
 }

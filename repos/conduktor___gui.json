@@ -67,6 +67,7 @@
     "scripts": {
       "test": "grunt test"
     },
+    "author": "Giles Lavelle",
     "license": "MIT",
     "dependencies": {
       "async": "^0.9.0",
@@ -79,7 +80,10 @@
       "mkdirp": "^0.5.0",
       "underscore": "^1.8.3"
     },
-    "repository": "https://github.com/conduktor/gui",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/conduktor/gui.git"
+    },
     "devDependencies": {
       "browserify-data": "^0.2.0",
       "coffee-script": "^1.9.0",
@@ -145,5 +149,6 @@
   },
   "filename": "conduktor___gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:33.921Z"
+  "lastFetchedAt": "2017-05-04T19:58:33.921Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:37.731Z"
 }

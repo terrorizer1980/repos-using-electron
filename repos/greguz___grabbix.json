@@ -125,7 +125,14 @@
       "start": "gulp && electron .",
       "test": "mocha"
     },
-    "repository": "https://github.com/greguz/grabbix",
+    "author": {
+      "name": "Giacomo Gregoletto",
+      "email": "gregolettogiacomo@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/greguz/grabbix.git"
+    },
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -153,5 +160,6 @@
   },
   "filename": "greguz___grabbix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:18.675Z"
+  "lastFetchedAt": "2017-05-04T15:14:18.675Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:52.250Z"
 }

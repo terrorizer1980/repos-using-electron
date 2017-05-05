@@ -83,8 +83,15 @@
       "dev": "gulp dev-js-bundle",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/shinate/cuckoo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shinate/cuckoo.git"
+    },
+    "author": "shinate",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shinate/cuckoo/issues"
+    },
     "homepage": "https://github.com/shinate/cuckoo#readme",
     "keywords": [
       "image",
@@ -142,5 +149,6 @@
   "svnUrl": "https://github.com/shinate/cuckoo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:31:42.399Z"
+  "lastFetchedAt": "2017-05-04T21:31:42.399Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:03.777Z"
 }

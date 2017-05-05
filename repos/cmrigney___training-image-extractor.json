@@ -74,14 +74,19 @@
   "packageJSON": {
     "name": "training-image-extractor",
     "productName": "TrainingImageExtractor",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "My grand app",
     "license": "MIT",
     "repository": "cmrigney/training-image-extractor",
+    "author": {
+      "name": "codyrigney92",
+      "email": "crigney@sensourceinc.com",
+      "url": "sensourceinc.com"
+    },
     "scripts": {
       "test": "xo",
-      "start": "electron .",
-      "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+      "start": "node_modules/.bin/electron.cmd .",
+      "build": "node_modules/.bin/electron-packager.cmd . --out=dist --app-version=%npm_package_version% --prune --asar --overwrite --platform=win32 --arch=x64 --ignore=\"(\\.vscode)|(samples)|(data)\""
     },
     "files": [
       "index.js",
@@ -94,12 +99,16 @@
     ],
     "dependencies": {
       "electron-debug": "^1.0.0",
-      "broadwayjs": "0.0.2"
+      "electron-pug": "^1.5.1",
+      "jimp": "^0.2.27",
+      "meanshift": "^1.0.0"
     },
     "devDependencies": {
+      "electron": "1.4.6",
       "devtron": "^1.1.0",
       "electron-packager": "^7.0.0",
       "electron-prebuilt": "^1.0.1",
+      "electron-rebuild": "1.4.0",
       "xo": "^0.15.0"
     },
     "xo": {
@@ -135,5 +144,6 @@
   },
   "filename": "cmrigney___training-image-extractor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:36:37.552Z"
+  "lastFetchedAt": "2017-05-04T20:36:37.552Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:56.264Z"
 }

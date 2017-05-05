@@ -53,13 +53,20 @@
     "scripts": {
       "test": "./node_modules/.bin/electron ./app"
     },
-    "repository": "https://github.com/Micua/painter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Micua/painter.git"
+    },
     "keywords": [
       "painter",
       "electron",
       "draw"
     ],
+    "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Micua/painter/issues"
+    },
     "homepage": "https://github.com/Micua/painter#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -114,5 +121,6 @@
   },
   "filename": "Micua___painter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:37.737Z"
+  "lastFetchedAt": "2017-05-04T20:49:37.737Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:13.775Z"
 }

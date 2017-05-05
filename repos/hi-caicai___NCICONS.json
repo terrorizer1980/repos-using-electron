@@ -76,14 +76,21 @@
       "build": "npm run clean && electron-packager ./ NCICONS --out=dist --platform=darwin --version=0.36.0 --arch=x64 --icon=assets/osx/NCICONS.icns",
       "pack": "npm run build && electron-builder dist/NCICONS-darwin-x64/NCICONS.app --platform=osx --out=dist/NCICONS-darwin-x64 --config=builder.json"
     },
-    "repository": "https://github.com/hi-caicai/NCICONS",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hi-caicai/NCICONS.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "CaiCai",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/hi-caicai/NCICONS/issues"
+    },
     "homepage": "https://github.com/hi-caicai/NCICONS",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -124,5 +131,6 @@
   },
   "filename": "hi-caicai___NCICONS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:31.916Z"
+  "lastFetchedAt": "2017-05-04T20:19:31.916Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:58.315Z"
 }

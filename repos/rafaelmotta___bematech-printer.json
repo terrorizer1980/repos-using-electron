@@ -53,14 +53,21 @@
     "scripts": {
       "start": "electron index.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -117,5 +124,6 @@
   },
   "filename": "rafaelmotta___bematech-printer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:08:23.424Z"
+  "lastFetchedAt": "2017-05-03T20:08:23.424Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:32.686Z"
 }

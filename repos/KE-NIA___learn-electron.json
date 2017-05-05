@@ -80,8 +80,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "electron": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/KE-NIA/learn-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/KE-NIA/learn-electron.git"
+    },
+    "author": "ke-nia",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/KE-NIA/learn-electron/issues"
+    },
     "homepage": "https://github.com/KE-NIA/learn-electron#readme",
     "devDependencies": {
       "electron": "^1.4.3"
@@ -112,5 +119,6 @@
   },
   "filename": "KE-NIA___learn-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:34.626Z"
+  "lastFetchedAt": "2017-05-04T21:15:34.626Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:14.795Z"
 }

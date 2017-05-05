@@ -61,6 +61,7 @@
       "build-js": "bin/build.sh",
       "start": "sh bin/build.sh && ./dist/gdrv-linux-x64/gdrv"
     },
+    "author": "Will Hattingh",
     "license": "BSD-3 Revised",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -112,5 +113,6 @@
   "svnUrl": "https://github.com/Nitecon/gdrv",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:53:22.877Z"
+  "lastFetchedAt": "2017-05-04T14:53:22.877Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:07.438Z"
 }

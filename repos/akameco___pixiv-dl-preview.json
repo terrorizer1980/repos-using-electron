@@ -58,6 +58,11 @@
     "description": "pixiv downloader with image preview",
     "license": "MIT",
     "repository": "akameco/pixiv-dl-preview",
+    "author": {
+      "name": "akameco",
+      "email": "akameco.t@gmail.com",
+      "url": "akameco.github.io"
+    },
     "bin": "cli.js",
     "scripts": {
       "test": "xo",
@@ -143,5 +148,6 @@
   "svnUrl": "https://github.com/akameco/pixiv-dl-preview",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:24:43.747Z"
+  "lastFetchedAt": "2017-05-04T20:24:43.747Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:29.163Z"
 }

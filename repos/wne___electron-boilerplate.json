@@ -190,19 +190,14 @@
     "description": "A boilerplate application for Electron runtime",
     "version": "0.3.0",
     "repository": {
-      "user": "zce",
-      "repo": "electron-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/zce/electron-boilerplate/tarball/master",
-      "clone_url": "https://github.com/zce/electron-boilerplate",
-      "https_url": "https://github.com/zce/electron-boilerplate",
-      "travis_url": "https://travis-ci.org/zce/electron-boilerplate",
-      "zip_url": "https://github.com/zce/electron-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/zce/electron-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/zce/electron-boilerplate.git"
     },
+    "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zce/electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/zce/electron-boilerplate#readme",
     "scripts": {
       "postinstall": "cd app && npm install && cd ..",
@@ -296,5 +291,6 @@
   "filename": "wne___electron-boilerplate.json",
   "sourceRepo": "zce/electron-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:20.872Z"
+  "lastFetchedAt": "2017-05-04T19:38:20.872Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:51.269Z"
 }

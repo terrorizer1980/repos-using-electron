@@ -58,6 +58,11 @@
     "description": "My excellent app",
     "license": "MIT",
     "repository": "jordmur/distractful",
+    "author": {
+      "name": "jordmur",
+      "email": "jordanmurphy11@gmail.com",
+      "url": "jordandmurphy.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -139,5 +144,6 @@
   },
   "filename": "jordmur___distractful.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:55.041Z"
+  "lastFetchedAt": "2017-05-04T19:59:55.041Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:27.283Z"
 }

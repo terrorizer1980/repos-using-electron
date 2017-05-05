@@ -61,6 +61,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -123,5 +124,6 @@
   "svnUrl": "https://github.com/harrietty/electron-sample-project",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:04:57.142Z"
+  "lastFetchedAt": "2017-05-04T21:04:57.142Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:43.295Z"
 }

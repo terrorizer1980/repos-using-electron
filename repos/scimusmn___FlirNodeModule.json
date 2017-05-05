@@ -87,13 +87,17 @@
     "scripts": {
       "start": "electron main.js --enable-logging"
     },
-    "repository": "https://github.com/scimusmn/Vieworks-Node-Module",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/scimusmn/Vieworks-Node-Module.git"
+    },
     "keywords": [
       "Vieworks",
       "high",
       "speed",
       "camera"
     ],
+    "author": "SMM",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "0.36.1",
@@ -130,5 +134,6 @@
   },
   "filename": "scimusmn___FlirNodeModule.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:50.219Z"
+  "lastFetchedAt": "2017-05-04T05:10:50.219Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:01.126Z"
 }

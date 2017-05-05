@@ -81,7 +81,7 @@
   "status": 200,
   "packageJSON": {
     "name": "SeedsonTable",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "seed data table ui",
     "keywords": [],
     "main": "./index.js",
@@ -150,8 +150,16 @@
       "webpack-stream": "^3.2.0"
     },
     "url": "https://github.com/master-table/master-table.js",
+    "author": {
+      "name": "Narazaka",
+      "email": "info@narazaka.net",
+      "url": "https://narazaka.net/"
+    },
     "license": "MIT",
-    "repository": "https://github.com/master-table/master-table.js"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/master-table/master-table.js.git"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -178,5 +186,6 @@
   },
   "filename": "seed-ui___SeedsonTable.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:50.757Z"
+  "lastFetchedAt": "2017-05-04T14:19:50.757Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:58.604Z"
 }

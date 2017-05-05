@@ -203,6 +203,10 @@
     "name": "soube",
     "version": "1.0.1",
     "description": "Simple music player",
+    "author": {
+      "email": "dracotm25@gmail.com",
+      "name": "Diego Molina Vera"
+    },
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-builder": "^6.7.7",
@@ -261,5 +265,6 @@
   },
   "filename": "toowoo___Soube.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:02:03.852Z"
+  "lastFetchedAt": "2017-05-04T06:02:03.852Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:29.886Z"
 }

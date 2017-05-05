@@ -59,6 +59,7 @@
       "assistant",
       "ai"
     ],
+    "author": "Damir Mustafin",
     "license": "UNLICENSED",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -66,7 +67,13 @@
     "dependencies": {
       "jquery": "^2.2.3"
     },
-    "repository": "https://github.com/frenchbread/sample-cake",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/frenchbread/sample-cake.git"
+    },
+    "bugs": {
+      "url": "https://github.com/frenchbread/sample-cake/issues"
+    },
     "homepage": "https://github.com/frenchbread/sample-cake#readme"
   },
   "packageStatus": 200,
@@ -114,5 +121,6 @@
   "svnUrl": "https://github.com/frenchbread/sample-cake",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:01:56.628Z"
+  "lastFetchedAt": "2017-05-04T21:01:56.628Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:03.824Z"
 }

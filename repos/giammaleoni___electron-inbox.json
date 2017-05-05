@@ -53,13 +53,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/giammaleoni/electron-inbox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/giammaleoni/electron-inbox.git"
+    },
     "keywords": [
       "Electron",
       "Inbox",
       "Gmail"
     ],
+    "author": "Gianmaria Leoni",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/giammaleoni/electron-inbox/issues"
+    },
     "homepage": "https://github.com/giammaleoni/electron-inbox#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/giammaleoni/electron-inbox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:20:38.837Z"
+  "lastFetchedAt": "2017-05-04T14:20:38.837Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:43.215Z"
 }

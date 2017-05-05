@@ -79,8 +79,15 @@
       "dev-server": "webpack-dev-server --hot --inline --port 3000",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ksmithbaylor/ynab-reporting",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ksmithbaylor/ynab-reporting.git"
+    },
+    "author": "Kevin Smith <ksmithbaylor@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ksmithbaylor/ynab-reporting/issues"
+    },
     "homepage": "https://github.com/ksmithbaylor/ynab-reporting#readme",
     "dependencies": {
       "copy-webpack-plugin": "^4.0.1",
@@ -117,5 +124,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:02.774Z"
+  "lastFetchedAt": "2017-05-04T04:59:02.774Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:21.412Z"
 }

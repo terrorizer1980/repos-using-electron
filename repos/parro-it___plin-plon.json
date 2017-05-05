@@ -55,11 +55,15 @@
     "name": "plin-plon",
     "description": "Signal online presence of your github fellows with an awesome plin-plon",
     "repository": "https://github.com/parro-it/plin-plon.git",
+    "bugs": {
+      "url": "https://github.com/parro-it/plin-plon/issues"
+    },
     "version": "0.0.1",
     "main": "src/index.js",
     "engines": {
       "node": ">=4.1"
     },
+    "author": "parro-it",
     "scripts": {
       "test": "test-node",
       "debug": "debug",
@@ -130,5 +134,6 @@
   "svnUrl": "https://github.com/parro-it/plin-plon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:16:46.743Z"
+  "lastFetchedAt": "2017-05-04T20:16:46.743Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:05.169Z"
 }

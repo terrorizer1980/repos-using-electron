@@ -55,6 +55,11 @@
     "name": "felony",
     "productName": "Felony",
     "version": "0.10.3",
+    "author": {
+      "name": "Henry Boldizsar",
+      "email": "henrymb67@gmail.com",
+      "url": "https://github.com/henryboldi"
+    },
     "description": "Felony makes sending encrypted messages anywhere easy.",
     "main": "main.js",
     "scripts": {
@@ -76,8 +81,14 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/henryboldi/felony",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/henryboldi/felony.git"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/henryboldi/felony/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -91,7 +102,7 @@
     "devDependencies": {
       "asar": "^0.11.0",
       "babel-core": "^6.7.6",
-      "babel-eslint": "^6.0.2",
+      "babel-eslint": "^6.1.2",
       "babel-loader": "^6.2.4",
       "babel-plugin-add-module-exports": "^0.1.2",
       "babel-plugin-webpack-loaders": "^0.4.0",
@@ -113,10 +124,11 @@
       "electron-prebuilt": "^1.2.6",
       "electron-rebuild": "^1.1.3",
       "electron-winstaller": "^2.3.1",
-      "eslint": "^2.8.0",
-      "eslint-config-airbnb": "^7.0.0",
-      "eslint-plugin-jsx-a11y": "^0.6.2",
-      "eslint-plugin-react": "^4.3.0",
+      "eslint": "^3.10.0",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-react": "^6.6.0",
       "express": "^4.13.4",
       "extract-text-webpack-plugin": "^1.0.1",
       "fbjs-scripts": "^0.6.0",
@@ -225,5 +237,6 @@
   },
   "filename": "henryboldi___felony.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:34.342Z"
+  "lastFetchedAt": "2017-05-04T19:36:34.342Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:36.947Z"
 }

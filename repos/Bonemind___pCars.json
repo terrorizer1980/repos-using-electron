@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Bonemind/pCars",
+    "repository": {
+      "type": "git",
+      "url": "http://bonemind@github.com/Bonemind/pCars"
+    },
+    "author": "Bonemind",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Bonemind/pCars/issues"
+    },
     "homepage": "https://github.com/Bonemind/pCars",
     "dependencies": {
       "electron-prebuilt": "^0.25.2",
@@ -108,5 +115,6 @@
   },
   "filename": "Bonemind___pCars.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:22.349Z"
+  "lastFetchedAt": "2017-05-04T18:25:22.349Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:56.374Z"
 }

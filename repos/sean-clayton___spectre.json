@@ -59,12 +59,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/sean-clayton/spectre",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sean-clayton/spectre.git"
+    },
     "keywords": [
       "electron",
       "react"
     ],
+    "author": "Sean Clayton",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sean-clayton/spectre/issues"
+    },
     "homepage": "https://github.com/sean-clayton/spectre",
     "dependencies": {
       "react": "^0.13.3",
@@ -135,5 +142,6 @@
   "svnUrl": "https://github.com/sean-clayton/spectre",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:21:51.281Z"
+  "lastFetchedAt": "2017-05-04T20:21:51.281Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:34.757Z"
 }

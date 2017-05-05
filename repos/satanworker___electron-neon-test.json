@@ -67,5 +67,28 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "lastFetchedAt": "2017-05-04T14:47:23.871Z"
+  "lastFetchedAt": "2017-05-04T14:47:23.871Z",
+  "packageJSON": {
+    "name": "new",
+    "version": "0.1.0",
+    "description": "",
+    "main": "lib/index.js",
+    "author": "dally",
+    "license": "MIT",
+    "devDependencies": {
+      "electron-builder": "^3.5.2",
+      "electron-prebuilt": "^0.37.0"
+    },
+    "dependencies": {
+      "electron": "^0.4.1",
+      "electron-connect": "^0.3.8",
+      "electron-prebuilt": "^0.37.7",
+      "neon-cli": "^0.1.7"
+    },
+    "scripts": {
+      "install": "neon build"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:55:44.909Z"
 }

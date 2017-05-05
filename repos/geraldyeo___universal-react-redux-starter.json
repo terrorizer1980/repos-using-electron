@@ -69,8 +69,16 @@
     "name": "universal-react-redux-starter",
     "version": "0.1.0",
     "description": "Universal React Redux Starter",
+    "author": "",
     "license": "MIT",
-    "repository": "https://github.com/geraldyeo/universal-react-redux-starter",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/geraldyeo/universal-react-redux-starter.git"
+    },
+    "bugs": {
+      "url": "https://github.com/geraldyeo/universal-react-redux-starter/issues",
+      "email": "gerald.yeo@gmail.com"
+    },
     "main": "bin/server.js",
     "scripts": {
       "start": "concurrent --kill-others \"npm run start-prod\" \"npm run start-prod-api\"",
@@ -254,5 +262,6 @@
   },
   "filename": "geraldyeo___universal-react-redux-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:44.262Z"
+  "lastFetchedAt": "2017-05-04T20:00:44.262Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:15.478Z"
 }

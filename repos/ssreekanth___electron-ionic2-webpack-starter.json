@@ -123,10 +123,17 @@
       "url-loader": "0.5.7",
       "webpack": "1.13.2"
     },
-    "repository": "https://github.com/ssreekanth/electron-ionic2-webpack-starter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ssreekanth/electron-ionic2-webpack-starter.git"
+    },
     "license": "UNLICENSED",
     "private": true,
-    "homepage": "https://github.com/ssreekanth/electron-ionic2-webpack-starter/wiki"
+    "bugs": {
+      "url": "https://github.com/ssreekanth/electron-ionic2-webpack-starter/issues"
+    },
+    "homepage": "https://github.com/ssreekanth/electron-ionic2-webpack-starter/wiki",
+    "author": "Sreekanth S"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -153,5 +160,6 @@
   },
   "filename": "ssreekanth___electron-ionic2-webpack-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:26:31.930Z"
+  "lastFetchedAt": "2017-05-04T20:26:31.930Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:32.314Z"
 }

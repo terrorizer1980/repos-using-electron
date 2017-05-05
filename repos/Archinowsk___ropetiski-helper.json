@@ -81,11 +81,18 @@
       "start": "electron .",
       "package": "electron-packager ./ ropetiski-helper --platform=win32 --arch=ia32 --prune"
     },
-    "repository": "https://github.com/Archinowsk/ropetiski-helper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Archinowsk/ropetiski-helper.git"
+    },
     "keywords": [
       "ropecon"
     ],
+    "author": "Arttu Hanska",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Archinowsk/ropetiski-helper/issues"
+    },
     "homepage": "https://github.com/Archinowsk/ropetiski-helper",
     "dependencies": {
       "alasql": "^0.3.0",
@@ -124,5 +131,6 @@
   },
   "filename": "Archinowsk___ropetiski-helper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:34.097Z"
+  "lastFetchedAt": "2017-05-04T20:00:34.097Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:09.156Z"
 }

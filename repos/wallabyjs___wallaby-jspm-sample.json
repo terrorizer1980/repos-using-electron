@@ -93,8 +93,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/wallabyjs/wallaby-jspm-sample",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wallabyjs/wallaby-jspm-sample.git"
+    },
+    "author": "Artem Govorov",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wallabyjs/wallaby-jspm-sample/issues"
+    },
     "homepage": "https://github.com/wallabyjs/wallaby-jspm-sample",
     "jspm": {
       "dependencies": {
@@ -157,5 +164,6 @@
   },
   "filename": "wallabyjs___wallaby-jspm-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:32.888Z"
+  "lastFetchedAt": "2017-05-04T20:46:32.888Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:17.579Z"
 }

@@ -78,18 +78,15 @@
     "description": "A utility for translating the Bible and biblical content into any language.",
     "keywords": [],
     "homepage": "https://github.com/unfoldingWord-dev/ts-desktop",
+    "bugs": "https://github.com/unfoldingWord-dev/ts-desktop/issues",
+    "author": {
+      "name": "Joel Lonbeck",
+      "email": "",
+      "url": "https://github.com/neutrinog"
+    },
     "repository": {
-      "user": "unfoldingWord-dev",
-      "repo": "ts-desktop",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/unfoldingWord-dev/ts-desktop/tarball/master",
-      "clone_url": "https://github.com/unfoldingWord-dev/ts-desktop",
-      "https_url": "https://github.com/unfoldingWord-dev/ts-desktop",
-      "travis_url": "https://travis-ci.org/unfoldingWord-dev/ts-desktop",
-      "zip_url": "https://github.com/unfoldingWord-dev/ts-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/unfoldingWord-dev/ts-desktop"
+      "type": "git",
+      "url": "git@github.com:unfoldingWord-dev/ts-desktop.git"
     },
     "dependencies": {
       "adm-zip": "^0.4.7",
@@ -156,5 +153,6 @@
   "filename": "jeremymlane___ts-desktop-travis.json",
   "sourceRepo": "unfoldingWord-dev/ts-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:34.694Z"
+  "lastFetchedAt": "2017-05-04T20:24:34.694Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:24.996Z"
 }

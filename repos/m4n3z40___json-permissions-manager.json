@@ -85,6 +85,7 @@
       "start": "gulp watch-and-run",
       "lint": "tslint --project src"
     },
+    "author": "Allan Baptista (allan.marques@ymail.com)",
     "license": "MIT",
     "private": true,
     "devDependencies": {
@@ -153,5 +154,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:28.209Z"
+  "lastFetchedAt": "2017-05-04T20:27:28.209Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:17.214Z"
 }

@@ -67,5 +67,24 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:56:22.614Z"
+  "lastFetchedAt": "2017-05-04T17:56:22.614Z",
+  "packageJSON": {
+    "name": "webpack-electron-issue",
+    "version": "1.0.0",
+    "scripts": {
+      "test-1": "webpack && electron main-1.js",
+      "test-2": "concurrently 'webpack-dev-server' 'sleep 2 && electron main-2.js'"
+    },
+    "devDependencies": {
+      "concurrently": "^3.3.0",
+      "electron": "^1.4.1",
+      "webpack": "^2.2.1",
+      "webpack-dev-server": "^2.4.1"
+    },
+    "dependencies": {
+      "lodash": "^4.17.4"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:35:09.907Z"
 }

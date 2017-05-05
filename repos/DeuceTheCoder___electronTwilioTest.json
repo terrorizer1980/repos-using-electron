@@ -80,14 +80,21 @@
       "serve": "node server.js &",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -121,5 +128,6 @@
   },
   "filename": "DeuceTheCoder___electronTwilioTest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:30.161Z"
+  "lastFetchedAt": "2017-05-04T05:02:30.161Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:30.344Z"
 }

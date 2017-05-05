@@ -71,17 +71,8 @@
     "description": "Application dedicated to show Electron power (Part 1)",
     "main": "index.js",
     "repository": {
-      "user": "SlimDogs",
-      "repo": "Electron-App-Sample",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/SlimDogs/Electron-App-Sample/tarball/master",
-      "clone_url": "https://github.com/SlimDogs/Electron-App-Sample",
-      "https_url": "https://github.com/SlimDogs/Electron-App-Sample",
-      "travis_url": "https://travis-ci.org/SlimDogs/Electron-App-Sample",
-      "zip_url": "https://github.com/SlimDogs/Electron-App-Sample/archive/master.zip",
-      "api_url": "https://api.github.com/repos/SlimDogs/Electron-App-Sample"
+      "type": "git",
+      "url": "git+https://github.com/SlimDogs/Electron-App-Sample.git"
     },
     "scripts": {
       "start": "electron main.js"
@@ -90,6 +81,7 @@
       "Electron",
       "Orbus"
     ],
+    "author": "Tautvydas Derzinskas",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -122,5 +114,6 @@
   "filename": "SlimDogs___Electron-App-Sample.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:25.995Z"
+  "lastFetchedAt": "2017-05-04T05:09:25.995Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:58.086Z"
 }

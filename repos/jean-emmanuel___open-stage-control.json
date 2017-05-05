@@ -55,13 +55,17 @@
     "name": "open-stage-control-builder",
     "description": "A libre desktop OSC bi-directionnal control surface application - builder package",
     "dependencies": {
-      "electron": "1.4.4",
-      "browserify": "13.1.0",
-      "node-sass": "^3.7.0",
+      "electron": "1.6.2",
+      "mathjs": "3.10.0",
+      "autolayout": "0.7.0",
+      "browserify": "14.1.0",
+      "exorcist": "0.4.0",
+      "node-sass": "^4.1.1",
       "nodemon": "^1.9.2",
-      "socket.io-client": "1.5.0",
-      "electron-installer-debian": "0.4.0",
-      "electron-packager": "8.1.0"
+      "socket.io-client": "1.7.3",
+      "shortid": "2.2.8",
+      "electron-installer-debian": "0.5.0",
+      "electron-packager": "8.6.0"
     },
     "scripts": {
       "postinstall": "cp resources/images/logo.ico app/browser/favicon.ico && cd app && npm install && cd .. && npm run build-js && npm run build-css",
@@ -70,17 +74,17 @@
       "deb32": "electron-installer-debian --src dist/open-stage-control-linux-ia32/ --arch i386 --dest dist/open-stage-control-linux-ia32/ --icon resources/images/logo.png",
       "deb64": "electron-installer-debian --src dist/open-stage-control-linux-x64/ --arch amd64 --dest dist/open-stage-control-linux-x64/ --icon resources/images/logo.png",
       "debarm": "electron-installer-debian --src dist/open-stage-control-linux-armv7l/ --arch armv7l --dest dist/open-stage-control-linux-armv7l/ --icon resources/images/logo.png",
-      "watch-css": "nodemon --watch src/browser/scss -e scss -x \"npm run build-css\"",
+      "watch-css": "nodemon --watch src/browser/scss -e scss -x \"npm run build-css && node scripts/reload-css.js\"",
       "watch-js": "nodemon --watch src/browser/js -e js -x \"npm run build-js\"",
       "build-css": "node-sass --include-path src/browser/scss src/browser/scss/style.scss app/browser/styles.css --output-style compressed",
-      "build-js": "browserify src/browser/js/browser.js -o app/browser/scripts.js",
+      "build-js": "node scripts/build-js.js > app/browser/scripts.js",
       "deploy-docs": "cd resources && mkdocs gh-deploy --clean && rm -rf site",
       "test": "npm run build"
     },
     "engines": {
       "node": "6"
     },
-    "version": "0.10.2"
+    "version": "0.17.5"
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/jean-emmanuel/open-stage-control",
@@ -127,5 +131,6 @@
   },
   "filename": "jean-emmanuel___open-stage-control.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:00.451Z"
+  "lastFetchedAt": "2017-05-04T17:49:00.451Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:57.657Z"
 }

@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "navit",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "description": "Wrapper for PhantomJS and SlimerJS to simplify browser tests scripting",
     "keywords": [
       "phantomjs",
@@ -94,7 +94,12 @@
       "phantomjs-prebuilt": "^2.1.5"
     },
     "scripts": {
-      "test": "make test"
+      "lint": "eslint .",
+      "test": "npm run lint && npm run test-phantomjs && npm run test-slimerjs && npm run test-electron",
+      "test-ci": "npm run lint && npm run test-phantomjs && npm run test-electron",
+      "test-phantomjs": "mocha",
+      "test-slimerjs": "ENGINE=slimerjs mocha",
+      "test-electron": "ENGINE=electron mocha"
     }
   },
   "packageStatus": 200,
@@ -142,5 +147,6 @@
   },
   "filename": "nodeca___navit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:05.434Z"
+  "lastFetchedAt": "2017-05-04T18:12:05.434Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:27.260Z"
 }

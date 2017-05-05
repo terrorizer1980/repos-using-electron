@@ -189,6 +189,7 @@
     "name": "koko",
     "version": "0.3.0",
     "description": "Yet another IRC client for me and you",
+    "author": "Jun <me@noraesae.net>",
     "contributors": [
       {
         "name": "Hyunje Alex Jun",
@@ -197,17 +198,11 @@
     ],
     "main": "main.js",
     "repository": {
-      "user": "KokoIRC",
-      "repo": "koko",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/KokoIRC/koko/tarball/master",
-      "clone_url": "https://github.com/KokoIRC/koko",
-      "https_url": "https://github.com/KokoIRC/koko",
-      "travis_url": "https://travis-ci.org/KokoIRC/koko",
-      "zip_url": "https://github.com/KokoIRC/koko/archive/master.zip",
-      "api_url": "https://api.github.com/repos/KokoIRC/koko"
+      "type": "git",
+      "url": "https://github.com/KokoIRC/koko.git"
+    },
+    "bugs": {
+      "url": "https://github.com/KokoIRC/koko/issues"
     },
     "keywords": [
       "irc",
@@ -262,5 +257,6 @@
   "filename": "mmarkman___koko.json",
   "sourceRepo": "KokoIRC/koko",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:05:54.422Z"
+  "lastFetchedAt": "2017-05-04T18:05:54.422Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:45.660Z"
 }

@@ -93,14 +93,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/hoodiehq/hoodie-electron-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hoodiehq/hoodie-electron-app.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/hoodiehq/hoodie-electron-app/issues"
+    },
     "homepage": "https://github.com/hoodiehq/hoodie-electron-app/blob/master/README.md",
     "devDependencies": {
       "electron": "^1.4.0",
@@ -137,5 +144,6 @@
   },
   "filename": "hoodiehq___hoodie-electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:27.696Z"
+  "lastFetchedAt": "2017-05-04T14:19:27.696Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:01.152Z"
 }

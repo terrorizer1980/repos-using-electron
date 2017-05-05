@@ -79,12 +79,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/omkarkarande/Any.do-Desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/omkarkarande/Any.do-Desktop.git"
+    },
     "keywords": [
       "Any.do",
       "desktop",
       "electron"
     ],
+    "author": "omkarkarande",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -115,5 +119,6 @@
   },
   "filename": "omkarkarande___Any.do-Desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:29.558Z"
+  "lastFetchedAt": "2017-05-04T17:49:29.558Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:59.425Z"
 }

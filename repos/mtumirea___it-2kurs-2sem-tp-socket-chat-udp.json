@@ -81,14 +81,21 @@
       "postinstall": "install-app-deps",
       "pack": "build"
     },
-    "repository": "https://github.com/mtumirea/it-2kurs-2sem-tp-socket-chat-udp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mtumirea/it-2kurs-2sem-tp-socket-chat-udp"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "anon",
     "license": "see LICENSE && no commerce",
+    "bugs": {
+      "url": "https://github.com/mtumirea/it-2kurs-2sem-tp-socket-chat-udp/issues"
+    },
     "homepage": "https://github.com/mtumirea/it-2kurs-2sem-tp-socket-chat-udp#readme",
     "devDependencies": {
       "electron-builder": "^3.25.0",
@@ -127,5 +134,6 @@
   },
   "filename": "mtumirea___it-2kurs-2sem-tp-socket-chat-udp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:33:36.921Z"
+  "lastFetchedAt": "2017-05-04T19:33:36.921Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:34.452Z"
 }

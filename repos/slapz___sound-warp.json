@@ -170,17 +170,8 @@
     "version": "0.5.7",
     "description": "SoundWarp frontend application",
     "repository": {
-      "user": "SoundWarp",
-      "repo": "sound-warp",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/SoundWarp/sound-warp/tarball/master",
-      "clone_url": "https://github.com/SoundWarp/sound-warp",
-      "https_url": "https://github.com/SoundWarp/sound-warp",
-      "travis_url": "https://travis-ci.org/SoundWarp/sound-warp",
-      "zip_url": "https://github.com/SoundWarp/sound-warp/archive/master.zip",
-      "api_url": "https://api.github.com/repos/SoundWarp/sound-warp"
+      "type": "git",
+      "url": "git+https://github.com/SoundWarp/sound-warp.git"
     },
     "devDependencies": {
       "babel-eslint": "^4.1.0",
@@ -260,5 +251,6 @@
   "svnUrl": "https://github.com/slapz/sound-warp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:03:58.185Z"
+  "lastFetchedAt": "2017-05-04T21:03:58.185Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:33.989Z"
 }

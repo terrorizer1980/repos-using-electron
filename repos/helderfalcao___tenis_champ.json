@@ -70,7 +70,10 @@
     "version": "1.0.0",
     "description": "Tênis Championship",
     "main": "index.js",
-    "repository": "https://github.com/christkv/myfirstproject",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/christkv/myfirstproject.git"
+    },
     "dependencies": {
       "mongoose": "*",
       "express": "*",
@@ -78,7 +81,11 @@
       "body-parser": "*",
       "multer": "*"
     },
+    "author": "Helder Falcão",
     "license": "Apache 2.0",
+    "bugs": {
+      "url": "https://github.com/christkv/myfirstproject/issues"
+    },
     "homepage": "https://github.com/christkv/myfirstproject"
   },
   "packageStatus": 200,
@@ -106,5 +113,6 @@
   },
   "filename": "helderfalcao___tenis_champ.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:40:52.962Z"
+  "lastFetchedAt": "2017-05-04T19:40:52.962Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:18.376Z"
 }

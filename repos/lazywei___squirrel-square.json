@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ./src/es6-init.js"
     },
-    "repository": "https://github.com/lazywei/squirrel-square",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lazywei/squirrel-square.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Chih-Wei Chang",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/lazywei/squirrel-square/issues"
+    },
     "homepage": "https://github.com/lazywei/squirrel-square",
     "devDependencies": {
       "electron-compilers": "^2.0.5",
@@ -128,5 +135,6 @@
   },
   "filename": "lazywei___squirrel-square.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:23:22.532Z"
+  "lastFetchedAt": "2017-05-04T20:23:22.532Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:37.569Z"
 }

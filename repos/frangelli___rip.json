@@ -54,14 +54,21 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/frangelli/rip",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/frangelli/rip.git"
+    },
     "keywords": [
       "rip",
       "restinpeace",
       "rest",
       "client"
     ],
+    "author": "Leonardo Frangelli",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/frangelli/rip/issues"
+    },
     "homepage": "https://github.com/frangelli/rip#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.33.6"
@@ -112,5 +119,6 @@
   },
   "filename": "frangelli___rip.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:39.209Z"
+  "lastFetchedAt": "2017-05-04T19:41:39.209Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:57.144Z"
 }

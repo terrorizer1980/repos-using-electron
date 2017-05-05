@@ -78,6 +78,7 @@
       "dist:win32": "cd ./bin/win32_bin/ && zip -r ./win32_bin.zip ./* && mv ./win32_bin.zip ../../app/ && cd ../../ && build --win --ia32 && rm ./app/win32_bin.zip",
       "dist:win64": "build --platform win32 --arch x64"
     },
+    "author": "bars66",
     "build": {
       "app-bundle-id": "com.bars66.vpn.launcher",
       "app-category-type": "com.bars66.vpn",
@@ -117,5 +118,6 @@
   },
   "filename": "bars66___NNP_Project_Client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:01:50.547Z"
+  "lastFetchedAt": "2017-05-04T18:01:50.547Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:33.447Z"
 }

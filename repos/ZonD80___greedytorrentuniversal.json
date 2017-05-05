@@ -78,6 +78,11 @@
     "description": "Completely Free and Cross-Platform torrent ratio cheater",
     "license": "GPLv3",
     "repository": "https://github.com/ZonD80/greedytorrentuniversal",
+    "author": {
+      "name": "ZonD Eighty",
+      "email": "zond80@gmail.com",
+      "url": "http://zond80.tel"
+    },
     "main": "main.js",
     "devDependencies": {
       "electron-packager": "^5.0.0",
@@ -109,5 +114,6 @@
   },
   "filename": "ZonD80___greedytorrentuniversal.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:36.007Z"
+  "lastFetchedAt": "2017-05-04T14:21:36.007Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:37.783Z"
 }

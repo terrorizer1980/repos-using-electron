@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "web-preferences": {
       "web-security": false
     },
@@ -128,5 +135,6 @@
   },
   "filename": "Nyura95___Eletron-DRH.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:02.842Z"
+  "lastFetchedAt": "2017-05-04T19:39:02.842Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:20.698Z"
 }

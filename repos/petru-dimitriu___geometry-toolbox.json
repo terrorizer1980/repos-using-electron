@@ -79,13 +79,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Petru Dimitriu",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -116,5 +120,6 @@
   },
   "filename": "petru-dimitriu___geometry-toolbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:28:11.317Z"
+  "lastFetchedAt": "2017-05-04T18:28:11.317Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:38.888Z"
 }

@@ -88,17 +88,8 @@
       "category": "your.app.category.type"
     },
     "repository": {
-      "user": "prcek",
-      "repo": "ElectronTest",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/prcek/ElectronTest/tarball/master",
-      "clone_url": "https://github.com/prcek/ElectronTest",
-      "https_url": "https://github.com/prcek/ElectronTest",
-      "travis_url": "https://travis-ci.org/prcek/ElectronTest",
-      "zip_url": "https://github.com/prcek/ElectronTest/archive/master.zip",
-      "api_url": "https://api.github.com/repos/prcek/ElectronTest"
+      "type": "git",
+      "url": "git+https://github.com/prcek/ElectronTest.git"
     },
     "keywords": [
       "Electron",
@@ -106,7 +97,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/prcek/ElectronTest/issues"
+    },
     "homepage": "https://github.com/prcek/ElectronTest#readme",
     "devDependencies": {
       "electron-builder": "^6.3.1",
@@ -155,5 +150,6 @@
   "filename": "prcek___ElectronTest.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:48.549Z"
+  "lastFetchedAt": "2017-05-04T18:34:48.549Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:04.745Z"
 }

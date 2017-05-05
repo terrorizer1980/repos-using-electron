@@ -129,7 +129,10 @@
       "spectron": "^3.4.0",
       "yargs": "^6.3.0"
     },
-    "dependencies": {}
+    "dependencies": {
+      "jquery": "^3.1.1",
+      "paho-client": "^1.0.1"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -157,5 +160,6 @@
   "filename": "QuantamHD___Union-Desktop.json",
   "sourceRepo": "synthetos/TinyG-Updater",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:23:21.848Z"
+  "lastFetchedAt": "2017-05-04T21:23:21.848Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:55.197Z"
 }

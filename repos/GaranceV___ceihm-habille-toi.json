@@ -80,6 +80,7 @@
       "dev": "NODE_ENV='development' npm run start",
       "dist": "build -mw --x64 --ia32"
     },
+    "author": "CEIHM - Polytech Nice Sophia",
     "devDependencies": {
       "copyfiles": "~1.0.0",
       "electron-builder": "5.12.X",
@@ -172,5 +173,6 @@
   },
   "filename": "GaranceV___ceihm-habille-toi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:04.317Z"
+  "lastFetchedAt": "2017-05-04T19:44:04.317Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:44.761Z"
 }

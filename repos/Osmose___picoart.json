@@ -84,6 +84,7 @@
       "build": "webpack --colors",
       "watch": "webpack --watch --colors"
     },
+    "author": "Michael Kelly",
     "license": "MIT",
     "dependencies": {
       "babel-core": "^6.3.15",
@@ -133,5 +134,6 @@
   },
   "filename": "Osmose___picoart.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:28:17.274Z"
+  "lastFetchedAt": "2017-05-04T19:28:17.274Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:43.382Z"
 }

@@ -84,14 +84,21 @@
       "tsc:w": "tsc -w",
       "typings": "typings"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "@angular/common": "2.0.0-rc.6",
@@ -147,5 +154,6 @@
   },
   "filename": "sakuragitevil___mochi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:49.835Z"
+  "lastFetchedAt": "2017-05-03T20:04:49.835Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:28.479Z"
 }

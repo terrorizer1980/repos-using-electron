@@ -70,7 +70,10 @@
     "version": "0.1.0",
     "description": "Building and desining knit patterns",
     "main": "main.js",
-    "repository": "https://github.com/phabos/knit-design",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/phabos/knit-design.git"
+    },
     "license": "GPL-3.0",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -102,5 +105,6 @@
   },
   "filename": "phabos___knit-design.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:03.749Z"
+  "lastFetchedAt": "2017-05-04T14:19:03.749Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:11.399Z"
 }

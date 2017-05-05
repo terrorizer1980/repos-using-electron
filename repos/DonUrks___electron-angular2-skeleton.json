@@ -60,14 +60,21 @@
       "dist-win32-x64": "npm run tsc && electron-packager . --out=dist --platform=win32 --arch=x64 --overwrite",
       "dist-all": "npm run tsc && electron-packager . --out=dist --platform=all --arch=all --overwrite"
     },
-    "repository": "https://github.com/DonUrks/electron-angular2-skeleton",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DonUrks/electron-angular2-skeleton.git"
+    },
     "keywords": [
       "node",
       "typescript",
       "angular2",
       "electron"
     ],
+    "author": "Eric Müller",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DonUrks/electron-angular2-skeleton/issues"
+    },
     "homepage": "https://github.com/DonUrks/electron-angular2-skeleton#readme",
     "dependencies": {
       "electron-packager": "^7.2.0",
@@ -138,5 +145,6 @@
   },
   "filename": "DonUrks___electron-angular2-skeleton.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:12.866Z"
+  "lastFetchedAt": "2017-05-04T20:12:12.866Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:30.444Z"
 }

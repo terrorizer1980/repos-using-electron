@@ -67,5 +67,43 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:14:07.743Z"
+  "lastFetchedAt": "2017-05-04T18:14:07.743Z",
+  "packageJSON": {
+    "author": "Taylor Fausak <taylor@fausak.me>",
+    "build": {
+      "appId": "gg.gizmo.uploader",
+      "publish": [
+        {
+          "provider": "github",
+          "vPrefixedTagName": false
+        }
+      ]
+    },
+    "dependencies": {
+      "chokidar": "1.6.1",
+      "electron-updater": "1.8.1",
+      "mithril": "1.0.1",
+      "request": "2.79.0"
+    },
+    "description": "Rocket League replay uploader",
+    "devDependencies": {
+      "electron": "1.4.15",
+      "electron-builder": "14.5.3",
+      "eslint": "3.16.1"
+    },
+    "license": "MIT",
+    "name": "gizmo-gg-uploader",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tfausak/gizmo-gg-uploader"
+    },
+    "scripts": {
+      "build": "build",
+      "electron": "electron",
+      "eslint": "eslint"
+    },
+    "version": "0.0.6"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T01:12:53.375Z"
 }

@@ -78,7 +78,10 @@
       "build:watch": "npm run build:assets | npm run build:js-watch",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/VitaliyMakarets/player",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/VitaliyMakarets/player.git"
+    },
     "keywords": [
       "mp3",
       "audio",
@@ -87,7 +90,11 @@
       "scrobbling",
       "vk"
     ],
+    "author": "vitaliy <o.u.screamaimfire14@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VitaliyMakarets/player/issues"
+    },
     "dependencies": {
       "async": "^0.9.0",
       "follow-redirects": "0.0.7",
@@ -133,5 +140,6 @@
   },
   "filename": "VitaliyMakarets___player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:08.702Z"
+  "lastFetchedAt": "2017-05-04T05:15:08.702Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:09.562Z"
 }

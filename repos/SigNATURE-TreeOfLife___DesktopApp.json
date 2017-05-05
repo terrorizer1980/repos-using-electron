@@ -93,14 +93,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "bootstrap": "^3.3.6",
@@ -149,5 +156,6 @@
   },
   "filename": "SigNATURE-TreeOfLife___DesktopApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:42.071Z"
+  "lastFetchedAt": "2017-05-04T21:18:42.071Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:28.892Z"
 }

@@ -67,12 +67,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/prime-radiants/novent-desktop-reader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prime-radiants/novent-desktop-reader"
+    },
     "keywords": [
       "Novent",
       "Prime-Radiants"
     ],
+    "author": "Shanira",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/prime-radiants/novent-desktop-reader/issues"
+    },
     "homepage": "https://github.com/prime-radiants/novent-desktop-reader",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -126,5 +133,6 @@
   },
   "filename": "prime-radiants___novent-desktop-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:25.529Z"
+  "lastFetchedAt": "2017-05-04T18:15:25.529Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:32.472Z"
 }

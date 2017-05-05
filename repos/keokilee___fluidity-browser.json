@@ -66,7 +66,11 @@
       "test:watch": "npm run test:watch:browser",
       "test:watch:browser": "npm run test:browser -- --auto-watch --no-single-run"
     },
-    "repository": "https://github.com/keokilee/fluidity-browser",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/keokilee/fluidity-browser.git"
+    },
+    "author": "George Lee",
     "license": "ISC",
     "dependencies": {
       "classnames": "^2.2.0",
@@ -184,5 +188,6 @@
   },
   "filename": "keokilee___fluidity-browser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:18.827Z"
+  "lastFetchedAt": "2017-05-04T20:25:18.827Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:40.763Z"
 }

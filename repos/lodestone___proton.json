@@ -185,24 +185,19 @@
       "release": "node ./script/release.js"
     },
     "repository": {
-      "user": "steventhanna",
-      "repo": "proton",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/steventhanna/proton/tarball/master",
-      "clone_url": "https://github.com/steventhanna/proton",
-      "https_url": "https://github.com/steventhanna/proton",
-      "travis_url": "https://travis-ci.org/steventhanna/proton",
-      "zip_url": "https://github.com/steventhanna/proton/archive/master.zip",
-      "api_url": "https://api.github.com/repos/steventhanna/proton"
+      "type": "git",
+      "url": "git+https://github.com/steventhanna/proton"
     },
     "keywords": [
       "Proton",
       "Markdown",
       "Editor"
     ],
+    "author": "Steven T Hanna",
     "license": "GNU",
+    "bugs": {
+      "url": "https://github.com/steventhanna/proton/issues"
+    },
     "homepage": "https://github.com/steventhanna/proton",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -264,5 +259,6 @@
   "svnUrl": "https://github.com/lodestone/proton",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:02:01.707Z"
+  "lastFetchedAt": "2017-05-04T18:02:01.707Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:32.718Z"
 }

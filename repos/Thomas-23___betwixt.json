@@ -175,17 +175,8 @@
       "test": "jshint src/lib/ src/*.js && jscs src/lib/ src/*.js"
     },
     "repository": {
-      "user": "kdzwinel",
-      "repo": "betwixt",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kdzwinel/betwixt/tarball/master",
-      "clone_url": "https://github.com/kdzwinel/betwixt",
-      "https_url": "https://github.com/kdzwinel/betwixt",
-      "travis_url": "https://travis-ci.org/kdzwinel/betwixt",
-      "zip_url": "https://github.com/kdzwinel/betwixt/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kdzwinel/betwixt"
+      "type": "git",
+      "url": "git+https://github.com/kdzwinel/betwixt.git"
     },
     "keywords": [
       "traffic",
@@ -193,7 +184,11 @@
       "mitm",
       "devtools"
     ],
+    "author": "Konrad Dzwinel",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kdzwinel/betwixt/issues"
+    },
     "homepage": "https://github.com/kdzwinel/betwixt",
     "dependencies": {
       "chalk": "^1.1.1",
@@ -254,5 +249,6 @@
   "svnUrl": "https://github.com/Thomas-23/betwixt",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:19:17.325Z"
+  "lastFetchedAt": "2017-05-04T21:19:17.325Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:28.911Z"
 }

@@ -85,14 +85,21 @@
       "tsc:w": "tsc -w",
       "typings": "typings"
     },
-    "repository": "https://github.com/dbfannin/rc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dbfannin/rc"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "@angular/common": "2.0.0-rc.5",
@@ -152,5 +159,6 @@
   },
   "filename": "dbfannin___rc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:48.599Z"
+  "lastFetchedAt": "2017-05-04T19:30:48.599Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:06.870Z"
 }

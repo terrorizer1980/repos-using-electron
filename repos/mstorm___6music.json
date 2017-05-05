@@ -56,7 +56,15 @@
     "version": "0.0.2",
     "description": "6music radio player",
     "license": "MIT",
-    "repository": "https://github.com/mstorm/6music",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mstorm/6music.git"
+    },
+    "author": {
+      "name": "Stephen Kwon",
+      "email": "mstorm@mstorm.net",
+      "url": "http://mstorm.net/"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron .",
@@ -112,5 +120,6 @@
   "svnUrl": "https://github.com/mstorm/6music",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:00:11.930Z"
+  "lastFetchedAt": "2017-05-04T05:00:11.930Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:26.082Z"
 }

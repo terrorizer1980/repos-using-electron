@@ -67,5 +67,19 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:32:57.255Z"
+  "lastFetchedAt": "2017-05-04T18:32:57.255Z",
+  "packageJSON": {
+    "name": "bugtest",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron main.js"
+    },
+    "dependencies": {
+      "electron": "1.6.7"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:27:44.985Z"
 }

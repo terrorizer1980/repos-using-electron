@@ -90,8 +90,15 @@
       "build": "electron-packager . ult-twiclient --platform=win32 --arch=all --version=0.33.0 --overwrite --out=build --asar",
       "test": "eslint **/*.js"
     },
-    "repository": "https://github.com/kmc-jp/ult-twiclient",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kmc-jp/ult-twiclient.git"
+    },
+    "author": "KMC",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kmc-jp/ult-twiclient/issues"
+    },
     "homepage": "https://github.com/kmc-jp/ult-twiclient#readme"
   },
   "packageStatus": 200,
@@ -139,5 +146,6 @@
   "svnUrl": "https://github.com/kmc-jp/ult-twiclient",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:55:58.083Z"
+  "lastFetchedAt": "2017-05-04T17:55:58.083Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:51.778Z"
 }

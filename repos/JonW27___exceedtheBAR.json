@@ -80,17 +80,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "atom",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/atom/electron-quick-start",
-      "https_url": "https://github.com/atom/electron-quick-start",
-      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
-      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
     },
     "keywords": [
       "exceedtheBAR",
@@ -98,7 +89,11 @@
       "homework",
       "notifications"
     ],
+    "author": "Jonathan Wong",
     "license": "MIT",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -130,5 +125,6 @@
   "filename": "JonW27___exceedtheBAR.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:19.832Z"
+  "lastFetchedAt": "2017-05-04T21:12:19.832Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:02.125Z"
 }

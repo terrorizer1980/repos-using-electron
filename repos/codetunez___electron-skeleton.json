@@ -50,7 +50,10 @@
     "version": "0.0.1",
     "description": "Angular2+Bootstrap Electron Skeleton App",
     "main": "main.js",
-    "repository": "https://github.com/codetunez/electron-skeleton",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/codetunez/electron-skeleton.git"
+    },
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
@@ -74,6 +77,7 @@
       "typescript": "^1.8.10",
       "zone.js": "^0.6.11"
     },
+    "author": "codetunez",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -121,5 +125,6 @@
   },
   "filename": "codetunez___electron-skeleton.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:00.735Z"
+  "lastFetchedAt": "2017-05-04T20:58:00.735Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:41.901Z"
 }

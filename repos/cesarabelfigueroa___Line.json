@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/cesarabelfigueroa/Line",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cesarabelfigueroa/Line"
+    },
+    "author": "César Figueroa",
     "license": "MIT",
     "dependencies": {
       "angular": "^1.5.8",
@@ -120,5 +124,6 @@
   },
   "filename": "cesarabelfigueroa___Line.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:25.119Z"
+  "lastFetchedAt": "2017-05-04T14:26:25.119Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:49.554Z"
 }

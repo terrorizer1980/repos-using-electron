@@ -76,8 +76,15 @@
       "build": "gulp webpack",
       "watch": "gulp watch"
     },
-    "repository": "https://github.com/hurumeki/mascot-ops",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hurumeki/mascot-ops.git"
+    },
+    "author": "hurumeki",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hurumeki/mascot-ops/issues"
+    },
     "homepage": "https://github.com/hurumeki/mascot-ops#readme",
     "devDependencies": {
       "babel-core": "^6.3.17",
@@ -133,5 +140,6 @@
   },
   "filename": "hurumeki___mascot-ops.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:01.410Z"
+  "lastFetchedAt": "2017-05-04T19:44:01.410Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:10.267Z"
 }

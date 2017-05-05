@@ -96,17 +96,8 @@
       "node": "6.5.0"
     },
     "repository": {
-      "user": "resin-io",
-      "repo": "etcher",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/resin-io/etcher/tarball/master",
-      "clone_url": "https://github.com/resin-io/etcher",
-      "https_url": "https://github.com/resin-io/etcher",
-      "travis_url": "https://travis-ci.org/resin-io/etcher",
-      "zip_url": "https://github.com/resin-io/etcher/archive/master.zip",
-      "api_url": "https://api.github.com/repos/resin-io/etcher"
+      "type": "git",
+      "url": "git@github.com:resin-io/etcher.git"
     },
     "scripts": {
       "test": "npm run lint && electron-mocha --recursive --renderer tests/gui -R min",
@@ -114,6 +105,7 @@
       "start": "electron lib/start.js",
       "shrinkwrap": "node ./scripts/shrinkwrap.js"
     },
+    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "Apache-2.0",
     "copyright": "Copyright 2016 Resinio Ltd",
     "packageIgnore": [
@@ -233,5 +225,6 @@
   "filename": "HuayraLinux___huayra-clonar.json",
   "sourceRepo": "resin-io/etcher",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:30:55.382Z"
+  "lastFetchedAt": "2017-05-04T15:30:55.382Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:21.879Z"
 }

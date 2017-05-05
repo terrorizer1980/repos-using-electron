@@ -75,7 +75,7 @@
   "packageJSON": {
     "name": "MisRCON",
     "productName": "MisRCON",
-    "version": "0.0.4",
+    "version": "0.2.0",
     "description": "RCON Tool for Miscreated game.",
     "main": "main.js",
     "scripts": {
@@ -97,7 +97,7 @@
       "package-all": "npm run build && build -mwl"
     },
     "build": {
-      "appId": "org.develar.ElectronReact",
+      "appId": "org.entradainteractive.MisRCON",
       "category": "public.app-category.tools",
       "dmg": {
         "contents": [
@@ -120,13 +120,10 @@
         "app.html",
         "main.js",
         "main.js.map",
-        "package.json",
-        "api/misrcon.exe"
+        "package.json"
       ],
       "win": {
-        "extraFiles": [
-          "resources/misrcon_cli.exe"
-        ],
+        "extraFiles": [],
         "target": "nsis"
       },
       "linux": {
@@ -136,21 +133,32 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/csprance/MisRCON.git"
+    },
+    "author": {
+      "name": "Chris Sprance",
+      "email": "chrissprance@gmail.com",
+      "url": "https://github.com/csprance"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/csprance/MisRCON/issues"
+    },
     "keywords": [
-      "electron",
-      "boilerplate",
-      "react",
-      "react-router",
-      "flux",
-      "webpack",
-      "react-hot"
+      "miscreated",
+      "rcon",
+      "misrcon"
     ],
-    "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+    "homepage": "https://github.com/csprance/MisRCON#readme",
     "devDependencies": {
       "asar": "^0.12.3",
       "babel-core": "^6.18.2",
@@ -191,6 +199,7 @@
       "eslint-plugin-react": "^6.7.1",
       "express": "^4.14.0",
       "extract-text-webpack-plugin": "^1.0.1",
+      "extract-zip": "=1.6.0",
       "fbjs-scripts": "^0.7.1",
       "file-loader": "^0.9.0",
       "html-webpack-plugin": "^2.24.1",
@@ -213,6 +222,7 @@
     },
     "dependencies": {
       "axios": "^0.15.3",
+      "babyparse": "^0.4.6",
       "bluebird": "^3.4.6",
       "class-bind": "^0.2.0",
       "csv": "^1.1.0",
@@ -227,10 +237,8 @@
       "material-ui": "^0.16.4",
       "md5": "^2.2.1",
       "moment": "^2.17.1",
-      "nedb": "^1.8.0",
+      "node-misrcon": "^0.3.11",
       "node-schedule": "^1.2.0",
-      "pouchdb": "^6.1.0",
-      "pouchdb-browser": "^6.1.0",
       "prettycron": "^0.10.0",
       "react": "^15.4.1",
       "react-chatview": "^0.1.1",
@@ -254,7 +262,8 @@
       "styled-components": "^1.1.2",
       "styles-debugger": "0.0.5",
       "validate.js": "^0.11.1",
-      "warning": "^3.0.0"
+      "warning": "^3.0.0",
+      "xml2js": "^0.4.17"
     },
     "devEngines": {
       "node": ">=6.x",
@@ -285,5 +294,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:57.619Z"
+  "lastFetchedAt": "2017-05-04T20:44:57.619Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:42.644Z"
 }

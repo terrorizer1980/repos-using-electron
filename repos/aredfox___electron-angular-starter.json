@@ -67,5 +67,31 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:42:30.275Z"
+  "lastFetchedAt": "2017-05-04T20:42:30.275Z",
+  "packageJSON": {
+    "name": "electron-angular-starter",
+    "version": "0.0.1",
+    "description": "Electron + Angular 2 + + Webpack 2 + TypeScript",
+    "author": "aredfox <yves.schelpe@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aredfox/electron-angular-starter"
+    },
+    "bugs": {
+      "url": "https://github.com/aredfox/electron-angular-starter/issues"
+    },
+    "scripts": {
+      "electron": "electron src/index.html"
+    },
+    "dependencies": {
+      "electron": "^1.6.2"
+    },
+    "devDependencies": {
+      "@types/electron": "^1.4.34",
+      "electron-packager": "^8.6.0",
+      "typescript": "^2.2.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T01:22:29.977Z"
 }

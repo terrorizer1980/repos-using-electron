@@ -62,34 +62,63 @@
   "packageJSON": {
     "jspm": {
       "dependencies": {
-        "jquery": "github:components/jquery@^3.1.0",
+        "jquery": "github:components/jquery@3.1.0",
         "leaflet": "github:Leaflet/Leaflet@^0.7.7"
       },
       "devDependencies": {
-        "babel": "npm:babel-core@^5.8.24",
-        "babel-runtime": "npm:babel-runtime@^5.8.24",
-        "core-js": "npm:core-js@^1.1.4"
+        "babel-runtime": "npm:babel-runtime@5.8.24",
+        "core-js": "npm:core-js@1.1.4",
+        "fs": "npm:jspm-nodelibs-fs@^0.2.0",
+        "path": "npm:jspm-nodelibs-path@^0.2.0",
+        "plugin-babel": "npm:systemjs-plugin-babel@^0.0.17",
+        "process": "npm:jspm-nodelibs-process@^0.2.0"
+      },
+      "buildConfig": {
+        "transpileES6": true,
+        "minify": true
+      },
+      "overrides": {
+        "github:Leaflet/Leaflet@0.7.7": {
+          "dependencies": {
+            "css": "*"
+          },
+          "meta": {
+            "dist/leaflet-src.js": {
+              "deps": [
+                "./leaflet.css!"
+              ],
+              "format": "global"
+            }
+          }
+        },
+        "npm:babel-runtime@5.8.38": {
+          "main": false,
+          "dependencies": {},
+          "optionalDependencies": {
+            "core-js": "^1.2.0"
+          }
+        }
       }
     },
     "devDependencies": {
-      "babel-cli": "^6.14.0",
-      "babel-core": "^6.9.1",
-      "babel-plugin-add-module-exports": "^0.2.1",
-      "babel-plugin-transform-es2015-modules-commonjs": "^6.14.0",
-      "babel-plugin-transform-es2015-modules-systemjs": "^6.14.0",
-      "babel-plugin-transform-es2015-modules-umd": "^6.12.0",
-      "babel-polyfill": "^6.13.0",
-      "babel-preset-es2015": "^6.9.0",
-      "browserify": "^13.1.0",
-      "electron-prebuilt": "^1.2.1",
-      "jspm": "^0.16.42",
-      "wallabify": "0.0.14"
+      "babel-cli": "6.14.0",
+      "babel-core": "6.9.1",
+      "babel-plugin-add-module-exports": "0.2.1",
+      "babel-plugin-transform-es2015-modules-commonjs": "6.14.0",
+      "babel-plugin-transform-es2015-modules-systemjs": "6.14.0",
+      "babel-plugin-transform-es2015-modules-umd": "6.12.0",
+      "babel-polyfill": "6.13.0",
+      "babel-preset-es2015": "6.9.0",
+      "browserify": "13.1.0",
+      "electron-prebuilt": "1.2.1",
+      "jspm": "0.17.0-beta.32",
+      "rimraf": "^2.5.4"
     },
     "dependencies": {
-      "babel-standalone": "^6.14.0",
-      "connect": "^3.4.1",
-      "livereload": "^0.5.0",
-      "serve-static": "^1.11.1",
+      "babel-standalone": "6.14.0",
+      "connect": "3.4.1",
+      "livereload": "0.5.0",
+      "serve-static": "1.11.1",
       "wallabify": "0.0.14"
     }
   },
@@ -138,5 +167,6 @@
   },
   "filename": "exactfarming___map-distance-ruler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:29.632Z"
+  "lastFetchedAt": "2017-05-04T19:56:29.632Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:48.320Z"
 }

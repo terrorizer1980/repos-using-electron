@@ -201,21 +201,13 @@
       "release": "node ./script/release.js"
     },
     "repository": {
-      "user": "matjaz",
-      "repo": "athom-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/matjaz/athom-desktop/tarball/master",
-      "clone_url": "https://github.com/matjaz/athom-desktop",
-      "https_url": "https://github.com/matjaz/athom-desktop",
-      "travis_url": "https://travis-ci.org/matjaz/athom-desktop",
-      "zip_url": "https://github.com/matjaz/athom-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/matjaz/athom-desktop"
+      "type": "git",
+      "url": "git+https://github.com/matjaz/athom-desktop.git"
     },
     "keywords": [
       "Homey"
     ],
+    "author": "Matjaz Lipus",
     "homepage": "https://github.com/matjaz/athom-desktop#readme",
     "dependencies": {
       "glob": "^6.0.4"
@@ -288,5 +280,6 @@
   "svnUrl": "https://github.com/athombv/athom-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:39:53.002Z"
+  "lastFetchedAt": "2017-05-04T20:39:53.002Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:34.053Z"
 }

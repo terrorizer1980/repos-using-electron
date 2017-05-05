@@ -72,6 +72,11 @@
     "description": "A desktop version of the NewsLynx web app.",
     "main": "index.js",
     "repository": "newslynx/newslynx-electron",
+    "author": {
+      "name": "mhkeller",
+      "email": "michael.keller@gmail.com",
+      "url": "newslynx.org"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -151,5 +156,6 @@
   "svnUrl": "https://github.com/newslynx/newslynx-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:00:39.118Z"
+  "lastFetchedAt": "2017-05-04T20:00:39.118Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:14.174Z"
 }

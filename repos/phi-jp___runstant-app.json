@@ -55,8 +55,15 @@
       "start": "node_modules/.bin/electron .",
       "build": "node build.js"
     },
-    "repository": "https://github.com/phi-jp/runstant-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/phi-jp/runstant-app.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/phi-jp/runstant-app/issues"
+    },
     "homepage": "https://github.com/phi-jp/runstant-app",
     "devDependencies": {
       "electron-prebuilt": "^0.34.2",
@@ -108,5 +115,6 @@
   },
   "filename": "phi-jp___runstant-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:13.614Z"
+  "lastFetchedAt": "2017-05-04T20:38:13.614Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:01.923Z"
 }

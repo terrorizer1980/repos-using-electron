@@ -59,11 +59,26 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/heidgera/photoBoard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/heidgera/photoBoard.git"
+    },
+    "author": "ajhg",
     "license": "CC0-1.0",
     "homepage": "https://github.com/heidgera/photoBoard#readme",
     "devDependencies": {
-      "electron-prebuilt": "^0.35.0"
+      "electron": "^1.4.5",
+      "express": "^4.15.2",
+      "google-auth-library": "^0.10.0",
+      "googleapis": "^18.0.0",
+      "nodemailer": "^4.0.0",
+      "sharp": "^0.17.3",
+      "body-parser": "^1.17.1"
+    },
+    "dependencies": {
+      "connect-busboy": "0.0.2",
+      "exif": "^0.6.0",
+      "path": "^0.12.7"
     }
   },
   "packageStatus": 200,
@@ -111,5 +126,6 @@
   "svnUrl": "https://github.com/heidgera/photoBoard",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:33:56.033Z"
+  "lastFetchedAt": "2017-05-04T20:33:56.033Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:33.881Z"
 }

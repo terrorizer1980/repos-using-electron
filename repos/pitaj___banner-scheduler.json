@@ -90,11 +90,18 @@
       "start": "node_modules/.bin/electron ./",
       "build": "node build.js"
     },
-    "repository": "https://github.com/pitaj/banner-scheduler",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pitaj/banner-scheduler.git"
+    },
     "keywords": [
       "student"
     ],
+    "author": "PitaJ",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pitaj/banner-scheduler/issues"
+    },
     "homepage": "https://github.com/pitaj/banner-scheduler"
   },
   "packageStatus": 200,
@@ -122,5 +129,6 @@
   },
   "filename": "pitaj___banner-scheduler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:30.820Z"
+  "lastFetchedAt": "2017-05-04T20:32:30.820Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:00.663Z"
 }

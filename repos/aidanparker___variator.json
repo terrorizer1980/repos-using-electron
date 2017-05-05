@@ -73,5 +73,31 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:00:12.179Z"
+  "lastFetchedAt": "2017-05-04T20:00:12.179Z",
+  "packageJSON": {
+    "name": "variator",
+    "version": "0.1.8",
+    "description": "Give variation to your sound effects.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "package": "electron-packager ./ Variator --out=./dist --overwrite"
+    },
+    "repository": "https://github.com/aidanparker/variator",
+    "keywords": [
+      "Electron"
+    ],
+    "author": "Aidan Parker",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-packager": "^8.6.0"
+    },
+    "dependencies": {
+      "normalize.css": "^5.0.0",
+      "p5": "^0.5.7"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:39:01.648Z"
 }

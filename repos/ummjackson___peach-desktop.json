@@ -49,7 +49,10 @@
     "name": "peach-desktop",
     "version": "0.5.0",
     "description": "Desktop client for peach.cool",
-    "repository": "https://github.com/ummjackson/peach-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ummjackson/peach-desktop.git"
+    },
     "main": "app.js",
     "scripts": {
       "start": "electron app.js",
@@ -64,6 +67,7 @@
       "social",
       "desktop"
     ],
+    "author": "Jackson Palmer (@ummjackson)",
     "license": "MIT",
     "dependencies": {
       "express": "^4.13.3",
@@ -123,5 +127,6 @@
   "svnUrl": "https://github.com/ummjackson/peach-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:24:57.057Z"
+  "lastFetchedAt": "2017-05-04T21:24:57.057Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:08.527Z"
 }

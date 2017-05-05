@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "vscode-color",
-    "version": "0.2.1",
+    "version": "0.4.1",
     "displayName": "Color Picker",
     "description": "Helper with GUI to generate color codes such as CSS color notations.",
     "keywords": [
@@ -85,19 +85,19 @@
     "dependencies": {
       "comma-separated-values": "^3.6.4",
       "electron-prebuilt": "0.37.3",
-      "js-yaml": "^3.5.5",
-      "process-bridge": "^0.3.5"
+      "js-yaml": "^3.8.3",
+      "process-bridge": "^0.3.6"
     },
     "devDependencies": {
       "asar": "^0.11.0",
-      "clean-css": "^3.4.9",
+      "clean-css": "^4.0.11",
       "grunt": "^0.4.5",
       "grunt-contrib-clean": "^1.0.0",
       "grunt-contrib-copy": "^0.8.2",
-      "grunt-task-helper": "^0.3.7",
-      "htmlclean": "^2.7.7",
+      "grunt-task-helper": "^0.3.9",
+      "htmlclean": "^3.0.2",
       "jquery": "^2.2.2",
-      "stats-filelist": "^0.1.1",
+      "stats-filelist": "^1.0.0",
       "vscode": "0.10.x"
     },
     "contributes": {
@@ -130,22 +130,37 @@
           "colorHelper.pickerForm": {
             "type": "string",
             "default": "default",
-            "description": "Name of preset package that switches UI and features. Allowed values are \"default\", \"largePalette\", \"simple\", \"compact\", \"compact2\" or \"byPalette\"."
+            "description": "A name of preset package that switches UI and features. Allowed values are \"default\", \"largePalette\", \"simple\", \"compact\", \"compact2\" or \"byPalette\"."
           },
           "colorHelper.storeDir": {
             "type": "string",
             "default": "",
-            "description": "Path to directory that contains your color palettes."
+            "description": "A path to directory that contains your color palettes. For information about color palettes, see `README.md` that is found in that directory."
           },
           "colorHelper.resident": {
             "type": "boolean",
             "default": false,
-            "description": "Stands by for a quick response. It stays in memory even after it is closed until it is unloaded."
+            "description": "Stands by for a quick response. After the dialog box is opened, it stays in memory even after it is closed until VS Code is exited (or VS Code might unload it)."
           },
           "colorHelper.formatsOrder": {
             "type": "array",
             "default": [],
-            "description": "Order of formats in each UI. Allowed items are \"hsb\", \"hsl\", \"hwb\", \"rgb\", \"hex\", \"named\", \"cmyk\" or \"gray\". Items that are not contained in this array are moved to the top of the list when it was used. If you want to make the list static, specify all formats like `[\"hsb\", \"hsl\", \"hwb\", \"rgb\", \"hex\", \"named\", \"cmyk\", \"gray\"]`."
+            "description": "An array that indicates the order of formats in UI (e.g. drop-down list). Allowed items are \"hsb\", \"hsl\", \"hwb\", \"rgb\", \"hex\", \"named\", \"cmyk\" or \"gray\". This array doesn't have to contain all formats. The formats that are not contained in the array are moved to the top of the list in UI automatically when it was used. If you want to make the list static, specify all formats in the order you desire, e.g. [\"hsb\", \"hsl\", \"hwb\", \"rgb\", \"hex\", \"named\", \"cmyk\", \"gray\"]."
+          },
+          "colorHelper.disableGpu": {
+            "type": "number",
+            "default": -1,
+            "description": "1: Disable GPU / 0: System default / -1: Auto"
+          },
+          "colorHelper.disableShadow": {
+            "type": "boolean",
+            "default": false,
+            "description": "Disable drop shadow effect."
+          },
+          "colorHelper.disableTransparent": {
+            "type": "boolean",
+            "default": false,
+            "description": "Disable transparent window."
           }
         }
       }
@@ -155,7 +170,13 @@
       "onCommand:extension.colorHelper.convert"
     ],
     "homepage": "https://github.com/anseki/vscode-color",
-    "repository": "https://github.com/anseki/vscode-color",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/anseki/vscode-color.git"
+    },
+    "bugs": {
+      "url": "https://github.com/anseki/vscode-color/issues"
+    },
     "license": "MIT",
     "publisher": "anseki"
   },
@@ -204,5 +225,6 @@
   "svnUrl": "https://github.com/anseki/vscode-color",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:02:17.595Z"
+  "lastFetchedAt": "2017-05-04T18:02:17.595Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:28.220Z"
 }

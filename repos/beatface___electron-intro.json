@@ -79,9 +79,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/beatface/electron-intro",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beatface/electron-intro.git"
+    },
     "keywords": [],
+    "author": "“Emma <“emma.beaton@gmail.com”>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/beatface/electron-intro/issues"
+    },
     "homepage": "https://github.com/beatface/electron-intro#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -112,5 +119,6 @@
   },
   "filename": "beatface___electron-intro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:42.532Z"
+  "lastFetchedAt": "2017-05-04T21:11:42.532Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:08.153Z"
 }

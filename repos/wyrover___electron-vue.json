@@ -54,6 +54,7 @@
   "packageJSON": {
     "name": "app",
     "description": "A Vue.js project",
+    "author": "wyrover <wyrover@gmail.com>",
     "private": true,
     "scripts": {
       "dev": "node build/dev-server.js",
@@ -164,5 +165,6 @@
   "svnUrl": "https://github.com/wyrover/electron-vue",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:28:11.323Z"
+  "lastFetchedAt": "2017-05-04T18:28:11.323Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:46.295Z"
 }

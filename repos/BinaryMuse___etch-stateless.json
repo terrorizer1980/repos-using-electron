@@ -64,11 +64,18 @@
       "build": "node_modules/.bin/babel src --out-dir dist",
       "clean": "rm -rf dist"
     },
-    "repository": "https://github.com/BinaryMuse/etch-stateless",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BinaryMuse/etch-stateless.git"
+    },
     "keywords": [
       "virtual-dom dom view element custom-elements dom-diff atom electron stateless etch"
     ],
+    "author": "Michelle Tilley <michelle@michelletilley.net>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/BinaryMuse/etch-stateless/issues"
+    },
     "homepage": "https://github.com/BinaryMuse/etch-stateless",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -134,5 +141,6 @@
   },
   "filename": "BinaryMuse___etch-stateless.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:10.696Z"
+  "lastFetchedAt": "2017-05-03T20:04:10.696Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:55.047Z"
 }

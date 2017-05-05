@@ -92,14 +92,21 @@
     "scripts": {
       "test": "echo \"Not Implemented yet\" && exit 0"
     },
-    "repository": "https://github.com/labs-js/miniature",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/labs-js/miniature.git"
+    },
     "keywords": [
       "books",
       "react",
       "node",
       "express"
     ],
+    "author": "labs-js",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/labs-js/miniature/issues"
+    },
     "homepage": "https://github.com/labs-js/miniature#readme"
   },
   "packageStatus": 200,
@@ -127,5 +134,6 @@
   },
   "filename": "labs-js___miniature.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:29.700Z"
+  "lastFetchedAt": "2017-05-04T18:08:29.700Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:22.997Z"
 }

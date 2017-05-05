@@ -94,7 +94,10 @@
       "prestart": "npm install && bower install",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/app-frame/app-frame-electron-template",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/app-frame/app-frame-electron-template.git"
+    },
     "keywords": [
       "app-frame",
       "Electron",
@@ -102,7 +105,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/app-frame/app-frame-electron-template/issues"
+    },
     "homepage": "https://github.com/app-frame/app-frame-electron-template#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7",
@@ -134,5 +141,6 @@
   },
   "filename": "app-frame___app-frame-electron-template.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:18.566Z"
+  "lastFetchedAt": "2017-05-04T20:17:18.566Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:21.113Z"
 }

@@ -72,6 +72,10 @@
     "description": "Electron usb scale test",
     "license": "MIT",
     "repository": "nickroberts/scaley",
+    "author": {
+      "name": "Nick Roberts",
+      "email": "djparadyme@gmail.com"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -138,5 +142,6 @@
   },
   "filename": "nickroberts___scaley.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:50.106Z"
+  "lastFetchedAt": "2017-05-04T14:49:50.106Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:54.285Z"
 }

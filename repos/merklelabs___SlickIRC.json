@@ -106,7 +106,10 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
     "authors": [
       {
         "name": "Tejas Manohar",
@@ -120,6 +123,9 @@
       }
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -219,5 +225,6 @@
   },
   "filename": "merklelabs___SlickIRC.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:35.953Z"
+  "lastFetchedAt": "2017-05-04T21:17:35.953Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:44.603Z"
 }

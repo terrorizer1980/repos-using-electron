@@ -104,8 +104,15 @@
       "rxjs": "5.0.0-beta.0",
       "zone.js": "^0.5.15"
     },
-    "repository": "https://github.com/wickdninja/com.alliedpayment.logsearch",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wickdninja/com.alliedpayment.logsearch.git"
+    },
+    "author": "nate.ross@alliedpayment.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wickdninja/com.alliedpayment.logsearch/issues"
+    },
     "homepage": "https://github.com/wickdninja/com.alliedpayment.logsearch#readme"
   },
   "packageStatus": 200,
@@ -133,5 +140,6 @@
   },
   "filename": "wickdninja___image-upload-ng2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:21:16.365Z"
+  "lastFetchedAt": "2017-05-04T20:21:16.365Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:33.782Z"
 }

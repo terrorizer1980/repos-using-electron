@@ -79,6 +79,11 @@
     "license": "MIT",
     "repository": "lightwish01/teste-electron",
     "main": "main.js",
+    "author": {
+      "name": "Daniel Pinheiro",
+      "email": "dedelabritos@gmail.com",
+      "url": "github.com/lightwish01"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -150,5 +155,6 @@
   },
   "filename": "lightwish01___test-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:05.446Z"
+  "lastFetchedAt": "2017-05-04T21:27:05.446Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:23.301Z"
 }

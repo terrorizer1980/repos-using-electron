@@ -80,6 +80,7 @@
       "dist": "cross-env NODE_ENV=production npm run webpack && build",
       "clean": "rimraf app/*.eot app/*.svg app/*.ttf app/*.woff app/*.woff2 app/js dist"
     },
+    "author": "Cobbleopolis",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.18.0",
@@ -111,7 +112,13 @@
       "font-awesome": "^4.7.0",
       "jquery": "^3.1.1"
     },
-    "repository": "https://github.com/Cobbleopolis/RainMachine",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cobbleopolis/RainMachine.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Cobbleopolis/RainMachine/issues"
+    },
     "homepage": "https://github.com/Cobbleopolis/RainMachine#readme",
     "build": {
       "appId": "com.cobble.rainMachine"
@@ -142,5 +149,6 @@
   },
   "filename": "Cobbleopolis___RainMachine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:07.801Z"
+  "lastFetchedAt": "2017-05-04T19:58:07.801Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:01.400Z"
 }

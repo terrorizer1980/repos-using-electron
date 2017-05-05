@@ -81,9 +81,10 @@
       "tutorial",
       "demo"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
-      "electron": "^1.4.1"
+      "electron": "~1.6.2"
     }
   },
   "packageStatus": 200,
@@ -135,5 +136,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T05:25:59.135Z"
+  "lastFetchedAt": "2017-05-04T05:25:59.135Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:06.424Z"
 }

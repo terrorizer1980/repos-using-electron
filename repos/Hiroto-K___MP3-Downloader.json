@@ -77,7 +77,18 @@
     "description": "Download the mp3 file from youtube and soundcloud",
     "main": "app.js",
     "homepage": "https://hiroto-k.github.io/MP3-Downloader/",
-    "repository": "https://github.com/Hiroto-K/MP3-Downloader",
+    "author": {
+      "name": "Hiroto Kitazawa",
+      "email": "hiro.yo.yo1610@gmail.com",
+      "url": "https://hiroto-k.net/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Hiroto-K/MP3-Downloader.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Hiroto-K/MP3-Downloader/issues"
+    },
     "license": "MIT",
     "private": true,
     "scripts": {
@@ -145,5 +156,6 @@
   },
   "filename": "Hiroto-K___MP3-Downloader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:54.120Z"
+  "lastFetchedAt": "2017-05-04T20:34:54.120Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:31.841Z"
 }

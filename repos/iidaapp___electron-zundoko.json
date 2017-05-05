@@ -67,5 +67,23 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:50:52.246Z"
+  "lastFetchedAt": "2017-05-04T14:50:52.246Z",
+  "packageJSON": {
+    "name": "electron-zundoko",
+    "version": "1.0.0",
+    "description": "Zun Doko System for Electron",
+    "main": "index.js",
+    "scripts": {
+      "zundoko": "./node_modules/.bin/electron src/main.js"
+    },
+    "author": "iidaapp",
+    "license": "MIT",
+    "dependencies": {
+      "electron": "^1.6.2",
+      "lodash": "^4.17.4",
+      "mocha": "^3.2.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T23:06:48.927Z"
 }

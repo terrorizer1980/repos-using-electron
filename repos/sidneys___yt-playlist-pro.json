@@ -73,13 +73,24 @@
   "subscribersCount": 0,
   "status": 200,
   "packageJSON": {
-    "name": "yt-playlist-pro",
-    "productName": "YT Playlist Pro",
-    "version": "0.4.0",
+    "name": "youtube-playlist-player",
+    "productName": "YouTube Playlist Player",
+    "version": "1.2.5",
     "description": "Watch and edit your YouTube playlist on the desktop",
     "license": "MIT",
-    "homepage": "https://sidneys.github.io/yt-playlist-pro",
-    "repository": "https://github.com/sidneys/yt-playlist-pro",
+    "homepage": "https://sidneys.github.io/youtube-playlist-player",
+    "author": {
+      "name": "sidneys",
+      "email": "sidneys.github.io@outlook.com",
+      "url": "https://github.com/sidneys"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sidneys/youtube-playlist-player.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sidneys/youtube-playlist-player/issues"
+    },
     "engines": {
       "node": ">=7.0.0"
     },
@@ -96,52 +107,60 @@
     "dependencies": {
       "app-root-path": "^2.0.1",
       "appdirectory": "^0.1.0",
-      "babel-cli": "^6.18.0",
-      "babel-preset-electron": "^0.37.8",
+      "babel-cli": "^6.24.1",
+      "babel-preset-electron": "^1.4.15",
       "chalk": "^1.1.3",
-      "electron-auto-updater": "^0.10.1",
-      "electron-compile": "^5.1.2",
-      "electron-compilers": "^5.3.2",
-      "electron-connect": "^0.6.1",
+      "chalkline": "0.0.5",
       "electron-editor-context-menu": "^1.1.1",
-      "electron-settings": "^2.2.2",
-      "electron-squirrel-startup": "^1.0.0",
-      "fs-extra": "^1.0.0",
-      "keypath": "0.0.1",
+      "electron-settings": "^3.0.14",
+      "electron-updater": "^1.14.0",
+      "file-type": "^4.2.0",
+      "file-url": "^2.0.2",
+      "fs-extra": "^2.1.2",
+      "get-youtube-id": "^1.0.0",
+      "jquery": "^3.2.1",
+      "keypath": "^0.0.1",
       "lodash": "^4.17.4",
-      "normalize-url": "^1.9.0",
+      "minimist": "^1.2.0",
+      "parse-domain": "^1.1.0",
+      "parse-semver": "^1.1.1",
+      "present": "^1.0.0",
+      "read-chunk": "^2.0.0",
       "semver-compare": "^1.0.0",
-      "semver-regex": "^1.0.0"
+      "simple-reload": "0.0.4",
+      "try-require": "latest"
     },
     "devDependencies": {
-      "electron": "^1.4.14",
-      "electron-builder": "^11.2.4",
-      "electron-builder-squirrel-windows": "^11.2.1",
+      "electron": "^1.6.7",
+      "electron-builder": "^17.0.2",
+      "electron-connect": "^0.6.1",
+      "electron-prebuilt-compile": "git://github.com/sidneys/electron-prebuilt-compile.git#deploy",
       "fkill": "^4.1.0",
+      "git-branch": "^0.3.0",
       "glob": "^7.1.1",
       "gulp": "^3.9.1",
-      "gulp-load-plugins": "^1.4.0",
-      "minimist": "^1.2.0",
-      "progress": "^1.1.8",
-      "publish-release": "^1.3.3"
+      "gulp-load-plugins": "^1.5.0",
+      "hash-files": "^1.1.1",
+      "is-ci": "^1.0.10",
+      "json2md": "^1.5.8",
+      "progress": "^2.0.0",
+      "publish-release": "^1.3.3",
+      "yamljs": "^0.2.10"
     },
-    "main": "./app/es6-init.js",
+    "main": "./app/scripts/main/components/application.js",
     "bin": {
-      "yt-playlist-pro": "./bin/cli.js"
+      "youtube-playlist-player": "./bin/cli.js"
     },
     "scripts": {
-      "deploy:github": "node ./lib/deploy-github.js -- ",
-      "start": "./node_modules/.bin/electron ./app/es6-init.js",
-      "start:dev": "./node_modules/.bin/electron ./app/es6-init.js",
-      "start:livereload": "./node_modules/.bin/gulp livereload",
-      "build": "node ./lib/build.js -- ",
-      "localsetup": "./node_modules/.bin/babel-node ./lib/localsetup.js -- ",
-      "localsetup:dev": "./node_modules/.bin/babel-node ./lib/localsetup.js -- ",
-      "localsetup:rebuild": "./node_modules/.bin/babel-node ./lib/localsetup.js -- ",
-      "localsetup:rebuild:dev": "./node_modules/.bin/babel-node ./lib/localsetup.js -- "
+      "build": "node ./lib/build.js",
+      "deploy": "node ./lib/deploy.js",
+      "livereload": "./node_modules/.bin/gulp",
+      "localsetup": "./node_modules/.bin/babel-node ./lib/localsetup.js",
+      "releasenotes": "node ./lib/releasenotes.js",
+      "dev": "./node_modules/.bin/electron ./app/scripts/main/components/application.js"
     },
     "build": {
-      "appId": "de.sidneys.yt-playlist-pro",
+      "appId": "de.sidneys.youtube-playlist-player",
       "directories": {
         "buildResources": "./build/staging",
         "output": "./build/output"
@@ -153,32 +172,43 @@
         "!website"
       ],
       "mac": {
+        "category": "public.app-category.utilities",
         "icon": "./icons/darwin/icon.icns",
         "target": [
           "dmg",
           "zip"
-        ],
-        "category": "public.app-category.utilities"
+        ]
       },
       "win": {
         "icon": "./icons/win32/icon.ico",
         "target": [
-          "squirrel"
+          "nsis"
         ]
       },
       "linux": {
+        "category": "Utility",
+        "icon": "./icons/linux",
         "target": [
-          "deb"
-        ],
-        "category": "Utility"
+          "AppImage",
+          "deb",
+          "pacman",
+          "rpm"
+        ]
       },
       "dmg": {
         "background": "./icons/darwin/background-setup.png",
         "icon": "./icons/darwin/icon-setup.icns"
       },
-      "squirrelWindows": {
-        "iconUrl": "https://raw.githubusercontent.com/sidneys/yt-playlist-pro/release/icons/win32/icon.ico",
-        "loadingGif": "./icons/win32/background-setup.gif"
+      "nsis": {
+        "artifactName": "${name}-${version}-setup.${ext}",
+        "deleteAppDataOnUninstall": true,
+        "installerHeader": "./icons/win32/header-setup.bmp",
+        "installerHeaderIcon": "./icons/win32/icon.ico",
+        "installerIcon": "./icons/win32/icon-setup.ico",
+        "installerSidebar": "./icons/win32/background-setup.bmp",
+        "menuCategory": "Pushbullet",
+        "oneClick": false,
+        "runAfterFinish": false
       }
     }
   },
@@ -206,5 +236,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:54.259Z"
+  "lastFetchedAt": "2017-05-04T15:22:54.259Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:44.629Z"
 }

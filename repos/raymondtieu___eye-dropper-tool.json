@@ -80,6 +80,7 @@
       "start": "electron .",
       "build": "electron-packager . 'Eye Dropper' --all"
     },
+    "author": "Raymond Tieu",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.1.0",
@@ -114,5 +115,6 @@
   },
   "filename": "raymondtieu___eye-dropper-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:21.021Z"
+  "lastFetchedAt": "2017-05-03T20:06:21.021Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:42.973Z"
 }

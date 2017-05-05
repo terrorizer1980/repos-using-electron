@@ -76,6 +76,7 @@
     "name": "ng2-admin",
     "version": "0.8.0",
     "description": "Angular 2 and Bootstrap 4 Admin Template.",
+    "author": "akveo",
     "homepage": "http://akveo.github.io/ng2-admin/",
     "license": "MIT",
     "dependencies": {
@@ -226,7 +227,13 @@
       "build:electron.main": "npm run webpack -- --config config/electron/webpack.electron.prod.js",
       "electron:start": "electron build"
     },
-    "repository": "https://github.com/akveo/ng2-admin",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/akveo/ng2-admin.git"
+    },
+    "bugs": {
+      "url": "https://github.com/akveo/ng2-admin/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -256,5 +263,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:22.496Z"
+  "lastFetchedAt": "2017-05-04T05:13:22.496Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:13.070Z"
 }

@@ -67,5 +67,25 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:28:59.893Z"
+  "lastFetchedAt": "2017-05-04T14:28:59.893Z",
+  "packageJSON": {
+    "name": "touchbar-commit-browser",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "beta",
+      "es6-promise": "^4.1.0",
+      "isomorphic-fetch": "^2.2.1",
+      "whatwg-fetch": "^2.0.3"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:41:43.045Z"
 }

@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "time",
       "track"
     ],
+    "author": "István Miklós Antal <istvan.m.antal@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "dependencies": {
       "babel-core": "^6.11.4",
@@ -139,5 +146,6 @@
   },
   "filename": "istvan-antal___timetrack.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:55.454Z"
+  "lastFetchedAt": "2017-05-04T20:15:55.454Z",
+  "packageLastFetchedAt": "2017-05-05T14:34:43.221Z"
 }

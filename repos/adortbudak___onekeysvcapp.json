@@ -86,8 +86,15 @@
       "watch": "webpack  --progress --profile --colors --display-error-details --display-cached",
       "postinstall": "typings install"
     },
-    "repository": "https://github.com/adortbudak/onekeysvcapp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/adortbudak/onekeysvcapp.git"
+    },
+    "author": "ONE-KEY",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/adortbudak/onekeysvcapp/issues"
+    },
     "homepage": "https://github.com/adortbudak/onekeysvcapp#readme",
     "devDependencies": {
       "electron-packager": "^7.6.0",
@@ -134,5 +141,6 @@
   },
   "filename": "adortbudak___onekeysvcapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:35.159Z"
+  "lastFetchedAt": "2017-05-04T17:59:35.159Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:06.528Z"
 }

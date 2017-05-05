@@ -58,7 +58,18 @@
     "description": "Electron Angular Boilerplate",
     "license": "Unlicense",
     "main": "index.js",
-    "repository": "https://github.com/mixmatch/electronAngular",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mixmatch/electronAngular"
+    },
+    "bugs": {
+      "url": "https://github.com/mixmatch/electronAngular/issues"
+    },
+    "author": {
+      "name": "Daniel Petty",
+      "email": "mixmatch@gmail.com",
+      "url": "https://danielpetty.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -132,5 +143,6 @@
   },
   "filename": "mixmatch___electronAngular.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:13.903Z"
+  "lastFetchedAt": "2017-05-04T16:46:13.903Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:32.195Z"
 }

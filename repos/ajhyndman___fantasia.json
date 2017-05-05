@@ -81,8 +81,15 @@
       "storybook": "start-storybook -p 9001",
       "test": "npm run eslint && npm run flow"
     },
-    "repository": "https://github.com/ajhyndman/fantasia",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ajhyndman/fantasia.git"
+    },
+    "author": "Andrew Hyndman <ajhyndman@hotmail.com> (https://github.com/ajhyndman)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ajhyndman/electron-ehr/issues"
+    },
     "homepage": "https://github.com/ajhyndman/electron-ehr#readme",
     "devDependencies": {
       "@flow-atom/electron": "^0.37.8-rev.0",
@@ -155,5 +162,6 @@
   },
   "filename": "ajhyndman___fantasia.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:53.861Z"
+  "lastFetchedAt": "2017-05-04T20:18:53.861Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:24.746Z"
 }

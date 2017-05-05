@@ -88,15 +88,20 @@
   "status": 200,
   "packageJSON": {
     "name": "@wildpeaks/preact-component-testable",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Testable Preact component",
     "main": "src/TestableComponent.js",
     "files": [
       "src/TestableComponent.js",
       "test/TestableComponent.tests.js"
     ],
+    "eslintConfig": {
+      "extends": "@wildpeaks/commonjs"
+    },
     "scripts": {
-      "test": "electron-mocha --renderer test/*.js"
+      "test:eslint": "eslint src",
+      "test:mocha": "electron-mocha --renderer test/*.js",
+      "test": "npm run test:eslint && npm run test:mocha"
     },
     "repository": "https://github.com/wildpeaks/package-preact-component-testable",
     "keywords": [
@@ -104,16 +109,22 @@
       "preact",
       "component"
     ],
+    "author": "Cecile Muller",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wildpeaks/package-preact-component-testable/issues"
+    },
     "homepage": "https://github.com/wildpeaks/package-preact-component-testable#readme",
     "peerDependencies": {
-      "preact": "^7.1.0"
+      "preact": ">=7.1.0"
     },
     "devDependencies": {
-      "electron": "^1.4.12",
-      "electron-mocha": "^3.3.0",
-      "preact": "^7.1.0",
-      "sinon": "^1.17.6"
+      "electron": "1.4.12",
+      "electron-mocha": "3.3.0",
+      "eslint": "3.14.1",
+      "preact": "7.1.0",
+      "sinon": "1.17.6",
+      "@wildpeaks/eslint-config-commonjs": "1.1.0"
     }
   },
   "packageStatus": 200,
@@ -140,5 +151,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:57.024Z"
+  "lastFetchedAt": "2017-05-04T21:15:57.024Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:02.461Z"
 }

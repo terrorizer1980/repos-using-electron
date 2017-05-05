@@ -80,23 +80,18 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "kuro-daei",
-      "repo": "cscreen-gui",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kuro-daei/cscreen-gui/tarball/master",
-      "clone_url": "https://github.com/kuro-daei/cscreen-gui",
-      "https_url": "https://github.com/kuro-daei/cscreen-gui",
-      "travis_url": "https://travis-ci.org/kuro-daei/cscreen-gui",
-      "zip_url": "https://github.com/kuro-daei/cscreen-gui/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kuro-daei/cscreen-gui"
+      "type": "git",
+      "url": "git+https://github.com/kuro-daei/cscreen-gui.git"
     },
     "keywords": [
       "Electron",
       "cscreen"
     ],
+    "author": "kuro-daei",
     "license": "Apple MIT License",
+    "bugs": {
+      "url": "https://github.com/kuro-daei/cscreen-gui/issues"
+    },
     "homepage": "https://github.com/kuro-daei/cscreen-gui",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -128,5 +123,6 @@
   "filename": "kuro-daei___cscreen-gui.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:37:04.881Z"
+  "lastFetchedAt": "2017-05-04T05:37:04.881Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:13.023Z"
 }

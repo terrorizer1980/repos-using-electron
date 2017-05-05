@@ -76,7 +76,10 @@
     "version": "0.1.0",
     "description": "A electron app template",
     "main": "main.js",
-    "repository": "https://github.com/umema4/electron-babel6",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/umema4/electron-babel6.git"
+    },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -84,6 +87,7 @@
       "electron",
       "babel"
     ],
+    "author": "umema4",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer": "^6.3.3",
@@ -149,5 +153,6 @@
   },
   "filename": "umema4___electron-babel6.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:15.140Z"
+  "lastFetchedAt": "2017-05-04T20:14:15.140Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:27.560Z"
 }

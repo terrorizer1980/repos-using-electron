@@ -76,8 +76,15 @@
       "start": "electron js/lib/server/index.js --tcpPort 4001 --wsPort 4002",
       "test": "mocha --recursive js/lib_test"
     },
-    "repository": "https://github.com/extr0py/vim-node-omnicomplete",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/extr0py/vim-node-omnicomplete"
+    },
+    "author": "extr0py",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/extr0py/vim-node-omnicomplete/issues"
+    },
     "homepage": "https://github.com/extr0py/vim-node-omnicomplete",
     "dependencies": {
       "bluebird": "^3.3.4",
@@ -129,5 +136,6 @@
   },
   "filename": "extr0py___vim-electrify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:37.163Z"
+  "lastFetchedAt": "2017-05-04T20:48:37.163Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:23.948Z"
 }

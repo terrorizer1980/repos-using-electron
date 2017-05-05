@@ -94,6 +94,7 @@
       "start": "electron .",
       "watchjs": "watchify -d -v -e src/entry.js -o build/showcase.js"
     },
+    "author": "Jayesh Salvi",
     "dependencies": {
       "electron": "^1.4.3",
       "electron-rebuild": "^1.2.1",
@@ -129,5 +130,6 @@
   },
   "filename": "moxspc___showcase.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:25.499Z"
+  "lastFetchedAt": "2017-05-04T17:55:25.499Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:22.006Z"
 }

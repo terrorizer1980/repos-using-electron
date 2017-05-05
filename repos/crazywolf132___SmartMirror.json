@@ -77,15 +77,22 @@
       "htmlvalidator": "html-validator --file=index.html",
       "test": "snyk test"
     },
-    "repository": "https://github.com/SlyFoxStudios/SmartMirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SlyFoxStudios/SmartMirror.git"
+    },
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
+    "author": "CrazyWolf",
     "contributors": "https://github.com/SlyFoxStudios/SmartMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SlyFoxStudios/SmartMirror/issues"
+    },
     "homepage": "https://github.com/SlyFoxStudios/SmartMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -135,5 +142,6 @@
   },
   "filename": "crazywolf132___SmartMirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:11.959Z"
+  "lastFetchedAt": "2017-05-04T21:24:11.959Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:26.844Z"
 }

@@ -54,14 +54,21 @@
       "start": "electron .",
       "build": "coffee -m -c ./coffee/; grunt; grunt app; grunt web"
     },
-    "repository": "https://github.com/apwan06/gen",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/apwan06/gen.git"
+    },
     "keywords": [
       "Electron",
       "midi",
       "score",
       "generate"
     ],
+    "author": "apwan06",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/apwan06/gen/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
       "grunt": "1.0.1",
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/apwan06/gen",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:54:41.363Z"
+  "lastFetchedAt": "2017-05-04T17:54:41.363Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:27.966Z"
 }

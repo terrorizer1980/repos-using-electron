@@ -49,6 +49,7 @@
     "name": "proper-pdf",
     "version": "0.1.0",
     "description": "Simple Express server to make a PDF",
+    "author": "Andrew Shankie <andrew@properdesign.rs>",
     "main": "server.js",
     "scripts": {
       "start": "node server.js"
@@ -112,5 +113,6 @@
   "svnUrl": "https://github.com/shankiesan/express-electron-pdf",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:21:16.297Z"
+  "lastFetchedAt": "2017-05-04T18:21:16.297Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:42.124Z"
 }

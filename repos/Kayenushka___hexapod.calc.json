@@ -74,6 +74,7 @@
       "start": "electron .",
       "build": "electron-packager . calc --ignore=node_modules,Resourses --asar --overwrite && cp Resourses/Calculator.icns calc-darwin-x64/calc.app/Contents/Resources/electron.icns"
     },
+    "author": "Kayen",
     "window": {
       "toolbar": false,
       "width": 800,
@@ -113,5 +114,6 @@
   },
   "filename": "Kayenushka___hexapod.calc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:36.941Z"
+  "lastFetchedAt": "2017-05-04T20:06:36.941Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:33.237Z"
 }

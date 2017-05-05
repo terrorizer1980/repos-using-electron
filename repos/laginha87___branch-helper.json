@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Small description for branch-helper goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -172,5 +177,6 @@
   "svnUrl": "https://github.com/laginha87/branch-helper",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:54:38.799Z"
+  "lastFetchedAt": "2017-05-04T20:54:38.799Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:08.892Z"
 }

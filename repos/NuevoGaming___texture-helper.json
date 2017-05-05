@@ -78,7 +78,13 @@
     "description": "Completely free and open source texture packer.",
     "main": "./built/back-end/back-end-bundle.js",
     "scripts": {},
-    "repository": "https://github.com/nuevogaming/texture-helper",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nuevogaming/texture-helper.git"
+    },
+    "bugs": {
+      "url": "https://github.com/nuevogaming/texture-helper/issues"
+    },
     "license": "MIT",
     "dependencies": {
       "angular2": "^2.0.0-beta.1",
@@ -134,5 +140,6 @@
   },
   "filename": "NuevoGaming___texture-helper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:54.254Z"
+  "lastFetchedAt": "2017-05-04T19:35:54.254Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:33.779Z"
 }

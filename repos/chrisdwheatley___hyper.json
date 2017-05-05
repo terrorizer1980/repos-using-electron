@@ -191,6 +191,10 @@
     "description": "Web app that runs in the renderer process",
     "repository": "zeit/hyper",
     "license": "MIT",
+    "author": {
+      "name": "Zeit, Inc.",
+      "email": "team@zeit.co"
+    },
     "greenkeeper": {
       "emails": false
     },
@@ -322,5 +326,6 @@
   "filename": "chrisdwheatley___hyper.json",
   "sourceRepo": "zeit/hyperterm",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:07:58.688Z"
+  "lastFetchedAt": "2017-05-04T18:07:58.688Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:58.141Z"
 }

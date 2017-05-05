@@ -196,6 +196,10 @@
     "name": "@stdlib/stdlib",
     "version": "0.0.0",
     "description": "Standard library.",
+    "author": {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    },
     "contributors": [
       {
         "name": "The Stdlib Authors",
@@ -215,7 +219,10 @@
       "coverage": "make coverage"
     },
     "main": "./lib",
-    "repository": "https://github.com/stdlib-js/stdlib",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/stdlib-js/stdlib.git"
+    },
     "homepage": "https://github.com/stdlib-js/stdlib",
     "keywords": [
       "stdlib",
@@ -227,6 +234,9 @@
       "library",
       "lib"
     ],
+    "bugs": {
+      "url": "https://github.com/stdlib-js/stdlib/issues"
+    },
     "dependencies": {
       "d3-format": "^1.0.0",
       "d3-scale": "^1.0.0",
@@ -313,5 +323,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:29.815Z"
+  "lastFetchedAt": "2017-05-04T14:52:29.815Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:55.192Z"
 }

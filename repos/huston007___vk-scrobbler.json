@@ -82,7 +82,10 @@
       "test": "node ./node_modules/karma/bin/karma start",
       "lint": "gulp lint"
     },
-    "repository": "https://github.com/huston007/vk-scrobbler",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/huston007/vk-scrobbler.git"
+    },
     "keywords": [
       "vk.com",
       "last.fm",
@@ -148,5 +151,6 @@
   },
   "filename": "huston007___vk-scrobbler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:54.977Z"
+  "lastFetchedAt": "2017-05-04T21:17:54.977Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:34.967Z"
 }

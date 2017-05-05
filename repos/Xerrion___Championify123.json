@@ -61,10 +61,14 @@
       "build": "./node_modules/.bin/gulp build",
       "postinstall": "./node_modules/.bin/gulp setup"
     },
-    "repository": "https://github.com/dustinblackman/Championify",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dustinblackman/Championify.git"
+    },
     "engines": {
       "iojs": "1.6.3"
     },
+    "author": "Dustin Blackman",
     "license": "MIT",
     "electron-deps": [
       "glob",
@@ -163,5 +167,6 @@
   "svnUrl": "https://github.com/Xerrion/Championify123",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:43:00.156Z"
+  "lastFetchedAt": "2017-05-04T17:43:00.156Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:35.624Z"
 }

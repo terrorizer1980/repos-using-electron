@@ -191,19 +191,14 @@
       "mdlint"
     ],
     "repository": {
-      "user": "s-a",
-      "repo": "iron-node",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/s-a/iron-node/tarball/master",
-      "clone_url": "https://github.com/s-a/iron-node",
-      "https_url": "https://github.com/s-a/iron-node",
-      "travis_url": "https://travis-ci.org/s-a/iron-node",
-      "zip_url": "https://github.com/s-a/iron-node/archive/master.zip",
-      "api_url": "https://api.github.com/repos/s-a/iron-node"
+      "type": "git",
+      "url": "git+https://github.com/s-a/iron-node.git"
     },
+    "author": "Stephan Ahlf <stephan.ahlf@gmail.com> (https://github.com/s-a)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/s-a/iron-node/issues"
+    },
     "homepage": "https://github.com/s-a/iron-node#readme",
     "dependencies": {
       "commander": "^2.8.1",
@@ -268,5 +263,6 @@
   "svnUrl": "https://github.com/knownasilya/iron-node",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:56:20.615Z"
+  "lastFetchedAt": "2017-05-04T19:56:20.615Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:09.420Z"
 }

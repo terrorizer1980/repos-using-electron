@@ -57,6 +57,11 @@
     "description": "Open App from Command Line Interface for Electron App.",
     "license": "MIT",
     "repository": "akameco/electron-terminal-open",
+    "author": {
+      "name": "akameco",
+      "email": "akameco.t@gmail.com",
+      "url": "akameco.github.io"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -127,5 +132,6 @@
   "svnUrl": "https://github.com/akameco/electron-terminal-open",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:07:00.421Z"
+  "lastFetchedAt": "2017-05-04T21:07:00.421Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:13.473Z"
 }

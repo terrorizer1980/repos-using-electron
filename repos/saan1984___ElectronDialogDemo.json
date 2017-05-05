@@ -73,7 +73,11 @@
     },
     "version": "0.0.1",
     "description": "ElectronDialogDemo",
-    "repository": "https://github.com/saan1984/ElectronDialogDemo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronDialogDemo.git"
+    },
+    "author": "Sandeep Kumar Patel",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -108,5 +112,6 @@
   },
   "filename": "saan1984___ElectronDialogDemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:29.741Z"
+  "lastFetchedAt": "2017-05-04T21:02:29.741Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:50.769Z"
 }

@@ -81,17 +81,8 @@
       "build": "webpack --debug"
     },
     "repository": {
-      "user": "srossokha",
-      "repo": "shturman",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/srossokha/shturman/tarball/master",
-      "clone_url": "https://github.com/srossokha/shturman",
-      "https_url": "https://github.com/srossokha/shturman",
-      "travis_url": "https://travis-ci.org/srossokha/shturman",
-      "zip_url": "https://github.com/srossokha/shturman/archive/master.zip",
-      "api_url": "https://api.github.com/repos/srossokha/shturman"
+      "type": "git",
+      "url": "git+https://github.com/srossokha/shturman"
     },
     "keywords": [
       "Electron",
@@ -99,7 +90,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/srossokha/shturman/issues"
+    },
     "homepage": "https://github.com/srossokha/shturman#readme",
     "devDependencies": {
       "babel-loader": "^6.2.4",
@@ -142,5 +137,6 @@
   "filename": "srossokha___shturman.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:36.705Z"
+  "lastFetchedAt": "2017-05-04T05:22:36.705Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:00.554Z"
 }

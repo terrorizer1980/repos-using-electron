@@ -60,13 +60,20 @@
       "start": "electron main.js",
       "build": "electron-packager . 'Coincheck Chat' --platform=darwin --arch=x64 --version=0.36.0 --icon=images/icon.icns --prune --overwrite"
     },
-    "repository": "https://github.com/fukajun/coincheck-chat-notifier",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fukajun/coincheck-chat-notifier"
+    },
     "keywords": [
       "coincheck",
       "chat",
       "menubar"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/fukajun/coincheck-chat-notifier/issues"
+    },
     "homepage": "https://github.com/fukajun/coincheck-chat-notifier",
     "devDependencies": {
       "babel-preset-es2015": "^6.3.13",
@@ -133,5 +140,6 @@
   },
   "filename": "fukajun___coincheck-chat-notifier.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:03.813Z"
+  "lastFetchedAt": "2017-05-04T17:51:03.813Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:39.038Z"
 }

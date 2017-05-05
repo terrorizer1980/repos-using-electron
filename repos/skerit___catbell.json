@@ -76,6 +76,7 @@
     "productName": "Catbell notes",
     "description": "Note taking app built in electron",
     "version": "0.1.0",
+    "author": "Jelle De Loecker <jelle@develry.be>",
     "main": "main_electron.js",
     "dependencies": {
       "alchemymvc": "~0.3.0",
@@ -127,5 +128,6 @@
   },
   "filename": "skerit___catbell.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:46.207Z"
+  "lastFetchedAt": "2017-05-04T14:50:46.207Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:56.882Z"
 }

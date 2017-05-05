@@ -62,12 +62,16 @@
     "scripts": {
       "start": "electron lib/entryMain.js"
     },
-    "repository": "https://github.com/sillero/quickslot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sillero/quickslot.git"
+    },
     "keywords": [
       "Electron",
       "npm",
       "scripts"
     ],
+    "author": "Gustavo Sillero <gustavo@sille.ro>",
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -119,5 +123,6 @@
   "svnUrl": "https://github.com/sillero/quickslot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:59:09.744Z"
+  "lastFetchedAt": "2017-05-04T04:59:09.744Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:23.626Z"
 }

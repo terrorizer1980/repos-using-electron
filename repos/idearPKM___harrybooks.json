@@ -54,7 +54,11 @@
       "test": "standard && make test",
       "start": "node index.js"
     },
-    "repository": "https://github.com/segmentio/nightmare",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "idearPKM",
     "keywords": [
       "nightmare",
       "electron"
@@ -133,5 +137,6 @@
   },
   "filename": "idearPKM___harrybooks.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:16.470Z"
+  "lastFetchedAt": "2017-05-04T19:36:16.470Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:36.019Z"
 }

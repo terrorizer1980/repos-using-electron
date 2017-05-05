@@ -201,22 +201,14 @@
   "subscribersCount": 5,
   "status": 200,
   "packageJSON": {
+    "author": "Adrian Lee <adrian@adrianlee.me>",
     "name": "angular-macgyver",
     "description": "A library of shared directives",
     "version": "1.0.0",
     "homepage": "http://angular-macgyver.github.io/MacGyver",
     "repository": {
-      "user": "angular-macgyver",
-      "repo": "MacGyver",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/angular-macgyver/MacGyver/tarball/master",
-      "clone_url": "https://github.com/angular-macgyver/MacGyver",
-      "https_url": "https://github.com/angular-macgyver/MacGyver",
-      "travis_url": "https://travis-ci.org/angular-macgyver/MacGyver",
-      "zip_url": "https://github.com/angular-macgyver/MacGyver/archive/master.zip",
-      "api_url": "https://api.github.com/repos/angular-macgyver/MacGyver"
+      "type": "git",
+      "url": "git@github.com:angular-macgyver/MacGyver.git"
     },
     "engines": {
       "node": ">=5.3.0"
@@ -275,5 +267,6 @@
   },
   "sourceRepo": "angular-macgyver/MacGyver",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:44:42.762Z"
+  "lastFetchedAt": "2017-05-04T16:44:42.762Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:27.408Z"
 }

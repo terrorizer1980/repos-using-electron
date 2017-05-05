@@ -60,14 +60,21 @@
       "start": "electron main.js",
       "build": "node_modules/.bin/webpack --progress --colors"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel": "^6.3.13",
@@ -133,5 +140,6 @@
   "svnUrl": "https://github.com/alexyoung/http-wizard",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:22:11.085Z"
+  "lastFetchedAt": "2017-05-04T14:22:11.085Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:59.917Z"
 }

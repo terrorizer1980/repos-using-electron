@@ -63,7 +63,13 @@
     },
     "description": "show ika info",
     "license": "MIT",
-    "repository": "https://github.com/xkumiyu/ika-info",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/xkumiyu/ika-info.git"
+    },
+    "bugs": {
+      "url": "https://github.com/xkumiyu/ika-info/issues"
+    },
     "homepage": "https://github.com/xkumiyu/ika-info#readme",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -144,5 +150,6 @@
   "svnUrl": "https://github.com/xkumiyu/ika-board",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:31:45.018Z"
+  "lastFetchedAt": "2017-05-04T05:31:45.018Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:01.138Z"
 }

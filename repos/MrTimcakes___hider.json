@@ -80,13 +80,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/MrTimcakes/hider",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MrTimcakes/hider.git"
+    },
     "keywords": [
       "Hide",
       "Hider",
       "Windows"
     ],
+    "author": "MrTimcakes <MrTimcakes@gmail.com>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/MrTimcakes/hider/issues"
+    },
     "homepage": "https://github.com/MrTimcakes/hider#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
@@ -121,5 +128,6 @@
   },
   "filename": "MrTimcakes___hider.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:55:35.028Z"
+  "lastFetchedAt": "2017-05-04T20:55:35.028Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:32.425Z"
 }

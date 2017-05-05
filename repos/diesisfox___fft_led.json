@@ -79,6 +79,11 @@
     "license": "MIT",
     "repository": "diesisfox/fft-led",
     "main": "main.js",
+    "author": {
+      "name": "diesisfox",
+      "email": "james.zhi.liu@gmail.com",
+      "url": "github.com/diesisfox/fft_led"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -141,5 +146,6 @@
   },
   "filename": "diesisfox___fft_led.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:07.658Z"
+  "lastFetchedAt": "2017-05-04T20:58:07.658Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:59.406Z"
 }

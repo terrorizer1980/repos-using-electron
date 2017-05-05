@@ -70,8 +70,15 @@
     "version": "1.0.0",
     "description": "letters for Sammy",
     "main": "main.js",
-    "repository": "https://github.com/DianaSuvorova/letters",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DianaSuvorova/letters.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DianaSuvorova/letters/issues"
+    },
     "homepage": "https://github.com/DianaSuvorova/letters#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.3"
@@ -105,5 +112,6 @@
   },
   "filename": "DianaSuvorova___letters.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:24:36.986Z"
+  "lastFetchedAt": "2017-05-04T05:24:36.986Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:25.591Z"
 }

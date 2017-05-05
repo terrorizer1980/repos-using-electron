@@ -107,7 +107,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Connor G Brewster",
+      "email": "connorbrewster@yahoo.com",
+      "url": "http://connorbrewster.me"
+    },
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.8.0",
@@ -224,5 +232,6 @@
   "svnUrl": "https://github.com/cbrewster/FLLSS",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:26:02.375Z"
+  "lastFetchedAt": "2017-05-04T20:26:02.375Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:21.223Z"
 }

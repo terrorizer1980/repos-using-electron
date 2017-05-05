@@ -80,6 +80,7 @@
       "start": "electron .",
       "build": "electron-packager . Tac"
     },
+    "author": "Sufien Tout",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^8.1.0",
@@ -111,5 +112,6 @@
   },
   "filename": "suft___tac.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:45:43.010Z"
+  "lastFetchedAt": "2017-05-04T17:45:43.010Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:30.536Z"
 }

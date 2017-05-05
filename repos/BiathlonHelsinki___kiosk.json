@@ -87,5 +87,34 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:46:15.094Z"
+  "lastFetchedAt": "2017-05-04T17:46:15.094Z",
+  "packageJSON": {
+    "name": "temporary_kiosk2",
+    "version": "2.0.0",
+    "main": "./main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "1.6.6",
+      "electron-packager": "^5.0.1",
+      "electron-rebuild": "^1.5.7",
+      "electron-context-menu": "0.8.0"
+    },
+    "dependencies": {
+      "ps-node": "0.1.5",
+      "moment": "^2.17.1",
+      "request": "^2.79.0",
+      "node-yaml-config": "0.0.4",
+      "thermalprinter": "0.3.8",
+      "serialport": "4.0.7",
+      "lockfile": "1.0.3",
+      "fancy-log": "1.3.0",
+      "tcp-ping": "0.1.1"
+    },
+    "author": "John W Fail",
+    "license": "ISC"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:45:02.234Z"
 }

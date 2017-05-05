@@ -79,11 +79,15 @@
     "scripts": {
       "test": "echo('hello there from electron node and stuff');"
     },
-    "repository": "https://github.com/ballance/electron-hello-world",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ballance/electron-hello-world/"
+    },
     "keywords": [
       "keyword1",
       "keyword2"
     ],
+    "author": "Chris Ballance",
     "license": "MIT",
     "devDependencies": {
       "electron-builder": "^2.1.1",
@@ -115,5 +119,6 @@
   },
   "filename": "ballance___electron-hello-world.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:21:28.346Z"
+  "lastFetchedAt": "2017-05-04T20:21:28.346Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:19.510Z"
 }

@@ -50,6 +50,7 @@
     "version": "1.0.0",
     "description": "Multi-account Google Inbox desktop app",
     "main": "./main.js",
+    "author": "Bill Johnston <billjohnston4@gmail.com>",
     "scripts": {
       "start": "electron ./electron/main.js",
       "build": "webpack --progress --colors",
@@ -135,5 +136,6 @@
   },
   "filename": "billjohnston___inboox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:53.172Z"
+  "lastFetchedAt": "2017-05-04T20:34:53.172Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:12.554Z"
 }

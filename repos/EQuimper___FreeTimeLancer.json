@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Emanuel Quimper",
+      "email": "quimperemanuel@gmail.com",
+      "url": "https://github.com/EQuimper"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -210,5 +221,6 @@
   },
   "filename": "EQuimper___FreeTimeLancer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:29.680Z"
+  "lastFetchedAt": "2017-05-04T16:41:29.680Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:17.309Z"
 }

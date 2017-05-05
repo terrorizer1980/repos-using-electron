@@ -83,8 +83,15 @@
         "/test/tests/addStatusBar/*"
       ]
     },
-    "repository": "https://github.com/Team-Webflight/WebFlight",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Team-Webflight/WebFlight.git"
+    },
+    "author": "Team WebFlight",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Team-WebFlight/WebFlight/issues"
+    },
     "dependencies": {
       "babel-eslint": "^5.0.0",
       "casperjs": "^1.1.0-beta5",
@@ -157,5 +164,6 @@
   },
   "filename": "Team-WebFlight___webflight.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:50:59.603Z"
+  "lastFetchedAt": "2017-05-04T20:50:59.603Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:36.725Z"
 }

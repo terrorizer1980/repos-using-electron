@@ -96,12 +96,19 @@
       "bundle-linux64": "sencha --cwd app app build --clean --production && electron-packager app/build/production App --platlform=linux --arch=x86_64 --out build/electron",
       "clean": "rm -rf ext; rm -rf .sencha; rm -rf app/.sencha; rm -rf node_modules; rm -rf app/node_modules; rm -rf build"
     },
-    "repository": "https://github.com/sencha/ext-electron",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sencha/ext-electron.git"
+    },
     "keywords": [
       "extjs",
       "electron"
     ],
+    "author": "Sencha",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dongryphon/ext-electron/issues"
+    },
     "homepage": "https://github.com/dongryphon/ext-electron#readme",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -133,5 +140,6 @@
   },
   "filename": "sencha___electron-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:11.461Z"
+  "lastFetchedAt": "2017-05-04T05:28:11.461Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:47.802Z"
 }

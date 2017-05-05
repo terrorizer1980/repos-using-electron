@@ -52,6 +52,7 @@
     "scripts": {
       "auto-test": "mocha -r test/setup -w test/spec/** --compilers js:babel-core/register"
     },
+    "author": "",
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^0.36.2",
@@ -132,5 +133,6 @@
   "svnUrl": "https://github.com/ricardomatias/react-electron-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:32:32.944Z"
+  "lastFetchedAt": "2017-05-04T19:32:32.944Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:06.542Z"
 }

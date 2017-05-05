@@ -181,8 +181,14 @@
       "node": "*"
     },
     "homepage": "http://atom.github.io/language-json",
-    "repository": "https://github.com/atom/language-json",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/atom/language-json.git"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/language-json/issues"
+    },
     "scripts": {
       "postinstall": "./node_modules/.bin/electron-rebuild"
     },
@@ -252,5 +258,6 @@
   "svnUrl": "https://github.com/paulhoconnor/poso-dsl-atom",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:59:04.290Z"
+  "lastFetchedAt": "2017-05-04T17:59:04.290Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:31.889Z"
 }

@@ -54,7 +54,7 @@
   "packageJSON": {
     "name": "keep",
     "productName": "Keep",
-    "version": "0.1.2",
+    "version": "0.1.4",
     "description": "Desktop app for Google Keep packaged with Electron",
     "electronVersion": "0.36.0",
     "files": [
@@ -67,16 +67,23 @@
       "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^/(dist|assets)$' --platform=darwin --arch=x64 --icon=assets/icon.icns --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-darwin-x64 && zip -ryXq9 ../Keep-macos-${npm_package_version}.zip Keep.app",
       "build:linux": "electron-packager . --overwrite --out=dist --ignore='^/(dist|assets)$' --platform=linux --arch=x64 --icon=assets/icon.png --app-bundle-id=com.andrepolischuk.keep && cd dist/Keep-linux-x64 && zip -ryq9 ../Keep-linux-${npm_package_version}.zip *",
       "build:windows": "electron-packager . --overwrite --asar --out=dist --ignore='^/(dist|assets)$' --platform=win32 --arch=ia32 --icon=assets/icon.ico --version-string.ProductName=$npm_package_productName && cd dist/Keep-win32-ia32 && zip -ryq9 ../Keep-windows-${npm_package_version}.zip *",
-      "test": "eslint ."
+      "test": "standard"
     },
-    "repository": "https://github.com/andrepolischuk/keep",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andrepolischuk/keep.git"
+    },
     "keywords": [
       "electron-app",
       "electron",
       "google",
       "keep"
     ],
+    "author": "Andrey Polischuk <me@andrepolischuk.com> (https://andrepolischuk.com)",
     "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/andrepolischuk/keep/issues"
+    },
     "homepage": "https://github.com/andrepolischuk/keep",
     "dependencies": {
       "electron-config": "^0.2.1",
@@ -85,9 +92,7 @@
     "devDependencies": {
       "electron": "^1.4.4",
       "electron-packager": "^8.1.0",
-      "eslint": "^3.4.0",
-      "eslint-config-airbnb-base": "^5.0.3",
-      "eslint-plugin-import": "^1.14.0"
+      "standard": "^9.0.2"
     }
   },
   "packageStatus": 200,
@@ -135,5 +140,6 @@
   "svnUrl": "https://github.com/andrepolischuk/keep",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:06:47.513Z"
+  "lastFetchedAt": "2017-05-04T21:06:47.513Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:39.360Z"
 }

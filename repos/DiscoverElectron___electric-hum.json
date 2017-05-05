@@ -92,7 +92,10 @@
     "license": "MIT",
     "private": true,
     "main": "index.js",
-    "repository": "https://github.com/DiscoverElectron/electric-hum",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:DiscoverElectron/electric-hum.git"
+    },
     "scripts": {
       "start": "electron ."
     },
@@ -125,5 +128,6 @@
   },
   "filename": "DiscoverElectron___electric-hum.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:07.364Z"
+  "lastFetchedAt": "2017-05-04T05:04:07.364Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:12.272Z"
 }

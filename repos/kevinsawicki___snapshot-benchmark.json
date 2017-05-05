@@ -80,7 +80,8 @@
     },
     "dependencies": {
       "d3": "4.3.0",
-      "electron": "1.4.5",
+      "electron": "1.6.3",
+      "electron-mksnapshot": "1.6.0",
       "moment": "2.15.2",
       "react": "15.3.2",
       "react-dom": "15.3.2",
@@ -112,5 +113,6 @@
   },
   "filename": "kevinsawicki___snapshot-benchmark.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:47.514Z"
+  "lastFetchedAt": "2017-05-04T04:56:47.514Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:46.095Z"
 }

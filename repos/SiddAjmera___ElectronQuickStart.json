@@ -74,14 +74,21 @@
       "start": "electron .",
       "build": "electron-packager ./ --platform=win32 --arch=x64 ElectronQuickStart"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.4.0",
@@ -119,5 +126,6 @@
   },
   "filename": "SiddAjmera___ElectronQuickStart.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:16.374Z"
+  "lastFetchedAt": "2017-05-04T18:00:16.374Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:16.751Z"
 }

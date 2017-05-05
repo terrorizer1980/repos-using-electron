@@ -79,10 +79,14 @@
     "scripts": {
       "start": "electron ./app/main.js"
     },
-    "repository": "https://github.com/yarossia/Snaptron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yarossia/Snaptron"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "Yaroslav Pidmohylniy",
     "license": "MIT",
     "homepage": "",
     "devDependencies": {
@@ -128,5 +132,6 @@
   },
   "filename": "yarossia___Snaptron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:02:40.671Z"
+  "lastFetchedAt": "2017-05-04T18:02:40.671Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:43.426Z"
 }

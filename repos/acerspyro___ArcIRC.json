@@ -85,8 +85,12 @@
       "client",
       "arc"
     ],
+    "author": "Maxim \"Acerspyro\" Therrien",
     "license": "UNLICENSED",
-    "repository": "https://github.com/acerspyro/ArcIRC"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/acerspyro/ArcIRC"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -113,5 +117,6 @@
   },
   "filename": "acerspyro___ArcIRC.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:31:09.941Z"
+  "lastFetchedAt": "2017-05-04T05:31:09.941Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:17.618Z"
 }

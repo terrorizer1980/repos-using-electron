@@ -156,7 +156,14 @@
     "devEngines": {
       "node": "5.x"
     },
-    "repository": "https://github.com/michaeljacobdavis/pomo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/michaeljacobdavis/pomo.git"
+    },
+    "author": "Mike Davis",
+    "bugs": {
+      "url": "https://github.com/michaeljacobdavis/pomo/issues"
+    },
     "homepage": "https://github.com/michaeljacobdavis/pomo#readme",
     "loggly": {
       "subdomain": "pomo",
@@ -208,5 +215,6 @@
   },
   "filename": "michaeljacobdavis___pomo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:17:36.011Z"
+  "lastFetchedAt": "2017-05-04T05:17:36.011Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:01.034Z"
 }

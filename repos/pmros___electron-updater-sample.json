@@ -171,17 +171,8 @@
     "description": "Sample application for the electron-updater project",
     "main": "main.js",
     "repository": {
-      "user": "evolvelabs",
-      "repo": "electron-updater-sample",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/evolvelabs/electron-updater-sample/tarball/master",
-      "clone_url": "https://github.com/evolvelabs/electron-updater-sample",
-      "https_url": "https://github.com/evolvelabs/electron-updater-sample",
-      "travis_url": "https://travis-ci.org/evolvelabs/electron-updater-sample",
-      "zip_url": "https://github.com/evolvelabs/electron-updater-sample/archive/master.zip",
-      "api_url": "https://api.github.com/repos/evolvelabs/electron-updater-sample"
+      "type": "git",
+      "url": "git://github.com/evolvelabs/electron-updater-sample.git"
     },
     "scripts": {
       "test": "mocha",
@@ -260,5 +251,6 @@
   "svnUrl": "https://github.com/pmros/electron-updater-sample",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:06:30.107Z"
+  "lastFetchedAt": "2017-05-03T20:06:30.107Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:08.140Z"
 }

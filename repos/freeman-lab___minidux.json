@@ -61,8 +61,15 @@
       "test:testron": "browserify test.js | testron | tap-spec",
       "test": "standard && npm run test:node && npm run test:testron"
     },
-    "repository": "https://github.com/freeman-lab/minidux",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/freeman-lab/minidux.git"
+    },
+    "author": "sethvincent",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/freeman-lab/minidux/issues"
+    },
     "homepage": "https://github.com/freeman-lab/minidux#readme",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -123,5 +130,6 @@
   },
   "filename": "freeman-lab___minidux.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:34.565Z"
+  "lastFetchedAt": "2017-05-04T05:28:34.565Z",
+  "packageLastFetchedAt": "2017-05-05T14:34:09.975Z"
 }

@@ -55,6 +55,7 @@
       "build": "node_modules/.bin/electron .",
       "release": "node release.js"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -106,5 +107,6 @@
   "svnUrl": "https://github.com/TaikiShiraishi/electron-practice",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:43:25.405Z"
+  "lastFetchedAt": "2017-05-04T20:43:25.405Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:52.068Z"
 }

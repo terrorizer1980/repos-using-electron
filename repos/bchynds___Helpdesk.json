@@ -67,5 +67,25 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:29:15.622Z"
+  "lastFetchedAt": "2017-05-04T05:29:15.622Z",
+  "packageJSON": {
+    "name": "ping",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "author": "Brian Cordell Hynds",
+    "license": "ISC",
+    "dependencies": {
+      "d3": "^4.7.1",
+      "electron": "^1.6.1",
+      "electron-rebuild": "^1.5.7",
+      "net-ping": "^1.2.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:33:19.816Z"
 }

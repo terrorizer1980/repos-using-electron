@@ -82,6 +82,7 @@
       "watch": "npm run mv:index && webpack -w",
       "start": "electron ."
     },
+    "author": "Hiroyuki Tanaka",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -126,5 +127,6 @@
   },
   "filename": "tanaka0325___electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:18:22.775Z"
+  "lastFetchedAt": "2017-05-04T14:18:22.775Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:38.884Z"
 }

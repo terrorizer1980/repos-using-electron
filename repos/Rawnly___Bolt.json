@@ -90,13 +90,17 @@
       "start": "electron .",
       "package": "electron-packager . --appname Bolt --all --icon ./app/img/app-icon.icns  --overwrite"
     },
-    "repository": "https://www.github.com/Rawnly/Bolt",
+    "repository": {
+      "type": "git",
+      "url": "https://www.github.com/Rawnly/Bolt.git"
+    },
     "keywords": [
       "bolt",
       "lightning",
       "electron",
       "atom"
     ],
+    "author": "Rawnly",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -124,5 +128,6 @@
   },
   "filename": "Rawnly___Bolt.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:31:40.421Z"
+  "lastFetchedAt": "2017-05-04T15:31:40.421Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:20.748Z"
 }

@@ -81,8 +81,15 @@
     "precommit": [
       "lint"
     ],
-    "repository": "https://github.com/janeefongg/react-todo-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/janeefongg/react-todo-app.git"
+    },
+    "author": "jane fong",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/janeefongg/react-todo-app/issues"
+    },
     "homepage": "https://github.com/janeefongg/react-todo-app#readme",
     "devDependencies": {
       "babel-cli": "6.8.0",
@@ -178,5 +185,6 @@
   },
   "filename": "janeefongg___react-todo-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:56.229Z"
+  "lastFetchedAt": "2017-05-04T05:10:56.229Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:37.800Z"
 }

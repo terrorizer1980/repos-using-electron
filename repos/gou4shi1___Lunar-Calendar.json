@@ -76,7 +76,10 @@
     "description": "A lunar calendar",
     "version": "1.0.0",
     "private": true,
-    "repository": "https://github.com/gou4shi1/Lunar-Calendar",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gou4shi1/Lunar-Calendar.git"
+    },
     "dependencies": {
       "electron": "^1.3.3",
       "menubar": "^5.1.0",
@@ -150,5 +153,6 @@
   },
   "filename": "gou4shi1___Lunar-Calendar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:07.552Z"
+  "lastFetchedAt": "2017-05-04T20:17:07.552Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:17.736Z"
 }

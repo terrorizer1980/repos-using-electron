@@ -77,19 +77,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "pahund",
-      "repo": "scenescreen",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/pahund/scenescreen/tarball/master",
-      "clone_url": "https://github.com/pahund/scenescreen",
-      "https_url": "https://github.com/pahund/scenescreen",
-      "travis_url": "https://travis-ci.org/pahund/scenescreen",
-      "zip_url": "https://github.com/pahund/scenescreen/archive/master.zip",
-      "api_url": "https://api.github.com/repos/pahund/scenescreen"
+      "type": "git",
+      "url": "git+https://github.com/pahund/scenescreen.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pahund/scenescreen/issues"
+    },
     "keywords": [
       "music",
       "midi"
@@ -220,5 +219,6 @@
   "svnUrl": "https://github.com/pahund/scenescreen",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:58:55.853Z"
+  "lastFetchedAt": "2017-05-04T20:58:55.853Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:32.797Z"
 }

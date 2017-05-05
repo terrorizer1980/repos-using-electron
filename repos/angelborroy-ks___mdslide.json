@@ -69,12 +69,16 @@
     "name": "mdSlide",
     "version": "0.0.3",
     "description": "Markdown slide writer, powered by Electron.",
-    "repository": "https://github.com/yhatt/mdslide",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yhatt/mdslide"
+    },
     "main": "main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
+    "author": "Yuki Hattori",
     "license": "MIT",
     "devDependencies": {
       "coffee-script": "^1.10.0",
@@ -139,5 +143,6 @@
   },
   "filename": "angelborroy-ks___mdslide.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:43.674Z"
+  "lastFetchedAt": "2017-05-04T17:56:43.674Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:51.289Z"
 }

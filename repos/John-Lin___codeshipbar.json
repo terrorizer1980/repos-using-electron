@@ -70,8 +70,15 @@
       "build": "electron-packager . Codeshipbar --platform=darwin --arch=x64 --version=0.36.0 --overwrite --icon=Icon.icns",
       "start": "electron ."
     },
-    "repository": "https://github.com/John-Lin/codeshipbar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/John-Lin/codeshipbar.git"
+    },
+    "author": "John-Lin <linton.tw@gmail.com> (http://linton.tw)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/John-Lin/codeshipbar/issues"
+    },
     "homepage": "https://github.com/John-Lin/codeshipbar",
     "keywords": [
       "codeship",
@@ -124,5 +131,6 @@
   },
   "filename": "John-Lin___codeshipbar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:50.656Z"
+  "lastFetchedAt": "2017-05-04T05:35:50.656Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:16.185Z"
 }

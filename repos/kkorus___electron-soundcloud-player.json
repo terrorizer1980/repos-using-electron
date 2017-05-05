@@ -54,14 +54,21 @@
       "start": "electron main.js",
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -123,5 +130,6 @@
   },
   "filename": "kkorus___electron-soundcloud-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:34.772Z"
+  "lastFetchedAt": "2017-05-04T18:03:34.772Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:40.929Z"
 }

@@ -68,28 +68,40 @@
   "packageJSON": {
     "name": "emby.theater",
     "productName": "Emby Theater",
-    "version": "2.5.28",
+    "version": "2.5.40",
     "description": "Emby Theater for Electron",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/MediaBrowser/Emby.Theater.Electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MediaBrowser/Emby.Theater.Electron.git"
+    },
     "keywords": [
       "Electron",
       "Emby",
       "Theater"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MediaBrowser/Emby.Theater.Electron/issues"
+    },
     "homepage": "https://github.com/MediaBrowser/Emby.Theater.Electron#readme",
     "devDependencies": {
-      "electron-prebuilt": "^0.36.7",
       "power-off": "^1.0.1",
-      "sleep-mode": "^1.1.0"
+      "sleep-mode": "^1.1.0",
+      "node-mpv": "^1.0.3",
+      "long": "^3.2.0",
+      "is-windows": "^1.0.0"
     },
     "dependencies": {
       "power-off": "^1.0.1",
-      "sleep-mode": "^1.1.0"
+      "sleep-mode": "^1.1.0",
+      "node-mpv": "^1.0.3",
+      "long": "^3.2.0",
+      "is-windows": "^1.0.0"
     }
   },
   "packageStatus": 200,
@@ -137,5 +149,6 @@
   "svnUrl": "https://github.com/MediaBrowser/emby-theater-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:40:27.984Z"
+  "lastFetchedAt": "2017-05-04T17:40:27.984Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:18.382Z"
 }

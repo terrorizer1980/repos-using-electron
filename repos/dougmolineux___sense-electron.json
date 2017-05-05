@@ -78,6 +78,10 @@
     "description": "Sense packaged in Electron",
     "main": "index.js",
     "repository": "<update me>",
+    "author": {
+      "name": "Doug Molineux",
+      "email": "doug.molineux@gmail.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -125,5 +129,6 @@
   },
   "filename": "dougmolineux___sense-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:43.514Z"
+  "lastFetchedAt": "2017-05-04T18:12:43.514Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:37.776Z"
 }

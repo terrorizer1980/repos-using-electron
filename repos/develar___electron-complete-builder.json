@@ -117,7 +117,11 @@
       "tslint": "^3.3.0",
       "typescript": "^1.8.0-beta"
     },
-    "repository": "https://github.com/develar/electron-complete-builder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/develar/electron-complete-builder.git"
+    },
+    "bugs": "https://github.com/develar/electron-complete-builder/issues",
     "engines": {
       "node": ">=0.4.0"
     },
@@ -175,5 +179,6 @@
   },
   "filename": "develar___electron-complete-builder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:18.265Z"
+  "lastFetchedAt": "2017-05-04T19:53:18.265Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:26.698Z"
 }

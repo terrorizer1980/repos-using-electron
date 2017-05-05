@@ -73,11 +73,15 @@
   "status": 200,
   "packageJSON": {
     "name": "ReactExample",
+    "author": "Hyejin Kwon",
     "version": "0.0.1",
     "description": "React Study Example",
     "license": "MIT",
     "main": "main.js",
-    "repository": "https://github.com/jjingK/react-example",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jjingK/react-example.git"
+    },
     "dependencies": {
       "jquery": "^2.2.0",
       "jquery-ui": "^1.10.5",
@@ -155,5 +159,6 @@
   },
   "filename": "jjingK___react-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:35:14.192Z"
+  "lastFetchedAt": "2017-05-04T20:35:14.192Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:00.452Z"
 }

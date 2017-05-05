@@ -84,8 +84,15 @@
       "build": "webpack",
       "build-osx": "node electron-build-osx.js"
     },
-    "repository": "https://github.com/nginnever/fileswarm",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nginnever/fileswarm.git"
+    },
+    "author": "Nathan Ginnever",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nginnever/fileswarm/issues"
+    },
     "homepage": "https://github.com/nginnever/fileswarm#readme",
     "devDependencies": {
       "babel-core": "^6.13.2",
@@ -172,5 +179,6 @@
   },
   "filename": "nginnever___fileswarm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:34.247Z"
+  "lastFetchedAt": "2017-05-04T17:47:34.247Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:01.503Z"
 }

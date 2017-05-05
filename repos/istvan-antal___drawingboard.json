@@ -59,12 +59,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "time",
       "track"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -127,5 +134,6 @@
   },
   "filename": "istvan-antal___drawingboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:59.265Z"
+  "lastFetchedAt": "2017-05-04T19:43:59.265Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:51.766Z"
 }

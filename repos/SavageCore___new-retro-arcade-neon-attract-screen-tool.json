@@ -80,14 +80,21 @@
       "start": "electron .",
       "test": "xo"
     },
-    "repository": "https://github.com/SavageCore/new-retro-arcade-neon-attract-screen-tool",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SavageCore/new-retro-arcade-neon-attract-screen-tool.git"
+    },
     "keywords": [
       "New Retro Arcade: Neon",
       "attract",
       "screen",
       "render"
     ],
+    "author": "SavageCore",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SavageCore/new-retro-arcade-neon-attract-screen-tool/issues"
+    },
     "homepage": "https://github.com/SavageCore/new-retro-arcade-neon-attract-screen-tool#readme",
     "devDependencies": {
       "electron": "^1.4.0",
@@ -147,5 +154,6 @@
   },
   "filename": "SavageCore___new-retro-arcade-neon-attract-screen-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:39.528Z"
+  "lastFetchedAt": "2017-05-04T20:22:39.528Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:04.864Z"
 }

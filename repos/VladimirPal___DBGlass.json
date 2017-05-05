@@ -190,6 +190,11 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": {
+      "name": "Vladimir Pal",
+      "email": "mail.vpal@gmail.com",
+      "url": "https://web-pal.com"
+    },
     "license": "MIT",
     "keywords": [
       "electron",
@@ -340,5 +345,6 @@
   "svnUrl": "https://github.com/VladimirPal/DBGlass",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:21:33.635Z"
+  "lastFetchedAt": "2017-05-04T21:21:33.635Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:08.450Z"
 }

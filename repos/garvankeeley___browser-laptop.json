@@ -208,6 +208,9 @@
       "webpack": "webpack"
     },
     "repository": "brave/browser-laptop",
+    "author": {
+      "name": "Brave Software <support+laptop@brave.com>"
+    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -231,6 +234,9 @@
       }
     ],
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/brave/browser-laptop/issues"
+    },
     "homepage": "https://www.brave.com/",
     "dependencies": {
       "abp-filter-parser-cpp": "1.1.x",
@@ -382,5 +388,6 @@
   "svnUrl": "https://github.com/garvankeeley/browser-laptop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T11:04:17.697Z"
+  "lastFetchedAt": "2017-05-04T11:04:17.697Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:11.671Z"
 }

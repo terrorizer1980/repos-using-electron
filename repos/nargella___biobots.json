@@ -74,8 +74,15 @@
       "electron": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/nargella/biobots",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nargella/biobots.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nargella/biobots/issues"
+    },
     "homepage": "https://github.com/nargella/biobots#readme",
     "dependencies": {
       "chartist": "^0.9.7",
@@ -108,5 +115,6 @@
   },
   "filename": "nargella___biobots.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:41.832Z"
+  "lastFetchedAt": "2017-05-04T19:31:41.832Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:46.766Z"
 }

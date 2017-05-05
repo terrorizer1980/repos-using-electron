@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/niebert/eProofJS",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niebert/eProofJS.git"
+    },
     "keywords": [
       "Electron",
       "eProofJS",
       "electronic proofs",
       "mathematics"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/niebert/eProofJS/issues"
+    },
     "homepage": "https://github.com/niebert/eProofJS#readme",
     "devDependencies": {
       "electron-prebuilt": "1.2.7"
@@ -115,5 +122,6 @@
   },
   "filename": "niebert___eProofJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:23.382Z"
+  "lastFetchedAt": "2017-05-04T20:43:23.382Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:36.126Z"
 }

@@ -189,10 +189,17 @@
     "name": "webpack-bundle-analyzer",
     "version": "1.5.3",
     "description": "Webpack plugin and CLI utility that represents bundle content as convenient interactive zoomable treemap",
+    "author": "Yury Grunin <grunin.ya@ya.ru>",
     "license": "MIT",
     "homepage": "https://github.com/th0r/webpack-bundle-analyzer",
     "changelog": "https://github.com/th0r/webpack-bundle-analyzer/blob/master/CHANGELOG.md",
-    "repository": "https://github.com/th0r/webpack-bundle-analyzer",
+    "bugs": {
+      "url": "https://github.com/th0r/webpack-bundle-analyzer/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/th0r/webpack-bundle-analyzer.git"
+    },
     "main": "lib/index.js",
     "bin": "lib/bin/analyzer.js",
     "engines": {
@@ -281,5 +288,6 @@
   },
   "filename": "gdi2290___webpack-bundle-analyzer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:01:21.519Z"
+  "lastFetchedAt": "2017-05-04T18:01:21.519Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:31.758Z"
 }

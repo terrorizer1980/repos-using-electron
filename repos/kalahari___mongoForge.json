@@ -69,14 +69,21 @@
       "test": "npm run lint",
       "install-native": "node ./tasks/install_native_module"
     },
-    "repository": "https://github.com/kalahari/mongoForge",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kalahari/mongoForge.git"
+    },
     "keywords": [
       "mongodb",
       "electron",
       "angular2",
       "typescript"
     ],
+    "author": "Blake Mitchell <blake@barkingspoon.com>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/kalahari/mongoForge/issues"
+    },
     "homepage": "https://github.com/kalahari/mongoForge#readme",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -147,5 +154,6 @@
   "svnUrl": "https://github.com/kalahari/mongoForge",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:48:54.155Z"
+  "lastFetchedAt": "2017-05-04T20:48:54.155Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:32.647Z"
 }

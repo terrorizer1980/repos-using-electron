@@ -59,8 +59,16 @@
       "hosts"
     ],
     "homepage": "https://github.com/fiahfy/hosty#readme",
+    "author": {
+      "name": "fiahfy",
+      "email": "d.fiahfy@gmail.com",
+      "url": "http://fiahfy.blogspot.com/"
+    },
     "main": "main.js",
-    "repository": "https://github.com/fiahfy/hosty",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fiahfy/hosty"
+    },
     "scripts": {
       "start": "npm run watch & npm run build:main; electron main.js",
       "start:hot": "npm run hot:renderer & npm run build:main; HOT=1 electron main.js",
@@ -172,5 +180,6 @@
   "svnUrl": "https://github.com/fiahfy/hosty",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:46:01.004Z"
+  "lastFetchedAt": "2017-05-04T17:46:01.004Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:27.767Z"
 }

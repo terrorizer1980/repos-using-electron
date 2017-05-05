@@ -96,7 +96,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/PacoIrene/host",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PacoIrene/host.git"
+    },
+    "author": {
+      "name": "PacoIrene",
+      "email": "zhenyangchu@gmail.com",
+      "url": "https://github.com/PacoIrene"
+    },
     "license": "MIT",
     "keywords": [
       "electron",
@@ -205,5 +213,6 @@
   },
   "filename": "PacoIrene___host.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:18:48.194Z"
+  "lastFetchedAt": "2017-05-04T15:18:48.194Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:21.472Z"
 }

@@ -61,7 +61,8 @@
     "scripts": {
       "build": "electron-packager . Palin --platform=darwin --arch=x64 --version=0.36.2 --icon=images/icon/palin.icns --ignore=/images/icon --overwrite --out=_build",
       "start": "electron ."
-    }
+    },
+    "author": "Rey Dhuny"
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/rey/palin",
@@ -108,5 +109,6 @@
   },
   "filename": "rey___palin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:10.668Z"
+  "lastFetchedAt": "2017-05-04T15:14:10.668Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:16.672Z"
 }

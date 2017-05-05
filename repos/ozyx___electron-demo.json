@@ -77,8 +77,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/ozyx/electron-demo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ozyx/electron-demo.git"
+    },
+    "author": "jesse mazzella",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ozyx/electron-demo/issues"
+    },
     "homepage": "https://github.com/ozyx/electron-demo#readme"
   },
   "packageStatus": 200,
@@ -106,5 +113,6 @@
   },
   "filename": "ozyx___electron-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:17.308Z"
+  "lastFetchedAt": "2017-05-04T19:54:17.308Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:05.497Z"
 }

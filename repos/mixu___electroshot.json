@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electroshot",
-    "version": "1.0.0",
+    "version": "1.3.0",
     "description": "Capture website screenshots with optional device and network emulation as jpg, png or pdf (with web fonts!) using Electron / Chrome.",
     "main": "test.js",
     "bin": {
@@ -56,23 +56,30 @@
     "scripts": {
       "test": "mocha -R spec --bail ./test/*.test.js"
     },
-    "repository": "https://github.com/mixu/electroshot",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:mixu/electroshot.git"
+    },
+    "author": "Mikito Takada <mikito.takada@gmail.com> (http://mixu.net/)",
     "license": "BSD-3-Clause",
     "dependencies": {
       "chromium-emulated-devices": "~1.0.0",
       "chromium-emulated-networks": "~1.0.0",
-      "cookie": "~0.2.2",
-      "electron-prebuilt": "~0.33.6",
+      "cookie": "~0.3.1",
+      "electron": "~1.4.13",
       "es6-template": "~1.0.3",
-      "express": "~4.13.3",
+      "express": "~4.14.0",
       "file-fixture": "0.0.2",
       "log-symbols": "~1.0.2",
-      "minilog": "~2.0.8",
+      "minilog": "~3.1.0",
       "miniq": "~1.0.0",
-      "sanitize-filename": "~1.4.5",
+      "sanitize-filename": "~1.6.1",
       "subarg": "~1.0.0",
-      "tough-cookie": "~2.2.0",
+      "tough-cookie": "~2.3.2",
       "xtend": "~4.0.0"
+    },
+    "devDependencies": {
+      "mocha": "~3.2.0"
     }
   },
   "packageStatus": 200,
@@ -120,5 +127,6 @@
   "svnUrl": "https://github.com/mixu/electroshot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:37:57.771Z"
+  "lastFetchedAt": "2017-05-04T19:37:57.771Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:55.316Z"
 }

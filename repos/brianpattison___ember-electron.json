@@ -68,6 +68,10 @@
   "packageJSON": {
     "name": "electron",
     "description": "Ember CLI + Electron + Bourbon + Neat",
+    "author": {
+      "name": "Brian Pattison",
+      "email": "brian@brianpattison.com"
+    },
     "productName": "Ember + Electron",
     "appBundleId": "com.brianpattison.ember-electron",
     "version": "0.1.1",
@@ -77,6 +81,10 @@
     },
     "main": "main.js",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "node electron-build.js && open ./build",
       "start": "mkdir -p ./tmp && rm -rf ./tmp && nf start",
@@ -140,5 +148,6 @@
   },
   "filename": "brianpattison___ember-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:01.365Z"
+  "lastFetchedAt": "2017-05-04T20:49:01.365Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:48.785Z"
 }

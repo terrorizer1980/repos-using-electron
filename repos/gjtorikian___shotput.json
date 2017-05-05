@@ -70,19 +70,14 @@
       "build": "electron-packager . Shotput --platform=darwin --arch=x64 --version=0.30.0 --overwrite"
     },
     "repository": {
-      "user": "gjtorikian",
-      "repo": "shotput",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/gjtorikian/shotput/tarball/master",
-      "clone_url": "https://github.com/gjtorikian/shotput",
-      "https_url": "https://github.com/gjtorikian/shotput",
-      "travis_url": "https://travis-ci.org/gjtorikian/shotput",
-      "zip_url": "https://github.com/gjtorikian/shotput/archive/master.zip",
-      "api_url": "https://api.github.com/repos/gjtorikian/shotput"
+      "type": "git",
+      "url": "git+https://github.com/gjtorikian/shotput.git"
     },
+    "author": "Garen J. Torikian <gjtorikian@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gjtorikian/shotput/issues"
+    },
     "homepage": "https://github.com/gjtorikian/shotput#readme"
   },
   "packageStatus": 200,
@@ -131,5 +126,6 @@
   "filename": "gjtorikian___shotput.json",
   "sourceRepo": "pfrazee/electron-browser",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:16:37.461Z"
+  "lastFetchedAt": "2017-05-04T20:16:37.461Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:00.432Z"
 }

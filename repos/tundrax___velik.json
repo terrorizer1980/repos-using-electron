@@ -79,7 +79,10 @@
     "scripts": {
       "test": "npm test"
     },
-    "repository": "https://github.com/tundrax/velik",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tundrax/velik.git"
+    },
     "keywords": [
       "vue",
       "electron",
@@ -87,7 +90,11 @@
       "kit",
       "ui"
     ],
+    "author": "tundrax",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tundrax/velik/issues"
+    },
     "homepage": "https://github.com/tundrax/velik#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.2",
@@ -121,5 +128,6 @@
   },
   "filename": "tundrax___velik.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:56.010Z"
+  "lastFetchedAt": "2017-05-04T05:00:56.010Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:30.706Z"
 }

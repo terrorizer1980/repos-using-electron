@@ -84,12 +84,19 @@
       "dist:mac": "npm run build && build",
       "dist:win": "npm run build && build --win --x64"
     },
-    "repository": "https://github.com/dustintownsend/volt",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dustintownsend/volt.git"
+    },
     "keywords": [
       "electron",
       "boilerplate"
     ],
+    "author": "Dustin Townsend",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dustintownsend/volt/issues"
+    },
     "homepage": "https://github.com/dustintownsend/volt#readme",
     "build": {
       "appId": "org.dustintownsend.electron-volt",
@@ -119,6 +126,11 @@
           "AppImage"
         ]
       }
+    },
+    "directories": {
+      "buildResources": "build_resources",
+      "output": "dist",
+      "app": "app"
     },
     "devDependencies": {
       "babel-cli": "^6.11.4",
@@ -151,5 +163,6 @@
   },
   "filename": "dustintownsend___volt.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:52.154Z"
+  "lastFetchedAt": "2017-05-04T19:42:52.154Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:28.257Z"
 }

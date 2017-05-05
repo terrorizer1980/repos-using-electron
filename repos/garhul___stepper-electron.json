@@ -78,6 +78,11 @@
     "description": "Stepper motor serial controller",
     "license": "MIT",
     "repository": "garhul/electron-pap-controller",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "adriangesto.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -137,5 +142,6 @@
   },
   "filename": "garhul___stepper-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:18.982Z"
+  "lastFetchedAt": "2017-05-04T21:24:18.982Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:20.460Z"
 }

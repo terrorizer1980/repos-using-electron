@@ -68,8 +68,15 @@
       "rebuild": "npm rebuild --runtime=electron --target=1.1.3 --disturl=https://atom.io/download/atom-shell --abi=48",
       "package": "electron-packager . --platform=darwin --arch=x64 --out=dist/ --extend-info extend.plist --app-bundle-id=com.drop.dat"
     },
-    "repository": "https://github.com/mafintosh/dat-drop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mafintosh/dat-drop.git"
+    },
+    "author": "Mathias Buus (@mafintosh)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mafintosh/dat-drop/issues"
+    },
     "homepage": "https://github.com/mafintosh/dat-drop"
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   },
   "filename": "mafintosh___dat-drop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:59.842Z"
+  "lastFetchedAt": "2017-05-04T21:22:59.842Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:34.640Z"
 }

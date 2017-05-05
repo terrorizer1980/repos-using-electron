@@ -58,6 +58,11 @@
     "description": "My terrific app",
     "license": "MIT",
     "repository": "blackie1019/electron-speed-detector",
+    "author": {
+      "name": "Blackie Tsai",
+      "email": "blackie1019@gmail.com",
+      "url": "test.123.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -135,5 +140,6 @@
   },
   "filename": "blackie1019___electron-for-speed-detector.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:29.665Z"
+  "lastFetchedAt": "2017-05-04T21:22:29.665Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:43.385Z"
 }

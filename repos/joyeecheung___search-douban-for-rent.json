@@ -62,6 +62,7 @@
       "pack-darwin": "electron-packager . DoubanRent --platform=darwin --arch=x64 --version=0.36.2",
       "pack-win32": "electron-packager . DoubanRent --platform=win32 --arch=x64 --version=0.36.2"
     },
+    "author": "Joyee Cheung <joyeec9h3@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -126,5 +127,6 @@
   },
   "filename": "joyeecheung___search-douban-for-rent.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:06:07.276Z"
+  "lastFetchedAt": "2017-05-04T18:06:07.276Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:28.450Z"
 }

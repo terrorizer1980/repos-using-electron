@@ -90,7 +90,11 @@
       "start": "electron .",
       "package": "electron-packager . BLive --platform=win32 --arch=ia32 --app-version=0.0.1-dev --version=0.28.3 --out build/"
     },
+    "author": "Whyme Lyu",
     "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/5long/blive/issues"
+    },
     "homepage": "https://github.com/5long/blive#readme"
   },
   "packageStatus": 200,
@@ -138,5 +142,6 @@
   "svnUrl": "https://github.com/5long/blive",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:57:46.905Z"
+  "lastFetchedAt": "2017-05-04T19:57:46.905Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:43.046Z"
 }

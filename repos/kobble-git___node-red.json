@@ -51,7 +51,10 @@
     "description": "A visual tool for wiring the Internet of Things",
     "homepage": "http://kobble.io",
     "license": "SEE LICENSE IN README.md",
-    "repository": "https://github.com/kobble-git/node-red",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kobble-git/node-red.git"
+    },
     "main": "./red-es6.js",
     "scripts": {
       "start": "electron kobble.js",
@@ -228,5 +231,6 @@
   "svnUrl": "https://github.com/kobble-git/node-red",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:23:19.082Z"
+  "lastFetchedAt": "2017-05-04T18:23:19.082Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:48.741Z"
 }

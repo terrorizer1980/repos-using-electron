@@ -81,8 +81,19 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/Sunny-fr/G-box",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Sunny-fr/G-box.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Sunny-fr/G-box/issues"
+    },
     "homepage": "https://github.com/Sunny-fr/G-box#readme",
+    "author": {
+      "name": "Alaa El Helw",
+      "email": "sicksadsun@gmail.com",
+      "url": "https://github.com/Sunny-fr/G-box"
+    },
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1",
@@ -133,5 +144,6 @@
   },
   "filename": "Sunny-fr___G-box.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:46.023Z"
+  "lastFetchedAt": "2017-05-04T14:20:46.023Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:48.247Z"
 }

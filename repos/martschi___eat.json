@@ -78,6 +78,11 @@
     "description": "Electron App Template",
     "license": "MIT",
     "repository": "martschi/eat",
+    "author": {
+      "name": "martschi",
+      "email": "mce.meyer@gmail.com",
+      "url": "github.com/martschi/eat.git"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -142,5 +147,6 @@
   },
   "filename": "martschi___eat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:32:15.470Z"
+  "lastFetchedAt": "2017-05-04T17:32:15.470Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:45.633Z"
 }

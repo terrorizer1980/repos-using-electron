@@ -46,15 +46,22 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
+    "author": "XIE Yuheng",
     "license": "ISC",
     "name": "spring-and-autumn",
     "version": "0.0.2",
     "description": "a note taking app",
     "main": "lib/sa.js",
-    "repository": "https://github.com/xieyuheng/spring-and-autumn",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xieyuheng/spring-and-autumn.git"
+    },
     "keywords": [
       "note"
     ],
+    "bugs": {
+      "url": "https://github.com/xieyuheng/spring-and-autumn/issues"
+    },
     "homepage": "http://cicada-language.github.io",
     "dependencies": {
       "sad-coffee": "*"
@@ -109,5 +116,6 @@
   "svnUrl": "https://github.com/xieyuheng/spring-and-autumn",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:18:46.166Z"
+  "lastFetchedAt": "2017-05-04T15:18:46.166Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:48.101Z"
 }

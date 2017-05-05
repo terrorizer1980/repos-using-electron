@@ -60,8 +60,15 @@
       "test": "standard && browserify test/index.js | testron",
       "start": "wzrd example/index.js:bundle.js"
     },
-    "repository": "https://github.com/fraserxu/element-wrapper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fraserxu/element-wrapper.git"
+    },
+    "author": "Fraser Xu",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fraserxu/element-wrapper/issues"
+    },
     "keywords": [
       "yo-yo",
       "bel",
@@ -126,5 +133,6 @@
   },
   "filename": "fraserxu___element-wrapper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:02:00.568Z"
+  "lastFetchedAt": "2017-05-04T06:02:00.568Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:01.756Z"
 }

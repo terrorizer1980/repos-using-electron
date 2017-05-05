@@ -78,6 +78,7 @@
       "win-pack": "electron-packager build/ RadiostationTrainer --platform=win32 --arch=all --version=0.33.3 --overwrite",
       "ales": "electron-packager SldrTrainer/ SldrTrainer --platform=win32 --arch=ia32 --version=0.33.3 --overwrite"
     },
+    "author": "Artsiom Stsepanishchau",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^5.8.25",
@@ -140,5 +141,6 @@
   "filename": "artemjackson___MilitaryRadiostationTrainer.json",
   "sourceRepo": "artemjackson/MilitaryNavigationEquipmentTrainer",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:30.962Z"
+  "lastFetchedAt": "2017-05-04T16:46:30.962Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:44.215Z"
 }

@@ -65,17 +65,8 @@
       "es6"
     ],
     "repository": {
-      "user": "uber",
-      "repo": "deck.gl",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/uber/deck.gl/tarball/master",
-      "clone_url": "https://github.com/uber/deck.gl",
-      "https_url": "https://github.com/uber/deck.gl",
-      "travis_url": "https://travis-ci.org/uber/deck.gl",
-      "zip_url": "https://github.com/uber/deck.gl/archive/master.zip",
-      "api_url": "https://api.github.com/repos/uber/deck.gl"
+      "type": "git",
+      "url": "https://github.com/uber/deck.gl.git"
     },
     "main": "index.js",
     "files": [
@@ -213,5 +204,6 @@
   "svnUrl": "https://github.com/gcoupelant/dataviz_test_1",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:07:54.843Z"
+  "lastFetchedAt": "2017-05-04T05:07:54.843Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:44.639Z"
 }

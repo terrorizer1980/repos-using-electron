@@ -185,18 +185,13 @@
     "description": "A terminal emulator for the 21st century.",
     "version": "0.0.15",
     "main": "compiled/src/main/Main.js",
+    "author": "Volodymyr Shatskyi <shockone89@gmail.com>",
     "repository": {
-      "user": "shockone",
-      "repo": "black-screen",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/shockone/black-screen/tarball/master",
-      "clone_url": "https://github.com/shockone/black-screen",
-      "https_url": "https://github.com/shockone/black-screen",
-      "travis_url": "https://travis-ci.org/shockone/black-screen",
-      "zip_url": "https://github.com/shockone/black-screen/archive/master.zip",
-      "api_url": "https://api.github.com/repos/shockone/black-screen"
+      "type": "git",
+      "url": "https://github.com/shockone/black-screen.git"
+    },
+    "bugs": {
+      "url": "https://github.com/shockone/black-screen/issues"
     },
     "engineStrict": true,
     "engines": {
@@ -255,6 +250,9 @@
       "tsc": "tsc"
     },
     "license": "MIT",
+    "directories": {
+      "app": "."
+    },
     "build": {
       "app-bundle-id": "com.github.shockone.black-screen",
       "app-category-type": "public.app-category.developer-tools"
@@ -306,5 +304,6 @@
   "svnUrl": "https://github.com/AlphaStaxLLC/black-screen",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:09:44.594Z"
+  "lastFetchedAt": "2017-05-04T20:09:44.594Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:38.802Z"
 }

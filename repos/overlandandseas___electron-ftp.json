@@ -74,6 +74,7 @@
       "start": "electron ./app/main.js",
       "build": "electron-packager ./ \"electronftp\" --platform=darwin --arch=x64 --version=1.4.1 --overwrite"
     },
+    "author": "Lucas Overland",
     "license": "WTFPL",
     "devDependencies": {
       "electron": "1.4.1",
@@ -108,5 +109,6 @@
   },
   "filename": "overlandandseas___electron-ftp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:32.469Z"
+  "lastFetchedAt": "2017-05-04T21:11:32.469Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:05.546Z"
 }

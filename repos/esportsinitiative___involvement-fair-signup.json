@@ -189,17 +189,8 @@
       "build": "electron-packager . test --all --ignore=node_modules/electron-*"
     },
     "repository": {
-      "user": "esportsinitiative",
-      "repo": "involvement-fair-signup",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/esportsinitiative/involvement-fair-signup/tarball/master",
-      "clone_url": "https://github.com/esportsinitiative/involvement-fair-signup",
-      "https_url": "https://github.com/esportsinitiative/involvement-fair-signup",
-      "travis_url": "https://travis-ci.org/esportsinitiative/involvement-fair-signup",
-      "zip_url": "https://github.com/esportsinitiative/involvement-fair-signup/archive/master.zip",
-      "api_url": "https://api.github.com/repos/esportsinitiative/involvement-fair-signup"
+      "type": "git",
+      "url": "git+https://github.com/esportsinitiative/involvement-fair-signup.git"
     },
     "keywords": [
       "esi",
@@ -207,7 +198,11 @@
       "osu",
       "involvement fair"
     ],
+    "author": "eSports Initiative",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/esportsinitiative/involvement-fair-signup/issues"
+    },
     "homepage": "https://github.com/esportsinitiative/involvement-fair-signup#readme",
     "devDependencies": {
       "electron-packager": "^7.7.0",
@@ -260,5 +255,6 @@
   "svnUrl": "https://github.com/esportsinitiative/involvement-fair-signup",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:09:58.213Z"
+  "lastFetchedAt": "2017-05-04T05:09:58.213Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:25.557Z"
 }

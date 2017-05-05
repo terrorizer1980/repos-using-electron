@@ -80,24 +80,19 @@
       "start": "./node_modules/.bin/electron ."
     },
     "repository": {
-      "user": "ArmandBiteau",
-      "repo": "electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ArmandBiteau/electron/tarball/master",
-      "clone_url": "https://github.com/ArmandBiteau/electron",
-      "https_url": "https://github.com/ArmandBiteau/electron",
-      "travis_url": "https://travis-ci.org/ArmandBiteau/electron",
-      "zip_url": "https://github.com/ArmandBiteau/electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ArmandBiteau/electron"
+      "type": "git",
+      "url": "git+https://github.com/ArmandBiteau/electron.git"
     },
     "keywords": [
       "Electron",
       "quick",
       "start"
     ],
+    "author": "Armand Biteau",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ArmandBiteau/electron/issues"
+    },
     "homepage": "https://github.com/ArmandBiteau/electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -129,5 +124,6 @@
   "filename": "ArmandBiteau___electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:59.756Z"
+  "lastFetchedAt": "2017-05-04T21:28:59.756Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:18.392Z"
 }

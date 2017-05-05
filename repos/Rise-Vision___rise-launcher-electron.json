@@ -64,6 +64,7 @@
     "version": "1.0.0",
     "description": "test",
     "main": "main.js",
+    "author": "Tyler Johnson <mail@tyler-johnson.ca> (http://github.com/tejohnso)",
     "license": "ISC",
     "devDependencies": {
       "istanbul": "^0.4.0",
@@ -73,14 +74,13 @@
       "simple-mock": "^0.6.0"
     },
     "dependencies": {
-      "@google-cloud/storage": "^0.1.1",
-      "angular": "^1.5.5",
+      "angular": "1.5.9",
       "camelcase": "^2.1.0",
       "electron-mocha": "^2.0.0",
-      "electron-packager": "7.6.0",
+      "electron-packager": "8.6.0",
       "electron-prebuilt": "1.3.5",
       "gunzip-maybe": "^1.2.1",
-      "electron-proxy-agent": "git://github.com/Rise-Vision/node-electron-proxy-agent.git#b4814",
+      "electron-proxy-agent": "git://github.com/Rise-Vision/node-electron-proxy-agent.git#8d66",
       "marked": "~0.3.5",
       "mkdirp": "^0.5.1",
       "ncp": "git://github.com/Rise-Vision/ncp.git",
@@ -88,8 +88,8 @@
       "primus": "^6.0.1",
       "request": "2.73.0",
       "rimraf": "2.4.3",
-      "rise-cache-v2": "git://github.com/Rise-Vision/rise-cache-v2.git#dcdf00",
-      "rise-common-electron": "git://github.com/Rise-Vision/rise-common-electron.git#ffe63a7e",
+      "rise-cache-v2": "git://github.com/Rise-Vision/rise-cache-v2.git#6299a06",
+      "rise-common-electron": "git://github.com/Rise-Vision/rise-common-electron.git#v1.0.4",
       "tar-fs": "^1.8.1",
       "windows-shortcuts": "git://github.com/Rise-Vision/windows-shortcuts.git",
       "ws": "^1.1.1",
@@ -97,7 +97,8 @@
     },
     "scripts": {
       "test": "jshint . && ./node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -r ./init.js -- --reporter mocha-junit-reporter --reporter-options mochaFile=test/test-results.xml --recursive test/unit",
-      "integration": "export ELECTRON_PATH=$PWD/node_modules/electron-prebuilt/dist/electron && node_modules/.bin/electron-mocha -r ./init.js -t 10000 --recursive test/integration",
+      "test-no-coverage": "jshint . && ./node_modules/mocha/bin/mocha -r ./init.js --recursive test/unit",
+      "integration": "export ELECTRON_PATH=$PWD/node_modules/electron-prebuilt/dist/electron && node_modules/.bin/electron-mocha -r ./init.js -t 10000 test/integration",
       "ui-integration": "node_modules/.bin/electron-mocha -r init.js test/integration/ui/main-it.js",
       "start": "./node_modules/.bin/electron main.js"
     }
@@ -147,5 +148,6 @@
   "svnUrl": "https://github.com/Rise-Vision/rise-launcher-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:35:06.272Z"
+  "lastFetchedAt": "2017-05-04T15:35:06.272Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:25.923Z"
 }

@@ -53,14 +53,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-eslint": "^6.1.2",
@@ -126,5 +133,6 @@
   },
   "filename": "viatsko___JChat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:34:11.010Z"
+  "lastFetchedAt": "2017-05-04T15:34:11.010Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:47.464Z"
 }

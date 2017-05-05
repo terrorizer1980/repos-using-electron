@@ -68,7 +68,7 @@
     },
     "devDependencies": {
       "electron-packager": "^8.0.0",
-      "electron-prebuilt": "^1.4.4",
+      "electron": "1.6.2",
       "electron-winstaller": "^2.3.4"
     }
   },
@@ -117,5 +117,6 @@
   "svnUrl": "https://github.com/koush/electron-chrome",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:39:19.550Z"
+  "lastFetchedAt": "2017-05-04T17:39:19.550Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:15.178Z"
 }

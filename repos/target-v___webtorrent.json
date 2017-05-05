@@ -169,6 +169,11 @@
     "name": "webtorrent",
     "description": "Streaming torrent client",
     "version": "0.85.4",
+    "author": {
+      "name": "Feross Aboukhadijeh",
+      "email": "feross@feross.org",
+      "url": "http://feross.org/"
+    },
     "browser": {
       "./lib/server.js": false,
       "bittorrent-dht/client": false,
@@ -182,6 +187,9 @@
       "transform": [
         "package-json-versionify"
       ]
+    },
+    "bugs": {
+      "url": "https://github.com/feross/webtorrent/issues"
     },
     "dependencies": {
       "addr-to-ip-port": "^1.0.1",
@@ -258,17 +266,8 @@
     "license": "MIT",
     "main": "index.js",
     "repository": {
-      "user": "feross",
-      "repo": "webtorrent",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/feross/webtorrent/tarball/master",
-      "clone_url": "https://github.com/feross/webtorrent",
-      "https_url": "https://github.com/feross/webtorrent",
-      "travis_url": "https://travis-ci.org/feross/webtorrent",
-      "zip_url": "https://github.com/feross/webtorrent/archive/master.zip",
-      "api_url": "https://api.github.com/repos/feross/webtorrent"
+      "type": "git",
+      "url": "git://github.com/feross/webtorrent.git"
     },
     "scripts": {
       "build": "browserify -s WebTorrent -e ./ | uglifyjs -c warnings=false -m > webtorrent.min.js",
@@ -328,5 +327,6 @@
   "filename": "target-v___webtorrent.json",
   "sourceRepo": "feross/webtorrent",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:04.343Z"
+  "lastFetchedAt": "2017-05-04T19:53:04.343Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:57.126Z"
 }

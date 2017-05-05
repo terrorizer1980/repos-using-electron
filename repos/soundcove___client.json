@@ -88,7 +88,10 @@
       "start": "electron .",
       "test": "electron ."
     },
-    "repository": "https://github.com/soundcove/client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/soundcove/client"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.2.1"
     }
@@ -118,5 +121,6 @@
   },
   "filename": "soundcove___client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:16:28.769Z"
+  "lastFetchedAt": "2017-05-04T21:16:28.769Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:44.886Z"
 }

@@ -69,6 +69,7 @@
       "release": "run-p release:*",
       "reload": "live-reload app --port 35729"
     },
+    "author": "Shahidh K Muhammed <shahidhkmuhammed@gmail.com>",
     "devDependencies": {
       "copyfiles": "~1.0.0",
       "electron-builder": "5.12.X",
@@ -159,5 +160,6 @@
   "svnUrl": "https://github.com/shahidhk/iitm-network-auth-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:29:56.523Z"
+  "lastFetchedAt": "2017-05-04T20:29:56.523Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:05.741Z"
 }

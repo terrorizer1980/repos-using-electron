@@ -79,9 +79,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/koroshiya/batoto-downloader-node",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/koroshiya/batoto-downloader-node.git"
+    },
     "keywords": [],
+    "author": "Koroshiya",
     "license": "SEE LICENSE IN LICENSE.md",
+    "bugs": {
+      "url": "https://github.com/koroshiya/batoto-downloader-node/issues"
+    },
     "homepage": "https://github.com/koroshiya/batoto-downloader-node#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -118,5 +125,6 @@
   },
   "filename": "koroshiya___batoto-downloader-node.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:33.600Z"
+  "lastFetchedAt": "2017-05-04T20:57:33.600Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:14.428Z"
 }

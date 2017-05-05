@@ -74,10 +74,17 @@
   "packageJSON": {
     "name": "electron-workshop",
     "description": "A Markdown-to-HTML renderer",
-    "version": "1.0.0",
+    "version": "1.0.2",
+    "author": {
+      "name": "Feross Aboukhadijeh",
+      "email": "feross@feross.org",
+      "url": "http://feross.org/"
+    },
+    "bugs": {
+      "url": "https://github.com/feross/electron-workshop/issues"
+    },
     "dependencies": {
       "drag-drop": "^2.12.1",
-      "jquery": "^3.1.1",
       "marked": "^0.3.5"
     },
     "devDependencies": {
@@ -93,8 +100,10 @@
     ],
     "license": "MIT",
     "main": "lib/main.js",
-    "private": true,
-    "repository": "https://github.com/feross/electron-workshop",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/electron-workshop.git"
+    },
     "scripts": {
       "package": "electron-packager . 'Markdown Editor'",
       "package-all": "electron-packager . 'Markdown Editor' --platform=all --arch=all",
@@ -129,5 +138,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T18:08:53.937Z"
+  "lastFetchedAt": "2017-05-04T18:08:53.937Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:25.982Z"
 }

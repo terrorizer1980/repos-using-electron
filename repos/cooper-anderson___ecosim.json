@@ -67,5 +67,26 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:04:29.416Z"
+  "lastFetchedAt": "2017-05-04T05:04:29.416Z",
+  "packageJSON": {
+    "name": "ecosim",
+    "productName": "EcoSim",
+    "version": "0.1.0",
+    "main": "main.js",
+    "dependencies": {
+      "electron": "latest",
+      "jquery": "latest",
+      "seedrandom": "latest",
+      "sigma": "latest"
+    },
+    "scripts": {
+      "start": "/Applications/Electron.app/Contents/MacOS/Electron ./"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cooper-anderson/ecosim.git"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:15:54.099Z"
 }

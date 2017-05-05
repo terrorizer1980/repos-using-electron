@@ -171,6 +171,7 @@
     "productName": "Medis",
     "version": "0.3.0",
     "license": "MIT",
+    "author": "luin <i@zihua.li> (http://zihua.li)",
     "main": "server/main.js",
     "scripts": {
       "start": "NODE_ENV=debug electron .",
@@ -182,17 +183,8 @@
       "tomedis": "./bin/tomedis"
     },
     "repository": {
-      "user": "luin",
-      "repo": "medis",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/luin/medis/tarball/master",
-      "clone_url": "https://github.com/luin/medis",
-      "https_url": "https://github.com/luin/medis",
-      "travis_url": "https://travis-ci.org/luin/medis",
-      "zip_url": "https://github.com/luin/medis/archive/master.zip",
-      "api_url": "https://api.github.com/repos/luin/medis"
+      "type": "git",
+      "url": "git://github.com/luin/medis.git"
     },
     "dependencies": {
       "codemirror": "^5.10.0",
@@ -294,5 +286,6 @@
   "filename": "rinetd___medis.json",
   "sourceRepo": "luin/medis",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:37:03.842Z"
+  "lastFetchedAt": "2017-05-04T05:37:03.842Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:44.825Z"
 }

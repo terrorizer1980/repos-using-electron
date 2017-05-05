@@ -212,14 +212,21 @@
       "buildlinux": "electron-packager . cocoblock --platform=linux --arch=ia32 --asar=true --overwrite",
       "buildall": "npm run-script buildosx ; npm run-script buildwin ;npm run-script buildlinux "
     },
-    "repository": "https://github.com/BioDesignRealWorld/LaravelDatabaseDesigner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BioDesignRealWorld/LaravelDatabaseDesigner.git"
+    },
     "keywords": [
       "Laravel",
       "MightyBits",
       "Lifepatch",
       "Badgeek"
     ],
+    "author": "Budi Prakosa",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/BioDesignRealWorld/LaravelDatabaseDesigner"
+    },
     "homepage": "https://github.com/BioDesignRealWorld/LaravelDatabaseDesigner",
     "devDependencies": {
       "electron-prebuilt": "^1.1.0",
@@ -256,5 +263,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:18.136Z"
+  "lastFetchedAt": "2017-05-04T21:03:18.136Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:45.448Z"
 }

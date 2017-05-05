@@ -61,8 +61,15 @@
       "server": "node server/index.js",
       "3-player-demo": "electron index.js & electron index.js & electron index.js & node server/index.js"
     },
-    "repository": "https://github.com/tworns/CS408Team07",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tworns/CS408Team07.git"
+    },
+    "author": "Team 7",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tworns/CS408Team07/issues"
+    },
     "homepage": "https://github.com/tworns/CS408Team07#readme",
     "dependencies": {
       "angular": "^1.4.9",
@@ -129,5 +136,6 @@
   },
   "filename": "tworns___CS408Team07.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:40.030Z"
+  "lastFetchedAt": "2017-05-04T14:55:40.030Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:18.482Z"
 }

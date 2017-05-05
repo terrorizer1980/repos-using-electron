@@ -80,6 +80,9 @@
     "license": "MIT",
     "repository": "/electron-browser-sync-launcher",
     "private": true,
+    "author": {
+      "name": "Hideo Marunaga"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -147,5 +150,6 @@
   },
   "filename": "hidoo___electron-browser-sync-launcher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:53.742Z"
+  "lastFetchedAt": "2017-05-04T14:46:53.742Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:40.736Z"
 }

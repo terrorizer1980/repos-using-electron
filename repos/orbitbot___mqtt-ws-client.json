@@ -56,8 +56,15 @@
     "version": "0.0.1",
     "description": "MQTT client app for the browser using websockets",
     "private": true,
-    "repository": "https://github.com/orbitbot/mqtt-ws-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/orbitbot/mqtt-ws-client.git"
+    },
+    "author": "Patrik Johnson <patrik@zebros.fi>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/orbitbot/mqtt-ws-client/issues"
+    },
     "homepage": "https://github.com/orbitbot/mqtt-ws-client#readme",
     "devDependencies": {
       "babel-eslint": "^4.1.6",
@@ -146,5 +153,6 @@
   },
   "filename": "orbitbot___mqtt-ws-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:35:16.922Z"
+  "lastFetchedAt": "2017-05-04T18:35:16.922Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:51.688Z"
 }

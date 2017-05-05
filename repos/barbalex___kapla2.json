@@ -99,7 +99,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Alexander Gabriel",
+      "email": "alex@gabriel-software.ch",
+      "url": "http://gabriel-software.ch"
+    },
     "license": "MIT",
     "devDependencies": {
       "asar": "0.12.3",
@@ -221,5 +229,6 @@
   },
   "filename": "barbalex___kapla2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:38.493Z"
+  "lastFetchedAt": "2017-05-04T05:34:38.493Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:39.028Z"
 }

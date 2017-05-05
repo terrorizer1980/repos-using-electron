@@ -90,12 +90,19 @@
       "typings": "typings",
       "webdriver:update": "webdriver-manager update"
     },
-    "repository": "https://github.com/tojocky/supperBuddy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tojocky/supperBuddy"
+    },
     "keywords": [
       "agile",
       "scrum"
     ],
+    "author": "ion@lupascu.net",
     "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/tojocky/supperBuddy/issues"
+    },
     "homepage": "https://github.com/tojocky/supperBuddy#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -160,5 +167,6 @@
   },
   "filename": "tojocky___supperBuddy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:34.149Z"
+  "lastFetchedAt": "2017-05-04T14:26:34.149Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:33.295Z"
 }

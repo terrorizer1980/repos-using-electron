@@ -63,6 +63,7 @@
       "test": "standard",
       "rebuild": "cd node_modules/robotjs && set HOME=~/.electron-gyp && node-gyp rebuild --target=0.36.0 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
     },
+    "author": "max ogden",
     "license": "BSD-3-Clause",
     "dependencies": {
       "domify": "^1.4.0",
@@ -85,7 +86,13 @@
       "tachyons": "^1.2.0",
       "wzrd": "^1.2.1"
     },
-    "repository": "https://github.com/maxogden/screencat",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/maxogden/screencat.git"
+    },
+    "bugs": {
+      "url": "https://github.com/maxogden/screencat/issues"
+    },
     "homepage": "https://github.com/maxogden/screencat"
   },
   "packageStatus": 200,
@@ -133,5 +140,6 @@
   "svnUrl": "https://github.com/maxogden/screencat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:58:12.692Z"
+  "lastFetchedAt": "2017-05-04T04:58:12.692Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:11.144Z"
 }

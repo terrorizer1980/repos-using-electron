@@ -61,7 +61,7 @@
   "status": 200,
   "packageJSON": {
     "name": "livewire",
-    "version": "1.1.005",
+    "version": "1.2.0",
     "description": "Simple Web Content Editor",
     "main": "index.js",
     "scripts": {
@@ -71,15 +71,19 @@
       "release": "electron-packager . Livewire --platform=all --arch=all --out=../releases",
       "postinstall": "gulp install"
     },
-    "repository": "https://github.com/infragistics/livewire",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/infragistics/livewire.git"
+    },
     "keywords": [
       "markdown",
       "electron"
     ],
+    "author": "Craig Shoemaker <cshoemaker@infragistics.com>",
     "license": "MIT",
     "devDependencies": {
-      "electron-packager": "^5.0.1",
-      "electron-prebuilt": "^1.4.5",
+      "electron": "^1.4.14",
+      "electron-packager": "^7.0.0",
       "gulp": "^3.9.0",
       "gulp-less": "^3.1.0",
       "gulp-tsc": "^1.2.4",
@@ -89,7 +93,7 @@
     },
     "dependencies": {
       "cheerio": "^0.19.0",
-      "lodash": "^3.10.0",
+      "lodash": "4.17.4",
       "marked": "^0.3.6"
     }
   },
@@ -138,5 +142,6 @@
   },
   "filename": "Infragistics___livewire.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:10.155Z"
+  "lastFetchedAt": "2017-05-04T21:04:10.155Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:02.304Z"
 }

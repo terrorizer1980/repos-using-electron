@@ -81,7 +81,10 @@
       "package": "electron-packager ./ recipe-box --all --out ./build --version 1.2.0 --overwrite",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/jnmorse/recipe-box",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jnmorse/recipe-box.git"
+    },
     "keywords": [
       "electron",
       "react",
@@ -89,7 +92,11 @@
       "truck",
       "tracking"
     ],
+    "author": "Joseph Morse <tamed.lionheart@gmail.com> (https://github.com/jnmorse)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jnmorse/recipe-box/issues"
+    },
     "homepage": "https://github.com/jnmorse/recipe-box#readme",
     "devDependencies": {
       "babel-eslint": "^6.0.4",
@@ -136,5 +143,6 @@
   },
   "filename": "jnmorse___recipe-box.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:01.434Z"
+  "lastFetchedAt": "2017-05-04T18:18:01.434Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:20.989Z"
 }

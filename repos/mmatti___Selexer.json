@@ -76,7 +76,10 @@
     "version": "0.0.1",
     "description": "Lexical randomizer for user-selectable parts-of-speech.",
     "license": "MIT",
-    "repository": "https://github.com/mmatti/Selexer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mmatti/Selexer.git"
+    },
     "main": "js/main.js",
     "scripts": {
       "start": "electron ."
@@ -111,5 +114,6 @@
   },
   "filename": "mmatti___Selexer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:30:44.924Z"
+  "lastFetchedAt": "2017-05-04T18:30:44.924Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:53.337Z"
 }

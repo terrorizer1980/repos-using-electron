@@ -73,12 +73,13 @@
   "status": 200,
   "packageJSON": {
     "name": "fldcbar",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "FoldingCoin desktop stats app",
     "dependencies": {
-      "electron": "^1.4.2",
-      "menubar": "^5.1.0",
-      "request": "^2.75.0"
+      "electron": "^1.6.0",
+      "electron-packager": "^5.2.1",
+      "menubar": "^5.2.3",
+      "request": "^2.79.0"
     },
     "devDependencies": {
       "electron": "^1.4.0",
@@ -87,7 +88,7 @@
     },
     "main": "main.js",
     "scripts": {
-      "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.0.1 --icon=Icon.icns",
+      "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.0.2 --icon=Icon.icns",
       "start": "electron ."
     }
   },
@@ -116,5 +117,6 @@
   },
   "filename": "franckuestein___fldcbar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:05:52.245Z"
+  "lastFetchedAt": "2017-05-04T18:05:52.245Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:20.657Z"
 }

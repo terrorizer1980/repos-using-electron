@@ -68,22 +68,14 @@
       "release": "node ./script/release.js"
     },
     "repository": {
-      "user": "Nf5",
-      "repo": "Nf5",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Nf5/Nf5/tarball/master",
-      "clone_url": "https://github.com/Nf5/Nf5",
-      "https_url": "https://github.com/Nf5/Nf5",
-      "travis_url": "https://travis-ci.org/Nf5/Nf5",
-      "zip_url": "https://github.com/Nf5/Nf5/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Nf5/Nf5"
+      "type": "git",
+      "url": "git+https://github.com/Nf5/Nf5.git"
     },
     "keywords": [
       "Chess",
       "Nf5"
     ],
+    "author": "Chad Russell",
     "license": "MIT",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -160,5 +152,6 @@
   "filename": "chad-russell___chess_analysis.json",
   "sourceRepo": "electron/electron-api-demos",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:17.965Z"
+  "lastFetchedAt": "2017-05-04T16:41:17.965Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:55.017Z"
 }

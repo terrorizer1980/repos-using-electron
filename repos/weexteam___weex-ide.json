@@ -78,12 +78,16 @@
       "prebuild": "rm -rf ./package/*",
       "build": "npm run pack-app && npm run make-dmg"
     },
-    "repository": "https://github.com/weexteam/weex-ide",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:weexteam/weex-ide.git"
+    },
     "keywords": [
       "weex",
       "IDE",
       "Electron"
     ],
+    "author": "Terry King <terrykingcha@gmail.com>",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-installer-dmg": "^0.1.1",
@@ -144,5 +148,6 @@
   "svnUrl": "https://github.com/weexteam/weex-ide",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:24:43.500Z"
+  "lastFetchedAt": "2017-05-04T14:24:43.500Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:47.630Z"
 }

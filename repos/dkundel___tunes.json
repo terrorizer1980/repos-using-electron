@@ -56,8 +56,15 @@
     "version": "1.0.0",
     "description": "A player for music via YouTube in Electron",
     "main": "out/main.js",
-    "repository": "https://github.com/dkundel/tunes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dkundel/tunes.git"
+    },
+    "author": "Dominik Kundel <dominik.kundel@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dkundel/tunes/issues"
+    },
     "homepage": "https://github.com/dkundel/tunes#readme",
     "devDependencies": {
       "bower": "^1.7.7",
@@ -137,5 +144,6 @@
   "svnUrl": "https://github.com/dkundel/tunes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:47:13.223Z"
+  "lastFetchedAt": "2017-05-04T17:47:13.223Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:05.510Z"
 }

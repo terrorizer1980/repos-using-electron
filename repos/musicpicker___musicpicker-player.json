@@ -76,6 +76,9 @@
     "pickerClientId": "QMJGc0Z7gc3TOzjQH7zG0HsoL2mkhrAPuGhx582Iu5Ta_iBZzIYW834l",
     "description": "Musicpicker native client and player",
     "license": "Apache-2.0",
+    "author": {
+      "name": "Hugo Caille"
+    },
     "dependencies": {
       "bluebird": "^2.9.34",
       "configstore": "^1.2.1",
@@ -153,5 +156,6 @@
   "svnUrl": "https://github.com/musicpicker/musicpicker-player",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:21:08.464Z"
+  "lastFetchedAt": "2017-05-04T15:21:08.464Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:01.423Z"
 }

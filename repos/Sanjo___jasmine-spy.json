@@ -60,9 +60,16 @@
       "mock",
       "stub"
     ],
+    "author": "Jonas Aschenbrenner <jonas.aschenbrenner@gmail.com>",
     "license": "MIT",
-    "repository": "https://github.com/sanjo/jasmine-spy",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sanjo/jasmine-spy"
+    },
     "homepage": "",
+    "bugs": {
+      "url": "https://github.com/sanjo/jasmine-spy/issues"
+    },
     "main": "index.js",
     "dependencies": {
       "jasmine-core": "^2.4.1"
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/Sanjo/jasmine-spy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:51:12.900Z"
+  "lastFetchedAt": "2017-05-04T19:51:12.900Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:31.111Z"
 }

@@ -61,6 +61,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "babel-node ./node_modules/.bin/electron ."
     },
+    "author": "Michael Kelly",
     "license": "MIT",
     "dependencies": {
       "babel-core": "^6.3.15",
@@ -127,5 +128,6 @@
   "svnUrl": "https://github.com/Osmose/koholint",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:30:51.825Z"
+  "lastFetchedAt": "2017-05-04T05:30:51.825Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:25.172Z"
 }

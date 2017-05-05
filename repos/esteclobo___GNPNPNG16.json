@@ -73,5 +73,33 @@
   "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:21:39.047Z"
+  "lastFetchedAt": "2017-05-04T14:21:39.047Z",
+  "packageJSON": {
+    "name": "gnpnpng16",
+    "version": "1.0.0",
+    "description": "GNPNPNG16's Not PNPNG16 Nor PNG16 Nor Grossi16",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron server.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/esteclobo/GNPNPNG16.git"
+    },
+    "author": "the crustaceans",
+    "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/esteclobo/GNPNPNG16/issues"
+    },
+    "homepage": "https://github.com/esteclobo/GNPNPNG16#readme",
+    "dependencies": {
+      "electron": "^1.6.1",
+      "electron-pug": "^1.5.1",
+      "express": "^4.15.0",
+      "pug": "^2.0.0-beta11",
+      "sass": "^0.5.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:29:26.326Z"
 }

@@ -87,5 +87,84 @@
   "networkCount": 0,
   "subscribersCount": 3,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:32:20.144Z"
+  "lastFetchedAt": "2017-05-04T05:32:20.144Z",
+  "packageJSON": {
+    "name": "eReuse.org-DesktopApp",
+    "productName": "My eReuse.org & Support",
+    "version": "0.0.1",
+    "description": "Support PC and report incidents, and also show information about eReuse.org and the social contribution with usage of this computer",
+    "main": "app/main.js",
+    "scripts": {
+      "postinstall": "install-app-deps",
+      "start": "electron .",
+      "clear": "rm -r dist",
+      "dist": "npm run dist32 && npm run dist64",
+      "dist32": "build --linux --ia32",
+      "dist64": "build --linux --x64",
+      "publish64": "publish linux-x64",
+      "publish32": "publish linux-ia32",
+      "release32": "npm run dist32 && npm run publish32",
+      "release64": "npm run dist64 && npm run publish64"
+    },
+    "author": {
+      "name": "Jordi Nadeu",
+      "email": "j.nadeu@ereuse.org",
+      "url": "https://github.com/JNadeu/"
+    },
+    "license": "GNU Affero v3",
+    "private": true,
+    "build": {
+      "productName": "My eReuse.org & Support",
+      "appId": "tools.ereuse.org.support",
+      "dmg": {
+        "contents": [
+          {
+            "x": 110,
+            "y": 150
+          },
+          {
+            "x": 240,
+            "y": 150,
+            "type": "link",
+            "path": "/Applications"
+          }
+        ]
+      },
+      "linux": {
+        "category": "Utility",
+        "icon": "./build/icons"
+      },
+      "win": {
+        "target": "squirrel",
+        "icon": "./build/icon.ico"
+      }
+    },
+    "updater": {
+      "channel": "beta",
+      "url": "https://raw.githubusercontent.com/eReuse/desktop-app/master/updates.json"
+    },
+    "engines": {
+      "node": ">=6.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/eReuse/desktop-app.git"
+    },
+    "dependencies": {
+      "electron-simple-updater": "^1.2.0",
+      "python-shell": "^0.4.0"
+    },
+    "devDependencies": {
+      "electron": "^1.6.2",
+      "electron-builder": "^17.0.1",
+      "electron-builder-squirrel-windows": "*",
+      "electron-simple-publisher": "^0.4.4",
+      "eslint": "^3.19.0",
+      "eslint-config-standard": "^10.2.1",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^3.0.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:01:10.014Z"
 }

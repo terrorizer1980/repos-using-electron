@@ -71,7 +71,11 @@
     "description": "A cross-platform desktop Tinder client",
     "main": "build.js",
     "scripts": {},
-    "repository": "https://github.com/hanford/tinder-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hanford/tinder-desktop.git"
+    },
+    "author": "Jack Hanford",
     "contributors": [
       {
         "name": "Jack Hanford (@jackhanford)",
@@ -79,6 +83,9 @@
       }
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tinderjs/tinder-desktop/issues"
+    },
     "homepage": "https://github.com/tinderjs/tinder-desktop",
     "devDependencies": {
       "browserify": "~13.0.0",
@@ -144,5 +151,6 @@
   },
   "filename": "hanford___tinder-messenger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:34.731Z"
+  "lastFetchedAt": "2017-05-04T16:45:34.731Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:15.250Z"
 }

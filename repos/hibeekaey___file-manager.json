@@ -75,7 +75,11 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/hibeekaey/file-manager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hibeekaey/file-manager.git"
+    },
+    "author": "Hibeekaey",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
@@ -111,5 +115,6 @@
   },
   "filename": "hibeekaey___file-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:26.048Z"
+  "lastFetchedAt": "2017-05-04T19:52:26.048Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:56.487Z"
 }

@@ -73,5 +73,34 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:57:17.595Z"
+  "lastFetchedAt": "2017-05-04T20:57:17.595Z",
+  "packageJSON": {
+    "name": "sytek-launcher",
+    "version": "1.0.0",
+    "productName": "Sytek Launcher",
+    "description": "Launcher for LL-themed WoW private server",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/Jsnyder78/LL_Launcher",
+    "keywords": [
+      ""
+    ],
+    "author": "Joshua Snyder",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "jquery": "^3.2.0",
+      "ping": "^0.2.2",
+      "ping-net": "0.0.1",
+      "rimraf": "^2.6.1",
+      "unzip": "^0.1.11",
+      "unzip-stream": "^0.1.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:23:12.219Z"
 }

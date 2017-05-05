@@ -88,8 +88,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "electron": "node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/sportstech/screenshot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sportstech/screenshot.git"
+    },
+    "author": "Alex Lanzoni",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sportstech/screenshot/issues"
+    },
     "homepage": "https://github.com/sportstech/screenshot#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.8",
@@ -121,5 +128,6 @@
   },
   "filename": "sportstech___screenshot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:11.547Z"
+  "lastFetchedAt": "2017-05-04T05:35:11.547Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:42.504Z"
 }

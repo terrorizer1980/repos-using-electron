@@ -75,8 +75,15 @@
     "name": "electron-boilerplate",
     "description": "A boilerplate application for Electron runtime",
     "version": "0.3.0",
-    "repository": "https://github.com/zce/electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zce/electron-boilerplate.git"
+    },
+    "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zce/electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/zce/electron-boilerplate#readme",
     "scripts": {
       "postinstall": "cd app && npm install && cd ..",
@@ -169,5 +176,6 @@
   },
   "filename": "zce___electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:29:13.398Z"
+  "lastFetchedAt": "2017-05-04T19:29:13.398Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:23.014Z"
 }

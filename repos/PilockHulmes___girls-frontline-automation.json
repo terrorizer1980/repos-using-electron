@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/PilockHulmes/girls-frontline-automation",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PilockHulmes/girls-frontline-automation.git"
+    },
+    "author": "PilockHulmes",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/PilockHulmes/girls-frontline-automation/issues"
+    },
     "homepage": "https://github.com/PilockHulmes/girls-frontline-automation#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.5"
@@ -111,5 +118,6 @@
   },
   "filename": "PilockHulmes___girls-frontline-automation.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:45.767Z"
+  "lastFetchedAt": "2017-05-04T20:18:45.767Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:19.958Z"
 }

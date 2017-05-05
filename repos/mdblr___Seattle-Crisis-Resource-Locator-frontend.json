@@ -74,8 +74,15 @@
       "start": "electron .  ",
       "build": "rm -rf scrl-darwin-x64; electron-packager ./ --platform=darwin --arch=x64 && cp 20160712053858227_easyicon_net_128.icns scrl-darwin-x64/scrl.app/Contents/Resources/electron.icns; open ./scrl-darwin-x64/scrl.app"
     },
-    "repository": "https://github.com/mdblr/capstone-frontend",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mdblr/capstone-frontend.git"
+    },
+    "author": "Max Dobler",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mdblr/capstone-frontend/issues"
+    },
     "homepage": "https://github.com/mdblr/capstone-frontend#readme",
     "devDependencies": {
       "angular": "^1.5.7",
@@ -117,5 +124,6 @@
   },
   "filename": "mdblr___Seattle-Crisis-Resource-Locator-frontend.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:24.067Z"
+  "lastFetchedAt": "2017-05-04T20:20:24.067Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:11.930Z"
 }

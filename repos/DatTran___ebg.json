@@ -58,6 +58,11 @@
     "description": "My fantastic app",
     "license": "MIT",
     "repository": "dattran/ebg",
+    "author": {
+      "name": "Nguyen, Dat",
+      "email": "Dat.Nguyen@nordstrom.com",
+      "url": "nordstrom.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -153,5 +158,6 @@
   },
   "filename": "DatTran___ebg.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:58.996Z"
+  "lastFetchedAt": "2017-05-04T15:13:58.996Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:34.116Z"
 }

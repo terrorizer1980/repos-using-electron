@@ -76,6 +76,7 @@
       "start": "electron main.js",
       "watch": "npm run start & npm run elm:watch & wait"
     },
+    "author": "John Omar",
     "license": "ISC",
     "devDependencies": {
       "chokidar": "^1.4.3",
@@ -109,5 +110,6 @@
   },
   "filename": "johnomarkid___webster.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:17:15.991Z"
+  "lastFetchedAt": "2017-05-04T05:17:15.991Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:42.863Z"
 }

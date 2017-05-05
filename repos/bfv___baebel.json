@@ -75,7 +75,9 @@
     "name": "angular2-seed-advanced",
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
-    "repository": "https://github.com/NathanWalker/angular2-seed-advanced",
+    "repository": {
+      "url": "https://github.com/NathanWalker/angular2-seed-advanced"
+    },
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
       "build.desktop.windows": "rimraf desktop/windows/* && gulp desktop.windows",
@@ -122,6 +124,7 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
+    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -259,5 +262,6 @@
   },
   "filename": "bfv___baebel.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:13:40.679Z"
+  "lastFetchedAt": "2017-05-04T18:13:40.679Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:10.666Z"
 }

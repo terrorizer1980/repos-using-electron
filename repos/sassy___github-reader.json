@@ -78,13 +78,14 @@
     "author": "Satoshi Watanabe",
     "license": "MIT",
     "devDependencies": {
-      "electron-prebuilt": "^1.4.3",
+      "electron": "^1.4.9",
       "json-loader": "^0.5.4",
       "ts-loader": "^0.9.5",
       "typescript": "^2.0.3",
       "webpack": "^1.13.2"
     },
     "dependencies": {
+      "request": "^2.79.0",
       "rxjs": "^5.0.0-rc.1"
     }
   },
@@ -113,5 +114,6 @@
   },
   "filename": "sassy___github-reader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:37.117Z"
+  "lastFetchedAt": "2017-05-04T05:18:37.117Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:32.681Z"
 }

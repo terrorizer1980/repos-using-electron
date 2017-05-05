@@ -97,17 +97,8 @@
       "postinstall": "bower install"
     },
     "repository": {
-      "user": "AwsomeH5",
-      "repo": "NMSPT",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/AwsomeH5/NMSPT/tarball/master",
-      "clone_url": "https://github.com/AwsomeH5/NMSPT",
-      "https_url": "https://github.com/AwsomeH5/NMSPT",
-      "travis_url": "https://travis-ci.org/AwsomeH5/NMSPT",
-      "zip_url": "https://github.com/AwsomeH5/NMSPT/archive/master.zip",
-      "api_url": "https://api.github.com/repos/AwsomeH5/NMSPT"
+      "type": "git",
+      "url": "git+https://github.com/AwsomeH5/NMSPT.git"
     },
     "keywords": [
       "Electron",
@@ -115,7 +106,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/AwsomeH5/NMSPT/issues"
+    },
     "homepage": "https://github.com/AwsomeH5/NMSPT#readme",
     "devDependencies": {
       "bower": "^1.7.9",
@@ -162,5 +157,6 @@
   "filename": "AwsomeH5___NMSPT.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:01.796Z"
+  "lastFetchedAt": "2017-05-04T19:58:01.796Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:54.432Z"
 }

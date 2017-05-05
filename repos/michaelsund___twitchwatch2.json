@@ -61,6 +61,7 @@
     "description": "Twitch notifications",
     "main": "main.js",
     "private": "true",
+    "author": "Michael Sund <michael@osund.com>",
     "scripts": {
       "start": "electron main.js",
       "tsc": "tsc",
@@ -139,5 +140,6 @@
   "svnUrl": "https://github.com/michaelsund/twitchwatch2",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:58:49.831Z"
+  "lastFetchedAt": "2017-05-04T20:58:49.831Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:35.409Z"
 }

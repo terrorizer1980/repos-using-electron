@@ -76,6 +76,7 @@
       "watch": "watchify --debug ./app/app.js -v -o ./www/dist/bundle.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Masato Yoshioka",
     "license": "ISC",
     "devDependencies": {
       "browserify": "^9.0.8",
@@ -123,5 +124,6 @@
   },
   "filename": "MasatoYoshioka___2048.io.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:10.801Z"
+  "lastFetchedAt": "2017-05-04T16:42:10.801Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:04.178Z"
 }

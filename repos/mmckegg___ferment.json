@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "ferment",
-    "version": "0.6.16",
+    "version": "0.6.19",
     "description": "Peer-to-peer audio publishing and streaming application. Like SoundCloud but decentralized. A mashup of ssb, webtorrent and electron.",
     "main": "index.js",
     "scripts": {
@@ -86,7 +86,10 @@
     "bin": {
       "ferment": "scripts/start.js"
     },
-    "repository": "https://github.com/mmckegg/ferment",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mmckegg/ferment.git"
+    },
     "keywords": [
       "audio",
       "share",
@@ -99,7 +102,11 @@
       "ssb",
       "electron"
     ],
+    "author": "Matt McKegg",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/mmckegg/ferment/issues"
+    },
     "homepage": "https://github.com/mmckegg/ferment#readme",
     "dependencies": {
       "@mmckegg/mutant": "~3.7.2",
@@ -175,5 +182,6 @@
   },
   "filename": "mmckegg___ferment.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:26.036Z"
+  "lastFetchedAt": "2017-05-04T21:18:26.036Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:29.999Z"
 }

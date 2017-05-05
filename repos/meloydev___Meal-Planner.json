@@ -66,18 +66,26 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "google",
+    "productName": "TBF Planner",
+    "name": "meal-planner",
     "version": "1.0.0",
-    "description": "",
+    "description": "A meal planner for small gyms, or anyone",
     "main": "main.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": ".\\node_modules\\.bin\\electron ."
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "electron": "^1.4.3",
-      "jquery": "^3.1.1"
+      "docxtemplater": "^3.0.2",
+      "fs-extra": "^2.0.0",
+      "jquery": "^3.1.1",
+      "jszip": "^2.6.1",
+      "nedb": "^1.8.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.13"
     },
     "repository": {
       "name": "TBF Meal Planner",
@@ -113,5 +121,6 @@
   },
   "filename": "meloydev___Meal-Planner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:48.032Z"
+  "lastFetchedAt": "2017-05-04T16:42:48.032Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:39.043Z"
 }

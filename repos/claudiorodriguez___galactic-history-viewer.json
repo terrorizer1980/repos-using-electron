@@ -94,8 +94,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/claudiorodriguez/galactic-history-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/claudiorodriguez/galactic-history-viewer.git"
+    },
+    "author": {
+      "name": "Claudio Rodriguez",
+      "email": "cjrodr@yahoo.com",
+      "url": "https://github.com/claudiorodriguez"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/claudiorodriguez/galactic-history-viewer/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -194,5 +205,6 @@
   },
   "filename": "claudiorodriguez___galactic-history-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:07:30.469Z"
+  "lastFetchedAt": "2017-05-04T21:07:30.469Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:40.498Z"
 }

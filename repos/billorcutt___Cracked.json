@@ -59,7 +59,9 @@
     "description": "Web audio, cracked.",
     "keywords": "Web audio, synthesis, sound, music",
     "homepage": "https://github.com/billorcutt/Cracked",
+    "bugs": "https://github.com/billorcutt/Cracked/issues",
     "license": "MIT",
+    "author": "Bill Orcutt <cracked@fastinversesquare.com> (https://twitter.com/billorcutt)",
     "dependencies": {
       "electron-json-storage": "1.1.0",
       "wrench": "^1.5.8"
@@ -115,5 +117,6 @@
   "svnUrl": "https://github.com/billorcutt/Cracked",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:19:19.694Z"
+  "lastFetchedAt": "2017-05-04T14:19:19.694Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:26.561Z"
 }

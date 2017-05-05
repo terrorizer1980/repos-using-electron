@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "mathurin59000",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -126,5 +127,6 @@
   },
   "filename": "mathurin59000___Electron-Youtube-Player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:56:05.888Z"
+  "lastFetchedAt": "2017-05-04T14:56:05.888Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:56.445Z"
 }

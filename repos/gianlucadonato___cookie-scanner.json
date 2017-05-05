@@ -83,7 +83,10 @@
       "build:win": "electron-packager . CookieScanner --platform=win32 --arch=x64 --version-string.CompanyName=crclex --version-string.ProductName=CookieScanner --icon=ist/images/logo.icns",
       "zip": "cd CookieScanner-darwin-x64 && zip -ryX CookieScanner-darwin-x64.zip CookieScanner.app"
     },
-    "repository": "https://github.com/carontelabs/cookie-scanner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/carontelabs/cookie-scanner.git"
+    },
     "keywords": [
       "cookie",
       "scanner"
@@ -93,6 +96,9 @@
       "Daniele Tomasi"
     ],
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/carontelabs/cookie-scanner/issues"
+    },
     "homepage": "https://github.com/carontelabs/cookie-scanner",
     "devDependencies": {
       "del": "^2.2.0",
@@ -141,5 +147,6 @@
   },
   "filename": "gianlucadonato___cookie-scanner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:29.223Z"
+  "lastFetchedAt": "2017-05-04T15:33:29.223Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:20.350Z"
 }

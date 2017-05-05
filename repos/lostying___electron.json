@@ -70,6 +70,9 @@
     "description": "An example app, built with Electron.",
     "version": "0.0.1",
     "license": "MIT",
+    "author": {
+      "name": "lostying"
+    },
     "private": true,
     "main": "src/index.js",
     "scripts": {
@@ -115,5 +118,6 @@
   },
   "filename": "lostying___electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:14:37.854Z"
+  "lastFetchedAt": "2017-05-04T18:14:37.854Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:41.013Z"
 }

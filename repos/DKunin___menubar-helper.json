@@ -73,5 +73,38 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:17:26.896Z"
+  "lastFetchedAt": "2017-05-04T21:17:26.896Z",
+  "packageJSON": {
+    "name": "menubar-helper",
+    "version": "2.0.0",
+    "description": "Simple menubar app to help open files in editor",
+    "author": "Dmitri Kunin",
+    "license": "MIT",
+    "repository": "dkunin/menubar-helper",
+    "main": "./src/main.js",
+    "dependencies": {
+      "electron-config": "0.2.1",
+      "env-editor": "0.1.0",
+      "express": "4.15.2",
+      "line-column-path": "1.0.0",
+      "open-editor": "1.0.1",
+      "opn": "5.0.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.10",
+      "electron-packager": "^8.3.0",
+      "eslint": "3.19.0",
+      "prettier": "0.22.0"
+    },
+    "scripts": {
+      "check-style": "eslint ./src",
+      "pretty": "prettier ./src/*.js --single-quote --tab-width 4 --write",
+      "test": "npm run pretty && npm run check-style",
+      "build": "rm -rf ./build/*darwin*; electron-packager . MenuBarHelper --out=./build --platform=darwin --arch=x64 --icon=./assets/images/icon.icns --overwrite",
+      "package": "create-dmg 'build/MenuBarHelper-darwin-x64/MenuBarHelper.app' && mv ./*.dmg ./build",
+      "start": "electron ."
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:43:30.288Z"
 }

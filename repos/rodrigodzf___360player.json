@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "animate-prop": "^1.0.0",
@@ -169,5 +176,6 @@
   },
   "filename": "rodrigodzf___360player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:04:16.586Z"
+  "lastFetchedAt": "2017-05-04T20:04:16.586Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:27.247Z"
 }

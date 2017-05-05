@@ -61,8 +61,15 @@
       "start": "electron .",
       "build": "electron-packager ./ Piglet --platform=darwin --arch=x64 --version=0.27.2 --prune --out=build"
     },
-    "repository": "https://github.com/jenslind/piglet",
+    "repository": {
+      "type": "git",
+      "url": "https://jenslind@github.com/jenslind/piglet.git"
+    },
+    "author": "Jens Lind <jens@jensl.se> (http://jenslind.org/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jenslind/piglet/issues"
+    },
     "homepage": "https://github.com/jenslind/piglet",
     "devDependencies": {
       "electron-packager": "^4.1.2",
@@ -122,5 +129,6 @@
   "svnUrl": "https://github.com/jenslind/piglet",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:19:22.872Z"
+  "lastFetchedAt": "2017-05-04T20:19:22.872Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:00.530Z"
 }

@@ -210,18 +210,10 @@
       "fetch-rdt": "./scripts/fetch-react-devtools.sh"
     },
     "repository": {
-      "user": "jhen0409",
-      "repo": "react-native-debugger",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jhen0409/react-native-debugger/tarball/master",
-      "clone_url": "https://github.com/jhen0409/react-native-debugger",
-      "https_url": "https://github.com/jhen0409/react-native-debugger",
-      "travis_url": "https://travis-ci.org/jhen0409/react-native-debugger",
-      "zip_url": "https://github.com/jhen0409/react-native-debugger/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jhen0409/react-native-debugger"
+      "type": "git",
+      "url": "git+https://github.com/jhen0409/react-native-debugger.git"
     },
+    "author": "Jhen <developer@jhen.me>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.9.0",
@@ -298,5 +290,6 @@
   "filename": "kwv___react-native-debugger.json",
   "sourceRepo": "jhen0409/react-native-debugger",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:21:03.300Z"
+  "lastFetchedAt": "2017-05-04T20:21:03.300Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:58.727Z"
 }

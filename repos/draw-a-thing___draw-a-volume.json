@@ -93,14 +93,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/draw-a-thing/draw-a-volume",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/draw-a-thing/draw-a-volume.git"
+    },
     "keywords": [
       "image",
       "volume",
       "3d",
       "science"
     ],
+    "author": "freeman-lab",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/draw-a-thing/draw-a-volume/issues"
+    },
     "homepage": "https://github.com/draw-a-thing/draw-a-volume#readme",
     "dependencies": {
       "dom-css": "^2.0.0",
@@ -133,5 +140,6 @@
   },
   "filename": "draw-a-thing___draw-a-volume.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:20.068Z"
+  "lastFetchedAt": "2017-05-04T20:20:20.068Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:09.512Z"
 }

@@ -71,6 +71,10 @@
       "test": "mocha --recursive",
       "travis": "npm run build-sign && npm test"
     },
+    "author": "Adam Drago <atdrago+negative@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/atdrago/negative/issues"
+    },
     "dependencies": {
       "electron-window": "^0.8.1",
       "nodobjc": "^2.1.0",
@@ -150,5 +154,6 @@
   },
   "filename": "atdrago___negative.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:00.639Z"
+  "lastFetchedAt": "2017-05-04T14:19:00.639Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:19.226Z"
 }

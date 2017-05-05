@@ -81,7 +81,11 @@
       "start": "electron src/index.js"
     },
     "repository": "image-js/editor",
+    "author": "Michaël Zasso",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/image-js/editor/issues"
+    },
     "homepage": "https://github.com/image-js/editor#readme"
   },
   "packageStatus": 200,
@@ -129,5 +133,6 @@
   },
   "filename": "image-js___editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:08.825Z"
+  "lastFetchedAt": "2017-05-04T16:42:08.825Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:25.734Z"
 }

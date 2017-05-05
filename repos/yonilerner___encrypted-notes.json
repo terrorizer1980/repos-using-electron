@@ -61,10 +61,14 @@
       "watch": "watchify app/app.js -t babelify -o ./public/js/bundle.js --debug --verbose",
       "build": "mkdir public; mkdir public/js; browserify app/app.js -t babelify -o ./public/js/bundle.js"
     },
-    "repository": "https://github.com/yonilerner/encrypted-notes",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:yonilerner/encrypted-notes.git"
+    },
     "keywords": [
       "encrypted notes"
     ],
+    "author": "Yoni Lerner",
     "license": "MIT",
     "devDependencies": {
       "babel-plugin-transform-es2015-destructuring": "^6.9.0",
@@ -135,5 +139,6 @@
   "svnUrl": "https://github.com/yonilerner/encrypted-notes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:17:25.032Z"
+  "lastFetchedAt": "2017-05-04T21:17:25.032Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:29.868Z"
 }

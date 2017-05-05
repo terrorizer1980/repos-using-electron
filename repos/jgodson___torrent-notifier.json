@@ -69,7 +69,10 @@
     "name": "torrent-notifier",
     "version": "1.1.0",
     "description": "A GUI made with electron to keep track of your favourite shows.",
-    "repository": "https://github.com/jgodson/torrent-notifier",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jgodson/torrent-notifier"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron main.js",
@@ -83,7 +86,11 @@
       "television",
       "alert"
     ],
+    "author": "Jason Godson",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jgodson/torrent-notifier/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
       "electron-reload": "^1.0.0",
@@ -124,5 +131,6 @@
   },
   "filename": "jgodson___torrent-notifier.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:59.813Z"
+  "lastFetchedAt": "2017-05-04T05:15:59.813Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:39.558Z"
 }

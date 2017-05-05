@@ -66,20 +66,41 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "wayland-student-planner",
-    "version": "0.1.0",
+    "name": "Wayland-Student-Planner",
+    "version": "0.2.1",
     "description": "A multiplatform planner and schedule utility for WHS Students",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build --x64",
+      "distM": "build --x64 --mac"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andrewward2001/wayland-student-planner.git"
     },
     "keywords": [
       "whs"
     ],
+    "author": "Andrew Ward",
     "license": "Apache-2.0",
-    "homepage": "https://github.com/1achmed1",
+    "homepage": "https://github.com/andrewward2001",
     "devDependencies": {
-      "electron": "^1.3.6"
+      "electron": "^1.3.6",
+      "electron-builder": "^15.6.2"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "fs": "0.0.1-security",
+      "jquery": "^3.2.0",
+      "path": "^0.12.7"
+    },
+    "build": {
+      "appId": "io.whsplanner",
+      "mac": {
+        "category": "io.whsplanner.utility"
+      }
     }
   },
   "packageStatus": 200,
@@ -107,5 +128,6 @@
   },
   "filename": "andrewward2001___wayland-student-planner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:40:23.913Z"
+  "lastFetchedAt": "2017-05-04T19:40:23.913Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:21.618Z"
 }

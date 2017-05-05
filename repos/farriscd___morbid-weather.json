@@ -73,7 +73,8 @@
   "status": 200,
   "packageJSON": {
     "name": "chip8_emulator",
-    "version": "0.0.2",
+    "version": "0.0.5",
+    "license": "MIT",
     "main": "./main.js",
     "scripts": {
       "start": "./node_modules/.bin/electron ."
@@ -112,5 +113,6 @@
   },
   "filename": "farriscd___morbid-weather.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:25.271Z"
+  "lastFetchedAt": "2017-05-04T21:14:25.271Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:23.906Z"
 }

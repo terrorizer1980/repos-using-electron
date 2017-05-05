@@ -172,18 +172,13 @@
     "private": false,
     "description": "MySQL CRUD build on Electron",
     "license": "GPL-3.0",
+    "author": "Garry Lachman <garry@lachman.co>",
     "repository": {
-      "user": "garrylachman",
-      "repo": "ElectroCRUD",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/garrylachman/ElectroCRUD/tarball/master",
-      "clone_url": "https://github.com/garrylachman/ElectroCRUD",
-      "https_url": "https://github.com/garrylachman/ElectroCRUD",
-      "travis_url": "https://travis-ci.org/garrylachman/ElectroCRUD",
-      "zip_url": "https://github.com/garrylachman/ElectroCRUD/archive/master.zip",
-      "api_url": "https://api.github.com/repos/garrylachman/ElectroCRUD"
+      "type": "git",
+      "url": "https://github.com/garrylachman/ElectroCRUD.git"
+    },
+    "bugs": {
+      "url": "https://github.com/garrylachman/ElectroCRUD/issues"
     },
     "keywords": [
       "mysql",
@@ -295,5 +290,6 @@
   "filename": "fw1121___ElectroCRUD.json",
   "sourceRepo": "garrylachman/ElectroCRUD",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:33:06.390Z"
+  "lastFetchedAt": "2017-05-04T05:33:06.390Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:11.870Z"
 }

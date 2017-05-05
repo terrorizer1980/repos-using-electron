@@ -66,6 +66,11 @@
       "d3",
       "graph"
     ],
+    "author": {
+      "name": "Benjamin Van Ryseghem",
+      "email": "benjamin.vanryseghem@gmail.com",
+      "url": "http://benjamin.vanryseghem.com"
+    },
     "contributors": [
       {
         "name": "Benjamin Van Ryseghem",
@@ -76,6 +81,7 @@
     "license": "GPL-3.0",
     "licenseUrl": "http://www.gnu.org/licenses/gpl-3.0.en.html",
     "repository": "https://github.com/BenjaminVanRyseghem/SandGlass",
+    "bugs": "https://github.com/BenjaminVanRyseghem/SandGlass/issues",
     "devDependencies": {
       "appdmg": "^0.3.5",
       "del": "^2.2.0",
@@ -163,5 +169,6 @@
   "svnUrl": "https://github.com/BenjaminVanRyseghem/SandGlass",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:58:47.883Z"
+  "lastFetchedAt": "2017-05-04T19:58:47.883Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:43.208Z"
 }

@@ -78,6 +78,11 @@
     "description": "Free, cross platform RSI relief software",
     "license": "MIT",
     "repository": "chrisuehlinger/break-time",
+    "author": {
+      "name": "Chris Uehlinger",
+      "email": "chris.uehlinger@gmail.com",
+      "url": "chisuehlinger.com"
+    },
     "bin": {
       "break-time": "./bin/break-time"
     },
@@ -145,5 +150,6 @@
   },
   "filename": "chrisuehlinger___break-time.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:30.312Z"
+  "lastFetchedAt": "2017-05-04T14:50:30.312Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:31.324Z"
 }

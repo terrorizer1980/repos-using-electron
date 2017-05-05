@@ -204,17 +204,8 @@
       "start": "electron . –enable-logging"
     },
     "repository": {
-      "user": "manosim",
-      "repo": "gitify",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/manosim/gitify/tarball/master",
-      "clone_url": "https://github.com/manosim/gitify",
-      "https_url": "https://github.com/manosim/gitify",
-      "travis_url": "https://travis-ci.org/manosim/gitify",
-      "zip_url": "https://github.com/manosim/gitify/archive/master.zip",
-      "api_url": "https://api.github.com/repos/manosim/gitify"
+      "type": "git",
+      "url": "https://github.com/manosim/gitify.git"
     },
     "keywords": [
       "gitify",
@@ -227,6 +218,7 @@
       "app",
       "tray"
     ],
+    "author": "Emmanouil Konstantinidis",
     "contributors": [
       {
         "name": "Emmanouil Konstantinidis",
@@ -238,6 +230,9 @@
       }
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/manosim/gitify/issues"
+    },
     "homepage": "http://www.gitify.io/",
     "dependencies": {
       "auto-launch": "=4.0.0",
@@ -325,5 +320,6 @@
   "filename": "lgeiger___gitify.json",
   "sourceRepo": "ekonstantinidis/gitify",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:11.269Z"
+  "lastFetchedAt": "2017-05-04T17:36:11.269Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:01.115Z"
 }

@@ -71,15 +71,20 @@
     "description": "A minimal Electron application",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "nodemon -x electron ."
     },
     "devDependencies": {
       "electron": "*",
-      "electron-packager": "^8.2.0"
+      "electron-packager": "^8.2.0",
+      "nodemon": "*"
     },
     "dependencies": {
+      "electron-reload": "^1.0.3",
       "hipchatter": "^1.0.0",
-      "react-player": "^0.12.0"
+      "jquery": "^3.1.1",
+      "react-player": "^0.12.0",
+      "youtube-iframe-player": "*",
+      "youtube-search": "^1.0.6"
     }
   },
   "packageStatus": 200,
@@ -107,5 +112,6 @@
   },
   "filename": "Padamieo___video-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:07.720Z"
+  "lastFetchedAt": "2017-05-04T18:03:07.720Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:10.153Z"
 }

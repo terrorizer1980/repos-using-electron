@@ -91,6 +91,7 @@
       "prepublish": "npm run build || echo",
       "publish-all": "npm run publish-plugins && npm publish"
     },
+    "author": "Bartosz Wojtkowiak <bartosz@wojtkowiak.it>",
     "license": "MIT",
     "devDependencies": {
       "ava": "^0.16.0",
@@ -105,7 +106,10 @@
       "meteor-desktop-test-suite": "0.0.16"
     },
     "dependencies": {},
-    "repository": "https://github.com/wojtkowiak/meteor-desktop-localstorage",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wojtkowiak/meteor-desktop-localstorage"
+    },
     "keywords": [
       "electron",
       "meteor",
@@ -114,6 +118,9 @@
       "local",
       "storage"
     ],
+    "bugs": {
+      "url": "https://github.com/wojtkowiak/meteor-desktop-localstorage/issues"
+    },
     "homepage": "https://github.com/wojtkowiak/meteor-desktop-localstorage",
     "meteorDependencies": {
       "omega:meteor-desktop-localstorage": "@version"
@@ -144,5 +151,6 @@
   },
   "filename": "wojtkowiak___meteor-desktop-localstorage.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:08:37.703Z"
+  "lastFetchedAt": "2017-05-04T21:08:37.703Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:21.527Z"
 }

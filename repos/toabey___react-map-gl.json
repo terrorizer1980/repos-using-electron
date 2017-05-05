@@ -198,7 +198,10 @@
       "react-mapbox-gl",
       "react mapbox"
     ],
-    "repository": "https://github.com/uber/react-map-gl",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/uber/react-map-gl.git"
+    },
     "license": "MIT",
     "dependencies": {
       "autobind-decorator": "^1.3.3",
@@ -290,5 +293,6 @@
   },
   "sourceRepo": "uber/react-map-gl",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:58.063Z"
+  "lastFetchedAt": "2017-05-04T17:41:58.063Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:11.490Z"
 }

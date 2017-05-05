@@ -22,7 +22,10 @@
       "electron-packager": "^5.0.1"
     },
     "license": "MIT",
-    "repository": "https://github.com/Bahlaouane-Hamza/Yays"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Bahlaouane-Hamza/Yays"
+    }
   },
   "packageStatus": 200,
   "filename": "DennisSnijder___Yays.json",
@@ -212,5 +215,6 @@
   },
   "networkCount": 5,
   "subscribersCount": 1,
-  "lastFetchedAt": "2017-05-04T18:33:50.583Z"
+  "lastFetchedAt": "2017-05-04T18:33:50.583Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:14.304Z"
 }

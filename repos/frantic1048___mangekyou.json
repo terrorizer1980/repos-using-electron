@@ -60,10 +60,20 @@
       "mangekyou": "build/app/bin/mangekyou"
     },
     "scripts": {
-      "run": "electron ./"
+      "run": "electron ./",
+      "dev": "gulp dev",
+      "lint": "gulp lint",
+      "build": "gulp ci"
     },
-    "repository": "https://github.com/frantic1048/mangekyou",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/frantic1048/mangekyou.git"
+    },
+    "author": "frantic1048",
     "license": "GPL-2.0+",
+    "bugs": {
+      "url": "https://github.com/frantic1048/mangekyou/issues"
+    },
     "homepage": "https://github.com/frantic1048/mangekyou#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.2"
@@ -143,5 +153,6 @@
   },
   "filename": "frantic1048___mangekyou.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:47.123Z"
+  "lastFetchedAt": "2017-05-04T14:49:47.123Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:25.149Z"
 }

@@ -88,7 +88,7 @@
       "build": "npm run build-main && npm run build-renderer",
       "start": "cross-env NODE_ENV=production electron ./",
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron -r babel-register -r babel-polyfill ./main.development",
-      "package": "cross-env NODE_ENV=production node -r babel-register package.js",
+      "package": "cross-env NODE_ENV=production node -r babel-register -r babel-polyfill package.js",
       "package-all": "npm run package -- --all",
       "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\""
@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -130,17 +141,17 @@
       "co-mocha": "^1.1.2",
       "concurrently": "^2.2.0",
       "cross-env": "^2.0.0",
-      "css-loader": "^0.23.1",
+      "css-loader": "^0.25.0",
       "del": "^2.2.1",
       "devtron": "^1.2.1",
       "electron-devtools-installer": "^2.0.0",
-      "electron-packager": "^7.3.0",
-      "electron-prebuilt": "^1.2.8",
+      "electron-packager": "^8.0.0",
+      "electron-prebuilt": "^1.4.0",
       "electron-rebuild": "^1.1.5",
       "eslint": "^2.13.1",
       "eslint-config-airbnb": "^9.0.1",
-      "eslint-import-resolver-webpack": "^0.4.0",
-      "eslint-plugin-import": "^1.11.1",
+      "eslint-import-resolver-webpack": "^0.6.0",
+      "eslint-plugin-import": "^1.15.0",
       "eslint-plugin-jsx-a11y": "^1.5.5",
       "eslint-plugin-react": "^5.2.2",
       "express": "^4.14.0",
@@ -157,7 +168,7 @@
       "spectron": "^3.2.6",
       "style-loader": "^0.13.1",
       "webpack": "^1.13.1",
-      "webpack-dev-middleware": "^1.6.1",
+      "webpack-dev-middleware": "^1.8.1",
       "webpack-hot-middleware": "^2.12.1",
       "webpack-merge": "^0.14.0"
     },
@@ -175,7 +186,7 @@
       "react-dom": "^15.3.1",
       "react-dropzone": "^3.5.3",
       "react-redux": "^4.4.5",
-      "react-router": "^2.6.0",
+      "react-router": "^2.8.1",
       "react-router-redux": "^4.0.5",
       "redux": "^3.5.2",
       "redux-thunk": "^2.1.0",
@@ -213,5 +224,6 @@
   },
   "filename": "deanshub___ui-generator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:49.267Z"
+  "lastFetchedAt": "2017-05-04T05:26:49.267Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:44.626Z"
 }

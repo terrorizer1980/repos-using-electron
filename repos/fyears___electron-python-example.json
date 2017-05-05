@@ -52,12 +52,28 @@
   "subscribersCount": 16,
   "status": 200,
   "packageJSON": {
-    "name": "your-app",
-    "version": "0.2.0",
+    "name": "pretty-calculator",
+    "version": "1.0.0",
+    "description": "A minimal Electron and Python - based calculator ",
     "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/fyears/electron-python-example",
+    "keywords": [
+      "Electron",
+      "Python",
+      "zerorpc",
+      "demo"
+    ],
+    "author": "fyears",
+    "license": "MIT",
     "dependencies": {
-      "request-promise": "*",
-      "electron-prebuilt": "*"
+      "zerorpc": "fyears/zerorpc-node"
+    },
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-packager": "^8.5.1"
     }
   },
   "packageStatus": 200,
@@ -105,5 +121,6 @@
   "svnUrl": "https://github.com/fyears/electron-python-example",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:29:12.693Z"
+  "lastFetchedAt": "2017-05-04T15:29:12.693Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:30.571Z"
 }

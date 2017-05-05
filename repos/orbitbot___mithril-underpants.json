@@ -56,7 +56,10 @@
     "version": "0.0.1",
     "description": "Quick & dirty setup for your adventures with Mithril.js",
     "private": true,
-    "repository": "https://github.com/orbitbot/mithril-underpants",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/orbitbot/mithril-underpants.git"
+    },
     "license": "ISC",
     "homepage": "https://github.com/orbitbot/mithril-underpants",
     "devDependencies": {
@@ -141,5 +144,6 @@
   "svnUrl": "https://github.com/orbitbot/mithril-underpants",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:29:34.093Z"
+  "lastFetchedAt": "2017-05-04T14:29:34.093Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:10.473Z"
 }

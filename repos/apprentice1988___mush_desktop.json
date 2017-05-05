@@ -59,11 +59,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/apprentice1988/mush_desktop",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:apprentice1988/mush_desktop.git"
+    },
     "keywords": [
       "mush",
       "desktop"
     ],
+    "author": "Michael Ji zilongji@gmail.com",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     }
@@ -113,5 +117,6 @@
   "svnUrl": "https://github.com/apprentice1988/mush_desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:18:33.293Z"
+  "lastFetchedAt": "2017-05-04T15:18:33.293Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:26.647Z"
 }

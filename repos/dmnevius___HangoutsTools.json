@@ -77,7 +77,10 @@
       "pack": "./node_modules/.bin/build --dir",
       "dist": "./node_modules/.bin/build -mwl --x64"
     },
-    "repository": "https://github.com/dmnevius/HangoutsTools",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dmnevius/HangoutsTools.git"
+    },
     "keywords": [
       "google",
       "hangouts",
@@ -85,7 +88,11 @@
       "electron",
       "react"
     ],
+    "author": "dmnevius",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dmnevius/HangoutsTools/issues"
+    },
     "homepage": "https://github.com/dmnevius/HangoutsTools#readme",
     "private": true,
     "devDependencies": {
@@ -154,5 +161,6 @@
   },
   "filename": "dmnevius___HangoutsTools.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:07:47.811Z"
+  "lastFetchedAt": "2017-05-04T21:07:47.811Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:36.845Z"
 }

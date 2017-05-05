@@ -73,6 +73,7 @@
       "start": "webpack && electron app",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Gregg Lamb",
     "license": "MIT",
     "dependencies": {
       "phaser": "^2.6.2"
@@ -89,12 +90,18 @@
       "webpack": "^1.13.2"
     },
     "main": "webpack.config.js",
-    "repository": "https://github.com/glamb/Miner-Madness",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/glamb/Miner-Madness.git"
+    },
     "keywords": [
       "phaserjs",
       "html5",
       "game"
     ],
+    "bugs": {
+      "url": "https://github.com/glamb/Miner-Madness/issues"
+    },
     "homepage": "https://github.com/glamb/Miner-Madness#readme"
   },
   "packageStatus": 200,
@@ -122,5 +129,6 @@
   },
   "filename": "glamb___Miner-Madness.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:12.380Z"
+  "lastFetchedAt": "2017-05-04T05:04:12.380Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:53.669Z"
 }

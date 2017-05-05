@@ -97,7 +97,11 @@
       "webpack-test": "webpack --config webpack.test.js --progress --profile --colors --display-error-details --display-cached",
       "test": "karma start"
     },
-    "repository": "https://github.com/VS-work/angular2-offline",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/VS-work/angular2-offline.git"
+    },
+    "author": "Vyacheslav Chub <vyacheslav.chub@valor-software.com>",
     "license": "MIT",
     "homepage": "",
     "dependencies": {
@@ -182,5 +186,6 @@
   },
   "filename": "VS-work___angular2-offline.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:30.498Z"
+  "lastFetchedAt": "2017-05-04T15:21:30.498Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:43.859Z"
 }

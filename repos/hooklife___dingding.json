@@ -78,6 +78,11 @@
     "description": "My stylish app",
     "license": "MIT",
     "repository": "hooklife/super-ding",
+    "author": {
+      "name": "hooklife",
+      "email": "miaogaopeng123@gmail.com",
+      "url": "hooklife.site"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -140,5 +145,6 @@
   },
   "filename": "hooklife___dingding.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:07:11.495Z"
+  "lastFetchedAt": "2017-05-04T18:07:11.495Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:35.932Z"
 }

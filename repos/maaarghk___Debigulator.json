@@ -56,6 +56,7 @@
       "build-win": "electron-packager . Debigulator --platform=win32 --arch=x64 --version 0.34.1 --out=dist",
       "build-linux": "electron-packager . Debigulator --platform=linux --arch=x64 --version 0.34.1 --out=dist"
     },
+    "author": "Mark Gallagher / Houseology <mark.gallagher@houseology.com>",
     "dependencies": {
       "fix-path": "^1.1.0",
       "glob": "^5.0.0",
@@ -111,5 +112,6 @@
   "svnUrl": "https://github.com/maaarghk/Debigulator",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:39:54.907Z"
+  "lastFetchedAt": "2017-05-04T20:39:54.907Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:00.753Z"
 }

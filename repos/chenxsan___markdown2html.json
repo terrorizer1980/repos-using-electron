@@ -96,12 +96,19 @@
         "<rootDir>/node_modules/react-addons-test-utils"
       ]
     },
-    "repository": "https://github.com/chenxsan/markdown2html",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chenxsan/markdown2html.git"
+    },
     "keywords": [
       "markdown",
       "html"
     ],
+    "author": "Sam Chen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chenxsan/markdown2html/issues"
+    },
     "homepage": "https://github.com/chenxsan/markdown2html#readme",
     "devDependencies": {
       "babel-core": "^5.8.29",
@@ -149,5 +156,6 @@
   },
   "filename": "chenxsan___markdown2html.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:54.260Z"
+  "lastFetchedAt": "2017-05-04T17:37:54.260Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:13.656Z"
 }

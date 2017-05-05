@@ -94,13 +94,20 @@
       "start": "electron index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/EssenceOfZen/JS-EoZSoundBoard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EssenceOfZen/JS-EoZSoundBoard.git"
+    },
     "keywords": [
       "eoz",
       "sound",
       "board"
     ],
+    "author": "Essence of Zen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/EssenceOfZen/JS-EoZSoundBoard/issues"
+    },
     "homepage": "https://github.com/EssenceOfZen/JS-EoZSoundBoard#readme",
     "dependencies": {
       "electron": "^1.4.3"
@@ -131,5 +138,6 @@
   },
   "filename": "EssenceOfZen___JS-EoZSoundBoard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:26.465Z"
+  "lastFetchedAt": "2017-05-04T20:15:26.465Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:27.675Z"
 }

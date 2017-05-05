@@ -64,11 +64,18 @@
       "lint": "npm-run-all lint:*",
       "build": "electron-packager ./ toggl-board --platform=all --arch=x64 --version=0.35.0 --overwrite --out=build --ignore=build"
     },
-    "repository": "https://github.com/numa08/toggl-team",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/numa08/toggl-team.git"
+    },
     "keywords": [
       "toggl"
     ],
+    "author": "numa08",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/numa08/toggl-team/issues"
+    },
     "homepage": "https://github.com/numa08/toggl-team",
     "dependencies": {
       "async": "^1.5.0",
@@ -131,5 +138,6 @@
   "svnUrl": "https://github.com/numa08/toggl-board",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:24:04.106Z"
+  "lastFetchedAt": "2017-05-04T21:24:04.106Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:01.781Z"
 }

@@ -73,12 +73,19 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/thebenmiller/creative-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thebenmiller/creative-viewer.git"
+    },
     "keywords": [
       "Electron",
       "Creative Coding"
     ],
+    "author": "Ben Miller",
     "license": "",
+    "bugs": {
+      "url": "https://github.com/thebenmiller/creative-viewer/issues"
+    },
     "homepage": "https://github.com/thebenmiller/creative-viewer/",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -109,5 +116,6 @@
   },
   "filename": "thebenmiller___creative-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:35:10.034Z"
+  "lastFetchedAt": "2017-05-04T17:35:10.034Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:20.564Z"
 }

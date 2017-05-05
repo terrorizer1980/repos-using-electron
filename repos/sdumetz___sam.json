@@ -86,8 +86,15 @@
       "build": "./build.sh",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/sdumetz/sam",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/sdumetz/sam.git"
+    },
+    "author": "Sebastien Dumetz <s.dumetz@holusion.com> (https://github.com/klepthys)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sdumetz/sam/issues"
+    },
     "homepage": "https://github.com/sdumetz/sam",
     "dependencies": {
       "electron-prebuilt": "^1.1.1",
@@ -132,5 +139,6 @@
   },
   "filename": "sdumetz___sam.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:10.456Z"
+  "lastFetchedAt": "2017-05-04T17:48:10.456Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:02.879Z"
 }

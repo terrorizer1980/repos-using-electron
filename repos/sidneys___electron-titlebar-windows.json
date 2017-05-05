@@ -57,7 +57,17 @@
     "description": "Add Windows 10-style Modern UI titlebars to Electron-based desktop applications",
     "license": "MIT",
     "homepage": "https://sidneys.github.io/electron-titlebar-windows",
-    "repository": "https://github.com/sidneys/electron-titlebar-windows",
+    "author": {
+      "name": "sidneys",
+      "url": "https://github.com/sidneys"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sidneys/electron-titlebar-windows.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sidneys/electron-titlebar-windows/issues"
+    },
     "engines": {
       "node": ">=6.0.0"
     },
@@ -141,5 +151,6 @@
   },
   "filename": "sidneys___electron-titlebar-windows.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:56.985Z"
+  "lastFetchedAt": "2017-05-04T04:57:56.985Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:10.629Z"
 }

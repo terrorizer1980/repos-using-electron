@@ -79,12 +79,19 @@
     "scripts": {
       "test": "electron ."
     },
-    "repository": "https://github.com/jndachenhaus/discord-lite",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jndachenhaus/discord-lite.git"
+    },
     "keywords": [
       "discord",
       "lite"
     ],
+    "author": "Jacob Dachenhaus",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jndachenhaus/discord-lite/issues"
+    },
     "homepage": "https://github.com/jndachenhaus/discord-lite#readme",
     "devDependencies": {
       "electron": "^1.4.4"
@@ -118,5 +125,6 @@
   },
   "filename": "jndachenhaus___discord-lite.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:42.825Z"
+  "lastFetchedAt": "2017-05-04T05:30:42.825Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:52.985Z"
 }

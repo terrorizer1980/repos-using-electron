@@ -74,10 +74,13 @@
   "packageJSON": {
     "name": "dotoday",
     "productName": "DoToday",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "main": "main.js",
     "description": "Dead simple daily task manager with almost no features",
-    "repository": "https://github.com/agelber/dotoday",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/agelber/dotoday.git"
+    },
     "devDependencies": {
       "electron-packager": "7.x",
       "electron-prebuilt": "0.37.x"
@@ -109,5 +112,6 @@
   },
   "filename": "assafgelber___dotoday.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:12:02.350Z"
+  "lastFetchedAt": "2017-05-04T05:12:02.350Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:32.107Z"
 }

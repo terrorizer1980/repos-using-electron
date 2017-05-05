@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/pn11/OkaNote",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pn11/OkaNote.git"
+    },
     "keywords": [
       "Markdown"
     ],
+    "author": "OKA Naoya",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/pn11/OkaNote/issues"
+    },
     "homepage": "https://github.com/pn11/OkaNote/#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -108,5 +115,6 @@
   },
   "filename": "pn11___OkaNote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:25:01.216Z"
+  "lastFetchedAt": "2017-05-04T21:25:01.216Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:14.940Z"
 }

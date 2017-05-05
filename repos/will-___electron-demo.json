@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron app/main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -129,5 +136,6 @@
   },
   "filename": "will-___electron-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:51:54.970Z"
+  "lastFetchedAt": "2017-05-04T20:51:54.970Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:35.537Z"
 }

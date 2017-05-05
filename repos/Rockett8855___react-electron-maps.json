@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Rockett8855/react-electron-maps",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Rockett8855/react-electron-maps.git"
+    },
+    "author": "Matthew Rockett",
     "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/Rockett8855/react-electron-maps/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "~0.31.1",
       "browserify": "^9.0.8",
@@ -112,5 +119,6 @@
   },
   "filename": "Rockett8855___react-electron-maps.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:57:57.778Z"
+  "lastFetchedAt": "2017-05-04T19:57:57.778Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:51.816Z"
 }

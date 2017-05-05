@@ -83,7 +83,10 @@
       "install": "cd ./server && npm install && cd .. && cd ./client && npm install",
       "start": "node quick_launcher.js"
     },
-    "repository": "https://github.com/Grenadingue/sam-irc-nodejs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Grenadingue/sam-irc-nodejs.git"
+    },
     "keywords": [
       "node",
       "node.js",
@@ -92,7 +95,15 @@
       "irc",
       "eip"
     ],
+    "author": {
+      "name": "Nicolas Chauvin",
+      "email": "chauvin.nico@gmail.com",
+      "url": "https://github.com/Grenadingue"
+    },
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Grenadingue/sam-irc-nodejs/issues"
+    },
     "homepage": "https://github.com/Grenadingue/sam-irc-nodejs#readme"
   },
   "packageStatus": 200,
@@ -120,5 +131,6 @@
   },
   "filename": "Grenadingue___sam-irc-nodejs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:07.762Z"
+  "lastFetchedAt": "2017-05-04T05:30:07.762Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:46.540Z"
 }

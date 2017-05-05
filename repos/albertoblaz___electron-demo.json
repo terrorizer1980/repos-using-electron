@@ -90,8 +90,15 @@
         "react"
       ]
     },
-    "repository": "https://github.com/albertoblaz/electron-demo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/albertoblaz/electron-demo.git"
+    },
+    "author": "Alberto Blazquez <hola@albertoblazquez.net>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/albertoblaz/electron-demo/issues"
+    },
     "homepage": "https://github.com/albertoblaz/electron-demo#readme",
     "dependencies": {
       "isomorphic-fetch": "^2.2.1",
@@ -158,5 +165,6 @@
   },
   "filename": "albertoblaz___electron-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:29.171Z"
+  "lastFetchedAt": "2017-05-04T19:53:29.171Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:07.099Z"
 }

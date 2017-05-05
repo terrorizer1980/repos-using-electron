@@ -81,8 +81,15 @@
       "tsc:w": "tsc -w",
       "typings": "typings"
     },
-    "repository": "https://github.com/shtakai/cd_rails_exam_awesomeauction_electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shtakai/cd_rails_exam_awesomeauction_electron.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shtakai/cd_rails_exam_awesomeauction_electron/issues"
+    },
     "homepage": "https://github.com/shtakai/cd_rails_exam_awesomeauction_electron#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.5",
@@ -136,5 +143,6 @@
   },
   "filename": "shtakai___cd_rails_exam_awesomeauction_electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:22:58.403Z"
+  "lastFetchedAt": "2017-05-04T18:22:58.403Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:37.731Z"
 }

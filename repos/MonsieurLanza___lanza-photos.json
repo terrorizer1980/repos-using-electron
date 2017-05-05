@@ -73,13 +73,37 @@
   "status": 200,
   "packageJSON": {
     "name": "lanza-photos",
-    "version": "1.0.0",
-    "description": "Photo Manager",
-    "main": "main.js",
-    "license": "SEE LICENSE IN GPL-3.0",
+    "cozy-displayName": "Lanza's Photos",
+    "version": "0.0.2",
+    "author": "Lanza",
+    "scripts": {
+      "start": "node server.js",
+      "test": "mocha --reporter nyan",
+      "debug": "node --debug-brk=5858 server.js"
+    },
+    "dependencies": {
+      "americano": "0.4.5",
+      "async": "^2.1.4",
+      "bootstrap": "^4.0.0-alpha.5",
+      "configstore": "^2.1.0",
+      "consolidate": "^0.14.1",
+      "cozydb": "^0.1.13",
+      "crypto-rand": "0.0.2",
+      "gm": "^1.23.0",
+      "mustache": "^2.3.0",
+      "object-assign": "^4.1.0",
+      "socket.io": "^1.6.0",
+      "tus-js-client": "^1.4.1",
+      "vue": "^2.0.8",
+      "vue-server-renderer": "^2.1.3"
+    },
     "devDependencies": {
-      "electron": "^1.4.3",
-      "electron-prebuilt": "^1.4.3"
+      "mocha": "^3.1.2"
+    },
+    "cozy-permissions": {
+      "Photo": {
+        "description": "Creates and edits your photos"
+      }
     }
   },
   "packageStatus": 200,
@@ -107,5 +131,6 @@
   },
   "filename": "MonsieurLanza___lanza-photos.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:01.032Z"
+  "lastFetchedAt": "2017-05-04T21:30:01.032Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:53.864Z"
 }

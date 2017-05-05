@@ -81,6 +81,7 @@
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
     "repository": {},
+    "author": "yikebata",
     "license": "CC0-1.0",
     "devDependencies": {
       "axios": "^0.9.1",
@@ -126,5 +127,6 @@
   },
   "filename": "yujiikebata___ScotchMPwithReact.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:37.310Z"
+  "lastFetchedAt": "2017-05-04T19:52:37.310Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:58.720Z"
 }

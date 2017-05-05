@@ -190,8 +190,16 @@
     "name": "webtorrent-desktop",
     "description": "WebTorrent, the streaming torrent client. For OS X, Windows, and Linux.",
     "version": "0.9.0",
+    "author": {
+      "name": "WebTorrent, LLC",
+      "email": "feross@webtorrent.io",
+      "url": "https://webtorrent.io"
+    },
     "bin": {
       "webtorrent-desktop": "./bin/cmd.js"
+    },
+    "bugs": {
+      "url": "https://github.com/feross/webtorrent-desktop/issues"
     },
     "dependencies": {
       "airplayer": "^2.0.0",
@@ -255,7 +263,10 @@
       "appdmg": "^0.4.3"
     },
     "productName": "WebTorrent",
-    "repository": "https://github.com/feross/webtorrent-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/webtorrent-desktop.git"
+    },
     "scripts": {
       "clean": "node ./bin/clean.js",
       "open-config": "node ./bin/open-config.js",
@@ -290,5 +301,6 @@
   },
   "sourceRepo": "feross/webtorrent-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:35.340Z"
+  "lastFetchedAt": "2017-05-04T17:37:35.340Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:08.508Z"
 }

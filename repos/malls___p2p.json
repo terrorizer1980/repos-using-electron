@@ -67,5 +67,46 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:02:09.154Z"
+  "lastFetchedAt": "2017-05-04T05:02:09.154Z",
+  "packageJSON": {
+    "name": "auton",
+    "version": "0.0.0",
+    "description": "p2p social network",
+    "main": "server/app.js",
+    "scripts": {
+      "setup": "npm install && bower install && npm run css",
+      "start": "electron .",
+      "build": "rm -rf auton-darwin-x64/ && electron-packager .",
+      "postinstall": "install-app-deps",
+      "css": "cat assets/styles/*.scss | node-sass > assets/styles.css",
+      "dev": "watch 'npm run css' assets/styles/ & electron ."
+    },
+    "repository": "https://github.com/malls/auton",
+    "keywords": [
+      "Electron",
+      "p2p"
+    ],
+    "author": "Forrest Almasi",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "bower": "^1.8.0",
+      "electromon": "^1.0.6",
+      "electron": "^1.4.15",
+      "electron-builder": "^14.4.0",
+      "electron-packager": "^8.5.2",
+      "node-sass": "^4.5.0",
+      "postcss": "^5.2.15",
+      "watch": "^1.0.2"
+    },
+    "dependencies": {
+      "body-parser": "^1.17.1",
+      "dotenv": "^4.0.0",
+      "express": "^4.15.2",
+      "ngrok": "^2.2.6",
+      "socketio": "^1.0.0",
+      "sqlite3": "^3.1.8"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:02:49.153Z"
 }

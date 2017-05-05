@@ -78,6 +78,11 @@
     "description": "My phenomenal app",
     "license": "MIT",
     "repository": "SahelianHijazi/electronotes",
+    "author": {
+      "name": "SahelianHijazi",
+      "email": "moustapha.agack@gmail.com",
+      "url": "github.com/SahelianHijazi"
+    },
     "main": "app/index.js",
     "scripts": {
       "test": "xo",
@@ -133,5 +138,6 @@
   },
   "filename": "SahelianHijazi___ElectroNotes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:57.357Z"
+  "lastFetchedAt": "2017-05-04T20:06:57.357Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:58.007Z"
 }

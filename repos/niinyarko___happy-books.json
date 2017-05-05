@@ -81,21 +81,13 @@
       "lint": "eslint ./ --cache --ignore-pattern .gitignore"
     },
     "repository": {
-      "user": "niinyarko",
-      "repo": "happy-books",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/niinyarko/happy-books/tarball/master",
-      "clone_url": "https://github.com/niinyarko/happy-books",
-      "https_url": "https://github.com/niinyarko/happy-books",
-      "travis_url": "https://travis-ci.org/niinyarko/happy-books",
-      "zip_url": "https://github.com/niinyarko/happy-books/archive/master.zip",
-      "api_url": "https://api.github.com/repos/niinyarko/happy-books"
+      "type": "git",
+      "url": "https://github.com/niinyarko/happy-books.git"
     },
     "pre-commit": [
       "lint"
     ],
+    "author": "niinyarko",
     "license": "MIT",
     "homepage": "",
     "devDependencies": {
@@ -142,5 +134,6 @@
   "filename": "niinyarko___happy-books.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:07:22.454Z"
+  "lastFetchedAt": "2017-05-04T21:07:22.454Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:42.366Z"
 }

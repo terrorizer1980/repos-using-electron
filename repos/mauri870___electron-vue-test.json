@@ -68,6 +68,7 @@
   "packageJSON": {
     "name": "electron-vue",
     "description": "A Vue.js project",
+    "author": "Mauri de Souza Nunes <mauri870@gmail.com>",
     "private": true,
     "scripts": {
       "start": "npm run build && electron electron.js && npm run watchify",
@@ -143,5 +144,6 @@
   },
   "filename": "mauri870___electron-vue-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:42.715Z"
+  "lastFetchedAt": "2017-05-04T05:13:42.715Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:21.648Z"
 }

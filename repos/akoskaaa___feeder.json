@@ -59,7 +59,11 @@
     "scripts": {
       "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron . && watchify app/src/main.jsx -v -t [ babelify --presets [ react ] ] -o app/js/main.js"
     },
-    "repository": "https://github.com/akoskaaa/feeder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/akoskaaa/feeder.git"
+    },
+    "author": "hoch.akos@gmail.com",
     "license": "MIT",
     "homepage": "https://github.com/akoskaaa/feeder",
     "dependencies": {
@@ -122,5 +126,6 @@
   "svnUrl": "https://github.com/akoskaaa/feeder",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:27:04.474Z"
+  "lastFetchedAt": "2017-05-04T14:27:04.474Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:16.757Z"
 }

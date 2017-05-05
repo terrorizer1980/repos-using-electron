@@ -83,8 +83,14 @@
       "pretest": "npm run lint",
       "test": "ava"
     },
-    "repository": "https://github.com/squelch-irc/squelch",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/squelch-irc/squelch.git"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/squelch-irc/squelch/issues"
+    },
     "homepage": "https://github.com/squelch-irc/squelch#readme",
     "devDependencies": {
       "ava": "^0.15.2",
@@ -174,5 +180,6 @@
   },
   "filename": "squelch-irc___squelch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:29:41.386Z"
+  "lastFetchedAt": "2017-05-04T18:29:41.386Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:34.616Z"
 }

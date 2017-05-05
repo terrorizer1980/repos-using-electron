@@ -167,7 +167,7 @@
   "status": 200,
   "packageJSON": {
     "name": "smart-mirror",
-    "version": "0.0.4",
+    "version": "0.0.7",
     "description": "The fairest of them all",
     "main": "main.js",
     "scripts": {
@@ -175,21 +175,13 @@
       "start": "electron main.js ",
       "microphone-debug": "electron scripts/microphone-debug/main.js",
       "train-model": "electron scripts/train-model.js",
-      "track-flight": "electron scripts/track.js",
+      "sonus": "node sonus.js",
+      "motion": "sudo node motion.js",
       "wiredep": "wiredep -s index.html"
     },
     "repository": {
-      "user": "evancohen",
-      "repo": "smart-mirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/evancohen/smart-mirror/tarball/master",
-      "clone_url": "https://github.com/evancohen/smart-mirror",
-      "https_url": "https://github.com/evancohen/smart-mirror",
-      "travis_url": "https://travis-ci.org/evancohen/smart-mirror",
-      "zip_url": "https://github.com/evancohen/smart-mirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/evancohen/smart-mirror"
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
     },
     "keywords": [
       "Smart Mirror",
@@ -197,22 +189,29 @@
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
-      "wiredep-cli": "^0.1.0",
-      "bower": "^1.7.9",
-      "install": "^0.8.1",
       "angular-i18n": "^1.5.5",
-      "electron-prebuilt": "^1.0.0",
-      "npm": "^3.8.8"
+      "bower": "^1.7.9",
+      "electron": "^1.4.4",
+      "install": "^0.8.1",
+      "npm": "^3.8.8",
+      "wiredep-cli": "^0.1.0"
     },
     "dependencies": {
+      "annyang": "^2.6.0",
+      "electron-json-storage": "2.0.0",
       "express": "^4.13.4",
       "fitbit-oauth2": "0.0.1",
       "hyperion-client": "1.0.3",
-      "electron-json-storage": "2.0.0",
-      "qrjs": "^0.1.2"
+      "sonus": "^0.1.2",
+      "johnny-five": "0.10.6",
+      "raspi-io": "7.1.0"
     }
   },
   "packageStatus": 200,
@@ -261,5 +260,6 @@
   "svnUrl": "https://github.com/justbill2020/smart-mirror",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T13:05:41.947Z"
+  "lastFetchedAt": "2017-05-04T13:05:41.947Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:27.638Z"
 }

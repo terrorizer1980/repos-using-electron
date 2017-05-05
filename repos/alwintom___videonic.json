@@ -73,7 +73,11 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/alwintom/videonic",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/alwintom/videonic.git"
+    },
+    "author": "Alwin Tom <alwintom@gmail.com>",
     "license": "ISC",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -109,5 +113,6 @@
   },
   "filename": "alwintom___videonic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:01.940Z"
+  "lastFetchedAt": "2017-05-04T21:29:01.940Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:49.954Z"
 }

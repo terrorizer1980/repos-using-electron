@@ -74,7 +74,11 @@
       "start": "electron .",
       "package": "electron-packager ./ --all --out=output/ --icon=icon.icns --overwrite"
     },
-    "repository": "https://github.com/PicchiKevin/clipboard",
+    "author": "Picchi Kevin",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/PicchiKevin/clipboard.git"
+    },
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-packager": "^8.2.0"
@@ -110,5 +114,6 @@
   },
   "filename": "PicchiKevin___clipboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:57.635Z"
+  "lastFetchedAt": "2017-05-04T21:01:57.635Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:34.655Z"
 }

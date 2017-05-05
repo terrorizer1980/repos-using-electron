@@ -53,43 +53,51 @@
   "status": 200,
   "packageJSON": {
     "name": "send-action",
-    "version": "2.0.2",
+    "version": "3.0.0",
     "description": "simple state management",
     "main": "index.js",
     "scripts": {
       "lint": "standard",
       "test:node": "node test.js | tap-spec",
-      "test:testron": "browserify test.js | testron | tap-spec",
-      "test": "npm run lint && npm run test:node && npm run test:testron",
+      "test": "npm run lint && npm run test:node",
       "build:local": "minidocs docs -c docs/content.json -o dist --pushstate",
-      "build:deploy": "minidocs docs -c docs/content.json -b /send-action -o dist --full-html",
+      "build:deploy": "minidocs docs -c docs/content.json -o dist --full-html",
       "start": "budo --dir dist --pushstate",
-      "deploy": "npm run build:deploy && gh-pages -d dist"
+      "deploy": "npm run build:deploy && staticland dist/ send-action.static.land"
     },
-    "repository": "https://github.com/sethvincent/send-action",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sethvincent/send-action.git"
+    },
     "keywords": [
       "state",
       "store",
-      "redux"
+      "flux",
+      "redux",
+      "unidirectional",
+      "state management"
     ],
+    "author": "sethvincent",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sethvincent/send-action/issues"
+    },
     "homepage": "https://github.com/sethvincent/send-action#readme",
     "dependencies": {
       "xtend": "^4.0.1"
     },
     "devDependencies": {
-      "electron-prebuilt": "^0.37.2",
-      "gh-pages": "^0.11.0",
+      "gh-pages": "^0.12.0",
       "minidocs": "github:freeman-lab/minidocs",
-      "react": "^0.14.8",
-      "react-dom": "^0.14.8",
-      "standard": "^6.0.8",
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "standard": "^8.6.0",
+      "staticland": "^3.0.5",
       "tap-spec": "^4.1.1",
-      "tape": "^4.5.1",
-      "testron": "^1.2.0",
+      "tape": "^4.6.3",
       "virtual-dom": "^2.1.1",
       "virtual-raf": "^3.0.0",
-      "yo-yo": "^1.1.1"
+      "yo-yo": "^1.3.1"
     }
   },
   "packageStatus": 200,
@@ -137,5 +145,6 @@
   },
   "filename": "sethvincent___send-action.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:26.703Z"
+  "lastFetchedAt": "2017-05-04T20:24:26.703Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:58.226Z"
 }

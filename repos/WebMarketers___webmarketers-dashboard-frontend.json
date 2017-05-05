@@ -89,6 +89,7 @@
     "name": "ng2-admin",
     "version": "0.7.0",
     "description": "Angular 2 and Bootstrap 4 Admin Template.",
+    "author": "akveo",
     "homepage": "http://akveo.github.io/ng2-admin/",
     "license": "MIT",
     "dependencies": {
@@ -228,7 +229,13 @@
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
     },
-    "repository": "https://github.com/akveo/ng2-admin",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/akveo/ng2-admin.git"
+    },
+    "bugs": {
+      "url": "https://github.com/akveo/ng2-admin/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -259,5 +266,6 @@
   },
   "filename": "WebMarketers___webmarketers-dashboard-frontend.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:33.572Z"
+  "lastFetchedAt": "2017-05-04T04:57:33.572Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:54.023Z"
 }

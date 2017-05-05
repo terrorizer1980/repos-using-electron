@@ -64,9 +64,16 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/lostfictions/portrait-dialog-editor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lostfictions/portrait-dialog-editor.git"
+    },
     "keywords": [],
+    "author": "s",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "https://github.com/lostfictions/portrait-dialog-editor",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -170,5 +177,6 @@
   "svnUrl": "https://github.com/lostfictions/dialogue-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:49:38.547Z"
+  "lastFetchedAt": "2017-05-04T17:49:38.547Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:21.512Z"
 }

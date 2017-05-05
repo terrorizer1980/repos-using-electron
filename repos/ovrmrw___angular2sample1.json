@@ -85,9 +85,16 @@
       "express": "concurrently \"node src-server/express.js\" \"gulp browsersync\" ",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ovrmrw/angular2sample1",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ovrmrw/angular2sample1.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ovrmrw/angular2sample1/issues"
+    },
     "homepage": "https://github.com/ovrmrw/angular2sample1#readme",
     "dependencies": {
       "@angular/common": "^2.0.0-rc.0",
@@ -148,5 +155,6 @@
   },
   "filename": "ovrmrw___angular2sample1.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:05.070Z"
+  "lastFetchedAt": "2017-05-04T19:42:05.070Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:19.266Z"
 }

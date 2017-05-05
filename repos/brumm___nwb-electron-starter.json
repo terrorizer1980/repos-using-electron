@@ -56,30 +56,33 @@
       "build": "nwb build && babel main -d dist && npm run package",
       "watch-electron-main": "babel main -d dist -w",
       "clean": "nwb clean",
-      "start": "babel main -d dist && node dev-server.js --run-electron",
+      "start": "babel main -d dist && npm run server",
+      "server": "node dev-server.js --run-electron",
       "test": "nwb test",
       "test:watch": "nwb test --server",
       "package": "rm -rf ./release && electron-packager --overwrite --asar='true' --ignore='src|main|tests' --prune --platform=darwin --arch=x64 --out='release' ."
     },
     "dependencies": {
-      "electron-window-state": "^3.0.3",
+      "component-directory-webpack-plugin": "^1.0.5",
+      "electron-devtools-installer": "^2.2.0",
+      "electron-window-state": "^4.1.0",
       "flex-component": "^0.1.3",
-      "react": "^15.3.0",
-      "react-dom": "^15.3.0"
+      "react": "^15.5.3",
+      "react-dom": "^15.5.3"
     },
     "devDependencies": {
-      "babel-cli": "^6.8.0",
-      "babel-preset-es2015": "^6.6.0",
-      "babel-preset-stage-0": "^6.5.0",
-      "directory-named-webpack-plugin": "^1.1.0",
-      "electron-packager": "^8.1.0",
-      "electron-prebuilt": "^1.4.2",
-      "express": "^4.14.0",
+      "babel-cli": "^6.24.1",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "electron": "^1.6.2",
+      "electron-packager": "^8.6.0",
+      "express": "^4.15.2",
       "minimist": "^1.2.0",
-      "nwb": "^0.12.2",
-      "nwb-sass": "^0.6.0",
-      "webpack": "^1.13.0"
+      "nwb": "^0.15.6",
+      "nwb-sass": "^0.7.1",
+      "webpack": "^2.3.3"
     },
+    "author": "",
     "license": "MIT",
     "repository": ""
   },
@@ -128,5 +131,6 @@
   },
   "filename": "brumm___nwb-electron-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:13.985Z"
+  "lastFetchedAt": "2017-05-04T19:41:13.985Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:11.771Z"
 }

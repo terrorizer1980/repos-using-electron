@@ -94,6 +94,7 @@
       "build": "electron-packager ./src --platform=win32 --arch=x64 --asar --overwrite",
       "postinstall": "typings install && cd src && npm install"
     },
+    "author": "eje inc.",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.7.0",
@@ -126,5 +127,6 @@
   },
   "filename": "ejeinc___equirectangular-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:37.162Z"
+  "lastFetchedAt": "2017-05-04T20:20:37.162Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:20.531Z"
 }

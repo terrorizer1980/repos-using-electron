@@ -78,6 +78,11 @@
     "description": "My world-class app",
     "license": "MIT",
     "repository": "katsew/minimal-image-editor",
+    "author": {
+      "name": "katsew",
+      "email": "y.katsew@gmail.com",
+      "url": "github.com/katsew"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -136,5 +141,6 @@
   },
   "filename": "katsew___minimal-image-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:23:05.831Z"
+  "lastFetchedAt": "2017-05-04T21:23:05.831Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:37.100Z"
 }

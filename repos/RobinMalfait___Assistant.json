@@ -63,13 +63,17 @@
       "electron": "electron main.js",
       "build": "electron-packager ./ \"Personal Assistant\" --platform=all --arch=x64"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Robin Malfait <malfait.robin@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "debounce": "^1.0.0",
@@ -146,5 +150,6 @@
   },
   "filename": "RobinMalfait___Assistant.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:31.088Z"
+  "lastFetchedAt": "2017-05-04T21:04:31.088Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:53.831Z"
 }

@@ -64,6 +64,10 @@
     "version": "0.0.0",
     "description": "Small description for ms-combat goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -74,6 +78,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "^6.1.2",
@@ -204,5 +209,6 @@
   "svnUrl": "https://github.com/magic-stash/combat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:46:28.522Z"
+  "lastFetchedAt": "2017-05-04T19:46:28.522Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:59.124Z"
 }

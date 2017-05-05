@@ -57,6 +57,7 @@
       "build:osx": "electron-packager . --overwrite --asar --out dist --prune --platform=darwin --arch=x64 --ignore='^/media/(?!Icon.icns$).*' --icon=media/weibo.icns  --app-version=$npm_package_version",
       "build:win": "electron-packager . --overwrite --asar --out dist --prune --platform=win32 --arch=ia32 --ignore='^/media/(?!Icon.icns$).*' --icon=media/weibo.ico  --app-version=$npm_package_version"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -112,5 +113,6 @@
   },
   "filename": "egoist___electronic-weibo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:12:58.446Z"
+  "lastFetchedAt": "2017-05-04T05:12:58.446Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:35.102Z"
 }

@@ -87,12 +87,19 @@
     "scripts": {
       "start": "gulp && electron ."
     },
-    "repository": "https://github.com/Maybulb/couture",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Maybulb/couture.git"
+    },
     "keywords": [
       "clothing",
       "couture"
     ],
+    "author": "Maybulb",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Maybulb/couture/issues"
+    },
     "homepage": "https://github.com/Maybulb/couture#readme",
     "dependencies": {
       "electron": "^1.4.6",
@@ -129,5 +136,6 @@
   },
   "filename": "Maybulb___couture.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:20.342Z"
+  "lastFetchedAt": "2017-05-04T17:38:20.342Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:44.375Z"
 }

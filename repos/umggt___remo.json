@@ -93,12 +93,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/umggt/resource-monitor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/umggt/resource-monitor.git"
+    },
     "keywords": [
       "ubuntu",
       "resourcemonitor"
     ],
+    "author": "Miguel Roman",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/umggt/resource-monitor/issues"
+    },
     "homepage": "https://github.com/umggt/resource-monitor",
     "devDependencies": {
       "angular": "^1.4.0",
@@ -140,5 +147,6 @@
   },
   "filename": "umggt___remo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:24.510Z"
+  "lastFetchedAt": "2017-05-04T17:55:24.510Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:27.557Z"
 }

@@ -94,8 +94,15 @@
       "start": "electron .",
       "pkg": "node packager.js"
     },
-    "repository": "https://github.com/rokyed/cocoChanelJS",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rokyed/cocoChanelJS.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rokyed/cocoChanelJS/issues"
+    },
     "homepage": "https://github.com/rokyed/cocoChanelJS#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -135,5 +142,6 @@
   },
   "filename": "cocochaneljs___cocoChanelJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:41.740Z"
+  "lastFetchedAt": "2017-05-04T20:11:41.740Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:30.542Z"
 }

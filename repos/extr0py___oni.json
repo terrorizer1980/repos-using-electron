@@ -72,8 +72,9 @@
   "subscribersCount": 39,
   "status": 200,
   "packageJSON": {
-    "name": "oni-vim",
-    "version": "0.1.0",
+    "name": "oni",
+    "email": "extropy@extropygames.com",
+    "version": "0.2.3",
     "description": "NeoVim front-end with IDE-style extensibility",
     "keywords": [
       "vim",
@@ -83,68 +84,148 @@
       "ide",
       "vim"
     ],
-    "main": "index.js",
+    "main": "main.js",
     "bin": {
       "oni": "./cli/oni",
       "oni-vim": "./cli/oni"
     },
+    "build": {
+      "productName": "Oni",
+      "appId": "com.extropy.oni",
+      "files": [
+        "**/*",
+        "!**/*.oni",
+        "!**/*.vscode",
+        "!bin",
+        "!lib_test"
+      ],
+      "asar": false,
+      "mac": {
+        "artifactName": "${productName}-${version}-osx.${ext}",
+        "category": "public.app-category.developer-tools",
+        "target": [
+          "dmg",
+          "zip"
+        ],
+        "files": [
+          "bin/osx/**/*"
+        ]
+      },
+      "linux": {
+        "artifactName": "${productName}-${version}-linux.${ext}",
+        "maintainer": "extropy@extropygames.com",
+        "target": [
+          "tar.gz",
+          "deb",
+          "rpm"
+        ]
+      },
+      "win": {
+        "target": [
+          "zip",
+          "dir"
+        ],
+        "files": [
+          "bin/x86/**/*"
+        ]
+      }
+    },
     "scripts": {
-      "postinstall": "npm run install:oni-plugin-typescript",
-      "build": "npm run build:browser && npm run build:plugin_api && npm run build:plugins",
+      "build": "npm run build:browser && npm run build:plugins",
+      "build-debug": "npm run build:browser-debug && npm run build:plugins",
       "build:browser": "webpack --config browser/webpack.production.config.js",
-      "build:plugin_api": "cd plugin_api && tsc -p tsconfig.src.json",
-      "build:plugins": "cd vim/vimfiles/bundle/oni-plugin-typescript && tsc",
-      "install:oni-plugin-typescript": "cd vim/vimfiles/bundle/oni-plugin-typescript && npm install",
-      "test": "npm run test:browser && npm run test:plugin_api",
-      "test:browser": "cd browser && tsc -p tsconfig.json && mocha --recursive ../lib_test/browser/test",
-      "test:plugin_api": "cd plugin_api && tsc -p tsconfig.json && mocha --recursive ../lib_test/plugin_api/test",
-      "start": "concurrently --kill-others \"npm run start-hot\" \"npm run watch:browser\" \"npm run watch:plugins\" \"npm run watch:plugin_api\"",
+      "build:browser-debug": "webpack --config browser/webpack.debug.config.js",
+      "build:plugins": "cd vim/core/oni-plugin-typescript && npm run build",
+      "pack": "build --publish never",
+      "dist:win": "build --arch ia32 --publish never",
+      "pack:win": "node build/BuildSetupTemplate.js && innosetup-compiler dist/setup.iss --verbose --O=dist",
+      "test": "npm run test:unit && npm run test:integration",
+      "test:integration": "cd test && tsc -p tsconfig.json && mocha -t 30000 --recursive ../lib_test/test",
+      "test:unit": "npm run test:unit:browser && npm run test:unit:plugins:typescript",
+      "test:unit:browser": "cd browser && tsc -p tsconfig.json && mocha --recursive ../lib_test/browser/test",
+      "test:unit:plugins:typescript": "cd vim/core/oni-plugin-typescript && npm run test",
+      "fix-lint": "npm run fix-lint:browser && npm run fix-lint:test",
+      "fix-lint:browser": "tslint --fix --project browser/tsconfig.json --config tslint.json",
+      "fix-lint:test": "tslint --fix --project test/tsconfig.json --config tslint.json",
+      "lint": "npm run lint:browser && npm run lint:test",
+      "lint:browser": "tslint --project browser/tsconfig.json --config tslint.json && tslint vim/core/oni-plugin-typescript/src/**/*.ts",
+      "lint:test": "tslint --project test/tsconfig.json --config tslint.json && tslint vim/core/oni-plugin-typescript/src/**/*.ts",
+      "start": "concurrently --kill-others \"npm run start-hot\" \"npm run watch:browser\" \"npm run watch:plugins\"",
       "start-hot": "cross-env NODE_ENV=development electron main.js",
       "start-not-dev": "cross-env electron main.js",
-      "watch:browser": "webpack-dev-server --config browser/webpack.config.js --hot --host 0.0.0.0 --port 8191",
-      "watch:plugin_api": "cd plugin_api && tsc --watch",
-      "watch:plugins": "cd vim/vimfiles/bundle/oni-plugin-typescript && tsc --watch"
+      "watch:browser": "webpack-dev-server --config browser/webpack.hotreload.config.js --inline --hot --host localhost --port 8191",
+      "watch:plugins": "cd vim/core/oni-plugin-typescript && tsc --watch",
+      "uninstall-global": "npm rm -g oni-vim",
+      "install-global": "npm install -g oni-vim"
     },
-    "repository": "https://github.com/extr0py/oni",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/extr0py/oni"
+    },
+    "author": "",
     "license": "MIT",
     "dependencies": {
-      "electron": "^1.4.5",
-      "hex-rgb": "^1.0.0",
-      "lodash": "^4.16.6",
-      "minimist": "^1.2.0",
-      "mkdirp": "^0.5.1",
-      "neovim-client": "^1.1.0",
-      "q": "^1.4.1",
-      "react": "^15.3.1",
-      "react-dom": "^15.3.1",
-      "react-redux": "^4.4.5",
-      "redux": "^3.5.2"
+      "find-parent-dir": "0.3.0",
+      "lodash": "4.17.0",
+      "minimist": "1.2.0",
+      "neovim-client": "2.1.0",
+      "omnisharp-client": "7.0.6",
+      "q": "1.4.1",
+      "tslint": "4.0.2",
+      "typescript": "2.2.1"
     },
     "devDependencies": {
-      "@types/electron": "^1.4.27",
-      "@types/lodash": "^4.14.38",
-      "@types/minimist": "^1.1.29",
-      "@types/mkdirp": "^0.3.29",
-      "@types/mocha": "^2.2.33",
-      "@types/node": "^6.0.48",
+      "@types/classnames": "0.0.32",
+      "@types/electron": "1.4.27",
+      "@types/glob": "5.0.30",
+      "@types/jsdom": "2.0.29",
+      "@types/lodash": "4.14.38",
+      "@types/minimist": "1.1.29",
+      "@types/mkdirp": "0.3.29",
+      "@types/mocha": "2.2.33",
+      "@types/node": "6.0.48",
       "@types/q": "0.0.32",
-      "@types/react": "^0.14.48",
-      "@types/react-dom": "^0.14.18",
-      "@types/react-redux": "^4.4.32",
-      "autoprefixer": "^6.4.0",
-      "concurrently": "^2.2.0",
-      "cross-env": "^2.0.0",
-      "css-loader": "^0.24.0",
-      "less": "^2.7.1",
-      "less-loader": "^2.2.3",
-      "less-plugin-autoprefix": "^1.5.1",
-      "mocha": "^3.1.2",
-      "react-hot-loader": "^1.3.0",
-      "style-loader": "^0.13.1",
-      "ts-loader": "^0.8.2",
-      "typescript": "^2.0.3",
-      "webpack": "^1.13.2",
-      "webpack-dev-server": "^1.16.1"
+      "@types/react": "0.14.48",
+      "@types/react-dom": "0.14.18",
+      "@types/react-measure": "0.4.5",
+      "@types/react-redux": "4.4.38",
+      "@types/sinon": "1.16.32",
+      "autoprefixer": "6.4.0",
+      "classnames": "2.2.5",
+      "concurrently": "3.1.0",
+      "cross-env": "3.1.3",
+      "css-loader": "0.26.1",
+      "electron": "1.6.6",
+      "electron-builder": "16.4.2",
+      "electron-devtools-installer": "2.1.0",
+      "extract-zip": "1.6.0",
+      "fuse.js": "2.6.2",
+      "glob": "7.1.1",
+      "innosetup-compiler": "5.5.9",
+      "jsdom": "9.9.1",
+      "less": "2.7.1",
+      "less-loader": "2.2.3",
+      "less-plugin-autoprefix": "1.5.1",
+      "mkdirp": "0.5.1",
+      "mocha": "3.1.2",
+      "optimize-js-plugin": "0.0.4",
+      "react": "15.3.1",
+      "react-dom": "15.3.1",
+      "react-hot-loader": "1.3.1",
+      "react-measure": "1.4.2",
+      "react-redux": "4.4.5",
+      "redux": "3.5.2",
+      "redux-thunk": "2.2.0",
+      "shelljs": "0.7.7",
+      "sinon": "1.17.6",
+      "spectron": "3.6.2",
+      "style-loader": "0.13.1",
+      "ts-loader": "1.2.2",
+      "vscode-jsonrpc": "3.2.0",
+      "vscode-languageserver-types": "3.2.0",
+      "wcwidth": "1.0.1",
+      "webpack": "1.13.2",
+      "webpack-dev-server": "1.16.1"
     }
   },
   "packageStatus": 200,
@@ -172,5 +253,6 @@
   },
   "filename": "extr0py___oni.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:24:13.035Z"
+  "lastFetchedAt": "2017-05-04T18:24:13.035Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:06.722Z"
 }

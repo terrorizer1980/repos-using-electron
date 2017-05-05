@@ -73,5 +73,34 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:12:48.860Z"
+  "lastFetchedAt": "2017-05-04T21:12:48.860Z",
+  "packageJSON": {
+    "name": "money-manager",
+    "version": "0.0.1",
+    "description": "Application for helping managing expenses and savings.",
+    "main": "main-desktop.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "mocha"
+    },
+    "keywords": [
+      "Savings",
+      "Electron",
+      "Javascript",
+      "AgularJs"
+    ],
+    "author": "Luis Davila",
+    "license": "ISC",
+    "dependencies": {
+      "nedb": "^1.8.0"
+    },
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "electron": "^1.6.2",
+      "mocha": "^3.2.0",
+      "spectron": "^3.6.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T01:19:36.523Z"
 }

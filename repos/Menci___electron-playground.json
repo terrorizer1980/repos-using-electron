@@ -60,8 +60,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/Menci/electron-playground",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Menci/electron-playground.git"
+    },
+    "author": "Menci",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Menci/electron-playground/issues"
+    },
     "homepage": "https://github.com/Menci/electron-playground#readme",
     "dependencies": {
       "electron": "^1.3.4",
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/Menci/electron-playground",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:24:30.728Z"
+  "lastFetchedAt": "2017-05-04T20:24:30.728Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:06.131Z"
 }

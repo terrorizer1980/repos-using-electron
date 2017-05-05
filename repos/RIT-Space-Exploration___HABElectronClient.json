@@ -86,27 +86,35 @@
     "main": "./src/main.js",
     "scripts": {
       "test": "eslint ./src",
-      "start": "electron ."
+      "start": "electron .",
+      "rebuild": "electron-rebuild -f -w serialport"
     },
-    "repository": "https://github.com/RIT-Space-Exploration/HABElectronClient",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RIT-Space-Exploration/HABElectronClient.git"
+    },
+    "author": "RIT Space Exploration",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/RIT-Space-Exploration/HABElectronClient/issues"
+    },
     "homepage": "https://github.com/RIT-Space-Exploration/HABElectronClient#readme",
     "devDependencies": {
+      "electron-build": "0.0.3",
       "electron-packager": "^8.2.0",
+      "electron-prebuilt": "^1.4.10",
+      "electron-rebuild": "^1.4.0",
       "eslint": "^3.5.0",
       "eslint-config-airbnb": "^11.1.0",
       "eslint-plugin-import": "^1.15.0",
       "eslint-plugin-jsx-a11y": "^2.2.2",
-      "eslint-plugin-react": "^6.2.2",
-      "node-gyp": "^3.4.0",
-      "node-pre-gyp": "^0.6.29",
-      "require-rebuild": "^1.2.8"
+      "eslint-plugin-react": "^6.2.2"
     },
     "dependencies": {
       "electron": "^1.4.6",
       "jquery.terminal": "^0.11.13",
       "milligram": "^1.2.0",
-      "serial-worker": "^1.0.5",
+      "serialport": "^4.0.6",
       "socket.io": "^1.5.1",
       "socket.io-client": "^1.5.1"
     }
@@ -136,5 +144,6 @@
   },
   "filename": "RIT-Space-Exploration___HABElectronClient.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:31.526Z"
+  "lastFetchedAt": "2017-05-04T05:13:31.526Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:19.513Z"
 }

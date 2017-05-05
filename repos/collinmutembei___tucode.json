@@ -115,17 +115,8 @@
       "node": ">=0.8.15"
     },
     "repository": {
-      "user": "andela-cmutembei",
-      "repo": "tucode",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/andela-cmutembei/tucode/tarball/master",
-      "clone_url": "https://github.com/andela-cmutembei/tucode",
-      "https_url": "https://github.com/andela-cmutembei/tucode",
-      "travis_url": "https://travis-ci.org/andela-cmutembei/tucode",
-      "zip_url": "https://github.com/andela-cmutembei/tucode/archive/master.zip",
-      "api_url": "https://api.github.com/repos/andela-cmutembei/tucode"
+      "type": "git",
+      "url": "git+https://github.com/andela-cmutembei/tucode.git"
     },
     "keywords": [
       "github",
@@ -134,7 +125,11 @@
       "programming",
       "tutorials"
     ],
+    "author": "andela-cmutembei",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/andela-cmutembei/tucode/issues"
+    },
     "homepage": "https://github.com/andela-cmutembei/tucode#readme"
   },
   "packageStatus": 200,
@@ -163,5 +158,6 @@
   "filename": "collinmutembei___tucode.json",
   "sourceRepo": "andela-cmutembei/tucode",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:47:22.818Z"
+  "lastFetchedAt": "2017-05-04T14:47:22.818Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:24.548Z"
 }

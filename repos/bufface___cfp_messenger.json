@@ -70,6 +70,9 @@
     "version": "1.0.0",
     "description": "Clon of Windows Messenger Chat",
     "main": "main.js",
+    "directories": {
+      "test": "test"
+    },
     "dependencies": {
       "express": "^4.14.0",
       "slash-command": "0.0.52"
@@ -81,8 +84,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node server.js"
     },
-    "repository": "https://github.com/bufface/cfp_messenger",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bufface/cfp_messenger.git"
+    },
+    "author": "Cristian Buffa",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bufface/cfp_messenger/issues"
+    },
     "homepage": "https://github.com/bufface/cfp_messenger#readme"
   },
   "packageStatus": 200,
@@ -110,5 +120,6 @@
   },
   "filename": "bufface___cfp_messenger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:01:52.969Z"
+  "lastFetchedAt": "2017-05-04T06:01:52.969Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:04.852Z"
 }

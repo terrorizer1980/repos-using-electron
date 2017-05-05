@@ -81,12 +81,19 @@
       "start": "electron .",
       "test": "eslint ."
     },
-    "repository": "https://github.com/kjwenger/sandbox.electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kjwenger/sandbox.electron.git"
+    },
     "keywords": [
       "electron",
       "atom"
     ],
+    "author": "kjwenger@yahoo.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kjwenger/sandbox.electron/issues"
+    },
     "homepage": "https://github.com/kjwenger/sandbox.electron#readme",
     "devDependencies": {
       "electron": "^1.4.10"
@@ -116,5 +123,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:23:43.580Z"
+  "lastFetchedAt": "2017-05-04T20:23:43.580Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:41.246Z"
 }

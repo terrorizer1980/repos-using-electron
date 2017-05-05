@@ -77,6 +77,11 @@
       "npm"
     ],
     "companyName": "pravdomil.cz",
+    "author": {
+      "name": "Pravdomil Toman",
+      "email": "info@pravdomil.cz",
+      "url": "http://pravdomil.cz"
+    },
     "contributors": [
       {
         "name": "Pravdomil Toman",
@@ -85,7 +90,11 @@
       }
     ],
     "homepage": "http://npm.pravdomil.cz",
-    "repository": "https://github.com/pravdomil/beautiful-npm",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pravdomil/beautiful-npm"
+    },
+    "bugs": "https://github.com/pravdomil/beautiful-npm/issues",
     "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Beautiful%20npm%20beer",
     "main": "_main/index.js",
     "scripts": {
@@ -128,5 +137,6 @@
   },
   "filename": "pravdomil___beautiful-npm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:03.961Z"
+  "lastFetchedAt": "2017-05-04T15:24:03.961Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:58.630Z"
 }

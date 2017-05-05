@@ -69,7 +69,7 @@
     "name": "WriteDown",
     "version": "0.1.0",
     "description": "A simple Markdown Editor based off the Electron platform.",
-    "main": "main.js",
+    "main": "app/main.js",
     "scripts": {
       "start": "electron ."
     },
@@ -82,10 +82,18 @@
       "markdown",
       "editor"
     ],
+    "author": "Elijah Duffy",
     "license": "MIT",
+    "bugs": {
+      "url": "https://git.endev.xyz/octacian/writedown/issues/"
+    },
     "homepage": "https://git.endev.xyz/octacian/writedown/",
     "devDependencies": {
       "electron": "^1.4.4"
+    },
+    "dependencies": {
+      "highlight.js": "^9.9.0",
+      "marked": "^0.3.6"
     }
   },
   "packageStatus": 200,
@@ -113,5 +121,6 @@
   },
   "filename": "octacian___writedown.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:24:27.951Z"
+  "lastFetchedAt": "2017-05-04T05:24:27.951Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:45.776Z"
 }

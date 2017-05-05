@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/MasterDevs/Diff",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MasterDevs/Diff.git"
+    },
     "keywords": [
       "master",
       "devs",
       "diff",
       "text"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/MasterDevs/Diff/issues"
+    },
     "homepage": "https://github.com/MasterDevs/Diff",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -137,5 +144,6 @@
   },
   "filename": "MasterDevs___Diff.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:52:18.023Z"
+  "lastFetchedAt": "2017-05-04T20:52:18.023Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:21.291Z"
 }

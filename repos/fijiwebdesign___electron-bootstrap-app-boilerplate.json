@@ -58,6 +58,11 @@
     "description": "My groundbreaking app",
     "license": "MIT",
     "repository": "fijiwebdesign/transcoder",
+    "author": {
+      "name": "Gabe L",
+      "email": "gabe@fijiwebdesign.com",
+      "url": "fijiwebdesign.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -136,5 +141,6 @@
   "svnUrl": "https://github.com/fijiwebdesign/electron-bootstrap-app-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:22:33.865Z"
+  "lastFetchedAt": "2017-05-04T15:22:33.865Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:40.393Z"
 }

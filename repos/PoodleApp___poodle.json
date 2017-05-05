@@ -97,11 +97,18 @@
       "start": "npm run make && npm run run",
       "test": "babel-node node_modules/.bin/_mocha --full-trace --recursive -R spec -C --check-leaks test/"
     },
-    "repository": "https://github.com/hallettj/poodle",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hallettj/poodle.git"
+    },
     "keywords": [
       "email"
     ],
+    "author": "Jesse Hallett <jesse@sitr.us>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/hallettj/poodle/issues"
+    },
     "homepage": "https://github.com/hallettj/poodle#readme",
     "babel": {
       "presets": [
@@ -190,5 +197,6 @@
   },
   "sourceRepo": "hallettj/poodle",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:32.807Z"
+  "lastFetchedAt": "2017-05-04T05:07:32.807Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:51.655Z"
 }

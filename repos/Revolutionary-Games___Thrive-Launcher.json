@@ -87,5 +87,37 @@
   "networkCount": 0,
   "subscribersCount": 16,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:38:38.912Z"
+  "lastFetchedAt": "2017-05-04T19:38:38.912Z",
+  "packageJSON": {
+    "name": "thrive-launcher",
+    "productName": "Thrive Launcher",
+    "version": "1.0.0",
+    "description": "Thrive Launcher manages downloading Thrive releases",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/Revolutionary-Games/Thrive-Launcher",
+    "keywords": [
+      "Thrive",
+      "launcher",
+      "installer"
+    ],
+    "author": "Revolutionary Games",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "~1.6.2"
+    },
+    "dependencies": {
+      "feedparser": "^2.1.0",
+      "jquery": "^3.2.1",
+      "js-sha3": "^0.5.7",
+      "mkdirp": "^0.5.1",
+      "moment": "^2.18.1",
+      "request": "^2.81.0",
+      "strip-json-comments": "^2.0.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:49:12.214Z"
 }

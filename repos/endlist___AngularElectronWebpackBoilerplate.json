@@ -87,6 +87,7 @@
       "package-mac": "NODE_ENV=production node electron.package.js --platform=darwin",
       "package-win": "NODE_ENV=production node electron.package.js --platform=win32"
     },
+    "author": "Li Wren <lian.johnson@logrhythm.com>",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -134,5 +135,6 @@
   "svnUrl": "https://github.com/endlist/AngularElectronWebpackBoilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:07:50.579Z"
+  "lastFetchedAt": "2017-05-04T18:07:50.579Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:15.990Z"
 }

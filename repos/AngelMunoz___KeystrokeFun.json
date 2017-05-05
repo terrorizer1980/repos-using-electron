@@ -66,26 +66,22 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-quick-start",
-    "version": "1.0.0",
+    "name": "keystroke-fun",
+    "version": "0.0.1",
     "description": "A minimal Electron application",
     "main": "dist/index.js",
     "scripts": {
-      "start": "electron .",
-      "build:fable-dev": "node_modules/fable-compiler/index.js -d",
-      "build:fable-prod": "node_modules/fable-compiler/index.js -p"
+      "start": "electron ."
     },
-    "repository": {},
-    "keywords": [],
-    "license": "",
-    "homepage": "",
+    "author": "Angel D. Munoz",
+    "license": "MIT",
     "devDependencies": {
-      "electron": "^1.3.4",
-      "fable-compiler": "^0.6.11"
+      "electron": "^1.4.15",
+      "fable-compiler": "^0.7.42"
     },
     "dependencies": {
-      "fable-core": "^0.6.7",
-      "fable-import-electron": "0.0.6"
+      "fable-core": "^0.7.26",
+      "fable-import-electron": "^0.0.6"
     }
   },
   "packageStatus": 200,
@@ -113,5 +109,6 @@
   },
   "filename": "AngelMunoz___KeystrokeFun.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:37.307Z"
+  "lastFetchedAt": "2017-05-04T20:01:37.307Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:35.639Z"
 }

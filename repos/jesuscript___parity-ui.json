@@ -56,7 +56,11 @@
       "build": "webpack",
       "watch": "webpack-dev-server --inline --hot --colors --content-base=./build"
     },
-    "repository": "https://github.com/jesuscript/parity-ui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jesuscript/parity-ui.git"
+    },
+    "author": "Konstantin Kudryavtsev",
     "license": "GPL-3.0",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -150,5 +154,6 @@
   "svnUrl": "https://github.com/jesuscript/parity-ui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:34:14.041Z"
+  "lastFetchedAt": "2017-05-04T20:34:14.041Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:02.565Z"
 }

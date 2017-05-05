@@ -70,6 +70,10 @@
     "version": "1.0.0",
     "description": "effector is a tool for cocos creator to make shader effect so easy",
     "license": "MIT",
+    "author": "Colin3dmax",
+    "bugs": {
+      "url": "https://github.com/colin3dmax/EffectDesigner/issues"
+    },
     "homepage": "https://github.com/colin3dmax/EffectDesigner#readme",
     "main": "main.js",
     "scripts": {
@@ -100,7 +104,10 @@
       "electron-prebuilt": "^1.0.0",
       "electron-package": "^1.0.0"
     },
-    "repository": "https://github.com/colin3dmax/EffectDesigner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/colin3dmax/EffectDesigner.git"
+    },
     "keywords": [
       "effector"
     ]
@@ -130,5 +137,6 @@
   },
   "filename": "colin3dmax___EffectDesigner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:54.975Z"
+  "lastFetchedAt": "2017-05-04T17:57:54.975Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:37.573Z"
 }

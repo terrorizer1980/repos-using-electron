@@ -70,6 +70,10 @@
     "version": "0.0.1",
     "main": "main.js",
     "description": "Singapore Deals 4 u interactive kiosk",
+    "author": {
+      "name": "singaporedeals4u",
+      "email": "sgdeals@www.com"
+    },
     "scripts": {
       "start": "ENV=development SETUP_PATH=./config electron main.js",
       "server": "babel-node server.js",
@@ -159,5 +163,6 @@
   },
   "filename": "robinfoe___singaporedeals-kiosk.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:35.828Z"
+  "lastFetchedAt": "2017-05-04T17:57:35.828Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:27.295Z"
 }

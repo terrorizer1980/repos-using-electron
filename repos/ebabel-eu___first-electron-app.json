@@ -79,7 +79,11 @@
       "desktop",
       "app"
     ],
-    "repository": "https://github.com/ebabel-eu/first-electron-app",
+    "author": "Nadjib Amar <hello@ebabel.eu> (http://ebabel.eu)",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:ebabel-eu/first-electron-app.git"
+    },
     "license": "ISC",
     "dependencies": {
       "electron": "1.4.4"
@@ -110,5 +114,6 @@
   },
   "filename": "ebabel-eu___first-electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:28.145Z"
+  "lastFetchedAt": "2017-05-04T14:50:28.145Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:28.432Z"
 }

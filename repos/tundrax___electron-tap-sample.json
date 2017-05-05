@@ -81,12 +81,16 @@
       "test:renderer": "electron-tap --renderer='test/**/renderer/*test.js?(x)'",
       "test:browser": "electron-tap --browser 'test/**/browser/*test.js'"
     },
-    "repository": "https://github.com/tundrax/electron-tap-sample",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tundrax/electron-tap-sample.git"
+    },
     "keywords": [
       "electron",
       "tape",
       "react"
     ],
+    "author": "Sherzod Kuchkarov <sherzod@gmail.com> (https://github.com/tundrax)",
     "license": "MIT",
     "dependencies": {
       "babel-preset-react": "^6.3.13",
@@ -131,5 +135,6 @@
   },
   "filename": "tundrax___electron-tap-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:42.787Z"
+  "lastFetchedAt": "2017-05-04T20:31:42.787Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:20.379Z"
 }

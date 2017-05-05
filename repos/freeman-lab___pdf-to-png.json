@@ -64,7 +64,11 @@
       "tape": "tape test.js | tap-spec",
       "example": "node example.js"
     },
-    "repository": "https://github.com/freeman-lab/pdf-to-png",
+    "author": "freeman-lab",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/freeman-lab/pdf-to-png.git"
+    },
     "license": "MIT",
     "dependencies": {
       "chalk": "^1.1.1",
@@ -123,5 +127,6 @@
   },
   "filename": "freeman-lab___pdf-to-png.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:09:39.993Z"
+  "lastFetchedAt": "2017-05-04T18:09:39.993Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:40.553Z"
 }

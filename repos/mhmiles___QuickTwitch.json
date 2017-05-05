@@ -90,7 +90,13 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/mhmiles/QuickTwitch",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mhmiles/QuickTwitch.git"
+    },
+    "author": {
+      "name": "Miles Hollingsworth"
+    },
     "license": "MIT",
     "keywords": [
       "twitch",
@@ -198,5 +204,6 @@
   },
   "filename": "mhmiles___QuickTwitch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:40.287Z"
+  "lastFetchedAt": "2017-05-04T05:26:40.287Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:16.249Z"
 }

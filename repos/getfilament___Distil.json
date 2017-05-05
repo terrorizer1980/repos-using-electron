@@ -93,8 +93,15 @@
     "scripts": {
       "start": "make start"
     },
-    "repository": "https://github.com/getfilament/Distil",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/getfilament/Distil.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/getfilament/Distil/issues"
+    },
     "homepage": "https://github.com/getfilament/Distil#readme",
     "dependencies": {
       "axios": "^0.5.4",
@@ -159,5 +166,6 @@
   },
   "filename": "getfilament___Distil.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:08:51.306Z"
+  "lastFetchedAt": "2017-05-04T20:08:51.306Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:40.213Z"
 }

@@ -93,10 +93,14 @@
     "scripts": {
       "start": "electron app.js"
     },
-    "repository": "https://github.com/Ironicware/Marks",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ironicware/Marks.git"
+    },
     "keywords": [
       "gradebook"
     ],
+    "author": "Alex House",
     "license": "GPL v2",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -130,5 +134,6 @@
   },
   "filename": "Ironicware___Marks.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:29.079Z"
+  "lastFetchedAt": "2017-05-04T21:30:29.079Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:20.907Z"
 }

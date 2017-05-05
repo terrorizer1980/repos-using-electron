@@ -77,10 +77,15 @@
     "description": "Boilerplate for Electron + React + Webpack",
     "main": "./build/main.js",
     "scripts": {
+      "setup": "rm -rf .git",
       "compile": "rm -rf build/ && webpack",
       "start": "npm run compile && electron ."
     },
-    "repository": "https://github.com/JimFung/yareb",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JimFung/yareb.git"
+    },
+    "author": "JimFung(@psisous)",
     "license": "MIT",
     "dependencies": {
       "react": "^15.3.2",
@@ -125,5 +130,6 @@
   },
   "filename": "JimFung___yareb.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:30.749Z"
+  "lastFetchedAt": "2017-05-04T18:26:30.749Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:14.991Z"
 }

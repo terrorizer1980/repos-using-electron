@@ -73,8 +73,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/viatsko/hashbox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/viatsko/hashbox.git"
+    },
+    "author": {
+      "name": "Valerii Iatsko",
+      "email": "dwr@codingbox.io",
+      "url": "https://github.com/viatsko/hashbox"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/viatsko/hashbox/issues"
+    },
     "keywords": [
       "irc"
     ],
@@ -190,5 +201,6 @@
   "svnUrl": "https://github.com/viatsko/hashbox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:23:53.883Z"
+  "lastFetchedAt": "2017-05-04T05:23:53.883Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:48.015Z"
 }

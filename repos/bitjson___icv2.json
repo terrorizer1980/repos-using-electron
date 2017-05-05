@@ -242,17 +242,8 @@
       "coveralls": "npm run coverage && cat coverage/lcov.info | coveralls"
     },
     "repository": {
-      "user": "bitpay",
-      "repo": "icv2",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bitpay/icv2/tarball/master",
-      "clone_url": "https://github.com/bitpay/icv2",
-      "https_url": "https://github.com/bitpay/icv2",
-      "travis_url": "https://travis-ci.org/bitpay/icv2",
-      "zip_url": "https://github.com/bitpay/icv2/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bitpay/icv2"
+      "type": "git",
+      "url": "git://github.com/bitpay/icv2.git"
     },
     "cordovaPlugins": [
       "cordova-plugin-device",
@@ -328,5 +319,6 @@
   "filename": "bitjson___icv2.json",
   "sourceRepo": "bitpay/icv2",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:27.326Z"
+  "lastFetchedAt": "2017-05-04T05:27:27.326Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:41.957Z"
 }

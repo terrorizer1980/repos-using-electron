@@ -76,6 +76,10 @@
     "version": "0.1.0",
     "description": "Small description for ember-markdown-editor goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -85,6 +89,7 @@
     "engines": {
       "node": ">= 0.12.0"
     },
+    "author": "osxi",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.1.2",
@@ -146,5 +151,6 @@
   },
   "filename": "osxi___ember-markdown-editor-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:22.833Z"
+  "lastFetchedAt": "2017-05-04T20:12:22.833Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:19.895Z"
 }

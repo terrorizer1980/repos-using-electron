@@ -84,6 +84,9 @@
     "version": "0.1.0",
     "description": "Secure chat and file sharing app",
     "main": "main.js",
+    "bugs": {
+      "url": "https://github.com/elimisteve/backchannel/issues"
+    },
     "scripts": {
       "start": "node_modules/.bin/electron main.js",
       "build": "electron-packager ./ Backchannel --platform=darwin --arch=x64 --overwrite",
@@ -94,6 +97,7 @@
       "CrypTag",
       "Backchannel"
     ],
+    "author": "",
     "license": "IST",
     "devDependencies": {
       "atob": "^2.0.3",
@@ -152,5 +156,6 @@
   "filename": "cryptag___backchannel.json",
   "sourceRepo": "cryptag/cryptask",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:47.023Z"
+  "lastFetchedAt": "2017-05-04T20:13:47.023Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:43.852Z"
 }

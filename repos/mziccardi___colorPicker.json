@@ -67,5 +67,49 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:19:13.208Z"
+  "lastFetchedAt": "2017-05-04T05:19:13.208Z",
+  "packageJSON": {
+    "name": "colorDrop",
+    "version": "0.0.1",
+    "description": "A Markdown-to-HTML renderer",
+    "main": "lib/main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "mocha tests/test.js",
+      "build": "electron-packager . 'colorDrop' --platform=all --arch=all --version=0.36.8"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mziccardi/colorPicker.git"
+    },
+    "keywords": [
+      "electron",
+      "markdown"
+    ],
+    "author": "Dan and Lauren ",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mziccardi/colorPicker/issues"
+    },
+    "homepage": "https://github.com/mziccardi/colorPicker#readme",
+    "devDependencies": {
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
+      "chai-jquery": "^2.0.0",
+      "devtron": "^1.3.0",
+      "electron-packager": "^8.1.0",
+      "electron-prebuilt": "^1.4.3",
+      "mocha": "^3.2.0",
+      "spectron": "^3.6.0"
+    },
+    "dependencies": {
+      "electron": "^1.6.2",
+      "jquery": "^3.1.1",
+      "marked": "^0.3.5",
+      "menubar": "^5.2.3",
+      "robotjs": "^0.4.7"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:28:16.053Z"
 }

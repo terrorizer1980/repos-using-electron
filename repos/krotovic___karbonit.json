@@ -71,7 +71,10 @@
     "version": "0.0.1",
     "main": "main.js",
     "license": "MIT",
-    "repository": "https://github.com/krotovic/karbonit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/krotovic/karbonit"
+    },
     "scripts": {
       "start": "electron .",
       "postinstall": "typings install",
@@ -137,5 +140,6 @@
   },
   "filename": "krotovic___karbonit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:48.614Z"
+  "lastFetchedAt": "2017-05-04T04:57:48.614Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:34.887Z"
 }

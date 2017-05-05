@@ -96,6 +96,7 @@
     "precommit": [
       "check"
     ],
+    "author": "Durran Jordan <durran@gmail.com>",
     "license": "MIT",
     "fonts": [
       "node_modules/font-awesome/fonts/fontawesome-webfont*"
@@ -107,29 +108,29 @@
     },
     "dependencies": {
       "babel-preset-react": "^6.5.0",
-      "electron-compile": "^2.0.6",
-      "electron-prebuilt": "^0.36.7",
+      "electron-compile": "^4.0.2",
+      "electron-prebuilt": "^1.4.6",
       "font-awesome": "^4.5.0",
       "lodash": "^4.3.0",
-      "mongodb-connection-model": "^4.0.0",
-      "react": "^0.14.7",
-      "react-dom": "^0.14.7",
-      "reflux": "^0.3.0",
-      "storage-mixin": "^0.5.1",
+      "mongodb-connection-model": "^6.3.1",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2",
+      "reflux": "^0.4.1",
+      "storage-mixin": "^0.8.0",
       "uuid": "^2.0.1"
     },
     "devDependencies": {
       "babel-register": "^6.5.2",
       "chai": "^3.5.0",
-      "electron-compilers": "^2.0.6",
-      "eslint-config-mongodb-js": "^1.0.6",
-      "eslint-plugin-react": "^3.16.1",
+      "electron-compilers": "^4.0.5",
+      "eslint-config-mongodb-js": "^2.2.0",
+      "eslint-plugin-react": "^6.6.0",
       "gulp": "^3.9.1",
-      "mocha": "^2.4.5",
+      "mocha": "^3.1.2",
       "mongodb-js-fmt": "^0.0.3",
       "mongodb-js-precommit": "^0.2.8",
       "pre-commit": "^1.1.2",
-      "react-addons-test-utils": "^0.14.7"
+      "react-addons-test-utils": "^15.3.2"
     }
   },
   "packageStatus": 200,
@@ -157,5 +158,6 @@
   },
   "filename": "mongodb-js___react-prototype.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:18:48.726Z"
+  "lastFetchedAt": "2017-05-04T14:18:48.726Z",
+  "packageLastFetchedAt": "2017-05-05T15:10:34.477Z"
 }

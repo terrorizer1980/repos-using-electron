@@ -74,13 +74,20 @@
   "packageJSON": {
     "name": "contractor-dashboard",
     "version": "1.0.0",
+    "author": "Eduard Fidiles",
     "description": "A general purpose dashboard",
     "keywords": [
       "Electron",
       "dashboard"
     ],
     "license": "",
-    "repository": "https://github.com/efidiles/contractor-dashboard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/efidiles/contractor-dashboard"
+    },
+    "bugs": {
+      "url": "https://github.com/efidiles/contractor-dashboard/issues"
+    },
     "homepage": "https://github.com/efidiles/contractor-dashboard",
     "main": "main.js",
     "engines": {
@@ -235,5 +242,6 @@
   },
   "filename": "efidiles___contractor-dashboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:25.873Z"
+  "lastFetchedAt": "2017-05-04T05:16:25.873Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:43.254Z"
 }

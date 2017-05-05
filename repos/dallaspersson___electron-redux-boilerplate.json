@@ -55,8 +55,14 @@
       "test": "NODE_ENV=test mocha --recursive --compilers js:babel-core/register --require ./test/setup.js",
       "test:watch": "npm test -- --watch"
     },
-    "repository": "https://github.com/dallaspersson/electron-redux-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dallaspersson/electron-redux-boilerplate.git"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dallaspersson/electron-redux-boilerplate.git/issues"
+    },
     "dependencies": {
       "electron-prebuilt": "^0.36.2",
       "react": "^0.14.0",
@@ -127,5 +133,6 @@
   "svnUrl": "https://github.com/dallaspersson/electron-redux-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:52:47.298Z"
+  "lastFetchedAt": "2017-05-04T19:52:47.298Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:25.741Z"
 }

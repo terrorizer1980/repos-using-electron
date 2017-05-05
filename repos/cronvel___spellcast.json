@@ -73,11 +73,14 @@
   "status": 200,
   "packageJSON": {
     "name": "spellcast",
-    "version": "0.30.9",
+    "version": "0.33.6",
     "description": "Make: your own adventure!",
     "main": "lib/Book.js",
     "engines": {
-      "node": ">=4.5.0"
+      "node": ">=6.0.0"
+    },
+    "directories": {
+      "test": "test"
     },
     "bin": {
       "spellcast": "./bin/spellcast",
@@ -86,39 +89,43 @@
     "dependencies": {
       "@cronvel/minimatch": "^3.0.2",
       "async-kit": "^2.2.3",
-      "babel-tower": "^0.12.0",
-      "browserify": "^13.1.1",
+      "babel-tower": "^0.12.2",
       "chokidar": "^1.6.1",
       "dom-kit": "^0.1.2",
       "doormen": "^0.6.7",
-      "electron": "^1.4.10",
+      "electron": "^1.6.7",
+      "fs-kit": "^0.2.2",
       "glob": "^7.1.1",
-      "kung-fig": "^0.34.9",
-      "logfella": "^0.3.44",
-      "math-kit": "^0.3.5",
+      "jsbindat": "^0.5.1",
+      "kung-fig": "^0.38.2",
+      "logfella": "^0.3.52",
+      "math-kit": "^0.11.9",
       "minimist": "^1.2.0",
-      "nextgen-events": "^0.9.8",
+      "mocha": "^3.3.0",
+      "nextgen-events": "^0.9.9",
       "semver": "^5.3.0",
-      "server-kit": "^0.4.0",
-      "string-kit": "^0.5.12",
-      "terminal-kit": "^0.25.3",
+      "server-kit": "^0.4.2",
+      "string-kit": "^0.5.20",
+      "terminal-kit": "^1.4.4",
       "tif-parser": "^0.3.3",
-      "tree-kit": "^0.5.26",
-      "uglify-js": "^2.7.4"
+      "tree-kit": "^0.5.26"
     },
     "devDependencies": {
-      "browserify": "^13.1.0",
+      "browserify": "^14.3.0",
       "electron": "^1.4.8",
       "expect.js": "^0.3.1",
       "fs-kit": "^0.1.5",
       "jshint": "^2.9.2",
-      "mocha": "^2.5.3",
-      "uglify-js": "^2.7.0"
+      "mocha": "^3.2.0",
+      "uglify-js": "^2.8.22"
     },
     "scripts": {
       "test": "tea-time -R dot -O"
     },
-    "repository": "https://github.com/cronvel/spellcast",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cronvel/spellcast.git"
+    },
     "keywords": [
       "gamebook",
       "roleplay",
@@ -134,12 +141,23 @@
       "wizardry",
       "dependency"
     ],
+    "author": "Cédric Ronvel",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cronvel/spellcast/issues"
+    },
+    "config": {
+      "tea-time": {
+        "coverDir": [
+          "lib"
+        ]
+      }
+    },
     "copyright": {
       "title": "Spellcast",
       "years": [
         2014,
-        2016
+        2017
       ],
       "owner": "Cédric Ronvel"
     }
@@ -169,5 +187,6 @@
   },
   "filename": "cronvel___spellcast.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:25.945Z"
+  "lastFetchedAt": "2017-05-04T18:04:25.945Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:51.395Z"
 }

@@ -191,17 +191,8 @@
       "node": ">=0.12.4"
     },
     "repository": {
-      "user": "kevinsawicki",
-      "repo": "spectron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kevinsawicki/spectron/tarball/master",
-      "clone_url": "https://github.com/kevinsawicki/spectron",
-      "https_url": "https://github.com/kevinsawicki/spectron",
-      "travis_url": "https://travis-ci.org/kevinsawicki/spectron",
-      "zip_url": "https://github.com/kevinsawicki/spectron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kevinsawicki/spectron"
+      "type": "git",
+      "url": "git+https://github.com/kevinsawicki/spectron.git"
     },
     "keywords": [
       "electron",
@@ -209,7 +200,11 @@
       "webdriverio",
       "selenium"
     ],
+    "author": "Kevin Sawicki",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kevinsawicki/spectron/issues"
+    },
     "homepage": "https://github.com/kevinsawicki/spectron#readme",
     "dependencies": {
       "dev-null": "^0.1.1",
@@ -272,5 +267,6 @@
   "svnUrl": "https://github.com/learn-alex/spectron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T08:01:34.938Z"
+  "lastFetchedAt": "2017-05-04T08:01:34.938Z",
+  "packageLastFetchedAt": "2017-05-05T14:29:42.807Z"
 }

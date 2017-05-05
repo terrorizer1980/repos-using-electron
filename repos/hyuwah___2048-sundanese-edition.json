@@ -188,24 +188,19 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "hyuwah",
-      "repo": "2048-sundanese-edition",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/hyuwah/2048-sundanese-edition/tarball/master",
-      "clone_url": "https://github.com/hyuwah/2048-sundanese-edition",
-      "https_url": "https://github.com/hyuwah/2048-sundanese-edition",
-      "travis_url": "https://travis-ci.org/hyuwah/2048-sundanese-edition",
-      "zip_url": "https://github.com/hyuwah/2048-sundanese-edition/archive/master.zip",
-      "api_url": "https://api.github.com/repos/hyuwah/2048-sundanese-edition"
+      "type": "git",
+      "url": "git+https://github.com/hyuwah/2048-sundanese-edition.git"
     },
     "keywords": [
       "Electron",
       "2048",
       "sundanese"
     ],
+    "author": "Muhammad Wahyudin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hyuwah/2048-sundanese-edition/issues"
+    },
     "homepage": "https://github.com/hyuwah/2048-sundanese-edition#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -257,5 +252,6 @@
   "svnUrl": "https://github.com/hyuwah/2048-sundanese-edition",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:50:10.727Z"
+  "lastFetchedAt": "2017-05-04T17:50:10.727Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:38.630Z"
 }

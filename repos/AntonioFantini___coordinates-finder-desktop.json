@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/AntonioFantini/coordinates-finder-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AntonioFantini/coordinates-finder-desktop.git"
+    },
+    "author": "Antonio Fantini",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AntonioFantini/coordinates-finder-desktop/issues"
+    },
     "homepage": "https://github.com/AntonioFantini/coordinates-finder-desktop#readme"
   },
   "packageStatus": 200,
@@ -108,5 +115,6 @@
   },
   "filename": "AntonioFantini___coordinates-finder-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:14.993Z"
+  "lastFetchedAt": "2017-05-04T14:46:14.993Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:00.466Z"
 }

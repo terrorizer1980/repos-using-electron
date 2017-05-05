@@ -94,13 +94,19 @@
     "bin": {
       "electron-live-preview": "./start.js"
     },
-    "repository": "https://github.com/Synchronized-TV/electron-live-preview",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Synchronized-TV/electron-live-preview.git"
+    },
     "authors": [
       "Alexis Kofman <alexis.kofman@synchronized.tv>",
       "Julien De Luca <julien.deluca@synchronized.tv>",
       "Julien Bouquillon <julien.bouquillon@synchronized.tv>"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Synchronized-TV/electron-live-preview/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -157,5 +163,6 @@
   },
   "filename": "Synchronized-TV___electron-live-preview.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:03.654Z"
+  "lastFetchedAt": "2017-05-04T18:12:03.654Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:25.287Z"
 }

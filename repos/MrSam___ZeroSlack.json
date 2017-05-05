@@ -83,14 +83,21 @@
       "osx",
       "slack"
     ],
+    "author": "Sam Hermans <sam.hermans@gmail.com>",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
     },
     "license": "GPL-3.0",
-    "repository": "https://github.com/MrSam/ZeroSlack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MrSam/ZeroSlack.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
+    },
+    "bugs": {
+      "url": "https://github.com/MrSam/ZeroSlack/issues"
     },
     "homepage": "https://github.com/MrSam/ZeroSlack#readme",
     "dependencies": {
@@ -122,5 +129,6 @@
   },
   "filename": "MrSam___ZeroSlack.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:09.559Z"
+  "lastFetchedAt": "2017-05-04T15:13:09.559Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:37.673Z"
 }

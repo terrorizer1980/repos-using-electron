@@ -101,10 +101,22 @@
       "react": "^15.2.1",
       "react-addons-css-transition-group": "^15.2.1",
       "react-dom": "^15.2.1",
-      "react-scripts": "^0.7.0"
+      "react-localization": "0.0.8",
+      "react-router": "^3.0.0",
+      "react-scripts": "^0.7.0",
+      "react-twitter-widgets": "^1.2.0"
     },
     "eslintConfig": {
       "extends": "react-app"
+    },
+    "devDependencies": {
+      "babel-eslint": "^7.1.1",
+      "eslint": "^3.12.2",
+      "eslint-config-react-app": "^0.5.0",
+      "eslint-plugin-flowtype": "^2.29.1",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-react": "^6.8.0"
     }
   },
   "packageStatus": 200,
@@ -132,5 +144,6 @@
   },
   "filename": "maison-notman-house___notman-entrance-dashboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:58.942Z"
+  "lastFetchedAt": "2017-05-04T20:12:58.942Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:41.485Z"
 }

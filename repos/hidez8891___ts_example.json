@@ -73,5 +73,39 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T04:59:48.860Z"
+  "lastFetchedAt": "2017-05-04T04:59:48.860Z",
+  "packageJSON": {
+    "name": "ts_example",
+    "version": "0.1.0",
+    "description": "",
+    "main": "dist/app.js",
+    "scripts": {
+      "build": "npm-run-all build:*",
+      "build:typescript": "tsc",
+      "build:pug": "pug -o dist src",
+      "prestart": "npm run build",
+      "start": "electron .",
+      "package": "node package.js",
+      "lint": "tslint src/**/*.ts?(x)"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "dependencies": {
+      "electron": "^1.6.2",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2"
+    },
+    "devDependencies": {
+      "@types/electron": "^1.4.34",
+      "@types/react": "^15.0.20",
+      "@types/react-dom": "^0.14.23",
+      "electron-packager": "^8.6.0",
+      "npm-run-all": "^4.0.2",
+      "tslint": "^5.0.0",
+      "typescript": "^2.2.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:38:04.764Z"
 }

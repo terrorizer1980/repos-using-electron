@@ -79,8 +79,12 @@
       "update-player-raw": "./update-script.sh",
       "config-set": "electron config-set.js"
     },
-    "repository": "https://github.com/infoskjermer-norge/player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/infoskjermer-norge/player.git"
+    },
     "keywords": [],
+    "author": "Infoskjermer Norge AS",
     "homepage": "http://infoskjermer-norge.no",
     "devDependencies": {
       "electron-prebuilt": "1.2.1"
@@ -118,5 +122,6 @@
   },
   "filename": "infoskjermer-norge___player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:48.160Z"
+  "lastFetchedAt": "2017-05-04T14:22:48.160Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:19.280Z"
 }

@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/DavidVisscher/pingoo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DavidVisscher/pingoo.git"
+    },
     "keywords": [
       "Pingoo",
       "network",
       "tool"
     ],
+    "author": "David Visscher",
     "license": "GPL-3.0+",
+    "bugs": {
+      "url": "https://github.com/DavidVisscher/pingoo/issues"
+    },
     "homepage": "https://github.com/DavidVisscher/pingoo",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -125,5 +132,6 @@
   },
   "filename": "DavidVisscher___pingoo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:11.222Z"
+  "lastFetchedAt": "2017-05-04T21:31:11.222Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:25.634Z"
 }

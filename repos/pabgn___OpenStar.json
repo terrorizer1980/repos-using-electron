@@ -50,8 +50,15 @@
     "version": "0.1.0",
     "description": "Ultrastar JavaScript alternative",
     "main": "build/index.js",
-    "repository": "https://github.com/vulpino/berb",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vulpino/berb.git"
+    },
+    "author": "pabgn",
     "license": "MIT",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -168,5 +175,6 @@
   },
   "filename": "pabgn___OpenStar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:40.715Z"
+  "lastFetchedAt": "2017-05-04T15:29:40.715Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:22.231Z"
 }

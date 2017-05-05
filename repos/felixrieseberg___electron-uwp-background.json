@@ -61,6 +61,7 @@
       "start": "electron electron-app",
       "build": "gulp build-electron"
     },
+    "author": "Felix Rieseberg <felix@felixrieseberg.com>",
     "license": "MIT",
     "devDependencies": {
       "del": "^2.2.0",
@@ -115,5 +116,6 @@
   },
   "filename": "felixrieseberg___electron-uwp-background.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:06.265Z"
+  "lastFetchedAt": "2017-05-04T14:50:06.265Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:36.621Z"
 }

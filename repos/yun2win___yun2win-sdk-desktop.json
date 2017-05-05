@@ -52,34 +52,40 @@
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
+    "dependencies": {
+      "archiver": "^1.2.0",
+      "request": "^2.78.0"
+    },
     "devDependencies": {
       "electron-builder": "next",
-      "electron-prebuilt": "1.2.5",
+      "electron-prebuilt": "*",
       "rimraf": "^2.5.2"
     },
     "scripts": {
-      "pack": "electron-packager ./app quick --all --version=1.2.5 --out=./pack --overwrite",
       "dist:win": "rm -rf ./dist && build -w",
       "dist:mac": "rm -rf ./dist && build -m",
-      "dist": "rm -rf ./dist && build -mw"
+      "dist": "rm -rf ./dist && build -mw",
+      "_pack": "node ./product/pack.js",
+      "_submit": "node ./product/submit.js",
+      "_publish": "node ./product/publish.js",
+      "_p&s": "npm run _pack && npm run _submit"
     },
     "build": {
       "asar": false,
-      "appId": "org.develar.quick",
+      "appId": "com.liyueyun.desktop.koni.tv",
       "mac": {
         "icon": "app/assets/osx/icon.icns",
-        "background": "app/assets/osx/installer.png",
         "dmg": {
           "contents": [
             {
               "x": 410,
-              "y": 150,
+              "y": 80,
               "type": "link",
               "path": "/Applications"
             },
             {
               "x": 130,
-              "y": 150,
+              "y": 80,
               "type": "file"
             }
           ]
@@ -87,7 +93,7 @@
       },
       "win": {
         "icon": "app/assets/win/icon.ico",
-        "iconUrl": "http://121.40.215.56:8888/icon.ico"
+        "iconUrl": "http://update.yun2win.com:8888/temp/icon.ico"
       }
     }
   },
@@ -136,5 +142,6 @@
   "svnUrl": "https://github.com/yun2win/yun2win-sdk-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:08:16.194Z"
+  "lastFetchedAt": "2017-05-03T20:08:16.194Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:37.437Z"
 }

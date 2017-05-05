@@ -87,6 +87,7 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -168,5 +169,6 @@
   },
   "filename": "TennyZhuang___Electronic-TUNow.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:23.671Z"
+  "lastFetchedAt": "2017-05-04T20:31:23.671Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:36.142Z"
 }

@@ -79,7 +79,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/valentinoeval/electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/valentinoeval/electron.git"
+    },
+    "author": "valentinoeval",
     "license": "CC0-1.0",
     "homepage": "https://github.com/valentinoeval/electron#readme",
     "devDependencies": {
@@ -111,5 +115,6 @@
   },
   "filename": "valentinoeval___electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:33:56.387Z"
+  "lastFetchedAt": "2017-05-04T05:33:56.387Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:48.140Z"
 }

@@ -74,6 +74,7 @@
       "start": "electron .",
       "build": "electron-packager . --platform=linux --arch=x64 --version=0.27.2 walletApp"
     },
+    "author": "James",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^4.2.0",
@@ -131,5 +132,6 @@
   },
   "filename": "lightradius___electronWalletApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:59:10.946Z"
+  "lastFetchedAt": "2017-05-04T20:59:10.946Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:52.702Z"
 }

@@ -78,6 +78,11 @@
     "description": "My breathtaking app",
     "license": "MIT",
     "repository": "imperiumzigna/coffee-chrome",
+    "author": {
+      "name": "Igor Amorim Silva",
+      "email": "igoramorimsilva2@gmail.com",
+      "url": "teste"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -134,5 +139,6 @@
   },
   "filename": "imperiumzigna___coffee-chrome.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:47:17.975Z"
+  "lastFetchedAt": "2017-05-04T20:47:17.975Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:48.666Z"
 }

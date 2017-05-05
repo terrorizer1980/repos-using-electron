@@ -81,7 +81,10 @@
       "tsc": "tsc",
       "tsc:w": "tsc -w"
     },
-    "repository": "https://github.com/DenisVuyka/ng2-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DenisVuyka/ng2-electron.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -89,6 +92,10 @@
       "tutorial",
       "Angular"
     ],
+    "author": "Quentin Cornevin",
+    "bugs": {
+      "url": "https://github.com/DenisVuyka/ng2-electron/issues"
+    },
     "homepage": "https://github.com/DenisVuyka/ng2-electron/#readme",
     "dependencies": {
       "@angular/common": "~2.0.1",
@@ -153,5 +160,6 @@
   },
   "filename": "cornevin___spof.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:18.665Z"
+  "lastFetchedAt": "2017-05-04T19:31:18.665Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:05.693Z"
 }

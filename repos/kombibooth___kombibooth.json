@@ -85,6 +85,14 @@
     "appBundleId": "kombibooth.app",
     "description": "Photo booth software used in kombibooth.com.br",
     "main": "webpack.dev.config.js",
+    "author": {
+      "name": "Vinícius Krolow",
+      "email": "krolow@gmail.com",
+      "url": "github.com/krolow"
+    },
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "webpack": "webpack-dev-server --inline --hot --config ./webpack.dev.config.js -w",
       "electron": "electron src/electron/index.js",
@@ -113,10 +121,10 @@
       "react-dom": "^0.14.2",
       "react-redux": "^4.0.0",
       "react-router": "^1.0.2",
-      "react-transform-catch-errors": "^1.0.0",
-      "react-transform-hmr": "^1.0.1",
+      "react-transform-catch-errors": "1.0.0",
+      "react-transform-hmr": "1.0.1",
       "react-webcam": "0.0.12",
-      "redbox-react": "^1.1.1",
+      "redbox-react": "1.1.1",
       "redux": "^3.0.4",
       "redux-devtools": "^3.0.0-beta-3",
       "redux-devtools-dock-monitor": "^1.0.0-beta-3",
@@ -164,5 +172,6 @@
   },
   "filename": "kombibooth___kombibooth.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:08.861Z"
+  "lastFetchedAt": "2017-05-04T20:06:08.861Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:11.047Z"
 }

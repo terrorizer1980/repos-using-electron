@@ -80,12 +80,19 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "electron": "electron ."
     },
-    "repository": "https://github.com/c-bata/shooting-tweets",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/c-bata/shooting-tweets.git"
+    },
     "keywords": [
       "electron",
       "twitter"
     ],
+    "author": "c-bata <contact@c-bata.link>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/c-bata/shooting-tweets/issues"
+    },
     "homepage": "https://github.com/c-bata/shooting-tweets#readme",
     "dependencies": {
       "electron-prebuilt": "^1.4.3",
@@ -117,5 +124,6 @@
   },
   "filename": "c-bata___comet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:47.057Z"
+  "lastFetchedAt": "2017-05-04T16:46:47.057Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:00.976Z"
 }

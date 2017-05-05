@@ -79,9 +79,16 @@
     "scripts": {
       "start": "electron bootstrap.js"
     },
-    "repository": "https://github.com/johnste/jspm-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johnste/jspm-electron.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/johnste/jspm-electron/issues"
+    },
     "homepage": "https://github.com/johnste/jspm-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -176,5 +183,6 @@
   },
   "filename": "johnste___jspm-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:03.052Z"
+  "lastFetchedAt": "2017-05-04T14:26:03.052Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:23.864Z"
 }

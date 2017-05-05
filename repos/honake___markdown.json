@@ -74,9 +74,16 @@
       "start": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/honake/markdown",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/honake/markdown.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/honake/markdown/issues"
+    },
     "homepage": "https://github.com/honake/markdown#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -107,5 +114,6 @@
   },
   "filename": "honake___markdown.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:01.591Z"
+  "lastFetchedAt": "2017-05-04T19:56:01.591Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:45.816Z"
 }

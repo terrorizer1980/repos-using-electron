@@ -194,17 +194,8 @@
       "pack:osx64": "gulp pack:osx64"
     },
     "repository": {
-      "user": "mapaiva",
-      "repo": "GitPie",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mapaiva/GitPie/tarball/master",
-      "clone_url": "https://github.com/mapaiva/GitPie",
-      "https_url": "https://github.com/mapaiva/GitPie",
-      "travis_url": "https://travis-ci.org/mapaiva/GitPie",
-      "zip_url": "https://github.com/mapaiva/GitPie/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mapaiva/GitPie"
+      "type": "git",
+      "url": "https://github.com/mapaiva/GitPie.git"
     },
     "keywords": [
       "GitHub",
@@ -216,7 +207,11 @@
       "Mac",
       "GUI"
     ],
+    "author": "Matheus Paiva",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mapaiva/GitPie/issues"
+    },
     "homepage": "https://github.com/mapaiva/GitPie",
     "devDependencies": {
       "electron-builder": "^2.6.0",
@@ -281,5 +276,6 @@
   "filename": "rafaelstz___GitPie.json",
   "sourceRepo": "gitpie/GitPie",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:51.384Z"
+  "lastFetchedAt": "2017-05-04T05:32:51.384Z",
+  "packageLastFetchedAt": "2017-05-05T17:39:05.805Z"
 }

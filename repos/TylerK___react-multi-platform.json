@@ -73,8 +73,15 @@
       "test": "node ./node_modules/karma/bin/karma start",
       "server": "./node_modules/.bin/webpack-dev-server --config ./webpack.config.dev.js --content-base ./dist/ --port 8080 --inline --hot --progress"
     },
-    "repository": "https://github.com/TylerK/react-multi-platform",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TylerK/react-multi-platform.git"
+    },
+    "author": "Tyler Kelley",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TylerK/react-multi-platform/issues"
+    },
     "homepage": "https://github.com/TylerK/react-multi-platform#readme",
     "dependencies": {
       "react": "^0.14.2",
@@ -162,5 +169,6 @@
   "svnUrl": "https://github.com/TylerK/react-multi-platform",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:52:51.160Z"
+  "lastFetchedAt": "2017-05-04T20:52:51.160Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:14.604Z"
 }

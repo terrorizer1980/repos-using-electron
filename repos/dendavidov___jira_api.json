@@ -82,14 +82,21 @@
         "react"
       ]
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-cli": "^6.14.0",
@@ -149,5 +156,6 @@
   },
   "filename": "dendavidov___jira_api.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:03.059Z"
+  "lastFetchedAt": "2017-05-04T20:34:03.059Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:09.144Z"
 }

@@ -80,6 +80,11 @@
     "main": "index.js",
     "private": true,
     "repository": "posva/mangare",
+    "author": {
+      "name": "Eduardo San Martin Morote",
+      "email": "i@posva.net",
+      "url": "posva.net/mangare"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -159,5 +164,6 @@
   },
   "filename": "posva___mangare-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:11.649Z"
+  "lastFetchedAt": "2017-05-04T20:17:11.649Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:33.231Z"
 }

@@ -69,6 +69,7 @@
     "name": "angular2-docker-bootstrap4-webpack-tour-of-heroes",
     "version": "1.0.0",
     "description": "Angular 2, Bootstrap 4, Webpack - Tour of Heroes demo",
+    "author": "Scott M. Nakada<scottnakada@gmail.com",
     "homepage": "http://scottnakada.github.io/",
     "license": "MIT",
     "dependencies": {
@@ -204,7 +205,13 @@
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
     },
-    "repository": "https://github.com/scottnakada/angular2-docker-bootstrap4-webpack-tour-of-heroes",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/scottnakada/angular2-docker-bootstrap4-webpack-tour-of-heroes.git"
+    },
+    "bugs": {
+      "url": "https://github.com/scottnakada/angular2-docker-bootstrap4-webpack-tour-of-heroes/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -235,5 +242,6 @@
   },
   "filename": "scottnakada___angular2-bootstrap4-webpack-tour-of-heroes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:39:25.577Z"
+  "lastFetchedAt": "2017-05-04T17:39:25.577Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:07.619Z"
 }

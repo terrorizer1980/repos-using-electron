@@ -75,8 +75,15 @@
       "build": "babel src/js --out-dir build/js --watch",
       "dev": "concurrently \"node server.js\" \"npm run build\" \"electron .\""
     },
-    "repository": "https://github.com/briandennis/Messenging",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/briandennis/Messenging.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/briandennis/Messenging/issues"
+    },
     "homepage": "https://github.com/briandennis/Messenging#readme",
     "dependencies": {
       "babel-preset-react": "^6.5.0",
@@ -121,5 +128,6 @@
   },
   "filename": "briandennis___Messenging.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:23.006Z"
+  "lastFetchedAt": "2017-05-04T18:15:23.006Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:24.566Z"
 }

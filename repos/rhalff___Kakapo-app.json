@@ -289,19 +289,14 @@
       "start": "babel-node tools/run start"
     },
     "repository": {
-      "user": "bluedaniel",
-      "repo": "Kakapo-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bluedaniel/Kakapo-app/tarball/master",
-      "clone_url": "https://github.com/bluedaniel/Kakapo-app",
-      "https_url": "https://github.com/bluedaniel/Kakapo-app",
-      "travis_url": "https://travis-ci.org/bluedaniel/Kakapo-app",
-      "zip_url": "https://github.com/bluedaniel/Kakapo-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bluedaniel/Kakapo-app"
+      "type": "git",
+      "url": "git+https://github.com/bluedaniel/Kakapo-app.git"
     },
+    "author": "Daniel Levitt @supercerebral",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bluedaniel/Kakapo-app/issues"
+    },
     "homepage": "https://github.com/bluedaniel/Kakapo-app#readme"
   },
   "packageStatus": 200,
@@ -350,5 +345,6 @@
   "filename": "rhalff___Kakapo-app.json",
   "sourceRepo": "bluedaniel/Kakapo-app",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:21.001Z"
+  "lastFetchedAt": "2017-05-04T17:54:21.001Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:28.558Z"
 }

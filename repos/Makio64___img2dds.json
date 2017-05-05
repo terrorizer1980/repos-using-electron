@@ -73,7 +73,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/makio64/img2dds",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/makio64/img2dds.git"
+    },
     "keywords": [
       "dxt",
       "dds",
@@ -81,7 +84,11 @@
       "texture",
       "electron"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/makio64/img2dds/issues"
+    },
     "homepage": "https://github.com/makio64/img2dds#readme",
     "devDependencies": {
       "dxt": "^1.0.0",
@@ -115,5 +122,6 @@
   },
   "filename": "Makio64___img2dds.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:51.731Z"
+  "lastFetchedAt": "2017-05-04T05:22:51.731Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:34.242Z"
 }

@@ -74,11 +74,15 @@
       "bot": "node bot.js",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/SlimDogs/agario-level-up",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SlimDogs/agario-level-up.git"
+    },
     "keywords": [
       "agario",
       "bot"
     ],
+    "author": "Tautvydas Derzinskas",
     "license": "ISC",
     "devDependencies": {
       "agario-client": "*",
@@ -111,5 +115,6 @@
   },
   "filename": "SlimDogs___agario-level-up.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:08.565Z"
+  "lastFetchedAt": "2017-05-04T14:55:08.565Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:45.168Z"
 }

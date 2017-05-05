@@ -75,7 +75,11 @@
       "build": "webpack -p --progress",
       "dev": "webpack --progress --color --watch & electron main.js"
     },
-    "repository": "https://github.com/destructured/colorspace",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:destructured/colorspace.git"
+    },
+    "author": "Jen",
     "devDependencies": {
       "babel-core": "^6.2.1",
       "babel-loader": "^6.2.0",
@@ -135,5 +139,6 @@
   },
   "filename": "destructured___colorspace.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:10.361Z"
+  "lastFetchedAt": "2017-05-04T19:45:10.361Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:11.523Z"
 }

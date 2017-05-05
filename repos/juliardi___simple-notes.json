@@ -80,12 +80,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/juliardi/simple-notes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/juliardi/simple-notes.git"
+    },
     "keywords": [
       "Notes",
       "Simple Notes",
       "Sticky Notes"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^1.1.2"
@@ -122,5 +126,6 @@
   },
   "filename": "juliardi___simple-notes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:16.360Z"
+  "lastFetchedAt": "2017-05-04T19:54:16.360Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:30.757Z"
 }

@@ -63,14 +63,21 @@
       "zip": "7z a -t7z dist/packages/darwin_x64.7z dist/LoLItemSetCreator-darwin-x64/ | 7z a -t7z dist/packages/mas_x64.7z dist/LoLItemSetCreator-mas-x64/ | 7z a -t7z dist/packages/windows_x64.7z dist/LoLItemSetCreator-win32-x64/ | 7z a -t7z dist/packages/windows_ia32.7z dist/LoLItemSetCreator-win32-ia32/",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/primus852/c-gg",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/primus852/c-gg.git"
+    },
     "keywords": [
       "LoL",
       "Champion.GG",
       "League",
       "Legends"
     ],
+    "author": "PrimuS",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/primus852/c-gg/issues"
+    },
     "build": {
       "app-bundle-id": "c.gg",
       "app-category-type": "lol.apps",
@@ -139,5 +146,6 @@
   "svnUrl": "https://github.com/primus852/c-gg",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:32:38.863Z"
+  "lastFetchedAt": "2017-05-04T20:32:38.863Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:08.278Z"
 }

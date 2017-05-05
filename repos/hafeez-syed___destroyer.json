@@ -180,6 +180,7 @@
       "start": "electron index.js",
       "pack:osx": "rm -rf Destroyer-darwin-x64 && npm run build && electron-packager ./ Destroyer --platform=darwin --arch=x64 --icon=icns.icns --prune"
     },
+    "author": "omar mashaal",
     "license": "ISC",
     "dependencies": {
       "aws-sdk": "^2.3.7",
@@ -306,5 +307,6 @@
   },
   "filename": "hafeez-syed___destroyer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:38.056Z"
+  "lastFetchedAt": "2017-05-04T15:16:38.056Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:30.340Z"
 }

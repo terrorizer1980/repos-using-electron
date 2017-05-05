@@ -80,6 +80,7 @@
       "type": "git",
       "url": ""
     },
+    "author": "GitHub",
     "license": "CC0-1.0",
     "scripts": {
       "start": "webpack && parallelshell 'webpack --watch' 'electron main.js'"
@@ -126,5 +127,6 @@
   },
   "filename": "ismacaulay___electron-react-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:52:25.994Z"
+  "lastFetchedAt": "2017-05-04T17:52:25.994Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:47.248Z"
 }

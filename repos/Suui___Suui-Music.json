@@ -71,14 +71,18 @@
     "description": "",
     "main": "main.js",
     "scripts": {
-      "start": "electron ./app/main.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "electron .",
+      "build": "electron-packager . --platform=darwin, win32, linux --arch=x86",
+      "test": "mocha test --recursive"
     },
     "author": "Suui",
     "license": "ISC",
     "dependencies": {
-      "electron": "^1.4.5",
-      "eslint": "^3.9.1"
+      "chai": "^3.5.0",
+      "electron-packager": "^8.4.0",
+      "electron-prebuilt": "^1.4.12",
+      "eslint": "^3.11.0",
+      "mocha": "^3.2.0"
     }
   },
   "packageStatus": 200,
@@ -106,5 +110,6 @@
   },
   "filename": "Suui___Suui-Music.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:37.239Z"
+  "lastFetchedAt": "2017-05-04T16:42:37.239Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:17.828Z"
 }

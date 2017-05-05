@@ -59,8 +59,12 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [],
+    "author": "Mac Angell <mac@base-ed.com>",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -140,5 +144,6 @@
   "svnUrl": "https://github.com/mac-/react-bp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T08:01:17.564Z"
+  "lastFetchedAt": "2017-05-04T08:01:17.564Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:58.516Z"
 }

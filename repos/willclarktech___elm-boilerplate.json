@@ -69,9 +69,16 @@
     "name": "elm-boilerplate",
     "description": "A boilerplate for elm apps",
     "version": "0.7.0",
+    "author": "willclarktech <will@willclark.tech>",
     "license": "MIT",
     "homepage": "https://github.com/willclarktech/elm-boilerplate#readme",
-    "repository": "https://github.com/willclarktech/elm-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/willclarktech/elm-boilerplate.git"
+    },
+    "bugs": {
+      "url": "https://github.com/willclarktech/elm-boilerplate/issues"
+    },
     "scripts": {
       "start": "npm run dev",
       "deploy": "git-directory-deploy --directory ./dist --repo origin --branch gh-pages",
@@ -172,5 +179,6 @@
   },
   "filename": "willclarktech___elm-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:01.476Z"
+  "lastFetchedAt": "2017-05-04T20:37:01.476Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:11.474Z"
 }

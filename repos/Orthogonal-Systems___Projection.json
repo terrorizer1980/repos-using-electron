@@ -94,17 +94,8 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "Orthogonal-Systems",
-      "repo": "Projection",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Orthogonal-Systems/Projection/tarball/master",
-      "clone_url": "https://github.com/Orthogonal-Systems/Projection",
-      "https_url": "https://github.com/Orthogonal-Systems/Projection",
-      "travis_url": "https://travis-ci.org/Orthogonal-Systems/Projection",
-      "zip_url": "https://github.com/Orthogonal-Systems/Projection/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Orthogonal-Systems/Projection"
+      "type": "git",
+      "url": "git+https://github.com/Orthogonal-Systems/Projection.git"
     },
     "keywords": [
       "Projection",
@@ -112,7 +103,11 @@
       "data",
       "viewer"
     ],
+    "author": "Matthew Ebert",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Orthogonal-Systems/Projection/issues"
+    },
     "homepage": "https://github.com/Orthogonal-Systems/Projection#readme",
     "dependencies": {
       "zmq": "~2.15.3",
@@ -149,5 +144,6 @@
   "filename": "Orthogonal-Systems___Projection.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:16.269Z"
+  "lastFetchedAt": "2017-05-04T19:59:16.269Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:37.043Z"
 }

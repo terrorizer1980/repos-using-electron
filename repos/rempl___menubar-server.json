@@ -90,9 +90,13 @@
     "name": "menubar-server",
     "version": "1.0.0",
     "description": "Rempl server GUI",
+    "author": "Anastasia Goryacheva",
     "license": "MIT",
     "repository": "rempl/menubar-server",
     "homepage": "https://github.com/rempl/menubar-server",
+    "bugs": {
+      "url": "https://github.com/rempl/menubar-server/issues"
+    },
     "main": "./src/main.js",
     "dependencies": {
       "rempl": "1.0.0-alpha5",
@@ -155,5 +159,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:03.966Z"
+  "lastFetchedAt": "2017-05-04T19:41:03.966Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:04.465Z"
 }

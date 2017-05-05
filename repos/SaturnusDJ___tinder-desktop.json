@@ -174,18 +174,10 @@
       "postinstall": "bower install && cd desktop-app && npm install"
     },
     "repository": {
-      "user": "tinderjs",
-      "repo": "tinder-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/tinderjs/tinder-desktop/tarball/master",
-      "clone_url": "https://github.com/tinderjs/tinder-desktop",
-      "https_url": "https://github.com/tinderjs/tinder-desktop",
-      "travis_url": "https://travis-ci.org/tinderjs/tinder-desktop",
-      "zip_url": "https://github.com/tinderjs/tinder-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/tinderjs/tinder-desktop"
+      "type": "git",
+      "url": "https://github.com/tinderjs/tinder-desktop.git"
     },
+    "author": "tinderjs",
     "contributors": [
       {
         "name": "Kyle Powers (@mfkp)",
@@ -201,6 +193,9 @@
       }
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tinderjs/tinder-desktop/issues"
+    },
     "homepage": "https://github.com/tinderjs/tinder-desktop",
     "devDependencies": {
       "electron-packager": "~7.0.0",
@@ -264,5 +259,6 @@
   "svnUrl": "https://github.com/SaturnusDJ/tinder-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:28:20.319Z"
+  "lastFetchedAt": "2017-05-04T20:28:20.319Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:50.602Z"
 }

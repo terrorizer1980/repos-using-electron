@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "UNAM",
       "Iztacala",
       "SUAyED",
       "referencias"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -118,5 +125,6 @@
   },
   "filename": "jctovar___referencias.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:47.100Z"
+  "lastFetchedAt": "2017-05-04T21:30:47.100Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:06.078Z"
 }

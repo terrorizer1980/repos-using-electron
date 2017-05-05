@@ -56,7 +56,18 @@
     "description": "GitHub styled button for PayPal",
     "version": "1.0.0",
     "homepage": "https://github.com/twolfson/paypal-github-button",
-    "repository": "https://github.com/twolfson/paypal-github-button",
+    "author": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com",
+      "url": "http://twolfson.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twolfson/paypal-github-button.git"
+    },
+    "bugs": {
+      "url": "https://github.com/twolfson/paypal-github-button/issues"
+    },
     "license": "Unlicense",
     "engines": {
       "node": ">= 0.10.0"
@@ -141,5 +152,6 @@
   "svnUrl": "https://github.com/twolfson/paypal-github-button",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:33:00.901Z"
+  "lastFetchedAt": "2017-05-04T20:33:00.901Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:07.941Z"
 }

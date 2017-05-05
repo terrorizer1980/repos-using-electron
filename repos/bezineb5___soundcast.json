@@ -189,18 +189,10 @@
     "name": "soundcast",
     "version": "1.8.0",
     "description": "Cast OSX audio to Chromecast menubar app",
+    "author": "Andres Gottlieb",
     "repository": {
-      "user": "andresgottlieb",
-      "repo": "soundcast",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/andresgottlieb/soundcast/tarball/master",
-      "clone_url": "https://github.com/andresgottlieb/soundcast",
-      "https_url": "https://github.com/andresgottlieb/soundcast",
-      "travis_url": "https://travis-ci.org/andresgottlieb/soundcast",
-      "zip_url": "https://github.com/andresgottlieb/soundcast/archive/master.zip",
-      "api_url": "https://api.github.com/repos/andresgottlieb/soundcast"
+      "type": "git",
+      "url": "https://github.com/andresgottlieb/soundcast"
     },
     "dependencies": {
       "chromecast-osx-audio": "^1.0",
@@ -242,5 +234,6 @@
   "filename": "bezineb5___soundcast.json",
   "sourceRepo": "andresgottlieb/soundcast",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:27:44.667Z"
+  "lastFetchedAt": "2017-05-04T15:27:44.667Z",
+  "packageLastFetchedAt": "2017-05-05T14:29:52.366Z"
 }

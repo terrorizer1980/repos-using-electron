@@ -55,8 +55,19 @@
       "debug": "electron --debug .",
       "build": "gulp build && node build.js"
     },
-    "repository": "https://github.com/1000ch/image-minifier",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/1000ch/image-minifier.git"
+    },
+    "author": {
+      "name": "1000ch",
+      "email": "shogo.sensui@gmail.com",
+      "web": "http://github.com/1000ch"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/1000ch/image-minifier/issues"
+    },
     "homepage": "https://github.com/1000ch/image-minifier",
     "devDependencies": {
       "electron-packager": "^5.1.0",
@@ -129,5 +140,6 @@
   "svnUrl": "https://github.com/1000ch/image-minifier",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:44:51.576Z"
+  "lastFetchedAt": "2017-05-04T16:44:51.576Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:19.795Z"
 }

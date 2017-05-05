@@ -67,5 +67,32 @@
   "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:35:14.808Z"
+  "lastFetchedAt": "2017-05-04T18:35:14.808Z",
+  "packageJSON": {
+    "name": "WechatBG",
+    "version": "1.0.0",
+    "description": "WeChat background image for small tools",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron .",
+      "packager": "electron-packager ./ Wechat_BG --win --out ./OutApp --electron-version 1.6.2 --overwrite --icon=./assets/icon.ico",
+      "build:win": ".\\scripts\\build.bat win32 ia32",
+      "build:win32": ".\\scripts\\build.bat win32 ia32",
+      "build:win64": ".\\scripts\\build.bat win32 x64"
+    },
+    "repository": "https://github.com/silent-dxx/WechatBG",
+    "keywords": [
+      "Electron",
+      "WechatBG",
+      "Windows"
+    ],
+    "author": "Silent_DXX",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.6.2",
+      "electron-packager": "^8.5.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:01:45.993Z"
 }

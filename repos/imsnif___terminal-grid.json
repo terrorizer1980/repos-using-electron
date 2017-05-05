@@ -83,18 +83,19 @@
       "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
     },
     "repository": {
-      "user": "imsnif",
-      "repo": "terminal-grid",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/imsnif/terminal-grid/tarball/master",
-      "clone_url": "https://github.com/imsnif/terminal-grid",
-      "https_url": "https://github.com/imsnif/terminal-grid",
-      "travis_url": "https://travis-ci.org/imsnif/terminal-grid",
-      "zip_url": "https://github.com/imsnif/terminal-grid/archive/master.zip",
-      "api_url": "https://api.github.com/repos/imsnif/terminal-grid"
+      "type": "git",
+      "url": "git+https://github.com/imsnif/terminal-grid.git"
     },
+    "author": {
+      "name": "Aram Drevekenin",
+      "email": "grimsniffer@gmail.com"
+    },
+    "contributors": [
+      {
+        "name": "Doron Tsur",
+        "email": "qballer@gmail.com"
+      }
+    ],
     "license": "MIT",
     "devDependencies": {
       "coveralls": "^2.11.15",
@@ -111,6 +112,7 @@
       "electron-rebuild": "^1.2.1",
       "electron-renderer-value": "^1.1.0",
       "pty.js": "^0.3.1",
+      "shorte": "^1.0.0",
       "validate.js": "^0.10.0",
       "xterm": "^1.1.3"
     }
@@ -141,5 +143,6 @@
   "filename": "imsnif___terminal-grid.json",
   "sourceRepo": "imsnif/AmoebaTerm",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:01.911Z"
+  "lastFetchedAt": "2017-05-04T05:13:01.911Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:52.423Z"
 }

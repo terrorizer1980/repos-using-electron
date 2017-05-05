@@ -89,17 +89,28 @@
     "name": "xanite-build",
     "version": "0.1.0",
     "description": "A modular digital audio workstation.",
-    "repository": "https://github.com/xanite/xanite",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xanite/xanite.git"
+    },
     "build": {
       "asar": false,
       "appId": "io.github.xanite",
       "category": "public.app-category.music"
     },
+    "directories": {
+      "buildResources": "build/resources",
+      "app": "build/app"
+    },
+    "author": "Connor Hartley <vectrixu+gh@gmail.com>",
     "license": "GPL-3.0",
     "private": true,
+    "bugs": {
+      "url": "https://github.com/xanite/xanite/issues"
+    },
     "homepage": "https://github.com/xanite/xanite#readme",
     "devDependencies": {
-      "electron": "1.4.6",
+      "electron": "1.4.7",
       "electron-builder": "^8.3.0",
       "gulp": "^3.9.1",
       "gulp-typescript": "^3.0.0",
@@ -135,5 +146,6 @@
   },
   "filename": "xanite___xanite.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:23.812Z"
+  "lastFetchedAt": "2017-05-04T19:55:23.812Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:14.473Z"
 }

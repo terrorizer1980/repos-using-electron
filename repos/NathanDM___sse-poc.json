@@ -76,6 +76,7 @@
       "lint": "./node_modules/.bin/eslint .",
       "dashboard": "nodejs-dashboard electron ."
     },
+    "author": "Nathan DAMIE",
     "dependencies": {
       "electron": "^1.4.3",
       "express": "^4.14.0",
@@ -140,5 +141,6 @@
   },
   "filename": "NathanDM___sse-poc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:29:18.264Z"
+  "lastFetchedAt": "2017-05-04T18:29:18.264Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:56.393Z"
 }

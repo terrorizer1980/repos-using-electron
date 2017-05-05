@@ -80,6 +80,7 @@
       "start": "electron ./dist/main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Jon Winton",
     "license": "ISC",
     "devDependencies": {
       "assemble": "^0.10.0",
@@ -120,5 +121,6 @@
   },
   "filename": "jonwinton___hyde.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:45.849Z"
+  "lastFetchedAt": "2017-05-04T15:13:45.849Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:58.328Z"
 }

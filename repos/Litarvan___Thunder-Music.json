@@ -59,13 +59,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/TheShark34/Thunder-Music",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/TheShark34/Thunder-Music"
+    },
     "keywords": [
       "music",
       "player",
       "today"
     ],
+    "author": "TheShark34",
     "license": "GPL 3.0",
+    "bugs": {
+      "url": "https://github.com/TheShark34/Thunder-Music/issues"
+    },
     "homepage": "https://github.com/TheShark34/Thunder-Music",
     "devDependencies": {
       "electron-prebuilt": "^0.25.2"
@@ -116,5 +123,6 @@
   "svnUrl": "https://github.com/Litarvan/Thunder-Music",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:31:48.193Z"
+  "lastFetchedAt": "2017-05-04T18:31:48.193Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:51.390Z"
 }

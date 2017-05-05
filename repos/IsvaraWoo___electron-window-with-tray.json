@@ -59,12 +59,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/IsvaraWoo/electron-window-with-tray",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IsvaraWoo/electron-window-with-tray.git"
+    },
     "keywords": [
       "Electron",
       "start",
       "tray"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -115,5 +119,6 @@
   "svnUrl": "https://github.com/IsvaraWoo/electron-window-with-tray",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:46:08.791Z"
+  "lastFetchedAt": "2017-05-04T20:46:08.791Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:23.723Z"
 }

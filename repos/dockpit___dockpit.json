@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/dockpit/dockpit",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/dockpit/dockpit.git"
+    },
+    "author": "Ad van der Veer <ad@dockpit.io>",
     "license": "MPL-2",
+    "bugs": {
+      "url": "https://github.com/dockpit/dockpit/issues"
+    },
     "homepage": "https://github.com/dockpit/dockpit",
     "dependencies": {
       "babelify": "^6.0.2",
@@ -139,5 +146,6 @@
   "svnUrl": "https://github.com/dockpit/dockpit",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:56:28.627Z"
+  "lastFetchedAt": "2017-05-04T17:56:28.627Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:49.242Z"
 }

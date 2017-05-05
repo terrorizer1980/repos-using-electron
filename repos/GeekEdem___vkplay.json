@@ -77,7 +77,11 @@
       "vk",
       "player"
     ],
-    "repository": "https://github.com/GeekEdem/vkplay",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/GeekEdem/vkplay.git"
+    },
+    "author": "Yuriy Chikhray, Volodymyr Krehovetskiy",
     "license": "MIT",
     "dependencies": {
       "electron": "^1.4.3",
@@ -114,5 +118,6 @@
   },
   "filename": "GeekEdem___vkplay.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:53:49.564Z"
+  "lastFetchedAt": "2017-05-04T20:53:49.564Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:30.937Z"
 }

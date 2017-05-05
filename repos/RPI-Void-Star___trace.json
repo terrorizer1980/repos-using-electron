@@ -85,13 +85,21 @@
     "description": "A visual programming language for Arduino-like platforms.",
     "main": "index.js",
     "scripts": {
-      "test": "node ./node_modules/karma/bin/karma start karma.conf.js && node node_modules/mocha/bin/mocha test/src --recursive",
-      "lint": "node node_modules/eslint/bin/eslint.js .",
-      "lint-fix": "node node_modules/eslint/bin/eslint.js --fix .",
+      "test": "node ./node_modules/karma/bin/karma start karma.conf.js && node node_modules/mocha/bin/mocha test/src --recursive && pytest",
+      "lint-js": "node node_modules/eslint/bin/eslint.js .",
+      "lint-js-fix": "node node_modules/eslint/bin/eslint.js --fix .",
+      "lint-py": "pep8 --max-line-length=100 transpile",
       "start": "gulp start"
     },
-    "repository": "https://github.com/RPI-Void-Star/trace",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RPI-Void-Star/trace.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/RPI-Void-Star/trace/issues"
+    },
     "homepage": "https://github.com/RPI-Void-Star/trace#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -153,5 +161,6 @@
   },
   "filename": "RPI-Void-Star___trace.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:04.648Z"
+  "lastFetchedAt": "2017-05-04T05:14:04.648Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:33.288Z"
 }

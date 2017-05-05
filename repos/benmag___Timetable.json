@@ -79,8 +79,15 @@
       "dist:win32": "build --platform win32 --arch ia32",
       "dist:win64": "build --platform win32 --arch x64"
     },
-    "repository": "https://github.com/benmag/Timetable",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/benmag/Timetable.git"
+    },
+    "author": "Ben M, Dave A & Andrew C",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/benmag/Timetable/issues"
+    },
     "homepage": "https://github.com/benmag/Timetable#readme",
     "build": {
       "app-bundle-id": "qut.timetable.app",
@@ -118,5 +125,6 @@
   },
   "filename": "benmag___Timetable.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:55.574Z"
+  "lastFetchedAt": "2017-05-04T21:21:55.574Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:49.467Z"
 }

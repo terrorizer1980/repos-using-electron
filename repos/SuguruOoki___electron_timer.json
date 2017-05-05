@@ -67,5 +67,30 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:33:57.738Z"
+  "lastFetchedAt": "2017-05-04T17:33:57.738Z",
+  "packageJSON": {
+    "name": "auto_topic",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo",
+      "timer"
+    ],
+    "author": "Suguru Oki",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:22:29.283Z"
 }

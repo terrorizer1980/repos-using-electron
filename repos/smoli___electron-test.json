@@ -73,11 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/smoli/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smoli/electron-test.git"
+    },
     "keywords": [
       "electron",
       "js"
     ],
+    "author": "Stephan Smola",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.30.0"
@@ -108,5 +112,6 @@
   },
   "filename": "smoli___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:40.538Z"
+  "lastFetchedAt": "2017-05-04T21:11:40.538Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:02.978Z"
 }

@@ -84,7 +84,13 @@
     "version": "1.0.5",
     "description": "Neovim-client UI component for neoclide",
     "main": "example/main.js",
-    "repository": "https://github.com/neoclide/neoclide-client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/neoclide/neoclide-client.git"
+    },
+    "bugs": {
+      "url": "https://github.com/neoclide/neoclide-client/issues"
+    },
     "scripts": {
       "rebuild": "electron-rebuild",
       "start": "npm run dep && npm run build && npm run example",
@@ -103,6 +109,7 @@
       "NW.js",
       "editor"
     ],
+    "author": "chemzqm <chemzqm@gamil.com>",
     "license": "MIT",
     "dependencies": {
       "component-emitter": "^1.2.1",
@@ -164,5 +171,6 @@
   },
   "filename": "neoclide___neoclide-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:34.025Z"
+  "lastFetchedAt": "2017-05-04T19:51:34.025Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:41.566Z"
 }

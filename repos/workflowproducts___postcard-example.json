@@ -95,6 +95,7 @@
       "start": "electron .",
       "dist": "build ."
     },
+    "author": "Nunzio Tocci <nunzio@workflowproducts.com> (http://www.workflowproducts.com/)",
     "build": {
       "appId": "com.workflowproducts.postage",
       "asar": false,
@@ -166,5 +167,6 @@
   },
   "filename": "workflowproducts___postcard-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:07.562Z"
+  "lastFetchedAt": "2017-05-04T04:57:07.562Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:37.459Z"
 }

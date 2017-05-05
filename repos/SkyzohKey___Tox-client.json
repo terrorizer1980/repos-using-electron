@@ -67,17 +67,8 @@
       "build:linux": "npm run clean:linux && electron-packager ./app \"Tox\" --out=dist --platform=linux --arch=x64"
     },
     "repository": {
-      "user": "SkyzohKey",
-      "repo": "Tox-client",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/SkyzohKey/Tox-client/tarball/master",
-      "clone_url": "https://github.com/SkyzohKey/Tox-client",
-      "https_url": "https://github.com/SkyzohKey/Tox-client",
-      "travis_url": "https://travis-ci.org/SkyzohKey/Tox-client",
-      "zip_url": "https://github.com/SkyzohKey/Tox-client/archive/master.zip",
-      "api_url": "https://api.github.com/repos/SkyzohKey/Tox-client"
+      "type": "git",
+      "url": "git+https://github.com/SkyzohKey/Tox-client.git"
     },
     "keywords": [
       "Tox",
@@ -89,7 +80,11 @@
       "p2p",
       "encrypted"
     ],
+    "author": "SkyzohKey <skyzohkey@invmail.io>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SkyzohKey/Tox-client/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
       "electron-reload": "^1.0.1"
@@ -149,5 +144,6 @@
   "svnUrl": "https://github.com/SkyzohKey/Tox-client",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:13:22.681Z"
+  "lastFetchedAt": "2017-05-04T18:13:22.681Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:10.977Z"
 }

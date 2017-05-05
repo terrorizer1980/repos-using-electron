@@ -184,6 +184,10 @@
     "version": "0.7.1",
     "description": "Web app that runs in the renderer process",
     "repository": "zeit/hyperterm",
+    "author": {
+      "name": "Guillermo Rauch",
+      "email": "rauchg@zeit.co"
+    },
     "greenkeeper": {
       "emails": false
     },
@@ -328,5 +332,6 @@
   "svnUrl": "https://github.com/awesome-archive/hyperterm",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:55:25.836Z"
+  "lastFetchedAt": "2017-05-04T14:55:25.836Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:51.075Z"
 }

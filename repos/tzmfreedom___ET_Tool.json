@@ -59,12 +59,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/tzmfreedom/ET_Tool",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tzmfreedom/ET_Tool.git"
+    },
     "keywords": [
       "Electron",
       "ExactTarget",
       "Salesforce"
     ],
+    "author": "Makoto Tajitsu",
     "license": "MIT",
     "homepage": "https://github.com/tzmfreedom/ET_Tool",
     "devDependencies": {
@@ -153,5 +157,6 @@
   "svnUrl": "https://github.com/tzmfreedom/ET_Tool",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:17:29.915Z"
+  "lastFetchedAt": "2017-05-04T21:17:29.915Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:33.894Z"
 }

@@ -75,8 +75,15 @@
       "start": "babel-node server.js",
       "destop": "electron destop.js"
     },
-    "repository": "https://github.com/frhuang/fullstack-react",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/frhuang/fullstack-react.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/frhuang/fullstack-react/issues"
+    },
     "homepage": "https://github.com/frhuang/fullstack-react#readme",
     "dependencies": {
       "express": "4.13.4",
@@ -144,5 +151,6 @@
   },
   "filename": "frhuang___fullstack-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:28:50.420Z"
+  "lastFetchedAt": "2017-05-04T19:28:50.420Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:34.413Z"
 }

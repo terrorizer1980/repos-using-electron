@@ -75,6 +75,9 @@
       "skeleton"
     ],
     "homepage": "http://plotter.github.io",
+    "bugs": {
+      "url": "https://github.com/plotter/platform2/issues"
+    },
     "scripts": {
       "clean": "rimraf dist",
       "start": "electron .",
@@ -86,19 +89,11 @@
       "build-all": "npm run clean && npm run exe32 && npm run set32 && npm run exe64 && npm run set64"
     },
     "license": "MIT",
+    "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io)",
     "main": "main.js",
     "repository": {
-      "user": "plotter",
-      "repo": "platform2",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/plotter/platform2/tarball/master",
-      "clone_url": "https://github.com/plotter/platform2",
-      "https_url": "https://github.com/plotter/platform2",
-      "travis_url": "https://travis-ci.org/plotter/platform2",
-      "zip_url": "https://github.com/plotter/platform2/archive/master.zip",
-      "api_url": "https://api.github.com/repos/plotter/platform2"
+      "type": "git",
+      "url": "http://github.com/plotter/platform2"
     },
     "devDependencies": {
       "aurelia-bootstrapper": "^1.0.0",
@@ -169,5 +164,6 @@
   "svnUrl": "https://github.com/plotter/platform-kendo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:40:36.702Z"
+  "lastFetchedAt": "2017-05-04T17:40:36.702Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:49.858Z"
 }

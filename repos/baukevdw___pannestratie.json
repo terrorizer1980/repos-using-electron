@@ -77,7 +77,10 @@
     "version": "0.0.1",
     "license": "GPL-3.0",
     "main": "main.js",
-    "repository": "https://github.com/baukevdw/pannestratie",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/baukevdw/pannestratie.git"
+    },
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . Pannestratie --platform=win32 --arch=x64 --overwrite",
@@ -121,5 +124,6 @@
   },
   "filename": "baukevdw___pannestratie.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:02.051Z"
+  "lastFetchedAt": "2017-05-03T20:06:02.051Z",
+  "packageLastFetchedAt": "2017-05-05T11:37:13.674Z"
 }

@@ -186,19 +186,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "jackypan1989",
-      "repo": "pokemon-go-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jackypan1989/pokemon-go-desktop/tarball/master",
-      "clone_url": "https://github.com/jackypan1989/pokemon-go-desktop",
-      "https_url": "https://github.com/jackypan1989/pokemon-go-desktop",
-      "travis_url": "https://travis-ci.org/jackypan1989/pokemon-go-desktop",
-      "zip_url": "https://github.com/jackypan1989/pokemon-go-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jackypan1989/pokemon-go-desktop"
+      "type": "git",
+      "url": "git+https://github.com/jackypan1989/pokemon-go-desktop.git"
+    },
+    "author": {
+      "name": "Guan Yu Pan",
+      "email": "jackypan1989@gmail.com",
+      "url": "https://github.com/jackypan1989"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jackypan1989/pokemon-go-desktop/issues"
+    },
     "keywords": [
       "pokemon",
       "pokemon-go",
@@ -334,5 +333,6 @@
   "filename": "JethroTseng___pokemon-go-desktop.json",
   "sourceRepo": "jackypan1989/pokemon-go-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:44.058Z"
+  "lastFetchedAt": "2017-05-04T21:12:44.058Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:04.114Z"
 }

@@ -73,23 +73,30 @@
   "status": 200,
   "packageJSON": {
     "name": "hosts-manager",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "一款跨平台的hosts文件管理工具",
     "main": "./electron/main.js",
     "scripts": {
       "lib": "webpack --config ./webpack.lib.js",
-      "start": "webpack-dev-server --no-info --inline --hot",
+      "start": "webpack-dev-server --no-info --open --inline --hot",
       "build": "cross-env NODE_ENV=production webpack",
       "electron": "electron ./dist/electron/main.js",
       "pack": "node ./scripts/pack.js",
       "test": "mocha --compilers js:babel-core/register"
     },
-    "repository": "https://github.com/richard-chen-1985/hosts-manager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/richard-chen-1985/hosts-manager.git"
+    },
     "keywords": [
       "hosts",
       "electron"
     ],
+    "author": "richard chen",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/richard-chen-1985/hosts-manager/issues"
+    },
     "homepage": "https://github.com/richard-chen-1985/hosts-manager#readme",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -145,5 +152,6 @@
   },
   "filename": "richard-chen-1985___hosts-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:08.468Z"
+  "lastFetchedAt": "2017-05-04T21:27:08.468Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:16.462Z"
 }

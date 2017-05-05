@@ -84,6 +84,10 @@
     "version": "0.0.1",
     "description": "GM Buddy is an application that easily facilitates customer support on Mangos Zero private servers.",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -93,6 +97,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "Joshua Tyree",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -192,5 +197,6 @@
   "filename": "mzapi___switchboard.json",
   "sourceRepo": "JoshuaTyree/gm-buddy",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:40.094Z"
+  "lastFetchedAt": "2017-05-04T19:41:40.094Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:59.190Z"
 }

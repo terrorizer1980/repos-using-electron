@@ -70,6 +70,9 @@
     "version": "0.1.1",
     "description": "Auto rename photos with infos from exif tags",
     "private": true,
+    "directories": {
+      "output": "electron-builds"
+    },
     "scripts": {
       "app": "electron app/",
       "windows": "build --win",
@@ -118,5 +121,6 @@
   },
   "filename": "johanpoirier___exif-auto.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:17.785Z"
+  "lastFetchedAt": "2017-05-04T04:59:17.785Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:02.838Z"
 }

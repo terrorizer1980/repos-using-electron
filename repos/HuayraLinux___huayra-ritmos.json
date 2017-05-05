@@ -90,6 +90,10 @@
     "version": "0.9.9",
     "description": "huayra-ritmos es un software que permite armar patrones rítmicos son un secuenciador de 16 steps",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -99,6 +103,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "bower": "^1.7.9",
@@ -210,5 +215,6 @@
   },
   "filename": "HuayraLinux___huayra-ritmos.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:48.220Z"
+  "lastFetchedAt": "2017-05-04T14:50:48.220Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:39.715Z"
 }

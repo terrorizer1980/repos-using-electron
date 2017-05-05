@@ -75,6 +75,7 @@
     "keywords": [
       "irkit"
     ],
+    "author": "o.masakazu@gmail.com",
     "license": "MIT",
     "description": "IRKit Updater updates IRKit's firmware",
     "dependencies": {
@@ -111,7 +112,11 @@
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
     },
-    "repository": "https://github.com/irkit/updater"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/irkit/updater.git"
+    },
+    "readmeFilename": "README.markdown"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -158,5 +163,6 @@
   "svnUrl": "https://github.com/irkit/updater",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:23:38.803Z"
+  "lastFetchedAt": "2017-05-04T15:23:38.803Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:58.522Z"
 }

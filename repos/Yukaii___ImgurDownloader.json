@@ -113,8 +113,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/Yukaii/ImgurDownloader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Yukaii/ImgurDownloader.git"
+    },
+    "author": {
+      "name": "Yukai Huang",
+      "email": "yukaihuang1993@hotmail.com",
+      "url": "https://github.com/Yukaii"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Yukaii/ImgurDownloader/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -235,5 +246,6 @@
   "svnUrl": "https://github.com/Yukaii/ImgurDownloader",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:10:40.252Z"
+  "lastFetchedAt": "2017-05-04T21:10:40.252Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:27.015Z"
 }

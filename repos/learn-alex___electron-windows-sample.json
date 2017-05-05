@@ -188,17 +188,8 @@
       "start": "webpack --progress --colors --watch && electron main.js"
     },
     "repository": {
-      "user": "atom",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/atom/electron-quick-start",
-      "https_url": "https://github.com/atom/electron-quick-start",
-      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
-      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -207,7 +198,11 @@
       "tutorial",
       "windows"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/felixrieseberg/electron-windows-sample"
+    },
     "homepage": "https://github.com/felixrieseberg/electron-windows-sample#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0",
@@ -267,5 +262,6 @@
   "filename": "learn-alex___electron-windows-sample.json",
   "sourceRepo": "felixrieseberg/electron-windows-sample",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:34.425Z"
+  "lastFetchedAt": "2017-05-04T21:26:34.425Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:44.646Z"
 }

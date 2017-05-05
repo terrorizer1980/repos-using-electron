@@ -86,7 +86,14 @@
       "voicecontrol",
       "speech"
     ],
-    "repository": "https://github.com/arseniypetrikor/voicekor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/arseniypetrikor/voicekor.git"
+    },
+    "bugs": {
+      "url": "https://github.com/arseniypetrikor/voicekor/issues"
+    },
+    "author": "arseniypetrikor",
     "license": "Apache 2.0",
     "homepage": "https://arseniypetrikor.github.io/voicekor/",
     "dependencies": {
@@ -124,5 +131,6 @@
   },
   "filename": "arseniypetrikor___voicekor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:17:20.970Z"
+  "lastFetchedAt": "2017-05-04T05:17:20.970Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:46.831Z"
 }

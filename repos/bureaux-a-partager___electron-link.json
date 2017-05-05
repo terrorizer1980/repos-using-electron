@@ -82,19 +82,24 @@
   "packageJSON": {
     "name": "electron-link",
     "version": "1.0.0",
-    "description": "A wrapper for https://acces.espace.link",
-    "main": "main.js",
+    "description": "",
+    "main": "gulpfile.js",
+    "author": "Jules Truong <jules.truong.pro@gmail.com>",
     "scripts": {
-      "start": "electron main.js"
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/bureaux-a-partager/electron-link",
-    "keywords": [
-      "link",
-      "bureaux-a-partager"
-    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bureaux-a-partager/electron-link.git"
+    },
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bureaux-a-partager/electron-link/issues"
+    },
     "homepage": "https://github.com/bureaux-a-partager/electron-link#readme",
     "devDependencies": {
-      "electron-prebuilt": "^0.36.0"
+      "electron": "^1.4.7",
+      "electron-packager": "^8.3.0"
     }
   },
   "packageStatus": 200,
@@ -122,5 +127,6 @@
   },
   "filename": "bureaux-a-partager___electron-link.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:23.530Z"
+  "lastFetchedAt": "2017-05-04T17:49:23.530Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:58.624Z"
 }

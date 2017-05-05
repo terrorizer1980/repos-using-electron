@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Regin",
       "CMS",
       "Reginbald"
     ],
+    "author": "Jón Reginbald Ívarsson",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -116,5 +123,6 @@
   },
   "filename": "reginbald___regin-cms.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:42.713Z"
+  "lastFetchedAt": "2017-05-04T18:34:42.713Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:02.210Z"
 }

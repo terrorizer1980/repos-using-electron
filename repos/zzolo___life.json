@@ -81,8 +81,15 @@
       "watch": "concurrently \"npm run watch-styles\" \"npm run watch-js\"",
       "serve": "concurrently \"npm run start\" \"npm run watch-styles\" \"npm run watch-js\""
     },
-    "repository": "https://github.com/zzolo/life",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zzolo/life.git"
+    },
+    "author": "Alan Palazzolo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zzolo/life/issues"
+    },
     "homepage": "https://github.com/zzolo/life",
     "dependencies": {
       "electron-config": "^0.2.1",
@@ -130,5 +137,6 @@
   },
   "filename": "zzolo___life.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:00.140Z"
+  "lastFetchedAt": "2017-05-04T19:42:00.140Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:34.466Z"
 }

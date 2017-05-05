@@ -79,7 +79,11 @@
       "desktop",
       "electron"
     ],
-    "repository": "https://github.com/agdemore/calendar",
+    "author": "agdemore",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/agdemore/calendar.git"
+    },
     "license": "MIT",
     "dependencies": {
       "babel": "^6.5.2",
@@ -132,5 +136,6 @@
   },
   "filename": "agdemore___calendar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:17.786Z"
+  "lastFetchedAt": "2017-05-04T05:07:17.786Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:22.604Z"
 }

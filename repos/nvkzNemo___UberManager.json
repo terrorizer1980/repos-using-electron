@@ -85,8 +85,15 @@
       "electron-packager": "^5.1.1",
       "electron-prebuilt": "^0.34.2"
     },
+    "author": "Anton Lyubushkin <nvkz.nemo@gmail.com> (http://uberplugins.cc)",
     "license": "ISC",
-    "repository": "https://github.com/nvkzNemo/UberManager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nvkzNemo/UberManager.git"
+    },
+    "bugs": {
+      "url": "https://github.com/nvkzNemo/UberManager/issues"
+    },
     "homepage": "http://uberplugins.cc/ubermanager/"
   },
   "packageStatus": 200,
@@ -134,5 +141,6 @@
   },
   "filename": "nvkzNemo___UberManager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:17.257Z"
+  "lastFetchedAt": "2017-05-04T19:53:17.257Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:28.211Z"
 }

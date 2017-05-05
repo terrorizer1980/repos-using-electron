@@ -62,6 +62,7 @@
       "helper",
       "menubar"
     ],
+    "author": "Finn Pauls",
     "license": "ISC",
     "dependencies": {
       "delegate-dom": "0.0.1",
@@ -75,7 +76,13 @@
     "devDependencies": {
       "electron-prebuilt": "^0.36.7"
     },
-    "repository": "https://github.com/finnp/travis-comrade",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/finnp/travis-comrade.git"
+    },
+    "bugs": {
+      "url": "https://github.com/finnp/travis-comrade/issues"
+    },
     "homepage": "https://github.com/finnp/travis-comrade#readme"
   },
   "packageStatus": 200,
@@ -123,5 +130,6 @@
   },
   "filename": "finnp___travis-comrade.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:23.694Z"
+  "lastFetchedAt": "2017-05-04T14:19:23.694Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:54.868Z"
 }

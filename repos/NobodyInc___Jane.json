@@ -87,11 +87,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/nobodyinc/jane",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nobodyinc/jane.git"
+    },
     "keywords": [
       "Jane"
     ],
+    "author": "Nobody, Inc.",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nobodyinc/jane/issues"
+    },
     "homepage": "https://github.com/nobodyinc/jane",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -122,5 +129,6 @@
   },
   "filename": "NobodyInc___Jane.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:08:27.263Z"
+  "lastFetchedAt": "2017-05-04T20:08:27.263Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:54.191Z"
 }

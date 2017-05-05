@@ -52,35 +52,64 @@
   "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
-    "name": "dfu-programmer",
+    "name": "qmk-firmware-flasher",
     "productName": "QMK Firmware Flasher",
-    "version": "0.5.0",
+    "version": "0.5.1",
     "description": "GUI app to load firmware onto atmega32u4 chips.",
-    "main": "main.js",
+    "main": "src/main.js",
     "scripts": {
-      "start": "electron main.js",
+      "start": "electron .",
       "postinstall": "install-app-deps",
       "pack": "build",
       "dist": "build"
     },
-    "repository": "https://github.com/jackhumbert/dfu-programmer-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/qmk/qmk_firmware_flasher.git"
+    },
     "keywords": [
       "dfu-programmer",
       "dfu",
       "keyboard",
-      "mechanical keyboard"
+      "mechanical keyboard",
+      "qmk",
+      "qmk-firmware-flasher"
     ],
+    "author": "Jack Humbert",
     "license": "MIT",
-    "homepage": "https://github.com/jackhumbert/dfu-programmer-app",
+    "bugs": {
+      "url": "https://github.com/qmk/qmk_firmware_flasher/issues"
+    },
+    "homepage": "https://github.com/qmk/qmk_firmware_flasher",
+    "dependencies": {
+      "bootbox": "~4.4",
+      "bootstrap": "~3.3",
+      "chokidar": "~1.6",
+      "electron-debug": "~1.1",
+      "electron-settings": "~2.2.2",
+      "jquery": "~2.2"
+    },
     "devDependencies": {
-      "electron-prebuilt": "^1.2.0",
-      "electron-builder": "^3.25.0"
+      "devtron": "^1.4.0",
+      "electron": "^1.4.10",
+      "electron-builder": "^8.6.0"
     },
     "build": {
-      "app-bundle-id": "com.github.dfu-programmer-app",
-      "app-category-type": "public.app-category.utilities",
+      "appId": "com.github.qmk-firmware-flasher",
+      "fileAssociation": [
+        {
+          "ext": "hex",
+          "description": "Atmel Firmware File",
+          "role": "Viewer"
+        }
+      ],
+      "forceCodeSigning": false,
+      "mac": {
+        "category": "public.app-category.utilities",
+        "target": "zip"
+      },
       "win": {
-        "iconUrl": "https://github.com/skullydazed/dfu-programmer-app/blob/master/build/windows.ico?raw=true"
+        "iconUrl": "https://github.com/qmk/qmk_firmware_flasher/blob/master/build/windows.ico?raw=true"
       }
     }
   },
@@ -143,5 +172,6 @@
     "receivedEventsUrl": "https://api.github.com/users/qmk/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T20:35:25.530Z"
+  "lastFetchedAt": "2017-05-04T20:35:25.530Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:16.821Z"
 }

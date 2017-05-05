@@ -77,8 +77,15 @@
       "iceStone",
       "zce"
     ],
+    "author": "iceStone <ice@micua.com> (http://www.micua.com/)",
     "license": "MIT",
-    "repository": "https://github.com/zce/asar-updater",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zce/asar-updater.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zce/asar-updater/issues"
+    },
     "homepage": "https://github.com/zce/asar-updater#readme"
   },
   "packageStatus": 200,
@@ -126,5 +133,6 @@
   },
   "filename": "zce___asar-updater.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:44.862Z"
+  "lastFetchedAt": "2017-05-04T20:32:44.862Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:56.787Z"
 }

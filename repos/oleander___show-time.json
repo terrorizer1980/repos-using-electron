@@ -56,6 +56,10 @@
     "version": "0.1.0",
     "description": "A torrent desktop client for Trakt.tv with live updates from kickasstorrents and Popcorn-Time integration",
     "main": "main.js",
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "start": "ember server",
       "build": "ember build",
@@ -65,6 +69,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "boom": "*",
@@ -157,5 +162,6 @@
   "svnUrl": "https://github.com/oleander/show-time",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:32:54.915Z"
+  "lastFetchedAt": "2017-05-04T20:32:54.915Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:15.370Z"
 }

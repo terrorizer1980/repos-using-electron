@@ -84,8 +84,16 @@
       "RapidConnect",
       "SiteSurvey"
     ],
+    "author": {
+      "name": "Christian Kuster, CH-8342 Wernetshausen",
+      "email": "christian@kusti.ch",
+      "url": "http://www.kusti.ch/"
+    },
     "homepage": "http://ancasicolica.github.io/ZigBeeSiteSurvey/",
-    "repository": "https://github.com/ancasicolica/ZigBeeSiteSurveyApp",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ancasicolica/ZigBeeSiteSurveyApp.git"
+    },
     "license": "MIT",
     "engines": {
       "node": "6.1.0",
@@ -155,5 +163,6 @@
   },
   "filename": "ancasicolica___ZigBeeSiteSurveyApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:55:49.201Z"
+  "lastFetchedAt": "2017-05-04T20:55:49.201Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:57.971Z"
 }

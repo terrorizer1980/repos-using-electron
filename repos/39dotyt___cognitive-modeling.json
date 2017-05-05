@@ -64,14 +64,24 @@
       "start": "electron main.js",
       "start-dev": "concurrently \"npm run tsc:w\" \"npm run start\" "
     },
-    "repository": "https://github.com/39dotyt/cognitive-modeling",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/39dotyt/cognitive-modeling.git"
+    },
     "keywords": [
       "electron",
       "cognitive",
       "modelling",
       "tutorial"
     ],
+    "author": {
+      "name": "Yurij Mikhalevich",
+      "email": "0@39.yt"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/39dotyt/cognitive-modeling/issues"
+    },
     "dependencies": {
       "angular2": "2.0.0-beta.9",
       "systemjs": "0.19.24",
@@ -140,5 +150,6 @@
   },
   "filename": "39dotyt___cognitive-modeling.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:35:04.863Z"
+  "lastFetchedAt": "2017-05-04T17:35:04.863Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:02.811Z"
 }

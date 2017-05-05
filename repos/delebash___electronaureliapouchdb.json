@@ -76,6 +76,7 @@
       "build-mac": "electron-packager . 'ElectronAureliaPouchDB' --platform=darwin --arch=x64 --version=1.4.2 --overwrite --out ./build/mac",
       "build-win": "electron-packager . 'ElectronAureliaPouchDB' --platform=win32 --arch=x64 --version=1.4.2 --overwrite --out ./build/win"
     },
+    "author": "Karl Shifflett",
     "homepage": "http://karlshifflett.wordpress.com",
     "license": "MIT",
     "keywords": [
@@ -84,7 +85,10 @@
       "es6",
       "pouchdb"
     ],
-    "repository": "https://github.com/Oceanware/demoelectronaureliapouchdb",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Oceanware/demoelectronaureliapouchdb.git"
+    },
     "jspm": {
       "directories": {
         "baseURL": "src"
@@ -146,5 +150,6 @@
   },
   "filename": "delebash___electronaureliapouchdb.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:23:39.935Z"
+  "lastFetchedAt": "2017-05-04T20:23:39.935Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:52.532Z"
 }

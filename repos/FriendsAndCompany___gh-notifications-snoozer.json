@@ -238,8 +238,15 @@
       "unit-tests": "xvfb-maybe electron-mocha --renderer --recursive --compilers js:babel-register test",
       "test": "npm run-script style && NODE_ENV=test npm run-script unit-tests"
     },
-    "repository": "https://github.com/cheshire137/gh-notifications-snoozer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cheshire137/gh-notifications-snoozer.git"
+    },
+    "author": "probablycorey and cheshire137",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cheshire137/gh-notifications-snoozer/issues"
+    },
     "homepage": "https://github.com/cheshire137/gh-notifications-snoozer#readme"
   },
   "packageStatus": 200,
@@ -266,5 +273,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:21.915Z"
+  "lastFetchedAt": "2017-05-04T14:20:21.915Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:02.572Z"
 }

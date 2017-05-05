@@ -54,6 +54,7 @@
       "compile": "rm -rf app/ && gulp compile"
     },
     "description": "Yet another Beamer -- Presentation with Markdown and TeX",
+    "author": "takuti",
     "license": "MIT",
     "dependencies": {
       "marked": "^0.3.3",
@@ -113,5 +114,6 @@
   },
   "filename": "takuti___leinwand.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:06.610Z"
+  "lastFetchedAt": "2017-05-04T19:55:06.610Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:11.172Z"
 }

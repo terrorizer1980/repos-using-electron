@@ -169,6 +169,11 @@
     "name": "felony",
     "productName": "Felony",
     "version": "0.10.3",
+    "author": {
+      "name": "Henry Boldizsar",
+      "email": "henrymb67@gmail.com",
+      "url": "https://github.com/henryboldi"
+    },
     "description": "Felony makes sending encrypted messages anywhere easy.",
     "main": "main.js",
     "scripts": {
@@ -191,19 +196,13 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "chentsulin",
-      "repo": "electron-react-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate/tarball/master",
-      "clone_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "https_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "travis_url": "https://travis-ci.org/chentsulin/electron-react-boilerplate",
-      "zip_url": "https://github.com/chentsulin/electron-react-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -351,5 +350,6 @@
   "svnUrl": "https://github.com/shaunstanislaus/felony",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:33:47.958Z"
+  "lastFetchedAt": "2017-05-04T17:33:47.958Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:00.080Z"
 }

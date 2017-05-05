@@ -76,8 +76,12 @@
     "description": "A cross-platform notification server.",
     "version": "0.1.0",
     "homepage": "https://github.com/jamen/bloop",
+    "author": "Jamen Marz (https://github.com/jamen)",
     "repository": "jamen/bloop",
     "main": "index.js",
+    "bugs": {
+      "url": "https://github.com/jamen/bloop/issues"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -128,5 +132,6 @@
   },
   "filename": "jamen___bloop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:55.781Z"
+  "lastFetchedAt": "2017-05-04T21:22:55.781Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:21.626Z"
 }

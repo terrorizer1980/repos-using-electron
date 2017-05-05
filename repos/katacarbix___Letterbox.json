@@ -61,7 +61,10 @@
         "email": "me@katacarbix.xyz"
       }
     ],
-    "repository": "https://github.com/katacarbix/Letterbox",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/katacarbix/Letterbox.git"
+    },
     "private": true,
     "main": "index.js",
     "scripts": {
@@ -143,5 +146,6 @@
   "svnUrl": "https://github.com/katacarbix/Letterbox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:28:22.613Z"
+  "lastFetchedAt": "2017-05-04T21:28:22.613Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:43.645Z"
 }

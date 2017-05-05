@@ -81,5 +81,47 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:27:01.412Z"
+  "lastFetchedAt": "2017-05-04T05:27:01.412Z",
+  "packageJSON": {
+    "name": "convey-app",
+    "version": "0.0.1",
+    "description": "Communication Tool with Electron",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/schrodit/Convey.git"
+    },
+    "keywords": [
+      "communication",
+      "electron",
+      "polymer",
+      "opus",
+      "es6"
+    ],
+    "author": "Tim Schrodi",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/schrodit/Convey/issues"
+    },
+    "homepage": "https://github.com/schrodit/Convey#readme",
+    "dependencies": {
+      "electron": "1.6.2"
+    },
+    "devDependencies": {
+      "eslint": "3.19.0",
+      "gulp": "3.9.1",
+      "gulp-autoprefixer": "3.1.1",
+      "gulp-concat": "2.6.1",
+      "gulp-eslint": "3.0.1",
+      "gulp-less": "3.3.0",
+      "gulp-util": "3.0.8",
+      "less": "2.7.2",
+      "polymer-cli": "0.18.0-pre.13"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:44:58.553Z"
 }

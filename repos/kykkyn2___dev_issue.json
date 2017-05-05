@@ -77,14 +77,21 @@
       "train-model": "electron scripts/train-model.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Smart Mirror",
       "IoT",
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "angular-i18n": "^1.5.5",
@@ -126,5 +133,6 @@
   },
   "filename": "kykkyn2___dev_issue.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:21:04.196Z"
+  "lastFetchedAt": "2017-05-04T20:21:04.196Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:03.150Z"
 }

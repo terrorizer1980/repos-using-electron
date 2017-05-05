@@ -80,14 +80,21 @@
       "lint": "eslint .",
       "test": "npm run lint"
     },
-    "repository": "https://github.com/stephenkingsley/note",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stephenkingsley/note.git"
+    },
     "keywords": [
       "note",
       "electron",
       "convenient",
       "high-efficiency"
     ],
+    "author": "stephen.K",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/stephenkingsley/note/issues"
+    },
     "homepage": "https://github.com/stephenkingsley/note#readme",
     "devDependencies": {
       "babel-cli": "^6.10.1",
@@ -175,5 +182,6 @@
   },
   "filename": "stephenkingsley___note.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:04.458Z"
+  "lastFetchedAt": "2017-05-04T15:21:04.458Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:18.601Z"
 }

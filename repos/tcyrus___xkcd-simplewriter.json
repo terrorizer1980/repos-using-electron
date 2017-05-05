@@ -59,6 +59,7 @@
     "license": "MIT",
     "repository": "tcyrus/xkcd-simplewriter",
     "main": "main.js",
+    "author": "TCYRUS",
     "electronVersion": "0.35.0",
     "scripts": {
       "updateWords": "wget -qN https://xkcd.com/simplewriter/words.js",
@@ -73,6 +74,9 @@
       "simple",
       "writer"
     ],
+    "bugs": {
+      "url": "https://github.com/tcyrus/xkcd-simplewriter/issues"
+    },
     "homepage": "https://github.com/tcyrus/xkcd-simplewriter#readme",
     "dependencies": {},
     "devDependencies": {
@@ -125,5 +129,6 @@
   },
   "filename": "tcyrus___xkcd-simplewriter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:11:20.295Z"
+  "lastFetchedAt": "2017-05-04T18:11:20.295Z",
+  "packageLastFetchedAt": "2017-05-05T15:10:33.451Z"
 }

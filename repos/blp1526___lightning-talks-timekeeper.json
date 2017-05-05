@@ -63,8 +63,15 @@
       "tree": "tree -a -I '.git|node_modules'",
       "watch": "mocha --recursive --reporter spec --watch test"
     },
-    "repository": "https://github.com/blp1526/lightning-talks-timekeeper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blp1526/lightning-talks-timekeeper.git"
+    },
+    "author": "Shingo Kawamura",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/blp1526/lightning-talks-timekeeper/issues"
+    },
     "homepage": "https://github.com/blp1526/lightning-talks-timekeeper#readme",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -125,5 +132,6 @@
   },
   "filename": "blp1526___lightning-talks-timekeeper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:51.395Z"
+  "lastFetchedAt": "2017-05-04T21:06:51.395Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:10.812Z"
 }

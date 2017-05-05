@@ -69,6 +69,7 @@
     "name": "silk-gui",
     "version": "0.5.3",
     "description": "GUI for developers and Node OS",
+    "author": "zodern",
     "license": "MIT",
     "preferGlobal": true,
     "dependencies": {
@@ -94,7 +95,13 @@
       "tingodb": "^0.4.2",
       "update-notifier": "^0.6.1"
     },
-    "repository": "https://github.com/Silk-GUI/Silk",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Silk-GUI/Silk"
+    },
+    "bugs": {
+      "url": "https://github.com/Silk-GUI/Silk/issues"
+    },
     "keywords": [
       "GUI",
       "node-os",
@@ -174,5 +181,6 @@
   },
   "filename": "Silk-GUI___Silk.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:50.213Z"
+  "lastFetchedAt": "2017-05-04T05:32:50.213Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:49.810Z"
 }

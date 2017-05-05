@@ -61,17 +61,8 @@
       "postinstall": "typings install && npm install -g ntypescript"
     },
     "repository": {
-      "user": "l2thet",
-      "repo": "ElectronWithAngular2",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/l2thet/ElectronWithAngular2/tarball/master",
-      "clone_url": "https://github.com/l2thet/ElectronWithAngular2",
-      "https_url": "https://github.com/l2thet/ElectronWithAngular2",
-      "travis_url": "https://travis-ci.org/l2thet/ElectronWithAngular2",
-      "zip_url": "https://github.com/l2thet/ElectronWithAngular2/archive/master.zip",
-      "api_url": "https://api.github.com/repos/l2thet/ElectronWithAngular2"
+      "type": "git",
+      "url": "git+https://github.com/l2thet/ElectronWithAngular2.git"
     },
     "keywords": [
       "Electron",
@@ -79,7 +70,11 @@
       "quick",
       "auto-refresh"
     ],
+    "author": "L2theT",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/l2thet/ElectronWithAngular2/issues"
+    },
     "homepage": "https://github.com/l2thet/ElectronWithAngular2#readme",
     "dependencies": {
       "angular2": "2.0.0-beta.17",
@@ -144,5 +139,6 @@
   "svnUrl": "https://github.com/l2thet/Electron-Angular-2-Auto-Reload",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:36:28.340Z"
+  "lastFetchedAt": "2017-05-04T19:36:28.340Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:25.808Z"
 }

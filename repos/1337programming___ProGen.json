@@ -98,8 +98,15 @@
       "package:linux": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --prune=true --out=dist",
       "test": "mocha tests"
     },
-    "repository": "https://github.com/1337programming/ProGen",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/1337programming/ProGen.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/1337programming/ProGen/issues"
+    },
     "homepage": "https://github.com/1337programming/ProGen",
     "dependencies": {
       "@angular/common": "^2.0.2",
@@ -169,5 +176,6 @@
   },
   "filename": "1337programming___ProGen.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:58:30.365Z"
+  "lastFetchedAt": "2017-05-03T19:58:30.365Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:27.320Z"
 }

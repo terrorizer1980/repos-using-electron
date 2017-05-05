@@ -55,7 +55,11 @@
       "starter",
       "stack"
     ],
-    "repository": "https://github.com/geraldyeo/react-starter-stack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/geraldyeo/react-starter-stack.git"
+    },
+    "author": "Gerald Yeo <gerald.yeo@gmail.com>",
     "license": "MIT",
     "engines": {
       "node": ">=5.5.0",
@@ -315,5 +319,6 @@
   },
   "filename": "geraldyeo___react-starter-stack.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:16.556Z"
+  "lastFetchedAt": "2017-05-04T05:05:16.556Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:56.965Z"
 }

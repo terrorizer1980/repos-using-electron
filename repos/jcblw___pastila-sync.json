@@ -88,6 +88,7 @@
       ]
     },
     "keywords": [],
+    "author": "",
     "license": "ISC",
     "dependencies": {
       "@jcblw/menubar": "^5.1.0",
@@ -123,6 +124,10 @@
       "mac": {
         "category": "public.app-category.developer-tool"
       }
+    },
+    "directories": {
+      "buildResources": "build-assets",
+      "output": "builds"
     }
   },
   "packageStatus": 200,
@@ -150,5 +155,6 @@
   },
   "filename": "jcblw___pastila-sync.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:21:11.130Z"
+  "lastFetchedAt": "2017-05-04T18:21:11.130Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:25.375Z"
 }

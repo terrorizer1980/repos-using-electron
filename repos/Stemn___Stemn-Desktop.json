@@ -82,9 +82,12 @@
   "packageJSON": {
     "name": "Stemn",
     "productName": "Stemn",
-    "version": "0.0.11",
-    "description": "Engineering Versioning and Project Management",
-    "repository": "https://github.com/Stemn/Stemn-Desktop",
+    "version": "0.0.19",
+    "description": "Stemn Desktop: Versioning and project management",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Stemn/Stemn-Desktop"
+    },
     "main": "dist/main/index.js",
     "scripts": {
       "test": "cross-env NODE_ENV=test mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -96,8 +99,12 @@
       "build:renderer": "better-npm-run build:renderer",
       "app": "better-npm-run app",
       "app:test": "better-npm-run app:test",
+      "app:jackson": "better-npm-run app:jackson",
+      "app:watch": "better-npm-run app:watch",
       "server": "better-npm-run server",
       "server:test": "better-npm-run server:test",
+      "server:jackson": "better-npm-run server:jackson",
+      "electron": "better-npm-run electron",
       "compile": "node ./scripts/build.js"
     },
     "betterScripts": {
@@ -105,24 +112,29 @@
         "command": "node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js  --progress --profile --colors && cp app/package.json dist/",
         "env": {
           "NODE_ENV": "production",
-          "API_SERVER": "http://35.162.145.41",
-          "WEBSOCKET_SERVER": "http://35.162.145.41:8000",
-          "ELECTRON_CRASH_REPORT_SERVER": "http://35.162.145.41:2096"
+          "API_SERVER": "http://35.167.249.144",
+          "WEBSOCKET_SERVER": "http://35.167.249.144:8000",
+          "ELECTRON_CRASH_REPORT_SERVER": "http://35.167.249.144:2096"
         }
       },
       "build:renderer": {
         "command": "node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors && cp -R app/renderer/assets dist/renderer",
         "env": {
           "NODE_ENV": "production",
-          "API_SERVER": "http://35.162.145.41",
-          "WEBSOCKET_SERVER": "http://35.162.145.41:8000",
-          "ELECTRON_CRASH_REPORT_SERVER": "http://35.162.145.41:2096"
+          "API_SERVER": "http://35.167.249.144",
+          "WEBSOCKET_SERVER": "http://35.167.249.144:8000",
+          "ELECTRON_CRASH_REPORT_SERVER": "http://35.167.249.144:2096"
+        }
+      },
+      "electron": {
+        "command": "electron dist/main",
+        "env": {
+          "NODE_ENV": "development"
         }
       },
       "app": {
-        "command": "electron -r babel-register -r babel-polyfill ./app/main/index",
+        "command": "node -r babel-register ./node_modules/webpack/bin/webpack --watch --config webpack.config.electron.js  --progress --profile --colors",
         "env": {
-          "HOT": "1",
           "NODE_ENV": "development",
           "API_SERVER": "http://localhost:3000",
           "WEBSOCKET_SERVER": "http://localhost:8000",
@@ -130,18 +142,27 @@
         }
       },
       "app:test": {
-        "command": "electron -r babel-register -r babel-polyfill ./app/main/index",
+        "command": "node -r babel-register ./node_modules/webpack/bin/webpack --watch --config webpack.config.electron.js  --progress --profile --colors",
         "env": {
-          "HOT": "1",
           "NODE_ENV": "development",
-          "API_SERVER": "http://35.162.145.41",
-          "WEBSOCKET_SERVER": "http://35.162.145.41:8000",
-          "ELECTRON_CRASH_REPORT_SERVER": "http://35.162.145.41:2096"
+          "API_SERVER": "http://35.167.249.144",
+          "WEBSOCKET_SERVER": "http://35.167.249.144:8000",
+          "ELECTRON_CRASH_REPORT_SERVER": "http://35.167.249.144:2096"
+        }
+      },
+      "app:jackson": {
+        "command": "node -r babel-register ./node_modules/webpack/bin/webpack --watch --config webpack.config.electron.js  --progress --profile --colors",
+        "env": {
+          "NODE_ENV": "development",
+          "API_SERVER": "http://192.168.1.2:3000",
+          "WEBSOCKET_SERVER": "http://192.168.1.2:8000",
+          "ELECTRON_CRASH_REPORT_SERVER": "http://192.168.1.2:2096"
         }
       },
       "server": {
         "command": "node --max-old-space-size=4096 -r babel-register server.js",
         "env": {
+          "NODE_ENV": "development",
           "API_SERVER": "http://localhost:3000",
           "WEBSOCKET_SERVER": "http://localhost:8000",
           "ELECTRON_CRASH_REPORT_SERVER": "http://localhost:2096"
@@ -150,14 +171,28 @@
       "server:test": {
         "command": "node --max-old-space-size=4096 -r babel-register server.js",
         "env": {
-          "API_SERVER": "http://35.162.145.41",
-          "WEBSOCKET_SERVER": "http://35.162.145.41:8000",
-          "ELECTRON_CRASH_REPORT_SERVER": "http://35.162.145.41:2096"
+          "NODE_ENV": "development",
+          "API_SERVER": "http://35.167.249.144",
+          "WEBSOCKET_SERVER": "http://35.167.249.144:8000",
+          "ELECTRON_CRASH_REPORT_SERVER": "http://35.167.249.144:2096"
+        }
+      },
+      "server:jackson": {
+        "command": "node --max-old-space-size=4096 -r babel-register server.js",
+        "env": {
+          "NODE_ENV": "development",
+          "API_SERVER": "http://192.168.1.2:3000",
+          "WEBSOCKET_SERVER": "http://192.168.1.2:8000",
+          "ELECTRON_CRASH_REPORT_SERVER": "http://192.168.1.2:2096"
         }
       }
     },
     "bin": {
       "electron": "./node_modules/.bin/electron"
+    },
+    "author": {
+      "name": "STEMN Pty Ltd",
+      "email": "desktop@stemn.com"
     },
     "license": "MIT",
     "keywords": [
@@ -168,6 +203,10 @@
       "science"
     ],
     "homepage": "https://stemn.com",
+    "bugs": {
+      "url": "https://github.com/Stemn/Stemn-Desktop/issues",
+      "email": "bugs@stemn.com"
+    },
     "dependencies": {
       "asar": "^0.11.0",
       "babel-core": "^6.11.4",
@@ -204,15 +243,18 @@
       "extract-text-webpack-plugin": "^1.0.1",
       "fbjs-scripts": "^0.6.0",
       "file-loader": "^0.9.0",
+      "gh-release": "https://github.com/Stemn/gh-release/tarball/master",
       "happypack": "^2.2.1",
       "jsdom": "^8.4.0",
       "json-loader": "^0.5.4",
       "minimist": "^1.2.0",
       "mocha": "^2.4.5",
+      "ng-redux": "^3.4.0-beta.1",
       "node-libs-browser": "^1.0.0",
       "node-monkey": "^1.0.0-beta.2",
-      "react": "^15.2.1",
+      "react": "15.3.1",
       "react-addons-test-utils": "^15.0.1",
+      "react-dom": "^15.4.1",
       "selenium-webdriver": "^2.53.1",
       "sinon": "^1.17.3",
       "source-map-support": "^0.4.0",
@@ -224,6 +266,10 @@
       "webpack-dev-middleware": "^1.8.4",
       "webpack-hot-middleware": "^2.10.0"
     },
+    "devDependencies": {
+      "electron-builder": "10.9.2",
+      "electron": "1.4.4"
+    },
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
@@ -234,15 +280,15 @@
     ],
     "build": {
       "appId": "stemn.stemn",
-      "app-bundle-id": "stemn.stemn",
-      "app-category-type": "public.app-category.productivity",
       "productName": "Stemn",
       "compression": "normal",
       "asar": true,
       "win": {
+        "target": "squirrel",
         "iconUrl": "https://stemn.com/uploads/85c7df7e-312b-4ed9-b12f-11d6d001a220.png"
       },
-      "osx": {
+      "mac": {
+        "category": "public.app-category.productivity",
         "contents": [
           {
             "x": 448,
@@ -257,12 +303,11 @@
             "path": "Stemn.app"
           }
         ]
+      },
+      "directories": {
+        "app": "./dist/",
+        "output": "./release/"
       }
-    },
-    "devDependencies": {
-      "cross-env": "^1.0.8",
-      "electron": "^1.4.4",
-      "electron-builder": "^7.3.0"
     }
   },
   "packageStatus": 200,
@@ -290,5 +335,6 @@
   },
   "filename": "Stemn___Stemn-Desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:33:52.023Z"
+  "lastFetchedAt": "2017-05-04T20:33:52.023Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:46.390Z"
 }

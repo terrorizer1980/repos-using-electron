@@ -52,6 +52,10 @@
     "description": "A safer, more reliable web browser.",
     "license": "LGPL-3.0",
     "repository": "mcparadox/Ember",
+    "author": {
+      "name": "Oliver Ni",
+      "email": "oliver.ni@gmail.com"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron ."
@@ -109,5 +113,6 @@
   "svnUrl": "https://github.com/kongriley/ember",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:13:25.651Z"
+  "lastFetchedAt": "2017-05-04T18:13:25.651Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:46.619Z"
 }

@@ -76,6 +76,7 @@
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose",
       "stylus": "stylus app/stylus/style.styl -w -o public/css/"
     },
+    "author": "Emil Pausz",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -121,5 +122,6 @@
   },
   "filename": "legendemil___feeder_app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:34.798Z"
+  "lastFetchedAt": "2017-05-04T15:33:34.798Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:05.383Z"
 }

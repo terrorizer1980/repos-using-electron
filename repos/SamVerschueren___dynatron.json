@@ -58,6 +58,11 @@
     "description": "DynamoDB visualizer",
     "license": "MIT",
     "repository": "SamVerschueren/dynatron",
+    "author": {
+      "name": "Sam Verschueren",
+      "email": "sam.verschueren@gmail.com",
+      "url": "github.com/samverschueren"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -152,5 +157,6 @@
   "svnUrl": "https://github.com/SamVerschueren/dynatron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:47:03.721Z"
+  "lastFetchedAt": "2017-05-04T14:47:03.721Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:54.296Z"
 }

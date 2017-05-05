@@ -65,8 +65,12 @@
       "electron",
       "test"
     ],
+    "author": "JongChan Choi",
     "license": "Zlib",
-    "repository": "https://github.com/disjukr/electrun",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/disjukr/electrun.git"
+    },
     "dependencies": {
       "electron-prebuilt": "^0.37.5"
     }
@@ -116,5 +120,6 @@
   "svnUrl": "https://github.com/disjukr/electrun",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:12:49.879Z"
+  "lastFetchedAt": "2017-05-04T21:12:49.879Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:11.385Z"
 }

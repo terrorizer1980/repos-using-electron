@@ -80,6 +80,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron lib/main.js"
     },
+    "author": "Tianyi Ma <tn.ma@outlook.com>",
     "license": "GPL-2.0",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -114,5 +115,6 @@
   },
   "filename": "tma02___spotispy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:37.356Z"
+  "lastFetchedAt": "2017-05-04T21:26:37.356Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:05.959Z"
 }

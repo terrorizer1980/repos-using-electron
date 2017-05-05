@@ -71,8 +71,15 @@
       "prepublish": "npm run build",
       "posttest": "readme package.json > readme.md"
     },
-    "repository": "https://github.com/micnews/save-selection",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/micnews/save-selection.git"
+    },
+    "author": "mic.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/micnews/save-selection/issues"
+    },
     "homepage": "https://github.com/micnews/save-selection#readme",
     "devDependencies": {
       "babel-cli": "^6.7.7",
@@ -136,5 +143,6 @@
   "svnUrl": "https://github.com/micnews/save-selection",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:23:32.285Z"
+  "lastFetchedAt": "2017-05-04T14:23:32.285Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:32.924Z"
 }

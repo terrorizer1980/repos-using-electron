@@ -72,7 +72,11 @@
     "description": "Download doc88.com document as PNG and HTML",
     "homepage": "https://github.com/hmt1203/doc88-download",
     "main": "index.js",
-    "repository": "https://github.com/hmt1203/doc88-download",
+    "author": "TunG",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hmt1203/doc88-download"
+    },
     "license": "MIT",
     "dependencies": {
       "async": "^2.1.4",
@@ -114,5 +118,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:40.944Z"
+  "lastFetchedAt": "2017-05-04T18:26:40.944Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:33.814Z"
 }

@@ -78,7 +78,13 @@
         "url": "http://leny.me"
       }
     ],
-    "repository": "https://github.com/teseve/teseve",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/teseve/teseve.git"
+    },
+    "bugs": {
+      "url": "https://github.com/teseve/teseve/issues"
+    },
     "license": "Unlicense",
     "electron-version": "1.2.1",
     "dependencies": {
@@ -148,5 +154,6 @@
   "svnUrl": "https://github.com/teseve/teseve",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:49:51.627Z"
+  "lastFetchedAt": "2017-05-04T17:49:51.627Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:46.241Z"
 }

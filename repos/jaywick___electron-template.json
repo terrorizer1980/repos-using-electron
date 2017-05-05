@@ -80,6 +80,7 @@
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
       "electron": "electron app"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.35.4",
@@ -124,5 +125,6 @@
   },
   "filename": "jaywick___electron-template.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:16.515Z"
+  "lastFetchedAt": "2017-05-04T05:13:16.515Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:19.473Z"
 }

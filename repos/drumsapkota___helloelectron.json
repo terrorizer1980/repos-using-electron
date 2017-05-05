@@ -67,5 +67,24 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 0,
-  "lastFetchedAt": "2017-05-04T20:35:53.309Z"
+  "lastFetchedAt": "2017-05-04T20:35:53.309Z",
+  "packageJSON": {
+    "name": "hello_electron",
+    "version": "1.0.0",
+    "description": "my first electron app",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "electron"
+    ],
+    "author": "aditya",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:51:15.358Z"
 }

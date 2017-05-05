@@ -76,12 +76,19 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/tannercarrico/musicplayer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tannercarrico/musicplayer.git"
+    },
     "keywords": [
       "react",
       "music"
     ],
+    "author": "Tanner Carrico",
     "license": "",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "https://github.com/tannercarrico/musicplayer.git",
     "dependencies": {
       "axios": "^0.9.1",
@@ -124,5 +131,6 @@
   },
   "filename": "tannercarrico___musicplayer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:16:10.493Z"
+  "lastFetchedAt": "2017-05-04T18:16:10.493Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:43.108Z"
 }

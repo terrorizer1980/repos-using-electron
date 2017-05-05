@@ -71,11 +71,12 @@
     "version": "0.0.1",
     "license": "GPL-3.0+",
     "devDependencies": {
-      "autoprefixer": "^6.5.1",
-      "autotrack": "^1.0.3",
+      "autoprefixer": "^6.7.3",
+      "autotrack": "^1.1.0",
       "browserify": "^13.1.0",
       "critical": "github:addyosmani/critical",
       "cssnano": "^3.7.7",
+      "electron": "^1.4.15",
       "electron-prebuilt": "^1.4.3",
       "electron-spawn": "latest",
       "emojione": "^2.2.6",
@@ -92,10 +93,11 @@
       "node-static": "^0.7.9",
       "npm-run-all": "^3.1.1",
       "onchange": "^3.0.2",
-      "postcss": "^5.2.4",
+      "postcss": "^5.2.13",
       "posthtml": "^0.8.7",
-      "posthtml-cli": "^0.2.7",
-      "twemoji": "^2.2.0"
+      "posthtml-cli": "^0.2.13",
+      "twemoji": "^2.2.5",
+      "unorm": "^1.4.1"
     },
     "scripts": {
       "copy:extras": "all-extras.sh \"src\"",
@@ -137,5 +139,6 @@
   },
   "filename": "skial___haxe.io.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:36:58.954Z"
+  "lastFetchedAt": "2017-05-04T05:36:58.954Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:32.280Z"
 }

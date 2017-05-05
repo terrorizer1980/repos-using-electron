@@ -76,6 +76,7 @@
       "prebuild": "rm -rf dist",
       "build": "grunt"
     },
+    "author": "Adam Drago",
     "license": "ISC",
     "dependencies": {
       "electron-window": "~0.7.0"
@@ -114,5 +115,6 @@
   },
   "filename": "atdrago___electron-testing-legacy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:35.124Z"
+  "lastFetchedAt": "2017-05-04T14:22:35.124Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:03.218Z"
 }

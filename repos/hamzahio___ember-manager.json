@@ -71,6 +71,10 @@
     "description": "Small description for ember-manager goes here",
     "main": "main.js",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "start": "ember server",
       "dev": "nf start",
@@ -81,6 +85,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.0.2",
@@ -130,5 +135,6 @@
   "sourceRepo": "hamzahio/ember-manager",
   "filename": "hamzahio___ember-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:53.582Z"
+  "lastFetchedAt": "2017-05-04T21:21:53.582Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:29.322Z"
 }

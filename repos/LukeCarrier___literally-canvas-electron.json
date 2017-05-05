@@ -76,8 +76,15 @@
       "postinstall": "bower install",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/LukeCarrier/literally-canvas-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LukeCarrier/literally-canvas-electron.git"
+    },
+    "author": "Luke Carrier",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/LukeCarrier/literally-canvas-electron/issues"
+    },
     "homepage": "https://github.com/LukeCarrier/literally-canvas-electron#readme",
     "devDependencies": {
       "bower": "^1.5.2",
@@ -109,5 +116,6 @@
   },
   "filename": "LukeCarrier___literally-canvas-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:30.515Z"
+  "lastFetchedAt": "2017-05-04T17:49:30.515Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:16.144Z"
 }

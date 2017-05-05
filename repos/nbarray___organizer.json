@@ -67,20 +67,20 @@
   "status": 200,
   "packageJSON": {
     "name": "organizer",
-    "version": "1.0.0",
-    "description": "An organizer app with multiple features like a smart calendar, a cool mail client and much more.",
-    "main": "main.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "./node_modules/.bin/electron ."
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "react-scripts": "0.7.0"
     },
-    "keywords": [],
-    "license": "MIT",
     "dependencies": {
-      "babel": "^6.5.2",
-      "browserify": "^13.1.1",
-      "electron": "^1.4.5",
-      "react": "^15.3.2"
+      "react": "^15.4.0",
+      "react-dom": "^15.4.0"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
     }
   },
   "packageStatus": 200,
@@ -108,5 +108,6 @@
   },
   "filename": "nbarray___organizer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:49.386Z"
+  "lastFetchedAt": "2017-05-04T18:00:49.386Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:30.358Z"
 }

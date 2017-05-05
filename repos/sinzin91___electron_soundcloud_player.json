@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -123,5 +124,6 @@
   },
   "filename": "sinzin91___electron_soundcloud_player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:47.719Z"
+  "lastFetchedAt": "2017-05-04T15:22:47.719Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:26.593Z"
 }

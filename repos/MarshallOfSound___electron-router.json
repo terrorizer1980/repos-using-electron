@@ -72,13 +72,15 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-router",
-    "version": "0.0.0",
+    "name": "electron-routes",
+    "version": "1.0.0",
     "main": "src/index.js",
+    "typings": "index.d.ts",
     "author": "Samuel Attard <samuel.r.attard@gmail.com>",
     "license": "MIT",
     "dependencies": {
-      "path-to-regexp": "^1.6.0"
+      "path-to-regexp": "^1.6.0",
+      "stream-buffers": "^3.0.1"
     },
     "scripts": {
       "start": "electron example/main.js"
@@ -115,5 +117,6 @@
   },
   "filename": "MarshallOfSound___electron-router.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:23:08.590Z"
+  "lastFetchedAt": "2017-05-04T14:23:08.590Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:06.955Z"
 }

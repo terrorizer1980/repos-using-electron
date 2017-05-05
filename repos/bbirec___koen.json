@@ -53,12 +53,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/bbirec/koen",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bbirec/koen.git"
+    },
     "keywords": [
       "english",
       "korean",
       "electron"
     ],
+    "author": "Heehong Moon",
     "homepage": "https://github.com/bbirec/koen",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -113,5 +117,6 @@
   },
   "filename": "bbirec___koen.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:15.764Z"
+  "lastFetchedAt": "2017-05-04T05:30:15.764Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:44.037Z"
 }

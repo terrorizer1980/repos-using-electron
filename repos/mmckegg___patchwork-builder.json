@@ -71,9 +71,17 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "pack": "build --dir -ml",
+      "pack": "build --dir",
+      "pack:all": "build --dir -mlw",
+      "pack:mac": "build --dir -m",
+      "pack:linux": "build --dir -l",
+      "pack:windows": "build --dir -w",
       "update": "cd app && git pull && npm install",
-      "release": "build -ml",
+      "release": "build",
+      "release:all": "build -mlw",
+      "release:mac": "build -m",
+      "release:linux": "build -l",
+      "release:windows": "build -w",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "build": {
@@ -82,19 +90,29 @@
       "npmArgs": [
         "--abi=50"
       ],
+      "files": [
+        "**/*",
+        "!node_modules/**/deps${/*}"
+      ],
       "dmg": {
         "icon": "build/dmg-icon.icns"
       },
-      "mac": {},
+      "mac": {
+        "icon": "build/icon.icns"
+      },
       "linux": {
         "category": "Network"
+      },
+      "win": {
+        "icon": "build/setup-icon.ico",
+        "publisherName": "Secure Scuttlebutt Consortium"
       }
     },
-    "author": "",
+    "author": "Secure Scuttlebutt Consortium",
     "license": "ISC",
     "devDependencies": {
-      "electron-builder": "github:mmckegg/electron-builder#rebuild-for-platform",
-      "electron": "^1.4.3"
+      "electron": "~1.4.3",
+      "electron-builder": "^15.5.1"
     }
   },
   "packageStatus": 200,
@@ -136,5 +154,6 @@
     "receivedEventsUrl": "https://api.github.com/users/ssbc/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T17:39:42.899Z"
+  "lastFetchedAt": "2017-05-04T17:39:42.899Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:46.594Z"
 }

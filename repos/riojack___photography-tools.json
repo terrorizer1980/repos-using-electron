@@ -71,7 +71,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
+      "test": "mocha test",
       "ensure-build-dir": "mkdirp ./build/thirdparty/css/ ./build/thirdparty/js/",
       "thirdparty": "gulp copy-build-deps",
       "prestart": "npm run ensure-build-dir && npm run thirdparty",
@@ -81,13 +81,24 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "electron": "^1.3.5",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-preset-es2017": "^6.22.0",
+      "babel-preset-react": "^6.22.0",
+      "babel-register": "^6.22.0",
+      "chai": "^3.5.0",
+      "chance": "^1.0.4",
+      "electron": "^1.6.0",
+      "enzyme": "^2.7.1",
       "gulp": "^3.9.1",
       "gulp-flatten": "^0.3.1",
+      "gulp-sass": "^3.1.0",
       "materialize-css": "^0.97.7",
       "mkdirp": "^0.5.1",
-      "react": "^15.3.1",
-      "react-dom": "^15.3.1"
+      "mocha": "^3.2.0",
+      "react": "^15.4.2",
+      "react-addons-test-utils": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "sinon": "^1.17.7"
     }
   },
   "packageStatus": 200,
@@ -115,5 +126,6 @@
   },
   "filename": "riojack___photography-tools.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:04:35.702Z"
+  "lastFetchedAt": "2017-05-04T20:04:35.702Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:23.328Z"
 }

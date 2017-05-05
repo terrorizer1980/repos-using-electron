@@ -76,10 +76,16 @@
     "version": "0.1.0",
     "description": "Electron based GUI for project cmake-supporter",
     "license": "GPL-3.0",
-    "repository": "https://github.com/dcordonu/cmake-supporter-gui",
+    "repository": {
+      "url": "https://github.com/dcordonu/cmake-supporter-gui"
+    },
     "scripts": {
       "start": "electron start.js",
       "lint": "gulp lint"
+    },
+    "author": {
+      "name": "Diego Cordón",
+      "email": "dcordonu@gmail.com"
     },
     "contributors": [
       {
@@ -87,6 +93,9 @@
         "email": "vgonisanz@gmail.com"
       }
     ],
+    "bugs": {
+      "url": "https://github.com/dcordonu/cmake-supporter-gui/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "1.2.7",
       "gulp-eslint": "3.0.1",
@@ -129,5 +138,6 @@
   },
   "filename": "dcordonu___cmake-supporter-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:58:35.376Z"
+  "lastFetchedAt": "2017-05-03T19:58:35.376Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:35.020Z"
 }

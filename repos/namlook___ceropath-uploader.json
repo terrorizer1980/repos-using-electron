@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "An OSX tool for uploading data in Ceropath",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "package": "ember build --env=production && electron-packager . CeropathUploader --platform=darwin --arch=x64 --version=0.34.3 --icon=icon.icns",
@@ -81,6 +85,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.1.2",
@@ -133,5 +138,6 @@
   },
   "filename": "namlook___ceropath-uploader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:36:04.648Z"
+  "lastFetchedAt": "2017-05-04T20:36:04.648Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:56.019Z"
 }

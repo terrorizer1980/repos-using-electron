@@ -81,7 +81,10 @@
   "status": 200,
   "packageJSON": {
     "name": "anansi-client",
-    "repository": "https://github.com/anansi-framework/anansi-client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/anansi-framework/anansi-client"
+    },
     "version": "0.0.0",
     "description": "Front end application built on the anasi web framework",
     "babel": {
@@ -95,6 +98,9 @@
       "build": "webpack --progress --colors --verbose",
       "watch": "webpack --watch"
     },
+    "author": [
+      "Eric Hulser"
+    ],
     "license": "MIT",
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -161,5 +167,6 @@
   },
   "filename": "anansi-framework___anansi-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:00.265Z"
+  "lastFetchedAt": "2017-05-04T21:06:00.265Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:13.444Z"
 }

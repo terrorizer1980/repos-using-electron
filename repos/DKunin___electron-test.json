@@ -77,6 +77,11 @@
     "version": "1.0.8",
     "description": "Electron app wrapper for simple html Ministry of culture test",
     "license": "MIT",
+    "author": {
+      "name": "Dmitri Kunin",
+      "email": "info@dkunin.ru",
+      "url": "dkun.in"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -136,5 +141,6 @@
   },
   "filename": "DKunin___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:42.978Z"
+  "lastFetchedAt": "2017-05-04T20:46:42.978Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:41.826Z"
 }

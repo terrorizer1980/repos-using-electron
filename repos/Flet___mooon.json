@@ -175,6 +175,10 @@
     "name": "mooon",
     "description": "Displays the moon phase in your staus bar/tray",
     "version": "1.0.0",
+    "author": "Bret Comnes <bcomnes@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/bcomnes/mooon/issues"
+    },
     "devDependencies": {
       "electron-packager": "^4.0.2",
       "electron-prebuilt": "^0.26.0",
@@ -189,17 +193,8 @@
     "license": "ISC",
     "main": "index.js",
     "repository": {
-      "user": "bcomnes",
-      "repo": "mooon",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bcomnes/mooon/tarball/master",
-      "clone_url": "https://github.com/bcomnes/mooon",
-      "https_url": "https://github.com/bcomnes/mooon",
-      "travis_url": "https://travis-ci.org/bcomnes/mooon",
-      "zip_url": "https://github.com/bcomnes/mooon/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bcomnes/mooon"
+      "type": "git",
+      "url": "https://github.com/bcomnes/mooon.git"
     },
     "scripts": {
       "test": "tape test/*.js | tap-spec && standard",
@@ -258,5 +253,6 @@
   "svnUrl": "https://github.com/Flet/mooon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:27:09.573Z"
+  "lastFetchedAt": "2017-05-04T05:27:09.573Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:18.194Z"
 }

@@ -74,13 +74,20 @@
       "start": "tnpm install && gulp watch",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/shaozj/ErEditor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shaozj/ErEditor.git"
+    },
     "keywords": [
       "editor",
       "electron",
       "react"
     ],
+    "author": "shaozj",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shaozj/ErEditor/issues"
+    },
     "homepage": "https://github.com/shaozj/ErEditor#readme",
     "dependencies": {
       "babel-core": "~6.11.4",
@@ -124,5 +131,6 @@
   },
   "filename": "shaozj___ErEditor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:58.353Z"
+  "lastFetchedAt": "2017-05-04T19:36:58.353Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:31.207Z"
 }

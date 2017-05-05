@@ -60,17 +60,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "chrisburgin95",
-      "repo": "ssh-tool",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/chrisburgin95/ssh-tool/tarball/master",
-      "clone_url": "https://github.com/chrisburgin95/ssh-tool",
-      "https_url": "https://github.com/chrisburgin95/ssh-tool",
-      "travis_url": "https://travis-ci.org/chrisburgin95/ssh-tool",
-      "zip_url": "https://github.com/chrisburgin95/ssh-tool/archive/master.zip",
-      "api_url": "https://api.github.com/repos/chrisburgin95/ssh-tool"
+      "type": "git",
+      "url": "git+https://github.com/chrisburgin95/ssh-tool.git"
     },
     "keywords": [
       "Electron",
@@ -78,6 +69,7 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "dependencies": {
       "menubar": "^4.1.1",
@@ -136,5 +128,6 @@
   "filename": "chrisburgin95___ssh-tool.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:54.257Z"
+  "lastFetchedAt": "2017-05-04T21:05:54.257Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:04.520Z"
 }

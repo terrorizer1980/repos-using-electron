@@ -173,7 +173,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electronic-wechat",
-    "version": "1.3.0",
+    "version": "2.0.0",
     "description": "An Electron application for WeChat",
     "main": "src/main.js",
     "scripts": {
@@ -189,17 +189,8 @@
       "build:win64": ".\\scripts\\build-win32.bat win32 x64"
     },
     "repository": {
-      "user": "geeeeeeeeek",
-      "repo": "wechat-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/geeeeeeeeek/wechat-electron/tarball/master",
-      "clone_url": "https://github.com/geeeeeeeeek/wechat-electron",
-      "https_url": "https://github.com/geeeeeeeeek/wechat-electron",
-      "travis_url": "https://travis-ci.org/geeeeeeeeek/wechat-electron",
-      "zip_url": "https://github.com/geeeeeeeeek/wechat-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/geeeeeeeeek/wechat-electron"
+      "type": "git",
+      "url": "https://github.com/geeeeeeeeek/wechat-electron.git"
     },
     "keywords": [
       "Electron",
@@ -207,12 +198,27 @@
       "微信",
       "Web"
     ],
+    "author": "Zhongyi Tong",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/geeeeeeeeek/wechat-electron/issues"
+    },
     "homepage": "https://github.com/geeeeeeeeek/wechat-electron/",
     "dependencies": {
-      "electron-packager": "^7.0.0",
-      "electron-prebuilt": "^1.1.0",
-      "pinyin": "^2.7.1"
+      "electron": "1.4.15",
+      "electron-packager": "^8.5.1",
+      "nconf": "^0.8.4",
+      "pinyin": "^2.8.0",
+      "emojione": "^2.2.7",
+      "electron-localshortcut": "github:parro-it/electron-localshortcut#b1119d46c0582263a7c20c1bcd710476dafcfe01"
+    },
+    "devDependencies": {
+      "babel-eslint": "^7.1.1",
+      "eslint": "^3.15.0",
+      "eslint-config-airbnb": "^14.1.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^4.0.0",
+      "eslint-plugin-react": "^6.9.0"
     }
   },
   "packageStatus": 200,
@@ -261,5 +267,6 @@
   "svnUrl": "https://github.com/fonghuiyue/electronic-wechat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:19:52.401Z"
+  "lastFetchedAt": "2017-05-04T05:19:52.401Z",
+  "packageLastFetchedAt": "2017-05-04T22:03:45.467Z"
 }

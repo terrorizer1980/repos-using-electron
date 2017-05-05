@@ -56,6 +56,7 @@
     "productName": "toxWhatsApp",
     "version": "0.2.4",
     "description": "Unofficial WhatsApp Desktop Client for OSX based on electron",
+    "author": "Enrico Hoffmann <dasrick@gmail.com>",
     "license": "MIT",
     "main": "main.js",
     "keywords": [
@@ -63,8 +64,14 @@
       "whatsapp",
       "toxWhatsApp"
     ],
-    "repository": "https://github.com/dasrick/tox-electron-whatsapp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dasrick/tox-electron-whatsapp.git"
+    },
     "homepage": "https://github.com/dasrick/tox-electron-whatsapp#readme",
+    "bugs": {
+      "url": "https://github.com/dasrick/tox-electron-whatsapp/issues"
+    },
     "electronVersion": "0.37.5",
     "devDependencies": {
       "electron-builder": "~3.5.2",
@@ -155,5 +162,6 @@
   },
   "filename": "dasrick___tox-electron-whatsapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:55.517Z"
+  "lastFetchedAt": "2017-05-04T20:03:55.517Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:58.650Z"
 }

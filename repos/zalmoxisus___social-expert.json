@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "social-expert",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "Master your GitHub (and other networks) notifications.",
     "scripts": {
       "start": "gulp",
@@ -58,13 +58,17 @@
       "clean": "rm -rf build/",
       "lint": "eslint ."
     },
-    "repository": "https://github.com/zalmoxisus/social-expert",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zalmoxisus/social-expert"
+    },
     "homepage": "https://github.com/zalmoxisus/social-expert",
     "keywords": [
       "react",
       "redux",
       "hithub"
     ],
+    "author": "Mihail Diordiev <zalmoxisus@gmail.com> (https://github.com/zalmoxisus)",
     "devDependencies": {
       "autoprefixer": "^6.3.3",
       "babel-cli": "^6.3.15",
@@ -202,5 +206,6 @@
   "svnUrl": "https://github.com/zalmoxisus/social-expert",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:15:22.534Z"
+  "lastFetchedAt": "2017-05-04T21:15:22.534Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:57.471Z"
 }

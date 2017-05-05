@@ -187,7 +187,7 @@
   "status": 200,
   "packageJSON": {
     "name": "smart-mirror",
-    "version": "0.0.5",
+    "version": "0.0.10",
     "description": "The fairest of them all",
     "main": "main.js",
     "scripts": {
@@ -195,20 +195,15 @@
       "start": "electron main.js ",
       "microphone-debug": "electron scripts/microphone-debug/main.js",
       "train-model": "electron scripts/train-model.js",
-      "wiredep": "wiredep -s index.html"
+      "sonus": "node sonus.js",
+      "motion": "sudo node motion.js",
+      "update": "git pull && npm install",
+      "wiredep": "wiredep -s index.html",
+      "test": "eslint ."
     },
     "repository": {
-      "user": "evancohen",
-      "repo": "smart-mirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/evancohen/smart-mirror/tarball/master",
-      "clone_url": "https://github.com/evancohen/smart-mirror",
-      "https_url": "https://github.com/evancohen/smart-mirror",
-      "travis_url": "https://travis-ci.org/evancohen/smart-mirror",
-      "zip_url": "https://github.com/evancohen/smart-mirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/evancohen/smart-mirror"
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
     },
     "keywords": [
       "Smart Mirror",
@@ -216,23 +211,45 @@
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "angular-i18n": "^1.5.5",
       "bower": "^1.7.9",
       "electron": "^1.4.4",
-      "install": "^0.8.1",
-      "npm": "^3.8.8",
+      "eslint": "^3.13.1",
       "wiredep-cli": "^0.1.0"
     },
     "dependencies": {
       "annyang": "^2.6.0",
       "electron-json-storage": "2.0.0",
-      "express": "^4.13.4",
+      "express": "^4.14.0",
       "fitbit-oauth2": "0.0.1",
       "hyperion-client": "1.0.3",
-      "sonus": "0.1.0"
+      "socket.io": "^1.6.0",
+      "sonus": "^0.1.4"
+    },
+    "eslintConfig": {
+      "extends": "eslint:recommended",
+      "env": {
+        "node": true,
+        "es6": true,
+        "browser": true
+      },
+      "rules": {
+        "no-console": 0
+      },
+      "globals": {
+        "angular": false,
+        "annyang": false,
+        "moment": false,
+        "config": false,
+        "RRule": false
+      }
     }
   },
   "packageStatus": 200,
@@ -261,5 +278,6 @@
   "filename": "sdetweil___smart-mirror.json",
   "sourceRepo": "evancohen/smart-mirror",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:22:44.414Z"
+  "lastFetchedAt": "2017-05-04T18:22:44.414Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:58.660Z"
 }

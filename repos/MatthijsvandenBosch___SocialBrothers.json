@@ -86,14 +86,21 @@
         "iconUrl": "https://assets-cdn.github.com/favicon.ico"
       }
     },
-    "repository": "https://github.com/MatthijsvandenBosch/Electron_Bootstrap_Template",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MatthijsvandenBosch/Electron_Bootstrap_Template.git"
+    },
     "keywords": [
       "Social Brothers",
       "Electron",
       "Matthijs",
       "Dekstop App"
     ],
+    "author": "Matthijs van den Bosch",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/MatthijsvandenBosch/issues"
+    },
     "homepage": "https://github.com/MatthijsvandenBosch#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -126,5 +133,6 @@
   },
   "filename": "MatthijsvandenBosch___SocialBrothers.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:17.362Z"
+  "lastFetchedAt": "2017-05-04T19:36:17.362Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:51.867Z"
 }

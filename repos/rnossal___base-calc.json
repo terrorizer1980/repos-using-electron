@@ -82,7 +82,10 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/rnossal/base-calc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rnossal/base-calc.git"
+    },
     "keywords": [
       "Calculadora",
       "Conversão",
@@ -91,7 +94,11 @@
       "Decimal",
       "Hexadecimal"
     ],
+    "author": "Rafael Nossal",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rnossal/base-calc/issues"
+    },
     "homepage": "https://github.com/rnossal/base-calc#readme",
     "dependencies": {
       "electron-squirrel-startup": "^1.0.0"
@@ -135,5 +142,6 @@
   },
   "filename": "rnossal___base-calc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:05.295Z"
+  "lastFetchedAt": "2017-05-04T20:15:05.295Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:21.527Z"
 }

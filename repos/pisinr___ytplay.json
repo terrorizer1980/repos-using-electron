@@ -59,11 +59,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/pisinr/ytplay",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pisinr/ytplay.git"
+    },
     "keywords": [
       "Electron",
       "Youtube"
     ],
+    "author": "Pisin R",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -114,5 +118,6 @@
   },
   "filename": "pisinr___ytplay.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:20.067Z"
+  "lastFetchedAt": "2017-05-04T20:07:20.067Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:53.542Z"
 }

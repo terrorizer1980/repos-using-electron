@@ -59,14 +59,21 @@
       "build": "npm run build-css",
       "build-css": "node-sass --include-path scss src/scss/main.scss static/css/main.css"
     },
-    "repository": "https://github.com/ArLEquiN64/electron-react-redux-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ArLEquiN64/electron-react-redux-boilerplate.git"
+    },
     "keywords": [
       "electron",
       "react",
       "redux",
       "boilerplate"
     ],
+    "author": "ArLE <ARLEQUIN.prx@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ArLEquiN64/electron-react-redux-boilerplate/issues"
+    },
     "homepage": "https://github.com/ArLEquiN64/electron-react-redux-boilerplate#readme",
     "devDependencies": {
       "ava": "^0.15.1",
@@ -148,5 +155,6 @@
   },
   "filename": "ArLEquiN64___electron-react-redux-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:57.722Z"
+  "lastFetchedAt": "2017-05-04T17:43:57.722Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:52.114Z"
 }

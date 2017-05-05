@@ -67,7 +67,11 @@
       "Electron",
       "notes"
     ],
+    "author": "Kevin Renner, Ziwei Ba, Harrison Qu",
     "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/ProPorygon/electron-notes/issues"
+    },
     "homepage": "https://github.com/ProPorygon/electron-notes",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -124,5 +128,6 @@
   "svnUrl": "https://github.com/ProPorygon/electron-notes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:49:56.099Z"
+  "lastFetchedAt": "2017-05-04T14:49:56.099Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:45.554Z"
 }

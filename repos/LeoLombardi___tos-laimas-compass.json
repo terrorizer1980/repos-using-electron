@@ -56,7 +56,10 @@
     "version": "0.0.1",
     "main": "main.js",
     "description": "A companion tool for the completionist Revelator",
-    "repository": "https://github.com/lbotinelly/tos-laimas-compass",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lbotinelly/tos-laimas-compass.git"
+    },
     "keywords": [
       "Tree of Savior",
       "TOS",
@@ -75,6 +78,7 @@
       "release": "npm run && build",
       "dist:win64": "./node_modules/.bin/build --platform win32 --arch x64"
     },
+    "author": "Leo Botinelly <lbotinelly@outlook.com>",
     "devDependencies": {
       "electron-packager": "^7.0.1"
     },
@@ -147,5 +151,6 @@
   },
   "filename": "LeoLombardi___tos-laimas-compass.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:41.483Z"
+  "lastFetchedAt": "2017-05-04T20:03:41.483Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:48.233Z"
 }

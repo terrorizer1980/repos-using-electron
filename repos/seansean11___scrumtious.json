@@ -85,13 +85,17 @@
       ],
       "babel": "inherit"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "agile",
       "productivity",
       "Atlassian"
     ],
     "license": "MIT",
+    "author": "Sean Michael",
     "homepage": "https://seanmichael.me",
     "devDependencies": {
       "ava": "^0.16.0",
@@ -184,5 +188,6 @@
   },
   "filename": "seansean11___scrumtious.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:13.332Z"
+  "lastFetchedAt": "2017-05-04T19:44:13.332Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:17.498Z"
 }

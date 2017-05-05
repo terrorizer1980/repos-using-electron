@@ -73,7 +73,11 @@
     },
     "version": "0.0.1",
     "description": "ElectronIPCDemo",
-    "repository": "https://github.com/saan1984/ElectronIPCDemo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronIPCDemo.git"
+    },
+    "author": "Sandeep Kumar Patel",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -107,5 +111,6 @@
   },
   "filename": "saan1984___ElectronIPCDemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:32.188Z"
+  "lastFetchedAt": "2017-05-04T17:59:32.188Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:47.902Z"
 }

@@ -75,8 +75,12 @@
       "preinstall": "npm install node-pre-gyp",
       "install": "node-pre-gyp install --fallback-to-build"
     },
+    "author": "callsync@nomadconnection.com",
     "license": "MIT",
-    "repository": "https://github.com/nomadcn/node-os-idle-timer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nomadcn/node-os-idle-timer.git"
+    },
     "dependencies": {
       "nan": "2.x",
       "node-pre-gyp": "0.6.x"
@@ -122,5 +126,6 @@
   },
   "filename": "nomadcn___node-os-idle-timer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:28:33.249Z"
+  "lastFetchedAt": "2017-05-04T20:28:33.249Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:41.532Z"
 }

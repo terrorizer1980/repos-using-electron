@@ -171,19 +171,14 @@
     "version": "0.1.0",
     "description": "Alternative cross-platform Steam client for desktop",
     "main": "dist/js/main.js",
+    "author": {
+      "name": "Michael Scholtz",
+      "email": "michael.scholtz@outlook.com"
+    },
     "license": "MIT",
     "repository": {
-      "user": "scholtzm",
-      "repo": "punk",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/scholtzm/punk/tarball/master",
-      "clone_url": "https://github.com/scholtzm/punk",
-      "https_url": "https://github.com/scholtzm/punk",
-      "travis_url": "https://travis-ci.org/scholtzm/punk",
-      "zip_url": "https://github.com/scholtzm/punk/archive/master.zip",
-      "api_url": "https://api.github.com/repos/scholtzm/punk"
+      "type": "git",
+      "url": "https://github.com/scholtzm/punk.git"
     },
     "dependencies": {
       "classnames": "^2.2.3",
@@ -269,5 +264,6 @@
   "filename": "HAMBO123___punk.json",
   "sourceRepo": "scholtzm/punk",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:09:36.941Z"
+  "lastFetchedAt": "2017-05-04T21:09:36.941Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:21.629Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/hanks-zyh/A1",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hanks-zyh/A1.git"
+    },
     "keywords": [
       "Electron",
       "Android",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/hanks-zyh/A1/issues"
+    },
     "homepage": "https://github.com/hanks-zyh/A1",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -117,5 +124,6 @@
   },
   "filename": "hanks-zyh___A1.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:05:10.119Z"
+  "lastFetchedAt": "2017-05-04T18:05:10.119Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:41.971Z"
 }

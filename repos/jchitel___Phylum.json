@@ -84,7 +84,10 @@
       "test": "mocha",
       "watch": "webpack --progress --colors --watch"
     },
-    "repository": "https://github.com/jchitel/Phylum",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jchitel/Phylum.git"
+    },
     "keywords": [
       "phylum",
       "file",
@@ -92,7 +95,11 @@
       "graphical",
       "shell"
     ],
+    "author": "jchitel",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jchitel/Phylum/issues"
+    },
     "homepage": "https://github.com/jchitel/Phylum#readme",
     "dependencies": {
       "babel-polyfill": "^6.5.0",
@@ -158,5 +165,6 @@
   },
   "filename": "jchitel___Phylum.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:04.417Z"
+  "lastFetchedAt": "2017-05-04T05:34:04.417Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:26.452Z"
 }

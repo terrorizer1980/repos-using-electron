@@ -78,6 +78,11 @@
     "description": "My excellent app",
     "license": "MIT",
     "repository": "aokihu/smartagent",
+    "author": {
+      "name": "aokihu",
+      "email": "aokihu@gmail.com",
+      "url": "aokihu.com"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -144,5 +149,6 @@
   },
   "filename": "aokihu___SmartAgent.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:57.862Z"
+  "lastFetchedAt": "2017-05-04T20:18:57.862Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:57.848Z"
 }

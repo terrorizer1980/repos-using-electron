@@ -169,18 +169,10 @@
     "name": "WARG-Ground-Station",
     "version": "4.1.0",
     "description": "The WARG ground station that communiciated directly with the data-relay-station",
+    "author": "Univeristy of Waterloo Arial Robotics Group - www.uwarg.com",
     "repository": {
-      "user": "UWARG",
-      "repo": "WARG-Ground-Station-V2",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/UWARG/WARG-Ground-Station-V2/tarball/master",
-      "clone_url": "https://github.com/UWARG/WARG-Ground-Station-V2",
-      "https_url": "https://github.com/UWARG/WARG-Ground-Station-V2",
-      "travis_url": "https://travis-ci.org/UWARG/WARG-Ground-Station-V2",
-      "zip_url": "https://github.com/UWARG/WARG-Ground-Station-V2/archive/master.zip",
-      "api_url": "https://api.github.com/repos/UWARG/WARG-Ground-Station-V2"
+      "type": "git",
+      "url": "https://github.com/UWARG/WARG-Ground-Station-V2"
     },
     "scripts": {
       "start": "./node_modules/.bin/electron .",
@@ -261,5 +253,6 @@
   "svnUrl": "https://github.com/lpan/WARG-Ground-Station",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:16:30.860Z"
+  "lastFetchedAt": "2017-05-04T21:16:30.860Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:19.139Z"
 }

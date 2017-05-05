@@ -74,13 +74,20 @@
       "test": "webpack-dev-server --progress --colors --hot --inline",
       "start": "webpack ./index.js && electron main"
     },
-    "repository": "https://github.com/fritzvd/hasan",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fritzvd/hasan.git"
+    },
     "keywords": [
       "game",
       "react",
       "leaflet"
     ],
+    "author": "fritzvd",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fritzvd/hasan/issues"
+    },
     "homepage": "https://github.com/fritzvd/hasan#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -130,5 +137,6 @@
   },
   "filename": "fritzvd___hasan.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:06.753Z"
+  "lastFetchedAt": "2017-05-04T05:30:06.753Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:11.561Z"
 }

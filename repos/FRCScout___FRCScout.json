@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "VictiScout",
-    "version": "v1.0.0",
+    "version": "v2.0.0",
     "description": "Scouting application for FIRST Robotics Competition, designed originally for Team 1418.",
     "main": "main.js",
     "scripts": {
@@ -77,13 +77,20 @@
       "package-win": "electron-packager . --platform=win32 --arch=all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore",
       "package-linux": "electron-packager . --platform=linux --arch=all --out ~/Desktop/Scout --overwrite --ignore=\\.gitignore"
     },
-    "repository": "https://github.com/frc1418/VictiScout",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/frc1418/VictiScout"
+    },
+    "author": "frc1418",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/frc1418/VictiScout/issues"
+    },
     "homepage": "https://github.com/frc1418/VictiScout#readme",
     "devDependencies": {
       "electron-packager": "^7.3.0",
       "electron": "^1.2.0",
-      "unirest": "^0.5.0"
+      "os": "*"
     }
   },
   "packageStatus": 200,
@@ -131,5 +138,6 @@
   },
   "filename": "FRCScout___FRCScout.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:30.055Z"
+  "lastFetchedAt": "2017-05-04T18:26:30.055Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:05.168Z"
 }

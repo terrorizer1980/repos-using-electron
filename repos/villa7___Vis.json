@@ -73,7 +73,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/villa7/vis",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/villa7/vis.git"
+    },
     "keywords": [
       "Electron",
       "Vis",
@@ -81,7 +84,11 @@
       "media",
       "player"
     ],
+    "author": "Theodore Kluge",
     "license": "CC3-1.0",
+    "bugs": {
+      "url": "https://github.com/villa7/vis/issues"
+    },
     "homepage": "https://github.com/villa7/vis#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -119,5 +126,6 @@
   },
   "filename": "villa7___Vis.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:08:59.729Z"
+  "lastFetchedAt": "2017-05-04T21:08:59.729Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:54.111Z"
 }

@@ -79,20 +79,27 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/puranjayjain/Simple-Player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/puranjayjain/Simple-Player.git"
+    },
     "keywords": [
       "Electron",
       "video",
       "audio",
       "player"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/puranjayjain/Simple-Player/issues"
+    },
     "homepage": "https://github.com/puranjayjain/Simple-Player#readme",
     "devDependencies": {
-      "electron-prebuilt": "^1.4.7",
+      "electron-prebuilt": "^1.4.13",
       "gulp": "^3.9.1",
       "gulp-plumber": "^1.1.0",
-      "gulp-sass": "^2.3.2"
+      "gulp-sass": "^3.1.0"
     }
   },
   "packageStatus": 200,
@@ -120,5 +127,6 @@
   },
   "filename": "puranjayjain___Simple-Player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:47:02.712Z"
+  "lastFetchedAt": "2017-05-04T14:47:02.712Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:37.391Z"
 }

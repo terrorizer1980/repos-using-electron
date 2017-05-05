@@ -62,8 +62,12 @@
       "start": "npm run clean && webpack && electron .",
       "start-watch": "npm run clean && webpack --progress --watch"
     },
+    "author": "",
     "license": "MIT",
-    "repository": "https://github.com/bertofer/quercus",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bertofer/quercus"
+    },
     "devDependencies": {
       "babel-core": "^6.11.4",
       "babel-loader": "^6.2.4",
@@ -155,5 +159,6 @@
   },
   "filename": "bertofer___quercus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:51.135Z"
+  "lastFetchedAt": "2017-05-04T17:46:51.135Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:47.065Z"
 }

@@ -78,8 +78,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/noblemillie/knowrelation",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/noblemillie/knowrelation.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/noblemillie/knowrelation/issues"
+    },
     "homepage": "https://github.com/noblemillie/knowrelation#readme"
   },
   "packageStatus": 200,
@@ -107,5 +114,6 @@
   },
   "filename": "noblemillie___knowrelation.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:50.909Z"
+  "lastFetchedAt": "2017-05-04T21:12:50.909Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:22.960Z"
 }

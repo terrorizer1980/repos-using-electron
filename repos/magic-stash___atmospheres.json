@@ -84,6 +84,10 @@
     "version": "0.0.0",
     "description": "Small description for ms-environments goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server --host 0.0.0.0 --port 1337",
@@ -93,6 +97,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -205,5 +210,6 @@
   },
   "filename": "magic-stash___atmospheres.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:21.605Z"
+  "lastFetchedAt": "2017-05-04T15:13:21.605Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:45.096Z"
 }

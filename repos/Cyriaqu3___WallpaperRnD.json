@@ -73,14 +73,21 @@
     "scripts": {
       "postinstall": "node postinstall.js"
     },
-    "repository": "https://github.com/Cyriaqu3/WallpaperRnD",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cyriaqu3/WallpaperRnD.git"
+    },
     "keywords": [
       "wallpaper",
       "research",
       "development",
       "electron"
     ],
+    "author": "Cyriaque DELAUNAY",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Cyriaqu3/WallpaperRnD/issues"
+    },
     "homepage": "https://github.com/Cyriaqu3/WallpaperRnD#readme",
     "dependencies": {
       "del": "^2.2.0",
@@ -135,5 +142,6 @@
   },
   "filename": "Cyriaqu3___WallpaperRnD.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:57.767Z"
+  "lastFetchedAt": "2017-05-04T20:57:57.767Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:26.877Z"
 }

@@ -74,9 +74,16 @@
       "start": "electron index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/smison/electron_study",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/smison/electron_study.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/smison/electron_study/issues"
+    },
     "homepage": "https://github.com/smison/electron_study#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.7"
@@ -107,5 +114,6 @@
   },
   "filename": "smison___electron_study.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:05.887Z"
+  "lastFetchedAt": "2017-05-04T20:46:05.887Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:36.487Z"
 }

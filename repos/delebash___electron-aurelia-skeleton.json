@@ -82,6 +82,7 @@
       "build-mac": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=darwin --arch=x64 --version=0.35.1 --overwrite --out ./build/mac",
       "build-win": "electron-packager . 'DemoElectronAureliaMongoDB' --platform=win32 --arch=ia32 --version=0.35.1 --overwrite --out ./build/win"
     },
+    "author": "Karl Shifflett",
     "homepage": "http://karlshifflett.wordpress.com",
     "license": "MIT",
     "keywords": [
@@ -90,7 +91,10 @@
       "es6",
       "mongodb"
     ],
-    "repository": "https://github.com/Oceanware/demoelectronaureliamongodb",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Oceanware/demoelectronaureliamongodb.git"
+    },
     "devDependencies": {
       "electron-packager": "^5.1.1",
       "electron-prebuilt": "^0.35.1"
@@ -152,5 +156,6 @@
   },
   "filename": "delebash___electron-aurelia-skeleton.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:47.673Z"
+  "lastFetchedAt": "2017-05-04T20:17:47.673Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:09.556Z"
 }

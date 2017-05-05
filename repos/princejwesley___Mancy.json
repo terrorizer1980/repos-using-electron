@@ -54,7 +54,7 @@
   "packageJSON": {
     "name": "mancy",
     "private": true,
-    "version": "3.1.0",
+    "version": "3.2.0",
     "description": "A GUI REPL for Javascript & more…",
     "main": "main/index.js",
     "scripts": {
@@ -88,6 +88,7 @@
       "LiveScript",
       "ClojureScript"
     ],
+    "author": "Prince John Wesley <princejohnwesley@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.3.13",
@@ -96,8 +97,8 @@
       "del": "^2.0.2",
       "devtron": "^1.0.0",
       "electron-packager": "^8.0.0",
-      "electron-prebuilt": "^1.2.6",
-      "electron-rebuild": "https://github.com/princejwesley/electron-rebuild.git",
+      "electron": "^1.4.15",
+      "electron-rebuild": "^1.5.7",
       "gulp": "^3.9.0",
       "gulp-babel": "^6.1.1",
       "gulp-cached": "^1.1.0",
@@ -140,7 +141,16 @@
       "typescript": "^1.8.2",
       "yargs": "^3.32.0"
     },
-    "repository": "https://github.com/princejwesley/Mancy",
+    "settings": {
+      "disable-font-manager": true
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/princejwesley/Mancy.git"
+    },
+    "bugs": {
+      "url": "https://github.com/princejwesley/Mancy/issues/new"
+    },
     "homepage": "https://github.com/princejwesley/Mancy"
   },
   "packageStatus": 200,
@@ -188,5 +198,6 @@
   "svnUrl": "https://github.com/princejwesley/Mancy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:27:33.331Z"
+  "lastFetchedAt": "2017-05-04T05:27:33.331Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:55.720Z"
 }

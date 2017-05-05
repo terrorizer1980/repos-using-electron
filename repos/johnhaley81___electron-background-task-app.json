@@ -58,6 +58,11 @@
     "description": "Shows off how to run a task in the background",
     "license": "MIT",
     "repository": "johnhaley81/electron-background-task-app",
+    "author": {
+      "name": "John Haley",
+      "email": "john@haley.io",
+      "url": "johnhaley.io"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -137,5 +142,6 @@
   "svnUrl": "https://github.com/johnhaley81/electron-background-task-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:20:49.490Z"
+  "lastFetchedAt": "2017-05-04T05:20:49.490Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:18.197Z"
 }

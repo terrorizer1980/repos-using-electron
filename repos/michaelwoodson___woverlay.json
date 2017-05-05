@@ -53,18 +53,25 @@
   "status": 200,
   "packageJSON": {
     "name": "woverlay",
-    "version": "0.0.30",
+    "version": "0.0.35",
     "description": "WebRTC based overlay network.",
     "main": "index.js",
     "scripts": {
       "test": "tape test/*.test.js"
     },
-    "repository": "https://github.com/michaelwoodson/woverlay",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/michaelwoodson/woverlay.git"
+    },
     "keywords": [
       "webrtc",
       "overlay"
     ],
+    "author": "Michael Woodson",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/michaelwoodson/woverlay/issues"
+    },
     "dependencies": {
       "big-integer": "1.6.16",
       "compression": "1.6.2",
@@ -126,5 +133,6 @@
   "svnUrl": "https://github.com/michaelwoodson/woverlay",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:31:29.968Z"
+  "lastFetchedAt": "2017-05-04T05:31:29.968Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:30.745Z"
 }

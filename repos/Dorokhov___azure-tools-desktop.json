@@ -77,13 +77,20 @@
       "package:linux": "grunt linux",
       "package:osx": "grunt osx"
     },
-    "repository": "https://github.com/Dorokhov/azure-tools-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/Dorokhov/azure-tools-desktop.git"
+    },
     "keywords": [
       "azure",
       "tools",
       "chrome"
     ],
+    "author": "Vladimir Dorokhov",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Dorokhov/AzureTools/issues"
+    },
     "homepage": "https://github.com/Dorokhov/AzureTools#readme",
     "description": "Free, cross-platform, open source tools for Microsoft Azure developers",
     "devDependencies": {
@@ -177,5 +184,6 @@
   },
   "filename": "Dorokhov___azure-tools-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:23:16.797Z"
+  "lastFetchedAt": "2017-05-04T15:23:16.797Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:58.189Z"
 }

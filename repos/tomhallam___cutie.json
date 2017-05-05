@@ -74,12 +74,19 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/tomhallam/cutie",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomhallam/cutie.git"
+    },
     "keywords": [
       "mqtt",
       "client"
     ],
+    "author": "Tom Hallam",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tomhallam/cutie/issues"
+    },
     "homepage": "https://github.com/tomhallam/cutie#readme",
     "dependencies": {
       "angular": "^1.5.8",
@@ -128,5 +135,6 @@
   },
   "filename": "tomhallam___cutie.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:55.463Z"
+  "lastFetchedAt": "2017-05-04T05:20:55.463Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:40.703Z"
 }

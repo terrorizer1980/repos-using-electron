@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/gyk001/electron-jd-dbquery",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gyk001/electron-jd-dbquery.git"
+    },
     "keywords": [
       "Electron",
       "dbquery"
     ],
+    "author": "gyk001",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gyk001/electron-jd-dbquery/issues"
+    },
     "homepage": "https://github.com/gyk001/electron-jd-dbquery#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.2"
@@ -115,5 +122,6 @@
   },
   "filename": "gyk001___electron-jd-dbquery.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:00.950Z"
+  "lastFetchedAt": "2017-05-04T20:06:00.950Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:57.494Z"
 }

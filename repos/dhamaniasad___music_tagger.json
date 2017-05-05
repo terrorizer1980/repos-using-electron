@@ -59,8 +59,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/dhamaniasad/music_tagger",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dhamaniasad/music_tagger.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dhamaniasad/music_tagger/issues"
+    },
     "homepage": "https://github.com/dhamaniasad/music_tagger",
     "devDependencies": {
       "electron-prebuilt": "^0.31.2"
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/dhamaniasad/music_tagger",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:11:44.741Z"
+  "lastFetchedAt": "2017-05-04T20:11:44.741Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:20.010Z"
 }

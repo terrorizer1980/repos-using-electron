@@ -50,7 +50,7 @@
     "version": "0.0.1",
     "main": "index.js",
     "devDependencies": {
-      "electron-prebuilt": "^0.33.4",
+      "electron-prebuilt": "~> 0.33.4",
       "fb": "^0.7.3",
       "node-twitter-api": ""
     },
@@ -63,13 +63,20 @@
       "fb": "~0.7.3",
       "node-twitter-api": "~1.6.0"
     },
-    "repository": "https://github.com/nageshpodilapu/Using-Facebook-Twitter-API-with-Electron-Application",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nageshpodilapu/Using-Facebook-Twitter-API-with-Electron-Application.git"
+    },
     "keywords": [
       "Electron",
       "Facebook",
       "OAuth"
     ],
-    "license": "BSD-2-Clause"
+    "author": "H4rryp0tt3r",
+    "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/nageshpodilapu/Using-Facebook-Twitter-API-with-Electron-Application/issues"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/nageshpodilapu/Using-Facebook-Twitter-API-with-Electron-Application",
@@ -116,5 +123,6 @@
   },
   "filename": "nageshpodilapu___Using-Facebook-Twitter-API-with-Electron-Application.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:14.767Z"
+  "lastFetchedAt": "2017-05-04T18:03:14.767Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:31.544Z"
 }

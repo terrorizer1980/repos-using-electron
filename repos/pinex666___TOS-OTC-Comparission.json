@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -111,5 +118,6 @@
   },
   "filename": "pinex666___TOS-OTC-Comparission.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:20.673Z"
+  "lastFetchedAt": "2017-05-04T20:38:20.673Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:01.149Z"
 }

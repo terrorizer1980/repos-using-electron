@@ -80,8 +80,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/beamosec/sprite.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beamosec/sprite.js.git"
+    },
+    "author": "beamosec",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/beamosec/sprite.js/issues"
+    },
     "homepage": "https://github.com/beamosec/sprite.js#readme",
     "dependencies": {
       "buzz": "^1.2.0"
@@ -115,5 +122,6 @@
   },
   "filename": "beamosec___sprite.js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:20.288Z"
+  "lastFetchedAt": "2017-05-04T21:14:20.288Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:09.857Z"
 }

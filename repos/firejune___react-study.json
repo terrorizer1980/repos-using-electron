@@ -47,11 +47,15 @@
   "status": 200,
   "packageJSON": {
     "name": "ReactStudy",
+    "author": "Joon Kyoung",
     "version": "0.2.1",
     "description": "React Study Example",
     "license": "MIT",
     "main": "main.js",
-    "repository": "https://github.com/firejune/react-study",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/firejune/react-study.git"
+    },
     "dependencies": {
       "jquery": "^2.2.0",
       "jquery-ui": "^1.10.5",
@@ -147,5 +151,6 @@
   "svnUrl": "https://github.com/firejune/react-study",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:32:22.517Z"
+  "lastFetchedAt": "2017-05-04T17:32:22.517Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:04.676Z"
 }

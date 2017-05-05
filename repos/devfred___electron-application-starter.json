@@ -62,21 +62,13 @@
       "linux-64-bundle": "electron-packager . --platform=linux --arch=x64 --version=0.35.4 ignore='node_modules/(electron-packager|electron-prebuilt)'"
     },
     "repository": {
-      "user": "devfred",
-      "repo": "electron-application-starter",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/devfred/electron-application-starter/tarball/master",
-      "clone_url": "https://github.com/devfred/electron-application-starter",
-      "https_url": "https://github.com/devfred/electron-application-starter",
-      "travis_url": "https://travis-ci.org/devfred/electron-application-starter",
-      "zip_url": "https://github.com/devfred/electron-application-starter/archive/master.zip",
-      "api_url": "https://api.github.com/repos/devfred/electron-application-starter"
+      "type": "git",
+      "url": "git+https://github.com/devfred/electron-application-starter.git"
     },
     "keywords": [
       "electron"
     ],
+    "author": "Creative Wizardry",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -129,5 +121,6 @@
   "svnUrl": "https://github.com/devfred/electron-application-starter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:39:22.831Z"
+  "lastFetchedAt": "2017-05-04T19:39:22.831Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:26.086Z"
 }

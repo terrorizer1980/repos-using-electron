@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/nasser/boards",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nasser/boards.git"
+    },
+    "author": "Ramsey Nasser",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nasser/boards/issues"
+    },
     "homepage": "https://github.com/nasser/boards#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -111,5 +118,6 @@
   },
   "filename": "nasser___boards.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:35.817Z"
+  "lastFetchedAt": "2017-05-04T05:07:35.817Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:06.968Z"
 }

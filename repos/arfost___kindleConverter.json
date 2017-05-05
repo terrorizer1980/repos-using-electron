@@ -75,9 +75,16 @@
       "mobi"
     ],
     "homepage": "https://github.com/arfost/kindleConverter#readme",
+    "bugs": {
+      "url": "https://github.com/arfost/kindleConverter/issues"
+    },
     "license": "MIT",
+    "author": "arfost",
     "main": "main.js",
-    "repository": "https://github.com/arfost/kindleConverter",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/arfost/kindleConverter.git"
+    },
     "scripts": {
       "start": ".\\node_modules\\.bin\\electron ."
     },
@@ -112,5 +119,6 @@
   },
   "filename": "arfost___kindleConverter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:46:09.495Z"
+  "lastFetchedAt": "2017-05-04T19:46:09.495Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:25.968Z"
 }

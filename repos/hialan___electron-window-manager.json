@@ -75,6 +75,7 @@
       "electron-rebuild": "./node_modules/.bin/electron-rebuild",
       "webpack": "./node_modules/.bin/webpack"
     },
+    "author": "Hialan Liu <hialan.liu@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "bootstrap": "^3.3.6",
@@ -93,10 +94,16 @@
       "webpack": "^1.12.9",
       "webpack-target-electron-renderer": "^0.3.0"
     },
-    "repository": "https://github.com/hialan/electron-window-manager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hialan/electron-window-manager.git"
+    },
     "keywords": [
       "electron"
     ],
+    "bugs": {
+      "url": "https://github.com/hialan/electron-window-manager/issues"
+    },
     "homepage": "https://github.com/hialan/electron-window-manager#readme"
   },
   "packageStatus": 200,
@@ -124,5 +131,6 @@
   },
   "filename": "hialan___electron-window-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:02:37.799Z"
+  "lastFetchedAt": "2017-05-04T18:02:37.799Z",
+  "packageLastFetchedAt": "2017-05-04T22:02:52.175Z"
 }

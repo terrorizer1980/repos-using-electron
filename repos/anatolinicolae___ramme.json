@@ -192,20 +192,16 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "repository": "anatolinicolae/ramme",
-    "author": "anatolinicolae",
+    "repository": "terkelg/ramme",
+    "author": "Terkel Gjervig",
     "license": "MIT",
     "scripts": {
       "test": "standard",
-      "build": "npm run test && gulp build",
-      "prestart": "gulp",
+      "build": "gulp build",
+      "prestart": "npm run build",
       "start": "electron app",
-      "pack": "npm run build && build --dir --x64",
-      "dist:mac": "npm run build && build --mac --x64",
-      "dist": "npm run build && build -wl --x64",
-      "release:mac": "npm run build && build --mac --x64 --publish always",
-      "release": "npm run build && build -wl --x64 --publish always",
-      "publish": "build/release.sh"
+      "pack": "npm run build && build --dir",
+      "dist": "npm run build && build"
     },
     "build": {
       "appId": "com.terkel.ramme",
@@ -217,24 +213,17 @@
           "deb",
           "AppImage"
         ]
-      },
-      "win": {
-        "target": "nsis"
-      },
-      "files": []
+      }
     },
     "devDependencies": {
-      "babel-core": "^6.18.0",
       "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
-      "copy-webpack-plugin": "^4.0.0",
+      "del": "^2.2.2",
       "electron": "^1.4.5",
-      "electron-builder": "^7.15.2",
-      "gulp": "^3.9.1",
+      "electron-builder": "^11.3.0",
+      "gulp": "github:gulpjs/gulp#4.0",
       "gulp-babel": "^6.1.2",
-      "gulp-inject-svg": "^0.1.9",
-      "gulp-sass": "^2.3.2",
-      "standard": "^8.5.0",
-      "webpack": "^1.13.3"
+      "gulp-sass": "^3.1.0",
+      "standard": "^8.5.0"
     },
     "babel": {
       "plugins": [
@@ -268,5 +257,6 @@
   "filename": "anatolinicolae___ramme.json",
   "sourceRepo": "terkelg/ramme",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:21:51.187Z"
+  "lastFetchedAt": "2017-05-04T18:21:51.187Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:01.063Z"
 }

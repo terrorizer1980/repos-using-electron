@@ -79,7 +79,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/willcosgrove/window-resizer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/willcosgrove/window-resizer.git"
+    },
+    "author": "Will Cosgrove",
     "license": "CC0-1.0",
     "homepage": "https://github.com/willcosgrove/window-resizer#readme",
     "devDependencies": {
@@ -117,5 +121,6 @@
   },
   "filename": "willcosgrove___window_resizer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:55:59.148Z"
+  "lastFetchedAt": "2017-05-04T20:55:59.148Z",
+  "packageLastFetchedAt": "2017-05-05T09:36:12.498Z"
 }

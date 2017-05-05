@@ -85,12 +85,19 @@
       "wipe": "bash scripts/wipe.sh",
       "wipe-all": "npm run wipe; sudo rm -R -f web_*"
     },
-    "repository": "https://github.com/seanbuscay/electron-drupal",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/seanbuscay/electron-drupal.git"
+    },
+    "bugs": {
+      "url": "https://github.com/seanbuscay/electron-drupal/issues"
+    },
     "keywords": [
       "Electron",
       "Drupal",
       "php"
     ],
+    "author": "Sean Buscay",
     "license": "MIT",
     "homepage": "http://seanbuscay.com",
     "devDependencies": {
@@ -128,5 +135,6 @@
   },
   "filename": "seanbuscay___electron-drupal.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:47.915Z"
+  "lastFetchedAt": "2017-05-04T17:41:47.915Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:41.946Z"
 }

@@ -91,6 +91,7 @@
       "build-electron": "NODE_ENV=production webpack -p --progress --colors && electron .",
       "start-server": "nodemon server/server.js"
     },
+    "author": "Alexandre Toudic, Jeremie Drazic, Robin Delaporte",
     "license": "MIT",
     "devDependencies": {
       "autoprefixer": "^6.3.5",
@@ -180,5 +181,6 @@
   },
   "filename": "Atma-project___starter-web.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:50:39.956Z"
+  "lastFetchedAt": "2017-05-04T19:50:39.956Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:19.411Z"
 }

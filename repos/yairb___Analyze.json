@@ -74,13 +74,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "Analayze",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -111,5 +118,6 @@
   },
   "filename": "yairb___Analyze.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:35:52.322Z"
+  "lastFetchedAt": "2017-05-04T20:35:52.322Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:34.920Z"
 }

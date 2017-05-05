@@ -178,17 +178,8 @@
       "app": "node bin/npm-gui-app"
     },
     "repository": {
-      "user": "q-nick",
-      "repo": "npm-gui",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/q-nick/npm-gui/tarball/master",
-      "clone_url": "https://github.com/q-nick/npm-gui",
-      "https_url": "https://github.com/q-nick/npm-gui",
-      "travis_url": "https://travis-ci.org/q-nick/npm-gui",
-      "zip_url": "https://github.com/q-nick/npm-gui/archive/master.zip",
-      "api_url": "https://api.github.com/repos/q-nick/npm-gui"
+      "type": "git",
+      "url": "git+https://github.com/q-nick/npm-gui.git"
     },
     "keywords": [
       "gui",
@@ -201,7 +192,11 @@
       "installer",
       "console"
     ],
+    "author": "Paweł Stefański",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/q-nick/npm-gui/issues"
+    },
     "homepage": "https://github.com/q-nick/npm-gui#readme",
     "devDependencies": {
       "angular": "^1.5.5",
@@ -277,5 +272,6 @@
   "svnUrl": "https://github.com/bnb/npm-gui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:54:26.327Z"
+  "lastFetchedAt": "2017-05-04T19:54:26.327Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:41.998Z"
 }

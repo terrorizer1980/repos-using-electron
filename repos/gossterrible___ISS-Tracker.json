@@ -74,11 +74,18 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Bahati Boniface",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.6"
     },
-    "repository": "https://github.com/gossterrible/ISS-Tracker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gossterrible/ISS-Tracker.git"
+    },
+    "bugs": {
+      "url": "https://github.com/gossterrible/ISS-Tracker/issues"
+    },
     "homepage": "https://github.com/gossterrible/ISS-Tracker#readme"
   },
   "packageStatus": 200,
@@ -106,5 +113,6 @@
   },
   "filename": "gossterrible___ISS-Tracker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:15.377Z"
+  "lastFetchedAt": "2017-05-04T20:48:15.377Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:54.422Z"
 }

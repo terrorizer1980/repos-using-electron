@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "Ultimirror",
-    "version": "0.7.3",
+    "version": "0.7.4",
     "license": "GPL-3.0",
     "description": "Ultimirror",
     "main": "main.js",
@@ -81,9 +81,12 @@
       "prepublish": "gulp release",
       "start": "electron --enable-logging main.js",
       "debug": "electron --enable-logging main.js -w -d",
-      "development": "npm run debug"
+      "development": "gulp --development && electron --enable-logging main.js -w -d"
     },
-    "repository": "https://github.com/dannyakakong/ultimirror",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dannyakakong/ultimirror.git"
+    },
     "keywords": [
       "Ultimirror",
       "smartmirror",
@@ -94,7 +97,15 @@
       "angular",
       "dashboard"
     ],
+    "author": {
+      "name": "Danny Allen / Wonderscore Ltd",
+      "email": "me@dannya.com",
+      "url": "http://dannya.com/"
+    },
     "homepage": "https://github.com/dannyakakong/ultimirror",
+    "bugs": {
+      "url": "https://github.com/dannyakakong/ultimirror/issues"
+    },
     "dependencies": {
       "class.extend": "^0.9.2",
       "electron-prebuilt": "^0.36.0",
@@ -150,5 +161,6 @@
   },
   "filename": "dannyakakong___Ultimirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:14.298Z"
+  "lastFetchedAt": "2017-05-04T21:31:14.298Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:41.704Z"
 }

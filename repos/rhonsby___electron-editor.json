@@ -67,5 +67,24 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:29:50.456Z"
+  "lastFetchedAt": "2017-05-04T20:29:50.456Z",
+  "packageJSON": {
+    "name": "electron-workshop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.4.15",
+      "monaco-loader": "^0.8.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T23:08:23.510Z"
 }

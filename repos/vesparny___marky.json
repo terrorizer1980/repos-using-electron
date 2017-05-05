@@ -77,7 +77,11 @@
     "private": true,
     "version": "0.0.1",
     "description": "A Markdown editor",
+    "author": "Alessandro Arnodo <alessandro@arnodo.net> (https://alessandro.arnodo.net)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vesparny/marky/issues"
+    },
     "homepage": "https://github.com/vesparny/marky",
     "main": "index.js",
     "scripts": {
@@ -171,5 +175,6 @@
   },
   "filename": "vesparny___marky.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:32.074Z"
+  "lastFetchedAt": "2017-05-04T21:30:32.074Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:50.673Z"
 }

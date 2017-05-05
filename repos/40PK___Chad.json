@@ -90,7 +90,10 @@
       "lint": "eslint src/**/*.js src/**/*.jsx",
       "start": "electron ./package"
     },
-    "repository": "https://github.com/Perkovec/Chad",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Perkovec/Chad.git"
+    },
     "keywords": [
       "Telegram",
       "tool",
@@ -99,6 +102,10 @@
       "Electron"
     ],
     "license": "GNU GPLv3",
+    "author": "Perkovec",
+    "bugs": {
+      "url": "https://github.com/Perkovec/Chad/issues"
+    },
     "homepage": "https://github.com/Perkovec/Chad#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.18.0",
@@ -163,5 +170,6 @@
   },
   "filename": "40PK___Chad.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:18:46.609Z"
+  "lastFetchedAt": "2017-05-04T14:18:46.609Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:23.044Z"
 }

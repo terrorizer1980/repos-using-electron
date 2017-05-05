@@ -80,10 +80,17 @@
     "scripts": {
       "test": "electron ."
     },
-    "repository": "https://github.com/DemSquirrel/Project-Tsuki",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DemSquirrel/Project-Tsuki.git"
+    },
+    "author": "Lord_Squirrel",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.3.4"
+    },
+    "bugs": {
+      "url": "https://github.com/DemSquirrel/Project-Tsuki/issues"
     },
     "homepage": "https://github.com/DemSquirrel/Project-Tsuki#readme",
     "dependencies": {
@@ -117,5 +124,6 @@
   },
   "filename": "DemSquirrel___Project-Tsuki.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:08.303Z"
+  "lastFetchedAt": "2017-05-04T17:54:08.303Z",
+  "packageLastFetchedAt": "2017-05-05T14:34:46.074Z"
 }

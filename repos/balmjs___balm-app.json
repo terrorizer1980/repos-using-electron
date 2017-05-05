@@ -91,7 +91,15 @@
     "version": "0.0.0",
     "description": "Write Once, Build Anywhere.",
     "license": "MIT",
-    "repository": "https://github.com/balmjs/balm-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/balmjs/balm-app.git"
+    },
+    "author": {
+      "name": "Elf-mousE",
+      "email": "ifmouz@gmail.com",
+      "url": "http://elf-mouse.me/"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -147,5 +155,6 @@
   },
   "filename": "balmjs___balm-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:48:18.898Z"
+  "lastFetchedAt": "2017-05-04T14:48:18.898Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:25.662Z"
 }

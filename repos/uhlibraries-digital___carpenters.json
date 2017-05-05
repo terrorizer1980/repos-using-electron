@@ -87,9 +87,16 @@
   "status": 200,
   "packageJSON": {
     "name": "carpenters",
-    "description": "Ingest utility for Archivematica",
-    "version": "1.0.0-beta.1",
-    "repository": "https://github.com/uhlibraries-digital/carpenters",
+    "description": "Digital preservation ingest utility",
+    "version": "2.0.0-alpha.2",
+    "author": {
+      "name": "Sean Watkins",
+      "email": "slwatkins@uh.edu"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/uhlibraries-digital/carpenters"
+    },
     "license": "MIT",
     "productName": "Carpenters",
     "appBundleId": "Carpenters.app",
@@ -98,12 +105,13 @@
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
-      "electron": "npm run build && electron app",
+      "electron": "npm run build && NODE_ENV=development electron app",
       "package": "npm run build && babel-node scripts/package.js --platform=all",
       "package:osx": "npm run build && babel-node scripts/package.js --platform=darwin",
       "package:win": "npm run build && babel-node scripts/package.js --platform=win32",
       "package:linux": "npm run build && babel-node scripts/package.js --platform=linux",
-      "postinstall": "typings install"
+      "postinstall": "typings install",
+      "start": "npm run electron"
     },
     "devDependencies": {
       "@angular/common": "2.0.0",
@@ -115,19 +123,21 @@
       "@angular/platform-browser-dynamic": "2.0.0",
       "@angular/router": "3.0.0",
       "@angular/upgrade": "2.0.0",
-      "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.6",
+      "@ng-bootstrap/ng-bootstrap": "1.0.0-alpha.7",
       "babel": "^5.8.29",
       "core-js": "^2.4.1",
       "csv-stringify": "^1.0.2",
       "denodeify": "^1.2.1",
-      "electron-packager": "^7.3.0",
-      "electron-prebuilt": "^1.3.4",
+      "electron-packager": "8.5.1",
+      "electron": "1.4.13",
       "es6-shim": "^0.34.0",
       "json-loader": "^0.5.4",
       "lodash": "^3.10.1",
       "minimist": "^1.2.0",
+      "mime": "^1.3.4",
       "mkdirp": "^0.5.1",
       "node-sass": "^3.8.0",
+      "random-seed": "^0.3.0",
       "raw-loader": "^0.5.1",
       "reflect-metadata": "^0.1.3",
       "rimraf": "^2.5.2",
@@ -142,8 +152,8 @@
       "xlsx": "^0.8.0"
     },
     "dependencies": {
-      "bootstrap": "^4.0.0-alpha.4",
-      "font-awesome": "^4.6.3",
+      "bootstrap": "4.0.0-alpha.4",
+      "font-awesome": "4.6.3",
       "zone.js": "^0.6.13"
     }
   },
@@ -172,5 +182,6 @@
   },
   "filename": "uhlibraries-digital___carpenters.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:41.786Z"
+  "lastFetchedAt": "2017-05-04T14:55:41.786Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:09.918Z"
 }

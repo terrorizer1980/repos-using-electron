@@ -80,17 +80,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "gmorklla",
-      "repo": "electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/gmorklla/electron/tarball/master",
-      "clone_url": "https://github.com/gmorklla/electron",
-      "https_url": "https://github.com/gmorklla/electron",
-      "travis_url": "https://travis-ci.org/gmorklla/electron",
-      "zip_url": "https://github.com/gmorklla/electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/gmorklla/electron"
+      "type": "git",
+      "url": "git+https://github.com/gmorklla/electron.git"
     },
     "keywords": [
       "Electron",
@@ -98,6 +89,7 @@
       "start",
       "tutorial"
     ],
+    "author": "Alejandro RV",
     "homepage": "https://github.com/gmorklla/electron.git#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -135,5 +127,6 @@
   "filename": "gmorklla___electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:41.983Z"
+  "lastFetchedAt": "2017-05-04T21:17:41.983Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:33.071Z"
 }

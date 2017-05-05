@@ -81,8 +81,15 @@
       "build": "webpack --progress --colors  --watch && electron src",
       "dev": "webpack-dev-server --progress --colors"
     },
-    "repository": "https://github.com/kanomthai/react-webapp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kanomthai/react-webapp.git"
+    },
+    "author": "Taweechai Yuenyang",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kanomthai/react-webapp/issues"
+    },
     "homepage": "https://github.com/kanomthai/react-webapp#readme",
     "dependencies": {
       "Q": "0.0.1",
@@ -152,5 +159,6 @@
   },
   "filename": "kanomthai___react-webapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:06:47.442Z"
+  "lastFetchedAt": "2017-05-04T18:06:47.442Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:09.995Z"
 }

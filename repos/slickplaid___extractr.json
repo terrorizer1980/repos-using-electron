@@ -74,8 +74,15 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/slickplaid/extractr",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/slickplaid/extractr.git"
+    },
+    "author": "Evan Johnson <evan@slicklabs.io>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/slickplaid/extractr/issues"
+    },
     "homepage": "https://github.com/slickplaid/extractr#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.7"
@@ -106,5 +113,6 @@
   },
   "filename": "slickplaid___extractr.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:42.452Z"
+  "lastFetchedAt": "2017-05-04T15:20:42.452Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:55.899Z"
 }

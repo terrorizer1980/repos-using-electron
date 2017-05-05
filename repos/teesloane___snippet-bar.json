@@ -61,8 +61,15 @@
       "build-mac": "electron-packager . 'Snippet Bar' --platform=darwin --arch=x64 --out=./builds --version=0.36.2 --overwrite --icon='./app/static/img/icon' --prune --ignore='./docs' --ignore='./builds'",
       "build-linux": "electron-packager . 'Snippet Bar' --platform=linux --arch=x64 --out=./builds --version=0.36.2 --overwrite --prune --ignore='./docs' --ignore='./builds'"
     },
-    "repository": "https://github.com/teesloane/snippet-bar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/teesloane/snippet-bar"
+    },
+    "author": "Tyler and Bronek",
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/teesloane/snippet-bar/issues"
+    },
     "homepage": "https://github.com/teesloane/snippet-bar#readme",
     "dependencies": {
       "clipboard": "^1.5.5",
@@ -134,5 +141,6 @@
   "svnUrl": "https://github.com/teesloane/snippet-bar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:26:36.217Z"
+  "lastFetchedAt": "2017-05-04T05:26:36.217Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:35.984Z"
 }

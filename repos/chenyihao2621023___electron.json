@@ -67,5 +67,38 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:29:56.711Z"
+  "lastFetchedAt": "2017-05-04T05:29:56.711Z",
+  "packageJSON": {
+    "name": "ntalker",
+    "version": "1.0.0",
+    "description": "ntalker-chart-web",
+    "main": "main.js",
+    "scripts": {
+      "start:client": "electron ./",
+      "package:darwin": "electron-packager ./ Ntalker --platform=darwin --arch=x64 --version=1.4.0 --out=./ --asar --overwrite --icon=./windows/image/XiaoNeng.icns",
+      "package:win": "electron-packager ./ Ntalker --platform=win32 --arch=x64  --version=1.4.0 --out=./  --overwrite --ignore=node_modules --icon=./windows/image/XiaoNeng.ico",
+      "package:linux": "electron-packager ./ Ntalker --platform=linux --arch=x64 --version=1.4.0 --out=./ --asar --overwrite --ignore=node_modules --icon=./windows/image/XiaoNeng.png",
+      "package": "npm run package:darwin && npm run package:win && npm run package:linux"
+    },
+    "repository": {
+      "type": "git",
+      "url": ""
+    },
+    "dependencies": {
+      "electron": "^1.4.0",
+      "electron-packager": "^5.2.1",
+      "grunt": "^1.0.1",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-electron-installer": "^2.1.0"
+    },
+    "devDependencies": {
+      "grunt": "^1.0.1",
+      "grunt-contrib-jshint": "^1.1.0",
+      "grunt-electron-installer": "^2.1.0"
+    },
+    "author": "<admin@xiaoneng.cn> (http://xiaoneng.gitbook.io/)",
+    "license": "ISC"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:19:38.983Z"
 }

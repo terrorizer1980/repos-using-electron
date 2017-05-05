@@ -53,8 +53,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ykks2uai/HarmonyClock",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ykks2uai/HarmonyClock.git"
+    },
+    "author": "ykks2uai",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ykks2uai/HarmonyClock/issues"
+    },
     "homepage": "https://github.com/ykks2uai/HarmonyClock#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -108,5 +115,6 @@
   },
   "filename": "ykks2uai___HarmonyClock.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:15.403Z"
+  "lastFetchedAt": "2017-05-04T20:43:15.403Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:09.424Z"
 }

@@ -166,6 +166,7 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
+    "author": "Jake Luer <jake@alogicalparadox.com>",
     "name": "matcha",
     "description": "Benchmark your code.",
     "keyword": [
@@ -175,17 +176,8 @@
     ],
     "version": "0.7.0",
     "repository": {
-      "user": "logicalparadox",
-      "repo": "matcha",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/logicalparadox/matcha/tarball/master",
-      "clone_url": "https://github.com/logicalparadox/matcha",
-      "https_url": "https://github.com/logicalparadox/matcha",
-      "travis_url": "https://travis-ci.org/logicalparadox/matcha",
-      "zip_url": "https://github.com/logicalparadox/matcha/archive/master.zip",
-      "api_url": "https://api.github.com/repos/logicalparadox/matcha"
+      "type": "git",
+      "url": "git://github.com/logicalparadox/matcha.git"
     },
     "main": "index",
     "bin": {
@@ -248,5 +240,6 @@
   "svnUrl": "https://github.com/Hypercubed/matcha",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:57:16.694Z"
+  "lastFetchedAt": "2017-05-04T20:57:16.694Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:57.007Z"
 }

@@ -101,14 +101,21 @@
       "start-app": "electron src/scripts/main.js",
       "start-webpack": "webpack --progress --profile --colors --display-error-details --display-cached"
     },
-    "repository": "https://github.com/mingxinstar/Electron-Samples-In-One-Page",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mingxinstar/Electron-Samples-In-One-Page.git"
+    },
     "keywords": [
       "electron",
       "react",
       "material-ui",
       "demos"
     ],
+    "author": "mingxin.huang",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mingxinstar/Electron-Samples-In-One-Page/issues"
+    },
     "homepage": "https://github.com/mingxinstar/Electron-Samples-In-One-Page#readme"
   },
   "packageStatus": 200,
@@ -136,5 +143,6 @@
   },
   "filename": "mingxinstar___Electron-Samples-In-One-Page.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:32.291Z"
+  "lastFetchedAt": "2017-05-04T15:19:32.291Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:11.983Z"
 }

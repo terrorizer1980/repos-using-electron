@@ -86,6 +86,10 @@
       "messaging",
       "cryptography"
     ],
+    "author": "Oliver Nordbjerg <oliver@pfmedia.dk>",
+    "bugs": {
+      "url": "https://github.com/toxin-im/toxin/issues"
+    },
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.25.1-1",
@@ -127,5 +131,6 @@
   },
   "filename": "azuya___toxin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:16.569Z"
+  "lastFetchedAt": "2017-05-04T20:17:16.569Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:12.622Z"
 }

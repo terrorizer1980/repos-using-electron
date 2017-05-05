@@ -112,8 +112,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Ed Summers",
+      "email": "ehs@pobox.com",
+      "url": "https://github.com/docnow/hydrator"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/docnow/hydrator/issues"
+    },
     "keywords": [
       "twitter",
       "data"
@@ -226,5 +237,6 @@
   },
   "sourceRepo": "DocNow/hydrator",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:15.870Z"
+  "lastFetchedAt": "2017-05-04T19:38:15.870Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:21.532Z"
 }

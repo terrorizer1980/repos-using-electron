@@ -55,7 +55,11 @@
     "name": "pokemon-go-stats",
     "version": "1.2.0",
     "description": "Pokemon Go IV Calculator",
-    "repository": "https://github.com/hzeroo/electron-angular-webpack-example",
+    "author": "hzero <edusvh@gmail.com",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hzeroo/electron-angular-webpack-example"
+    },
     "scripts": {
       "build-main": "webpack --config webpack.config.electron-main.js --progress --profile -d",
       "build-renderer": "webpack --config webpack.config.electron-renderer.js --progress --profile -d",
@@ -147,5 +151,6 @@
   },
   "filename": "hzeroo___pokemon-go-stats.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:11.874Z"
+  "lastFetchedAt": "2017-05-04T05:08:11.874Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:05.555Z"
 }

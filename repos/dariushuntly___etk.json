@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "ETK",
-    "version": "0.0.4",
+    "version": "0.0.8",
     "description": "Electron toolkit",
     "main": "etk.js",
     "scripts": {
@@ -78,9 +78,13 @@
       "toolkit",
       "ui"
     ],
+    "author": "Darius Huntly",
     "license": "CC0-1.0",
     "homepage": "https://github.com/dariushuntly/etk/issues",
     "repository": "git://github.com/dariushuntly/etk.git",
+    "bugs": {
+      "url": "https://github.com/dariushuntly/etk/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     },
@@ -89,10 +93,11 @@
       "castv2-client": "^1.1.2",
       "mdns-js": "^0.1.5",
       "eventemitter2": "1.0.3",
-      "lleol": "^0.0.2",
+      "lleol": "^0.0.3",
       "path": "^0.12.7",
       "less": "^2.7.1",
-      "masonry-layout": "4.1.0"
+      "masonry-layout": "4.1.0",
+      "callsite": "1.0.0"
     }
   },
   "packageStatus": 200,
@@ -120,5 +125,6 @@
   },
   "filename": "dariushuntly___etk.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:06.905Z"
+  "lastFetchedAt": "2017-05-04T20:25:06.905Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:42.648Z"
 }

@@ -53,10 +53,14 @@
   "status": 200,
   "packageJSON": {
     "name": "testcafe-browser-provider-electron",
-    "version": "1.0.0",
-    "description": "electron TestCafe browser provider plugin.",
+    "version": "0.0.1",
+    "description": "TestCafe browser provider plugin for testing applications built with Electron.",
     "repository": "https://github.com/DevExpress/testcafe-browser-provider-electron",
     "homepage": "https://github.com/DevExpress/testcafe-browser-provider-electron",
+    "author": {
+      "name": "Developer Express Inc.",
+      "url": "https://devexpress.com"
+    },
     "main": "lib/index.js",
     "files": [
       "lib",
@@ -70,19 +74,21 @@
     "keywords": [
       "testcafe",
       "browser provider",
-      "plugin"
+      "plugin",
+      "electron"
     ],
     "license": "MIT",
     "dependencies": {
       "babel-runtime": "^6.11.6",
-      "cross-spawn": "^4.0.0",
-      "electron": "^1.3.4",
-      "express": "^4.14.0",
-      "lodash": "^4.15.0",
+      "os-family": "^1.0.0",
+      "pify": "^2.3.0",
       "pinkie": "^2.0.4",
       "proxyquire": "^1.7.10",
-      "server-destroy": "^1.0.1",
       "testcafe-browser-tools": "^1.0.0"
+    },
+    "peerDependencies": {
+      "electron": "*",
+      "testcafe": "*"
     },
     "devDependencies": {
       "babel-eslint": "^6.1.2",
@@ -91,15 +97,14 @@
       "babel-preset-es2015": "^6.13.2",
       "babel-preset-es2015-loose": "^7.0.0",
       "babel-preset-stage-3": "^6.11.0",
-      "chai": "^3.5.0",
       "del": "^2.0.0",
+      "electron": "*",
       "gulp": "^3.9.0",
       "gulp-babel": "^6.1.2",
       "gulp-eslint": "^3.0.1",
       "node-version": "^1.0.0",
-      "os-family": "^1.0.0",
       "publish-please": "^2.1.4",
-      "testcafe": "^0.3.0-alpha",
+      "testcafe": "*",
       "tmp": "0.0.28"
     }
   },
@@ -148,5 +153,6 @@
   },
   "filename": "AndreyBelym___testcafe-browser-provider-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:54.740Z"
+  "lastFetchedAt": "2017-05-04T14:52:54.740Z",
+  "packageLastFetchedAt": "2017-05-05T15:10:52.521Z"
 }

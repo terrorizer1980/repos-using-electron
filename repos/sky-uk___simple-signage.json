@@ -111,14 +111,21 @@
         "author": "rickyH"
       }
     },
-    "repository": "https://github.com/sky-uk/simple-signage",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sky-uk/simple-signage.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/sky-uk/simple-signage/issues"
+    },
     "homepage": "https://github.com/sky-uk/simple-signage#readme",
     "devDependencies": {
       "concurrently": "^3.1.0",
@@ -171,5 +178,6 @@
   },
   "filename": "sky-uk___simple-signage.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:07:14.078Z"
+  "lastFetchedAt": "2017-05-03T20:07:14.078Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:57.990Z"
 }

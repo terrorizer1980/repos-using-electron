@@ -176,19 +176,14 @@
       "package": "$(npm bin)/gulp package"
     },
     "repository": {
-      "user": "hirokidaichi",
-      "repo": "guiflow",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/hirokidaichi/guiflow/tarball/master",
-      "clone_url": "https://github.com/hirokidaichi/guiflow",
-      "https_url": "https://github.com/hirokidaichi/guiflow",
-      "travis_url": "https://travis-ci.org/hirokidaichi/guiflow",
-      "zip_url": "https://github.com/hirokidaichi/guiflow/archive/master.zip",
-      "api_url": "https://api.github.com/repos/hirokidaichi/guiflow"
+      "type": "git",
+      "url": "https://github.com/hirokidaichi/guiflow.git"
     },
+    "author": "hirokidaichi",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hirokidaichi/guiflow/issues"
+    },
     "homepage": "https://github.com/hirokidaichi/guiflow",
     "dependencies": {
       "dialogs": "^1.1.12",
@@ -252,5 +247,6 @@
   "filename": "eneim___guiflow.json",
   "sourceRepo": "hirokidaichi/guiflow",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:01.963Z"
+  "lastFetchedAt": "2017-05-04T05:08:01.963Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:14.747Z"
 }

@@ -60,6 +60,7 @@
       "build:backend:watch": "babel src --out-dir=build -s --watch",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Sam Marshall",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.1.21",
@@ -128,5 +129,6 @@
   "svnUrl": "https://github.com/sjmarshy/befalls",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:38:27.371Z"
+  "lastFetchedAt": "2017-05-04T17:38:27.371Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:11.798Z"
 }

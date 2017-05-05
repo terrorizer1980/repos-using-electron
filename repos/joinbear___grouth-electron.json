@@ -85,6 +85,7 @@
       "lottery",
       "tutorial"
     ],
+    "author": "qiaoni",
     "license": "MIT",
     "homepage": "",
     "devDependencies": {
@@ -92,6 +93,7 @@
     },
     "dependencies": {
       "fs-extra": "^0.30.0",
+      "intro.js": "^2.4.0",
       "jquery": "^2.2.4",
       "node-xlsx": "^0.7.1"
     }
@@ -121,5 +123,6 @@
   },
   "filename": "joinbear___grouth-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:40:31.686Z"
+  "lastFetchedAt": "2017-05-04T17:40:31.686Z",
+  "packageLastFetchedAt": "2017-05-05T14:34:14.999Z"
 }

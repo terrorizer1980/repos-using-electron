@@ -59,8 +59,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/malsf21/awesome-suite",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/malsf21/awesome-suite.git"
+    },
+    "author": "Matthew Wang",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/malsf21/awesome-suite/issues"
+    },
     "homepage": "https://github.com/malsf21/awesome-suite#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -111,5 +118,6 @@
   "svnUrl": "https://github.com/malsf21/awesome-suite",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:34:35.831Z"
+  "lastFetchedAt": "2017-05-04T17:34:35.831Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:37.944Z"
 }

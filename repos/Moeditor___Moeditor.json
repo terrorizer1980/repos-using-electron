@@ -74,12 +74,19 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/Menci/Moeditor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Menci/Moeditor.git"
+    },
     "keywords": [
       "markdown",
       "editor"
     ],
+    "author": "Menci",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Menci/Moeditor/issues"
+    },
     "homepage": "https://github.com/Menci/Moeditor#readme",
     "dependencies": {
       "biu.js": "^1.2.0",
@@ -149,5 +156,6 @@
   "svnUrl": "https://github.com/Moeditor/Moeditor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:53:20.166Z"
+  "lastFetchedAt": "2017-05-04T17:53:20.166Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:20.977Z"
 }

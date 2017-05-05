@@ -73,7 +73,13 @@
     "homepage": "https://github.com/firejune/liquid",
     "main": "main.js",
     "jsnext:main": "src/index.js",
-    "repository": "https://github.com/firejune/liquid",
+    "bugs": {
+      "url": "https://github.com/firejune/liquid/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/firejune/liquid.git"
+    },
     "dependencies": {
       "babel-runtime": "^6.5.0",
       "configstore": "^1.4.0",
@@ -151,5 +157,6 @@
   },
   "filename": "firejune___liquid.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:20.577Z"
+  "lastFetchedAt": "2017-05-04T04:57:20.577Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:03.728Z"
 }

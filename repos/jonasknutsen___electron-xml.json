@@ -73,12 +73,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/jonasknutsen/electron-xml",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jonasknutsen/electron-xml.git"
+    },
     "keywords": [
       "XML",
       "Electron"
     ],
+    "author": "Jonas Knutsen",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jonasknutsen/electron-xml/issues"
+    },
     "homepage": "https://github.com/jonasknutsen/electron-xml#readme",
     "dependencies": {
       "electron-prebuilt": "^1.3.4",
@@ -110,5 +117,6 @@
   },
   "filename": "jonasknutsen___electron-xml.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:22.856Z"
+  "lastFetchedAt": "2017-05-04T21:12:22.856Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:42.117Z"
 }

@@ -53,14 +53,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/tholman/the-internet",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tholman/the-internet.git"
+    },
     "keywords": [
       "the internet",
       "internet",
       "everything",
       "god mode"
     ],
+    "author": "Tim Holman <timothy.w.holman@gmail.com> (http://tholman.com/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tholman/the-internet/issues"
+    },
     "homepage": "https://github.com/tholman/the-internet",
     "dependencies": {
       "101": "latest",
@@ -1852,5 +1859,6 @@
   },
   "filename": "tholman___the-internet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:34:10.004Z"
+  "lastFetchedAt": "2017-05-04T19:34:10.004Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:08.104Z"
 }

@@ -71,27 +71,38 @@
     "description": "A minimal Electron application",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "dev": "webpack --progress --colors --watch"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "awesome-typescript-loader": "^1.1.1",
       "electron-prebuilt": "^1.2.0",
-      "typescript": "^1.8.10",
+      "typescript": "^2.1.4",
       "webpack": "^1.13.1"
     },
     "dependencies": {
-      "react": "^15.1.0",
-      "react-dom": "^15.1.0",
-      "react-router": "^2.5.0"
+      "@types/react": "^0.14.49",
+      "@types/react-dom": "^0.14.18",
+      "@types/react-router": "^2.0.39",
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-router": "^3.0.0"
     }
   },
   "packageStatus": 200,
@@ -119,5 +130,6 @@
   },
   "filename": "adamhammes___typescript-electron-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:45:58.028Z"
+  "lastFetchedAt": "2017-05-04T17:45:58.028Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:42.548Z"
 }

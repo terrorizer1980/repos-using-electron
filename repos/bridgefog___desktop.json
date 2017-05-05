@@ -67,7 +67,14 @@
     "scripts": {},
     "private": true,
     "license": "ISC",
-    "repository": "https://github.com/bridgefog/desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bridgefog/desktop.git"
+    },
+    "author": "",
+    "bugs": {
+      "url": "https://github.com/bridgefog/desktop/issues"
+    },
     "homepage": "https://github.com/bridgefog/desktop",
     "optionalDependencies": {
       "electron-packager": "^5.0.1",
@@ -177,5 +184,6 @@
   "svnUrl": "https://github.com/bridgefog/desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:18:52.168Z"
+  "lastFetchedAt": "2017-05-04T05:18:52.168Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:22.434Z"
 }

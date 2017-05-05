@@ -72,6 +72,7 @@
       "start": "./node_modules/.bin/electron .",
       "release": "./node_modules/.bin/electron-packager $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
     },
+    "author": "javascript-ninjas",
     "devDependencies": {},
     "dependencies": {
       "babel": "^5.8.23",
@@ -132,5 +133,6 @@
   "svnUrl": "https://github.com/javascript-ninjas/monster-player-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:20:22.346Z"
+  "lastFetchedAt": "2017-05-04T21:20:22.346Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:17.080Z"
 }

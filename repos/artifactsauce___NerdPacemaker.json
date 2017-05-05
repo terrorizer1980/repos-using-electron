@@ -62,7 +62,14 @@
       "build": "gulp && ./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
       "pack": "gulp && electron-packager ./ NerdPacemaker --overwrite --platform=darwin --arch=x64 --version=0.29.2 && rm -rf NerdPacemaker-*/NerdPacemaker.app/Contents/Resources/app/{app,bower_components,node_modules,LICENSE.md,README.md,bower.json,gulpfile.js,wct.conf.json}"
     },
-    "repository": "https://github.com/artifactsauce/NerdPacemaker",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:artifactsauce/NerdPacemaker.git"
+    },
+    "author": "Kenji Akiyama",
+    "bugs": {
+      "url": "https://github.com/artifactsauce/NerdPacemaker/issues"
+    },
     "homepage": "https://github.com/artifactsauce/NerdPacemaker",
     "private": true,
     "dependencies": {
@@ -150,5 +157,6 @@
   },
   "filename": "artifactsauce___NerdPacemaker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:29:58.710Z"
+  "lastFetchedAt": "2017-05-04T05:29:58.710Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:26.914Z"
 }

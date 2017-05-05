@@ -54,6 +54,7 @@
       "start": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Kyle Smith",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.36.4",
@@ -105,5 +106,6 @@
   },
   "filename": "smith-kyle___electron-background-process-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:31.629Z"
+  "lastFetchedAt": "2017-05-04T05:14:31.629Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:08.990Z"
 }

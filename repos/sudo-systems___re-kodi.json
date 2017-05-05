@@ -70,6 +70,7 @@
     "version": "0.1.1",
     "main": "index.js",
     "description": "A cross platform desktop remote for Kodi/Xbmc",
+    "author": "Bram van Oploo <bram@sudo-systems.com>",
     "contributors": [
       {
         "name": "Bram van Oploo",
@@ -104,7 +105,13 @@
       "wallpaper": "^1.1.0"
     },
     "license": "GPL-2.0",
-    "repository": "https://github.com/sudo-systems/re-kodi",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sudo-systems/re-kodi.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sudo-systems/re-kodi/issues"
+    },
     "keywords": [
       "kodi",
       "xbmc",
@@ -187,5 +194,6 @@
   },
   "filename": "sudo-systems___re-kodi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:21.640Z"
+  "lastFetchedAt": "2017-05-04T05:06:21.640Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:42.082Z"
 }

@@ -76,6 +76,7 @@
       "lint": "eslint app/**/*.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "hawkup",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.11.4",
@@ -130,5 +131,6 @@
   },
   "filename": "hawkup___play-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:29.149Z"
+  "lastFetchedAt": "2017-05-04T05:32:29.149Z",
+  "packageLastFetchedAt": "2017-05-04T22:03:41.281Z"
 }

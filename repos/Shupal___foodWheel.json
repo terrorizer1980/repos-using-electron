@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Shupal/foodWheel",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Shupal/foodWheel.git"
+    },
+    "author": "Stefan Höfler",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Shupal/foodWheel/issues"
+    },
     "homepage": "https://github.com/Shupal/foodWheel#readme",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -110,5 +117,6 @@
   },
   "filename": "Shupal___foodWheel.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:28:58.412Z"
+  "lastFetchedAt": "2017-05-04T20:28:58.412Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:00.104Z"
 }

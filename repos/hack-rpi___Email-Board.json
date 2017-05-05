@@ -87,12 +87,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/hack-rpi/Email-Board",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hack-rpi/Email-Board.git"
+    },
     "keywords": [
       "mongodb",
       "mailgun"
     ],
+    "author": "Matt Poegel",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hack-rpi/Email-Board/issues"
+    },
     "homepage": "https://github.com/hack-rpi/Email-Board#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5",
@@ -125,5 +132,6 @@
   },
   "filename": "hack-rpi___Email-Board.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:14.014Z"
+  "lastFetchedAt": "2017-05-04T14:49:14.014Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:01.914Z"
 }

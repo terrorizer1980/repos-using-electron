@@ -58,6 +58,11 @@
     "description": "An electron powered jekyll-like static site generator",
     "license": "MIT",
     "repository": "pmarsceill/electrkyll",
+    "author": {
+      "name": "Patrick Marsceill",
+      "email": "pmarsceill@github.com",
+      "url": "patrickmarsceill.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -133,5 +138,6 @@
   "svnUrl": "https://github.com/pmarsceill/electrkyll",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:52:55.762Z"
+  "lastFetchedAt": "2017-05-04T14:52:55.762Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:51.685Z"
 }

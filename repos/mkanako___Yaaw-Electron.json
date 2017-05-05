@@ -76,12 +76,19 @@
       "win-bundle": "electron-packager . Yaaw-Electron --overwrite --platform=win32 --arch=ia32  --icon=icon.ico",
       "linux-64-bundle": "electron-packager . Yaaw-Electron --overwrite --platform=linux --arch=x64 ignore='node_modules/(electron-packager|electron-prebuilt)'"
     },
-    "repository": "https://github.com/mkanako/Yaaw-Electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mkanako/Yaaw-Electron.git"
+    },
     "keywords": [
       "Electron",
       "Yaaw"
     ],
+    "author": "mkanako",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mkanako/Yaaw-Electron/issues"
+    },
     "homepage": "https://github.com/mkanako/Yaaw-Electron#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -116,5 +123,6 @@
   },
   "filename": "mkanako___Yaaw-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:05.001Z"
+  "lastFetchedAt": "2017-05-04T05:01:05.001Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:52.238Z"
 }

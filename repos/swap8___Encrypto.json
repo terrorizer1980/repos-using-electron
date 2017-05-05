@@ -67,5 +67,22 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:56:16.638Z"
+  "lastFetchedAt": "2017-05-04T17:56:16.638Z",
+  "packageJSON": {
+    "name": "testing",
+    "version": "1.0.0",
+    "description": "new testing",
+    "main": "index.js",
+    "dependencies": {
+      "electron": "^1.4.15"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "swapnil",
+    "license": "ISC"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:42:59.528Z"
 }

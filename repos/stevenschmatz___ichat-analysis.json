@@ -75,8 +75,15 @@
       "start": "$(npm bin)/babel-node src/app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/stevenschmatz/ichat-analysis",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stevenschmatz/ichat-analysis.git"
+    },
+    "author": "Steven Schmatz",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/stevenschmatz/ichat-analysis/issues"
+    },
     "homepage": "https://github.com/stevenschmatz/ichat-analysis#readme",
     "dependencies": {
       "electron": "^1.4.5",
@@ -115,5 +122,6 @@
   },
   "filename": "stevenschmatz___ichat-analysis.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:58.698Z"
+  "lastFetchedAt": "2017-05-04T17:43:58.698Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:43.440Z"
 }

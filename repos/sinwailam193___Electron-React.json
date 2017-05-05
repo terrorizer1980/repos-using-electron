@@ -73,14 +73,21 @@
     "scripts": {
       "start": "webpack --watch & electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -127,5 +134,6 @@
   },
   "filename": "sinwailam193___Electron-React.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:19.908Z"
+  "lastFetchedAt": "2017-05-04T18:04:19.908Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:42.368Z"
 }

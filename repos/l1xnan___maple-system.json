@@ -81,13 +81,20 @@
       "package": "electron-packager ./  OutApp  --platform=win32 --arch=x64 --overwrite --prune",
       "package-quick": "electron-packager ./app  Maple  --platform=win32 --arch=x64 --overwrite --icon=resource/icon/maple_512.ico --ignore='dev-settings'"
     },
-    "repository": "https://github.com/l1xnan/maple-system",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/l1xnan/maple-system.git"
+    },
     "keywords": [
       "Electron",
       "antd",
       "react"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/l1xnan/maple-system.git"
+    },
     "homepage": "https://github.com/l1xnan/maple-system.git",
     "devDependencies": {
       "asar": "^0.12.1",
@@ -158,5 +165,6 @@
   },
   "filename": "l1xnan___maple-system.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:14.027Z"
+  "lastFetchedAt": "2017-05-04T17:36:14.027Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:15.006Z"
 }

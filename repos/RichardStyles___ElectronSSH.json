@@ -76,6 +76,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "rebuild": "electron-rebuild -f -w simple-ssh ping keytar"
     },
+    "author": "Richard Styles",
     "license": "TBD",
     "dependencies": {
       "bootstrap": "3",
@@ -124,5 +125,6 @@
   },
   "filename": "RichardStyles___ElectronSSH.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:49.975Z"
+  "lastFetchedAt": "2017-05-04T15:15:49.975Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:15.220Z"
 }

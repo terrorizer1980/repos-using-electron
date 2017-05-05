@@ -75,8 +75,16 @@
     "name": "SkelEktron",
     "description": "Unofficial Electron Template Application",
     "version": "0.0.4",
+    "author": {
+      "name": "Vito Tardia / BZ Coding",
+      "email": "vito@bzcoding.com",
+      "url": "https://bzcoding.com/"
+    },
     "license": "MIT",
-    "repository": "https://github.com/BZCoding/SkelEktron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BZCoding/SkelEktron.git"
+    },
     "main": "main.js",
     "scripts": {
       "test": "standard && mocha --recursive",
@@ -198,5 +206,6 @@
   },
   "filename": "adunham95___MKDownDun.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:06.840Z"
+  "lastFetchedAt": "2017-05-04T14:20:06.840Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:30.842Z"
 }

@@ -55,6 +55,7 @@
     "name": "link-detective",
     "version": "0.0.1",
     "description": "Detects missing or dead links.",
+    "author": "Mark <mark@remarkablemark.org>",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js",
@@ -71,7 +72,10 @@
       "seo",
       "electron"
     ],
-    "repository": "https://github.com/remarkablemark/link-detective",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/remarkablemark/link-detective"
+    },
     "dependencies": {
       "bootstrap": "^3.3.6",
       "jquery": "^2.2.3",
@@ -131,5 +135,6 @@
   },
   "filename": "remarkablemark___link-detective.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:56.144Z"
+  "lastFetchedAt": "2017-05-04T18:15:56.144Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:05.610Z"
 }

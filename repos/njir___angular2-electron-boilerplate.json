@@ -75,6 +75,7 @@
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
       "electron": "electron app"
     },
+    "author": "njir",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.5",
@@ -118,5 +119,6 @@
   },
   "filename": "njir___angular2-electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:16.226Z"
+  "lastFetchedAt": "2017-05-04T15:26:16.226Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:30.737Z"
 }

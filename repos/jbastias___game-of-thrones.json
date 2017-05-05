@@ -70,6 +70,7 @@
     "name": "game-of-thrones",
     "description": "a game of thrones",
     "version": "0.0.0",
+    "author": "krusty",
     "main": "./app/main.js",
     "scripts": {
       "start": "gulp dev",
@@ -166,5 +167,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:39.633Z"
+  "lastFetchedAt": "2017-05-04T20:17:39.633Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:40.853Z"
 }

@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron . --disable-http-cache --ignore-certificate-errors"
     },
-    "repository": "https://github.com/yamashi/NecroUI",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yamashi/NecroUI.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/yamashi/NecroUI/issues"
+    },
     "homepage": "https://github.com/yamashi/NecroUI/blob/master/README.md",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/yamashi/NecroUI",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:39:22.528Z"
+  "lastFetchedAt": "2017-05-04T17:39:22.528Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:10.435Z"
 }

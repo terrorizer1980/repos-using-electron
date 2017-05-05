@@ -12,6 +12,7 @@
       "release": "gulp release",
       "postinstall": "install-app-deps"
     },
+    "author": "The Codepen Community",
     "license": "MIT",
     "devDependencies": {
       "babel-preset-es2015": "^6.14.0",
@@ -27,6 +28,9 @@
       "gulp-sass": "^2.3.2",
       "gulp-sequence": "^0.4.6",
       "through2": "^2.0.1"
+    },
+    "directories": {
+      "output": "./dist/0.0.1"
     },
     "build": {
       "appId": "com.codepen.app",
@@ -133,5 +137,6 @@
   "license": null,
   "networkCount": 0,
   "subscribersCount": 1,
-  "lastFetchedAt": "2017-05-04T05:03:18.276Z"
+  "lastFetchedAt": "2017-05-04T05:03:18.276Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:56.972Z"
 }

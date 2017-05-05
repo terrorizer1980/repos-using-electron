@@ -75,6 +75,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Gravy",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -117,5 +118,6 @@
   },
   "filename": "HYannick___react-playMe.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:27.521Z"
+  "lastFetchedAt": "2017-05-04T21:21:27.521Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:30.460Z"
 }

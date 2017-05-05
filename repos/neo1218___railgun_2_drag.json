@@ -78,6 +78,11 @@
     "description": "My fantabulous app",
     "license": "MIT",
     "repository": "neo1218/railgun",
+    "author": {
+      "name": "neo1218",
+      "email": "neo1218@yeah.net",
+      "url": "neo1218.github.io/railgun.git"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -135,5 +140,6 @@
   },
   "filename": "neo1218___railgun_2_drag.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:14:12.791Z"
+  "lastFetchedAt": "2017-05-04T18:14:12.791Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:05.426Z"
 }

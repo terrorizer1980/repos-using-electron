@@ -50,8 +50,14 @@
     "version": "0.0.1",
     "description": "Minimal Electron boilerplate",
     "main": "main.js",
-    "repository": "https://github.com/amneacsu/electron-minimal",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/amneacsu/electron-minimal.git"
+    },
     "license": "ISC",
+    "author": {
+      "name": "Andrei Neacșu"
+    },
     "scripts": {
       "start": "electron main.js",
       "package": "electron-packager . Mini --out=./dist --overwrite --platform=darwin --arch=x64 --version=1.0.1"
@@ -106,5 +112,6 @@
   "svnUrl": "https://github.com/amneacsu/electron-minimal",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:44:49.811Z"
+  "lastFetchedAt": "2017-05-04T17:44:49.811Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:04.885Z"
 }

@@ -67,5 +67,57 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:01:25.188Z"
+  "lastFetchedAt": "2017-05-04T20:01:25.188Z",
+  "packageJSON": {
+    "name": "aframevr-editor",
+    "version": "0.1.0",
+    "description": "Desktop editor for A-Frame",
+    "main": "src/index.js",
+    "author": "Konstantin Kostov <me@kvkostov.eu>",
+    "license": "MIT",
+    "scripts": {
+      "start": "electron ."
+    },
+    "eslintConfig": {
+      "extends": [
+        "airbnb-base"
+      ],
+      "env": {
+        "browser": true
+      },
+      "parserOptions": {
+        "ecmaFeatures": {}
+      },
+      "rules": {
+        "semi": [
+          "error",
+          "never"
+        ],
+        "indent": [
+          "error",
+          4
+        ],
+        "class-methods-use-this": "off",
+        "import/no-extraneous-dependencies": [
+          "off"
+        ],
+        "global-require": [
+          "off"
+        ],
+        "func-names": [
+          "warn",
+          "never"
+        ]
+      }
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron": "^1.4.15",
+      "eslint": "^3.16.1",
+      "eslint-config-airbnb-base": "^11.1.0",
+      "eslint-plugin-import": "^2.2.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:09:22.237Z"
 }

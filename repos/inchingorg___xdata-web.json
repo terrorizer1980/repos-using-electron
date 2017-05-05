@@ -83,6 +83,7 @@
       "encode",
       "decode"
     ],
+    "author": "Cody Fei <djohnnyfee@gmail.com>",
     "homepage": "https://github.com/inchingorg/xdata-web",
     "license": "MIT",
     "scripts": {
@@ -219,7 +220,13 @@
       "webpack-md5-hash": "^0.0.5",
       "webpack-merge": "~1.0.1"
     },
-    "repository": "https://github.com/inchingorg/xdata-web",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/inchingorg/xdata-web.git"
+    },
+    "bugs": {
+      "url": "https://github.com/inchingorg/xdata-web/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -250,5 +257,6 @@
   },
   "sourceRepo": "cmelo/angular2-electron-starter",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:14:41.837Z"
+  "lastFetchedAt": "2017-05-04T18:14:41.837Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:57.438Z"
 }

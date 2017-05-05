@@ -77,7 +77,15 @@
     "version": "0.1.0",
     "description": "A simple WhatsApp desktop client",
     "homepage": "https://github.com/chrismou/wapp",
-    "repository": "https://github.com/chrismou/wapp",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/chrismou/wapp.git"
+    },
+    "author": {
+      "name": "Chris Chrisostomou",
+      "email": "dev@mou.me",
+      "url": "https://mou.me"
+    },
     "license": "MIT",
     "main": "app/main.js",
     "scripts": {
@@ -124,5 +132,6 @@
   },
   "filename": "chrismou___wapp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:46.592Z"
+  "lastFetchedAt": "2017-05-04T20:37:46.592Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:51.049Z"
 }

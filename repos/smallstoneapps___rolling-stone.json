@@ -73,11 +73,18 @@
     "scripts": {
       "test": "mocha"
     },
-    "repository": "https://github.com/smallstoneapps/rolling-stone",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/smallstoneapps/rolling-stone.git"
+    },
     "keywords": [
       "pebble"
     ],
+    "author": "Matthew Tole <pebble@matthewtole.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/smallstoneapps/rolling-stone/issues"
+    },
     "homepage": "https://github.com/smallstoneapps/rolling-stone",
     "dependencies": {
       "async": "^0.9.0",
@@ -135,5 +142,6 @@
   "svnUrl": "https://github.com/smallstoneapps/rolling-stone",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:15:46.605Z"
+  "lastFetchedAt": "2017-05-04T21:15:46.605Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:44.442Z"
 }

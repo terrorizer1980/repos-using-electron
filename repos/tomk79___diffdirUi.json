@@ -81,8 +81,15 @@
       "start": "electron .",
       "test": "mocha --ui tdd ./tests/"
     },
-    "repository": "https://github.com/tomk79/diffdirUi",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomk79/diffdirUi.git"
+    },
+    "author": "Tomoya Koyanagi <tomk79@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tomk79/diffdirUi/issues"
+    },
     "homepage": "https://github.com/tomk79/diffdirUi#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -132,5 +139,6 @@
   },
   "filename": "tomk79___diffdirUi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:38.247Z"
+  "lastFetchedAt": "2017-05-04T17:43:38.247Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:23.521Z"
 }

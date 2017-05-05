@@ -80,12 +80,19 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "lint": "eslint ."
     },
-    "repository": "https://github.com/andyp22/nodeschool",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andyp22/nodeschool.git"
+    },
     "keywords": [
       "node",
       "nodeschool"
     ],
+    "author": "Andrew Page",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/andyp22/nodeschool/issues"
+    },
     "homepage": "https://github.com/andyp22/nodeschool#readme",
     "devDependencies": {
       "eslint": "^3.4.0",
@@ -120,5 +127,6 @@
   },
   "filename": "andyp22___nodeschool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:39.735Z"
+  "lastFetchedAt": "2017-05-04T21:15:39.735Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:01.960Z"
 }

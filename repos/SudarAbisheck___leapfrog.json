@@ -82,8 +82,12 @@
       "LMC",
       "gesture"
     ],
+    "author": "Sudar Abisheck",
     "license": "MIT",
-    "repository": "https://github.com/SudarAbisheck/leapfrog",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/SudarAbisheck/leapfrog.git"
+    },
     "dependencies": {
       "leapjs": "^0.6.4",
       "lodash": "^4.13.1",
@@ -115,5 +119,6 @@
   },
   "filename": "SudarAbisheck___leapfrog.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:26:15.922Z"
+  "lastFetchedAt": "2017-05-04T20:26:15.922Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:13.174Z"
 }

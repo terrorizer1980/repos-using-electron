@@ -76,6 +76,7 @@
       "dist": "build -w --x64"
     },
     "keywords": [],
+    "author": "nir.oren@cellebrite.com",
     "license": "ISC",
     "devDependencies": {
       "electron": "^1.4.2",
@@ -90,7 +91,13 @@
         "iconUrl": "http://eatodo.s3.amazonaws.com/icon.ico"
       }
     },
-    "repository": "https://github.com/niros1/ElectornTBR",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niros1/ElectornTBR.git"
+    },
+    "bugs": {
+      "url": "https://github.com/niros1/ElectornTBR/issues"
+    },
     "homepage": "https://github.com/niros1/ElectornTBR#readme"
   },
   "packageStatus": 200,
@@ -118,5 +125,6 @@
   },
   "filename": "niros1___ElectornTBR.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:33.906Z"
+  "lastFetchedAt": "2017-05-04T05:08:33.906Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:28.806Z"
 }

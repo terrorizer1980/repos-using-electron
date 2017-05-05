@@ -53,26 +53,32 @@
   "status": 200,
   "packageJSON": {
     "name": "before-dawn",
-    "productName": "Before Dawn",
-    "version": "0.7.0",
-    "description": "screensaver fun",
+    "version": "0.9.3",
+    "description": "A desktop screensaver app using web technologies",
+    "author": "Colin Mitchell",
     "scripts": {
       "postinstall": "install-app-deps",
       "pack": "build --dir",
-      "dist": "build"
+      "dist": "build --x64"
     },
     "devDependencies": {
-      "electron-builder": "5.12.1",
-      "electron-prebuilt": "1.2.5"
+      "electron-builder": "16.8.3",
+      "electron": "1.6.5"
     },
     "build": {
       "appId": "Before Dawn",
-      "app-category-type": "public.app-category.entertainment",
-      "win": {
-        "verbosity": 1,
-        "perMachine": "false"
+      "mac": {
+        "category": "public.app-category.entertainment"
       },
-      "asar": "false",
+      "nsis": {
+        "installerIcon": "build/icon.ico",
+        "perMachine": false
+      },
+      "win": {
+        "target": "nsis",
+        "icon": "build/icon.ico"
+      },
+      "asar": false,
       "dmg": {
         "contents": [
           {
@@ -89,11 +95,8 @@
         ]
       },
       "linux": {
-        "arch": 64,
         "target": "deb",
-        "title": "Before Dawn",
-        "executable": "before-dawn",
-        "comment": "Before Dawn",
+        "executableName": "before-dawn",
         "maintainer": "Colin Mitchell <colin@muffinlabs.com>"
       }
     }
@@ -143,5 +146,6 @@
   },
   "filename": "muffinista___before-dawn.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:19:30.821Z"
+  "lastFetchedAt": "2017-05-04T18:19:30.821Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:51.009Z"
 }

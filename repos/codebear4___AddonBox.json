@@ -60,18 +60,13 @@
       "lint": "eslint app/**/*.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Frank Yang <codebear4@gmail.com>",
     "repository": {
-      "user": "codebearx",
-      "repo": "AddonBox",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/codebearx/AddonBox/tarball/master",
-      "clone_url": "https://github.com/codebearx/AddonBox",
-      "https_url": "https://github.com/codebearx/AddonBox",
-      "travis_url": "https://travis-ci.org/codebearx/AddonBox",
-      "zip_url": "https://github.com/codebearx/AddonBox/archive/master.zip",
-      "api_url": "https://api.github.com/repos/codebearx/AddonBox"
+      "type": "git",
+      "url": "https://github.com/codebearx/AddonBox"
+    },
+    "bugs": {
+      "url": "https://github.com/codebearx/AddonBox/issues"
     },
     "license": "MIT",
     "devDependencies": {
@@ -168,5 +163,6 @@
   "svnUrl": "https://github.com/codebear4/AddonBox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:47:16.751Z"
+  "lastFetchedAt": "2017-05-04T14:47:16.751Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:44.976Z"
 }

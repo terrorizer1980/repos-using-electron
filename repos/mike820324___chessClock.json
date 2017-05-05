@@ -55,13 +55,20 @@
       "start": "electron ./",
       "test": "mocha --compilers js:babel/register"
     },
-    "repository": "https://github.com/mike820324/chessClock",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mike820324/chessClock.git"
+    },
     "keywords": [
       "electron",
       "reactjs",
       "clock"
     ],
+    "author": "Rueimin Jiang (MicroMike)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mike820324/chessClock/issues"
+    },
     "homepage": "https://github.com/mike820324/chessClock#readme",
     "dependencies": {
       "immutable": "^3.7.4",
@@ -127,5 +134,6 @@
   "svnUrl": "https://github.com/mike820324/chessClock",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:57:06.550Z"
+  "lastFetchedAt": "2017-05-04T17:57:06.550Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:37.243Z"
 }

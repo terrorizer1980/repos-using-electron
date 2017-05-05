@@ -74,10 +74,15 @@
   "packageJSON": {
     "name": "hera",
     "productName": "Hera",
-    "version": "0.0.0",
+    "version": "0.0.1-prealpha.2",
     "description": "Hera - Next-level Programming Contest Manager",
     "license": "MIT",
     "repository": "natsukagami/hera",
+    "author": {
+      "name": "Natsu Kagami",
+      "email": "natsukagami@gmail.com",
+      "url": "natsukagami.github.io"
+    },
     "scripts": {
       "test": "node ./node_modules/mocha/bin/mocha --recursive",
       "update": "gulp update",
@@ -176,5 +181,6 @@
   },
   "filename": "natsukagami___Hera.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:58:35.055Z"
+  "lastFetchedAt": "2017-05-04T17:58:35.055Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:49.409Z"
 }

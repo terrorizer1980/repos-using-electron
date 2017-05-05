@@ -89,7 +89,11 @@
       "react-loading": "0.0.9",
       "react-soundplayer": "^0.3.6"
     },
-    "repository": "https://github.com/bradford-hamilton/SoundStream",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:bradford-hamilton/SoundStream.git"
+    },
+    "author": "Bradford Lamson-Scribner",
     "license": "MIT",
     "homepage": "https://github.com/electron/electron-quick-start#readme"
   },
@@ -118,5 +122,6 @@
   },
   "filename": "bradford-hamilton___SoundStream.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:00.734Z"
+  "lastFetchedAt": "2017-05-04T17:34:00.734Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:10.145Z"
 }

@@ -203,20 +203,18 @@
   "packageJSON": {
     "name": "autotune",
     "description": "Platform and UI for creating new websites and html snippets from templates stored in git repos.",
-    "version": "0.4.16",
+    "version": "0.4.20",
     "homepage": "https://github.com/voxmedia/autotune",
+    "author": {
+      "name": "Ryan Mark",
+      "email": "ryan.mark@voxmedia.com"
+    },
     "repository": {
-      "user": "voxmedia",
-      "repo": "autotune",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/voxmedia/autotune/tarball/master",
-      "clone_url": "https://github.com/voxmedia/autotune",
-      "https_url": "https://github.com/voxmedia/autotune",
-      "travis_url": "https://travis-ci.org/voxmedia/autotune",
-      "zip_url": "https://github.com/voxmedia/autotune/archive/master.zip",
-      "api_url": "https://api.github.com/repos/voxmedia/autotune"
+      "type": "git",
+      "url": "https://github.com/voxmedia/autotune.git"
+    },
+    "bugs": {
+      "url": "https://github.com/voxmedia/autotune/issues"
     },
     "licenses": [
       {
@@ -328,5 +326,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:58.015Z"
+  "lastFetchedAt": "2017-05-04T17:51:58.015Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:47.313Z"
 }

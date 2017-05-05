@@ -69,7 +69,10 @@
       "install": "cd vendor/node-system-idle-time/ && node-gyp rebuild",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/coffeegrind/coffeegrind",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/coffeegrind/coffeegrind.git"
+    },
     "keywords": [
       "time",
       "tracking",
@@ -81,7 +84,11 @@
       "linux",
       "windows"
     ],
+    "author": "Zach Cawthorne, Nick Aversano",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/coffeegrind/coffeegrind/issues"
+    },
     "homepage": "https://github.com/coffeegrind/coffeegrind#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -147,5 +154,6 @@
   "svnUrl": "https://github.com/coffeegrind/coffeegrind",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:15:28.925Z"
+  "lastFetchedAt": "2017-05-04T18:15:28.925Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:46.087Z"
 }

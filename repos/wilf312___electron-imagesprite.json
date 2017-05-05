@@ -81,14 +81,21 @@
       "start": "electron main.js",
       "build": "electron-packager .. imageSprite --platform=darwin,win32 --arch=x64 --version=1.4.10"
     },
-    "repository": "https://github.com/wilf312/electron-imagesprite",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wilf312/electron-imagesprite.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/wilf312/electron-imagesprite/issues"
+    },
     "homepage": "https://github.com/wilf312/electron-imagesprite#readme",
     "devDependencies": {
       "electron": "^1.4.10",
@@ -130,5 +137,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:47:36.752Z"
+  "lastFetchedAt": "2017-05-04T19:47:36.752Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:26.723Z"
 }

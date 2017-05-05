@@ -97,8 +97,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/mgeduld/playmaker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mgeduld/playmaker.git"
+    },
+    "author": {
+      "name": "Marcus Geduld",
+      "email": "mgeduld@gmail.com",
+      "url": "http://www.marcusgeduld.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mgeduld/playmaker/issues"
+    },
     "keywords": [
       "theatre",
       "drama",
@@ -216,5 +227,6 @@
   },
   "filename": "mgeduld___playmaker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:54.499Z"
+  "lastFetchedAt": "2017-05-04T17:48:54.499Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:56.919Z"
 }

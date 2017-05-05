@@ -54,11 +54,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Repeat Explorer"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -120,5 +127,6 @@
   "svnUrl": "https://github.com/baklazaner/repa",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:09:04.750Z"
+  "lastFetchedAt": "2017-05-04T21:09:04.750Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:29.629Z"
 }

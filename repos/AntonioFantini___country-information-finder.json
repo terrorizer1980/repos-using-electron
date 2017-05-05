@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/AntonioFantini/country-information-finder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AntonioFantini/country-information-finder.git"
+    },
+    "author": "Antonio Fantini",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AntonioFantini/country-information-finder/issues"
+    },
     "homepage": "https://github.com/AntonioFantini/country-information-finder#readme"
   },
   "packageStatus": 200,
@@ -108,5 +115,6 @@
   },
   "filename": "AntonioFantini___country-information-finder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:28.656Z"
+  "lastFetchedAt": "2017-05-04T05:35:28.656Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:29.041Z"
 }

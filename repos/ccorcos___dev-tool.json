@@ -49,7 +49,10 @@
     "name": "dev-tool",
     "version": "0.0.1",
     "description": "Boilerplate Electron + React + Webpack + HMR + SCSS",
-    "repository": "https://github.com/ccorcos/electron-dev-tool",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ccorcos/electron-dev-tool.git"
+    },
     "devDependencies": {
       "babel": "^6.5.2",
       "babel-core": "^6.5.2",
@@ -128,5 +131,6 @@
   },
   "filename": "ccorcos___dev-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:13.387Z"
+  "lastFetchedAt": "2017-05-04T05:04:13.387Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:14.940Z"
 }

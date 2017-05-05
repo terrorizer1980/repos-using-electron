@@ -70,6 +70,10 @@
     "version": "0.1.6",
     "description": "Small description for visor-offline goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 4.0.0"
     },
+    "author": "Hugo Ruscitti <hugoruscitti@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -174,5 +179,6 @@
   },
   "filename": "hugoruscitti___visor-offline.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:06:29.410Z"
+  "lastFetchedAt": "2017-05-04T18:06:29.410Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:25.860Z"
 }

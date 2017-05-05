@@ -91,8 +91,15 @@
     "description": "Reusable build and general production template for Cratis JavaScript based projects.",
     "main": "karma.conf.js",
     "scripts": {},
-    "repository": "https://github.com/Cratis/JavaScript.Pipeline",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cratis/JavaScript.Pipeline.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Cratis/JavaScript.Pipeline/issues"
+    },
     "homepage": "https://github.com/Cratis/JavaScript.Pipeline#readme",
     "jspm": {
       "devDependencies": {
@@ -166,5 +173,6 @@
   },
   "filename": "Cratis___JavaScript.Pipeline.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:35.694Z"
+  "lastFetchedAt": "2017-05-04T20:00:35.694Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:17.761Z"
 }

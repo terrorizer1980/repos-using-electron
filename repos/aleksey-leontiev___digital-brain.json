@@ -53,14 +53,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/aleksey-leontiev/digital-brain",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aleksey-leontiev/digital-brain.git"
+    },
     "keywords": [
       "brain",
       "mindmap",
       "creative",
       "thinking"
     ],
+    "author": "Aleksey Leontiev",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/aleksey-leontiev/digital-brain/issues"
+    },
     "homepage": "https://github.com/aleksey-leontiev/digital-brain#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -120,5 +127,6 @@
   "svnUrl": "https://github.com/aleksey-leontiev/digital-brain",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:20:17.333Z"
+  "lastFetchedAt": "2017-05-04T21:20:17.333Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:57.826Z"
 }

@@ -55,7 +55,10 @@
       "start": "electron main.js"
     },
     "license": "MIT",
-    "repository": "https://github.com/jrodriguez-ifuelinteractive/notes-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jrodriguez-ifuelinteractive/notes-app"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
       "electron-rebuild": "^1.1.3",
@@ -107,5 +110,6 @@
   },
   "filename": "jrodriguez-ifuelinteractive___notes-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:41:29.221Z"
+  "lastFetchedAt": "2017-05-04T20:41:29.221Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:58.018Z"
 }

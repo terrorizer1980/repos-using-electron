@@ -75,6 +75,7 @@
       "dev": "electron . --debug",
       "build": "webpack -p"
     },
+    "author": "Samuell",
     "dependencies": {
       "file-loader": "^0.9.0",
       "tether": "^1.3.7",
@@ -131,5 +132,6 @@
   },
   "filename": "Samuell1___electron-vue-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:23:40.833Z"
+  "lastFetchedAt": "2017-05-04T15:23:40.833Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:48.692Z"
 }

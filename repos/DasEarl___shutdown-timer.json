@@ -74,8 +74,15 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/TheEarl/shutdown-timer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TheEarl/shutdown-timer.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/TheEarl/shutdown-timer/issues"
+    },
     "homepage": "https://github.com/TheEarl/shutdown-timer#readme",
     "dependencies": {
       "electron-prebuilt": "^0.35.4"
@@ -106,5 +113,6 @@
   },
   "filename": "DasEarl___shutdown-timer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:53.502Z"
+  "lastFetchedAt": "2017-05-04T17:55:53.502Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:17.494Z"
 }

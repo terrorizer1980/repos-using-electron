@@ -83,6 +83,7 @@
       "clean": "rimraf node_modules/",
       "watch": "nodemon --exec \"npm run start\" --watch \"src\" --ignore \"dist/\" --ext vue,js,html,sass"
     },
+    "author": "Alberto Fernandez (bertofer)",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -147,5 +148,6 @@
   },
   "filename": "bertofer___subtitle-it.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:31.466Z"
+  "lastFetchedAt": "2017-05-04T04:56:31.466Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:04.009Z"
 }

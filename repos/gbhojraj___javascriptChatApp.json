@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/gbhojraj/javascriptChatApp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gbhojraj/javascriptChatApp.git"
+    },
+    "author": "Gibryon Bhojraj",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gbhojraj/javascriptChatApp/issues"
+    },
     "homepage": "https://github.com/gbhojraj/javascriptChatApp#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -117,5 +124,6 @@
   },
   "filename": "gbhojraj___javascriptChatApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:30.146Z"
+  "lastFetchedAt": "2017-05-04T20:05:30.146Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:42.474Z"
 }

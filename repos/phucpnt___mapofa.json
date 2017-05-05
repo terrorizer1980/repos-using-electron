@@ -97,7 +97,10 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/zalmoxisus/browser-extension-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zalmoxisus/browser-extension-boilerplate"
+    },
     "homepage": "https://github.com/zalmoxisus/browser-extension-boilerplate",
     "keywords": [],
     "authors": [
@@ -204,5 +207,6 @@
   },
   "filename": "phucpnt___mapofa.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:35.898Z"
+  "lastFetchedAt": "2017-05-04T14:20:35.898Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:06.442Z"
 }

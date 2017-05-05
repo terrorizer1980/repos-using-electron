@@ -77,6 +77,7 @@
     "version": "0.1.0",
     "description": "A simple CA-License based check-in system",
     "main": "main.js",
+    "author": "Joel Gomez <joel@blamejoel.com>",
     "homepage": "http://blamejoel.com",
     "license": "GPL-3.0",
     "build": {
@@ -92,8 +93,9 @@
       "package": "electron-packager ./app firebase-z --platform=win32,linux --arch=ia32 --out dist/ --version 1.2.7 --overwrite --asar"
     },
     "devDependencies": {
+      "electron": "^1.4.14",
       "electron-builder": "^1.2.7",
-      "electron-packager": "^7.3.0",
+      "electron-packager": "^7.7.0",
       "electron-rebuild": "^1.1.5"
     }
   },
@@ -122,5 +124,6 @@
   },
   "filename": "jgome043___fbz-check-in.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:04.523Z"
+  "lastFetchedAt": "2017-05-04T05:35:04.523Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:12.353Z"
 }

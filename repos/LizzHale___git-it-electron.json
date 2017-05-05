@@ -213,8 +213,15 @@
       "pack-win": "electron-packager . Git-it --platform=win32 --arch=ia32   --version=0.31.2 --icon=assets/git-it.ico --ignore='node_modules/standard'",
       "pack-lin": "electron-packager . Git-it --platform=linux --arch=x64   --version=0.31.2 --icon=assets/git-it.png --ignore='node_modules/standard'"
     },
-    "repository": "https://github.com/jlord/git-it-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
+    },
+    "author": "Jessica Lord",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
     "homepage": "https://github.com/jlord/git-it-electron",
     "devDependencies": {
       "electron-prebuilt": "^0.33.0"
@@ -252,5 +259,6 @@
   },
   "sourceRepo": "jlord/git-it-electron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:10.102Z"
+  "lastFetchedAt": "2017-05-04T20:12:10.102Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:07.860Z"
 }

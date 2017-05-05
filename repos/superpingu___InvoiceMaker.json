@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/superpingu/InvoiceMaker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/superpingu/InvoiceMaker.git"
+    },
+    "author": "superpingu",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/superpingu/InvoiceMaker/issues"
+    },
     "homepage": "https://github.com/superpingu/InvoiceMaker#readme",
     "dependencies": {
       "electron-prebuilt": "^1.3.2",
@@ -108,5 +115,6 @@
   },
   "filename": "superpingu___InvoiceMaker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:59.012Z"
+  "lastFetchedAt": "2017-05-04T14:25:59.012Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:15.112Z"
 }

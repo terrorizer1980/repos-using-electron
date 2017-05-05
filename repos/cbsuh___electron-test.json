@@ -85,7 +85,11 @@
       "pkg:mac": "./node_modules/.bin/electron-packager ./ --platform=darwin --arch=x64 --out=package --overwrite --ignore=node_modules/ --ignore=app/ --ignore=build-babel/ --ignore=\"(node_modules|app|build-babel)$\"",
       "pkg:windows": "./node_modules/.bin/electron-packager ./ --platform=win32 --arch=x64 --out=package --overwrite --ignore=node_modules/ --ignore=app/ --ignore=build-babel/ --ignore=\"(node_modules|app|build-babel)$\""
     },
-    "repository": "https://github.com/cbsuh/test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cbsuh/test.git"
+    },
+    "author": "cbsuh@naver.com",
     "license": "MIT",
     "keywords": [
       "electron",
@@ -98,6 +102,9 @@
       "babel",
       "vscode"
     ],
+    "bugs": {
+      "url": "https://github.com/cbsuh/test/issues"
+    },
     "homepage": "https://github.com/cbsuh/test#readme",
     "devDependencies": {
       "babel-cli": "^6.7.7",
@@ -149,5 +156,6 @@
   },
   "filename": "cbsuh___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:32.863Z"
+  "lastFetchedAt": "2017-05-04T20:39:32.863Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:02.116Z"
 }

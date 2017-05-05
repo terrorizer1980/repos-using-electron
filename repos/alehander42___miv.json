@@ -73,5 +73,26 @@
   "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:43:37.413Z"
+  "lastFetchedAt": "2017-05-04T20:43:37.413Z",
+  "packageJSON": {
+    "name": "miv",
+    "version": "0.1.0",
+    "description": "experimenting with writing a nim electron app",
+    "main": "main.js",
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "electron-debug": "^1.0.0",
+      "google-closure-compiler-js": "^20170218.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^8.0.0",
+      "electron": "^1.0.1",
+      "xo": "^0.16.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:32:31.422Z"
 }

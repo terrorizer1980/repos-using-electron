@@ -72,8 +72,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/slightlytyler/mocksy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/slightlytyler/mocksy.git"
+    },
+    "author": {
+      "name": "Tyler Martinez",
+      "email": "slightlytyler@gmail.com",
+      "url": "https://slightlytyler.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/slightlytyler/mocksy"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -212,5 +223,6 @@
   "svnUrl": "https://github.com/slightlytyler/mocksy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:20:43.711Z"
+  "lastFetchedAt": "2017-05-04T18:20:43.711Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:38.131Z"
 }

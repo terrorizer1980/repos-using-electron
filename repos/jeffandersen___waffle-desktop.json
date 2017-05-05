@@ -49,9 +49,13 @@
     "name": "waffle-desktop",
     "version": "0.0.6",
     "description": "Wrapper for Waffle.io with desktop notifications",
+    "author": "Jeff Andersen <@jeffandersen>",
     "license": "MIT",
     "readme": "https://github.com/jeffandersen/waffle-desktop",
-    "repository": "https://github.com/jeffandersen/waffle-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jeffandersen/waffle-desktop.git"
+    },
     "scripts": {
       "start": "NODE_ENV=development electron . --enable-logging",
       "build": "npm start",
@@ -125,5 +129,6 @@
   "svnUrl": "https://github.com/jeffandersen/waffle-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:27:55.619Z"
+  "lastFetchedAt": "2017-05-04T14:27:55.619Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:02.224Z"
 }

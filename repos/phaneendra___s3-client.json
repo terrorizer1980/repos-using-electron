@@ -98,19 +98,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "phaneendra",
-      "repo": "s3-client",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/phaneendra/s3-client/tarball/master",
-      "clone_url": "https://github.com/phaneendra/s3-client",
-      "https_url": "https://github.com/phaneendra/s3-client",
-      "travis_url": "https://travis-ci.org/phaneendra/s3-client",
-      "zip_url": "https://github.com/phaneendra/s3-client/archive/master.zip",
-      "api_url": "https://api.github.com/repos/phaneendra/s3-client"
+      "type": "git",
+      "url": "git+https://github.com/phaneendra/s3-client.git"
+    },
+    "author": {
+      "name": "Phaneendra",
+      "email": "phaneendra.krishnareddy@gmail.com",
+      "url": "https://github.com/phaneendra"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/phaneendra/s3-client/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -229,5 +228,6 @@
   "filename": "phaneendra___s3-client.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:11:37.372Z"
+  "lastFetchedAt": "2017-05-04T18:11:37.372Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:08.739Z"
 }

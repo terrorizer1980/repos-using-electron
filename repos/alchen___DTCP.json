@@ -61,8 +61,15 @@
       "start": "./node_modules/.bin/electron .",
       "test": "./node_modules/.bin/istanbul instrument src --output instrumented && ./node_modules/.bin/electron spec --ci"
     },
-    "repository": "https://github.com/alchen/DTCP",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alchen/DTCP.git"
+    },
+    "author": "uinoka",
     "license": "AGPL-3.0",
+    "bugs": {
+      "url": "https://github.com/alchen/DTCP/issues"
+    },
     "homepage": "https://github.com/alchen/DTCP",
     "devDependencies": {
       "asar": "^0.12.1",
@@ -174,5 +181,6 @@
   },
   "filename": "alchen___DTCP.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:18.617Z"
+  "lastFetchedAt": "2017-05-04T18:20:18.617Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:24.406Z"
 }

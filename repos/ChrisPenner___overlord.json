@@ -73,11 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "Logs"
     ],
+    "author": "Chris Penner",
     "homepage": "https://github.com/ChrisPenner/overlord",
     "dependencies": {
       "babel-plugin-transform-object-rest-spread": "^6.8.0",
@@ -126,5 +130,6 @@
   },
   "filename": "ChrisPenner___overlord.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:30.800Z"
+  "lastFetchedAt": "2017-05-04T20:38:30.800Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:34.304Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/muxahuk/m7-vk-player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/muxahuk/m7-vk-player.git"
+    },
     "keywords": [
       "vk player",
       "vkontakte player",
       "electron vk app",
       "vk electron"
     ],
+    "author": "[M7] Михаил Семёнов (Mihail Semjonov)",
     "license": "Apache 2.0",
+    "bugs": {
+      "url": "https://github.com/muxahuk/m7-vk-player/issues"
+    },
     "homepage": "https://github.com/muxahuk/m7-vk-player#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -118,5 +125,6 @@
   },
   "filename": "muxahuk___m7-vk-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:47.285Z"
+  "lastFetchedAt": "2017-05-04T17:37:47.285Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:18.057Z"
 }

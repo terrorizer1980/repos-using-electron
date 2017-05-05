@@ -76,6 +76,7 @@
       "build": "electron-packager . Tabby --platform=darwin --arch=x64 --version=0.37.6 --prune --icon=app/Icon.icns"
     },
     "keywords": [],
+    "author": "",
     "license": "ISC",
     "dependencies": {
       "csjs-inject": "^1.0.0",
@@ -89,7 +90,10 @@
       "electron-prebuilt": "^0.37.6",
       "standard": "^6.0.8"
     },
-    "homepage": "https://github.com/maxogden/tabby"
+    "homepage": "https://github.com/maxogden/tabby",
+    "bugs": {
+      "url": "https://github.com/maxogden/tabby/issues"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -117,5 +121,6 @@
   "filename": "ungoldman___surf.json",
   "sourceRepo": "maxogden/tabby",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:44.327Z"
+  "lastFetchedAt": "2017-05-04T20:00:44.327Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:09.449Z"
 }

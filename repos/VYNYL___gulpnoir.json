@@ -107,8 +107,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/VYNYL/gulpnoir",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VYNYL/gulpnoir.git"
+    },
+    "author": {
+      "name": "Wyatt Arent",
+      "email": "hello@wyatt.ninja",
+      "url": "http://wyatt.ninja"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VYNYL/gulpnoir/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -129,6 +140,7 @@
       "babel-plugin-dev-expression": "^0.2.1",
       "babel-plugin-transform-remove-console": "^6.8.0",
       "babel-plugin-transform-remove-debugger": "^6.8.0",
+      "babel-plugin-transform-runtime": "^6.12.0",
       "babel-plugin-webpack-loaders": "^0.7.0",
       "babel-polyfill": "^6.9.0",
       "babel-preset-es2015": "^6.13.2",
@@ -137,6 +149,7 @@
       "babel-preset-react-optimize": "^1.0.1",
       "babel-preset-stage-0": "^6.5.0",
       "babel-register": "^6.9.0",
+      "babel-runtime": "^6.11.6",
       "chai": "^3.5.0",
       "co-mocha": "^1.1.2",
       "concurrently": "^2.1.0",
@@ -159,6 +172,7 @@
       "faker": "^3.1.0",
       "fbjs-scripts": "^0.7.1",
       "file-loader": "^0.9.0",
+      "flow-bin": "^0.31.1",
       "jest": "^14.1.0",
       "jsdom": "^9.2.0",
       "json-loader": "^0.5.4",
@@ -261,5 +275,6 @@
   },
   "filename": "VYNYL___gulpnoir.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:41.538Z"
+  "lastFetchedAt": "2017-05-04T19:55:41.538Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:30.174Z"
 }

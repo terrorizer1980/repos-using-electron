@@ -86,12 +86,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ChongTang/git-commit-analysis",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ChongTang/git-commit-analysis.git"
+    },
     "keywords": [
       "Git",
       "Commit"
     ],
+    "author": "Chong Tang",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ChongTang/git-commit-analysis/issues"
+    },
     "homepage": "https://github.com/ChongTang/git-commit-analysis#readme"
   },
   "packageStatus": 200,
@@ -139,5 +146,6 @@
   },
   "filename": "ChongTang___git-commit-analysis.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:37.905Z"
+  "lastFetchedAt": "2017-05-04T20:12:37.905Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:32.370Z"
 }

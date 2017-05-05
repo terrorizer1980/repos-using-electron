@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/wweschen/LighteningSalesMarketingSystem",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wweschen/LighteningSalesMarketingSystem"
+    },
     "keywords": [
       "Electron",
       "Sales Marketing System",
       "Distributed",
       "Cross Platform"
     ],
+    "author": "WWeschen",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/wweschen/LighteningSalesMarketingSystem/issues"
+    },
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -117,5 +124,6 @@
   },
   "filename": "wweschen___LighteningSalesMarketingSystem.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:58.878Z"
+  "lastFetchedAt": "2017-05-04T20:25:58.878Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:31.877Z"
 }

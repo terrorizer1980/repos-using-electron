@@ -80,7 +80,10 @@
     "scripts": {
       "test": "gulp test"
     },
-    "repository": "https://github.com/uPaymeiFixit/Iris",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/uPaymeiFixit/Iris.git"
+    },
     "keywords": [
       "Arduino",
       "RGB",
@@ -91,7 +94,11 @@
       "Lights",
       "PC"
     ],
+    "author": "Josh Gibbs <uPaymeiFixit@gmail.com>, Louis Orleans <louis@orleans.io>",
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/uPaymeiFixit/Iris/issues"
+    },
     "homepage": "https://github.com/uPaymeiFixit/Iris#readme",
     "dependencies": {
       "async": "1.5.2",
@@ -139,5 +146,6 @@
   },
   "filename": "uPaymeiFixit___Iris.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:40.039Z"
+  "lastFetchedAt": "2017-05-04T05:09:40.039Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:16.108Z"
 }

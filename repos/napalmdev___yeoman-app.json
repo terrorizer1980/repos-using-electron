@@ -172,7 +172,9 @@
     "appBundleId": "io.yeoman.app",
     "helperBundleId": "io.yeoman.app.helper",
     "description": "An app made with Electron that scaffolds projects using Yeoman",
+    "author": "The Yeoman Team",
     "main": "src/browser/main.js",
+    "bugs": "https://github.com/yeoman/yeoman-app/issues",
     "dependencies": {
       "async": "^1.2.1",
       "bootstrap": "^3.3.0",
@@ -233,17 +235,8 @@
     },
     "license": "MIT",
     "repository": {
-      "user": "yeoman",
-      "repo": "yeoman-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/yeoman/yeoman-app/tarball/master",
-      "clone_url": "https://github.com/yeoman/yeoman-app",
-      "https_url": "https://github.com/yeoman/yeoman-app",
-      "travis_url": "https://travis-ci.org/yeoman/yeoman-app",
-      "zip_url": "https://github.com/yeoman/yeoman-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/yeoman/yeoman-app"
+      "type": "git",
+      "url": "https://github.com/yeoman/yeoman-app"
     }
   },
   "packageStatus": 200,
@@ -292,5 +285,6 @@
   "filename": "napalmdev___yeoman-app.json",
   "sourceRepo": "yeoman/yeoman-app",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:50.070Z"
+  "lastFetchedAt": "2017-05-04T16:46:50.070Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:41.565Z"
 }

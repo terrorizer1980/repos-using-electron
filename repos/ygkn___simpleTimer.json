@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ygkn/simpleTimer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ygkn/simpleTimer.git"
+    },
+    "author": "ygkn",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ygkn/simpleTimer/issues"
+    },
     "homepage": "https://github.com/ygkn/simpleTimer#readme",
     "devDependencies": {
       "electron": "^1.4.5",
@@ -112,5 +119,6 @@
   },
   "filename": "ygkn___simpleTimer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:16.178Z"
+  "lastFetchedAt": "2017-05-04T19:53:16.178Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:21.978Z"
 }

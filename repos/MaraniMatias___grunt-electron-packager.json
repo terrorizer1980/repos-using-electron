@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "grunt-electron-packager",
-    "version": "0.0.7",
+    "version": "0.1.1",
     "description": "Package Electron apps. Grunt task to create packages electron using electron-packager",
     "keywords": [
       "gruntplugin",
@@ -68,25 +68,29 @@
       "apps",
       "customer"
     ],
+    "author": "Marani Matias Ezequiel",
     "email": "maranimatias@gmail.com",
     "engines": {
-      "node": "~5.5.0",
-      "npm": "~3.3.12"
+      "node": "~7.09.0",
+      "npm": "~4.5.0"
     },
     "license": "MIT",
-    "repository": "https://github.com/MaraniMatias/grunt-electron-packager",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MaraniMatias/grunt-electron-packager"
+    },
     "files": [
       "tasks"
     ],
     "scripts": {
-      "test": "grunt"
+      "test": "./runtests.sh",
+      "start": "./node_modules/.bin/electron ./test/app/"
     },
-    "dependencies": {
-      "electron-packager": "^5.2.1"
-    },
+    "dependencies": {},
     "devDependencies": {
-      "grunt": "^0.4.5",
-      "electron-prebuilt": "^0.36.7"
+      "electron": "^1.6.7",
+      "electron-packager": "^8.6.0",
+      "grunt": "^1.0.1"
     }
   },
   "packageStatus": 200,
@@ -134,5 +138,6 @@
   "svnUrl": "https://github.com/MaraniMatias/grunt-electron-packager",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:30:42.098Z"
+  "lastFetchedAt": "2017-05-04T21:30:42.098Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:58.944Z"
 }

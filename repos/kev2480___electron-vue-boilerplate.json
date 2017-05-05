@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-vue-boilerplate",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "description": "An electron-vue project",
     "scripts": {
       "build": "node tasks/release.js",
@@ -87,6 +87,7 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -171,5 +172,6 @@
   },
   "filename": "kev2480___electron-vue-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:05.710Z"
+  "lastFetchedAt": "2017-05-04T21:29:05.710Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:42.442Z"
 }

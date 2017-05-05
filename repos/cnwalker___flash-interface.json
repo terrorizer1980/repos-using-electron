@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/cnwalker/flash_interface",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cnwalker/flash_interface.git"
+    },
     "keywords": [
       "FLASH",
       "physics",
@@ -88,11 +91,16 @@
       "simulations",
       "parameters"
     ],
+    "author": "Christopher Walker",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/cnwalker/flash_interface/issues"
+    },
     "homepage": "http://flash.uchicago.edu/site/index.shtml",
     "devDependencies": {
-      "electron-packager": "^8.0.0",
-      "electron-prebuilt": "^1.4.0"
+      "electron-packager": "^8.5.0",
+      "electron-prebuilt": "^1.4.0",
+      "spectron": "^3.4.0"
     },
     "dependencies": {
       "electron-prebuilt": "^1.4.0"
@@ -123,5 +131,6 @@
   },
   "filename": "cnwalker___flash-interface.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:52:32.992Z"
+  "lastFetchedAt": "2017-05-04T17:52:32.992Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:34.677Z"
 }

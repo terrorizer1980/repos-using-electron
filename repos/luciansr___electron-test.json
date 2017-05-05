@@ -77,14 +77,21 @@
       "gulp": "gulp typescript",
       "develop": "npm run full-install && gulp develop"
     },
-    "repository": "https://github.com/luciansr/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/luciansr/electron-test.git"
+    },
     "keywords": [
       "electron",
       "angular",
       "typescript",
       "gulp"
     ],
+    "author": "Lucian Sturião",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/luciansr/electron-test/issues"
+    },
     "homepage": "https://github.com/luciansr/electron-test#readme",
     "devDependencies": {
       "bower": "^1.7.9",
@@ -126,5 +133,6 @@
   },
   "filename": "luciansr___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:31:27.199Z"
+  "lastFetchedAt": "2017-05-04T15:31:27.199Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:32.916Z"
 }

@@ -78,6 +78,11 @@
     "description": "Client for cloud9",
     "license": "MIT",
     "repository": "ichiwa/cloud9-client",
+    "author": {
+      "name": "Ichiwa",
+      "email": "shimokawa@devalon.biz",
+      "url": "github.com/ichiwa"
+    },
     "scripts": {
       "lint": "$(npm bin)/eslint ./src",
       "test": "xo",
@@ -178,5 +183,6 @@
   },
   "filename": "ichiwa___cloud9-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:48.764Z"
+  "lastFetchedAt": "2017-05-04T15:29:48.764Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:03.160Z"
 }

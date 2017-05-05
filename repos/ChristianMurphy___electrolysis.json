@@ -81,14 +81,21 @@
       "start-dev": "cross-env ELECTRON_ENV=dev electron src/main.js",
       "test": "remark -q --no-stdout -u remark-lint *.md && eslint . && ava"
     },
-    "repository": "https://github.com/ChristianMurphy/electrolysis",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ChristianMurphy/electrolysis.git"
+    },
     "keywords": [
       "video",
       "conversion",
       "electron",
       "ffmpeg"
     ],
+    "author": "Christian Murphy",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ChristianMurphy/electrolysis/issues"
+    },
     "homepage": "https://github.com/ChristianMurphy/electrolysis#readme",
     "dependencies": {
       "fluent-ffmpeg": "^2.1.0",
@@ -139,5 +146,6 @@
   },
   "filename": "ChristianMurphy___electrolysis.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:53:37.187Z"
+  "lastFetchedAt": "2017-05-04T17:53:37.187Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:02.971Z"
 }

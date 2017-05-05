@@ -54,8 +54,12 @@
       "compile": "gulp compile",
       "run": "electron ."
     },
-    "repository": "https://github.com/f96q/kptboard-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/f96q/kptboard-desktop.git"
+    },
     "keywords": [],
+    "author": "danny",
     "license": "MIT",
     "homepage": "https://github.com/f96q/kptboard-desktop",
     "dependencies": {
@@ -123,5 +127,6 @@
   },
   "filename": "f96q___kptboard-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:17:28.979Z"
+  "lastFetchedAt": "2017-05-04T05:17:28.979Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:58.733Z"
 }

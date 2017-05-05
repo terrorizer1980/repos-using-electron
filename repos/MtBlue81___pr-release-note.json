@@ -73,8 +73,15 @@
       "start": "electron src",
       "pack:mac": "electron-packager src pr-release-note --platform=darwin --arch=x64 --version=1.4.5"
     },
+    "directories": {
+      "app": "src"
+    },
+    "author": "MtBlue81",
     "license": "MIT",
-    "repository": "https://github.com/MtBlue81/pr-release-note",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:MtBlue81/pr-release-note.git"
+    },
     "devDependencies": {
       "electron": "1.4.5",
       "electron-packager": "8.2.0"
@@ -105,5 +112,6 @@
   },
   "filename": "MtBlue81___pr-release-note.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:31.205Z"
+  "lastFetchedAt": "2017-05-04T17:37:31.205Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:18.830Z"
 }

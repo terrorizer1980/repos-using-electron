@@ -89,11 +89,18 @@
       "elm-make": "elm make src/Main.elm --output app/elm.js",
       "start": "electron ."
     },
-    "repository": "https://github.com/elmcast/elm-ide",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/elmcast/elm-ide.git"
+    },
     "keywords": [
       "Elm"
     ],
+    "author": "Joseph Hager",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/elmcast/elm-ide/issues"
+    },
     "homepage": "https://github.com/elmcast/elm-ide#readme",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -128,5 +135,6 @@
   },
   "filename": "ElmCast___elm-ide.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:04.734Z"
+  "lastFetchedAt": "2017-05-04T21:29:04.734Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:13.558Z"
 }

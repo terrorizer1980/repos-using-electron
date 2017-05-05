@@ -73,11 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/nerdburn/trello-for-mac",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nerdburn/trello-for-mac.git"
+    },
     "keywords": [
       "Electron",
       "Trello"
     ],
+    "author": "Shawn Adrian",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -108,5 +112,6 @@
   },
   "filename": "nerdburn___trello-for-mac.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:13.117Z"
+  "lastFetchedAt": "2017-05-04T14:22:13.117Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:06.282Z"
 }

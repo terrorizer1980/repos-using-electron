@@ -76,7 +76,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/PacoIrene/markdown-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/PacoIrene/markdown-editor.git"
+    },
+    "author": {
+      "name": "PacoIrene",
+      "email": "zhenyangchu@gmail.com",
+      "url": "https://github.com/PacoIrene"
+    },
     "license": "MIT",
     "keywords": [
       "markdown",
@@ -206,5 +214,6 @@
   },
   "filename": "PacoIrene___M.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:09.296Z"
+  "lastFetchedAt": "2017-05-04T21:26:09.296Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:08.743Z"
 }

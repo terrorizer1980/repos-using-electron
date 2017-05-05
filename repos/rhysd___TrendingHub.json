@@ -74,7 +74,14 @@
     "bin": {
       "soundkloud": "./bin/cli.js"
     },
-    "repository": "https://github.com/rhysd/TrendingHub",
+    "author": "rhysd <lin90162@yahoo.co.jp>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rhysd/TrendingHub.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rhysd/TrendingHub/issues"
+    },
     "license": "MIT",
     "dependencies": {
       "js-yaml": "^3.3.1",
@@ -114,5 +121,6 @@
   },
   "filename": "rhysd___TrendingHub.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:25.171Z"
+  "lastFetchedAt": "2017-05-04T05:26:25.171Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:02.683Z"
 }

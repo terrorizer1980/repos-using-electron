@@ -209,18 +209,10 @@
       "start": "npm run build && npm run dev",
       "test": "jest --coverage --verbose"
     },
+    "author": "Vu Tran <vu@vu-tran.com>",
     "repository": {
-      "user": "vutran",
-      "repo": "dext",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/vutran/dext/tarball/master",
-      "clone_url": "https://github.com/vutran/dext",
-      "https_url": "https://github.com/vutran/dext",
-      "travis_url": "https://travis-ci.org/vutran/dext",
-      "zip_url": "https://github.com/vutran/dext/archive/master.zip",
-      "api_url": "https://api.github.com/repos/vutran/dext"
+      "type": "git",
+      "url": "https://github.com/vutran/dext"
     },
     "license": "MIT",
     "devDependencies": {
@@ -295,5 +287,6 @@
   "filename": "W0lfw00d___dext.json",
   "sourceRepo": "vutran/dext",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:07:57.521Z"
+  "lastFetchedAt": "2017-05-04T21:07:57.521Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:49.519Z"
 }

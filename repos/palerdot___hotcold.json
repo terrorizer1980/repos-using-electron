@@ -79,12 +79,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/palerdot/hotcold",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/palerdot/hotcold.git"
+    },
     "keywords": [
       "Touch",
       "Typing"
     ],
+    "author": "Arun Kumar <palerdot@gmail.com> (http://github.com/palerdot)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/palerdot/hotcold/issues"
+    },
     "homepage": "https://github.com/palerdot/hotcold#readme",
     "dependencies": {},
     "devDependencies": {
@@ -151,5 +158,6 @@
   },
   "filename": "palerdot___hotcold.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:59.112Z"
+  "lastFetchedAt": "2017-05-04T17:42:59.112Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:06.404Z"
 }

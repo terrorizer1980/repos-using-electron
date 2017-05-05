@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -117,5 +124,6 @@
   },
   "filename": "golfapipol___minna-no-nihongo-flashcard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:55.230Z"
+  "lastFetchedAt": "2017-05-04T20:20:55.230Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:27.796Z"
 }

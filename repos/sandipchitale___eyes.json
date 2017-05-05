@@ -53,12 +53,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/sandipchitale/eyes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sandipchitale/eyes.git"
+    },
     "keywords": [
       "Electron",
       "eyes"
     ],
+    "author": "Sandip Chitale",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sandipchitale/eyes/issues"
+    },
     "homepage": "https://github.com/sandipchitale/eyes/#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -110,5 +117,6 @@
   "svnUrl": "https://github.com/sandipchitale/eyes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:58:46.811Z"
+  "lastFetchedAt": "2017-05-04T20:58:46.811Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:36.266Z"
 }

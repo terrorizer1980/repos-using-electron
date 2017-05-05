@@ -91,9 +91,16 @@
       "buildosx": "electron-packager . dsportal --platform=darwin --arch=x64 --no-prune --icon=src/trayIcon.ico",
       "start": "electron ."
     },
-    "repository": "https://github.com/MemorialHealth/proto_desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MemorialHealth/proto_desktop.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MemorialHealth/proto_desktop/issues"
+    },
     "homepage": "https://github.com/MemorialHealth/proto_desktop#readme",
     "devDependencies": {
       "debug-menu": "^0.4.0",
@@ -132,5 +139,6 @@
   },
   "filename": "MemorialHealth___proto_desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:41:50.181Z"
+  "lastFetchedAt": "2017-05-04T20:41:50.181Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:23.774Z"
 }

@@ -93,14 +93,21 @@
     "scripts": {
       "test": "mocha"
     },
-    "repository": "https://github.com/mkg20001/os-loader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mkg20001/os-loader.git"
+    },
     "keywords": [
       "os-loader",
       "portable",
       "os",
       "usb"
     ],
+    "author": "Maciej Krüger <mkg20001@gmail.com>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/os-loader/os-loader/issues"
+    },
     "homepage": "https://github.com/os-loader/os-loader#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -133,5 +140,6 @@
   },
   "filename": "os-loader___os-loader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:48.172Z"
+  "lastFetchedAt": "2017-05-04T05:10:48.172Z",
+  "packageLastFetchedAt": "2017-05-05T11:37:15.666Z"
 }

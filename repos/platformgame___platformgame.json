@@ -94,8 +94,15 @@
       "win32": "del /s /q out && cp -r src/view/ out && babel src -d out && electron .",
       "unix": "rm -rf out; mkdir out; cp -r src/view/ out/; babel src -d out; electron ."
     },
-    "repository": "https://github.com/platformgame/platformgame",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/platformgame/platformgame.git"
+    },
+    "author": "platformgame",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/platformgame/platformgame/issues"
+    },
     "homepage": "https://github.com/platformgame/platformgame#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -129,5 +136,6 @@
   },
   "filename": "platformgame___platformgame.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:11.820Z"
+  "lastFetchedAt": "2017-05-04T19:58:11.820Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:53.812Z"
 }

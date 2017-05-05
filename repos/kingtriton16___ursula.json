@@ -87,14 +87,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -126,5 +133,6 @@
   },
   "filename": "kingtriton16___ursula.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:22.173Z"
+  "lastFetchedAt": "2017-05-04T19:35:22.173Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:31.641Z"
 }

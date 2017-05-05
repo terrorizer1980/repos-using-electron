@@ -81,8 +81,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "webpack": "./node_modules/.bin/webpack -d --watch"
     },
-    "repository": "https://github.com/ccheever/exphost2",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ccheever/exphost2.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ccheever/exphost2/issues"
+    },
     "homepage": "https://github.com/ccheever/exphost2#readme",
     "dependencies": {
       "babel-runtime": "^5.8.25",
@@ -130,5 +137,6 @@
   },
   "filename": "ccheever___exphost2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:01:36.527Z"
+  "lastFetchedAt": "2017-05-04T06:01:36.527Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:50.710Z"
 }

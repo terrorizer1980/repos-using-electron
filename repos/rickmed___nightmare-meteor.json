@@ -174,18 +174,10 @@
       "test": "make test"
     },
     "repository": {
-      "user": "rickmed",
-      "repo": "nightmare",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rickmed/nightmare/tarball/master",
-      "clone_url": "https://github.com/rickmed/nightmare",
-      "https_url": "https://github.com/rickmed/nightmare",
-      "travis_url": "https://travis-ci.org/rickmed/nightmare",
-      "zip_url": "https://github.com/rickmed/nightmare/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rickmed/nightmare"
+      "type": "git",
+      "url": "https://github.com/rickmed/nightmare"
     },
+    "author": "rickmed",
     "keywords": [
       "nightmare",
       "electron"
@@ -267,5 +259,6 @@
   "filename": "rickmed___nightmare-meteor.json",
   "sourceRepo": "segmentio/nightmare",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:19.259Z"
+  "lastFetchedAt": "2017-05-04T17:59:19.259Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:44.546Z"
 }

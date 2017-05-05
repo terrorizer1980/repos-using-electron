@@ -171,6 +171,10 @@
     "version": "1.2.0",
     "description": "Mattermost Desktop application for Windows, Mac and Linux",
     "main": "main.js",
+    "author": {
+      "name": "Yuya Ochiai",
+      "email": "yuya0321@gmail.com"
+    },
     "license": "MIT",
     "engines": {
       "node": ">=4.2.0"
@@ -222,6 +226,11 @@
       "linux": {
         "synopsis": "Mattermost Desktop"
       }
+    },
+    "directories": {
+      "buildResources": "resources",
+      "app": "dist",
+      "output": "release"
     }
   },
   "packageStatus": 200,
@@ -270,5 +279,6 @@
   "filename": "Razzeee___desktop.json",
   "sourceRepo": "mattermost/desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:30.027Z"
+  "lastFetchedAt": "2017-05-04T20:19:30.027Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:21.078Z"
 }

@@ -87,5 +87,42 @@
   "networkCount": 3,
   "subscribersCount": 5,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:50:19.707Z"
+  "lastFetchedAt": "2017-05-04T17:50:19.707Z",
+  "packageJSON": {
+    "name": "Eleos",
+    "version": "0.0.4",
+    "description": "A minimal Equihash wallet",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/zencashio/eleos",
+    "keywords": [
+      "zclassic",
+      "equihash",
+      "zcash",
+      "wallet"
+    ],
+    "author": "@joshuayabut",
+    "license": "CPAL",
+    "dependencies": {
+      "express": "*",
+      "express-ws": "*",
+      "http-auth": "*",
+      "ht-auth": "*",
+      "node-pty": "0.4.1",
+      "tableify": "*",
+      "request": "*",
+      "request-progress": "*",
+      "tar-fs": "*",
+      "tcp-port-used": "*",
+      "xterm": "*"
+    },
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-rebuild": "^1.5.7"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:11:53.659Z"
 }

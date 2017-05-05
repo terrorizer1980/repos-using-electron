@@ -72,9 +72,9 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "angular-tour-of-heroes-webpack",
+    "name": "angular-webpack-quickstart",
     "version": "1.0.0",
-    "description": "QuickStart package.json from the documentation, supplemented with testing support",
+    "description": "QuickStart Angular 2 project with Webpack and Electron",
     "scripts": {
       "docker-build": "docker build -t ng2-quickstart .",
       "docker": "npm run docker-build && docker run -it --rm -p 3000:3000 -p 3001:3001 ng2-quickstart",
@@ -92,6 +92,7 @@
       "start.desktop.prod": "electron dist"
     },
     "keywords": [],
+    "author": "",
     "license": "MIT",
     "dependencies": {
       "@angular/common": "~2.2.0",
@@ -120,6 +121,7 @@
       "angular2-template-loader": "^0.6.0",
       "awesome-typescript-loader": "^2.2.4",
       "concurrently": "^3.1.0",
+      "copy-webpack-plugin": "^4.0.1",
       "css-loader": "^0.25.0",
       "electron-connect": "^0.6.0",
       "electron-packager": "8.2.0",
@@ -182,5 +184,6 @@
   },
   "filename": "osechet___angular-webpack-quickstart.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:15.710Z"
+  "lastFetchedAt": "2017-05-04T21:02:15.710Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:05.271Z"
 }

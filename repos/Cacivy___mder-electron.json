@@ -74,7 +74,7 @@
       "start": "electron .",
       "dev": "electron . --debug",
       "server": "webpack-dev-server --inline --hot --progress --colors",
-      "build": "webpack &&  webpack --config webpack.app.config.js",
+      "build": "webpack",
       "pack": "build --dir",
       "dist": "build"
     },
@@ -82,12 +82,12 @@
       "react",
       "electron"
     ],
+    "author": "Cacivy",
     "license": "ISC",
     "dependencies": {
       "codemirror": "^5.19.0",
+      "highlight.js": "^9.8.0",
       "marked": "^0.3.6",
-      "prism": "^1.0.0",
-      "prismjs": "^1.5.1",
       "react": "^15.3.2",
       "react-dom": "^15.3.2",
       "react-modal": "^1.5.2"
@@ -101,6 +101,7 @@
       "electron": "^1.4.6",
       "electron-builder": "^8.5.3",
       "electron-prebuilt": "^1.4.6",
+      "extract-text-webpack-plugin": "^1.0.1",
       "open-browser-webpack-plugin": "0.0.3",
       "style-loader": "^0.13.1",
       "webpack": "^1.13.3",
@@ -142,5 +143,6 @@
   },
   "filename": "Cacivy___mder-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:42.584Z"
+  "lastFetchedAt": "2017-05-04T04:57:42.584Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:24.894Z"
 }

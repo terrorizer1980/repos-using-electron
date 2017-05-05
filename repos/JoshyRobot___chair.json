@@ -72,24 +72,36 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "chair",
+    "name": "peak",
     "version": "1.0.0",
-    "description": "An Amazon Instant Video client",
-    "main": "index.js",
+    "description": "A video player quite similar to YouTube",
+    "main": "./bin/start",
     "scripts": {
-      "start": "electron ."
+      "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/JoshyRobot/chair",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JoshyRobot/peak.git"
+    },
     "keywords": [
       "video",
       "player"
     ],
+    "author": "JoshyRobot",
     "license": "MIT",
-    "homepage": "https://github.com/JoshyRobot/chair#readme",
+    "bugs": {
+      "url": "https://github.com/JoshyRobot/peak/issues"
+    },
+    "homepage": "https://github.com/JoshyRobot/peak#readme",
     "dependencies": {
       "d3": "^4.2.7",
-      "jquery": "^3.1.1",
-      "electron": "^1.4.3"
+      "electron": "^1.4.3",
+      "electron-debug": "^1.1.0",
+      "electron-localshortcut": "^1.0.0",
+      "sprintf-js": "^1.0.3"
+    },
+    "devDependencies": {
+      "devtron": "^1.4.0"
     }
   },
   "packageStatus": 200,
@@ -117,5 +129,6 @@
   },
   "filename": "JoshyRobot___chair.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:29.185Z"
+  "lastFetchedAt": "2017-05-04T05:15:29.185Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:10.760Z"
 }

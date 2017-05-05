@@ -79,11 +79,18 @@
     "scripts": {
       "start": "electron . dev"
     },
-    "repository": "https://github.com/norux/ferret",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/norux/ferret.git"
+    },
     "keywords": [
       "logviwer"
     ],
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/norux/ferret/issues"
+    },
     "homepage": "https://github.com/norux/ferret#readme",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -128,5 +135,6 @@
   },
   "filename": "norux___ferret.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:15.012Z"
+  "lastFetchedAt": "2017-05-04T17:42:15.012Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:26.695Z"
 }

@@ -74,14 +74,15 @@
       "start": "electron ./app/main.js",
       "build": "electron-packager ./app $npm_package_productName --platform=darwin --arch=x64 --ignore=node_modules --icon=icons/icon --overwrite --out=./release"
     },
+    "author": "Harry",
     "license": "GNU",
     "devDependencies": {
-      "electron-packager": "^7.0.1",
+      "electron-packager": "^8.5.1",
       "electron-prebuilt": "^1.2.3",
       "gulp-electron": "^0.1.2",
       "browser-sync": "^2.11.2",
       "gulp": "^3.9.1",
-      "gulp-sass": "^2.2.0"
+      "gulp-sass": "^3.1.0"
     }
   },
   "packageStatus": 200,
@@ -109,5 +110,6 @@
   },
   "filename": "harrypujols___clock.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:15.186Z"
+  "lastFetchedAt": "2017-05-04T17:37:15.186Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:29.385Z"
 }

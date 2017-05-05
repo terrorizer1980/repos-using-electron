@@ -111,7 +111,13 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/beecoders/beeapp-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beecoders/beeapp-desktop.git"
+    },
+    "bugs": {
+      "url": "https://github.com/beecoders/beeapp-desktop/issues"
+    },
     "homepage": "https://github.com/beecoders/beeapp-desktop",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -204,5 +210,6 @@
   },
   "filename": "beecoders___beeapp-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:11.600Z"
+  "lastFetchedAt": "2017-05-04T19:56:11.600Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:08.435Z"
 }

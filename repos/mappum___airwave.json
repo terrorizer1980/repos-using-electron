@@ -54,6 +54,7 @@
       "start": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Matt Bell <mappum@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.30.4",
@@ -112,5 +113,6 @@
   "svnUrl": "https://github.com/mappum/airwave",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:18:15.132Z"
+  "lastFetchedAt": "2017-05-04T21:18:15.132Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:38.485Z"
 }

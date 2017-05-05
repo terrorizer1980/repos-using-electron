@@ -216,7 +216,13 @@
       "Konstantin Azizov <azizovkostya97@gmail.com>",
       "Volodymyr Barna <roberto.te.ua@gmail.com>"
     ],
-    "repository": "https://github.com/shockone/black-screen",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/shockone/black-screen.git"
+    },
+    "bugs": {
+      "url": "https://github.com/shockone/black-screen/issues"
+    },
     "keywords": [
       "terminal",
       "emulator",
@@ -299,5 +305,6 @@
   },
   "sourceRepo": "shockone/black-screen",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:48.750Z"
+  "lastFetchedAt": "2017-05-04T15:13:48.750Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:46.347Z"
 }

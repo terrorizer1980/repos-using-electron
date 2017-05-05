@@ -72,6 +72,11 @@
     "description": "My kickass app",
     "license": "MIT",
     "repository": "Sekhmet/makeblocks",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "twitter.com/0cf5e"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -155,5 +160,6 @@
   "svnUrl": "https://github.com/makeblocks/makeblocks",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:26:47.264Z"
+  "lastFetchedAt": "2017-05-04T14:26:47.264Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:41.478Z"
 }

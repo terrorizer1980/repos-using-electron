@@ -62,12 +62,16 @@
     "scripts": {
       "start": "node bin/mochatron.js"
     },
-    "repository": "https://github.com/tscanlin/mochatron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tscanlin/mochatron.git"
+    },
     "keywords": [
       "mocha",
       "test",
       "electron"
     ],
+    "author": "Tim Scanlin",
     "license": "MIT",
     "devDependencies": {
       "eslint": "^1.10.3"
@@ -125,5 +129,6 @@
   "svnUrl": "https://github.com/tscanlin/mochatron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:42:54.162Z"
+  "lastFetchedAt": "2017-05-04T19:42:54.162Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:20.607Z"
 }

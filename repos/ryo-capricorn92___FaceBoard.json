@@ -176,19 +176,14 @@
       "start": "webpack && electron main.js"
     },
     "repository": {
-      "user": "HRR17-Cauliflower",
-      "repo": "FaceBoard",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/HRR17-Cauliflower/FaceBoard/tarball/master",
-      "clone_url": "https://github.com/HRR17-Cauliflower/FaceBoard",
-      "https_url": "https://github.com/HRR17-Cauliflower/FaceBoard",
-      "travis_url": "https://travis-ci.org/HRR17-Cauliflower/FaceBoard",
-      "zip_url": "https://github.com/HRR17-Cauliflower/FaceBoard/archive/master.zip",
-      "api_url": "https://api.github.com/repos/HRR17-Cauliflower/FaceBoard"
+      "type": "git",
+      "url": "https://github.com/HRR17-Cauliflower/FaceBoard"
     },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/HRR17-Cauliflower/FaceBoard/issues"
+    },
     "homepage": "https://github.com/HRR17-Cauliflower/FaceBoard#readme",
     "dependencies": {
       "axios": "^0.13.1",
@@ -266,5 +261,6 @@
   "svnUrl": "https://github.com/ryo-capricorn92/FaceBoard",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:31:14.259Z"
+  "lastFetchedAt": "2017-05-04T15:31:14.259Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:07.714Z"
 }

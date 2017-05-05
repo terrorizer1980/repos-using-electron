@@ -81,11 +81,18 @@
       "watch": "gulp",
       "build": "gulp build"
     },
+    "author": "Filip Hallqvist <filiphallqvist@gmail.com>",
     "license": "MIT",
-    "repository": "https://github.com/fhqvst/shark",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fhqvst/shark.git"
+    },
     "keywords": [
       "trading"
     ],
+    "bugs": {
+      "url": "https://github.com/fhqvst/shark/issues"
+    },
     "homepage": "https://github.com/fhqvst/shark#readme",
     "description": "A trading terminal from the future.",
     "dependencies": {
@@ -175,5 +182,6 @@
   },
   "filename": "fhqvst___shark.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:42.876Z"
+  "lastFetchedAt": "2017-05-04T05:23:42.876Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:06.656Z"
 }

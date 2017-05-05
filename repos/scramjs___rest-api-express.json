@@ -185,10 +185,10 @@
     "description": "",
     "main": "express.js",
     "scripts": {
-      "start": "xvfb run electron node_modules/scram-engine/main.js app/server/index.html",
-      "dev": "electron node_modules/scram-engine/main.js app/server/index.html",
-      "dev-window": "electron node_modules/scram-engine/main.js app/server/index.html -d",
-      "dev-file": "electron node_modules/scram-engine/main.js app/server/index.html -d -f",
+      "start": "xvfb run electron node_modules/scram-engine/main.js --entry-file app/server/index.html",
+      "dev": "electron node_modules/scram-engine/main.js --entry-file app/server/index.html",
+      "dev-window": "electron node_modules/scram-engine/main.js --entry-file app/server/index.html --window",
+      "dev-file": "electron node_modules/scram-engine/main.js --entry-file app/server/index.html --file-system --window",
       "test": "./node_modules/mocha/bin/mocha express.test.js"
     },
     "repository": {
@@ -202,11 +202,10 @@
     },
     "dependencies": {
       "body-parser": "1.9.2",
-      "electron-prebuilt": "^1.2.6",
       "express": "4.10.1",
       "mongoskin": "1.4.4",
       "morgan": "1.5.0",
-      "scram-engine": "^0.3.1"
+      "scram-engine": "^0.4.3"
     },
     "devDependencies": {
       "expect.js": "0.3.1",
@@ -259,5 +258,6 @@
   "svnUrl": "https://github.com/scramjs/rest-api-express",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:40:04.202Z"
+  "lastFetchedAt": "2017-05-04T19:40:04.202Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:30.056Z"
 }

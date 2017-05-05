@@ -80,6 +80,7 @@
       "time",
       "management"
     ],
+    "author": "Kitty Tang / Dave Andrew",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "1.2.2",
@@ -98,7 +99,10 @@
       "webpack": "1.13.1",
       "webpack-dev-server": "1.14.1"
     },
-    "repository": "https://github.com/kitty-tang-hs/ett"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kitty-tang-hs/ett"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -125,5 +129,6 @@
   },
   "filename": "kitty-tang-hs___ett.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:32.971Z"
+  "lastFetchedAt": "2017-05-04T20:19:32.971Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:21.036Z"
 }

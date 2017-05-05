@@ -94,6 +94,11 @@
       "start": "electron . --dev",
       "watch": "gulp watch"
     },
+    "author": {
+      "name": "Samuel Attard",
+      "email": "samuel.r.attard@gmail.com",
+      "url": "https://www.samuelattard.com"
+    },
     "homepage": "http://www.samuelattard.com",
     "license": "MIT",
     "dependencies": {
@@ -160,5 +165,6 @@
   },
   "filename": "MarshallOfSound___Electron-Starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:48.472Z"
+  "lastFetchedAt": "2017-05-04T19:45:48.472Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:34.180Z"
 }

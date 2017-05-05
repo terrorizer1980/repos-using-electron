@@ -51,6 +51,7 @@
     "version": "0.0.0",
     "license": "MIT",
     "main": "init.js",
+    "author": "Raymond Hammarling",
     "scripts": {
       "lint": "eslint init.js main.js",
       "start": "electron ."
@@ -125,5 +126,6 @@
   },
   "filename": "raymond-h___electro-panel.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:31.750Z"
+  "lastFetchedAt": "2017-05-04T20:58:31.750Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:06.035Z"
 }

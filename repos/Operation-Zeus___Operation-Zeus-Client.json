@@ -86,10 +86,10 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "operation-zeus",
+    "name": "Operation-Zeus-Client",
     "version": "0.0.1",
     "main": "main.js",
-    "license": "GPLv3",
+    "license": "GPL3.0",
     "repository": {
       "type": "git"
     },
@@ -109,6 +109,7 @@
     },
     "dependencies": {
       "feedparser": "^1.1.4",
+      "lodash": "^4.17.2",
       "moment": "^2.14.1",
       "request": "^2.74.0"
     }
@@ -138,5 +139,6 @@
   },
   "filename": "Operation-Zeus___Operation-Zeus-Client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:44.428Z"
+  "lastFetchedAt": "2017-05-04T17:38:44.428Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:26.296Z"
 }

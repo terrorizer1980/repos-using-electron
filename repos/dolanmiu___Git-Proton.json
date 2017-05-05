@@ -72,24 +72,25 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "angular2-electron-starter",
+    "name": "git-proton",
     "version": "0.2.0",
-    "description": "Angular2 Electron Starter",
+    "description": "An open source Electron based Git GUI tool",
     "scripts": {
-      "start": "webpack-dev-server --inline --progress --port 8080",
-      "test": "karma start",
-      "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail",
-      "postinstall": "typings install",
-      "electron": "npm run build && npm run buildmain && electron .",
+      "start-web": "webpack-dev-server --open --inline --progress --port 8080",
+      "start": "npm run build && electron .",
+      "build-main": "webpack --config config/webpack.main.js --progress --profile --bail --display-error-details",
+      "build-electron": "webpack --config config/webpack.prod.js --progress --profile --bail --display-error-details",
+      "build": "rimraf dist && npm run build-electron && npm run build-main",
       "package": "npm run build && npm run prepare && ./node_modules/electron-packager/cli.js dist App --platform=darwin --arch=all --out=dist-app --overwrite",
-      "buildmain": "webpack --config config/webpack.main.js --progress --profile --bail",
-      "electrononly": "electron .",
-      "lint": "tslint --project ."
+      "electron": "electron .",
+      "karma": "karma start 'config/karma.conf.js'",
+      "lint": "tslint --project .",
+      "test": "npm run karma && npm run lint"
     },
     "licenses": [
       {
-        "type": "MIT",
-        "url": "https://github.com/angular/angular.io/blob/master/LICENSE"
+        "type": "GPL-3.0",
+        "url": "https://github.com/dolanmiu/Git-Proton/blob/master/LICENSE"
       }
     ],
     "main": "./dist/main.js",
@@ -99,29 +100,31 @@
       "@angular/core": "~2.1.0",
       "@angular/forms": "~2.1.0",
       "@angular/http": "~2.1.0",
-      "@angular/material": "^2.0.0-alpha.9-3",
+      "@angular/material": "^2.0.0-beta.1",
       "@angular/platform-browser": "~2.1.0",
       "@angular/platform-browser-dynamic": "~2.1.0",
       "@angular/router": "~3.1.0",
       "core-js": "^2.4.1",
       "font-awesome": "^4.6.3",
+      "material-design-icons": "^3.0.1",
       "mkdirp": "^0.5.1",
       "nconf": "^0.8.4",
       "nodegit": "^0.16.0",
-      "octicons": "^4.4.0",
+      "octicons": "^5.0.1",
       "rxjs": "5.0.0-beta.12",
       "zone.js": "^0.6.25"
     },
     "devDependencies": {
       "@types/core-js": "^0.9.34",
       "@types/electron": "^1.4.26",
+      "@types/jasmine": "^2.5.41",
       "@types/karma": "^0.13.33",
       "@types/mkdirp": "^0.3.29",
       "@types/nconf": "0.0.32",
       "@types/node": "^6.0.46",
       "angular2-template-loader": "^0.4.0",
       "awesome-typescript-loader": "^2.2.4",
-      "codelyzer": "^1.0.0-beta.3",
+      "codelyzer": "^2.0.0-beta.4",
       "css-loader": "^0.23.1",
       "electron": "^1.4.1",
       "electron-packager": "^8.1.0",
@@ -142,9 +145,8 @@
       "rimraf": "^2.5.2",
       "sass-loader": "^4.0.2",
       "style-loader": "^0.13.1",
-      "tslint": "^3.15.1",
+      "tslint": "^4.3.1",
       "typescript": "^2.0.2",
-      "typings": "^1.3.2",
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.1",
       "webpack-merge": "^0.14.0"
@@ -175,5 +177,6 @@
   },
   "filename": "dolanmiu___Git-Proton.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:09:16.811Z"
+  "lastFetchedAt": "2017-05-04T21:09:16.811Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:58.761Z"
 }

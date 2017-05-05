@@ -74,8 +74,15 @@
       "start": "webpack && electron .",
       "electron": "electron ."
     },
-    "repository": "https://github.com/Shishamou/redux-electron-example",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Shishamou/redux-electron-example.git"
+    },
+    "author": "Shishamou <shisha225@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Shishamou/redux-electron-example/issues"
+    },
     "homepage": "https://github.com/Shishamou/redux-electron-example#readme",
     "devDependencies": {
       "babel-core": "^6.9.0",
@@ -122,5 +129,6 @@
   },
   "filename": "Shishamou___redux-electron-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:27.879Z"
+  "lastFetchedAt": "2017-05-04T21:17:27.879Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:47.840Z"
 }

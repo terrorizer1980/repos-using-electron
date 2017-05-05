@@ -78,6 +78,11 @@
     "description": "A tool to mux audio and video files with ffmpeg",
     "main": "app.js",
     "homepage": "http://github.com/telega/MuxTool",
+    "author": {
+      "name": "Thomas Allen",
+      "email": "tom@telega.org",
+      "url": "http://telega.org"
+    },
     "scripts": {
       "start": "electron ."
     },
@@ -123,5 +128,6 @@
   },
   "filename": "telega___MuxTool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:35:31.389Z"
+  "lastFetchedAt": "2017-05-04T15:35:31.389Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:06.720Z"
 }

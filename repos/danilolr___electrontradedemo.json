@@ -79,7 +79,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/danilolr/electrontradedemo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/danilolr/electrontradedemo.git"
+    },
+    "author": "Danilo Luiz Rheinheimer",
     "homepage": "https://github.com/danilolr/electrontradedemo",
     "license": "Apache-2.0",
     "devDependencies": {
@@ -111,5 +115,6 @@
   },
   "filename": "danilolr___electrontradedemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:32:54.873Z"
+  "lastFetchedAt": "2017-05-04T19:32:54.873Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:02.753Z"
 }

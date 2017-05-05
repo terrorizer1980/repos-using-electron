@@ -89,32 +89,47 @@
     "name": "FastFlow",
     "productName": "FastFlow",
     "companyName": "FastFlow",
-    "version": "0.8.1",
+    "version": "0.9.0",
     "description": "Debate application for keeping your files organized",
-    "main": "app/main.js",
+    "main": "main.js",
+    "appDir": "app",
     "scripts": {
       "postinstall": "install-app-deps",
+      "startdev": "ENVIRONMENT=DEV electron ./app",
       "start": "electron ./app",
-      "compile": "echo compile",
-      "pack": "npm run compile && build --dir",
-      "dist": "npm run compile && build",
-      "release": "npm run compile && build",
-      "setup": "npm install && cd app && npm install && bower install"
+      "webpack": "./node_modules/.bin/webpack",
+      "pack": "npm run webpack && build --dir",
+      "dist": "npm run webpack && build",
+      "setup": "./setup.sh",
+      "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
     "build": {
       "appId": "fastflowdebate",
-      "category": "public.app-category.productivity",
       "asar": false,
-      "win": {
-        "iconUrl": "https://raw.githubusercontent.com/FastFlowDebate/assets/master/FastFlowIcon.png"
+      "files": [
+        "**/*",
+        "!node_modules/*",
+        "node_modules/.bin",
+        "node_modules/electron",
+        "node_modules/lokijs/src/lokijs.js",
+        "node_modules/electron-debug/index.js"
+      ],
+      "mac": {
+        "category": "public.app-category.productivity"
       }
     },
-    "postinstall": "install-app-deps",
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/FastFlowDebate/fastflow",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FastFlowDebate/fastflow.git"
+    },
+    "author": "Adam Towers <adam.towers@icloud.com> (https://github.com/zarkoix)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/FastFlowDebate/FastFlow/issues"
+    },
     "keywords": [
       "electron",
       "debate"
@@ -123,22 +138,27 @@
     "devDependencies": {
       "chromedriver": "^2.19.0",
       "del": "^2.2.0",
-      "electron-builder": "^6.3.1",
-      "electron-packager": "^5.2.1",
-      "electron-prebuilt": "^0.36.0",
+      "electron": "^1.4.15",
+      "electron-builder": "^15.2.0",
+      "electron-packager": "^8.5.0",
       "electron-rebuild": "^1.0.0",
-      "eslint": "^1.3.1",
-      "extract-text-webpack-plugin": "^0.9.1",
-      "fbjs-scripts": "^0.5.0",
-      "jsdom": "^7.0.2",
+      "eslint": "^3.14.0",
+      "fbjs-scripts": "^0.7.1",
+      "jsdom": "^9.9.1",
       "minimist": "^1.2.0",
       "node-gyp": "^3.2.1",
-      "webpack": "^1.12.1",
-      "webpack-target-electron-renderer": "^0.3.0",
-      "rimraf": "^2.5.4"
+      "style-loader": "^0.13.1",
+      "css-loader": "^0.27.1",
+      "file-loader": "^0.10.1",
+      "imports-loader": "^0.7.0",
+      "url-loader": "^0.5.7",
+      "webpack": "^2.2.1",
+      "webpack-dev-server": "^2.4.1",
+      "webpack-target-electron-renderer": "^0.4.0",
+      "webpack-uglify-js-plugin": "^1.1.9"
     },
     "dependencies": {
-      "electron-debug": "^1.0.1"
+      "electron-debug": "^1.1.0"
     },
     "devEngines": {
       "node": "4.x || 5.x",
@@ -170,5 +190,6 @@
   },
   "filename": "FastFlowDebate___FastFlow.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:31.689Z"
+  "lastFetchedAt": "2017-05-04T20:38:31.689Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:29.305Z"
 }

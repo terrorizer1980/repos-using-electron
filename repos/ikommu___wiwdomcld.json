@@ -73,12 +73,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/ikommu/wiwdomcld",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ikommu/wiwdomcld.git"
+    },
     "keywords": [
       "Screenshot",
       "Automatic"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ikommu/wiwdomcld/issues"
+    },
     "homepage": "https://github.com/ikommu/wiwdomcld#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -109,5 +116,6 @@
   },
   "filename": "ikommu___wiwdomcld.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:13.034Z"
+  "lastFetchedAt": "2017-05-04T21:03:13.034Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:41.446Z"
 }

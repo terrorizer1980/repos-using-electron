@@ -90,8 +90,8 @@
     "author": "Team1",
     "homepage": "",
     "private": true,
+    "main": "./src/desktop/electron_setup.js",
     "scripts": {
-      "postinstall": "typings install",
       "build": "ionic-app-scripts build",
       "watch": "ionic-app-scripts watch",
       "serve:before": "watch",
@@ -100,7 +100,9 @@
       "build:before": "build",
       "run:before": "build",
       "typings": "typings",
-      "tsc": "tsc"
+      "tsc": "tsc",
+      "test": "karma start config/karma.conf.js",
+      "electron": "ionic-app-scripts build --dev && electron ./src/desktop/electron_setup.js"
     },
     "dependencies": {
       "@angular/common": "2.1.1",
@@ -113,21 +115,46 @@
       "@angular/platform-browser-dynamic": "2.1.1",
       "@angular/platform-server": "2.1.1",
       "@ionic/storage": "1.1.6",
-      "core-js": "^2.4.1",
+      "core-js": "2.4.1",
       "ionic-angular": "2.0.0-rc.2",
       "ionic-native": "2.2.3",
       "ionicons": "3.0.0",
-      "reflect-metadata": "^0.1.8",
+      "json-typescript-mapper": "1.0.5",
+      "reflect-metadata": "0.1.8",
       "rxjs": "5.0.0-beta.12",
-      "systemjs": "^0.19.40",
+      "systemjs": "0.19.40",
       "zone.js": "0.6.21"
     },
     "devDependencies": {
       "@ionic/app-scripts": "0.0.39",
-      "concurrently": "^3.1.0",
-      "electron-prebuilt": "^1.4.5",
-      "typescript": "2.0.6",
-      "typings": "^1.5.0"
+      "@types/jasmine": "2.5.35",
+      "@types/node": "6.0.45",
+      "angular2-template-loader": "0.4.0",
+      "awesome-typescript-loader": "2.2.4",
+      "concurrently": "3.1.0",
+      "css-loader": "0.23.1",
+      "electron": "1.4.15",
+      "extract-text-webpack-plugin": "1.0.1",
+      "file-loader": "0.8.5",
+      "html-loader": "0.4.3",
+      "html-webpack-plugin": "2.15.0",
+      "jasmine-core": "2.4.1",
+      "karma": "1.2.0",
+      "karma-chrome-launcher": "2.0.0",
+      "karma-htmlfile-reporter": "0.3.4",
+      "karma-jasmine": "1.0.2",
+      "karma-phantomjs-launcher": "1.0.2",
+      "karma-sourcemap-loader": "0.3.7",
+      "karma-webpack": "1.8.0",
+      "null-loader": "0.1.1",
+      "phantomjs-prebuilt": "2.1.7",
+      "raw-loader": "0.5.1",
+      "rimraf": "2.5.2",
+      "style-loader": "0.13.1",
+      "typescript": "2.0.10",
+      "webpack": "1.13.0",
+      "webpack-dev-server": "1.14.1",
+      "webpack-merge": "0.14.0"
     }
   },
   "packageStatus": 200,
@@ -155,5 +182,6 @@
   },
   "filename": "BachelorProjektAI-HSFulda___megaApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:15.798Z"
+  "lastFetchedAt": "2017-05-04T17:51:15.798Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:51.358Z"
 }

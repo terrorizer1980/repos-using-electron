@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "go-modpack-packer",
-    "version": "1.0.18",
+    "version": "1.0.19",
     "description": "Packs mods for modpacks",
     "main": "main.js",
     "scripts": {
@@ -64,6 +64,7 @@
       "Modpack",
       "Minecraft"
     ],
+    "author": "Zlepper",
     "license": "MIT",
     "dependencies": {
       "angular": "^1.5.5",
@@ -106,7 +107,8 @@
         "iconUrl": "https://raw.githubusercontent.com/zlepper/TechnicSolderHelper/master/TechnicSolderHelper/modpackhelper.ico"
       },
       "compression": "maximum"
-    }
+    },
+    "directories": {}
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -153,5 +155,6 @@
   "svnUrl": "https://github.com/zlepper/go-modpack-packer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:04:07.629Z"
+  "lastFetchedAt": "2017-05-04T20:04:07.629Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:22.769Z"
 }

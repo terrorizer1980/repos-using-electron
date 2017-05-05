@@ -185,17 +185,11 @@
       }
     ],
     "repository": {
-      "user": "teseve",
-      "repo": "teseve",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/teseve/teseve/tarball/master",
-      "clone_url": "https://github.com/teseve/teseve",
-      "https_url": "https://github.com/teseve/teseve",
-      "travis_url": "https://travis-ci.org/teseve/teseve",
-      "zip_url": "https://github.com/teseve/teseve/archive/master.zip",
-      "api_url": "https://api.github.com/repos/teseve/teseve"
+      "type": "git",
+      "url": "git://github.com/teseve/teseve.git"
+    },
+    "bugs": {
+      "url": "https://github.com/teseve/teseve/issues"
     },
     "licenses": [
       {
@@ -272,5 +266,6 @@
   "svnUrl": "https://github.com/JordietYahii/teseve",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:07:37.853Z"
+  "lastFetchedAt": "2017-05-04T05:07:37.853Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:43.944Z"
 }

@@ -80,7 +80,10 @@
       "start": "NODE_ENV=production startx ./node_modules/electron-prebuilt/dist/electron .",
       "test": "NODE_ENV=development startx ./node_modules/electron-prebuilt/dist/electron ."
     },
-    "repository": "https://github.com/fwrgit/resin-electronjs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fwrgit/resin-electronjs.git"
+    },
     "keywords": [
       "resin",
       "io",
@@ -90,7 +93,11 @@
     "dependencies": {
       "electron-prebuilt": "^1.1.3"
     },
+    "author": "Carlo Maria Curinga",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/fwrgit/resin-electronjs/issues"
+    },
     "homepage": "https://github.com/fwrgit/resin-electronjs#readme",
     "jshintConfig": {
       "esnext": true,
@@ -122,5 +129,6 @@
   },
   "filename": "IG-Julien___simple-server-node.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:13.157Z"
+  "lastFetchedAt": "2017-05-04T21:19:13.157Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:41.440Z"
 }

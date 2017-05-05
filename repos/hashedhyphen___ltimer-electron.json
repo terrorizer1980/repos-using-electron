@@ -55,7 +55,9 @@
     "name": "ltimer",
     "description": "A timer for LTs (Electron)",
     "version": "2.1.13",
+    "author": "Ryo Kato <ryo_kato@hashedhyphen.com>",
     "bin": "ltimer.js",
+    "bugs": "https://github.com/hashedhyphen/ltimer-electron/issues",
     "dependencies": {
       "electron-prebuilt": "^1.2.3",
       "react": "^15.1.0",
@@ -81,7 +83,10 @@
     ],
     "license": "MIT",
     "main": "js/build/index.js",
-    "repository": "https://github.com/hashedhyphen/ltimer-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hashedhyphen/ltimer-electron.git"
+    },
     "scripts": {
       "build": "gulp build",
       "lint": "gulp lint",
@@ -134,5 +139,6 @@
   "svnUrl": "https://github.com/hashedhyphen/ltimer-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:35:30.196Z"
+  "lastFetchedAt": "2017-05-04T19:35:30.196Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:47.746Z"
 }

@@ -206,6 +206,7 @@
     "version": "1.1.0",
     "description": "Mattermost Desktop application for Windows, Mac and Linux",
     "main": "main.js",
+    "author": "Yuya Ochiai",
     "license": "MIT",
     "engines": {
       "node": ">=4.2.0"
@@ -277,5 +278,6 @@
   },
   "sourceRepo": "mattermost/desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:11.125Z"
+  "lastFetchedAt": "2017-05-04T14:49:11.125Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:22.741Z"
 }

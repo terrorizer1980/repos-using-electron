@@ -53,14 +53,21 @@
     "scripts": {
       "start": "electron src/main.js --debug-brk=5858"
     },
-    "repository": "https://github.com/vsaroopchand/ElectronDemo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vsaroopchand/ElectronDemo.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Vishal",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vsaroopchand/ElectronDemo/issues"
+    },
     "homepage": "https://github.com/vsaroopchand/ElectronDemo#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7",
@@ -112,5 +119,6 @@
   "svnUrl": "https://github.com/vsaroopchand/SFDemoUI",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:46:00.368Z"
+  "lastFetchedAt": "2017-05-04T17:46:00.368Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:52.848Z"
 }

@@ -74,8 +74,15 @@
       "test": "make test",
       "start": "electron ."
     },
-    "repository": "https://github.com/eduardopilati/electronTest",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/eduardopilati/electronTest.git"
+    },
+    "author": "Eduardo Pilati <pilatieduardo@gmail.com>",
     "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/eduardopilati/electronTest/issues"
+    },
     "dependencies": {
       "electron": "latest",
       "express": "latest",
@@ -107,5 +114,6 @@
   },
   "filename": "eduardopilati___electronTest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:28.986Z"
+  "lastFetchedAt": "2017-05-04T20:13:28.986Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:34.532Z"
 }

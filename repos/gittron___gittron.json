@@ -104,7 +104,10 @@
       "test": "npm run lint-js && npm run lint-sass && npm run coverage",
       "start": "electron . --enable-logging"
     },
-    "repository": "https://github.com/gittron/gittron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gittron/gittron.git"
+    },
     "keywords": [
       "gittron",
       "github",
@@ -114,6 +117,7 @@
       "shell",
       "app"
     ],
+    "author": "Ray Ch",
     "contributors": [
       {
         "name": "Ray Ch",
@@ -121,6 +125,9 @@
       }
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gittron/gittron/issues"
+    },
     "homepage": "https://github.com/gittron/gittron",
     "dependencies": {
       "auto-launch": "=2.0.1",
@@ -204,5 +211,6 @@
   },
   "filename": "gittron___gittron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:33.595Z"
+  "lastFetchedAt": "2017-05-04T05:16:33.595Z",
+  "packageLastFetchedAt": "2017-05-05T17:39:30.873Z"
 }

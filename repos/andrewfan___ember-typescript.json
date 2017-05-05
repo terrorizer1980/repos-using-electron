@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for web-app goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember electron",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "at-types-ember": "github:winding-lines/at-types-ember",
@@ -177,5 +182,6 @@
   "filename": "andrewfan___ember-typescript.json",
   "sourceRepo": "perlun/electron-ember-typescript-example",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:27.438Z"
+  "lastFetchedAt": "2017-05-04T14:24:27.438Z",
+  "packageLastFetchedAt": "2017-05-05T13:37:34.487Z"
 }

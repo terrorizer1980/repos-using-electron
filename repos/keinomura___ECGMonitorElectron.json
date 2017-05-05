@@ -67,5 +67,24 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:50:38.467Z"
+  "lastFetchedAt": "2017-05-04T20:50:38.467Z",
+  "packageJSON": {
+    "name": "ecgmonitor",
+    "version": "0.5.0",
+    "productName": "ECG Monitor app",
+    "main": "main.js",
+    "description": "ecg monitor for ISLS. electron ver.",
+    "license": "Kei Nom",
+    "author": {
+      "name": "Kei Nom"
+    },
+    "devDependencies": {
+      "electron": "^1.4.15",
+      "electron-builder": "^13.7.0",
+      "nopt": "latest",
+      "npm": "latest"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T23:10:48.453Z"
 }

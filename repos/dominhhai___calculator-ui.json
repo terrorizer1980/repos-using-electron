@@ -81,7 +81,10 @@
       "build": "electron-packager . ElectronExample --platform=darwin --arch=x64 --version=0.26.0 --ignore=node_modules/electron-* && cp img/Icon.icns ElectronExample.app/Contents/Resources/atom.icns",
       "test": "standard && tape test/*.js | faucet"
     },
-    "repository": "https://github.com/dominhhai/calculator-ui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dominhhai/calculator-ui.git"
+    },
     "keywords": [
       "Calculator",
       "calc",
@@ -90,7 +93,11 @@
       "prefix",
       "postfix"
     ],
+    "author": "Hai Do Minh",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dominhhai/calculator-ui/issues"
+    },
     "homepage": "https://github.com/dominhhai/calculator-ui#readme",
     "dependencies": {
       "scalc": "^1.0.0"
@@ -128,5 +135,6 @@
   },
   "filename": "dominhhai___calculator-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:03:36.307Z"
+  "lastFetchedAt": "2017-05-04T05:03:36.307Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:46.397Z"
 }

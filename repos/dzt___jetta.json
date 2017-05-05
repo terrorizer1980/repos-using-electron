@@ -78,12 +78,19 @@
       "installer": "node scripts/installer.js",
       "dist": "npm run dist:win && npm run installer"
     },
-    "repository": "https://github.com/dzt/jetta",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/dzt/jetta.git"
+    },
     "keywords": [
       "soundcloud",
       "bandcamp"
     ],
+    "author": "Peter Soboyejo <thepcmrtim@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dzt/jetta/issues"
+    },
     "homepage": "https://github.com/dzt/jetta#readme",
     "dependencies": {
       "application-config": "^0.2.2",
@@ -147,5 +154,6 @@
   },
   "filename": "dzt___jetta.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:17.562Z"
+  "lastFetchedAt": "2017-05-04T05:35:17.562Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:01.245Z"
 }

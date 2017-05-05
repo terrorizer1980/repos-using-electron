@@ -78,8 +78,12 @@
       "build-win": "electron-packager . MyApp --platform=win32 --arch=ia32 --version=1.1.1 --ignore=node_modules/electron-* --ignore=project/* --ignore=./*.bat --ignore=./.git*",
       "build-linux": "electron-packager . MyApp --platform=linux --arch=ia32 --version=1.1.1 --ignore=node_modules/electron-* --ignore=project/* --ignore=./*.bat --ignore=./.git*"
     },
+    "author": "Ajani James Bilby",
     "license": "ISC",
-    "repository": "https://github.com/Hobgoblin101/AIE-Team1-TeamWork",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Hobgoblin101/AIE-Team1-TeamWork.git"
+    },
     "devDependencies": {
       "electron-packager": "^7.0.2",
       "electron-prebuilt": "^1.1.1",
@@ -114,5 +118,6 @@
   },
   "filename": "Hobgoblin101___AIE-Team1-TeamWork.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:59.745Z"
+  "lastFetchedAt": "2017-05-04T15:13:59.745Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:56.168Z"
 }

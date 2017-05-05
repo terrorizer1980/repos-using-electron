@@ -236,7 +236,13 @@
       "build:electron.main": "npm run webpack -- --config config/electron/webpack.electron.prod.js",
       "electron:start": "electron build"
     },
-    "repository": "https://github.com/HarviProject/Harvi-frontend",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/HarviProject/Harvi-frontend.git"
+    },
+    "bugs": {
+      "url": "https://github.com/HarviProject/Harvi-frontend/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -267,5 +273,6 @@
   },
   "filename": "HarviProject___Harvi-frontend.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:19.491Z"
+  "lastFetchedAt": "2017-05-04T05:20:19.491Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:00.809Z"
 }

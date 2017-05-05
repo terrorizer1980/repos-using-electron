@@ -54,7 +54,10 @@
       "start": "electron ./app/App.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/simondavies/electron-starter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simondavies/electron-starter.git"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -63,7 +66,11 @@
       "node",
       "javascript"
     ],
+    "author": "Simon Davies",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/simondavies/electron-starter/issues"
+    },
     "homepage": "https://github.com/simondavies/electron-starter#readme",
     "devDependencies": {
       "babelify": "^6.1.2",
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/simondavies/electron-vuejs-starter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:14:07.216Z"
+  "lastFetchedAt": "2017-05-04T21:14:07.216Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:38.761Z"
 }

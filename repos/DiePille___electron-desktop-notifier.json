@@ -69,8 +69,15 @@
     "name": "electron-desktop-notifier",
     "description": "Small desktop application that send and receive messages als desktop balloon/notification",
     "version": "1.1.0",
+    "author": {
+      "name": "Philipp Kueffner",
+      "email": "diepille88@gmail.com"
+    },
     "license": "MIT",
-    "repository": "https://github.com/DiePille/electron-desktop-notifier",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/DiePille/electron-desktop-notifier.git"
+    },
     "main": "main.js",
     "scripts": {
       "test": "standard && mocha --recursive",
@@ -189,5 +196,6 @@
   },
   "filename": "DiePille___electron-desktop-notifier.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:53.143Z"
+  "lastFetchedAt": "2017-05-04T21:04:53.143Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:12.062Z"
 }

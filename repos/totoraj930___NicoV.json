@@ -54,12 +54,10 @@
   "packageJSON": {
     "name": "NicoV",
     "description": "簡易ニコ動プレイヤー",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "main": "start.js",
+    "author": "Reona Oshima (totoraj)",
     "license": "MIT",
-    "devDependencies": {
-      "electron-prebuilt": "^1.2.5"
-    },
     "dependencies": {
       "electron-json-storage": "^2.0.0",
       "cheerio": "^0.20.0"
@@ -110,5 +108,6 @@
   },
   "filename": "totoraj930___NicoV.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:33.417Z"
+  "lastFetchedAt": "2017-05-04T21:31:33.417Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:49.860Z"
 }

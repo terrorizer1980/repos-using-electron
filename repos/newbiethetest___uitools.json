@@ -57,6 +57,7 @@
     "keywords": [
       "uitools"
     ],
+    "author": "newbie0086@foxmail.com",
     "license": "ISC",
     "dependencies": {
       "babel-core": "^6.7.4",
@@ -69,7 +70,13 @@
       "webpack": "^1.12.14"
     },
     "devDependencies": {},
-    "repository": "https://github.com/newbiethetest/uitools",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/newbiethetest/uitools.git"
+    },
+    "bugs": {
+      "url": "https://github.com/newbiethetest/uitools/issues"
+    },
     "homepage": "https://github.com/newbiethetest/uitools#readme"
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/newbiethetest/uitools",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:12:26.458Z"
+  "lastFetchedAt": "2017-05-04T18:12:26.458Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:45.997Z"
 }

@@ -156,8 +156,15 @@
       "installer-win": "babel-node tools/run installer-win",
       "start": "babel-node tools/run start"
     },
-    "repository": "https://github.com/bluedaniel/Kakapo-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bluedaniel/Kakapo-app.git"
+    },
+    "author": "Daniel Levitt @supercerebral",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bluedaniel/Kakapo-app/issues"
+    },
     "homepage": "https://github.com/bluedaniel/Kakapo-app#readme"
   },
   "packageStatus": 200,
@@ -205,5 +212,6 @@
   },
   "filename": "bluedaniel___Kakapo-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:46.210Z"
+  "lastFetchedAt": "2017-05-04T20:19:46.210Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:11.763Z"
 }

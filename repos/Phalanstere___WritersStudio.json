@@ -60,12 +60,19 @@
       "test": "test.js",
       "start": "electron ."
     },
-    "repository": "https://github.com/Phalanstere/WritersStudio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Phalanstere/WritersStudio.git"
+    },
     "keywords": [
       "writer",
       "authoring"
     ],
+    "author": "phalanstere <burckhardt@ludicmedia.de> (https://github.com/Phalanstere)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Phalanstere/WritersStudio/issues"
+    },
     "homepage": "https://github.com/Phalanstere/WritersStudio#readme",
     "dependencies": {
       "electron-menus": "^0.1.0",
@@ -123,5 +130,6 @@
   "svnUrl": "https://github.com/Phalanstere/WritersStudio",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:04:45.618Z"
+  "lastFetchedAt": "2017-05-04T20:04:45.618Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:27.978Z"
 }

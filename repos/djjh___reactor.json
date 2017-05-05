@@ -80,6 +80,7 @@
       "clean": "rimraf dist",
       "start": "node devServer.js"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -150,5 +151,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:31.754Z"
+  "lastFetchedAt": "2017-05-04T19:38:31.754Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:46.901Z"
 }

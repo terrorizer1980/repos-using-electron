@@ -73,11 +73,18 @@
     "scripts": {
       "test": "node dt-test-runner.js"
     },
-    "repository": "https://github.com/stpettersens/dt-contribs",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/stpettersens/dt-contribs"
+    },
     "keywords": [
       "dt-contribs-test-runner"
     ],
+    "author": "Sam Saint-Pettersen <s.stpettersen+github@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/stpettersens/dt-contribs/issues"
+    },
     "dependencies": {
       "glob": ">= 5.0.14",
       "tsd": ">= 0.6.5"
@@ -108,5 +115,6 @@
   },
   "filename": "stpettersens___dt-contribs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:10.735Z"
+  "lastFetchedAt": "2017-05-04T15:33:10.735Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:14.069Z"
 }

@@ -73,12 +73,13 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-single-window",
-    "version": "0.0.2",
+    "version": "0.1.2",
     "description": "",
     "typings": "index.ts",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "tsc && tslint --project=tsconfig.json && jest --verbose --coverage",
+      "watch:test": "jest --watch"
     },
     "repository": {
       "type": "git",
@@ -92,10 +93,40 @@
     },
     "homepage": "https://github.com/arvitaly/electron-single-window#readme",
     "dependencies": {
-      "@types/react": "^0.14.44",
-      "electron": "^1.4.5",
+      "@types/commander": "^2.3.31",
+      "@types/electron": "^1.4.28",
+      "@types/jest": "^19.2.1",
+      "@types/jsdom": "^2.0.29",
+      "@types/node": "7.0.8",
+      "@types/react": "^15.0.16",
+      "@types/react-dom": "^0.14.19",
+      "@types/whatwg-fetch": "0.0.33",
+      "commander": "^2.9.0",
+      "electron": "^1.4.12",
       "node-ipc": "^8.9.2",
-      "react": "^15.3.2"
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-stdout": "^0.1.4",
+      "typescript": "^2.1.4"
+    },
+    "devDependencies": {
+      "@types/jest": "^19.2.1",
+      "@types/react-test-renderer": "^15.4.0",
+      "coveralls": "^2.11.15",
+      "jest": "^19.0.2",
+      "jsdom": "^9.8.3",
+      "pagebot": "^0.1.5",
+      "react-stdout": "^0.1.2",
+      "react-test-renderer": "^15.4.1",
+      "tslint": "^4.0.2",
+      "typescript": "^2.0.10"
+    },
+    "jest": {
+      "automock": true,
+      "testRegex": "/__tests__/.*test\\.js$",
+      "unmockedModulePathPatterns": [
+        "react"
+      ]
     }
   },
   "packageStatus": 200,
@@ -123,5 +154,6 @@
   },
   "filename": "arvitaly___electron-single-window.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:26:41.994Z"
+  "lastFetchedAt": "2017-05-04T20:26:41.994Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:30.088Z"
 }

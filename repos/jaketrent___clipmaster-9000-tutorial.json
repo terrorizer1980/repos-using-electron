@@ -81,23 +81,18 @@
       "build": "electron-packager . 'Clipmaster 3000' --platform=all --arch=all --version=0.36.8"
     },
     "repository": {
-      "user": "stevekinney",
-      "repo": "clipmaster-9000-tutorial",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/stevekinney/clipmaster-9000-tutorial/tarball/master",
-      "clone_url": "https://github.com/stevekinney/clipmaster-9000-tutorial",
-      "https_url": "https://github.com/stevekinney/clipmaster-9000-tutorial",
-      "travis_url": "https://travis-ci.org/stevekinney/clipmaster-9000-tutorial",
-      "zip_url": "https://github.com/stevekinney/clipmaster-9000-tutorial/archive/master.zip",
-      "api_url": "https://api.github.com/repos/stevekinney/clipmaster-9000-tutorial"
+      "type": "git",
+      "url": "git+https://github.com/stevekinney/clipmaster-9000-tutorial.git"
     },
     "keywords": [
       "electron",
       "clipboard"
     ],
+    "author": "Steve Kinney",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/stevekinney/clipmaster-9000-tutorial/issues"
+    },
     "homepage": "https://github.com/stevekinney/clipmaster-9000-tutorial#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -135,5 +130,6 @@
   "filename": "jaketrent___clipmaster-9000-tutorial.json",
   "sourceRepo": "stevekinney/clipmaster-9000-tutorial",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:25.552Z"
+  "lastFetchedAt": "2017-05-04T17:49:25.552Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:18.644Z"
 }

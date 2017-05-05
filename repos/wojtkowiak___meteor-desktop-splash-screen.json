@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "meteor-desktop-splash-screen",
-    "version": "0.0.30",
+    "version": "0.3.0",
     "engines": {
       "node": ">=6.0.0"
     },
@@ -66,25 +66,29 @@
       "lint": "eslint src tests",
       "build": "babel src --out-dir dist --source-maps inline --copy-files",
       "build-watch": "babel src --watch --out-dir dist --source-maps inline --copy-files",
-      "postversion": "npm publish",
+      "postversion": "npm run build && npm run lint && npm test && npm publish",
       "version": "node dist/scripts/propagateVersion.js && git add README.md"
     },
+    "author": "Bartosz Wojtkowiak <bartosz@wojtkowiak.it>",
     "license": "MIT",
     "devDependencies": {
-      "ava": "^0.16.0",
-      "babel-cli": "^6.16.0",
-      "babel-preset-node6": "^11.0.0",
-      "eslint": "^3.8.1",
-      "eslint-config-airbnb-base": "^9.0.0",
-      "eslint-plugin-import": "^2.0.1",
-      "spectron": "^3.4.0",
-      "shelljs": "^0.7.5",
-      "electron": "^1.4.4",
-      "node-resemble-js": "^0.1.1",
+      "ava": "0.17.0",
+      "babel-cli": "6.18.0",
+      "babel-preset-node6": "11.0.0",
+      "eslint": "3.12.2",
+      "eslint-config-airbnb-base": "11.0.0",
+      "eslint-plugin-import": "2.2.0",
+      "spectron": "3.4.0",
+      "shelljs": "0.7.5",
+      "electron": "1.4.12",
+      "node-resemble-js": "0.2.0",
       "meteor-desktop-test-suite": "0.0.16"
     },
     "dependencies": {},
-    "repository": "https://github.com/wojtkowiak/meteor-desktop-splash-screen",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wojtkowiak/meteor-desktop-splash-screen"
+    },
     "keywords": [
       "electron",
       "meteor",
@@ -93,6 +97,9 @@
       "splash",
       "splashscreen"
     ],
+    "bugs": {
+      "url": "https://github.com/wojtkowiak/meteor-desktop-splash-screen/issues"
+    },
     "homepage": "https://github.com/wojtkowiak/meteor-desktop-splash-screen"
   },
   "packageStatus": 200,
@@ -140,5 +147,6 @@
   },
   "filename": "wojtkowiak___meteor-desktop-splash-screen.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:28.830Z"
+  "lastFetchedAt": "2017-05-04T17:51:28.830Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:17.919Z"
 }

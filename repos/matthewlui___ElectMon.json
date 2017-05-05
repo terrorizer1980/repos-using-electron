@@ -50,7 +50,10 @@
     "version": "0.1.5",
     "description": "Free open source cross platform MongoDB console written in Node.js Electron",
     "main": "src/main.js",
-    "repository": "https://github.com/matthewlui/ElectMongo",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:matthewlui/ElectMongo.git"
+    },
     "keywords": [
       "mongodb",
       "nodejs",
@@ -69,6 +72,10 @@
       "electron-prebuilt": "*",
       "gulp": "^3.9.1",
       "gulp-jsdoc3": "^0.3.0"
+    },
+    "author": {
+      "name": "Matthew Lui",
+      "email": "matthewluihk@icloud.com"
     },
     "license": "MIT",
     "dependencies": {
@@ -123,5 +130,6 @@
   "svnUrl": "https://github.com/matthewlui/ElectMongo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:31:17.726Z"
+  "lastFetchedAt": "2017-05-04T21:31:17.726Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:40.221Z"
 }

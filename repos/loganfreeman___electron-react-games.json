@@ -81,20 +81,16 @@
       "game"
     ],
     "homepage": "https://github.com/loganfreeman/electron-react-games",
+    "bugs": "https://github.com/loganfreeman/electron-react-games/issues",
     "license": "MIT",
+    "author": {
+      "name": "Logan Freeman",
+      "url": "https://github.com/loganfreeman"
+    },
     "main": "app/window.js",
     "repository": {
-      "user": "loganfreeman",
-      "repo": "electron-react-games",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/loganfreeman/electron-react-games/tarball/master",
-      "clone_url": "https://github.com/loganfreeman/electron-react-games",
-      "https_url": "https://github.com/loganfreeman/electron-react-games",
-      "travis_url": "https://travis-ci.org/loganfreeman/electron-react-games",
-      "zip_url": "https://github.com/loganfreeman/electron-react-games/archive/master.zip",
-      "api_url": "https://api.github.com/repos/loganfreeman/electron-react-games"
+      "type": "git",
+      "url": "https://github.com/loganfreeman/electron-react-games"
     },
     "scripts": {
       "clean": "cleandir ./app/",
@@ -193,5 +189,6 @@
   "filename": "loganfreeman___electron-react-games.json",
   "sourceRepo": "DVDAGames/simpledoku",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:32.667Z"
+  "lastFetchedAt": "2017-05-04T05:14:32.667Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:22.564Z"
 }

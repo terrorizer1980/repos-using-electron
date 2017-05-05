@@ -103,12 +103,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/clowdfish/my-patients",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/clowdfish/my-patients.git"
+    },
     "keywords": [
       "AngularJS",
       "Electron.js"
     ],
+    "author": "Sascha Gros",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/clowdfish/my-patients/issues"
+    },
     "homepage": "https://github.com/clowdfish/my-patients#readme"
   },
   "packageStatus": 200,
@@ -156,5 +163,6 @@
   },
   "filename": "clowdfish___my-patients.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:31.501Z"
+  "lastFetchedAt": "2017-05-04T19:51:31.501Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:45.956Z"
 }

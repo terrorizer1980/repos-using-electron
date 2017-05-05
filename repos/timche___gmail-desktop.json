@@ -68,7 +68,7 @@
   "packageJSON": {
     "name": "gmail-desktop",
     "productName": "Gmail Desktop",
-    "version": "0.2.1",
+    "version": "0.3.0",
     "description": "An unofficial Gmail Desktop App built with Electron",
     "main": "src/index.js",
     "scripts": {
@@ -76,10 +76,13 @@
       "lint": "eslint src",
       "test": "npm run lint",
       "start": "electron .",
-      "build:osx": "electron-packager . --out=build --overwrite --platform=darwin --arch=x64 --icon=src/assets/icons/icon.icns --app-version=$npm_package_version",
+      "build:osx": "electron-packager . --protocol-name=\"Email Address URL\" --protocol=\"mailto\" --out=build --overwrite --platform=darwin --arch=x64 --icon=src/assets/icons/icon.icns --app-version=$npm_package_version",
       "build": "npm run clean && npm run build:osx"
     },
-    "repository": "https://github.com/timche/gmail-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/timche/gmail-desktop.git"
+    },
     "keywords": [
       "gmail",
       "google",
@@ -92,7 +95,11 @@
       "linux",
       "electron"
     ],
+    "author": "timche",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/timche/gmail-desktop/issues"
+    },
     "homepage": "https://github.com/timche/gmail-desktop#readme",
     "devDependencies": {
       "babel-core": "^6.7.7",
@@ -131,5 +138,6 @@
   },
   "filename": "timche___gmail-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:07.027Z"
+  "lastFetchedAt": "2017-05-04T14:49:07.027Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:17.227Z"
 }

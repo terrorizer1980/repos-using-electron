@@ -55,8 +55,13 @@
     "name": "shync",
     "version": "0.0.1",
     "description": "Shopify theme / store utility",
+    "author": "Cody Coons <cody@codycoons.com>",
     "private": true,
-    "repository": "https://github.com/snooc/shync",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:snooc/shync.git"
+    },
+    "bugs": "https://github.com/snooc/shync/issues",
     "license": "MIT",
     "scripts": {},
     "devDependencies": {
@@ -113,5 +118,6 @@
   "svnUrl": "https://github.com/snooc/shync",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:32:35.542Z"
+  "lastFetchedAt": "2017-05-04T15:32:35.542Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:24.630Z"
 }

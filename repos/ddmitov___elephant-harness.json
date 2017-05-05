@@ -72,14 +72,34 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "ElephantHarness.js-Demo-NW.js",
-    "main": "resources/app/index.html",
-    "window": {
-      "title": "ElephantHarness.js",
-      "icon": "resources/app.png",
-      "min_width": 800,
-      "min_height": 600
-    }
+    "name": "elephant-harness",
+    "version": "0.5.0",
+    "description": "Node.js - Electron - NW.js controller for PHP scripts",
+    "main": "elephant-harness.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "test": "node test/elephant-harness-test.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ddmitov/elephant-harness.git"
+    },
+    "keywords": [
+      "php",
+      "asynchronous",
+      "child_process",
+      "electron",
+      "nw.js"
+    ],
+    "author": "Dimitar D. Mitov",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ddmitov/elephant-harness/issues"
+    },
+    "homepage": "https://github.com/ddmitov/elephant-harness#readme",
+    "tonicExampleFilename": "tonic/example.js"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -106,5 +126,6 @@
   },
   "filename": "ddmitov___elephant-harness.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:56.354Z"
+  "lastFetchedAt": "2017-05-04T21:05:56.354Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:36.711Z"
 }

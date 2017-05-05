@@ -75,6 +75,10 @@
     "name": "ember-cli-electron",
     "version": "1.0.0",
     "description": "The default blueprint for ember-cli addons.",
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "start": "ember server",
       "build": "ember build",
@@ -84,6 +88,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.0.2",
@@ -141,5 +146,6 @@
   },
   "filename": "juanazam___ember-cli-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:11.061Z"
+  "lastFetchedAt": "2017-05-04T20:34:11.061Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:39.429Z"
 }

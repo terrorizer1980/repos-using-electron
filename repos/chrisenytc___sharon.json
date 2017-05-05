@@ -56,7 +56,17 @@
     "description": "A personal assistant to manage your github account",
     "version": "0.1.0",
     "homepage": "https://github.com/chrisenytc/sharon",
-    "repository": "https://github.com/chrisenytc/sharon",
+    "author": {
+      "name": "Christopher EnyTC",
+      "email": "chrisenytc@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/chrisenytc/sharon.git"
+    },
+    "bugs": {
+      "url": "https://github.com/chrisenytc/sharon/issues"
+    },
     "licenses": [
       {
         "type": "MIT",
@@ -136,5 +146,6 @@
   },
   "filename": "chrisenytc___sharon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:17.003Z"
+  "lastFetchedAt": "2017-05-03T20:06:17.003Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:48.610Z"
 }

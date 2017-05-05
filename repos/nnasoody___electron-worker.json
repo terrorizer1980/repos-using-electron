@@ -76,8 +76,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/nnasoody/electron-worker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nnasoody/electron-worker.git"
+    },
+    "author": {
+      "name": "Nima Nasoody",
+      "email": "nnasoody@gmail.com",
+      "url": "https://github.com/nnasoody"
+    },
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nnasoody/electron-worker/issues"
+    },
     "homepage": "https://github.com/nnasoody/electron-worker#readme",
     "keywords": [
       "electron",
@@ -90,7 +101,7 @@
       "mkdirp": "^0.5.0",
       "prompt": "^0.2.14"
     },
-    "owners": [
+    "maintainers": [
       {
         "name": "nima-nasoody",
         "email": "nnasoody@gmail.com"
@@ -122,5 +133,6 @@
   },
   "filename": "nnasoody___electron-worker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:52.484Z"
+  "lastFetchedAt": "2017-05-04T14:54:52.484Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:08.935Z"
 }

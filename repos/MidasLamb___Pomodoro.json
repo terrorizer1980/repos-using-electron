@@ -101,8 +101,12 @@
       "js",
       "electron"
     ],
+    "author": "Midas Lambrichts",
     "license": "MIT",
-    "repository": "https://github.com/MidasLamb/Pomodoro"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MidasLamb/Pomodoro"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -129,5 +133,6 @@
   },
   "filename": "MidasLamb___Pomodoro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:00.107Z"
+  "lastFetchedAt": "2017-05-04T14:54:00.107Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:55.881Z"
 }

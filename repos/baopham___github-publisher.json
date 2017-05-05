@@ -78,19 +78,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "baopham",
-      "repo": "github-publisher",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/baopham/github-publisher/tarball/master",
-      "clone_url": "https://github.com/baopham/github-publisher",
-      "https_url": "https://github.com/baopham/github-publisher",
-      "travis_url": "https://travis-ci.org/baopham/github-publisher",
-      "zip_url": "https://github.com/baopham/github-publisher/archive/master.zip",
-      "api_url": "https://api.github.com/repos/baopham/github-publisher"
+      "type": "git",
+      "url": "git+https://github.com/baopham/github-publisher.git"
+    },
+    "author": {
+      "name": "Bao Pham",
+      "email": "gbaopham@gmail.com",
+      "url": "https://github.com/baopham"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/github-publisher/issues"
+    },
     "keywords": [
       "electron",
       "github",
@@ -222,5 +221,6 @@
   "filename": "baopham___github-publisher.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:24:35.949Z"
+  "lastFetchedAt": "2017-05-04T05:24:35.949Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:43.449Z"
 }

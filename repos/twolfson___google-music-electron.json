@@ -54,9 +54,20 @@
   "packageJSON": {
     "name": "google-music-electron",
     "description": "Desktop app for Google Music on top of Electron",
-    "version": "2.12.1",
+    "version": "2.15.0",
     "homepage": "https://github.com/twolfson/google-music-electron",
-    "repository": "https://github.com/twolfson/google-music-electron",
+    "author": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com",
+      "url": "http://twolfson.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twolfson/google-music-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/twolfson/google-music-electron/issues"
+    },
     "license": "Unlicense",
     "main": "lib/google-music-electron",
     "engines": {
@@ -74,7 +85,7 @@
     "dependencies": {
       "commander": "~2.8.1",
       "configstore": "~1.2.1",
-      "electron-prebuilt": "~0.36.3",
+      "electron": "~1.6.2",
       "google-music": "~6.0.1",
       "monogamous": "~1.0.3",
       "replify": "~1.2.0",
@@ -152,5 +163,6 @@
   "svnUrl": "https://github.com/twolfson/google-music-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:20:03.870Z"
+  "lastFetchedAt": "2017-05-04T18:20:03.870Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:47.820Z"
 }

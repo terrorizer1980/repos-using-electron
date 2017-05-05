@@ -72,30 +72,63 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "kaw-anime",
-    "version": "0.0.4",
+    "name": "KawAnime",
+    "version": "0.4.0",
     "description": "A Software for Otaku Community.",
     "main": "main.js",
-    "scripts": {
-      "start": "electron ."
+    "repository": "https://github.com/Kylart/KawAnime.git",
+    "author": {
+      "name": "Kylart",
+      "email": "tempMail@mail.com"
     },
-    "repository": "https://github.com/Kylart/KawAnime",
-    "keywords": [
-      "Torrent",
-      "KawAnime",
-      "Otaku",
-      "Anime"
-    ],
     "license": "MIT",
-    "devDependencies": {
-      "electron": "^1.4.1"
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development electron .",
+      "build": "nuxt build",
+      "start": "electron .",
+      "bstart": "nuxt build && npm start",
+      "buildLinux": "build --linux deb AppImage zip tar.gz",
+      "buildWin": "build --win nsis --ia32 x64 appx zip squirrel",
+      "buildMac": "build --mac dmg zip pkg",
+      "buildAll": "nuxt build && npm run buildMac && npm run buildWin && npm run buildLinux && build --armv7l"
     },
     "dependencies": {
-      "find-remove": "^1.0.0",
-      "is-online": "^5.2.0",
-      "malapi": "0.0.3",
-      "node-nyaa-api": "latest",
-      "progressbar.js": "^1.0.1"
+      "axios": "^0.16.0",
+      "cheerio": "^0.22.0",
+      "horrible-api": "^1.0.3",
+      "mal-scraper": "^1.3.4",
+      "nuxt": "latest",
+      "play-sound": "^1.1.1",
+      "url-parse": "^1.1.8",
+      "vuetify": "^0.11.1"
+    },
+    "devDependencies": {
+      "colors": "^1.1.2",
+      "cross-env": "^3.1.4",
+      "devtron": "^1.4.0",
+      "electron": "^1.6.6",
+      "electron-builder": "^17.1.1",
+      "stylus": "^0.54.5",
+      "stylus-loader": "^3.0.1",
+      "tar.gz": "^1.0.5",
+      "vue-devtools": "^3.0.8"
+    },
+    "build": {
+      "appId": "KawAnime",
+      "dmg": {
+        "contents": [
+          {
+            "x": 150,
+            "y": 90
+          },
+          {
+            "x": 150,
+            "y": 275,
+            "type": "link",
+            "path": "/Applications"
+          }
+        ]
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +156,6 @@
   },
   "filename": "Kylart___KawAnime.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:52.862Z"
+  "lastFetchedAt": "2017-05-04T17:44:52.862Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:24.669Z"
 }

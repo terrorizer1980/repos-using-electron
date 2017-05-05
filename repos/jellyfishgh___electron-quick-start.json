@@ -80,17 +80,8 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "jellyfishgh",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jellyfishgh/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/jellyfishgh/electron-quick-start",
-      "https_url": "https://github.com/jellyfishgh/electron-quick-start",
-      "travis_url": "https://travis-ci.org/jellyfishgh/electron-quick-start",
-      "zip_url": "https://github.com/jellyfishgh/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jellyfishgh/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/jellyfishgh/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -98,7 +89,11 @@
       "start",
       "tutorial"
     ],
+    "author": "jellyfishgh",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jellyfishgh/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/jellyfishgh/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -130,5 +125,6 @@
   "filename": "jellyfishgh___electron-quick-start.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:47.022Z"
+  "lastFetchedAt": "2017-05-04T14:53:47.022Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:59.416Z"
 }

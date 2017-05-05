@@ -86,6 +86,7 @@
       "dns",
       "node-dns"
     ],
+    "author": "yanni4night@gmail.com",
     "license": "MIT",
     "dependencies": {
       "bootstrap": "^4.0.0-alpha.4",
@@ -113,7 +114,13 @@
       "panto-transformer-write": "^0.3.4",
       "time-panto": "^0.2.0"
     },
-    "repository": "https://github.com/yanni4night/node-dns-window",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yanni4night/node-dns-window.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yanni4night/node-dns-window/issues"
+    },
     "homepage": "https://github.com/yanni4night/node-dns-window#readme"
   },
   "packageStatus": 200,
@@ -141,5 +148,6 @@
   },
   "filename": "yanni4night___node-dns-window.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:54.575Z"
+  "lastFetchedAt": "2017-05-04T21:21:54.575Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:28.942Z"
 }

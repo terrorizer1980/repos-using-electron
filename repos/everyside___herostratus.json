@@ -186,17 +186,8 @@
     "description": "An image burner with support for Windows, OS X and GNU/Linux.",
     "homepage": "https://github.com/resin-io/herostratus",
     "repository": {
-      "user": "resin-io",
-      "repo": "herostratus",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/resin-io/herostratus/tarball/master",
-      "clone_url": "https://github.com/resin-io/herostratus",
-      "https_url": "https://github.com/resin-io/herostratus",
-      "travis_url": "https://travis-ci.org/resin-io/herostratus",
-      "zip_url": "https://github.com/resin-io/herostratus/archive/master.zip",
-      "api_url": "https://api.github.com/repos/resin-io/herostratus"
+      "type": "git",
+      "url": "git@github.com:resin-io/herostratus.git"
     },
     "scripts": {
       "test:main": "electron-mocha --recursive tests/src",
@@ -204,6 +195,7 @@
       "test": "npm run-script test:main && npm run-script test:browser",
       "start": "electron lib/herostratus.js"
     },
+    "author": "Juan Cruz Viotti <juan@resin.io>",
     "license": "MIT",
     "optionalDependencies": {
       "removedrive": "^1.0.0"
@@ -284,5 +276,6 @@
   "filename": "everyside___herostratus.json",
   "sourceRepo": "resin-io/etcher",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:55:49.616Z"
+  "lastFetchedAt": "2017-05-04T17:55:49.616Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:51.614Z"
 }

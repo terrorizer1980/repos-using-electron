@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Fei-Peng/timetracker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Fei-Peng/timetracker"
+    },
+    "author": "Fei Peng",
     "license": "Apache 2.0",
     "homepage": "https://github.com/Fei-Peng/timetracker",
     "devDependencies": {
@@ -114,5 +118,6 @@
   },
   "filename": "Fei-Peng___timetracker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:37.633Z"
+  "lastFetchedAt": "2017-05-04T11:04:37.633Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:09.052Z"
 }

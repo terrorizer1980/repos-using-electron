@@ -79,14 +79,21 @@
       "osx": "electron-packager . myApp --platform=darwin --arch=x64",
       "build": "electron-packager . --all"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -118,5 +125,6 @@
   },
   "filename": "jonatanR10___JonatanR10.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:49.566Z"
+  "lastFetchedAt": "2017-05-04T14:24:49.566Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:47.564Z"
 }

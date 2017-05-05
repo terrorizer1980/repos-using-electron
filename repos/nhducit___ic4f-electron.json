@@ -58,6 +58,11 @@
     "description": "My super-duper app",
     "license": "MIT",
     "repository": "nhducit/electron",
+    "author": {
+      "name": "nhducit",
+      "email": "nhducit@gmail.com",
+      "url": "github.com/nhducit"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -139,5 +144,6 @@
   },
   "filename": "nhducit___ic4f-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:49.824Z"
+  "lastFetchedAt": "2017-05-04T20:54:49.824Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:14.764Z"
 }

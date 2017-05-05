@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-json-config",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "description": "Simply set and get configuration from a json file for your Electron app",
     "main": "src/index.js",
     "keywords": [
@@ -68,14 +68,23 @@
       "persistent",
       "save"
     ],
-    "repository": "https://github.com/de-luca/electron-json-config",
+    "author": {
+      "name": "de-luca",
+      "email": "dev@de-luca.io",
+      "url": "de-luca.io"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/de-luca/electron-json-config.git"
+    },
     "scripts": {
-      "test": "electron-mocha --recursive test -R progress && electron-mocha --renderer --recursive test -R progress"
+      "test": "eslint . && electron-mocha --recursive test -R progress && electron-mocha --renderer --recursive test -R progress"
     },
     "license": "BSD-2-Clause",
     "devDependencies": {
+      "electron": "latest",
       "electron-mocha": "latest",
-      "electron-prebuilt": "latest",
+      "eslint": "^3.18.0",
       "mochainon": "latest"
     },
     "files": [
@@ -127,5 +136,6 @@
   "svnUrl": "https://github.com/de-luca/electron-json-config",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:57:51.685Z"
+  "lastFetchedAt": "2017-05-04T20:57:51.685Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:45.043Z"
 }

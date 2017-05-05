@@ -69,6 +69,7 @@
     "name": "ang2pro",
     "version": "0.0.1",
     "description": "Call Way Dashboard",
+    "author": "PoltavaPride",
     "homepage": "",
     "license": "MIT",
     "dependencies": {
@@ -210,6 +211,7 @@
       "electron": "electron ./src/electron/main.js"
     },
     "repository": {},
+    "bugs": {},
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -240,5 +242,6 @@
   },
   "filename": "PoltavaPride___Ang2CWD.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:45.701Z"
+  "lastFetchedAt": "2017-05-04T13:05:45.701Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:27.037Z"
 }

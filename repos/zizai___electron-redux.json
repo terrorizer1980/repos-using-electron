@@ -202,8 +202,13 @@
       "react",
       "desktop"
     ],
-    "repository": "https://github.com/hardchor/electron-redux",
+    "author": "Burkhard Reffeling <burkhard.reffeling@gmail.com> (http://www.burgiblog.com)",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hardchor/electron-redux.git"
+    },
     "homepage": "https://github.com/hardchor/electron-redux",
+    "bugs": "https://github.com/hardchor/electron-redux/issues",
     "license": "MIT",
     "dependencies": {
       "debug": "^2.2.0",
@@ -252,5 +257,6 @@
   },
   "sourceRepo": "hardchor/electron-redux",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:26.594Z"
+  "lastFetchedAt": "2017-05-04T19:59:26.594Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:53.690Z"
 }

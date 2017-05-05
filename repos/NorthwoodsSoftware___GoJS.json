@@ -81,7 +81,7 @@
   "status": 200,
   "packageJSON": {
     "name": "gojs",
-    "version": "1.6.21",
+    "version": "1.7.9",
     "description": "Interactive diagrams, charts, and graphs, such as trees, flowcharts, orgcharts, UML, BPMN, or business diagrams",
     "keywords": [
       "diagram",
@@ -193,7 +193,12 @@
       "printing"
     ],
     "homepage": "https://gojs.net",
-    "license": "https://gojs.net/latest/doc/license.html",
+    "bugs": {
+      "url": "https://forum.nwoods.com/c/gojs",
+      "email": "gojs@nwoods.com"
+    },
+    "license": "SEE LICENSE AT https://gojs.net/latest/doc/license.html",
+    "author": "Northwoods Software",
     "files": [
       "package.json",
       "bower.json",
@@ -215,7 +220,10 @@
     ],
     "main": "release/go.js",
     "typings": "release/go.d.ts",
-    "repository": "https://github.com/NorthwoodsSoftware/GoJS"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/NorthwoodsSoftware/GoJS"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -242,5 +250,6 @@
   },
   "filename": "NorthwoodsSoftware___GoJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:26:49.011Z"
+  "lastFetchedAt": "2017-05-04T20:26:49.011Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:11.962Z"
 }

@@ -48,9 +48,12 @@
   "packageJSON": {
     "name": "keysave",
     "productName": "KeySAVe",
-    "version": "1.2.4",
+    "version": "1.4.0",
     "description": "A cross platform KeySAV based on GitHub Electron for all your Generation VI Pokémon decryption needs.",
-    "repository": "https://github.com/Cu3PO42/KeySAVe",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Cu3PO42/KeySAVe.git"
+    },
     "main": "./serverlib",
     "scripts": {
       "start": "cross-env NODE_ENV=production electron ./",
@@ -63,6 +66,7 @@
       "package": "cross-env NODE_ENV=production node package.js",
       "postinstall": "npm run installnativedeps && node node_modules/fbjs-scripts/node/check-dev-engines.js package.json"
     },
+    "author": "Cu3PO42",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -92,7 +96,7 @@
       "del": "^2.2.0",
       "electron-debug": "^1.0.0",
       "electron-packager": "^7.0.2",
-      "electron-prebuilt": "^1.2.1",
+      "electron": "^1.4.7",
       "electron-rebuild": "^1.1.4",
       "eslint": "^2.10.2",
       "eslint-config-airbnb": "^9.0.1",
@@ -134,16 +138,16 @@
       "handlebars": "^4.0.5",
       "handlebars-helper-moment": "^0.2.0",
       "immutable": "^3.8.1",
-      "keysavcore": "^0.17.0",
+      "keysavcore": "^0.19.2",
       "lodash": "^4.13.1",
       "lodash.debounce": "^4.0.6",
-      "material-ui": "^0.15.0",
+      "material-ui": "^0.16.0",
       "node-libs-browser": "^1.0.0",
       "ntrclient": "github:cu3po42/NTRClientJS",
       "pure-render-decorator": "^1.1.1",
-      "react": "^15.1.0",
-      "react-addons-test-utils": "^15.1.0",
-      "react-dom": "^15.1.0",
+      "react": "^15.4.0",
+      "react-addons-test-utils": "^15.4.0",
+      "react-dom": "^15.4.0",
       "react-height": "^2.1.0",
       "react-markdown": "^2.2.0",
       "react-motion": "^0.4.3",
@@ -151,7 +155,7 @@
       "react-router": "^2.4.1",
       "react-select": "1.0.0-beta13",
       "react-swipeable-views": "^0.6.2",
-      "react-tap-event-plugin": "^1.0.0",
+      "react-tap-event-plugin": "^2.0.0",
       "redux": "^3.5.2",
       "redux-promise": "^0.5.3",
       "redux-thunk": "^2.1.0",
@@ -171,7 +175,7 @@
       "winston"
     ],
     "devEngines": {
-      "node": "4.x || 5.x || 6.x",
+      "node": "4.x || 5.x || 6.x || 7.x",
       "npm": "2.x || 3.x"
     }
   },
@@ -220,5 +224,6 @@
   "svnUrl": "https://github.com/Cu3PO42/KeySAVe",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T09:03:31.662Z"
+  "lastFetchedAt": "2017-05-04T09:03:31.662Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:04.532Z"
 }

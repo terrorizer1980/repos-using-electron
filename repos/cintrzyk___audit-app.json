@@ -50,6 +50,10 @@
     "version": "0.1.0",
     "description": "This app was built to audit, and remediate, security configuration settings.",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "Marcin Brzeziński",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "2.2.0",
@@ -171,5 +176,6 @@
   "svnUrl": "https://github.com/cintrzyk/audit-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:55:14.042Z"
+  "lastFetchedAt": "2017-05-04T20:55:14.042Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:07.588Z"
 }

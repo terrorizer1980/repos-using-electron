@@ -66,14 +66,33 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "kursovik-app",
+    "name": "Kursovik",
     "version": "1.0.0",
     "description": "Показывает курс доллара",
+    "author": "Александр Беспоясов",
+    "person": {
+      "name": "Александр Беспоясов",
+      "email": "bespoyasov@me.com",
+      "url": "http://bespoyasov.ru/"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bespoyasov/kursovik-redux-electron"
+    },
+    "bugs": {
+      "url": "https://github.com/bespoyasov/kursovik-redux-electron/issues"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron .",
       "dev": "NODE_ENV=development webpack-dev-server --hot --inline --progress --host 0.0.0.0",
-      "build": "NODE_ENV=production webpack"
+      "build": "NODE_ENV=production webpack",
+      "clean": "rm -r Kursovik-win32-x64 Kursovik-mas-x64 Kursovik-linux-x64",
+      "pack": "npm run clean && node_modules/.bin/electron-packager . --all",
+      "packmas": "rm -r Kursovik-mas-x64 && node_modules/.bin/electron-packager . --platform=mas --icon=assets/app_icon.icns --overwrite",
+      "packwin": "rm -r Kursovik-win32-x64 && node_modules/.bin/electron-packager . --platform=win32 --icon=assets/icon.ico --overwrite",
+      "packlin": "rm -r Kursovik-linux-x64 && node_modules/.bin/electron-packager . --platform=linux --icon=assets/app_icon.icns --overwrite"
     },
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -87,6 +106,7 @@
       "cross-env": "^3.0.0",
       "css-loader": "^0.24.0",
       "electron": "^1.4.1",
+      "electron-packager": "^8.4.0",
       "extract-text-webpack-plugin": "^1.0.1",
       "file-loader": "^0.9.0",
       "fuse": "^0.4.0",
@@ -105,6 +125,8 @@
     },
     "dependencies": {
       "chart.js": "^1.1.1",
+      "electron-context-menu": "^0.8.0",
+      "is-online": "^6.0.1",
       "moment": "^2.15.1",
       "node-sass": "^3.8.0",
       "react": "^15.1.0",
@@ -149,5 +171,6 @@
   },
   "filename": "bespoyasov___kursovik-redux-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:01.832Z"
+  "lastFetchedAt": "2017-05-04T18:26:01.832Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:38.071Z"
 }

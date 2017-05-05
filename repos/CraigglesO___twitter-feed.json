@@ -77,7 +77,15 @@
     "version": "0.0.0",
     "description": "My stylish app",
     "license": "MIT",
-    "repository": "https://github.com/CraigglesO/twitter-feed",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/CraigglesO/twitter-feed.git"
+    },
+    "author": {
+      "name": "oconnorct1",
+      "email": "oconnorct1@gmail.com",
+      "url": "craiggleso.github.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -141,5 +149,6 @@
   },
   "filename": "CraigglesO___twitter-feed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:42.532Z"
+  "lastFetchedAt": "2017-05-04T05:28:42.532Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:31.018Z"
 }

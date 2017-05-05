@@ -79,7 +79,10 @@
     "scripts": {
       "start": "./node_modules/.bin/electron-rebuild && electron main.js"
     },
-    "repository": "https://github.com/linfirmware/electron-gradle-example",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/linfirmware/electron-gradle-example.git"
+    },
     "keywords": [
       "Electron",
       "Gradle",
@@ -87,7 +90,11 @@
       "tooling",
       "project"
     ],
+    "author": "Lin Firmware, Wesley Carlsen, Red Pill Analytics",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/linfirmware/electron-gradle-example/issues"
+    },
     "homepage": "https://github.com/linfirmware/electron-gradle-example#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.11",
@@ -120,5 +127,6 @@
   },
   "filename": "embeddedemily___electron-gradle-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:48.284Z"
+  "lastFetchedAt": "2017-05-04T20:19:48.284Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:03.510Z"
 }

@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/alecannetdesdame/redelec",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alecannetdesdame/redelec.git"
+    },
+    "author": "Alec ANNET-DESDAME",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/alecannetdesdame/redelec/issues"
+    },
     "homepage": "https://github.com/alecannetdesdame/redelec#readme",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -106,5 +113,6 @@
   },
   "filename": "alecannetdesdame___redelec.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:04.463Z"
+  "lastFetchedAt": "2017-05-04T05:28:04.463Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:42.873Z"
 }

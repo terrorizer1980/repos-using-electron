@@ -63,13 +63,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/neojski/status-icon",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/neojski/status-icon.git"
+    },
     "keywords": [
       "status",
       "icon",
       "tray"
     ],
+    "author": "Tomasz Kołodziejski",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/neojski/status-icon/issues"
+    },
     "homepage": "https://github.com/neojski/status-icon#readme"
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/neojski/status-icon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:19:33.210Z"
+  "lastFetchedAt": "2017-05-04T05:19:33.210Z",
+  "packageLastFetchedAt": "2017-05-05T08:36:13.345Z"
 }

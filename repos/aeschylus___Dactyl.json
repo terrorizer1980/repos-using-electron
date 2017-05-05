@@ -78,6 +78,11 @@
     "description": "My marvelous app",
     "license": "MIT",
     "repository": "aeschylus/dactyl",
+    "author": {
+      "name": "aeschylus",
+      "email": "scipioaffricanus@gmail.com",
+      "url": "aeschylus.net"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -145,5 +150,6 @@
   },
   "filename": "aeschylus___Dactyl.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:03:38.686Z"
+  "lastFetchedAt": "2017-05-04T09:03:38.686Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:28.211Z"
 }

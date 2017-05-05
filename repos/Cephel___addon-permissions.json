@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Cephel/addon-permissions",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cephel/addon-permissions.git"
+    },
+    "author": "Cephei",
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/Cephel/addon-permissions/issues"
+    },
     "homepage": "https://github.com/Cephel/addon-permissions#readme",
     "devDependencies": {
       "bower": "^1.5.3",
@@ -118,5 +125,6 @@
   },
   "filename": "Cephel___addon-permissions.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:05.819Z"
+  "lastFetchedAt": "2017-05-04T15:13:05.819Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:54.303Z"
 }

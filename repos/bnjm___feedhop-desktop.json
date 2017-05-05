@@ -59,8 +59,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/bnjm/feedhop-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bnjm/feedhop-desktop.git"
+    },
+    "author": "benjamin devine",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bnjm/feedhop-desktop/issues"
+    },
     "homepage": "https://github.com/bnjm/feedhop-desktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.32.1"
@@ -111,5 +118,6 @@
   },
   "filename": "bnjm___feedhop-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:21.527Z"
+  "lastFetchedAt": "2017-05-04T05:05:21.527Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:49.408Z"
 }

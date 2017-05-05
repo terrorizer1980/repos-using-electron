@@ -76,8 +76,15 @@
     "version": "0.1.0",
     "description": "retro twitter client",
     "main": "app/main/app.js",
+    "author": "Saki Yakumo",
     "license": "MIT",
-    "repository": "https://github.com/yakumo-saki/ancient-night",
+    "bugs": {
+      "url": "https://github.com/yakumo-saki/ancient-night/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yakumo-saki/ancient-night.git"
+    },
     "scripts": {
       "compile": "gulp build",
       "start": "gulp build && electron .",
@@ -135,5 +142,6 @@
   },
   "filename": "yakumo-saki___ancient-night.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:06.245Z"
+  "lastFetchedAt": "2017-05-04T20:49:06.245Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:51.684Z"
 }

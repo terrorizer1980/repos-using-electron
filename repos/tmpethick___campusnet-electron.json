@@ -50,8 +50,16 @@
     "version": "1.0.7",
     "description": "Sync CampusNet files to your computer",
     "license": "MIT",
-    "repository": "https://github.com/tmpethick/campusnet-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tmpethick/campusnet-electron"
+    },
     "main": "app/main.js",
+    "author": {
+      "name": "Thomas Pethick",
+      "email": "tmpethick@gmail.com",
+      "url": "pethick.dk"
+    },
     "electronVersion": "0.36.7",
     "scripts": {
       "postinstall": "install-app-deps",
@@ -169,5 +177,6 @@
   },
   "filename": "tmpethick___campusnet-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:27.295Z"
+  "lastFetchedAt": "2017-05-04T21:14:27.295Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:59.317Z"
 }

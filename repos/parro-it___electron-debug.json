@@ -177,6 +177,11 @@
     "description": "Adds useful debug features to your Electron app",
     "license": "MIT",
     "repository": "sindresorhus/electron-debug",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
     "scripts": {
       "start": "electron test.js",
       "test": "xo"
@@ -255,5 +260,6 @@
   "svnUrl": "https://github.com/parro-it/electron-debug",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:05:48.955Z"
+  "lastFetchedAt": "2017-05-04T20:05:48.955Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:43.087Z"
 }

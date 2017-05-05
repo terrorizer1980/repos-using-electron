@@ -67,5 +67,24 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:20:20.407Z"
+  "lastFetchedAt": "2017-05-04T05:20:20.407Z",
+  "packageJSON": {
+    "name": "feedly-app",
+    "productName": "Feedly",
+    "version": "0.0.0",
+    "description": "Feedly as a macOS app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . --overwrite --out='build' --icon='./icon/feedly.icns'"
+    },
+    "author": "Christopher Newton (https://github.com/chrstphrknwtn)",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "1.6.6",
+      "electron-packager": "8.7.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:34:41.071Z"
 }

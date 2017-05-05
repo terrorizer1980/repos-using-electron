@@ -67,11 +67,15 @@
       "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer",
       "release": "node ./script/release.js"
     },
-    "repository": "https://github.com/Nf5/Nf5",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Nf5/Nf5.git"
+    },
     "keywords": [
       "Chess",
       "Nf5"
     ],
+    "author": "Chad Russell",
     "license": "MIT",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -147,5 +151,6 @@
   },
   "filename": "chad-russell___nf5.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:03.757Z"
+  "lastFetchedAt": "2017-05-04T15:22:03.757Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:18.882Z"
 }

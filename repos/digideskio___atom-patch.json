@@ -179,22 +179,17 @@
       "clean": "rm -rf dist"
     },
     "repository": {
-      "user": "nathansobo",
-      "repo": "atom-patch",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/nathansobo/atom-patch/tarball/master",
-      "clone_url": "https://github.com/nathansobo/atom-patch",
-      "https_url": "https://github.com/nathansobo/atom-patch",
-      "travis_url": "https://travis-ci.org/nathansobo/atom-patch",
-      "zip_url": "https://github.com/nathansobo/atom-patch/archive/master.zip",
-      "api_url": "https://api.github.com/repos/nathansobo/atom-patch"
+      "type": "git",
+      "url": "https://github.com/nathansobo/atom-patch.git"
     },
     "keywords": [
       "patch data-structure"
     ],
+    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nathansobo/atom-patch/issues"
+    },
     "homepage": "https://github.com/nathansobo/atom-patch",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -263,5 +258,6 @@
   "filename": "digideskio___atom-patch.json",
   "sourceRepo": "atom/atom-patch",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:07.509Z"
+  "lastFetchedAt": "2017-05-04T19:43:07.509Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:56.676Z"
 }

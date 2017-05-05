@@ -53,19 +53,29 @@
   "status": 200,
   "packageJSON": {
     "name": "electroner",
-    "version": "4.0.2",
+    "version": "4.0.4",
     "description": "Start ElectronJS apps from Node.js.",
     "main": "lib/index.js",
+    "directories": {
+      "example": "example"
+    },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/IonicaBizau/electroner",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/IonicaBizau/electroner.git"
+    },
     "keywords": [
       "electronjs",
       "electron",
       "spawner"
     ],
+    "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IonicaBizau/electroner/issues"
+    },
     "homepage": "https://github.com/IonicaBizau/electroner#readme",
     "blah": {
       "h_img": "http://i.imgur.com/z3xjvS3.png",
@@ -80,12 +90,11 @@
       "bin/",
       "app/",
       "lib/",
-      "build/",
       "dist/",
       "src/",
+      "scripts/",
       "resources/",
       "menu/",
-      "scripts/",
       "cli.js",
       "index.js"
     ]
@@ -135,5 +144,6 @@
   "svnUrl": "https://github.com/IonicaBizau/electroner",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:02:29.307Z"
+  "lastFetchedAt": "2017-05-04T20:02:29.307Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:23.957Z"
 }

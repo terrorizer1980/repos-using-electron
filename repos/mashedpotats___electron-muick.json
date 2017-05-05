@@ -75,8 +75,15 @@
       "dev": "NODE_ENV='development' npm run start",
       "dist": "build --x64 --ia32"
     },
-    "repository": "https://github.com/mashedpotats/electron-muick",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mashedpotats/electron-muick.git"
+    },
+    "author": "Samuel Li",
     "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/mashedpotats/electron-muick/issues"
+    },
     "homepage": "https://github.com/mashedpotats/electron-muick#readme",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -120,5 +127,6 @@
   },
   "filename": "mashedpotats___electron-muick.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:31:54.449Z"
+  "lastFetchedAt": "2017-05-04T05:31:54.449Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:06.951Z"
 }

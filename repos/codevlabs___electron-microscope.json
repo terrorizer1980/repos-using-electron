@@ -212,19 +212,14 @@
       "tape-spawn": "^1.4.0"
     },
     "repository": {
-      "user": "maxogden",
-      "repo": "electron-microscope",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/maxogden/electron-microscope/tarball/master",
-      "clone_url": "https://github.com/maxogden/electron-microscope",
-      "https_url": "https://github.com/maxogden/electron-microscope",
-      "travis_url": "https://travis-ci.org/maxogden/electron-microscope",
-      "zip_url": "https://github.com/maxogden/electron-microscope/archive/master.zip",
-      "api_url": "https://api.github.com/repos/maxogden/electron-microscope"
+      "type": "git",
+      "url": "git+https://github.com/maxogden/electron-microscope.git"
     },
+    "author": "",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/maxogden/electron-microscope/issues"
+    },
     "homepage": "https://github.com/maxogden/electron-microscope#readme",
     "description": "use electron to inspect websites and extract data, from JS or the CLI. useful for automation, testing, web scraping, etc"
   },
@@ -274,5 +269,6 @@
   "svnUrl": "https://github.com/codevlabs/electron-microscope",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:14:28.947Z"
+  "lastFetchedAt": "2017-05-04T18:14:28.947Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:13.640Z"
 }

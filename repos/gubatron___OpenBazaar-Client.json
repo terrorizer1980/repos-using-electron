@@ -171,19 +171,11 @@
     "description": "OpenBazaar Client",
     "main": "main.js",
     "repository": {
-      "user": "OpenBazaar",
-      "repo": "OpenBazaar-Client",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/OpenBazaar/OpenBazaar-Client/tarball/master",
-      "clone_url": "https://github.com/OpenBazaar/OpenBazaar-Client",
-      "https_url": "https://github.com/OpenBazaar/OpenBazaar-Client",
-      "travis_url": "https://travis-ci.org/OpenBazaar/OpenBazaar-Client",
-      "zip_url": "https://github.com/OpenBazaar/OpenBazaar-Client/archive/master.zip",
-      "api_url": "https://api.github.com/repos/OpenBazaar/OpenBazaar-Client"
+      "type": "git",
+      "url": "git://github.com/OpenBazaar/OpenBazaar-Client.git"
     },
     "homepage": "https://openbazaar.org/",
+    "bugs": "https://github.com/OpenBazaar/OpenBazaar-Client/issues/",
     "license": "MIT",
     "scripts": {
       "start": "electron main.js",
@@ -266,5 +258,6 @@
   "filename": "gubatron___OpenBazaar-Client.json",
   "sourceRepo": "OpenBazaar/OpenBazaar-Client",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:01.841Z"
+  "lastFetchedAt": "2017-05-04T20:03:01.841Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:29.190Z"
 }

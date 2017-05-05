@@ -65,13 +65,20 @@
       "package": "gulp package"
     },
     "private": true,
-    "repository": "https://github.com/jamen/neta",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jamen/neta.git"
+    },
     "keywords": [
       "chat",
       "client",
       "customizable"
     ],
+    "author": "Jamen Marzonie",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/jamen/neta/issues"
+    },
     "homepage": "https://github.com/jamen/neta#readme",
     "dependencies": {
       "classnames": "^2.2.3",
@@ -145,5 +152,6 @@
   },
   "filename": "jamen___neta-archive-1.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:33:23.802Z"
+  "lastFetchedAt": "2017-05-04T05:33:23.802Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:54.324Z"
 }

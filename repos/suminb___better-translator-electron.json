@@ -59,7 +59,10 @@
     "scripts": {
       "start": "electron ./assets/main.js"
     },
-    "repository": "https://github.com/suminb/better-translator-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/suminb/better-translator-electron.git"
+    },
     "keywords": [
       "Google",
       "better",
@@ -67,7 +70,11 @@
       "translation",
       "translate"
     ],
+    "author": "Sumin Byeon",
     "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/suminb/better-translator-electron/issues"
+    },
     "homepage": "https://github.com/suminb/better-translator-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.1"
@@ -121,5 +128,6 @@
   "svnUrl": "https://github.com/suminb/better-translator-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:26:13.659Z"
+  "lastFetchedAt": "2017-05-04T15:26:13.659Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:36.978Z"
 }

@@ -56,6 +56,7 @@
       "build": "electron-packager . ClipManager --platform=linux --arch=x64",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "bootstrap": "^3.3.6",
@@ -114,5 +115,6 @@
   "svnUrl": "https://github.com/vinodkakarla/clip-helper",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:56:31.658Z"
+  "lastFetchedAt": "2017-05-04T17:56:31.658Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:20.541Z"
 }

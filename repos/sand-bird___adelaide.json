@@ -74,6 +74,7 @@
       "start": "electron main.js",
       "watch": "webpack --watch"
     },
+    "author": "sand-bird",
     "repository": "https://github.com/sand-bird/adelaide",
     "license": "ISC",
     "dependencies": {
@@ -81,6 +82,7 @@
       "babel-loader": "^6.2.5",
       "babel-preset-es2015": "^6.14.0",
       "babel-preset-react": "^6.11.1",
+      "connect-with-transition-group": "^0.1.0",
       "css-loader": "^0.25.0",
       "electron": "^1.4.0",
       "electron-reload": "^1.0.2",
@@ -136,5 +138,6 @@
   },
   "filename": "sand-bird___adelaide.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:36:43.778Z"
+  "lastFetchedAt": "2017-05-04T05:36:43.778Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:38.269Z"
 }

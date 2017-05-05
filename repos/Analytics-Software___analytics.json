@@ -81,5 +81,22 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T15:19:08.293Z"
+  "lastFetchedAt": "2017-05-04T15:19:08.293Z",
+  "packageJSON": {
+    "name": "analytics",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+      "electron": "^1.6.2"
+    },
+    "devDependencies": {},
+    "scripts": {
+      "start": "electron index.js"
+    },
+    "author": "",
+    "license": "ISC"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T01:23:17.359Z"
 }

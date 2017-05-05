@@ -78,6 +78,7 @@
       "mac": "npm run dist:osx",
       "win": "npm run dist:win"
     },
+    "author": "andypinet",
     "devDependencies": {
       "electron-builder": "^3.20.0",
       "electron-prebuilt": "^1.0.2"
@@ -152,5 +153,6 @@
   "svnUrl": "https://github.com/andypinet/electron-ui-startkit",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:13:06.830Z"
+  "lastFetchedAt": "2017-05-04T15:13:06.830Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:18.224Z"
 }

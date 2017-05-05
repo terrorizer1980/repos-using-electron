@@ -78,7 +78,13 @@
       "postinstall": "./node_modules/.bin/bower install",
       "start": "./node_modules/.bin/electron ./main.js"
     },
-    "repository": "https://github.com/ugurtemiz/mine",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ugurtemiz/mine.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ugurtemiz/mine/issues"
+    },
     "keywords": [
       "data",
       "mining",
@@ -140,5 +146,6 @@
   },
   "filename": "ugurtemiz___mine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:49.000Z"
+  "lastFetchedAt": "2017-05-04T19:59:49.000Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:47.965Z"
 }

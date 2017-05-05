@@ -75,25 +75,59 @@
     "name": "character-map-desktop",
     "description": "Character map for desktop",
     "version": "0.5.0",
-    "main": "main.js",
-    "authors": [
-      "Jordan Jones <proxima.aust@gmail.com>"
-    ],
+    "main": "./main.js",
+    "author": "Jordan Jones <proxima.aust@gmail.com>",
     "license": "GPL-3.0",
     "private": true,
     "scripts": {
-      "start": "node start-electron.js",
-      "package": "electron-packager ./ CharacterMap --all --out ~/Desktop/CharacterMap --overwrite"
+      "start": "electron .",
+      "package": "electron-packager ./ CharacterMap --platform=linux --arch=x64 --out ~/Desktop/CharacterMap --overwrite",
+      "watch": "webpack-dev-server",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "com.proxima.character.map",
+      "mac": {
+        "category": "education"
+      },
+      "win": {}
     },
     "dependencies": {
-      "electron": "^1.4.1",
-      "electron-builder": "^8.5.3",
-      "electron-packager": "^8.2.0",
+      "electron": "^1.4.13",
+      "electron-prebuilt": "^1.4.13",
+      "font-awesome": "^4.7.0",
       "jquery": "^3.1.1",
       "keymaster": "^1.6.2",
-      "lodash": "^4.16.2",
+      "opentype": "^0.1.2",
+      "opentype.js": "^0.6.7",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
       "request": "^2.75.0",
       "strip": "^3.0.0"
+    },
+    "devDependencies": {
+      "babel-cli": "^6.18.0",
+      "babel-core": "^6.21.0",
+      "babel-loader": "^6.2.10",
+      "babel-preset-es2015": "^6.18.0",
+      "babel-preset-react": "^6.22.0",
+      "browserify": "^13.0.1",
+      "browserify-shim": "^3.8.12",
+      "css-loader": "^0.26.1",
+      "electron": "^1.4.10",
+      "electron-builder": "^8.7.0",
+      "electron-connect": "^0.6.1",
+      "electron-packager": "^8.5.1",
+      "file-loader": "^0.10.0",
+      "gulp": "^3.9.1",
+      "imports-loader": "^0.7.0",
+      "less": "^2.7.1",
+      "less-loader": "^2.2.3",
+      "style-loader": "^0.13.1",
+      "url-loader": "^0.5.7",
+      "webpack": "^1.14.0",
+      "webpack-dev-server": "^1.16.2"
     }
   },
   "packageStatus": 200,
@@ -121,5 +155,6 @@
   },
   "filename": "Pr0x1m4___CharacterMap-Desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:31.228Z"
+  "lastFetchedAt": "2017-05-04T21:19:31.228Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:02.994Z"
 }

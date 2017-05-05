@@ -58,9 +58,16 @@
       "lint": "eslint src",
       "package": "gulp package:darwin"
     },
-    "repository": "https://github.com/noboru-i/issue-hub",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/noboru-i/issue-hub.git"
+    },
     "keywords": [],
+    "author": "noboru-i",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/noboru-i/issue-hub/issues"
+    },
     "homepage": "https://github.com/noboru-i/issue-hub",
     "devDependencies": {
       "babel-core": "^6.3.13",
@@ -140,5 +147,6 @@
   },
   "filename": "noboru-i___issue-hub.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:31.775Z"
+  "lastFetchedAt": "2017-05-04T21:29:31.775Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:29.925Z"
 }

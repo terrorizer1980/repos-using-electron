@@ -193,5 +193,37 @@
   "networkCount": 5,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:35:33.526Z"
+  "lastFetchedAt": "2017-05-04T17:35:33.526Z",
+  "packageJSON": {
+    "name": "containerjs",
+    "version": "0.0.0",
+    "scripts": {
+      "build": "lerna run build",
+      "test": "npm run lint && lerna run test",
+      "lint": "eslint --ignore-path .gitignore **/*.js",
+      "postinstall": "lerna bootstrap --concurrency 1 && node copy-markdown.js",
+      "test:ui": "cd packages/api-tests && npm run test:ui",
+      "browser": "npm i & cd packages/api-browser-demo && npm start",
+      "electron": "npm i & cd packages/api-electron-demo && npm start",
+      "openfin": "npm i & cd packages/api-openfin-demo && npm start"
+    },
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ScottLogic/ssf-desktop-wrapper.git"
+    },
+    "homepage": "https://github.com/ScottLogic/ssf-desktop-wrapper#readme",
+    "devDependencies": {
+      "eslint": "^3.17.1",
+      "eslint-config-standard": "^7.0.1",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-node": "^4.2.0",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^2.1.1",
+      "lerna": "2.0.0-rc.3",
+      "marked": "^0.3.6"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:32:42.783Z"
 }

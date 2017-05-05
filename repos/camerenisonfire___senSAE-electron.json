@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/camerenisonfire/senSAE-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/camerenisonfire/senSAE-electron.git"
+    },
     "keywords": [
       "Electron",
       "generative",
@@ -61,6 +64,7 @@
       "music",
       "visualizer"
     ],
+    "author": "camerenisonfire",
     "license": "CC0-1.0",
     "homepage": "http://www.sensae.us",
     "devDependencies": {
@@ -112,5 +116,6 @@
   "svnUrl": "https://github.com/camerenisonfire/senSAE-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:50:18.133Z"
+  "lastFetchedAt": "2017-05-04T14:50:18.133Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:09.138Z"
 }

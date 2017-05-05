@@ -74,14 +74,21 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/boxizen/WeSing",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/boxizen/WeSing.git"
+    },
     "keywords": [
       "wesing",
       "electron",
       "webpack",
       "vue"
     ],
+    "author": "boxizen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/boxizen/WeSing/issues"
+    },
     "homepage": "https://github.com/boxizen/WeSing#readme",
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -133,5 +140,6 @@
   },
   "filename": "boxizen___WeSing.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:39.655Z"
+  "lastFetchedAt": "2017-05-04T21:28:39.655Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:17.014Z"
 }

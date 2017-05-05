@@ -131,8 +131,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/electrode-io/electrode-ota-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electrode-io/electrode-ota-desktop/electrode-ota-desktop.git"
+    },
+    "author": {
+      "name": "Justin Spears",
+      "email": "speajus@gmail.com",
+      "url": "https://github.com/jspears"
+    },
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/electrode-io/electrode-ota-desktop/electrode-ota-desktop/issues"
+    },
     "keywords": [
       "electron",
       "code-push",
@@ -238,5 +249,6 @@
   },
   "filename": "electrode-io___electrode-ota-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:30.075Z"
+  "lastFetchedAt": "2017-05-04T21:18:30.075Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:02.960Z"
 }

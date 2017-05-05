@@ -66,24 +66,19 @@
     },
     "private": true,
     "repository": {
-      "user": "jamen",
-      "repo": "neta",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jamen/neta/tarball/master",
-      "clone_url": "https://github.com/jamen/neta",
-      "https_url": "https://github.com/jamen/neta",
-      "travis_url": "https://travis-ci.org/jamen/neta",
-      "zip_url": "https://github.com/jamen/neta/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jamen/neta"
+      "type": "git",
+      "url": "git+https://github.com/jamen/neta.git"
     },
     "keywords": [
       "chat",
       "client",
       "customizable"
     ],
+    "author": "Jamen Marzonie",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/jamen/neta/issues"
+    },
     "homepage": "https://github.com/jamen/neta#readme",
     "dependencies": {
       "classnames": "^2.2.3",
@@ -158,5 +153,6 @@
   "sourceRepo": "jamen/neta",
   "filename": "jamen___neta.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:34.663Z"
+  "lastFetchedAt": "2017-05-04T20:17:34.663Z",
+  "packageLastFetchedAt": "2017-05-05T11:37:18.689Z"
 }

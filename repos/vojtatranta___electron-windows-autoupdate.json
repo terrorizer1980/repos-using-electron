@@ -205,24 +205,19 @@
       }
     },
     "repository": {
-      "user": "vojtatranta",
-      "repo": "electron-windows-autoupdate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/vojtatranta/electron-windows-autoupdate/tarball/master",
-      "clone_url": "https://github.com/vojtatranta/electron-windows-autoupdate",
-      "https_url": "https://github.com/vojtatranta/electron-windows-autoupdate",
-      "travis_url": "https://travis-ci.org/vojtatranta/electron-windows-autoupdate",
-      "zip_url": "https://github.com/vojtatranta/electron-windows-autoupdate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/vojtatranta/electron-windows-autoupdate"
+      "type": "git",
+      "url": "git+https://github.com/vojtatranta/electron-windows-autoupdate.git"
     },
     "keywords": [
       "Electron",
       "Windows",
       "autoupdate"
     ],
+    "author": "Vojtech Tranta <vojta.tranta@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vojtatranta/electron-windows-autoupdate/issues"
+    },
     "homepage": "https://github.com/vojtatranta/electron-windows-autoupdate#readme",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -255,5 +250,6 @@
   "filename": "vojtatranta___electron-windows-autoupdate.json",
   "sourceRepo": "avocode/electron-windows-autoupdate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:16:49.274Z"
+  "lastFetchedAt": "2017-05-04T18:16:49.274Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:38.740Z"
 }

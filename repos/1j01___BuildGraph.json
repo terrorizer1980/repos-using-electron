@@ -68,6 +68,7 @@
   "packageJSON": {
     "name": "BuildGraph",
     "version": "0.0.1",
+    "author": "Isaiah Odhner <isaiahodhner@gmail.com>",
     "description": "A graphical node-graph-based cascading build system",
     "license": "MIT",
     "homepage": "https://github.com/1j01/BuildGraph",
@@ -97,7 +98,13 @@
       "linting",
       "lint"
     ],
-    "repository": "https://github.com/1j01/BuildGraph",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/1j01/BuildGraph.git"
+    },
+    "bugs": {
+      "url": "https://github.com/1j01/BuildGraph/issues"
+    },
     "scripts": {
       "postinstall": "electron-rebuild",
       "start": "electron app/electron-main.js"
@@ -139,5 +146,6 @@
   },
   "filename": "1j01___BuildGraph.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:18.151Z"
+  "lastFetchedAt": "2017-05-04T20:27:18.151Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:53.975Z"
 }

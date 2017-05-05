@@ -190,6 +190,11 @@
     "name": "webtorrent",
     "description": "Streaming torrent client",
     "version": "0.97.2",
+    "author": {
+      "name": "WebTorrent, LLC",
+      "email": "feross@webtorrent.io",
+      "url": "https://webtorrent.io"
+    },
     "browser": {
       "./lib/server.js": false,
       "./lib/tcp-pool.js": false,
@@ -204,6 +209,9 @@
       "transform": [
         "package-json-versionify"
       ]
+    },
+    "bugs": {
+      "url": "https://github.com/feross/webtorrent/issues"
     },
     "dependencies": {
       "addr-to-ip-port": "^1.4.2",
@@ -287,7 +295,10 @@
     ],
     "license": "MIT",
     "main": "index.js",
-    "repository": "https://github.com/feross/webtorrent",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/webtorrent.git"
+    },
     "scripts": {
       "build": "browserify -s WebTorrent -e ./ | uglifyjs -c warnings=false -m > webtorrent.min.js",
       "build-debug": "browserify -s WebTorrent -e ./ > webtorrent.debug.js",
@@ -325,5 +336,6 @@
   },
   "sourceRepo": "feross/webtorrent",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:18:19.279Z"
+  "lastFetchedAt": "2017-05-04T15:18:19.279Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:28.081Z"
 }

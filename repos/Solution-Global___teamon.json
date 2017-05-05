@@ -64,7 +64,13 @@
     "version": "0.1.0",
     "description": "Unified desktop app for team communication and collaboration.",
     "main": "teamon.js",
-    "repository": "https://github.com/Solution-Global/teamon",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Solution-Global/teamon.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Solution-Global/teamon/issues"
+    },
     "scripts": {
       "dev": "electron .",
       "clean": "npm run clean:win",
@@ -79,6 +85,7 @@
       "asar:osx": "asar pack release/osx/teamon-osx/resources/app release/osx/teamon-osx/resources/app.asar && rm -rf release/osx/teamon-osx/resources/app",
       "build:osx": "npm run pack:osx && npm run asar:osx && electron-builder release/osx/teamon-osx --platform=osx --out=release/osx --config=packager.json"
     },
+    "author": "Solution-Global",
     "license": "GPL",
     "devDependencies": {
       "asar": "0.9.0",
@@ -152,5 +159,6 @@
   "svnUrl": "https://github.com/Solution-Global/teamon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:47:52.861Z"
+  "lastFetchedAt": "2017-05-04T14:47:52.861Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:34.729Z"
 }

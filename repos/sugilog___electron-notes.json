@@ -81,21 +81,13 @@
       "setup": "gulp copy; cd pdfjs && npm install;"
     },
     "repository": {
-      "user": "sugilog",
-      "repo": "electron-notes",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/sugilog/electron-notes/tarball/master",
-      "clone_url": "https://github.com/sugilog/electron-notes",
-      "https_url": "https://github.com/sugilog/electron-notes",
-      "travis_url": "https://travis-ci.org/sugilog/electron-notes",
-      "zip_url": "https://github.com/sugilog/electron-notes/archive/master.zip",
-      "api_url": "https://api.github.com/repos/sugilog/electron-notes"
+      "type": "git",
+      "url": "git+https://github.com/sugilog/electron-notes.git"
     },
     "keywords": [
       "Electron"
     ],
+    "author": "sugilog",
     "license": "CC0-1.0",
     "homepage": "https://github.com/sugilog/electron-notes",
     "devDependencies": {
@@ -152,5 +144,6 @@
   "filename": "sugilog___electron-notes.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:59:10.371Z"
+  "lastFetchedAt": "2017-05-03T19:59:10.371Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:26.094Z"
 }

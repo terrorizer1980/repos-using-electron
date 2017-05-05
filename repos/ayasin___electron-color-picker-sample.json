@@ -60,6 +60,7 @@
       "package-darwin": "./node_modules/.bin/electron-packager ./app ElectronQuickStart --platform darwin --arch all --out ./bin/ElectronQuickStart --version 0.37.4 --overwrite --icon=./app/icon.icns",
       "package-linux": "./node_modules/.bin/electron-packager ./app ElectronQuickStart --platform linux --arch all --out ./bin/ElectronQuickStart --version 0.37.4 --overwrite --icon=./app/icon.icns"
     },
+    "author": "ayasin@datatensor.com",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.7.4",
@@ -122,5 +123,6 @@
   "svnUrl": "https://github.com/ayasin/electron-color-picker-sample",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:52:43.119Z"
+  "lastFetchedAt": "2017-05-04T20:52:43.119Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:49.072Z"
 }

@@ -73,16 +73,6 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/timurma/resume.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/timurma/resume/issues"
-    },
-    "homepage": "https://github.com/timurma/resume#readme",
     "dependencies": {
       "electron": "^1.4.6",
       "pg": "^6.1.0",
@@ -116,5 +106,6 @@
   },
   "filename": "timurma___resume.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:08.364Z"
+  "lastFetchedAt": "2017-05-04T21:26:08.364Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:32.873Z"
 }

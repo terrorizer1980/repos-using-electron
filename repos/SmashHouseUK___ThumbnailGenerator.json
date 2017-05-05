@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/SmashHouseUK/ThumbnailGenerator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://sh-Ook@github.com/SmashHouseUK/ThumbnailGenerator.git"
+    },
+    "author": "sh-Ook",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SmashHouseUK/ThumbnailGenerator/issues"
+    },
     "homepage": "https://github.com/SmashHouseUK/ThumbnailGenerator#readme",
     "devDependencies": {
       "gulp": "^3.9.1",
@@ -108,5 +115,6 @@
   },
   "filename": "SmashHouseUK___ThumbnailGenerator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:13.733Z"
+  "lastFetchedAt": "2017-05-04T20:11:13.733Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:18.261Z"
 }

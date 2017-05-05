@@ -74,17 +74,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "rwos",
-      "repo": "rpterm",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rwos/rpterm/tarball/master",
-      "clone_url": "https://github.com/rwos/rpterm",
-      "https_url": "https://github.com/rwos/rpterm",
-      "travis_url": "https://travis-ci.org/rwos/rpterm",
-      "zip_url": "https://github.com/rwos/rpterm/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rwos/rpterm"
+      "type": "git",
+      "url": "git+https://github.com/rwos/rpterm.git"
     },
     "keywords": [
       "rpterm",
@@ -92,6 +83,7 @@
       "Electron",
       "xterm"
     ],
+    "author": "Richard Wossal <richard@r-wos.org>",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "0.36.9",
@@ -133,5 +125,6 @@
   "filename": "rwos___rpterm.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:27:48.523Z"
+  "lastFetchedAt": "2017-05-04T14:27:48.523Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:58.799Z"
 }

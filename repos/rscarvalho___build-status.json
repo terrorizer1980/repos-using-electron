@@ -63,13 +63,19 @@
       "start": "nf start",
       "test": "ELECTRON_PATH=node_modules/.bin electron-mocha"
     },
-    "repository": "https://github.com/rscarvalho/build-status",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rscarvalho/build-status.git"
+    },
     "keywords": [
       "build",
       "ci",
       "continuous-integration"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rscarvalho/build-status/issues"
+    },
     "homepage": "https://github.com/rscarvalho/build-status#readme",
     "dependencies": {
       "babel-core": "^6.5.2",
@@ -146,5 +152,6 @@
   "svnUrl": "https://github.com/rscarvalho/build-status",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:57:36.862Z"
+  "lastFetchedAt": "2017-05-04T17:57:36.862Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:19.829Z"
 }

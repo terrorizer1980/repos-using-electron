@@ -54,6 +54,7 @@
       "start-debug": "electron --debug=5858 .",
       "start": "electron ."
     },
+    "author": "Craig Shoemaker <craig@craigshoemaker.net>",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.30.0",
@@ -105,5 +106,6 @@
   "svnUrl": "https://github.com/craigshoemaker/electron-api-demos",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:36:46.819Z"
+  "lastFetchedAt": "2017-05-04T05:36:46.819Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:49.736Z"
 }

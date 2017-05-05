@@ -94,11 +94,18 @@
       "start": "gulp serve",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ReindeerLab/lets-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ReindeerLab/lets-electron.git"
+    },
     "keywords": [
       "electron"
     ],
+    "author": "dachi",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ReindeerLab/lets-electron/issues"
+    },
     "homepage": "https://github.com/ReindeerLab/lets-electron#readme",
     "devDependencies": {
       "browserify": "^11.2.0",
@@ -146,5 +153,6 @@
   },
   "filename": "ReindeerLab___lets-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:02.916Z"
+  "lastFetchedAt": "2017-05-04T21:30:02.916Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:17.077Z"
 }

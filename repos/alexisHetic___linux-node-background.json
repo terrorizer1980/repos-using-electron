@@ -80,8 +80,15 @@
       "test": "test.js",
       "start": "NODE_ENV=development electron ."
     },
-    "repository": "https://github.com/alexisHetic/linux-node-background",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alexisHetic/linux-node-background.git"
+    },
+    "author": "ADR.Dra",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/alexisHetic/linux-node-background/issues"
+    },
     "homepage": "https://github.com/alexisHetic/linux-node-background#readme",
     "dependencies": {
       "isomorphic-fetch": "^2.2.1",
@@ -121,5 +128,6 @@
   },
   "filename": "alexisHetic___linux-node-background.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:25.296Z"
+  "lastFetchedAt": "2017-05-04T19:44:25.296Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:47.652Z"
 }

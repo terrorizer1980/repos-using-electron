@@ -50,7 +50,10 @@
     "version": "0.0.1",
     "description": "Just a simple desktop chat built using DHTMLX on client and Node.js (Express + ws) && Redis on back end",
     "main": "main.js",
-    "repository": "https://github.com/web2solutions/dhtmlxDesktopChat",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/web2solutions/dhtmlxDesktopChat.git"
+    },
     "keywords": [
       "chat",
       "websocket",
@@ -62,6 +65,7 @@
       "node": "0.12.x",
       "npm": "2.10.x"
     },
+    "author": "José Eduardo Perotta Almeida",
     "license": "GPL-2.0",
     "dependencies": {
       "cfenv": "^1.0.3",
@@ -73,6 +77,9 @@
       "passport-local": "^1.0.0",
       "redis": "^2.2.5",
       "ws": "^0.8.0"
+    },
+    "bugs": {
+      "url": "https://github.com/web2solutions/dhtmlxDesktopChat/issues"
     },
     "homepage": "https://github.com/web2solutions/dhtmlxDesktopChat#readme",
     "devDependencies": {
@@ -129,5 +136,6 @@
   },
   "filename": "web2solutions___dhtmlxDesktopChat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:25.076Z"
+  "lastFetchedAt": "2017-05-04T21:24:25.076Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:02.954Z"
 }

@@ -177,17 +177,8 @@
     },
     "homepage": "https://github.com/ran-y/electron-storage",
     "repository": {
-      "user": "ran-y",
-      "repo": "electron-storage",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ran-y/electron-storage/tarball/master",
-      "clone_url": "https://github.com/ran-y/electron-storage",
-      "https_url": "https://github.com/ran-y/electron-storage",
-      "travis_url": "https://travis-ci.org/ran-y/electron-storage",
-      "zip_url": "https://github.com/ran-y/electron-storage/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ran-y/electron-storage"
+      "type": "git",
+      "url": "git@github.com:ran-y/electron-storage.git"
     },
     "keywords": [
       "electron",
@@ -197,6 +188,7 @@
       "set",
       "isPathExists"
     ],
+    "author": "Ran yitzhaki",
     "license": "MIT",
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
@@ -261,5 +253,6 @@
   "svnUrl": "https://github.com/davej/electron-storage",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:31:28.148Z"
+  "lastFetchedAt": "2017-05-04T05:31:28.148Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:45.223Z"
 }

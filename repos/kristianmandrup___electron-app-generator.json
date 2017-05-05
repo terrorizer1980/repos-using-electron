@@ -83,10 +83,27 @@
       "pack": "cross-env NODE_ENV=production webpack -p --progress --colors",
       "test": "npm run unit && npm run e2e",
       "unit": "karma start test/unit/karma.conf.js",
+      "ava": "ava",
       "vue:route": "node tasks/vue/route.js",
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
+    "ava": {
+      "files": [
+        "test/ava/**/*.spec.js"
+      ],
+      "source": [
+        "app/src/**/*.{js,jsx}"
+      ],
+      "concurrency": 5,
+      "failFast": true,
+      "powerAssert": true,
+      "require": [
+        "babel-register"
+      ],
+      "babel": "inherit"
+    },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -142,11 +159,14 @@
       "webpack-merge": "^0.14.1"
     },
     "dependencies": {
+      "ava": "^0.17.0",
       "lodash.debounce": "^4.0.8",
       "rxjs": "^5.0.0-rc.2",
       "vue": "^2.0.5",
-      "vue-material": "kristianmandrup/vue-material#master",
-      "vue-rx": "^2.1.1"
+      "vue-material": "marcosmoura/vue-material#master",
+      "vue-rx": "^2.1.1",
+      "vue2-dragula": "^2.1.1",
+      "vuex-connect": "^1.1.1"
     }
   },
   "packageStatus": 200,
@@ -174,5 +194,6 @@
   },
   "filename": "kristianmandrup___electron-app-generator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:38.119Z"
+  "lastFetchedAt": "2017-05-04T05:18:38.119Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:38.363Z"
 }

@@ -93,12 +93,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/xenabiz/hystrix-dashboard-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xenabiz/hystrix-dashboard-app.git"
+    },
     "keywords": [
       "hystrix",
       "xenabiz"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/xenabiz/hystrix-dashboard-app/issues"
+    },
     "homepage": "https://github.com/xenabiz/hystrix-dashboard-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.2"
@@ -129,5 +136,6 @@
   },
   "filename": "xenabiz___hystrix-dashboard-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:22.160Z"
+  "lastFetchedAt": "2017-05-04T05:26:22.160Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:41.471Z"
 }

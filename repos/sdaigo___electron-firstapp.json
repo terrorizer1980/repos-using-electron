@@ -67,5 +67,19 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:25:09.135Z"
+  "lastFetchedAt": "2017-05-04T21:25:09.135Z",
+  "packageJSON": {
+    "name": "electron-firstapp",
+    "version": "1.0.0",
+    "description": "Hello Electron",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+      "electron": "^1.6.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:57:25.548Z"
 }

@@ -174,17 +174,8 @@
       "sidecar": "./app.js"
     },
     "repository": {
-      "user": "rgbkrk",
-      "repo": "jupyter-sidecar",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rgbkrk/jupyter-sidecar/tarball/master",
-      "clone_url": "https://github.com/rgbkrk/jupyter-sidecar",
-      "https_url": "https://github.com/rgbkrk/jupyter-sidecar",
-      "travis_url": "https://travis-ci.org/rgbkrk/jupyter-sidecar",
-      "zip_url": "https://github.com/rgbkrk/jupyter-sidecar/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rgbkrk/jupyter-sidecar"
+      "type": "git",
+      "url": "https://github.com/rgbkrk/jupyter-sidecar.git"
     },
     "keywords": [
       "jupyter",
@@ -192,7 +183,11 @@
       "sidecar",
       "output"
     ],
+    "author": "Kyle Kelley",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/rgbkrk/jupyter-sidecar/issues"
+    },
     "homepage": "https://github.com/rgbkrk/jupyter-sidecar",
     "electronVersion": "0.33.0",
     "dependencies": {
@@ -263,5 +258,6 @@
   "filename": "mcanthony___jupyter-sidecar.json",
   "sourceRepo": "nteract/sidecar",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:08:55.413Z"
+  "lastFetchedAt": "2017-05-04T20:08:55.413Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:11.442Z"
 }

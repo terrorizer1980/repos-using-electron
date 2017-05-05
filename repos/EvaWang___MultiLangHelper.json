@@ -73,5 +73,38 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:11:57.779Z"
+  "lastFetchedAt": "2017-05-04T20:11:57.779Z",
+  "packageJSON": {
+    "name": "electron-multilanghelper",
+    "version": "1.0.0",
+    "description": "cross platform",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "rebuild": "electron-rebuild -f -w sqlite3"
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-rebuild": "^1.5.7"
+    },
+    "dependencies": {
+      "angular-route": "^1.6.2",
+      "electron-prebuilt": "^1.4.13",
+      "electron-rebuild": "^1.5.7",
+      "ng-table": "^3.0.1",
+      "sqlite3": "^3.1.8"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:28:37.783Z"
 }

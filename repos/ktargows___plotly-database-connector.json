@@ -193,19 +193,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "plotly",
-      "repo": "electron-sql-connector",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/plotly/electron-sql-connector/tarball/master",
-      "clone_url": "https://github.com/plotly/electron-sql-connector",
-      "https_url": "https://github.com/plotly/electron-sql-connector",
-      "travis_url": "https://travis-ci.org/plotly/electron-sql-connector",
-      "zip_url": "https://github.com/plotly/electron-sql-connector/archive/master.zip",
-      "api_url": "https://api.github.com/repos/plotly/electron-sql-connector"
+      "type": "git",
+      "url": "git+https://github.com/plotly/electron-sql-connector"
+    },
+    "author": {
+      "name": "Plotly",
+      "email": "",
+      "url": ""
     },
     "license": "MIT",
+    "bugs": {
+      "url": ""
+    },
     "keywords": [
       "electron",
       "react",
@@ -352,5 +351,6 @@
   "svnUrl": "https://github.com/ktargows/plotly-database-connector",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:02:43.402Z"
+  "lastFetchedAt": "2017-05-04T05:02:43.402Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:59.434Z"
 }

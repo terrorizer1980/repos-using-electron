@@ -76,13 +76,20 @@
     "version": "0.0.1",
     "description": "An application for tagging images",
     "main": "main.js",
-    "repository": "https://github.com/catalin-enache/electron_image_tagger",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/catalin-enache/electron_image_tagger.git"
+    },
     "keywords": [
       "Electron",
       "image",
       "tag"
     ],
+    "author": "Catalin Enache",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/catalin-enache/electron_image_tagger/issues"
+    },
     "homepage": "https://github.com/catalin-enache/electron_image_tagger",
     "dependencies": {
       "babel-polyfill": "6.7.4",
@@ -144,5 +151,6 @@
   },
   "filename": "catalin-enache___electron_image_tagger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T08:01:22.567Z"
+  "lastFetchedAt": "2017-05-04T08:01:22.567Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:19.337Z"
 }

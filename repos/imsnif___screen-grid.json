@@ -77,7 +77,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "standard && tape ./test/unit/*.spec.js --tap | tap-spec"
+      "test": "standard && tape ./test/unit/*.spec.js --tap | tap-spec",
+      "coverage": "nyc --reporter lcov npm test",
+      "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
     },
     "author": "",
     "license": "MIT",
@@ -85,6 +87,8 @@
       "electron": "^1.4.2"
     },
     "devDependencies": {
+      "coveralls": "^2.11.15",
+      "nyc": "^9.0.1",
       "proxyquire": "^1.7.10",
       "sinon": "^1.17.6",
       "standard": "^8.5.0",
@@ -117,5 +121,6 @@
   },
   "filename": "imsnif___screen-grid.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:43.444Z"
+  "lastFetchedAt": "2017-05-04T05:04:43.444Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:55.803Z"
 }

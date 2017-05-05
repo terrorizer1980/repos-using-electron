@@ -82,8 +82,19 @@
       "package": "node package.js",
       "package-all": "node package.js --all"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -222,5 +233,6 @@
   "svnUrl": "https://github.com/kodgemisi-archive/cevirgec",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:21:58.353Z"
+  "lastFetchedAt": "2017-05-04T14:21:58.353Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:01.638Z"
 }

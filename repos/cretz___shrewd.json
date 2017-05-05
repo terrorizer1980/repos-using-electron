@@ -54,6 +54,7 @@
       "postinstall": "./node_modules/.bin/typings install",
       "start": "./node_modules/.bin/ts-node ./tasks/start.ts"
     },
+    "author": "Chad Retz <chad.retz@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.3",
@@ -114,5 +115,6 @@
   },
   "filename": "cretz___shrewd.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:22.582Z"
+  "lastFetchedAt": "2017-05-04T20:56:22.582Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:52.406Z"
 }

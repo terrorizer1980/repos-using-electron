@@ -191,17 +191,8 @@
     "description": "Fork of P2P Messaging App ssbc/patchwork adapted for Node and NodeKit",
     "main": "_offgrid/server/server.js",
     "repository": {
-      "user": "offgridnetworks",
-      "repo": "patchwork-nodekit",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/offgridnetworks/patchwork-nodekit/tarball/master",
-      "clone_url": "https://github.com/offgridnetworks/patchwork-nodekit",
-      "https_url": "https://github.com/offgridnetworks/patchwork-nodekit",
-      "travis_url": "https://travis-ci.org/offgridnetworks/patchwork-nodekit",
-      "zip_url": "https://github.com/offgridnetworks/patchwork-nodekit/archive/master.zip",
-      "api_url": "https://api.github.com/repos/offgridnetworks/patchwork-nodekit"
+      "type": "git",
+      "url": "https://github.com/offgridnetworks/patchwork-nodekit.git"
     },
     "scripts": {
       "desktop": "electron .",
@@ -216,6 +207,7 @@
       "server": "node _offgrid/server/server",
       "dev": "NODE_ENV=development node _offgrid/server/devServer"
     },
+    "author": "Paul Frazee <pfrazee@gmail.com>",
     "contributors": [
       "SSBC contributors",
       "OffGridNetworks <admin@offgridnetworks.com>"
@@ -375,5 +367,6 @@
   "filename": "OffGridNetworks___patchwork-nodekit.json",
   "sourceRepo": "firstteam/patchwork",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:37:28.971Z"
+  "lastFetchedAt": "2017-05-04T19:37:28.971Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:27.865Z"
 }

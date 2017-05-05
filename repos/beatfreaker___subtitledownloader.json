@@ -55,6 +55,11 @@
     "name": "subtitledownloader",
     "version": "0.1.1",
     "description": "A painless Subtitle downloader",
+    "author": {
+      "name": "Chintan Radia",
+      "email": "radiachints1512@gmail.com",
+      "url": "http://beatfreaker.github.io/"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron main.js",
@@ -63,7 +68,10 @@
       "build-windows32": "electron-packager . SubtitleDownloader --overwrite --asar=true --out=dist --prune --platform=win32 --arch=ia32 --icon=resources/app.ico --version=0.35.6 --version-string.ProductName=SubtitleDownloader --version-string.ProductVersion=0.35.6",
       "build-windows64": "electron-packager . SubtitleDownloader --overwrite --asar=true --out=dist --prune --platform=win32 --arch=x64 --icon=resources/app.ico --version=0.35.6 --version-string.ProductName=SubtitleDownloader --version-string.ProductVersion=0.35.6"
     },
-    "repository": "https://github.com/beatfreaker/subtitledownloader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beatfreaker/subtitledownloader.git"
+    },
     "keywords": [
       "Electron",
       "subtitle",
@@ -72,6 +80,9 @@
       "tv series"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/beatfreaker/subtitledownloader/issues"
+    },
     "homepage": "https://github.com/beatfreaker/subtitledownloader",
     "devDependencies": {
       "electron-packager": "^5.1.0",
@@ -135,5 +146,6 @@
   "svnUrl": "https://github.com/beatfreaker/subtitledownloader",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:09:27.020Z"
+  "lastFetchedAt": "2017-05-04T05:09:27.020Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:07.383Z"
 }

@@ -84,6 +84,7 @@
     "keywords": [
       "react"
     ],
+    "author": "Agustí Becerra Milà",
     "license": "ISC",
     "devDependencies": {
       "babel-jest": "14.1.0",
@@ -103,7 +104,16 @@
       "react-addons-css-transition-group": "^15.3.0",
       "react-dom": "15.3.0"
     },
-    "repository": "https://github.com/7agustibm/Geometric",
+    "directories": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/7agustibm/Geometric.git"
+    },
+    "bugs": {
+      "url": "https://github.com/7agustibm/Geometric/issues"
+    },
     "homepage": "https://github.com/7agustibm/Geometric#readme",
     "engines": {
       "node": ">=5.9.1",
@@ -135,5 +145,6 @@
   },
   "filename": "7agustibm___GeometricElectron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:19.617Z"
+  "lastFetchedAt": "2017-05-04T16:45:19.617Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:50.353Z"
 }

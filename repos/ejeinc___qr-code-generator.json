@@ -94,12 +94,19 @@
       "start": "electron main.js",
       "postinstall": "bower install"
     },
-    "repository": "https://github.com/ejeinc/qr-code-generator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ejeinc/qr-code-generator.git"
+    },
     "keywords": [
       "QR",
       "QRCode"
     ],
+    "author": "eje inc.",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ejeinc/qr-code-generator/issues"
+    },
     "homepage": "https://github.com/ejeinc/qr-code-generator",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -134,5 +141,6 @@
   },
   "filename": "ejeinc___qr-code-generator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:08:21.634Z"
+  "lastFetchedAt": "2017-05-04T21:08:21.634Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:21.762Z"
 }

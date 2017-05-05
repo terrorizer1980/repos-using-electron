@@ -185,17 +185,8 @@
       "windows": "node tasks/build.js windows"
     },
     "repository": {
-      "user": "egoist",
-      "repo": "eme",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/egoist/eme/tarball/master",
-      "clone_url": "https://github.com/egoist/eme",
-      "https_url": "https://github.com/egoist/eme",
-      "travis_url": "https://travis-ci.org/egoist/eme",
-      "zip_url": "https://github.com/egoist/eme/archive/master.zip",
-      "api_url": "https://api.github.com/repos/egoist/eme"
+      "type": "git",
+      "url": "git+https://github.com/egoist/eme.git"
     },
     "keywords": [
       "markdown",
@@ -305,5 +296,6 @@
   "svnUrl": "https://github.com/kwachu96/eme",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:04:10.390Z"
+  "lastFetchedAt": "2017-05-04T05:04:10.390Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:10.426Z"
 }

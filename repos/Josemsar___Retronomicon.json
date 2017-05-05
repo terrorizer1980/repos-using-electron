@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron src/main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.3"
@@ -117,5 +124,6 @@
   },
   "filename": "Josemsar___Retronomicon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:33:17.895Z"
+  "lastFetchedAt": "2017-05-04T19:33:17.895Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:57.864Z"
 }

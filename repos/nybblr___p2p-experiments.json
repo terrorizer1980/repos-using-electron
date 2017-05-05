@@ -60,14 +60,21 @@
       "start": "electron main.js",
       "build": "electron-packager . --platform=darwin --arch=x64 --tmpdir=false"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "devtron": "^1.2.1",
@@ -135,5 +142,6 @@
   "svnUrl": "https://github.com/nybblr/p2p-experiments",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:41:40.667Z"
+  "lastFetchedAt": "2017-05-04T16:41:40.667Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:44.094Z"
 }

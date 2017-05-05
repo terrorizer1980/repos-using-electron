@@ -74,6 +74,7 @@
       "start": "electron .",
       "push": "make -j4"
     },
+    "author": "Amos Wenger <amos@itch.io>",
     "license": "MIT",
     "itchyElectron": {
       "productName": "Sample Evil App",
@@ -83,8 +84,8 @@
       }
     },
     "devDependencies": {
-      "electron-prebuilt": "^1.2.5",
-      "itchy-electron": "^0.2.0"
+      "electron": "^1.6.2",
+      "itchy-electron": "^0.2.1"
     }
   },
   "packageStatus": 200,
@@ -112,5 +113,6 @@
   },
   "filename": "fasterthanlime___sample-evil-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:22.711Z"
+  "lastFetchedAt": "2017-05-04T14:19:22.711Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:09.361Z"
 }

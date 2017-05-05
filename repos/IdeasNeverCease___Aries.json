@@ -67,14 +67,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/IdeasNeverCease/Aries",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IdeasNeverCease/Aries.git"
+    },
     "keywords": [
       "Aries",
       "browser",
       "hikari",
       "mmbn"
     ],
+    "author": "NetOperatorWibby",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IdeasNeverCease/Aries/issues"
+    },
     "homepage": "https://github.com/IdeasNeverCease/Aries#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/IdeasNeverCease/Aries",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:49:21.035Z"
+  "lastFetchedAt": "2017-05-04T14:49:21.035Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:00.635Z"
 }

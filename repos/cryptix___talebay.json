@@ -144,6 +144,7 @@
       "rebuild": "npm rebuild --runtime=electron --target=$(electron -v) --abi=$(electron --abi) --disturl=https://atom.io/download/atom-shell",
       "test": "set -e; for t in test/*.js; do node $t; done"
     },
+    "author": "Henry <cryptix@riseup.net>",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -171,5 +172,6 @@
   },
   "sourceRepo": "ssbc/patchbay",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:57.610Z"
+  "lastFetchedAt": "2017-05-04T14:45:57.610Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:39.285Z"
 }

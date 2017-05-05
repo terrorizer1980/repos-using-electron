@@ -58,6 +58,11 @@
     "description": "My first-class app",
     "license": "MIT",
     "repository": "dantheuber/clipless",
+    "author": {
+      "name": "Daniel Essig",
+      "email": "dan.essig@gmail.com",
+      "url": "clipless.io"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -144,5 +149,6 @@
   "svnUrl": "https://github.com/dantheuber/clipless",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:08:26.880Z"
+  "lastFetchedAt": "2017-05-04T05:08:26.880Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:13.342Z"
 }

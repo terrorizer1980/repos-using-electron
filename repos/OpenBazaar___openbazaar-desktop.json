@@ -67,8 +67,8 @@
   "status": 200,
   "packageJSON": {
     "name": "openbazaar-desktop",
-    "version": "2.0.0",
-    "description": "",
+    "version": "2.0.4",
+    "description": "Decentralized p2p marketplace for Bitcoin",
     "main": "bootstrapper.js",
     "scripts": {
       "start": "cross-env NODE_ENV=development npm-run-all sass:build process-index --parallel sass:watch index:watch browsersync start-app",
@@ -85,7 +85,8 @@
       "process-index:build": "babel-node ./bin/processIndexForBuild.js",
       "copy-js-subfolders": "copyfiles -u 1 'js/languages/**/*' 'js/templates/**/*' prod",
       "babel": "babel js --out-dir prod; babel main.js --out-file mainBuilt.js",
-      "build": "npm-run-all sass:build --parallel babel process-index:build --sequential copy-js-subfolders"
+      "build": "npm-run-all sass:build --parallel babel process-index:build --sequential copy-js-subfolders",
+      "binaries": "./build.sh"
     },
     "repository": {
       "type": "git",
@@ -107,18 +108,21 @@
       "chai": "^3.5.0",
       "copyfiles": "^1.0.0",
       "cross-env": "^1.0.8",
-      "electron-prebuilt": "^1.2.5",
+      "electron": "^1.4.15",
       "eslint": "^2.13.1",
       "eslint-config-airbnb": "^9.0.1",
       "eslint-config-defaults": "^9.0.0",
       "eslint-plugin-import": "^1.10.0",
       "eslint-plugin-jsx-a11y": "^1.5.3",
       "eslint-plugin-react": "^5.2.2",
+      "grunt": "^1.0.1",
+      "grunt-electron-installer": "^2.1.0",
       "jsdom": "9.4.1",
       "mocha": "^2.5.3",
-      "node-sass": "^3.8.0",
+      "node-sass": "^3.13.0",
       "nodemon": "^1.9.2",
-      "npm-run-all": "^2.2.0"
+      "npm-run-all": "^2.2.0",
+      "sinon": "^1.17.6"
     },
     "pre-commit": [
       "lint",
@@ -130,16 +134,25 @@
       "babel-register": "^6.9.0",
       "backbone": "^1.3.3",
       "backbone.localstorage": "^1.1.16",
-      "ionicons": "^2.0.1",
+      "bitcoin-convert": "^1.0.4",
+      "bitcore-lib": "^0.14.0",
       "cropit": "^0.5.1",
+      "ionicons": "^2.0.1",
       "is_js": "^0.8.0",
       "jquery": "^3.0.0",
-      "medium-editor": "^5.21.1",
+      "jquery-zoom": "^1.7.18",
+      "moment": "^2.17.1",
       "multihashes": "^0.2.2",
       "node-polyglot": "^2.0.0",
-      "select2": "^4.0.3",
+      "open": "0.0.5",
+      "qr-encode": "^0.3.0",
+      "sortablejs": "^1.5.0-rc1",
+      "trumbowyg": "^2.4.2",
+      "twemoji": "^2.2.5",
       "underscore": "^1.8.3",
-      "velocity-animate": "^1.2.3"
+      "url-parse": "^1.1.7",
+      "velocity-animate": "^1.2.3",
+      "yargs": "^6.6.0"
     }
   },
   "packageStatus": 200,
@@ -187,5 +200,6 @@
   "svnUrl": "https://github.com/OpenBazaar/openbazaar-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:50:00.614Z"
+  "lastFetchedAt": "2017-05-04T17:50:00.614Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:00.647Z"
 }

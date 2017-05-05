@@ -88,13 +88,17 @@
       "build:osx": "npm run pack:osx && electron-builder \"Slider\" --platform=osx --out=\"dist/osx\" --config=builder.json",
       "build:win": "npm run pack:win && electron-builder \"Slider\" --platform=win --out=\"dist/win\" --config=builder.json"
     },
-    "repository": "https://github.com/atom/electron-slider",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-slider.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.2",
@@ -130,5 +134,6 @@
   },
   "filename": "tuantranf___bxslider-electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:59:20.967Z"
+  "lastFetchedAt": "2017-05-04T20:59:20.967Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:05.006Z"
 }

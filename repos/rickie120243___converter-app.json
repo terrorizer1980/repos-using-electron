@@ -63,7 +63,10 @@
       "pack-dev": "electron ./dist",
       "build": "./bin/build.sh"
     },
-    "repository": "https://github.com/rickie120243/converter-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rickie120243/converter-app.git"
+    },
     "keywords": [
       "electron",
       "converter",
@@ -71,7 +74,11 @@
       "Sambotha",
       "app"
     ],
+    "author": "karmapa",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rickie120243/converter-app/issues"
+    },
     "homepage": "https://github.com/rickie120243/converter-app#readme",
     "dependencies": {
       "electron": "1.3.4",
@@ -148,5 +155,6 @@
   },
   "filename": "rickie120243___converter-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:26:21.924Z"
+  "lastFetchedAt": "2017-05-04T20:26:21.924Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:55.466Z"
 }

@@ -77,7 +77,11 @@
       "watch-windows": "gulp start && START /MIN npm run electron && gulp watch",
       "build": "gulp start && electron-packager .tmp Soundmist --out=dist --prune --asar --all"
     },
-    "repository": "https://github.com/kattjakt/soundmist",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kattjakt/soundmist.git"
+    },
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-packager": "^7.1.0",
@@ -128,5 +132,6 @@
   },
   "filename": "gitter-badger___soundmist.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:32:27.545Z"
+  "lastFetchedAt": "2017-05-04T17:32:27.545Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:02.908Z"
 }

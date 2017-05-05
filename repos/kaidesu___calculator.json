@@ -53,8 +53,15 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "Shea Lewis",
     "license": "MIT",
-    "repository": "https://github.com/kaidesu/calculator",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kaidesu/calculator"
+    },
+    "bugs": {
+      "url": "https://github.com/kaidesu/calculator/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.30.2"
     }
@@ -104,5 +111,6 @@
   "svnUrl": "https://github.com/kaidesu/calculator",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:15:51.790Z"
+  "lastFetchedAt": "2017-05-04T05:15:51.790Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:36.990Z"
 }

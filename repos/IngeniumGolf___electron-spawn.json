@@ -217,8 +217,12 @@
       "atom-shell",
       "headless"
     ],
+    "author": "max ogden",
     "license": "BSD-2-Clause",
-    "repository": "https://github.com/maxogden/electron-spawn",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/maxogden/electron-spawn.git"
+    },
     "standard": {
       "ignore": [
         "cli.js"
@@ -258,5 +262,6 @@
   },
   "sourceRepo": "maxogden/electron-spawn",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:05.068Z"
+  "lastFetchedAt": "2017-05-04T16:42:05.068Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:40.634Z"
 }

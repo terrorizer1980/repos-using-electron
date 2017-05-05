@@ -81,41 +81,51 @@
   "status": 200,
   "packageJSON": {
     "name": "mirror-magic",
-    "version": "1.0.0",
-    "description": "Vanity is OK if you got icons around your face",
-    "main": "main.js",
-    "scripts": {
-      "start": "electron ."
-    },
-    "repository": "https://github.com/EmbedWithUs/mirror-magic",
-    "keywords": [
-      "magic",
-      "mirror"
-    ],
-    "contributors": [
-      {
-        "name": "Mark Shelton",
-        "email": "shelton.mark@gmail.com"
-      },
-      {
-        "name": "Michael Large",
-        "email": "m@codethebeard.com"
-      }
-    ],
+    "version": "0.0.0",
     "license": "MIT",
-    "homepage": "https://github.com/EmbedWithUs/mirror-magic#readme",
-    "devDependencies": {
-      "devtron": "^1.2.1",
-      "electron-packager": "^7.1.0",
-      "electron-prebuilt": "^1.2.5",
-      "gulp": "^3.9.1",
-      "gulp-autoprefixer": "^3.1.0",
-      "gulp-cli": "^1.2.1",
-      "gulp-sass": "^2.3.2"
+    "angular-cli": {},
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "lint": "tslint \"src/**/*.ts\"",
+      "test": "ng test",
+      "pree2e": "webdriver-manager update --standalone false --gecko false",
+      "e2e": "protractor"
     },
+    "private": true,
     "dependencies": {
-      "electron-config": "^0.2.0",
-      "weather-js": "^1.0.2"
+      "@angular/common": "^2.3.1",
+      "@angular/compiler": "^2.3.1",
+      "@angular/core": "^2.3.1",
+      "@angular/forms": "^2.3.1",
+      "@angular/http": "^2.3.1",
+      "@angular/platform-browser": "^2.3.1",
+      "@angular/platform-browser-dynamic": "^2.3.1",
+      "@angular/router": "^3.3.1",
+      "angular2-moment": "^1.0.0",
+      "core-js": "^2.4.1",
+      "rxjs": "^5.0.1",
+      "ts-helpers": "^1.1.1",
+      "zone.js": "^0.7.2"
+    },
+    "devDependencies": {
+      "@angular/compiler-cli": "^2.3.1",
+      "@types/jasmine": "2.5.38",
+      "@types/node": "^6.0.42",
+      "angular-cli": "1.0.0-beta.24",
+      "codelyzer": "~2.0.0-beta.1",
+      "electron": "^1.4.13",
+      "jasmine-core": "2.5.2",
+      "jasmine-spec-reporter": "2.5.0",
+      "karma": "1.2.0",
+      "karma-chrome-launcher": "^2.0.0",
+      "karma-cli": "^1.0.1",
+      "karma-jasmine": "^1.0.2",
+      "karma-remap-istanbul": "^0.2.1",
+      "protractor": "~4.0.13",
+      "ts-node": "1.2.1",
+      "tslint": "^4.0.2",
+      "typescript": "~2.0.3"
     }
   },
   "packageStatus": 200,
@@ -143,5 +153,6 @@
   },
   "filename": "EmbedWithUs___mirror-magic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:47.707Z"
+  "lastFetchedAt": "2017-05-04T20:38:47.707Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:44.682Z"
 }

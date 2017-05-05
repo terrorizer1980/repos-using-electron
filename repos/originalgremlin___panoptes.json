@@ -70,8 +70,12 @@
     "version": "0.1.0",
     "description": "AeroFS hackathon project.",
     "homepage": "https://github.com/originalgremlin/panoptes",
+    "author": "Barry Shapira <barry@aerofs.com>",
     "main": "main.js",
-    "repository": "https://github.com/originalgremlin/panoptes",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/originalgremlin/panoptes"
+    },
     "jscsConfig": {
       "disallowDanglingUnderscores": {
         "allExcept": [
@@ -131,5 +135,6 @@
   },
   "filename": "originalgremlin___panoptes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:23.557Z"
+  "lastFetchedAt": "2017-05-04T20:44:23.557Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:37.442Z"
 }

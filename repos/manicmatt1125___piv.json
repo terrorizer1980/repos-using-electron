@@ -71,19 +71,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "billyvg",
-      "repo": "pokemon-journal",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/billyvg/pokemon-journal/tarball/master",
-      "clone_url": "https://github.com/billyvg/pokemon-journal",
-      "https_url": "https://github.com/billyvg/pokemon-journal",
-      "travis_url": "https://travis-ci.org/billyvg/pokemon-journal",
-      "zip_url": "https://github.com/billyvg/pokemon-journal/archive/master.zip",
-      "api_url": "https://api.github.com/repos/billyvg/pokemon-journal"
+      "type": "git",
+      "url": "git+https://github.com/billyvg/pokemon-journal.git"
+    },
+    "author": {
+      "name": "Billy Vong",
+      "email": "billy@mmo.me",
+      "url": "https://github.com/billyvg"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/billyvg/pokemon-journal/issues"
+    },
     "keywords": [
       "pokemon"
     ],
@@ -216,5 +215,6 @@
   "svnUrl": "https://github.com/manicmatt1125/piv",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:25:29.798Z"
+  "lastFetchedAt": "2017-05-04T14:25:29.798Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:05.368Z"
 }

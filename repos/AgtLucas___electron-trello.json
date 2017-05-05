@@ -93,8 +93,15 @@
       "media/Icon.icns",
       "browser.css"
     ],
-    "repository": "https://github.com/AgtLucas/treadstone",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AgtLucas/treadstone.git"
+    },
+    "author": "Lucas",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AgtLucas/treadstone/issues"
+    },
     "homepage": "https://github.com/AgtLucas/treadstone#readme",
     "dependencies": {
       "electron-debug": "^0.2.1"
@@ -129,5 +136,6 @@
   },
   "filename": "AgtLucas___electron-trello.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:06.700Z"
+  "lastFetchedAt": "2017-05-04T20:18:06.700Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:21.913Z"
 }

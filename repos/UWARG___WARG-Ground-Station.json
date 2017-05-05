@@ -89,7 +89,11 @@
     "name": "WARG-Ground-Station",
     "version": "4.1.0",
     "description": "The WARG ground station that communiciated directly with the data-relay-station",
-    "repository": "https://github.com/UWARG/WARG-Ground-Station-V2",
+    "author": "Univeristy of Waterloo Arial Robotics Group - www.uwarg.com",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/UWARG/WARG-Ground-Station-V2"
+    },
     "scripts": {
       "start": "./node_modules/.bin/electron .",
       "docs": "./node_modules/.bin/jsdoc -c jsdoc.json",
@@ -149,5 +153,6 @@
   },
   "filename": "UWARG___WARG-Ground-Station.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T08:01:26.641Z"
+  "lastFetchedAt": "2017-05-04T08:01:26.641Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:54.964Z"
 }

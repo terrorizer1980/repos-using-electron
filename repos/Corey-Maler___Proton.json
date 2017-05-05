@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-compilers": "^1.0.1",
@@ -132,5 +139,6 @@
   },
   "filename": "Corey-Maler___Proton.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:56.180Z"
+  "lastFetchedAt": "2017-05-04T20:34:56.180Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:35.346Z"
 }

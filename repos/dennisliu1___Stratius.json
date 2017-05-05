@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "bootstrap",
       "coding",
       "IDE"
     ],
+    "author": "Dennis Liu",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -123,5 +130,6 @@
   },
   "filename": "dennisliu1___Stratius.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:50.693Z"
+  "lastFetchedAt": "2017-05-04T20:38:50.693Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:41.278Z"
 }

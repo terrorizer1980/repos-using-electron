@@ -186,17 +186,8 @@
       "test": "npm run test:app && npm run build:extension && npm run test:chrome && npm run test:electron"
     },
     "repository": {
-      "user": "zalmoxisus",
-      "repo": "redux-devtools-extension",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/zalmoxisus/redux-devtools-extension/tarball/master",
-      "clone_url": "https://github.com/zalmoxisus/redux-devtools-extension",
-      "https_url": "https://github.com/zalmoxisus/redux-devtools-extension",
-      "travis_url": "https://travis-ci.org/zalmoxisus/redux-devtools-extension",
-      "zip_url": "https://github.com/zalmoxisus/redux-devtools-extension/archive/master.zip",
-      "api_url": "https://api.github.com/repos/zalmoxisus/redux-devtools-extension"
+      "type": "git",
+      "url": "https://github.com/zalmoxisus/redux-devtools-extension"
     },
     "homepage": "https://github.com/zalmoxisus/redux-devtools-extension",
     "authors": [
@@ -305,5 +296,6 @@
   "svnUrl": "https://github.com/clarkie/redux-devtools-extension",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:12:35.509Z"
+  "lastFetchedAt": "2017-05-04T05:12:35.509Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:36.003Z"
 }

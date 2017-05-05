@@ -74,14 +74,21 @@
       "start": "electron app/main/main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/tonyeen/terminator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tonyeen/terminator.git"
+    },
     "keywords": [
       "Electron",
       "programmer",
       "terminal",
       "toolkit"
     ],
+    "author": "Tony",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tonyeen/terminator/issues"
+    },
     "homepage": "https://github.com/tonyeen/terminator#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.2",
@@ -117,5 +124,6 @@
   },
   "filename": "tonyeen___terminator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:27.992Z"
+  "lastFetchedAt": "2017-05-04T05:09:27.992Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:19.859Z"
 }

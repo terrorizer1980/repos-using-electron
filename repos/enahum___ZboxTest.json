@@ -70,6 +70,7 @@
     "version": "1.1.1",
     "description": "Test application with electron",
     "main": "app.js",
+    "author": "Elias Nahum",
     "scripts": {
       "prestart": "./node_modules/.bin/gulp",
       "test": "./node_modules/.bin/karma start --single-run",
@@ -141,5 +142,6 @@
   },
   "filename": "enahum___ZboxTest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:41.858Z"
+  "lastFetchedAt": "2017-05-04T21:29:41.858Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:02.411Z"
 }

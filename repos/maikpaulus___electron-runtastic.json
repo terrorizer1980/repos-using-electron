@@ -79,13 +79,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/maikpaulus/electron-runtastic",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maikpaulus/electron-runtastic.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Maik Paulus <mail@maikpaulus.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -116,5 +120,6 @@
   },
   "filename": "maikpaulus___electron-runtastic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:43.692Z"
+  "lastFetchedAt": "2017-05-04T13:05:43.692Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:44.366Z"
 }

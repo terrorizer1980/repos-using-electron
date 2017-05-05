@@ -80,8 +80,15 @@
       "start": "electron main.js",
       "build": "electron-packager . teste"
     },
-    "repository": "https://github.com/YuriBrunetto/proportions",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/YuriBrunetto/proportions.git"
+    },
+    "author": "Yuri Brunetto",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/YuriBrunetto/proportions/issues"
+    },
     "homepage": "https://github.com/YuriBrunetto/proportions#readme",
     "devDependencies": {
       "browser-sync": "^2.12.3",
@@ -121,5 +128,6 @@
   },
   "filename": "YuriBrunetto___proportions.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:37.225Z"
+  "lastFetchedAt": "2017-05-04T17:43:37.225Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:49.219Z"
 }

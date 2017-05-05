@@ -93,11 +93,18 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/laundree/laundree-till",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/laundree/laundree-till.git"
+    },
     "keywords": [
       "Laundree"
     ],
+    "author": "Christian Budde Christensen <budde377@gmail.com>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/laundree/laundree-till/issues"
+    },
     "homepage": "https://github.com/laundree/laundree-till#readme",
     "devDependencies": {
       "eslint": "^3.3.1",
@@ -154,5 +161,6 @@
   },
   "filename": "laundree___till.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:31:25.182Z"
+  "lastFetchedAt": "2017-05-04T15:31:25.182Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:15.904Z"
 }

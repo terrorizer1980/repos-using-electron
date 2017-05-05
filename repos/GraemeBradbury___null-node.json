@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/graemebradbury/null-node",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/graemebradbury/null-node.git"
+    },
+    "author": {
+      "name": "Graeme Bradbury",
+      "email": "graeme@siliconshark.com",
+      "url": "https://github.com/graemebradbury"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/GraemeBradbury/null-node/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -199,5 +210,6 @@
   },
   "filename": "GraemeBradbury___null-node.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:29:16.793Z"
+  "lastFetchedAt": "2017-05-04T05:29:16.793Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:34.051Z"
 }

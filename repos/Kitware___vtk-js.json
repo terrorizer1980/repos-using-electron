@@ -89,22 +89,31 @@
     "name": "vtk.js",
     "version": "0.0.0-semantically-release",
     "description": "Visualization Toolkit for the Web",
-    "repository": "https://github.com/kitware/vtk-js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kitware/vtk-js.git"
+    },
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/kitware/vtk-js/issues"
+    },
     "homepage": "https://github.com/kitware/vtk-js#readme",
-    "main": "./Sources/index.js",
+    "main": "./dist/vtk.js",
     "dependencies": {
+      "base64-js": "1.2.0",
       "commander": "2.9.0",
       "shelljs": "0.7.4",
       "gh-pages": "0.10.0",
       "pako": "1.0.1",
       "jszip": "3.1.3",
       "blueimp-md5": "2.3.0",
+      "seedrandom": "2.4.2",
       "gl-matrix": "2.3.1"
     },
     "devDependencies": {
       "kw-web-suite": "2.2.1",
-      "kw-doc": "1.0.18",
+      "kw-doc": "1.0.19",
+      "xml2js": "0.4.17",
       "babel-plugin-istanbul": "2.0.0",
       "babel-polyfill": "6.13.0",
       "normalize.css": "5.0.0",
@@ -127,14 +136,13 @@
       "doc": "kw-doc -c ./Documentation/config.js",
       "doc:www": "npm t -- --single-run && kw-doc -c ./Documentation/config.js -s",
       "doc:publish": "kw-doc -c ./Documentation/config.js -mp",
-      "example:EmptyRenderer": "webpack-dev-server --progress --open --config ./Examples/WebGL/EmptyRenderer/webpack.config.js",
-      "example:Cone": "webpack-dev-server --progress --open --config ./Examples/WebGL/Cone/webpack.config.js",
-      "example:Texture": "webpack-dev-server --progress --open --config ./Examples/WebGL/Texture/webpack.config.js",
+      "example": "node ./Utilities/ExampleRunner/example-runner-cli.js -c ./Documentation/config.js",
       "build": "webpack --progress --colors",
       "build:debug": "webpack --progress --colors --display-modules",
       "build:release": "export NODE_ENV=production && npm run build -- -p",
       "test": "karma start ./karma.conf.js",
       "test:travis": "karma start ./karma.conf.js --browsers Electron --single-run",
+      "test:debug": "karma start ./karma.conf.js --no-single-run",
       "commit": "git cz",
       "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
@@ -144,7 +152,8 @@
       }
     },
     "bin": {
-      "vtkDataConverter": "./Utilities/DataGenerator/convert-cli.js"
+      "vtkDataConverter": "./Utilities/DataGenerator/convert-cli.js",
+      "xml2json": "./Utilities/XMLConverter/xml2json-cli.js"
     },
     "nyc": {
       "include": [
@@ -180,5 +189,6 @@
   },
   "filename": "Kitware___vtk-js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:22.602Z"
+  "lastFetchedAt": "2017-05-04T05:14:22.602Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:57.927Z"
 }

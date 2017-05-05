@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Small description for fatty-bird goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -180,5 +185,6 @@
   "svnUrl": "https://github.com/SleepyWerewolf/fatty-bird",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:08:49.702Z"
+  "lastFetchedAt": "2017-05-04T21:08:49.702Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:37.654Z"
 }

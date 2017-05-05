@@ -80,6 +80,7 @@
       "start": "electron .",
       "package": "electron-packager ./ --all --out ./pack --version 1.2.1 --overwrite --icon=./assets/images/icon/folder-remover-icon.png"
     },
+    "author": "Arcangelo Vicedomini",
     "license": "MIT",
     "dependencies": {
       "bower": "1.7.9",
@@ -113,5 +114,6 @@
   },
   "filename": "ITGuy9401___folderRemover.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:40.710Z"
+  "lastFetchedAt": "2017-05-04T17:33:40.710Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:28.480Z"
 }

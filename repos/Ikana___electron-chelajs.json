@@ -53,12 +53,19 @@
     "scripts": {
       "start": "electron ./app.js"
     },
-    "repository": "https://github.com/Ikana/electron-chelajs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ikana/electron-chelajs.git"
+    },
     "keywords": [
       "electron",
       "chelajs"
     ],
+    "author": "roderik",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Ikana/electron-chelajs/issues"
+    },
     "homepage": "https://github.com/Ikana/electron-chelajs#readme",
     "dependencies": {
       "electron-packager": "^5.2.0",
@@ -111,5 +118,6 @@
   "svnUrl": "https://github.com/Ikana/electron-chelajs",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:54:43.874Z"
+  "lastFetchedAt": "2017-05-04T14:54:43.874Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:05.017Z"
 }

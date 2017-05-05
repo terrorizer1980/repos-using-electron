@@ -81,6 +81,7 @@
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
       "electron": "electron app"
     },
+    "author": "Israel Gilyadov",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -91,7 +92,10 @@
       "webpack": "^1.12.9",
       "webpack-dev-server": "^1.14.0"
     },
-    "repository": "https://github.com/israelg99/ImageCalculator",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/israelg99/ImageCalculator.git"
+    },
     "dependencies": {
       "@angular/common": "2.0.0-rc.1",
       "@angular/compiler": "2.0.0-rc.1",
@@ -132,5 +136,6 @@
   },
   "filename": "israelg99___ImageCalculator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:29.062Z"
+  "lastFetchedAt": "2017-05-04T04:57:29.062Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:57.298Z"
 }

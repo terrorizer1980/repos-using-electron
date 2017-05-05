@@ -61,17 +61,8 @@
       "build": "electron-packager . Test --platform=darwin --arch=x64 --version=0.35.4 --overwrite"
     },
     "repository": {
-      "user": "atom",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/atom/electron-quick-start",
-      "https_url": "https://github.com/atom/electron-quick-start",
-      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
-      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -79,7 +70,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -134,5 +129,6 @@
   "svnUrl": "https://github.com/younes200/electron-asar-test",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:09:58.146Z"
+  "lastFetchedAt": "2017-05-04T05:09:58.146Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:23.886Z"
 }

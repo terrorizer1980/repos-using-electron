@@ -68,12 +68,19 @@
       "test": "mocha --reporter spec",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/gmfcProjs/Electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gmfcProjs/Electron-boilerplate.git"
+    },
     "keywords": [
       "boilerplate",
       "electron"
     ],
+    "author": "gmfc",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/gmfcProjs/Electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/gmfcProjs/Electron-boilerplate#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.9",
@@ -125,5 +132,6 @@
   },
   "filename": "gmfcProjs___Electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:54.283Z"
+  "lastFetchedAt": "2017-05-04T20:03:54.283Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:19.227Z"
 }

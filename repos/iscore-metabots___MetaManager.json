@@ -68,6 +68,7 @@
       "start": "electron app/main.js",
       "package": "electron-packager ./ MetaManager --platform=all --arch=x64 --out ./dist/MetaManager --overwrite"
     },
+    "author": "Pravez",
     "devDependencies": {
       "devtron": "^1.2.0",
       "electron": "latest",
@@ -131,5 +132,6 @@
   "svnUrl": "https://github.com/iscore-metabots/MetaManager",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:59:24.970Z"
+  "lastFetchedAt": "2017-05-04T20:59:24.970Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:40.877Z"
 }

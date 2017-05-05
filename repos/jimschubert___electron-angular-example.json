@@ -58,7 +58,14 @@
     "description": "An example electron app using Angular2",
     "license": "MIT",
     "main": "index.js",
-    "repository": "https://github.com/jimschubert/electron-angular-example",
+    "repository": {
+      "url": "jimschubert/electron-angular-example"
+    },
+    "author": {
+      "name": "Jim Schubert",
+      "email": "james.schubert@gmail.com",
+      "url": "ipreferjim.com"
+    },
     "engines": {
       "node": ">=0.10.0",
       "npm": "~2.14.7 <3.0.0"
@@ -158,5 +165,6 @@
   },
   "filename": "jimschubert___electron-angular-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:36.380Z"
+  "lastFetchedAt": "2017-05-04T17:54:36.380Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:49.821Z"
 }

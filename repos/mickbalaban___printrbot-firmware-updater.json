@@ -74,6 +74,7 @@
       "start": "electron .",
       "build": "electron-packager . pbFU --platform=darwin --arch=x64 --version=0.36.0 --asar=false --prune=true"
     },
+    "author": "mick",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -110,5 +111,6 @@
   },
   "filename": "mickbalaban___printrbot-firmware-updater.json",
   "hasProjects": false,
-  "lastFetchedAt": "2017-05-04T05:35:49.801Z"
+  "lastFetchedAt": "2017-05-04T05:35:49.801Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:57.683Z"
 }

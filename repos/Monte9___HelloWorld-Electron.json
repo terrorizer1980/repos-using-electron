@@ -71,6 +71,11 @@
     "description": "Hello World app using Electron",
     "main": "index.js",
     "repository": "https://github.com/Monte9/HelloWorld-Electron",
+    "author": {
+      "name": "Monte Thakkar",
+      "email": "mthakkar@mail.sfsu.edu",
+      "url": "http://montethakkar.com/"
+    },
     "license": "MIT",
     "scripts": {
       "start": "electron main.js"
@@ -125,5 +130,6 @@
   },
   "filename": "Monte9___HelloWorld-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:11.297Z"
+  "lastFetchedAt": "2017-05-04T21:06:11.297Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:56.057Z"
 }

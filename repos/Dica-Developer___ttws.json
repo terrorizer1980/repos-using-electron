@@ -87,16 +87,19 @@
   "status": 200,
   "packageJSON": {
     "name": "ttws",
-    "version": "1.0.0",
+    "version": "1.0.3",
     "description": "Tom Tom Watch Synchronizer",
     "main": "main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node_modules/.bin/electron .",
-      "build": "node_modules/.bin/electron-packager . ttws --platform linux --arch x64 --out dist/ --ignore \"(^app|^dist|^node_modules/electron.*)\"",
+      "build": "node_modules/.bin/electron-packager . ttws --platform linux --arch x64 --out dist/ --ignore \"(\\.gitignore|^app|^dist|^node_modules/electron.*)\" && chmod -R a+r dist/ttws-linux-x64 && find dist/ttws-linux-x64/resources/app -type d | xargs chmod a+x",
       "deb64": "node_modules/.bin/electron-installer-debian --src dist/ttws-linux-x64/ --dest dist/installers/ --arch amd64"
     },
-    "repository": "https://github.com/Dica-Developer/ttws",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Dica-Developer/ttws.git"
+    },
     "keywords": [
       "gps",
       "sport",
@@ -104,7 +107,11 @@
       "tomtom",
       "strava"
     ],
+    "author": "mschaaf",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Dica-Developer/ttws/issues"
+    },
     "homepage": "https://github.com/Dica-Developer/ttws",
     "dependencies": {
       "blaze": "^3.0.0",
@@ -145,5 +152,6 @@
   },
   "filename": "Dica-Developer___ttws.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:26.842Z"
+  "lastFetchedAt": "2017-05-04T19:39:26.842Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:33.335Z"
 }

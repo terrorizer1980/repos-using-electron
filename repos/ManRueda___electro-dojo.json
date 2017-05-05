@@ -92,17 +92,8 @@
       "remotedev": "remotedev --hostname=localhost --port=6868"
     },
     "repository": {
-      "user": "manrueda",
-      "repo": "electro-dojo",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/manrueda/electro-dojo/tarball/master",
-      "clone_url": "https://github.com/manrueda/electro-dojo",
-      "https_url": "https://github.com/manrueda/electro-dojo",
-      "travis_url": "https://travis-ci.org/manrueda/electro-dojo",
-      "zip_url": "https://github.com/manrueda/electro-dojo/archive/master.zip",
-      "api_url": "https://api.github.com/repos/manrueda/electro-dojo"
+      "type": "git",
+      "url": "git+https://github.com/manrueda/electro-dojo.git"
     },
     "keywords": [
       "dojo",
@@ -111,8 +102,12 @@
       "electron",
       "node"
     ],
+    "author": "Manuel Rueda <manuel.rueda.un@gmail.com>",
     "private": true,
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/manrueda/electro-dojo/issues"
+    },
     "homepage": "https://github.com/manrueda/electro-dojo#readme",
     "postinstall": "install-app-deps",
     "devDependencies": {
@@ -162,5 +157,6 @@
   "filename": "ManRueda___electro-dojo.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:15.622Z"
+  "lastFetchedAt": "2017-05-04T21:22:15.622Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:37.270Z"
 }

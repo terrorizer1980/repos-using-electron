@@ -60,12 +60,19 @@
       "electron": "^1.4.3",
       "minimist": "^1.2.0"
     },
-    "repository": "https://github.com/ysugimoto/resumify",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ysugimoto/resumify.git"
+    },
     "keywords": [
       "electron",
       "talkie"
     ],
+    "author": "Yoshiaki Sugimoto",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ysugimoto/resumify/issues"
+    },
     "homepage": "https://github.com/ysugimoto/resumify#readme"
   },
   "packageStatus": 200,
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/ysugimoto/resumify",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:52:38.276Z"
+  "lastFetchedAt": "2017-05-04T19:52:38.276Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:35.406Z"
 }

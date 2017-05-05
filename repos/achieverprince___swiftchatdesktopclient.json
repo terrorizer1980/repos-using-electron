@@ -58,6 +58,11 @@
     "description": "My epic app",
     "license": "MIT",
     "repository": "achieverprince/swiftchat",
+    "author": {
+      "name": "Jeba Prince",
+      "email": "jebaprince@swiftant.com",
+      "url": "swiftchat.swiftant.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -135,5 +140,6 @@
   "svnUrl": "https://github.com/achieverprince/swiftchatdesktopclient",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:44:09.781Z"
+  "lastFetchedAt": "2017-05-04T17:44:09.781Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:03.051Z"
 }

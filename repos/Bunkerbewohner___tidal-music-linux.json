@@ -52,24 +52,31 @@
   "subscribersCount": 4,
   "status": 200,
   "packageJSON": {
-    "name": "electron-quick-start",
+    "name": "Tidal Music - Linux",
     "version": "1.0.0",
-    "description": "A minimal Electron application",
+    "description": "An electron wrapped client for Tidal",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
-      "electron-prebuilt": "^0.35.0"
+      "electron": "^1.0"
     }
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/Bunkerbewohner/tidal-music-linux",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:07:22.514Z"
+  "lastFetchedAt": "2017-05-04T18:07:22.514Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:50.734Z"
 }

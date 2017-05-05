@@ -78,6 +78,7 @@
       "postinstall": "install-app-deps",
       "start": "electron app"
     },
+    "author": "TheFakeGM",
     "license": "ISC",
     "build": {
       "appId": "com.electron.gifdb",
@@ -85,6 +86,9 @@
         "maintainer": "thefakestgm@gmail.com",
         "author": "TheFakeGM"
       }
+    },
+    "directories": {
+      "app": "app"
     },
     "dependencies": {
       "bluebird": "^3.4.1",
@@ -139,5 +143,6 @@
   },
   "filename": "thefakegm___GifDB.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:50.705Z"
+  "lastFetchedAt": "2017-05-04T17:56:50.705Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:48.196Z"
 }

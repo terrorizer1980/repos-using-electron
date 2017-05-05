@@ -82,14 +82,21 @@
       "test": "karma start",
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "@angular/common": "2.0.0",
@@ -161,5 +168,6 @@
   },
   "filename": "FanYeeChok___electron_angular2_quick_start.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:41.389Z"
+  "lastFetchedAt": "2017-05-04T14:54:41.389Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:52.391Z"
 }

@@ -79,11 +79,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/pierrerispal/personnalAssistant",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pierrerispal/personnalAssistant.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "Pierre Rispal",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/pierrerispal/personnalAssistant.git/issues"
+    },
     "homepage": "https://github.com/pierrerispal/personnalAssistant.git#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -114,5 +121,6 @@
   },
   "filename": "pierrerispal___ComputerControl.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:20.726Z"
+  "lastFetchedAt": "2017-05-04T20:11:20.726Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:48.211Z"
 }

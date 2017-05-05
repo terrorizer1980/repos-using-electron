@@ -76,7 +76,17 @@
       "release": "node ./tasks/release"
     },
     "license": "MIT",
-    "repository": "https://github.com/agaviria/electron-vue",
+    "author": {
+      "name": "Alejandro R. Gaviria",
+      "email": "mr.gaviria@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/agaviria/electron-vue.git"
+    },
+    "bugs": {
+      "url": "https://github.com/agaviria/electron-vue/issues"
+    },
     "keywords": [
       "vue",
       "electron",
@@ -135,5 +145,6 @@
   },
   "filename": "agaviria___electron-vue.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:21.655Z"
+  "lastFetchedAt": "2017-05-04T17:56:21.655Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:28.907Z"
 }

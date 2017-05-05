@@ -73,15 +73,22 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "pct",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.3"
     },
-    "repository": "https://github.com/pct/feedly",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pct/feedly.git"
+    },
     "keywords": [
       "feedly",
       "electron"
     ],
+    "bugs": {
+      "url": "https://github.com/pct/feedly/issues"
+    },
     "homepage": "https://github.com/pct/feedly#readme"
   },
   "packageStatus": 200,
@@ -109,5 +116,6 @@
   },
   "filename": "pct___feedly.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:40:44.773Z"
+  "lastFetchedAt": "2017-05-04T17:40:44.773Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:25.801Z"
 }

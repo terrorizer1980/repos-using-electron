@@ -73,12 +73,19 @@
     "scripts": {
       "test": "ELECTRON_PATH=./node_modules/.bin/electron ./node_modules/.bin/electron-mocha --renderer --recursive --bail --ui bdd ./test/"
     },
-    "repository": "https://github.com/matchboxjs/matchbox-dom",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/matchboxjs/matchbox-dom.git"
+    },
     "keywords": [
       "matchbox",
       "dom"
     ],
+    "author": "tunderdomb",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/matchboxjs/matchbox-dom/issues"
+    },
     "homepage": "https://github.com/matchboxjs/matchbox-dom#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -136,5 +143,6 @@
   },
   "filename": "matchboxjs___matchbox-dom.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:09.305Z"
+  "lastFetchedAt": "2017-05-04T18:17:09.305Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:06.679Z"
 }

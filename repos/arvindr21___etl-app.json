@@ -78,6 +78,11 @@
     "description": "My ETL app",
     "license": "MIT",
     "repository": "arvindr21/etl-app",
+    "author": {
+      "name": "Arvind Ravulavaru",
+      "email": "arvind.ravulavaru@gmail.com",
+      "url": "thejackalofjavascript.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -134,5 +139,6 @@
   },
   "filename": "arvindr21___etl-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:49.691Z"
+  "lastFetchedAt": "2017-05-04T18:18:49.691Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:54.949Z"
 }

@@ -67,33 +67,21 @@
       "rootDir": "src",
       "scriptPreprocessor": "<rootDir>/../node_modules/babel-jest/index.js"
     },
-    "repository": "https://github.com/wincent/corpus",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wincent/corpus.git"
+    },
+    "author": "Greg Hurrell",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wincent/corpus/issues"
+    },
     "homepage": "https://github.com/wincent/corpus",
     "dependencies": {
       "autobind-decorator": "*",
-      "babel-core": "*",
-      "babel-eslint": "*",
-      "babel-jest": "*",
-      "babel-plugin-transform-decorators-legacy": "*",
-      "babel-plugin-transform-react-constant-elements": "*",
-      "babel-plugin-transform-react-inline-elements": "*",
-      "babel-polyfill": "6.5.0",
-      "babel-preset-es2015": "*",
-      "babel-preset-react": "*",
-      "babel-preset-stage-0": "*",
       "bluebird": "*",
-      "eslint": "*",
-      "eslint-plugin-react": "*",
       "flux": "*",
-      "gulp": "*",
-      "gulp-babel": "*",
-      "gulp-eslint": "*",
-      "gulp-flowtype": "*",
-      "gulp-minify-html": "*",
-      "gulp-util": "*",
       "immutable": "*",
-      "jest-cli": "*",
       "mkdirp": "*",
       "react": "*",
       "react-dom": "*",
@@ -105,7 +93,28 @@
       "unpack-content": "*"
     },
     "devDependencies": {
-      "electron-prebuilt": "1.2.3"
+      "asar": "^0.13.0",
+      "babel-core": "*",
+      "babel-eslint": "*",
+      "babel-jest": "*",
+      "babel-plugin-transform-decorators-legacy": "*",
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+      "babel-plugin-transform-react-constant-elements": "*",
+      "babel-plugin-transform-react-inline-elements": "*",
+      "babel-preset-es2016": "^6.22.0",
+      "babel-preset-es2017": "^6.22.0",
+      "babel-preset-react": "*",
+      "babel-preset-stage-0": "*",
+      "electron": "^1.4.15",
+      "eslint": "*",
+      "eslint-plugin-react": "*",
+      "gulp": "*",
+      "gulp-babel": "*",
+      "gulp-eslint": "*",
+      "gulp-flowtype": "*",
+      "gulp-minify-html": "*",
+      "gulp-util": "*",
+      "jest-cli": "*"
     }
   },
   "packageStatus": 200,
@@ -153,5 +162,6 @@
   },
   "filename": "wincent___corpus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:07:59.354Z"
+  "lastFetchedAt": "2017-05-03T20:07:59.354Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:06.139Z"
 }

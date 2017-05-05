@@ -56,7 +56,10 @@
     "version": "0.2.0b",
     "description": "Quik is a free and open source chat application",
     "license": "Apache-2.0",
-    "repository": "https://github.com/matt-allen44/quik",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/matt-allen44/quik.git"
+    },
     "dependencies": {
       "config-js": "1.1.9",
       "express": "4.10.2",
@@ -125,5 +128,6 @@
   },
   "filename": "Matt-Allen44___Quik.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:10:58.256Z"
+  "lastFetchedAt": "2017-05-04T18:10:58.256Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:04.132Z"
 }

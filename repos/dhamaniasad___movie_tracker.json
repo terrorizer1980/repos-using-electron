@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/dhamaniasad/movie_tracker",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dhamaniasad/movie_tracker.git"
+    },
+    "author": "Asad Dhamani",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dhamaniasad/movie_tracker/issues"
+    },
     "homepage": "https://github.com/dhamaniasad/movie_tracker",
     "devDependencies": {
       "electron-prebuilt": "^0.32.0"
@@ -114,5 +121,6 @@
   },
   "filename": "dhamaniasad___movie_tracker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:21.530Z"
+  "lastFetchedAt": "2017-05-04T15:21:21.530Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:52.246Z"
 }

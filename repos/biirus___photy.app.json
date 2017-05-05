@@ -70,7 +70,11 @@
     "description": "Free photo stock grabber",
     "version": "0.0.1",
     "main": "./src/main.js",
-    "repository": "https://github.com/biirus/photy.app",
+    "author": "Ivan Burnaev",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/biirus/photy.app"
+    },
     "scripts": {
       "dev": "./node_modules/.bin/gulp default",
       "start": "electron ./",
@@ -134,5 +138,6 @@
   },
   "filename": "biirus___photy.app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:28:28.279Z"
+  "lastFetchedAt": "2017-05-04T20:28:28.279Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:09.630Z"
 }

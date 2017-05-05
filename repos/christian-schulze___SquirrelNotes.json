@@ -77,7 +77,14 @@
     "description": "Where squirrels store their nuts...aah notes.",
     "private": true,
     "license": "MIT",
-    "repository": "https://github.com/christian-schulze/SquirrelNotes",
+    "author": {
+      "name": "Christian Schulze",
+      "email": "christian.schulze@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/christian-schulze/SquirrelNotes.git"
+    },
     "main": "main.js",
     "dependencies": {
       "alloyeditor": "^0.5.1",
@@ -171,5 +178,6 @@
   },
   "filename": "christian-schulze___SquirrelNotes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:36.467Z"
+  "lastFetchedAt": "2017-05-04T14:24:36.467Z",
+  "packageLastFetchedAt": "2017-05-05T08:36:15.375Z"
 }

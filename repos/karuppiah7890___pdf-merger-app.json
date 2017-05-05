@@ -54,8 +54,12 @@
       "start": "electron .",
       "test": ""
     },
+    "author": "Karuppiah <karuppiah7890@gmail.com> (https://www.github.com/karuppiah7890)",
     "license": "Apache-2.0",
-    "repository": "https://github.com/karuppiah7890/pdf-merger-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/karuppiah7890/pdf-merger-app.git"
+    },
     "keywords": [
       "pdf",
       "merge",
@@ -63,6 +67,9 @@
       "desktop-app",
       "app"
     ],
+    "bugs": {
+      "url": "https://github.com/karuppiah7890/pdf-merger-app/issues"
+    },
     "homepage": "https://github.com/karuppiah7890/pdf-merger-app#readme",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -117,5 +124,6 @@
   },
   "filename": "karuppiah7890___pdf-merger-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:14:16.072Z"
+  "lastFetchedAt": "2017-05-04T18:14:16.072Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:47.526Z"
 }

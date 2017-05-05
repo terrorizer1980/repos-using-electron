@@ -87,5 +87,21 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:24:49.402Z"
+  "lastFetchedAt": "2017-05-04T21:24:49.402Z",
+  "packageJSON": {
+    "name": "Webpad",
+    "version": "1.0.0",
+    "description": "A minimal Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/SmartSoftworks/webpad-desktop",
+    "author": "Jesse Palmer",
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:29:00.343Z"
 }

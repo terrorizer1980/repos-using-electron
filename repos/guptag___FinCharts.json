@@ -74,6 +74,7 @@
   "packageJSON": {
     "name": "FinCharts",
     "version": "0.0.5",
+    "author": "Gupta Garuda",
     "description": "Electron.js application for stock charts",
     "devDependencies": {
       "browserify": "^13.1.0",
@@ -101,7 +102,10 @@
       "reactify": "^0.14.0",
       "vinyl-source-stream": "^0.1.1"
     },
-    "repository": "https://github.com/guptag/FinCharts",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/guptag/FinCharts.git"
+    },
     "keywords": [
       "nodewebkit",
       "charts",
@@ -110,6 +114,9 @@
       "d3"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/guptag/FinCharts/issues"
+    },
     "homepage": "https://github.com/guptag/FinCharts"
   },
   "packageStatus": 200,
@@ -137,5 +144,6 @@
   },
   "filename": "guptag___FinCharts.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:43.007Z"
+  "lastFetchedAt": "2017-05-04T16:46:43.007Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:29.546Z"
 }

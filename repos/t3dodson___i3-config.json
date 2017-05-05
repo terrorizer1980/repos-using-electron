@@ -54,10 +54,14 @@
       "start": "electron src/main.js",
       "test": "./node_modules/mocha/bin/mocha test/**/*.js"
     },
-    "repository": "https://github.com/t3dodson/i3-config",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/t3dodson/i3-config.git"
+    },
     "keywords": [
       "i3"
     ],
+    "author": "Tom Dodson",
     "contributors": [
       {
         "name": "Tom Dodson"
@@ -70,6 +74,9 @@
       }
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/t3dodson/i3-config/issues"
+    },
     "homepage": "https://github.com/t3dodson/i3-config#readme",
     "devDependencies": {
       "backbone": "^1.2.3",
@@ -126,5 +133,6 @@
   },
   "filename": "t3dodson___i3-config.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:48.449Z"
+  "lastFetchedAt": "2017-05-04T05:20:48.449Z",
+  "packageLastFetchedAt": "2017-05-04T22:02:28.187Z"
 }

@@ -79,7 +79,13 @@
       "start": "electron .",
       "build": "electron-packager . %npm_package_name% --overwrite --prune --asar --out=bin --platform=win32 --arch=ia32 --icon=src/icon.ico --version=%npm_package_electronVersion% --app-version=%npm_package_version --ignore=node_modules/.bin"
     },
-    "repository": "https://github.com/tylergoodman/MGSV-shuffle",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tylergoodman/MGSV-shuffle.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tylergoodman/MGSV-shuffle/issues"
+    },
     "homepage": "https://github.com/tylergoodman/MGSV-shuffle",
     "devDependencies": {
       "electron-packager": "^5.1.0",
@@ -115,5 +121,6 @@
   },
   "filename": "tylergoodman___MGSV-shuffle.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:28:33.324Z"
+  "lastFetchedAt": "2017-05-04T19:28:33.324Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:48.416Z"
 }

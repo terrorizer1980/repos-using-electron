@@ -95,14 +95,18 @@
       "pack": "electron-packager ./ free-share --platform=all --arch=all --icon ./app/icon.ico --out ../free-share-dist --overwrite && cd ../free-share-dist && for file in ./*; do if test -d $file; then zip --symlinks -r $file-v0.1.3.zip $file; fi; done",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/psychokinesis-dev/free-share",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/psychokinesis-dev/free-share.git"
+    },
     "keywords": [
       "p2p"
     ],
+    "author": "covertness",
     "license": "MIT",
     "devDependencies": {
-      "electron-packager": "^7.0.3",
-      "electron-prebuilt": "^1.2.1"
+      "electron": "^1.4.8",
+      "electron-packager": "^8.3.0"
     },
     "dependencies": {
       "lodash": "^4.11.1",
@@ -140,5 +144,6 @@
   },
   "filename": "psychokinesis-dev___free-share.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:56.826Z"
+  "lastFetchedAt": "2017-05-04T20:05:56.826Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:12.316Z"
 }

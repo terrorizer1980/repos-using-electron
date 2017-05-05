@@ -89,14 +89,21 @@
         "react"
       ]
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "react": "^15.1.0",
@@ -164,5 +171,6 @@
   },
   "filename": "ulisinn___electron_typescript.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:28:47.845Z"
+  "lastFetchedAt": "2017-05-04T14:28:47.845Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:33.515Z"
 }

@@ -184,6 +184,7 @@
     "version": "1.0.2",
     "description": "Mattermost frontend app powered by electron",
     "homepage": "https://github.com/lloeki/matterfront",
+    "author": "Brian Vanderbusch <brian@hackerhappyhour.com> (https://github.com/H3Chief)",
     "contributors": [
       "Loic Nageleisen <loic.nageleisen@gmail.com> (http://raptu.re)"
     ],
@@ -193,23 +194,17 @@
     },
     "electronVersion": "0.34.2",
     "repository": {
-      "user": "lloeki",
-      "repo": "matterfront",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/lloeki/matterfront/tarball/master",
-      "clone_url": "https://github.com/lloeki/matterfront",
-      "https_url": "https://github.com/lloeki/matterfront",
-      "travis_url": "https://travis-ci.org/lloeki/matterfront",
-      "zip_url": "https://github.com/lloeki/matterfront/archive/master.zip",
-      "api_url": "https://api.github.com/repos/lloeki/matterfront"
+      "type": "git",
+      "url": "https://github.com/lloeki/matterfront"
     },
     "keywords": [
       "Mattermost",
       "electron"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lloeki/matterfront/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.34.2"
     },
@@ -263,5 +258,6 @@
   "svnUrl": "https://github.com/Lab21k/matterfront",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:43:33.297Z"
+  "lastFetchedAt": "2017-05-04T17:43:33.297Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:10.026Z"
 }

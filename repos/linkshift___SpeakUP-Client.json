@@ -79,8 +79,15 @@
       "videoconference",
       "call"
     ],
-    "repository": "https://github.com/linkshift/SpeakUP-Client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/linkshift/SpeakUP-Client.git"
+    },
+    "author": "LinkSoft",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/linkshift/SpeakUP-Client/issues"
+    },
     "homepage": "https://ptdev.pw/",
     "dependencies": {
       "electron-settings": "^1.0.0"
@@ -116,5 +123,6 @@
   },
   "filename": "linkshift___SpeakUP-Client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:27:30.378Z"
+  "lastFetchedAt": "2017-05-04T15:27:30.378Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:09.341Z"
 }

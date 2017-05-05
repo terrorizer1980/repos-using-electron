@@ -87,8 +87,21 @@
       "iosEmulator": "npm run dumpdev -- --config webpack.config.ios.js  && cordova run ios",
       "ios": "npm run dumpdev -- --config webpack.config.ios.js  && cordova run ios --device"
     },
-    "repository": "https://github.com/Greg0/JourneyPlanner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Greg0/JourneyPlanner.git"
+    },
+    "author": [
+      {
+        "name": "Grzegorz Kuźnik",
+        "email": "gerg0sz92@gmail.com"
+      },
+      "shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)"
+    ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Greg0/JourneyPlanner/issues"
+    },
     "homepage": "https://github.com/Greg0/JourneyPlanner#readme",
     "devDependencies": {
       "autoprefixer-loader": "^3.1.0",
@@ -152,5 +165,6 @@
   },
   "filename": "Greg0___JourneyPlanner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:34.024Z"
+  "lastFetchedAt": "2017-05-04T21:24:34.024Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:18.840Z"
 }

@@ -55,13 +55,20 @@
       "start": "./node_modules/.bin/electron .",
       "package": "./node_modules/.bin/electron-packager . Served --all --version=0.36.4 --ignore=dist --out=dist"
     },
-    "repository": "https://github.com/enjalot/served",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/enjalot/served.git"
+    },
     "keywords": [
       "http",
       "http-server",
       "server"
     ],
+    "author": "Ian Johnson",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/enjalot/served/issues"
+    },
     "homepage": "https://github.com/enjalot/served#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -118,5 +125,6 @@
   },
   "filename": "enjalot___served.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:14.606Z"
+  "lastFetchedAt": "2017-05-04T21:28:14.606Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:33.161Z"
 }

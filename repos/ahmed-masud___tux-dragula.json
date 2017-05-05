@@ -101,7 +101,10 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ahmed-masud/tux-dragula",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ahmed-masud/tux-dragula.git"
+    },
     "keywords": [
       "webcomponents",
       "dragula",
@@ -110,7 +113,11 @@
       "drop",
       "polymer"
     ],
+    "author": "Ahmed Masud <ahmed.masud@trustifier.com> (https://trustifier.com/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ahmed-masud/tux-dragula/issues"
+    },
     "homepage": "https://github.com/ahmed-masud/tux-dragula#readme"
   },
   "packageStatus": 200,
@@ -138,5 +145,6 @@
   },
   "filename": "ahmed-masud___tux-dragula.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:25.131Z"
+  "lastFetchedAt": "2017-05-04T14:22:25.131Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:26.343Z"
 }

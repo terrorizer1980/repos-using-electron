@@ -78,6 +78,11 @@
     "description": "My geometric app",
     "license": "MIT",
     "repository": "legodude17/electron-test",
+    "author": {
+      "name": "legodude17",
+      "email": "legodudejb@gmail.com",
+      "url": "legodude17.github.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -134,5 +139,6 @@
   },
   "filename": "legodude17___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:38.956Z"
+  "lastFetchedAt": "2017-05-04T16:42:38.956Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:24.651Z"
 }

@@ -65,7 +65,11 @@
       "postversion": "git push --follow-tags",
       "watch": "nodemon --exec 'npm start' --ignore client/ --ignore public/"
     },
-    "repository": "https://github.com/hontas/tajmr",
+    "author": "Pontus Lundin <lundin.pontus@gmail.com> (https://github.com/hontas)",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hontas/tajmr.git"
+    },
     "license": "ISC",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -155,5 +159,6 @@
   },
   "filename": "hontas___tajmr.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:55:19.025Z"
+  "lastFetchedAt": "2017-05-04T20:55:19.025Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:33.816Z"
 }

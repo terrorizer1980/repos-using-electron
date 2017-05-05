@@ -98,7 +98,11 @@
       "start": "electron build/app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/TE-ToshiakiTanaka/iwaf",
+    "repository": {
+      "type": "git",
+      "url": "git@github:TE-ToshiakiTanaka/iwaf.git"
+    },
+    "author": "Toshiaki.Tanaka",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -126,5 +130,6 @@
   },
   "filename": "TE-ToshiakiTanaka___iwaf.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:53.312Z"
+  "lastFetchedAt": "2017-05-04T05:11:53.312Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:11.058Z"
 }

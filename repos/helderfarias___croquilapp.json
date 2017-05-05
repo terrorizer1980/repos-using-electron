@@ -60,14 +60,21 @@
       "seed-up": "knex seed:run --cwd ./api/migrations",
       "seed-make": "SEED_ARGS=-w knex seed:make $SEED_ARGS --cwd ./api/migrations"
     },
-    "repository": "https://github.com/helderfarias/cpex",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/helderfarias/cpex.git"
+    },
     "keywords": [
       "cpex",
       "react",
       "flux",
       "electron"
     ],
+    "author": "Helder Farias",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/helderfarias/cpex.git/issues"
+    },
     "devDependencies": {
       "babel": "^6.5.2",
       "babel-core": "^6.7.4",
@@ -141,5 +148,6 @@
   "svnUrl": "https://github.com/helderfarias/cpex",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:56:27.913Z"
+  "lastFetchedAt": "2017-05-04T14:56:27.913Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:34.703Z"
 }

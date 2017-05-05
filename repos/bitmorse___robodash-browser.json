@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for robodash-browser goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "start": "ember server",
       "test": "ember test",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "Sam Sulaimanov",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -182,5 +187,6 @@
   },
   "filename": "bitmorse___robodash-browser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:45.290Z"
+  "lastFetchedAt": "2017-05-04T20:49:45.290Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:56.703Z"
 }

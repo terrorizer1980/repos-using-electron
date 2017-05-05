@@ -76,6 +76,11 @@
     "version": "0.0.0",
     "description": "Web Client to access the Mega Cloud Infrastructure",
     "main": "index.js",
+    "directories": {
+      "src": "js",
+      "test": "test",
+      "doc": "doc"
+    },
     "scripts": {
       "test": "make test",
       "jscpd": "jscpd --verbose -g javascript,jsx -e **/vendor/** -p ./js --skip-comments -o jscpd-report.xml",
@@ -83,15 +88,23 @@
       "api-doc": "make api-doc"
     },
     "homepage": "https://mega.nz/",
-    "repository": "https://github.com/meganz/webclient",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:meganz/webclient.git"
+    },
+    "bugs": {
+      "url": "https://issues.developers.mega.co.nz/projects/webclient"
+    },
     "keywords": [
       "Mega",
       "storage",
       "chat",
       "encryption"
     ],
+    "author": "Mega Limited",
     "license": "proprietary",
     "private": true,
+    "readmeFilename": "README.md",
     "dependencies": {
       "babel-core": "^6.3.15",
       "babel-loader": "^6.2.0",
@@ -170,5 +183,6 @@
   },
   "filename": "scjuan___webclient.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:39.055Z"
+  "lastFetchedAt": "2017-05-04T05:01:39.055Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:12.516Z"
 }

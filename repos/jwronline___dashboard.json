@@ -89,13 +89,20 @@
       "build": "electron-packager _site --platform=linux,darwin --icon=_site/src/img/favicon.icns --arch=x64 --overwrite;electron-packager _site --platform=win32 --icon=_site/src/img/favicon.ico --arch=x64 --overwrite",
       "test": "xo"
     },
-    "repository": "https://github.com/jwronline/dashboard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jwronline/dashboard.git"
+    },
     "keywords": [
       "space shuttle",
       "jwr",
       "nasa",
       "dashboard"
     ],
+    "author": "Haroen Viaene",
+    "bugs": {
+      "url": "https://github.com/jwronline/dashboard/issues"
+    },
     "license": "CC-BY-SA-4.0",
     "homepage": "https://github.com/jwronline/dashboard#readme",
     "devDependencies": {
@@ -141,5 +148,6 @@
   },
   "filename": "jwronline___dashboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:59.290Z"
+  "lastFetchedAt": "2017-05-04T21:05:59.290Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:42.965Z"
 }

@@ -76,7 +76,11 @@
     "version": "0.0.0",
     "description": "Simple spritesheet composer",
     "main": "main.js",
-    "repository": "https://github.com/snada/sprit-r",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/snada/sprit-r.git"
+    },
+    "author": "snada",
     "license": "MIT",
     "homepage": "spritr.snada.it",
     "devDependencies": {
@@ -118,5 +122,6 @@
   },
   "filename": "snada___sprit-r.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:40.320Z"
+  "lastFetchedAt": "2017-05-04T17:47:40.320Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:11.807Z"
 }

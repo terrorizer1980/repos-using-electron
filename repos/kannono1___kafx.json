@@ -66,8 +66,8 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "kafx",
-    "version": "0.0.7",
+    "name": "Kafx",
+    "version": "0.0.11",
     "description": "kafx is filer.",
     "main": "main.js",
     "dependencies": {
@@ -84,8 +84,15 @@
       "start": "electron .",
       "test": "mocha"
     },
-    "repository": "https://github.com/kannono1/kafx",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kannono1/kafx.git"
+    },
+    "author": "kanno",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kannono1/kafx/issues"
+    },
     "homepage": "https://github.com/kannono1/kafx#readme"
   },
   "packageStatus": 200,
@@ -113,5 +120,6 @@
   },
   "filename": "kannono1___kafx.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:08.939Z"
+  "lastFetchedAt": "2017-05-04T18:20:08.939Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:40.341Z"
 }

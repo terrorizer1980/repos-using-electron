@@ -190,10 +190,17 @@
     "name": "webpack-bundle-analyzer-sunburst",
     "version": "1.2.0",
     "description": "Webpack plugin and CLI utility that represents bundle content either as an interactive zoomable treemap or a sunburst chart",
+    "author": "Paul Bouchon <paul@paulbouchon.net>",
     "license": "MIT",
     "homepage": "https://github.com/bitpshr/webpack-bundle-analyzer",
     "changelog": "https://github.com/bitpshr/webpack-bundle-analyzer/blob/master/CHANGELOG.md",
-    "repository": "https://github.com/bitpshr/webpack-bundle-analyzer",
+    "bugs": {
+      "url": "https://github.com/bitpshr/webpack-bundle-analyzer/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bitpshr/webpack-bundle-analyzer.git"
+    },
     "main": "lib/index.js",
     "bin": "lib/bin/analyzer.js",
     "engines": {
@@ -292,5 +299,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:44.439Z"
+  "lastFetchedAt": "2017-05-04T20:56:44.439Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:45.944Z"
 }

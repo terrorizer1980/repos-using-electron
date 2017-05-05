@@ -132,11 +132,26 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "mcmunder",
+      "email": "matthiasmunder@gmail.com",
+      "url": "https://github.com/mcmunder"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -258,5 +273,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:35:15.210Z"
+  "lastFetchedAt": "2017-05-04T20:35:15.210Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:01.451Z"
 }

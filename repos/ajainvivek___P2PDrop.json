@@ -70,6 +70,10 @@
     "version": "0.0.1",
     "description": "Small description for p2pdrop goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "^6.0.4",
@@ -180,5 +185,6 @@
   },
   "filename": "ajainvivek___P2PDrop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:47.158Z"
+  "lastFetchedAt": "2017-05-04T15:16:47.158Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:33.763Z"
 }

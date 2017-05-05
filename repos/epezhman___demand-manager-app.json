@@ -72,72 +72,82 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "i13dmdesktop",
-    "productName": "i13 Demand Manager",
-    "description": "i13 Demand Manager for Computers.",
-    "repository": "https://github.com/epezhman/demand-manager-app",
+    "name": "i13dm",
+    "productName": "i13DemandManager",
+    "description": "i13 Demand Manager for Laptops",
+    "author": {
+      "name": "TUM, Informatics 13",
+      "email": "p.nasirifard@tum.de",
+      "url": "http://i13dr.de/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/epezhman/demand-manager-app"
+    },
     "license": "MIT",
     "scripts": {
       "postinstall": "install-app-deps",
       "start": "electron ./app --remote-debugging-port=9222",
       "dev:win": "set NODE_ENV=development&& npm start",
       "dev:linux": "NODE_ENV=development npm start",
-      "reload": "live-reload app --port 35729",
-      "rebuild": "electron-rebuild && electron-rebuild -f -w @paulcbetts/system-idle-time"
+      "reload": "live-reload app --port 35729"
     },
     "devDependencies": {
-      "async": "2.1.2",
-      "aws-sdk": "2.6.9",
+      "async": "2.3.0",
+      "aws-sdk": "2.41.0",
       "del": "2.2.2",
-      "electron-builder": "7.14.1",
-      "electron-prebuilt": "1.4.3",
+      "electron-builder": "16.8.3",
+      "electron-prebuilt": "1.4.13",
+      "electron-publisher-s3": "16.8.3",
       "gulp": "3.9.1",
-      "gulp-if": "2.0.1",
+      "gulp-if": "2.0.2",
       "gulp-jscs": "4.0.0",
-      "gulp-jshint": "2.0.1",
-      "gulp-load-plugins": "1.3.0",
+      "gulp-jshint": "2.0.4",
+      "gulp-load-plugins": "1.5.0",
       "gulp-print": "2.0.1",
-      "gulp-sass": "2.3.2",
+      "gulp-sass": "3.1.0",
       "gulp-task-listing": "1.0.1",
-      "gulp-util": "3.0.7",
-      "jshint": "2.9.3",
+      "gulp-util": "3.0.8",
+      "jshint": "2.9.4",
       "jshint-stylish": "2.2.1",
       "live-reload": "1.1.0",
       "mkdirp": "0.5.1",
       "mv": "2.1.1",
-      "q": "1.4.1",
-      "rimraf": "2.5.4",
-      "yargs": "6.2.0"
+      "q": "1.5.0",
+      "rimraf": "2.6.1",
+      "yargs": "7.1.0"
     },
     "build": {
-      "appId": "de.tum.i13dmdesktop",
-      "app-category-type": "public.app-category.utilities",
-      "iconUrl": "https://s3.eu-central-1.amazonaws.com/demand-manager-resources/icons/icon.ico",
+      "appId": "de.tum.in.i13.i13dr",
+      "asarUnpack": [
+        "assets/power/*"
+      ],
       "files": [
         "**/*",
         "!assets/stylesheets/sass"
       ],
+      "win": {
+        "target": "nsis",
+        "icon": "app/assets/img/icon.ico",
+        "publish": {
+          "provider": "s3",
+          "bucket": "demand-manager-resources",
+          "storageClass": "REDUCED_REDUNDANCY",
+          "acl": "public-read",
+          "path": "updates/latest/win_${arch}"
+        }
+      },
+      "nsis": {
+        "deleteAppDataOnUninstall": true,
+        "menuCategory": true,
+        "perMachine": false
+      },
       "linux": {
-        "synopsis": "i13 Demand Manager",
+        "icon": "app/assets/img/",
+        "category": "Utility",
+        "description": "i13 Demand Manager for Laptops",
         "target": [
           "deb"
-        ]
-      },
-      "dmg": {
-        "title": "i13 Demand Manager",
-        "icon-size": 128,
-        "contents": [
-          {
-            "x": 355,
-            "y": 125,
-            "type": "link",
-            "path": "/Applications"
-          },
-          {
-            "x": 155,
-            "y": 125,
-            "type": "file"
-          }
         ]
       }
     }
@@ -167,5 +177,6 @@
   },
   "filename": "epezhman___demand-manager-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:55.339Z"
+  "lastFetchedAt": "2017-05-04T20:49:55.339Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:37.846Z"
 }

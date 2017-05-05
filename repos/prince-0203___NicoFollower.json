@@ -84,9 +84,16 @@
       "buildExecutable": "gulp cleanPackageDist && build --dir --win --x64",
       "buildInstaller": "gulp cleanPackageDist && build --win --x64"
     },
+    "author": "prince <mc.prince.0203@gmail.com> (https://github.com/prince-0203)",
     "license": "MIT",
     "homepage": "https://github.com/prince-0203/NicoFollower#readme",
-    "repository": "https://github.com/prince-0203/NicoFollower",
+    "repository": {
+      "url": "https://github.com/prince-0203/NicoFollower.git",
+      "type": "git"
+    },
+    "bugs": {
+      "url": "https://github.com/prince-0203/NicoFollower/issues"
+    },
     "devDependencies": {
       "babel-core": "^6.18.0",
       "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
@@ -135,5 +142,6 @@
   },
   "filename": "prince-0203___NicoFollower.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:31.749Z"
+  "lastFetchedAt": "2017-05-04T05:27:31.749Z",
+  "packageLastFetchedAt": "2017-05-04T22:03:10.201Z"
 }

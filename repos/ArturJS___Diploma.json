@@ -74,8 +74,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "node server.js"
     },
-    "repository": "https://github.com/ArturNizamutdinov/Diploma",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ArturNizamutdinov/Diploma.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ArturNizamutdinov/Diploma/issues"
+    },
     "homepage": "https://github.com/ArturNizamutdinov/Diploma#readme",
     "dependencies": {
       "body-parser": "~1.15.0",
@@ -125,5 +132,6 @@
   },
   "filename": "ArturJS___Diploma.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:30.505Z"
+  "lastFetchedAt": "2017-05-04T05:13:30.505Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:29.581Z"
 }

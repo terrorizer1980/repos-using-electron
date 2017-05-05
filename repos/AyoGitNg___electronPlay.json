@@ -80,18 +80,39 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/AyoGitNg/electronPlay",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AyoGitNg/electronPlay.git"
+    },
     "devDependencies": {
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^1.2.6",
       "electron-windows-store": "^0.3.0",
-      "electron-winstaller": "^2.2.0"
+      "electron-winstaller": "^2.2.0",
+      "bootstrap": "^3.3.7",
+      "browser-sync": "^2.13.0",
+      "font-awesome": "^4.6.3",
+      "gulp": "^3.9.1",
+      "gulp-clean-css": "^2.0.10",
+      "gulp-header": "^1.8.7",
+      "gulp-less": "^3.1.0",
+      "gulp-rename": "^1.2.2",
+      "gulp-uglify": "^1.5.4",
+      "jquery": "^1.11.3",
+      "magnific-popup": "^1.1.0",
+      "scrollreveal": "^3.1.4"
     },
     "dependencies": {
       "electron-json-storage": "^2.0.0",
-      "electron-shortcut-normalizer": "^1.0.0"
+      "electron-shortcut-normalizer": "^1.0.0",
+      "glob": "^6.0.4",
+      "highlight.js": "^9.3.0"
     },
+    "author": "Akingbule Ayodele",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AyoGitNg/electronPlay/issues"
+    },
     "homepage": "https://github.com/AyoGitNg/electronPlay#readme"
   },
   "packageStatus": 200,
@@ -119,5 +140,6 @@
   },
   "filename": "AyoGitNg___electronPlay.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:58.282Z"
+  "lastFetchedAt": "2017-05-04T21:19:58.282Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:28.322Z"
 }

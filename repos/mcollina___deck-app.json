@@ -193,6 +193,7 @@
       "setup-dock-icon.js"
     ],
     "preferGlobal": true,
+    "author": "David Mark Clements",
     "license": "MIT",
     "dependencies": {
       "@deck/base": "^1.0.3",
@@ -222,17 +223,11 @@
       "standard": "5.3.1"
     },
     "repository": {
-      "user": "nearform",
-      "repo": "deck-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/nearform/deck-app/tarball/master",
-      "clone_url": "https://github.com/nearform/deck-app",
-      "https_url": "https://github.com/nearform/deck-app",
-      "travis_url": "https://travis-ci.org/nearform/deck-app",
-      "zip_url": "https://github.com/nearform/deck-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/nearform/deck-app"
+      "type": "git",
+      "url": "git+ssh://git@github.com/nearform/deck-app.git"
+    },
+    "bugs": {
+      "url": "https://github.com/nearform/deck-app/issues"
     },
     "homepage": "https://github.com/nearform/deck-app#readme",
     "keywords": [
@@ -290,5 +285,6 @@
   "svnUrl": "https://github.com/mcollina/deck-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:04:25.726Z"
+  "lastFetchedAt": "2017-05-04T20:04:25.726Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:40.607Z"
 }

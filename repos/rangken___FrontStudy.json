@@ -78,6 +78,11 @@
     "description": "My classy app",
     "license": "MIT",
     "repository": "young.k/my",
+    "author": {
+      "name": "young-k",
+      "email": "young.k@kakaocorp.com",
+      "url": "rangken.github.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -140,5 +145,6 @@
   },
   "filename": "rangken___FrontStudy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:23.621Z"
+  "lastFetchedAt": "2017-05-04T17:33:23.621Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:34.328Z"
 }

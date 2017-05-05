@@ -80,6 +80,7 @@
       "start": "electron .",
       "build": "electron-packager . QQLogin"
     },
+    "author": "zhshy",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -112,5 +113,6 @@
   },
   "filename": "mrxf___electron-qq.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:46.033Z"
+  "lastFetchedAt": "2017-05-04T05:09:46.033Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:31.902Z"
 }

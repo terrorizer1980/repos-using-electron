@@ -86,10 +86,10 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-react-boilerplate",
-    "productName": "ElectronReact",
-    "version": "0.10.0",
-    "description": "Electron application boilerplate based on React, React Router, Webpack, React Hot Loader for rapid application development",
+    "name": "xpansso",
+    "productName": "Xpansso",
+    "version": "0.1.0",
+    "description": "Simple expense manager",
     "main": "main.js",
     "scripts": {
       "test": "cross-env NODE_ENV=test BABEL_DISABLE_CACHE=1 mocha --compilers js:babel-register --recursive --require ./test/setup.js test/**/*.spec.js",
@@ -105,14 +105,25 @@
       "package": "cross-env NODE_ENV=production node -r babel-register -r babel-polyfill package.js",
       "package-all": "npm run package -- --all",
       "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
-      "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\"",
+      "dev": "concurrently --kill-others \"yarn hot-server\" \"yarn start-hot\"",
       "cleanup": "mop -v"
     },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Wai-Yan Yoon",
+      "email": "waiyanyoon@gmail.com",
+      "url": "https://github.com/yoonwaiyan"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/xpansso/xpansso/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -122,7 +133,7 @@
       "webpack",
       "react-hot"
     ],
-    "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
+    "homepage": "https://github.com/xpansso/xpansso",
     "devDependencies": {
       "asar": "^0.12.3",
       "babel-core": "^6.17.0",
@@ -186,23 +197,27 @@
       "css-modules-require-hook": "^4.0.5",
       "electron-debug": "^1.0.1",
       "font-awesome": "^4.6.3",
-      "material-ui": "^0.16.1",
+      "material-ui": "^0.17.4",
+      "moment": "^2.16.0",
       "postcss": "^5.2.4",
+      "pouchdb-browser": "^6.0.7",
+      "pouchdb-find": "^0.10.4",
       "react": "^15.3.2",
       "react-dom": "^15.3.2",
       "react-redux": "^4.4.5",
       "react-router": "^2.8.1",
       "react-router-redux": "^4.0.6",
-      "react-tap-event-plugin": "^1.0.0",
+      "react-tap-event-plugin": "^2.0.1",
       "redux": "^3.6.0",
       "redux-form": "^6.1.1",
       "redux-form-material-ui": "^4.1.0",
       "redux-thunk": "^2.1.0",
-      "source-map-support": "^0.4.3"
+      "source-map-support": "^0.4.3",
+      "uuid": "^3.0.0"
     },
     "devEngines": {
-      "node": "4.x || 5.x || 6.x",
-      "npm": "3.x"
+      "node": "4.x || 5.x || 6.x || 7.x",
+      "npm": "3.x || 4.x"
     }
   },
   "packageStatus": 200,
@@ -230,5 +245,6 @@
   },
   "filename": "xpansso___xpansso.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:49.228Z"
+  "lastFetchedAt": "2017-05-04T19:53:49.228Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:40.395Z"
 }

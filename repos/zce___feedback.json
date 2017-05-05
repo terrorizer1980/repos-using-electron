@@ -55,8 +55,15 @@
     "name": "feedback",
     "description": "A feedback system",
     "version": "1.0.0",
-    "repository": "https://github.com/zce/feedback",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zce/feedback.git"
+    },
+    "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zce/feedback/issues"
+    },
     "homepage": "https://github.com/zce/feedback#readme",
     "scripts": {
       "postinstall": "cd app && npm install && cd ..",
@@ -168,5 +175,6 @@
   "svnUrl": "https://github.com/zce/feedback",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:13:05.039Z"
+  "lastFetchedAt": "2017-05-04T20:13:05.039Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:24.965Z"
 }

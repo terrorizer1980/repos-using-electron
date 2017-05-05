@@ -80,7 +80,11 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://www.github.com/connorbillen/trident-client",
+    "repository": {
+      "type": "git",
+      "url": "http://www.github.com/connorbillen/trident-client"
+    },
+    "author": "Connor Billen",
     "license": "MIT",
     "devDependencies": {
       "body-parser": "^1.15.1",
@@ -131,5 +135,6 @@
   },
   "filename": "connorbillen___trident-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:57.457Z"
+  "lastFetchedAt": "2017-05-04T05:20:57.457Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:59.839Z"
 }

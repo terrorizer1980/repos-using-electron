@@ -56,7 +56,11 @@
     "version": "1.0.0",
     "description": "React Workshop for Tokiota",
     "main": "index.js",
-    "repository": "https://github.com/mfmontenegro/tokiota-workshop-react",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mfmontenegro/tokiota-workshop-react.git"
+    },
+    "author": "",
     "license": "ISC",
     "homepage": "https://github.com/mfmontenegro/tokiota-workshop-react#readme",
     "endPoints": {
@@ -125,5 +129,6 @@
   "svnUrl": "https://github.com/mfmontenegro/tokiota-workshop-react",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:44:55.696Z"
+  "lastFetchedAt": "2017-05-04T20:44:55.696Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:19.866Z"
 }

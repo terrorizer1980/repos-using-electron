@@ -78,6 +78,11 @@
     "description": "My praiseworthy app",
     "license": "MIT",
     "repository": "joshpaulchan/eyething",
+    "author": {
+      "name": "joshpaulchan",
+      "email": "joshpaulchan@gmail.com",
+      "url": "null"
+    },
     "scripts": {
       "test": "xo",
       "start": " electron .",
@@ -145,5 +150,6 @@
   },
   "filename": "tconcannon___eyeTracker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:52.611Z"
+  "lastFetchedAt": "2017-05-04T20:57:52.611Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:36.791Z"
 }

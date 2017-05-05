@@ -80,6 +80,7 @@
       "start": "electron -i ./main.js",
       "build": "electron-packager ./ ElectronTest --platform=darwin --arch=x64 --out ./build/"
     },
+    "author": "Max Nowack <max@unsou.de>",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
     },
@@ -114,5 +115,6 @@
   },
   "filename": "maxnowack___electron-auth-with-meteor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:33:45.950Z"
+  "lastFetchedAt": "2017-05-04T19:33:45.950Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:24.921Z"
 }

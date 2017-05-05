@@ -78,6 +78,7 @@
       "web": "open \"http://localhost:8080\"",
       "build": "rimraf builds && electron-packager . Lugano --platform=darwin --out=builds --version-string.CompanyName=Santiago Camelo --icon=icon.icns --protocol=['trikanna'] --protocol-name=trikanna && npm run serve & npm run web"
     },
+    "author": "Santiago Camelo <trikanna@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "concurrently": "^3.1.0",
@@ -117,5 +118,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:09.952Z"
+  "lastFetchedAt": "2017-05-04T05:09:09.952Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:25.719Z"
 }

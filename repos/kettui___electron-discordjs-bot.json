@@ -78,6 +78,7 @@
       "build": "npm run build-main && npm run build-renderer",
       "package": "cross-env NODE_ENV=production node -r babel-register package.js"
     },
+    "author": "Antti Kettunen <antti-kettunen@hotmail.com>",
     "license": "MIT",
     "dependencies": {
       "bluebird": "^3.3.4",
@@ -182,5 +183,6 @@
   },
   "filename": "kettui___electron-discordjs-bot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:03.512Z"
+  "lastFetchedAt": "2017-05-04T19:45:03.512Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:11.178Z"
 }

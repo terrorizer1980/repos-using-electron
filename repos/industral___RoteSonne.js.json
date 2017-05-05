@@ -76,7 +76,10 @@
     "version": "0.0.4",
     "description": "Audio Player",
     "main": "index.js",
-    "repository": "https://github.com/industral/RoteSonne.js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/industral/RoteSonne.js.git"
+    },
     "keywords": [
       "player",
       "electron",
@@ -85,7 +88,11 @@
       "aac",
       "alac"
     ],
+    "author": "Alex Ivasyuv",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/industral/RoteSonne.js/issues"
+    },
     "build": {
       "app-bundle-id": "org.rotesonne",
       "app-category-type": "public.app-category.music",
@@ -155,5 +162,6 @@
   },
   "filename": "industral___RoteSonne.js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:05.878Z"
+  "lastFetchedAt": "2017-05-04T19:51:05.878Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:17.811Z"
 }

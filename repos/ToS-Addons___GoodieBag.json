@@ -96,11 +96,15 @@
       "test": "ember test",
       "bower": "bower install"
     },
-    "repository": "https://github.com/ToS-Addons/GoodieBag",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ToS-Addons/GoodieBag.git"
+    },
     "keywords": [
       "addon",
       "manager"
     ],
+    "author": "p2k <me@p2k-network.org>",
     "license": "GPL-3.0+",
     "homepage": "https://github.com/ToS-Addons/GoodieBag",
     "devDependencies": {
@@ -158,5 +162,6 @@
   },
   "filename": "ToS-Addons___GoodieBag.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:26.824Z"
+  "lastFetchedAt": "2017-05-04T14:20:26.824Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:57.817Z"
 }

@@ -53,14 +53,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/gilhyun/electron-trayapp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gilhyun/electron-trayapp.git"
+    },
     "keywords": [
       "Electron",
       "trayapp",
       "tray",
       "window arrow"
     ],
+    "author": "Gil Hyun",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gilhyun/electron-trayapp/issues"
+    },
     "homepage": "https://github.com/gilhyun/electron-trayapp#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -111,5 +118,6 @@
   "svnUrl": "https://github.com/gilhyun/electron-trayapp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:05:05.826Z"
+  "lastFetchedAt": "2017-05-03T20:05:05.826Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:19.624Z"
 }

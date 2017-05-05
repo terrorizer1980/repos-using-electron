@@ -261,17 +261,8 @@
       ]
     },
     "repository": {
-      "user": "ekonstantinidis",
-      "repo": "gitify",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ekonstantinidis/gitify/tarball/master",
-      "clone_url": "https://github.com/ekonstantinidis/gitify",
-      "https_url": "https://github.com/ekonstantinidis/gitify",
-      "travis_url": "https://travis-ci.org/ekonstantinidis/gitify",
-      "zip_url": "https://github.com/ekonstantinidis/gitify/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ekonstantinidis/gitify"
+      "type": "git",
+      "url": "https://github.com/ekonstantinidis/gitify.git"
     },
     "keywords": [
       "github",
@@ -280,7 +271,11 @@
       "native",
       "app"
     ],
+    "author": "Emmanouil Konstantinidis",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ekonstantinidis/gitify/issues"
+    },
     "homepage": "https://github.com/ekonstantinidis/gitify",
     "dependencies": {
       "bootstrap": "=3.3.4",
@@ -359,5 +354,6 @@
   "sourceRepo": "ekonstantinidis/gitify",
   "filename": "shaunstanislaus___gitify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:12.761Z"
+  "lastFetchedAt": "2017-05-04T19:56:12.761Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:48.713Z"
 }

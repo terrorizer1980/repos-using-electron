@@ -80,6 +80,7 @@
       "pack-linux": "npm run build && electron-packager . --overwrite --platform=linux --arch=x64 --icon=src/assets/app-icon/weights.png --prune=true --out=out",
       "pack": "npm run pack-mac && npm run pack-win && npm run pack-linux"
     },
+    "author": "Tadeas Petak <tadeaspetak@gmail.com>",
     "license": "ISC",
     "dependencies": {
       "auto-launch": "^2.0.1",
@@ -131,5 +132,6 @@
   },
   "filename": "tadeaspetak___make-me-move.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:58:08.691Z"
+  "lastFetchedAt": "2017-05-04T20:58:08.691Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:13.332Z"
 }

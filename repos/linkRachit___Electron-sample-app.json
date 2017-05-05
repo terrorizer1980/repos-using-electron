@@ -67,5 +67,41 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:47:03.118Z"
+  "lastFetchedAt": "2017-05-04T20:47:03.118Z",
+  "packageJSON": {
+    "name": "Electron-sample-app",
+    "version": "1.0.0",
+    "description": "Basic Electron sample app",
+    "main": "index.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Electron-sample-app",
+      "build-linux32": "electron-packager . Electron-sample-app --platform=linux  --arch=ia32",
+      "build-linux64": "electron-packager . Electron-sample-app --platform=linux  --arch=x64",
+      "build-mac": "electron-packager . Electron-sample-app --platform=darwin  --arch=x64",
+      "build-win32": "electron-packager . Electron-sample-app --platform=win32  --arch=ia32",
+      "build-win64": "electron-packager . Electron-sample-app --platform=win32  --arch=x64"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/linkRachit/Electron-sample-app.git"
+    },
+    "author": "Rachit Goel<rachit2goel@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/linkRachit/Electron-sample-app/issues"
+    },
+    "homepage": "https://github.com/linkRachit/Electron-sample-app#readme",
+    "devDependencies": {
+      "electron": "^1.4.15",
+      "electron-packager": "^8.5.2"
+    },
+    "dependencies": {
+      "auto-launch": "^5.0.1",
+      "body-parser": "^1.16.1",
+      "is-property": "^1.0.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:35:13.877Z"
 }

@@ -86,7 +86,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Mattias Ewers",
+      "email": "mattias.ewers@gmail.com",
+      "url": "https://github.com/mattiasewers"
+    },
     "license": "MIT",
     "keywords": [
       "electron",
@@ -184,5 +192,6 @@
   },
   "filename": "mattiasewers___electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:27.004Z"
+  "lastFetchedAt": "2017-05-04T15:16:27.004Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:25.166Z"
 }

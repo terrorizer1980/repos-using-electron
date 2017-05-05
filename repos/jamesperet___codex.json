@@ -57,6 +57,11 @@
     "version": "0.0.1",
     "description": "Mac markdown wiki app",
     "repository": "jamesperet/codex",
+    "author": {
+      "name": "James Peret",
+      "email": "james.peret@gmail.com",
+      "url": "jamesperet.com"
+    },
     "main": "app.js",
     "scripts": {
       "start": "electron .",
@@ -137,5 +142,6 @@
   "svnUrl": "https://github.com/jamesperet/codex",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:47:03.412Z"
+  "lastFetchedAt": "2017-05-04T16:47:03.412Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:52.015Z"
 }

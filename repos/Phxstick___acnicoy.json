@@ -69,6 +69,7 @@
     "name": "acnicoy",
     "version": "0.1.0",
     "description": "A tool for learning Japanese and other languages",
+    "author": "Daniel Bindemann",
     "keywords": [
       "electron",
       "languages",
@@ -77,6 +78,8 @@
     "main": "main.js",
     "devDependencies": {
       "autoprefixer": "^6.3.4",
+      "electron-builder": "^15.3.0",
+      "glob": "^7.1.1",
       "gulp": "^3.9.1",
       "gulp-postcss": "^6.0.1",
       "gulp-sass": "^2.1.1",
@@ -84,14 +87,21 @@
       "markdown": "^0.5.0"
     },
     "dependencies": {
-      "electron": "1.4.5",
+      "auto-launch": "^5.0.1",
+      "electron": "^1.6.2",
       "electron-localshortcut": "^0.6.0",
+      "fs-extra": "^2.0.0",
       "handlebars": "^4.0.5",
       "languages": "^0.1.3",
+      "ncp": "^2.0.0",
       "random-js": "^1.0.8",
+      "request": "^2.81.0",
       "sqlite3": "^3.1.1",
       "unzip": "^0.1.11",
       "velocity-animate": "^1.3.1"
+    },
+    "scripts": {
+      "postinstall": "install-app-deps"
     }
   },
   "packageStatus": 200,
@@ -119,5 +129,6 @@
   },
   "filename": "Phxstick___acnicoy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:36.675Z"
+  "lastFetchedAt": "2017-05-04T20:38:36.675Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:36.733Z"
 }

@@ -194,17 +194,8 @@
       "start": "gulp && electron ."
     },
     "repository": {
-      "user": "madebybright",
-      "repo": "nimble",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/madebybright/nimble/tarball/master",
-      "clone_url": "https://github.com/madebybright/nimble",
-      "https_url": "https://github.com/madebybright/nimble",
-      "travis_url": "https://travis-ci.org/madebybright/nimble",
-      "zip_url": "https://github.com/madebybright/nimble/archive/master.zip",
-      "api_url": "https://api.github.com/repos/madebybright/nimble"
+      "type": "git",
+      "url": "git+https://github.com/madebybright/nimble.git"
     },
     "keywords": [
       "wolfram",
@@ -212,7 +203,11 @@
       "osx",
       "menubar"
     ],
+    "author": "Bright, Co.",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/madebybright/nimble/issues"
+    },
     "homepage": "https://github.com/madebybright/nimble#readme"
   },
   "packageStatus": 200,
@@ -261,5 +256,6 @@
   "svnUrl": "https://github.com/aeppert/Nimble",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:28:04.681Z"
+  "lastFetchedAt": "2017-05-04T21:28:04.681Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:44.349Z"
 }

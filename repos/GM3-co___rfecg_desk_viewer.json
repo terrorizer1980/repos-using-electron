@@ -74,6 +74,10 @@
       "start": "electron .",
       "package": "electron-packager . ECG_Viewer  --overwrite"
     },
+    "author": {
+      "name": "GM3",
+      "url": "http://gm3.jp"
+    },
     "license": "ISC",
     "dependencies": {
       "electron": ">=1.4.5",
@@ -107,5 +111,6 @@
   },
   "filename": "GM3-co___rfecg_desk_viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:57:21.758Z"
+  "lastFetchedAt": "2017-05-04T19:57:21.758Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:53.211Z"
 }

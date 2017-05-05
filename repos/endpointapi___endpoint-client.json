@@ -94,8 +94,15 @@
       "stats": "webpack --profile --json > stats.json",
       "watch": "webpack-dev-server"
     },
-    "repository": "https://github.com/lackeyjb/endpoint-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lackeyjb/endpoint-client.git"
+    },
+    "author": "Ric Cabrera & Bryan Lackey",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lackeyjb/endpoint-client/issues"
+    },
     "homepage": "https://github.com/lackeyjb/endpoint-client#readme",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -156,5 +163,6 @@
   },
   "filename": "endpointapi___endpoint-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:20.683Z"
+  "lastFetchedAt": "2017-05-04T04:58:20.683Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:47.728Z"
 }

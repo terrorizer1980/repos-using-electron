@@ -46,10 +46,10 @@
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
-    "name": "pra-control",
-    "version": "2.0.0",
+    "name": "pracontrol",
+    "version": "2.0.1",
     "description": "Send awesome gCodes to your machine.",
-    "productName": "PraControl",
+    "productName": "Pracontrol",
     "companyName": "pravdomil.cz",
     "keywords": [
       "gCode",
@@ -58,6 +58,11 @@
       "awesome",
       "rembased"
     ],
+    "author": {
+      "name": "Pravdomil Toman",
+      "email": "info@pravdomil.cz",
+      "url": "https://pravdomil.cz"
+    },
     "contributors": [
       {
         "name": "Pravdomil Toman",
@@ -65,9 +70,13 @@
         "url": "http://pravdomil.cz"
       }
     ],
-    "homepage": "http://pracontrol.pravdomil.cz",
-    "repository": "https://github.com/pravdomil/pra-control",
-    "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=PraControl%20beer",
+    "homepage": "https://pracontrol.pravdomil.cz",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pravdomil/pracontrol"
+    },
+    "bugs": "https://github.com/pravdomil/pracontrol/issues",
+    "donate": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BCL2X3AFQBAP2&item_name=Pracontrol%20beer",
     "main": "_main/index.js",
     "scripts": {
       "start": "electron .",
@@ -76,17 +85,16 @@
     },
     "dependencies": {
       "serialport": "^4.0.0",
-      "fs-promise": "^0.5.0",
+      "fs-promise": "^2.0.2",
       "ncp": "^2.0.0",
       "request": "^2.69.0",
-      "electron-app-base": "pravdomil/electron-app-base#e9c68c2a2eb6bf38a1f7d592dfde9f6bca1c1028",
-      "web-component-app": "pravdomil/web-component-app#3a7e8362ce570dfa457f899736c6378a89ea5c87",
-      "rembased": "pravdomil/rembased#a0193a354b2dd69d88a7537e4dd5761b3a8a97c3"
+      "crypto-js": "^3.1.9-1",
+      "less": "^2.7.2"
     },
     "devDependencies": {
-      "electron-packager": "^7.0.0",
-      "electron-prebuilt": "^1.0.0",
-      "electron-rebuild": "^1.2.0"
+      "electron": "^1.0.0",
+      "electron-rebuild": "^1.2.0",
+      "electron-packager": "^8.6.0"
     }
   },
   "packageStatus": 200,
@@ -134,5 +142,6 @@
   },
   "filename": "pravdomil___pra-control.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:49.524Z"
+  "lastFetchedAt": "2017-05-04T20:00:49.524Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:51.884Z"
 }

@@ -59,13 +59,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/tsotnet/unitnote",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tsotnet/unitnote.git"
+    },
     "keywords": [
       "unitnote",
       "note",
       "programming"
     ],
+    "author": "tsotnet",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tsotnet/unitnote/issues"
+    },
     "homepage": "https://github.com/tsotnet/unitnote#readme",
     "devDependencies": {
       "babel-core": "^6.7.4",
@@ -124,5 +131,6 @@
   },
   "filename": "tsotnet___unitnote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:48.560Z"
+  "lastFetchedAt": "2017-05-04T05:13:48.560Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:59.817Z"
 }

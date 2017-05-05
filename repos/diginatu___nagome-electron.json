@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/diginatu/nagome-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/diginatu/nagome-electron.git"
+    },
     "keywords": [
       "comment viewer",
       "Nagome",
       "NicoNama",
       "Electron"
     ],
+    "author": "Diginatu",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/diginatu/nagome-electron",
     "devDependencies": {},
     "dependencies": {
@@ -120,5 +127,6 @@
   },
   "filename": "diginatu___nagome-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:17.987Z"
+  "lastFetchedAt": "2017-05-04T05:09:17.987Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:12.733Z"
 }

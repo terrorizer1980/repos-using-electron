@@ -202,6 +202,9 @@
       "vagrant-rsync-linux": "VAGRANT_CWD=./test/vms/vagrant/ubuntu-14.04 vagrant rsync-auto"
     },
     "repository": "brave/browser-laptop",
+    "author": {
+      "name": "Brave Developers <support@brave.com>"
+    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -221,6 +224,9 @@
       }
     ],
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/brave/browser-laptop/issues"
+    },
     "homepage": "https://www.brave.com/",
     "dependencies": {
       "abp-filter-parser-cpp": "1.1.x",
@@ -356,5 +362,6 @@
   "svnUrl": "https://github.com/surjit/brave-browser-laptop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:57:38.948Z"
+  "lastFetchedAt": "2017-05-04T17:57:38.948Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:28.588Z"
 }

@@ -54,7 +54,7 @@
   "packageJSON": {
     "name": "AtomPlayer",
     "description": "Reproductor de musica, descarga mp3 de youtube",
-    "version": "0.2.4",
+    "version": "0.2.6",
     "main": "main.js",
     "license": "Apache-2.0",
     "scripts": {
@@ -68,17 +68,8 @@
       "electron-prebuilt": "^1.2.0"
     },
     "repository": {
-      "user": "RgtArRr",
-      "repo": "AtomPlayer",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/RgtArRr/AtomPlayer/tarball/master",
-      "clone_url": "https://github.com/RgtArRr/AtomPlayer",
-      "https_url": "https://github.com/RgtArRr/AtomPlayer",
-      "travis_url": "https://travis-ci.org/RgtArRr/AtomPlayer",
-      "zip_url": "https://github.com/RgtArRr/AtomPlayer/archive/master.zip",
-      "api_url": "https://api.github.com/repos/RgtArRr/AtomPlayer"
+      "type": "git",
+      "url": "https://github.com/RgtArRr/AtomPlayer.git"
     }
   },
   "packageStatus": 200,
@@ -127,5 +118,6 @@
   "svnUrl": "https://github.com/RgtArRr/AtomPlayer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:22:15.526Z"
+  "lastFetchedAt": "2017-05-04T14:22:15.526Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:42.207Z"
 }

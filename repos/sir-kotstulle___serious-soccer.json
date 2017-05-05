@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -204,5 +215,6 @@
   },
   "filename": "sir-kotstulle___serious-soccer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:29.117Z"
+  "lastFetchedAt": "2017-05-04T20:14:29.117Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:58.874Z"
 }

@@ -82,17 +82,8 @@
       "tsc:w": "tsc -w"
     },
     "repository": {
-      "user": "csabbee",
-      "repo": "chatup-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/csabbee/chatup-app/tarball/master",
-      "clone_url": "https://github.com/csabbee/chatup-app",
-      "https_url": "https://github.com/csabbee/chatup-app",
-      "travis_url": "https://travis-ci.org/csabbee/chatup-app",
-      "zip_url": "https://github.com/csabbee/chatup-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/csabbee/chatup-app"
+      "type": "git",
+      "url": "git+https://github.com/csabbee/chatup-app.git"
     },
     "keywords": [
       "Electron",
@@ -100,6 +91,7 @@
       "Typescript",
       "socket.io"
     ],
+    "author": "Csaba Vályi",
     "license": "MIT",
     "dependencies": {
       "angular2": "2.0.0-beta.0",
@@ -144,5 +136,6 @@
   "filename": "csabbee___chatup-app.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:57.364Z"
+  "lastFetchedAt": "2017-05-04T20:02:57.364Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:29.705Z"
 }

@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for electron-test goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -178,5 +183,6 @@
   },
   "filename": "Creodahn___playing_with_electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:56.280Z"
+  "lastFetchedAt": "2017-05-04T05:19:56.280Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:15.603Z"
 }

@@ -86,8 +86,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/thedamon/doooot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thedamon/doooot.git"
+    },
+    "author": {
+      "name": "Damon Muma",
+      "email": "damuma@gmail.com",
+      "url": "https://github.com/thedamon/"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/thedamon/doooot/issues"
+    },
     "keywords": [
       "todo",
       "task",
@@ -184,5 +195,6 @@
   },
   "filename": "thedamon___doooot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:03.943Z"
+  "lastFetchedAt": "2017-05-04T19:58:03.943Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:57.590Z"
 }

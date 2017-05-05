@@ -72,6 +72,11 @@
     "description": "database iterator",
     "license": "MIT",
     "repository": "null4bl3/iterator",
+    "author": {
+      "name": "null4bl3",
+      "email": "stokogsten@gmail.com",
+      "url": "https://github.com/null4bl3"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -138,5 +143,6 @@
   },
   "filename": "null4bl3___iterator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:44.319Z"
+  "lastFetchedAt": "2017-05-04T20:15:44.319Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:12.144Z"
 }

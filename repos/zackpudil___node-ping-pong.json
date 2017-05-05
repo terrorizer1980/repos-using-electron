@@ -54,8 +54,12 @@
     "scripts": {
       "start": "electron ./app/main.js"
     },
+    "author": "",
     "license": "ISC",
-    "repository": "https://github.com/zackpudil/node-ping-pong",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zackpudil/node-ping-pong.git"
+    },
     "dependencies": {
       "json-socket": "^0.1.2",
       "minimist": "^1.2.0",
@@ -116,5 +120,6 @@
   },
   "filename": "zackpudil___node-ping-pong.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:18.195Z"
+  "lastFetchedAt": "2017-05-04T17:34:18.195Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:47.713Z"
 }

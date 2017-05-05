@@ -58,6 +58,11 @@
     "description": "Unofficial app for web Coffitivity",
     "license": "MIT",
     "repository": "romuloalves/coffeerelax",
+    "author": {
+      "name": "Rômulo Alves",
+      "email": "romuloaalv@gmail.com",
+      "url": "romuloalv.es"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -136,5 +141,6 @@
   "svnUrl": "https://github.com/romuloalves/coffeerelax",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:47:48.696Z"
+  "lastFetchedAt": "2017-05-04T19:47:48.696Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:40.017Z"
 }

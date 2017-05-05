@@ -55,6 +55,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "node build.js"
     },
+    "author": "Mihai Farcas",
     "license": "ISC",
     "dependencies": {
       "alertify.js": "^1.0.12",
@@ -117,5 +118,6 @@
   "svnUrl": "https://github.com/farcasmihai91/hl7-viewer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:58:03.016Z"
+  "lastFetchedAt": "2017-05-04T17:58:03.016Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:15.678Z"
 }

@@ -72,6 +72,7 @@
     "scripts": {
       "start": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron .",
       "watch": "webpack-dashboard -- ./node_modules/.bin/webpack-dev-server",
+      "dev": "webpack",
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
     "dependencies": {
@@ -80,12 +81,12 @@
       "electron-prebuilt": "^0.37.2",
       "flexboxgrid": "^6.3.0",
       "jquery": "^2.2.4",
-      "material-ui": "^0.15.0",
+      "material-ui": "^0.16.7",
       "react": "^15.1.0",
       "react-c3js": "^0.1.7",
       "react-dom": "^15.1.0",
       "react-flexbox-grid": "^0.9.6",
-      "react-tap-event-plugin": "^1.0.0"
+      "react-tap-event-plugin": "^2.0.1"
     },
     "devDependencies": {
       "axios": "^0.11.1",
@@ -132,5 +133,6 @@
   },
   "filename": "jhonparedes___mpreact.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:01.577Z"
+  "lastFetchedAt": "2017-05-04T18:12:01.577Z",
+  "packageLastFetchedAt": "2017-05-05T14:29:55.371Z"
 }

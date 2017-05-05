@@ -79,12 +79,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/IonicaBizau/learning-nodejs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/IonicaBizau/learning-nodejs.git"
+    },
     "keywords": [
       "nodejs",
       "learning"
     ],
+    "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/IonicaBizau/learning-nodejs/issues"
+    },
     "homepage": "https://github.com/IonicaBizau/learning-nodejs#readme",
     "blah": {
       "description": [
@@ -121,12 +128,11 @@
       "bin/",
       "app/",
       "lib/",
-      "build/",
       "dist/",
       "src/",
+      "scripts/",
       "resources/",
       "menu/",
-      "scripts/",
       "cli.js",
       "index.js"
     ]
@@ -156,5 +162,6 @@
   },
   "filename": "IonicaBizau___learning-nodejs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:58.836Z"
+  "lastFetchedAt": "2017-05-04T20:11:58.836Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:35.403Z"
 }

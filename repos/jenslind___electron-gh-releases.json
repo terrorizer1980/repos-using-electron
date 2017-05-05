@@ -75,8 +75,12 @@
       "travis": "standard src/*.js",
       "prepublish": "gulp build"
     },
+    "author": "Jens Lind <jens@jensl.se> (jenslind.com)",
     "license": "MIT",
-    "repository": "https://github.com/jenslind/electron-gh-releases"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jenslind/electron-gh-releases.git"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/jenslind/electron-gh-releases",
@@ -123,5 +127,6 @@
   },
   "filename": "jenslind___electron-gh-releases.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:03.798Z"
+  "lastFetchedAt": "2017-05-04T20:39:03.798Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:20.490Z"
 }

@@ -83,8 +83,15 @@
       "start": "dora -p 8001 --plugins \"webpack?disableNpmInstall,hmr,proxy?livereload?enableJs=false&injectHost=127.0.0.1,browser-history?index=/src/entries/index.html\"",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/XylitolLin/vector",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/XylitolLin/vector.git"
+    },
+    "author": "xylitol_lin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/XylitolLin/vector/issues"
+    },
     "theme": {
       "primary-color": "#748FF5"
     },
@@ -134,5 +141,6 @@
   },
   "filename": "XylitolLin___vector.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:53.285Z"
+  "lastFetchedAt": "2017-05-04T17:47:53.285Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:07.303Z"
 }

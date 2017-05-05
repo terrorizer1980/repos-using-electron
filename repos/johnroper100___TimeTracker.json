@@ -87,8 +87,12 @@
       "mangement",
       "tracker"
     ],
+    "author": "John Roper",
     "license": "GPL-3.0",
-    "repository": "https://github.com/johnroper100/TimeTracker",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/johnroper100/TimeTracker.git"
+    },
     "devDependencies": {
       "electron": "^1.4.3",
       "electron-packager": "^8.1.0"
@@ -119,5 +123,6 @@
   },
   "filename": "johnroper100___TimeTracker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:34.964Z"
+  "lastFetchedAt": "2017-05-04T19:59:34.964Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:27.847Z"
 }

@@ -188,18 +188,10 @@
       "release:major": "npm version major && npm publish"
     },
     "repository": {
-      "user": "daffl",
-      "repo": "mysam",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/daffl/mysam/tarball/master",
-      "clone_url": "https://github.com/daffl/mysam",
-      "https_url": "https://github.com/daffl/mysam",
-      "travis_url": "https://travis-ci.org/daffl/mysam",
-      "zip_url": "https://github.com/daffl/mysam/archive/master.zip",
-      "api_url": "https://api.github.com/repos/daffl/mysam"
+      "type": "git",
+      "url": "git@github.com:daffl/mysam.git"
     },
+    "author": "David Luecke <daff@neyeon.com>",
     "license": "MIT",
     "dependencies": {
       "body-parser": "^1.13.0",
@@ -270,5 +262,6 @@
   "svnUrl": "https://github.com/NihadAw/mysam",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:32:34.951Z"
+  "lastFetchedAt": "2017-05-04T15:32:34.951Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:39.037Z"
 }

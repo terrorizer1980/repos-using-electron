@@ -93,8 +93,15 @@
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
     },
-    "repository": "https://github.com/robzsk/Missileman",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/robzsk/Missileman.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/robzsk/Missileman/issues"
+    },
     "homepage": "https://github.com/robzsk/Missileman#readme"
   },
   "packageStatus": 200,
@@ -122,5 +129,6 @@
   },
   "filename": "robzsk___Missileman.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:49.139Z"
+  "lastFetchedAt": "2017-05-04T05:18:49.139Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:46.782Z"
 }

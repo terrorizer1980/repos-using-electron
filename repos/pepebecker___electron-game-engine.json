@@ -74,6 +74,7 @@
       "start": "electron .",
       "prepare": "cp fixes/generateMultiTextureShader.js node_modules/pixi.js/src/core/sprites/webgl/generateMultiTextureShader.js"
     },
+    "author": "Pepe Becker <mail@pepebecker.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-builder": "^6.6.1"
@@ -111,5 +112,6 @@
   },
   "filename": "pepebecker___electron-game-engine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:39.671Z"
+  "lastFetchedAt": "2017-05-04T19:56:39.671Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:21.233Z"
 }

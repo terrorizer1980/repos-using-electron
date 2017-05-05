@@ -81,8 +81,19 @@
       "electron",
       "arm"
     ],
+    "author": {
+      "name": "Sam Simmons",
+      "email": "sam@samiconductor.com",
+      "url": "https://github.com/samiconductor"
+    },
     "license": "ISC",
-    "repository": "https://github.com/samiconductor/chromiarm",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/samiconductor/chromiarm.git"
+    },
+    "bugs": {
+      "url": "https://github.com/samiconductor/chromiarm/issues"
+    },
     "homepage": "https://github.com/samiconductor/chromiarm#readme",
     "devDependencies": {
       "electron-builder": "^5.26.0",
@@ -136,5 +147,6 @@
   },
   "filename": "samiconductor___chromiarm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:24:02.920Z"
+  "lastFetchedAt": "2017-05-04T18:24:02.920Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:50.492Z"
 }

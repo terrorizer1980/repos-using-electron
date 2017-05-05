@@ -73,18 +73,25 @@
   "status": 200,
   "packageJSON": {
     "name": "Opcor",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "description": "An application that lets you search for videos.",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/kyle-rb/opcor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kyle-rb/opcor"
+    },
     "keywords": [
       "opcor",
       "stream"
     ],
+    "author": "kyle-rb",
     "license": "Beerware",
+    "bugs": {
+      "url": "https://github.com/kyle-rb/opcor/issues"
+    },
     "homepage": "https://github.com/kyle-rb/opcor",
     "dependencies": {
       "request": "2.76.0"
@@ -118,5 +125,6 @@
   },
   "filename": "kyle-rb___opcor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:49.314Z"
+  "lastFetchedAt": "2017-05-04T20:02:49.314Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:44.512Z"
 }

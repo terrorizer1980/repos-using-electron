@@ -110,7 +110,7 @@
       "build:electron": "electron-packager . --out=app --all"
     }
   },
-  "packageStatus": 200,
+  "packageStatus": 404,
   "firstCommit": {
     "sha": "fa89883825a8d716a11316a33c860e7bd3c921f0",
     "commit": {
@@ -135,5 +135,6 @@
   },
   "filename": "vonKristoff___electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:10:28.578Z"
+  "lastFetchedAt": "2017-05-04T20:10:28.578Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:34.150Z"
 }

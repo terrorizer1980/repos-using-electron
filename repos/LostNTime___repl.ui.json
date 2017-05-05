@@ -73,5 +73,38 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:19:28.695Z"
+  "lastFetchedAt": "2017-05-04T14:19:28.695Z",
+  "packageJSON": {
+    "name": "repl.ui",
+    "version": "1.0.0",
+    "description": "A JavaScript REPL for the 21st century",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LostNTime/repl.ui.git"
+    },
+    "keywords": [
+      "repl",
+      "electron",
+      "javascript"
+    ],
+    "author": "LostNTime and anli5005",
+    "license": "GPL-3.0+",
+    "bugs": {
+      "url": "https://github.com/LostNTime/repl.ui/issues"
+    },
+    "homepage": "https://github.com/LostNTime/repl.ui#readme",
+    "devDependencies": {
+      "electron": "^1.4.15"
+    },
+    "dependencies": {
+      "ace-builds": "^1.2.6"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T23:02:56.556Z"
 }

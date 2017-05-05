@@ -76,6 +76,7 @@
     "version": "0.1.0",
     "description": "A simple app to test SocketLabs Notification API and Inbound Parse API HTTP endpoints",
     "main": "app.js",
+    "author": "Matt Reibach",
     "scripts": {
       "start": "electron ."
     },
@@ -113,5 +114,6 @@
   },
   "filename": "MattReibach___SL-Endpoint-Test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:44.872Z"
+  "lastFetchedAt": "2017-05-04T17:57:44.872Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:27.018Z"
 }

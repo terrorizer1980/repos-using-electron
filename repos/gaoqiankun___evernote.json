@@ -123,6 +123,7 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": "gaoqiankun",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.9.1",
@@ -177,7 +178,10 @@
     "dependencies": {
       "evernote": "^1.25.82"
     },
-    "repository": "https://github.com/gaoqiankun/electron-vue-webpack-boilerplate"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gaoqiankun/electron-vue-webpack-boilerplate.git"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/gaoqiankun/evernote",
@@ -224,5 +228,6 @@
   },
   "filename": "gaoqiankun___evernote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:28.262Z"
+  "lastFetchedAt": "2017-05-04T05:11:28.262Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:27.434Z"
 }

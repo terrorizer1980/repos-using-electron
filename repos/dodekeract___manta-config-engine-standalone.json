@@ -57,7 +57,10 @@
       "start": "electron .",
       "postpublish": "PACKAGE_VERSION=$(cat package.json | grep version | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag $PACKAGE_VERSION && git push --tags"
     },
-    "repository": "https://github.com/dodekeract/manta-config-engine-standalone",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dodekeract/manta-config-engine-standalone.git"
+    },
     "keywords": [
       "dota",
       "2",
@@ -69,7 +72,11 @@
       "preset",
       "configuration"
     ],
+    "author": "Florian Wendelborn",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dodekeract/manta-config-engine-standalone/issues"
+    },
     "homepage": "https://github.com/dodekeract/manta-config-engine-standalone#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.5",
@@ -145,5 +152,6 @@
   },
   "filename": "dodekeract___manta-config-engine-standalone.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:58.833Z"
+  "lastFetchedAt": "2017-05-03T20:04:58.833Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:01.616Z"
 }

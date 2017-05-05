@@ -59,6 +59,11 @@
     "license": "MIT",
     "main": "index.js",
     "repository": "joridos/electron-hello-world",
+    "author": {
+      "name": "Joridos",
+      "email": "joridoss@gmail.com",
+      "url": "joridos.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -124,5 +129,6 @@
   "svnUrl": "https://github.com/joridos/electron-hello-world",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:27:09.400Z"
+  "lastFetchedAt": "2017-05-04T15:27:09.400Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:02.590Z"
 }

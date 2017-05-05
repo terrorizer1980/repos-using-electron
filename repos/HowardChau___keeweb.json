@@ -172,17 +172,8 @@
     "main": "Gruntfile.js",
     "homepage": "https://keeweb.info",
     "repository": {
-      "user": "keeweb",
-      "repo": "keeweb",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/keeweb/keeweb/tarball/master",
-      "clone_url": "https://github.com/keeweb/keeweb",
-      "https_url": "https://github.com/keeweb/keeweb",
-      "travis_url": "https://travis-ci.org/keeweb/keeweb",
-      "zip_url": "https://github.com/keeweb/keeweb/archive/master.zip",
-      "api_url": "https://api.github.com/repos/keeweb/keeweb"
+      "type": "git",
+      "url": "https://github.com/keeweb/keeweb"
     },
     "dependencies": {},
     "devDependencies": {
@@ -227,6 +218,11 @@
       "postinstall": "cd electron && npm install",
       "copy-beta": "grunt && sed 's/<html manifest=\"manifest.appcache\">//' dist/index.html > ../keeweb-beta/diy/index.html && cd ../keeweb-beta && git add diy/index.html && git commit -a -m 'beta' && git push origin master"
     },
+    "author": {
+      "name": "Antelle",
+      "email": "antelle.net@gmail.com",
+      "url": "http://antelle.net"
+    },
     "build": {
       "app-bundle-id": "net.antelle.keeweb",
       "app-category-type": "public.app-category.productivity",
@@ -256,7 +252,13 @@
         "loadingGif": "graphics/install.gif"
       }
     },
-    "license": "MIT"
+    "directories": {
+      "buildResources": "graphics",
+      "output": "tmp/desktop",
+      "app": "tmp/desktop/app"
+    },
+    "license": "MIT",
+    "readme": "README.md"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -304,5 +306,6 @@
   "svnUrl": "https://github.com/HowardChau/keeweb",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:26:04.419Z"
+  "lastFetchedAt": "2017-05-04T15:26:04.419Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:06.413Z"
 }

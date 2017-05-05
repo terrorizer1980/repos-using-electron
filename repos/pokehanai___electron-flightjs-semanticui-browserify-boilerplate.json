@@ -59,6 +59,10 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": [
+      "HANAI Tohru aka pokehanai <hanai@pokelabo.co.jp>",
+      "HANAI Tohru <tohru@reedom.com>"
+    ],
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -144,5 +148,6 @@
   "svnUrl": "https://github.com/pokehanai/electron-flightjs-semanticui-browserify-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:27:43.381Z"
+  "lastFetchedAt": "2017-05-04T05:27:43.381Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:34.985Z"
 }

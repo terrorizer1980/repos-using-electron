@@ -81,11 +81,18 @@
       "lint": "./node_modules/.bin/eslint .",
       "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
     },
-    "repository": "https://github.com/tbrisbout/notebook",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tbrisbout/notebook.git"
+    },
     "keywords": [
       "notes"
     ],
+    "author": "Thomas BRISBOUT",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tbrisbout/notebook/issues"
+    },
     "homepage": "https://github.com/tbrisbout/notebook#readme",
     "devDependencies": {
       "electron-connect": "^0.3.7",
@@ -123,5 +130,6 @@
   },
   "filename": "tbrisbout___notebook.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:42.632Z"
+  "lastFetchedAt": "2017-05-04T19:56:42.632Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:20.833Z"
 }

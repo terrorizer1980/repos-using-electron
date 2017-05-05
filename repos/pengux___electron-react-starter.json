@@ -59,13 +59,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/pengux/pequel",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pengux/pequel.git"
+    },
     "keywords": [
       "postgres",
       "electron",
       "react"
     ],
+    "author": "Peter Nguyen",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/pengux/pequel/issues"
+    },
     "homepage": "https://github.com/pengux/pequel#readme",
     "devDependencies": {
       "babelify": "^6.4.0",
@@ -143,5 +150,6 @@
   "svnUrl": "https://github.com/pengux/electron-react-starter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:06:30.346Z"
+  "lastFetchedAt": "2017-05-04T18:06:30.346Z",
+  "packageLastFetchedAt": "2017-05-05T15:29:03.227Z"
 }

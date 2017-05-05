@@ -71,6 +71,7 @@
     "version": "0.0.1",
     "description": "Otacon + clock = Otaclock",
     "main": "main.js",
+    "author": "",
     "license": "ISC",
     "scripts": {
       "build": "webpack --config webpack.config.js",
@@ -133,5 +134,6 @@
   },
   "filename": "sethen___otaclock.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:57.851Z"
+  "lastFetchedAt": "2017-05-04T18:26:57.851Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:34.154Z"
 }

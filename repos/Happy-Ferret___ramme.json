@@ -172,6 +172,11 @@
     "license": "MIT",
     "main": "main.js",
     "repository": "terkelg/ramme",
+    "author": {
+      "name": "Terkel Gjervig",
+      "email": "hello@terkel.com",
+      "url": "terkel.com"
+    },
     "scripts": {
       "start": "electron .",
       "build": "npm run build:macos && npm run build:linux && npm run build:windows",
@@ -241,5 +246,6 @@
   "svnUrl": "https://github.com/Happy-Ferret/ramme",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:34:29.212Z"
+  "lastFetchedAt": "2017-05-04T20:34:29.212Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:42.493Z"
 }

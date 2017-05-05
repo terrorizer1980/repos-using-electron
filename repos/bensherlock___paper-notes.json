@@ -75,8 +75,16 @@
     "name": "Paper-Notes",
     "description": "Paper. Notes.",
     "version": "0.0.1",
+    "author": {
+      "name": "Ben sherlock",
+      "email": "papernotes@bensherlock.co.uk",
+      "url": "http://bensherlock.co.uk/"
+    },
     "license": "MIT",
-    "repository": "https://github.com/bensherlock/paper-notes",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bensherlock/paper-notes.git"
+    },
     "main": "main.js",
     "scripts": {
       "test": "standard && mocha --recursive",
@@ -205,5 +213,6 @@
   },
   "filename": "bensherlock___paper-notes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:27:33.459Z"
+  "lastFetchedAt": "2017-05-04T18:27:33.459Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:12.061Z"
 }

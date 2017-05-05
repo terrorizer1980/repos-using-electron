@@ -57,6 +57,7 @@
     "description": "remote.require an Electron module relative to current one.",
     "repository": "parro-it/electron-relative-remote-require",
     "license": "MIT",
+    "author": "parro-it",
     "scripts": {
       "test": "ava && xo",
       "check": "electron fixtures/index.js"
@@ -123,5 +124,6 @@
   "svnUrl": "https://github.com/parro-it/electron-relative-remote-require",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:31:13.333Z"
+  "lastFetchedAt": "2017-05-04T21:31:13.333Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:58.273Z"
 }

@@ -53,7 +53,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Larsouille/yourmessenger",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Larsouille/yourmessenger"
+    },
+    "author": "Larsouille",
     "license": "MIT",
     "homepage": "https://github.com/Larsouille/yourmessenger",
     "devDependencies": {
@@ -111,5 +115,6 @@
   "svnUrl": "https://github.com/Larsouille/YourMessengerVue",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:35:22.231Z"
+  "lastFetchedAt": "2017-05-04T20:35:22.231Z",
+  "packageLastFetchedAt": "2017-05-04T22:02:21.150Z"
 }

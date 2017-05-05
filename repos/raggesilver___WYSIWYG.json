@@ -91,8 +91,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/raggesilver/WYSIWYG",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/raggesilver/WYSIWYG.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/raggesilver/WYSIWYG/issues"
+    },
     "homepage": "https://github.com/raggesilver/WYSIWYG#readme"
   },
   "packageStatus": 200,
@@ -120,5 +127,6 @@
   },
   "filename": "raggesilver___WYSIWYG.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:47.416Z"
+  "lastFetchedAt": "2017-05-04T15:20:47.416Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:22.179Z"
 }

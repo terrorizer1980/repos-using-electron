@@ -54,6 +54,9 @@
   "packageJSON": {
     "name": "msnodesqlv8",
     "description": "Microsoft Driver for Node.js SQL Server compatible with all versions of Node.",
+    "author": {
+      "name": "Stephen James"
+    },
     "contributors": [
       {
         "name": "Microsoft"
@@ -62,7 +65,7 @@
         "name": "Stephen James"
       }
     ],
-    "version": "0.2.9",
+    "version": "0.2.16",
     "keywords": [
       "sql",
       "prepared",
@@ -79,6 +82,9 @@
       "node-sqlserver"
     ],
     "homepage": "https://github.com/TimelordUK/node-sqlserver-v8",
+    "bugs": {
+      "url": "https://github.com/TimelordUK/node-sqlserver-v8/issues"
+    },
     "licenses": [
       {
         "type": "Apache 2.0",
@@ -86,11 +92,23 @@
       }
     ],
     "main": "./lib/sql.js",
-    "repository": "https://github.com/TimelordUK/node-sqlserver-v8",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TimelordUK/node-sqlserver-v8.git"
+    },
     "engines": {
       "node": ">=0.12"
     },
+    "maintainers": [
+      {
+        "name": "timelorduk",
+        "email": "sjames8888@gmail.com"
+      }
+    ],
     "devDependencies": {
+      "@types/node": "^7.0.0",
+      "asynquence": "^0.10.0",
+      "asynquence-contrib": "^0.28.0",
       "electron": "^1.4.3",
       "minimist": "^1.2.0",
       "mocha": ">=2.2.5"
@@ -99,46 +117,25 @@
       "win32"
     ],
     "gitHead": "e025462083dd1140eed2519c449bc257482bc61b",
+    "_id": "msnodesqlv8@0.1.35",
     "scripts": {},
+    "_shasum": "7ef7b229b0abf09aeeb847df6eb249626b626669",
+    "_from": "msnodesqlv8@*",
     "_resolved": "https://registry.npmjs.org/msnodesqlv8/-/msnodesqlv8-0.1.35.tgz",
-    "dependencies": {},
-    "lastPublisher": {
+    "_npmVersion": "2.14.7",
+    "_nodeVersion": "4.2.3",
+    "_npmUser": {
       "name": "timelorduk",
       "email": "sjames8888@gmail.com"
     },
-    "owners": [
-      {
-        "name": "timelorduk",
-        "email": "sjames8888@gmail.com"
-      }
-    ],
-    "other": {
-      "_from": "msnodesqlv8@*",
-      "_id": "msnodesqlv8@0.1.35",
-      "_nodeVersion": "4.2.3",
-      "_npmUser": {
-        "name": "timelorduk",
-        "email": "sjames8888@gmail.com"
-      },
-      "_npmVersion": "2.14.7",
-      "_shasum": "7ef7b229b0abf09aeeb847df6eb249626b626669",
-      "author": {
-        "name": "Stephen James"
-      },
-      "bugs": {
-        "url": "https://github.com/TimelordUK/node-sqlserver-v8/issues"
-      },
-      "directories": {},
-      "dist": {
-        "shasum": "7ef7b229b0abf09aeeb847df6eb249626b626669",
-        "tarball": "http://registry.npmjs.org/msnodesqlv8/-/msnodesqlv8-0.1.35.tgz"
-      },
-      "maintainers": [
-        {
-          "name": "timelorduk",
-          "email": "sjames8888@gmail.com"
-        }
-      ]
+    "dist": {
+      "shasum": "7ef7b229b0abf09aeeb847df6eb249626b626669",
+      "tarball": "http://registry.npmjs.org/msnodesqlv8/-/msnodesqlv8-0.1.35.tgz"
+    },
+    "directories": {},
+    "dependencies": {
+      "@types/electron": "^1.4.31",
+      "@types/node": "^7.0.5"
     }
   },
   "packageStatus": 200,
@@ -186,5 +183,6 @@
   "svnUrl": "https://github.com/TimelordUK/node-sqlserver-v8",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:01:51.505Z"
+  "lastFetchedAt": "2017-05-04T18:01:51.505Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:35.523Z"
 }

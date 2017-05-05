@@ -174,24 +174,19 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "gholevas",
-      "repo": "mongomulch",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/gholevas/mongomulch/tarball/master",
-      "clone_url": "https://github.com/gholevas/mongomulch",
-      "https_url": "https://github.com/gholevas/mongomulch",
-      "travis_url": "https://travis-ci.org/gholevas/mongomulch",
-      "zip_url": "https://github.com/gholevas/mongomulch/archive/master.zip",
-      "api_url": "https://api.github.com/repos/gholevas/mongomulch"
+      "type": "git",
+      "url": "git+https://github.com/gholevas/mongomulch.git"
     },
     "keywords": [
       "mongodb",
       "seeder",
       "mongoose"
     ],
+    "author": "Team Mulch",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/gholevas/mongomulch/issues"
+    },
     "homepage": "https://mongomulch.com",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -293,5 +288,6 @@
   "filename": "sp6pe___mongomulch.json",
   "sourceRepo": "gholevas/mongomulch",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:32.802Z"
+  "lastFetchedAt": "2017-05-04T21:22:32.802Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:07.190Z"
 }

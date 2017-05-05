@@ -73,10 +73,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/quillaja/electroncalc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/quillaja/electroncalc"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "quillaja",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
     }
@@ -106,5 +110,6 @@
   },
   "filename": "quillaja___electroncalc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:12.783Z"
+  "lastFetchedAt": "2017-05-04T20:11:12.783Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:51.001Z"
 }

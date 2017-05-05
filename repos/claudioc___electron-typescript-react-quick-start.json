@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron dist/main.js"
     },
-    "repository": "https://github.com/claudioc/electron-typescript-react-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/claudioc/electron-typescript-react-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -88,6 +91,7 @@
       "react",
       "systemjs"
     ],
+    "author": "Claudio Cicali",
     "license": "MIT",
     "devDependencies": {
       "del": "^2.2.0",
@@ -132,5 +136,6 @@
   },
   "filename": "claudioc___electron-typescript-react-quick-start.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:48.625Z"
+  "lastFetchedAt": "2017-05-04T20:44:48.625Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:05.539Z"
 }

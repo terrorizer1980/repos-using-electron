@@ -69,6 +69,7 @@
       "vue:route": "node tasks/vue/route.js",
       "vuex:module": "node tasks/vuex/module.js"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -155,5 +156,6 @@
   "svnUrl": "https://github.com/artokun/navy-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:02:48.228Z"
+  "lastFetchedAt": "2017-05-04T05:02:48.228Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:02.215Z"
 }

@@ -70,8 +70,15 @@
       "bundle": "node ./tools/distribute.js",
       "dev-bundle": "node ./tools/distribute.js --dev"
     },
-    "repository": "https://github.com/livestyle/app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/livestyle/app.git"
+    },
+    "author": "Sergey Chikuyonok <serge.che@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/livestyle/app/issues"
+    },
     "homepage": "https://github.com/livestyle/app",
     "dependencies": {
       "browser-launcher2": "^0.4.5",
@@ -154,5 +161,6 @@
   },
   "filename": "livestyle___app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:39.074Z"
+  "lastFetchedAt": "2017-05-04T15:24:39.074Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:36.646Z"
 }

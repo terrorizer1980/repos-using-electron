@@ -95,8 +95,15 @@
       "start": "node main.js",
       "test": "mocha"
     },
-    "repository": "https://github.com/eduarevalo/legalhub",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eduarevalo/legalhub.git"
+    },
+    "author": "Eduardo Arevalo",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/eduarevalo/legalhub/issues"
+    },
     "homepage": "https://github.com/eduarevalo/legalhub#readme"
   },
   "packageStatus": 200,
@@ -124,5 +131,6 @@
   },
   "filename": "eduarevalo___legalhub.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:27:58.618Z"
+  "lastFetchedAt": "2017-05-04T14:27:58.618Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:55.868Z"
 }

@@ -92,26 +92,25 @@
       "package-all": "npm run package -- --all",
       "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\"",
-      "storybook": "concurrently \"start-storybook -p 6006\" \"electron http://localhost:6006\"",
+      "storybook": "concurrently \"start-storybook -p 6006\" \"electron -r babel-register -r babel-polyfill ./main.storybook\"",
       "build-storybook": "build-storybook"
     },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "chentsulin",
-      "repo": "electron-react-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate/tarball/master",
-      "clone_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "https_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "travis_url": "https://travis-ci.org/chentsulin/electron-react-boilerplate",
-      "zip_url": "https://github.com/chentsulin/electron-react-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -151,7 +150,7 @@
       "devtron": "^1.2.0",
       "electron-devtools-installer": "^1.1.5",
       "electron-packager": "^7.0.2",
-      "electron-prebuilt": "^1.2.3",
+      "electron-prebuilt": "^1.4.8",
       "electron-rebuild": "^1.1.4",
       "eslint": "^2.10.2",
       "eslint-config-airbnb": "^9.0.1",
@@ -187,6 +186,7 @@
       "css-modules-require-hook": "^4.0.0",
       "electron-debug": "^1.0.1",
       "font-awesome": "^4.6.3",
+      "fs": "0.0.1-security",
       "postcss": "^5.0.21",
       "react": "^15.1.0",
       "react-dom": "^15.1.0",
@@ -200,7 +200,8 @@
       "redux": "^3.5.2",
       "redux-thunk": "^2.1.0",
       "redux-ui": "0.0.15",
-      "source-map-support": "^0.4.0"
+      "source-map-support": "^0.4.0",
+      "uuid": "^3.0.1"
     },
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
@@ -233,5 +234,6 @@
   "filename": "meChrisReed___Unnamed-IDE.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:53.002Z"
+  "lastFetchedAt": "2017-05-04T18:04:53.002Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:13.219Z"
 }

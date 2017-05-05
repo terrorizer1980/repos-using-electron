@@ -87,7 +87,7 @@
   "status": 200,
   "packageJSON": {
     "name": "dti",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "description": "Command-line Electron Developer Tools Installer.",
     "main": "index.js",
     "bin": {
@@ -96,7 +96,10 @@
     "scripts": {
       "test": "dependency-check . && standard | snazzy"
     },
-    "repository": "https://github.com/hypermodules/dti",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hypermodules/dti.git"
+    },
     "keywords": [
       "cli",
       "electron",
@@ -105,19 +108,24 @@
       "tools",
       "installer"
     ],
+    "author": "Bret Comnes",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hypermodules/dti/issues"
+    },
     "homepage": "https://github.com/hypermodules/dti#readme",
     "dependencies": {
       "devtron": "^1.4.0",
-      "electron": "^1.4.4",
+      "electron": "^1.6.2",
       "electron-devtools-installer": "^2.0.1",
       "minimist": "^1.2.0",
-      "run-series": "^1.1.4"
+      "run-series": "^1.1.4",
+      "update-notifier": "^2.1.0"
     },
     "devDependencies": {
-      "dependency-check": "^2.6.0",
-      "snazzy": "^5.0.0",
-      "standard": "^8.5.0"
+      "dependency-check": "^2.7.0",
+      "snazzy": "^7.0.0",
+      "standard": "^10.0.2"
     }
   },
   "packageStatus": 200,
@@ -148,5 +156,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T18:23:02.646Z"
+  "lastFetchedAt": "2017-05-04T18:23:02.646Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:32.814Z"
 }

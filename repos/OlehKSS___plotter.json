@@ -81,8 +81,15 @@
       "start": "electron .",
       "build": "rimraf dist && webpack --config config/webpack.prod.js --progress --profile --bail && electron ."
     },
-    "repository": "https://github.com/OlehKSS/plotter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OlehKSS/plotter.git"
+    },
+    "author": "OlehKSS",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/OlehKSS/plotter/issues"
+    },
     "homepage": "https://github.com/OlehKSS/plotter#readme",
     "devDependencies": {
       "@types/core-js": "^0.9.34",
@@ -146,5 +153,6 @@
   },
   "filename": "OlehKSS___plotter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:25:06.073Z"
+  "lastFetchedAt": "2017-05-04T15:25:06.073Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:53.398Z"
 }

@@ -173,15 +173,20 @@
   "status": 200,
   "packageJSON": {
     "name": "Tofino",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "private": true,
+    "author": {
+      "name": "Mozilla",
+      "email": "tofino-dev@mozilla.org",
+      "url": "https://mozilla.github.io/tofino/"
+    },
     "description": "Project Tofino",
     "main": "lib/main/index.js",
     "repository": "https://github.com/mozilla/tofino",
     "_electron": {
       "mirror": "https://mozilla-releng-tofino.s3.amazonaws.com/mozilla/tofino-electron/",
-      "version": "1.4.2",
-      "revision": "2411bcad21ee"
+      "version": "1.4.7",
+      "revision": "69bf3d064f26"
     },
     "scripts": {
       "clobber": "rm -r node_modules; rm -r app/node_modules; rm app/build-config.json; rm -r .electron; rm -r lib",
@@ -228,7 +233,7 @@
       "reduce-reducers": "0.1.2",
       "redux": "3.6.0",
       "redux-immutable": "3.0.8",
-      "redux-logger": "2.7.2",
+      "redux-logger": "2.7.4",
       "redux-saga": "0.12.1",
       "source-map-support": "ncalexan/node-source-map-support#fileUrls-plus",
       "tmp": "0.0.29",
@@ -260,9 +265,9 @@
       "coveralls": "2.11.14",
       "cross-env": "3.1.3",
       "dirsum": "0.1.1",
-      "electron-builder": "7.21.0",
+      "electron-builder": "7.24.1",
       "electron-download": "2.1.2",
-      "electron-mocha": "3.1.1",
+      "electron-mocha": "3.2.0",
       "eslint": "3.8.0",
       "eslint-config-airbnb": "11.2.0",
       "eslint-plugin-babel": "3.3.0",
@@ -271,8 +276,9 @@
       "eslint-plugin-react": "6.5.0",
       "expect": "1.20.2",
       "extract-zip": "1.5.0",
-      "fs-promise": "0.5.0",
+      "fs-promise": "1.0.0",
       "glob": "7.1.1",
+      "jsdom": "9.8.3",
       "json-loader": "0.5.4",
       "mocha": "3.1.2",
       "nyc": "8.4.0",
@@ -280,7 +286,7 @@
       "rimraf": "2.5.4",
       "semver": "5.2.0",
       "sha1": "1.1.1",
-      "spectron": "3.3.0",
+      "spectron": "3.4.0",
       "thenify-all": "1.6.0",
       "uglify-js": "github:mishoo/UglifyJS2#harmony",
       "webpack": "1.13.3",
@@ -353,5 +359,6 @@
   },
   "filename": "bgrins___tofino.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:14.292Z"
+  "lastFetchedAt": "2017-05-04T21:14:14.292Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:23.530Z"
 }

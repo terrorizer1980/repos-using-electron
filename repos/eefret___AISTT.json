@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/eefret/AISTT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/eefret/AISTT.git"
+    },
     "keywords": [
       "Electron",
       "Android",
@@ -62,7 +65,11 @@
       "Translation",
       "Tool"
     ],
+    "author": "Christopher T. Herrera(eefretsoul@gmail.com), Cristian Gomez(cjgm23@gmail.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/eefret/AISTT/issues"
+    },
     "homepage": "https://github.com/eefret/AISTT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/eefret/AISTT",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:07:26.683Z"
+  "lastFetchedAt": "2017-05-04T21:07:26.683Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:00.175Z"
 }

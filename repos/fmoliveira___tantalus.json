@@ -93,7 +93,10 @@
       "watch:css": "stylus -w src/styles/tantalus.styl --include-css --out dist/css/",
       "watch:js-app": "watchify src/app/app.js --outfile dist/js/bundle.js --verbose"
     },
-    "repository": "https://github.com/fmoliveira/tantalus",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fmoliveira/tantalus.git"
+    },
     "keywords": [
       "evernote",
       "alternative",
@@ -104,7 +107,11 @@
       "lists",
       "to do"
     ],
+    "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fmoliveira/tantalus/issues"
+    },
     "homepage": "https://github.com/fmoliveira/tantalus#readme",
     "devDependencies": {
       "browserify": "^13.0.1",
@@ -150,5 +157,6 @@
   },
   "filename": "fmoliveira___tantalus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:14:01.725Z"
+  "lastFetchedAt": "2017-05-04T18:14:01.725Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:50.162Z"
 }

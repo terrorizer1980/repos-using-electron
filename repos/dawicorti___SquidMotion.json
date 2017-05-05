@@ -61,14 +61,21 @@
       "start": "electron boot/main.js",
       "test": "mocha"
     },
-    "repository": "https://github.com/dawicorti/SquidMotion",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/dawicorti/SquidMotion.git"
+    },
     "keywords": [
       "animation",
       "svg",
       "motion",
       "squid"
     ],
+    "author": "David Corticchiato",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/dawicorti/SquidMotion/issues"
+    },
     "homepage": "https://github.com/dawicorti/SquidMotion#readme",
     "devDependencies": {
       "electron-prebuilt": "1.2.5",
@@ -145,5 +152,6 @@
   "svnUrl": "https://github.com/dawee/SquidMotion",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:26:41.786Z"
+  "lastFetchedAt": "2017-05-04T21:26:41.786Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:46.184Z"
 }

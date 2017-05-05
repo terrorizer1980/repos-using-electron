@@ -75,9 +75,10 @@
   "packageJSON": {
     "name": "FTT",
     "version": "1.0.0",
-    "description": "Functional testing tools",
-    "main": "main.js",
+    "description": "Functional Testing Tools",
+    "main": "index.js",
     "license": "Apache",
+    "author": "Antomonov Alex",
     "scripts": {
       "start": "electron .",
       "compile": "rimraf build/out",
@@ -87,11 +88,8 @@
       "build": "electron-packager . FTT --all --app-version=1.0.0 --overwrite --out=distributive --ignore=distributive --prune"
     },
     "build": {
-      "appId": "org.binjo.shots",
-      "category": "graphics",
-      "build.mac.category": "---",
-      "maintainer": "Suomaa",
-      "copyright": "Copyright © 2016 Suomaa",
+      "maintainer": "Antomonov Alex",
+      "copyright": "Copyright © 2017 Antomonov Alex",
       "linux": {
         "target": [
           "AppImage",
@@ -105,8 +103,7 @@
       "electron": "1.4.5",
       "electron-builder": "^8.6.0",
       "rimraf": "^2.5.4"
-    },
-    "dependencies": {}
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -132,5 +129,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:21.317Z"
+  "lastFetchedAt": "2017-05-04T17:54:21.317Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:27.828Z"
 }

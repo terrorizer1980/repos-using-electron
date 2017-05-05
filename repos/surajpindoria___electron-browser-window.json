@@ -73,13 +73,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-browser-window",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-browser-window.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Suraj Pindoria",
+    "bugs": {
+      "url": "https://github.com/electron/electron-browser-window/issues"
+    },
     "homepage": "https://github.com/electron/electron-browser-window#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -110,5 +117,6 @@
   },
   "filename": "surajpindoria___electron-browser-window.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:29:08.492Z"
+  "lastFetchedAt": "2017-05-04T19:29:08.492Z",
+  "packageLastFetchedAt": "2017-05-05T17:54:30.024Z"
 }

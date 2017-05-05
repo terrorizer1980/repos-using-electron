@@ -246,24 +246,19 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "Zhangdroid",
-      "repo": "Gokotta",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Zhangdroid/Gokotta/tarball/master",
-      "clone_url": "https://github.com/Zhangdroid/Gokotta",
-      "https_url": "https://github.com/Zhangdroid/Gokotta",
-      "travis_url": "https://travis-ci.org/Zhangdroid/Gokotta",
-      "zip_url": "https://github.com/Zhangdroid/Gokotta/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Zhangdroid/Gokotta"
+      "type": "git",
+      "url": "git+https://github.com/Zhangdroid/Gokotta.git"
     },
     "keywords": [
       "vue",
       "electron",
       "player"
     ],
+    "author": "Zhangdroid <contrary.zhuo@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Zhangdroid/Gokotta/issues"
+    },
     "homepage": "https://github.com/Zhangdroid/Gokotta#readme",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -354,5 +349,6 @@
   "svnUrl": "https://github.com/Allen3039/Gokotta",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:03:35.210Z"
+  "lastFetchedAt": "2017-05-04T21:03:35.210Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:51.564Z"
 }

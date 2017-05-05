@@ -80,14 +80,21 @@
       "build": "webpack",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "dependencies": {
       "@salesforce-ux/design-system": "^0.12.2",
@@ -130,5 +137,6 @@
   },
   "filename": "zaki-yama___electron-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:49.741Z"
+  "lastFetchedAt": "2017-05-04T16:45:49.741Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:20.567Z"
 }

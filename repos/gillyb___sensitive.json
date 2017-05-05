@@ -59,13 +59,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/gillyb/sensitive",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gillyb/sensitive"
+    },
     "keywords": [
       "kibana",
       "elasticsearch",
       "sense",
       "Electron"
     ],
+    "author": "Gilly Barr",
     "license": "Apache 2.0",
     "homepage": "https://github.com/gillyb/sensitive",
     "devDependencies": {
@@ -117,5 +121,6 @@
   "svnUrl": "https://github.com/gillyb/sensitive",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:27:11.302Z"
+  "lastFetchedAt": "2017-05-04T18:27:11.302Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:52.250Z"
 }

@@ -67,5 +67,15 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:56:49.645Z"
+  "lastFetchedAt": "2017-05-04T19:56:49.645Z",
+  "packageJSON": {
+    "name": "pastesave",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+      "electron": "latest"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:42:43.222Z"
 }

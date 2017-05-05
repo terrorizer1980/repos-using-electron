@@ -79,13 +79,20 @@
     "scripts": {
       "test": "test"
     },
-    "repository": "https://github.com/zalexou/webprinter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zalexou/webprinter.git"
+    },
     "keywords": [
       "web",
       "pdf",
       "png"
     ],
+    "author": "zalexou",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/zalexou/webprinter/issues"
+    },
     "homepage": "https://github.com/zalexou/webprinter#readme",
     "dependencies": {
       "async": "^2.0.1",
@@ -123,5 +130,6 @@
   },
   "filename": "zalexou___webprinter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:12.409Z"
+  "lastFetchedAt": "2017-05-04T19:45:12.409Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:23.093Z"
 }

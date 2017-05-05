@@ -190,24 +190,19 @@
       "release": "node ./script/release.js"
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-api-demos",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-api-demos/tarball/master",
-      "clone_url": "https://github.com/electron/electron-api-demos",
-      "https_url": "https://github.com/electron/electron-api-demos",
-      "travis_url": "https://travis-ci.org/electron/electron-api-demos",
-      "zip_url": "https://github.com/electron/electron-api-demos/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-api-demos"
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-api-demos.git"
     },
     "keywords": [
       "Electron",
       "API",
       "demo"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-api-demos/issues"
+    },
     "homepage": "https://github.com/electron/electron-api-demos#readme",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -282,5 +277,6 @@
   "svnUrl": "https://github.com/ArvinXiao/electron-api-demos",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:19:22.580Z"
+  "lastFetchedAt": "2017-05-04T15:19:22.580Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:51.941Z"
 }

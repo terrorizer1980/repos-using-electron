@@ -63,7 +63,11 @@
     "keywords": [
       "clipboard-manager"
     ],
-    "repository": "https://github.com/dmfarcas/clipboard-manager",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dmfarcas/clipboard-manager"
+    },
+    "author": "Dan Farcas <dan@farcas.me>",
     "license": "GPL-3.0",
     "dependencies": {
       "electron-prebuilt": "^0.36.1",
@@ -125,5 +129,6 @@
   },
   "filename": "dmfarcas___clipboard-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:44.202Z"
+  "lastFetchedAt": "2017-05-04T14:26:44.202Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:40.480Z"
 }

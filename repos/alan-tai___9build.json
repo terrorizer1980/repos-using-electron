@@ -87,8 +87,15 @@
       "9chat",
       "chat"
     ],
+    "author": "Alan Tai <alan@9gag.com>",
     "license": "Apache-2.0",
-    "repository": "https://github.com/alan-tai/9build",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/alan-tai/9build.git"
+    },
+    "bugs": {
+      "url": "https://github.com/alan-tai/9build/issues"
+    },
     "devDependencies": {
       "babel-eslint": "^7.0.0",
       "electron": "^1.4.4",
@@ -145,5 +152,6 @@
   },
   "filename": "alan-tai___9build.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:21:59.645Z"
+  "lastFetchedAt": "2017-05-04T05:21:59.645Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:30.892Z"
 }

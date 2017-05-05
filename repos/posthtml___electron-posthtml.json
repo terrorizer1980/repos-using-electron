@@ -102,7 +102,17 @@
       "Electron",
       "Electron Protocol API"
     ],
-    "repository": "https://github.com/posthtml/electron-posthtml",
+    "author": {
+      "name": "Michael Ciniawsky",
+      "email": "<michael.ciniawsky@gmail.com>"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/posthtml/electron-posthtml.git"
+    },
+    "bugs": {
+      "url": "https://github.com/posthtml/electron-posthtml/issues"
+    },
     "homepage": "https://github.com/posthtml/electron-posthtml#readme",
     "license": "MIT"
   },
@@ -131,5 +141,6 @@
   },
   "filename": "posthtml___electron-posthtml.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:51.691Z"
+  "lastFetchedAt": "2017-05-04T16:41:51.691Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:18.196Z"
 }

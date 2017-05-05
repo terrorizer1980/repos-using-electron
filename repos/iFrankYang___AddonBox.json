@@ -60,7 +60,14 @@
       "lint": "eslint app/**/*.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/codebearx/AddonBox",
+    "author": "Frank Yang <codebear4@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/codebearx/AddonBox"
+    },
+    "bugs": {
+      "url": "https://github.com/codebearx/AddonBox/issues"
+    },
     "license": "MIT",
     "devDependencies": {
       "appdmg": "^0.3.6",
@@ -155,5 +162,6 @@
   "svnUrl": "https://github.com/codebear4/AddonBox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:56:40.990Z"
+  "lastFetchedAt": "2017-05-04T17:56:40.990Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:19.309Z"
 }

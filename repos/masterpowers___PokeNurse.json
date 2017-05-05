@@ -189,23 +189,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "vinnymac",
-      "repo": "PokeNurse",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/vinnymac/PokeNurse/tarball/master",
-      "clone_url": "https://github.com/vinnymac/PokeNurse",
-      "https_url": "https://github.com/vinnymac/PokeNurse",
-      "travis_url": "https://travis-ci.org/vinnymac/PokeNurse",
-      "zip_url": "https://github.com/vinnymac/PokeNurse/archive/master.zip",
-      "api_url": "https://api.github.com/repos/vinnymac/PokeNurse"
+      "type": "git",
+      "url": "git+https://github.com/vinnymac/PokeNurse.git"
     },
     "keywords": [
       "pokemon",
       "go"
     ],
+    "author": "duhminick",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vinnymac/PokeNurse/issues"
+    },
     "homepage": "https://github.com/vinnymac/PokeNurse#readme",
     "devDependencies": {
       "asar": "0.12.2",
@@ -318,5 +313,6 @@
   "filename": "masterpowers___PokeNurse.json",
   "sourceRepo": "vinnymac/PokeNurse",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:15.520Z"
+  "lastFetchedAt": "2017-05-04T15:20:15.520Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:07.177Z"
 }

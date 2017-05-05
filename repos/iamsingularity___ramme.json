@@ -187,5 +187,47 @@
   "networkCount": 173,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:21:55.413Z"
+  "lastFetchedAt": "2017-05-04T20:21:55.413Z",
+  "packageJSON": {
+    "repository": "terkelg/ramme",
+    "author": "Terkel Gjervig",
+    "license": "MIT",
+    "scripts": {
+      "test": "standard",
+      "build": "gulp build",
+      "prestart": "npm run build",
+      "start": "electron app",
+      "pack": "npm run build && build --dir",
+      "dist": "npm run build && build"
+    },
+    "build": {
+      "appId": "com.terkel.ramme",
+      "mac": {
+        "category": "public.app-category.social-networking"
+      },
+      "linux": {
+        "target": [
+          "deb",
+          "AppImage"
+        ]
+      }
+    },
+    "devDependencies": {
+      "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+      "del": "^2.2.2",
+      "electron": "^1.4.5",
+      "electron-builder": "^11.3.0",
+      "gulp": "github:gulpjs/gulp#4.0",
+      "gulp-babel": "^6.1.2",
+      "gulp-sass": "^3.1.0",
+      "standard": "^8.5.0"
+    },
+    "babel": {
+      "plugins": [
+        "transform-es2015-modules-commonjs"
+      ]
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:40:50.961Z"
 }

@@ -66,24 +66,19 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-material",
-    "version": "1.0.0",
-    "description": "Electron Material Design Sample.",
-    "main": "main.js",
+    "name": "electron_base",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron index.js"
     },
-    "repository": "https://github.com/7thCode/electron-material",
-    "keywords": [
-      "Electron",
-      "Material",
-      "start",
-      "tutorial"
-    ],
-    "license": "CC0-1.0",
-    "homepage": "https://github.com/7thCode/electron-material#readme",
-    "devDependencies": {
-      "electron-prebuilt": "^1.0.1"
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+      "electron": "^1.4.12",
+      "request": "^2.79.0"
     }
   },
   "packageStatus": 200,
@@ -111,5 +106,6 @@
   },
   "filename": "7thCode___electron-material.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:50:56.854Z"
+  "lastFetchedAt": "2017-05-04T19:50:56.854Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:25.200Z"
 }

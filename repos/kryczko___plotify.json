@@ -54,9 +54,16 @@
       "start": "electron main.js",
       "watch": "webpack --watch"
     },
-    "repository": "https://github.com/kryczko/proplot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kryczko/proplot.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/kryczko/proplot/issues"
+    },
     "homepage": "https://github.com/kryczko/proplot#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -124,5 +131,6 @@
   },
   "filename": "kryczko___plotify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:47.966Z"
+  "lastFetchedAt": "2017-05-04T19:51:47.966Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:23.032Z"
 }

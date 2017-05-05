@@ -79,7 +79,11 @@
       "Sticky",
       "Notes"
     ],
-    "repository": "https://github.com/antoniogil/StickyNotes",
+    "author": "Antonio Gil",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/antoniogil/StickyNotes.git"
+    },
     "license": "MIT",
     "dependencies": {
       "angular": "^1.5.8",
@@ -120,5 +124,6 @@
   },
   "filename": "antoniogil___StickyNotes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:29.328Z"
+  "lastFetchedAt": "2017-05-04T05:27:29.328Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:33.263Z"
 }

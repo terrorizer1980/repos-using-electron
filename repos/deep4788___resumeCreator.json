@@ -72,25 +72,41 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-quick-start",
+    "name": "resumecreator",
+    "productName": "ResumeCreator",
     "version": "1.0.0",
-    "description": "A minimal Electron application",
-    "main": "main.js",
-    "scripts": {
-      "start": "electron ."
+    "description": "An application that lets you create your resume with ease; no headaches of formatting.",
+    "author": "Deep Aggarwal <deep.uiuc@gmail.com>",
+    "engines": {
+      "node": "4.6.0",
+      "npm": "2.15.9"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "main": "app",
+    "scripts": {
+      "package-osx": "electron-packager . --out=dist --overwrite --platform=darwin --arch=x64 --icon=resources/app-icons/stable/rc.icns && cp -r dist/ResumeCreator-darwin-x64/ResumeCreator.app /Applications",
+      "start": "electron app"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/deep4788/resumeCreator"
+    },
     "keywords": [
-      "Electron",
-      "quick",
-      "start",
-      "tutorial",
-      "demo"
+      "electron",
+      "node.js",
+      "resume",
+      "portfolio",
+      "creator",
+      "generator",
+      "handlebars"
     ],
-    "license": "CC0-1.0",
-    "devDependencies": {
-      "electron": "^1.4.1"
-    }
+    "dependencies": {
+      "electron": "^1.4.1",
+      "electron-packager": "8.3.0",
+      "fs.extra": "1.3.2",
+      "handlebars": "4.0.6",
+      "jsonfile": "2.4.0"
+    },
+    "license": "MIT"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -117,5 +133,6 @@
   },
   "filename": "deep4788___resumeCreator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:11.722Z"
+  "lastFetchedAt": "2017-05-04T16:45:11.722Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:19.197Z"
 }

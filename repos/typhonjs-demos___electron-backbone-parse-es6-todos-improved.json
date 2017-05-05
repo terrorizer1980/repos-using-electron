@@ -71,7 +71,10 @@
     "homepage": "https://github.com/typhonjs-demos/electron-backbone-parse-es6-todos-improved",
     "description": "Creates a desktop app using Electron from electron-backbone-parse-es6-todos-improved.",
     "license": "MIT",
-    "repository": "https://github.com/typhonjs-demos/electron-backbone-parse-es6-todos-improved",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/typhonjs-demos/electron-backbone-parse-es6-todos-improved.git"
+    },
     "jspm": {
       "dependencies": {
         "backbone-parse-es6-todos-improved": "github:typhonjs-demos/backbone-parse-es6-todos-improved@master"
@@ -153,5 +156,6 @@
   "svnUrl": "https://github.com/typhonjs-demos-deploy-electron/electron-backbone-parse-es6-todos-improved",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:58:30.151Z"
+  "lastFetchedAt": "2017-05-04T20:58:30.151Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:03.576Z"
 }

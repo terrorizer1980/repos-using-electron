@@ -57,6 +57,11 @@
     "description": "Create a pane style window, no frame, no titlebar, stick the window on the sides of screen",
     "license": "MIT",
     "repository": "ragingwind/electron-pane-window",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -137,5 +142,6 @@
   "svnUrl": "https://github.com/ragingwind/electron-pane-window",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:36:21.058Z"
+  "lastFetchedAt": "2017-05-04T17:36:21.058Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:44.686Z"
 }

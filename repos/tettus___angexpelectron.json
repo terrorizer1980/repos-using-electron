@@ -76,6 +76,7 @@
     "version": "1.0.0",
     "description": "Tettu",
     "main": "index.js",
+    "author": "Sudharsan",
     "scripts": {
       "typings-install": "typings install",
       "postinstall": "npm run typings-install && install-app-deps",
@@ -136,7 +137,10 @@
       "Electron Angular2",
       "Express"
     ],
-    "repository": "https://github.com/tettus/angexpelectron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tettus/angexpelectron.git"
+    },
     "build": {
       "appId": "tettu",
       "app-category-type": "CRM",
@@ -170,5 +174,6 @@
   },
   "filename": "tettus___angexpelectron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:23:51.179Z"
+  "lastFetchedAt": "2017-05-04T15:23:51.179Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:56.491Z"
 }

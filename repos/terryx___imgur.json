@@ -62,12 +62,19 @@
       "electron": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/terryx/react-webpack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/terryx/react-webpack.git"
+    },
     "keywords": [
       "react",
       "webpack"
     ],
+    "author": "Terry Yuen",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/terryx/react-webpack/issues"
+    },
     "homepage": "https://github.com/terryx/react-webpack#readme",
     "devDependencies": {
       "babel-core": "^5.8.25",
@@ -139,5 +146,6 @@
   },
   "filename": "terryx___imgur.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:07:46.684Z"
+  "lastFetchedAt": "2017-05-03T20:07:46.684Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:12.974Z"
 }

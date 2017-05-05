@@ -125,17 +125,8 @@
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
     "repository": {
-      "user": "patbonecrusher",
-      "repo": "workflow",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/patbonecrusher/workflow/tarball/master",
-      "clone_url": "https://github.com/patbonecrusher/workflow",
-      "https_url": "https://github.com/patbonecrusher/workflow",
-      "travis_url": "https://travis-ci.org/patbonecrusher/workflow",
-      "zip_url": "https://github.com/patbonecrusher/workflow/archive/master.zip",
-      "api_url": "https://api.github.com/repos/patbonecrusher/workflow"
+      "type": "git",
+      "url": "git+https://github.com/patbonecrusher/workflow.git"
     },
     "keywords": [
       "Electron",
@@ -143,7 +134,11 @@
       "start",
       "tutorial"
     ],
+    "author": "bonecrusher",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/patbonecrusher/workflow/issues"
+    },
     "homepage": "https://github.com/patbonecrusher/workflow#readme"
   },
   "packageStatus": 200,
@@ -172,5 +167,6 @@
   "filename": "patbonecrusher___workflow.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:27:07.651Z"
+  "lastFetchedAt": "2017-05-04T18:27:07.651Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:45.411Z"
 }

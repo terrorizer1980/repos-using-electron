@@ -56,7 +56,10 @@
     "version": "0.1.4",
     "description": "2D Game Sprite & Animation Editor",
     "main": "dist/electron.js",
-    "repository": "https://github.com/cantidio/node-gorgon-editor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cantidio/node-gorgon-editor"
+    },
     "keywords": [
       "react",
       "reactjs",
@@ -105,7 +108,11 @@
         "<rootDir>/node_modules/react-addons-test-utils"
       ]
     },
+    "author": "Cantidio Fontes <aniquilatorbloody@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cantidio/node-gorgon-editor/issues"
+    },
     "dependencies": {
       "react": "^0.14.7",
       "react-dom": "^0.14.7",
@@ -188,5 +195,6 @@
   },
   "filename": "cantidio___node-gorgon-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:04:29.709Z"
+  "lastFetchedAt": "2017-05-04T20:04:29.709Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:41.711Z"
 }

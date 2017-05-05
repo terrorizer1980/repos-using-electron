@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for commander goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.12.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.5",
@@ -183,5 +188,6 @@
   },
   "filename": "systembugtj___commander-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:34.047Z"
+  "lastFetchedAt": "2017-05-04T05:01:34.047Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:40.902Z"
 }

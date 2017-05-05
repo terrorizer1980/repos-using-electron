@@ -73,12 +73,17 @@
   "status": 200,
   "packageJSON": {
     "name": "Simplex-Electron",
-    "version": "0.0.1",
-    "description": "",
+    "version": "0.0.3",
+    "description": "IDE prototype for the Simplex language (master thesis in computer science).",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node_modules/.bin/electron main.js"
+      "test": "jest assignment.test.js --coverage --no-cache",
+      "start": "node_modules\\.bin\\electron main.js"
+    },
+    "jest": {
+      "testPathDirs": [
+        "tests"
+      ]
     },
     "repository": {
       "type": "git",
@@ -92,10 +97,26 @@
     },
     "homepage": "https://github.com/fdeitelhoff/Simplex-Electron#readme",
     "devDependencies": {
-      "angular": "^1.5.8",
-      "angular-ui-bootstrap": "^2.1.4",
-      "electron": "^1.4.1",
-      "monaco-editor": "^0.6.1"
+      "electron-rebuild": "^1.5.7",
+      "node-gyp": "^3.5.0",
+      "node-pre-gyp": "^0.6.33",
+      "jest": "18.1.0"
+    },
+    "dependencies": {
+      "angular": "^1.6.1",
+      "angular-smart-table": "^2.1.8",
+      "angular-ui-bootstrap": "^2.5.0",
+      "antlr4": "^4.6.0",
+      "bluetooth-serial-port": "^2.1.1",
+      "bootstrap": "^3.3.7",
+      "electron": "^1.4.14",
+      "hexy": "^0.2.8",
+      "monaco-editor": "^0.8.1",
+      "pngjs": "^3.0.0",
+      "pngjs-image": "^0.11.7",
+      "serialport": "^4.0.7",
+      "sprintf-js": "^1.0.3",
+      "usb": "latest"
     }
   },
   "packageStatus": 200,
@@ -123,5 +144,6 @@
   },
   "filename": "fdeitelhoff___Simplex-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:21:32.241Z"
+  "lastFetchedAt": "2017-05-04T20:21:32.241Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:16.391Z"
 }

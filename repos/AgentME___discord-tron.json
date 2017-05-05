@@ -84,12 +84,16 @@
       "lint-fix": "eslint . --fix"
     },
     "bin": "./bin/cli.js",
-    "repository": "https://github.com/AgentME/discord-tron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AgentME/discord-tron/"
+    },
     "keywords": [
       "discord",
       "electron",
       "client"
     ],
+    "author": "Chris Cowan <agentme49@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "closest-ng": "^1.0.0",
@@ -125,5 +129,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:39.929Z"
+  "lastFetchedAt": "2017-05-04T19:58:39.929Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:51.263Z"
 }

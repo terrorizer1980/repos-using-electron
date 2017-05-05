@@ -80,17 +80,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "btaylor",
-      "repo": "bethradio",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/btaylor/bethradio/tarball/master",
-      "clone_url": "https://github.com/btaylor/bethradio",
-      "https_url": "https://github.com/btaylor/bethradio",
-      "travis_url": "https://travis-ci.org/btaylor/bethradio",
-      "zip_url": "https://github.com/btaylor/bethradio/archive/master.zip",
-      "api_url": "https://api.github.com/repos/btaylor/bethradio"
+      "type": "git",
+      "url": "git+https://github.com/btaylor/bethradio"
     },
     "keywords": [
       "Electron",
@@ -98,7 +89,11 @@
       "weather",
       "Rpi"
     ],
+    "author": "Bob Taylor",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/btaylor84/bethradio/issues"
+    },
     "homepage": "https://github.com/btaylor84/bethradio#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.7"
@@ -136,5 +131,6 @@
   "filename": "btaylor84___bethradio.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:45.251Z"
+  "lastFetchedAt": "2017-05-04T21:19:45.251Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:33.062Z"
 }

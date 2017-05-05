@@ -81,5 +81,22 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:06:42.891Z"
+  "lastFetchedAt": "2017-05-04T18:06:42.891Z",
+  "packageJSON": {
+    "name": "electron-git-watch",
+    "version": "1.0.0",
+    "private": true,
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "^1.4.1"
+    },
+    "dependencies": {
+      "reconnecting-websocket": "^3.0.3"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:35:41.372Z"
 }

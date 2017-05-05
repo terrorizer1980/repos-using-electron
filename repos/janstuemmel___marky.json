@@ -74,12 +74,19 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/janstuemmel/marky",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/janstuemmel/marky.git"
+    },
     "keywords": [
       "markdown",
       "editor"
     ],
+    "author": "Jan Stümmel",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/janstuemmel/marky/issues"
+    },
     "homepage": "https://github.com/janstuemmel/marky#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5"
@@ -113,5 +120,6 @@
   },
   "filename": "janstuemmel___marky.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:53.215Z"
+  "lastFetchedAt": "2017-05-04T20:19:53.215Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:39.090Z"
 }

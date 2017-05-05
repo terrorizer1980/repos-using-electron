@@ -79,14 +79,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "drs",
     "license": "none",
+    "bugs": "",
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -136,5 +141,6 @@
   },
   "filename": "drsdrs___canvas2Video.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:29:21.418Z"
+  "lastFetchedAt": "2017-05-04T19:29:21.418Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:54.218Z"
 }

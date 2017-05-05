@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/ruanyl/handy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ruanyl/handy.git"
+    },
+    "author": {
+      "name": "Yulong Ruan",
+      "email": "ruanyu1@gmail.com",
+      "url": "https://github.com/ruanyl"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ruanyl/handy/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -199,5 +210,6 @@
   },
   "filename": "ruanyl___handy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:06.621Z"
+  "lastFetchedAt": "2017-05-04T14:46:06.621Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:56.051Z"
 }

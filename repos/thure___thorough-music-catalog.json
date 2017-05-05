@@ -59,8 +59,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/thure/thorough-music-catalog",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thure/thorough-music-catalog.git"
+    },
+    "author": "Will Shown <w@willshown.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/thure/thorough-music-catalog/issues"
+    },
     "homepage": "https://github.com/thure/thorough-music-catalog#readme",
     "dependencies": {
       "electron-prebuilt": "latest"
@@ -111,5 +118,6 @@
   },
   "filename": "thure___thorough-music-catalog.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:13.118Z"
+  "lastFetchedAt": "2017-05-04T05:32:13.118Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:25.382Z"
 }

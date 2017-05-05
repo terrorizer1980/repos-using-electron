@@ -54,6 +54,7 @@
   "packageJSON": {
     "name": "electroshell",
     "version": "0.0.1",
+    "author": "David Wilson",
     "license": "MIT",
     "description": "An experimental PowerShell console hosted in Electron.",
     "main": "out/main.js",
@@ -62,12 +63,18 @@
       "compile": "webpack",
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
-    "repository": "https://github.com/daviwil/electroshell",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/daviwil/electroshell.git"
+    },
     "keywords": [
       "PowerShell",
       "console",
       "REPL"
     ],
+    "bugs": {
+      "url": "https://github.com/daviwil/electroshell/issues"
+    },
     "homepage": "https://github.com/daviwil/electroshell",
     "dependencies": {
       "babel-loader": "^6.2.1",
@@ -133,5 +140,6 @@
   "svnUrl": "https://github.com/daviwil/electroshell",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:18:50.644Z"
+  "lastFetchedAt": "2017-05-04T18:18:50.644Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:38.302Z"
 }

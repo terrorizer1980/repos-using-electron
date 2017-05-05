@@ -73,10 +73,17 @@
   "status": 200,
   "packageJSON": {
     "name": "mu-pdf-viewer",
-    "repository": "https://github.com/azu/mu-pdf-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/azu/mu-pdf-viewer.git"
+    },
+    "author": "azu",
     "email": "azuciao@gmail.com",
     "homepage": "https://github.com/azu/mu-pdf-viewer",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/azu/mu-pdf-viewer/issues"
+    },
     "files": [
       "src/",
       "lib/",
@@ -92,6 +99,9 @@
     "build": {
       "appId": "info.efcl.pdf-viewer",
       "category": "util"
+    },
+    "directories": {
+      "test": "test"
     },
     "scripts": {
       "electron:build:osx": "npm run build && electron-zip-packager . --platform=darwin --arch=x64 --prune --out=dist",
@@ -182,5 +192,6 @@
   },
   "filename": "azu___mu-pdf-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:31:57.272Z"
+  "lastFetchedAt": "2017-05-04T18:31:57.272Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:04.173Z"
 }

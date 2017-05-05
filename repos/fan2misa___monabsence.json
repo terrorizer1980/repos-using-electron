@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/fan2misa/monabsence",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fan2misa/monabsence.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fan2misa/monabsence/issues"
+    },
     "homepage": "https://github.com/fan2misa/monabsence#readme",
     "dependencies": {
       "docxtemplater": "^2.1.5",
@@ -114,5 +121,6 @@
   },
   "filename": "fan2misa___monabsence.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:01.777Z"
+  "lastFetchedAt": "2017-05-04T20:32:01.777Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:55.851Z"
 }

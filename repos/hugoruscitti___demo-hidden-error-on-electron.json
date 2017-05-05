@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for demo-hidden-error-on-electron goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -176,5 +181,6 @@
   },
   "filename": "hugoruscitti___demo-hidden-error-on-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:04:59.689Z"
+  "lastFetchedAt": "2017-05-04T20:04:59.689Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:59.556Z"
 }

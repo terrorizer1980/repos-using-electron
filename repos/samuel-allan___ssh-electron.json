@@ -88,8 +88,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/samuel-allan/ssh-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/samuel-allan/ssh-electron.git"
+    },
+    "author": "Samuel Allan <naclo3samuel@gmail.com>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/samuel-allan/ssh-electron/issues"
+    },
     "homepage": "https://github.com/samuel-allan/ssh-electron#readme"
   },
   "packageStatus": 200,
@@ -116,5 +123,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:13.665Z"
+  "lastFetchedAt": "2017-05-04T05:35:13.665Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:16.037Z"
 }

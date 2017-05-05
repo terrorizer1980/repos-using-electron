@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/tkinali/FTP-Editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tkinali/FTP-Editor.git"
+    },
     "keywords": [
       "ftp",
       "editor"
     ],
+    "author": "Tuncay KINALI",
     "license": "GPL",
+    "bugs": {
+      "url": "https://github.com/tkinali/FTP-Editor/issues"
+    },
     "homepage": "https://github.com/tkinali/FTP-Editor#readme",
     "devDependencies": {
       "electron": "^1.3.4"
@@ -120,5 +127,6 @@
   },
   "filename": "tkinali___FTP-Editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:35:40.973Z"
+  "lastFetchedAt": "2017-05-04T17:35:40.973Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:09.108Z"
 }

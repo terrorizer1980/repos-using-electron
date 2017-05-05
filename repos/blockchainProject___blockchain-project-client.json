@@ -91,19 +91,11 @@
     "description": "OpenBazaar Client",
     "main": "main.js",
     "repository": {
-      "user": "OpenBazaar",
-      "repo": "OpenBazaar-Client",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/OpenBazaar/OpenBazaar-Client/tarball/master",
-      "clone_url": "https://github.com/OpenBazaar/OpenBazaar-Client",
-      "https_url": "https://github.com/OpenBazaar/OpenBazaar-Client",
-      "travis_url": "https://travis-ci.org/OpenBazaar/OpenBazaar-Client",
-      "zip_url": "https://github.com/OpenBazaar/OpenBazaar-Client/archive/master.zip",
-      "api_url": "https://api.github.com/repos/OpenBazaar/OpenBazaar-Client"
+      "type": "git",
+      "url": "git://github.com/OpenBazaar/OpenBazaar-Client.git"
     },
     "homepage": "https://openbazaar.org/",
+    "bugs": "https://github.com/OpenBazaar/OpenBazaar-Client/issues/",
     "license": "MIT",
     "scripts": {
       "start": "electron main.js",
@@ -135,6 +127,7 @@
       "smtp-connection": "^2.5.0",
       "sortablejs": "^1.4.2",
       "taggle": "1.6.1",
+      "tooltipster": "^4.1.5",
       "underscore": "1.8.3",
       "winreg": "^1.1.1",
       "yargs": "^4.1.0"
@@ -176,5 +169,6 @@
   "filename": "blockchainProject___blockchain-project-client.json",
   "sourceRepo": "OpenBazaar/OpenBazaar-Client",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:42.177Z"
+  "lastFetchedAt": "2017-05-04T05:09:42.177Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:32.060Z"
 }

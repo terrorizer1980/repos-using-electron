@@ -58,6 +58,7 @@
       "heroku-postbuild": "npm run bundle"
     },
     "private": true,
+    "author": "lawrencejones <lawrjone@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "babel-plugin-transform-es2015-modules-systemjs": "^6.5.0",
@@ -169,5 +170,6 @@
   },
   "filename": "lawrencejones___diggit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:24.652Z"
+  "lastFetchedAt": "2017-05-04T20:24:24.652Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:18.447Z"
 }

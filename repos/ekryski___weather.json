@@ -78,6 +78,11 @@
     "description": "My stylish app",
     "license": "MIT",
     "repository": "ekryski/weather",
+    "author": {
+      "name": "Eric Kryski",
+      "email": "e.kryski@gmail.com",
+      "url": "erickryski.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -138,5 +143,6 @@
   },
   "filename": "ekryski___weather.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:53:27.369Z"
+  "lastFetchedAt": "2017-05-04T20:53:27.369Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:17.745Z"
 }

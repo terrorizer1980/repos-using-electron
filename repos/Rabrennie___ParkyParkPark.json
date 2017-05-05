@@ -83,8 +83,15 @@
       "format": "eslint --fix app/**/*.js app/**/**/*.js",
       "electron": "gulp build && electron ."
     },
-    "repository": "https://github.com/Rabrennie/ParkyParkPark",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rabrennie/ParkyParkPark.git"
+    },
+    "author": "Rab Rennie <rabrennie@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Rabrennie/ParkyParkPark/issues"
+    },
     "homepage": "https://github.com/Rabrennie/ParkyParkPark#readme",
     "dependencies": {
       "random-js": "^1.0.8"
@@ -139,5 +146,6 @@
   },
   "filename": "Rabrennie___ParkyParkPark.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:20.703Z"
+  "lastFetchedAt": "2017-05-04T21:02:20.703Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:43.633Z"
 }

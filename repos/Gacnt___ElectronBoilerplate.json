@@ -81,9 +81,16 @@
         "category": "Games"
       }
     },
-    "repository": "https://github.com/Gacnt/BetterSteam",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Gacnt/BetterSteam.git"
+    },
     "keywords": [],
+    "author": "Gacnt",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Gacnt/BetterSteam/issues"
+    },
     "homepage": "https://github.com/Gacnt/BetterSteam#readme",
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -142,5 +149,6 @@
   },
   "filename": "Gacnt___ElectronBoilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:26.478Z"
+  "lastFetchedAt": "2017-05-04T14:45:26.478Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:04.197Z"
 }

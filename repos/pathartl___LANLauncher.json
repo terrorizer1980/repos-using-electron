@@ -73,6 +73,7 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "Pat Hartl",
     "license": "ISC",
     "devDependencies": {
       "autoprefixer": "^6.4.0",
@@ -91,7 +92,9 @@
       "irc": "^0.5.0",
       "lodash": "^4.14.2",
       "request": "^2.74.0",
-      "rimraf": "^2.5.4"
+      "request-promise": "^4.1.1",
+      "rimraf": "^2.5.4",
+      "selectize": "^0.12.3"
     }
   },
   "packageStatus": 200,
@@ -119,5 +122,6 @@
   },
   "filename": "pathartl___LANLauncher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:50:08.642Z"
+  "lastFetchedAt": "2017-05-04T17:50:08.642Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:13.222Z"
 }

@@ -124,6 +124,9 @@
       "webpack": "webpack"
     },
     "repository": "brave/browser-laptop",
+    "author": {
+      "name": "Brave Developers <support+laptop@brave.com>"
+    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -143,6 +146,9 @@
       }
     ],
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/brave/browser-laptop/issues"
+    },
     "homepage": "https://www.brave.com/",
     "dependencies": {
       "abp-filter-parser-cpp": "1.1.x",
@@ -264,5 +270,6 @@
   },
   "filename": "electron-china___brave.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:10:29.438Z"
+  "lastFetchedAt": "2017-05-04T18:10:29.438Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:03.985Z"
 }

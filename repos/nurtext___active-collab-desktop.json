@@ -58,6 +58,11 @@
     "description": "Unofficial Active Collab Desktop Application",
     "license": "MIT",
     "repository": "nurtext/active-collab-desktop",
+    "author": {
+      "name": "Cedric Kastner",
+      "email": "cedric@kastner.wtf",
+      "url": "github.com/nurtext"
+    },
     "electronVersion": "1.0.1",
     "main": "main.js",
     "scripts": {
@@ -146,5 +151,6 @@
   },
   "filename": "nurtext___active-collab-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:15.179Z"
+  "lastFetchedAt": "2017-05-04T05:19:15.179Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:24.281Z"
 }

@@ -50,6 +50,9 @@
     "version": "1.0.0",
     "description": "Records movies using node-electron",
     "main": "index.js",
+    "directories": {
+      "example": "example"
+    },
     "dependencies": {},
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
@@ -57,7 +60,10 @@
     "scripts": {
       "test": "electron example/index.html"
     },
-    "repository": "https://github.com/mikolalysenko/electron-recorder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mikolalysenko/electron-recorder.git"
+    },
     "keywords": [
       "electron",
       "ffmpeg",
@@ -65,7 +71,11 @@
       "recorder",
       "animation"
     ],
+    "author": "Mikola Lysenko",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mikolalysenko/electron-recorder/issues"
+    },
     "homepage": "https://github.com/mikolalysenko/electron-recorder#readme"
   },
   "packageStatus": 200,
@@ -113,5 +123,6 @@
   "svnUrl": "https://github.com/mikolalysenko/electron-recorder",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:58:22.974Z"
+  "lastFetchedAt": "2017-05-04T17:58:22.974Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:10.904Z"
 }

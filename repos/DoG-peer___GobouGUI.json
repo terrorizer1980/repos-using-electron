@@ -56,12 +56,16 @@
     "version": "0.0.1",
     "description": "GUI for gobou",
     "main": "app/main.js",
-    "repository": "https://github.com/DoG-peer/GobouGUI",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/DoG-peer/GobouGUI.git"
+    },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "lint": "eslint -c google src | cat",
       "start": "gulp compile && electron ."
     },
+    "author": "DoG-peer",
     "license": "MIT",
     "devDependencies": {
       "babel-plugin-syntax-trailing-function-commas": "^6.5.0",
@@ -134,5 +138,6 @@
   },
   "filename": "DoG-peer___GobouGUI.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:22:17.252Z"
+  "lastFetchedAt": "2017-05-04T18:22:17.252Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:05.902Z"
 }

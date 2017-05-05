@@ -82,13 +82,17 @@
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
       "electron": "electron app"
     },
-    "repository": "https://github.com/farcasmihai91/podcast-app-desktop-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/farcasmihai91/podcast-app-desktop-client.git"
+    },
     "keywords": [
       "Podcast",
       "Desktop",
       "Application",
       "Electron"
     ],
+    "author": "Mihai Farcas",
     "license": "MIT",
     "devDependencies": {
       "concurrently": "^2.1.0",
@@ -138,5 +142,6 @@
   },
   "filename": "farcasmihai91___podcast-app-desktop-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:19.739Z"
+  "lastFetchedAt": "2017-05-04T21:29:19.739Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:33.820Z"
 }

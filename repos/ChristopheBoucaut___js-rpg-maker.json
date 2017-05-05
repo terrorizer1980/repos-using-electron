@@ -53,12 +53,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/ChristopheBoucaut/js-rpg-maker",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ChristopheBoucaut/js-rpg-maker.git"
+    },
     "keywords": [
       "rpg",
       "maker"
     ],
+    "author": "Christophe Boucaut",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ChristopheBoucaut/js-rpg-maker/issues"
+    },
     "dependencies": {
       "electron-prebuilt": "^0.35.1"
     }
@@ -108,5 +115,6 @@
   "svnUrl": "https://github.com/ChristopheBoucaut/js-rpg-maker",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:31:27.701Z"
+  "lastFetchedAt": "2017-05-04T19:31:27.701Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:05.031Z"
 }

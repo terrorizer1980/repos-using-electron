@@ -76,8 +76,14 @@
     "version": "0.0.1",
     "description": "Power your screensavers with html",
     "license": "MIT",
+    "author": {
+      "name": "Orcolom"
+    },
     "main": "./src/app.js",
-    "repository": "https://github.com/Orcolom/Slape",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Orcolom/Slape.git"
+    },
     "scripts": {
       "start_c": "electron ./src/app.js /c NODE_ENV=dev",
       "start_s": "electron ./src/app.js /s NODE_ENV=dev"
@@ -116,5 +122,6 @@
   },
   "filename": "Orcolom___Slape.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:56.944Z"
+  "lastFetchedAt": "2017-05-04T05:23:56.944Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:30.766Z"
 }

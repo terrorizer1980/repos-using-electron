@@ -95,8 +95,15 @@
       "build": "electron-packager . gyst_app --platform=win32 --arch=x64 --out=dist --prune --overwrite --asar",
       "setup": "electron-installer-windows --src dist/gyst_app-win32-x64 --dest dist/installers/"
     },
-    "repository": "https://github.com/enchiladasoft/Get-Your-Shit-Together",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/enchiladasoft/Get-Your-Shit-Together.git"
+    },
+    "author": "@evileumas, @ElPsyCongro",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/enchiladasoft/Get-Your-Shit-Together/issues"
+    },
     "homepage": "https://github.com/enchiladasoft/Get-Your-Shit-Together#readme",
     "dependencies": {
       "body-parser": "^1.15.2",
@@ -137,5 +144,6 @@
   },
   "filename": "enchiladasoft___Get-Your-Shit-Together.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:30.705Z"
+  "lastFetchedAt": "2017-05-04T14:55:30.705Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:15.916Z"
 }

@@ -66,7 +66,7 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "SQL-tools",
+    "name": "sql-tools",
     "version": "0.0.0",
     "description": "An electron-vue project",
     "scripts": {
@@ -76,14 +76,19 @@
       "build:linux": "cross-env PLATFORM_TARGET=linux node tasks/release.js",
       "build:mas": "cross-env PLATFORM_TARGET=mas node tasks/release.js",
       "build:win32": "cross-env PLATFORM_TARGET=win32 node tasks/release.js",
+      "dev:web": "node tasks/runner.js -w",
       "dev": "node tasks/runner.js",
       "lint": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter app",
       "lint:fix": "eslint --ext .js,.vue -f ./node_modules/eslint-friendly-formatter --fix app",
+      "pack:web": "cross-env NODE_ENV=production DEV_TARGET=web webpack -p --progress --colors",
+      "gitpage": "git add --all -f builds/web&& git commit -m build-gitpage && git subtree push -P builds/web origin gh-pages",
+      "publish": "node tasks/publish.js",
       "pack": "cross-env NODE_ENV=production webpack -p --progress --colors",
-      "postinstall": "npm run lint:fix && cd app && npm install",
+      "postinstall": "npm run lint:fix && cd app && npm install && cd ..",
       "vue:route": "node tasks/vue/route.js",
       "vuex:module": "node tasks/vuex/module.js"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -99,7 +104,7 @@
       "del": "^2.2.1",
       "devtron": "^1.3.0",
       "electron": "^1.3.1",
-      "electron-devtools-installer": "^1.1.4",
+      "electron-devtools-offline": "^0.2.0",
       "electron-json-storage": "^2.0.0",
       "electron-packager": "^8.0.0",
       "electron-rebuild": "^1.1.3",
@@ -111,21 +116,23 @@
       "eslint-plugin-html": "^1.3.0",
       "eslint-plugin-promise": "^1.0.8",
       "eslint-plugin-standard": "^1.3.2",
-      "extract-text-webpack-plugin": "^1.0.1",
+      "extract-text-webpack-plugin": "^2.0.0-rc.3",
       "file-loader": "^0.8.5",
       "html-loader": "^0.4.4",
       "html-webpack-plugin": "^2.16.1",
       "json-loader": "^0.5.4",
+      "markdown-loader": "^0.1.7",
+      "ora": "^0.3.0",
       "style-loader": "^0.13.1",
       "tree-kill": "^1.1.0",
       "url-loader": "^0.5.7",
       "vue-hot-reload-api": "^1.3.2",
       "vue-html-loader": "^1.2.2",
-      "vue-loader": "next",
+      "vue-loader": "^10.3.0",
       "vue-style-loader": "^1.0.0",
-      "webpack": "^1.13.0",
-      "webpack-dev-server": "^1.14.1",
-      "markdown-loader": "^0.1.7"
+      "vue-template-compiler": "^2.1.10",
+      "webpack": "^2.2.0",
+      "webpack-dev-server": "^2.2.0"
     },
     "dependencies": {}
   },
@@ -154,5 +161,6 @@
   },
   "filename": "goumang2010___mockSQL.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:49.470Z"
+  "lastFetchedAt": "2017-05-04T14:54:49.470Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:47.748Z"
 }

@@ -88,9 +88,15 @@
   "status": 200,
   "packageJSON": {
     "name": "scram-engine",
-    "version": "0.4.5",
+    "version": "0.4.6",
     "description": "Provides access to markup rendering in Node.js. Write your server semantically and declaratively with web components.",
-    "repository": "https://github.com/lastmjs/scram-engine",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lastmjs/scram-engine.git"
+    },
+    "bugs": {
+      "url": "https://github.com/lastmjs/scram-engine/issues"
+    },
     "homepage": "https://github.com/lastmjs/scram-engine#readme",
     "devDependencies": {},
     "dependencies": {
@@ -98,7 +104,7 @@
       "console-redirect": "^1.0.0",
       "electron": "^1.4.13",
       "express": "^4.14.0",
-      "zwitterion": "^0.7.0"
+      "zwitterion-production": "0.0.5"
     },
     "license": "MIT",
     "keywords": [
@@ -129,5 +135,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:35:57.982Z"
+  "lastFetchedAt": "2017-05-04T17:35:57.982Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:02.578Z"
 }

@@ -73,11 +73,18 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/benerone/auditor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/benerone/auditor.git"
+    },
     "keywords": [
       "audit"
     ],
+    "author": "benerone",
     "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/benerone/auditor/issues"
+    },
     "homepage": "https://github.com/benerone/auditor#readme",
     "devDependencies": {
       "electron": "^1.4.4"
@@ -115,5 +122,6 @@
   },
   "filename": "benerone___auditor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:25:41.119Z"
+  "lastFetchedAt": "2017-05-04T05:25:41.119Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:50.229Z"
 }

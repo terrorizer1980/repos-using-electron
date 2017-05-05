@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/progreanmer/moba-blocks-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/progreanmer/moba-blocks-editor.git"
+    },
+    "author": "Chalermchon Saekoo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/progreanmer/moba-blocks-editor/issues"
+    },
     "homepage": "https://github.com/progreanmer/moba-blocks-editor#readme",
     "dependencies": {
       "blockly": "google/blockly#9d68af8864dc8e4f9a98b6ab001080096793222e",
@@ -115,5 +122,6 @@
   },
   "filename": "progreanmer___moba-blocks-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:13.906Z"
+  "lastFetchedAt": "2017-05-04T16:42:13.906Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:02.960Z"
 }

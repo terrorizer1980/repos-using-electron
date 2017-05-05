@@ -78,7 +78,14 @@
       "pack": "npm run pack:osx",
       "pack:osx": "electron-packager . \"electron-plugin-issue\" --out=dist/osx --platform=darwin --arch=x64 --version=0.36.5"
     },
-    "repository": "https://github.com/SomeoneWeird/electron-plugin-issue",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:SomeoneWeird/electron-plugin-issue.git"
+    },
+    "author": "Adam Brady <adam@boxxen.org>",
+    "bugs": {
+      "url": "https://github.com/SomeoneWeird/electron-plugin-issue/issues"
+    },
     "homepage": "https://github.com/SomeoneWeird/electron-plugin-issue#readme",
     "dependencies": {
       "electron-builder": "^2.6.0",
@@ -111,5 +118,6 @@
   },
   "filename": "SomeoneWeird___electron-plugin-issue.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:35:48.335Z"
+  "lastFetchedAt": "2017-05-04T20:35:48.335Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:51.943Z"
 }

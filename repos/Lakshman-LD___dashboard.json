@@ -213,19 +213,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "serverless",
-      "repo": "dashboard",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/serverless/dashboard/tarball/master",
-      "clone_url": "https://github.com/serverless/dashboard",
-      "https_url": "https://github.com/serverless/dashboard",
-      "travis_url": "https://travis-ci.org/serverless/dashboard",
-      "zip_url": "https://github.com/serverless/dashboard/archive/master.zip",
-      "api_url": "https://api.github.com/repos/serverless/dashboard"
+      "type": "git",
+      "url": "git+https://github.com/serverless/dashboard.git"
+    },
+    "author": {
+      "name": "David Wells",
+      "email": "david@serverless.com",
+      "url": "https://github.com/davidwells"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/serverless/dashboard/issues"
+    },
     "homepage": "https://github.com/serverless/dashboard#readme",
     "devDependencies": {
       "asar": "^0.12.2",
@@ -343,5 +342,6 @@
   "filename": "Lakshman-LD___dashboard.json",
   "sourceRepo": "serverless/dashboard",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:27.844Z"
+  "lastFetchedAt": "2017-05-04T05:20:27.844Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:31.470Z"
 }

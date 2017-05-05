@@ -142,6 +142,10 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
@@ -196,7 +200,7 @@
       "json-loader": "^0.5.4",
       "minimist": "^1.2.0",
       "mocha": "^3.2.0",
-      "node-sass": "^4.1.1",
+      "node-sass": "^4.5.0",
       "react-addons-test-utils": "^15.4.1",
       "redux-logger": "^2.7.4",
       "sass-loader": "^4.1.1",
@@ -212,16 +216,19 @@
       "webpack-validator": "^2.3.0"
     },
     "dependencies": {
-      "normalizr": "^3.1.0",
       "bootstrap": "^3.3.7",
+      "chart.js": "^2.4.0",
       "electron-debug": "^1.1.0",
       "font-awesome": "^4.7.0",
       "guid": "0.0.12",
       "immutable": "^3.8.1",
       "material-design-icons": "^3.0.1",
+      "normalizr": "^3.1.0",
       "ramda": "^0.23.0",
       "react": "^15.4.1",
       "react-addons-css-transition-group": "^15.4.1",
+      "react-chartjs": "^0.8.0",
+      "react-chartjs-2": "^2.0.0",
       "react-dom": "^15.4.1",
       "react-redux": "^5.0.1",
       "react-router": "^3.0.0",
@@ -261,5 +268,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:17.857Z"
+  "lastFetchedAt": "2017-05-04T16:42:17.857Z",
+  "packageLastFetchedAt": "2017-05-04T21:55:21.852Z"
 }

@@ -59,8 +59,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/keawade/alarmclock",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/keawade/alarmclock.git"
+    },
+    "author": "keawade",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/keawade/alarmclock/issues"
+    },
     "homepage": "https://github.com/keawade/alarmclock#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.31.1"
@@ -111,5 +118,6 @@
   "svnUrl": "https://github.com/keawade/alarmed",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:12:48.964Z"
+  "lastFetchedAt": "2017-05-04T20:12:48.964Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:55.909Z"
 }

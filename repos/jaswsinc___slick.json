@@ -101,7 +101,7 @@
       "pathRegex": "^\\/messages(?:$|[\\/?#])"
     }
   },
-  "packageStatus": 200,
+  "packageStatus": 404,
   "firstCommit": {
     "sha": "80c3a5610ff7eba064db6488a13465d8a7e1de1b",
     "commit": {
@@ -125,5 +125,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:01.874Z"
+  "lastFetchedAt": "2017-05-04T14:46:01.874Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:59.621Z"
 }

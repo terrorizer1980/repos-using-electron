@@ -64,6 +64,10 @@
     "version": "0.0.0",
     "description": "Applications monitoring",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "dev": "nf start",
@@ -74,6 +78,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "bower": "^1.4.1",
@@ -143,5 +148,6 @@
   "svnUrl": "https://github.com/alphasights/lizard",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:54:08.343Z"
+  "lastFetchedAt": "2017-05-04T19:54:08.343Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:27.044Z"
 }

@@ -59,7 +59,10 @@
     "scripts": {
       "test": "cd test && gulp"
     },
-    "repository": "https://github.com/thesbros/gulp-run-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/thesbros/gulp-run-electron.git"
+    },
     "keywords": [
       "gulp",
       "gulpplugin",
@@ -68,7 +71,11 @@
       "webkit",
       "iojs"
     ],
+    "author": "Oden <ops991923 [at] gmail.com>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/thesbros/gulp-run-electron/issues"
+    },
     "homepage": "https://github.com/thesbros/gulp-run-electron",
     "dependencies": {
       "gulp-util": "^3.0.7",
@@ -126,5 +133,6 @@
   "svnUrl": "https://github.com/thesbros/gulp-run-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:00:00.113Z"
+  "lastFetchedAt": "2017-05-04T21:00:00.113Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:54.663Z"
 }

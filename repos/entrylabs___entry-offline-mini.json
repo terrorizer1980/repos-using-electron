@@ -80,7 +80,14 @@
       "pack:win": "electron-packager ./dist --platform=win32 --arch=ia32",
       "dist:osx": "build"
     },
-    "repository": "https://github.com/entrylabs/entry-offline-mini",
+    "repository": {
+      "type": "git",
+      "url": "git+https://kimorkim@github.com/entrylabs/entry-offline-mini.git"
+    },
+    "author": "EntryLabs",
+    "bugs": {
+      "url": "https://github.com/entrylabs/entry-offline-mini/issues"
+    },
     "build": {
       "osx": {
         "icon": "build/icon.icns",
@@ -182,5 +189,6 @@
   },
   "filename": "entrylabs___entry-offline-mini.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:33.115Z"
+  "lastFetchedAt": "2017-05-04T05:18:33.115Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:56.638Z"
 }

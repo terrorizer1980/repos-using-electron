@@ -80,13 +80,20 @@
       "start": "electron .",
       "test": "mocha tests --recursive --watch"
     },
-    "repository": "https://github.com/Themercee/fuzzyClus",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Themercee/fuzzyClus.git"
+    },
     "keywords": [
       "fuzzer",
       "cluster",
       "rabbitmq"
     ],
+    "author": "Jimmy Mercier-Dionne",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Themercee/fuzzyClus/issues"
+    },
     "homepage": "https://github.com/Themercee/fuzzyClus#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -130,5 +137,6 @@
   },
   "filename": "Themercee___fuzzyClus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:21:37.561Z"
+  "lastFetchedAt": "2017-05-04T05:21:37.561Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:33.307Z"
 }

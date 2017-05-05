@@ -196,23 +196,18 @@
     "version": "1.0.0",
     "description": "Remote dashboard with a control app",
     "repository": {
-      "user": "knalli",
-      "repo": "electron-remote-dashboard",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/knalli/electron-remote-dashboard/tarball/master",
-      "clone_url": "https://github.com/knalli/electron-remote-dashboard",
-      "https_url": "https://github.com/knalli/electron-remote-dashboard",
-      "travis_url": "https://travis-ci.org/knalli/electron-remote-dashboard",
-      "zip_url": "https://github.com/knalli/electron-remote-dashboard/archive/master.zip",
-      "api_url": "https://api.github.com/repos/knalli/electron-remote-dashboard"
+      "type": "git",
+      "url": "https://github.com/knalli/electron-remote-dashboard"
     },
     "main": "main.js",
     "scripts": {
       "start": "electron main.js",
       "build-windows": "electron-packager ./ --platform=win32 --arch=x64",
       "build-linux": "electron-packager ./ --platform=linux --arch=x64"
+    },
+    "author": {
+      "name": "Jan Philipp",
+      "email": "knallisworld@googlemail.com"
     },
     "license": "MIT",
     "dependencies": {
@@ -260,5 +255,6 @@
   "filename": "Xxtreem___electron-remote-dashboard.json",
   "sourceRepo": "knalli/electron-remote-dashboard",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:39:13.646Z"
+  "lastFetchedAt": "2017-05-04T17:39:13.646Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:04.634Z"
 }

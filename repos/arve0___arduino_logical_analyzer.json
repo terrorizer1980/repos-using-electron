@@ -59,14 +59,21 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/arve0/arduino_logic_analyzer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/arve0/arduino_logic_analyzer.git"
+    },
     "keywords": [
       "oscilloscope",
       "logic",
       "analyzer",
       "arduino"
     ],
+    "author": "Arve Seljebu",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/arve0/arduino_logic_analyzer/issues"
+    },
     "homepage": "https://github.com/arve0/arduino_logic_analyzer#readme"
   },
   "packageStatus": 200,
@@ -114,5 +121,6 @@
   },
   "filename": "arve0___arduino_logical_analyzer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T08:01:40.657Z"
+  "lastFetchedAt": "2017-05-04T08:01:40.657Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:07.883Z"
 }

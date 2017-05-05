@@ -74,9 +74,16 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/SonyaMoisset/bookvue",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SonyaMoisset/bookvue.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SonyaMoisset/bookvue/issues"
+    },
     "homepage": "https://github.com/SonyaMoisset/bookvue#readme",
     "dependencies": {
       "firebase": "^2.4.2",
@@ -124,5 +131,6 @@
   },
   "filename": "SonyaMoisset___bookvue.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:13.016Z"
+  "lastFetchedAt": "2017-05-04T17:36:13.016Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:42.445Z"
 }

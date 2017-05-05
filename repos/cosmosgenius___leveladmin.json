@@ -71,35 +71,35 @@
     "description": "",
     "main": "index.js",
     "dependencies": {
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2",
-      "react-redux": "^4.4.5",
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-redux": "^4.4.6",
       "redux": "^3.6.0",
-      "redux-logger": "^2.6.1"
+      "redux-logger": "^2.7.4"
     },
     "devDependencies": {
-      "babel-core": "^6.18.0",
-      "babel-eslint": "^7.0.0",
-      "babel-loader": "^6.2.5",
+      "babel-core": "^6.18.2",
+      "babel-eslint": "^7.1.1",
+      "babel-loader": "^6.2.8",
       "babel-preset-react": "^6.16.0",
       "babel-preset-react-hmre": "^1.1.1",
       "babel-register": "^6.18.0",
       "cross-env": "^3.1.3",
-      "css-loader": "^0.25.0",
+      "css-loader": "^0.26.0",
       "devtron": "^1.3.0",
-      "electron-builder": "^7.14.1",
+      "electron": "^1.4.10",
+      "electron-builder": "^10.4.1",
       "electron-devtools-installer": "^2.0.1",
-      "electron-prebuilt": "^1.4.4",
-      "eslint": "^3.8.1",
-      "eslint-plugin-react": "^6.3.0",
-      "node-sass": "^3.10.1",
-      "react-hot-loader": "^1.3.0",
+      "eslint": "^3.11.1",
+      "eslint-plugin-react": "^6.7.1",
+      "node-sass": "^3.13.0",
+      "react-hot-loader": "^1.3.1",
       "sass-loader": "^4.0.2",
       "style-loader": "^0.13.1",
-      "webpack": "^2.1.0-beta.25",
+      "webpack": "^2.1.0-beta.27",
       "webpack-async-await": "^1.1.0",
-      "webpack-dev-server": "^2.1.0-beta.9",
-      "webpack-merge": "^0.15.0"
+      "webpack-dev-server": "^2.1.0-beta.12",
+      "webpack-merge": "^1.0.2"
     },
     "build": {
       "appId": "com.cosmosgenius.leveladmin",
@@ -153,5 +153,6 @@
   },
   "filename": "cosmosgenius___leveladmin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:59:46.077Z"
+  "lastFetchedAt": "2017-05-04T20:59:46.077Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:58.821Z"
 }

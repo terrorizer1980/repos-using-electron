@@ -81,5 +81,45 @@
   "networkCount": 0,
   "subscribersCount": 7,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:40:21.950Z"
+  "lastFetchedAt": "2017-05-04T20:40:21.950Z",
+  "packageJSON": {
+    "name": "pit-note-desktop",
+    "version": "1.0.0",
+    "description": "Pit Note Desktop - OSX",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "dev": "electron . --debug",
+      "sign-exe": "signcode ./out/ElectronAPIDemos-win32-ia32/ElectronAPIDemos.exe --cert ~/electron-api-demos.p12 --prompt --name 'Electron API Demos' --url 'http://electron.atom.io'",
+      "sign-installer": "signcode ./out/windows-installer/ElectronAPIDemosSetup.exe --cert ~/electron-api-demos.p12 --prompt --name 'Electron API Demos' --url 'http://electron.atom.io'",
+      "pack-mac": "electron-packager . --asar.unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --icon=assets/app-icon/mac/app.icns --prune=true --out=out --osx-sign.identity='Developer ID Application: GitHub' --extend-info=assets/mac/info.plist",
+      "pack-win": "electron-packager . ElectronAPIDemos --asar.unpack=protocol-link.html --overwrite --platform=win32 --arch=ia32 --icon=assets/app-icon/win/app.ico --prune=true --out=out --version-string.CompanyName='GitHub, Inc.' --version-string.FileDescription='Electron API Demos' --version-string.ProductName='Electron API Demos'",
+      "pack-linux": "electron-packager . --asar.unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --icon=assets/app-icon/png/64.png --prune=true --out=out",
+      "package": "npm run pack-mac && npm run pack-win && npm run pack-linux",
+      "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer"
+    },
+    "devDependencies": {
+      "electron": "^1.3.5",
+      "electron-packager": "^8.0.0",
+      "electron-winstaller": "^2.2.0",
+      "request": "^2.70.0",
+      "signcode": "^0.5.0",
+      "standard": "^8.2.0"
+    },
+    "dependencies": {
+      "electron-json-storage": "^2.0.0",
+      "electron-shortcut-normalizer": "^1.0.0",
+      "jquery": "^3.1.1",
+      "leancloud-storage": "^1.5.3",
+      "nedb": "^1.8.0",
+      "push.js": "^0.0.11"
+    },
+    "keywords": [
+      "pitNote"
+    ],
+    "author": "dylan",
+    "license": "MIT"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:37:43.653Z"
 }

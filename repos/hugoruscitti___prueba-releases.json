@@ -76,6 +76,10 @@
     "version": "1.0.3",
     "description": "Una herramienta para aprender a programar utilizando bloques.",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -85,6 +89,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -194,5 +199,6 @@
   },
   "filename": "hugoruscitti___prueba-releases.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:17.863Z"
+  "lastFetchedAt": "2017-05-04T20:32:17.863Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:16.125Z"
 }

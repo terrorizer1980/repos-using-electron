@@ -84,14 +84,21 @@
       "lite": "lite-server",
       "typings": "typings"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -136,5 +143,6 @@
   },
   "filename": "liranAsh___NGW-EL.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:35.277Z"
+  "lastFetchedAt": "2017-05-04T21:00:35.277Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:52.789Z"
 }

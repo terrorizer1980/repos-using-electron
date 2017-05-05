@@ -68,6 +68,7 @@
   "packageJSON": {
     "name": "maelstromjs",
     "version": "0.2.0",
+    "author": "bbuecherl <bernhard.buecherl@gmail.com>",
     "description": "Simple, fast and live updating template engine",
     "devDependencies": {
       "electron-prebuilt": "^0.37.7",
@@ -77,6 +78,10 @@
     "main": "index.js",
     "browser": {
       "./utils/fs-wrap/node.js": "./utils/fs-wrap/browser.js"
+    },
+    "directories": {
+      "example": "examples",
+      "test": "test"
     },
     "dependencies": {
       "acorn": "^3.1.0",
@@ -92,8 +97,14 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/bbuecherl/Maelstrom",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bbuecherl/Maelstrom.git"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bbuecherl/Maelstrom/issues"
+    },
     "homepage": "https://github.com/bbuecherl/Maelstrom#readme"
   },
   "packageStatus": 200,
@@ -121,5 +132,6 @@
   },
   "filename": "bbuecherl___Maelstrom.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:25:52.148Z"
+  "lastFetchedAt": "2017-05-04T05:25:52.148Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:29.940Z"
 }

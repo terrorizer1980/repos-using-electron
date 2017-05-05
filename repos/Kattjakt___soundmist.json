@@ -64,18 +64,10 @@
       "build": "gulp start && electron-packager .tmp Soundmist --out=dist --prune --asar --all"
     },
     "repository": {
-      "user": "kattjakt",
-      "repo": "soundmist",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kattjakt/soundmist/tarball/master",
-      "clone_url": "https://github.com/kattjakt/soundmist",
-      "https_url": "https://github.com/kattjakt/soundmist",
-      "travis_url": "https://travis-ci.org/kattjakt/soundmist",
-      "zip_url": "https://github.com/kattjakt/soundmist/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kattjakt/soundmist"
+      "type": "git",
+      "url": "git+https://github.com/kattjakt/soundmist.git"
     },
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-packager": "^7.1.0",
@@ -147,5 +139,6 @@
   "svnUrl": "https://github.com/Kattjakt/soundmist",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:16:34.468Z"
+  "lastFetchedAt": "2017-05-04T20:16:34.468Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:36.041Z"
 }

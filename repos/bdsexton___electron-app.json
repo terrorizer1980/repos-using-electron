@@ -57,8 +57,18 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/bdsexton/electron-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bdsexton/electron-app"
+    },
+    "author": {
+      "name": "Brian Sexton",
+      "url": "http://briansexton.com/"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bdsexton/electron-app/issues"
+    },
     "homepage": "https://github.com/bdsexton/electron-app#readme"
   },
   "packageStatus": 200,
@@ -106,5 +116,6 @@
   },
   "filename": "bdsexton___electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:48.529Z"
+  "lastFetchedAt": "2017-05-04T19:55:48.529Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:34.574Z"
 }

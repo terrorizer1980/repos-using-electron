@@ -90,7 +90,10 @@
     "description": "An Aurelia client application.",
     "version": "1.0.7",
     "main": "main.js",
-    "repository": "https://github.com/plotter/platform",
+    "repository": {
+      "type": "github",
+      "url": "https://github.com/plotter/platform"
+    },
     "scripts": {
       "clean": "rimraf dist",
       "start": "electron .",
@@ -100,6 +103,11 @@
       "set64": "electron-installer-windows --src dist/plotterplatform-win32-x64/ --dest dist/installers/x64/",
       "build": "npm run clean && npm run exe32 && npm run set32",
       "build-all": "npm run clean && npm run exe32 && npm run set32 && npm run exe64 && npm run set64"
+    },
+    "author": {
+      "name": "Mike Graham",
+      "email": "mgraham@technicalmedia.com",
+      "url": "http://www.technicalmedia.com/"
     },
     "license": "MIT",
     "dependencies": {
@@ -169,5 +177,6 @@
   },
   "filename": "plotter___platform.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:43.697Z"
+  "lastFetchedAt": "2017-05-04T19:31:43.697Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:13.003Z"
 }

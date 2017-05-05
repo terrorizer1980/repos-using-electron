@@ -80,8 +80,15 @@
       "start": "gulp && electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/davidbastien5/file3d",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/davidbastien5/file3d.git"
+    },
+    "author": "David Bastien",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/davidbastien5/file3d/issues"
+    },
     "homepage": "https://github.com/davidbastien5/file3d#readme",
     "devDependencies": {
       "browserify": "^13.1.0",
@@ -117,5 +124,6 @@
   },
   "filename": "davidbastien5___file3d.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:52:03.272Z"
+  "lastFetchedAt": "2017-05-04T20:52:03.272Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:01.832Z"
 }

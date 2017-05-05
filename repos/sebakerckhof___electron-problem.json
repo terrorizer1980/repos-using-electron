@@ -52,6 +52,10 @@
     "description": "electron-test",
     "license": "MIT",
     "repository": "sebakerckhof/electron-test",
+    "author": {
+      "name": "Seba Kerckhof",
+      "email": "seba.kerckhof@gmail.com"
+    },
     "electronVersion": "0.36.8",
     "scripts": {
       "test": "xo",
@@ -137,5 +141,6 @@
   "svnUrl": "https://github.com/sebakerckhof/electron-problem",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:06:04.284Z"
+  "lastFetchedAt": "2017-05-04T21:06:04.284Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:39.766Z"
 }

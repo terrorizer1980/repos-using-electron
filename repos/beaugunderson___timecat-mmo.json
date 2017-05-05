@@ -58,6 +58,7 @@
       "timecat",
       "mmo"
     ],
+    "author": "Beau Gunderson <beau@beaugunderson.com>",
     "license": "MIT",
     "dependencies": {
       "cat-names": "^1.0.2",
@@ -74,7 +75,13 @@
       "uuid": "^2.0.1"
     },
     "devDependencies": {},
-    "repository": "https://github.com/beaugunderson/timecat-mmo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beaugunderson/timecat-mmo.git"
+    },
+    "bugs": {
+      "url": "https://github.com/beaugunderson/timecat-mmo/issues"
+    },
     "homepage": "https://github.com/beaugunderson/timecat-mmo#readme"
   },
   "packageStatus": 200,
@@ -122,5 +129,6 @@
   "svnUrl": "https://github.com/beaugunderson/timecat-mmo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:50:57.605Z"
+  "lastFetchedAt": "2017-05-04T20:50:57.605Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:00.652Z"
 }

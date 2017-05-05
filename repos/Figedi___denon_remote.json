@@ -66,53 +66,40 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "denon_remote_menu",
-    "version": "1.1.1",
-    "description": "",
-    "main": "app/index.js",
-    "scripts": {
-      "start": "electron ./app/index.js"
-    },
-    "author": "",
-    "license": "ISC",
+    "name": "denon_remote",
+    "version": "1.1.4",
+    "description": "A node.js wrapper for controlling denon receivers",
+    "main": "lib/index.js",
+    "scripts": {},
+    "keywords": [
+      "denon",
+      "receiver",
+      "av",
+      "receiver"
+    ],
+    "author": "Felix Kaminski",
+    "license": "MIT",
     "devDependencies": {
-      "del": "^1.2.1",
-      "electron-prebuilt": "~0.31.0",
-      "gulp": "^3.8.11",
-      "gulp-babel": "^5.1.0",
-      "gulp-electron": "~0.0.9",
-      "gulp-rename": "^1.2.2",
-      "gulp-run": "^1.6.8",
-      "gulp-run-electron": "^1.1.1",
-      "jspm": "^0.16.14"
-    },
-    "jspm": {
-      "directories": {
-        "baseURL": "browser",
-        "lib": "browser"
-      },
-      "dependencies": {
-        "angular": "github:angular/bower-angular@^1.4.0",
-        "angular-ui-router": "github:angular-ui/ui-router@^0.2.15",
-        "css": "github:systemjs/plugin-css@^0.1.11",
-        "photon": "github:connors/photon@^0.1.2-alpha"
-      },
-      "devDependencies": {
-        "babel": "npm:babel-core@^5.8.24",
-        "babel-runtime": "npm:babel-runtime@^5.8.24",
-        "core-js": "npm:core-js@^1.1.4"
-      }
+      "eslint": "^3.11.1",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-promise": "^3.4.0",
+      "eslint-plugin-react": "^6.7.1"
     },
     "dependencies": {
-      "lodash": "^3.10.1",
-      "menubar": "^2.1.2",
+      "eventemitter2": "^2.2.1",
+      "lodash": "^4.17.2",
       "minimist": "^1.2.0",
-      "telnet-client": "^0.1.0"
+      "telnet-client": "^0.12.3",
+      "winston": "^2.3.0"
     },
-    "override": {
-      "photon": {
-        "main": false
-      }
+    "bin": {
+      "denon_remote": "bin/index.js"
+    },
+    "devEngines": {
+      "node": ">=6.x",
+      "npm": ">=3.x"
     }
   },
   "packageStatus": 200,
@@ -140,5 +127,6 @@
   },
   "filename": "Figedi___denon_remote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:30:43.967Z"
+  "lastFetchedAt": "2017-05-04T15:30:43.967Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:15.760Z"
 }

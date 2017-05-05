@@ -98,7 +98,11 @@
     ],
     "license": "Apache-2.0",
     "homepage": "https://github.com/httpjs/fetch",
-    "repository": "https://github.com/httpjs/fetch",
+    "author": "Simeon Velichkov <simeonvelichkov@gmail.com> (http://simov.github.io)",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/httpjs/fetch.git"
+    },
     "dependencies": {
       "@http/headers": "^1.0.0",
       "qs": "^6.1.0"
@@ -148,5 +152,6 @@
   },
   "filename": "httpjs___fetch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:59:16.115Z"
+  "lastFetchedAt": "2017-05-04T17:59:16.115Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:51.778Z"
 }

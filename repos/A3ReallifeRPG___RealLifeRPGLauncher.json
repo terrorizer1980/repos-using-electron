@@ -53,61 +53,99 @@
   "status": 200,
   "packageJSON": {
     "name": "RealLifeRPG",
-    "version": "1.5.1",
+    "version": "2.3.8",
     "description": "RealLifeRPG Launcher",
     "homepage": "https://www.realliferpg.de",
-    "main": "./app/main.js",
-    "license": "CC-BY-NC-SA-4.0",
+    "author": "RealLifeRPG",
+    "main": "main.js",
+    "license": "GPL-3.0",
     "readme": "README.md",
-    "repository": "https://github.com/A3ReallifeRPG/RealLifeRPGLauncher",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/A3ReallifeRPG/RealLifeRPGLauncher.git"
+    },
+    "bugs": {
+      "url": "https://github.com/A3ReallifeRPG/RealLifeRPGLauncher/issues"
+    },
     "scripts": {
       "start": "electron .",
-      "postinstall": "install-app-deps",
       "pack": "build --target dir",
       "dist": "build",
-      "install": "npm install --prefix ./app"
+      "test": "standard"
     },
-    "devDependencies": {
-      "electron": "1.4.4",
-      "electron-builder": "7.14.2"
+    "standard": {
+      "ignore": [
+        "config.js"
+      ]
     },
     "build": {
       "appId": "realliferpg.de",
-      "app-category-type": "launcher.application",
+      "mac.category": "launcher.application",
       "win": {
         "title": "RealLifeRPG Launcher",
         "iconUrl": "https://static.realliferpg.de/img/launcher/icon.ico",
-        "remoteReleases": "https://static.realliferpg.de/remoteReleases/"
+        "remoteReleases": "https://static.realliferpg.de/remoteReleases/",
+        "target": "squirrel"
       },
       "squirrelWindows": {
         "loadingGif": "build/install-spinner.gif",
         "setupIcon": "build/icon.ico"
-      }
+      },
+      "extraFiles": "README.md"
+    },
+    "devDependencies": {
+      "devtron": "^1.4.0",
+      "electron": "1.4.15",
+      "electron-builder": "10.15.1",
+      "eslint": "^3.12.2",
+      "eslint-config-standard": "^6.2.1",
+      "eslint-config-standard-jsx": "^3.2.0",
+      "eslint-plugin-promise": "^3.4.0",
+      "eslint-plugin-react": "^6.8.0",
+      "eslint-plugin-standard": "^2.0.1",
+      "standard": "*"
     },
     "contributors": [
+      {
+        "name": "Kaibu",
+        "email": "notkaibu@gmail.com",
+        "url": "https://github.com/Kaibu"
+      },
       {
         "name": "vabene1111",
         "email": "vabene1234@googlemail.com",
         "url": "https://github.com/vabene1111"
-      },
-      {
-        "name": "Kaibu",
-        "email": "green4ever999@web.de",
-        "url": "https://github.com/Kaibu"
       }
     ],
     "dependencies": {
-      "devtron": "^1.2.1",
-      "dwn": "^0.0.2",
-      "electron-json-storage": "^2.0.2",
-      "electron-squirrel-startup": "^1.0.0",
-      "highcharts": "^5.0.0",
-      "mkpath": "^1.0.0",
-      "progress-stream": "^1.2.0",
-      "recursive-readdir": "^2.0.0",
-      "shelljs": "^0.7.0",
-      "winreg": "^1.2.1",
-      "unzip": "^0.1.11"
+      "alertify": "^0.3.0",
+      "angular": "^1.6.0",
+      "angular-tooltips": "^1.1.8",
+      "bootstrap": "^3.3.7",
+      "chart.js": "^2.4.0",
+      "electron-json-storage": "^2.1.0",
+      "electron-squirrel-startup": "1.0.0",
+      "font-awesome": "^4.7.0",
+      "hasha": "^2.2.0",
+      "humanize-duration": "^3.10.0",
+      "icheck": "^1.0.2",
+      "jquery": "^3.1.1",
+      "jsonist": "^1.3.0",
+      "leaflet": "^1.0.3",
+      "marked": "^0.3.6",
+      "mkpath": "1.0.0",
+      "perfect-scrollbar": "^0.6.15",
+      "progress-stream": "1.2.0",
+      "ps-node": "^0.1.5",
+      "request": "^2.79.0",
+      "request-progress": "^3.0.0",
+      "shelljs": "0.7.0",
+      "smoothie": "^1.27.0",
+      "tether": "^1.4.0",
+      "tether-shepherd": "^1.8.1",
+      "unzip": "^0.1.11",
+      "webtorrent": "^0.98.3",
+      "winreg": "^1.2.3"
     }
   },
   "packageStatus": 200,
@@ -169,5 +207,6 @@
     "receivedEventsUrl": "https://api.github.com/users/A3ReallifeRPG/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T14:22:16.097Z"
+  "lastFetchedAt": "2017-05-04T14:22:16.097Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:23.625Z"
 }

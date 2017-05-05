@@ -83,14 +83,21 @@
       "dev-server": "node webpack/dev-server",
       "nodemon": "./node_modules/.bin/nodemon --exec \"./node_modules/.bin/electron .\" "
     },
-    "repository": "https://github.com/lokua/midi-monitor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lokua/midi-monitor.git"
+    },
     "keywords": [
       "midi",
       "monitor",
       "desktop",
       "electron"
     ],
+    "author": "Joshua Kleckner <lokua@lokua.net> (http://github.com/lokua)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lokua/midi-monitor/issues"
+    },
     "homepage": "https://github.com/lokua/midi-monitor",
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -218,5 +225,6 @@
   },
   "filename": "Lokua___midi-monitor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:37.607Z"
+  "lastFetchedAt": "2017-05-04T19:55:37.607Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:57.710Z"
 }

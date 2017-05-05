@@ -87,14 +87,18 @@
   "status": 200,
   "packageJSON": {
     "name": "pxt-microbit",
-    "version": "0.6.15",
-    "description": "micro:bit target for PXT",
+    "version": "0.12.5",
+    "description": "micro:bit target for Microsoft MakeCode (PXT)",
     "keywords": [
       "JavaScript",
       "education",
       "microbit"
     ],
-    "repository": "https://github.com/Microsoft/pxt-microbit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Microsoft/pxt-microbit.git"
+    },
+    "author": "",
     "license": "MIT",
     "homepage": "https://github.com/Microsoft/pxt-microbit#readme",
     "files": [
@@ -104,20 +108,24 @@
       "built/*.json",
       "built/*.d.ts",
       "built/hexcache",
+      "built/web",
       "sim/public",
       "docs/*.md",
       "docs/*/*.md",
-      "docs/*/*/*.md"
+      "docs/*/*/*.md",
+      "docs/static/icons/favicon.ico"
     ],
     "main": "built/pxtrequire.js",
     "typings": "built/pxtrequire.d.ts",
     "devDependencies": {
       "typescript": "^1.8.7",
       "less": "^2.6.0",
+      "rtlcss": "^2.1.2",
+      "autoprefixer": "^6.7.6",
       "semantic-ui-less": "^2.2.4"
     },
     "dependencies": {
-      "pxt-core": "0.5.75"
+      "pxt-core": "0.12.63"
     }
   },
   "packageStatus": 200,
@@ -145,5 +153,6 @@
   },
   "filename": "Microsoft___pxt-microbit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:03:29.676Z"
+  "lastFetchedAt": "2017-05-04T09:03:29.676Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:20.163Z"
 }

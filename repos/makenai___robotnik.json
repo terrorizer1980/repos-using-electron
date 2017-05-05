@@ -58,7 +58,14 @@
       "webserver": "node webserver.js",
       "dev": "node_modules/.bin/parallelshell \"node_modules/.bin/gulp watch\" \"node_modules/.bin/nodemon webserver.js\""
     },
-    "repository": "https://github.com/makenai/robotnik",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/makenai/robotnik.git"
+    },
+    "author": {
+      "name": "Pawel Szymczykowski",
+      "email": "makenai@gmail.com"
+    },
     "contributors": [
       {
         "name": "Brian Genisio",
@@ -77,6 +84,9 @@
       }
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/makenai/robotnik/issues"
+    },
     "homepage": "https://github.com/makenai/robotnik",
     "dependencies": {
       "angular": "^1.3.14",
@@ -160,5 +170,6 @@
   "svnUrl": "https://github.com/makenai/robotnik",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:34:48.613Z"
+  "lastFetchedAt": "2017-05-04T19:34:48.613Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:30.801Z"
 }

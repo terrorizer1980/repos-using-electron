@@ -76,6 +76,7 @@
       "client": "electron index.js",
       "package": "electron-packager . --platform=win32,linux --arch=x64"
     },
+    "author": "Liu Yuhui <emliunix@hotmail.com>",
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "^1.2.1",
@@ -112,5 +113,6 @@
   },
   "filename": "emliunix___linux-chat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:51.198Z"
+  "lastFetchedAt": "2017-05-04T14:50:51.198Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:49.157Z"
 }

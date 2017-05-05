@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/samuelralak/electron-customer-manager",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/samuelralak/electron-customer-manager.git"
+    },
+    "author": "Samuel Ralak",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/samuelralak/electron-customer-manager/issues"
+    },
     "homepage": "https://github.com/samuelralak/electron-customer-manager#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.2"
@@ -108,5 +115,6 @@
   },
   "filename": "samuelralak___electron-customer-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:01:37.471Z"
+  "lastFetchedAt": "2017-05-04T06:01:37.471Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:41.769Z"
 }

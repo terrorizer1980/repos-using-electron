@@ -180,19 +180,14 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "jlord",
-      "repo": "git-it-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jlord/git-it-electron/tarball/master",
-      "clone_url": "https://github.com/jlord/git-it-electron",
-      "https_url": "https://github.com/jlord/git-it-electron",
-      "travis_url": "https://travis-ci.org/jlord/git-it-electron",
-      "zip_url": "https://github.com/jlord/git-it-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jlord/git-it-electron"
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
     },
+    "author": "Jessica Lord",
     "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
     "homepage": "https://github.com/jlord/git-it-electron",
     "devDependencies": {
       "electron-prebuilt": "^0.25.2"
@@ -247,5 +242,6 @@
   "svnUrl": "https://github.com/paulcbetts/git-it-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:55:31.588Z"
+  "lastFetchedAt": "2017-05-04T17:55:31.588Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:10.983Z"
 }

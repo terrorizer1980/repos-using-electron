@@ -49,6 +49,7 @@
     "name": "vue-electron-boilerplate",
     "version": "0.0.1",
     "description": "Vue Electron Boilerplate",
+    "author": "BafS <fabacrans@hotmail.com>",
     "scripts": {
       "dev:server": "node build/dev-server.js",
       "dev:electron": "cross-env NODE_ENV=development electron -r babel-register ./main.dev",
@@ -151,5 +152,6 @@
   "svnUrl": "https://github.com/BafS/vue-electron-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:25:07.771Z"
+  "lastFetchedAt": "2017-05-04T20:25:07.771Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:49.168Z"
 }

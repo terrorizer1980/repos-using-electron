@@ -90,6 +90,10 @@
         "background": "resources/osx/dmg-background.png"
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "app": "build"
+    },
     "main": "main.js",
     "scripts": {
       "postinstall": "install-app-deps",
@@ -101,17 +105,8 @@
       "test": "electron-mocha build --renderer"
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -119,7 +114,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -169,5 +168,6 @@
   "filename": "roymj88___electron-quickstart.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:23.611Z"
+  "lastFetchedAt": "2017-05-04T05:14:23.611Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:54.895Z"
 }

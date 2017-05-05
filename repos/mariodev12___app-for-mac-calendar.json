@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "mdiezdev_",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -120,5 +127,6 @@
   },
   "filename": "mariodev12___app-for-mac-calendar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:10.657Z"
+  "lastFetchedAt": "2017-05-04T04:58:10.657Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:26.661Z"
 }

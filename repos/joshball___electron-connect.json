@@ -180,6 +180,10 @@
     ],
     "homepage": "https://github.com/Quramy/electron-connect",
     "repository": "https://github.com/Quramy/electron-connect.git",
+    "author": {
+      "name": "Quramy",
+      "email": "yosuke.kurami@gmail.com"
+    },
     "license": "MIT",
     "dependencies": {
       "cross-spawn": "^2.1.4",
@@ -239,5 +243,6 @@
   "filename": "joshball___electron-connect.json",
   "sourceRepo": "Quramy/electron-connect",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:12.542Z"
+  "lastFetchedAt": "2017-05-04T05:11:12.542Z",
+  "packageLastFetchedAt": "2017-05-05T06:36:10.902Z"
 }

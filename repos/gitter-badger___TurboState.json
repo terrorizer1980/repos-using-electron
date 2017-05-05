@@ -70,6 +70,7 @@
     "version": "0.1.0",
     "description": "Multi-threaded, asynchronous, observable data type",
     "main": "source/turbostate.js",
+    "author": "Hadrian Oliveira",
     "license": "MIT",
     "homepage": "https://github.com/thelambdaparty/TurboState#readme",
     "keywords": [
@@ -79,7 +80,13 @@
       "turbo",
       "multi-threaded"
     ],
-    "repository": "https://github.com/thelambdaparty/TurboState",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thelambdaparty/TurboState.git"
+    },
+    "bugs": {
+      "url": "https://github.com/thelambdaparty/TurboState/issues"
+    },
     "scripts": {
       "test": "karma start others/karma.conf.js",
       "browserstack": "karma start others/karma.browserstack.conf.js"
@@ -125,5 +132,6 @@
   },
   "filename": "gitter-badger___TurboState.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:54.107Z"
+  "lastFetchedAt": "2017-05-04T14:53:54.107Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:04.906Z"
 }

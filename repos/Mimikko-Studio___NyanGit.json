@@ -82,9 +82,13 @@
   "packageJSON": {
     "name": "NyanGit",
     "version": "0.0.1",
+    "author": "Chatchai Saratakij",
     "description": "When a cat companion with git (Git GUI)",
     "license": "MIT",
-    "repository": "https://github.com/Mimikko-Studio/NyanGit",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Mimikko-Studio/NyanGit.git"
+    },
     "main": "main.js",
     "dependencies": {
       "electron": "^0.4.1"
@@ -115,5 +119,6 @@
   },
   "filename": "Mimikko-Studio___NyanGit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:13.549Z"
+  "lastFetchedAt": "2017-05-04T13:05:13.549Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:56.565Z"
 }

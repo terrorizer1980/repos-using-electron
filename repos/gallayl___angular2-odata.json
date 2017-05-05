@@ -86,7 +86,10 @@
       "build:webpack": "npm run clean && webpack --config config/webpack.prod.js --progress --profile --bail",
       "test": "karma start"
     },
-    "repository": "https://github.com/gallayl/angular2-odata",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gallayl/angular2-odata.git"
+    },
     "keywords": [
       "odata",
       "angular",
@@ -95,7 +98,11 @@
       "api",
       "service"
     ],
+    "author": "Gallay Lajos",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gallayl/angular2-odata/issues"
+    },
     "homepage": "https://github.com/gallayl/angular2-odata#readme",
     "dependencies": {},
     "devDependencies": {
@@ -168,5 +175,6 @@
   },
   "filename": "gallayl___angular2-odata.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:09.161Z"
+  "lastFetchedAt": "2017-05-04T05:19:09.161Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:48.092Z"
 }

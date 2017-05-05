@@ -77,9 +77,16 @@
       "vscode"
     ],
     "homepage": "http://aurelia.io",
+    "bugs": {
+      "url": "https://github.com/aurelia/skeleton-navigation-typescript/issues"
+    },
     "license": "CC0-1.0",
+    "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io/)",
     "main": "dist/main.js",
-    "repository": "https://github.com/aurelia/skeleton-navigation-typescript",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/aurelia/skeleton-navigation-typescript"
+    },
     "scripts": {
       "postinstall": "./node_modules/.bin/typings install",
       "test": "gulp test",
@@ -169,5 +176,6 @@
   },
   "filename": "seesharper___TypeScriptAureliaElectron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:32.280Z"
+  "lastFetchedAt": "2017-05-04T21:05:32.280Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:39.081Z"
 }

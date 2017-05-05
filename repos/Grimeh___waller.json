@@ -80,8 +80,15 @@
       "do": "node build/main.js",
       "start": "grunt && electron ."
     },
-    "repository": "https://github.com/Grimeh/waller",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Grimeh/waller.git"
+    },
+    "author": "Brandon Grimshaw <br@ndon.com.au>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Grimeh/waller/issues"
+    },
     "homepage": "https://github.com/Grimeh/waller#readme",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -122,5 +129,6 @@
   },
   "filename": "Grimeh___waller.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:39.038Z"
+  "lastFetchedAt": "2017-05-04T14:45:39.038Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:17.246Z"
 }

@@ -170,18 +170,13 @@
     "version": "0.0.1",
     "description": "A terminal emulator for the 21st century.",
     "main": "src/main/main.js",
+    "author": "Volodymyr Shatsky <shockone89@gmail.com>",
     "repository": {
-      "user": "shockone",
-      "repo": "black-screen",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/shockone/black-screen/tarball/master",
-      "clone_url": "https://github.com/shockone/black-screen",
-      "https_url": "https://github.com/shockone/black-screen",
-      "travis_url": "https://travis-ci.org/shockone/black-screen",
-      "zip_url": "https://github.com/shockone/black-screen/archive/master.zip",
-      "api_url": "https://api.github.com/repos/shockone/black-screen"
+      "type": "git",
+      "url": "https://github.com/shockone/black-screen.git"
+    },
+    "bugs": {
+      "url": "https://github.com/shockone/black-screen/issues"
     },
     "keywords": [
       "terminal",
@@ -282,5 +277,6 @@
   "svnUrl": "https://github.com/onlydole/black-screen",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:53:21.298Z"
+  "lastFetchedAt": "2017-05-04T19:53:21.298Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:44.569Z"
 }

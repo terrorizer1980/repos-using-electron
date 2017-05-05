@@ -76,6 +76,7 @@
     "version": "1.0.0",
     "description": "A minimal Electron template with coffeescript and sass support",
     "main": "app/main.js",
+    "author": "DakEnviy",
     "license": "CC0-1.0",
     "scripts": {
       "start": "gulp; electron ./app/main.js",
@@ -122,5 +123,6 @@
   "filename": "DakEnviy___taten.json",
   "sourceRepo": "DakEnviy/electron_template",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:25.796Z"
+  "lastFetchedAt": "2017-05-04T05:15:25.796Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:29.649Z"
 }

@@ -67,12 +67,12 @@
   "status": 200,
   "packageJSON": {
     "name": "DotMD",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "app/main/index.js",
     "scripts": {
       "dev": "ELECTRON_ENV=development electron ./",
       "test": "mocha --compilers js:babel-register --recursive",
-      "package": "electron-packager ./ 'DotMD' --out=./build/1.0.0/ --platform=darwin --icon=./icon.icns --asar=true --overwrite=true --prune=true --ignore='src|test|build|gulpfile.js|config/default.json|config/development.json'",
+      "package": "electron-packager ./ 'DotMD' --out=./build/1.0.1/ --platform=darwin --icon=./icon.icns --asar=true --overwrite=true --prune=true --ignore='src|test|build|gulpfile.js|config/default.json|config/development.json'",
       "cleanup": "rm -rf app",
       "mas-package": "npm run cleanup && gulp compile && npm run-script package && cd ./mas-build && bash ./build.sh"
     },
@@ -136,5 +136,6 @@
   },
   "filename": "taqun___dotmd.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:28:40.735Z"
+  "lastFetchedAt": "2017-05-04T18:28:40.735Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:58.922Z"
 }

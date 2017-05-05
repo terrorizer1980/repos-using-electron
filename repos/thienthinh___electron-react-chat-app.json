@@ -78,6 +78,11 @@
     "description": "My delightful app",
     "license": "MIT",
     "repository": "thinhle/chat-chit",
+    "author": {
+      "name": "Thinh Le",
+      "email": "thinh.le@asnet.com.vn",
+      "url": "thinhle.com"
+    },
     "main": "main.js",
     "scripts": {
       "test": "xo",
@@ -202,5 +207,6 @@
   },
   "filename": "thienthinh___electron-react-chat-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:04:03.954Z"
+  "lastFetchedAt": "2017-05-04T09:04:03.954Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:06.774Z"
 }

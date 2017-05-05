@@ -78,14 +78,21 @@
       "sonus": "node sonus.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Smart Mirror",
       "IoT",
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "angular-i18n": "^1.5.5",
@@ -129,5 +136,6 @@
   },
   "filename": "imddochi___mirrot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:06.161Z"
+  "lastFetchedAt": "2017-05-04T20:00:06.161Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:33.643Z"
 }

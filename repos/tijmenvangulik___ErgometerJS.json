@@ -107,7 +107,10 @@
       "build:webbluetooth": "node_modules/.bin/tsc -p demos/webbluetooth ",
       "build": "npm run build:api && npm run build:copy_api && npm run build:simplecordova && npm run build:simple_electron  && npm run build:recording && npm run build:webbluetooth"
     },
-    "repository": "https://github.com/tijmenvangulik/MobileErgometer"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tijmenvangulik/MobileErgometer"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -134,5 +137,6 @@
   },
   "filename": "tijmenvangulik___ErgometerJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:24.839Z"
+  "lastFetchedAt": "2017-05-04T20:46:24.839Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:16.649Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -125,5 +132,6 @@
   },
   "filename": "jimibi___electron-photo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:09:01.568Z"
+  "lastFetchedAt": "2017-05-04T20:09:01.568Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:01.473Z"
 }

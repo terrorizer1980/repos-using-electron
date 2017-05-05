@@ -72,11 +72,12 @@
     "main": "main.js",
     "scripts": {
       "start": "electron .",
-      "package": "electron-packager . --platform=win32 --arch=x64 --overwrite --asar --out=bin --icon=src/assets/app/images/ra.ico --ignore=node_modules --ignore=资源 --ignore=.gitignore --ignore=.project"
+      "package": "electron-packager . --platform=win32 --arch=x64 --overwrite --asar --out=bin --ignore=node_modules --ignore=.gitignore --ignore=.project"
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
-      "electron-packager": "~7.7.0"
+      "electron-packager": "~7.7.0",
+      "internal-ip": "*"
     }
   },
   "packageStatus": 200,
@@ -104,5 +105,6 @@
   },
   "filename": "superliwei___DataExpress.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:24:08.031Z"
+  "lastFetchedAt": "2017-05-04T05:24:08.031Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:15.858Z"
 }

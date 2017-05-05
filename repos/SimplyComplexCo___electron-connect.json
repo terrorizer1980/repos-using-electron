@@ -194,6 +194,10 @@
     ],
     "homepage": "https://github.com/Quramy/electron-connect",
     "repository": "https://github.com/Quramy/electron-connect.git",
+    "author": {
+      "name": "Quramy",
+      "email": "yosuke.kurami@gmail.com"
+    },
     "license": "MIT",
     "dependencies": {
       "lodash": "^3.10.1",
@@ -251,5 +255,6 @@
   "svnUrl": "https://github.com/SimplyComplexCo/electron-connect",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:26:01.492Z"
+  "lastFetchedAt": "2017-05-04T21:26:01.492Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:13.809Z"
 }

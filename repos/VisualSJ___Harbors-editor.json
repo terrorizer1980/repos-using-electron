@@ -70,11 +70,21 @@
     "version": "0.0.1",
     "description": "editor",
     "main": "index.js",
+    "directories": {
+      "doc": "docs"
+    },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/VisualSJ/Harbors-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VisualSJ/Harbors-editor.git"
+    },
+    "author": "VisualSJ",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/VisualSJ/Harbors-editor/issues"
+    },
     "homepage": "https://github.com/VisualSJ/Harbors-editor#readme",
     "dependencies": {
       "async": "^1.5.0",
@@ -111,5 +121,6 @@
   },
   "filename": "VisualSJ___Harbors-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:32.598Z"
+  "lastFetchedAt": "2017-05-04T04:57:32.598Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:15.565Z"
 }

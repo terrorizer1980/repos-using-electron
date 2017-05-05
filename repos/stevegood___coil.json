@@ -67,5 +67,41 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:25:37.091Z"
+  "lastFetchedAt": "2017-05-04T05:25:37.091Z",
+  "packageJSON": {
+    "name": "coil",
+    "version": "1.0.0",
+    "description": "Displays scrobbled music info from last.fm",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . Coil --all",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/stevegood/coil.git"
+    },
+    "keywords": [
+      "last.fm",
+      "music",
+      "scrobble",
+      "electron"
+    ],
+    "author": "Steve Good <sgood@lanctr.com>",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/stevegood/coil/issues"
+    },
+    "homepage": "https://github.com/stevegood/coil#readme",
+    "dependencies": {
+      "electron": "^1.4.15",
+      "lodash": "^4.17.4"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.5.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T01:25:47.625Z"
 }

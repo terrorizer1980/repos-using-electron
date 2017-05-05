@@ -59,6 +59,7 @@
       "zip-win32": "cd pkgs/v0.1.2 && zip -r electron-tumblr-client-win32-x64.zip electron-tumblr-client-win32-x64"
     },
     "keywords": [],
+    "author": "yskm",
     "license": "MIT",
     "dependencies": {
       "babel": "^5.8.23",
@@ -121,5 +122,6 @@
   "svnUrl": "https://github.com/yskm/electron-tumblr-client",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:29:37.706Z"
+  "lastFetchedAt": "2017-05-04T15:29:37.706Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:15.571Z"
 }

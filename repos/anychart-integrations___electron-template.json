@@ -83,7 +83,10 @@
   "packageJSON": {
     "name": "electron-template",
     "description": "AnyChart Electron template",
-    "repository": "https://github.com/anychart-integrations/electron-template",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/anychart-integrations/electron-template.git"
+    },
     "license": {
       "type": "Apache-2.0",
       "url": "https://github.com/anychart-integrations/electron-template/blob/master/LICENSE"
@@ -121,5 +124,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:52.374Z"
+  "lastFetchedAt": "2017-05-04T21:26:52.374Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:17.557Z"
 }

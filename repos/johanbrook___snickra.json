@@ -85,7 +85,11 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/johanbrook/snickra",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johanbrook/snickra.git"
+    },
+    "author": "Johan Brook (http://johanbrook.com)",
     "license": "MIT",
     "keywords": [
       "github",
@@ -174,5 +178,6 @@
   },
   "filename": "johanbrook___snickra.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:20:31.119Z"
+  "lastFetchedAt": "2017-05-04T20:20:31.119Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:05.765Z"
 }

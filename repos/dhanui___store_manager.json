@@ -56,7 +56,14 @@
     "description": "A simple desktop to manage your store",
     "version": "1.0.0",
     "license": "MIT",
-    "repository": "https://github.com/dhanui/store_manager",
+    "author": {
+      "name": "Danny Andrianto",
+      "email": "danny_andrianto@hotmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dhanui/store_manager.git"
+    },
     "main": "index.js",
     "scripts": {
       "start": "electron ."
@@ -117,5 +124,6 @@
   },
   "filename": "dhanui___store_manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:41.422Z"
+  "lastFetchedAt": "2017-05-04T17:48:41.422Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:39.149Z"
 }

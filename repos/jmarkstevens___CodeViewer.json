@@ -77,57 +77,62 @@
     "description": "A project viewer app.",
     "license": "MIT",
     "main": "main.js",
-    "repository": "https://github.com/calitek/CodeViewer",
+    "author": {
+      "name": "Janaka Stevens",
+      "email": "jmstevens@jmarkstevens.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jmarkstevens/CodeViewer.git"
+    },
     "scripts": {
-      "start": "nodemon js/server.js",
-      "test": "jest",
-      "ww": "webpack --progress --profile --colors --watch",
-      "nw": "webpack --progress --profile --colors"
+      "start": "nodemon --watch js js/server.js",
+      "e": "electron .",
+      "test": "mocha __tests__/.setup.js __tests__/**/*.test.js",
+      "testw": "npm test -- --watch",
+      "ww": "webpack --progress --profile --colors --env.noMinimize --watch",
+      "nw": "webpack --progress --profile --colors --env.noMinimize",
+      "build": "webpack --progress --profile --colors --env.production"
     },
     "dependencies": {
       "async": "latest",
       "express": "latest",
-      "highlight.js": "latest",
-      "js-yaml": "latest",
-      "lodash": "latest",
+      "highlights": "latest",
       "marked": "latest",
-      "primus": "latest",
-      "primus-emitter": "latest",
+      "remarkable": "latest",
       "serve-favicon": "latest",
-      "underscore.string": "latest",
-      "ws": "latest"
+      "socket.io": "latest"
     },
     "devDependencies": {
+      "electron": "latest",
+      "jms-react-components": "file:/Users/janaka/Kykas/Projects/jms-react-components",
+      "react": "^15.0.0",
+      "react-dom": "^15.0.0",
+      "react-redux": "latest",
+      "react-remarkable": "latest",
+      "redux": "latest",
+      "redux-logger": "latest",
+      "redux-thunk": "latest",
+      "traverse": "latest",
       "babel-core": "latest",
-      "babel-jest": "latest",
       "babel-loader": "^6.1.0",
       "babel-preset-es2015": "latest",
       "babel-preset-stage-0": "latest",
       "babel-preset-react": "latest",
       "css-loader": "latest",
-      "electron-prebuilt": "*",
-      "enzyme": "latest",
-      "extract-text-webpack-plugin": "latest",
+      "extract-text-webpack-plugin": "^2.0.0-rc.3",
       "file-loader": "latest",
-      "gulp": "latest",
-      "gulp-shell": "latest",
-      "jest-cli": "latest",
+      "loader-utils": "latest",
+      "style-loader": "^0.13.1",
+      "webpack": "latest",
+      "babel-register": "latest",
+      "chai": "latest",
+      "chai-http": "latest",
+      "enzyme": "latest",
+      "jsdom": "latest",
+      "mocha": "latest",
       "react-addons-test-utils": "^15.0.0",
-      "react": "^15.0.0",
-      "react-dom": "^15.0.0",
-      "react-remarkable": "latest",
-      "reflux": "latest",
-      "traverse": "latest",
-      "webpack": "latest"
-    },
-    "jest": {
-      "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
-      "unmockedModulePathPatterns": [
-        "enzyme",
-        "react",
-        "react-addons-test-utils"
-      ],
-      "verbose": true
+      "sinon": "latest"
     }
   },
   "packageStatus": 200,
@@ -155,5 +160,6 @@
   },
   "filename": "jmarkstevens___CodeViewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:29.098Z"
+  "lastFetchedAt": "2017-05-04T17:36:29.098Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:24.494Z"
 }

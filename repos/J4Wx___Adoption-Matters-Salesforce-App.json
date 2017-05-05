@@ -80,8 +80,15 @@
       "start": "node_modules/.bin/electron .",
       "dist": "build"
     },
-    "repository": "https://github.com/J4Wx/sfelectron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/J4Wx/sfelectron.git"
+    },
+    "author": "Jamie Wood <Jamie.Wood@TheIbex.net>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/J4Wx/sfelectron/issues"
+    },
     "homepage": "https://github.com/J4Wx/sfelectron#readme",
     "devDependencies": {
       "electron-builder": "^6.3.1",
@@ -128,5 +135,6 @@
   },
   "filename": "J4Wx___Adoption-Matters-Salesforce-App.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:13.158Z"
+  "lastFetchedAt": "2017-05-04T19:35:13.158Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:20.045Z"
 }

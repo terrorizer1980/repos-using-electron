@@ -80,19 +80,31 @@
       "dist": "build",
       "postinstall": "install-app-deps"
     },
-    "repository": "https://github.com/1313/spectrum",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/1313/spectrum.git"
+    },
+    "author": "Per Johansson",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/1313/spectrum/issues"
+    },
     "build": {
-      "appId": "your.id",
-      "category": "your.app.category.type",
-      "win": {
-        "iconUrl": "(windows-only) https link to icon"
+      "appId": "spectrum.video",
+      "category": "Video Streaming",
+      "asar": false,
+      "electronDownload": {
+        "version": "1.4.13",
+        "platform": "osx"
       }
     },
     "homepage": "https://github.com/1313/spectrum#readme",
     "devDependencies": {
-      "electron": "^1.4.0",
-      "electron-builder": "^7.0.0"
+      "electron": "1.4.13",
+      "electron-builder": "^13.0.0",
+      "stylelint": "^7.8.0",
+      "stylelint-config-css-modules": "^0.1.0",
+      "stylelint-config-standard": "^16.0.0"
     }
   },
   "packageStatus": 200,
@@ -120,5 +132,6 @@
   },
   "filename": "1313___spectrum.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:50:26.801Z"
+  "lastFetchedAt": "2017-05-04T19:50:26.801Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:55.937Z"
 }

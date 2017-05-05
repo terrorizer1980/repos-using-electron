@@ -69,7 +69,10 @@
     "name": "do-ddns",
     "description": "Digital Ocean Dynamic DNS",
     "version": "0.1.0",
-    "repository": "https://github.com/ctsstc/DO-DDNS",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ctsstc/DO-DDNS.git"
+    },
     "main": "main.js",
     "dependencies": {
       "bluebird": "^3.4.6",
@@ -104,5 +107,6 @@
   },
   "filename": "ctsstc___DO-DDNS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:29:30.396Z"
+  "lastFetchedAt": "2017-05-04T20:29:30.396Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:51.244Z"
 }

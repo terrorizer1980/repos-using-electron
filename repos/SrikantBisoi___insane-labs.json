@@ -83,19 +83,11 @@
       "distro": "grunt distro",
       "dev": "grunt auto-build"
     },
+    "author": "Camunda BPM <http://camunda.org>",
     "license": "SEE LICENSE IN LICENSE",
     "repository": {
-      "user": "camunda",
-      "repo": "camunda-modeler",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/camunda/camunda-modeler/tarball/master",
-      "clone_url": "https://github.com/camunda/camunda-modeler",
-      "https_url": "https://github.com/camunda/camunda-modeler",
-      "travis_url": "https://travis-ci.org/camunda/camunda-modeler",
-      "zip_url": "https://github.com/camunda/camunda-modeler/archive/master.zip",
-      "api_url": "https://api.github.com/repos/camunda/camunda-modeler"
+      "type": "git",
+      "url": "https://github.com/camunda/camunda-modeler"
     },
     "browserify": {
       "transform": [
@@ -224,5 +216,6 @@
   "filename": "SrikantBisoi___insane-labs.json",
   "sourceRepo": "camunda/camunda-modeler",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:16.339Z"
+  "lastFetchedAt": "2017-05-04T15:19:16.339Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:20.783Z"
 }

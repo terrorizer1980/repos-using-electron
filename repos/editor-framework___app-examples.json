@@ -80,9 +80,10 @@
   "subscribersCount": 2,
   "status": 200,
   "packageJSON": {
-    "name": "example-apps",
+    "name": "app-examples",
     "version": "1.0.0",
     "description": "Editor Framework App Examples",
+    "author": "Johnny Wu",
     "dependencies": {
       "electron": "1.x",
       "editor-Framework": "0.x"
@@ -114,5 +115,6 @@
   "filename": "editor-framework___app-examples.json",
   "sourceRepo": "editor-framework/example-apps",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:28.000Z"
+  "lastFetchedAt": "2017-05-04T20:13:28.000Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:36.020Z"
 }

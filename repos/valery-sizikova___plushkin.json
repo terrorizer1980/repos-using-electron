@@ -54,18 +54,10 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "valery-sizikova",
-      "repo": "plushkin",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/valery-sizikova/plushkin/tarball/master",
-      "clone_url": "https://github.com/valery-sizikova/plushkin",
-      "https_url": "https://github.com/valery-sizikova/plushkin",
-      "travis_url": "https://travis-ci.org/valery-sizikova/plushkin",
-      "zip_url": "https://github.com/valery-sizikova/plushkin/archive/master.zip",
-      "api_url": "https://api.github.com/repos/valery-sizikova/plushkin"
+      "type": "git",
+      "url": "git+https://github.com/valery-sizikova/plushkin.git"
     },
+    "author": "Valery Sizikova",
     "license": "MIT",
     "homepage": "https://github.com/valery-sizikova/plushkin#readme",
     "devDependencies": {
@@ -133,5 +125,6 @@
   "svnUrl": "https://github.com/valery-sizikova/plushkin",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:13:26.495Z"
+  "lastFetchedAt": "2017-05-04T05:13:26.495Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:26.862Z"
 }

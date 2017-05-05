@@ -81,18 +81,10 @@
       "start": "webpack && electron ."
     },
     "repository": {
-      "user": "joshymcd",
-      "repo": "mycroft-magic-mirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/joshymcd/mycroft-magic-mirror/tarball/master",
-      "clone_url": "https://github.com/joshymcd/mycroft-magic-mirror",
-      "https_url": "https://github.com/joshymcd/mycroft-magic-mirror",
-      "travis_url": "https://travis-ci.org/joshymcd/mycroft-magic-mirror",
-      "zip_url": "https://github.com/joshymcd/mycroft-magic-mirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/joshymcd/mycroft-magic-mirror"
+      "type": "git",
+      "url": "https://github.com/joshymcd/mycroft-magic-mirror.git"
     },
+    "author": "Joshua McDonald",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -145,5 +137,6 @@
   "filename": "joshymcd___mycroft-electro.json",
   "sourceRepo": "joshymcd/mycroft-magic-mirror",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:51.269Z"
+  "lastFetchedAt": "2017-05-04T21:10:51.269Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:18.547Z"
 }

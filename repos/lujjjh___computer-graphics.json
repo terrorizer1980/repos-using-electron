@@ -89,6 +89,7 @@
       "postinstall": "npm run lint:fix && cd app && npm install",
       "vue:route": "node tasks/vue/route.js"
     },
+    "author": "lujjjh <lujjjh@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -151,5 +152,6 @@
   },
   "filename": "lujjjh___computer-graphics.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:58.291Z"
+  "lastFetchedAt": "2017-05-04T05:26:58.291Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:56.592Z"
 }

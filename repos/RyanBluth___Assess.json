@@ -78,7 +78,10 @@
       "typings": "typings",
       "postinstall": "typings install"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -144,5 +147,6 @@
   },
   "filename": "RyanBluth___Assess.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:35:24.263Z"
+  "lastFetchedAt": "2017-05-04T17:35:24.263Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:59.665Z"
 }

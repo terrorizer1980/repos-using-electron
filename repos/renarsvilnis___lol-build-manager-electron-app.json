@@ -64,6 +64,11 @@
       "lint": "./node_modules/.bin/eslint ./src/js/",
       "start-app": "./node_modules/electron-prebuilt/cli.js ./prebuild"
     },
+    "author": {
+      "name": "Renārs Vilnis",
+      "email": "renars.vilnis@gmail.com",
+      "url": "https://renarsvilnis.com/"
+    },
     "license": "MIT",
     "dependencies": {
       "async": "^1.4.2",
@@ -162,5 +167,6 @@
   },
   "filename": "renarsvilnis___lol-build-manager-electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:35:38.302Z"
+  "lastFetchedAt": "2017-05-04T20:35:38.302Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:29.654Z"
 }

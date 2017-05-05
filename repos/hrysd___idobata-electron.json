@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "idobata-electron",
-    "version": "0.5.0",
+    "version": "0.7.0",
     "description": "Unofficial Idobata client built on Electron",
     "main": "index.js",
     "repository": "hrysd/idobata-electron",
@@ -61,10 +61,11 @@
       "build": "./bin/build",
       "idobata": "electron index.js"
     },
+    "author": "Hiroshi Yoshida",
     "license": "MIT",
     "devDependencies": {
-      "electron-packager": "8.0.0",
-      "electron-prebuilt": "1.4.1"
+      "electron-packager": "8.5.0",
+      "electron": "1.4.14"
     }
   },
   "packageStatus": 200,
@@ -112,5 +113,6 @@
   "svnUrl": "https://github.com/hrysd/idobata-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:05:25.750Z"
+  "lastFetchedAt": "2017-05-04T20:05:25.750Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:35.718Z"
 }

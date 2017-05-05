@@ -67,5 +67,29 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T04:59:50.854Z"
+  "lastFetchedAt": "2017-05-04T04:59:50.854Z",
+  "packageJSON": {
+    "name": "mp3-data-exporter",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . mp3-data-exporter --out=build --overwrite"
+    },
+    "author": "Rich Gilbank",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "^1.4.15",
+      "electron-packager": "^8.5.1"
+    },
+    "dependencies": {
+      "json2csv": "^3.7.3",
+      "musicmetadata": "^2.0.5",
+      "handlebars": "^4.0.6",
+      "recursive-readdir": "^2.1.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:30:45.195Z"
 }

@@ -48,43 +48,33 @@
   "packageJSON": {
     "name": "porcelain",
     "productName": "Porcelain",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "A simple yet powerful todo-list app.",
+    "author": {
+      "name": "Benjamin Bales",
+      "email": "ben.bales.dev@gmail.com"
+    },
     "license": "MIT",
     "repository": "https://github.com/bbales/Porcelain",
-    "main": "main.js",
+    "main": "server.js",
     "scripts": {
-      "test": "xo",
-      "start": "electron . --enable-transparent-visuals --disable-gpu ",
-      "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+      "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
+      "start": "electron . "
     },
-    "files": [
-      "dist/all.js",
-      "dist/all.css",
-      "dist/index.html",
-      "src/"
-    ],
+    "files": [],
     "keywords": [
       "electron-app",
       "electron"
     ],
     "dependencies": {
-      "electron-debug": "^1.0.0",
-      "electron-data": "^1.2.0",
-      "lodash-node": "^3.10.2"
+      "font-awesome": "^4.7.0",
+      "github-api": "^3.0.0",
+      "menubar": "^5.2.0",
+      "object-hash": "^1.1.5",
+      "vue": "^2.1.10"
     },
     "devDependencies": {
-      "devtron": "^1.1.0",
-      "electron-packager": "^7.0.0",
-      "electron-prebuilt": "^1.0.1",
-      "xo": "^0.15.0"
-    },
-    "xo": {
-      "esnext": true,
-      "envs": [
-        "node",
-        "browser"
-      ]
+      "electron": "^1.4.15"
     }
   },
   "packageStatus": 200,
@@ -132,5 +122,6 @@
   },
   "filename": "bbales___Porcelain.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:06.411Z"
+  "lastFetchedAt": "2017-05-04T21:01:06.411Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:37.125Z"
 }

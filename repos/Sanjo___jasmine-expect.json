@@ -59,21 +59,16 @@
       "expect",
       "assert"
     ],
+    "author": "Jonas Aschenbrenner <jonas.aschenbrenner@gmail.com>",
     "license": "MIT",
     "repository": {
-      "user": "sanjo",
-      "repo": "jasmine-expect",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/sanjo/jasmine-expect/tarball/master",
-      "clone_url": "https://github.com/sanjo/jasmine-expect",
-      "https_url": "https://github.com/sanjo/jasmine-expect",
-      "travis_url": "https://travis-ci.org/sanjo/jasmine-expect",
-      "zip_url": "https://github.com/sanjo/jasmine-expect/archive/master.zip",
-      "api_url": "https://api.github.com/repos/sanjo/jasmine-expect"
+      "type": "git",
+      "url": "https://github.com/sanjo/jasmine-expect"
     },
     "homepage": "",
+    "bugs": {
+      "url": "https://github.com/sanjo/jasmine-expect/issues"
+    },
     "scripts": {
       "test": "jest"
     },
@@ -133,5 +128,6 @@
   "filename": "Sanjo___jasmine-expect.json",
   "sourceRepo": "xolvio/jasmine-expect",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:30:58.080Z"
+  "lastFetchedAt": "2017-05-04T15:30:58.080Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:22.886Z"
 }

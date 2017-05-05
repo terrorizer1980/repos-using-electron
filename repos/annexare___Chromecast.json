@@ -95,7 +95,10 @@
       "postinstall": "cd ./app && npm install",
       "start": "set NODE_ENV=development && gulp build:ui && electron app/main.js"
     },
-    "repository": "https://github.com/annexare/Chromecast",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/annexare/Chromecast"
+    },
     "keywords": [
       "Chromecast",
       "App",
@@ -107,7 +110,11 @@
       "Google",
       "Annexare"
     ],
+    "author": "Annexare",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/annexare/Chromecast/issues"
+    },
     "homepage": "http://annexare.github.io/Chromecast",
     "eslintConfig": ".eslintrc.json",
     "devDependencies": {
@@ -158,5 +165,6 @@
   },
   "filename": "annexare___Chromecast.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:50.996Z"
+  "lastFetchedAt": "2017-05-04T15:16:50.996Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:02.265Z"
 }

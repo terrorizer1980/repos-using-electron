@@ -62,7 +62,10 @@
       "rebuild": "electron-rebuild",
       "postinstall": "npm run rebuild"
     },
-    "repository": "https://github.com/toddself/blogtool",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/toddself/blogtool.git"
+    },
     "keywords": [
       "blog",
       "blogging",
@@ -73,7 +76,11 @@
       "static",
       "website"
     ],
+    "author": "Todd Kennedy <todd@selfassembled.org>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/toddself/blogtool/issues"
+    },
     "homepage": "https://github.com/toddself/blogtool#readme",
     "dependencies": {
       "dr-sax": "~1.0.12",
@@ -136,5 +143,6 @@
   "svnUrl": "https://github.com/toddself/blogtool",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:11:58.431Z"
+  "lastFetchedAt": "2017-05-04T05:11:58.431Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:40.574Z"
 }

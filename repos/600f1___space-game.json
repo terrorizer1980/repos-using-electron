@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/600f1/space-game",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/600f1/space-game.git"
+    },
+    "author": "Alonso Zamorano, Javier Torres, Diego Troncoso",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/600f1/space-game/issues"
+    },
     "homepage": "https://github.com/600f1/space-game#readme",
     "dependencies": {
       "electron": "^1.4.1",
@@ -113,5 +120,6 @@
   },
   "filename": "600f1___space-game.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:39.440Z"
+  "lastFetchedAt": "2017-05-04T20:49:39.440Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:17.885Z"
 }

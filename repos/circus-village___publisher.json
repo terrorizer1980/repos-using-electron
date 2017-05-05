@@ -83,10 +83,14 @@
     "name": "circus-village-publisher",
     "version": "1.0.0",
     "description": "Circus village website publisher",
+    "author": "muji <noop@xpm.io>",
     "license": "MIT",
     "private": true,
     "homepage": "http://circus-village.com",
-    "repository": "https://github.com/circus-village/publisher",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/circus-village/publisher.git"
+    },
     "build": {
       "appId": "circus-village.com",
       "app-category-type": "public.app-category.developer-tools"
@@ -128,5 +132,6 @@
   },
   "filename": "circus-village___publisher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:10:02.663Z"
+  "lastFetchedAt": "2017-05-04T20:10:02.663Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:56.973Z"
 }

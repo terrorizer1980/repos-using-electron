@@ -61,8 +61,15 @@
       "build": "electron-packager source LGLoader --platform=all --arch=all",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Axodoss/LGLoader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Axodoss/LGLoader.git"
+    },
+    "author": "Lukas Heise",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Axodoss/LGLoader/issues"
+    },
     "homepage": "https://github.com/Axodoss/LGLoader#readme",
     "dependencies": {
       "editor-framework": "^0.6.1",
@@ -117,5 +124,6 @@
   },
   "filename": "Axodoss___LGLoader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:31:22.968Z"
+  "lastFetchedAt": "2017-05-04T05:31:22.968Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:50.952Z"
 }

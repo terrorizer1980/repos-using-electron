@@ -55,7 +55,9 @@
     "name": "angular2-seed",
     "version": "0.0.0",
     "description": "Modular seed project for Angular 2 apps with fast, statically typed build",
-    "repository": "https://github.com/mgechev/angular2-seed",
+    "repository": {
+      "url": "https://github.com/mgechev/angular2-seed"
+    },
     "scripts": {
       "build.dev": "gulp build.dev --color --config-env dev",
       "build.dev.watch": "gulp build.dev.watch --color",
@@ -85,6 +87,7 @@
       "webdriver-start": "webdriver-manager start",
       "webdriver-update": "webdriver-manager update"
     },
+    "author": "Minko Gechev <mgechev>",
     "license": "MIT",
     "devDependencies": {
       "@angular/compiler-cli": "^0.6.1",
@@ -256,5 +259,6 @@
   "svnUrl": "https://github.com/mikemichaelis/x-ng2-seed",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:08:46.793Z"
+  "lastFetchedAt": "2017-05-04T20:08:46.793Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:04.295Z"
 }

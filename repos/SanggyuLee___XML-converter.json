@@ -75,6 +75,7 @@
       "dev": "electron . --debug",
       "build": "electron-packager . XML-Converter"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "devtron": "^1.4.0",
@@ -111,5 +112,6 @@
   },
   "filename": "SanggyuLee___XML-converter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:15.034Z"
+  "lastFetchedAt": "2017-05-04T21:04:15.034Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:34.300Z"
 }

@@ -93,14 +93,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/NwuNet/wNode",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NwuNet/wNode.git"
+    },
     "keywords": [
       "校园网",
       "网页认证",
       "流量查询",
       "接入服务"
     ],
+    "author": "NwuNet",
     "license": "Apache License 2.0",
+    "bugs": {
+      "url": "https://github.com/NwuNet/wNode/issues"
+    },
     "homepage": "https://github.com/NwuNet/wNode#readme",
     "devDependencies": {
       "electron": "^1.3.4",
@@ -143,5 +150,6 @@
   },
   "filename": "NwuNet___wNode.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:12.757Z"
+  "lastFetchedAt": "2017-05-04T04:59:12.757Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:08.422Z"
 }

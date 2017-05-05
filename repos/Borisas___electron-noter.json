@@ -67,5 +67,24 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:10:56.208Z"
+  "lastFetchedAt": "2017-05-04T18:10:56.208Z",
+  "packageJSON": {
+    "name": "noter",
+    "version": "1.0.0",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.6.2",
+      "remote": "^0.2.6"
+    },
+    "devDependencies": {},
+    "keywords": [],
+    "description": ""
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:13:14.969Z"
 }

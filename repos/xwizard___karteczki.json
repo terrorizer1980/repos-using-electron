@@ -78,6 +78,11 @@
     "description": "My wicked app",
     "license": "GPL-3.0",
     "repository": "xwizard/karteczki",
+    "author": {
+      "name": "xwizard",
+      "email": "xwizard@server",
+      "url": "github.com/xwizard/karteczki"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -144,5 +149,6 @@
   },
   "filename": "xwizard___karteczki.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:46.369Z"
+  "lastFetchedAt": "2017-05-04T18:00:46.369Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:56.194Z"
 }

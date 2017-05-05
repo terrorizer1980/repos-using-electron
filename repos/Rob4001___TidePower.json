@@ -70,12 +70,19 @@
       "build:lin": "npm run pack:lin && tar -zcf dist/lin/TidePower-linux-x64.tar.gz -C dist/lin/ TidePower-linux-x64",
       "build:osx": "npm run pack:osx && electron-builder \"dist/osx/TidePower-darwin-x64\" --platform=osx --out=\"dist/osx\" --config=builder.json"
     },
-    "repository": "https://github.com/Rob4001/TidePower",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rob4001/TidePower.git"
+    },
     "keywords": [
       "Electron",
       "TingBot"
     ],
+    "author": "rob4001",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Rob4001/TidePower/issues"
+    },
     "homepage": "https://github.com/Rob4001/TidePower#readme",
     "devDependencies": {
       "electron-builder": "^2.3.0",
@@ -133,5 +140,6 @@
   "svnUrl": "https://github.com/Rob4001/TidePower",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:33:49.956Z"
+  "lastFetchedAt": "2017-05-04T15:33:49.956Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:37.018Z"
 }

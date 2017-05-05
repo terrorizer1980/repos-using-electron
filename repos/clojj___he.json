@@ -77,13 +77,20 @@
       "start": "electron .",
       "build": "electron-packager . $npm_package_productName --overwrite --out=dist --platform=darwin --arch=x64 --version=$npm_package_electronVersion --app-version=$npm_package_version --icon=./assets/Icon.icns --app-bundle-id=de.clojj.${npm_package_name}"
     },
-    "repository": "https://github.com/clojj/he",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:clojj/he.git"
+    },
     "keywords": [
       "haskell",
       "editor",
       "codemirror",
       "electron"
     ],
+    "author": "Jörg Winter",
+    "bugs": {
+      "url": "https://github.com/clojj/he/issues"
+    },
     "homepage": "https://github.com/clojj/he",
     "engines": {
       "node": ">=4.2.3"
@@ -119,5 +126,6 @@
   },
   "filename": "clojj___he.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:45.818Z"
+  "lastFetchedAt": "2017-05-04T17:34:45.818Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:04.327Z"
 }

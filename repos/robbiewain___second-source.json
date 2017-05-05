@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "dependencies": {
       "d3": "3.5.16"
@@ -114,5 +121,6 @@
   },
   "filename": "robbiewain___second-source.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:45:34.968Z"
+  "lastFetchedAt": "2017-05-04T17:45:34.968Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:42.820Z"
 }

@@ -70,6 +70,7 @@
     "version": "0.1.0",
     "description": "A CLI-inspired GUI client for Git.",
     "homepage": "https://github.com/foldr/twat",
+    "bugs": "https://github.com/foldr/twat/issues",
     "contributors": [
       {
         "name": "Curtis Lusmore",
@@ -77,7 +78,10 @@
         "url": "https://github.com/CurtisLusmore"
       }
     ],
-    "repository": "https://github.com/foldr/twat",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/foldr/twat.git"
+    },
     "main": "main.js",
     "devDependencies": {
       "electron-prebuilt": "^0.36.9",
@@ -109,5 +113,6 @@
   },
   "filename": "CurtisLusmore___twat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:06:38.374Z"
+  "lastFetchedAt": "2017-05-04T18:06:38.374Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:36.017Z"
 }

@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://www.github.com/atf1999/MaterialExplorer",
+    "repository": {
+      "type": "git",
+      "url": "https://www.github.com/atf1999/MaterialExplorer"
+    },
     "keywords": [
       "file",
       "explorer",
@@ -62,6 +65,7 @@
       "design",
       "material design"
     ],
+    "author": "atf1999, ErikBoesen",
     "license": "MIT",
     "devDependencies": {
       "fs-extra": "^0.30.0",
@@ -114,5 +118,6 @@
   "svnUrl": "https://github.com/atf1999/MaterialExplorer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:20:40.174Z"
+  "lastFetchedAt": "2017-05-04T20:20:40.174Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:31.490Z"
 }

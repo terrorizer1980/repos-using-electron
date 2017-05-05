@@ -76,8 +76,14 @@
     "name": "Abricotine",
     "description": "A markdown editor for desktop",
     "homepage": "http://abricotine.brrd.fr",
-    "repository": "https://github.com/brrd/Abricotine",
-    "version": "0.4.0",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/brrd/Abricotine"
+    },
+    "bugs": {
+      "url": "https://github.com/brrd/Abricotine/issues"
+    },
+    "version": "0.5.0",
     "keywords": [
       "markdown",
       "text",
@@ -91,15 +97,22 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "winsetup": "node scripts/winsetup.js"
     },
+    "author": {
+      "name": "Thomas Brouard",
+      "email": "contact@brrd.fr",
+      "url": "http://brrd.fr"
+    },
     "license": "GPL-3.0",
     "dependencies": {
       "@shagstrom/split-pane": "^0.9.2",
       "celldown.js": "latest",
-      "codemirror": "^5.15.2",
+      "chokidar": "^1.6.1",
+      "codemirror": "^5.25.0",
       "deep-equal": "^1.0.1",
-      "electron-prebuilt": "^1.2.3",
+      "deep-extend": "^0.4.1",
+      "electron": "^1.6.2",
       "electron-squirrel-startup": "^1.0.0",
-      "electron-window-state": "^3.0.3",
+      "electron-window-state": "^4.1.1",
       "font-awesome": "^4.5.0",
       "glob": "^5.0.14",
       "is-url": "^1.2.1",
@@ -122,8 +135,8 @@
     "devDependencies": {
       "commander": "^2.9.0",
       "electron-packager": "^8.1.0",
-      "electron-rebuild": "^1.1.5",
-      "electron-winstaller": "^2.3.4",
+      "electron-rebuild": "^1.5.7",
+      "electron-winstaller": "^2.5.2",
       "pretty-ms": "^2.1.0",
       "semver": "^5.2.0"
     },
@@ -131,7 +144,7 @@
       "electron-installer-debian": "^0.4.0"
     },
     "abricotine": {
-      "schema": 3
+      "schema": 4
     }
   },
   "packageStatus": 200,
@@ -159,5 +172,6 @@
   },
   "filename": "brrd___Abricotine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:03:21.632Z"
+  "lastFetchedAt": "2017-05-04T09:03:21.632Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:06.019Z"
 }

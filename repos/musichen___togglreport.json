@@ -97,8 +97,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/musichen/togglreport",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/musichen/togglreport.git"
+    },
+    "author": {
+      "name": "Alexander Musichen",
+      "email": "alex.musichen@gmail.com",
+      "url": "https://github.com/musichen"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/musichen/togglreport/issues"
+    },
     "keywords": [
       "toggl",
       "report",
@@ -215,5 +226,6 @@
   },
   "filename": "musichen___togglreport.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:14.649Z"
+  "lastFetchedAt": "2017-05-04T18:08:14.649Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:25.476Z"
 }

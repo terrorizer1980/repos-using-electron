@@ -170,6 +170,10 @@
     "version": "0.6.0",
     "description": "Desktop Client for Ghost",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "homepage": "https://github.com/tryghost/ghost-desktop",
     "scripts": {
       "build": "grunt build",
@@ -189,6 +193,7 @@
     "engines": {
       "node": ">= 5.0"
     },
+    "author": "",
     "license": "MIT",
     "optionalDependencies": {
       "grunt-electron-installer-debian": "^0.3.0"
@@ -320,5 +325,6 @@
   "filename": "acburdine___Ghost-Desktop.json",
   "sourceRepo": "TryGhost/Ghost-Desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:46.897Z"
+  "lastFetchedAt": "2017-05-04T20:45:46.897Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:28.752Z"
 }

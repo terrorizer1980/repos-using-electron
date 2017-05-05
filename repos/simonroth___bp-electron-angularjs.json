@@ -83,6 +83,7 @@
       "build": "electron-packager app $npm_package_productName --all --out=dist --overwrite --version=$npm_package_electronVersion"
     },
     "repository": "simonroth/bp-electron-angularjs",
+    "author": "Simon Roth <app@s.imon.ch> (https://s.imon.ch)",
     "license": "MIT",
     "dependencies": {
       "nedb": "*"
@@ -123,5 +124,6 @@
   },
   "filename": "simonroth___bp-electron-angularjs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:16.796Z"
+  "lastFetchedAt": "2017-05-04T04:59:16.796Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:50.744Z"
 }

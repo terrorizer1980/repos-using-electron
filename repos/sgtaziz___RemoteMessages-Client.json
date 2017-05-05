@@ -76,6 +76,7 @@
     "productName": "Remote Messages",
     "description": "Remote Messages",
     "homepage": "https://github.com/sgtaziz/RemoteMessages-Client",
+    "author": "sgtaziz",
     "version": "1.1.6",
     "main": "main.js",
     "build": {
@@ -97,7 +98,10 @@
       "electron-settings": "^2.2.1",
       "electron-squirrel-startup": "^1.0.0"
     },
-    "repository": "https://github.com/sgtaziz/RemoteMessages-Client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/sgtaziz/RemoteMessages-Client.git"
+    },
     "scripts": {
       "test": "mocha scripts/run-test.js",
       "publish": "build -mwl --publish always",
@@ -129,5 +133,6 @@
   },
   "filename": "sgtaziz___RemoteMessages-Client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:22.836Z"
+  "lastFetchedAt": "2017-05-04T17:51:22.836Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:49.271Z"
 }

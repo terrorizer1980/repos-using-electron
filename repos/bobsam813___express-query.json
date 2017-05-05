@@ -80,13 +80,18 @@
       "dev": "electron .",
       "build": "webpack --color --progress",
       "watch": "webpack --watch",
-      "start": "npm run watch | npm run dev"
+      "start": "npm run watch | npm run dev",
+      "packager": "electron-packager ./ express --platform=win32 --arch=x64 --out ./express --version=1.4.4 --icon=./express.ico"
     },
-    "repository": "https://github.com/bobsam813/express-query",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:bobsam813/express-query.git"
+    },
     "keywords": [
       "express",
       "query"
     ],
+    "author": "Bob",
     "license": "MIT",
     "dependencies": {
       "babel-core": "^6.18.0",
@@ -97,6 +102,7 @@
       "babel-preset-stage-2": "^6.18.0",
       "css-loader": "^0.25.0",
       "electron": "^1.4.4",
+      "electron-packager": "^8.3.0",
       "file-loader": "^0.9.0",
       "html-loader": "^0.4.3",
       "json-loader": "^0.5.4",
@@ -136,5 +142,6 @@
   },
   "filename": "bobsam813___express-query.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:35.993Z"
+  "lastFetchedAt": "2017-05-04T19:59:35.993Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:10.661Z"
 }

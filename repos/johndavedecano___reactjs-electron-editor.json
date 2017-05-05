@@ -61,6 +61,7 @@
       "dev": "node server.js",
       "postinstall": "./node_modules/.bin/webpack -p --config webpack.config.js"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.13.2",
@@ -141,5 +142,6 @@
   "svnUrl": "https://github.com/johndavedecano/reactjs-electron-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:08:56.949Z"
+  "lastFetchedAt": "2017-05-04T05:08:56.949Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:57.758Z"
 }

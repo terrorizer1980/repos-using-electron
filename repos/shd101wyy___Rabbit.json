@@ -73,8 +73,15 @@
     "scripts": {
       "start": "./node_modules/.bin/electron main.js"
     },
-    "repository": "https://github.com/shd101wyy/Rabbit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shd101wyy/Rabbit.git"
+    },
+    "author": "shd101wyy",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/shd101wyy/Rabbit/issues"
+    },
     "homepage": "https://github.com/shd101wyy/Rabbit#readme",
     "dependencies": {
       "async": "^2.1.2",
@@ -131,5 +138,6 @@
   },
   "filename": "shd101wyy___Rabbit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:50:04.362Z"
+  "lastFetchedAt": "2017-05-04T20:50:04.362Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:28.265Z"
 }

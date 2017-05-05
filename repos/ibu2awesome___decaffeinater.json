@@ -73,23 +73,83 @@
   "status": 200,
   "packageJSON": {
     "name": "decaffeinater",
-    "version": "0.1.0",
-    "main": "main.js",
+    "description": "An app which closes apps if you use them too much.",
+    "version": "1.3.0-rc.1",
+    "main": "app/main.js",
+    "license": "Apache-2.0",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ibujs/decaffeinater.git"
+    },
     "dependencies": {
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2"
+      "babel-polyfill": "^6.23.0",
+      "concurrently": "^3.4.0",
+      "material-ui": "1.0.0-alpha.10",
+      "react": "^15.5.4",
+      "react-dom": "^15.5.4",
+      "semantic-ui-react": "^0.67.2"
     },
     "scripts": {
-      "build": "babel src -d .",
-      "start": "npm run build && electron ."
+      "build": "webpack --progress",
+      "watch": "webpack -w --progress",
+      "start": "npm run build && concurrently \"npm run watch\" \"electron .\"",
+      "nobuild": "electron .",
+      "dist": "npm run build && build",
+      "pack": "npm run build && build --dir",
+      "make-exe": "npm run dist && node build/build.js",
+      "test": "mocha --require babel-register"
     },
     "devDependencies": {
-      "babel-cli": "^6.16.0",
-      "babel-preset-es2015": "^6.16.0",
-      "babel-preset-react": "^6.16.0",
-      "electron": "^1.4.3",
-      "eslint": "^3.8.0",
-      "eslint-plugin-react": "^6.4.1"
+      "@types/babel-core": "^6.7.14",
+      "@types/chai": "^3.5.0",
+      "@types/electron": "^1.4.35",
+      "@types/electron-builder": "^2.0.29",
+      "@types/mocha": "^2.2.40",
+      "@types/react": "^15.0.21",
+      "@types/react-dom": "^0.14.23",
+      "@types/webpack": "^2.2.14",
+      "babel-core": "^6.24.1",
+      "babel-eslint": "^7.2.2",
+      "babel-loader": "^6.4.1",
+      "babel-preset-babili": "^0.0.12",
+      "babel-preset-env": "^1.4.0",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "babel-register": "^6.24.1",
+      "chai": "4.0.0-canary.1",
+      "copy-webpack-plugin": "^4.0.1",
+      "devtron": "^1.4.0",
+      "electron": "1.6.3",
+      "electron-builder": "^13.9.0",
+      "electron-devtools-installer": "^2.2.0",
+      "electron-installer-dmg": "^0.2.1",
+      "electron-packager": "^8.6.0",
+      "electron-winstaller": "^2.5.2",
+      "eslint": "^3.19.0",
+      "eslint-config-airbnb": "^14.1.0",
+      "eslint-plugin-flowtype": "^2.30.4",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^4.0.0",
+      "eslint-plugin-react": "^6.10.3",
+      "flow-bin": "^0.44.0",
+      "mocha": "^3.2.0",
+      "webpack": "^2.4.1"
+    },
+    "build": {
+      "appId": "com.decaffeinater",
+      "mac": {
+        "category": "public.app-category.productivity"
+      },
+      "linux": {
+        "target": "deb",
+        "synopsis": "An app which closes apps if you use them too much.",
+        "category": "Utility",
+        "desktop": "build/decaffeinater.desktop"
+      }
+    },
+    "optionalDependencies": {
+      "electron-installer-debian": "^0.5.1",
+      "electron-installer-redhat": "^0.4.0"
     }
   },
   "packageStatus": 200,
@@ -118,5 +178,6 @@
   "filename": "ibu2awesome___decaffeinater.json",
   "sourceRepo": "ibujs/decaffeinater",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:55.133Z"
+  "lastFetchedAt": "2017-05-04T05:22:55.133Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:49.756Z"
 }

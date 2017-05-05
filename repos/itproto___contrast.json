@@ -174,24 +174,19 @@
       "start": "electron main.js --dev"
     },
     "repository": {
-      "user": "stewartlord",
-      "repo": "contrast",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/stewartlord/contrast/tarball/master",
-      "clone_url": "https://github.com/stewartlord/contrast",
-      "https_url": "https://github.com/stewartlord/contrast",
-      "travis_url": "https://travis-ci.org/stewartlord/contrast",
-      "zip_url": "https://github.com/stewartlord/contrast/archive/master.zip",
-      "api_url": "https://api.github.com/repos/stewartlord/contrast"
+      "type": "git",
+      "url": "git+https://github.com/stewartlord/contrast.git"
     },
     "keywords": [
       "Contrast",
       "diff",
       "electron"
     ],
+    "author": "Stewart Lord",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/stewartlord/contrast/issues"
+    },
     "homepage": "https://github.com/stewartlord/contrast#readme",
     "dependencies": {
       "jquery": "^2.2.0",
@@ -249,5 +244,6 @@
   "svnUrl": "https://github.com/itproto/contrast",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:13:27.710Z"
+  "lastFetchedAt": "2017-05-04T05:13:27.710Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:04.750Z"
 }

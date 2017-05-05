@@ -211,7 +211,10 @@
       "overlay",
       "layer"
     ],
-    "repository": "https://github.com/uber/deck.gl",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/uber/deck.gl.git"
+    },
     "main": "index.js",
     "files": [
       "dist",
@@ -346,5 +349,6 @@
   },
   "sourceRepo": "uber/deck.gl",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:21.764Z"
+  "lastFetchedAt": "2017-05-04T04:57:21.764Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:57.198Z"
 }

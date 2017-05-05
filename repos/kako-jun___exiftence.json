@@ -74,9 +74,13 @@
       "exif",
       "electron"
     ],
+    "author": "jpico",
     "license": "MIT",
     "homepage": "https://jpico.info",
-    "repository": "https://github.com/kako-jun/exiftence",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kako-jun/exiftence.git"
+    },
     "main": "./main.js",
     "scripts": {
       "start": "electron ."
@@ -122,5 +126,6 @@
   },
   "filename": "kako-jun___exiftence.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:02.185Z"
+  "lastFetchedAt": "2017-05-04T17:47:02.185Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:03.637Z"
 }

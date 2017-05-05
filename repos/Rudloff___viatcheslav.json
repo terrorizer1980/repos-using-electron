@@ -53,24 +53,41 @@
   "status": 200,
   "packageJSON": {
     "name": "viatcheslav",
-    "version": "0.1.1",
     "description": "Open-source client for Molotov.tv",
-    "main": "main.js",
-    "scripts": {
-      "start": "electron ."
+    "version": "0.1.2",
+    "author": {
+      "name": "Pierre Rudloff",
+      "email": "contact@rudloff.pro",
+      "url": "https://www.rudloff.pro/"
     },
-    "repository": "https://github.com/Rudloff/viatcheslav",
+    "bugs": {
+      "url": "https://github.com/Rudloff/viatcheslav/issues"
+    },
+    "dependencies": {
+      "electron": "~1.4.5"
+    },
+    "devDependencies": {
+      "grunt": "~1.0.1",
+      "grunt-fixpack": "~0.1.0",
+      "grunt-jslint": "~1.1.14",
+      "grunt-jsonlint": "~1.1.0"
+    },
+    "homepage": "https://github.com/Rudloff/viatcheslav",
     "keywords": [
       "Electron",
       "Molotov.tv",
       "television"
     ],
     "license": "GPL-3.0",
-    "homepage": "https://github.com/Rudloff/viatcheslav",
-    "devDependencies": {
-      "electron-prebuilt": "~1.2.0",
-      "grunt": "~1.0.1",
-      "grunt-jslint": "~1.1.14"
+    "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Rudloff/viatcheslav.git"
+    },
+    "scripts": {
+      "linux-run": "WIDEVINE_PATH=widevine/opt/google/chrome/libwidevinecdmadapter.so WIDEVINE_VERSION=1.4.8.903 npm start",
+      "linux-setup": "scripts/linux-setup.sh",
+      "start": "electron ."
     }
   },
   "packageStatus": 200,
@@ -118,5 +135,6 @@
   },
   "filename": "Rudloff___viatcheslav.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:35:21.452Z"
+  "lastFetchedAt": "2017-05-04T15:35:21.452Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:59.414Z"
 }

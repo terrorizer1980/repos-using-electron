@@ -76,13 +76,20 @@
       "build": "electron-packager . emoji-menu --platform=darwin --arch=x64 --version=1.2.0 --out='./build' --overwrite=true --icon=./app/resources/images/icons/emoji-menu.icns",
       "dist:mac": "build --platform=osx "
     },
-    "repository": "https://github.com/lazybios/emoji-menu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lazybios/emoji-menu.git"
+    },
     "keywords": [
       "emoji",
       "menubar",
       "electron"
     ],
+    "author": "lazybios, runfastlynda, cvley",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lazybios/emoji-menu/issues"
+    },
     "homepage": "https://github.com/lazybios/emoji-menu#readme",
     "dependencies": {
       "clipboard": "^1.5.10",
@@ -132,5 +139,6 @@
   },
   "filename": "lazybios___emoji-menu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:00.823Z"
+  "lastFetchedAt": "2017-05-04T15:14:00.823Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:44.465Z"
 }

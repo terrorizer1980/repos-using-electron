@@ -56,7 +56,14 @@
     "version": "0.0.3",
     "description": "A rss reader",
     "license": "MIT",
-    "repository": "https://github.com/kevbui/bruit",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kevbui/bruit"
+    },
+    "author": {
+      "name": "Kevin Bui",
+      "email": "bui.kevin@live.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -137,5 +144,6 @@
   "svnUrl": "https://github.com/kevbui/bruit",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:50:44.196Z"
+  "lastFetchedAt": "2017-05-04T14:50:44.196Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:48.938Z"
 }

@@ -83,6 +83,7 @@
       "server:dev": "node public/server.js",
       "server:pm2": "pm2-dev run public/server.js"
     },
+    "author": "",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -130,5 +131,6 @@
   "svnUrl": "https://github.com/uzimith/ts-react-counter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:25:35.223Z"
+  "lastFetchedAt": "2017-05-04T21:25:35.223Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:18.608Z"
 }

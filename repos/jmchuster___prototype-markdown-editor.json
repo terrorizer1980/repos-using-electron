@@ -57,13 +57,20 @@
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline",
       "osx-package": "./node_modules/.bin/webpack -p && ./node_modules/electron-packager/cli.js ./ ElectronReactSass --out ./bin --platform=darwin --arch=x64 --version=0.34.0 --overwrite --ignore=\"ignore|bin|node_modules\""
     },
-    "repository": "https://github.com/gingenhagen/prototype-markdown-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gingenhagen/prototype-markdown-editor.git"
+    },
     "keywords": [
       "prototype",
       "markdown",
       "notes"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/gingenhagen/prototype-markdown-editor/issues"
+    },
     "homepage": "https://github.com/gingenhagen/prototype-markdown-editor#readme",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -129,5 +136,6 @@
   },
   "filename": "jmchuster___prototype-markdown-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:41.600Z"
+  "lastFetchedAt": "2017-05-04T21:21:41.600Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:38.648Z"
 }

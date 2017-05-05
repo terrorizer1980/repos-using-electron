@@ -61,6 +61,7 @@
       "build": "electron-packager . GithubNotify --ignore=node_modules/electron-prebuilt --icon=icon.icns",
       "postinstall": "bower install"
     },
+    "author": "Maxi Gimenez",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^3.1.0",
@@ -112,5 +113,6 @@
   "svnUrl": "https://github.com/maxigimenez/github-notify-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:19:00.131Z"
+  "lastFetchedAt": "2017-05-04T21:19:00.131Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:34.960Z"
 }

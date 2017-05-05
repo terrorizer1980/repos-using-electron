@@ -60,14 +60,21 @@
       "start": "electron main.js",
       "build": "babel app -d src"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -131,5 +138,6 @@
   "svnUrl": "https://github.com/r0jer/pomodoro",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:19:58.526Z"
+  "lastFetchedAt": "2017-05-04T15:19:58.526Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:26.148Z"
 }

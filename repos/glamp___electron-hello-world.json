@@ -57,12 +57,19 @@
     "scripts": {
       "test": "echo tests are for suckers"
     },
-    "repository": "https://github.com/glamp/electron-demo",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/glamp/electron-demo.git"
+    },
     "keywords": [
       "Electron",
       "Demo"
     ],
+    "author": "Greg Lamp <lamp.greg@gmail.com>",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/glamp/electron-demo/issues"
+    },
     "homepage": "https://github.com/glamp/electron-demo#readme"
   },
   "packageStatus": 200,
@@ -110,5 +117,6 @@
   "svnUrl": "https://github.com/glamp/electron-hello-world",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:33:52.737Z"
+  "lastFetchedAt": "2017-05-04T17:33:52.737Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:54.755Z"
 }

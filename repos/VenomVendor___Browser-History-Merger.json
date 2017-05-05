@@ -80,7 +80,10 @@
       "start": "gulp",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/VenomVendor/Browser-History-Merger",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VenomVendor/Browser-History-Merger.git"
+    },
     "keywords": [
       "Electron",
       "browser",
@@ -89,7 +92,11 @@
       "cross platform",
       "cross browser"
     ],
+    "author": "VenomVendor",
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/VenomVendor/Browser-History-Merger/issues"
+    },
     "homepage": "https://github.com/VenomVendor/Browser-History-Merger/#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -162,5 +169,6 @@
   },
   "filename": "VenomVendor___Browser-History-Merger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:48:31.946Z"
+  "lastFetchedAt": "2017-05-04T14:48:31.946Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:26.264Z"
 }

@@ -73,12 +73,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/inJs/publish-machine",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/inJs/publish-machine.git"
+    },
     "keywords": [
       "wechat",
       "alipay",
       "publist"
     ],
+    "author": "GitHub",
+    "bugs": {
+      "url": "https://github.com/inJs/publish-machine/issues"
+    },
     "homepage": "https://github.com/inJs/publish-machine#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -109,5 +116,6 @@
   },
   "filename": "jzxyouok___publish-machine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:52.925Z"
+  "lastFetchedAt": "2017-05-04T05:23:52.925Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:54.086Z"
 }

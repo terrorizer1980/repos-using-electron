@@ -61,13 +61,20 @@
       "release": "build"
     },
     "private": true,
-    "repository": "https://github.com/HoverBaum/BlankUp-Electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HoverBaum/BlankUp-Electron.git"
+    },
     "keywords": [
       "Markdown",
       "editor",
       "Electron"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/HoverBaum/BlankUp-Electron/issues"
+    },
     "homepage": "https://github.com/HoverBaum/BlankUp-Electron",
     "devDependencies": {
       "concurrently": "^2.2.0",
@@ -130,5 +137,6 @@
   "svnUrl": "https://github.com/HoverBaum/BlankUp-Electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:21:38.555Z"
+  "lastFetchedAt": "2017-05-04T15:21:38.555Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:16.342Z"
 }

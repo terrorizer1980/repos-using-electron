@@ -78,6 +78,10 @@
     "description": "An app to launch 'anything'",
     "license": "MIT",
     "repository": "pakdev/anything",
+    "author": {
+      "name": "Peter Kurlak",
+      "email": "pkurlak@gmail.com"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -157,5 +161,6 @@
   },
   "filename": "pakdev___anything-node.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:54.966Z"
+  "lastFetchedAt": "2017-05-04T20:12:54.966Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:36.611Z"
 }

@@ -61,24 +61,31 @@
   "status": 200,
   "packageJSON": {
     "name": "embeds",
-    "version": "2.10.1",
+    "version": "2.11.5",
     "description": "Parse & render embeds",
     "main": "dist/index.js",
     "scripts": {
       "lint": "semistandard | snazzy",
       "test:node": "nyc babel-tape-runner test/*-test.js",
-      "test:browser": "browserify -t babelify -t brfs -d test/*-test.js | tape-run | faucet",
+      "test:browser": "browserify -t babelify -t brfs -d test/*-test.js | devtool -c -h --bf --no-nt | faucet",
       "test": "npm run test:node && npm run test:browser && npm run lint",
       "build": "rm -rf dist && mkdir -p dist && babel lib --out-dir dist",
       "watch": "rm -rf dist && mkdir -p dist && babel lib --out-dir dist --watch",
       "prepublish": "npm run build",
       "open-coverage": "npm run test:unit && nyc report --reporter=lcov && open coverage/lcov-report/index.html"
     },
-    "repository": "https://github.com/micnews/embeds",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/micnews/embeds.git"
+    },
     "keywords": [
       "embeds"
     ],
+    "author": "mic.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/micnews/embeds/issues"
+    },
     "homepage": "https://github.com/micnews/embeds#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -89,14 +96,14 @@
       "babelify": "^7.2.0",
       "brfs": "^1.4.3",
       "browserify": "^13.0.0",
+      "devtool": "^2.3.1",
       "faucet": "0.0.1",
       "hyperscript": "^1.4.7",
       "nyc": "^8.3.0",
       "query-dom": "^3.0.7",
       "semistandard-deku": "micnews/semistandard#deku",
       "snazzy": "^5.0.0",
-      "tape-catch": "^1.0.4",
-      "tape-run": "^2.1.4",
+      "tape-catch": "^1.0.6",
       "tsml": "^1.0.1"
     },
     "dependencies": {
@@ -157,5 +164,6 @@
   "svnUrl": "https://github.com/micnews/embeds",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:11:44.528Z"
+  "lastFetchedAt": "2017-05-04T21:11:44.528Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:29.118Z"
 }

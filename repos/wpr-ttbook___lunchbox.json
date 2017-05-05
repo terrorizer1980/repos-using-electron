@@ -201,5 +201,39 @@
   "networkCount": 110,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:03:23.230Z"
+  "lastFetchedAt": "2017-05-04T21:03:23.230Z",
+  "packageJSON": {
+    "name": "lunchbox",
+    "version": "1.0.0",
+    "description": "A branch of the NPR Digital Team's Lunchbox suite of graphic generator tools.",
+    "main": "index.js",
+    "directories": {
+      "test": "tests"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron": "^1.4.13"
+    },
+    "scripts": {
+      "test": "fab app"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wpr-ttbook/lunchbox.git"
+    },
+    "keywords": [
+      "dataviz",
+      "social",
+      "media",
+      "images"
+    ],
+    "author": "WPR TTBOOK",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wpr-ttbook/lunchbox/issues"
+    },
+    "homepage": "https://github.com/wpr-ttbook/lunchbox#readme"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:18:44.785Z"
 }

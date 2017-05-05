@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/armicsmile/armic-top",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/armicsmile/armic-top.git"
+    },
+    "author": "armic",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -105,5 +109,6 @@
   },
   "filename": "armicsmile___armic-top.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:25.848Z"
+  "lastFetchedAt": "2017-05-04T20:25:25.848Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:42.814Z"
 }

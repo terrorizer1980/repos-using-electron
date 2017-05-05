@@ -67,5 +67,62 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:33:05.923Z"
+  "lastFetchedAt": "2017-05-04T20:33:05.923Z",
+  "packageJSON": {
+    "name": "arduino-spa",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve",
+      "build": "ng build",
+      "test": "ng test",
+      "lint": "ng lint",
+      "e2e": "ng e2e",
+      "build-electron-linux": "ng build --base-href . && cp -r src/electron/* dist",
+      "build-electron-windows": "ng build --base-href . && copy src\\electron\\* dist",
+      "electron-linux": "npm run build-electron-linux && electron --interactive dist",
+      "electron-windows": "npm run build-electron-windows && electron dist"
+    },
+    "private": true,
+    "dependencies": {
+      "@angular/common": "^4.0.0",
+      "@angular/compiler": "^4.0.0",
+      "@angular/core": "^4.0.0",
+      "@angular/forms": "^4.0.0",
+      "@angular/http": "^4.0.0",
+      "@angular/platform-browser": "^4.0.0",
+      "@angular/platform-browser-dynamic": "^4.0.0",
+      "@angular/router": "^4.0.0",
+      "angular2-materialize": "^6.7.2",
+      "core-js": "^2.4.1",
+      "hammerjs": "^2.0.8",
+      "jquery": "^2.2.4",
+      "materialize-css": "^0.98.1",
+      "rxjs": "^5.1.0",
+      "zone.js": "^0.8.4"
+    },
+    "devDependencies": {
+      "@angular/cli": "1.0.0",
+      "@angular/compiler-cli": "^4.0.0",
+      "@types/jasmine": "2.5.38",
+      "@types/node": "~6.0.60",
+      "codelyzer": "~2.0.0",
+      "electron-rebuild": "^1.5.7",
+      "jasmine-core": "~2.5.2",
+      "jasmine-spec-reporter": "~3.2.0",
+      "karma": "~1.4.1",
+      "karma-chrome-launcher": "~2.0.0",
+      "karma-cli": "~1.0.1",
+      "karma-coverage-istanbul-reporter": "^0.2.0",
+      "karma-jasmine": "~1.1.0",
+      "karma-jasmine-html-reporter": "^0.2.2",
+      "protractor": "~5.1.0",
+      "ts-node": "~2.0.0",
+      "tslint": "~4.5.0",
+      "typescript": "~2.2.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:11:35.966Z"
 }

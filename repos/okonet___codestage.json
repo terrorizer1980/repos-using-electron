@@ -73,5 +73,89 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:53:56.619Z"
+  "lastFetchedAt": "2017-05-04T20:53:56.619Z",
+  "packageJSON": {
+    "private": true,
+    "name": "codestage",
+    "version": "0.0.1",
+    "description": "Hassle free code highlighting macOS helper app for your Keynote slides",
+    "main": "src/electron/index.js",
+    "homepage": "./",
+    "build": {
+      "appId": "com.koolesache.CodeStage",
+      "asarUnpack": "src/electron/paste.as",
+      "directories": {
+        "buildResources": "resources"
+      }
+    },
+    "scripts": {
+      "start": "react-scripts start & npm run electron",
+      "build": "react-scripts build",
+      "pack": "npm run icon && npm run build && build --dir",
+      "dist": "npm run icon && npm run build && build",
+      "test": "react-scripts test --env=jsdom",
+      "electron": "electron .",
+      "lint": "eslint .",
+      "icon:export": "sketchtool export slices design/icon.sketch --output=./resources/icon.iconset",
+      "icon:create": "iconutil -c icns ./resources/icon.iconset",
+      "menuicon:export": "sketchtool export artboards design/iconTemplate.sketch --output=./public",
+      "icon": "npm run icon:export && npm run icon:create && npm run menuicon:export",
+      "precommit": "lint-staged"
+    },
+    "lint-staged": {
+      "*.js": [
+        "eslint --fix",
+        "git add"
+      ]
+    },
+    "keywords": [],
+    "author": "Andrey Okonetchnikov <andrey@okonet.ru>",
+    "license": "MPL-2.0",
+    "dependencies": {
+      "electron-debug": "^1.1.0",
+      "electron-is-dev": "^0.1.2",
+      "electron-log": "^2.2.3",
+      "electron-positioner": "^3.0.0",
+      "electron-settings": "^3.0.14",
+      "emphasize": "^1.2.0",
+      "execa": "^0.6.0",
+      "hazardous": "^0.2.3",
+      "highlight-rtf-renderer": "file:./lib",
+      "highlight.js": "^9.10.0",
+      "key-event-to-string": "^1.1.1",
+      "react": "^15.4.2",
+      "react-desktop": "^0.3.0",
+      "react-dom": "^15.4.2",
+      "react-lowlight": "^1.0.4",
+      "strip-indent": "^2.0.0",
+      "styled-components": "^1.4.4",
+      "system-font-families": "^1.0.0"
+    },
+    "devDependencies": {
+      "devtron": "^1.4.0",
+      "electron": "^1.4.15",
+      "electron-builder": "^17.1.1",
+      "eslint": "^3.19.0",
+      "eslint-config-okonet": "^4.0.0",
+      "husky": "^0.13.1",
+      "lint-staged": "^3.3.1",
+      "prettier": "^0.22.0",
+      "react-scripts": "0.9.5"
+    },
+    "eslintConfig": {
+      "extends": "okonet",
+      "parserOptions": {
+        "ecmaVersion": 6
+      },
+      "rules": {
+        "no-console": "off",
+        "strict": [
+          "error",
+          "safe"
+        ]
+      }
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:51:00.820Z"
 }

@@ -61,23 +61,15 @@
       "watch": "watchify app/app.js -t babelify -o dist/js/bundle.js --debug --verbose"
     },
     "repository": {
-      "user": "jmsstudio",
-      "repo": "sc-player",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jmsstudio/sc-player/tarball/master",
-      "clone_url": "https://github.com/jmsstudio/sc-player",
-      "https_url": "https://github.com/jmsstudio/sc-player",
-      "travis_url": "https://travis-ci.org/jmsstudio/sc-player",
-      "zip_url": "https://github.com/jmsstudio/sc-player/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jmsstudio/sc-player"
+      "type": "git",
+      "url": "git+https://github.com/jmsstudio/sc-player.git"
     },
     "keywords": [
       "Electron",
       "soundcloud",
       "player"
     ],
+    "author": "jmsstudio",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.11.0",
@@ -140,5 +132,6 @@
   "svnUrl": "https://github.com/jmsstudio/sc-player",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:09:53.988Z"
+  "lastFetchedAt": "2017-05-04T21:09:53.988Z",
+  "packageLastFetchedAt": "2017-05-05T14:29:47.878Z"
 }

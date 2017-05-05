@@ -195,9 +195,16 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/kccrs/bookmarker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kccrs/bookmarker"
+    },
     "keywords": [],
+    "author": "Steve Kinney <hello@stevekinney.net> (http://stevekinney.net)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kccrs/bookmarker/issues"
+    },
     "homepage": "https://github.com/kccrs/bookmarker#readme",
     "dependencies": {
       "electron": "^1.4.6"
@@ -233,5 +240,6 @@
   },
   "sourceRepo": "turingschool-examples/bookmarker",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:18.829Z"
+  "lastFetchedAt": "2017-05-04T20:18:18.829Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:39.093Z"
 }

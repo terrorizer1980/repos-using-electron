@@ -57,17 +57,8 @@
       "watch": "./node_modules/.bin/webpack-dev-server --port 8182"
     },
     "repository": {
-      "user": "jogleasonjr",
-      "repo": "electron-react-webpack-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jogleasonjr/electron-react-webpack-quick-start/tarball/master",
-      "clone_url": "https://github.com/jogleasonjr/electron-react-webpack-quick-start",
-      "https_url": "https://github.com/jogleasonjr/electron-react-webpack-quick-start",
-      "travis_url": "https://travis-ci.org/jogleasonjr/electron-react-webpack-quick-start",
-      "zip_url": "https://github.com/jogleasonjr/electron-react-webpack-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jogleasonjr/electron-react-webpack-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/jogleasonjr/electron-react-webpack-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -79,7 +70,11 @@
       "react",
       "webpack"
     ],
+    "author": "John Gleason",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jogleasonjr/electron-react-webpack-quick-start/issues"
+    },
     "homepage": "https://github.com/jogleasonjr/electron-react-webpack-quick-start#readme",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -147,5 +142,6 @@
   "filename": "jogleasonjr___electron-react-webpack-quick-start.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:02.111Z"
+  "lastFetchedAt": "2017-05-04T19:42:02.111Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:23.355Z"
 }

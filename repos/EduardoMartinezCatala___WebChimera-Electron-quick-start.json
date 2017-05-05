@@ -73,7 +73,10 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/EduardoMartinezCatala/WebChimera-Electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/EduardoMartinezCatala/WebChimera-Electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "WebChimera",
@@ -81,6 +84,10 @@
       "start",
       "tutorial"
     ],
+    "author": "Eduardo Martinez Catala",
+    "bugs": {
+      "url": "https://github.com/EduardoMartinezCatala/WebChimera-Electron-quick-start/issues"
+    },
     "homepage": "https://github.com/EduardoMartinezCatala/WebChimera-Electron-quick-start#readme",
     "dependencies": {
       "wcjs-player": "^6.0.0",
@@ -122,5 +129,6 @@
   },
   "filename": "EduardoMartinezCatala___WebChimera-Electron-quick-start.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:21.840Z"
+  "lastFetchedAt": "2017-05-04T19:58:21.840Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:25.412Z"
 }

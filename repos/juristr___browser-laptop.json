@@ -192,17 +192,11 @@
       "test": "NODE_ENV=test mocha --compilers js:babel-register --recursive $(find test -name '*Test.js')"
     },
     "repository": {
-      "user": "bbondy",
-      "repo": "electron-sample",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bbondy/electron-sample/tarball/master",
-      "clone_url": "https://github.com/bbondy/electron-sample",
-      "https_url": "https://github.com/bbondy/electron-sample",
-      "travis_url": "https://travis-ci.org/bbondy/electron-sample",
-      "zip_url": "https://github.com/bbondy/electron-sample/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bbondy/electron-sample"
+      "type": "git",
+      "url": "git+https://github.com/bbondy/electron-sample.git"
+    },
+    "author": {
+      "name": "Brave Developers <support@brave.com>"
     },
     "contributors": [
       {
@@ -219,6 +213,9 @@
       }
     ],
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/bbondy/electron-sample/issues"
+    },
     "homepage": "https://github.com/bbondy/electron-sample#readme",
     "dependencies": {
       "abp-filter-parser-cpp": "^1.0.22",
@@ -338,5 +335,6 @@
   "svnUrl": "https://github.com/juristr/browser-laptop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:58:18.792Z"
+  "lastFetchedAt": "2017-05-04T04:58:18.792Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:29.438Z"
 }

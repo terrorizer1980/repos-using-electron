@@ -79,16 +79,24 @@
     "scripts": {
       "start": "electron --js-flags='--es_staging' main.js",
       "dev": "cross-env NODE_ENV=development DEBUG=*,-babel electron --js-flags='--es_staging' ./",
-      "prod": "cross-env NODE_ENV=production electron --js-flags='--es_staging' ./"
+      "prod": "cross-env NODE_ENV=production electron --js-flags='--es_staging' ./",
+      "package": "electron-packager . Toptask --platform=darwin --arch=x64"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "cross-env": "^1.0.8",
@@ -99,6 +107,7 @@
       "async": "latest",
       "bootstrap": "^3.3.6",
       "electron-json-storage": "^2.0.0",
+      "electron-packager": "^8.1.0",
       "lodash": "^4.13.1",
       "nconf": "^0.8.4",
       "twit": "^2.2.4"
@@ -129,5 +138,6 @@
   },
   "filename": "shaneherft___Toptask.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:03.442Z"
+  "lastFetchedAt": "2017-05-04T21:27:03.442Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:55.881Z"
 }

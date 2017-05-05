@@ -69,19 +69,18 @@
       "package-all": "node package.js --all"
     },
     "repository": {
-      "user": "rike422",
-      "repo": "minesweeper",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rike422/minesweeper/tarball/master",
-      "clone_url": "https://github.com/rike422/minesweeper",
-      "https_url": "https://github.com/rike422/minesweeper",
-      "travis_url": "https://travis-ci.org/rike422/minesweeper",
-      "zip_url": "https://github.com/rike422/minesweeper/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rike422/minesweeper"
+      "type": "git",
+      "url": "git+https://github.com/rike422/minesweeper"
+    },
+    "author": {
+      "name": "Akira Takahashi",
+      "email": "rike422@gmail.com",
+      "url": "https://github.com/rike422/minesweeper"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rike422/minesweeper/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -188,5 +187,6 @@
   "svnUrl": "https://github.com/rike422/minesweeper",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:27:21.091Z"
+  "lastFetchedAt": "2017-05-04T18:27:21.091Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:50.285Z"
 }

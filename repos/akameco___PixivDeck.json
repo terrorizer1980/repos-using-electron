@@ -54,92 +54,201 @@
   "packageJSON": {
     "name": "PixivDeck",
     "productName": "PixivDeck",
-    "version": "0.3.0",
+    "version": "0.12.1",
     "description": "pixiv client for desktop",
-    "main": "main.js",
-    "scripts": {
-      "start": "cross-env NODE_ENV=development electron -r babel-register -r babel-polyfill main.development.js",
-      "watch": "cross-env NODE_ENV=development webpack-dev-server --hot --inline --progress --colors --port 3000",
-      "build:r": "cross-env NODE_ENV=production webpack --config webpack.config.production.js --progress --colors",
-      "build:m": "cross-env NODE_ENV=production webpack --config webpack.config.electron.js --progress --colors",
-      "build": "npm run build:r && npm run build:m",
-      "pack:macos": "node pack.js macos",
-      "pack:windows": "node pack.js windows",
-      "pack:linux": "node pack.js linux",
-      "pack": "npm run pack:macos && npm run pack:windows && npm run pack:linux",
-      "zip:macos": "cd release/PixivDeck-darwin-x64 && zip -ryXq9 ../PixivDeck-macos-${npm_package_version}.zip PixivDeck.app",
-      "zip:windows": "cd release/PixivDeck-win32-ia32 && zip -ryq9 ../PixivDeck-windows-${npm_package_version}.zip *",
-      "zip:linux": "cd release/PixivDeck-linux-x64 && zip -ryq9 ../PixivDeck-linux-${npm_package_version}.zip *",
-      "zip": "npm run zip:macos && npm run zip:windows && npm run zip:linux",
-      "release": "rm -fr release && npm run build && npm run pack && npm run zip",
-      "test": "eslint . && flow"
-    },
     "keywords": [
       "electron",
       "pixiv"
     ],
+    "author": "akameco <akameco.t@gmail.com>",
     "license": "MIT",
+    "main": "main.js",
+    "scripts": {
+      "start": "cross-env NODE_ENV=production electron ./app/",
+      "dev": "cross-env START_HOT=1 npm run hot-updates-server",
+      "d": "npm run dev",
+      "test": "npm run prettier && npm run jest",
+      "format": "node config/scripts/format.js",
+      "f": "npm run format",
+      "jest": "cross-env NODE_ENV=test jest",
+      "build": "npm run build-main && npm run build-renderer",
+      "package": "npm run build && build --publish never",
+      "flow": "flow",
+      "build-dll": "node config/scripts/webpack build-dll",
+      "build-main": "node config/scripts/webpack build-main",
+      "build-renderer": "node config/scripts/webpack build-renderer",
+      "lint": "npm run lint:js && npm run lint:css",
+      "lint:css": "stylelint \"app/**/*.js\"",
+      "lint:js": "eslint .",
+      "test:watch": "cross-env NODE_ENV=test jest --watch",
+      "hot-updates-server": "node config/scripts/webpack hot-server",
+      "start-hot-renderer": "node config/scripts/hot-renderer",
+      "flow-typed": "rm -fr flow-typed/npm && flow-typed install --overwrite || true",
+      "postinstall": "node config/scripts/post-install",
+      "package-win": "npm run build && build --win --x64",
+      "package-linux": "npm run build && build --linux",
+      "package-all": "npm run build && build -mwl"
+    },
+    "build": {
+      "productName": "PixivDeck",
+      "appId": "io.github.akameco.pixivdeck",
+      "files": [
+        "dist/",
+        "node_modules/",
+        "app.html",
+        "main.js",
+        "main.js.map",
+        "package.json"
+      ],
+      "dmg": {
+        "contents": [
+          {
+            "x": 130,
+            "y": 220
+          },
+          {
+            "x": 410,
+            "y": 220,
+            "type": "link",
+            "path": "/Applications"
+          }
+        ]
+      },
+      "win": {
+        "target": [
+          "nsis"
+        ]
+      },
+      "linux": {
+        "target": [
+          "deb",
+          "AppImage"
+        ]
+      },
+      "directories": {
+        "buildResources": "res",
+        "output": "release"
+      }
+    },
+    "jest": {
+      "snapshotSerializers": [
+        "enzyme-to-json/serializer"
+      ]
+    },
+    "stylelint": {
+      "processors": [
+        "stylelint-processor-styled-components"
+      ],
+      "extends": "stylelint-config-standard",
+      "syntax": "scss",
+      "rules": {
+        "indentation": [
+          "tab"
+        ],
+        "rule-empty-line-before": null,
+        "at-rule-empty-line-before": null
+      }
+    },
     "dependencies": {
-      "autolinker": "^1.2.0",
-      "babel-polyfill": "^6.16.0",
-      "dot-prop": "^4.0.0",
-      "electron-config": "^0.2.1",
-      "electron-context-menu": "^0.6.0",
-      "electron-debug": "^1.0.1",
-      "electron-dl": "^1.5.0",
-      "electron-referer": "^0.3.0",
-      "humps": "^1.1.0",
+      "autolinker": "^1.4.3",
+      "camelcase-keys": "^4.1.0",
+      "electron-debug": "^1.1.0",
+      "keycode": "^2.1.8",
+      "lodash.debounce": "^4.0.8",
+      "lodash.isequal": "^4.5.0",
       "lodash.merge": "^4.6.0",
+      "lodash.throttle": "^4.1.1",
       "lodash.union": "^4.6.0",
-      "normalizr": "^2.2.1",
-      "pixiv-app-api": "^0.3.0",
-      "react": "^15.3.2",
-      "react-css-modules": "^3.7.10",
-      "react-dom": "^15.3.2",
-      "react-redux": "^4.4.5",
-      "react-sortable-pane": "^0.5.4",
+      "lodash.unionby": "^4.8.0",
+      "material-ui": "^0.17.4",
+      "normalizr": "^3.2.2",
+      "pixiv-app-api": "^0.10.0",
+      "react": "^15.5.4",
+      "react-dom": "^15.5.4",
+      "react-event-listener": "^0.4.5",
+      "react-intl": "^2.2.3",
+      "react-redux": "^5.0.4",
+      "react-sortable-pane": "^0.5.5",
+      "react-tap-event-plugin": "^2.0.1",
       "redux": "^3.6.0",
-      "wallpaper": "^2.3.0"
+      "redux-saga": "^0.14.8",
+      "reselect": "^3.0.0",
+      "residual-scroll-top": "^0.1.0",
+      "source-map-support": "^0.4.14",
+      "styled-components": "^1.4.5"
     },
     "devDependencies": {
-      "babel-core": "^6.17.0",
-      "babel-eslint": "^7.0.0",
-      "babel-loader": "^6.2.5",
+      "babel-core": "^6.24.1",
+      "babel-eslint": "^7.2.3",
+      "babel-jest": "^19.0.0",
+      "babel-loader": "^7.0.0",
       "babel-plugin-add-module-exports": "^0.2.1",
       "babel-plugin-dev-expression": "^0.2.1",
-      "babel-plugin-transform-decorators-legacy": "^1.3.4",
-      "babel-plugin-transform-flow-strip-types": "^6.14.0",
-      "babel-preset-es2015": "^6.16.0",
-      "babel-preset-react": "^6.16.0",
+      "babel-plugin-dynamic-import-webpack": "^1.0.1",
+      "babel-plugin-react-intl": "^2.3.1",
+      "babel-plugin-react-intl-auto": "^0.4.0",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-plugin-transform-es2015-classes": "^6.24.1",
+      "babel-polyfill": "^6.23.0",
+      "babel-preset-env": "^1.4.0",
+      "babel-preset-react": "^6.24.1",
       "babel-preset-react-hmre": "^1.1.1",
       "babel-preset-react-optimize": "^1.0.1",
-      "babel-preset-stage-0": "^6.16.0",
-      "babel-register": "^6.16.3",
-      "cross-env": "^3.1.3",
-      "css-loader": "^0.25.0",
-      "del": "^2.2.2",
+      "babel-preset-stage-0": "^6.24.1",
+      "babel-register": "^6.24.1",
+      "babili-webpack-plugin": "^0.0.11",
+      "boiler-room-custodian": "^0.6.2",
+      "chalk": "^1.1.3",
+      "concurrently": "^3.4.0",
+      "cross-env": "^4.0.0",
+      "cross-spawn": "^5.1.0",
       "devtron": "^1.4.0",
-      "electron": "^1.4.3",
-      "electron-devtools-installer": "^2.0.1",
-      "electron-packager": "^8.1.0",
-      "eslint": "^3.8.0",
-      "eslint-config-xo": "^0.17.0",
-      "eslint-config-xo-react": "^0.10.0",
-      "eslint-plugin-babel": "^3.3.0",
-      "eslint-plugin-flowtype": "^2.20.0",
-      "eslint-plugin-import": "^2.0.1",
-      "eslint-plugin-promise": "^3.0.0",
-      "eslint-plugin-react": "^6.4.1",
-      "extract-text-webpack-plugin": "^1.0.1",
-      "hard-rejection": "^0.1.0",
-      "pify": "^2.3.0",
-      "postcss-cssnext": "^2.8.0",
-      "postcss-loader": "^1.0.0",
-      "redux-logger": "^2.7.0",
-      "style-loader": "^0.13.1",
-      "webpack": "^1.13.2",
-      "webpack-dev-server": "^1.16.2",
-      "webpack-merge": "^0.14.1"
+      "electron": "^1.6.6",
+      "electron-builder": "^17.1.1",
+      "electron-devtools-installer": "^2.2.0",
+      "enzyme": "^2.8.2",
+      "enzyme-to-json": "^1.5.1",
+      "eslint": "^3.19.0",
+      "eslint-config-prettier": "^1.7.0",
+      "eslint-config-xo": "^0.18.1",
+      "eslint-config-xo-react": "^0.11.1",
+      "eslint-plugin-babel": "^4.1.1",
+      "eslint-plugin-flowtype": "^2.32.1",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-prettier": "^2.0.1",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-react": "^6.10.3",
+      "eslint-plugin-xo": "^1.0.0",
+      "execa": "^0.6.3",
+      "extract-react-intl": "^0.3.0",
+      "extract-react-intl-messages": "^0.3.0",
+      "fbjs-scripts": "^0.7.1",
+      "file-loader": "^0.11.1",
+      "flow-bin": "^0.44.2",
+      "flow-runtime": "^0.10.0",
+      "flow-typed": "^2.1.2",
+      "jest": "^19.0.2",
+      "json-loader": "^0.5.4",
+      "prettier": "^1.2.2",
+      "react-addons-test-utils": "^15.5.1",
+      "react-hot-loader": "next",
+      "react-test-renderer": "^15.5.4",
+      "read-pkg-up": "^2.0.0",
+      "redux-logger": "^3.0.1",
+      "stylelint": "^7.10.1",
+      "stylelint-config-standard": "^16.0.0",
+      "stylelint-processor-styled-components": "^0.1.0",
+      "url-loader": "^0.5.8",
+      "webpack": "^2.4.1",
+      "webpack-bundle-analyzer": "^2.4.0",
+      "webpack-dev-server": "^2.4.5",
+      "webpack-merge": "^4.1.0",
+      "yaml-loader": "^0.4.0"
+    },
+    "devEngines": {
+      "node": ">=7",
+      "npm": ">=3.x",
+      "yarn": ">=0.22.x"
     }
   },
   "packageStatus": 200,
@@ -187,5 +296,6 @@
   "svnUrl": "https://github.com/akameco/PixivDeck",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:14:21.109Z"
+  "lastFetchedAt": "2017-05-04T20:14:21.109Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:09.299Z"
 }

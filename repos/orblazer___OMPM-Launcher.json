@@ -91,6 +91,11 @@
       "unit": "karma start test/unit/karma.conf.js",
       "postinstall": "cd app && npm install"
     },
+    "author": {
+      "name": "Orblazer",
+      "email": "orblazer@relonar.fr",
+      "url": "https://twitter.com/orblazer"
+    },
     "contributors": [
       {
         "name": "Litarvan",
@@ -180,5 +185,6 @@
   },
   "filename": "orblazer___OMPM-Launcher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:27.051Z"
+  "lastFetchedAt": "2017-05-04T14:49:27.051Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:55.375Z"
 }

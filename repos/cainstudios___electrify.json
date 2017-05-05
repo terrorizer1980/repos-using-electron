@@ -176,6 +176,7 @@
       "node": ">=0.10.36"
     },
     "description": "Package your Meteor apps with Electron, and butter.",
+    "author": "Anderson Arboleya <anderson@arboleya.me>",
     "license": "MIT",
     "dependencies": {
       "commander": "^2.8.1",
@@ -194,17 +195,8 @@
       "should": "^8.0.0"
     },
     "repository": {
-      "user": "arboleya",
-      "repo": "electrify",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/arboleya/electrify/tarball/master",
-      "clone_url": "https://github.com/arboleya/electrify",
-      "https_url": "https://github.com/arboleya/electrify",
-      "travis_url": "https://travis-ci.org/arboleya/electrify",
-      "zip_url": "https://github.com/arboleya/electrify/archive/master.zip",
-      "api_url": "https://api.github.com/repos/arboleya/electrify"
+      "type": "git",
+      "url": "https://github.com/arboleya/electrify"
     },
     "keywords": [
       "electron",
@@ -212,6 +204,9 @@
       "packager",
       "desktop"
     ],
+    "bugs": {
+      "url": "https://github.com/arboleya/electrify/issues"
+    },
     "homepage": "https://github.com/arboleya/electrify"
   },
   "packageStatus": 200,
@@ -260,5 +255,6 @@
   "filename": "cainstudios___electrify.json",
   "sourceRepo": "arboleya/electrify",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:29:04.594Z"
+  "lastFetchedAt": "2017-05-04T20:29:04.594Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:02.878Z"
 }

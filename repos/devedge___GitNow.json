@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/devedge/GitNow",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/devedge/GitNow.git"
+    },
     "keywords": [
       "Git",
       "Notify",
       "Notification",
       "Cross-platform"
     ],
+    "author": "devedge, mphayes2",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/devedge/GitNow/issues"
+    },
     "homepage": "https://github.com/devedge/GitNow#readme",
     "dependencies": {
       "electron-prebuilt": "^1.0.1",
@@ -121,5 +128,6 @@
   },
   "filename": "devedge___GitNow.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:13.898Z"
+  "lastFetchedAt": "2017-05-04T18:15:13.898Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:38.334Z"
 }

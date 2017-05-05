@@ -79,6 +79,11 @@
     "description": "Electron GUI to convert images to JPEG2000 images",
     "license": "MIT",
     "repository": "user/repo",
+    "author": {
+      "name": "Jason Ronallo",
+      "email": "jronallo@gmail.com",
+      "url": "http://ronallo.com"
+    },
     "electronVersion": "0.36.7",
     "scripts": {
       "test": "xo",
@@ -159,5 +164,6 @@
   },
   "filename": "jronallo___jpeg2000-converter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:13:47.666Z"
+  "lastFetchedAt": "2017-05-04T18:13:47.666Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:56.859Z"
 }

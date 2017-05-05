@@ -94,8 +94,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -210,5 +221,6 @@
   },
   "filename": "amine7536___marko.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:37.494Z"
+  "lastFetchedAt": "2017-05-04T04:56:37.494Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:40.335Z"
 }

@@ -82,13 +82,17 @@
       "sass": "gulp sass",
       "app": "npm run sass & gulp sass:watch & electron ."
     },
-    "repository": "https://github.com/kyleparisi/assistant",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kyleparisi/assistant.git"
+    },
     "keywords": [
       "terminal",
       "Electron",
       "hubot",
       "om.next"
     ],
+    "author": "Kyle Parisi",
     "license": "ISC",
     "devDependencies": {
       "babel-cli": "^6.4.0",
@@ -136,5 +140,6 @@
   },
   "filename": "kyleparisi___assistant.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:26.201Z"
+  "lastFetchedAt": "2017-05-04T20:00:26.201Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:57.519Z"
 }

@@ -53,59 +53,50 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-settings",
-    "version": "2.2.2",
-    "description": "A simple persistent user settings manager for Electron.",
+    "version": "3.0.14",
+    "description": "A simple persistent user settings framework for Electron.",
     "main": "index.js",
     "scripts": {
       "test": "npm run test:main && npm run test:renderer",
-      "test:main": "electron-mocha test",
-      "test:renderer": "electron-mocha test --renderer"
+      "test:main": "electron-mocha tests",
+      "test:renderer": "electron-mocha tests --renderer"
     },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nathanbuchar/electron-settings"
+    },
+    "author": "Nathan Buchar <hello@nathanbuchar.com>",
+    "license": "ISC",
     "keywords": [
       "electron",
       "app",
       "user",
       "data",
       "settings",
-      "manager",
       "config",
-      "json",
       "storage",
-      "promise",
+      "json",
       "has",
       "get",
+      "getAll",
       "set",
+      "setAll",
       "delete",
-      "reset",
-      "clear"
+      "deleteAll",
+      "watch",
+      "file"
     ],
-    "repository": "https://github.com/nathanbuchar/electron-settings",
-    "contributors": [
-      {
-        "name": "Nathan Buchar",
-        "email": "hello@nathanbuchar.com",
-        "web": "http://nathanbuchar,com/"
-      },
-      {
-        "name": "Kai Eichinger",
-        "email": "kai.eichinger@outlook.com"
-      }
-    ],
-    "license": "ISC",
     "dependencies": {
-      "clone": "^1.0.2",
-      "debug": "^2.2.0",
-      "deep-equal": "^1.0.1",
-      "deep-extend": "^0.4.1",
-      "file-exists": "^2.0.0",
-      "fs-extra": "^0.30.0",
-      "key-path-helpers": "^0.4.0"
+      "clone": "^2.1.1",
+      "jsonfile": "^2.4.0"
     },
     "devDependencies": {
-      "chai": "^3.5.0",
-      "electron-mocha": "^3.0.0",
-      "electron-prebuilt": "^1.2.6",
-      "mocha": "^3.0.2"
+      "electron": "^1.6.2",
+      "electron-mocha": "^3.4.0",
+      "eslint": "^3.18.0",
+      "eslint-config-airbnb-base": "^11.1.2",
+      "eslint-plugin-import": "^2.2.0",
+      "mocha": "^3.2.0"
     }
   },
   "packageStatus": 200,
@@ -153,5 +144,6 @@
   "svnUrl": "https://github.com/nathanbuchar/electron-settings",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:28:09.518Z"
+  "lastFetchedAt": "2017-05-04T15:28:09.518Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:59.785Z"
 }

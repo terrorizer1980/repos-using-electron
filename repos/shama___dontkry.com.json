@@ -77,7 +77,15 @@
     "description": "My website",
     "version": "2.0.0",
     "homepage": "https://github.com/shama/dontkry.com",
+    "author": {
+      "name": "Kyle Robinson Young",
+      "email": "kyle@dontkry.com",
+      "url": "http://dontkry.com"
+    },
     "repository": "git://github.com/shama/dontkry.com.git",
+    "bugs": {
+      "url": "https://github.com/shama/dontkry.com/issues"
+    },
     "licenses": "MIT",
     "scripts": {
       "start": "budo index.js --dir ./ --dir dist --css css/index.css",
@@ -142,5 +150,6 @@
   },
   "filename": "shama___dontkry.com.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:42:12.255Z"
+  "lastFetchedAt": "2017-05-04T20:42:12.255Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:17.897Z"
 }

@@ -75,8 +75,18 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/jessepollak/macsonos",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jessepollak/macsonos.git"
+    },
+    "author": {
+      "name": "Jesse Pollak",
+      "url": "https://github.com/jessepollak"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jessepollak/macsonos/issues"
+    },
     "devDependencies": {
       "asar": "^0.11.0",
       "babel-core": "^6.7.6",
@@ -190,5 +200,6 @@
   },
   "filename": "jessepollak___macsonos.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:05:40.948Z"
+  "lastFetchedAt": "2017-05-03T20:05:40.948Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:05.993Z"
 }

@@ -85,13 +85,20 @@
       "installer": "node ./script/installer.js",
       "package": "npm run pack-mac && npm run pack-win"
     },
-    "repository": "https://github.com/ppoffice/Hozz",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:ppoffice/Hozz.git"
+    },
     "keywords": [
       "Electron",
       "hosts",
       "all-platform"
     ],
+    "author": "PPOffice",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/ppoffice/Hozz/issues"
+    },
     "homepage": "https://github.com/ppoffice/Hozz#readme",
     "devDependencies": {
       "babel-core": "^6.3.26",
@@ -171,5 +178,6 @@
   },
   "filename": "pk8est___dot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:28.072Z"
+  "lastFetchedAt": "2017-05-04T21:30:28.072Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:00.960Z"
 }

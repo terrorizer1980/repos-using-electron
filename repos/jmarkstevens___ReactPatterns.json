@@ -73,10 +73,20 @@
   "status": 200,
   "packageJSON": {
     "name": "ReactPatterns",
-    "version": "1.0.0",
+    "version": "4.0.1",
     "description": "A collection of simple react projects providing reusable components, startup and test examples.",
     "license": "MIT",
-    "repository": "https://github.com/calitek/ReactPatterns",
+    "author": {
+      "name": "J Mark Stevens",
+      "email": "jmstevens@jmarkstevens.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jmarkstevens/ReactPatterns.git"
+    },
+    "bugs": {
+      "url": "https://github.com/jmarkstevens/ReactPatterns/issues"
+    },
     "keywords": [
       "react",
       "patterns",
@@ -121,5 +131,6 @@
   },
   "filename": "jmarkstevens___ReactPatterns.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:33:01.208Z"
+  "lastFetchedAt": "2017-05-04T05:33:01.208Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:25.503Z"
 }

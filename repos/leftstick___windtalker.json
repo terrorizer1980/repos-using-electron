@@ -60,13 +60,20 @@
       "dev": "node ./node_modules/.bin/gulp dev",
       "watch": "node ./node_modules/.bin/gulp watch -p abcdefg"
     },
-    "repository": "https://github.com/leftstick/windtalker",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/leftstick/windtalker.git"
+    },
     "keywords": [
       "password",
       "keeper",
       "electron"
     ],
+    "author": "Howard.Zuo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/leftstick/windtalker/issues"
+    },
     "homepage": "https://github.com/leftstick/windtalker",
     "dependencies": {
       "angular": "^1.4.9",
@@ -147,5 +154,6 @@
   "svnUrl": "https://github.com/leftstick/windtalker",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:17:51.957Z"
+  "lastFetchedAt": "2017-05-04T21:17:51.957Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:14.302Z"
 }

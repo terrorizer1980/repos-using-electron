@@ -191,7 +191,14 @@
     "version": "0.0.1",
     "description": "A terminal emulator for the 21st century.",
     "main": "src/main.js",
-    "repository": "https://github.com/shockone/black-screen",
+    "author": "Volodymyr Shatsky <shockone89@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/shockone/black-screen.git"
+    },
+    "bugs": {
+      "url": "https://github.com/shockone/black-screen/issues"
+    },
     "keywords": [
       "terminal",
       "emulator",
@@ -249,5 +256,6 @@
   },
   "sourceRepo": "shockone/black-screen",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:17.220Z"
+  "lastFetchedAt": "2017-05-04T17:36:17.220Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:58.150Z"
 }

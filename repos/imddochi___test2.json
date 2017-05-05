@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js "
     },
-    "repository": "https://github.com/augustogoncalves/personal-assistant",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/augustogoncalves/personal-assistant"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Augusto Goncalves",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/augustogoncalves/personal-assistant/issues"
+    },
     "homepage": "https://github.com/augustogoncalves/personal-assistant",
     "devDependencies": {
       "electron-prebuilt": "^0.36.5"
@@ -117,5 +124,6 @@
   },
   "filename": "imddochi___test2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:36.812Z"
+  "lastFetchedAt": "2017-05-04T04:59:36.812Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:39.606Z"
 }

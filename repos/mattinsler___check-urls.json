@@ -70,7 +70,11 @@
     "version": "1.0.0",
     "description": "Check the response code of a list of URLs with electron",
     "homepage": "https://github.com/mattinsler/check-urls",
+    "bugs": {
+      "url": "https://github.com/mattinsler/check-urls/issues"
+    },
     "license": "MIT",
+    "author": "Matt Insler <matt.insler@gmail.com>",
     "repository": "mattinsler/check-urls",
     "bin": {
       "check-urls": "bin/check-urls"
@@ -110,5 +114,6 @@
   },
   "filename": "mattinsler___check-urls.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:25.578Z"
+  "lastFetchedAt": "2017-05-04T19:30:25.578Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:03.014Z"
 }

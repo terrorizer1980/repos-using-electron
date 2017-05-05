@@ -73,7 +73,11 @@
     },
     "version": "0.0.1",
     "description": "ElectronRemoteDemo",
-    "repository": "https://github.com/saan1984/ElectronRemoteDemo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronRemoteDemo.git"
+    },
+    "author": "Sandeep Kumar Patel",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -107,5 +111,6 @@
   },
   "filename": "saan1984___ElectronRemoteDemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:50.313Z"
+  "lastFetchedAt": "2017-05-04T21:10:50.313Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:31.831Z"
 }

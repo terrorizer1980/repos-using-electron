@@ -62,14 +62,21 @@
       "dev:backend": "babel-node server.js",
       "build": "webpack --config webpack.config.production.js && electron-packager . HackerNews --platform=darwin --arch=all --prune --overwrite --icon ./HN_icon"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "babel": {
       "presets": [
@@ -163,5 +170,6 @@
   },
   "filename": "djeebus___retroroms.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:29.954Z"
+  "lastFetchedAt": "2017-05-04T14:55:29.954Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:31.300Z"
 }

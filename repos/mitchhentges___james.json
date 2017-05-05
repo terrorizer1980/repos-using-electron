@@ -169,19 +169,11 @@
     "name": "james",
     "version": "1.5.0",
     "description": "HTTP/HTTPS proxy built in Electron and React",
+    "author": "Julian Hollmann <hollmann@uxebu.com>",
     "license": "MIT",
     "repository": {
-      "user": "james-proxy",
-      "repo": "james",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/james-proxy/james/tarball/master",
-      "clone_url": "https://github.com/james-proxy/james",
-      "https_url": "https://github.com/james-proxy/james",
-      "travis_url": "https://travis-ci.org/james-proxy/james",
-      "zip_url": "https://github.com/james-proxy/james/archive/master.zip",
-      "api_url": "https://api.github.com/repos/james-proxy/james"
+      "type": "git",
+      "url": "https://github.com/james-proxy/james.git"
     },
     "main": "main/index.js",
     "scripts": {
@@ -285,6 +277,11 @@
         ],
         "synopsis": "Web proxy"
       }
+    },
+    "directories": {
+      "buildResources": "resource-compile",
+      "output": "binaries",
+      "app": "./package"
     }
   },
   "packageStatus": 200,
@@ -333,5 +330,6 @@
   "svnUrl": "https://github.com/mitchhentges/james",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:38:08.721Z"
+  "lastFetchedAt": "2017-05-04T20:38:08.721Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:19.076Z"
 }

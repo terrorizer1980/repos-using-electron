@@ -75,11 +75,18 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "pack:osx": "npm run build:osx && electron-builder \"dist/osx/Loopline Systems.app\" --platform=osx --out=\"dist/osx\" --config=packager.json"
     },
-    "repository": "https://github.com/13lazegg/youtube",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/13lazegg/youtube.git"
+    },
     "bin": {
       "electron-builder": "cli.js"
     },
+    "author": "Rodrigo Gonzalez Godoy",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/13lazegg/youtube/issues"
+    },
     "homepage": "https://github.com/13lazegg/youtube",
     "devDependencies": {
       "electron-prebuilt": "^0.31.2"
@@ -115,5 +122,6 @@
   },
   "filename": "13lazegg___youtube.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:33:08.990Z"
+  "lastFetchedAt": "2017-05-04T20:33:08.990Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:36.581Z"
 }

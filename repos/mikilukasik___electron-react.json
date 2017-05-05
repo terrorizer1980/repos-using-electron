@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {},
     "dependencies": {
@@ -130,5 +137,6 @@
   },
   "filename": "mikilukasik___electron-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:03.569Z"
+  "lastFetchedAt": "2017-05-04T19:36:03.569Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:03.338Z"
 }

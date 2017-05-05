@@ -79,8 +79,15 @@
     "scripts": {
       "start": "gulp run"
     },
-    "repository": "https://github.com/DanForbes/poketron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DanForbes/poketron.git"
+    },
+    "author": "Dan Forbes",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DanForbes/poketron/issues"
+    },
     "homepage": "https://github.com/DanForbes/poketron",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -124,5 +131,6 @@
   },
   "filename": "DanForbes___poketron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:51.492Z"
+  "lastFetchedAt": "2017-05-04T20:43:51.492Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:21.882Z"
 }

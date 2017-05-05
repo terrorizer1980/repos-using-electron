@@ -59,8 +59,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Benoit-Vasseur/time-tracker",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Benoit-Vasseur/time-tracker.git"
+    },
+    "author": "Benoit Vasseur",
     "license": "Apache v2",
+    "bugs": {
+      "url": "https://github.com/Benoit-Vasseur/time-tracker/issues"
+    },
     "homepage": "https://github.com/Benoit-Vasseur/time-tracker",
     "devDependencies": {
       "electron-prebuilt": "^0.30.2",
@@ -116,5 +123,6 @@
   "svnUrl": "https://github.com/Benoit-Vasseur/time-tracker",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:01:14.017Z"
+  "lastFetchedAt": "2017-05-04T05:01:14.017Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:54.010Z"
 }

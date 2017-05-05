@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Splits is a running stats analyzer",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -60,6 +64,7 @@
       "node": ">= 0.10.0"
     },
     "main": "main.js",
+    "author": "Craig Otis",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -130,5 +135,6 @@
   "svnUrl": "https://github.com/craigotis/splits",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:41:01.580Z"
+  "lastFetchedAt": "2017-05-04T16:41:01.580Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:15.711Z"
 }

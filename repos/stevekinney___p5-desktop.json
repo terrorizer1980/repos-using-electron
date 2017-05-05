@@ -74,12 +74,19 @@
       "start": "concurrently --kill-others \"webpack --watch\" \"electron .\"",
       "lint": "eslint *.js"
     },
-    "repository": "https://github.com/stevekinney/p5-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stevekinney/p5-desktop.git"
+    },
     "keywords": [
       "electron",
       "p5"
     ],
+    "author": "Steve Kinney",
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/stevekinney/p5-desktop/issues"
+    },
     "homepage": "https://github.com/stevekinney/p5-desktop#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -131,5 +138,6 @@
   },
   "filename": "stevekinney___p5-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:27.552Z"
+  "lastFetchedAt": "2017-05-04T14:45:27.552Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:13.677Z"
 }

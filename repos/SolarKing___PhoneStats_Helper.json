@@ -53,8 +53,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/SolarKing/PhoneStats_Helper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SolarKing/PhoneStats_Helper.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/SolarKing/PhoneStats_Helper/issues"
+    },
     "homepage": "https://github.com/SolarKing/PhoneStats_Helper",
     "devDependencies": {
       "gulp": "^3.9.0",
@@ -111,5 +118,6 @@
   "svnUrl": "https://github.com/SolarKing/PhoneStats_Helper",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:03:16.414Z"
+  "lastFetchedAt": "2017-05-04T20:03:16.414Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:48.469Z"
 }

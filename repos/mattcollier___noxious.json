@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/mattcollier/noxious",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mattcollier/noxious.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mattcollier/noxious/issues"
+    },
     "homepage": "https://github.com/mattcollier/noxious",
     "dependencies": {
       "bootstrap": "^3.3.2",
@@ -117,5 +124,6 @@
   },
   "filename": "mattcollier___noxious.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:17.907Z"
+  "lastFetchedAt": "2017-05-04T05:05:17.907Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:14.117Z"
 }

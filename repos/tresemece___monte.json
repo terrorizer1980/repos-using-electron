@@ -73,7 +73,10 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/tresemece/monte",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tresemece/monte.git"
+    },
     "keywords": [
       "Javascript",
       "Angular",
@@ -82,7 +85,11 @@
       "Mongo",
       "Mean"
     ],
+    "author": "Marco Montenegro",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tresemece/monte/issues"
+    },
     "homepage": "https://github.com/tresemece/monte#readme",
     "devDependencies": {
       "gulp": "^3.9.0",
@@ -117,5 +124,6 @@
   },
   "filename": "tresemece___monte.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:42.702Z"
+  "lastFetchedAt": "2017-05-04T16:45:42.702Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:40.532Z"
 }

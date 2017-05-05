@@ -67,5 +67,35 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T15:25:34.114Z"
+  "lastFetchedAt": "2017-05-04T15:25:34.114Z",
+  "packageJSON": {
+    "name": "paradigmi-inglese",
+    "version": "1.0.0",
+    "description": "Programma amatoriale dei paradigmi dei verbi inglesi",
+    "main": "app/main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jackprawns/paradigmi-inglese.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jackprawns/paradigmi-inglese/issues"
+    },
+    "homepage": "https://github.com/jackprawns/paradigmi-inglese",
+    "devDependencies": {
+      "@types/electron": "^1.4.37",
+      "@types/gulp": "^4.0.2",
+      "@types/node": "^7.0.13",
+      "electron": "^1.6.5",
+      "gulp": "^3.9.1",
+      "gulp-typescript": "^3.1.6",
+      "typescript": "^2.2.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:37:45.662Z"
 }

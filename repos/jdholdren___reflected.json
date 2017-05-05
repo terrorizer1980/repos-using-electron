@@ -87,8 +87,15 @@
       "watch": "./node_modules/.bin/webpack -d --watch",
       "webpack": "./node_modules/.bin/webpack -d"
     },
-    "repository": "https://github.com/jdholdren/reflected",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jdholdren/reflected.git"
+    },
+    "author": "James Holdren",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jdholdren/reflected/issues"
+    },
     "homepage": "https://github.com/jdholdren/reflected#readme"
   },
   "packageStatus": 200,
@@ -116,5 +123,6 @@
   },
   "filename": "jdholdren___reflected.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:35.330Z"
+  "lastFetchedAt": "2017-05-04T19:43:35.330Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:38.554Z"
 }

@@ -67,7 +67,8 @@
   "status": 200,
   "packageJSON": {
     "name": "notemark",
-    "version": "1.1.0",
+    "version": "1.1.1",
+    "main": "index.js",
     "description": "A cross-platform desktop app to manage notes where notes are just markdown files on your hard drive (you can point the app to your dropbox folder for syncing across machines).",
     "keywords": [
       "note",
@@ -75,14 +76,17 @@
       "markdown",
       "editor"
     ],
-    "main": "index.js",
     "scripts": {
-      "build": "browserify -t reactify src/App.jsx > build/bundle.js",
+      "build": "browserify -t reactify src/App.jsx > bundle.js",
       "watch": "nodemon --exec npm run build -e jsx",
       "app": "electron .",
       "debug": "electron . devtools",
-      "start": "npm run build && npm run app"
+      "start": "npm run build && npm run app",
+      "pack": "build --dir",
+      "dist": "build",
+      "publish": "build --publish always"
     },
+    "author": "John Ritsema",
     "license": "MIT",
     "dependencies": {
       "brace": "^0.5.0",
@@ -92,9 +96,11 @@
     },
     "devDependencies": {
       "browserify": "^8.1.3",
-      "electron-prebuilt": "^0.30.2",
+      "electron": "^1.4.13",
+      "electron-builder": "^11.2.0",
       "reactify": "^1.0.0"
-    }
+    },
+    "build": {}
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -121,5 +127,6 @@
   },
   "filename": "jritsema___notemark.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:43.882Z"
+  "lastFetchedAt": "2017-05-04T21:29:43.882Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:02.988Z"
 }

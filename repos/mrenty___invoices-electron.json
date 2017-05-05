@@ -69,11 +69,14 @@
     "name": "invoices-electron",
     "version": "1.0.0",
     "description": "An Electron invoice application",
+    "author": "Michiel Renty",
     "main": "main.js",
     "license": "ISC",
     "scripts": {
       "start": "electron .",
-      "build-osx": "electron-packager . Invoices --overwrite --out=dist --ignore='^/dist$' --asar --platform=darwin --arch=x64 --version=$version  --icon=./assets/icon.icns"
+      "clean": "rm -rf ./dist",
+      "build-osx": "electron-packager . Invoices --overwrite --out=dist --ignore='^/dist$' --asar --platform=darwin --arch=x64 --version=$version  --icon=./assets/icon.icns",
+      "build-win": "electron-packager . Invoices --overwrite --out=dist --ignore='^/dist$' --asar --platform=win32 --arch=x64 --version=$version  --icon=./assets/icon.ico"
     },
     "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
@@ -86,9 +89,7 @@
     "devDependencies": {
       "babel": "5.8.23",
       "babelify": "6.4.0",
-      "browser-sync": "2.9.11",
       "browserify": "11.2.0",
-      "connect-history-api-fallback": "1.1.0",
       "electron": "^1.4.1",
       "electron-packager": "^8.2.0",
       "gulp": "3.9.0",
@@ -97,7 +98,6 @@
       "gulp-rename": "1.2.2",
       "gulp-stylus": "2.1.0",
       "gulp-uglify": "1.4.2",
-      "gulp-util": "3.0.7",
       "install": "0.1.8",
       "react": "^15.0.0",
       "react-addons-css-transition-group": "^15.0.0",
@@ -140,5 +140,6 @@
   },
   "filename": "mrenty___invoices-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:14.663Z"
+  "lastFetchedAt": "2017-05-04T20:38:14.663Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:13.112Z"
 }

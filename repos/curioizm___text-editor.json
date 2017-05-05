@@ -81,8 +81,15 @@
       "start": "webpack-dev-server",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/curioizm/text-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/curioizm/text-editor.git"
+    },
+    "author": "curioizm",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/curioizm/text-editor/issues"
+    },
     "homepage": "https://github.com/curioizm/text-editor#readme",
     "devDependencies": {
       "babel-core": "^6.7.6",
@@ -129,5 +136,6 @@
   },
   "filename": "curioizm___text-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:15.430Z"
+  "lastFetchedAt": "2017-05-04T18:25:15.430Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:20.436Z"
 }

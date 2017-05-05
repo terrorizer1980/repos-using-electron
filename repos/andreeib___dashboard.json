@@ -268,17 +268,8 @@
       "watchify": "^3.6.1"
     },
     "repository": {
-      "user": "netbeast",
-      "repo": "dashboard",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/netbeast/dashboard/tarball/master",
-      "clone_url": "https://github.com/netbeast/dashboard",
-      "https_url": "https://github.com/netbeast/dashboard",
-      "travis_url": "https://travis-ci.org/netbeast/dashboard",
-      "zip_url": "https://github.com/netbeast/dashboard/archive/master.zip",
-      "api_url": "https://api.github.com/repos/netbeast/dashboard"
+      "type": "git",
+      "url": "https://github.com/netbeast/dashboard"
     },
     "keywords": [
       "netbeast",
@@ -305,6 +296,7 @@
     "engines": {
       "node": ">=0.12"
     },
+    "author": "staff@netbeast",
     "license": "AGPL-3.0"
   },
   "packageStatus": 200,
@@ -333,5 +325,6 @@
   "filename": "andreeib___dashboard.json",
   "sourceRepo": "NexusInk/dashboard",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:52.927Z"
+  "lastFetchedAt": "2017-05-04T20:45:52.927Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:02.055Z"
 }

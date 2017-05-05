@@ -113,7 +113,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
     "homepage": "https://github.com/chentsulin/electron-react-boilerplate#readme",
     "devDependencies": {
@@ -240,5 +248,6 @@
   "svnUrl": "https://github.com/kelly/electroknit-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:59:26.810Z"
+  "lastFetchedAt": "2017-05-04T04:59:26.810Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:15.695Z"
 }

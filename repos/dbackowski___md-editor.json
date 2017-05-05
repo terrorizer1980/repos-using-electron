@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "MdEditor",
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "Simple markdown editor",
     "main": "main.js",
     "scripts": {
@@ -62,19 +62,23 @@
       "prebuild": "webpack",
       "build": "electron-packager ./ --platform=darwin,linux --overwrite --ignore=bower_components --ignore=src --ignore=node_modules/electron-packager --ignore=node_modules/electron-prebuilt --ignore=node_modules/webpack --ignore=node_modules/extract-text-webpack-plugin --ignore=node_modules/style-loader --icon=./app/images/icon --arch=x64"
     },
-    "repository": "https://github.com/dbackowski/md-editor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dbackowski/md-editor.git"
+    },
+    "author": "Damian Baćkowski",
     "license": "MIT",
     "devDependencies": {
-      "codemirror": "^5.20.2",
-      "css-loader": "^0.25.0",
-      "electron-packager": "8.1.0",
-      "electron": "1.4.4",
-      "extract-text-webpack-plugin": "^1.0.1",
-      "highlight.js": "^9.7.0",
+      "codemirror": "^5.25.2",
+      "css-loader": "^0.28.0",
+      "electron-packager": "8.7.0",
+      "electron": "1.6.6",
+      "extract-text-webpack-plugin": "^2.1.0",
+      "highlight.js": "^9.11.0",
       "json-loader": "^0.5.4",
-      "markdown-it": "^8.0.1",
-      "style-loader": "^0.13.1",
-      "webpack": "^1.13.2"
+      "markdown-it": "^8.3.1",
+      "style-loader": "^0.17.0",
+      "webpack": "^2.4.1"
     }
   },
   "packageStatus": 200,
@@ -122,5 +126,6 @@
   "svnUrl": "https://github.com/dbackowski/md-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:07:02.524Z"
+  "lastFetchedAt": "2017-05-04T21:07:02.524Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:21.454Z"
 }

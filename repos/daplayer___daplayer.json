@@ -87,23 +87,27 @@
   "status": 200,
   "packageJSON": {
     "dependencies": {
-      "electron": "^1.4.3",
+      "electron": "^1.6.1",
       "handlebars": "^4.0.5",
       "jquery": "^2.2.0",
       "glob": "^7.1.1",
       "less": "^2.7.1",
-      "daplayer-tagging": "git://github.com/daplayer/tagging.git#master"
+      "daplayer-i18n": "git+https://github.com/daplayer/i18n.git#master",
+      "daplayer-tagging": "git+https://github.com/daplayer/tagging.git#master"
     },
     "devDependencies": {
+      "electron-packager": "^8.6.0",
       "electron-rebuild": "^1.2.0",
       "mocha": "*",
-      "spectron": "*"
+      "spectron": "*",
+      "documentation": "^4.0.0-beta.18"
     },
     "scripts": {
       "less": "lessc",
-      "mocha": "mocha",
       "start": "electron main.js",
-      "rebuild": "electron-rebuild"
+      "rebuild": "electron-rebuild -f -w daplayer-tagging",
+      "test": "mocha test/{unit,models,helpers,views}/**/*_test.js",
+      "package": "electron-packager"
     },
     "main": "main.js",
     "productName": "DaPlayer",
@@ -136,5 +140,6 @@
   },
   "filename": "daplayer___daplayer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:21.671Z"
+  "lastFetchedAt": "2017-05-04T18:08:21.671Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:09.965Z"
 }

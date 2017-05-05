@@ -79,12 +79,16 @@
     "scripts": {
       "start": "electron dist/main.js"
     },
-    "repository": "https://github.com/blamarche/dragon-go-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blamarche/dragon-go-electron.git"
+    },
     "keywords": [
       "Electron",
       "react",
       "systemjs"
     ],
+    "author": "Brendan LaMarche",
     "license": "MIT",
     "devDependencies": {
       "del": "^2.2.0",
@@ -131,5 +135,6 @@
   },
   "filename": "blamarche___dragon-go-desktop-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:41.230Z"
+  "lastFetchedAt": "2017-05-04T21:10:41.230Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:53.468Z"
 }

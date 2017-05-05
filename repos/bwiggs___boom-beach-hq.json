@@ -58,6 +58,11 @@
     "description": "My legendary app",
     "license": "MIT",
     "repository": "bwiggs/boom-beach-hq",
+    "author": {
+      "name": "Brian Wigginton",
+      "email": "brianwigginton@gmail.com",
+      "url": "bwiggs.com"
+    },
     "engines": {
       "node": ">=4.1.1"
     },
@@ -157,5 +162,6 @@
   "svnUrl": "https://github.com/bwiggs/boom-beach-hq",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:51:43.905Z"
+  "lastFetchedAt": "2017-05-04T20:51:43.905Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:15.625Z"
 }

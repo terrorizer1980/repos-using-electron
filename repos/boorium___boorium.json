@@ -70,14 +70,21 @@
       "buildrun": "npm run build && npm run run",
       "run": "electron ."
     },
-    "repository": "https://github.com/boorium/boorium",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/boorium/boorium.git"
+    },
     "keywords": [
       "booru",
       "client",
       "standalone",
       "electron"
     ],
+    "author": "ivan k <ivan@sq10.net>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/boorium/boorium/issues"
+    },
     "homepage": "https://github.com/boorium/boorium#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -150,5 +157,6 @@
   },
   "filename": "boorium___boorium.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:09:55.463Z"
+  "lastFetchedAt": "2017-05-04T21:09:55.463Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:32.163Z"
 }

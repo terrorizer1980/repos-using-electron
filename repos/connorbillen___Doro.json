@@ -80,7 +80,11 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://www.github.com/connorbillen/doro",
+    "repository": {
+      "type": "git",
+      "url": "http://www.github.com/connorbillen/doro"
+    },
+    "author": "Connor Billen",
     "license": "MIT",
     "devDependencies": {
       "body-parser": "^1.15.1",
@@ -128,5 +132,6 @@
   },
   "filename": "connorbillen___Doro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:28.754Z"
+  "lastFetchedAt": "2017-05-04T20:11:28.754Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:56.232Z"
 }

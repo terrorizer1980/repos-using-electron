@@ -89,8 +89,15 @@
     "name": "openexp",
     "version": "0.1.3",
     "description": "An open-source app for running psychology experiments",
+    "author": "Andy Heusser, Teon Brooks, Austin Shoecraft & AJ Keller",
     "license": "MIT",
-    "repository": "https://github.com/OpenBCI/OpenEXP",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OpenBCI/OpenEXP.git"
+    },
+    "bugs": {
+      "url": "https://github.com/OpenBCI/OpenEXP/issues"
+    },
     "homepage": "https://github.com/OpenBCI/OpenEXP#readme",
     "main": "electron/main.js",
     "scripts": {
@@ -188,5 +195,6 @@
   },
   "filename": "openexp___OpenEXP.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:36:02.803Z"
+  "lastFetchedAt": "2017-05-04T20:36:02.803Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:22.892Z"
 }

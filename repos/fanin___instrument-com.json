@@ -98,11 +98,18 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/fanin/instrument-com",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fanin/instrument-com.git"
+    },
     "keywords": [
       "instrument"
     ],
+    "author": "fanin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fanin/instrument-com/issues"
+    },
     "homepage": "https://github.com/fanin/instrument-com"
   },
   "packageStatus": 200,
@@ -130,5 +137,6 @@
   },
   "filename": "fanin___instrument-com.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:31:15.088Z"
+  "lastFetchedAt": "2017-05-04T15:31:15.088Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:46.979Z"
 }

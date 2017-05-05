@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -124,5 +125,6 @@
   "filename": "sammershon___ElectronPlayer.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:29:05.420Z"
+  "lastFetchedAt": "2017-05-04T20:29:05.420Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:19.019Z"
 }

@@ -67,12 +67,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/evolvelabs/electron-mumble-example",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evolvelabs/electron-mumble-example.git"
+    },
     "keywords": [
       "electron",
       "mumble"
     ],
+    "author": "Justin Chase <justin@evolvelabs.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evolvelabs/electron-mumble-example/issues"
+    },
     "homepage": "https://github.com/evolvelabs/electron-mumble-example#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -130,5 +137,6 @@
   },
   "filename": "EvolveLabs___electron-mumble-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:53:45.280Z"
+  "lastFetchedAt": "2017-05-04T19:53:45.280Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:35.091Z"
 }

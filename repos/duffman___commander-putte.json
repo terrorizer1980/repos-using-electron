@@ -70,7 +70,11 @@
     "version": "1.0.0",
     "description": "Node Driven Norton Commander Style App",
     "main": "index.js",
+    "author": "Patrik Forsberg <mail@patrik.guru>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/duffman/commander-putte/issues"
+    },
     "homepage": "https://github.com/duffman/commander-putte#readme",
     "scripts": {
       "start": "tsc && concurrently \"npm run tsc:w\" \"npm run commander\" ",
@@ -79,7 +83,10 @@
       "tsc:w": "tsc -w",
       "test": "runtests"
     },
-    "repository": "https://github.com/duffman/commander-putte",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/duffman/commander-putte.git"
+    },
     "keywords": [
       "Norton",
       "Commander",
@@ -131,5 +138,6 @@
   },
   "filename": "duffman___commander-putte.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:17:35.607Z"
+  "lastFetchedAt": "2017-05-04T20:17:35.607Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:36.925Z"
 }

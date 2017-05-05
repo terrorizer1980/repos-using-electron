@@ -67,16 +67,24 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/The-Ofek-Foundation/UnofficialAZAEventManager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/The-Ofek-Foundation/UnofficialAZAEventManager.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Ramon AZA",
     "contributors": "Ofek Gila, Ilan Scheinkman",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/The-Ofek-Foundation/UnofficialAZAEventManager/issues"
+    },
     "devDependencies": {
+      "electron": "^1.6.1",
       "electron-prebuilt": "^0.36.0"
     },
     "dependencies": {
@@ -130,5 +138,6 @@
   "svnUrl": "https://github.com/The-Ofek-Foundation/UnofficialAZAEventManager",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:40:19.772Z"
+  "lastFetchedAt": "2017-05-04T17:40:19.772Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:34.183Z"
 }

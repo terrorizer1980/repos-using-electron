@@ -93,8 +93,15 @@
       "dist": "npm run build && build",
       "release": "npm run build && build --publish=onTagOrDraft"
     },
-    "repository": "https://github.com/Praseetha-KR/postit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Praseetha-KR/postit.git"
+    },
+    "author": "Praseetha KR",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Praseetha-KR/postit/issues"
+    },
     "homepage": "https://github.com/Praseetha-KR/postit#readme"
   },
   "packageStatus": 200,
@@ -142,5 +149,6 @@
   "svnUrl": "https://github.com/Praseetha-KR/postit-todo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:18:08.105Z"
+  "lastFetchedAt": "2017-05-04T21:18:08.105Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:55.699Z"
 }

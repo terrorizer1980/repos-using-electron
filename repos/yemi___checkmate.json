@@ -80,14 +80,21 @@
       "start": "electron main.js",
       "watch": "pulp -w build -o \"client/output\" --src-path \"client/app\""
     },
-    "repository": "https://github.com/yemi/checkmate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yemi/checkmate.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/yemi/checkmate/issues"
+    },
     "homepage": "https://github.com/yemi/checkmate#readme",
     "dependencies": {
       "electron-prebuilt": "^1.1.1",
@@ -120,5 +127,6 @@
   },
   "filename": "yemi___checkmate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:03.614Z"
+  "lastFetchedAt": "2017-05-04T21:22:03.614Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:41.294Z"
 }

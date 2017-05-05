@@ -167,21 +167,15 @@
   "status": 200,
   "packageJSON": {
     "name": "awsaml",
-    "version": "1.2.0",
+    "version": "1.3.1-beta.1",
     "description": "Periodically refreshes AWS access keys",
     "license": "MIT",
     "repository": {
-      "user": "rapid7",
-      "repo": "awsaml",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rapid7/awsaml/tarball/master",
-      "clone_url": "https://github.com/rapid7/awsaml",
-      "https_url": "https://github.com/rapid7/awsaml",
-      "travis_url": "https://travis-ci.org/rapid7/awsaml",
-      "zip_url": "https://github.com/rapid7/awsaml/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rapid7/awsaml"
+      "type": "git",
+      "url": "https://github.com/rapid7/awsaml.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rapid7/awsaml/issues"
     },
     "main": "app.js",
     "scripts": {
@@ -189,18 +183,26 @@
       "electron-start": "electron .",
       "local-start": "node local.js",
       "prebuild": "rm -rf dist/",
-      "build": "electron-packager . Awsaml --asar --ignore=node_modules/electron --ignore=dist --out=dist --platform=darwin,linux,win32 --arch=x64 --version=0.37.8 --app-version=${npm_package_version} --app-bundle-id=com.rapid7.awsaml --helper-bundle-id=com.rapid7.awsaml.helper",
+      "build": "electron-packager . Awsaml --asar --ignore=node_modules/electron --ignore=test --ignore=dist --out=dist --platform=darwin,linux,win32 --arch=x64 --version=0.37.8 --app-version=${npm_package_version} --app-bundle-id=com.rapid7.awsaml --helper-bundle-id=com.rapid7.awsaml.helper",
       "postbuild": "export platform=darwin; npm run zip & export platform=linux; npm run zip & export platform=win32; npm run zip",
       "zip": "cd dist/Awsaml-${platform}-x64 && zip -q -FS -r ../awsaml-v${npm_package_version}-${platform}-x64.zip .",
       "test": "mocha",
+      "cover": "rm -Rf coverage/* && istanbul cover _mocha -- -R spec",
       "lint": "eslint *.js views/** lib/** test/**",
+      "report": "coveralls < ./coverage/lcov.info",
       "watch": "webpack-dev-server",
-      "pack": "webpack --progress --colors --config=webpack.config.pack.js"
+      "pack": "webpack --progress --colors --config=webpack.config.pack.js",
+      "show-appcast-checkpoint": "curl --compressed --location --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36' 'https://github.com/rapid7/awsaml/releases.atom' | /usr/bin/sed 's|<pubDate>[^<]*</pubDate>||g' | shasum --algorithm 256"
     },
     "dependencies": {
       "aws-sdk": "2.2.11",
+      "babel-preset-es2015": "^6.9.0",
+      "babel-preset-react": "^6.5.0",
+      "babel-preset-stage-0": "^6.5.0",
       "body-parser": "1.14.1",
       "cookie-parser": "1.4.0",
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "^1.1.2",
       "errorhandler": "1.4.2",
       "express": "4.13.3",
       "express-react-views": "^0.10.0",
@@ -219,13 +221,9 @@
       "babel-core": "^6.9.0",
       "babel-eslint": "^6.0.4",
       "babel-loader": "^6.2.4",
-      "babel-preset-es2015": "^6.9.0",
-      "babel-preset-react": "^6.5.0",
-      "babel-preset-stage-0": "^6.5.0",
       "babel-runtime": "^6.9.0",
+      "coveralls": "^2.11.9",
       "css-loader": "^0.23.1",
-      "electron-packager": "^7.0.2",
-      "electron-prebuilt": "^1.1.2",
       "electron-rebuild": "^1.1.4",
       "enzyme": "^2.3.0",
       "eslint": "^2.10.2",
@@ -235,7 +233,9 @@
       "eslint-plugin-import": "^1.8.0",
       "eslint-plugin-jsx-a11y": "^1.2.2",
       "eslint-plugin-react": "^5.1.1",
+      "istanbul": "^0.4.3",
       "mocha": "^2.5.3",
+      "mocha-lcov-reporter": "^1.2.0",
       "react-hot-loader": "^1.3.0",
       "should": "^8.4.0",
       "style-loader": "^0.13.1",
@@ -290,5 +290,6 @@
   "filename": "dgreene-r7___awsaml.json",
   "sourceRepo": "rapid7/awsaml",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:28:23.910Z"
+  "lastFetchedAt": "2017-05-04T18:28:23.910Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:29.756Z"
 }

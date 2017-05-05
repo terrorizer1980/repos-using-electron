@@ -81,9 +81,16 @@
       "start": "electron .",
       "test": "mocha tests/test.js"
     },
-    "repository": "https://github.com/mjvalade/electron-recipes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mjvalade/electron-recipes.git"
+    },
     "keywords": [],
+    "author": "Casey Cross and MaryJane Valade",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mjvalade/electron-recipes/issues"
+    },
     "homepage": "https://github.com/mjvalade/electron-recipes#readme",
     "dependencies": {
       "electron": "^1.4.12",
@@ -129,5 +136,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:13.207Z"
+  "lastFetchedAt": "2017-05-04T17:37:13.207Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:13.075Z"
 }

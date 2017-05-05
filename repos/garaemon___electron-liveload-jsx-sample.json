@@ -78,6 +78,11 @@
     "description": "My super app",
     "license": "MIT",
     "repository": "garaemon/electron-liveload-jsx-sample",
+    "author": {
+      "name": "Ryohei Ueda",
+      "email": "garaemon@gmail.com",
+      "url": "github.com/garaemon"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -153,5 +158,6 @@
   },
   "filename": "garaemon___electron-liveload-jsx-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:56.239Z"
+  "lastFetchedAt": "2017-05-04T21:13:56.239Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:52.710Z"
 }

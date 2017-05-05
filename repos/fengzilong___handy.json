@@ -78,6 +78,11 @@
     "description": "My breathtaking app",
     "license": "MIT",
     "repository": "fengzilong/handy",
+    "author": {
+      "name": "mo",
+      "email": "feng_zilong@163.com",
+      "url": "https://github.com/fengzilong/handy"
+    },
     "scripts": {
       "test": "xo",
       "dev": "concurrently --kill-others \"npm run electron\" \"npm run riot\"",
@@ -142,5 +147,6 @@
   },
   "filename": "fengzilong___handy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:01.648Z"
+  "lastFetchedAt": "2017-05-04T05:05:01.648Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:03.950Z"
 }

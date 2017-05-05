@@ -92,13 +92,20 @@
       "test": "npm run lint && npm run unit",
       "unit": "electron-mocha --renderer -r babel-register test.js"
     },
-    "repository": "https://github.com/exodusmovement/simdb",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/exodusmovement/simdb.git"
+    },
     "keywords": [
       "indexeddb",
       "simple",
       "db"
     ],
+    "author": "Exodus Movement, Inc.",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/exodusmovement/simdb/issues"
+    },
     "homepage": "https://github.com/exodusmovement/simdb#readme",
     "files": [
       "index.js"
@@ -137,5 +144,6 @@
   },
   "filename": "ExodusMovement___simdb.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:29.939Z"
+  "lastFetchedAt": "2017-05-04T17:46:29.939Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:13.670Z"
 }

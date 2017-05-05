@@ -74,8 +74,15 @@
       "start": "electron --js-flags=\"--harmony_proxies -harmony_collectrions\" .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/gbhojraj/electronChat",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gbhojraj/electronChat.git"
+    },
+    "author": "Gibryon Bhojraj",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gbhojraj/electronChat.git/issues"
+    },
     "homepage": "https://github.com/gbhojraj/electronChat.git#readme",
     "dependencies": {
       "body-parser": "^1.15.1",
@@ -120,5 +127,6 @@
   },
   "filename": "gbhojraj___electronChat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:24.874Z"
+  "lastFetchedAt": "2017-05-04T17:51:24.874Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:47.150Z"
 }

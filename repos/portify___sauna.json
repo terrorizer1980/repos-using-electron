@@ -56,7 +56,10 @@
     "version": "0.1.0",
     "description": "A custom Steam client built on Electron",
     "main": "./src/main.js",
-    "repository": "https://github.com/portify/sauna",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/portify/sauna.git"
+    },
     "keywords": [
       "steam",
       "chat",
@@ -64,7 +67,11 @@
       "messaging",
       "app"
     ],
+    "author": "port <portification@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/portify/sauna/issues"
+    },
     "homepage": "https://github.com/portify/sauna#readme",
     "dependencies": {
       "immutable": "^3.7.5",
@@ -124,5 +131,6 @@
   "svnUrl": "https://github.com/portify/sauna",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:09:29.963Z"
+  "lastFetchedAt": "2017-05-04T18:09:29.963Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:23.543Z"
 }

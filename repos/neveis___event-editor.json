@@ -71,13 +71,15 @@
     "description": "A editor for creating events.",
     "main": "app.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "package": "electron-packager . eventeditor --platform=win32 --arch=all --out=..\\out\\ --overwrite --download.mirror=https://npm.taobao.org/mirrors/electron/"
     },
     "keywords": [
       "Electron",
       "Vue",
       "UIKit"
     ],
+    "author": "Pbin",
     "license": "",
     "dependencies": {
       "vue": "^2.0.1"
@@ -90,6 +92,7 @@
       "babel-preset-stage-2": "^6.0",
       "css-loader": "^0.25.0",
       "electron": "^1.4.1",
+      "electron-packager": "^8.4.0",
       "extract-text-webpack-plugin": "^1.0.1",
       "gulp": "^3.9.1",
       "gulp-webpack": "^1.5.0",
@@ -131,5 +134,6 @@
   },
   "filename": "neveis___event-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:52.478Z"
+  "lastFetchedAt": "2017-05-04T15:20:52.478Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:03.888Z"
 }

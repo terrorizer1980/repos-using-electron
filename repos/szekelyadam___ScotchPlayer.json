@@ -81,7 +81,11 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/szekelyadam/ScotchPlayer",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:szekelyadam/ScotchPlayer.git"
+    },
+    "author": "adam",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -131,5 +135,6 @@
   },
   "filename": "szekelyadam___ScotchPlayer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:44.964Z"
+  "lastFetchedAt": "2017-05-04T05:00:44.964Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:11.345Z"
 }

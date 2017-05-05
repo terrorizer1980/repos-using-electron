@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -124,5 +125,6 @@
   "filename": "eatspaint___scotch-player-electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:11.741Z"
+  "lastFetchedAt": "2017-05-04T17:44:11.741Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:13.861Z"
 }

@@ -73,24 +73,15 @@
   "status": 200,
   "packageJSON": {
     "name": "TourneyMan",
-    "version": "0.1.1",
+    "version": "0.1.4",
     "description": "A tournament management system for all.",
     "main": "main.js",
     "scripts": {
       "start": "gulp"
     },
     "repository": {
-      "user": "kitanata",
-      "repo": "TourneyMan",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kitanata/TourneyMan/tarball/master",
-      "clone_url": "https://github.com/kitanata/TourneyMan",
-      "https_url": "https://github.com/kitanata/TourneyMan",
-      "travis_url": "https://travis-ci.org/kitanata/TourneyMan",
-      "zip_url": "https://github.com/kitanata/TourneyMan/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kitanata/TourneyMan"
+      "type": "git",
+      "url": "git+https://github.com/kitanata/TourneyMan"
     },
     "keywords": [
       "TourneyMan",
@@ -98,7 +89,11 @@
       "tournament",
       "catan"
     ],
+    "author": "GitHub",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/kitanata/TourneyMan/issues"
+    },
     "homepage": "https://github.com/kitanata/TourneyMan",
     "dependencies": {
       "chance": "^1.0.4",
@@ -158,5 +153,6 @@
   "filename": "kitanata___TourneyMan.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:10:42.647Z"
+  "lastFetchedAt": "2017-05-04T20:10:42.647Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:46.233Z"
 }

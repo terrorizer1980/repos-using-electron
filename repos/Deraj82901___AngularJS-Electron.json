@@ -75,6 +75,7 @@
       "start": "electron .",
       "package": "electron-packager ~/Desktop/angular2desk/ Macapp --out=~/Desktop/angular2desk --platform=darwin --arch=ia32"
     },
+    "author": "Jared Kozel",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.0.3",
@@ -118,5 +119,6 @@
   },
   "filename": "Deraj82901___AngularJS-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:28.493Z"
+  "lastFetchedAt": "2017-05-04T05:13:28.493Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:33.010Z"
 }

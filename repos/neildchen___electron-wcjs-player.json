@@ -77,6 +77,7 @@
       "installer": "node ./script/installer.js",
       "release": "node ./script/release.js"
     },
+    "author": "TestDrive",
     "license": "ISC",
     "dependencies": {
       "wcjs-player": "^6.0.0",
@@ -113,5 +114,6 @@
   },
   "filename": "neildchen___electron-wcjs-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:36.774Z"
+  "lastFetchedAt": "2017-05-04T19:38:36.774Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:18.171Z"
 }

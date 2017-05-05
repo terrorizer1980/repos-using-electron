@@ -205,6 +205,7 @@
       "all": "run-s dist release deploy",
       "reload": "live-reload app --port 35729"
     },
+    "author": "Vjekoslav Ratkajec",
     "devDependencies": {
       "copyfiles": "~1.0.0",
       "electron-builder": "5.12.X",
@@ -266,5 +267,6 @@
   },
   "sourceRepo": "Vj3k0/ea-todo",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:59.109Z"
+  "lastFetchedAt": "2017-05-04T14:22:59.109Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:04.288Z"
 }

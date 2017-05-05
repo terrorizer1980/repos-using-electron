@@ -69,6 +69,10 @@
     "name": "angular-es6",
     "description": "An AngularJS boilerplate written with ES6",
     "version": "1.1.1",
+    "author": "Charlie Ponti <cjponti@gmail.com>",
+    "bugs": {
+      "url": "https://github.com/theponti/angular-es6/issues"
+    },
     "dependencies": {
       "ampersand-collection": "^1.4.5",
       "babel": "^5.8.20",
@@ -129,7 +133,10 @@
     ],
     "license": "MIT",
     "main": "electron.js",
-    "repository": "https://github.com/theponti/angular-es6",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/theponti/angular-es6.git"
+    },
     "scripts": {
       "clean-git": "rm -rf .git && git init",
       "build": "gulp",
@@ -170,5 +177,6 @@
   },
   "filename": "charlesponti___angular-tasks.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:21.178Z"
+  "lastFetchedAt": "2017-05-04T05:02:21.178Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:08.052Z"
 }

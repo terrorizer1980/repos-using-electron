@@ -73,10 +73,11 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-localshortcut",
-    "version": "1.0.0",
+    "version": "1.1.1",
     "description": "register/unregister a keyboard shortcut locally to a BrowserWindow instance, without using a Menu",
     "repository": "parro-it/electron-localshortcut",
     "license": "MIT",
+    "author": "andrea@parro.it",
     "scripts": {
       "start": "electron test.js",
       "test": "xo"
@@ -91,7 +92,10 @@
     ],
     "devDependencies": {
       "electron": "^1.4.4",
-      "xo": "^0.17.0"
+      "xo": "^0.19.0"
+    },
+    "dependencies": {
+      "electron-is-accelerator": "^0.1.0"
     }
   },
   "packageStatus": 200,
@@ -119,5 +123,6 @@
   },
   "filename": "parro-it___electron-localshortcut.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:33:29.502Z"
+  "lastFetchedAt": "2017-05-04T18:33:29.502Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:12.200Z"
 }

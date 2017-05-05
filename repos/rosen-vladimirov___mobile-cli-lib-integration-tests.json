@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/rosen-vladimirov/mobile-cli-lib-integration-tests",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rosen-vladimirov/mobile-cli-lib-integration-tests.git"
+    },
+    "author": "Rosen Vladimirov",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/rosen-vladimirov/mobile-cli-lib-integration-tests/issues"
+    },
     "homepage": "https://github.com/rosen-vladimirov/mobile-cli-lib-integration-tests#readme",
     "dependencies": {
       "electron-prebuilt": "0.35.5",
@@ -112,5 +119,6 @@
   },
   "filename": "rosen-vladimirov___mobile-cli-lib-integration-tests.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:57.887Z"
+  "lastFetchedAt": "2017-05-04T17:44:57.887Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:03.495Z"
 }

@@ -80,7 +80,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/samnnodim/lettera",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/samnnodim/lettera.git"
+    },
     "keywords": [
       "type",
       "typewriter",
@@ -89,7 +92,11 @@
       "pimp-shit",
       "omg-based-god"
     ],
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/samnnodim/lettera/issues"
+    },
     "homepage": "https://github.com/samnnodim/lettera#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -125,5 +132,6 @@
   },
   "filename": "samnnodim___lettera.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:03.610Z"
+  "lastFetchedAt": "2017-05-04T05:06:03.610Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:26.199Z"
 }

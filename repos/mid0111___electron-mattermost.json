@@ -170,6 +170,7 @@
     "version": "1.0.1",
     "description": "Desktop app for Mattermost that run on Electron",
     "main": "main.js",
+    "author": "Yuya Ochiai",
     "license": "MIT",
     "scripts": {
       "install": "cd src && npm install",
@@ -251,5 +252,6 @@
   "filename": "mid0111___electron-mattermost.json",
   "sourceRepo": "mattermost/desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:39.283Z"
+  "lastFetchedAt": "2017-05-04T05:02:39.283Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:03.377Z"
 }

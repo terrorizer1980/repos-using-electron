@@ -77,11 +77,18 @@
       "build": "webpack",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/nasum/electron-practice",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nasum/electron-practice.git"
+    },
     "keywords": [
       "ekectron"
     ],
+    "author": "nasum",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nasum/electron-practice/issues"
+    },
     "homepage": "https://github.com/nasum/electron-practice#readme",
     "devDependencies": {
       "devtron": "^1.1.0",
@@ -123,5 +130,6 @@
   },
   "filename": "nasum___electron-practice.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:03.483Z"
+  "lastFetchedAt": "2017-05-04T21:15:03.483Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:49.010Z"
 }

@@ -57,12 +57,19 @@
       "release": "npm run release:mac && npm run release:win",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/yosuke-furukawa/umlaut",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yosuke-furukawa/umlaut.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yosuke-furukawa/umlaut/issues"
+    },
     "homepage": "https://github.com/yosuke-furukawa/umlaut#readme",
     "keywords": [
       "electron",
       "plantuml"
     ],
+    "author": "yosuke-furukawa",
     "license": "MIT",
     "dependencies": {
       "dialogs": "^1.1.12",
@@ -120,5 +127,6 @@
   },
   "filename": "yosuke-furukawa___umlaut.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:07.425Z"
+  "lastFetchedAt": "2017-05-04T21:27:07.425Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:37.897Z"
 }

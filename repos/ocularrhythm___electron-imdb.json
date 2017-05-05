@@ -78,6 +78,11 @@
     "description": "My awe-inspiring app",
     "license": "MIT",
     "repository": "ocularrhythm/electron-weather",
+    "author": {
+      "name": "Aaron Arney",
+      "email": "aaron.arney@ocular-rhythm.com",
+      "url": "ocular-rhythm.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -135,5 +140,6 @@
   },
   "filename": "ocularrhythm___electron-imdb.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:07:02.715Z"
+  "lastFetchedAt": "2017-05-04T05:07:02.715Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:01.947Z"
 }

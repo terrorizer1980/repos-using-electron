@@ -76,18 +76,10 @@
       "pack": "npm run clean:win && electron-packager . \"Restrauants\" --out=dist/win --platform=win32 --arch=ia32 --version=0.36.2 --icon=assets/images/restraurant.ico --ignore=dist --ignore=assets --ignore=builder.json --ignore=bower.json --ignore=README.md --ignore=.gitignore --ignore=preview.png"
     },
     "repository": {
-      "user": "enhuizhu",
-      "repo": "eshopDesktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/enhuizhu/eshopDesktop/tarball/master",
-      "clone_url": "https://github.com/enhuizhu/eshopDesktop",
-      "https_url": "https://github.com/enhuizhu/eshopDesktop",
-      "travis_url": "https://travis-ci.org/enhuizhu/eshopDesktop",
-      "zip_url": "https://github.com/enhuizhu/eshopDesktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/enhuizhu/eshopDesktop"
+      "type": "git",
+      "url": "https://github.com/enhuizhu/eshopDesktop.git"
     },
+    "author": "enhuizhu",
     "homepage": "http://www.olmarket.co.uk",
     "devDependencies": {
       "electron-builder": "^7.23.2",
@@ -126,5 +118,6 @@
   "filename": "enhuizhu___eshopDesktop.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:08.621Z"
+  "lastFetchedAt": "2017-05-04T20:54:08.621Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:56.092Z"
 }

@@ -204,6 +204,9 @@
       "flow": "flow; test $? -eq 0 -o $? -eq 2"
     },
     "repository": "brave/browser-laptop",
+    "author": {
+      "name": "Brave Developers <support+laptop@brave.com>"
+    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -223,6 +226,9 @@
       }
     ],
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/brave/browser-laptop/issues"
+    },
     "homepage": "https://www.brave.com/",
     "dependencies": {
       "abp-filter-parser-cpp": "1.1.x",
@@ -364,5 +370,6 @@
   "filename": "uloga___browser-laptop.json",
   "sourceRepo": "brave/browser-laptop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:45.393Z"
+  "lastFetchedAt": "2017-05-04T17:43:45.393Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:49.622Z"
 }

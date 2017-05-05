@@ -83,6 +83,7 @@
       "electron-builder": "^10.6.1"
     },
     "description": "SysAdvent",
+    "author": "Vinod Kurup <vinod@kurup.com>",
     "license": "MIT",
     "build": {
       "appId": "com.kurup.demo-electron",
@@ -113,5 +114,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:17:35.087Z"
+  "lastFetchedAt": "2017-05-04T15:17:35.087Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:37.908Z"
 }

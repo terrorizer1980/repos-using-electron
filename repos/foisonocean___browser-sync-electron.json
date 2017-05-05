@@ -74,6 +74,7 @@
       "start": "electron .",
       "build": "electron-packager . 文件自动刷新 --platform=all --out=./dist --asar=true"
     },
+    "author": "foisonocean",
     "license": "MIT",
     "dependencies": {
       "animate.css": "^3.5.2",
@@ -110,5 +111,6 @@
   },
   "filename": "foisonocean___browser-sync-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:47:49.152Z"
+  "lastFetchedAt": "2017-05-04T20:47:49.152Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:17.770Z"
 }

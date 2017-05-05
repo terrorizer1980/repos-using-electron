@@ -80,12 +80,19 @@
       "start": "node_modules/.bin/electron app",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/gfogle/learn-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gfogle/learn-electron.git"
+    },
     "keywords": [
       "electron",
       "angular"
     ],
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gfogle/learn-electron/issues"
+    },
     "homepage": "https://github.com/gfogle/learn-electron#readme",
     "devDependencies": {
       "appdmg": "^0.3.4",
@@ -130,5 +137,6 @@
   },
   "filename": "gfogle___learn-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:35:18.626Z"
+  "lastFetchedAt": "2017-05-04T18:35:18.626Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:16.915Z"
 }

@@ -94,8 +94,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/afang/polyterm",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/afang/polyterm.git"
+    },
+    "author": {
+      "name": "Andy Fang",
+      "email": "andy@fang.af",
+      "url": "https://github.com/afang"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/afang/polyterm/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -215,5 +226,6 @@
   },
   "filename": "fandy___polyterm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:51:28.368Z"
+  "lastFetchedAt": "2017-05-04T14:51:28.368Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:21.346Z"
 }

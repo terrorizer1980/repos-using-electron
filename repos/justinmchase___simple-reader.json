@@ -69,6 +69,7 @@
     "name": "raw-reader",
     "version": "1.0.0",
     "description": "Reads sites as plain text, stripping out all ads and external resources.",
+    "author": "justinmchase",
     "license": "ISC",
     "repository": {
       "type": "git",
@@ -76,6 +77,10 @@
     },
     "main": "index.js",
     "scripts": {
+      "start": "gulp start",
+      "server": "gulp server",
+      "build": "gulp build",
+      "docker": "gulp docker:build",
       "app": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
@@ -88,13 +93,16 @@
       }
     },
     "dependencies": {
-      "async": "^2.0.1",
-      "babel-core": "^6.14.0",
-      "babel-plugin-transform-decorators-legacy": "^1.3.4",
-      "babel-polyfill": "^6.13.0",
-      "babel-preset-es2015": "^6.14.0",
+      "async": "^2.1.4",
+      "aws-sdk": "^2.7.11",
+      "babel-preset-latest": "^6.16.0",
+      "babel-register": "^6.18.0",
+      "body-parser": "^1.15.2",
       "bootstrap": "^3.3.7",
       "core-js": "^2.4.1",
+      "express": "^4.14.0",
+      "http-status": "^0.2.3",
+      "joi": "^10.0.5",
       "jquery": "^3.1.0",
       "minimist": "^1.2.0",
       "moment": "^2.15.1",
@@ -108,9 +116,17 @@
     },
     "devDependencies": {
       "babel-eslint": "^6.1.2",
+      "colors": "^1.1.2",
+      "del": "^2.2.2",
       "electron-prebuilt": "^1.4.0",
       "gulp": "github:gulpjs/gulp#4.0",
+      "gulp-babel": "^6.1.2",
+      "gulp-changed": "^1.3.2",
+      "gulp-live-server": "0.0.30",
+      "gulp-util": "^3.0.7",
+      "gulp-webpack": "^1.5.0",
       "require-dir": "^0.3.0",
+      "run-sequence": "^1.2.2",
       "standard": "^8.0.0"
     }
   },
@@ -139,5 +155,6 @@
   },
   "filename": "justinmchase___simple-reader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:47:34.774Z"
+  "lastFetchedAt": "2017-05-04T14:47:34.774Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:46.351Z"
 }

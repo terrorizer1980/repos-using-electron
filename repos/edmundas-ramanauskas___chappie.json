@@ -75,6 +75,7 @@
       "build": "webpack --config meta/webpack.config.js",
       "start": "webpack-dev-server --config meta/webpack.dev.config.js"
     },
+    "author": "edmundas",
     "license": "ISC",
     "dependencies": {
       "monet": "^0.8.10",
@@ -142,5 +143,6 @@
   },
   "filename": "edmundas-ramanauskas___chappie.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:13:58.772Z"
+  "lastFetchedAt": "2017-05-04T18:13:58.772Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:43.771Z"
 }

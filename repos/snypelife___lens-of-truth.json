@@ -78,6 +78,11 @@
     "description": "My divine app",
     "license": "MIT",
     "repository": "snypelife/lens-of-truth",
+    "author": {
+      "name": "snypelife",
+      "email": "brettmrogerson@gmail.com",
+      "url": "github.com/snypelife/lens-of-truth"
+    },
     "scripts": {
       "test": "xo && ava",
       "lint": "ava",
@@ -159,5 +164,6 @@
   },
   "filename": "snypelife___lens-of-truth.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:51:29.752Z"
+  "lastFetchedAt": "2017-05-04T20:51:29.752Z",
+  "packageLastFetchedAt": "2017-05-05T13:57:47.440Z"
 }

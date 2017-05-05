@@ -67,5 +67,21 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:31:10.699Z"
+  "lastFetchedAt": "2017-05-04T19:31:10.699Z",
+  "packageJSON": {
+    "name": "learn-electron",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.6.5"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:06:20.826Z"
 }

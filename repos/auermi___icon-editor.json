@@ -59,8 +59,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/auermi/icon-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/auermi/icon-editor"
+    },
+    "author": "Michael Auer",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/auermi/icon-editor/issues"
+    },
     "homepage": "https://github.com/auermi/icon-editor",
     "devDependencies": {
       "grunt": "^0.4.5",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/auermi/icon-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:36:18.053Z"
+  "lastFetchedAt": "2017-05-04T17:36:18.053Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:21.973Z"
 }

@@ -72,13 +72,20 @@
     "main": "monitor.js",
     "dependencies": {
       "color": "^0.11.3",
+      "js-htmlencode": "^0.2.0",
+      "mkdirp": "^0.5.1",
       "nedb": "^1.8.0",
       "s-ago": "^1.1.0"
     },
     "scripts": {
+      "lint": "eslint .",
+      "prepush": "npm run lint && npm test",
       "test": "mocha ./test"
     },
-    "repository": "https://github.com/tinytacoteam/zazu-clipboard",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/tinytacoteam/zazu-clipboard.git"
+    },
     "keywords": [
       "clipboard",
       "clip",
@@ -86,11 +93,20 @@
       "manager",
       "zazu"
     ],
+    "author": "Blaine Schmeisser",
     "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/tinytacoteam/zazu-clipboard/issues"
+    },
     "homepage": "https://github.com/tinytacoteam/zazu-clipboard#readme",
     "devDependencies": {
       "chai": "^3.5.0",
-      "mocha": "^2.5.3"
+      "eslint": "^3.15.0",
+      "eslint-config-standard": "^6.2.1",
+      "eslint-plugin-promise": "^3.4.2",
+      "eslint-plugin-standard": "^2.0.1",
+      "mocha": "^2.5.3",
+      "rimraf": "^2.5.4"
     }
   },
   "packageStatus": 200,
@@ -138,5 +154,6 @@
   "svnUrl": "https://github.com/tinytacoteam/zazu-clipboard",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:08:17.176Z"
+  "lastFetchedAt": "2017-05-03T20:08:17.176Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:20.226Z"
 }

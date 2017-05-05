@@ -76,7 +76,10 @@
     "version": "0.1.0",
     "description": "A novel chapter parser.",
     "main": "main.js",
-    "repository": "https://github.com/NemoChenTW/novel-chapter-parser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NemoChenTW/novel-chapter-parser.git"
+    },
     "license": "Apache-2.0",
     "devDependencies": {
       "bootstrap": "^3.3.6",
@@ -108,5 +111,6 @@
   },
   "filename": "NemoChenTW___novel-chapter-parser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:48.183Z"
+  "lastFetchedAt": "2017-05-04T20:27:48.183Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:18.222Z"
 }

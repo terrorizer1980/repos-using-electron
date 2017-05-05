@@ -80,23 +80,18 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "charleshamesse",
-      "repo": "IRStudio",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/charleshamesse/IRStudio/tarball/master",
-      "clone_url": "https://github.com/charleshamesse/IRStudio",
-      "https_url": "https://github.com/charleshamesse/IRStudio",
-      "travis_url": "https://travis-ci.org/charleshamesse/IRStudio",
-      "zip_url": "https://github.com/charleshamesse/IRStudio/archive/master.zip",
-      "api_url": "https://api.github.com/repos/charleshamesse/IRStudio"
+      "type": "git",
+      "url": "git+https://github.com/charleshamesse/IRStudio.git"
     },
     "keywords": [
       "Electron",
       "IRStudio",
       "Optimization"
     ],
+    "author": "Charles Hamesse",
+    "bugs": {
+      "url": "https://github.com/charleshamesse/IRStudio/issues"
+    },
     "homepage": "https://github.com/charleshamesse/IRStudio#readme",
     "dependencies": {
       "d3": "^3.5.16",
@@ -136,5 +131,6 @@
   "filename": "charleshamesse___IRStudio.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:59.703Z"
+  "lastFetchedAt": "2017-05-04T18:12:59.703Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:59.681Z"
 }

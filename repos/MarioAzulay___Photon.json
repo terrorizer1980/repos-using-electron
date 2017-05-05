@@ -71,6 +71,7 @@
     "version": "1.0.0",
     "description": "A simple template app for Proton",
     "main": "main.js",
+    "author": "Connor Sears",
     "scripts": {
       "start": "electron ."
     },
@@ -105,5 +106,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:28.193Z"
+  "lastFetchedAt": "2017-05-04T21:13:28.193Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:57.964Z"
 }

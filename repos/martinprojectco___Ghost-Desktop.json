@@ -170,6 +170,10 @@
     "version": "0.5.1",
     "description": "Desktop Client for Ghost",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "homepage": "https://github.com/tryghost/ghost-desktop",
     "scripts": {
       "build": "grunt build",
@@ -189,6 +193,7 @@
     "engines": {
       "node": ">= 5.0"
     },
+    "author": "",
     "license": "MIT",
     "optionalDependencies": {
       "grunt-electron-installer-debian": "^0.3.0"
@@ -321,5 +326,6 @@
   "svnUrl": "https://github.com/martinprojectco/Ghost-Desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:11:53.708Z"
+  "lastFetchedAt": "2017-05-04T21:11:53.708Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:31.980Z"
 }

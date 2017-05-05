@@ -78,7 +78,18 @@
     "description": "Net Tools",
     "license": "Unlicense",
     "main": "index.js",
-    "repository": "https://github.com/mixmatch/netToolsElectron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mixmatch/netToolsElectron"
+    },
+    "bugs": {
+      "url": "https://github.com/mixmatch/netToolsElectron/issues"
+    },
+    "author": {
+      "name": "Daniel Petty",
+      "email": "mixmatch@gmail.com",
+      "url": "https://danielpetty.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -134,5 +145,6 @@
   },
   "filename": "mixmatch___netToolsElectron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:55.486Z"
+  "lastFetchedAt": "2017-05-04T17:54:55.486Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:58.266Z"
 }

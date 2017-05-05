@@ -72,8 +72,8 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "dbr-node-online",
-    "version": "1.0.0",
+    "name": "dbr",
+    "version": "1.0.1",
     "description": "The demo illustrates how to create an online barcode reader with Dynamsoft Barcode Reader SDK and Node.js",
     "main": "server.js",
     "dependencies": {
@@ -86,6 +86,7 @@
       "install": "node-gyp rebuild",
       "start": "node server.js"
     },
+    "author": "yushulx",
     "license": "MIT",
     "gypfile": true
   },
@@ -114,5 +115,6 @@
   },
   "filename": "yushulx___nodejs-barcode-for-win-linux-mac.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:41:57.199Z"
+  "lastFetchedAt": "2017-05-04T20:41:57.199Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:38.450Z"
 }

@@ -76,8 +76,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/will-hart/story-planner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/will-hart/story-planner.git"
+    },
+    "author": {
+      "name": "Will Hart",
+      "email": "will@willhart.io",
+      "url": "https://github.com/will-hart"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/will-hart/story-planner/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -200,5 +211,6 @@
   },
   "filename": "will-hart___story-planner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:50.188Z"
+  "lastFetchedAt": "2017-05-04T14:22:50.188Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:26.962Z"
 }

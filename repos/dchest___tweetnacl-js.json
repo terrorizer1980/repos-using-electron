@@ -74,10 +74,13 @@
   "status": 200,
   "packageJSON": {
     "name": "tweetnacl",
-    "version": "0.14.5",
+    "version": "1.0.0-rc.1",
     "description": "Port of TweetNaCl cryptographic library to JavaScript",
     "main": "nacl-fast.js",
     "types": "nacl.d.ts",
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "build": "uglifyjs nacl.js -c -m -o nacl.min.js && uglifyjs nacl-fast.js -c -m -o nacl-fast.min.js",
       "test-node": "tape test/*.js | faucet",
@@ -88,7 +91,10 @@
       "bench": "node test/benchmark/bench.js",
       "lint": "eslint nacl.js nacl-fast.js test/*.js test/benchmark/*.js"
     },
-    "repository": "https://github.com/dchest/tweetnacl-js",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dchest/tweetnacl-js.git"
+    },
     "keywords": [
       "crypto",
       "cryptography",
@@ -103,7 +109,11 @@
       "salsa20",
       "signatures"
     ],
+    "author": "TweetNaCl-js contributors",
     "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/dchest/tweetnacl-js/issues"
+    },
     "homepage": "https://tweetnacl.js.org",
     "devDependencies": {
       "browserify": "^13.1.1",
@@ -145,5 +155,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:34.189Z"
+  "lastFetchedAt": "2017-05-04T05:02:34.189Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:54.580Z"
 }

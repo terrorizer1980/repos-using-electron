@@ -60,14 +60,21 @@
       "start": "electron app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/aleksey-leontiev/conspectus",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aleksey-leontiev/conspectus.git"
+    },
     "keywords": [
       "notes",
       "srs",
       "student",
       "learn"
     ],
+    "author": "Aleksey Leontiev",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/aleksey-leontiev/conspectus/issues"
+    },
     "homepage": "https://github.com/aleksey-leontiev/conspectus#readme",
     "dependencies": {
       "electron-is-dev": "^0.1.1",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/aleksey-leontiev/conspectus",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:25:46.147Z"
+  "lastFetchedAt": "2017-05-04T15:25:46.147Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:18.745Z"
 }

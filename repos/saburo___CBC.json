@@ -73,5 +73,56 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:00:17.389Z"
+  "lastFetchedAt": "2017-05-04T05:00:17.389Z",
+  "packageJSON": {
+    "name": "CBC",
+    "version": "1.1.1",
+    "author": "Kouki Kitajima <saburo@geology.wisc.edu>",
+    "license": "MIT",
+    "description": "cycle-by-cycle plotter for isotope analysis by SIMS",
+    "main": "./src/browser/main.js",
+    "devDependencies": {
+      "devtron": "^1.4.0",
+      "electron": "^1.6.0",
+      "electron-builder": "^14.5.1",
+      "electron-packager": "^5.2.1",
+      "mocha": "^2.3.4",
+      "rcedit": "^0.7.0"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.5",
+      "d3": "^3.5.6",
+      "jquery": "^2.1.4",
+      "jquery-ui": "1.10.5",
+      "urlsafe-base64": "^1.0.0",
+      "xlsx-browerify-shim": "0.0.2"
+    },
+    "scripts": {
+      "release": "node release.js",
+      "release:mac": "node release.js mac",
+      "release:win": "node release.js win",
+      "release:win_noicon": "electron-packager . CBC --platform=win32 --arch=x64 --version=1.4.4 --asar --prune --ignore=\"node_modules/(electron-packager|electron-prebuilt|.bin)|release.js|.DS_Store\" --out=../dist ",
+      "pack:osx": "electron-builder \"../dist/CBC-darwin-x64/CBC.app\" --platform=osx --out=\"../installer/osx\" --config=packager.json",
+      "dist": "build -mw",
+      "start": "electron .",
+      "dev": "DEV_ENV=development yarn start",
+      "test": "mocha"
+    },
+    "build": {
+      "appId": "edu.wiscsims.cbc",
+      "artifactName": "${productName}-${version}-${os}.${ext}",
+      "mac": {
+        "category": "public.app-category.productivity",
+        "icon": "resources/icon.icns"
+      },
+      "win": {
+        "icon": "resources/icon.ico"
+      },
+      "dmg": {
+        "iconSize": 150
+      }
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:58:46.020Z"
 }

@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/liveyourheart/woke-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/liveyourheart/woke-electron.git"
+    },
+    "author": {
+      "name": "Matt McHughes",
+      "email": "liveyourheart@gmail.com",
+      "url": "https://github.com/liveyourheart"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/liveyourheart/woke-electron/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -204,5 +215,6 @@
   },
   "filename": "liveyourheart___woke-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:05:30.863Z"
+  "lastFetchedAt": "2017-05-03T20:05:30.863Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:16.727Z"
 }

@@ -74,7 +74,9 @@
   "packageJSON": {
     "name": "app",
     "version": "1.0.0",
+    "description": "An electron template",
     "main": "app.js",
+    "repository": "aerobird98/Template",
     "license": "MIT",
     "scripts": {
       "start": "electron app.js",
@@ -84,9 +86,9 @@
       "pack-all": "electron-packager . app --appname=app --app-version=1.0.0 --app-copyright=Github --platform=win32 --arch=all --prune --asar --overwrite"
     },
     "devDependencies": {
-      "electron-prebuilt": "1.2.6",
-      "electron-packager": "7.2.0",
-      "standard": "7.1.2"
+      "electron-prebuilt": "1.4.10",
+      "electron-packager": "8.3.0",
+      "standard": "8.6.0"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,6 @@
   },
   "filename": "Aerobird98___Template.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:03:16.586Z"
+  "lastFetchedAt": "2017-05-04T09:03:16.586Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:10.786Z"
 }

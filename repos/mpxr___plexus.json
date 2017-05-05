@@ -50,6 +50,7 @@
     "version": "1.0.0",
     "description": "P2P music listening",
     "main": "app/main.js",
+    "author": "Marton Veto",
     "homepage": "https://github.com/mpxr/plexus",
     "scripts": {
       "start": "electron app/main.js"
@@ -108,5 +109,6 @@
   "svnUrl": "https://github.com/mpxr/plexus",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:58:43.799Z"
+  "lastFetchedAt": "2017-05-04T20:58:43.799Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:44.043Z"
 }

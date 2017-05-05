@@ -77,15 +77,22 @@
       "htmlvalidator": "html-validator --file=index.html",
       "test": "snyk test"
     },
-    "repository": "https://github.com/ajpapin/mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ajpapin/mirror.git"
+    },
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
+    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -135,5 +142,6 @@
   },
   "filename": "ajpapin___mirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:52:23.016Z"
+  "lastFetchedAt": "2017-05-04T17:52:23.016Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:16.167Z"
 }

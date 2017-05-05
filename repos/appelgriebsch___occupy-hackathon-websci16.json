@@ -56,8 +56,12 @@
     "productName": "WebSci16-Hackathon",
     "description": "Visualizing the Occupy Movement",
     "version": "0.2.0",
+    "author": "Andreas Gerlach <andi@appelgriebsch.org>",
     "main": "app/index.js",
-    "repository": "https://github.com/appelgriebsch/occupy-hackathon-websci16",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/appelgriebsch/occupy-hackathon-websci16.git"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -70,6 +74,9 @@
       "png": "app/assets/occupy.png"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/appelgriebsch/occupy-hackathon-websci16/issues"
+    },
     "homepage": "https://github.com/appelgriebsch/occupy-hackathon-websci16#readme",
     "scripts": {
       "postinstall": "npm run app-install && npm run electron-version",
@@ -142,5 +149,6 @@
   "svnUrl": "https://github.com/appelgriebsch/occupy-hackathon-websci16",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:08:45.941Z"
+  "lastFetchedAt": "2017-05-04T05:08:45.941Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:24.510Z"
 }

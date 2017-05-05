@@ -89,19 +89,26 @@
     "name": "mutuca",
     "version": "1.0.0",
     "description": "The Definitive Developer's Dashboard",
+    "author": "Leonardo Eloy",
     "main": "app/index.js",
     "scripts": {
       "test": "xo",
       "start": "electron .",
       "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
     },
-    "repository": "https://github.com/leonardoeloy/mutuca",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/leonardoeloy/mutuca.git"
+    },
     "keywords": [
       "mutuca",
       "developer",
       "dashboard"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/leonardoeloy/mutuca/issues"
+    },
     "homepage": "https://github.com/leonardoeloy/mutuca#readme",
     "dependencies": {
       "electron-debug": "^1.0.0"
@@ -150,5 +157,6 @@
   },
   "filename": "mutuca___mutuca.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:23.825Z"
+  "lastFetchedAt": "2017-05-04T20:25:23.825Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:33.256Z"
 }

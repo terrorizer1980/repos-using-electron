@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/kdcllc/electron-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kdcllc/electron-start.git"
+    },
     "keywords": [
       "Electron",
       "seed",
       "start"
     ],
+    "author": "King David Consulting LLC",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kdcllc/electron-starter.git/issues"
+    },
     "homepage": "https://github.com/kdcllc/electron-starter#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -126,5 +133,6 @@
   },
   "filename": "kdcllc___electron-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:37.491Z"
+  "lastFetchedAt": "2017-05-04T18:12:37.491Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:06.323Z"
 }

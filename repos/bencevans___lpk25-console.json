@@ -55,7 +55,10 @@
       "download-sounds": "wget -O idaft.zip http://psp.brewology.com/downloads/get.php?id=10151 && unzip -j idaft.zip PSP/GAME/iDaft/data/*.idf -d data",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/bencevans/lpk25-console",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bencevans/lpk25-console.git"
+    },
     "keywords": [
       "lpk25",
       "keyboard",
@@ -65,7 +68,11 @@
       "music",
       "midi"
     ],
+    "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bencevans/lpk25-console/issues"
+    },
     "homepage": "https://github.com/bencevans/lpk25-console#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.8",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/bencevans/lpk25-console",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:25:17.788Z"
+  "lastFetchedAt": "2017-05-04T20:25:17.788Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:52.125Z"
 }

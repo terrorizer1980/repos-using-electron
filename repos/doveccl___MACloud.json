@@ -57,7 +57,10 @@
     "license": "GPL-3.0",
     "main": "app.js",
     "description": "BaiduYun Client for Mac OS",
-    "repository": "https://github.com/doveccl/MACloud",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/doveccl/MACloud.git"
+    },
     "dependencies": {
       "node-rsa": "~0.3.2",
       "keytar": "~3.0.0"
@@ -112,5 +115,6 @@
   },
   "filename": "doveccl___MACloud.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:44.990Z"
+  "lastFetchedAt": "2017-05-04T14:21:44.990Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:39.644Z"
 }

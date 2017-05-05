@@ -74,8 +74,15 @@
       "start": "electron .",
       "build": "electron-packager . MyApp --platform=darwin --arch=all --version=0.31.2 --icon=Icon.icns --asar=true"
     },
-    "repository": "https://github.com/federicous/webrtc-experiment",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/federicous/webrtc-experiment.git"
+    },
+    "author": "federico hernández",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/federicous/webrtc-experiment/issues"
+    },
     "homepage": "https://github.com/federicous/webrtc-experiment#readme",
     "devDependencies": {
       "electron-packager": "^5.0.2",
@@ -110,5 +117,6 @@
   },
   "filename": "federicous___webrtc-experiment.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:17.993Z"
+  "lastFetchedAt": "2017-05-04T20:13:17.993Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:43.227Z"
 }

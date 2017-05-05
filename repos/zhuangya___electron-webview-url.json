@@ -73,12 +73,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/zhuangya/electron-webview-src",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/zhuangya/electron-webview-src.git"
+    },
     "keywords": [
       "electron",
       "bug"
     ],
+    "author": "Ya Zhuang <zhuangya@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/zhuangya/electron-webview-src/issues"
+    },
     "homepage": "https://github.com/zhuangya/electron-webview-src#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.3"
@@ -109,5 +116,6 @@
   },
   "filename": "zhuangya___electron-webview-url.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:57.988Z"
+  "lastFetchedAt": "2017-05-04T20:19:57.988Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:47.172Z"
 }

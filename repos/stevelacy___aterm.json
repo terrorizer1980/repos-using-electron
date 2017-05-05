@@ -74,14 +74,20 @@
   "packageJSON": {
     "name": "aterm",
     "description": "electron TTY terminal",
+    "author": "Steve Lacy me@slacy.me <http://slacy.me>",
     "dependencies": {
-      "electron-prebuilt": "^0.37.2",
-      "pty.js": "^0.3.0",
-      "tty.js": "^0.2.15"
+      "electron": "^1.6.5",
+      "electron-debug": "^1.1.0",
+      "node-pty": "^0.6.3",
+      "tty.js": "^0.2.15",
+      "xterm": "^2.5.0"
     },
-    "main": "init.js",
+    "main": "main.js",
     "scripts": {
-      "start": "electron init.js"
+      "start": "electron main.js"
+    },
+    "devDependencies": {
+      "electron-rebuild": "^1.5.7"
     }
   },
   "packageStatus": 200,
@@ -109,5 +115,6 @@
   },
   "filename": "stevelacy___aterm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:37.565Z"
+  "lastFetchedAt": "2017-05-04T20:44:37.565Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:56.497Z"
 }

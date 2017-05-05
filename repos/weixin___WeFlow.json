@@ -108,14 +108,21 @@
         "iconUrl": "http://7xojg5.com1.z0.glb.clouddn.com/icon.ico"
       }
     },
-    "repository": "https://github.com/weixin/WeFlow",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/weixin/WeFlow"
+    },
     "keywords": [
       "Electron",
       "workflow",
       "F2E",
       "GUI"
     ],
+    "author": "Littledu,Zedhuang",
     "license": "MIT License",
+    "bugs": {
+      "url": "https://github.com/weixin/WeFlow/issues"
+    },
     "homepage": "https://github.com/weixin/WeFlow#readme",
     "devDependencies": {
       "electron-packager": "^7.0.3",
@@ -187,5 +194,6 @@
   },
   "filename": "weixin___WeFlow.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:29:21.035Z"
+  "lastFetchedAt": "2017-05-04T14:29:21.035Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:30.321Z"
 }

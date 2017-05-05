@@ -59,7 +59,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/aziis98/Geometric",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aziis98/Geometric.git"
+    },
+    "author": "Antonio De Lucreziis",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.34.2",
@@ -116,5 +120,6 @@
   "svnUrl": "https://github.com/aziis98/Geometric",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:27:35.143Z"
+  "lastFetchedAt": "2017-05-04T20:27:35.143Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:41.769Z"
 }

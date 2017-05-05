@@ -98,13 +98,20 @@
       "package": "electron-packager . Ytqck --platform=linux --arch=x64",
       "test": "yt"
     },
-    "repository": "https://github.com/YtQck/yt-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/YtQck/yt-app.git"
+    },
     "keywords": [
       "YouTube",
       "Mini Player",
       "Blazing Fast"
     ],
+    "author": "midhruvjaink",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/YtQck/yt-app/issues"
+    },
     "homepage": "https://github.com/YtQck/yt-app#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -135,5 +142,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:28:30.719Z"
+  "lastFetchedAt": "2017-05-04T14:28:30.719Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:29.071Z"
 }

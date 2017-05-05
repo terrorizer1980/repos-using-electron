@@ -76,7 +76,15 @@
     "version": "0.1.0",
     "description": "A GUI for the CadQuery library.",
     "license": "Apache-2.0",
-    "repository": "https://github.com/jmwright/cadquery-gui",
+    "author": {
+      "name": "Jeremy Wright",
+      "email": "wrightjmf@hotmail.com",
+      "url": "https://github.com/jmwright"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jmwright/cadquery-gui.git"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
@@ -118,5 +126,6 @@
   },
   "filename": "jmwright___cadquery-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:48.675Z"
+  "lastFetchedAt": "2017-05-04T05:05:48.675Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:18.636Z"
 }

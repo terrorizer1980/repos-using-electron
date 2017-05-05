@@ -60,8 +60,15 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/scottmetoyer/penny-audio-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/scottmetoyer/penny-audio-editor.git"
+    },
+    "author": "Scott Metoyer",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/scottmetoyer/penny-audio-editor/issues"
+    },
     "homepage": "https://github.com/scottmetoyer/penny-audio-editor#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.2"
@@ -112,5 +119,6 @@
   },
   "filename": "scottmetoyer___penny-audio-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:03.325Z"
+  "lastFetchedAt": "2017-05-04T21:31:03.325Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:39.003Z"
 }

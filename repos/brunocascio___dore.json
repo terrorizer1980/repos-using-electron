@@ -132,11 +132,26 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -210,9 +225,9 @@
       "dockerode": "brunocascio/dockerode",
       "electron-debug": "^1.0.1",
       "font-awesome": "^4.7.0",
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2",
-      "react-graph-vis": "0.0.3",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "react-graph-vis": "0.1.1",
       "react-redux": "^4.4.5",
       "react-router": "^3.0.0",
       "react-router-redux": "^4.0.7",
@@ -250,5 +265,6 @@
   },
   "filename": "brunocascio___dore.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:28.823Z"
+  "lastFetchedAt": "2017-05-04T15:15:28.823Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:11.871Z"
 }

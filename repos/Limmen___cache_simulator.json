@@ -101,12 +101,20 @@
         "<rootDir>/node_modules/immutable"
       ]
     },
-    "repository": "https://github.com/Limmen/cache_simulator",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Limmen/cache_simulator"
+    },
     "homepage": "http://www.cachesimulator.com/",
     "keywords": [
       "Cache",
       "Simulator"
     ],
+    "author": {
+      "name": "Kim Hammar",
+      "email": "kimham@kth.se",
+      "url": "https://github.com/Limmen"
+    },
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.0.0",
@@ -192,5 +200,6 @@
   },
   "filename": "Limmen___cache_simulator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:16.644Z"
+  "lastFetchedAt": "2017-05-04T15:22:16.644Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:46.101Z"
 }

@@ -96,7 +96,14 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "David Little",
+      "email": "david.frank.little@gmail.com"
+    },
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -218,5 +225,6 @@
   },
   "filename": "haberdashPI___csd-ta-assign.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:35:10.424Z"
+  "lastFetchedAt": "2017-05-04T15:35:10.424Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:14.286Z"
 }

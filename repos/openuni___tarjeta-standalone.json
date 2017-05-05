@@ -92,6 +92,7 @@
       "package": "node ./config/tasks/package.js",
       "app": "./node_modules/.bin/electron src/"
     },
+    "author": "John Faucett",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^6.0.0",
@@ -139,5 +140,6 @@
   },
   "filename": "openuni___tarjeta-standalone.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:08.805Z"
+  "lastFetchedAt": "2017-05-04T16:46:08.805Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:58.157Z"
 }

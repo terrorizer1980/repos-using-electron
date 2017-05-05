@@ -68,8 +68,12 @@
   "packageJSON": {
     "name": "healthy-notifications",
     "description": "Healthy Notifications which will remind you to drink water, to keep a good posture and to take a rest",
+    "author": "Julia Rechkunova <julia.rechkunova@gmail.com>",
     "version": "1.2.0",
-    "repository": "https://github.com/JuliaRechkunova/healthy-notifications",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:JuliaRechkunova/healthy-notifications.git"
+    },
     "main": "build/server.js",
     "devDependencies": {
       "asar": "^0.6.1",
@@ -127,5 +131,6 @@
   },
   "filename": "JuliaRechkunova___healthy-notifications.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:51.332Z"
+  "lastFetchedAt": "2017-05-04T18:00:51.332Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:12.858Z"
 }

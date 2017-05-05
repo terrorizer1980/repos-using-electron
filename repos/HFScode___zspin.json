@@ -105,6 +105,7 @@
       "make-watch": "npm run gulp -- watch",
       "make-run": "npm run nwbuild -- -r ./build"
     },
+    "author": "Romain Gay <v@42.am>",
     "license": "CC-BY-NC-SA-4.0"
   },
   "packageStatus": 200,
@@ -152,5 +153,6 @@
   "svnUrl": "https://github.com/HFScode/zspin",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:54:57.489Z"
+  "lastFetchedAt": "2017-05-04T14:54:57.489Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:57.095Z"
 }

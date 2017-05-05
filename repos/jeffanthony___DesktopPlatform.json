@@ -178,17 +178,8 @@
       "build": "electron-packager . $npm_package_productName --out=packaged --icon='icon.icns' --overwrite --ignore='^/packaged --prune --platform=darwin --arch=x64 --version=$npm_package_electronVersion"
     },
     "repository": {
-      "user": "VentureEquityExchange",
-      "repo": "DesktopPlatform",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/VentureEquityExchange/DesktopPlatform/tarball/master",
-      "clone_url": "https://github.com/VentureEquityExchange/DesktopPlatform",
-      "https_url": "https://github.com/VentureEquityExchange/DesktopPlatform",
-      "travis_url": "https://travis-ci.org/VentureEquityExchange/DesktopPlatform",
-      "zip_url": "https://github.com/VentureEquityExchange/DesktopPlatform/archive/master.zip",
-      "api_url": "https://api.github.com/repos/VentureEquityExchange/DesktopPlatform"
+      "type": "git",
+      "url": "git+https://github.com/VentureEquityExchange/DesktopPlatform.git"
     },
     "keywords": [
       "Ethereum",
@@ -196,7 +187,11 @@
       "Electron",
       "React"
     ],
+    "author": "Ryan Michael Tate",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VentureEquityExchange/DesktopPlatform/issues"
+    },
     "homepage": "https://github.com/VentureEquityExchange/DesktopPlatform#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -264,5 +259,6 @@
   "svnUrl": "https://github.com/jeffanthony/DesktopPlatform",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:09:17.919Z"
+  "lastFetchedAt": "2017-05-04T21:09:17.919Z",
+  "packageLastFetchedAt": "2017-05-04T22:40:19.582Z"
 }

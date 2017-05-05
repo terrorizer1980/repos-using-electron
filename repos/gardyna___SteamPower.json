@@ -79,13 +79,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/gardyna/SteamPower",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gardyna/SteamPower"
+    },
     "keywords": [
       "Electron",
       "steam",
       "start",
       "launcher"
     ],
+    "author": "Gardyna",
     "license": "CC0-1.0",
     "homepage": "https://github.com/gardyna/SteamPower#readme",
     "devDependencies": {
@@ -117,5 +121,6 @@
   },
   "filename": "gardyna___SteamPower.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:41.128Z"
+  "lastFetchedAt": "2017-05-04T19:51:41.128Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:59.281Z"
 }

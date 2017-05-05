@@ -87,11 +87,18 @@
     "scripts": {
       "test": "./node_modules/.bin/jest"
     },
-    "repository": "https://github.com/brigand/react-no-compromise-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/brigand/react-no-compromise-boilerplate.git"
+    },
     "keywords": [
       "react"
     ],
+    "author": "Frankie Bagnardi <f.bagnardi@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/brigand/react-no-compromise-boilerplate/issues"
+    },
     "homepage": "https://github.com/brigand/react-no-compromise-boilerplate#readme",
     "dependencies": {
       "babel-plugin-add-module-exports": "^0.1.2",
@@ -196,5 +203,6 @@
   },
   "filename": "bleeding-edge-react-sample-app___bleeding-edge-react-sample-app.github.io.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:11.193Z"
+  "lastFetchedAt": "2017-05-04T19:43:11.193Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:56.422Z"
 }

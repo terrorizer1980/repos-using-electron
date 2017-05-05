@@ -80,24 +80,19 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "gau1991",
-      "repo": "unofficial-gaana-webapp",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/gau1991/unofficial-gaana-webapp/tarball/master",
-      "clone_url": "https://github.com/gau1991/unofficial-gaana-webapp",
-      "https_url": "https://github.com/gau1991/unofficial-gaana-webapp",
-      "travis_url": "https://travis-ci.org/gau1991/unofficial-gaana-webapp",
-      "zip_url": "https://github.com/gau1991/unofficial-gaana-webapp/archive/master.zip",
-      "api_url": "https://api.github.com/repos/gau1991/unofficial-gaana-webapp"
+      "type": "git",
+      "url": "git+https://github.com/gau1991/unofficial-gaana-webapp.git"
     },
     "keywords": [
       "music",
       "gaana.com",
       "gaana"
     ],
+    "author": "gau1991",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gau1991/unofficial-gaana-webapp/issues"
+    },
     "homepage": "https://github.com/gau1991/unofficial-gaana-webapp",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -129,5 +124,6 @@
   "filename": "gau1991___unofficial-gaana-webapp.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:12:23.366Z"
+  "lastFetchedAt": "2017-05-04T05:12:23.366Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:47.151Z"
 }

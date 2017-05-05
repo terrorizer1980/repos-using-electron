@@ -78,14 +78,24 @@
     "main": "main.js",
     "scripts": {
       "start": "gulp default && electron main.js",
-      "packager": "electron-packager ./ DesktopNaotu --platform=win32 --arch=x64 --out ../OutApp --icon=favicon.ico"
+      "packwin32": "electron-packager ./ DesktopNaotu --platform=win32 --arch=ia32 --out=../OutApp --icon=favicon.ico --version=1.6.4 --ignore=\"(.git|node_modules)\" --overwrite --prune",
+      "packwin64": "electron-packager ./ DesktopNaotu --platform=win32 --arch=x64 --out=../OutApp --icon=favicon.ico --version=1.6.4 --ignore=\"(.git|node_modules)\" --overwrite --prune",
+      "packosx": "electron-packager ./ DesktopNaotu --platform=darwin --arch=x64 --out=../OutApp --icon=favicon.icns --version=1.6.4 --ignore=\"(.git|node_modules)\" --overwrite --prune",
+      "packlinux": "electron-packager ./ DesktopNaotu --platform=linux --arch=x64 --out=../OutApp --icon=favicon.icns --version=1.6.4 --ignore=\"(.git|node_modules)\" --overwrite --prune"
     },
-    "repository": "https://github.com/topcss/DesktopNaotu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/topcss/DesktopNaotu.git"
+    },
     "keywords": [
       "mind",
       "naotu"
     ],
+    "author": "'Jack' <'topcss@gmail.com'>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/topcss/DesktopNaotu/issues"
+    },
     "homepage": "https://github.com/topcss/DesktopNaotu#readme",
     "devDependencies": {
       "del": "^2.2.2",
@@ -134,5 +144,6 @@
   },
   "filename": "topcss___DesktopNaotu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:10.674Z"
+  "lastFetchedAt": "2017-05-04T15:29:10.674Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:53.262Z"
 }

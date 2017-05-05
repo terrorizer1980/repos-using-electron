@@ -75,7 +75,18 @@
     "name": "castella",
     "version": "0.0.1",
     "description": "Awesome Twitter client.",
-    "repository": "https://github.com/sokcuri/castella",
+    "author": {
+      "name": "sokcuri",
+      "email": "sokcuri@naver.com",
+      "url": "https://github.com/sokcuri"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/sokcuri/castella.git"
+    },
+    "bugs": {
+      "url": "http://github.com/sokcuri/castella/issues"
+    },
     "licenses": [
       {
         "type": "MIT",
@@ -137,5 +148,6 @@
   },
   "filename": "sokcuri___castella.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:28:01.613Z"
+  "lastFetchedAt": "2017-05-04T14:28:01.613Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:51.874Z"
 }

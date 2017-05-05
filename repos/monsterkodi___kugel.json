@@ -49,7 +49,13 @@
     "name": "kugel",
     "version": "0.0.1",
     "description": "kugel",
-    "repository": "https://github.com/monsterkodi/kugel",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/monsterkodi/kugel.git"
+    },
+    "bugs": {
+      "url": "https://github.com/monsterkodi/kugel/issues"
+    },
     "dependencies": {
       "chalk": "^1.1.0",
       "char-spinner": "^1.0.1",
@@ -142,5 +148,6 @@
   "svnUrl": "https://github.com/monsterkodi/kugel",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:56:01.628Z"
+  "lastFetchedAt": "2017-05-04T17:56:01.628Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:17.537Z"
 }

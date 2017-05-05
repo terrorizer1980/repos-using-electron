@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for boombox goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -184,5 +189,6 @@
   },
   "filename": "gossi___Boombox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:24.637Z"
+  "lastFetchedAt": "2017-05-04T18:25:24.637Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:21.587Z"
 }

@@ -186,6 +186,11 @@
     "description": "Unofficial Facebook Messenger app",
     "license": "MIT",
     "repository": "sindresorhus/caprine",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -275,5 +280,6 @@
   "svnUrl": "https://github.com/Urucas/caprine",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:06:56.174Z"
+  "lastFetchedAt": "2017-05-03T20:06:56.174Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:48.374Z"
 }

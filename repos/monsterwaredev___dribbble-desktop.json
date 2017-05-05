@@ -73,7 +73,10 @@
     "scripts": {
       "start": "utility/compile-less.bash && electron src/loader.js"
     },
-    "repository": "https://github.com/monsterwaredev/dribbble-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:monsterwaredev/dribbble-desktop.git"
+    },
     "keywords": [
       "Dribbble",
       "Desktop",
@@ -81,12 +84,16 @@
       "Node.JS",
       "Open-Source"
     ],
+    "author": "samuelngs <sam@infinitely.io>",
     "contributors": [
       {
         "name": "syn3r6y"
       }
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/monsterwaredev/dribbble-desktop/issues<Paste>"
+    },
     "homepage": "https://github.com/monsterwaredev/dribbble-desktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -140,5 +147,6 @@
   "svnUrl": "https://github.com/monsterwaredev/dribbble-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:21:47.653Z"
+  "lastFetchedAt": "2017-05-04T18:21:47.653Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:35.558Z"
 }

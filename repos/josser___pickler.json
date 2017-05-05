@@ -81,6 +81,7 @@
       "dev": "NODE_ENV=development node develop.js",
       "package": "echo \"Error: no package script \" && exit 1"
     },
+    "author": "Dmitry Chirkin <dmitry.chirkin@gmail.com>",
     "repository": "josser/pickler",
     "license": "MIT",
     "dependencies": {
@@ -155,5 +156,6 @@
   },
   "filename": "josser___pickler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:26.284Z"
+  "lastFetchedAt": "2017-05-04T20:49:26.284Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:06.054Z"
 }

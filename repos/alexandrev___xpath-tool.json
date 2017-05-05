@@ -48,10 +48,15 @@
   "packageJSON": {
     "name": "XPath-tool",
     "version": "0.0.1",
+    "author": "alexandrev",
     "description": "Simple XPath Tool.",
     "homepage": "https://github.com/alexandrev/xpath.tool/",
     "main": "browser.js",
-    "repository": "https://github.com/alexandrev/xpath.tool",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:alexandrev/xpath.tool.git"
+    },
+    "bugs": "https://github.com/alexandrev/xpath.tool/issues",
     "scripts": {
       "start": "grunt",
       "start-dev": "NODE_ENV=development grunt",
@@ -180,5 +185,6 @@
   },
   "filename": "alexandrev___xpath-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:55.889Z"
+  "lastFetchedAt": "2017-05-04T17:44:55.889Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:55.171Z"
 }

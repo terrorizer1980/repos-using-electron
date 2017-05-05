@@ -83,8 +83,15 @@
       "webpack-test": "webpack --config webpack.test.js --progress --profile --colors --display-error-details --display-cached",
       "test": "karma start"
     },
-    "repository": "https://github.com/joaogarin/firebase3-electron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/joaogarin/firebase3-electron.git"
+    },
+    "author": "joaogarin <github@joaogarin.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/joaogarin/firebase3-electron/issues"
+    },
     "homepage": "",
     "dependencies": {
       "@angular/common": "2.0.0",
@@ -170,5 +177,6 @@
   },
   "filename": "joaogarin___angularfire2-firebase3-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:55:05.935Z"
+  "lastFetchedAt": "2017-05-04T20:55:05.935Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:32.995Z"
 }

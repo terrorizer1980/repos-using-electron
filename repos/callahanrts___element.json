@@ -54,17 +54,8 @@
       "start": "electron app.js"
     },
     "repository": {
-      "user": "callahanrts",
-      "repo": "element",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/callahanrts/element/tarball/master",
-      "clone_url": "https://github.com/callahanrts/element",
-      "https_url": "https://github.com/callahanrts/element",
-      "travis_url": "https://travis-ci.org/callahanrts/element",
-      "zip_url": "https://github.com/callahanrts/element/archive/master.zip",
-      "api_url": "https://api.github.com/repos/callahanrts/element"
+      "type": "git",
+      "url": "https://github.com/callahanrts/element"
     },
     "keywords": [
       "Electron",
@@ -74,6 +65,10 @@
     ],
     "bin": {
       "element": "./bin/element"
+    },
+    "author": "CallahanRTS",
+    "bugs": {
+      "url": "https://github.com/callahanrts/element/issues"
     },
     "devDependencies": {
       "electron-reload": "^0.2.0"
@@ -139,5 +134,6 @@
   "filename": "callahanrts___element.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:51.188Z"
+  "lastFetchedAt": "2017-05-04T05:10:51.188Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:18.364Z"
 }

@@ -76,6 +76,7 @@
     "main": "./dist/template-app/bootstrap.js",
     "description": "Manage your openssh acces in local db (linvodb3)",
     "version": "0.0.2",
+    "author": "Tkachenko Igor",
     "keywords": [
       "ssh",
       "localdb",
@@ -83,6 +84,9 @@
     ],
     "repository": {
       "type": "git",
+      "url": ""
+    },
+    "bugs": {
       "url": ""
     },
     "scripts": {
@@ -138,5 +142,6 @@
   },
   "filename": "foozzi___SSHControl.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:37.263Z"
+  "lastFetchedAt": "2017-05-04T20:14:37.263Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:39.930Z"
 }

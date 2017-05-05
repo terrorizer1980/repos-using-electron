@@ -54,6 +54,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
+    "author": "adun",
     "license": "MIT",
     "dependencies": {
       "cheerio": "^0.20.0",
@@ -107,5 +108,6 @@
   "svnUrl": "https://github.com/adunStudio/dc",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:13:45.541Z"
+  "lastFetchedAt": "2017-05-04T05:13:45.541Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:34.566Z"
 }

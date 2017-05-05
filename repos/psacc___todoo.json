@@ -171,7 +171,11 @@
     "private": true,
     "version": "1.0.0",
     "description": "Todos for introverts",
+    "author": "Alessandro Arnodo <alessandro@arnodo.net> (https://alessandro.arnodo.net)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vesparny/todoo/issues"
+    },
     "homepage": "https://github.com/vesparny/todoo",
     "scripts": {
       "dev": "electron . --debug",
@@ -267,5 +271,6 @@
   "filename": "psacc___todoo.json",
   "sourceRepo": "vesparny/todoo",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:38.563Z"
+  "lastFetchedAt": "2017-05-04T21:21:38.563Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:43.019Z"
 }

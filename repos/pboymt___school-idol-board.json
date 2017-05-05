@@ -60,11 +60,21 @@
       "muse",
       "school idol"
     ],
+    "author": {
+      "name": "pboymt",
+      "email": "pboymt@foxmail.com"
+    },
     "contributors": [
       "pboymt"
     ],
     "homepage": "http://app.selflytv.com",
-    "repository": "https://github.com/pboymt/school-idol-board",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pboymt/school-idol-board.git"
+    },
+    "bugs": {
+      "email": "pboymt@foxmail.com"
+    },
     "license": "GPL-3.0",
     "main": "./main.js",
     "scripts": {
@@ -144,5 +154,6 @@
   },
   "filename": "pboymt___school-idol-board.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:08:45.779Z"
+  "lastFetchedAt": "2017-05-04T21:08:45.779Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:55.694Z"
 }

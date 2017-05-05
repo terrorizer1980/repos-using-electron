@@ -79,12 +79,19 @@
     "scripts": {
       "test": "mocha"
     },
-    "repository": "https://github.com/jibhaine/pomotodoro",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jibhaine/pomotodoro.git"
+    },
     "keywords": [
       "pomodoro",
       "electron"
     ],
+    "author": "jibhaine",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/jibhaine/pomotodoro/issues"
+    },
     "homepage": "https://github.com/jibhaine/pomotodoro#readme",
     "devDependencies": {
       "browserify": "^11.1.0",
@@ -130,5 +137,6 @@
   },
   "filename": "jibhaine___pomotodoro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:28.130Z"
+  "lastFetchedAt": "2017-05-04T05:32:28.130Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:03.803Z"
 }

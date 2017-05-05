@@ -75,7 +75,11 @@
       "package": "asar pack MacDoctor.app/Contents/Resources/app MacDoctor.app/Contents/Resources/app.asar",
       "build": "electron-packager . MacDoctor --ignore=node_modules/electron-*  && cp logo.icns MacDoctor.app/Contents/Resources/atom.icns"
     },
-    "repository": "https://github.com/fgcui1204/mac-doctor",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:fgcui1204/mac-doctor.git"
+    },
+    "author": "Fugang",
     "devDependencies": {
       "asar": "^0.6.1",
       "bootstrap": "3.3.6",
@@ -110,5 +114,6 @@
   },
   "filename": "fgcui1204___mac-doctor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:00.412Z"
+  "lastFetchedAt": "2017-05-04T05:15:00.412Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:08.923Z"
 }

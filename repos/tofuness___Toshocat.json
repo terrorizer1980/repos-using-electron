@@ -74,7 +74,11 @@
       "dist32": "build --arch ia32",
       "dist": "build"
     },
+    "author": "Dennis Jin <dennis@tofuness.com>",
     "license": "GPL-3.0",
+    "directories": {
+      "test": "test"
+    },
     "build": {
       "asar": true,
       "msi": false,
@@ -176,7 +180,13 @@
       "webpack": "^1.13.0",
       "webpack-dev-server": "^1.14.0"
     },
-    "repository": "https://github.com/tofuness/Toshocat",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tofuness/Toshocat.git"
+    },
+    "bugs": {
+      "url": "https://github.com/tofuness/Toshocat/issues"
+    },
     "homepage": "https://github.com/tofuness/Toshocat#readme"
   },
   "packageStatus": 200,
@@ -224,5 +234,6 @@
   "svnUrl": "https://github.com/tofuness/Toshocat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:28:30.466Z"
+  "lastFetchedAt": "2017-05-04T05:28:30.466Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:33.459Z"
 }

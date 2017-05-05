@@ -74,6 +74,7 @@
       "start": "electron .",
       "package": "electron-packager ./ SoundMachine --out=/Users/mmorris/Desktop/SoundMachine --overwrite --icon=./app/img/app-icon.icns"
     },
+    "author": "Mark J. Morris",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -105,5 +106,6 @@
   },
   "filename": "blurredbits___sound-machine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:57.566Z"
+  "lastFetchedAt": "2017-05-04T15:21:57.566Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:50.612Z"
 }

@@ -244,6 +244,7 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": "gaoqiankun",
     "license": "MIT",
     "devDependencies": {
       "vue": "^1.0.15",
@@ -284,7 +285,10 @@
       "webpack-hot-middleware": "^2.6.4"
     },
     "dependencies": {},
-    "repository": "https://github.com/gaoqiankun/electron-vue-webpack-boilerplate"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gaoqiankun/electron-vue-webpack-boilerplate.git"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -331,5 +335,6 @@
   "svnUrl": "https://github.com/wyrover/electron-vue-webpack-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:47:11.838Z"
+  "lastFetchedAt": "2017-05-04T19:47:11.838Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:23.658Z"
 }

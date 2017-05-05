@@ -175,18 +175,15 @@
       "node-webkit"
     ],
     "homepage": "https://github.com/plaidchat/plaidchat",
+    "bugs": "https://github.com/plaidchat/plaidchat/issues",
+    "author": {
+      "name": "Will Laurance",
+      "email": "",
+      "url": "https://github.com/wlaurance"
+    },
     "repository": {
-      "user": "plaidchat",
-      "repo": "plaidchat",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/plaidchat/plaidchat/tarball/master",
-      "clone_url": "https://github.com/plaidchat/plaidchat",
-      "https_url": "https://github.com/plaidchat/plaidchat",
-      "travis_url": "https://travis-ci.org/plaidchat/plaidchat",
-      "zip_url": "https://github.com/plaidchat/plaidchat/archive/master.zip",
-      "api_url": "https://api.github.com/repos/plaidchat/plaidchat"
+      "type": "git",
+      "url": "git://github.com/plaidchat/plaidchat"
     },
     "main": "app/views/index.html",
     "dependencies": {
@@ -296,5 +293,6 @@
   "svnUrl": "https://github.com/thomas-yuan/plaidchat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:10:02.202Z"
+  "lastFetchedAt": "2017-05-04T18:10:02.202Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:14.112Z"
 }

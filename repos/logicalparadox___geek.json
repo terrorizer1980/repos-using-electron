@@ -49,9 +49,13 @@
     "name": "geek",
     "version": "0.2.4",
     "description": "Tools for the node geek.",
+    "author": "Jake Luer <jake@alogicalparadox.com> (http://alogicalparadox.com)",
     "license": "MIT",
     "keywords": [],
-    "repository": "https://github.com/logicalparadox/geek",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:logicalparadox/geek.git"
+    },
     "engines": {
       "node": "*"
     },
@@ -119,5 +123,6 @@
   },
   "filename": "logicalparadox___geek.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:04.748Z"
+  "lastFetchedAt": "2017-05-04T15:33:04.748Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:13.081Z"
 }

@@ -67,5 +67,19 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:58:18.003Z"
+  "lastFetchedAt": "2017-05-04T17:58:18.003Z",
+  "packageJSON": {
+    "name": "tweetdeck",
+    "description": "A Tweetdeck application for all platforms!",
+    "version": "0.0.1",
+    "author": "haydenbjyoung",
+    "main": "main.js",
+    "dependencies": {
+      "electron": "^1.6.2",
+      "path": "^0.12.7",
+      "url": "^0.11.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:37:46.335Z"
 }

@@ -73,8 +73,15 @@
     "scripts": {
       "start": "node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/wilkoklak/clipper",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/wilkoklak/clipper.git"
+    },
+    "author": "Artur Boryś",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wilkoklak/clipper/issues"
+    },
     "homepage": "https://github.com/wilkoklak/clipper#readme",
     "dependencies": {
       "angular": "^1.5.8",
@@ -110,5 +117,6 @@
   },
   "filename": "wilkoklak___clipper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:42.782Z"
+  "lastFetchedAt": "2017-05-04T15:14:42.782Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:02.917Z"
 }

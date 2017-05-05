@@ -59,13 +59,20 @@
     "scripts": {
       "start": "electron main.js --dev"
     },
-    "repository": "https://github.com/stewartlord/contrast",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stewartlord/contrast.git"
+    },
     "keywords": [
       "Contrast",
       "diff",
       "electron"
     ],
+    "author": "Stewart Lord",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/stewartlord/contrast/issues"
+    },
     "homepage": "https://github.com/stewartlord/contrast#readme",
     "dependencies": {
       "jquery": "^2.2.0",
@@ -122,5 +129,6 @@
   "svnUrl": "https://github.com/stewartlord/contrast",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:26:37.975Z"
+  "lastFetchedAt": "2017-05-04T20:26:37.975Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:32.484Z"
 }

@@ -76,14 +76,21 @@
       "microphone-debug": "electron scripts/microphone-debug/main.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Smart Mirror",
       "IoT",
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "wiredep-cli": "^0.1.0",
@@ -125,5 +132,6 @@
   },
   "filename": "Kevogich___IoT.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:35:19.555Z"
+  "lastFetchedAt": "2017-05-04T15:35:19.555Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:00.645Z"
 }

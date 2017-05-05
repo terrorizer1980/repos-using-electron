@@ -56,7 +56,15 @@
     "version": "1.0.0",
     "description": "An Electron application that visualizes disk space with D3 treemap and pie chart layouts.",
     "license": "MIT",
-    "repository": "https://github.com/UsabilityEtc/d3-space-filler-explorer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/UsabilityEtc/d3-space-filler-explorer.git"
+    },
+    "author": {
+      "name": "Jeffrey Morgan",
+      "email": "usabilityetc@gmail.com",
+      "url": "http://usabilityetc.com"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron .",
@@ -131,5 +139,6 @@
   },
   "filename": "UsabilityEtc___d3-space-filler-explorer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:06.192Z"
+  "lastFetchedAt": "2017-05-04T14:54:06.192Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:13.256Z"
 }

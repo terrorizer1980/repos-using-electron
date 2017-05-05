@@ -184,6 +184,10 @@
     "version": "0.0.0",
     "description": "Applications monitoring",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "dev": "nf start",
@@ -194,6 +198,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "bower": "^1.4.1",
@@ -264,5 +269,6 @@
   "svnUrl": "https://github.com/calderalabs/lizard",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:12:21.453Z"
+  "lastFetchedAt": "2017-05-04T05:12:21.453Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:34.946Z"
 }

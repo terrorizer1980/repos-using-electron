@@ -59,11 +59,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/gbaptista/arduino-monitor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gbaptista/arduino-monitor.git"
+    },
     "keywords": [
       "arduino"
     ],
+    "author": "Guilherme Baptista",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "http://gbaptista.com.br"
+    },
     "homepage": "http://gbaptista.com.br",
     "devDependencies": {
       "electron-packager": "^6.0.2",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/gbaptista/arduino-monitor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T06:01:44.492Z"
+  "lastFetchedAt": "2017-05-04T06:01:44.492Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:35.776Z"
 }

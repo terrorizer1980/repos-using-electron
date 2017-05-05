@@ -56,10 +56,17 @@
     "productName": "toxApp",
     "version": "0.0.23",
     "description": "Electronized sample application based on AngularJS (frontend) and some more ...",
+    "author": "Enrico Hoffmann <dasrick@gmail.com>",
     "license": "MIT",
     "main": "main.js",
     "homepage": "https://github.com/dasrick/tox-electron-sample#readme",
-    "repository": "https://github.com/dasrick/tox-electron-sample",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dasrick/tox-electron-sample.git"
+    },
+    "bugs": {
+      "url": "https://github.com/dasrick/tox-electron-sample/issues"
+    },
     "electron-version": "0.37.2",
     "devDependencies": {
       "angular": "^1.5.1",
@@ -155,5 +162,6 @@
   },
   "filename": "dasrick___tox-electron-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:49.134Z"
+  "lastFetchedAt": "2017-05-04T20:13:49.134Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:24.381Z"
 }

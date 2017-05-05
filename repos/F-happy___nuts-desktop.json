@@ -68,7 +68,7 @@
   "packageJSON": {
     "name": "nuts-desktop",
     "productName": "fdFlow",
-    "version": "1.0.0-beta3",
+    "version": "1.0.0-beta5",
     "description": "nuts desktop",
     "main": "main.js",
     "scripts": {
@@ -80,7 +80,10 @@
       "build:win64": "rm -rf dist && electron-packager ./ fdFlow --platform=win32 --arch=x64 --icon=./assets/img/fd.png --overwrite --out ./dist --version=1.4.5 --ignore=.github",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/F-happy/nuts-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/F-happy/nuts-desktop.git"
+    },
     "build": {
       "appId": "com.jonnyf.fdflow",
       "mac": {
@@ -106,27 +109,29 @@
       "workflow",
       "scss"
     ],
+    "author": "jonnyf",
     "license": "MIT",
     "devDependencies": {
-      "electron": "^1.4.5",
-      "electron-builder": "^7.18.0",
-      "electron-packager": "^8.2.0",
-      "electron-prebuilt": "^1.4.5"
+      "electron": "^1.4.15",
+      "electron-builder": "^14.1.1",
+      "electron-packager": "^8.5.2",
+      "electron-prebuilt": "^1.4.13"
     },
     "dependencies": {
-      "babel-core": "^6.18.2",
-      "babel-loader": "^6.2.7",
-      "babel-preset-es2015": "^6.18.0",
+      "babel-core": "^6.23.1",
+      "babel-loader": "^6.3.2",
+      "babel-preset-es2015": "^6.22.0",
       "gulp": "github:gulpjs/gulp#4.0",
       "gulp-connect": "^5.0.0",
       "gulp-plumber": "^1.1.0",
       "gulp-replace-pro": "^1.0.1",
-      "gulp-sass": "^2.3.2",
-      "node-json-file": "^1.0.0",
-      "nuts-scss": "^1.2.0",
-      "through2": "^2.0.1",
+      "gulp-sass": "^3.1.0",
       "node-fetch": "^1.6.3",
-      "vue": "^2.0.0",
+      "node-json-file": "^1.1.0",
+      "nuts-scss": "^1.5.0",
+      "through2": "^2.0.3",
+      "vue": "^2.1.10",
+      "webpack": "^2.2.1",
       "webpack-stream": "^3.2.0"
     }
   },
@@ -155,5 +160,6 @@
   },
   "filename": "F-happy___nuts-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:16.823Z"
+  "lastFetchedAt": "2017-05-04T16:42:16.823Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:42.079Z"
 }

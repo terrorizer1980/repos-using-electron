@@ -95,13 +95,20 @@
       "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer",
       "release": "node ./script/release.js"
     },
-    "repository": "https://github.com/Maqsim/stackoverflow-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Maqsim/stackoverflow-app.git"
+    },
     "keywords": [
       "Stackoverflow",
       "Desktop",
       "App"
     ],
+    "author": "Max Diachenko",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Maqsim/stackoverflow-app/issues"
+    },
     "homepage": "https://github.com/Maqsim/stackoverflow-app#readme",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -163,5 +170,6 @@
   },
   "filename": "Maqsim___stackoverflow-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:03.351Z"
+  "lastFetchedAt": "2017-05-04T21:06:03.351Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:42.079Z"
 }

@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/byrondover/elementary-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/byrondover/elementary-electron.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/byrondover/elementary-electron/issues"
+    },
     "homepage": "https://github.com/byrondover/elementary-electron#readme",
     "dependencies": {
       "cat-picture": "^5.1.2",
@@ -107,5 +114,6 @@
   },
   "filename": "byrondover___elementary-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:50:54.741Z"
+  "lastFetchedAt": "2017-05-04T17:50:54.741Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:06.239Z"
 }

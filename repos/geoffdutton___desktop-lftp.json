@@ -132,11 +132,26 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/geoffdutton/desktop-lftp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/geoffdutton/desktop-lftp.git"
+    },
+    "author": {
+      "name": "Geoff Dutton",
+      "email": "g.dutton@gmail.com",
+      "url": "https://github.com/geoffdutton"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/geoffdutton/desktop-lftp/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -255,5 +270,6 @@
   },
   "filename": "geoffdutton___desktop-lftp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:49.719Z"
+  "lastFetchedAt": "2017-05-04T21:22:49.719Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:03.425Z"
 }

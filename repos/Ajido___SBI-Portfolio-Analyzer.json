@@ -80,6 +80,10 @@
       "archive:osx": "npm run build:osx && cd dist && zip -r SBI-Portfolio-Analyzer-darwin-x64.zip SBI-Portfolio-Analyzer-darwin-x64",
       "archive:win": "npm run build:win && cd dist && zip -r SBI-Portfolio-Analyzer-win32-x64.zip SBI-Portfolio-Analyzer-win32-x64",
       "archive": "npm run archive:osx && npm run archive:win"
+    },
+    "dependencies": {
+      "commander": "^2.9.0",
+      "iconv-lite": "^0.4.15"
     }
   },
   "packageStatus": 200,
@@ -107,5 +111,6 @@
   },
   "filename": "Ajido___SBI-Portfolio-Analyzer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:27:47.410Z"
+  "lastFetchedAt": "2017-05-04T15:27:47.410Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:23.458Z"
 }

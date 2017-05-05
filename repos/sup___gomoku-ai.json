@@ -53,14 +53,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/charleslai/gomoku-ai",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/charleslai/gomoku-ai.git"
+    },
     "keywords": [
       "gomoku",
       "ai",
       "minimax",
       "pruning"
     ],
+    "author": "charleslai",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/charleslai/gomoku-ai/issues"
+    },
     "homepage": "https://github.com/charleslai/gomoku-ai#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -111,5 +118,6 @@
   },
   "filename": "sup___gomoku-ai.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:52:14.285Z"
+  "lastFetchedAt": "2017-05-04T17:52:14.285Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:58.712Z"
 }

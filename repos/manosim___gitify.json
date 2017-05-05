@@ -69,7 +69,10 @@
       "test": "npm run lint-js && npm run lint-sass && npm run coverage",
       "start": "electron . –enable-logging"
     },
-    "repository": "https://github.com/manosim/gitify",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/manosim/gitify.git"
+    },
     "keywords": [
       "gitify",
       "github",
@@ -81,6 +84,7 @@
       "app",
       "tray"
     ],
+    "author": "Emmanouil Konstantinidis",
     "contributors": [
       {
         "name": "Emmanouil Konstantinidis",
@@ -92,6 +96,9 @@
       }
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/manosim/gitify/issues"
+    },
     "homepage": "http://www.gitify.io/",
     "dependencies": {
       "auto-launch": "=4.0.0",
@@ -199,5 +206,6 @@
   "svnUrl": "https://github.com/manosim/gitify",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:11:12.389Z"
+  "lastFetchedAt": "2017-05-04T21:11:12.389Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:08.173Z"
 }

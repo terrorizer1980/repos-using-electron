@@ -53,70 +53,71 @@
   "status": 200,
   "packageJSON": {
     "name": "redmine-notifier",
-    "version": "0.7.1",
+    "version": "0.8.0",
     "scripts": {
       "start": "electron ./app/main.js",
-      "prepare": "./bin/prepare.sh",
-      "lint": "npm run lint:js && npm run lint:css && npm run lint:text",
+      "clean": "./bin/clean.sh",
+      "postinstall": "install-app-deps",
+      "lint": "yarn run lint:js && yarn run lint:css && yarn run lint:text",
       "lint:js": "./bin/lint-js.sh",
       "lint:css": "./bin/lint-css.sh",
       "lint:text": "./bin/lint-text.sh",
-      "build": "npm run build:mac && npm run build:win",
-      "build:mac": "./bin/build-mac.sh",
-      "build:win": "./bin/build-win.sh",
-      "pack": "npm run pack:mac && npm run pack:win",
+      "pack": "./bin/pack-all.sh",
       "pack:mac": "./bin/pack-mac.sh",
       "pack:win": "./bin/pack-win.sh",
       "test": "./bin/test.sh",
-      "release": "npm run prepare && npm run pack"
-    },
-    "dependencies": {
-      "node-notifier": "^4.6.1",
-      "notie": "3.9.4"
+      "release": "yarn run clean && yarn install && yarn run pack"
     },
     "devDependencies": {
-      "chai": "^3.5.0",
-      "chai-as-promised": "^6.0.0",
-      "csslint": "^1.0.2",
-      "electron-builder": "~7.0.0",
-      "electron-prebuilt": "1.4.1",
-      "eslint": "^3.8.0",
-      "mocha": "^3.1.0",
-      "spectron": "~3.4.0",
-      "textlint": "^7.1.2",
-      "textlint-rule-write-good": "^0.1.4"
+      "ava": "~0.19.1",
+      "electron": "1.6.6",
+      "electron-builder": "17.1.1",
+      "electron-builder-squirrel-windows": "17.0.1",
+      "spectron": "~3.6.0",
+      "stylelint": "~7.10.1",
+      "stylelint-config-standard": "~16.0.0",
+      "textlint": "^7.4.0",
+      "textlint-rule-write-good": "^1.6.0",
+      "xo": "~0.18.1"
     },
     "build": {
-      "appId": "redmine-notifier",
-      "category": "public.app-category.productivity",
-      "asar": {
-        "unpack": "**/app/{node_modules/node-notifier/vendor,images}/**"
-      },
-      "files": [
-        "**/*",
-        "!**/npm-debug\\.log",
-        "!etc"
-      ],
-      "copyright": "Copyright (c) 2015-2016 emsk",
+      "appId": "com.emsk.redmine-notifier",
+      "asarUnpack": "{custom,images}/**/*",
+      "copyright": "Copyright (c) 2015-2017 emsk",
       "mac": {
-        "target": "dmg"
+        "category": "public.app-category.productivity",
+        "target": [
+          "dmg"
+        ]
       },
       "dmg": {
-        "icon-size": 120,
+        "iconSize": 120,
         "contents": [
+          {
+            "x": 130,
+            "y": 300,
+            "type": "file"
+          },
           {
             "x": 370,
             "y": 300,
             "type": "link",
             "path": "/Applications"
-          },
-          {
-            "x": 130,
-            "y": 300,
-            "type": "file"
           }
         ]
+      },
+      "win": {
+        "target": [
+          "squirrel"
+        ]
       }
+    },
+    "xo": {
+      "envs": [
+        "browser",
+        "node"
+      ],
+      "space": true
     }
   },
   "packageStatus": 200,
@@ -164,5 +165,6 @@
   },
   "filename": "emsk___redmine-notifier.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:54.230Z"
+  "lastFetchedAt": "2017-05-04T20:01:54.230Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:22.369Z"
 }

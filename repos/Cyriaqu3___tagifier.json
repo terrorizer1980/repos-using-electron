@@ -57,14 +57,21 @@
       "repo": "/CYRIAQU3/tagifier",
       "branch": "master"
     },
-    "repository": "https://github.com/CYRIAQU3/tagifier",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CYRIAQU3/tagifier.git"
+    },
     "keywords": [
       "tagifier",
       "mp3",
       "metadata",
       "tag"
     ],
+    "author": "Cyriaque DELAUNAY",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/CYRIAQU3/tagifier/issues"
+    },
     "homepage": "https://github.com/CYRIAQU3/tagifier#readme",
     "dependencies": {
       "asar": "^0.12.3",
@@ -138,5 +145,6 @@
   "svnUrl": "https://github.com/Cyriaqu3/Tagifier",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:01:30.508Z"
+  "lastFetchedAt": "2017-05-04T21:01:30.508Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:05.408Z"
 }

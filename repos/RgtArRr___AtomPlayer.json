@@ -74,7 +74,7 @@
   "packageJSON": {
     "name": "AtomPlayer",
     "description": "Reproductor de musica, descarga mp3 de youtube",
-    "version": "0.2.4",
+    "version": "0.2.6",
     "main": "main.js",
     "license": "Apache-2.0",
     "scripts": {
@@ -87,7 +87,10 @@
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
     },
-    "repository": "https://github.com/RgtArRr/AtomPlayer"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RgtArRr/AtomPlayer.git"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -115,5 +118,6 @@
   "filename": "RgtArRr___AtomPlayer.json",
   "sourceRepo": "RgtArRr/kPlayer",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:35:41.623Z"
+  "lastFetchedAt": "2017-05-04T15:35:41.623Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:50.214Z"
 }

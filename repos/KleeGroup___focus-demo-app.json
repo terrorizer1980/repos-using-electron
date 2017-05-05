@@ -66,11 +66,15 @@
   "subscribersCount": 20,
   "status": 200,
   "packageJSON": {
+    "author": "focus@kleegroup.com",
     "name": "focus-demo-app",
     "description": "Focus demonstration application",
     "version": "0.17.0",
     "homepage": "https://github.com/KleeGroup/focus-demo-app",
-    "repository": "https://github.com/KleeGroup/focus-demo-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/KleeGroup/focus-demo-app.git"
+    },
     "engines": {
       "node": "0.4.x",
       "npm": "2.14.x"
@@ -82,6 +86,7 @@
       "start": "npm run start:npm",
       "start:local": "better-npm-run webpack-dev-server-local-focus",
       "start:npm": "better-npm-run webpack-dev-server-npm-focus",
+      "start:api": "better-npm-run api-server",
       "watch": "better-npm-run watch",
       "mocked-api": "node api/index.js",
       "profile": "better-npm-run profile",
@@ -160,6 +165,17 @@
           "BASE_URL": "/"
         }
       },
+      "api-server": {
+        "command": "node ./api.js",
+        "env": {
+          "ENTRY_FILE_PATH": "./app/index",
+          "PACKAGE_JSON_PATH": "../",
+          "PAGE_TITLE": "Focus comments dev page",
+          "MINIMIFY": false,
+          "API_PORT": 9999,
+          "REDUX_DEBUG": true
+        }
+      },
       "webpack-dev-server-npm-focus": {
         "command": "node ./dev-server.js",
         "env": {
@@ -179,8 +195,9 @@
     },
     "license": "MIT",
     "dependencies": {
-      "focus-core": "0.17.0-beta0",
-      "focus-components": "0.17.0-beta1",
+      "focus-comments": "^0.3.7",
+      "focus-components": "^2.1.1",
+      "focus-core": "^2.1.1",
       "focus-devtools": "^0.3.5",
       "focus-notifications": "^0.2.0-rc6",
       "immutable": "^3.7.2",
@@ -214,6 +231,7 @@
       "exports-loader": "^0.6.2",
       "express": "^4.13.3",
       "extract-text-webpack-plugin": "^1.0.1",
+      "faker": "^3.1.0",
       "font-awesome": "^4.5.0",
       "json-loader": "^0.5.3",
       "material-design-icons-iconfont": "^2.0.4",
@@ -273,5 +291,6 @@
   "svnUrl": "https://github.com/KleeGroup/focus-demo-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:42:15.266Z"
+  "lastFetchedAt": "2017-05-04T20:42:15.266Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:52.113Z"
 }

@@ -86,14 +86,21 @@
       "zipWin32": "zip -qry build/Slite-win32-ia32.zip Slite-win32-ia32",
       "buildAll": "npm run packageMac; npm run packageWin; npm run zipWin; npm run packageWin32; npm run zipWin32"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^7.0.0",
@@ -128,5 +135,6 @@
   },
   "filename": "ukiuni___SliteDesktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:39.492Z"
+  "lastFetchedAt": "2017-05-04T05:28:39.492Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:04.908Z"
 }

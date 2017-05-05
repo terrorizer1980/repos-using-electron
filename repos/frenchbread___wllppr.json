@@ -88,13 +88,20 @@
       "start": "electron .",
       "build": "electron-packager . wllppr --platform=darwin --arch=x64 --version=0.32.3 --ignore=node_modules/electron-*"
     },
-    "repository": "https://github.com/frenchbread/wllppr",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/frenchbread/wllppr.git"
+    },
     "keywords": [
       "wllppr",
       "desktop",
       "wallpaper"
     ],
+    "author": "Damir Mustafin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/frenchbread/wllppr/issues"
+    },
     "homepage": "https://github.com/frenchbread/wllppr#readme",
     "devDependencies": {
       "electron-packager": "^5.1.0",
@@ -126,5 +133,6 @@
   },
   "filename": "frenchbread___wllppr.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:08.097Z"
+  "lastFetchedAt": "2017-05-04T20:14:08.097Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:34.566Z"
 }

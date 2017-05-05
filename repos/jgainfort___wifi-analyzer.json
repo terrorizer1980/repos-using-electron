@@ -79,9 +79,16 @@
       "typings-install": "typings install",
       "electron": "electron ."
     },
-    "repository": "https://github.com/jgainfort/wifi-analyzer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jgainfort/wifi-analyzer.git"
+    },
+    "author": "John G. Gainfort, Jr. <gainfortj@gmail.com>",
     "license": "MIT",
     "private": true,
+    "bugs": {
+      "url": "https://github.com/jgainfort/wifi-analyzer/issues"
+    },
     "homepage": "https://github.com/jgainfort/wifi-analyzer#readme",
     "dependencies": {
       "@angular/common": "2.0.0",
@@ -155,5 +162,6 @@
   },
   "filename": "jgainfort___wifi-analyzer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:58.897Z"
+  "lastFetchedAt": "2017-05-04T14:20:58.897Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:16.221Z"
 }

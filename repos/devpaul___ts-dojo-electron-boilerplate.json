@@ -77,7 +77,13 @@
     "description": "Electron in TypeScript with Dojo",
     "license": "MPL-2.0",
     "main": "boot/node.js",
-    "repository": "https://github.com/devpaul/ts-dojo-electron-boilerplate",
+    "bugs": {
+      "url": "https://github.com/devpaul/ts-dojo-electron-boilerplate/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/devpaul/ts-dojo-electron-boilerplate.git"
+    },
     "scripts": {
       "start": "electron . | bunyan -o short",
       "test": "electron . config=_build/tests/intern"
@@ -138,5 +144,6 @@
   },
   "filename": "devpaul___ts-dojo-electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:03.780Z"
+  "lastFetchedAt": "2017-05-04T05:23:03.780Z",
+  "packageLastFetchedAt": "2017-05-05T06:34:57.977Z"
 }

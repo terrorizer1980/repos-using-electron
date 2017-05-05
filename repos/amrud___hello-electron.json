@@ -74,7 +74,10 @@
       "start": "electron .",
       "test": "nothing"
     },
-    "repository": "https://github.com/amrud/hello-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/amrud/hello-electron.git"
+    },
     "keywords": [
       "Hello",
       "World",
@@ -82,7 +85,11 @@
       "Hello",
       "Electron"
     ],
+    "author": "Ammar <maa.amrud@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amrud/hello-electron/issues"
+    },
     "homepage": "https://github.com/amrud/hello-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5"
@@ -113,5 +120,6 @@
   },
   "filename": "amrud___hello-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:40:53.068Z"
+  "lastFetchedAt": "2017-05-04T20:40:53.068Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:53.283Z"
 }

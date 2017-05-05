@@ -83,12 +83,19 @@
       "test": "elm test",
       "clean": "rm -rf elm-stuff && rm -rf tests/elm-stuff"
     },
-    "repository": "https://github.com/connorlay/magical-cards",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/connorlay/magical-cards.git"
+    },
     "keywords": [
       "mtg",
       "electron"
     ],
+    "author": "Connor Lay, Maggie Dreyer",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/connorlay/magical-cards/issues"
+    },
     "homepage": "https://github.com/connorlay/magical-cards#readme"
   },
   "packageStatus": 200,
@@ -115,5 +122,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:03.296Z"
+  "lastFetchedAt": "2017-05-04T21:19:03.296Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:53.111Z"
 }

@@ -73,7 +73,14 @@
     "scripts": {
       "start": "electron static/js/main.min.js"
     },
-    "repository": "https://github.com/smeeckaert/pasty",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/smeeckaert/pasty"
+    },
+    "author": "Martin Smeeckaert",
+    "bugs": {
+      "url": "https://github.com/smeeckaert/pasty/issues"
+    },
     "homepage": "https://github.com/smeeckaert/pasty#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0",
@@ -113,5 +120,6 @@
   },
   "filename": "smeeckaert___pasty.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:33:24.920Z"
+  "lastFetchedAt": "2017-05-04T20:33:24.920Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:48.085Z"
 }

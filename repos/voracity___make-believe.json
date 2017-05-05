@@ -79,12 +79,16 @@
     "scripts": {
       "start": "make-believe main.js"
     },
-    "repository": "https://github.com/voracity/make-believe",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/voracity/make-believe.git"
+    },
     "keywords": [
       "bayesian networks",
       "belief networks",
       "modelling"
     ],
+    "author": "voracity",
     "license": "MIT",
     "homepage": "http://voracity.org/make-believe/",
     "devDependencies": {
@@ -116,5 +120,6 @@
   },
   "filename": "voracity___make-believe.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:45.059Z"
+  "lastFetchedAt": "2017-05-04T17:42:45.059Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:43.546Z"
 }

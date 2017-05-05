@@ -78,7 +78,10 @@
     "version": "0.0.1",
     "publisher": "DryWolf",
     "homepage": "https://github.com/drywolf/code-solution-manager/blob/master/README.md",
-    "repository": "https://github.com/drywolf/code-solution-manager",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/drywolf/code-solution-manager.git"
+    },
     "engines": {
       "vscode": "^0.10.6"
     },
@@ -132,5 +135,6 @@
   },
   "filename": "drywolf___code-solution-manager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:19:59.397Z"
+  "lastFetchedAt": "2017-05-04T21:19:59.397Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:20.083Z"
 }

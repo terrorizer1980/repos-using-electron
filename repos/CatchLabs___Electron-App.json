@@ -91,7 +91,17 @@
       "start": "electron .",
       "build": "build --linux --win --x64 --ia32"
     },
-    "repository": "https://github.com/CatchLabs/Electron-App",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CatchLabs/Electron-App.git"
+    },
+    "author": {
+      "name": "CatchLabs",
+      "email": "info@entropy.cool"
+    },
+    "bugs": {
+      "url": "https://github.com/CatchLabs/Electron-App/issues"
+    },
     "homepage": "https://github.com/CatchLabs/Electron-App#readme",
     "dependencies": {
       "electron-json-storage": "^2.0.0"
@@ -127,5 +137,6 @@
   },
   "filename": "CatchLabs___Electron-App.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:29.911Z"
+  "lastFetchedAt": "2017-05-04T05:16:29.911Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:06.332Z"
 }

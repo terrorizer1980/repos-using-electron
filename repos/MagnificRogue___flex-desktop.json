@@ -79,6 +79,11 @@
     "description": "My smashing app",
     "license": "MIT",
     "repository": "MagnificRogue/flex-desktop",
+    "author": {
+      "name": "Dustyn Tubbs",
+      "email": "DustynTubbs@Gmail.com",
+      "url": "dustyntubbs.me"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -134,5 +139,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:12.766Z"
+  "lastFetchedAt": "2017-05-04T20:39:12.766Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:04.035Z"
 }

@@ -88,8 +88,15 @@
       "gulp": "gulp",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/yuown/yuMail",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yuown/yuMail.git"
+    },
+    "author": "K3n",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/yuown/yuMail/issues"
+    },
     "homepage": "https://github.com/yuown/yuMail",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -143,5 +150,6 @@
   },
   "filename": "yuown___yuMail-ui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:05.627Z"
+  "lastFetchedAt": "2017-05-04T17:56:05.627Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:40.511Z"
 }

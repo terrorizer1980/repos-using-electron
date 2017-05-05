@@ -56,6 +56,9 @@
     "version": "0.0.1",
     "description": "An electron application to broadcast Kinect2 data over a peer connection",
     "main": "main.js",
+    "directories": {
+      "example": "examples"
+    },
     "dependencies": {
       "kinect2": "^0.1.4",
       "minimist": "^1.2.0",
@@ -71,12 +74,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/lisajamhoury/kinectron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lisajamhoury/kinectron.git"
+    },
     "keywords": [
       "kinect2",
       "peer"
     ],
-    "license": "",
+    "author": "Lisa Jamhoury <lisa.jamhoury@nyu.edu>, Shawn Van Every <Shawn.Van.Every@nyu.edu>",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lisajamhoury/kinectron/issues"
+    },
     "homepage": "https://github.com/lisajamhoury/kinectron#readme"
   },
   "packageStatus": 200,
@@ -124,5 +134,6 @@
   "svnUrl": "https://github.com/vanevery/kinectron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:33:02.915Z"
+  "lastFetchedAt": "2017-05-04T20:33:02.915Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:54.611Z"
 }

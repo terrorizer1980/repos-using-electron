@@ -73,5 +73,46 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:52:50.153Z"
+  "lastFetchedAt": "2017-05-04T20:52:50.153Z",
+  "packageJSON": {
+    "name": "executive",
+    "version": "1.0.0",
+    "description": "GUI for PSExec",
+    "main": "main.js",
+    "scripts": {
+      "build": "./node_modules/.bin/eslint src/** && SET NODE_ENV=production && browserify src/index.js -o bundle.js -t babelify",
+      "watch": "watchify src/index.js -o bundle.js -t babelify -v",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pocketofweird/executive.git"
+    },
+    "author": "Nathan Hartzler",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pocketofweird/executive/issues"
+    },
+    "homepage": "https://github.com/pocketofweird/executive#readme",
+    "devDependencies": {
+      "babel-plugin-transform-object-rest-spread": "^6.22.0",
+      "babel-polyfill": "^6.22.0",
+      "babel-preset-es2015": "^6.22.0",
+      "babel-preset-react": "^6.22.0",
+      "babel-preset-stage-2": "^6.22.0",
+      "babelify": "^7.3.0",
+      "browserify": "^14.0.0",
+      "eslint": "^3.14.1",
+      "eslint-plugin-react": "^6.9.0",
+      "react": "^15.4.2",
+      "react-dom": "^15.4.2",
+      "react-redux": "^5.0.2",
+      "redux": "^3.6.0",
+      "redux-logger": "^2.7.4",
+      "redux-thunk": "^2.2.0",
+      "watchify": "^3.9.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:48:57.294Z"
 }

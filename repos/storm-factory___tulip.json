@@ -73,23 +73,31 @@
   "status": 200,
   "packageJSON": {
     "name": "tulip",
-    "version": "1.0.3",
+    "version": "1.8.2",
     "description": "A application for creating rally fun times",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/storm-factory/tulip",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/storm-factory/tulip.git"
+    },
     "keywords": [
       "Electron",
       "roadbook",
       "rally",
       "tulip"
     ],
+    "author": "Drew Mitchell",
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/storm-factory/tulip/issues"
+    },
     "homepage": "https://github.com/storm-factory/tulip",
     "devDependencies": {
-      "electron-prebuilt": "^1.2.0"
+      "electron-prebuilt": "^1.2.0",
+      "tape": "^4.6.3"
     }
   },
   "packageStatus": 200,
@@ -117,5 +125,6 @@
   },
   "filename": "storm-factory___tulip.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:44.015Z"
+  "lastFetchedAt": "2017-05-04T14:21:44.015Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:29.683Z"
 }

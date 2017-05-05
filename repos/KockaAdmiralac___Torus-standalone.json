@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/KockaAdmiralac/Torus-standalone",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/KockaAdmiralac/Torus-standalone.git"
+    },
     "keywords": [
       "Torus",
       "standalone",
       "Wikia",
       "chat"
     ],
+    "author": "KockaAdmiralac",
     "license": "CC-BY-SA",
+    "bugs": {
+      "url": "https://github.com/KockaAdmiralac/Torus-standalone/issues"
+    },
     "homepage": "https://github.com/KockaAdmiralac/Torus-standalone",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/KockaAdmiralac/Torus-standalone",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:41:54.085Z"
+  "lastFetchedAt": "2017-05-04T19:41:54.085Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:55.635Z"
 }

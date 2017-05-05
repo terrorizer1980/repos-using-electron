@@ -74,7 +74,11 @@
   "packageJSON": {
     "name": "stitch-flex",
     "description": "Demonstrates flexible stitching for an incoming array of cameras.",
-    "repository": "https://github.com/LukeJFernandez/stitch-flex",
+    "author": "Luke Fernandez <lukejohnfernandez@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/LukeJFernandez/stitch-flex.git"
+    },
     "license": "MIT",
     "version": "0.1.0",
     "main": "main.js",
@@ -109,5 +113,6 @@
   },
   "filename": "LukeJFernandez___stitch-flex.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:18:45.803Z"
+  "lastFetchedAt": "2017-05-04T20:18:45.803Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:09.154Z"
 }

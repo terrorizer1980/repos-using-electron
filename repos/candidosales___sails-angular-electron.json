@@ -59,6 +59,11 @@
     "description": "Basic cross platform desktop application built with SailsJS, AngularJS and Electron",
     "main": "./app/main.js",
     "license": "MIT",
+    "author": {
+      "name": "Candido Sales Gomes",
+      "email": "candidosales@email.com",
+      "url": "candidosalesg.wordpress.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -71,7 +76,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "grunt build"
     },
-    "repository": "https://github.com/candidosales/sails-angular-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/candidosales/sails-angular-electron.git"
+    },
     "keywords": [
       "SailsJS",
       "AngularJS",
@@ -79,6 +87,9 @@
       "Rest API",
       "UI"
     ],
+    "bugs": {
+      "url": "https://github.com/candidosales/sails-angular-electron/issues"
+    },
     "homepage": "https://github.com/candidosales/sails-angular-electron#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -174,5 +185,6 @@
   "svnUrl": "https://github.com/candidosales/sails-angular-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:21:02.559Z"
+  "lastFetchedAt": "2017-05-04T05:21:02.559Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:11.367Z"
 }

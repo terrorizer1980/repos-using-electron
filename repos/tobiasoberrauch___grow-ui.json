@@ -52,7 +52,9 @@
     "appBundleId": "ag.tob.grow",
     "helperBundleId": "ag.tob.grow.helper",
     "description": "An app made with Electron that scaffolds projects using Yeoman",
+    "author": "The Grow Team",
     "main": "module/Browser/src/main.js",
+    "bugs": "https://github.com/tobiasoberrauch/grow-ui/issues",
     "dependencies": {
       "async": "^1.2.1",
       "auto-launch": "^3.0.0",
@@ -129,17 +131,8 @@
     },
     "license": "MIT",
     "repository": {
-      "user": "tobiasoberrauch",
-      "repo": "grow-ui",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/tobiasoberrauch/grow-ui/tarball/master",
-      "clone_url": "https://github.com/tobiasoberrauch/grow-ui",
-      "https_url": "https://github.com/tobiasoberrauch/grow-ui",
-      "travis_url": "https://travis-ci.org/tobiasoberrauch/grow-ui",
-      "zip_url": "https://github.com/tobiasoberrauch/grow-ui/archive/master.zip",
-      "api_url": "https://api.github.com/repos/tobiasoberrauch/grow-ui"
+      "type": "git",
+      "url": "https://github.com/tobiasoberrauch/grow-ui"
     }
   },
   "packageStatus": 200,
@@ -188,5 +181,6 @@
   "svnUrl": "https://github.com/tobiasoberrauch/grow-ui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:37:21.498Z"
+  "lastFetchedAt": "2017-05-04T20:37:21.498Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:38.226Z"
 }

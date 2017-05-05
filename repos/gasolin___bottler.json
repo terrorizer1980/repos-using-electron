@@ -81,23 +81,18 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "gasolin",
-      "repo": "expretron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/gasolin/expretron/tarball/master",
-      "clone_url": "https://github.com/gasolin/expretron",
-      "https_url": "https://github.com/gasolin/expretron",
-      "travis_url": "https://travis-ci.org/gasolin/expretron",
-      "zip_url": "https://github.com/gasolin/expretron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/gasolin/expretron"
+      "type": "git",
+      "url": "git+https://github.com/gasolin/expretron.git"
     },
     "keywords": [
       "electron",
       "express"
     ],
+    "author": "Fred Lin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gasolin/expretron/issues"
+    },
     "homepage": "https://github.com/gasolin/expretron#readme",
     "devDependencies": {
       "electron-builder": "^3.23.0",
@@ -161,5 +156,6 @@
   "svnUrl": "https://github.com/gasolin/bottler",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:34:39.840Z"
+  "lastFetchedAt": "2017-05-04T17:34:39.840Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:42.040Z"
 }

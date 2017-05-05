@@ -77,8 +77,24 @@
     "version": "0.1.0",
     "description": "Cyber straight into your ears.",
     "license": "MIT",
+    "author": [
+      {
+        "name": "bluemaex",
+        "url": "https://github.com/bluemaex"
+      },
+      {
+        "name": "wiedi",
+        "url": "https://github.com/wiedi"
+      }
+    ],
     "homepage": "https://github.com/bluemaex/cyberschall#readme",
-    "repository": "https://github.com/bluemaex/cyberschall",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bluemaex/cyberschall.git"
+    },
+    "bugs": {
+      "url": "https://github.com/blumeaex/cyberschall/issues"
+    },
     "keywords": [
       "electron",
       "cyber",
@@ -208,5 +224,6 @@
   },
   "filename": "bluemaex___cyberschall.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:23.965Z"
+  "lastFetchedAt": "2017-05-04T15:33:23.965Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:04.900Z"
 }

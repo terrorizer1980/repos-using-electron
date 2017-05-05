@@ -69,7 +69,10 @@
     "name": "box2d-native",
     "version": "0.0.8",
     "description": "Box2D as native addon",
-    "repository": "https://github.com/zuker/box2d-native",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zuker/box2d-native"
+    },
     "main": "Box2D.js",
     "engines": {
       "node": ">=4.2.1"
@@ -143,5 +146,6 @@
   },
   "filename": "zuker___box2d-native.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:47.098Z"
+  "lastFetchedAt": "2017-05-04T21:18:47.098Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:26.462Z"
 }

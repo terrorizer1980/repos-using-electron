@@ -172,21 +172,15 @@
     "description": "A menu to read Hacker News",
     "main": "./dist/index.js",
     "repository": {
-      "user": "jingweno",
-      "repo": "hacker-menu",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jingweno/hacker-menu/tarball/master",
-      "clone_url": "https://github.com/jingweno/hacker-menu",
-      "https_url": "https://github.com/jingweno/hacker-menu",
-      "travis_url": "https://travis-ci.org/jingweno/hacker-menu",
-      "zip_url": "https://github.com/jingweno/hacker-menu/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jingweno/hacker-menu"
+      "type": "git",
+      "url": "https://github.com/jingweno/hacker-menu.git"
     },
     "engines": {
       "node": "0.12.7",
       "npm": "2.11.3"
+    },
+    "bugs": {
+      "url": "https://github.com/jingweno/hacker-menu/issues"
     },
     "license": "MIT",
     "scripts": {
@@ -201,6 +195,7 @@
       "package_sign": "npm run build && node script/package --sign",
       "release": "npm run package_sign && npm run compress"
     },
+    "author": "Jingwen Owen Ou",
     "config": {
       "electron_version": "0.31.2"
     },
@@ -274,5 +269,6 @@
   "svnUrl": "https://github.com/chocoluffy/hacker-menu",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:06:43.855Z"
+  "lastFetchedAt": "2017-05-04T05:06:43.855Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:32.822Z"
 }

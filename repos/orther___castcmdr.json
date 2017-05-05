@@ -87,8 +87,19 @@
       "package": "node package.js",
       "package-all": "node package.js --all"
     },
-    "repository": "https://github.com/orther/castcmdr",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/orther/castcmdr.git"
+    },
+    "author": {
+      "name": "Brandon Orther",
+      "email": "coder@able.cd",
+      "url": "https://github.com/orther"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/orther/castcmdr/issues"
+    },
     "keywords": [
       "electron",
       "roko",
@@ -175,5 +186,6 @@
   },
   "filename": "orther___castcmdr.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:47.251Z"
+  "lastFetchedAt": "2017-05-04T05:10:47.251Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:13.193Z"
 }

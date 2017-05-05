@@ -75,13 +75,17 @@
       "dev": "webpack-dev-server --inline --hot --no-info",
       "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
     },
-    "repository": "https://github.com/moumoutang/coder-note-rss",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:moumoutang/coder-note-rss.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "leeds",
     "license": "",
     "homepage": "",
     "devDependencies": {
@@ -134,5 +138,6 @@
   },
   "filename": "moumoutang___coder-note-rss.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:17.854Z"
+  "lastFetchedAt": "2017-05-04T20:12:17.854Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:04.555Z"
 }

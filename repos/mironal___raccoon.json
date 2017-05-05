@@ -60,8 +60,15 @@
       "start": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/covelline/raccoon",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/covelline/raccoon.git"
+    },
+    "author": "mironal",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/covelline/raccoon/issues"
+    },
     "homepage": "https://github.com/covelline/raccoon",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -115,5 +122,6 @@
   "svnUrl": "https://github.com/mironal/raccoon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:54:28.354Z"
+  "lastFetchedAt": "2017-05-04T17:54:28.354Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:10.782Z"
 }

@@ -67,7 +67,7 @@
   "status": 200,
   "packageJSON": {
     "name": "line-top-index",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "A data structure to efficiently represent the top position of lines in the presence of fixed-height blocks.",
     "main": "dist/line-top-index.js",
     "scripts": {
@@ -78,11 +78,18 @@
       "build": "node_modules/.bin/babel src --out-dir dist",
       "clean": "rm -rf dist"
     },
-    "repository": "https://github.com/atom/line-top-index",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/atom/line-top-index.git"
+    },
     "keywords": [
       "atom lines data-structure"
     ],
+    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/line-top-index/issues"
+    },
     "homepage": "https://github.com/atom/line-top-index",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -151,5 +158,6 @@
   "svnUrl": "https://github.com/atom/line-top-index",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:15:53.032Z"
+  "lastFetchedAt": "2017-05-04T18:15:53.032Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:06.167Z"
 }

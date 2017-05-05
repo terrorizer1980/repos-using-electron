@@ -79,8 +79,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/simon300000/minecraft-tool",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simon300000/minecraft-tool.git"
+    },
+    "author": "simon3000",
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/simon300000/minecraft-tool/issues"
+    },
     "homepage": "https://github.com/simon300000/minecraft-tool#readme",
     "devDependencies": {
       "devtron": "^1.1.0",
@@ -119,5 +126,6 @@
   },
   "filename": "simon300000___minecraft-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:12:37.852Z"
+  "lastFetchedAt": "2017-05-04T21:12:37.852Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:38.873Z"
 }

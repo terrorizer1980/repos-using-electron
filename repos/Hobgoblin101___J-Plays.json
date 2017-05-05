@@ -53,12 +53,16 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Hobgoblin101/J-Plays",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Hobgoblin101/J-Plays"
+    },
     "keywords": [
       "media",
       "player",
       "electron"
     ],
+    "author": "Ajani James Bilby",
     "license": "ISC",
     "dependencies": {
       "electron-packager": "^7.0.2",
@@ -112,5 +116,6 @@
   "svnUrl": "https://github.com/Hobgoblin101/J-Plays",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:01:50.572Z"
+  "lastFetchedAt": "2017-05-04T21:01:50.572Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:15.650Z"
 }

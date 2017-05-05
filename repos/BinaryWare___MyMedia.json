@@ -76,11 +76,15 @@
     "description": "MyMedia -- media center.",
     "version": "1.0.0",
     "main": "mymedia_main.js",
+    "author": "BiosWare",
     "keywords": [],
     "licenses": {
       "type": "none"
     },
-    "repository": "https://github.com/BiosWare/MyMedia",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BiosWare/MyMedia"
+    },
     "dependencies": {
       "bluebird": "^2.10.0",
       "body-parser": "^1.13.3",
@@ -100,7 +104,10 @@
       "run_unit_testing_fuser": "mocha ./test/fusers_test/fusers_unit_test.js && exit",
       "run_unit_testing_db": "mocha ./test/db_test/db_unit_test.js && exit"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "directories": {
+      "test": "test"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -127,5 +134,6 @@
   },
   "filename": "BinaryWare___MyMedia.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:20:36.766Z"
+  "lastFetchedAt": "2017-05-04T05:20:36.766Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:58.452Z"
 }

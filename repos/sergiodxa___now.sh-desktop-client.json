@@ -65,7 +65,10 @@
       "prepackage": "npm run build",
       "package": "asar pack now.sh-darwin-x64/now.sh.app/Contents/Resources/app now.sh-darwin-x64/now.sh.app/Contents/Resources/app.asar"
     },
-    "repository": "https://github.com/sergiodxa/now.sh-desktop-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sergiodxa/now.sh-desktop-client.git"
+    },
     "keywords": [
       "electron",
       "now",
@@ -73,7 +76,11 @@
       "react",
       "redux"
     ],
+    "author": "Sergio Daniel Xalambrí <sergio@xalambri.com.ar> (http://sergio.xalambri.com.ar/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sergiodxa/now.sh-desktop-client/issues"
+    },
     "homepage": "https://github.com/sergiodxa/now.sh-desktop-client#readme",
     "devDependencies": {
       "asar": "0.12.1",
@@ -161,5 +168,6 @@
   },
   "filename": "sergiodxa___now.sh-desktop-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:19.553Z"
+  "lastFetchedAt": "2017-05-04T18:12:19.553Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:38.885Z"
 }

@@ -55,8 +55,12 @@
       "start": "DEBUG=lantern* electron main.js",
       "build": "electron-packager . Lantern --out=release --platform=darwin --prune --asar --arch=all --version=0.34.2 --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
     },
-    "repository": "https://github.com/tomhallam/lantern",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomhallam/lantern.git"
+    },
     "keywords": [],
+    "author": "Tom Hallam",
     "homepage": "https://github.com/tomhallam/lantern.git#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -118,5 +122,6 @@
   },
   "filename": "tomhallam___lantern.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:06.402Z"
+  "lastFetchedAt": "2017-05-04T19:45:06.402Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:01.599Z"
 }

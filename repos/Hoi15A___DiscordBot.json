@@ -79,11 +79,18 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Hoi15A/DiscordBot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Hoi15A/DiscordBot.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "Austin Albrecht",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Hoi15A/DiscordBot/issues"
+    },
     "homepage": "https://github.com/Hoi15A/DiscordBot#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.5"
@@ -117,5 +124,6 @@
   },
   "filename": "Hoi15A___DiscordBot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:13.962Z"
+  "lastFetchedAt": "2017-05-04T21:24:13.962Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:16.392Z"
 }

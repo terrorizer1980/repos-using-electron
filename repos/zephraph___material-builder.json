@@ -80,8 +80,15 @@
       "start": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/zephraph/material-builder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zephraph/material-builder.git"
+    },
+    "author": "Zephraph (zephraph@gmail.com)",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/zephraph/material-builder/issues"
+    },
     "homepage": "https://github.com/zephraph/material-builder#readme",
     "dependencies": {
       "electron-prebuilt": "^0.33.3",
@@ -126,5 +133,6 @@
   },
   "filename": "zephraph___material-builder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:25.119Z"
+  "lastFetchedAt": "2017-05-04T17:46:25.119Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:36.262Z"
 }

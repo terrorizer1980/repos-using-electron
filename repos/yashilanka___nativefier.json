@@ -188,8 +188,15 @@
     "bin": {
       "nativefier": "lib/cli.js"
     },
-    "repository": "https://github.com/jiahaog/nativefier",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jiahaog/nativefier.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jiahaog/nativefier/issues"
+    },
     "homepage": "https://github.com/jiahaog/nativefier#readme",
     "dependencies": {
       "async": "^1.5.2",
@@ -258,5 +265,6 @@
   },
   "filename": "yashilanka___nativefier.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:30.207Z"
+  "lastFetchedAt": "2017-05-04T20:27:30.207Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:21.770Z"
 }

@@ -91,6 +91,7 @@
       "package:electron": "electron-packager ./ ElectronBase --out deploy --arch x64 --platform linux --version 0.36.2 --asar 1 --overwrite 1 --ignore=node_modules",
       "prepackage:electron": "npm run deploy:electron"
     },
+    "author": "Aaron Ballard",
     "license": "Apache-2.0",
     "devDependencies": {
       "babel-cli": "^6.3.17",
@@ -162,5 +163,6 @@
   "svnUrl": "https://github.com/ansballard/electron-base",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:55:13.496Z"
+  "lastFetchedAt": "2017-05-04T19:55:13.496Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:17.859Z"
 }

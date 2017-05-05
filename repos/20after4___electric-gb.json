@@ -73,7 +73,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/20after4/electric-gb",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/20after4/electric-gb"
+    },
     "keywords": [
       "Electron",
       "Glowing-bear",
@@ -82,7 +85,11 @@
       "Desktop",
       "Client"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/20after4/electric-gb/issues"
+    },
     "homepage": "https://github.com/20after4/electric-gb",
     "dependencies": {
       "open": "0.0.5"
@@ -116,5 +123,6 @@
   },
   "filename": "20after4___electric-gb.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:13.971Z"
+  "lastFetchedAt": "2017-05-04T15:24:13.971Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:56.983Z"
 }

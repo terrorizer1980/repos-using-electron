@@ -88,14 +88,27 @@
       "atompod",
       "demo"
     ],
+    "author": "rawel",
     "license": "MIT",
     "devDependencies": {
+      "browserify": "^13.1.1",
       "electron": "^1.4.1",
       "electron-packager": "^8.1.0",
-      "grunt": "^1.0.1",
-      "grunt-contrib-clean": "^1.0.0",
-      "grunt-contrib-copy": "^1.0.0",
-      "rimraf": "^2.5.4"
+      "gulp": "^3.9.1",
+      "gulp-concat": "^2.6.1",
+      "gulp-connect": "^5.0.0",
+      "gulp-eslint": "^3.0.1",
+      "gulp-open": "^2.0.0",
+      "gulp-run": "^1.7.1",
+      "reactify": "^1.1.1",
+      "rimraf": "^2.5.4",
+      "vinyl-source-stream": "^1.1.0"
+    },
+    "dependencies": {
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.1.1",
+      "react": "^15.3.2",
+      "react-dom": "^15.3.2"
     }
   },
   "packageStatus": 200,
@@ -123,5 +136,6 @@
   },
   "filename": "weliwita___atompod.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:16:48.484Z"
+  "lastFetchedAt": "2017-05-04T20:16:48.484Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:41.351Z"
 }

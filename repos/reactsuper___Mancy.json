@@ -211,6 +211,7 @@
       "REPL",
       "Javascript"
     ],
+    "author": "Prince John Wesley <princejohnwesley@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel": "^5.8.23",
@@ -249,17 +250,11 @@
       "github": "^0.2.4"
     },
     "repository": {
-      "user": "princejwesley",
-      "repo": "Mancy",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/princejwesley/Mancy/tarball/master",
-      "clone_url": "https://github.com/princejwesley/Mancy",
-      "https_url": "https://github.com/princejwesley/Mancy",
-      "travis_url": "https://travis-ci.org/princejwesley/Mancy",
-      "zip_url": "https://github.com/princejwesley/Mancy/archive/master.zip",
-      "api_url": "https://api.github.com/repos/princejwesley/Mancy"
+      "type": "git",
+      "url": "https://github.com/princejwesley/Mancy.git"
+    },
+    "bugs": {
+      "url": "https://github.com/princejwesley/Mancy/issues"
     },
     "homepage": "https://github.com/princejwesley/Mancy"
   },
@@ -309,5 +304,6 @@
   "svnUrl": "https://github.com/reactsuper/Mancy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:24:58.168Z"
+  "lastFetchedAt": "2017-05-04T15:24:58.168Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:02.829Z"
 }

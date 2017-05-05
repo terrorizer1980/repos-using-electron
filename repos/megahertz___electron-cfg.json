@@ -73,5 +73,62 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:02:02.578Z"
+  "lastFetchedAt": "2017-05-04T18:02:02.578Z",
+  "packageJSON": {
+    "name": "electron-cfg",
+    "version": "0.0.2",
+    "description": "Simple key-value storage for electron",
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint index.js lib",
+      "mocha": "mocha ./lib/**/*.spec.js",
+      "test": "npm run lint && npm run tslint && npm run mocha",
+      "tslint": "tslint electron-cfg.d.ts"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/megahertz/electron-cfg.git"
+    },
+    "files": [
+      "index.js",
+      "lib/*",
+      "electron-cfg.d.ts"
+    ],
+    "keywords": [
+      "electron",
+      "atom",
+      "settings",
+      "options",
+      "storage",
+      "key-value",
+      "window",
+      "state"
+    ],
+    "author": "Alexey Prokhorov",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/megahertz/electron-cfg/issues"
+    },
+    "homepage": "https://github.com/megahertz/electron-cfg#readme",
+    "engines": {
+      "node": ">=6.0"
+    },
+    "typings": "./electron-cfg.d.ts",
+    "devDependencies": {
+      "chai": "*",
+      "electron": "*",
+      "eslint": "*",
+      "eslint-config-airbnb-base": "*",
+      "eslint-plugin-import": "*",
+      "mocha": "*",
+      "mock-require": "*",
+      "rewire": "*",
+      "sinon": "*",
+      "sinon-chai": "*",
+      "tslint": "*",
+      "typescript": "*"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:08:35.057Z"
 }

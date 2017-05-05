@@ -59,12 +59,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/yiwenl/PanoramaToCubemap",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yiwenl/PanoramaToCubemap.git"
+    },
     "keywords": [
       "panorama",
       "cubemap"
     ],
+    "author": "Yi-Wen LIN",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/yiwenl/PanoramaToCubemap/issues",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -117,5 +124,6 @@
   },
   "filename": "yiwenl___PanoramaToCubemap.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:11.153Z"
+  "lastFetchedAt": "2017-05-03T20:06:11.153Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:24.878Z"
 }

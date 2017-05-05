@@ -84,6 +84,7 @@
       "build": "electron-packager . Example --platform=darwin --arch=x64 --version=0.36.0 --icon=Icon.icns",
       "start": "electron ."
     },
+    "author": "Thomas Emmerling",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -111,5 +112,6 @@
   },
   "filename": "thomastweets___SMCmon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:07.461Z"
+  "lastFetchedAt": "2017-05-04T17:49:07.461Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:55.731Z"
 }

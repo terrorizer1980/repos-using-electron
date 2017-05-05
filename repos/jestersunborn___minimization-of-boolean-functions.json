@@ -79,13 +79,16 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Jester-js/minimization-of-boolean-functions",
+    "repository": {
+      "url": "https://github.com/Jester-js/minimization-of-boolean-functions"
+    },
     "keywords": [
       "Electron",
       "Boolean",
       "Logic",
       "Minimization"
     ],
+    "author": "Jester Sunborn",
     "license": "",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -119,5 +122,6 @@
   },
   "filename": "jestersunborn___minimization-of-boolean-functions.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:30:58.194Z"
+  "lastFetchedAt": "2017-05-04T18:30:58.194Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:37.856Z"
 }

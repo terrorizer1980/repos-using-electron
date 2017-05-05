@@ -80,12 +80,19 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/utgwkk/ikagaka-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/utgwkk/ikagaka-electron.git"
+    },
     "keywords": [
       "ikagaka",
       "electron"
     ],
+    "author": "utgwkk",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/utgwkk/ikagaka-electron/issues"
+    },
     "homepage": "https://github.com/utgwkk/ikagaka-electron#readme",
     "devDependencies": {
       "electron": "^1.4.8",
@@ -117,5 +124,6 @@
   },
   "filename": "utgwkk___ikagaka-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:07.462Z"
+  "lastFetchedAt": "2017-05-04T19:55:07.462Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:22.721Z"
 }

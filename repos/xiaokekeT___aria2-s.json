@@ -74,8 +74,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/xiaokekeT/aria2-s",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xiaokekeT/aria2-s.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/xiaokekeT/aria2-s/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -200,5 +211,6 @@
   },
   "filename": "xiaokekeT___aria2-s.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:38.825Z"
+  "lastFetchedAt": "2017-05-04T20:31:38.825Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:00.226Z"
 }

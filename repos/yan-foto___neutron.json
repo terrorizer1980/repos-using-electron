@@ -55,8 +55,12 @@
     "name": "neutron",
     "version": "1.2.0",
     "description": "Neutron: the zero point of electron applications",
+    "author": "Yan Foto <yan.foto@quaintous.com>",
     "license": "MIT",
-    "repository": "https://github.com/yan-foto/neutron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yan-foto/neutron"
+    },
     "scripts": {
       "start": "gulp start",
       "packager": "gulp package"
@@ -132,5 +136,6 @@
   "svnUrl": "https://github.com/yan-foto/neutron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:37:34.537Z"
+  "lastFetchedAt": "2017-05-04T20:37:34.537Z",
+  "packageLastFetchedAt": "2017-05-05T15:05:08.721Z"
 }

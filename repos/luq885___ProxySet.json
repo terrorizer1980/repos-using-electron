@@ -81,6 +81,7 @@
       "build:osx": "electron-packager ./build/dist/ $npm_package_productName --out=./build/Release --overwrite --prune --asar --arch=all --platform=darwin --icon=./assets/icons/icon.icns --version=$npm_package_electronVersion --app-version=$npm_package_version",
       "package:osx": "hdiutil create -format UDZO -srcfolder ./build/Release/proxyset-darwin-x64/proxyset.app ./build/Release/proxyset.dmg"
     },
+    "author": "Link Liu",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.14.0",
@@ -134,5 +135,6 @@
   },
   "filename": "luq885___ProxySet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:11.341Z"
+  "lastFetchedAt": "2017-05-04T17:38:11.341Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:55.898Z"
 }

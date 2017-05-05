@@ -54,6 +54,7 @@
       "start": "electron .",
       "build": "electron-packager ./ AhmadAwais.com --platform=darwin --arch=x64 --version=0.36.7 --ignore=node_modules/electron-*"
     },
+    "author": "ahmadawais",
     "license": "GPL-2.0",
     "devDependencies": {
       "electron-packager": "",
@@ -105,5 +106,6 @@
   "svnUrl": "https://github.com/ahmadawais/aacom-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:07:59.666Z"
+  "lastFetchedAt": "2017-05-04T18:07:59.666Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:27.827Z"
 }

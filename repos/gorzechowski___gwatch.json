@@ -49,15 +49,22 @@
     "name": "gwatch",
     "productName": "GWatch",
     "description": "Graphical interface for GWatchD",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "homepage": "http://gorzechowski.github.io/gwatch",
+    "author": {
+      "name": "Gracjan Orzechowski",
+      "email": "kampo2@o2.pl"
+    },
     "license": "ISC",
     "keywords": [
       "gwatch",
       "gwatchd",
       "synchronize"
     ],
-    "repository": "https://github.com/gorzechowski/gwatch",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gorzechowski/gwatch.git"
+    },
     "main": "dist/main.js",
     "scripts": {
       "build:dev": "npm run build:app:dev && npm run build:main:dev",
@@ -102,14 +109,14 @@
       "html-webpack-plugin": "^2.22",
       "istanbul": "^0.4.5",
       "lodash": "^4.16.2",
-      "material-ui": "^0.15.1",
+      "material-ui": "^0.16",
       "mocha": "^3.0.2",
       "path": "^0.12",
       "postcss-loader": "^0.9",
       "precss": "^1.4",
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2",
-      "react-tap-event-plugin": "^1.0",
+      "react": "^15.4",
+      "react-dom": "^15.4",
+      "react-tap-event-plugin": "^2.0",
       "redux": "^3.6.0",
       "style-loader": "^0.13",
       "webpack": "^1.13.2",
@@ -164,5 +171,6 @@
   },
   "filename": "gorzechowski___gwatch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:16.584Z"
+  "lastFetchedAt": "2017-05-04T21:15:16.584Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:57.758Z"
 }

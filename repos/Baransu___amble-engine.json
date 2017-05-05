@@ -59,8 +59,15 @@
     "scripts": {
       "start": "electron ./amble-builds/app"
     },
-    "repository": "https://github.com/Baransu/amble-engine",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Baransu/amble-engine.git"
+    },
+    "author": "Tomasz Cichocinski",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Baransu/amble-engine/issues"
+    },
     "homepage": "https://github.com/Baransu/amble-engine#readme",
     "dependencies": {
       "asar": "^0.10.0",
@@ -148,5 +155,6 @@
   "svnUrl": "https://github.com/Baransu/amble-engine",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:44:40.339Z"
+  "lastFetchedAt": "2017-05-04T19:44:40.339Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:17.004Z"
 }

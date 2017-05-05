@@ -81,7 +81,10 @@
       "prestart": "node build.js",
       "start": "electron ."
     },
-    "repository": "https://github.com/petschekr/Chocolate-Shell",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/petschekr/Chocolate-Shell.git"
+    },
     "keywords": [
       "ssh",
       "ssh2",
@@ -89,14 +92,19 @@
       "shell",
       "tabs"
     ],
+    "author": "Ryan Petschek",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/petschekr/Chocolate-Shell/issues"
+    },
     "homepage": "https://github.com/petschekr/Chocolate-Shell#readme",
     "devDependencies": {
-      "electron-prebuilt": "^1.2.0",
+      "electron-prebuilt": "^1.4.0",
       "less": "^2.7.1"
     },
     "dependencies": {
       "colors": "^1.1.2",
+      "material-components-web": "^0.1.1",
       "nedb": "^1.8.0",
       "ssh2": "^0.5.0",
       "xterm": "^0.33.0"
@@ -127,5 +135,6 @@
   },
   "filename": "petschekr___Chocolate-Shell.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:16.819Z"
+  "lastFetchedAt": "2017-05-04T20:25:16.819Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:37.939Z"
 }

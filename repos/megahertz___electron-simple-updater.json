@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-simple-updater",
-    "version": "1.1.3",
+    "version": "1.2.0",
     "description": "Simple way to enable update for the electron application",
     "main": "index.js",
     "scripts": {
@@ -81,10 +81,12 @@
       "mocha": "./node_modules/.bin/mocha ./spec/**/*.mock.js ./spec/**/*.spec.js",
       "lint": "node_modules/.bin/eslint ./index.js ./lib/**/*.js ./example/app/*.js ./spec/**/*.js"
     },
-    "repository": "https://github.com/megahertz/electron-simple-updater",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/megahertz/electron-simple-updater.git"
+    },
     "files": [
       "index.js",
-      "README.md",
       "lib/*"
     ],
     "keywords": [
@@ -100,7 +102,11 @@
       "linux",
       "desktop"
     ],
+    "author": "Alexey Prokhorov",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/megahertz/electron-simple-updater/issues"
+    },
     "homepage": "https://github.com/megahertz/electron-simple-updater#readme",
     "engines": {
       "node": ">=6.0"
@@ -148,5 +154,6 @@
   },
   "filename": "megahertz___electron-simple-updater.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:39:50.579Z"
+  "lastFetchedAt": "2017-05-04T17:39:50.579Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:18.970Z"
 }

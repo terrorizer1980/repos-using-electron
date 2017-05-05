@@ -61,6 +61,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Kochan",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -123,5 +124,6 @@
   "svnUrl": "https://github.com/elitekode/DeskTunes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:30:32.781Z"
+  "lastFetchedAt": "2017-05-04T05:30:32.781Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:59.925Z"
 }

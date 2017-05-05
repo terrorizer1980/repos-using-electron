@@ -168,6 +168,7 @@
   "packageJSON": {
     "name": "Powder-Player",
     "version": "1.0.0",
+    "author": "Branza Victor-Alexandru <branza.alex@gmail.com>",
     "contributors": [
       {
         "name": "Luigi Poole",
@@ -182,7 +183,11 @@
     "relese-name": "Nightingale",
     "homepage": "http://powder.media/",
     "main": "js/browser.js",
-    "repository": "https://github.com/jaruba/PowderPlayer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jaruba/PowderPlayer.git"
+    },
+    "bugs": "https://github.com/jaruba/PowderPlayer/issues",
     "scripts": {
       "start": "grunt",
       "release": "grunt release"
@@ -303,5 +308,6 @@
   },
   "filename": "Irrelon___PowderPlayer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:05.621Z"
+  "lastFetchedAt": "2017-05-04T05:05:05.621Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:01.992Z"
 }

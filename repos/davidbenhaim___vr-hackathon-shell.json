@@ -78,6 +78,11 @@
     "description": "My astonishing app",
     "license": "MIT",
     "repository": "davidbenhaim/workbench",
+    "author": {
+      "name": "David Benhaim",
+      "email": "david@markforged.com",
+      "url": "davidbenhaim.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -138,5 +143,6 @@
   },
   "filename": "davidbenhaim___vr-hackathon-shell.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:08.549Z"
+  "lastFetchedAt": "2017-05-04T17:48:08.549Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:43.984Z"
 }

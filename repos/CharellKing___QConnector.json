@@ -70,6 +70,7 @@
     "version": "1.0.0",
     "description": "SSH Connector",
     "main": "app.js",
+    "author": "Charellking Qu <CharellkingQu@163.com>",
     "scripts": {
       "start": "electron ."
     },
@@ -81,7 +82,13 @@
       "electron-packager": "^3.3.0",
       "electron-prebuilt": "^0.25.2"
     },
-    "repository": "https://github.com/CharellKing/QConnector",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/CharellKing/QConnector.git"
+    },
+    "bugs": {
+      "url": "https://github.com/CharellKing/QConnector/issues"
+    },
     "homepage": "https://github.com/CharellKing/QConnector"
   },
   "packageStatus": 200,
@@ -109,5 +116,6 @@
   },
   "filename": "CharellKing___QConnector.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:16.888Z"
+  "lastFetchedAt": "2017-05-04T05:08:16.888Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:59.100Z"
 }

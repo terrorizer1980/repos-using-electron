@@ -203,18 +203,13 @@
       "viz.js": "^1.3.0"
     },
     "repository": {
-      "user": "francoislaberge",
-      "repo": "diagrams",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/francoislaberge/diagrams/tarball/master",
-      "clone_url": "https://github.com/francoislaberge/diagrams",
-      "https_url": "https://github.com/francoislaberge/diagrams",
-      "travis_url": "https://travis-ci.org/francoislaberge/diagrams",
-      "zip_url": "https://github.com/francoislaberge/diagrams/archive/master.zip",
-      "api_url": "https://api.github.com/repos/francoislaberge/diagrams"
+      "type": "git",
+      "url": "https://github.com/francoislaberge/diagrams"
     },
+    "bugs": {
+      "url": "https://github.com/francoislaberge/diagrams/issues"
+    },
+    "author": "Francois Laberge <francoislaberge@gmail.com>",
     "license": "MIT",
     "keywords": [
       "flowchart",
@@ -255,5 +250,6 @@
   "filename": "LukeCarrier___diagrams.json",
   "sourceRepo": "francoislaberge/diagrams",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:01:39.626Z"
+  "lastFetchedAt": "2017-05-04T06:01:39.626Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:00.998Z"
 }

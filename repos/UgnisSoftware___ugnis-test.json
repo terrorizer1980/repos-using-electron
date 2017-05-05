@@ -67,13 +67,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/UgnisSoftware/ugnis-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/UgnisSoftware/ugnis-test.git"
+    },
     "keywords": [
       "Ugnis",
       "test",
       "wallaby"
     ],
+    "author": "Karolis Masiulis",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/UgnisSoftware/ugnis-test/issues"
+    },
     "homepage": "https://github.com/UgnisSoftware/ugnis-test#readme",
     "dependencies": {
       "electron-prebuilt": "^0.37.5",
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/UgnisSoftware/ugnis-test",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:04:14.055Z"
+  "lastFetchedAt": "2017-05-04T21:04:14.055Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:37.506Z"
 }

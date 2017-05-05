@@ -93,8 +93,15 @@
     "scripts": {
       "start": "electron ./app/app.js"
     },
-    "repository": "https://github.com/MailJS/MailJS-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MailJS/MailJS-app.git"
+    },
+    "author": "AtlasDev",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MailJS/MailJS-app/issues"
+    },
     "homepage": "https://mailjs.net",
     "devDependencies": {
       "electron": "^0.4.1",
@@ -131,5 +138,6 @@
   },
   "filename": "MailJS___MailJS-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:50.958Z"
+  "lastFetchedAt": "2017-05-04T05:16:50.958Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:06.694Z"
 }

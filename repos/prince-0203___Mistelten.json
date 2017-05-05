@@ -61,8 +61,15 @@
       "start": "node_modules/.bin/electron .",
       "build": "node electron-build.js"
     },
-    "repository": "https://github.com/prince-0203/Mistelten",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prince-0203/Mistelten.git"
+    },
+    "author": "prince",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/prince-0203/Mistelten/issues"
+    },
     "homepage": "https://github.com/prince-0203/Mistelten#readme",
     "devDependencies": {
       "electron-packager": "^7.4.0",
@@ -118,5 +125,6 @@
   },
   "filename": "prince-0203___Mistelten.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:27.288Z"
+  "lastFetchedAt": "2017-05-04T21:27:27.288Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:23.038Z"
 }

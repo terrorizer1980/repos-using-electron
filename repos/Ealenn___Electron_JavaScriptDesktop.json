@@ -54,6 +54,7 @@
       "start": "electron .",
       "build": "electron-packager ./ --platform=win32 --arch=all --version=1.2.0 --overwrite"
     },
+    "author": "ealen",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -106,5 +107,6 @@
   },
   "filename": "Ealenn___Electron_JavaScriptDesktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:53.320Z"
+  "lastFetchedAt": "2017-05-04T20:02:53.320Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:41.085Z"
 }

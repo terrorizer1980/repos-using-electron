@@ -67,5 +67,29 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:10:11.083Z"
+  "lastFetchedAt": "2017-05-04T18:10:11.083Z",
+  "packageJSON": {
+    "devDependencies": {
+      "electron": "^1.6.2",
+      "electron-builder": "^16.8.2"
+    },
+    "build": {
+      "appId": "com.thedanherman.hostage",
+      "mac": {
+        "category": "Development"
+      },
+      "linux": {
+        "category": "Development"
+      },
+      "win": {
+        "target": "portable"
+      }
+    },
+    "scripts": {
+      "pack": "build --dir",
+      "dist": "build -wlm"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:00:11.497Z"
 }

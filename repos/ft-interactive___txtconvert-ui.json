@@ -72,6 +72,11 @@
     "description": "Electron app for processing FT TSV files",
     "license": "MIT",
     "repository": "ft-interactive/txtconvert-ui",
+    "author": {
+      "name": "Ændrew Rininsland",
+      "email": "andrew.rininsland@ft.com",
+      "url": "ft.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -152,5 +157,6 @@
   "svnUrl": "https://github.com/ft-interactive/txtconvert-ui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:19:26.174Z"
+  "lastFetchedAt": "2017-05-04T21:19:26.174Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:26.594Z"
 }

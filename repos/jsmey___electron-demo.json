@@ -113,17 +113,8 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "jsmey",
-      "repo": "electron-demo",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jsmey/electron-demo/tarball/master",
-      "clone_url": "https://github.com/jsmey/electron-demo",
-      "https_url": "https://github.com/jsmey/electron-demo",
-      "travis_url": "https://travis-ci.org/jsmey/electron-demo",
-      "zip_url": "https://github.com/jsmey/electron-demo/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jsmey/electron-demo"
+      "type": "git",
+      "url": "git+https://github.com/jsmey/electron-demo.git"
     },
     "license": "MIT",
     "keywords": [
@@ -251,5 +242,6 @@
   "svnUrl": "https://github.com/jsmey/electron-demo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:55:09.968Z"
+  "lastFetchedAt": "2017-05-04T20:55:09.968Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:15.466Z"
 }

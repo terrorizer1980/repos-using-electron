@@ -87,8 +87,12 @@
       "Jade",
       "Less"
     ],
+    "author": "Sai Kishore Komanduri",
     "license": "ISC",
-    "repository": "https://github.com/fatman-/clipman",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fatman-/clipman.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.37.6",
       "jade": "^1.11.0",
@@ -128,5 +132,6 @@
   },
   "filename": "fatman-___clipman.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:42:06.302Z"
+  "lastFetchedAt": "2017-05-04T20:42:06.302Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:05.844Z"
 }

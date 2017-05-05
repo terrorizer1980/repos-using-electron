@@ -79,12 +79,19 @@
     "scripts": {
       "start": "gulp"
     },
-    "repository": "https://github.com/kitanata/Electron-Phaser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kitanata/Electron-Phaser"
+    },
     "keywords": [
       "Electron",
       "PhaserJS"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kitanata/Electron-Phaser/issues"
+    },
     "homepage": "https://github.com/kitanata/Electron-Phaser",
     "dependencies": {
       "chance": "^1.0.4",
@@ -132,5 +139,6 @@
   },
   "filename": "kitanata___Electron-Phaser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:10.628Z"
+  "lastFetchedAt": "2017-05-04T05:06:10.628Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:33.470Z"
 }

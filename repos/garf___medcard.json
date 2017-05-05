@@ -78,6 +78,11 @@
     "description": "Electronic Document flow system for dentist cabinets",
     "license": "proprietary",
     "repository": "garf/medcard",
+    "author": {
+      "name": "Dinar Garipov",
+      "email": "garipov.dinar@gmail.com",
+      "url": "https://github.com/garf"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -137,5 +142,6 @@
   },
   "filename": "garf___medcard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:23:01.543Z"
+  "lastFetchedAt": "2017-05-04T18:23:01.543Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:47.987Z"
 }

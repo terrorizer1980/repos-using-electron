@@ -69,7 +69,11 @@
     "name": "uboot",
     "version": "0.0.1",
     "description": "a web based presentation editor",
-    "repository": "https://github.com/echom/uboot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/echom/uboot.git"
+    },
+    "author": "Joerg Hoesel <echom@gmx.net>",
     "license": "ISC",
     "main": "index.js",
     "scripts": {
@@ -135,5 +139,6 @@
   },
   "filename": "echom___uboot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:36.116Z"
+  "lastFetchedAt": "2017-05-04T17:46:36.116Z",
+  "packageLastFetchedAt": "2017-05-05T14:34:34.029Z"
 }

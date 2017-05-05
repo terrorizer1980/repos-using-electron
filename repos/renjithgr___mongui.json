@@ -79,8 +79,15 @@
     "scripts": {
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/renjithgr/mongui",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/renjithgr/mongui.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/renjithgr/mongui/issues"
+    },
     "homepage": "https://github.com/renjithgr/mongui",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -114,5 +121,6 @@
   },
   "filename": "renjithgr___mongui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:00.243Z"
+  "lastFetchedAt": "2017-05-04T15:19:00.243Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:31.329Z"
 }

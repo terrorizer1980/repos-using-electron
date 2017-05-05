@@ -105,7 +105,10 @@
       "test": "mocha"
     },
     "license": "MIT",
-    "repository": "https://github.com/dripcap/paperfilter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dripcap/paperfilter.git"
+    },
     "gypfile": true,
     "devDependencies": {
       "electron": "1.4.1",
@@ -145,5 +148,6 @@
   },
   "filename": "dripcap___paperfilter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:04:31.692Z"
+  "lastFetchedAt": "2017-05-04T20:04:31.692Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:49.130Z"
 }

@@ -87,9 +87,20 @@
       "test": "npm run test:flow && npm run test:lint && npm run test:unit && npm run test:e2e",
       "train": "babel-node src/logics/train.js"
     },
-    "repository": "https://github.com/airtoxin/yavalath-baobab",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/airtoxin/yavalath-baobab"
+    },
     "keywords": [],
+    "directories": {
+      "lib": "lib",
+      "test": "test"
+    },
+    "author": "airtoxin <airtoxin@icloud.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/airtoxin/yavalath-baobab/issues"
+    },
     "homepage": "https://github.com/airtoxin/yavalath-baobab#readme",
     "dependencies": {
       "baobab": "2.3.3",
@@ -161,5 +172,6 @@
   },
   "filename": "airtoxin___yavalath-baobab.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:52.345Z"
+  "lastFetchedAt": "2017-05-04T05:02:52.345Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:24.213Z"
 }

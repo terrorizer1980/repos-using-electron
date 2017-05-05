@@ -67,5 +67,34 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:08:32.904Z"
+  "lastFetchedAt": "2017-05-04T05:08:32.904Z",
+  "packageJSON": {
+    "name": "multieye",
+    "version": "0.7.0",
+    "description": "Multi-document eye tracking visualizer",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron --high-dpi-support=1 --force-device-scale-factor=1 ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kubo25/MultiEye.git"
+    },
+    "author": "Jakub Hučko",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kubo25/MultiEye/issues"
+    },
+    "homepage": "https://github.com/kubo25/MultiEye#readme",
+    "dependencies": {
+      "electron": "^1.6.2",
+      "cytoscape": "^3.0.0",
+      "monaco-editor": "^0.8.3"
+    },
+    "devDependencies": {
+      "electron-reload": "^1.1.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:34:49.790Z"
 }

@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron electronMain.js"
     },
-    "repository": "https://github.com/choodex/MatrixCSS",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/choodex/MatrixCSS.git"
+    },
     "license": "MIT",
     "homepage": "http://choodometry.com/",
     "devDependencies": {
@@ -105,5 +108,6 @@
   "svnUrl": "https://github.com/choodex/MatrixCSS",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:51:27.401Z"
+  "lastFetchedAt": "2017-05-04T14:51:27.401Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:58.565Z"
 }

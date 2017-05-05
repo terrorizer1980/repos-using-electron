@@ -192,17 +192,8 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "zalmoxisus",
-      "repo": "browser-extension-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/zalmoxisus/browser-extension-boilerplate/tarball/master",
-      "clone_url": "https://github.com/zalmoxisus/browser-extension-boilerplate",
-      "https_url": "https://github.com/zalmoxisus/browser-extension-boilerplate",
-      "travis_url": "https://travis-ci.org/zalmoxisus/browser-extension-boilerplate",
-      "zip_url": "https://github.com/zalmoxisus/browser-extension-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/zalmoxisus/browser-extension-boilerplate"
+      "type": "git",
+      "url": "https://github.com/zalmoxisus/browser-extension-boilerplate"
     },
     "homepage": "https://github.com/zalmoxisus/browser-extension-boilerplate",
     "keywords": [
@@ -331,5 +322,6 @@
   "filename": "squirmsound___crossbuilder.json",
   "sourceRepo": "zalmoxisus/crossbuilder",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:35.185Z"
+  "lastFetchedAt": "2017-05-04T21:17:35.185Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:34.331Z"
 }

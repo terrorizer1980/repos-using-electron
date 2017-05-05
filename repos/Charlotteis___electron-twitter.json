@@ -174,17 +174,8 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "mikaturunen",
-      "repo": "electron-twitter",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mikaturunen/electron-twitter/tarball/master",
-      "clone_url": "https://github.com/mikaturunen/electron-twitter",
-      "https_url": "https://github.com/mikaturunen/electron-twitter",
-      "travis_url": "https://travis-ci.org/mikaturunen/electron-twitter",
-      "zip_url": "https://github.com/mikaturunen/electron-twitter/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mikaturunen/electron-twitter"
+      "type": "git",
+      "url": "https://github.com/mikaturunen/electron-twitter.git"
     },
     "keywords": [
       "electron",
@@ -193,7 +184,11 @@
       "world",
       "testing"
     ],
+    "author": "Mika Turunen <mika.turunen@ymail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mikaturunen/electron-twitter/issues"
+    },
     "homepage": "https://github.com/mikaturunen/electron-twitter",
     "dependencies": {
       "twitter": "^1.2.5"
@@ -248,5 +243,6 @@
   "filename": "Charlotteis___electron-twitter.json",
   "sourceRepo": "mikaturunen/electron-twitter",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:55.606Z"
+  "lastFetchedAt": "2017-05-04T20:02:55.606Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:12.482Z"
 }

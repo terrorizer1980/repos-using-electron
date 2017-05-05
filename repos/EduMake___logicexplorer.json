@@ -75,8 +75,15 @@
       "start": "node_modules/.bin/electron main.js",
       "test": "jasmine-node specs/"
     },
-    "repository": "https://github.com/EduMake/logicexplorer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/EduMake/logicexplorer.git"
+    },
+    "author": "Martyn Eggleton <martyn@edumake.org>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/EduMake/logicexplorer/issues"
+    },
     "dependencies": {
       "electron-prebuilt": "^1.2.3",
       "i2c-bus": "^1.1.0",
@@ -134,5 +141,6 @@
   },
   "filename": "EduMake___logicexplorer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:46.239Z"
+  "lastFetchedAt": "2017-05-04T21:13:46.239Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:32.204Z"
 }

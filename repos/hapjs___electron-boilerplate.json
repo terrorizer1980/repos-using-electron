@@ -76,12 +76,19 @@
       "build-win": "webpack && electron-packager . tereis --platform=win32 --arch=x64 --version=1.4.0 --overwrite",
       "build-mac": "webpack && electron-packager . tereis --platform=darwin --arch=x64 --version=1.4.0 --overwrite"
     },
-    "repository": "https://github.com/hapjs/electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hapjs/electron-boilerplate.git"
+    },
     "keywords": [
       "Electron",
       "boilerplate"
     ],
+    "author": "hapjs",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hapjs/electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/hapjs/electron-boilerplate#readme",
     "devDependencies": {
       "electron": "^1.4.0",
@@ -141,5 +148,6 @@
   },
   "filename": "hapjs___electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:40.970Z"
+  "lastFetchedAt": "2017-05-04T05:00:40.970Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:01.528Z"
 }

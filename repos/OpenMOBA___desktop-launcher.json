@@ -87,7 +87,13 @@
     "scripts": {
       "start": "electron app/"
     },
-    "repository": "https://github.com/OpenMOBA/desktop-launcher",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OpenMOBA/desktop-launcher.git"
+    },
+    "bugs": {
+      "url": "https://github.com/OpenMOBA/desktop-launcher/issues"
+    },
     "homepage": "https://openmoba.github.io",
     "devDependencies": {
       "asar": "^0.9.0",
@@ -122,5 +128,6 @@
   },
   "filename": "OpenMOBA___desktop-launcher.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:51.936Z"
+  "lastFetchedAt": "2017-05-04T19:38:51.936Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:16.214Z"
 }

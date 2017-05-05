@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "scrapman",
-    "version": "2.2.3",
+    "version": "2.3.1",
     "description": "Retrieve real (with Javascript executed) HTML code from an URL, ultra fast and supports multiple parallel loading of webs",
     "main": "index.js",
     "scripts": {
@@ -81,7 +81,10 @@
       "electron": "electron ./lib/scrapman.js",
       "start": "node index.js"
     },
-    "repository": "https://github.com/danielnieto/scrapman",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/danielnieto/scrapman.git"
+    },
     "keywords": [
       "scrapping",
       "scrap",
@@ -95,7 +98,11 @@
       "scrape",
       "scraping"
     ],
+    "author": "Daniel Nieto <danielnieto89@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/danielnieto/scrapman/issues"
+    },
     "homepage": "https://github.com/danielnieto/scrapman#readme",
     "dependencies": {
       "electron": "^1.4.3",
@@ -128,5 +135,6 @@
   },
   "filename": "danielnieto___getreal.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T08:01:53.267Z"
+  "lastFetchedAt": "2017-05-04T08:01:53.267Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:53.096Z"
 }

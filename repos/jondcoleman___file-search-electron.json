@@ -87,6 +87,10 @@
       "appId": "file-search-util",
       "category": "public.app-category.utilities"
     },
+    "directories": {
+      "output": "bin"
+    },
+    "author": "Jonathan Coleman",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -137,5 +141,6 @@
   },
   "filename": "jondcoleman___file-search-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:36.245Z"
+  "lastFetchedAt": "2017-05-04T20:14:36.245Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:42.788Z"
 }

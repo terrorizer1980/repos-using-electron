@@ -79,11 +79,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/chengde001/electron-lab",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chengde001/electron-lab.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "chengde001",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chengde001/electron-lab/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.3.5"
@@ -114,5 +121,6 @@
   },
   "filename": "chengde001___electron-lab.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:19.689Z"
+  "lastFetchedAt": "2017-05-04T15:29:19.689Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:16.458Z"
 }

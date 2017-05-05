@@ -51,6 +51,11 @@
     "description": "Referer control for Electron app",
     "license": "MIT",
     "repository": "akameco/electron-referer",
+    "author": {
+      "name": "akameco",
+      "email": "akameco.t@gmail.com",
+      "url": "akameco.github.io"
+    },
     "scripts": {
       "start": "electron fixture.js",
       "test": "xo"
@@ -121,5 +126,6 @@
   },
   "filename": "akameco___electron-referer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:39.560Z"
+  "lastFetchedAt": "2017-05-04T19:55:39.560Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:10.669Z"
 }

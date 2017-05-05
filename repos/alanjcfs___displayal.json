@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for displayal goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -178,5 +183,6 @@
   },
   "filename": "alanjcfs___displayal.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:29.728Z"
+  "lastFetchedAt": "2017-05-04T05:14:29.728Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:50.551Z"
 }

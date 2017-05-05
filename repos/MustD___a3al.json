@@ -96,7 +96,13 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/MustD/a3al",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MustD/a3al.git"
+    },
+    "author": {
+      "name": "mustd"
+    },
     "license": "MIT",
     "keywords": [
       "arma3",
@@ -200,5 +206,6 @@
   },
   "filename": "MustD___a3al.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:01.398Z"
+  "lastFetchedAt": "2017-05-04T21:01:01.398Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:19.901Z"
 }

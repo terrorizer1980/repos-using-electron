@@ -59,8 +59,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/anesumuz/slyfox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/anesumuz/slyfox.git"
+    },
+    "author": "Fitz",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/anesumuz/slyfox/issues"
+    },
     "homepage": "https://github.com/anesumuz/slyfox#readme",
     "devDependencies": {
       "ejs": "^2.4.2",
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/anesumuz/slyfox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:59:04.936Z"
+  "lastFetchedAt": "2017-05-04T19:59:04.936Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:04.197Z"
 }

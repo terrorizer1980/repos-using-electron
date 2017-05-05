@@ -73,31 +73,65 @@
   "status": 200,
   "packageJSON": {
     "name": "bitmap-font-maker",
-    "main": "index.js",
+    "main": "./src/index.js",
     "version": "0.0.1",
+    "author": "yulijun",
     "productName": "bitmap-font-maker",
     "description": "bitmap font atlas maker",
     "keywords": [],
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "compile": "rimraf dist/",
+      "pack": "npm run compile && build --dir",
+      "dist": "npm run compile && build --mac --win",
+      "dist:osx": "build --mac",
+      "dist:win": "build --win",
+      "release": "npm run compile && build"
+    },
+    "build": {
+      "appId": "org.koala.bitmapfont",
+      "category": "category.bitmap-font-maker",
+      "asar": false,
+      "files": [
+        "src",
+        "node_modules",
+        "README.md"
+      ],
+      "dmg": {
+        "background": "build/background.png",
+        "icon": "build/icon.ico"
+      },
+      "mac": {
+        "category": "category.bitmap-font-maker"
+      },
+      "win": {
+        "icon": "build/icon.ico",
+        "target": "zip"
+      }
     },
     "repository": "https://github.com/koalaylj/bitmap-font-maker.git",
     "license": "MIT",
     "dependencies": {
-      "async": "^2.1.2",
       "bin-pack": "^1.0.2",
-      "bootstrap": "^3.3.7",
-      "electron": "^1.4.4",
-      "electron-json-storage": "^2.1.0",
       "fs-plus": "^2.9.3",
+      "image-size": "^0.5.0",
       "jquery": "^3.1.1",
-      "lodash": "^4.16.5",
       "mkdirp": "^0.5.1",
       "query-string": "^4.2.3",
-      "rimraf": "^2.5.4"
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "redux": "^3.6.0",
+      "xmlbuilder": "^8.2.2"
     },
     "devDependencies": {
-      "devtron": "^1.4.0"
+      "devtron": "^1.4.0",
+      "electron": "^1.4.8",
+      "electron-builder": "^8.6.0",
+      "electron-debug": "^1.1.0",
+      "electron-packager": "^8.3.0",
+      "node-jsx": "^0.13.3",
+      "redux": "^3.6.0",
+      "rimraf": "^2.5.4"
     }
   },
   "packageStatus": 200,
@@ -125,5 +159,6 @@
   },
   "filename": "koalaylj___bitmap-font-maker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:32:42.596Z"
+  "lastFetchedAt": "2017-05-04T15:32:42.596Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:32.632Z"
 }

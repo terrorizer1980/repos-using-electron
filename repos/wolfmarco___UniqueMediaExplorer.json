@@ -82,7 +82,10 @@
       "predeploy-win32-x64": "npm run build-electron && npm run move-package-config",
       "deploy-win32-x64": "electron-packager bin/electron/src/ UniqueMediaExplorer --platform=win32 --arch=x64 --out bin/electron/ --overwrite --asar"
     },
-    "repository": "https://github.com/wolfmarco/UniqueMediaExplorer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wolfmarco/UniqueMediaExplorer.git"
+    },
     "keywords": [
       "Electron",
       "Unique",
@@ -90,7 +93,11 @@
       "Explorer",
       "UME"
     ],
+    "author": "Marco Wolf",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wolfmarco/UniqueMediaExplorer/issues"
+    },
     "homepage": "https://github.com/wolfmarco/UniqueMediaExplorer#readme",
     "devDependencies": {
       "electron": "^1.3.4",
@@ -124,5 +131,6 @@
   },
   "filename": "wolfmarco___UniqueMediaExplorer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:34.967Z"
+  "lastFetchedAt": "2017-05-04T16:46:34.967Z",
+  "packageLastFetchedAt": "2017-05-05T15:33:46.169Z"
 }

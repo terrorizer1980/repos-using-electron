@@ -81,6 +81,7 @@
       "package": "asar pack TetrisWord.app/Contents/Resources/app TetrisWord.app/Contents/Resources/app",
       "build": "electron-packager . TetrisWord --ignore=node_modules/electron-* --platform=all --arch=all"
     },
+    "author": "Egar Rizki",
     "license": "GNU",
     "devDependencies": {
       "asar": "^0.12.1",
@@ -113,5 +114,6 @@
   },
   "filename": "ch0c01d___TetrisWord.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:54.607Z"
+  "lastFetchedAt": "2017-05-04T17:49:54.607Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:14.757Z"
 }

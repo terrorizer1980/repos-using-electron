@@ -78,6 +78,11 @@
     "description": "My super app",
     "license": "MIT",
     "repository": "liveyourheart/woke",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "github.com/liveyourheart"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -144,5 +149,6 @@
   },
   "filename": "liveyourheart___woke-electron-mockup.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:25:49.160Z"
+  "lastFetchedAt": "2017-05-04T15:25:49.160Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:27.487Z"
 }

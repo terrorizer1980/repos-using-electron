@@ -53,6 +53,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Jon Soeder <jon@chicago.com> (https://twitter.com/soederpop)",
     "license": "SEE LICENSE IN License.md",
     "dependencies": {
       "electron-ipc-responder": "^1.0.4",
@@ -122,5 +123,6 @@
   "svnUrl": "https://github.com/datapimp/electron-application",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:03:19.777Z"
+  "lastFetchedAt": "2017-05-04T18:03:19.777Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:11.855Z"
 }

@@ -52,6 +52,10 @@
     "description": "My beautiful app",
     "license": "MIT",
     "repository": "tokno/content-provider-gui",
+    "author": {
+      "name": "Takuya Okuno",
+      "email": "iwashi1629@gmail.com"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -128,5 +132,6 @@
   "svnUrl": "https://github.com/tokno/desktop-contact-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:20:13.362Z"
+  "lastFetchedAt": "2017-05-04T05:20:13.362Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:27.681Z"
 }

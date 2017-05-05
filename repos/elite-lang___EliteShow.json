@@ -88,7 +88,13 @@
     "authors": [
       "Sun Xiaofan <sun_xfancy@163.com>"
     ],
-    "repository": "https://github.com/sunxfancy/EliteShow",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sunxfancy/EliteShow.git"
+    },
+    "bugs": {
+      "url": "https://github.com/sunxfancy/EliteShow/issues"
+    },
     "keywords": [
       "elite",
       "show",
@@ -205,5 +211,6 @@
   },
   "filename": "elite-lang___EliteShow.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:53.148Z"
+  "lastFetchedAt": "2017-05-04T05:18:53.148Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:45.057Z"
 }

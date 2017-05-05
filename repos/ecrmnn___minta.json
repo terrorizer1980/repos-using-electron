@@ -85,6 +85,11 @@
       "compress": "cd dist/osx/Minta-darwin-x64 && tar cvzf Minta.tar.gz Minta.app"
     },
     "repository": "https://github.com/ecrmnn/minta",
+    "author": {
+      "name": "Daniel Eckermann",
+      "email": "danieleckermann@gmail.com",
+      "url": "http://danieleckermann.com"
+    },
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -121,5 +126,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:21.566Z"
+  "lastFetchedAt": "2017-05-04T19:30:21.566Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:02.215Z"
 }

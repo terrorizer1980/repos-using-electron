@@ -59,12 +59,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/nikharris0/electron-cloud",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nikharris0/electron-cloud"
+    },
     "keywords": [
       "Electron",
       "iCloud"
     ],
+    "author": "Nik Harris",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -115,5 +122,6 @@
   },
   "filename": "nikharris0___electron-cloud.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:23.077Z"
+  "lastFetchedAt": "2017-05-04T20:13:23.077Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:44.909Z"
 }

@@ -61,8 +61,15 @@
       "styles": "node_modules/.bin/stylus ./styles/index.styl -o ./assets/css",
       "layouts": "node_modules/.bin/jade ./layouts/index.jade -o ./assets/html"
     },
-    "repository": "https://github.com/hij1nx/levelui",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hij1nx/levelui.git"
+    },
+    "author": "hij1nx",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hij1nx/levelui/issues"
+    },
     "keywords": [
       "leveldb",
       "levelDB",
@@ -146,5 +153,6 @@
   },
   "filename": "0x00A___levelui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:17.797Z"
+  "lastFetchedAt": "2017-05-04T17:51:17.797Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:15.594Z"
 }

@@ -53,8 +53,15 @@
     "scripts": {
       "main": "app/main.js"
     },
+    "author": "Ville Talonpoika <ville@talonpoika.net> (http://nanof.us)",
     "license": "MIT",
-    "repository": "https://github.com/Nanofus/electron-noveljs-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Nanofus/electron-noveljs-boilerplate.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Nanofus/electron-noveljs-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -127,5 +134,6 @@
   "svnUrl": "https://github.com/Nanofus/electron-noveljs-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:08:28.895Z"
+  "lastFetchedAt": "2017-05-04T05:08:28.895Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:27.874Z"
 }

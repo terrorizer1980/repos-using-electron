@@ -187,5 +187,20 @@
   "networkCount": 1,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T15:33:21.031Z"
+  "lastFetchedAt": "2017-05-04T15:33:21.031Z",
+  "packageJSON": {
+    "name": "electron-exe",
+    "version": "0.1.0",
+    "author": "DrewHoo",
+    "scripts": {
+      "dist": "build"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "electron": "^1.4.15",
+      "electron-builder": "^14.5.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:04:05.511Z"
 }

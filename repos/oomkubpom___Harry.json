@@ -74,7 +74,11 @@
       "test": "standard && make test",
       "start": "node index.js"
     },
-    "repository": "https://github.com/segmentio/nightmare",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "bossbossk20",
     "keywords": [
       "nightmare",
       "electron"
@@ -133,5 +137,6 @@
   },
   "filename": "oomkubpom___Harry.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:45:28.932Z"
+  "lastFetchedAt": "2017-05-04T17:45:28.932Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:41.754Z"
 }

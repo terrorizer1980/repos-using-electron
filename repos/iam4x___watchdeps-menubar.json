@@ -76,6 +76,7 @@
       "build": "NODE_ENV=production babel-node ./build-app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "iam4x",
     "license": "ISC",
     "devDependencies": {
       "babel": "^5.8.23",
@@ -160,5 +161,6 @@
   },
   "filename": "iam4x___watchdeps-menubar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:17.392Z"
+  "lastFetchedAt": "2017-05-04T19:45:17.392Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:25.729Z"
 }

@@ -80,14 +80,21 @@
       "test": "electron ./www",
       "electron": "electron ./www"
     },
-    "repository": "https://github.com/TheNoim/AtomController",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TheNoim/AtomController.git"
+    },
     "keywords": [
       "smart",
       "home",
       "smarthome",
       "electron"
     ],
+    "author": "Noim <nilsbergmann@noim.io>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/TheNoim/AtomController/issues"
+    },
     "homepage": "https://github.com/TheNoim/AtomController#readme",
     "devDependencies": {
       "auto-install": "^1.7.2",
@@ -141,5 +148,6 @@
   },
   "filename": "TheNoim___AtomController.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:10.203Z"
+  "lastFetchedAt": "2017-05-04T20:48:10.203Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:51.952Z"
 }

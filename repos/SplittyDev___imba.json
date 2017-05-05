@@ -74,7 +74,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "app": "node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/SplittyDev/imba",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/SplittyDev/imba.git"
+    },
     "keywords": [
       "Jabber",
       "XMPP",
@@ -82,7 +85,11 @@
       "IM",
       "Messenger"
     ],
+    "author": "SplittyDev",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/SplittyDev/imba/issues"
+    },
     "homepage": "https://github.com/SplittyDev/imba#readme",
     "dependencies": {
       "react": "^15.3.1",
@@ -119,5 +126,6 @@
   },
   "filename": "SplittyDev___imba.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:52.275Z"
+  "lastFetchedAt": "2017-05-04T17:37:52.275Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:31.656Z"
 }

@@ -52,13 +52,20 @@
     "bin": {
       "fep": "cli.js"
     },
-    "repository": "https://github.com/jaredpalmer/framer-electron-preview",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jaredpalmer/framer-electron-preview.git"
+    },
     "keywords": [
       "Framer",
       "Electron"
     ],
+    "author": "Jared Palmer",
     "twitter": "@jaredpalmer",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jaredpalmer/framer-electron-preview/issues"
+    },
     "homepage": "https://github.com/jaredpalmer/framer-electron-preview",
     "dependencies": {
       "chalk": "^1.1.3",
@@ -111,5 +118,6 @@
   "svnUrl": "https://github.com/jaredpalmer/framer-electron-preview",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:59:29.994Z"
+  "lastFetchedAt": "2017-05-04T19:59:29.994Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:01.956Z"
 }

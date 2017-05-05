@@ -105,8 +105,15 @@
       "start": "electron ./out/main.js",
       "test": "node_modules/.bin/jest --coverage"
     },
-    "repository": "https://github.com/CrazyCompiler/directoryGraph",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CrazyCompiler/directoryGraph.git"
+    },
+    "author": "Viraj Parab",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/CrazyCompiler/directoryGraph/issues"
+    },
     "homepage": "https://github.com/CrazyCompiler/directoryGraph#readme",
     "globals": {
       "__DEV__": true
@@ -147,5 +154,6 @@
   },
   "filename": "CrazyCompiler___directoryGraph.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:16.767Z"
+  "lastFetchedAt": "2017-05-04T17:57:16.767Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:08.372Z"
 }

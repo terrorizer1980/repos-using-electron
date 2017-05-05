@@ -82,13 +82,21 @@
       "package": "electron-packager . cgram --platform=darwin --arch=x64 --out=~/Desktop --overwrite --icon=assets/cgram.icns "
     },
     "license": "MIT",
-    "repository": "https://github.com/Cwoodall6/cgram",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Cwoodall6/cgram"
+    },
     "keywords": [
       "Instagram",
       "chat",
       "Facebook",
       "social"
     ],
+    "author": {
+      "name": "Chaz Woodall",
+      "email": "chazwoodall@gmail.com",
+      "url": "http://chazwoodall.com"
+    },
     "devDependencies": {
       "electron": "^1.3.3",
       "electron-packager": "^7.7.0"
@@ -119,5 +127,6 @@
   },
   "filename": "Cwoodall6___cgram.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:31:57.317Z"
+  "lastFetchedAt": "2017-05-04T05:31:57.317Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:32.671Z"
 }

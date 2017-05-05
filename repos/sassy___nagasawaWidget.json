@@ -79,16 +79,20 @@
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . nagasawa --platform=darwin --arch=x64 --version=1.4.4 --icon=res/marina.icns",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "mocha test/test.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
+      "devtron": "^1.4.0",
+      "redux": "^3.6.0",
       "vue": "^2.0.3"
     },
     "devDependencies": {
       "electron": "^1.4.4",
-      "electron-packager": "^8.2.0"
+      "electron-packager": "^8.2.0",
+      "mocha": "^3.2.0",
+      "spectron": "^3.4.0"
     }
   },
   "packageStatus": 200,
@@ -116,5 +120,6 @@
   },
   "filename": "sassy___nagasawaWidget.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:39.845Z"
+  "lastFetchedAt": "2017-05-04T20:39:39.845Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:35.454Z"
 }

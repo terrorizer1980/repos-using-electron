@@ -67,7 +67,10 @@
     "scripts": {
       "test": "jasmine-node spec/"
     },
-    "repository": "https://github.com/AskiaADX/ADXStudio",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AskiaADX/ADXStudio.git"
+    },
     "keywords": [
       "ADX",
       "ADC",
@@ -75,7 +78,11 @@
       "Design",
       "Control"
     ],
+    "author": "Askia SAS",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/AskiaADX/ADXStudio/issues"
+    },
     "homepage": "https://github.com/AskiaADX/ADXStudio",
     "dependencies": {
       "adcutil": "^1.1.1",
@@ -138,5 +145,6 @@
   "svnUrl": "https://github.com/AskiaADX/ADXStudio",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:29:36.659Z"
+  "lastFetchedAt": "2017-05-04T05:29:36.659Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:11.338Z"
 }

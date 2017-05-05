@@ -94,11 +94,17 @@
       "start": "electron ."
     },
     "dependencies": {},
-    "repository": "https://github.com/bitpay/i-made-this",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/bitpay/i-made-this.git"
+    },
     "keywords": [
       "bitcore"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bitpay/i-made-this/issues"
+    },
     "homepage": "https://github.com/bitpay/i-made-this",
     "devDependencies": {
       "electron-prebuilt": "^0.34.1"
@@ -129,5 +135,6 @@
   },
   "filename": "bitpay___i-made-this.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:45.658Z"
+  "lastFetchedAt": "2017-05-04T05:35:45.658Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:32.948Z"
 }

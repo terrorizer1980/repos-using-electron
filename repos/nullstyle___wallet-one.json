@@ -60,9 +60,16 @@
       "start": "electron build/app/main.js",
       "make": "node build.js"
     },
-    "repository": "https://github.com/nullstyle/wallet-one",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nullstyle/wallet-one.git"
+    },
     "keywords": [],
+    "author": "Scott Fleckenstein <nullstyle@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nullstyle/wallet-one/issues"
+    },
     "homepage": "https://github.com/nullstyle/wallet-one#readme",
     "devDependencies": {
       "babel-eslint": "^4.1.5",
@@ -153,5 +160,6 @@
   "svnUrl": "https://github.com/nullstyle/wallet-one",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:36:00.021Z"
+  "lastFetchedAt": "2017-05-04T17:36:00.021Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:00.563Z"
 }

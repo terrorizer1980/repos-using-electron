@@ -75,7 +75,11 @@
     "name": "blue",
     "version": "0.4.0",
     "description": "share peripherals and screens between macs",
-    "repository": "https://github.com/mysticflute/blue",
+    "author": "Nathan McWilliams",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mysticflute/blue"
+    },
     "license": "BSD-3-Clause",
     "main": "src/main.js",
     "scripts": {
@@ -133,5 +137,6 @@
   },
   "filename": "mysticflute___blue.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:08:15.256Z"
+  "lastFetchedAt": "2017-05-04T20:08:15.256Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:26.932Z"
 }

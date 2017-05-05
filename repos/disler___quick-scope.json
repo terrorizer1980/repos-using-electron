@@ -80,6 +80,7 @@
       "start": "electron .",
       "build": "build --x64 --publish never"
     },
+    "author": "disler",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -118,5 +119,6 @@
   "filename": "disler___quick-scope.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:48.404Z"
+  "lastFetchedAt": "2017-05-04T21:14:48.404Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:38.090Z"
 }

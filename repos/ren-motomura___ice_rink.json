@@ -54,10 +54,14 @@
     "scripts": {
       "start": "electron src/main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "ren.motomura",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -120,5 +124,6 @@
   },
   "filename": "ren-motomura___ice_rink.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:32:43.019Z"
+  "lastFetchedAt": "2017-05-04T19:32:43.019Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:10.018Z"
 }

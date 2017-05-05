@@ -88,22 +88,17 @@
       "start": "electron binary/main.js"
     },
     "repository": {
-      "user": "karyfoundationl",
-      "repo": "something",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/karyfoundationl/something/tarball/master",
-      "clone_url": "https://github.com/karyfoundationl/something",
-      "https_url": "https://github.com/karyfoundationl/something",
-      "travis_url": "https://travis-ci.org/karyfoundationl/something",
-      "zip_url": "https://github.com/karyfoundationl/something/archive/master.zip",
-      "api_url": "https://api.github.com/repos/karyfoundationl/something"
+      "type": "git",
+      "url": "https://github.com/karyfoundationl/something"
     },
     "keywords": [
       "Kary Foundation"
     ],
+    "author": "Kary Foundation",
     "license": "GPLv3.0",
+    "bugs": {
+      "url": "https://github.com/karyfoundationl/something/issues"
+    },
     "homepage": "https://www.karyfoundation.org/developer/comment",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -135,5 +130,6 @@
   "filename": "karyfoundation___kf-electron-base-template.json",
   "sourceRepo": "pmkary/heatvision",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:16:24.884Z"
+  "lastFetchedAt": "2017-05-04T05:16:24.884Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:09.347Z"
 }

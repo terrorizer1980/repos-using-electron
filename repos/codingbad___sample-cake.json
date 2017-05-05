@@ -193,6 +193,7 @@
       "assistant",
       "ai"
     ],
+    "author": "Damir Mustafin",
     "license": "UNLICENSED",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -201,17 +202,11 @@
       "jquery": "^2.2.3"
     },
     "repository": {
-      "user": "frenchbread",
-      "repo": "sample-cake",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/frenchbread/sample-cake/tarball/master",
-      "clone_url": "https://github.com/frenchbread/sample-cake",
-      "https_url": "https://github.com/frenchbread/sample-cake",
-      "travis_url": "https://travis-ci.org/frenchbread/sample-cake",
-      "zip_url": "https://github.com/frenchbread/sample-cake/archive/master.zip",
-      "api_url": "https://api.github.com/repos/frenchbread/sample-cake"
+      "type": "git",
+      "url": "git+https://github.com/frenchbread/sample-cake.git"
+    },
+    "bugs": {
+      "url": "https://github.com/frenchbread/sample-cake/issues"
     },
     "homepage": "https://github.com/frenchbread/sample-cake#readme"
   },
@@ -261,5 +256,6 @@
   "svnUrl": "https://github.com/codingbad/sample-cake",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:13:52.815Z"
+  "lastFetchedAt": "2017-05-04T18:13:52.815Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:28.902Z"
 }

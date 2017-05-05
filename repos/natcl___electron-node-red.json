@@ -71,7 +71,10 @@
       "build:linux32": "npm run pack:linux32 && fpm -s dir -t deb -f -n node-red-electron -v 0.13.4 -m conway@uk.ibm.com -a i386 -p dist dist/Node-RED-linux-ia32/",
       "build:linux": "npm run pack:linux && fpm -s dir -t deb -f -n node-red-electron -v 0.13.4 -m conway@uk.ibm.com -a x86_64 -p dist dist/Node-RED-linux-x64/"
     },
-    "repository": "https://github.com/dceejay/electron-node-red",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dceejay/electron-node-red.git"
+    },
     "dependencies": {
       "node-red": "^0.15.0",
       "node-red-dashboard": "^2.1.0",
@@ -97,6 +100,9 @@
       }
     ],
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/dceejay/electron-node-red/issues"
+    },
     "homepage": "https://github.com/dceejay/electron-node-red#readme",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -148,5 +154,6 @@
   "svnUrl": "https://github.com/natcl/electron-node-red",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:34:51.795Z"
+  "lastFetchedAt": "2017-05-04T18:34:51.795Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:19.737Z"
 }

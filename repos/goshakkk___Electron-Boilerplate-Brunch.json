@@ -172,6 +172,11 @@
     "description": "My riveting app",
     "license": "MIT",
     "repository": "theperducogroup/electron-boilerplate",
+    "author": {
+      "name": "James Abels",
+      "email": "jamesrabels@gmail.com",
+      "url": "theperducogroup.com"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -264,5 +269,6 @@
   "filename": "goshakkk___Electron-Boilerplate-Brunch.json",
   "sourceRepo": "jamesabels/Weekend-Brunch",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:19.917Z"
+  "lastFetchedAt": "2017-05-04T14:20:19.917Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:14.154Z"
 }

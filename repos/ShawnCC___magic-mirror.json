@@ -81,8 +81,15 @@
       "app-start-dev": "NODE_ENV=development electron .",
       "gulp": "./node_modules/.bin/gulp"
     },
-    "repository": "https://github.com/ShawnCC/magic-mirror",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ShawnCC/magic-mirror.git"
+    },
+    "author": "Shawn Crusvar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ShawnCC/magic-mirror/issues"
+    },
     "homepage": "https://github.com/ShawnCC/magic-mirror",
     "dependencies": {
       "electron": "^1.4.1"
@@ -140,5 +147,6 @@
   },
   "filename": "ShawnCC___magic-mirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:31.308Z"
+  "lastFetchedAt": "2017-05-04T19:54:31.308Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:34.779Z"
 }

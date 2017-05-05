@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron index.js"
     },
-    "repository": "https://github.com/huntdog1541/Web_Terminal",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/huntdog1541/Web_Terminal.git"
+    },
     "keywords": [
       "terminal"
     ],
+    "author": "David Hunt",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/huntdog1541/Web_Terminal/issues"
+    },
     "homepage": "https://github.com/huntdog1541/Web_Terminal#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.2"
@@ -108,5 +115,6 @@
   },
   "filename": "huntdog1541___Web_Terminal.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:40:58.041Z"
+  "lastFetchedAt": "2017-05-04T20:40:58.041Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:03.861Z"
 }

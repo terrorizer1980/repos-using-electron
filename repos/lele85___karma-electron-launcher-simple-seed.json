@@ -58,12 +58,12 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "electron-prebuilt": "0.34.3"
+      "electron": "1.6.1"
     },
     "devDependencies": {
       "jasmine-core": "^2.3.4",
       "karma": "^0.13.15",
-      "karma-electron-launcher": "0.0.3",
+      "karma-electron-launcher": "0.2.0",
       "karma-jasmine": "^0.3.6"
     }
   },
@@ -112,5 +112,6 @@
   },
   "filename": "lele85___karma-electron-launcher-simple-seed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:49.325Z"
+  "lastFetchedAt": "2017-05-04T14:26:49.325Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:12.894Z"
 }

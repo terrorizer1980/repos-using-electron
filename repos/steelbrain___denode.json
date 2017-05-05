@@ -53,15 +53,15 @@
   "status": 200,
   "packageJSON": {
     "name": "denode",
-    "version": "1.8.3",
+    "version": "1.10.5",
     "description": "Debug node apps like a pro",
     "bin": {
-      "denode": "./index.js"
+      "denode": "./browser/index.js"
     },
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/steelbrain/denode.git"
     },
-    "repository": "https://github.com/steelbrain/denode",
     "keywords": [
       "electron",
       "node",
@@ -69,10 +69,18 @@
       "profile"
     ],
     "productName": "DeNode",
+    "author": "steelbrain",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/steelbrain/denode/issues"
+    },
     "homepage": "https://github.com/steelbrain/denode#readme",
     "dependencies": {
-      "electron": "1.4.2"
+      "devtron": "^1.4.0",
+      "electron": "^1.4.15",
+      "electron-context-menu": "^0.8.0",
+      "electron-debug": "^1.1.0",
+      "electron-devtools-installer": "^2.1.0"
     }
   },
   "packageStatus": 200,
@@ -120,5 +128,6 @@
   "svnUrl": "https://github.com/steelbrain/denode",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:18:20.239Z"
+  "lastFetchedAt": "2017-05-04T15:18:20.239Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:03.729Z"
 }

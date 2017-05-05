@@ -56,8 +56,15 @@
     "version": "1.3.0",
     "productName": "Foco",
     "description": "Stay focused with Foco and boosts productivity 🚀 by creating perfect productive environment.",
+    "author": "Akash Nimare",
     "license": "MIT",
-    "repository": "https://github.com/akashnimare/foco",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/akashnimare/foco"
+    },
+    "bugs": {
+      "url": "https://github.com/akashnimare/foco/issues"
+    },
     "main": "index.js",
     "scripts": {
       "test": "standard",
@@ -136,5 +143,6 @@
   },
   "filename": "akashnimare___foco.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:07.715Z"
+  "lastFetchedAt": "2017-05-04T14:25:07.715Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:27.737Z"
 }

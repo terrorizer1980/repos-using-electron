@@ -75,8 +75,12 @@
     "name": "electron-koa-hello-world",
     "description": "Builder for Electron Koa App",
     "version": "0.0.0",
+    "author": "Chris Veness",
     "license": "MIT",
-    "repository": "https://github.com/chrisveness/electron-koa-app",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/chrisveness/electron-koa-app"
+    },
     "scripts": {
       "start": "electron app/main.js",
       "build": "build",
@@ -119,5 +123,6 @@
   },
   "filename": "chrisveness___electron-koa-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:52.171Z"
+  "lastFetchedAt": "2017-05-04T17:46:52.171Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:43.074Z"
 }

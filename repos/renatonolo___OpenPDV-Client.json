@@ -84,7 +84,10 @@
       "tsc:w": "tsc -w",
       "typings": "typings"
     },
-    "repository": "https://github.com/renatonolo/OpenPDV-Client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/renatonolo/OpenPDV-Client.git"
+    },
     "keywords": [
       "pdv",
       "pos",
@@ -95,7 +98,11 @@
       "of",
       "sales"
     ],
+    "author": "Renato N. Lourenço",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/renatonolo/OpenPDV-Client/issues"
+    },
     "homepage": "https://github.com/renatonolo/OpenPDV-Client#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -149,5 +156,6 @@
   },
   "filename": "renatonolo___OpenPDV-Client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:39.555Z"
+  "lastFetchedAt": "2017-05-04T17:49:39.555Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:34.438Z"
 }

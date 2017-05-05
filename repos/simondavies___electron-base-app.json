@@ -54,7 +54,10 @@
       "start": "electron ./app/App.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/simondavies/electron-base-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simondavies/electron-base-app.git"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -63,7 +66,11 @@
       "node",
       "javascript"
     ],
+    "author": "Simon Davies",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/simondavies/electron-base-app/issues"
+    },
     "homepage": "https://github.com/simondavies/electron-base-app#readme",
     "devDependencies": {
       "babelify": "^6.1.2",
@@ -126,5 +133,6 @@
   },
   "filename": "simondavies___electron-base-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:05:33.548Z"
+  "lastFetchedAt": "2017-05-04T05:05:33.548Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:31.843Z"
 }

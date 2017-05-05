@@ -74,11 +74,18 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/fernandoj92/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fernandoj92/electron-test.git"
+    },
     "keywords": [
       "NodeJS"
     ],
+    "author": "fernandoj92",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fernandoj92/electron-test/issues"
+    },
     "homepage": "https://github.com/fernandoj92/electron-test#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.8",
@@ -115,5 +122,6 @@
   },
   "filename": "fernandoj92___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:21:10.492Z"
+  "lastFetchedAt": "2017-05-04T15:21:10.492Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:43.607Z"
 }

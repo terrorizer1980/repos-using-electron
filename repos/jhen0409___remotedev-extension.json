@@ -75,7 +75,10 @@
     "name": "remotedev-extension",
     "version": "0.0.10",
     "description": "Use Redux DevTools in the Browser/Electron DevTools",
-    "repository": "https://github.com/jhen0409/remotedev-extension",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jhen0409/remotedev-extension.git"
+    },
     "keywords": [
       "remote",
       "redux",
@@ -100,6 +103,7 @@
       "build": "webpack --stats --progress",
       "prepublish": "node bin/cli.js && npm run build"
     },
+    "author": "Jhen <developer@jhen.me>",
     "license": "MIT",
     "devDependencies": {
       "node-zip": "^1.1.1",
@@ -138,5 +142,6 @@
   },
   "filename": "jhen0409___remotedev-extension.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:40.310Z"
+  "lastFetchedAt": "2017-05-04T14:26:40.310Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:43.879Z"
 }

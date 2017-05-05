@@ -78,6 +78,11 @@
     "description": "My flawless app",
     "license": "MIT",
     "repository": "voluntadpear/othello",
+    "author": {
+      "name": "Guillermo Peralta",
+      "email": "gperaltascura@gmail.com",
+      "url": "pol.una.py"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -139,5 +144,6 @@
   },
   "filename": "voluntadpear___othello.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:57.367Z"
+  "lastFetchedAt": "2017-05-04T19:36:57.367Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:56.126Z"
 }

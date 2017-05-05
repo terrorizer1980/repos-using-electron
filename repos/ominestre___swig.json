@@ -74,6 +74,7 @@
       "start": "set ELECTRON_ENABLE_LOGGING=true&&set NODE_ENV=dev&&electron .",
       "prod": "electron ."
     },
+    "author": "ominestre",
     "license": "ISC",
     "dependencies": {
       "electron": "^0.4.1",
@@ -116,5 +117,6 @@
   },
   "filename": "ominestre___swig.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:58.151Z"
+  "lastFetchedAt": "2017-05-04T20:27:58.151Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:01.532Z"
 }

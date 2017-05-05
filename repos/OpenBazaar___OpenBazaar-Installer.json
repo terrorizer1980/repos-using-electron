@@ -68,20 +68,27 @@
   "packageJSON": {
     "name": "openbazaar",
     "productName": "OpenBazaar",
-    "version": "1.1.9",
+    "version": "1.1.11",
     "description": "Decentralized Peer to Peer Marketplace for Bitcoin",
     "main": "Gruntfile.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/OpenBazaar/OpenBazaar-Installer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OpenBazaar/OpenBazaar-Installer.git"
+    },
     "keywords": [
       "p2p",
       "bitcoin",
       "ecommerce",
       "decentralized"
     ],
+    "author": "OpenBazaar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/OpenBazaar/OpenBazaar-Installer/issues"
+    },
     "homepage": "https://github.com/OpenBazaar/OpenBazaar-Installer#readme",
     "devDependencies": {
       "electron-installer-dmg": "^0.1.0",
@@ -147,5 +154,6 @@
   "svnUrl": "https://github.com/OpenBazaar/OpenBazaar-Installer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:32:51.685Z"
+  "lastFetchedAt": "2017-05-04T15:32:51.685Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:07.064Z"
 }

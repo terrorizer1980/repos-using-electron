@@ -194,19 +194,14 @@
       "pack-lin": "electron-packager . Git-it --platform=linux --arch=x64   --version=0.31.2 --icon=assets/git-it.png --ignore='node_modules/standard'"
     },
     "repository": {
-      "user": "jlord",
-      "repo": "git-it-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jlord/git-it-electron/tarball/master",
-      "clone_url": "https://github.com/jlord/git-it-electron",
-      "https_url": "https://github.com/jlord/git-it-electron",
-      "travis_url": "https://travis-ci.org/jlord/git-it-electron",
-      "zip_url": "https://github.com/jlord/git-it-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jlord/git-it-electron"
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
     },
+    "author": "Jessica Lord",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
     "homepage": "https://github.com/jlord/git-it-electron",
     "devDependencies": {
       "electron-prebuilt": "^0.33.0"
@@ -265,5 +260,6 @@
   "svnUrl": "https://github.com/mapconcierge/git-it-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:42:54.331Z"
+  "lastFetchedAt": "2017-05-04T16:42:54.331Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:23.226Z"
 }

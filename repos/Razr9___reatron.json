@@ -57,11 +57,15 @@
       "dev": "webpack --config ./webpack.config.babel.js --watch",
       "pack": "electron-packager ./ Reatron --platform=win32 --arch=ia32 --out=./releases --prune --ignore=\"(/app|.gitignore|webpack.config.babel.js|.babelrc|/releases).*\""
     },
-    "repository": "https://github.com/razr9/reatron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DevNvll/reatron.git"
+    },
     "keywords": [
       "react",
       "electron"
     ],
+    "author": "Henrick Mello",
     "license": "MIT",
     "dependencies": {
       "electron": "^1.3.3",
@@ -129,5 +133,6 @@
   "svnUrl": "https://github.com/DevNvll/reatron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:12:35.208Z"
+  "lastFetchedAt": "2017-05-04T21:12:35.208Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:59.296Z"
 }

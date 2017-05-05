@@ -189,19 +189,11 @@
       "travis": "standard src/*.js",
       "prepublish": "gulp build"
     },
+    "author": "Jens Lind <jens@jensl.se> (jenslind.com)",
     "license": "MIT",
     "repository": {
-      "user": "jenslind",
-      "repo": "electron-gh-releases",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jenslind/electron-gh-releases/tarball/master",
-      "clone_url": "https://github.com/jenslind/electron-gh-releases",
-      "https_url": "https://github.com/jenslind/electron-gh-releases",
-      "travis_url": "https://travis-ci.org/jenslind/electron-gh-releases",
-      "zip_url": "https://github.com/jenslind/electron-gh-releases/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jenslind/electron-gh-releases"
+      "type": "git",
+      "url": "https://github.com/jenslind/electron-gh-releases.git"
     }
   },
   "packageStatus": 200,
@@ -250,5 +242,6 @@
   "filename": "blainesch___electron-gh-releases.json",
   "sourceRepo": "jenslind/electron-gh-releases",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:55:34.783Z"
+  "lastFetchedAt": "2017-05-04T19:55:34.783Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:57.703Z"
 }

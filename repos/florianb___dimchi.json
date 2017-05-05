@@ -90,12 +90,19 @@
       "start": "electron .",
       "repl": "node"
     },
-    "repository": "https://github.com/florianb/dimchi",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/florianb/dimchi.git"
+    },
     "keywords": [
       "dimensiondata",
       "cloud"
     ],
+    "author": "Florian Breisch <florian.breisch@mindkeeper.solutions>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/florianb/dimchi/issues"
+    },
     "homepage": "https://github.com/florianb/dimchi#readme",
     "devDependencies": {
       "ava": "^0.14.0",
@@ -171,5 +178,6 @@
   },
   "filename": "florianb___dimchi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:57.381Z"
+  "lastFetchedAt": "2017-05-04T17:47:57.381Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:15.976Z"
 }

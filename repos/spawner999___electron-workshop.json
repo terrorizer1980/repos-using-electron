@@ -75,6 +75,14 @@
     "name": "electron-workshop",
     "description": "A Markdown-to-HTML renderer",
     "version": "1.0.0",
+    "author": {
+      "name": "Feross Aboukhadijeh",
+      "email": "feross@feross.org",
+      "url": "http://feross.org/"
+    },
+    "bugs": {
+      "url": "https://github.com/feross/electron-workshop/issues"
+    },
     "dependencies": {
       "drag-drop": "^2.12.1",
       "jquery": "^3.1.1",
@@ -95,17 +103,8 @@
     "main": "lib/main.js",
     "private": true,
     "repository": {
-      "user": "feross",
-      "repo": "electron-workshop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/feross/electron-workshop/tarball/master",
-      "clone_url": "https://github.com/feross/electron-workshop",
-      "https_url": "https://github.com/feross/electron-workshop",
-      "travis_url": "https://travis-ci.org/feross/electron-workshop",
-      "zip_url": "https://github.com/feross/electron-workshop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/feross/electron-workshop"
+      "type": "git",
+      "url": "git://github.com/feross/electron-workshop.git"
     },
     "scripts": {
       "package": "electron-packager . 'Markdown Editor'",
@@ -139,5 +138,6 @@
   "filename": "spawner999___electron-workshop.json",
   "sourceRepo": "feross/electron-workshop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:05.809Z"
+  "lastFetchedAt": "2017-05-04T14:19:05.809Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:23.005Z"
 }

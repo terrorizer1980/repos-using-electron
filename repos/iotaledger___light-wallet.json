@@ -95,6 +95,7 @@
       "prepublish": "cd app && bower install && cd ../ui && bower install",
       "start": "export NODE_ENV=development || set NODE_ENV=development && electron app/js/main.js"
     },
+    "author": "IOTA Foundation <info@iotatoken.com>",
     "homepage": "https://www.iotatoken.com/",
     "dependencies": {
       "follow-redirects": "^0.1.0",
@@ -133,5 +134,6 @@
   "filename": "iotaledger___light-wallet.json",
   "sourceRepo": "iotaledger/wallet",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:09:02.337Z"
+  "lastFetchedAt": "2017-05-04T20:09:02.337Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:45.507Z"
 }

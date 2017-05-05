@@ -73,13 +73,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/sandipchitale/eportmon",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sandipchitale/eportmon.git"
+    },
     "keywords": [
       "Electron",
       "portmon",
       "netstat"
     ],
+    "author": "Sandip Chitale",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/sandipchitale/eportmon/issues"
+    },
     "homepage": "https://github.com/sandipchitale/eportmon/#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -115,5 +122,6 @@
   },
   "filename": "sandipchitale___eportmon.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:57:42.800Z"
+  "lastFetchedAt": "2017-05-04T19:57:42.800Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:30.578Z"
 }

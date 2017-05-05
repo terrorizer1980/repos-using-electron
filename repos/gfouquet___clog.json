@@ -78,6 +78,11 @@
     "description": "My excellent app",
     "license": "MIT",
     "repository": "gfouquet/clog",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "github.com/gfouquet"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -141,5 +146,6 @@
   },
   "filename": "gfouquet___clog.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:02:25.592Z"
+  "lastFetchedAt": "2017-05-04T18:02:25.592Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:15.427Z"
 }

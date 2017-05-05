@@ -78,6 +78,11 @@
     "description": "My tiptop app",
     "license": "MIT",
     "repository": "keithmattix/audiodemo",
+    "author": {
+      "name": "Keith Mattix",
+      "email": "clear2codeu@gmail.com",
+      "url": "keithmattix.com"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -138,5 +143,6 @@
   },
   "filename": "keithmattix___audioDemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:41:59.216Z"
+  "lastFetchedAt": "2017-05-04T20:41:59.216Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:36.061Z"
 }

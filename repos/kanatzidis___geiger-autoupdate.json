@@ -73,7 +73,10 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/kanatzidis/geiger-autoupdate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kanatzidis/geiger-autoupdate.git"
+    },
     "keywords": [
       "geiger",
       "electron",
@@ -82,7 +85,11 @@
       "auto",
       "update"
     ],
+    "author": "Alabaster Technologies, LLC",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kanatzidis/geiger-autoupdate/issues"
+    },
     "homepage": "https://github.com/kanatzidis/geiger-autoupdate#readme",
     "peerDependencies": {
       "electron": "^1.0.0"
@@ -117,5 +124,6 @@
   },
   "filename": "kanatzidis___geiger-autoupdate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:49:29.364Z"
+  "lastFetchedAt": "2017-05-04T20:49:29.364Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:52.309Z"
 }

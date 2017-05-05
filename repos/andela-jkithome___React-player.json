@@ -74,8 +74,15 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/andela-jkithome/React-player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andela-jkithome/React-player.git"
+    },
+    "author": "Jeremy Kithome",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/andela-jkithome/React-player/issues"
+    },
     "homepage": "https://github.com/andela-jkithome/React-player#readme",
     "dependencies": {
       "axios": "^0.9.1",
@@ -119,5 +126,6 @@
   },
   "filename": "andela-jkithome___React-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:02.831Z"
+  "lastFetchedAt": "2017-05-04T20:46:02.831Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:31.572Z"
 }

@@ -60,6 +60,7 @@
       "start": "electron main.js",
       "build": "electron-packager . dearu --platform=all --arch=x64 --version=0.36.8 --asar --out=out"
     },
+    "author": "Toshihiro Shimizu",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -111,5 +112,6 @@
   },
   "filename": "meso___dearu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:53.459Z"
+  "lastFetchedAt": "2017-05-04T20:22:53.459Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:14.402Z"
 }

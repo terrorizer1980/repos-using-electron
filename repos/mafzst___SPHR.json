@@ -55,6 +55,7 @@
     "name": "react-electron",
     "version": "0.2.0",
     "description": "An electron desktop app to live reload the Symfony Profiler during development",
+    "author": "Nicolas Perraut <contact@nicolas-perraut.fr>",
     "contributors": "Nicolas Perraut <contact@nicolas-perraut.fr>",
     "license": "GNU GPL v3",
     "keywords": [
@@ -64,7 +65,13 @@
       "live reload"
     ],
     "homepage": "http://projets.nicolas-perraut.fr/SPHR",
-    "repository": "https://github.com/mafzst/SPHR",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mafzst/SPHR"
+    },
+    "bugs": {
+      "url": "https://github.com/mafzst/SPHR/issues"
+    },
     "main": "main.js",
     "scripts": {
       "build": "npm run webpack && npm run inject-scripts-prod",
@@ -148,5 +155,6 @@
   },
   "filename": "mafzst___SPHR.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:07:57.126Z"
+  "lastFetchedAt": "2017-05-03T20:07:57.126Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:48.568Z"
 }

@@ -91,6 +91,7 @@
     "license": "GPL-3.0",
     "description": "DragAndWatch is a free desktop application for Mac and PC that allows you to get your favorite subtitles by dragging and dropping your file in the app.",
     "manifestUrl": "https://raw.githubusercontent.com/DragAndWatch/application/master/app/package.json",
+    "bugs": "mailto:mathieu.letyrant@gmail.com",
     "main": "main.js",
     "scripts": {
       "init": "npm i && bower i gulp electron-rebuild",
@@ -158,5 +159,6 @@
   },
   "filename": "DragAndWatch___Dragand-App.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:58.641Z"
+  "lastFetchedAt": "2017-05-04T04:57:58.641Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:30.657Z"
 }

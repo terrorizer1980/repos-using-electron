@@ -73,5 +73,28 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:38:42.879Z"
+  "lastFetchedAt": "2017-05-04T19:38:42.879Z",
+  "packageJSON": {
+    "name": "My HTTP",
+    "version": "0.0.1",
+    "author": {
+      "name": "Ukjae Jeong",
+      "email": "jeongukjae@gmail.com",
+      "url": "https://github.com/jeongukjae"
+    },
+    "description": "A light tool that helps testing http and https protocol.",
+    "main": "src/main.js",
+    "license": "MIT License",
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "^1.6.1"
+    },
+    "bugs": {
+      "email": "jeongukjae@gmail.com"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T23:02:32.457Z"
 }

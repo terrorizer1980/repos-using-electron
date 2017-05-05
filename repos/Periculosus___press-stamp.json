@@ -67,5 +67,39 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:11:04.311Z"
+  "lastFetchedAt": "2017-05-04T18:11:04.311Z",
+  "packageJSON": {
+    "name": "press-stamp",
+    "version": "0.0.1",
+    "description": "By the way of theoretical analysis of work of universal compensator of slide-block direction errors in analytic form for calculation of contact ratio of opening in compensator plates was found and software for modeling of working of concerned arrangement was made in the article.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
+    "keywords": [
+      "press-stamp system",
+      "compensator",
+      "elastic plate",
+      "contact ratio"
+    ],
+    "author": "Alex Babaevsky",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "jQuery": "3.1.1"
+    },
+    "dependencies": {
+      "electron-window-manager": "^1.0.1"
+    },
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
+    "homepage": "https://github.com/electron/electron-quick-start#readme"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:27:38.818Z"
 }

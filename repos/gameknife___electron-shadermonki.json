@@ -78,21 +78,26 @@
     "main": "main.js",
     "scripts": {
       "start": "electron .",
-      "pack": "electron-packager . --all",
+      "pack": "electron-packager . --arch=all",
       "watch-js": "watchify main.js -o bundle.js -dv",
-      "build-js": "browserify main.js > bundle.js"
+      "build-js": "browserify main.js > bundle.js",
+      "test": "tape test/loader-osgjs.js",
+      "pkg-postprocess": "tape test/pkg-postprocess.js",
+      "package-build": "tape test/package-build.js"
     },
     "repository": "https://github.com/gameknife/electron-shadermonki",
     "keywords": [
       "Electron",
       "Shader"
     ],
+    "author": "gameKnife",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-packager": "^8.2.0",
       "browserify": "^13.1.1",
-      "watchify": "^3.7.0"
+      "watchify": "^3.7.0",
+      "tape": "~2.3.2"
     },
     "build": {
       "appId": "gameknife.shadermonki",
@@ -106,7 +111,8 @@
     "dependencies": {
       "fs-extra": "^1.0.0",
       "bluebird": "^3.4.6",
-      "fs-promise": "^1.0.0"
+      "fs-promise": "^1.0.0",
+      "gl-matrix": "2.3.2"
     }
   },
   "packageStatus": 200,
@@ -134,5 +140,6 @@
   },
   "filename": "gameknife___electron-shadermonki.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:35.618Z"
+  "lastFetchedAt": "2017-05-04T21:01:35.618Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:21.804Z"
 }

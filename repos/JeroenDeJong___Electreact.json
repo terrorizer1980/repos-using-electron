@@ -80,6 +80,7 @@
       "start": "./node_modules/.bin/electron dist/main.js",
       "watch": "./node_modules/.bin/babel --presets es2015,react src --watch --out-dir dist"
     },
+    "author": "Jeroen de Jong",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.10.1",
@@ -120,5 +121,6 @@
   },
   "filename": "JeroenDeJong___Electreact.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:11:48.770Z"
+  "lastFetchedAt": "2017-05-04T20:11:48.770Z",
+  "packageLastFetchedAt": "2017-05-05T14:25:00.420Z"
 }

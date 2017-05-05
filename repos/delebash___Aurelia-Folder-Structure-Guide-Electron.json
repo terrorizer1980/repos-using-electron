@@ -82,6 +82,7 @@
       "build-mac": "electron-packager . 'ElectronAureliaPouchSyncfusion' --platform=darwin --arch=x64 --version=1.4.2 --overwrite --out ./build/mac",
       "build-win": "electron-packager . 'ElectronAureliaPouchSyncfusion' --platform=win32 --arch=x64 --version=1.4.2 --overwrite --out ./build/win"
     },
+    "author": "Daniel Elebash",
     "homepage": "http://ageektech.com",
     "license": "MIT",
     "keywords": [
@@ -91,7 +92,10 @@
       "pouchdb",
       "leveldown"
     ],
-    "repository": "https://github.com/delebash/ElectronAureliaPouchSyncfusion",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/delebash/ElectronAureliaPouchSyncfusion.git"
+    },
     "devDependencies": {
       "electron": "^1.4.2",
       "electron-packager": "^8.1.0"
@@ -122,5 +126,6 @@
   },
   "filename": "delebash___Aurelia-Folder-Structure-Guide-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:37:31.633Z"
+  "lastFetchedAt": "2017-05-04T19:37:31.633Z",
+  "packageLastFetchedAt": "2017-05-04T22:02:57.184Z"
 }

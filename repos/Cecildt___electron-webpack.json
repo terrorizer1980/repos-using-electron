@@ -82,8 +82,15 @@
       "start": "electron main.js",
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached"
     },
-    "repository": "https://github.com/Cecildt/electron-webpack",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cecildt/electron-webpack.git"
+    },
+    "author": "Cecil du Toit",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Cecildt/electron-webpack/issues"
+    },
     "homepage": "https://github.com/Cecildt/electron-webpack#readme",
     "devDependencies": {
       "devtron": "^1.3.0",
@@ -123,5 +130,6 @@
   },
   "filename": "Cecildt___electron-webpack.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:19.579Z"
+  "lastFetchedAt": "2017-05-04T13:05:19.579Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:15.417Z"
 }

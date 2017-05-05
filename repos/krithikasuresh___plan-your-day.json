@@ -59,11 +59,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/krithikasuresh/plan-your-day",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/krithikasuresh/plan-your-day"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "Krithika Suresh",
     "license": "",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -114,5 +121,6 @@
   "svnUrl": "https://github.com/krithikasuresh/plan-your-day",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:32:53.184Z"
+  "lastFetchedAt": "2017-05-04T05:32:53.184Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:44.840Z"
 }

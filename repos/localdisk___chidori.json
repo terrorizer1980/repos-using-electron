@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/localdisk/chidori",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/localdisk/chidori.git"
+    },
+    "author": "@localdisk",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/localdisk/chidori/issues"
+    },
     "homepage": "https://github.com/localdisk/chidori#readme",
     "devDependencies": {
       "typescript": "^1.8.10"
@@ -114,5 +121,6 @@
   },
   "filename": "localdisk___chidori.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:46:35.540Z"
+  "lastFetchedAt": "2017-05-04T19:46:35.540Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:45.020Z"
 }

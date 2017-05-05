@@ -66,8 +66,15 @@
       "coverage": "nyc report",
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\""
     },
-    "repository": "https://github.com/joeynguyen/spendless",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/joeynguyen/spendless.git"
+    },
+    "author": "Giao Nguyen",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/joeynguyen/spendless/issues"
+    },
     "keywords": [
       "babel",
       "bootstrap",
@@ -100,7 +107,7 @@
       "electron-debug": "1.0.1",
       "electron-devtools-installer": "2.0.0",
       "electron-prebuilt": "1.2.8",
-      "enzyme": "2.4.1",
+      "enzyme": "2.5.1",
       "eslint": "1.10.3",
       "eslint-plugin-babel": "3.0.0",
       "eslint-plugin-react": "3.11.3",
@@ -189,5 +196,6 @@
   "svnUrl": "https://github.com/joeynguyen/spendless",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:45:15.382Z"
+  "lastFetchedAt": "2017-05-04T19:45:15.382Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:32.213Z"
 }

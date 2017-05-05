@@ -60,14 +60,21 @@
       "start": "electron main.js",
       "run": "watchify src/Main.jsx -v -t [ babelify --presets [ react ] ] -o js/Main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-preset-react": "^6.5.0",
@@ -124,5 +131,6 @@
   "svnUrl": "https://github.com/dumheter/MemGame",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:22:37.691Z"
+  "lastFetchedAt": "2017-05-04T05:22:37.691Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:19.819Z"
 }

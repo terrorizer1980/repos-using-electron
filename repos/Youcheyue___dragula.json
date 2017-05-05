@@ -220,8 +220,15 @@
       "test": "npm run lint && browserify test/*.js | tape-run",
       "test-watch": "hihat test/*.js -p tap-dev-tool"
     },
-    "repository": "https://github.com/bevacqua/dragula",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bevacqua/dragula.git"
+    },
+    "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bevacqua/dragula/issues"
+    },
     "homepage": "https://github.com/bevacqua/dragula",
     "dependencies": {
       "contra": "1.9.1",
@@ -270,5 +277,6 @@
   },
   "sourceRepo": "bevacqua/dragula",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:03:36.922Z"
+  "lastFetchedAt": "2017-05-04T09:03:36.922Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:31.129Z"
 }

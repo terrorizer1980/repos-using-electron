@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/atom/electron-quick-start"
+    },
+    "author": "rodricios",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start",
     "devDependencies": {
       "asar": "^0.8.3",
@@ -120,5 +127,6 @@
   },
   "filename": "rodricios___desktop-search-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:29.445Z"
+  "lastFetchedAt": "2017-05-04T20:56:29.445Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:30.747Z"
 }

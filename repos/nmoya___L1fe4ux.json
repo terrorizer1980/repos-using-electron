@@ -83,7 +83,11 @@
     "keywords": [
       "L1fe4ux"
     ],
-    "repository": "https://github.com/nmoya/L1fe4ux",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nmoya/L1fe4ux"
+    },
+    "author": "Nikolas Moya <nikolasmoya@gmail.com>",
     "license": "GPL-3.0",
     "dependencies": {
       "electron-prebuilt": "^0.36.1",
@@ -124,5 +128,6 @@
   },
   "filename": "nmoya___L1fe4ux.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:07:31.579Z"
+  "lastFetchedAt": "2017-05-04T18:07:31.579Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:01.671Z"
 }

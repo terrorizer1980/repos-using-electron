@@ -97,8 +97,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/usainbloot/notekeeper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/usainbloot/notekeeper.git"
+    },
+    "author": {
+      "name": "Jack Palmer",
+      "email": "jackpalmer2@gmail.com",
+      "url": "https://github.com/usainbloot"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/usainbloot/notekeeper/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -216,5 +227,6 @@
   },
   "filename": "UsainBloot___notekeeper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:14.063Z"
+  "lastFetchedAt": "2017-05-04T20:27:14.063Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:36.663Z"
 }

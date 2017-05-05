@@ -55,9 +55,16 @@
     "name": "electron-development-kit",
     "version": "0.0.1",
     "description": "Easily Test, Build and Distribute Electron Apps",
+    "author": "Dylan Byth",
     "private": true,
     "homepage": "https://github.com/ddwag1/electron-development-kit",
-    "repository": "https://github.com/ddwag1/electron-development-kit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ddwag1/electron-development-kit.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ddwag1/electron-development-kit/issues"
+    },
     "main": "main.js",
     "devDependencies": {
       "electron-prebuilt": "~1.0.2",
@@ -132,5 +139,6 @@
   "svnUrl": "https://github.com/ddwag1/electron-development-kit",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:58:05.986Z"
+  "lastFetchedAt": "2017-05-04T17:58:05.986Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:51.068Z"
 }

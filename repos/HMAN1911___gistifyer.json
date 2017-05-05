@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-preset-react": "^6.11.1",
@@ -124,5 +131,6 @@
   },
   "filename": "HMAN1911___gistifyer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:49.842Z"
+  "lastFetchedAt": "2017-05-04T05:30:49.842Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:58.898Z"
 }

@@ -73,14 +73,21 @@
       "test": "NODE_ENV='test' mocha test --recursive --compilers js:babel-core/register",
       "doc": "jsdoc -c .jsdoc.js -r -t ./node_modules/ink-docstrap/template -d docs -R README.md"
     },
-    "repository": "https://github.com/HackerTunes/hackertunes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HackerTunes/hackertunes.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "atul r",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/HackerTunes/hackertunes/issues"
+    },
     "homepage": "https://github.com/HackerTunes/hackertunes#readme",
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -176,5 +183,6 @@
   "svnUrl": "https://github.com/HackerTunes/hackertunes",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:23:27.616Z"
+  "lastFetchedAt": "2017-05-04T20:23:27.616Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:58.821Z"
 }

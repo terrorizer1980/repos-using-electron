@@ -87,14 +87,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/pmorx/pinky.app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pmorx/pinky.app.git"
+    },
     "keywords": [
       "nodejs",
       "npm",
       "njs",
       "electron"
     ],
+    "author": "John Untivero <jpuntivero@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/pmorx/pinky.app/issues"
+    },
     "homepage": "https://github.com/pmorx/pinky.app#readme",
     "dependencies": {
       "@angular/common": "^2.0.0-rc.5",
@@ -146,5 +153,6 @@
   },
   "filename": "pmorx___pinky.app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:12.709Z"
+  "lastFetchedAt": "2017-05-04T17:44:12.709Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:22.006Z"
 }

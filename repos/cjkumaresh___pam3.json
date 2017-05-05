@@ -60,12 +60,19 @@
       "start": "node app.js",
       "test": "gulp"
     },
-    "repository": "https://github.com/cjkumaresh/pam3",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/cjkumaresh/pam3.git"
+    },
     "keywords": [
       "remote PC",
       "mobile"
     ],
+    "author": "cjkumaresh",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/cjkumaresh/pam3/issues"
+    },
     "homepage": "https://github.com/cjkumaresh/pam3",
     "dependencies": {
       "body-parser": "^1.15.0",
@@ -127,5 +134,6 @@
   "svnUrl": "https://github.com/cjkumaresh/pam3",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:13:37.680Z"
+  "lastFetchedAt": "2017-05-04T18:13:37.680Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:11.598Z"
 }

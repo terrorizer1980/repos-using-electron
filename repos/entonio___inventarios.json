@@ -53,11 +53,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/entonio/inventarios",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/entonio/inventarios.git"
+    },
     "keywords": [
       "PI"
     ],
+    "author": "António Pedro Marques",
     "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/entonio/inventarios/issues"
+    },
     "homepage": "https://github.com/entonio/inventarios#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -108,5 +115,6 @@
   },
   "filename": "entonio___inventarios.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:32.729Z"
+  "lastFetchedAt": "2017-05-04T14:55:32.729Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:59.543Z"
 }

@@ -58,7 +58,15 @@
     "description": "Documentation providing menubar mechanism",
     "license": "BSD-2-Clause",
     "main": "main.js",
-    "repository": "https://github.com/de-luca/Pinata",
+    "author": {
+      "name": "de-luca",
+      "email": "dev@de-luca.io",
+      "url": "de-luca.io"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/de-luca/Pinata.git"
+    },
     "config": {
       "flags": "--prune --asar --overwrite",
       "version": "--version=0.35.1 --app-bundle-id=io.de-luca.pinata"
@@ -136,5 +144,6 @@
   },
   "filename": "de-luca___Pinata.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:55.731Z"
+  "lastFetchedAt": "2017-05-04T17:43:55.731Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:28.034Z"
 }

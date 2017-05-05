@@ -76,6 +76,7 @@
     "version": "0.1.0",
     "description": "Aurora SEO Frontend",
     "keywords": [],
+    "author": "Carlos Requena <carlosjose.requena@gmail.com>",
     "homepage": "https://gitlab.com/cjrequena/aurora-seo-frontend",
     "license": "@aurora",
     "dependencies": {
@@ -246,6 +247,9 @@
       "type": "git",
       "url": "https://gitlab.com/cjrequena/aurora-seo-frontend.git"
     },
+    "bugs": {
+      "url": "https://gitlab.com/cjrequena/aurora-seo-frontend/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -276,5 +280,6 @@
   },
   "filename": "cjrequena___angular2-webpack-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:20.507Z"
+  "lastFetchedAt": "2017-05-04T11:04:20.507Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:02.728Z"
 }

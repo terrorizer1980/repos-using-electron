@@ -70,6 +70,10 @@
     "version": "0.0.0",
     "description": "Small description for bartleby goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -79,6 +83,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -178,5 +183,6 @@
   },
   "filename": "rossedfort___bartleby.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:48.138Z"
+  "lastFetchedAt": "2017-05-04T21:03:48.138Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:47.136Z"
 }

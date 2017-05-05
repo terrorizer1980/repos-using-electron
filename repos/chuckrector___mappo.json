@@ -75,7 +75,10 @@
     "name": "mappo",
     "version": "0.33.0",
     "description": "mappo",
-    "repository": "https://github.com/chuckrector/mappo",
+    "repository": {
+      "url": "https://github.com/chuckrector/mappo",
+      "type": "git"
+    },
     "main": "src/index.js",
     "scripts": {
       "start": "npm run jsx && ./node_modules/.bin/electron .",
@@ -87,6 +90,7 @@
     "keywords": [
       "mappo"
     ],
+    "author": "Charles Rector <choosetheforce@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "babel-core": "^6.17.0",
@@ -140,5 +144,6 @@
   },
   "filename": "chuckrector___mappo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:54.932Z"
+  "lastFetchedAt": "2017-05-04T15:33:54.932Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:53.444Z"
 }

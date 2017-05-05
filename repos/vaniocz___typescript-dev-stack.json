@@ -69,6 +69,7 @@
     "name": "webstack",
     "version": "0.2.0",
     "description": "Development stack for building modern web applications or libraries based on webpack using modified TypeScript 1.8 together with Babel (async/await and generators in ES5)",
+    "author": "Marek Štípek <mario.dweller@seznam.cz>",
     "license": "MIT",
     "keywords": [
       "typescript",
@@ -81,7 +82,10 @@
       "async",
       "await"
     ],
-    "repository": "https://github.com/vaniocz/typescript-dev-stack",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/vaniocz/typescript-dev-stack.git"
+    },
     "scripts": {
       "postinstall": "node_modules/.bin/typings install",
       "start": "webpack-dev-server --hot --content-base ./build",
@@ -144,12 +148,12 @@
       "mocha-webpack": "^0.3.0",
       "postcss-loader": "^0.8.2",
       "react-hot-loader": "^1.3.0",
-      "remap-istanbul": "https://github.com/maryo/remap-istanbul/tarball/master",
+      "remap-istanbul": "github:maryo/remap-istanbul",
       "sinon": "^1.17.3",
       "style-loader": "^0.13.1",
       "tslint": "^3.7.1",
       "tslint-microsoft-contrib": "^2.0.2",
-      "typescript": "https://github.com/maryo/TypeScript/tarball/bindOperator-1.8",
+      "typescript": "github:maryo/TypeScript#bindOperator-1.8",
       "typings": "^1.0.4",
       "webpack": "^1.12.14",
       "webpack-dev-server": "^1.14.1",
@@ -201,5 +205,6 @@
   },
   "filename": "vaniocz___typescript-dev-stack.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:50.952Z"
+  "lastFetchedAt": "2017-05-04T20:06:50.952Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:22.576Z"
 }

@@ -85,14 +85,21 @@
       "dist": "build",
       "update-parrot": "npm install nest-parrot2 --save"
     },
-    "repository": "https://github.com/bradwoo8621/owl",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bradwoo8621/owl.git"
+    },
     "keywords": [
       "Nest",
       "Owl",
       "Parrot",
       "designer"
     ],
+    "author": "bradwoo8621",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bradwoo8621/owl/issues"
+    },
     "homepage": "https://github.com/bradwoo8621/owl#readme",
     "devDependencies": {
       "electron-builder": "^6.4.0",
@@ -120,7 +127,7 @@
       "highlightjs": "^9.8.0",
       "jquery": "^3.1.1",
       "mdi": "^1.7.22",
-      "nest-parrot2": "^2.0.5",
+      "nest-parrot2": "^2.0.11",
       "source-code-pro": "0.0.0"
     },
     "build": {
@@ -156,5 +163,6 @@
   },
   "filename": "bradwoo8621___owl.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:06.184Z"
+  "lastFetchedAt": "2017-05-04T17:37:06.184Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:18.605Z"
 }

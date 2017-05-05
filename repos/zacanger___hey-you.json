@@ -74,22 +74,32 @@
   "packageJSON": {
     "name": "hey-you",
     "description": "hey, you",
-    "version": "0.5.2",
+    "version": "1.0.1",
+    "author": {
+      "name": "Zac Anger",
+      "url": "http://zacanger.com",
+      "email": "zac@zacanger.com"
+    },
     "license": "WTFPL",
     "main": "./app.js",
     "preferGlobal": true,
     "bin": {
       "hey-you": "./index.js",
+      "hey-you-cli": "./cli.js",
       "heyyou": "./index.js",
-      "imreallysadrightnow": "./index.js",
-      "cheer-me-up": "./index.js",
-      "hey": "./index.js"
+      "heyyou-cli": "./cli.js",
+      "hey": "./index.js",
+      "hey-cli": "./cli.js"
     },
     "scripts": {
       "start": "./index.js"
     },
     "homepage": "https://github.com/zacanger/hey-you#readme",
-    "repository": "https://github.com/zacanger/hey-you",
+    "repository": {
+      "url": "https://github.com/zacanger/hey-you.git",
+      "type": "git"
+    },
+    "bugs": "https://github.com/zacanger/hey-you/issues",
     "keywords": [
       "electron",
       "encouragement",
@@ -98,7 +108,7 @@
       "you"
     ],
     "dependencies": {
-      "electron": "^1.4.8",
+      "electron": "^1.4.15",
       "electroner": "^4.0.2"
     },
     "devDependencies": {}
@@ -128,5 +138,6 @@
   },
   "filename": "zacanger___hey-you.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:41.061Z"
+  "lastFetchedAt": "2017-05-04T21:03:41.061Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:06.841Z"
 }

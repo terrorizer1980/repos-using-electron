@@ -87,7 +87,10 @@
     "scripts": {
       "test": "./soon.sh"
     },
-    "repository": "https://github.com/mido22/stock-avg",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mido22/stock-avg.git"
+    },
     "keywords": [
       "nodeJS",
       "electron",
@@ -95,7 +98,11 @@
       "stock",
       "data-analysis"
     ],
+    "author": "Ban Mido",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mido22/stock-avg/issues"
+    },
     "homepage": "https://github.com/mido22/stock-avg#readme"
   },
   "packageStatus": 200,
@@ -123,5 +130,6 @@
   },
   "filename": "Mido22___stock-avg.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:18.539Z"
+  "lastFetchedAt": "2017-05-04T21:01:18.539Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:30.464Z"
 }

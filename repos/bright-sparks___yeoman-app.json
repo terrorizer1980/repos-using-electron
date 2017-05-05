@@ -186,7 +186,9 @@
     "appBundleId": "io.yeoman.app",
     "helperBundleId": "io.yeoman.app.helper",
     "description": "An app made with Electron that scaffolds projects using Yeoman",
+    "author": "The Yeoman Team",
     "main": "src/browser/main.js",
+    "bugs": "https://github.com/yeoman/yeoman-app/issues",
     "dependencies": {
       "array.prototype.findindex": "^1.0.0",
       "async": "^1.2.1",
@@ -278,5 +280,6 @@
   "sourceRepo": "yeoman/yeoman-app",
   "filename": "bright-sparks___yeoman-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:07.066Z"
+  "lastFetchedAt": "2017-05-04T17:41:07.066Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:15.510Z"
 }

@@ -54,13 +54,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/tedroden/live-markdown-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/tedroden/live-markdown-viewer.git"
+    },
     "keywords": [
       "github",
       "markdown",
       "org-mode"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/tedroden/live-markdown-viewer/issues"
+    },
     "homepage": "https://github.com/tedroden/live-markdown-viewer",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -118,5 +125,6 @@
   "svnUrl": "https://github.com/tedroden/mad-overview-wrinkle",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:39:31.510Z"
+  "lastFetchedAt": "2017-05-04T17:39:31.510Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:58.657Z"
 }

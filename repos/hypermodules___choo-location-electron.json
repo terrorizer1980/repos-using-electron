@@ -93,23 +93,30 @@
     "scripts": {
       "test": "standard | snazzy"
     },
-    "repository": "https://github.com/hypermodules/choo-location-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/hypermodules/choo-location-electron.git"
+    },
     "keywords": [
       "choo"
     ],
+    "author": "sethvincent",
     "contributors": [
       "Bret Comnes <bcomnes@gmail.com> (http://bret.io)",
       "Nate Goldman <ungoldman@gmail.com> (http://ungoldman.com)",
       "Seth Vincent <sethvincent@gmail.com> (http://sethvincent.com)"
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/hypermodules/choo-location-electron/issues"
+    },
     "homepage": "https://github.com/hypermodules/choo-location-electron#readme",
     "devDependencies": {
-      "snazzy": "^5.0.0",
-      "standard": "^8.0.0"
+      "snazzy": "^7.0.0",
+      "standard": "^10.0.1"
     },
     "peerDependencies": {
-      "electron": "~1.4.0"
+      "electron": "~1.6.2"
     }
   },
   "packageStatus": 200,
@@ -140,5 +147,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T05:33:58.370Z"
+  "lastFetchedAt": "2017-05-04T05:33:58.370Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:23.238Z"
 }

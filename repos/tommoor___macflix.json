@@ -75,23 +75,33 @@
     "name": "macflix",
     "version": "1.0.0",
     "description": "Macflix is Netflix on your Mac",
-    "main": "main.js",
+    "productName": "Macflix",
+    "main": "src/main/main.js",
     "scripts": {
-      "start": "electron src/main/main.js"
+      "start": "electron src/main/main.js",
+      "package": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/netflix.icns --prune=true --out=builds"
     },
-    "repository": "https://github.com/tommoor/macflix",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tommoor/macflix.git"
+    },
     "keywords": [
       "electron",
       "desktop",
       "netflix",
       "video"
     ],
+    "author": "Tom Moor",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tommoor/macflix/issues"
+    },
     "dependencies": {
       "jquery": "^2.1.4",
       "underscore": "^1.7.0"
     },
     "devDependencies": {
+      "electron-packager": "^8.6.0",
       "electron-prebuilt": "^0.36.0"
     }
   },
@@ -120,5 +130,6 @@
   },
   "filename": "tommoor___macflix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:36.836Z"
+  "lastFetchedAt": "2017-05-04T15:15:36.836Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:02.011Z"
 }

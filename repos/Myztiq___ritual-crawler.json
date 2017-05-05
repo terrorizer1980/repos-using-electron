@@ -81,9 +81,16 @@
       "start": "npm run min && ./node_modules/.bin/electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Myztiq/ritual-crawler",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Myztiq/ritual-crawler.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Myztiq/ritual-crawler/issues"
+    },
     "homepage": "https://github.com/Myztiq/ritual-crawler#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -115,5 +122,6 @@
   },
   "filename": "Myztiq___ritual-crawler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:27:16.389Z"
+  "lastFetchedAt": "2017-05-04T15:27:16.389Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:46.865Z"
 }

@@ -69,24 +69,44 @@
     "name": "florilegia",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "window.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "rebuild": "electron-rebuild",
+      "test": "tape ./src/test/*.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-      "electron": "^1.4.5"
+      "blue-tape": "^1.0.0",
+      "electron": "1.5.1"
     },
     "dependencies": {
+      "concat-stream": "^1.6.0",
       "immutable": "^3.8.1",
+      "level": "^1.6.0",
+      "level-store": "^3.11.0",
+      "level-sublevel": "^6.6.1",
+      "levelgraph": "^2.0.1",
+      "levelgraph-n3": "^2.0.0",
       "normalize.css": "^5.0.0",
+      "pdf2oac": "^5.2.0",
       "prosemirror": "^0.10.1",
+      "pump": "^1.0.2",
+      "ramda": "^0.23.0",
       "react": "^15.3.2",
       "react-dom": "^15.3.2",
       "react-hyperscript": "^2.4.1",
-      "rebass": "^0.4.0-beta.8"
+      "react-redux": "^4.4.6",
+      "rebass": "^0.4.0-beta.8",
+      "redux": "^3.6.0",
+      "redux-immutablejs": "0.0.8",
+      "reflexbox": "^2.2.3",
+      "shortid": "^2.2.8",
+      "through2": "^2.0.3",
+      "tmp": "0.0.31",
+      "union-type": "ptgolden/union-type"
     }
   },
   "packageStatus": 200,
@@ -114,5 +134,6 @@
   },
   "filename": "ptgolden___florilegia.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:47:09.962Z"
+  "lastFetchedAt": "2017-05-04T14:47:09.962Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:15.817Z"
 }

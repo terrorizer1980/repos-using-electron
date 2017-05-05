@@ -76,6 +76,9 @@
     "version": "1.0.0",
     "description": "Electron wrapper for irccloud.com",
     "main": "index.js",
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "start": "pulp build --to index.js && electron index.js",
       "test": "pulp test",
@@ -93,17 +96,8 @@
       "package:win32:compress": "zip dist/irccloud-win32-x64.zip dist/IRCCloud/IRCCloud-win32-x64"
     },
     "repository": {
-      "user": "spicydonuts",
-      "repo": "irccloud-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/spicydonuts/irccloud-app/tarball/master",
-      "clone_url": "https://github.com/spicydonuts/irccloud-app",
-      "https_url": "https://github.com/spicydonuts/irccloud-app",
-      "travis_url": "https://travis-ci.org/spicydonuts/irccloud-app",
-      "zip_url": "https://github.com/spicydonuts/irccloud-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/spicydonuts/irccloud-app"
+      "type": "git",
+      "url": "git+https://github.com/spicydonuts/irccloud-app.git"
     },
     "keywords": [
       "purescript",
@@ -111,7 +105,11 @@
       "irc",
       "irccloud"
     ],
+    "author": "Michael Trotter <spicydonuts@gmail.com>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/spicydonuts/irccloud-app/issues"
+    },
     "homepage": "https://github.com/spicydonuts/irccloud-app#readme",
     "devDependencies": {
       "bower": "^1.7.7",
@@ -148,5 +146,6 @@
   "filename": "spicydonuts___irccloud-app.json",
   "sourceRepo": "bamboo/purescript-electron-quickstart",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:28.365Z"
+  "lastFetchedAt": "2017-05-04T21:06:28.365Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:06.282Z"
 }

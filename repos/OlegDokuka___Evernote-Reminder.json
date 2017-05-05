@@ -84,7 +84,10 @@
       "build:dev": "npm run webpack:dev",
       "build": "npm run build:dev"
     },
-    "repository": "https://github.com/OlegDokuka/EvernoteReminder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/OlegDokuka/EvernoteReminder.git"
+    },
     "keywords": [
       "Evernote",
       "reminder",
@@ -92,7 +95,11 @@
       "electron",
       "desktop"
     ],
+    "author": "Oleh Dokuka",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/OlegDokuka/EvernoteReminder/issues"
+    },
     "homepage": "https://github.com/OlegDokuka/EvernoteReminder#readme",
     "dependencies": {
       "angular": "^1.5.8",
@@ -147,5 +154,6 @@
   },
   "filename": "OlegDokuka___Evernote-Reminder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:27.277Z"
+  "lastFetchedAt": "2017-05-04T18:17:27.277Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:23.252Z"
 }

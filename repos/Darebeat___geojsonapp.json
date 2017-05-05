@@ -200,19 +200,14 @@
       "geojsonapp": "./bin/cli.js"
     },
     "repository": {
-      "user": "mick",
-      "repo": "geojsonapp",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mick/geojsonapp/tarball/master",
-      "clone_url": "https://github.com/mick/geojsonapp",
-      "https_url": "https://github.com/mick/geojsonapp",
-      "travis_url": "https://travis-ci.org/mick/geojsonapp",
-      "zip_url": "https://github.com/mick/geojsonapp/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mick/geojsonapp"
+      "type": "git",
+      "url": "git://github.com/mick/geojsonapp.git"
     },
-    "license": "MIT"
+    "author": "Mick Thompson",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mick/geojsonapp/issues"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -260,5 +255,6 @@
   "svnUrl": "https://github.com/Darebeat/geojsonapp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:57:21.707Z"
+  "lastFetchedAt": "2017-05-04T20:57:21.707Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:51.729Z"
 }

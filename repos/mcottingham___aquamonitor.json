@@ -69,7 +69,11 @@
       "start",
       "tutorial"
     ],
+    "author": "Mike Cottingham <mike@mikecottingham.ca>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mcottingham/aquamonitor/issues"
+    },
     "homepage": "https://github.com/mcottingham/aquamonitor#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -126,5 +130,6 @@
   "svnUrl": "https://github.com/mcottingham/aquamonitor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:39:25.788Z"
+  "lastFetchedAt": "2017-05-04T20:39:25.788Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:56.506Z"
 }

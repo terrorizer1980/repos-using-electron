@@ -76,7 +76,13 @@
       "start": "electron .",
       "test": "jshint index.js --config .jshintrc"
     },
-    "repository": "https://github.com/webuildsg/osx",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/webuildsg/osx"
+    },
+    "bugs": {
+      "url": "https://github.com/webuildsg/osx/issues"
+    },
     "keywords": [
       "electron",
       "iojs",
@@ -149,5 +155,6 @@
   "svnUrl": "https://github.com/webuildsg/osx",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:58:12.997Z"
+  "lastFetchedAt": "2017-05-04T17:58:12.997Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:55.611Z"
 }

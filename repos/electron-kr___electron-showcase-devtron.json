@@ -72,6 +72,11 @@
     "description": "Show how to use devtron",
     "license": "MIT",
     "repository": "electron-kr/electron-showcase-devtron",
+    "author": {
+      "name": "ragingwind",
+      "email": "ragingwind@gmail.com",
+      "url": "ragingwind.me"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -149,5 +154,6 @@
   "svnUrl": "https://github.com/electron-kr/electron-showcase-devtron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:18:31.220Z"
+  "lastFetchedAt": "2017-05-04T15:18:31.220Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:58.917Z"
 }

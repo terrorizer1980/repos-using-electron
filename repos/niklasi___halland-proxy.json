@@ -75,7 +75,7 @@
   "packageJSON": {
     "name": "halland-proxy",
     "productName": "Halland Proxy",
-    "version": "0.0.9",
+    "version": "0.1.3",
     "description": "x-platform web debugging proxy and testing tool.",
     "scripts": {
       "test": "standard && babel-tap test/**/test-*.js",
@@ -83,16 +83,26 @@
       "start": "npm run build && electron .",
       "build": "babel src --out-dir app --copy-files --source-maps",
       "pack": "npm run build && build --dir",
-      "dist": "npm run build && build --publish onTagOrDraft"
+      "dist": "npm run build && build --draft"
     },
-    "repository": "https://github.com/niklasi/halland-proxy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niklasi/halland-proxy.git"
+    },
     "keywords": [
       "proxy",
       "debugging",
       "testing",
       "http(s)"
     ],
+    "author": {
+      "name": "Niklas Ingholt",
+      "email": "niklas@ingholt.com"
+    },
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/niklasi/hallandproxy/issues"
+    },
     "homepage": "https://github.com/niklasi/hallandproxy#readme",
     "main": "app/index.js",
     "devDependencies": {
@@ -107,12 +117,13 @@
       "enzyme": "^2.5.1",
       "react-addons-test-utils": "^15.3.2",
       "request": "^2.75.0",
-      "standard": "^8.0.0",
+      "standard": "^10.0.0",
       "tap": "^7.1.2"
     },
     "dependencies": {
       "async": "^2.1.4",
       "bytewise": "^1.1.0",
+      "cert-installer": "^1.0.0",
       "connect": "^3.5.0",
       "debug": "^2.3.3",
       "hexer": "^1.5.0",
@@ -123,6 +134,7 @@
       "memdown": "^1.2.2",
       "mkdirp": "^0.5.1",
       "node-forge": "^0.6.46",
+      "prop-types": "^15.5.8",
       "react": "^15.3.1",
       "react-addons-perf": "^15.3.2",
       "react-addons-pure-render-mixin": "^15.3.2",
@@ -203,5 +215,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:11.485Z"
+  "lastFetchedAt": "2017-05-04T20:37:11.485Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:54.040Z"
 }

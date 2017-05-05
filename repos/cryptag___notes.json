@@ -85,6 +85,9 @@
     "version": "0.4.3",
     "description": "Secure note-taking and collaborative wiki page editing app",
     "main": "main.js",
+    "bugs": {
+      "url": "https://github.com/cryptag/notes/issues"
+    },
     "scripts": {
       "start": "node_modules/.bin/electron main.js",
       "build": "electron-packager ./ cryptag-notes --platform=darwin --arch=x64 --overwrite",
@@ -96,6 +99,7 @@
       "CrypTag",
       "CrypTag Notes"
     ],
+    "author": "",
     "license": "AGPLv3",
     "devDependencies": {
       "atob": "^2.0.3",
@@ -114,6 +118,7 @@
       "gulp-inject": "^4.1.0",
       "gulp-sass": "^2.3.2",
       "react-addons-test-utils": "^15.1.0",
+      "react-bootstrap": "^0.30.7",
       "shelljs": "^0.7.5",
       "spectron": "^3.2.3",
       "webdriverio": "^4.1.1",
@@ -129,6 +134,7 @@
       "react": "^15.1.0",
       "react-bootstrap": "^0.30.7",
       "react-dom": "^15.1.0",
+      "react-hotkeys": "^0.9.0",
       "react-markdown": "^2.4.2",
       "react-md-editor": "^0.2.2",
       "react-widgets": "^3.4.5",
@@ -159,5 +165,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:23:04.223Z"
+  "lastFetchedAt": "2017-05-04T14:23:04.223Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:09.231Z"
 }

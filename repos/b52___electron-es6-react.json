@@ -74,11 +74,11 @@
   "packageJSON": {
     "name": "electron-es6-react",
     "version": "0.1.0",
-    "main": "bootstrapper.js",
+    "main": "main.js",
     "license": "MIT",
     "repository": "b52/electron-es6-react",
     "scripts": {
-      "start": "electron ."
+      "start": "electron -r babel-register ."
     },
     "dependencies": {
       "babel-preset-es2015": "^6.3.13",
@@ -116,5 +116,6 @@
   },
   "filename": "b52___electron-es6-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:55.262Z"
+  "lastFetchedAt": "2017-05-04T19:43:55.262Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:16.663Z"
 }

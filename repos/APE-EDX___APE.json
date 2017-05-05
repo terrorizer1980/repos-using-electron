@@ -97,6 +97,7 @@
       "watch": "cross-env NODE_ENV=production node ./node_modules/webpack/bin/webpack --watch --config webpack.config.js --progress --profile --bail",
       "start": "electron ."
     },
+    "author": "",
     "contributors": [
       {
         "name": "Foo Bar",
@@ -156,5 +157,6 @@
   },
   "filename": "APE-EDX___APE.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:46.779Z"
+  "lastFetchedAt": "2017-05-04T19:56:46.779Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:44.695Z"
 }

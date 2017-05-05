@@ -78,9 +78,13 @@
       "node",
       "browser"
     ],
+    "author": "Darius Huntly",
     "license": "CC0-1.0",
     "homepage": "https://github.com/dariushuntly/gwe/issues",
     "repository": "git://github.com/dariushuntly/gwe.git",
+    "bugs": {
+      "url": "https://github.com/dariushuntly/gwe/issues"
+    },
     "menu": [
       {
         "new-tab": "New Tab",
@@ -131,5 +135,6 @@
   },
   "filename": "dariushuntly___gwe.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:51.333Z"
+  "lastFetchedAt": "2017-05-04T18:17:51.333Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:55.537Z"
 }

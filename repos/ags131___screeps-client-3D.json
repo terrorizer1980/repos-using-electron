@@ -84,6 +84,8 @@
     "dependencies": {
       "electron-prebuilt": "^1.4.0",
       "express.js": "^1.0.0",
+      "leaflet": "^1.0.1",
+      "screeps-api": "^0.2.8",
       "three": "^0.80.1",
       "tween.js": "^16.3.5"
     }
@@ -113,5 +115,6 @@
   },
   "filename": "ags131___screeps-client-3D.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:09.883Z"
+  "lastFetchedAt": "2017-05-04T17:41:09.883Z",
+  "packageLastFetchedAt": "2017-05-05T17:39:06.559Z"
 }

@@ -85,12 +85,19 @@
       "e2e": "node test/e2e/runner.js",
       "test": "npm run unit && npm run e2e"
     },
-    "repository": "https://github.com/tajpure/vortex",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tajpure/vortex.git"
+    },
     "keywords": [
       "Electron",
       "presentation"
     ],
+    "author": "tajpure",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tajpure/vortex/issues"
+    },
     "homepage": "https://github.com/tajpure/vortex#readme",
     "devDependencies": {
       "babel-core": "^6.0.0",
@@ -183,5 +190,6 @@
   },
   "filename": "tajpure___vortex.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:18:31.000Z"
+  "lastFetchedAt": "2017-05-04T14:18:31.000Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:27.411Z"
 }

@@ -79,13 +79,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/johnward2/town-mmo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johnward2/town-mmo.git"
+    },
     "keywords": [
       "mmo",
       "game",
       "sandbox"
     ],
+    "author": "John Ward",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/johnward2/town-mmo/issues"
+    },
     "homepage": "https://github.com/johnward2/town-mmo#readme"
   },
   "packageStatus": 200,
@@ -113,5 +120,6 @@
   },
   "filename": "johnward2___town-mmo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:07.734Z"
+  "lastFetchedAt": "2017-05-04T18:25:07.734Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:02.799Z"
 }

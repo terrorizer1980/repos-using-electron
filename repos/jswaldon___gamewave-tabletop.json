@@ -81,8 +81,15 @@
       "postinstall": "bower install",
       "start": "electron ."
     },
-    "repository": "https://github.com/jswaldon/gamewave-tabletop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jswaldon/gamewave-tabletop.git"
+    },
+    "author": "Jerhemy Waldon",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jswaldon/gamewave-tabletop/issues"
+    },
     "homepage": "https://github.com/jswaldon/gamewave-tabletop#readme",
     "dependencies": {},
     "devDependencies": {
@@ -120,5 +127,6 @@
   },
   "filename": "jswaldon___gamewave-tabletop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:35.686Z"
+  "lastFetchedAt": "2017-05-04T05:22:35.686Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:17.677Z"
 }

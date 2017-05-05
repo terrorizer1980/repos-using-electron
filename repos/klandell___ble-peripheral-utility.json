@@ -74,6 +74,7 @@
       "start": "./node_modules/.bin/electron .",
       "build": "./node_modules/.bin/electron-packager . runner --platform=darwin --out=./build"
     },
+    "author": "Kyle Landell <kyle.landell@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -130,5 +131,6 @@
   },
   "filename": "klandell___ble-peripheral-utility.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:01:27.199Z"
+  "lastFetchedAt": "2017-05-04T20:01:27.199Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:50.931Z"
 }

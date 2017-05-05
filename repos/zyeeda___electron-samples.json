@@ -64,11 +64,18 @@
     "productName": "Electron Samples",
     "version": "0.1.0",
     "description": "A sample application for Electron.",
+    "author": "Rui Tang <tangrui@zyeeda.com>",
     "contributors": [
       "Shusen Gu <gushusen@zyeeda.com",
       "Peipei Shu <shupeipei@zyeeda.com"
     ],
-    "repository": "https://github.com/zyeeda/electron-samples",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zyeeda/electron-samples"
+    },
+    "bugs": {
+      "url": "https://github.com/zyeeda/electron-samples/issues"
+    },
     "license": "Apache-2.0",
     "main": "./build/browser/main.js",
     "dependencies": {
@@ -157,5 +164,6 @@
   "svnUrl": "https://github.com/zyeeda/electron-samples",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:54:40.350Z"
+  "lastFetchedAt": "2017-05-04T17:54:40.350Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:52.080Z"
 }

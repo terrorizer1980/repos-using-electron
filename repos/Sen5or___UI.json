@@ -97,17 +97,8 @@
       "prepublish": "npm run snyk-protect"
     },
     "repository": {
-      "user": "MichMich",
-      "repo": "MagicMirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/MichMich/MagicMirror/tarball/master",
-      "clone_url": "https://github.com/MichMich/MagicMirror",
-      "https_url": "https://github.com/MichMich/MagicMirror",
-      "travis_url": "https://travis-ci.org/MichMich/MagicMirror",
-      "zip_url": "https://github.com/MichMich/MagicMirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/MichMich/MagicMirror"
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
     },
     "keywords": [
       "magic mirror",
@@ -115,10 +106,15 @@
       "mirror UI",
       "modular"
     ],
+    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
+      "electron": "^1.4.10",
       "grunt": "latest",
       "grunt-eslint": "latest",
       "grunt-jsonlint": "latest",
@@ -129,6 +125,7 @@
       "time-grunt": "latest"
     },
     "dependencies": {
+      "async": "^2.1.4",
       "electron-prebuilt": "latest",
       "express": "^4.14.0",
       "feedme": "latest",
@@ -136,10 +133,10 @@
       "moment": "latest",
       "request": "^2.74.0",
       "rrule": "latest",
+      "snyk": "^1.14.1",
       "socket.io": "^1.4.6",
       "valid-url": "latest",
-      "walk": "latest",
-      "snyk": "^1.14.1"
+      "walk": "latest"
     },
     "snyk": true
   },
@@ -169,5 +166,6 @@
   "filename": "Sen5or___UI.json",
   "sourceRepo": "Deamon12/Smart_mirror_ui",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:36:19.711Z"
+  "lastFetchedAt": "2017-05-04T05:36:19.711Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:17.812Z"
 }

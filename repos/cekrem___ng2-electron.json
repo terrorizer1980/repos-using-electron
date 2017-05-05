@@ -75,14 +75,21 @@
       "start": "electron main.js",
       "package": "electron-packager ./ dc-electron --out=./dist --platform=all --arch=x64 --version=0.35.0 --overwrite=true --asar=true --asar-unpack=*.node"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -125,5 +132,6 @@
   },
   "filename": "cekrem___ng2-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:51.868Z"
+  "lastFetchedAt": "2017-05-04T21:02:51.868Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:59.458Z"
 }

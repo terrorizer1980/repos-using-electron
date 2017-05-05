@@ -67,7 +67,11 @@
       "type": "git",
       "url": ""
     },
+    "author": "Andrew Nicolaou",
     "license": "Apache-2",
+    "bugs": {
+      "url": "https://github.com/andrewn/chrome-namedwebsocket-proxy/issues"
+    },
     "homepage": "https://github.com/andrewn/chrome-namedwebsocket-proxy",
     "devDependencies": {
       "browserify": "~9.0.7",
@@ -135,5 +139,6 @@
   "svnUrl": "https://github.com/mediascape/named-websocket-proxy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:34:01.993Z"
+  "lastFetchedAt": "2017-05-04T19:34:01.993Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:09.427Z"
 }

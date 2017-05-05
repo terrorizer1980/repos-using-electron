@@ -77,7 +77,11 @@
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline",
       "osx-package": "./node_modules/.bin/webpack -p && ./node_modules/electron-packager/cli.js ./ Synapse --out ./bin --platform=darwin --arch=x64 --version=0.34.0 --overwrite --ignore=\"ignore|bin|node_modules\""
     },
-    "repository": "https://github.com/freddieiboy/synapse",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/freddieiboy/synapse.git"
+    },
+    "author": "Freddie Iboy",
     "devDependencies": {
       "babel": "6.5.2",
       "babel-core": "6.9.0",
@@ -129,5 +133,6 @@
   },
   "filename": "freddieiboy___synapse-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:50.687Z"
+  "lastFetchedAt": "2017-05-04T11:04:50.687Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:08.432Z"
 }

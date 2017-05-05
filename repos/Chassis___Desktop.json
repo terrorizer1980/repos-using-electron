@@ -144,6 +144,7 @@
       "react-redux": "^4.4.5",
       "recursive-readdir": "2.1.0",
       "redux": "^3.6.0",
+      "redux-logger": "^2.7.4",
       "redux-thunk": "^2.1.0",
       "rimraf": "2.5.4",
       "sass-loader": "^4.0.2",
@@ -163,6 +164,10 @@
       "test": "node scripts/test.js --env=jsdom",
       "pack": "build --dir",
       "dist": "build"
+    },
+    "author": {
+      "name": "Chassis Team",
+      "url": "http://chassis.io/"
     },
     "jest": {
       "moduleFileExtensions": [
@@ -236,5 +241,6 @@
     }
   },
   "hasProjects": false,
-  "lastFetchedAt": "2017-05-04T21:22:33.684Z"
+  "lastFetchedAt": "2017-05-04T21:22:33.684Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:07.143Z"
 }

@@ -74,6 +74,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "./node_modules/.bin/electron demo.js"
     },
+    "author": "akamaozu <uzo@designbymobius.ca> (http://designbymobi.us/)",
     "license": "ISC",
     "dependencies": {
       "dotenv": "^2.0.0",
@@ -106,5 +107,6 @@
   },
   "filename": "Akamaozu___electron-workers-queue-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:27.318Z"
+  "lastFetchedAt": "2017-05-04T17:54:27.318Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:40.498Z"
 }

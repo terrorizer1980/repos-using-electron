@@ -172,6 +172,11 @@
     "license": "MIT",
     "main": "main.js",
     "repository": "terkelg/ramme",
+    "author": {
+      "name": "Terkel Gjervig",
+      "email": "hello@terkel.com",
+      "url": "terkel.com"
+    },
     "scripts": {
       "start": "electron .",
       "build": "npm run build64 && npm run build32",
@@ -245,5 +250,6 @@
   "svnUrl": "https://github.com/kaman1/ramme",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:08:37.326Z"
+  "lastFetchedAt": "2017-05-04T18:08:37.326Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:56.631Z"
 }

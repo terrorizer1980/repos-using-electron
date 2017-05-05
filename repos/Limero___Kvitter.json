@@ -58,26 +58,32 @@
     "main": "index.js",
     "scripts": {
       "start": "electron .",
-      "start:dev": "NODE_ENV=development electron .",
+      "dev": "NODE_ENV=development electron .",
       "build:all": "electron-packager . Kvitter --all --asar --out=build --prune",
       "build:linux:32": "electron-packager . Kvitter --platform=linux --arch=ia32 --asar --out=build --prune",
       "build:linux:64": "electron-packager . Kvitter --platform=linux --arch=x64 --asar --out=build --prune",
       "test": "standard index.js app/stream.js"
     },
-    "repository": "https://github.com/Limero/Kvitter",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Limero/Kvitter.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Limero/Kvitter/issues"
+    },
+    "author": "limero",
     "license": "GPL-3.0",
     "dependencies": {
-      "bootstrap": "^3.3.6",
-      "configstore": "^2.0.0",
-      "electron-oauth-twitter": "^1.0.0",
-      "time-ago": "limero/time-ago",
-      "twemoji": "^2.0.5",
-      "twitter": "^1.2.5"
+      "configstore": "^2.1.0",
+      "electron-oauth-twitter": "^1.0.1",
+      "time-ago": "digplan/time-ago",
+      "twemoji": "^2.2.0",
+      "twitter": "^1.4.0"
     },
     "devDependencies": {
-      "electron-packager": "^7.0.3",
-      "electron-prebuilt": "^1.2.5",
-      "standard": "^7.1.2"
+      "electron": "^1.4.7",
+      "electron-packager": "^8.3.0",
+      "standard": "^8.5.0"
     }
   },
   "packageStatus": 200,
@@ -125,5 +131,6 @@
   },
   "filename": "Limero___Kvitter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:29:04.937Z"
+  "lastFetchedAt": "2017-05-04T14:29:04.937Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:32.688Z"
 }

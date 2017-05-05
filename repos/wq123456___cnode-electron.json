@@ -62,22 +62,17 @@
       "dev": "node server.js"
     },
     "repository": {
-      "user": "wq123456",
-      "repo": "cnode-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/wq123456/cnode-electron/tarball/master",
-      "clone_url": "https://github.com/wq123456/cnode-electron",
-      "https_url": "https://github.com/wq123456/cnode-electron",
-      "travis_url": "https://travis-ci.org/wq123456/cnode-electron",
-      "zip_url": "https://github.com/wq123456/cnode-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/wq123456/cnode-electron"
+      "type": "git",
+      "url": "git+https://github.com/wq123456/cnode-electron.git"
     },
     "keywords": [
       "Cnode Client width Electron"
     ],
+    "author": "wq123456",
     "license": "",
+    "bugs": {
+      "url": "https://github.com/wq123456/cnode-electron/issues"
+    },
     "homepage": "https://github.com/wq123456/cnode-electron#readme",
     "devDependencies": {
       "babel-core": "^5.8.21",
@@ -173,5 +168,6 @@
   "filename": "wq123456___cnode-electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:16.449Z"
+  "lastFetchedAt": "2017-05-04T21:01:16.449Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:38.000Z"
 }

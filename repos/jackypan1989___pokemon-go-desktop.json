@@ -71,8 +71,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/jackypan1989/pokemon-go-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jackypan1989/pokemon-go-desktop.git"
+    },
+    "author": {
+      "name": "Guan Yu Pan",
+      "email": "jackypan1989@gmail.com",
+      "url": "https://github.com/jackypan1989"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jackypan1989/pokemon-go-desktop/issues"
+    },
     "keywords": [
       "pokemon",
       "pokemon-go",
@@ -207,5 +218,6 @@
   "svnUrl": "https://github.com/jackypan1989/pokemon-go-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:08:32.730Z"
+  "lastFetchedAt": "2017-05-04T21:08:32.730Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:29.802Z"
 }

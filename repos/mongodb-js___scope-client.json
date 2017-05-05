@@ -69,8 +69,12 @@
     "name": "mongodb-scope-client",
     "description": "A client for mongodb-scope-server that works in the browser or a server.",
     "version": "0.11.0",
+    "author": "Lucas Hrabovsky <lucas@mongodb.com> (http://imlucas.com)",
     "homepage": "http://github.com/mongodb-js/scope-client",
-    "repository": "https://github.com/mongodb-js/scope-client",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mongodb-js/scope-client.git"
+    },
     "dependency-check": {
       "ignore": [
         "mongodb-datasets"
@@ -103,22 +107,22 @@
       "lodash.omit": "^4.2.1",
       "lodash.trimright": "^3.0.2",
       "mississippi": "^1.2.0",
-      "mongodb-connection-model": "^4.0.0",
+      "mongodb-connection-model": "^6.3.1",
       "mongodb-extended-json": "^1.6.3",
       "mongodb-ns": "^1.0.3",
       "raf": "^3.2.0",
       "socket.io-client": "^1.4.5",
-      "socket.io-stream": "0.9.0",
-      "superagent": "^2.0.0"
+      "socket.io-stream": "0.9.1",
+      "superagent": "^3.1.0"
     },
     "devDependencies": {
       "backbone": "^1.2.3",
-      "bson": "^0.4.23",
+      "bson": "^1.0.0",
       "del": "^2.2.0",
       "dox": "^0.9.0",
-      "electron-mocha": "^2.2.0",
+      "electron-mocha": "^3.1.1",
       "electron-prebuilt": "^1.2.3",
-      "eslint-config-mongodb-js": "^2.0.0",
+      "eslint-config-mongodb-js": "^2.1.1",
       "gulp": "^3.9.1",
       "gulp-util": "^3.0.7",
       "handlebars": "^4.0.5",
@@ -180,5 +184,6 @@
   "svnUrl": "https://github.com/mongodb-js/scope-client",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:30:52.666Z"
+  "lastFetchedAt": "2017-05-04T19:30:52.666Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:30.326Z"
 }

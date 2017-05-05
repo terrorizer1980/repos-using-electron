@@ -73,34 +73,55 @@
   "status": 200,
   "packageJSON": {
     "name": "conductor",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "A Composer user interface",
     "main": "main.js",
     "scripts": {
       "start": "electron .",
       "pack": "build --dir",
       "dist": "build",
-      "dist-all": "build -mwl"
+      "dist-all": "build -mwl",
+      "test": "mocha"
     },
-    "repository": "https://github.com/mglaman/conductor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mglaman/conductor.git"
+    },
     "keywords": [
       "composer",
       "php"
     ],
+    "author": "Matt Glaman <nmd.matt@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mglaman/conductor/issues"
+    },
     "homepage": "https://github.com/mglaman/conductor",
     "build": {
       "appId": "com.mglaman.conductor",
+      "asar": false,
       "productName": "Conductor",
+      "copyright": "© Matt Glaman",
       "extraResources": [
         "composer.phar"
       ],
       "mac": {
+        "publish": [
+          "github"
+        ],
+        "target": [
+          "dmg",
+          "zip"
+        ],
         "category": "public.app-category.developer-tools"
       },
       "win": {
         "publish": [
           "github"
+        ],
+        "target": [
+          "zip",
+          "nsis"
         ]
       },
       "linux": {
@@ -109,26 +130,34 @@
         ],
         "target": [
           "deb",
-          "AppImage"
+          "rpm",
+          "zip"
         ],
-        "category": "Development",
+        "category": "Utility",
+        "packageCategory": "Utility",
         "synopsis": "A Composer user interface"
       }
     },
     "devDependencies": {
+      "autoprefixer": "^6.0.3",
+      "chai": "^3.5.0",
+      "chai-as-promised": "^6.0.0",
       "electron": "^1.2.0",
       "electron-builder": "^7.14.2",
-      "autoprefixer": "^6.0.3",
       "grunt": "^1.0.1",
       "grunt-contrib-clean": "^1.0.0",
       "grunt-contrib-watch": "^1.0.0",
       "grunt-sass": "^1.0.0",
       "grunt-scss-lint": "^0.3.8",
-      "load-grunt-tasks": "^3.4.0"
+      "load-grunt-tasks": "^3.4.0",
+      "mocha": "^3.2.0",
+      "spectron": "^3.4.0"
     },
     "dependencies": {
-      "font-awesome": "^4.6.3",
-      "getcomposer": "^1.3.2"
+      "electron-config": "^0.2.1",
+      "electron-is-dev": "^0.1.2",
+      "electron-updater": "^1.4.2",
+      "font-awesome": "^4.6.3"
     }
   },
   "packageStatus": 200,
@@ -156,5 +185,6 @@
   },
   "filename": "mglaman___conductor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:57:14.851Z"
+  "lastFetchedAt": "2017-05-04T19:57:14.851Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:45.111Z"
 }

@@ -76,7 +76,10 @@
     "productName": "Electron + TypeScript",
     "version": "0.0.1",
     "description": "Electron + Typescript boilerplate",
-    "repository": "https://github.com/martijnpieters/electron-typescript",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/martijnpieters/electron-typescript.git"
+    },
     "main": "src/electron/main.js",
     "scripts": {
       "clean": "del-cli ./src/**/*.js && del-cli ./target",
@@ -88,6 +91,7 @@
       "prestart": "npm run build",
       "start": "electron src/electron/main.js"
     },
+    "author": "Martijn Pieters",
     "license": "MIT",
     "devDependencies": {
       "del-cli": "^0.2.0",
@@ -122,5 +126,6 @@
   },
   "filename": "martijnpieters___electron-typescript.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:38.047Z"
+  "lastFetchedAt": "2017-05-04T21:24:38.047Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:24.954Z"
 }

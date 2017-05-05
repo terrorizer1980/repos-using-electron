@@ -73,13 +73,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/TrevorDev/niftyEdit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TrevorDev/niftyEdit"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "TrevorDev",
+    "bugs": {
+      "url": "https://github.com/TrevorDev/niftyEdit/issues"
+    },
     "homepage": "https://github.com/TrevorDev/niftyEdit",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -113,5 +120,6 @@
   },
   "filename": "TrevorDev___niftyEdit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:48:17.966Z"
+  "lastFetchedAt": "2017-05-04T17:48:17.966Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:03.097Z"
 }

@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/kennith/electron-ssh",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kennith/electron-ssh.git"
+    },
     "keywords": [
       "Electron",
       "SSH",
       "SSH client"
     ],
+    "author": "Kennith Leung",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/kennith/electron-ssh/issues"
+    },
     "homepage": "https://github.com/kennith/electron-ssh#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -116,5 +123,6 @@
   },
   "filename": "kennith___electron-ssh.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:54.282Z"
+  "lastFetchedAt": "2017-05-04T14:26:54.282Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:07.344Z"
 }

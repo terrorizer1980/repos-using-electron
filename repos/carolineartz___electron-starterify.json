@@ -180,23 +180,18 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "importre",
-      "repo": "electron-starterify",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/importre/electron-starterify/tarball/master",
-      "clone_url": "https://github.com/importre/electron-starterify",
-      "https_url": "https://github.com/importre/electron-starterify",
-      "travis_url": "https://travis-ci.org/importre/electron-starterify",
-      "zip_url": "https://github.com/importre/electron-starterify/archive/master.zip",
-      "api_url": "https://api.github.com/repos/importre/electron-starterify"
+      "type": "git",
+      "url": "git+https://github.com/importre/electron-starterify.git"
     },
     "keywords": [
       "electron",
       "react"
     ],
+    "author": "Jaewe Heo",
     "license": "BSD",
+    "bugs": {
+      "url": "https://github.com/importre/electron-starterify/issues"
+    },
     "homepage": "https://github.com/importre/electron-starterify#readme",
     "dependencies": {
       "react": "^0.13.3",
@@ -268,5 +263,6 @@
   "sourceRepo": "importre/electron-starterify",
   "filename": "carolineartz___electron-starterify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:25.136Z"
+  "lastFetchedAt": "2017-05-04T18:18:25.136Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:20.436Z"
 }

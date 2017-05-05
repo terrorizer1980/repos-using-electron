@@ -70,13 +70,17 @@
     "version": "1.0.0",
     "description": "Mining git repositories for hidden treasure",
     "main": "main.js",
-    "repository": "https://github.com/LawrenceJones/diggit",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:LawrenceJones/diggit"
+    },
     "scripts": {
       "start": "electron main.js",
       "test": "mocha --harmony --harmony_destructuring --harmony_spread_arrays specHelper.js --recursive lib components/**/*.spec.js",
       "lint": "jshint --reporter node_modules/jshint-stylish-ex/stylish.js $(git ls-files | grep '.js$')",
       "prepublish": "bower install"
     },
+    "author": "Lawrence Jones",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -132,5 +136,6 @@
   },
   "filename": "lawrencejones___diggit-experiments.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:16:01.618Z"
+  "lastFetchedAt": "2017-05-04T20:16:01.618Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:24.424Z"
 }

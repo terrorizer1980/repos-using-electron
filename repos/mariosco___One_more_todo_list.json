@@ -79,8 +79,15 @@
       "production": "npm run build&& npm run start-production",
       "test": "ava"
     },
-    "repository": "https://github.com/mariosco/One_more_todo_list",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mariosco/One_more_todo_list.git"
+    },
+    "author": "Marios Koulakis",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mariosco/One_more_todo_list/issues"
+    },
     "homepage": "https://github.com/mariosco/One_more_todo_list#readme",
     "dependencies": {
       "css-loader": "^0.23.1",
@@ -160,5 +167,6 @@
   },
   "filename": "mariosco___One_more_todo_list.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:29:10.890Z"
+  "lastFetchedAt": "2017-05-04T05:29:10.890Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:15.290Z"
 }

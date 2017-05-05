@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1",
-      "release": "gulp release"
+      "release": "node ./build.js"
     },
-    "repository": "https://github.com/nekobato/davneko-Desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nekobato/davneko-Desktop.git"
+    },
     "keywords": [],
+    "author": "nekobato",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nekobato/davneko-Desktop/issues"
+    },
     "homepage": "https://github.com/nekobato/davneko-Desktop#readme",
     "dependencies": {
-      "electron-packager": "^7.0.2",
+      "electron-packager": "^8.3.0",
       "electron-prebuilt": "^1.1.1"
     },
     "devDependencies": {
@@ -119,5 +126,6 @@
   },
   "filename": "nekobato___davneko-Desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:57:33.809Z"
+  "lastFetchedAt": "2017-05-04T19:57:33.809Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:09.305Z"
 }

@@ -91,8 +91,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/meobeoi/Catify",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meobeoi/Catify.git"
+    },
+    "author": {
+      "name": "MeoBeoI",
+      "email": "trungnm0512@gmail.com",
+      "url": "https://github.com/meobeoi"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/meobeoi/Catify/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -117,12 +128,21 @@
       "cross-env": "^1.0.7",
       "css-loader": "^0.23.1",
       "del": "^2.0.1",
+      "electron": "^1.4.12",
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.9",
       "electron-rebuild": "^1.0.0",
+      "eslint": "^3.12.0",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-flowtype-errors": "^2.0.1",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-jsx-a11y": "^2.2.3",
+      "eslint-plugin-promise": "^3.4.0",
+      "eslint-plugin-react": "^6.8.0",
       "express": "^4.13.3",
       "extract-text-webpack-plugin": "^1.0.1",
       "fbjs-scripts": "^0.5.0",
+      "flow-bin": "^0.36.0",
       "jsdom": "^7.2.2",
       "json-loader": "^0.5.4",
       "minimist": "^1.2.0",
@@ -138,24 +158,25 @@
     "dependencies": {
       "applescript": "^1.0.0",
       "css-modules-require-hook": "^3.0.0",
+      "dotenv": "^2.0.0",
       "electron-debug": "^0.5.2",
       "font-awesome": "^4.4.0",
       "jquery": "^2.2.1",
       "lodash": "^4.6.1",
       "lowdb": "^0.12.5",
       "material-ui": "^0.14.4",
-      "menubar": "^4.0.2",
+      "menubar": "^4.1.3",
       "postcss": "^5.0.18",
       "react": "^0.14.2",
       "react-dom": "^0.14.2",
       "react-tap-event-plugin": "^0.2.2",
-      "spotify-node-applescript": "^0.2.2",
+      "spotify-node-applescript": "^1.0.0",
       "spotify-web-api-node": "^2.2.0",
       "throttle-debounce": "^0.1.1"
     },
     "devEngines": {
-      "node": "4.x || 5.x || 6.x",
-      "npm": "2.x || 3.x"
+      "node": "6.x",
+      "npm": "3.x"
     }
   },
   "packageStatus": 200,
@@ -183,5 +204,6 @@
   },
   "filename": "MeoBeoI___Catify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:44.558Z"
+  "lastFetchedAt": "2017-05-04T19:45:44.558Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:46.613Z"
 }

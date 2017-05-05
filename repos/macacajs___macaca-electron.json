@@ -67,14 +67,17 @@
   "status": 200,
   "packageJSON": {
     "name": "macaca-electron",
-    "version": "1.1.4",
+    "version": "1.1.6",
     "description": "macaca electron driver",
     "keywords": [
       "electron",
       "macaca"
     ],
     "main": "./lib/macaca-electron",
-    "repository": "https://github.com/macacajs/macaca-electron",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/macacajs/macaca-electron.git"
+    },
     "dependencies": {
       "co": "^4.6.0",
       "driver-base": "^0.1.0",
@@ -150,5 +153,6 @@
   },
   "filename": "macacajs___macaca-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:17.703Z"
+  "lastFetchedAt": "2017-05-04T18:12:17.703Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:06.058Z"
 }

@@ -78,6 +78,11 @@
     "description": "My astounding app",
     "license": "MIT",
     "repository": "rschwoerer/mini-weather",
+    "author": {
+      "name": "RSchwoerer",
+      "email": "rschwoerer@gmail.com",
+      "url": "rschwoerer.github.io"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -142,5 +147,6 @@
   },
   "filename": "RSchwoerer___mini-weather.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:26.513Z"
+  "lastFetchedAt": "2017-05-04T20:37:26.513Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:00.509Z"
 }

@@ -74,6 +74,7 @@
       "electron": "webpack && electron .",
       "web": "webpack --target web && webpack-dev-server  --target web "
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.3.26",
@@ -115,5 +116,6 @@
   },
   "filename": "acao___webpack-web-and-electron-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:06.559Z"
+  "lastFetchedAt": "2017-05-04T14:55:06.559Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:18.748Z"
 }

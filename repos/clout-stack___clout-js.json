@@ -201,10 +201,12 @@
   "status": 200,
   "packageJSON": {
     "name": "clout-js",
-    "version": "1.0.9",
+    "version": "1.1.1",
     "description": "Clean, simplistic, enterprise grade full-stack NodeJS framework",
     "main": "index.js",
     "scripts": {
+      "start": "node .",
+      "grunt": "grunt",
       "test": "grunt test"
     },
     "keywords": [
@@ -214,6 +216,7 @@
     "bin": {
       "clout": "bin/clout"
     },
+    "author": "Muhammad Dadu",
     "license": "MIT",
     "dependencies": {
       "async": "^1.4.2",
@@ -237,9 +240,12 @@
     },
     "devDependencies": {
       "grunt": "^1.0.1",
+      "grunt-jsdoc": "^2.1.0",
       "grunt-mocha-test": "^0.12.7",
+      "jsdoc": "^3.4.3",
       "mocha": "^2.4.5",
-      "should": "^8.3.1"
+      "should": "^8.3.1",
+      "sinon": "^1.17.7"
     }
   },
   "packageStatus": 200,
@@ -267,5 +273,6 @@
   },
   "filename": "clout-stack___clout-js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:58.468Z"
+  "lastFetchedAt": "2017-05-04T05:19:58.468Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:05.778Z"
 }

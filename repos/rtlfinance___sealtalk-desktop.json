@@ -194,24 +194,19 @@
       "build:win64": "electron-builder \"build/SealTalk-win32-x64\" --platform=win --out=\"dist/win64\" --config=builder.json"
     },
     "repository": {
-      "user": "web-team",
-      "repo": "sealtalk-desktop",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/web-team/sealtalk-desktop/tarball/master",
-      "clone_url": "https://github.com/web-team/sealtalk-desktop",
-      "https_url": "https://github.com/web-team/sealtalk-desktop",
-      "travis_url": "https://travis-ci.org/web-team/sealtalk-desktop",
-      "zip_url": "https://github.com/web-team/sealtalk-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/web-team/sealtalk-desktop"
+      "type": "git",
+      "url": "git@gitlab.rongcloud.net:web-team/sealtalk-desktop.git"
     },
     "keywords": [
       "SealTalk",
       "RongCloud",
       "IM"
     ],
+    "author": "RongCloud",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rongcloud/sealtalk-desktop/issues"
+    },
     "homepage": "https://github.com/rongcloud/sealtalk-desktop#readme",
     "devDependencies": {
       "electron-builder": "^2.6.0",
@@ -280,5 +275,6 @@
   "filename": "rtlfinance___sealtalk-desktop.json",
   "sourceRepo": "sealtalk/sealtalk-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:34.980Z"
+  "lastFetchedAt": "2017-05-04T20:39:34.980Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:25.527Z"
 }

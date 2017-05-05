@@ -79,9 +79,16 @@
     "scripts": {
       "start": "electron main.js "
     },
-    "repository": "https://github.com/delta98/marvin",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/delta98/marvin.git"
+    },
     "keywords": [],
+    "author": "Jason Brown",
     "license": "GNU",
+    "bugs": {
+      "url": "https://github.com/delta98/marvin/issues"
+    },
     "homepage": "https://github.com/delta98/marvin",
     "devDependencies": {
       "electron-prebuilt": "^0.36.10",
@@ -113,5 +120,6 @@
   },
   "filename": "delta98___marvin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:44.867Z"
+  "lastFetchedAt": "2017-05-04T14:25:44.867Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:25.662Z"
 }

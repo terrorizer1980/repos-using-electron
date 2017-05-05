@@ -64,7 +64,14 @@
       "html5"
     ],
     "license": "MIT",
-    "repository": "https://github.com/rnd7/mandala",
+    "author": "rnd7 <rnd7@riseup.net>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rnd7/mandala"
+    },
+    "bugs": {
+      "url": "https://github.com/rnd7/mandala/issues"
+    },
     "main": "js/main.js",
     "scripts": {
       "start": "electron js/main.js"
@@ -122,5 +129,6 @@
   "svnUrl": "https://github.com/rnd7/mandala",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:00:19.362Z"
+  "lastFetchedAt": "2017-05-04T18:00:19.362Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:50.808Z"
 }

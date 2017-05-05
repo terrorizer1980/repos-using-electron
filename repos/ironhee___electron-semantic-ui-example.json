@@ -53,6 +53,7 @@
     "scripts": {
       "dev": "node_modules/electron-prebuilt/cli.js ./ --dev"
     },
+    "author": "ironhee <leechulhee95@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^5.5.8",
@@ -132,5 +133,6 @@
   "svnUrl": "https://github.com/ironhee/electron-semantic-ui-example",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:06:48.372Z"
+  "lastFetchedAt": "2017-05-04T21:06:48.372Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:38.962Z"
 }

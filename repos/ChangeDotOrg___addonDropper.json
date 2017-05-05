@@ -67,5 +67,44 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:42:56.107Z"
+  "lastFetchedAt": "2017-05-04T17:42:56.107Z",
+  "packageJSON": {
+    "name": "happy-hour",
+    "version": "0.0.1",
+    "description": "Addon to stuff. YaY",
+    "main": "main.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "electron ."
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ChangeDotOrg/addonDropper.git"
+    },
+    "keywords": [
+      "Electron"
+    ],
+    "author": "happy-hour-team",
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "electron-debug": "^1.1.0",
+      "electron-localshortcut": "^1.0.0",
+      "bootstrap": "^3.3.7"
+    },
+    "dependencies": {
+      "angular": "^1.6.3",
+      "angular-ui-router": "^0.4.2",
+      "bootstrap": "^3.3.7",
+      "electron": "^1.6.2",
+      "electron-debug": "^1.1.0",
+      "electron-localshortcut": "^1.0.0"
+    },
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ChangeDotOrg/addonDropper/issues"
+    },
+    "homepage": "https://github.com/ChangeDotOrg/addonDropper#readme"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:29:50.470Z"
 }

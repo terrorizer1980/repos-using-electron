@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Elite-Four/PokeMatch",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Elite-Four/PokeMatch.git"
+    },
+    "author": "Elite-Four (https://github.com/Elite-Four)",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Elite-Four/PokeMatch/issues"
+    },
     "homepage": "https://github.com/Elite-Four/PokeMatch#readme",
     "dependencies": {
       "async": "^1.4.2",
@@ -137,5 +144,6 @@
   "svnUrl": "https://github.com/Elite-Four/PokeMatch",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:35:34.600Z"
+  "lastFetchedAt": "2017-05-04T05:35:34.600Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:03.587Z"
 }

@@ -83,12 +83,16 @@
       "pack": "build --dir",
       "dist": "build"
     },
+    "author": "Maxence Papillon <maxence.papillon@outlook.com>",
     "license": "MIT",
     "devDependencies": {
       "devtron": "^1.4.0",
       "electron": "^1.4.6",
       "electron-builder": "^8.6.0",
-      "eslint": "^3.10.2"
+      "eslint": "^3.10.2",
+      "grunt": "^1.0.1",
+      "grunt-sass": "^2.0.0",
+      "load-grunt-tasks": "^3.5.2"
     },
     "dependencies": {
       "electron-is-dev": "^0.1.2",
@@ -132,5 +136,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:56.930Z"
+  "lastFetchedAt": "2017-05-04T19:56:56.930Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:43.344Z"
 }

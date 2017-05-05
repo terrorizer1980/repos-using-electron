@@ -75,7 +75,10 @@
     "name": "er",
     "version": "0.0.1",
     "description": "ER model editor/viewer powered by Electron.",
-    "repository": "https://github.com/ksoichiro/er",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ksoichiro/er.git"
+    },
     "main": ".serve/app.js",
     "dependencies": {
       "react": "^0.14.5",
@@ -91,6 +94,7 @@
       "test": "gulp clean && gulp build && gulp dist && eslint ."
     },
     "keywords": [],
+    "author": "Soichiro Kashima",
     "license": "Apache-2.0",
     "devDependencies": {
       "babel": "^6.3.26",
@@ -147,5 +151,6 @@
   },
   "filename": "ksoichiro___er.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:47.061Z"
+  "lastFetchedAt": "2017-05-04T18:34:47.061Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:51.828Z"
 }

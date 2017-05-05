@@ -87,8 +87,15 @@
     "scripts": {
       "test": "npm test"
     },
-    "repository": "https://github.com/team-jwd/invisible-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/team-jwd/invisible-client.git"
+    },
+    "author": "William Barnes, Daniel King, JC Zhang",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/team-jwd/invisible-client/issues"
+    },
     "homepage": "https://github.com/team-jwd/invisible-client#readme",
     "dependencies": {
       "electron": "^1.4.2"
@@ -119,5 +126,6 @@
   },
   "filename": "team-jwd___invisible-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:43.110Z"
+  "lastFetchedAt": "2017-05-04T21:18:43.110Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:01.330Z"
 }

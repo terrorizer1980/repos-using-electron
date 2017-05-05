@@ -49,13 +49,20 @@
     "name": "donut-studio",
     "version": "1.0.0",
     "description": "Donut studio game",
+    "author": "HetIsNiels",
     "license": "CC0-1.0",
     "homepage": "http://hetisniels.itch.io/donut-studio",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/HetIsNiels/donutstudio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HetIsNiels/donutstudio.git"
+    },
+    "bugs": {
+      "url": "https://github.com/HetIsNiels/donutstudio/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     }
@@ -105,5 +112,6 @@
   },
   "filename": "HetIsNiels___donutstudio.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:18.997Z"
+  "lastFetchedAt": "2017-05-04T14:19:18.997Z",
+  "packageLastFetchedAt": "2017-05-05T14:41:48.061Z"
 }

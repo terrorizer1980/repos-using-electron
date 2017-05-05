@@ -177,14 +177,21 @@
       "start": "node_modules/.bin/electron .",
       "build": "electron-packager . $npm_package_productName --out=packaged --icon='icon.icns' --overwrite --ignore='^/packaged --prune --platform=darwin --arch=x64 --version=$npm_package_electronVersion"
     },
-    "repository": "https://github.com/VentureEquityExchange/DesktopPlatform",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VentureEquityExchange/DesktopPlatform.git"
+    },
     "keywords": [
       "Ethereum",
       "Desktop",
       "Electron",
       "React"
     ],
+    "author": "Ryan Michael Tate",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VentureEquityExchange/DesktopPlatform/issues"
+    },
     "homepage": "https://github.com/VentureEquityExchange/DesktopPlatform#readme",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -251,5 +258,6 @@
   },
   "filename": "NunoEdgarGub1___DesktopPlatform.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:42.047Z"
+  "lastFetchedAt": "2017-05-04T17:44:42.047Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:02.289Z"
 }

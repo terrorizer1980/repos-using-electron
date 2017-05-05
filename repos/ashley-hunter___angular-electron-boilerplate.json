@@ -73,5 +73,54 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:51:54.269Z"
+  "lastFetchedAt": "2017-05-04T19:51:54.269Z",
+  "packageJSON": {
+    "name": "angular-electron-boilerplate",
+    "version": "1.0.0",
+    "description": "Boilerplate code for an Angular 4 and Electron application",
+    "main": "main.js",
+    "scripts": {
+      "start": "webpack --progress --colors && concurrently \"webpack --progress --colors --watch\" \"electron .\""
+    },
+    "repository": "https://github.com/ashley-hunter/angular-electron-boilerplate",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "angular",
+      "boilerplate"
+    ],
+    "author": "Ashley Hunter",
+    "license": "MIT",
+    "dependencies": {
+      "@angular/common": "~4.0.0",
+      "@angular/compiler": "~4.0.0",
+      "@angular/core": "~4.0.0",
+      "@angular/forms": "~4.0.0",
+      "@angular/http": "~4.0.0",
+      "@angular/platform-browser": "~4.0.0",
+      "@angular/platform-browser-dynamic": "~4.0.0",
+      "@angular/router": "~4.0.0",
+      "core-js": "^2.4.1",
+      "rxjs": "5.0.1",
+      "zone.js": "^0.8.4"
+    },
+    "devDependencies": {
+      "@types/node": "^6.0.45",
+      "angular2-template-loader": "^0.6.2",
+      "awesome-typescript-loader": "^3.1.2",
+      "concurrently": "^3.4.0",
+      "css-loader": "^0.26.1",
+      "electron": "~1.6.2",
+      "file-loader": "^0.9.0",
+      "html-loader": "^0.4.5",
+      "null-loader": "^0.1.1",
+      "raw-loader": "^0.5.1",
+      "style-loader": "^0.16.1",
+      "typescript": "~2.2.2",
+      "webpack": "2.2.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:22:19.868Z"
 }

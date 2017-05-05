@@ -79,13 +79,20 @@
     "scripts": {
       "test": "mocha"
     },
-    "repository": "https://github.com/oslugr/cliente-sl",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/oslugr/cliente-sl.git"
+    },
     "keywords": [
       "shortener",
       "oslugr",
       "ugr"
     ],
+    "author": "JJ Merelo, OSL UGR",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/oslugr/cliente-sl/issues"
+    },
     "homepage": "https://github.com/oslugr/cliente-sl#readme",
     "dependencies": {
       "electron": "^1.4.4"
@@ -116,5 +123,6 @@
   },
   "filename": "oslugr___cliente-sl.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:29.621Z"
+  "lastFetchedAt": "2017-05-04T13:05:29.621Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:10.048Z"
 }

@@ -60,7 +60,10 @@
       "test": "node test",
       "test-ci": "node test | tap-xunit"
     },
-    "repository": "https://github.com/zerojuan/electron-circleci-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zerojuan/electron-circleci-boilerplate.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -86,6 +89,7 @@
         ]
       }
     },
+    "author": "JuliusThePious <me@juliuscebreros.com>",
     "devDependencies": {
       "electron-builder": "^3.6.1",
       "electron-debug": "^0.7.0",
@@ -145,5 +149,6 @@
   "svnUrl": "https://github.com/zerojuan/electron-circleci-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:02:48.721Z"
+  "lastFetchedAt": "2017-05-04T18:02:48.721Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:30.809Z"
 }

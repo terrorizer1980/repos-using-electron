@@ -207,17 +207,13 @@
       "watch": "gulp watch"
     },
     "repository": {
-      "user": "MarshallOfSound",
-      "repo": "Google-Play-Music-Desktop-Player-UNOFFICIAL-",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/tarball/master",
-      "clone_url": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-",
-      "https_url": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-",
-      "travis_url": "https://travis-ci.org/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-",
-      "zip_url": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-/archive/master.zip",
-      "api_url": "https://api.github.com/repos/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-"
+      "type": "git",
+      "url": "git://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-"
+    },
+    "author": {
+      "name": "Samuel Attard",
+      "email": "samuel.r.attard@gmail.com",
+      "url": "https://www.samuelattard.com"
     },
     "homepage": "http://www.googleplaymusicdesktopplayer.com",
     "license": "MIT",
@@ -345,5 +341,6 @@
   "filename": "n4k1___Google-Play-Music-Desktop-Player-UNOFFICIAL-.json",
   "sourceRepo": "MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:36.417Z"
+  "lastFetchedAt": "2017-05-04T14:26:36.417Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:31.304Z"
 }

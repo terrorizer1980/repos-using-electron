@@ -179,7 +179,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -231,5 +235,6 @@
   "svnUrl": "https://github.com/yasasvee/electronPlayGround",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:16:49.918Z"
+  "lastFetchedAt": "2017-05-04T21:16:49.918Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:04.537Z"
 }

@@ -54,7 +54,7 @@
   "packageJSON": {
     "devDependencies": {
       "asar": "^0.7.2",
-      "electron-prebuilt": "0.36.4",
+      "electron": "1.6.1",
       "fs-jetpack": "^0.6.5",
       "gulp": "^3.9.0",
       "gulp-babel": "^6.1.2",
@@ -124,5 +124,6 @@
   "svnUrl": "https://github.com/bhuga/hackable-slack-client",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:38:38.676Z"
+  "lastFetchedAt": "2017-05-04T20:38:38.676Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:20.757Z"
 }

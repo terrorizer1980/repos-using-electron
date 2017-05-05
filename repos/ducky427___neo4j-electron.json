@@ -60,13 +60,17 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/ducky427/neo4j-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ducky427/neo4j-electron.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "GPL-3.0",
     "homepage": "https://github.com/ducky427/neo4j-electron#readme",
     "devDependencies": {
@@ -118,5 +122,6 @@
   },
   "filename": "ducky427___neo4j-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:04:47.665Z"
+  "lastFetchedAt": "2017-05-04T20:04:47.665Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:00.878Z"
 }

@@ -78,14 +78,21 @@
       "sonus": "node sonus.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Smart Mirror",
       "IoT",
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "angular-i18n": "^1.5.5",
@@ -129,5 +136,6 @@
   },
   "filename": "korea1492ar___CapstoneDesign.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:04:32.110Z"
+  "lastFetchedAt": "2017-05-04T21:04:32.110Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:24.115Z"
 }

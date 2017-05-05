@@ -87,17 +87,21 @@
       "pack-mac": "gulp pack-mac",
       "pack-win": "gulp pack-win",
       "pack-lin": "gulp pack-lin",
-      "pack-all": "npm-run-all build-mac build-win build-lin",
+      "pack-all": "npm-run-all pack-mac pack-win pack-lin",
       "clean-build-mac": "npm-run-all clean build pack-mac",
       "clean-build-all": "npm-run-all clean build pack-all"
     },
-    "repository": "https://github.com/FrantisekGazo/MangaScraperJS",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/FrantisekGazo/MangaScraperJS"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -129,13 +133,20 @@
       "image-downloader": "^2.0.0",
       "image-size": "^0.5.0",
       "immutability-helper": "^2.0.0",
+      "material-ui": "^0.17.0",
       "pdfkit": "^0.8.0",
-      "react": "^15.3.2",
+      "prop-types": "^15.5.8",
+      "react": "^15.5.3",
       "react-addons-css-transition-group": "^15.3.2",
-      "react-dom": "^15.3.2",
+      "react-dom": "^15.5.3",
       "react-redux": "^4.4.5",
+      "react-router": "^3.0.2",
+      "react-router-redux": "^4.0.8",
+      "react-tap-event-plugin": "^2.0.1",
+      "react-virtualized": "^9.0.0",
       "redux": "^3.6.0",
-      "redux-thunk": "^2.1.0",
+      "redux-logic": "^0.11.6",
+      "rxjs": "^5.1.1",
       "x-ray": "^2.3.1"
     }
   },
@@ -164,5 +175,6 @@
   },
   "filename": "FrantisekGazo___MangaScraperJS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:11.648Z"
+  "lastFetchedAt": "2017-05-04T14:46:11.648Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:31.561Z"
 }

@@ -73,23 +73,25 @@
   "status": 200,
   "packageJSON": {
     "name": "viewer_panorama_360",
+    "author": "Willian Teophilo",
     "version": "1.0.0",
     "description": "Visualizador de imagem panorama 360",
     "main": "main.js",
-    "scripts": {
-      "start": "electron ."
-    },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": "https://github.com/wteophilo/panorama360",
     "keywords": [
       "Electron",
-      "quick",
-      "start",
-      "tutorial",
-      "demo"
+      "image360"
     ],
-    "license": "CC0-1.0",
+    "scripts": {
+      "start": "electron main.js",
+      "win32": "electron-packager . myApp --platform=win32 --arch=ia32",
+      "win64": "electron-packager . myApp --platform=win32 --arch=x64",
+      "build": "electron-packager . --all"
+    },
     "devDependencies": {
-      "electron": "^1.4.1"
+      "electron": "^1.4.1",
+      "electron-packager": "^8.3.0",
+      "electron-prebuilt": "^0.25.2"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,6 @@
   },
   "filename": "wteophilo___panorama360.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:30:53.189Z"
+  "lastFetchedAt": "2017-05-04T15:30:53.189Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:25.763Z"
 }

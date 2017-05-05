@@ -57,6 +57,7 @@
     "description": "simplified tests for electron apps",
     "repository": "parro-it/collider",
     "license": "MIT",
+    "author": "parro-it",
     "scripts": {
       "test": "eslint . && electron src/cli.js test/index.js | faucet",
       "lint": "eslint .",
@@ -137,5 +138,6 @@
   "svnUrl": "https://github.com/parro-it/collider",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:13:21.979Z"
+  "lastFetchedAt": "2017-05-04T20:13:21.979Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:10.285Z"
 }

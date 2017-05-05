@@ -88,7 +88,7 @@
   "packageJSON": {
     "name": "syncrypt-desktop",
     "productName": "Syncrypt",
-    "version": "0.3.2",
+    "version": "0.4.0",
     "description": "Syncrypt platform independent desktop client",
     "main": "main.js",
     "scripts": {
@@ -104,6 +104,7 @@
       "start-hot": "cross-env HOT=1 NODE_ENV=development electron -r babel-register -r babel-polyfill ./main.development",
       "package": "cross-env NODE_ENV=production node -r babel-register -r babel-polyfill package.js",
       "package-all": "npm run package -- --all",
+      "package-posix": "npm run package -- --all --posix",
       "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\"",
       "cleanup": "mop -v"
@@ -112,19 +113,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "chentsulin",
-      "repo": "electron-react-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate/tarball/master",
-      "clone_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "https_url": "https://github.com/chentsulin/electron-react-boilerplate",
-      "travis_url": "https://travis-ci.org/chentsulin/electron-react-boilerplate",
-      "zip_url": "https://github.com/chentsulin/electron-react-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/chentsulin/electron-react-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -206,10 +206,14 @@
       "postcss": "^5.2.5",
       "react": "^15.3.2",
       "react-bootstrap": "^0.29.5",
+      "react-collapsible": "^1.2.0",
       "react-dom": "^15.3.2",
       "react-redux": "^4.4.5",
       "react-router": "^2.8.1",
       "react-router-redux": "^4.0.6",
+      "react-spinkit": "^1.1.11",
+      "react-timeago": "^3.1.3",
+      "react-tooltip": "^3.2.2",
       "redux": "^3.6.0",
       "redux-api": "^0.9.13",
       "redux-thunk": "^2.1.0",
@@ -217,8 +221,8 @@
       "url-loader": "^0.5.7"
     },
     "devEngines": {
-      "node": "4.x || 5.x || 6.x",
-      "npm": "3.x"
+      "node": ">=4.x",
+      "npm": ">=3.x"
     }
   },
   "packageStatus": 200,
@@ -247,5 +251,6 @@
   "filename": "syncrypt___desktop.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:24.554Z"
+  "lastFetchedAt": "2017-05-04T19:30:24.554Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:19.139Z"
 }

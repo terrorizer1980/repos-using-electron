@@ -74,6 +74,7 @@
       "start": "electron main.js",
       "build": "electron-packager . prn2xls --platform=win32 --arch=all --overwrite"
     },
+    "author": "Chamnap",
     "devDependencies": {
       "electron-packager": "^6.0.0",
       "electron-prebuilt": "^0.37.2",
@@ -117,5 +118,6 @@
   },
   "filename": "chamnap___prn2xls_electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:24.504Z"
+  "lastFetchedAt": "2017-05-04T20:37:24.504Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:16.609Z"
 }

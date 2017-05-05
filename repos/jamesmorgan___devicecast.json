@@ -75,7 +75,11 @@
     "name": "devicecast",
     "version": "0.2.0",
     "description": "Cast OSX Audio to a UPNP Device OR Chromecast - powered by electron and runs as a menubar application.",
-    "repository": "https://github.com/jamesmorgan/devicecast",
+    "author": "James Morgan",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jamesmorgan/devicecast"
+    },
     "dependencies": {
       "castv2-client": "1.1.1",
       "lodash": "3.10.1",
@@ -138,5 +142,6 @@
   },
   "filename": "jamesmorgan___devicecast.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:57.770Z"
+  "lastFetchedAt": "2017-05-04T16:41:57.770Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:58.346Z"
 }

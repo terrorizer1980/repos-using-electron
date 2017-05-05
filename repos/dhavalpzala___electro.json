@@ -55,19 +55,14 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "praveenpuglia",
-      "repo": "electro",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/praveenpuglia/electro/tarball/master",
-      "clone_url": "https://github.com/praveenpuglia/electro",
-      "https_url": "https://github.com/praveenpuglia/electro",
-      "travis_url": "https://travis-ci.org/praveenpuglia/electro",
-      "zip_url": "https://github.com/praveenpuglia/electro/archive/master.zip",
-      "api_url": "https://api.github.com/repos/praveenpuglia/electro"
+      "type": "git",
+      "url": "git+https://github.com/praveenpuglia/electro.git"
     },
+    "author": "Praveen Puglia",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/praveenpuglia/electro/issues"
+    },
     "homepage": "https://github.com/praveenpuglia/electro#readme",
     "devDependencies": {
       "bootstrap": "^3.3.5",
@@ -124,5 +119,6 @@
   "svnUrl": "https://github.com/dhavalpzala/electro",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:24:36.879Z"
+  "lastFetchedAt": "2017-05-04T18:24:36.879Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:03.688Z"
 }

@@ -78,17 +78,25 @@
     "main": "app/main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "electron ."
+      "start": "nodemon --exec 'electron .'"
     },
-    "repository": "https://github.com/azwreith/elementary-browser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/azwreith/elementary-browser.git"
+    },
     "keywords": [
       "electron",
       "browser"
     ],
+    "author": "Ujjwal Arora <arora.ujjwal@gmail.com> (http://ujjwalarora.xyz)",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/azwreith/elementary-browser/issues"
+    },
     "homepage": "https://github.com/azwreith/elementary-browser#readme",
     "devDependencies": {
-      "electron": "^1.4.2"
+      "electron": "^1.4.2",
+      "nodemon": "^1.11.0"
     },
     "dependencies": {
       "jquery": "^3.1.1"
@@ -119,5 +127,6 @@
   },
   "filename": "azwreith___elementary-browser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:41.017Z"
+  "lastFetchedAt": "2017-05-04T19:59:41.017Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:55.413Z"
 }

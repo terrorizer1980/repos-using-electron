@@ -74,7 +74,10 @@
       "start": "electron .",
       "test": "jest --coverage --bail"
     },
-    "repository": "https://github.com/dkaufhold/videaroo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dkaufhold/videaroo.git"
+    },
     "keywords": [
       "Videaroo",
       "videos",
@@ -82,7 +85,11 @@
       "cutting",
       "management"
     ],
+    "author": "Daniel Kaufhold",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dkaufhold/videaroo/issues"
+    },
     "homepage": "https://github.com/dkaufhold/videaroo",
     "devDependencies": {
       "electron": "^1.3.4",
@@ -115,5 +122,6 @@
   },
   "filename": "dkaufhold___videaroo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:59.302Z"
+  "lastFetchedAt": "2017-05-04T18:20:59.302Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:52.561Z"
 }

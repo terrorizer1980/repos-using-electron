@@ -57,10 +57,15 @@
     "description": "A minimal wrapper for DevDocs",
     "main": "main.js",
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron main.js",
+      "package-osx": "node_modules/.bin/electron-packager . DevDocs --platform=darwin --arch=x64 --icon=icon.icns",
+      "package-x86": "node_modules/.bin/electron-packager . DevDocs --platform=win32 --arch=x64 --icon=icon.icns",
+      "package-x64": "node_modules/.bin/electron-packager . DevDocs --platform=win32 --arch=ia32 --icon=icon.icns"
     },
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
+      "electron-packager": "^8.6.0",
       "electron-prebuilt": "^0.36.0"
     }
   },
@@ -110,5 +115,6 @@
   "svnUrl": "https://github.com/yutaodou/devdocs-wrapper",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:55:38.040Z"
+  "lastFetchedAt": "2017-05-04T20:55:38.040Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:11.539Z"
 }

@@ -60,7 +60,10 @@
       "start": "./node_modules/.bin/electron ./electron-client/main.js",
       "test": "node test/test.js"
     },
-    "repository": "https://github.com/positlabs/tumblr-templatr",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/positlabs/tumblr-templatr.git"
+    },
     "keywords": [
       "tumblr",
       "template",
@@ -68,6 +71,7 @@
       "theme",
       "Electron"
     ],
+    "author": "positlabs",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     },
@@ -125,5 +129,6 @@
   },
   "filename": "positlabs___tumblr-templatr.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:20.611Z"
+  "lastFetchedAt": "2017-05-04T20:57:20.611Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:04.837Z"
 }

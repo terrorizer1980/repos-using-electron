@@ -92,7 +92,13 @@
         "url": "http://ovass.com"
       }
     ],
-    "repository": "https://github.com/ovass/HTTPBug",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ovass/HTTPBug.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ovass/HTTPBug/issues"
+    },
     "licenses": [
       {
         "type": "UNLICENSE",
@@ -147,5 +153,6 @@
   },
   "filename": "Ovass___HTTPBug.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:02.250Z"
+  "lastFetchedAt": "2017-05-04T19:35:02.250Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:03.977Z"
 }

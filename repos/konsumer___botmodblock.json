@@ -75,6 +75,7 @@
       "zip": "for i in botmodblock-*; do cd $i && zip -r -9 ~/Desktop/$i.zip . ; cd .. ;done"
     },
     "main": "main.js",
+    "author": "David Konsumer <konsumer@jetboystudio.com>",
     "license": "MIT",
     "dependencies": {
       "highlight.js": "^9.2.0",
@@ -112,5 +113,6 @@
   },
   "filename": "konsumer___botmodblock.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:12.445Z"
+  "lastFetchedAt": "2017-05-04T21:27:12.445Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:15.171Z"
 }

@@ -85,13 +85,17 @@
       "test": "electron-mocha --timeout 10000 --renderer test/*.js",
       "gen-dts": "tsc -d src/index.ts && mv src/index.d.ts ."
     },
-    "repository": "https://github.com/rhysd/electron-in-page-search",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rhysd/electron-in-page-search.git"
+    },
     "keywords": [
       "electron",
       "module",
       "in-page",
       "search"
     ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
     "devDependencies": {
       "@types/electron": "^1.4.26",
@@ -129,5 +133,6 @@
   },
   "filename": "rhysd___electron-in-page-search.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:27.685Z"
+  "lastFetchedAt": "2017-05-04T16:45:27.685Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:00.750Z"
 }

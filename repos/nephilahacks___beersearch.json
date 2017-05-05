@@ -73,7 +73,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/nephilahacks/beersearch",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nephilahacks/beersearch.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -81,7 +84,11 @@
       "tutorial",
       "beer"
     ],
+    "author": "Nephila",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nephilahacks/beersearch/issues"
+    },
     "homepage": "https://github.com/nephilahacks/beersearch",
     "devDependencies": {
       "bower": "^1.6.5",
@@ -133,5 +140,6 @@
   "svnUrl": "https://github.com/nephilahacks/beersearch",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:19:57.026Z"
+  "lastFetchedAt": "2017-05-04T20:19:57.026Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:19.379Z"
 }

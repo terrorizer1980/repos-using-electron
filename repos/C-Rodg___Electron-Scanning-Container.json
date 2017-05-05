@@ -85,6 +85,7 @@
       "postinstall": "electron-rebuild --pre-gyp-fix --force",
       "package": "electron-packager ./ validar-electron --platform=win32 --arch=all --out dist/ValidarElectron"
     },
+    "author": "Curtis Rodgers",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -112,5 +113,6 @@
   },
   "filename": "C-Rodg___Electron-Scanning-Container.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:03.215Z"
+  "lastFetchedAt": "2017-05-04T20:06:03.215Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:22.030Z"
 }

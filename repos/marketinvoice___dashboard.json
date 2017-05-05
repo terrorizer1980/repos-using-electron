@@ -93,14 +93,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -134,5 +141,6 @@
   },
   "filename": "marketinvoice___dashboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:47.457Z"
+  "lastFetchedAt": "2017-05-04T05:34:47.457Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:30.697Z"
 }

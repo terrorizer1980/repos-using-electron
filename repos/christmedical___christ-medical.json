@@ -94,9 +94,16 @@
       "build": "node ./build/build.js",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/christmedical/christ-medical",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/christmedical/christ-medical.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/christmedical/christ-medical/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "bootstrap-sass": "^3.3.6",
@@ -140,5 +147,6 @@
   },
   "filename": "christmedical___christ-medical.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:41.461Z"
+  "lastFetchedAt": "2017-05-04T21:31:41.461Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:13.943Z"
 }

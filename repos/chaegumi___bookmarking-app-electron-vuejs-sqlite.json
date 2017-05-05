@@ -75,6 +75,7 @@
       "start": "electron main.js",
       "rebuild-sqlite3-win32": "cd node_modules/sqlite3 && npm run prepublish && node-gyp configure --module_name=node_sqlite3 --module_path=../lib/binding/node-v46-win32-x64 && node-gyp rebuild --target=1.4.4 --arch=x64 --target_platform=win32 --dist-url=https://atom.io/download/atom-shell --module_name=node_sqlite3 --module_path=../lib/binding/electron-v1.4-win32-x64"
     },
+    "author": "chaegumi",
     "license": "MIT",
     "dependencies": {
       "jquery": "^3.1.1",
@@ -124,5 +125,6 @@
   },
   "filename": "chaegumi___bookmarking-app-electron-vuejs-sqlite.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:16.269Z"
+  "lastFetchedAt": "2017-05-04T21:31:16.269Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:35.927Z"
 }

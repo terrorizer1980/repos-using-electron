@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "dimeshift-desktop",
-    "version": "0.0.3",
+    "version": "0.0.5",
     "description": "The easiest and desktop way to track your expenses. Free. Open-source.",
     "main": "index.js",
     "scripts": {
@@ -61,7 +61,10 @@
       "preinstall": "npm install --build-from-source sqlite3",
       "postinstall": "node rebuild.js"
     },
-    "repository": "https://github.com/jeka-kiselyov/dimeshift-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jeka-kiselyov/dimeshift-desktop.git"
+    },
     "keywords": [
       "desktop",
       "linux",
@@ -87,9 +90,13 @@
       "backbonejs",
       "restify"
     ],
+    "author": "Jeka Kiselyov <jeka911@gmail.com> (https://github.com/jeka-kiselyov)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jeka-kiselyov/dimeshift-desktop/issues"
+    },
     "dependencies": {
-      "dimeshift": "^0.1.24",
+      "dimeshift": "^0.1.34",
       "electron-prebuilt": "^0.37.2",
       "node-pre-gyp": "^0.6.24",
       "rfr": "^1.2.3",
@@ -143,5 +150,6 @@
   },
   "filename": "jeka-kiselyov___dimeshift-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:26.623Z"
+  "lastFetchedAt": "2017-05-04T17:56:26.623Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:30.703Z"
 }

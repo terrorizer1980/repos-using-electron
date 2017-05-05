@@ -81,8 +81,15 @@
       "build": "electron-packager . PileUp --platform=all --arch=all --prune",
       "test": "test"
     },
-    "repository": "https://github.com/armish/pileup.electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/armish/pileup.electron.git"
+    },
+    "author": "B. Arman Aksoy <arman@aksoy.org>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/armish/pileup.electron/issues"
+    },
     "homepage": "https://github.com/armish/pileup.electron#readme",
     "devDependencies": {
       "electron-packager": "^7.3.0",
@@ -114,5 +121,6 @@
   },
   "filename": "armish___pileup.electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:14.388Z"
+  "lastFetchedAt": "2017-05-04T05:04:14.388Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:50.578Z"
 }

@@ -58,6 +58,11 @@
     "description": "My praiseworthy app",
     "license": "MIT",
     "repository": "biltrex/",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "jarroddavis.com"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -136,5 +141,6 @@
   "svnUrl": "https://github.com/biltrex/funnelcake",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:50:02.638Z"
+  "lastFetchedAt": "2017-05-04T17:50:02.638Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:23.996Z"
 }

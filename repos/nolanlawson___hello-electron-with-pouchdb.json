@@ -172,13 +172,15 @@
     "main": "main.js",
     "scripts": {
       "start": "electron .",
-      "postinstall": "bash postinstall.sh"
+      "postinstall": "electron-rebuild"
     },
     "devDependencies": {
-      "electron-prebuilt": "^1.2.0"
+      "electron": "^1.4.12",
+      "electron-rebuild": "^1.4.0"
     },
     "dependencies": {
-      "pouchdb": "^5.4.5"
+      "pouchdb": "^6.1.0",
+      "pouchdb-adapter-node-websql": "^6.1.0"
     }
   },
   "packageStatus": 200,
@@ -226,5 +228,6 @@
   "svnUrl": "https://github.com/nolanlawson/hello-electron-with-pouchdb",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:55:49.160Z"
+  "lastFetchedAt": "2017-05-04T14:55:49.160Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:08.381Z"
 }

@@ -73,7 +73,11 @@
     },
     "version": "0.0.1",
     "description": "ElectronScreenDemo",
-    "repository": "https://github.com/saan1984/ElectronScreenDemo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronScreenDemo.git"
+    },
+    "author": "Sandeep Kumar Patel",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -104,5 +108,6 @@
   },
   "filename": "saan1984___ElectronScreenDemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:31.560Z"
+  "lastFetchedAt": "2017-05-04T17:49:31.560Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:45.915Z"
 }

@@ -60,8 +60,15 @@
       "start": "electron main.js",
       "test": "tape test/*.js"
     },
-    "repository": "https://github.com/callum/scrobbler",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/callum/scrobbler.git"
+    },
+    "author": "Callum Jefferies",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/callum/scrobbler/issues"
+    },
     "homepage": "https://github.com/callum/scrobbler#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -121,5 +128,6 @@
   "svnUrl": "https://github.com/callum/scrobbler",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:56:50.512Z"
+  "lastFetchedAt": "2017-05-04T04:56:50.512Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:58.676Z"
 }

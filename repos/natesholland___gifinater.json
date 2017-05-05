@@ -60,6 +60,7 @@
       "start": "node build.js && electron .",
       "build": "node build.js"
     },
+    "author": "Nate Holland",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -117,5 +118,6 @@
   },
   "filename": "natesholland___gifinater.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:57.396Z"
+  "lastFetchedAt": "2017-05-04T18:17:57.396Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:50.650Z"
 }

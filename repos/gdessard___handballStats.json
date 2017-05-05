@@ -125,7 +125,10 @@
     "name": "HandballStats",
     "license": "GPL-3.0",
     "description": "Gestion des statistiques des matchs de handball",
-    "repository": "https://github.com/gdessard/handballStats",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/gdessard/handballStats.git"
+    },
     "version": "0.0.1-beta"
   },
   "packageStatus": 200,
@@ -153,5 +156,6 @@
   },
   "filename": "gdessard___handballStats.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:47.733Z"
+  "lastFetchedAt": "2017-05-04T20:31:47.733Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:12.027Z"
 }

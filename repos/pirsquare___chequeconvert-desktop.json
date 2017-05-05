@@ -59,8 +59,12 @@
     "scripts": {
       "start": "electron main.js"
     },
+    "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
     "license": "MIT",
-    "repository": "https://github.com/pirsquare/chequeconvert-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pirsquare/chequeconvert-desktop.git"
+    },
     "dependencies": {
       "chequeconvert": "^0.0.3",
       "jquery": "^2.1.4"
@@ -115,5 +119,6 @@
   "svnUrl": "https://github.com/pirsquare/chequeconvert-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:36:41.156Z"
+  "lastFetchedAt": "2017-05-04T17:36:41.156Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:12.154Z"
 }

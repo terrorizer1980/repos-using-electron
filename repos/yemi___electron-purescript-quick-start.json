@@ -59,7 +59,10 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -67,7 +70,11 @@
       "tutorial",
       "PureScript"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/yemi/electron-purescript-quick-start/issues"
+    },
     "homepage": "https://github.com/yemi/electron-purescript-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -118,5 +125,6 @@
   "svnUrl": "https://github.com/yemi/electron-purescript-quick-start",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:35:10.601Z"
+  "lastFetchedAt": "2017-05-04T05:35:10.601Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:40.532Z"
 }

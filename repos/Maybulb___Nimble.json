@@ -95,14 +95,21 @@
     "scripts": {
       "start": "gulp && electron ."
     },
-    "repository": "https://github.com/Maybulb/Nimble",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Maybulb/Nimble.git"
+    },
     "keywords": [
       "wolfram",
       "nimble",
       "osx",
       "menubar"
     ],
+    "author": "Maybulb",
     "license": "CC-BY-NC-4.0",
+    "bugs": {
+      "url": "https://github.com/Maybulb/Nimble/issues"
+    },
     "homepage": "https://github.com/Maybulb/Nimble#readme",
     "build": {
       "mac": {
@@ -175,5 +182,6 @@
   },
   "filename": "Maybulb___Nimble.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:10.159Z"
+  "lastFetchedAt": "2017-05-04T14:54:10.159Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:59.379Z"
 }

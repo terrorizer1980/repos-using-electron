@@ -88,6 +88,7 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -176,5 +177,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:53.541Z"
+  "lastFetchedAt": "2017-05-04T05:28:53.541Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:29.553Z"
 }

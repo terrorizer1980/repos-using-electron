@@ -49,6 +49,7 @@
     "name": "DaumPostCodeBar",
     "version": "1.0.0",
     "description": "Daum 우편번호 서비스 MenuBar App",
+    "author": "Kyungwook Park <parksama@gmail.com>",
     "dependencies": {
       "menubar": "*"
     },
@@ -61,7 +62,10 @@
       "build": "mkdir -pv build && electron-packager . DaumPostCodeBar --platform=darwin --arch=x64 --version=0.36.5 --icon=Icon.icns --out=build/ --overwrite",
       "start": "electron ."
     },
-    "license": "MIT"
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kyungw00k/DaumPostCodeBar/issues"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -108,5 +112,6 @@
   "svnUrl": "https://github.com/kyungw00k/DaumPostCodeBar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:16:02.159Z"
+  "lastFetchedAt": "2017-05-04T18:16:02.159Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:45.965Z"
 }

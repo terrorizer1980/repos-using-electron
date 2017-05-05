@@ -208,19 +208,14 @@
       "linux-64-bundle": "electron-packager . Playback --platform=linux --arch=x64 --version=0.35.4 ignore='node_modules/(electron-packager|electron-prebuilt)'"
     },
     "repository": {
-      "user": "mafintosh",
-      "repo": "playback",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mafintosh/playback/tarball/master",
-      "clone_url": "https://github.com/mafintosh/playback",
-      "https_url": "https://github.com/mafintosh/playback",
-      "travis_url": "https://travis-ci.org/mafintosh/playback",
-      "zip_url": "https://github.com/mafintosh/playback/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mafintosh/playback"
+      "type": "git",
+      "url": "https://github.com/mafintosh/playback.git"
     },
+    "author": "Mathias Buus (@mafintosh)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mafintosh/playback/issues"
+    },
     "homepage": "https://github.com/mafintosh/playback"
   },
   "packageStatus": 200,
@@ -269,5 +264,6 @@
   "svnUrl": "https://github.com/ppeczek/playback",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:33:20.193Z"
+  "lastFetchedAt": "2017-05-04T20:33:20.193Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:48.909Z"
 }

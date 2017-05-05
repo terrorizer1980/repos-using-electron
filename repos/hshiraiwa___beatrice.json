@@ -56,6 +56,7 @@
       "start": "./node_modules/.bin/electron index.js",
       "watch": "./node_modules/.bin/gulp watch"
     },
+    "author": "Henrique Yoshio Shiraiwa <henrique.shiraiwa@gmail.com>",
     "license": "ISC",
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
@@ -120,5 +121,6 @@
   "svnUrl": "https://github.com/hshiraiwa/beatrice",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:08:46.935Z"
+  "lastFetchedAt": "2017-05-04T05:08:46.935Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:02.917Z"
 }

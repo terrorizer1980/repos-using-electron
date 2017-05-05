@@ -64,8 +64,15 @@
     "dependencies": {
       "encoding-japanese": "^1.0.24"
     },
+    "author": {
+      "name": "narazaka",
+      "url": "http://narazaka.net/"
+    },
     "license": "MIT",
-    "repository": "https://github.com/Narazaka/nativeshiori",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Narazaka/nativeshiori.git"
+    },
     "devDependencies": {
       "browserfs": "^0.5.12",
       "electron-prebuilt": "^1.2.7",
@@ -135,5 +142,6 @@
   "svnUrl": "https://github.com/Narazaka/nativeshiori",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:48:40.727Z"
+  "lastFetchedAt": "2017-05-04T14:48:40.727Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:16.935Z"
 }

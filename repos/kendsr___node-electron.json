@@ -73,6 +73,10 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": {
+      "name": "kendsr",
+      "email": ""
+    },
     "dependencies": {
       "electron-prebuilt": "^0.37.2"
     }
@@ -102,5 +106,6 @@
   },
   "filename": "kendsr___node-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:31:55.748Z"
+  "lastFetchedAt": "2017-05-04T19:31:55.748Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:05.251Z"
 }

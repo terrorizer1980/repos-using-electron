@@ -61,18 +61,10 @@
       "start": "nodemon --watch main.js --watch frontend/app.js --exec 'electron' main.js & gulp sass:watch"
     },
     "repository": {
-      "user": "beldar",
-      "repo": "node-uploader",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/beldar/node-uploader/tarball/master",
-      "clone_url": "https://github.com/beldar/node-uploader",
-      "https_url": "https://github.com/beldar/node-uploader",
-      "travis_url": "https://travis-ci.org/beldar/node-uploader",
-      "zip_url": "https://github.com/beldar/node-uploader/archive/master.zip",
-      "api_url": "https://api.github.com/repos/beldar/node-uploader"
+      "type": "git",
+      "url": "git+https://github.com/beldar/node-uploader.git"
     },
+    "author": "Marti Planellas",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -137,5 +129,6 @@
   "svnUrl": "https://github.com/beldar/node-uploader",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:13:23.554Z"
+  "lastFetchedAt": "2017-05-04T15:13:23.554Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:58.867Z"
 }

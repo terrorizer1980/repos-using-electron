@@ -96,8 +96,17 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/antonve/srs-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/antonve/srs-electron"
+    },
+    "author": {
+      "url": "https://github.com/antonve"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/antonve/srs-electron/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -201,5 +210,6 @@
   },
   "filename": "antonve___srs-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:57.551Z"
+  "lastFetchedAt": "2017-05-04T05:13:57.551Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:50.917Z"
 }

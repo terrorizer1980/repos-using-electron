@@ -91,17 +91,8 @@
       "prepush": "npm run flow && npm run unittest:view"
     },
     "repository": {
-      "user": "bokuweb",
-      "repo": "Tsukiakari",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bokuweb/Tsukiakari/tarball/master",
-      "clone_url": "https://github.com/bokuweb/Tsukiakari",
-      "https_url": "https://github.com/bokuweb/Tsukiakari",
-      "travis_url": "https://travis-ci.org/bokuweb/Tsukiakari",
-      "zip_url": "https://github.com/bokuweb/Tsukiakari/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bokuweb/Tsukiakari"
+      "type": "git",
+      "url": "git+https://github.com/bokuweb/Tsukiakari.git"
     },
     "keywords": [
       "Electron",
@@ -109,7 +100,11 @@
       "Redux",
       "Twitter"
     ],
+    "author": "bokuweb",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bokuweb/Tsukiakari/issues"
+    },
     "homepage": "https://github.com/bokuweb/Tsukiakari#readme",
     "devDependencies": {
       "babel": "^6.3.26",
@@ -236,5 +231,6 @@
   "filename": "marimo0718___sample1101.json",
   "sourceRepo": "bokuweb/Tsukiakari",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:29:52.445Z"
+  "lastFetchedAt": "2017-05-04T20:29:52.445Z",
+  "packageLastFetchedAt": "2017-05-05T13:57:49.437Z"
 }

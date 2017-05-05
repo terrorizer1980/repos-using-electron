@@ -57,7 +57,15 @@
     "version": "0.0.1",
     "description": "A simple markdown viewer/editor",
     "license": "MIT",
-    "repository": "https://github.com/mamal72/markee",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mamal72/markee.git"
+    },
+    "author": {
+      "name": "Mohamad Jahani",
+      "email": "m4m4lj@gmail.com",
+      "url": "github.com/mamal72"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -135,5 +143,6 @@
   "svnUrl": "https://github.com/mamal72/markee",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:51:18.794Z"
+  "lastFetchedAt": "2017-05-04T17:51:18.794Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:07.273Z"
 }

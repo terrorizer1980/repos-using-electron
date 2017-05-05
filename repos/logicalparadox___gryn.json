@@ -49,12 +49,16 @@
     "name": "gryn",
     "version": "0.3.1",
     "description": "Procfile based process management.",
+    "author": "Jake Luer <jake@alogicalpardox.com> (http://alogicalparadox.com)",
     "license": "MIT",
     "contributors": [],
     "keywords": [
       "procfile"
     ],
-    "repository": "https://github.com/logicalparadox/gryn",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:logicalparadox/gryn.git"
+    },
     "engines": {
       "node": ">= 0.8.0"
     },
@@ -120,5 +124,6 @@
   "svnUrl": "https://github.com/logicalparadox/gryn",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:53:57.128Z"
+  "lastFetchedAt": "2017-05-04T14:53:57.128Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:20.851Z"
 }

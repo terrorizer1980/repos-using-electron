@@ -77,7 +77,10 @@
       "htmlvalidator": "html-validator --file=index.html",
       "test": "snyk test"
     },
-    "repository": "https://github.com/jmcmillon/EnchantedMirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jmcmillon/EnchantedMirror.git"
+    },
     "keywords": [
       "magic mirror",
       "smart mirror",
@@ -132,5 +135,6 @@
   },
   "filename": "jmcmillon___EnchantedMirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:49.741Z"
+  "lastFetchedAt": "2017-05-04T15:22:49.741Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:03.692Z"
 }

@@ -58,6 +58,11 @@
     "description": "My remarkable app",
     "license": "MIT",
     "repository": "akameco/try-xss-electron",
+    "author": {
+      "name": "akameco",
+      "email": "akameco.t@gmail.com",
+      "url": "akameco.github.io"
+    },
     "electronVersion": "1.1.0",
     "scripts": {
       "test": "xo",
@@ -136,5 +141,6 @@
   "svnUrl": "https://github.com/akameco/try-xss-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:46:24.057Z"
+  "lastFetchedAt": "2017-05-04T17:46:24.057Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:12.257Z"
 }

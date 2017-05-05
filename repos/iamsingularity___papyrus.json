@@ -187,5 +187,53 @@
   "networkCount": 7,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:20:43.766Z"
+  "lastFetchedAt": "2017-05-04T05:20:43.766Z",
+  "packageJSON": {
+    "name": "papyrus",
+    "productName": "Papyrus",
+    "version": "1.0.2",
+    "description": "Unofficial Dropbox Paper app",
+    "main": "main.js",
+    "license": "MIT",
+    "repository": "morkro/papyrus",
+    "bugs": {
+      "url": "https://github.com/morkro/papyrus/issues"
+    },
+    "author": {
+      "name": "Moritz Kröger",
+      "email": "write@morkro.de",
+      "url": "www.moritz.berlin"
+    },
+    "keywords": [
+      "dropbox",
+      "paper",
+      "papyrus",
+      "electron",
+      "notes",
+      "app"
+    ],
+    "scripts": {
+      "lint": "eslint -f tap main.js",
+      "start": "electron .",
+      "build": "npm run build:macos && npm run build:linux && npm run build:windows",
+      "build:macos": "electron-packager . --overwrite --asar --prune --ignore='^media$' --out=dist --platform=darwin --arch=x64 --icon=static/dropbox-osx.icns && cd dist/Papyrus-darwin-x64 && zip -ryXq9 ../Papyrus-osx-${npm_package_version}.zip Papyrus.app",
+      "build:linux": "electron-packager . --overwrite --prune --ignore='^media$' --out=dist --platform=linux --arch=x64 && cd dist/Papyrus-linux-x64/ && zip -ryq9 ../Papyrus-linux-${npm_package_version}.zip *",
+      "build:windows": "electron-packager . --overwrite --asar --ignore='^media$' --out=dist --prune --platform=win32 --arch=ia32 --icon=static/dropbox-windows.ico --version-string.ProductName=$npm_package_productName && cd dist/Papyrus-win32-ia32 && zip -ryq9 ../Papyrus-windows-${npm_package_version}.zip *"
+    },
+    "devDependencies": {
+      "electron": "^1.4.12",
+      "electron-packager": "^8.4.0",
+      "eslint": "^3.12.2",
+      "eslint-config-airbnb": "^13.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "tap-spec": "^4.1.1",
+      "tape": "^4.6.3"
+    },
+    "dependencies": {
+      "electron-config": "^0.2.1",
+      "electron-debug": "^1.1.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:04:44.440Z"
 }

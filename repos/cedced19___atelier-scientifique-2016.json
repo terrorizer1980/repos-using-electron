@@ -78,6 +78,11 @@
     "description": "An application to use at an open doors.",
     "license": "MIT",
     "repository": "cedced19/atelier-scientifique-2016",
+    "author": {
+      "name": "Cédric JUNG",
+      "email": "cedced19@gmail.com",
+      "url": "cedced19.github.io"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "start": "electron ./",
@@ -134,5 +139,6 @@
   },
   "filename": "cedced19___atelier-scientifique-2016.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:53.765Z"
+  "lastFetchedAt": "2017-05-04T14:52:53.765Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:08.284Z"
 }

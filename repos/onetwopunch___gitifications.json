@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/onetwopunch/gitifications",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/onetwopunch/gitifications.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Ryan Canty <jrcanty@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/onetwopunch/gitifications/issues"
+    },
     "homepage": "https://github.com/onetwopunch/gitifications#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -122,5 +129,6 @@
   },
   "filename": "onetwopunch___gitifications.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:25:03.757Z"
+  "lastFetchedAt": "2017-05-04T20:25:03.757Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:36.921Z"
 }

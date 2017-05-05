@@ -66,6 +66,7 @@
       "predefault": "node-sass ./src/sass/style.scss ./src/style.css",
       "default": "electron ./src"
     },
+    "author": "John Varga <john.varga@inviewlabs.com> (http://www.inviewlabs.com)",
     "license": "MIT",
     "dependencies": {
       "angular": "^1.5.0",
@@ -134,5 +135,6 @@
   "svnUrl": "https://github.com/ridespirals/unifi-jenkins",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:17:27.007Z"
+  "lastFetchedAt": "2017-05-04T05:17:27.007Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:19.670Z"
 }

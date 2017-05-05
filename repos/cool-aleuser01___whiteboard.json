@@ -189,6 +189,10 @@
     "name": "whiteboard",
     "description": "WebRTC Whiteboard",
     "version": "1.0.0",
+    "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+    "bugs": {
+      "url": "https://github.com/feross/whiteboard/issues"
+    },
     "dependencies": {
       "bittorrent-tracker": "^4.3.3",
       "cat-names": "^1.0.2",
@@ -227,17 +231,8 @@
     "main": "server.js",
     "private": true,
     "repository": {
-      "user": "feross",
-      "repo": "whiteboard",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/feross/whiteboard/tarball/master",
-      "clone_url": "https://github.com/feross/whiteboard",
-      "https_url": "https://github.com/feross/whiteboard",
-      "travis_url": "https://travis-ci.org/feross/whiteboard",
-      "zip_url": "https://github.com/feross/whiteboard/archive/master.zip",
-      "api_url": "https://api.github.com/repos/feross/whiteboard"
+      "type": "git",
+      "url": "git://github.com/feross/whiteboard.git"
     },
     "scripts": {
       "build": "browserify client > static/bundle.js",
@@ -293,5 +288,6 @@
   "sourceRepo": "feross/whiteboard",
   "filename": "cool-aleuser01___whiteboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:55:01.061Z"
+  "lastFetchedAt": "2017-05-04T20:55:01.061Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:31.655Z"
 }

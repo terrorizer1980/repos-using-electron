@@ -80,12 +80,19 @@
     "scripts": {
       "test": "node_modules/gulp/bin/gulp.js test"
     },
-    "repository": "https://github.com/JunSuzukiJapan/elects",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JunSuzukiJapan/elects.git"
+    },
     "keywords": [
       "Electron",
       "TypeScript"
     ],
+    "author": "Jun Suzuki",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/JunSuzukiJapan/elects/issues"
+    },
     "homepage": "https://github.com/JunSuzukiJapan/elects#readme",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -133,5 +140,6 @@
   },
   "filename": "JunSuzukiJapan___elects.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:07:42.106Z"
+  "lastFetchedAt": "2017-05-03T20:07:42.106Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:55.263Z"
 }

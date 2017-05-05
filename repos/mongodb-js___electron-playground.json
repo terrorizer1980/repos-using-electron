@@ -87,11 +87,18 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/mongodb-js/electron-playground",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mongodb-js/electron-playground.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "Durran Jordan <durran@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mongodb-js/electron-playground/issues"
+    },
     "homepage": "https://github.com/mongodb-js/electron-playground",
     "devDependencies": {
       "electron-prebuilt": "^1.2.6"
@@ -101,7 +108,7 @@
       "babel-register": "^6.9.0",
       "react": "^15.2.0",
       "react-dom": "^15.2.0",
-      "reflux": "^0.4.1"
+      "reflux": "^5.0.3"
     }
   },
   "packageStatus": 200,
@@ -129,5 +136,6 @@
   },
   "filename": "mongodb-js___electron-playground.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:16:55.027Z"
+  "lastFetchedAt": "2017-05-04T21:16:55.027Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:20.341Z"
 }

@@ -79,11 +79,11 @@
       "start": "node.exe start-electron.js"
     },
     "dependencies": {
-      "electron": "^1.4.6",
+      "electron": "^1.4.12",
       "font-awesome": "^4.7.0",
       "jquery": "^3.1.1",
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2"
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1"
     },
     "devDependencies": {
       "babel-plugin-transform-react-jsx": "^6.8.0",
@@ -120,5 +120,6 @@
   },
   "filename": "frankhale___electron-custom-titlebar-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:00.609Z"
+  "lastFetchedAt": "2017-05-04T14:46:00.609Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:15.038Z"
 }

@@ -56,6 +56,7 @@
     "version": "0.2.0",
     "description": "hep me grow to a real lectron app",
     "main": "main.js",
+    "author": "nobodaddy webdesigner 237",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^1.0.0"
@@ -67,12 +68,18 @@
       "ace-builds": "^1.2.2",
       "marked": "^0.3.5"
     },
-    "repository": "https://github.com/chilismaug/wd-markdown-reborn",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chilismaug/wd-markdown-reborn.git"
+    },
     "keywords": [
       "ace",
       "markdown",
       "electron"
     ],
+    "bugs": {
+      "url": "https://github.com/chilismaug/wd-markdown-reborn/issues"
+    },
     "homepage": "https://github.com/chilismaug/wd-markdown-reborn#readme"
   },
   "packageStatus": 200,
@@ -120,5 +127,6 @@
   "svnUrl": "https://github.com/chilismaug/wd-markdown-reborn",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:29:05.366Z"
+  "lastFetchedAt": "2017-05-04T19:29:05.366Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:02.982Z"
 }

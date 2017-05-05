@@ -81,9 +81,13 @@
   "status": 200,
   "packageJSON": {
     "name": "pilas-compositor-de-grillas",
-    "version": "0.1.3",
+    "version": "0.1.6",
     "description": "Small description for pilas-compositor-de-grillas goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -93,6 +97,7 @@
     "engines": {
       "node": "= 4.2.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -196,5 +201,6 @@
   },
   "filename": "pilas-engine___pilas-compositor-de-grillas.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:50.346Z"
+  "lastFetchedAt": "2017-05-04T19:36:50.346Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:53.068Z"
 }

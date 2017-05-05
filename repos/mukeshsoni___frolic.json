@@ -82,7 +82,15 @@
       "type": "git",
       "url": "git+https://github.com:mukeshsoni/frolic.git"
     },
+    "author": {
+      "name": "Mukesh Soni",
+      "email": "mukeshsoni@gmail.com",
+      "url": "https://github.com/mukeshsoni"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mukeshsoni/frolic/issues"
+    },
     "keywords": [
       "playground",
       "elm",
@@ -162,7 +170,7 @@
       "postcss": "^5.1.0",
       "ps-node": "^0.1.3",
       "react": "^15.3.1",
-      "react-ace": "^3.5.0",
+      "react-ace": "4.1.4",
       "react-addons-test-utils": "^15.3.1",
       "react-dom": "^15.2.1",
       "react-elm-components": "^1.0.0",
@@ -224,5 +232,6 @@
   "svnUrl": "https://github.com/mukeshsoni/frolic",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:33:28.938Z"
+  "lastFetchedAt": "2017-05-04T19:33:28.938Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:08.979Z"
 }

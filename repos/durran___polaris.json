@@ -74,6 +74,7 @@
       "start": "electron ./src/main/index.js",
       "test": "electron-mocha --compilers js:babel-register test/support.js ./test/{**/,**/**/}*.test.{js,jsx}"
     },
+    "author": "Durran Jordan <durran@gmail.com>",
     "license": "Apache-2.0",
     "dependencies": {
       "babel-register": "^6.16.3",
@@ -124,5 +125,6 @@
   },
   "filename": "durran___polaris.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:05:14.835Z"
+  "lastFetchedAt": "2017-05-03T20:05:14.835Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:11.514Z"
 }

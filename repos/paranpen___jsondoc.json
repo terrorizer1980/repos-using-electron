@@ -83,12 +83,16 @@
       "test": "mocha --require test/setup.js --compilers js:babel-core/register",
       "test-w": "mocha test/components/*.js --require test/setup.js --compilers js:babel-core/register --watch --reporter min"
     },
-    "repository": "https://github.com/paranpen/jsondoc",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/paranpen/jsondoc"
+    },
     "keywords": [
       "react",
       "editor",
       "json"
     ],
+    "author": "taewony",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.16.0",
@@ -149,5 +153,6 @@
   },
   "filename": "paranpen___jsondoc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:36.484Z"
+  "lastFetchedAt": "2017-05-04T05:28:36.484Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:31.343Z"
 }

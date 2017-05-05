@@ -50,7 +50,10 @@
     "version": "1.0.0",
     "description": "minimal screen overlay to show current song playing from text file",
     "main": "index.html",
-    "repository": "https://github.com/simulatedgreg/gregsong",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/simulatedgreg/gregsong.git"
+    },
     "dependencies": {
       "jquery": "^2.2.0"
     }
@@ -100,5 +103,6 @@
   "svnUrl": "https://github.com/SimulatedGREG/GregSong",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:50:31.070Z"
+  "lastFetchedAt": "2017-05-04T19:50:31.070Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:43.801Z"
 }

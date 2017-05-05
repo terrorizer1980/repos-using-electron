@@ -68,38 +68,18 @@
   "packageJSON": {
     "name": "App",
     "version": "1.0.0",
-    "main": "main.js",
     "scripts": {
-      "start": "webpack-dashboard -- node server.js",
-      "webpack": "node server.js"
+      "start:electron": "electron ./src/electron.js",
+      "elm:make": "elm make ./src/app/Main.elm --output ./dist/elm.js",
+      "elm:watch": "chokidar '**/*.elm' -c 'npm run elm:make'",
+      "watch:dev": "npm run elm:make & npm run elm:watch & npm run start:electron"
     },
     "author": "Paweł Kociubiński",
     "devDependencies": {
       "devtron": "^1.3.0",
-      "flow-bin": "^0.33.0",
-      "mobx-react-devtools": "^4.2.6",
-      "webpack": "^2.1.0-beta.25",
-      "webpack-dashboard": "^0.1.8",
-      "webpack-dev-server": "^2.1.0-beta.7"
-    },
-    "dependencies": {
-      "babel-core": "^6.16.0",
-      "babel-loader": "^6.2.5",
-      "babel-plugin-transform-decorators-legacy": "^1.3.4",
-      "babel-plugin-transform-flow-strip-types": "^6.14.0",
-      "babel-plugin-transform-object-rest-spread": "^6.16.0",
-      "babel-preset-es2015": "^6.16.0",
-      "babel-preset-react": "^6.16.0",
-      "babel-preset-stage-0": "^6.16.0",
-      "electron": "^1.4.1",
-      "electron-reload": "^1.0.2",
-      "mobx": "^2.5.2",
-      "mobx-react": "^3.5.6",
-      "radium": "^0.18.1",
-      "radium-normalize": "^2.0.5",
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2",
-      "react-router": "^4.0.0-alpha.3"
+      "electron": "1.4.15",
+      "electron-debug": "^1.1.0",
+      "electron-packager": "8.5.1"
     }
   },
   "packageStatus": 200,
@@ -127,5 +107,6 @@
   },
   "filename": "pawelkociubinski___electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:32.856Z"
+  "lastFetchedAt": "2017-05-04T19:58:32.856Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:58.543Z"
 }

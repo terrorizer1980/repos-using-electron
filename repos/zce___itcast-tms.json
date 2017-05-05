@@ -69,8 +69,15 @@
     "name": "itcast-tms",
     "description": "A management system for Itcast, Inc.",
     "version": "5.0.0",
-    "repository": "https://github.com/zce/itcast-tms",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zce/itcast-tms.git"
+    },
+    "author": "iceStone <ice@wedn.net> (http://wedn.net/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zce/itcast-tms/issues"
+    },
     "homepage": "http://tms.uieee.com/",
     "scripts": {
       "submodule": "git clone https://git.oschina.net/wedn/itcast-tms.git dist -b v5.x --depth 1",
@@ -164,5 +171,6 @@
   },
   "filename": "zce___itcast-tms.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:40.348Z"
+  "lastFetchedAt": "2017-05-04T19:36:40.348Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:02.706Z"
 }

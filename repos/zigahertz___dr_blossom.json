@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Small description for blossom goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -147,5 +152,6 @@
   "svnUrl": "https://github.com/zigahertz/dr_blossom",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:05:37.234Z"
+  "lastFetchedAt": "2017-05-04T18:05:37.234Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:22.474Z"
 }

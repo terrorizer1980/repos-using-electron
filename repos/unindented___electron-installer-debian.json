@@ -74,9 +74,17 @@
   "packageJSON": {
     "name": "electron-installer-debian",
     "description": "Create a Debian package for your Electron app.",
-    "version": "0.4.0",
+    "version": "0.5.1",
     "license": "MIT",
-    "repository": "https://github.com/unindented/electron-installer-debian",
+    "author": {
+      "name": "Daniel Perez Alvarez",
+      "email": "unindented@gmail.com",
+      "url": "http://unindented.org/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/unindented/electron-installer-debian.git"
+    },
     "keywords": [
       "electron",
       "debian"
@@ -96,7 +104,7 @@
       "test": "npm run clean && npm run lint && npm run spec"
     },
     "dependencies": {
-      "asar": "^0.12.0",
+      "asar": "^0.13.0",
       "async": "^2.0.0",
       "debug": "^2.2.0",
       "fs-extra": "^1.0.0",
@@ -105,7 +113,7 @@
       "lodash": "^4.13.0",
       "temp": "^0.8.3",
       "word-wrap": "^1.1.0",
-      "yargs": "^6.0.0"
+      "yargs": "^7.0.2"
     },
     "devDependencies": {
       "chai": "^3.4.1",
@@ -143,5 +151,6 @@
   },
   "filename": "unindented___electron-installer-debian.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:14.772Z"
+  "lastFetchedAt": "2017-05-04T05:23:14.772Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:05.611Z"
 }

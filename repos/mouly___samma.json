@@ -70,8 +70,15 @@
       "build": "electron-packager . samma --platform=darwin --arch=x64 --version=0.30.3 --ignore=node_modules/electron --icon=Icon.icns",
       "start": "electron ."
     },
-    "repository": "https://github.com/mouly/samma",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mouly/samma.git"
+    },
+    "author": "mouly kumar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mouly/samma/issues"
+    },
     "homepage": "https://github.com/mouly/samma"
   },
   "packageStatus": 200,
@@ -119,5 +126,6 @@
   },
   "filename": "mouly___samma.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:33.963Z"
+  "lastFetchedAt": "2017-05-04T14:21:33.963Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:16.435Z"
 }

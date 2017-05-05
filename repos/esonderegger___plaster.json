@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "plaster",
-    "version": "0.1.5",
+    "version": "0.1.9",
     "description": "A Desktop App for Making Great Podcasts",
     "main": "app/main.js",
     "scripts": {
@@ -91,34 +91,43 @@
       "pack": "build --dir",
       "dist": "build -mwl"
     },
-    "repository": "https://github.com/esonderegger/plaster",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/esonderegger/plaster.git"
+    },
     "keywords": [
       "podcast",
       "podcasting"
     ],
+    "author": "Evan Sonderegger <evan@rpy.xyz>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/esonderegger/plaster/issues"
+    },
     "homepage": "https://esonderegger.github.io/plaster/",
     "devDependencies": {
-      "archiver": "^1.1.0",
+      "archiver": "^1.2.0",
       "babel-preset-es2015-rollup": "^1.2.0",
       "babel-preset-react": "^6.16.0",
       "browser-id3-writer": "^2.3.1",
       "concurrently": "^3.1.0",
-      "electron": "^1.4.3",
-      "electron-builder": "^7.14.2",
-      "eslint": "^3.7.1",
+      "electron": "^1.4.7",
+      "electron-builder": "^7.26.0",
+      "eslint": "^3.10.2",
       "eslint-config-google": "^0.6.0",
-      "eslint-plugin-react": "^6.4.1",
+      "eslint-plugin-react": "^6.7.1",
       "gulp": "^3.9.1",
       "gulp-connect": "^5.0.0",
       "gulp-sass": "^2.3.2",
-      "handlebars": "^4.0.5",
-      "material-ui": "^0.16.0",
-      "moment": "^2.15.1",
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2",
+      "handlebars": "^4.0.6",
+      "level": "~1.4.0",
+      "material-ui": "^0.16.2",
+      "moment": "^2.16.0",
+      "react": "~15.3.2",
+      "react-dom": "~15.3.2",
       "react-tap-event-plugin": "^1.0.0",
       "readdirp": "^2.1.0",
+      "request": "^2.78.0",
       "rollup": "^0.36.3",
       "rollup-plugin-babel": "^2.6.1",
       "rollup-plugin-commonjs": "^5.0.5",
@@ -191,5 +200,6 @@
   },
   "filename": "esonderegger___plaster.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:42:36.370Z"
+  "lastFetchedAt": "2017-05-04T20:42:36.370Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:31.511Z"
 }

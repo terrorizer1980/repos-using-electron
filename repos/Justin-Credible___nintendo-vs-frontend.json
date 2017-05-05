@@ -78,8 +78,12 @@
     "scripts": {
       "test": "gulp lint"
     },
+    "author": "Justin Unterreiner",
     "license": "MIT",
-    "repository": "https://github.com/justin-credible/nintendo-vs-frontend",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/justin-credible/nintendo-vs-frontend"
+    },
     "readme": "README.md",
     "dependencies": {
       "bower": "1.7.1",
@@ -126,5 +130,6 @@
   },
   "filename": "Justin-Credible___nintendo-vs-frontend.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:29:10.412Z"
+  "lastFetchedAt": "2017-05-04T19:29:10.412Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:28.326Z"
 }

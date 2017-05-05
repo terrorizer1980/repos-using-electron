@@ -73,5 +73,29 @@
   "networkCount": 4,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:23:39.873Z"
+  "lastFetchedAt": "2017-05-04T21:23:39.873Z",
+  "packageJSON": {
+    "name": "quantaxis",
+    "version": "3.0.0",
+    "description": "quantbox for matlab",
+    "main": "DataCenter/bin/www.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yutiansut/QUANTAXIS.git"
+    },
+    "keywords": [
+      "quant;matlab;wind;mysql"
+    ],
+    "author": "yutiansut",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yutiansut/QUANTAXIS/issues"
+    },
+    "homepage": "https://github.com/yutiansut/QUANTAXIS#readme"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:45:00.126Z"
 }

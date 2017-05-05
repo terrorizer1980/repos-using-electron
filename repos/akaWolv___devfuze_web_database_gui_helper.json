@@ -97,9 +97,16 @@
       "app-bundle-id": "Wolv",
       "app-category-type": "app.helper.gui"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [],
+    "author": "Pavel 'Wolv' Nejczew",
     "license": "CC-BY-4.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/akaWolv/devfuze_web_database_gui_helper.git#readme",
     "devDependencies": {
       "chalk": "^1.1.1",
@@ -163,5 +170,6 @@
   },
   "filename": "akaWolv___devfuze_web_database_gui_helper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:23.743Z"
+  "lastFetchedAt": "2017-05-04T14:25:23.743Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:39.958Z"
 }

@@ -70,7 +70,10 @@
     "private": true,
     "description": "Seed project for angular 1 + ionic + electron",
     "license": "Apache-2.0",
-    "repository": "https://github.com/bedatse/angular-webpack-ionic-electron-seed.git",
+    "repository": {
+      "type": "git",
+      "url": "github:bedatse/angular-webpack-ionic-electron-seed.git"
+    },
     "main": "main.electron.js",
     "dependencies": {
       "angular": "^1.5.8",
@@ -188,5 +191,6 @@
   },
   "filename": "bedatse___es6-angular1-electron-ionic-webpack-seed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:15.944Z"
+  "lastFetchedAt": "2017-05-04T15:16:15.944Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:10.410Z"
 }

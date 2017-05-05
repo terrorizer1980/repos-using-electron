@@ -94,11 +94,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/TixMeQuick/barcoder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/TixMeQuick/barcoder.git"
+    },
     "keywords": [
       "barcode",
       "electron"
     ],
+    "author": "TixMeQuick",
     "license": "Unlicense",
     "homepage": "https://github.com/TixMeQuick/barcoder#readme",
     "devDependencies": {
@@ -133,5 +137,6 @@
   },
   "filename": "TixMeQuick___barcoder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:49.184Z"
+  "lastFetchedAt": "2017-05-04T05:32:49.184Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:28.148Z"
 }

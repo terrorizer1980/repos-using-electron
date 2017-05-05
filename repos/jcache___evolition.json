@@ -73,6 +73,9 @@
     "copyright": "Copyright (c) 2016, Evolition, LLC. All rights reserved.",
     "description": "evolition",
     "electronVersion": "1.1.1",
+    "bugs": {
+      "url": "https://github.com/evolition/evolition-app/issues"
+    },
     "contributors": [
       {
         "email": "kevin@evolition.io",
@@ -84,7 +87,11 @@
       }
     ],
     "main": "src/init.js",
-    "repository": "https://github.com/evolition/evolition-app",
+    "author": "Kevin Carr",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evolition/evolition-app.git"
+    },
     "license": "MIT",
     "dependencies": {
       "electron-compile": "^3.1.0",
@@ -160,5 +167,6 @@
   },
   "filename": "jcache___evolition.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:10:00.104Z"
+  "lastFetchedAt": "2017-05-04T18:10:00.104Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:10.143Z"
 }

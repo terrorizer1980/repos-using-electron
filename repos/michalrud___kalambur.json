@@ -80,19 +80,14 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "michalrud",
-      "repo": "kalambur",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/michalrud/kalambur/tarball/master",
-      "clone_url": "https://github.com/michalrud/kalambur",
-      "https_url": "https://github.com/michalrud/kalambur",
-      "travis_url": "https://travis-ci.org/michalrud/kalambur",
-      "zip_url": "https://github.com/michalrud/kalambur/archive/master.zip",
-      "api_url": "https://api.github.com/repos/michalrud/kalambur"
+      "type": "git",
+      "url": "git+https://github.com/michalrud/kalambur.git"
     },
+    "author": "fleg",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/michalrud/kalambur/issues"
+    },
     "homepage": "https://github.com/michalrud/kalambur",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -124,5 +119,6 @@
   "filename": "michalrud___kalambur.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:35:18.247Z"
+  "lastFetchedAt": "2017-05-04T20:35:18.247Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:58.723Z"
 }

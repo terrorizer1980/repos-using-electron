@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/youcef-M/md_to_pdf",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/youcef-M/md_to_pdf.git"
+    },
     "keywords": [
       "markdown",
       "pdf",
       "convert",
       "electron"
     ],
+    "author": "Youcef Medjellakh",
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/youcef-M/md_to_pdf/issues"
+    },
     "homepage": "https://github.com/youcef-M/md_to_pdf#readme",
     "dependencies": {
       "electron-prebuilt": "^0.35.1"
@@ -117,5 +124,6 @@
   },
   "filename": "youcef-M___md_to_pdf.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:33.989Z"
+  "lastFetchedAt": "2017-05-04T16:46:33.989Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:48.024Z"
 }

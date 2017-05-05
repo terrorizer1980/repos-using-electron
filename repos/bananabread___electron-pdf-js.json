@@ -183,24 +183,19 @@
       "electron-pdf-js": "cli.js"
     },
     "repository": {
-      "user": "bananabread",
-      "repo": "electron-pdf",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bananabread/electron-pdf/tarball/master",
-      "clone_url": "https://github.com/bananabread/electron-pdf",
-      "https_url": "https://github.com/bananabread/electron-pdf",
-      "travis_url": "https://travis-ci.org/bananabread/electron-pdf",
-      "zip_url": "https://github.com/bananabread/electron-pdf/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bananabread/electron-pdf"
+      "type": "git",
+      "url": "https://github.com/bananabread/electron-pdf.git"
     },
     "keywords": [
       "electron",
       "electron-tool",
       "pdf"
     ],
+    "author": "Ben Hargreaves",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bananabread/electron-pdf/issues"
+    },
     "homepage": "https://github.com/bananabread/electron-pdf",
     "devDependencies": {
       "standard": "^5.1.0"
@@ -261,5 +256,6 @@
   "svnUrl": "https://github.com/bananabread/electron-pdf-js",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:11:36.654Z"
+  "lastFetchedAt": "2017-05-04T21:11:36.654Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:08.987Z"
 }

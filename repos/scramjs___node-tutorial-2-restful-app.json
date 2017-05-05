@@ -184,21 +184,20 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-      "start": "npm install -g bower && bower install && xvfb-run electron node_modules/scram-engine/main.js app/server/index.html",
-      "dev": "electron node_modules/scram-engine/main.js app/server/index.html",
-      "dev-window": "electron node_modules/scram-engine/main.js app/server/index.html -d"
+      "start": "npm install -g bower && bower install && xvfb-run electron node_modules/scram-engine/main.js --entry-file app/server/index.html",
+      "dev": "electron node_modules/scram-engine/main.js --entry-file app/server/index.html",
+      "dev-window": "electron node_modules/scram-engine/main.js --entry-file app/server/index.html --window"
     },
     "dependencies": {
       "body-parser": "^1.15.2",
       "cookie-parser": "^1.4.3",
       "debug": "^2.2.0",
-      "electron-prebuilt": "^1.2.6",
       "express": "^4.14.0",
       "mongodb": "^2.1.8",
       "monk": "^3.0.3",
       "morgan": "^1.7.0",
       "pug": "^2.0.0-beta3",
-      "scram-engine": "^0.3.1",
+      "scram-engine": "^0.4.4",
       "serve-favicon": "^2.3.0"
     }
   },
@@ -247,5 +246,6 @@
   },
   "filename": "scramjs___node-tutorial-2-restful-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:14:20.241Z"
+  "lastFetchedAt": "2017-05-04T20:14:20.241Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:30.645Z"
 }

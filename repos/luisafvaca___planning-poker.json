@@ -74,9 +74,16 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/luisafvaca/planning-poker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/luisafvaca/planning-poker.git"
+    },
+    "author": "Luisa Fernanda Vaca Correa <luisafernanda9111@gmail.com> (https://github.com/luisafvaca)",
     "contributors": "Guillermo Rodas <garethderioth@gmail.com> (http://guillermorodas.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/luisafvaca/planning-poker/issues"
+    },
     "homepage": "https://github.com/luisafvaca/planning-poker#readme",
     "devDependencies": {
       "electron-prebuilt": "0.37.7",
@@ -113,5 +120,6 @@
   },
   "filename": "luisafvaca___planning-poker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:05.761Z"
+  "lastFetchedAt": "2017-05-04T20:45:05.761Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:17.214Z"
 }

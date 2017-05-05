@@ -73,12 +73,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/garciparedes/trellotron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/garciparedes/trellotron.git"
+    },
     "keywords": [
       "Electron",
       "Trello"
     ],
+    "author": "garciparedes",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/garciparedes/trellotron/issues"
+    },
     "homepage": "https://github.com/garciparedes/trellotron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -109,5 +116,6 @@
   },
   "filename": "garciparedes___trellotron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:01.162Z"
+  "lastFetchedAt": "2017-05-04T05:26:01.162Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:02.598Z"
 }

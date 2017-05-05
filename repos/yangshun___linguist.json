@@ -93,8 +93,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "Tay Yang Shun",
+      "email": "me@yangshun.im",
+      "url": "https://github.com/yangshun"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yangshun/linguist/issues"
+    },
     "keywords": [
       "locale",
       "electron",
@@ -196,5 +207,6 @@
   },
   "filename": "yangshun___linguist.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:26:54.989Z"
+  "lastFetchedAt": "2017-05-04T20:26:54.989Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:11.600Z"
 }

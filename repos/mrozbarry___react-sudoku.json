@@ -84,6 +84,7 @@
       "build:production": "mkdir -p ./public && webpack -p --config ./config/webpack.production.config.js",
       "prod": "NODE_ENV=production npm run build:production && npm run build:manifest"
     },
+    "author": "Alex Barry",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -131,5 +132,6 @@
   "svnUrl": "https://github.com/mrozbarry/react-sudoku",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:32:14.701Z"
+  "lastFetchedAt": "2017-05-04T19:32:14.701Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:02.237Z"
 }

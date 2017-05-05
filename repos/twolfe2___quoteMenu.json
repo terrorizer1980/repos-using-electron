@@ -81,14 +81,21 @@
       "dev": "concurrently -k 'babel-node server.js' 'npm start'",
       "build": "webpack --config webpack.config.production.js && electron-packager . HackerNews --platform=darwin --arch=all --prune --overwrite --icon ./HN_icon"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "babel": {
       "presets": [
@@ -154,5 +161,6 @@
   },
   "filename": "twolfe2___quoteMenu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:51.891Z"
+  "lastFetchedAt": "2017-05-04T18:08:51.891Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:24.901Z"
 }

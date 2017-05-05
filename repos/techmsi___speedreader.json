@@ -59,6 +59,11 @@
     "main": "index.js",
     "license": "MIT",
     "repository": "techmsi/speedreader",
+    "author": {
+      "name": "techmsi",
+      "email": "sophia.idro@gmail.com",
+      "url": "techmsi.github.io"
+    },
     "electronVersion": "0.36.0",
     "localModulesPath": "./node_modules/.bin",
     "appCategory": "public.app-category.productivity",
@@ -147,5 +152,6 @@
   "svnUrl": "https://github.com/techmsi/speedreader",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:20:12.057Z"
+  "lastFetchedAt": "2017-05-04T20:20:12.057Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:26.685Z"
 }

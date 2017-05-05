@@ -88,17 +88,8 @@
       "build:win32": "./scripts/build.sh win32 ia32"
     },
     "repository": {
-      "user": "geeeeeeeeek",
-      "repo": "wechat-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/geeeeeeeeek/wechat-electron/tarball/master",
-      "clone_url": "https://github.com/geeeeeeeeek/wechat-electron",
-      "https_url": "https://github.com/geeeeeeeeek/wechat-electron",
-      "travis_url": "https://travis-ci.org/geeeeeeeeek/wechat-electron",
-      "zip_url": "https://github.com/geeeeeeeeek/wechat-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/geeeeeeeeek/wechat-electron"
+      "type": "git",
+      "url": "https://github.com/geeeeeeeeek/wechat-electron.git"
     },
     "keywords": [
       "Electron",
@@ -106,7 +97,11 @@
       "微信",
       "Web"
     ],
+    "author": "Zhongyi Tong",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/geeeeeeeeek/wechat-electron/issues"
+    },
     "homepage": "https://github.com/geeeeeeeeek/wechat-electron/",
     "dependencies": {
       "electron-prebuilt": "^0.36.9",
@@ -139,5 +134,6 @@
   "filename": "freealong___electron-ticktick.json",
   "sourceRepo": "geeeeeeeeek/electronic-wechat",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:07.022Z"
+  "lastFetchedAt": "2017-05-04T05:01:07.022Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:35.674Z"
 }

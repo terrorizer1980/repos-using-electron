@@ -56,7 +56,18 @@
     "description": "Karma launcher and preprocessor for Electron",
     "version": "5.1.1",
     "homepage": "https://github.com/twolfson/karma-electron",
-    "repository": "https://github.com/twolfson/karma-electron",
+    "author": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com",
+      "url": "http://twolfson.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twolfson/karma-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/twolfson/karma-electron/issues"
+    },
     "main": "lib/index",
     "engines": {
       "node": ">= 0.10.0"
@@ -165,5 +176,6 @@
   "svnUrl": "https://github.com/twolfson/karma-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:56:29.345Z"
+  "lastFetchedAt": "2017-05-04T14:56:29.345Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:42.850Z"
 }

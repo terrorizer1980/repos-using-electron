@@ -76,10 +76,17 @@
     "version": "3.1.4",
     "description": "A minimal Geiger application.",
     "main": "main.js",
+    "author": {
+      "name": "Gregori Kanatzidis",
+      "email": "gregori@alabastertech.com"
+    },
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/kanatzidis/electron-sample",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kanatzidis/electron-sample.git"
+    },
     "keywords": [
       "Electron",
       "geiger",
@@ -90,6 +97,9 @@
       "auto"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kanatzidis/electron-sample/issues"
+    },
     "homepage": "https://github.com/kanatzidis/electron-sample#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -124,5 +134,6 @@
   },
   "filename": "kanatzidis___electron-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:36.597Z"
+  "lastFetchedAt": "2017-05-04T18:18:36.597Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:35.590Z"
 }

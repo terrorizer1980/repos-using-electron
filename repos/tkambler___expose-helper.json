@@ -73,6 +73,7 @@
     "scripts": {
       "start": "npm i && cd app && npm i && cd .. && grunt launch"
     },
+    "author": "Tim Ambler <tkambler@gmail.com> (http://bitcubby.com)",
     "license": "ISC",
     "devDependencies": {
       "grunt": "^1.0.1",
@@ -104,5 +105,6 @@
   },
   "filename": "tkambler___expose-helper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:47:33.026Z"
+  "lastFetchedAt": "2017-05-04T20:47:33.026Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:59.814Z"
 }

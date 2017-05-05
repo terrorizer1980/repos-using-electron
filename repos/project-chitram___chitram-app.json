@@ -93,14 +93,21 @@
     "scripts": {
       "start": "./bash/start-web-server.sh && electron main.js"
     },
-    "repository": "https://github.com/project-chitram/chitram-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/project-chitram/chitram-app.git"
+    },
     "keywords": [
       "video",
       "dataviz",
       "animation",
       "charts"
     ],
+    "author": "KavyaSukumar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/project-chitram/chitram-app/issues"
+    },
     "homepage": "https://github.com/project-chitram/chitram-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -142,5 +149,6 @@
   },
   "filename": "project-chitram___chitram-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:58.292Z"
+  "lastFetchedAt": "2017-05-04T20:34:58.292Z",
+  "packageLastFetchedAt": "2017-05-04T22:10:03.417Z"
 }

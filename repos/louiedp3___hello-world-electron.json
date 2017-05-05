@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/louiedp3/hello-world-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/louiedp3/hello-world-electron.git"
+    },
+    "author": "Louie Perez",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/louiedp3/hello-world-electron/issues"
+    },
     "homepage": "https://github.com/louiedp3/hello-world-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.2"
@@ -111,5 +118,6 @@
   },
   "filename": "louiedp3___hello-world-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:56.327Z"
+  "lastFetchedAt": "2017-05-04T19:36:56.327Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:33.181Z"
 }

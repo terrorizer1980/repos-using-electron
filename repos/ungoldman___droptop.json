@@ -49,6 +49,9 @@
     "name": "droptop",
     "description": "another desktop gis app? I guess? maybe?",
     "version": "0.0.0",
+    "bugs": {
+      "url": "https://github.com/ungoldman/droptop/issues"
+    },
     "dependencies": {
       "choo": "^3.2.0",
       "choo-log": "^1.4.0",
@@ -63,7 +66,10 @@
     "keywords": [],
     "license": "ISC",
     "main": "index.js",
-    "repository": "https://github.com/ungoldman/droptop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ungoldman/droptop.git"
+    },
     "scripts": {
       "start": "electron main",
       "test": "standard"
@@ -114,5 +120,6 @@
   },
   "filename": "ungoldman___droptop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:05.151Z"
+  "lastFetchedAt": "2017-05-04T21:05:05.151Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:06.325Z"
 }

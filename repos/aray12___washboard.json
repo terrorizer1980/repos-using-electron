@@ -79,11 +79,18 @@
     "scripts": {
       "start": "babel lib/index.js -o app/dist/bundle.js && electron ."
     },
-    "repository": "https://github.com/aray12/washboard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aray12/washboard.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/aray12/washboard/issues"
+    },
     "devDependencies": {
       "babel": "^6.5.2",
       "babel-cli": "^6.14.0",
@@ -126,5 +133,6 @@
   },
   "filename": "aray12___washboard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:23:05.213Z"
+  "lastFetchedAt": "2017-05-04T18:23:05.213Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:53.596Z"
 }

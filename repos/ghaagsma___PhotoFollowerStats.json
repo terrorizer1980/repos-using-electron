@@ -53,6 +53,7 @@
     "scripts": {
       "start": "electron main.js"
     },
+    "author": "Jerry Haagsma",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
       "superagent": "^1.7.2"
@@ -103,5 +104,6 @@
   "svnUrl": "https://github.com/ghaagsma/PhotoFollowerStats",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:37:33.647Z"
+  "lastFetchedAt": "2017-05-04T19:37:33.647Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:23.337Z"
 }

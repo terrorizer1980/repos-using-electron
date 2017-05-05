@@ -62,7 +62,10 @@
       "webpack": "webpack --progress --colors",
       "webpack:watch": "webpack --progress --colors --watch"
     },
-    "repository": "https://github.com/joshuaegclark/party-player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/joshuaegclark/party-player.git"
+    },
     "keywords": [
       "youtube",
       "spotify",
@@ -70,7 +73,11 @@
       "party",
       "player"
     ],
+    "author": "Joshua Clark",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/joshuaegclark/party-player/issues"
+    },
     "homepage": "https://github.com/joshuaegclark/party-player#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -148,5 +155,6 @@
   "svnUrl": "https://github.com/joshuaegclark/party-player",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:43:06.185Z"
+  "lastFetchedAt": "2017-05-04T19:43:06.185Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:27.032Z"
 }

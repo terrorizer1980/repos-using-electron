@@ -88,6 +88,7 @@
       "start": "gulp run",
       "build": "electron-packager app PrettyGirl  --all"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -119,5 +120,6 @@
   },
   "filename": "pretty-girl___client-desktop-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:01.642Z"
+  "lastFetchedAt": "2017-05-04T16:45:01.642Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:48.869Z"
 }

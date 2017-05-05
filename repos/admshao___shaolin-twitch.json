@@ -54,7 +54,10 @@
   "packageJSON": {
     "name": "shaolin-twitch",
     "version": "0.1.2",
-    "repository": "https://github.com/admshao/shaolin-twitch",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/admshao/shaolin-twitch.git"
+    },
     "homepage": "http://nomadtv.com.br/",
     "contributors": [
       "Fabio \"Shaolin\" Madia <admshao@gmail.com>"
@@ -236,5 +239,6 @@
   "svnUrl": "https://github.com/admshao/shaolin-twitch",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:16:34.145Z"
+  "lastFetchedAt": "2017-05-04T18:16:34.145Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:54.811Z"
 }

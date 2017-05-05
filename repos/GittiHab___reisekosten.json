@@ -92,6 +92,9 @@
       "mocha": "^3.0.2"
     },
     "main": "app/index.js",
+    "directories": {
+      "test": "test"
+    },
     "dependencies": {
       "angular": "^1.5.8",
       "angular-ui-router": "^1.0.0-beta.2",
@@ -105,6 +108,7 @@
       "start": "electron .",
       "build": "electron-packager ./ \"Reisekostenabrechnung\" --platform=darwin --icon=./icons/icon.icns --overwrite --out=./build"
     },
+    "author": "Pius Ladenburger",
     "license": "Apache 2",
     "description": "The open source travel expense report solution for the German tax payer."
   },
@@ -132,5 +136,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:16.685Z"
+  "lastFetchedAt": "2017-05-04T20:54:16.685Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:01.788Z"
 }

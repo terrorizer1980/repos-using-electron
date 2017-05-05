@@ -79,6 +79,11 @@
     "description": "My stellar app",
     "license": "MIT",
     "repository": "bananaChevalier/electron-timer",
+    "author": {
+      "name": "Ivan",
+      "email": "bananachevalier@gmail.com",
+      "url": "github.com/bananaChevalier"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -139,5 +144,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:11.768Z"
+  "lastFetchedAt": "2017-05-04T04:59:11.768Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:16.761Z"
 }

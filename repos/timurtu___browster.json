@@ -53,7 +53,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/timurtu/browster",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/timurtu/browster.git"
+    },
     "keywords": [
       "browster",
       "Electron",
@@ -61,7 +64,11 @@
       "Browser",
       "Node"
     ],
+    "author": "Timur Uzel <timurt.uzel@gmail.com> (https://github.com/timurtu)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/timurtu/browster/issues"
+    },
     "homepage": "https://github.com/timurtu/browster#readme",
     "devDependencies": {
       "babel-cli": "^6.10.0",
@@ -125,5 +132,6 @@
   "svnUrl": "https://github.com/timurtu/browster",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:28:21.221Z"
+  "lastFetchedAt": "2017-05-04T20:28:21.221Z",
+  "packageLastFetchedAt": "2017-05-05T09:36:18.518Z"
 }

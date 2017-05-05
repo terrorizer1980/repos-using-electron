@@ -60,7 +60,10 @@
       "build": "electron-packager . Owl Finder --platform=darwin --arch=x64 --version=0.34.1 --icon=Icon.icns",
       "start": "electron ."
     },
-    "repository": "https://github.com/nodejs-dersleri/owl-finder",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nodejs-dersleri/owl-finder.git"
+    },
     "keywords": [
       "iconfinder",
       "icons",
@@ -68,7 +71,11 @@
       "finder",
       "owl"
     ],
+    "author": "Arif Cakiroglu <cakirogluarif@gmail.com> (http://www.arifcakiroglu.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nodejs-dersleri/owl-finder/issues"
+    },
     "homepage": "https://github.com/nodejs-dersleri/owl-finder#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -127,5 +134,6 @@
   "svnUrl": "https://github.com/arifcakiroglu/owlfinder",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:23:56.412Z"
+  "lastFetchedAt": "2017-05-04T18:23:56.412Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:50.464Z"
 }

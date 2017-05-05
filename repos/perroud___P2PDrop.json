@@ -170,6 +170,10 @@
     "version": "0.0.1",
     "description": "Small description for p2pdrop goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -179,6 +183,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.1.2",
@@ -295,5 +300,6 @@
   "filename": "perroud___P2PDrop.json",
   "sourceRepo": "ajainvivek/P2PDrop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:30:30.255Z"
+  "lastFetchedAt": "2017-05-04T15:30:30.255Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:10.841Z"
 }

@@ -80,8 +80,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "gulp | electron ./dist/client/index.html"
     },
-    "repository": "https://github.com/rjp2525/angular-sc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rjp2525/angular-sc.git"
+    },
+    "author": "rjp2525",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rjp2525/angular-sc/issues"
+    },
     "homepage": "https://github.com/rjp2525/angular-sc#readme",
     "devDependencies": {
       "browser-sync": "^2.16.0",
@@ -122,5 +129,6 @@
   },
   "filename": "rjp2525___angular-sc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:10.618Z"
+  "lastFetchedAt": "2017-05-04T14:46:10.618Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:15.666Z"
 }

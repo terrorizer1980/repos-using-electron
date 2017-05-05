@@ -194,7 +194,11 @@
     "scripts": {
       "test": "make test"
     },
-    "repository": "https://github.com/segmentio/nightmare",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "Segment",
     "keywords": [
       "nightmare",
       "electron"
@@ -257,5 +261,6 @@
   },
   "sourceRepo": "segmentio/nightmare",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:55.268Z"
+  "lastFetchedAt": "2017-05-04T16:46:55.268Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:33.325Z"
 }

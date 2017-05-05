@@ -90,11 +90,18 @@
       "app3": "electron app3/index.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Wizcorp/electron-presentation",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Wizcorp/electron-presentation.git"
+    },
     "keywords": [
       "electron"
     ],
+    "author": "Marc Trudel <mtrudel@wizcorp.jp>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Wizcorp/electron-presentation/issues"
+    },
     "homepage": "https://github.com/Wizcorp/electron-presentation#readme",
     "dependencies": {
       "electron-prebuilt": "^1.2.4"
@@ -125,5 +132,6 @@
   },
   "filename": "Wizcorp___electron-presentation.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:11.273Z"
+  "lastFetchedAt": "2017-05-04T20:15:11.273Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:25.830Z"
 }

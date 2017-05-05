@@ -90,8 +90,19 @@
     "version": "0.2.0",
     "description": "Requesto - The futurist open source request client.",
     "license": "MIT",
+    "author": {
+      "name": "Daniel Beff",
+      "email": "daniel.beff@gmail.com",
+      "url": "http://www.danielbeff.com.br"
+    },
+    "bugs": {
+      "url": "https://github.com/requesto/requesto/issues"
+    },
     "homepage": "https://github.com/requesto/requesto#readme",
-    "repository": "https://github.com/requesto/requesto",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/requesto/requesto.git"
+    },
     "main": "electron.js",
     "scripts": {
       "start": "electron .",
@@ -149,6 +160,10 @@
       ]
     },
     "productName": "Requesto",
+    "directories": {
+      "app": ".",
+      "output": "./build"
+    },
     "build": {
       "appId": "com.github.requesto.requesto",
       "category": "public.app-category.developer-tools",
@@ -183,5 +198,6 @@
   },
   "filename": "requesto___requesto.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:11.372Z"
+  "lastFetchedAt": "2017-05-04T17:42:11.372Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:24.175Z"
 }

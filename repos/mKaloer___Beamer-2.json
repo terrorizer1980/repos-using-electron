@@ -81,6 +81,7 @@
       "tutorial",
       "demo"
     ],
+    "author": "Mads Ellersgaard Kalør",
     "license": "Apache-2.0",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -88,6 +89,7 @@
     "dependencies": {
       "electron-localshortcut": "^1.0.0",
       "electron-settings": "^2.2.2",
+      "electron-window": "^0.8.1",
       "pdfjs-dist": "^1.6.304"
     }
   },
@@ -116,5 +118,6 @@
   },
   "filename": "mKaloer___Beamer-2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:27.716Z"
+  "lastFetchedAt": "2017-05-04T05:15:27.716Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:08.317Z"
 }

@@ -70,8 +70,15 @@
     "version": "1.0.0",
     "main": "app/nae.js",
     "description": "Kuro - A powerful hosts file editor!",
+    "author": "MurphyL",
     "license": "MIT",
-    "repository": "https://github.com/MurphyL/Kuro",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/MurphyL/Kuro.git"
+    },
+    "bugs": {
+      "url": "https://github.com/MurphyL/Kuro/issues"
+    },
     "homepage": "https://github.com/MurphyL/Kuro",
     "scripts": {
       "dev": "electron . --colors",
@@ -117,5 +124,6 @@
   },
   "filename": "gitter-badger___Kuro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:21.830Z"
+  "lastFetchedAt": "2017-05-04T20:32:21.830Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:03.254Z"
 }

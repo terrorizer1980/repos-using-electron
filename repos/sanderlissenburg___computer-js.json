@@ -46,33 +46,17 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "computerJS",
-    "version": "0.0.1",
-    "main": "main.js",
+    "name": "computer-js",
+    "version": "1.0.0",
+    "author": "Sander Lissenburg",
     "devDependencies": {
-      "babel-core": "^6.9.1",
-      "babel-loader": "^6.2.4",
-      "babel-preset-es2015": "^6.9.0",
-      "babel-preset-react": "^6.5.0",
-      "bootstrap-sass": "^3.3.6",
-      "electron": "^0.4.1",
-      "electron-prebuilt": "^1.2.1",
-      "gulp": "^3.9.1",
-      "gulp-autoprefixer": "^3.1.0",
-      "gulp-clean-css": "^2.0.9",
-      "gulp-concat-css": "^2.3.0",
-      "gulp-sass": "^2.3.1",
-      "gulp-sourcemaps": "^1.6.0",
-      "gulp-util": "^3.0.7",
-      "html-webpack-plugin": "^2.19.0",
-      "webpack": "^1.13.1"
+      "babel-core": "^6.17.0",
+      "babel-loader": "^6.2.5",
+      "babel-preset-es2015": "^6.16.0",
+      "webpack": "^1.13.2"
     },
     "dependencies": {
-      "react": "^15.1.0",
-      "react-dom": "^15.1.0"
-    },
-    "scripts": {
-      "start": "electron ."
+      "pixi.js": "^4.2.2"
     }
   },
   "packageStatus": 200,
@@ -120,5 +104,6 @@
   "svnUrl": "https://github.com/sanderlissenburg/computer-js",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:04:18.565Z"
+  "lastFetchedAt": "2017-05-04T20:04:18.565Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:40.517Z"
 }

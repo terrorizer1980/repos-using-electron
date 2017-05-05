@@ -67,5 +67,34 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T15:20:36.421Z"
+  "lastFetchedAt": "2017-05-04T15:20:36.421Z",
+  "packageJSON": {
+    "name": "todo-list",
+    "version": "1.0.0",
+    "description": "A minimal ToDO list for test",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "~1.6.2"
+    },
+    "dependencies": {
+      "angular": "^1.6.3",
+      "bootstrap": "^3.3.7",
+      "jquery": "^3.2.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:40:52.093Z"
 }

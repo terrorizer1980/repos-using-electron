@@ -74,14 +74,21 @@
       "start": "electron .",
       "test": "test"
     },
-    "repository": "https://github.com/DerekAhn/electron-experiments",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DerekAhn/electron-experiments.git"
+    },
     "keywords": [
       "electron",
       "react",
       "webpack",
       "css-modules"
     ],
+    "author": "git.derek@gmail.com",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/DerekAhn/electron-experiments/issues"
+    },
     "homepage": "https://github.com/DerekAhn/electron-experiments#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.3"
@@ -112,5 +119,6 @@
   },
   "filename": "DerekAhn___electron-experiments.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:34.357Z"
+  "lastFetchedAt": "2017-05-04T17:38:34.357Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:52.268Z"
 }

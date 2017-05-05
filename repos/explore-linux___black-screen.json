@@ -196,17 +196,11 @@
       "Volodymyr Barna <roberto.te.ua@gmail.com>"
     ],
     "repository": {
-      "user": "shockone",
-      "repo": "black-screen",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/shockone/black-screen/tarball/master",
-      "clone_url": "https://github.com/shockone/black-screen",
-      "https_url": "https://github.com/shockone/black-screen",
-      "travis_url": "https://travis-ci.org/shockone/black-screen",
-      "zip_url": "https://github.com/shockone/black-screen/archive/master.zip",
-      "api_url": "https://api.github.com/repos/shockone/black-screen"
+      "type": "git",
+      "url": "https://github.com/shockone/black-screen.git"
+    },
+    "bugs": {
+      "url": "https://github.com/shockone/black-screen/issues"
     },
     "keywords": [
       "terminal",
@@ -311,5 +305,6 @@
   "filename": "explore-linux___black-screen.json",
   "sourceRepo": "shockone/black-screen",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:11.783Z"
+  "lastFetchedAt": "2017-05-04T15:28:11.783Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:53.330Z"
 }

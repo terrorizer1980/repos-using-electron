@@ -55,8 +55,15 @@
       "build-darwin": "electron-packager . Test --platform=darwin --arch=x64 --version=0.35.1 --overwrite --sign=Jens Lind",
       "build-win32": "electron-packager . Test --platform=win32 --arch=x64 --version=0.35.1 --overwrite --asar=true"
     },
-    "repository": "https://github.com/jenslind/electron-gh-releases-test-v2",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jenslind/electron-gh-releases-test-v2.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/jenslind/electron-gh-releases-test-v2/issues"
+    },
     "homepage": "https://github.com/jenslind/electron-gh-releases-test-v2#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/jenslind/electron-gh-releases-test-v2",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:13:15.595Z"
+  "lastFetchedAt": "2017-05-04T18:13:15.595Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:21.722Z"
 }

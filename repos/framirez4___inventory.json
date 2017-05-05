@@ -84,8 +84,15 @@
       "watch": "npm run clean && npm run watch-css & nodemon server -e js,jade",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/framirez4/inventory",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/framirez4/inventory.git"
+    },
+    "author": "Francesc Ramírez",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/framirez4/inventory/issues"
+    },
     "homepage": "https://github.com/framirez4/inventory#readme",
     "dependencies": {
       "dotenv": "^2.0.0",
@@ -130,5 +137,6 @@
   },
   "filename": "framirez4___inventory.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:34.952Z"
+  "lastFetchedAt": "2017-05-04T18:15:34.952Z",
+  "packageLastFetchedAt": "2017-05-05T15:29:55.442Z"
 }

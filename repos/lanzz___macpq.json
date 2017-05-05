@@ -78,6 +78,11 @@
     "description": "PostgreSQL client",
     "license": "MIT",
     "repository": "lanzz/macpq",
+    "author": {
+      "name": "Mihail Milushev",
+      "email": "mihail.milushev@lanzz.org",
+      "url": "http://lanzz.org"
+    },
     "engines": {
       "node": ">=5.9.1"
     },
@@ -155,5 +160,6 @@
   },
   "filename": "lanzz___macpq.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:31.194Z"
+  "lastFetchedAt": "2017-05-04T19:52:31.194Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:06.655Z"
 }

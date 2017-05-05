@@ -80,8 +80,15 @@
       "pack": "build -dir",
       "dist": "build"
     },
-    "repository": "https://github.com/Jichao/electron-demo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Jichao/electron-demo.git"
+    },
+    "author": "jichao",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Jichao/electron-demo/issues"
+    },
     "homepage": "https://github.com/Jichao/electron-demo#readme",
     "devDependencies": {
       "electron-builder": "^5.26.0",
@@ -118,5 +125,6 @@
   },
   "filename": "Jichao___electron-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:54.299Z"
+  "lastFetchedAt": "2017-05-04T18:25:54.299Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:37.608Z"
 }

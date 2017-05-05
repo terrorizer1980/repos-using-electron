@@ -69,14 +69,26 @@
     "name": "back-front",
     "version": "0.0.4",
     "description": "Unofficial desktop client for Front",
-    "repository": "https://github.com/unfulvio/back",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/unfulvio/back"
+    },
     "main": "back.js",
     "scripts": {
       "start": "electron .",
       "build": "electron-packager . app --platform linux --arch x64 --out dist/",
       "deb64": "electron-installer-debian --src dist/app-linux-x64/ --dest dist/installers/ --arch amd64"
     },
+    "author": {
+      "name": "Fulvio Notarstefano",
+      "email": "fulvio.notarstefano@gmail.com",
+      "url": "https://github.com/unfulvio"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/unfulvio/back/issues",
+      "email": "fulvio.notarstefano@gmail.com"
+    },
     "devDependencies": {
       "electron-installer-debian": "*",
       "electron-packager": "*",
@@ -111,5 +123,6 @@
   },
   "filename": "unfulvio___back.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:10.092Z"
+  "lastFetchedAt": "2017-05-04T05:02:10.092Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:07.884Z"
 }

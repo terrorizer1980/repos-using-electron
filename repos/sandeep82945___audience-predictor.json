@@ -73,5 +73,59 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:54:33.309Z"
+  "lastFetchedAt": "2017-05-04T19:54:33.309Z",
+  "packageJSON": {
+    "name": "audience-predictor",
+    "version": "1.0.0",
+    "description": "It predicts facebook audience",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "repository": "https://github.com/sandeep82945/audience-predictor",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "dependencies": {
+      "jquery": "3.2.1",
+      "child_process": "",
+      "bootstrap": "3.3.7"
+    },
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "babel-preset-es2015": "",
+      "babelify": "",
+      "grunt": "^1.0.1",
+      "grunt-babel": "",
+      "grunt-browserify": "",
+      "grunt-cli": "",
+      "grunt-complexity": "",
+      "grunt-contrib-clean": "",
+      "grunt-contrib-copy": "",
+      "grunt-contrib-jshint": "",
+      "grunt-contrib-nodeunit": "",
+      "grunt-contrib-uglify": "",
+      "grunt-contrib-watch": "",
+      "grunt-eslint": "",
+      "grunt-exec": "",
+      "grunt-sass": "",
+      "load-grunt-tasks": ""
+    },
+    "build": {
+      "appId": "id",
+      "mac": {
+        "category": "category"
+      }
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:45:20.586Z"
 }

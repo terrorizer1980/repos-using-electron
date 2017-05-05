@@ -53,8 +53,12 @@
     "scripts": {
       "test": "standard && browserify test.js | testron"
     },
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
     "license": "MIT",
-    "repository": "https://github.com/shama/locastore",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/shama/locastore.git"
+    },
     "files": [
       "index.js"
     ],
@@ -121,5 +125,6 @@
   "svnUrl": "https://github.com/shama/locastore",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:07:33.561Z"
+  "lastFetchedAt": "2017-05-04T18:07:33.561Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:50.135Z"
 }

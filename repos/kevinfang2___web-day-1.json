@@ -76,6 +76,7 @@
     "name": "pixi.js",
     "version": "4.0.3",
     "description": "Pixi.js is a fast lightweight 2D library that works across all devices.",
+    "author": "Mat Groves",
     "contributors": [
       "Ivan Popelyshev <ivan.popelyshev@gmail.com>",
       "Matt Karl <matt@mattkarl.com>",
@@ -84,19 +85,11 @@
     ],
     "main": "./bin/pixi.min.js",
     "homepage": "http://goodboydigital.com/",
+    "bugs": "https://github.com/pixijs/pixi.js/issues",
     "license": "MIT",
     "repository": {
-      "user": "pixijs",
-      "repo": "pixi.js",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/pixijs/pixi.js/tarball/master",
-      "clone_url": "https://github.com/pixijs/pixi.js",
-      "https_url": "https://github.com/pixijs/pixi.js",
-      "travis_url": "https://travis-ci.org/pixijs/pixi.js",
-      "zip_url": "https://github.com/pixijs/pixi.js/archive/master.zip",
-      "api_url": "https://api.github.com/repos/pixijs/pixi.js"
+      "type": "git",
+      "url": "https://github.com/pixijs/pixi.js.git"
     },
     "scripts": {
       "clean": "rimraf bin && mkdirp bin",
@@ -178,5 +171,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:02.010Z"
+  "lastFetchedAt": "2017-05-04T19:30:02.010Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:57.210Z"
 }

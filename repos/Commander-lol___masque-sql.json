@@ -97,19 +97,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "commander-lol",
-      "repo": "masque-sql",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/commander-lol/masque-sql/tarball/master",
-      "clone_url": "https://github.com/commander-lol/masque-sql",
-      "https_url": "https://github.com/commander-lol/masque-sql",
-      "travis_url": "https://travis-ci.org/commander-lol/masque-sql",
-      "zip_url": "https://github.com/commander-lol/masque-sql/archive/master.zip",
-      "api_url": "https://api.github.com/repos/commander-lol/masque-sql"
+      "type": "git",
+      "url": "git+https://github.com/commander-lol/masque-sql.git"
+    },
+    "author": {
+      "name": "Louis Capitanchik",
+      "email": "contact@louiscap.co",
+      "url": "https://github.com/commander-lol"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/commander-lol/masque-sql/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -233,5 +232,6 @@
   "filename": "Commander-lol___masque-sql.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:51.256Z"
+  "lastFetchedAt": "2017-05-04T19:35:51.256Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:02.694Z"
 }

@@ -53,36 +53,32 @@
   "status": 200,
   "packageJSON": {
     "name": "juno",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Give your Jupyter notebooks a window of their own",
     "main": "main.js",
     "scripts": {
-      "start": "electron main.js",
-      "prestart": "riot . tags.js"
+      "start": "electron ."
     },
     "repository": {
-      "user": "rschroll",
-      "repo": "juno",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rschroll/juno/tarball/master",
-      "clone_url": "https://github.com/rschroll/juno",
-      "https_url": "https://github.com/rschroll/juno",
-      "travis_url": "https://travis-ci.org/rschroll/juno",
-      "zip_url": "https://github.com/rschroll/juno/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rschroll/juno"
+      "type": "git",
+      "url": "git+https://github.com/rschroll/juno.git"
     },
     "keywords": [
       "Jupyter",
       "IPython",
       "notebook"
     ],
+    "author": "Robert Schroll",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/rschroll/juno/issues"
+    },
     "homepage": "https://github.com/rschroll/juno#readme",
     "devDependencies": {
-      "electron-prebuilt": "^0.35.0",
-      "riot": "~2.2.2"
+      "electron": "1.6.5"
+    },
+    "dependencies": {
+      "parse-spawn-args": "^1.0.2"
     }
   },
   "packageStatus": 200,
@@ -131,5 +127,6 @@
   "svnUrl": "https://github.com/rschroll/juno",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:41:37.202Z"
+  "lastFetchedAt": "2017-05-04T20:41:37.202Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:21.630Z"
 }

@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/sfpgmr/webaudiomoduler",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:sfpgmr/webaudiomoduler.git"
+    },
+    "author": "S.F.",
     "license": "MIT",
+    "bugs": {
+      "url": "https://gist.github.com/3a854cb6ab7951c7de5b"
+    },
     "homepage": "https://gist.github.com/3a854cb6ab7951c7de5b",
     "dependencies": {},
     "devDependencies": {
@@ -134,5 +141,6 @@
   },
   "filename": "sfpgmr___webaudiomoduler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:33:54.856Z"
+  "lastFetchedAt": "2017-05-04T18:33:54.856Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:06.494Z"
 }

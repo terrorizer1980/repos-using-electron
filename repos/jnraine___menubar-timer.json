@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/clio/timer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/clio/timer.git"
+    },
     "keywords": [],
+    "author": "Clio",
+    "bugs": {
+      "url": "https://github.com/clio/timer/issues"
+    },
     "homepage": "https://github.com/clio/timer#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -108,5 +115,6 @@
   },
   "filename": "jnraine___menubar-timer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:24:13.968Z"
+  "lastFetchedAt": "2017-05-04T18:24:13.968Z",
+  "packageLastFetchedAt": "2017-05-04T22:02:51.160Z"
 }

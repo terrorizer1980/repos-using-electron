@@ -74,12 +74,19 @@
       "start": "./node_modules/.bin/gulp",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/noHeadaches/godoc.org",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/noHeadaches/godoc.org.git"
+    },
     "keywords": [
       "godoc.org",
       "noHeadaches"
     ],
+    "author": "UnnoTed",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/noHeadaches/godoc.org/issues"
+    },
     "homepage": "https://github.com/noHeadaches/godoc.org#readme",
     "devDependencies": {
       "electron-connect": "^0.3.7",
@@ -135,5 +142,6 @@
   "svnUrl": "https://github.com/noHeadaches/godoc.org",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:31:24.717Z"
+  "lastFetchedAt": "2017-05-04T20:31:24.717Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:28.533Z"
 }

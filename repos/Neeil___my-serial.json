@@ -82,14 +82,21 @@
       "build": "webpack --config webpack-production.config.js --progress --colors",
       "debug": "webpack-dev-server --config webpack-dev-server.config.js --progress --inline --colors"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.3.3",
@@ -143,5 +150,6 @@
   },
   "filename": "Neeil___my-serial.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:03.438Z"
+  "lastFetchedAt": "2017-05-04T14:22:03.438Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:55.098Z"
 }

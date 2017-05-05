@@ -73,16 +73,20 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-open-url",
-    "version": "1.4.0",
+    "version": "1.6.0",
     "description": "open something with Electron window",
     "main": "index.js",
     "bin": {
       "electron-open": "bin/cli.js"
     },
     "scripts": {
+      "lint": "eslint app/*.js *.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/rhysd/electron-open",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rhysd/electron-open.git"
+    },
     "keywords": [
       "electron",
       "open",
@@ -90,13 +94,20 @@
       "gui",
       "window"
     ],
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rhysd/electron-open/issues"
+    },
     "homepage": "https://github.com/rhysd/electron-open#readme",
     "dependencies": {
       "open": "0.0.5"
     },
     "peerDependencies": {
       "electron": "^1.4.6"
+    },
+    "devDependencies": {
+      "eslint": "^3.15.0"
     }
   },
   "packageStatus": 200,
@@ -124,5 +135,6 @@
   },
   "filename": "rhysd___electron-open-url.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:02.432Z"
+  "lastFetchedAt": "2017-05-04T05:34:02.432Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:09.377Z"
 }

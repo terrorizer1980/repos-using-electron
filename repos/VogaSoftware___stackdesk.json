@@ -188,14 +188,21 @@
       "ezbuild": "electron-packager-interactive",
       "beta": "electron beta.js"
     },
-    "repository": "https://github.com/VogaSoftware/kode",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/VogaSoftware/kode.git"
+    },
     "keywords": [
       "Editor",
       "Stackedit",
       "Markdown",
       "Easyness"
     ],
+    "author": "Graham Dianaty (@gmdianaty)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/VogaSoftware/kode/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-installer-codesign": "^0.1.1",
@@ -257,5 +264,6 @@
   },
   "filename": "VogaSoftware___stackdesk.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:40:46.746Z"
+  "lastFetchedAt": "2017-05-04T17:40:46.746Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:05.309Z"
 }

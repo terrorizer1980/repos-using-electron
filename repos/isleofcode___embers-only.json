@@ -84,6 +84,10 @@
     "version": "0.0.0",
     "description": "Small description for embers-only goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -93,6 +97,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -197,5 +202,6 @@
   },
   "filename": "isleofcode___embers-only.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:40.306Z"
+  "lastFetchedAt": "2017-05-04T05:11:40.306Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:57.817Z"
 }

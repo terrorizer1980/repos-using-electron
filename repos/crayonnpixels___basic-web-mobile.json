@@ -204,17 +204,7 @@
     "version": "0.0.0",
     "description": "A seed to build a web and mobile app using shared code",
     "repository": {
-      "user": "jlooper",
-      "repo": "basic-web-mobile",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jlooper/basic-web-mobile/tarball/master",
-      "clone_url": "https://github.com/jlooper/basic-web-mobile",
-      "https_url": "https://github.com/jlooper/basic-web-mobile",
-      "travis_url": "https://travis-ci.org/jlooper/basic-web-mobile",
-      "zip_url": "https://github.com/jlooper/basic-web-mobile/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jlooper/basic-web-mobile"
+      "url": "https://github.com/jlooper/basic-web-mobile"
     },
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
@@ -267,6 +257,7 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
+    "author": "Nathan Walker <NathanWalker>",
     "contributors": [
       {
         "name": "Jen Looper <jlooper>"
@@ -405,5 +396,6 @@
   "filename": "crayonnpixels___basic-web-mobile.json",
   "sourceRepo": "jlooper/angular-starter",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:09.893Z"
+  "lastFetchedAt": "2017-05-04T20:24:09.893Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:59.980Z"
 }

@@ -80,11 +80,18 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Petitsurume",
     "license": "MIT",
-    "repository": "https://github.com/Petitsurume/MUCSForDesktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Petitsurume/MUCSForDesktop.git"
+    },
     "keywords": [
       "Misskey"
     ],
+    "bugs": {
+      "url": "https://github.com/Petitsurume/MUCSForDesktop/issues"
+    },
     "homepage": "https://github.com/Petitsurume/MUCSForDesktop#readme",
     "dependencies": {
       "cheerio": "^0.19.0",
@@ -118,5 +125,6 @@
   },
   "filename": "Petitsurume___MUCSforDesktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:32:16.439Z"
+  "lastFetchedAt": "2017-05-04T15:32:16.439Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:42.061Z"
 }

@@ -74,13 +74,20 @@
       "start": "electron main.js"
     },
     "license": "MIT",
-    "repository": "https://github.com/noresjo/electronJadeApp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/noresjo/electronJadeApp.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
+    "bugs": {
+      "url": "https://github.com/noresjo/electronJadeApp/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
     },
@@ -120,5 +127,6 @@
   },
   "filename": "noresjo___electronJadeApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:29.695Z"
+  "lastFetchedAt": "2017-05-04T05:35:29.695Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:09.792Z"
 }

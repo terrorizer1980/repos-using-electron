@@ -75,8 +75,16 @@
       "electron": "electron ./build",
       "start": "npm run build && npm run electron"
     },
+    "author": "AtlasDev (dany@atlasdev.nl)",
     "license": "MIT",
-    "repository": "https://github.com/AtlasDev/Transcoder",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AtlasDev/Transcoder"
+    },
+    "bugs": {
+      "url": "https://github.com/AtlasDev/Transcoder/issues",
+      "email": "dany@atlasdev.nl"
+    },
     "devDependencies": {
       "@types/node": "^6.0.38",
       "awesome-typescript-loader": "^2.2.4",
@@ -135,5 +143,6 @@
   },
   "filename": "AtlasDev___Transcoder.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:31:33.129Z"
+  "lastFetchedAt": "2017-05-04T18:31:33.129Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:35.052Z"
 }

@@ -53,23 +53,75 @@
   "status": 200,
   "packageJSON": {
     "name": "spotifywebplayer",
-    "productName": "Spotify Web Player",
-    "version": "1.0.1",
-    "description": "A minimal Electron application",
+    "productName": "Spotify Web Player for Linux",
+    "version": "1.0.42",
+    "description": "An Electron wrapper of Spotify Web Player to increase desktop integration for a stable Spotify Player for Linux replacement",
     "main": "main.js",
+    "postinstall": "install-app-deps",
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron main.js",
+      "pack": "build --dir",
+      "dist": "build"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "build": {
+      "asarUnpack": [
+        "windows/spotify/D-Bus",
+        "node_modules/mpris-service",
+        "node_modules/freedesktop-notifications",
+        "node_modules/dbus"
+      ],
+      "files": [
+        "**/*",
+        "!spotifywebplayer",
+        "!*.md",
+        "!*.sh"
+      ],
+      "extraResources": [
+        "plugins/libpepflashplayer-${arch}.so"
+      ],
+      "linux": {
+        "synopsis": "An Electron wrapper of Spotify Web Player to increase desktop integration for a stable Spotify Player for Linux replacement",
+        "category": "Audio",
+        "packageCategory": "GNOME;GTK;AudioVideo;Audio;Player",
+        "depends": [
+          "libappindicator1",
+          "libindicator7",
+          "libnotify4",
+          "notify-osd",
+          "wget",
+          "unzip",
+          "tar"
+        ],
+        "target": [
+          "AppImage",
+          "deb",
+          "zip",
+          "snap"
+        ]
+      }
+    },
+    "snap": {
+      "confinement": "devmode",
+      "grade": "stable"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "play",
       "music"
     ],
-    "license": "CC0-1.0",
-    "homepage": "https://github.com/Quacky2200/spotify-web-player-for-linux",
-    "devDependencies": {
-      "electron-prebuilt": "1.3.4"
+    "author": {
+      "name": "Matthew James",
+      "email": "Quacky2200@hotmail.com",
+      "url": "https://github.com/Quacky2200"
     },
+    "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Quacky2200/spotify-web-player-for-linux"
+    },
+    "homepage": "https://github.com/Quacky2200/spotify-web-player-for-linux",
     "dependencies": {
       "auto-launch": "^4.0.0",
       "dbus": "^0.2.19",
@@ -77,7 +129,13 @@
       "freedesktop-notifications": "^1.2.2",
       "mpris-service": "^1.1.1",
       "node-unofficialmxm": "git+https://github.com/Quacky2200/node-unofficialmxm.git",
-      "request": "^2.74.0"
+      "request": "^2.74.0",
+      "sanitize-filename": "^1.6.1"
+    },
+    "devDependencies": {
+      "electron": "1.4.2",
+      "electron-builder": "next",
+      "electron-rebuild": "^1.5.6"
     }
   },
   "packageStatus": 200,
@@ -125,5 +183,6 @@
   "svnUrl": "https://github.com/Quacky2200/Spotify-Web-Player-for-Linux",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:40:12.740Z"
+  "lastFetchedAt": "2017-05-04T17:40:12.740Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:37.448Z"
 }

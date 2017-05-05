@@ -74,7 +74,8 @@
       "start": "electron main.js",
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
-      "distribute": "electron-packager . ElectronAG2Starter --platform=linux --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/app  --asar"
+      "distribute": "electron-packager . ElectronAG2Starter --platform=linux --arch=x64 --out=releases/ --overwrite --icon=src/assets/images/app  --asar",
+      "electron": "npm run build && npm run start"
     },
     "author": "",
     "license": "MIT",
@@ -90,18 +91,22 @@
       "typings": "1.4.0",
       "uglify-js": "^2.7.0",
       "url-loader": "^0.5.7",
-      "webpack": "1.13.2"
+      "webpack": "1.13.2",
+      "@types/node": "7.0.12"
     },
     "dependencies": {
-      "@angular/common": "2.1.0",
-      "@angular/compiler": "2.1.0",
-      "@angular/core": "2.1.0",
-      "@angular/platform-browser": "2.1.0",
-      "@angular/platform-browser-dynamic": "2.1.0",
-      "material-design-lite": "1.2.1",
-      "reflect-metadata": "0.1.8",
-      "rxjs": "5.0.0-rc.1",
-      "zone.js": "0.6.25"
+      "@angular/common": "^2.3.1",
+      "@angular/compiler": "^2.3.1",
+      "@angular/core": "^2.3.1",
+      "@angular/forms": "^2.3.1",
+      "@angular/http": "^2.3.1",
+      "@angular/material": "^2.0.0-beta.1",
+      "@angular/platform-browser": "^2.3.1",
+      "@angular/platform-browser-dynamic": "^2.3.1",
+      "@angular/router": "^3.3.1",
+      "rxjs": "^5.0.1",
+      "zone.js": "^0.7.2",
+      "reflect-metadata": "^0.1.9"
     }
   },
   "packageStatus": 200,
@@ -129,5 +134,6 @@
   },
   "filename": "gayanper___electron-ag2-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:42.110Z"
+  "lastFetchedAt": "2017-05-04T21:13:42.110Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:53.845Z"
 }

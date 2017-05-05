@@ -71,8 +71,15 @@
     "version": "0.2.1",
     "description": "Unofficial HipChat desktop client.",
     "license": "MIT",
-    "repository": "https://github.com/kvasir/HipsterChat",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kvasir/HipsterChat.git"
+    },
     "homepage": "https://github.com/kvasir/HipsterChat",
+    "bugs": {
+      "url": "https://github.com/kvasir/HipsterChat/issues"
+    },
+    "author": "Kvasir",
     "contributors": [
       "Martin Sandström <maartiin_91@hotmail.com> (http://martinsandstrom.github.io)",
       "John-Philip Johansson <seriema@gmail.com> (http://johansson.jp/)",
@@ -178,5 +185,6 @@
   },
   "filename": "kvasir___HipsterChat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:11.572Z"
+  "lastFetchedAt": "2017-05-04T17:56:11.572Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:52.947Z"
 }

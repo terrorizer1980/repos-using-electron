@@ -68,10 +68,15 @@
   "packageJSON": {
     "name": "electron-pokemon-go",
     "version": "2.0.0",
+    "author": "Jason Hunter",
     "description": "Pokemon Go toolset.",
     "homepage": "https://github.com/hunterjm/electron-pokemon-go",
     "main": "browser.js",
-    "repository": "https://github.com/hunterjm/electron-pokemon-go",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:hunterjm/electron-pokemon-go.git"
+    },
+    "bugs": "https://github.com/hunterjm/electron-pokemon-go/issues",
     "scripts": {
       "start": "grunt",
       "start-dev": "NODE_ENV=development grunt",
@@ -166,5 +171,6 @@
   },
   "filename": "hunterjm___electron-pokemon-go.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:26:16.050Z"
+  "lastFetchedAt": "2017-05-04T14:26:16.050Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:06.186Z"
 }

@@ -75,8 +75,12 @@
     "name": "sleepypi",
     "description": "A fancy touch-friendly alarm clock app for Raspberry Pi, Beaglebone black, etc...",
     "version": "0.1.0",
+    "author": "Arnaud Soyez <weboide@codealpha.net>",
     "license": "MIT",
-    "repository": "https://github.com/weboide/sleepypi",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/weboide/sleepypi"
+    },
     "main": "main.js",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -118,5 +122,6 @@
   },
   "filename": "weboide___sleepypi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:51.021Z"
+  "lastFetchedAt": "2017-05-04T18:15:51.021Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:44.204Z"
 }

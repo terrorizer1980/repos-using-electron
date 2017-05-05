@@ -73,13 +73,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/prusnak/breadflix",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prusnak/breadflix.git"
+    },
     "keywords": [
       "breadflix",
       "watch",
       "movies",
       "series"
     ],
+    "author": "stick",
     "license": "MIT",
     "homepage": "https://github.com/prusnak/breadflix",
     "devDependencies": {
@@ -115,5 +119,6 @@
   },
   "filename": "prusnak___breadflix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:25:44.253Z"
+  "lastFetchedAt": "2017-05-04T21:25:44.253Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:21.214Z"
 }

@@ -73,6 +73,7 @@
       "stringify",
       "serialize"
     ],
+    "author": "Antonio Scandurra <me@as-cii.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "^4.0.5",
@@ -83,7 +84,16 @@
       "random-seed": "^0.3.0",
       "standard": "^4.5.4"
     },
-    "repository": "https://github.com/as-cii/async-json-serializer",
+    "directories": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/as-cii/async-json-serializer.git"
+    },
+    "bugs": {
+      "url": "https://github.com/as-cii/async-json-serializer/issues"
+    },
     "homepage": "https://github.com/as-cii/async-json-serializer#readme"
   },
   "packageStatus": 200,
@@ -131,5 +141,6 @@
   "svnUrl": "https://github.com/as-cii/async-json-serializer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:30:37.557Z"
+  "lastFetchedAt": "2017-05-04T20:30:37.557Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:39.189Z"
 }

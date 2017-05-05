@@ -80,14 +80,21 @@
       "start": "electron main.js",
       "dev": "npm start"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.1"
@@ -129,5 +136,6 @@
   "filename": "mfalade___checkoff.json",
   "sourceRepo": "andela-mfalade/checkoff",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:17.721Z"
+  "lastFetchedAt": "2017-05-04T17:44:17.721Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:50.848Z"
 }

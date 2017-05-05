@@ -60,7 +60,14 @@
       "lint": "eslint app/**/*.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/codebearx/PluginBox",
+    "author": "Frank Yang <codebear4@gmail.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/codebearx/PluginBox"
+    },
+    "bugs": {
+      "url": "https://github.com/codebearx/PluginBox/issues"
+    },
     "license": "MIT",
     "devDependencies": {
       "axios": "^0.9.1",
@@ -150,5 +157,6 @@
   "svnUrl": "https://github.com/YiQiZhang/PluginBox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:07:04.713Z"
+  "lastFetchedAt": "2017-05-04T05:07:04.713Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:22.595Z"
 }

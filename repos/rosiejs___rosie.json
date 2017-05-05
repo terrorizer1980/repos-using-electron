@@ -94,6 +94,7 @@
       "rosie",
       "test"
     ],
+    "author": "Brandon Keepers <brandon@opensoul.org>",
     "contributors": [
       "Brian Donovan <me@brian-donovan.com>"
     ],
@@ -109,7 +110,10 @@
     "engines": {
       "node": "*"
     },
-    "repository": "https://github.com/bkeepers/rosie",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/bkeepers/rosie.git"
+    },
     "main": "src/rosie.js",
     "scripts": {
       "pretest": "eslint src spec",
@@ -146,5 +150,6 @@
   },
   "filename": "rosiejs___rosie.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:05.981Z"
+  "lastFetchedAt": "2017-05-04T19:41:05.981Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:27.392Z"
 }

@@ -77,8 +77,15 @@
       "build_ia32": "electron-packager . XiaoFang --platform=win32 --arch=ia32 --asar=false --ignore=node_modules/electron-* ",
       "build_linux": "electron-packager . XiaoFang --platform=linux --arch=x64 --asar=true --ignore=node_modules/electron-* "
     },
-    "repository": "https://github.com/kevin329/XiaoFang",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kevin329/XiaoFang.git"
+    },
+    "author": "Kevin Kchu, Paul Li",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/kevin329/XiaoFang/issues"
+    },
     "homepage": "https://github.com/kevin329/XiaoFang#readme",
     "devDependencies": {
       "cheerio": "^0.22.0",
@@ -118,5 +125,6 @@
   },
   "filename": "kevin329___XiaoFang.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:42.920Z"
+  "lastFetchedAt": "2017-05-04T14:55:42.920Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:48.435Z"
 }

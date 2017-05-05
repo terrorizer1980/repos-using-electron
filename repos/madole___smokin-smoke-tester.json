@@ -76,8 +76,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -270,5 +281,6 @@
   },
   "filename": "madole___smokin-smoke-tester.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:34:11.030Z"
+  "lastFetchedAt": "2017-05-04T19:34:11.030Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:29.741Z"
 }

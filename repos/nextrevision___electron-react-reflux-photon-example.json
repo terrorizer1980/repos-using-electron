@@ -52,6 +52,11 @@
     "description": "Simple app example that incorporates electron, react, react-router, reflux, and photon.",
     "license": "MIT",
     "repository": "nextrevision/electron-react-reflux-photon-example",
+    "author": {
+      "name": "nextrevision",
+      "email": "",
+      "url": "https://github.com/nextrevision/electron-react-reflux-photon-example"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -143,5 +148,6 @@
   },
   "filename": "nextrevision___electron-react-reflux-photon-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:51.343Z"
+  "lastFetchedAt": "2017-05-04T19:44:51.343Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:43.351Z"
 }

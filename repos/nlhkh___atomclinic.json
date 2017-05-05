@@ -66,8 +66,15 @@
       "pack:all": "npm run cleanup && npm run pack:darwin && npm run pack:linux && npm run pack:win",
       "rebuild": "electron-rebuild"
     },
-    "repository": "https://github.com/nlhkh/atomclinic",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nlhkh/atomclinic.git"
+    },
+    "author": "Kha Nguyen <nlhkha@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nlhkh/atomclinic/issues"
+    },
     "homepage": "https://github.com/nlhkh/atomclinic#readme",
     "dependencies": {
       "alt": "^0.17.3",
@@ -132,5 +139,6 @@
   },
   "filename": "nlhkh___atomclinic.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:20.274Z"
+  "lastFetchedAt": "2017-05-04T18:17:20.274Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:37.865Z"
 }

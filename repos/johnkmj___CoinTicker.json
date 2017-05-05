@@ -74,10 +74,14 @@
   "packageJSON": {
     "name": "cointicker",
     "productName": "Cointicker",
-    "version": "V1.01",
-    "description": "My funkadelic app",
+    "version": "1.0.2",
+    "description": "Menubar bitcoin ticker.",
     "license": "MIT",
-    "repository": "johnthedong/cointicker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/johnthedong/cointicker.git"
+    },
+    "author": "John Koh <me@johnkoh.net> (johnkoh.net)",
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -108,7 +112,12 @@
         "node",
         "browser"
       ]
-    }
+    },
+    "bugs": {
+      "url": "https://github.com/johnthedong/cointicker/issues"
+    },
+    "homepage": "https://github.com/johnthedong/cointicker#readme",
+    "main": "index.js"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -135,5 +144,6 @@
   },
   "filename": "johnkmj___CoinTicker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:01.832Z"
+  "lastFetchedAt": "2017-05-04T17:49:01.832Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:28.550Z"
 }

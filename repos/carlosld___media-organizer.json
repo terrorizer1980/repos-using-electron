@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/carlosld/media-organizer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/carlosld/media-organizer.git"
+    },
     "keywords": [
       "Electron",
       "media",
@@ -88,7 +91,11 @@
       "photo",
       "video"
     ],
+    "author": "Carlos León",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/carlosld/media-organizer/issues"
+    },
     "homepage": "https://github.com/carlosld/media-organizer#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -124,5 +131,6 @@
   },
   "filename": "carlosld___media-organizer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:14.946Z"
+  "lastFetchedAt": "2017-05-04T20:13:14.946Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:49.568Z"
 }

@@ -77,12 +77,19 @@
     "version": "0.2.0",
     "description": "Manage local PouchDB server instances from your tray.",
     "main": "index.js",
-    "repository": "https://github.com/appelgriebsch/pouchdb-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/appelgriebsch/pouchdb-app.git"
+    },
     "keywords": [
       "electron",
       "pouchdb-server"
     ],
+    "author": "Andreas Gerlach <andi@appelgriebsch.org>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/appelgriebsch/pouchdb-app/issues"
+    },
     "homepage": "https://github.com/appelgriebsch/pouchdb-app#readme",
     "scripts": {
       "start": "electron app/",
@@ -131,5 +138,6 @@
   },
   "filename": "appelgriebsch___pouchdb-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:58:43.414Z"
+  "lastFetchedAt": "2017-05-03T19:58:43.414Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:19.158Z"
 }

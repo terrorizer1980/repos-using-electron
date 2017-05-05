@@ -91,13 +91,20 @@
     "devDependencies": {
       "electron-prebuilt": "^1.2.5"
     },
-    "repository": "https://github.com/ssn-invente/spot-registration-system",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ssn-invente/spot-registration-system.git"
+    },
     "keywords": [
       "invente",
       "registration",
       "electron-app"
     ],
+    "author": "Sudar Abisheck <sudarabisheck@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ssn-invente/spot-registration-system/issues"
+    },
     "homepage": "https://github.com/ssn-invente/spot-registration-system#readme"
   },
   "packageStatus": 200,
@@ -125,5 +132,6 @@
   },
   "filename": "ssn-invente___spot-registration-system.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:46.481Z"
+  "lastFetchedAt": "2017-05-04T04:56:46.481Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:44.059Z"
 }

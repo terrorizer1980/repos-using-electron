@@ -59,12 +59,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/holywyvern/nova",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/holywyvern/nova.git"
+    },
     "keywords": [
       "Electron",
       "Game Engine",
       "Nova"
     ],
+    "author": "Ramiro Rojo",
     "license": "APACHE 2.0",
     "devDependencies": {
       "electron-compilers": "^1.0.1",
@@ -121,5 +125,6 @@
   },
   "filename": "holywyvern___nova.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:48.860Z"
+  "lastFetchedAt": "2017-05-04T18:08:48.860Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:52.144Z"
 }

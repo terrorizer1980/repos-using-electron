@@ -56,8 +56,15 @@
       "mac-bundle": "electron-packager . --prune Dat --platform=darwin --arch=x64 --version=0.35.5 --ignore=node_modules/electron-prebuilt && cp info.plist Dat-darwin-x64/Dat.app/Contents/Info.plist && cp icon.icns Dat-darwin-x64/Dat.app/Contents/Resources/atom.icns",
       "win-bundle": "electron-packager . --prune Dat --platform=win32 --arch=ia32 --version=0.35.5 --ignore=node_modules/electron-prebuilt,Dat-darwin-x64"
     },
-    "repository": "https://github.com/karissa/dat-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/karissa/dat-app.git"
+    },
+    "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/karissa/dat-app/issues"
+    },
     "homepage": "https://github.com/karissa/dat-app#readme",
     "dependencies": {
       "csjs-inject": "^1.0.0",
@@ -122,5 +129,6 @@
   "svnUrl": "https://github.com/karissa/dat-menubar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:20:59.365Z"
+  "lastFetchedAt": "2017-05-04T20:20:59.365Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:21.729Z"
 }

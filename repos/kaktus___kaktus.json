@@ -84,7 +84,11 @@
     "version": "0.0.0",
     "description": "Web Browser",
     "main": "main.js",
-    "repository": "https://github.com/azer/kaktus",
+    "repository": {
+      "url": "git@github.com:azer/kaktus.git",
+      "type": "git"
+    },
+    "author": "azer",
     "license": "BSD",
     "dependencies": {
       "anglicize": "github:azer/anglicize",
@@ -132,5 +136,6 @@
   },
   "filename": "kaktus___kaktus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:31:28.997Z"
+  "lastFetchedAt": "2017-05-04T05:31:28.997Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:04.635Z"
 }

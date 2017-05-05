@@ -76,7 +76,17 @@
     "description": "Boilerplate application for Electron runtime inspired by szwacz/electron-boilerplate",
     "version": "0.1.0",
     "homepage": "https://github.com/arvindr21/slush-electron",
-    "repository": "https://github.com/arvindr21/slush-electron",
+    "author": {
+      "name": "Arvind Ravulavaru",
+      "email": "arvind.ravulavaru@gmail.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/arvindr21/slush-electron.git"
+    },
+    "bugs": {
+      "url": "https://github.com/arvindr21/slush-electron/issues"
+    },
     "licenses": [
       {
         "type": "MIT",
@@ -132,5 +142,6 @@
   },
   "filename": "arvindr21___slush-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:09:05.746Z"
+  "lastFetchedAt": "2017-05-04T21:09:05.746Z",
+  "packageLastFetchedAt": "2017-05-05T14:29:51.763Z"
 }

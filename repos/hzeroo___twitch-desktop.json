@@ -55,6 +55,7 @@
     "name": "twitch-desktop",
     "version": "1.0.0",
     "description": "Twitch Desktop Client",
+    "author": "hzero <edusvh@gmail.com",
     "scripts": {
       "build-renderer:dev": "webpack -d --config webpack.config.electron-renderer.js --progress --profile --colors --watch",
       "build-main": "webpack -p --config webpack.config.electron-main.js --progress --profile --colors",
@@ -149,5 +150,6 @@
   "svnUrl": "https://github.com/hzeroo/twitch-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T09:03:59.002Z"
+  "lastFetchedAt": "2017-05-04T09:03:59.002Z",
+  "packageLastFetchedAt": "2017-05-04T22:14:31.946Z"
 }

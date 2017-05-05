@@ -78,12 +78,16 @@
       "pretest": "jshint ./tests && jshint ./app",
       "test": "intern-client config=tests/internLocal"
     },
-    "repository": "https://github.com/RUGSoftEng/Team-5",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RUGSoftEng/Team-5"
+    },
     "keywords": [
       "language",
       "learning",
       "slimstampen"
     ],
+    "author": "Language Learning team",
     "license": "ISC",
     "homepage": "https://github.com/RUGSoftEng/Team-5#readme",
     "devDependencies": {
@@ -156,5 +160,6 @@
   },
   "filename": "RUGSoftEng___Team-5.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:33:36.414Z"
+  "lastFetchedAt": "2017-05-04T18:33:36.414Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:46.333Z"
 }

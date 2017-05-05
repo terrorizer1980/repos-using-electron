@@ -80,14 +80,21 @@
       "start": "electron .",
       "test": "test"
     },
-    "repository": "https://github.com/lfmm/electron-poc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lfmm/electron-poc.git"
+    },
     "keywords": [
       "electron",
       "angular",
       "github",
       "proof-of-concept"
     ],
+    "author": "Luís Mendes",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lfmm/electron-poc/issues"
+    },
     "homepage": "https://github.com/lfmm/electron-poc#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.7"
@@ -118,5 +125,6 @@
   },
   "filename": "lfmm___electron-poc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:14:41.653Z"
+  "lastFetchedAt": "2017-05-04T05:14:41.653Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:28.712Z"
 }

@@ -55,8 +55,12 @@
     "name": "h5-play",
     "version": "2.0.0",
     "description": "Creates video playlists from a folder, keeps track of where you left and plays videos in the default browser using HTML5",
+    "author": "Wesley Anemam (wesleylira@gmail.com)",
     "main": "app/index.js",
-    "repository": "https://github.com/wesleyanemam/h5-play",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wesleyanemam/h5-play.git"
+    },
     "keywords": [
       "video",
       "player",
@@ -64,6 +68,9 @@
       "html5"
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wesleyanemam/h5-play/issues"
+    },
     "homepage": "https://github.com/wesleyanemam/h5-play",
     "scripts": {
       "transpile": "babel app --out-dir dist",
@@ -137,5 +144,6 @@
   },
   "filename": "wesleyanemam___h5-play.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:45.408Z"
+  "lastFetchedAt": "2017-05-04T20:22:45.408Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:09.580Z"
 }

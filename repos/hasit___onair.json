@@ -82,17 +82,8 @@
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
     "repository": {
-      "user": "hasit",
-      "repo": "onair",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/hasit/onair/tarball/master",
-      "clone_url": "https://github.com/hasit/onair",
-      "https_url": "https://github.com/hasit/onair",
-      "travis_url": "https://travis-ci.org/hasit/onair",
-      "zip_url": "https://github.com/hasit/onair/archive/master.zip",
-      "api_url": "https://api.github.com/repos/hasit/onair"
+      "type": "git",
+      "url": "git+https://github.com/hasit/onair"
     },
     "keywords": [
       "livecoding.tv",
@@ -101,7 +92,11 @@
       "programming",
       "coding"
     ],
+    "author": "Hasit Mistry",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hasit/onair/issues"
+    },
     "homepage": "https://github.com/hasit/onair#readme",
     "dependencies": {
       "axios": "^0.14.0",
@@ -146,5 +141,6 @@
   "filename": "hasit___onair.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:35:36.927Z"
+  "lastFetchedAt": "2017-05-04T17:35:36.927Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:58.985Z"
 }

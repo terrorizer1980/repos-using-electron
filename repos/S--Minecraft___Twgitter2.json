@@ -56,8 +56,15 @@
       "start": "node_modules\\electron-prebuilt\\dist\\electron.exe bin",
       "compile": "gulp"
     },
-    "repository": "https://github.com/S--Minecraft/Twgitter2",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/S--Minecraft/Twgitter2.git"
+    },
+    "author": "S <S@mail.minecraft.jp.net>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/S--Minecraft/Twgitter2/issues"
+    },
     "homepage": "https://github.com/S--Minecraft/Twgitter2",
     "dependencies": {
       "fs-extra": "*",
@@ -154,5 +161,6 @@
   },
   "filename": "S--Minecraft___Twgitter2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:23:04.909Z"
+  "lastFetchedAt": "2017-05-04T21:23:04.909Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:16.821Z"
 }

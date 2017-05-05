@@ -89,13 +89,20 @@
       "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer",
       "release": "node ./script/release.js"
     },
-    "repository": "https://github.com/voyageth/github-issues",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/voyageth/github-issues.git"
+    },
     "keywords": [
       "Electron",
       "API",
       "demo"
     ],
+    "author": "voyageth",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/voyageth/github-issues/issues"
+    },
     "homepage": "https://github.com/voyageth/github-issues#readme",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -113,15 +120,22 @@
       "standard": "^6.0.8"
     },
     "dependencies": {
+      "angular2": "2.0.0-beta.0",
       "electron": "^0.4.1",
       "electron-json-storage": "^2.0.0",
       "electron-shortcut-normalizer": "^1.0.0",
+      "es6-promise": "^3.0.2",
+      "es6-shim": "^0.33.3",
       "github": "latest",
-      "github-api": "^2.2.0",
       "glob": "^6.0.4",
       "highlight.js": "^9.3.0",
       "markdown": "^0.5.0",
-      "nconf": "^0.8.4"
+      "nconf": "^0.8.4",
+      "nedb": "^1.8.0",
+      "reflect-metadata": "0.1.2",
+      "rxjs": "5.0.0-beta.0",
+      "systemjs": "0.19.6",
+      "zone.js": "0.5.10"
     },
     "standard": {
       "env": {
@@ -154,5 +168,6 @@
   },
   "filename": "voyageth___github-issues.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:38.404Z"
+  "lastFetchedAt": "2017-05-04T20:22:38.404Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:42.940Z"
 }

@@ -76,7 +76,12 @@
       "jquery": "*",
       "node-wmi": "*",
       "nodemailer": "^2.6.4",
-      "nedb": "*"
+      "nedb": "*",
+      "unit.js": "*",
+      "electron-mocha": "*"
+    },
+    "scripts": {
+      "test": "node ./node_modules/electron-mocha/bin/electron-mocha ./Test_modules"
     }
   },
   "packageStatus": 200,
@@ -104,5 +109,6 @@
   },
   "filename": "ChristophWalter___AdvancedSE.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:03.028Z"
+  "lastFetchedAt": "2017-05-04T14:53:03.028Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:01.909Z"
 }

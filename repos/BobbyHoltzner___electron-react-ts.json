@@ -54,6 +54,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron src/electron.js"
     },
+    "author": "Heron Systems Inc,",
     "license": "ISC",
     "dependencies": {
       "react": "^15.3.1",
@@ -128,5 +129,6 @@
   },
   "filename": "BobbyHoltzner___electron-react-ts.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:14.450Z"
+  "lastFetchedAt": "2017-05-04T14:45:14.450Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:45.687Z"
 }

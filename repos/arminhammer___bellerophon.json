@@ -58,6 +58,11 @@
     "description": "AWS CloudFormation generator based off of existing account resources.",
     "license": "MIT",
     "repository": "arminhammer/bellerophon",
+    "author": {
+      "name": "arminhammer",
+      "email": "arminhammer@gmail.com",
+      "url": "github.com/arminhammer/bellerophon"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -142,5 +147,6 @@
   "svnUrl": "https://github.com/arminhammer/bellerophon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:38:24.793Z"
+  "lastFetchedAt": "2017-05-04T19:38:24.793Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:18.904Z"
 }

@@ -76,7 +76,15 @@
     "description": "Create a Windows package for your Electron app.",
     "version": "0.2.0",
     "license": "MIT",
-    "repository": "https://github.com/unindented/electron-installer-windows",
+    "author": {
+      "name": "Daniel Perez Alvarez",
+      "email": "unindented@gmail.com",
+      "url": "http://unindented.org/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/unindented/electron-installer-windows.git"
+    },
     "keywords": [
       "electron",
       "windows"
@@ -99,7 +107,7 @@
       "glob": "^7.0.0",
       "lodash": "^4.0.1",
       "temp": "^0.8.3",
-      "yargs": "^6.0.0"
+      "yargs": "^7.0.2"
     },
     "devDependencies": {
       "chai": "^3.4.1",
@@ -139,5 +147,6 @@
   },
   "filename": "unindented___electron-installer-windows.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:30:00.510Z"
+  "lastFetchedAt": "2017-05-04T20:30:00.510Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:47.422Z"
 }

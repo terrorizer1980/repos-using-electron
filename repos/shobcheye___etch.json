@@ -193,22 +193,17 @@
       "clean": "rm -rf dist"
     },
     "repository": {
-      "user": "nathansobo",
-      "repo": "etch",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/nathansobo/etch/tarball/master",
-      "clone_url": "https://github.com/nathansobo/etch",
-      "https_url": "https://github.com/nathansobo/etch",
-      "travis_url": "https://travis-ci.org/nathansobo/etch",
-      "zip_url": "https://github.com/nathansobo/etch/archive/master.zip",
-      "api_url": "https://api.github.com/repos/nathansobo/etch"
+      "type": "git",
+      "url": "https://github.com/nathansobo/etch.git"
     },
     "keywords": [
       "virtual-dom dom view element custom-elements dom-diff atom electron"
     ],
+    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nathansobo/etch/issues"
+    },
     "homepage": "https://github.com/nathansobo/etch",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -277,5 +272,6 @@
   "svnUrl": "https://github.com/shobcheye/etch",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:19:00.109Z"
+  "lastFetchedAt": "2017-05-04T20:19:00.109Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:24.499Z"
 }

@@ -73,13 +73,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/explodingunicorn/OverStat",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/explodingunicorn/OverStat.git"
+    },
     "keywords": [
       "Overwatch",
       "Stats",
       "Progress"
     ],
+    "author": "Corey Robinson",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/explodingunicorn/OverStat/issues"
+    },
     "homepage": "https://github.com/explodingunicorn/OverStat#readme",
     "devDependencies": {
       "electron": "^1.4.3"
@@ -110,5 +117,6 @@
   },
   "filename": "explodingunicorn___OverStat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:49.003Z"
+  "lastFetchedAt": "2017-05-04T14:53:49.003Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:38.219Z"
 }

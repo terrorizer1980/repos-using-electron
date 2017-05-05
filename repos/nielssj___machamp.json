@@ -77,7 +77,10 @@
       "build": "node node_modules/webpack/bin/webpack.js",
       "watch": "node node_modules/webpack/bin/webpack.js --watch"
     },
-    "repository": "https://github.com/nielssj/machamp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nielssj/machamp.git"
+    },
     "keywords": [
       "ssh",
       "client",
@@ -87,7 +90,11 @@
       "forward",
       "forwading"
     ],
+    "author": "Niels Soeholm (github.com/nielssj)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nielssj/machamp/issues"
+    },
     "homepage": "https://github.com/nielssj/machamp#readme",
     "dependencies": {
       "font-awesome": "^4.6.3",
@@ -139,5 +146,6 @@
   },
   "filename": "nielssj___machamp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:59:16.055Z"
+  "lastFetchedAt": "2017-05-04T20:59:16.055Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:14.050Z"
 }

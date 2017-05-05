@@ -69,6 +69,7 @@
     "name": "TradeControl.NET",
     "version": "0.7.0",
     "description": "TradeControl.NET",
+    "author": "akveo",
     "homepage": "http://http://www.pcs-it.at/",
     "license": "MIT",
     "dependencies": {
@@ -229,7 +230,13 @@
       "build:electron.main": "npm run webpack -- --config config/electron/webpack.electron.prod.js",
       "electron:start": "electron build"
     },
-    "repository": "https://github.com/Irocode/TradeControl.NET",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Irocode/TradeControl.NET.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Irocode/TradeControl.NET/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -260,5 +267,6 @@
   },
   "filename": "Irocode___TradeControl.NET.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:35:17.149Z"
+  "lastFetchedAt": "2017-05-04T05:35:17.149Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:57.916Z"
 }

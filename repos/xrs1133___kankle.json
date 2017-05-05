@@ -81,13 +81,20 @@
       "start": "electron .",
       "dev": "electron . --debug"
     },
-    "repository": "https://github.com/xrs1133/kankle",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/xrs1133/kankle.git"
+    },
     "keywords": [
       "gcloud",
       "storage",
       "pus/sub"
     ],
+    "author": "Chris Songer",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/xrs1133/kankle/issues"
+    },
     "homepage": "https://github.com/xrs1133/kankle#readme",
     "dependencies": {
       "electron": "^0.4.1",
@@ -132,5 +139,6 @@
   },
   "filename": "xrs1133___kankle.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:18.022Z"
+  "lastFetchedAt": "2017-05-03T20:06:18.022Z",
+  "packageLastFetchedAt": "2017-05-04T22:06:36.756Z"
 }

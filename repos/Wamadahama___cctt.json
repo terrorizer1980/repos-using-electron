@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/wamadahama/cctt",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wamadahama/cctt.git"
+    },
     "keywords": [
       "Electron",
       "Gist",
       "github",
       "Desktop application"
     ],
+    "author": "Elijah Ellis",
     "license": "CC0",
+    "bugs": {
+      "url": "https://github.com/wamadahama/cctt.git"
+    },
     "homepage": "https://github.com/wamadahama/cctt#readme",
     "devDependencies": {
       "electron-packager": "^7.1.0",
@@ -118,5 +125,6 @@
   },
   "filename": "Wamadahama___cctt.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:32.183Z"
+  "lastFetchedAt": "2017-05-04T05:02:32.183Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:22.664Z"
 }

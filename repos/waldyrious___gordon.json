@@ -176,6 +176,7 @@
       "test": "npm run lint",
       "lint": "standard"
     },
+    "author": "Sonny Piers <sonny@fastmail.net>",
     "license": "ISC",
     "dependencies": {
       "babel-core": "^6.4.0",
@@ -194,6 +195,7 @@
       "remote",
       "control"
     ],
+    "bugs": "https://github.com/sonnyp/gordon/issues",
     "homepage": "https://github.com/sonnyp/gordon",
     "devDependencies": {
       "standard": "^5.4.1"
@@ -245,5 +247,6 @@
   "filename": "waldyrious___gordon.json",
   "sourceRepo": "sonnyp/gordon",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:36:23.761Z"
+  "lastFetchedAt": "2017-05-04T05:36:23.761Z",
+  "packageLastFetchedAt": "2017-05-05T11:37:24.708Z"
 }

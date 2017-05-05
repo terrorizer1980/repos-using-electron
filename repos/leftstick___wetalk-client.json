@@ -76,12 +76,19 @@
     "version": "1.0.1",
     "description": "wetalk-client is a simple chat client",
     "main": "./js/main.bundle.js",
-    "repository": "https://github.com/leftstick/wetalk-client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/leftstick/wetalk-client.git"
+    },
     "keywords": [
       "chat",
       "electron"
     ],
+    "author": "Howard.Zuo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/leftstick/wetalk-client/issues"
+    },
     "engines": {
       "node": ">=5.0.0"
     },
@@ -146,5 +153,6 @@
   },
   "filename": "leftstick___wetalk-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:58:13.959Z"
+  "lastFetchedAt": "2017-05-04T17:58:13.959Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:46.431Z"
 }

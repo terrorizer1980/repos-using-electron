@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/electronize/Dcard-Desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electronize/Dcard-Desktop.git"
+    },
+    "author": "electronize",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electronize/Dcard-Desktop/issues"
+    },
     "homepage": "https://github.com/electronize/Dcard-Desktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.30.1"
@@ -128,5 +135,6 @@
   },
   "filename": "electronize___Dcard-Desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:59:50.106Z"
+  "lastFetchedAt": "2017-05-04T20:59:50.106Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:14.843Z"
 }

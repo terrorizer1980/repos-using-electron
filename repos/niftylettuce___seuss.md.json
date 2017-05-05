@@ -83,7 +83,10 @@
       "lint": "eslint src",
       "test": "npm run lint"
     },
-    "repository": "https://github.com/niftylettuce/seuss.md",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niftylettuce/seuss.md.git"
+    },
     "keywords": [
       "seuss",
       "markdown",
@@ -102,7 +105,11 @@
       "suss",
       "soose"
     ],
+    "author": "Nick Baugh <niftylettuce@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/niftylettuce/seuss.md/issues"
+    },
     "homepage": "https://github.com/niftylettuce/seuss.md#readme",
     "devDependencies": {
       "babel-core": "^6.4.0",
@@ -147,5 +154,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:19.372Z"
+  "lastFetchedAt": "2017-05-04T15:20:19.372Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:12.269Z"
 }

@@ -220,7 +220,11 @@
       "watch:plugin_api": "cd plugin_api && tsc --watch",
       "watch:plugins": "cd vim/core/oni-plugin-typescript && tsc --watch"
     },
-    "repository": "https://github.com/extr0py/oni",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/extr0py/oni"
+    },
+    "author": "",
     "license": "MIT",
     "dependencies": {
       "electron": "^1.4.5",
@@ -296,5 +300,6 @@
   },
   "sourceRepo": "extr0py/oni",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:48.603Z"
+  "lastFetchedAt": "2017-05-04T18:12:48.603Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:38.007Z"
 }

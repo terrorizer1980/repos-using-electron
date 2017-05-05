@@ -85,8 +85,15 @@
       "pack:osx": "npm run clean:osx && electron-packager . \"SqMd\" --out=release/osx --platform=darwin --arch=x64 --version=0.36.7",
       "pack:win": "npm run clean:win && electron-packager . \"SqMd\" --out=release/win --platform=win32 --arch=ia32 --version=0.36.7"
     },
+    "author": "RacioN",
     "license": "MIT",
-    "repository": "https://github.com/RacioN/SqMd",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RacioN/SqMd.git"
+    },
+    "bugs": {
+      "url": "https://github.com/RacioN/SqMd/issues"
+    },
     "homepage": "https://github.com/RacioN/SqMd",
     "devDependencies": {
       "electron-connect": "^0.4.2",
@@ -131,5 +138,6 @@
   },
   "filename": "RacioN___SqMd.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:01:40.837Z"
+  "lastFetchedAt": "2017-05-04T18:01:40.837Z",
+  "packageLastFetchedAt": "2017-05-05T16:59:25.822Z"
 }

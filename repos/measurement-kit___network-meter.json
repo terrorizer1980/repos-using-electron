@@ -68,6 +68,9 @@
       "type": "git",
       "url": "git://github.com:measurement-kit/network-meter.git"
     },
+    "bugs": {
+      "url": "https://github.com/measurement-kit/network-meter/issues"
+    },
     "main": "index.js",
     "devDependencies": {
       "beefy": "^2.1.5",
@@ -136,5 +139,6 @@
   "svnUrl": "https://github.com/measurement-kit/network-meter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:28:31.366Z"
+  "lastFetchedAt": "2017-05-04T19:28:31.366Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:25.929Z"
 }

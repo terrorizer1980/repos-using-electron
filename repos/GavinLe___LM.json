@@ -53,6 +53,7 @@
     "description": "搜钢助手",
     "main": "src/main/main.js",
     "repository": "",
+    "author": "sougang.me",
     "scripts": {
       "build": "npm run package && npm run zip",
       "package": "node script/package.js",
@@ -142,5 +143,6 @@
   },
   "filename": "GavinLe___LM.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:22.542Z"
+  "lastFetchedAt": "2017-05-04T15:28:22.542Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:58.931Z"
 }

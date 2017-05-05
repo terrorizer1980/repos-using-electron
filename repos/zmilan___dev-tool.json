@@ -170,17 +170,8 @@
     "version": "0.0.1",
     "description": "Boilerplate Electron + React + Webpack + HMR + SCSS",
     "repository": {
-      "user": "ccorcos",
-      "repo": "electron-dev-tool",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ccorcos/electron-dev-tool/tarball/master",
-      "clone_url": "https://github.com/ccorcos/electron-dev-tool",
-      "https_url": "https://github.com/ccorcos/electron-dev-tool",
-      "travis_url": "https://travis-ci.org/ccorcos/electron-dev-tool",
-      "zip_url": "https://github.com/ccorcos/electron-dev-tool/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ccorcos/electron-dev-tool"
+      "type": "git",
+      "url": "git+https://github.com/ccorcos/electron-dev-tool.git"
     },
     "devDependencies": {
       "babel": "^6.5.2",
@@ -261,5 +252,6 @@
   "filename": "zmilan___dev-tool.json",
   "sourceRepo": "ccorcos/dev-tool",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:26.440Z"
+  "lastFetchedAt": "2017-05-04T21:26:26.440Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:45.118Z"
 }

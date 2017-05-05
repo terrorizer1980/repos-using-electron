@@ -75,13 +75,20 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": "https://github.com/ParitoshBh/Rivisto",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ParitoshBh/Rivisto.git"
+    },
     "keywords": [
       "note keeping",
       "notes",
       "personal"
     ],
+    "author": "Paritosh Bhatia <paritosh.bh@outlook.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ParitoshBh/Rivisto/issues"
+    },
     "homepage": "https://github.com/ParitoshBh/Rivisto#readme",
     "build": {
       "appId": "productivity.rivisto",
@@ -123,5 +130,6 @@
   },
   "filename": "ParitoshBh___Rivisto.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:47:24.655Z"
+  "lastFetchedAt": "2017-05-04T16:47:24.655Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:42.682Z"
 }

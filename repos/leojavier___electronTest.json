@@ -78,6 +78,7 @@
       "dist:win32": "build --platform win32 --arch ia32",
       "dist:win64": "build --platform win32 --arch x64"
     },
+    "author": "leojavier <leojavier@gmail.com>",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^1.2.7"
@@ -118,5 +119,6 @@
   },
   "filename": "leojavier___electronTest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:07:19.540Z"
+  "lastFetchedAt": "2017-05-04T21:07:19.540Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:20.862Z"
 }

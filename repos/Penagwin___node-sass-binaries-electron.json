@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Penagwin/node-sass-binaries-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Penagwin/node-sass-binaries-electron.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Penagwin/node-sass-binaries-electron/issues"
+    },
     "homepage": "https://github.com/Penagwin/node-sass-binaries-electron#readme",
     "dependencies": {
       "node-sass": "^3.0.0",
@@ -106,5 +113,6 @@
   },
   "filename": "Penagwin___node-sass-binaries-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:28:24.703Z"
+  "lastFetchedAt": "2017-05-04T14:28:24.703Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:26.257Z"
 }

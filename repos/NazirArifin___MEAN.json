@@ -79,22 +79,30 @@
     "scripts": {
       "test": "gulp"
     },
-    "repository": "https://github.com/NazirArifin/MEAN",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NazirArifin/MEAN.git"
+    },
     "keywords": [
       "MEAN",
       "MySQL",
-      "Electron",
       "Electron",
       "App",
       "AngularJS",
       "NodeJS"
     ],
+    "author": "M. Nazir Arifin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/NazirArifin/MEAN/issues"
+    },
     "homepage": "https://github.com/NazirArifin/MEAN#readme",
     "devDependencies": {
+      "babel-preset-babili": "0.0.10",
       "electron-connect": "^0.3.7",
       "electron-prebuilt": "^0.37.4",
       "gulp": "^3.9.1",
+      "gulp-babel": "^6.1.2",
       "gulp-clean-css": "^2.0.4",
       "gulp-concat": "^2.6.0",
       "gulp-flatten": "^0.2.0",
@@ -103,7 +111,8 @@
       "gulp-uglify": "^1.5.3",
       "gulp-util": "^3.0.7",
       "gulp-watch": "^4.3.5"
-    }
+    },
+    "dependencies": {}
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -130,5 +139,6 @@
   },
   "filename": "NazirArifin___MEAN.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:31.907Z"
+  "lastFetchedAt": "2017-05-04T14:53:31.907Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:28.039Z"
 }

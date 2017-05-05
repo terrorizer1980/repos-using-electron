@@ -59,6 +59,11 @@
     "license": "MIT",
     "main": "main.js",
     "repository": "nelonoel/electron-dropbox-sample-app",
+    "author": {
+      "name": "Aaron Noel De Leon",
+      "email": "aaronnoeldeleon@gmail.com",
+      "url": "nelonoel.github.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron . & node server.js & wait",
@@ -132,5 +137,6 @@
   },
   "filename": "nelonoel___electron-dropbox-sample-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:40:32.663Z"
+  "lastFetchedAt": "2017-05-04T20:40:32.663Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:36.696Z"
 }

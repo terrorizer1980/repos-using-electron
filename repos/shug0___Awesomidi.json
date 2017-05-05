@@ -124,8 +124,17 @@
         ]
       }
     },
+    "directories": {
+      "buildResources": "resources",
+      "output": "release"
+    },
     "bin": {
       "electron": "./node_modules/.bin/electron"
+    },
+    "author": {
+      "name": "Thomas Alberola",
+      "email": "thomas@needacoffee.fr",
+      "url": "https://github.com/shug0/Awesomidi"
     },
     "devDependencies": {
       "asar": "^0.12.3",
@@ -231,5 +240,6 @@
   },
   "filename": "shug0___Awesomidi.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:27.609Z"
+  "lastFetchedAt": "2017-05-04T04:57:27.609Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:04.159Z"
 }

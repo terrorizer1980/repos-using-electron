@@ -78,6 +78,11 @@
     "description": "My phenomenal app",
     "license": "MIT",
     "repository": "dwevins/electron-playground",
+    "author": {
+      "name": "Danny Evins",
+      "email": "woody.evins@gmail.com",
+      "url": "none"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -135,5 +140,6 @@
   },
   "filename": "dwevins___electron-playground.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:28:59.315Z"
+  "lastFetchedAt": "2017-05-04T20:28:59.315Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:50.182Z"
 }

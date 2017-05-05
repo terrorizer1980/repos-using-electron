@@ -53,20 +53,13 @@
   "status": 200,
   "packageJSON": {
     "name": "debug-menu",
-    "version": "0.4.0",
+    "version": "0.6.0",
     "description": "Chrome-like \"inspect element\" context-menu",
     "repository": "parro-it/debug-menu",
+    "author": "andrea@parro.it",
     "scripts": {
-      "test": "eslint .",
+      "test": "xo --env=node --env=browser",
       "start": "electron test.js"
-    },
-    "eslintConfig": {
-      "extends": "js",
-      "env": {
-        "browser": true,
-        "node": true,
-        "es6": true
-      }
     },
     "license": "MIT",
     "keywords": [
@@ -79,13 +72,12 @@
       "index.js"
     ],
     "devDependencies": {
+      "electron": "^1.6.2",
       "electron-contextmenu-middleware": "^1.0.1",
-      "electron-prebuilt": "^0.36.7",
-      "eslint": "^1.10.3",
-      "eslint-config-js": "^3.1.0"
+      "xo": "^0.18.1"
     },
     "dependencies": {
-      "electron-debug": "^0.7.0",
+      "electron-debug": "^1.1.0",
       "electron-is-dev": "^0.1.0"
     }
   },
@@ -134,5 +126,6 @@
   },
   "filename": "parro-it___debug-menu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:00.867Z"
+  "lastFetchedAt": "2017-05-04T21:03:00.867Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:30.854Z"
 }

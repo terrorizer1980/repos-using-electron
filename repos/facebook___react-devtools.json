@@ -107,15 +107,16 @@
       "node-libs-browser": "0.5.3",
       "object-assign": "4.0.1",
       "raw-loader": "^0.5.1",
-      "react": "15.3.0",
-      "react-addons-create-fragment": "15.3.0",
-      "react-dom": "15.3.0",
+      "react": "15.4.2",
+      "react-addons-create-fragment": "15.4.2",
+      "react-dom": "15.4.2",
       "webpack": "1.12.9"
     },
     "license": "BSD-3-Clause",
     "repository": "facebook/react-devtools",
     "scripts": {
-      "lint": "./node_modules/.bin/eslint .",
+      "lint": "eslint .",
+      "postinstall": "lerna bootstrap",
       "test": "node --harmony ./node_modules/.bin/jest",
       "typecheck": "flow check"
     },
@@ -130,7 +131,13 @@
         "js",
         "json",
         "es6"
+      ],
+      "modulePathIgnorePatterns": [
+        "<rootDir>/shells"
       ]
+    },
+    "devDependencies": {
+      "lerna": "2.0.0-beta.36"
     }
   },
   "packageStatus": 200,
@@ -158,5 +165,6 @@
   },
   "filename": "facebook___react-devtools.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:33.476Z"
+  "lastFetchedAt": "2017-05-04T04:56:33.476Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:09.028Z"
 }

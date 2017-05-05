@@ -88,6 +88,7 @@
       "run": "electron .",
       "build": "electron-packager . electron-hello-world --platform=win32 --arch=x64 --version=0.33.1 --out=./bin/ --overwrite"
     },
+    "author": "Fábio",
     "license": "MIT",
     "devDependencies": {
       "electron": "^0.4.1",
@@ -119,5 +120,6 @@
   },
   "filename": "CWIInnovation___electron-hello-world.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:35.847Z"
+  "lastFetchedAt": "2017-05-04T15:15:35.847Z",
+  "packageLastFetchedAt": "2017-05-05T15:35:52.458Z"
 }

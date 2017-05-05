@@ -79,14 +79,21 @@
       "webpack": "./node_modules/.bin/webpack --watch",
       "clean": "rm -rf node_modules"
     },
-    "repository": "https://github.com/funshine/benchpsu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/funshine/benchpsu.git"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/funshine/benchpsu/issues"
+    },
     "keywords": [
       "benchPSU",
       "calibration",
       "ADC",
       "Controller"
     ],
+    "author": "Zeroday",
     "dependencies": {
       "material-ui": "^0.15.0",
       "react": "^15.1.0",
@@ -144,5 +151,6 @@
   },
   "filename": "funshine___benchpsu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:08.874Z"
+  "lastFetchedAt": "2017-05-04T19:58:08.874Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:52.410Z"
 }

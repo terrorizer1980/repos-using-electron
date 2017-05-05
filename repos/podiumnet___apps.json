@@ -73,14 +73,21 @@
     "bin": {
       "papps": "./startscript.js"
     },
-    "repository": "https://github.com/podiumnet/papps",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/podiumnet/papps.git"
+    },
     "scripts": {
       "start": "electron ."
     },
     "keywords": [
       "apps"
     ],
+    "author": "podium",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/podiumnet/papps/issues"
+    },
     "homepage": "https://github.com/podiumnet/papps#readme",
     "dependencies": {
       "coffee-script": "^1.10.0",
@@ -133,5 +140,6 @@
   "svnUrl": "https://github.com/podiumnet/apps",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:44:58.846Z"
+  "lastFetchedAt": "2017-05-04T17:44:58.846Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:50.504Z"
 }

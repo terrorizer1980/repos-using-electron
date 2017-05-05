@@ -84,6 +84,7 @@
       "build": "electron-packager . godtail-dict --platform=linux --icon=./src/img/icon.icns --overwrite --out ./build"
     },
     "repository": "https://github.com/godtail/electron-dict",
+    "author": "godtail",
     "license": "MIT",
     "dependencies": {
       "vue": "^2.1.4",
@@ -128,5 +129,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:31.591Z"
+  "lastFetchedAt": "2017-05-04T11:04:31.591Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:48.575Z"
 }

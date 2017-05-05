@@ -70,6 +70,7 @@
     "version": "0.0.1",
     "description": "matchtv.ru broadcast in kiosk mode",
     "license": "WTFPL",
+    "author": "Konstanin Ilchenko <kyle.mom.is.awesome@gmail.com>",
     "main": "js/main.js",
     "scripts": {
       "start": "electron js/main.js"
@@ -103,5 +104,6 @@
   },
   "filename": "tommiv___matchtv-onair.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:32.510Z"
+  "lastFetchedAt": "2017-05-04T05:13:32.510Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:47.416Z"
 }

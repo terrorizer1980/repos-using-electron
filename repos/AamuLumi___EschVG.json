@@ -83,7 +83,10 @@
       "dev": "NODE_ENV=DEV node ./webserver.js",
       "deploy": "NODE_ENV=production webpack -p --config webpack.config.js"
     },
-    "repository": "https://github.com/AamuLumi/EschVG",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/AamuLumi/EschVG.git"
+    },
     "keywords": [
       "Electron",
       "Escher",
@@ -123,7 +126,11 @@
       "webpack-dev-server": "^1.14.1",
       "webpack-hot-middleware": "^2.10.0"
     },
+    "author": "Florian \"Aamu Lumi\" Kauder <florian@kauder.fr>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/AamuLumi/EschVG/issues"
+    },
     "homepage": "https://github.com/AamuLumi/EschVG#readme"
   },
   "packageStatus": 200,
@@ -151,5 +158,6 @@
   },
   "filename": "AamuLumi___EschVG.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:05.832Z"
+  "lastFetchedAt": "2017-05-04T21:17:05.832Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:46.729Z"
 }

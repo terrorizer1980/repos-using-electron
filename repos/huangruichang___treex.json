@@ -71,7 +71,9 @@
     "description": "",
     "main": "app/main.js",
     "scripts": {
-      "dev": "webpack -w --progress --config webpack.config.js"
+      "dev": "webpack -w --progress --config webpack.config.js",
+      "open:dist": "cd ./app/dist && electron index.js",
+      "production": "cross-env NODE_ENV=production webpack --progress --config webpack.config.js"
     },
     "devDependencies": {
       "babel-core": "^6.5.2",
@@ -83,6 +85,7 @@
       "babel-preset-react": "^6.5.0",
       "babel-preset-stage-0": "^6.5.0",
       "copy-webpack-plugin": "^1.1.1",
+      "cross-env": "^3.2.3",
       "css-loader": "^0.23.1",
       "electron-prebuilt": "^1.1.1",
       "eslint": "^2.5.3",
@@ -135,5 +138,6 @@
   },
   "filename": "huangruichang___treex.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:44.389Z"
+  "lastFetchedAt": "2017-05-04T14:54:44.389Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:42.944Z"
 }

@@ -74,12 +74,13 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "xatrix",
     "license": "CC0-1.0",
-    "devDependencies": {
+    "dependencies": {
       "electron": "^1.4.1",
       "node-xlsx": "*",
-      "jquery": "*",
-      "cheerio": "*"
+      "cheerio": "*",
+      "request": "*"
     }
   },
   "packageStatus": 200,
@@ -106,5 +107,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:29:52.460Z"
+  "lastFetchedAt": "2017-05-04T19:29:52.460Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:17.836Z"
 }

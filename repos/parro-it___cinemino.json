@@ -63,8 +63,15 @@
       "start": "electron .",
       "build": "electron-packager . cinemino --out=dist --ignore=dist --prune --asar --all --version=0.30.0"
     },
-    "repository": "https://github.com/parro-it/cinemino",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/parro-it/cinemino.git"
+    },
+    "author": "andrea@parro.it",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/parro-it/cinemino/issues"
+    },
     "eslintConfig": {
       "extends": "eslint-config-airbnb",
       "plugins": [
@@ -144,5 +151,6 @@
   },
   "filename": "parro-it___cinemino.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:12.969Z"
+  "lastFetchedAt": "2017-05-04T21:24:12.969Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:16.107Z"
 }

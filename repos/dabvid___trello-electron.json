@@ -59,12 +59,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/dabvid/trello-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dabvid/trello-electron.git"
+    },
     "keywords": [
       "Electron",
       "trello"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/dabvid/trello-electron/issues"
+    },
     "homepage": "https://github.com/dabvid/trello-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -115,5 +122,6 @@
   },
   "filename": "dabvid___trello-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:27.613Z"
+  "lastFetchedAt": "2017-05-04T18:18:27.613Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:10.014Z"
 }

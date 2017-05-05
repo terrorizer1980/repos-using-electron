@@ -59,11 +59,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Shaman05/electron-fetool",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Shaman05/electron-fetool.git"
+    },
     "keywords": [
       "Fetool",
       "Electron"
     ],
+    "author": "Devin Chen",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0",
       "electron-rebuild": "^1.0.2"
@@ -114,5 +118,6 @@
   "svnUrl": "https://github.com/Shaman05/electron-fetool",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:15:21.260Z"
+  "lastFetchedAt": "2017-05-04T20:15:21.260Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:39.321Z"
 }

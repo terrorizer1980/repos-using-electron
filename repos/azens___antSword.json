@@ -191,19 +191,11 @@
       "start": "electron app.js",
       "build": "webpack --progress --color --watch"
     },
+    "author": "antoor <u@uyu.us>",
     "license": "MIT",
     "repository": {
-      "user": "antoor",
-      "repo": "antSword",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/antoor/antSword/tarball/master",
-      "clone_url": "https://github.com/antoor/antSword",
-      "https_url": "https://github.com/antoor/antSword",
-      "travis_url": "https://travis-ci.org/antoor/antSword",
-      "zip_url": "https://github.com/antoor/antSword/archive/master.zip",
-      "api_url": "https://api.github.com/repos/antoor/antSword"
+      "type": "git",
+      "url": "https://github.com/antoor/antSword"
     },
     "debug": true,
     "update": {
@@ -213,6 +205,9 @@
         "coding.net": "https://coding.net/api/share/download/e821cb92-3654-419d-894d-a1a2d9cdf2a5",
         "github": "https://github.com/antoor/antSword/releases/download/1.2.0/update.zip"
       }
+    },
+    "bugs": {
+      "url": "https://github.com/antoor/antSword/issues"
     },
     "homepage": "http://uyu.us"
   },
@@ -262,5 +257,6 @@
   "svnUrl": "https://github.com/azens/antSword",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T11:04:56.818Z"
+  "lastFetchedAt": "2017-05-04T11:04:56.818Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:04.440Z"
 }

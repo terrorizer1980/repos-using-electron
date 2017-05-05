@@ -82,6 +82,7 @@
       "package": "asar pack msparp.app/Contents/Resources/app msparp.app/Contents/Resources/app.asar",
       "build": "electron-packager . msparp"
     },
+    "author": "Lykakspars <lykaspars@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^7.5.0",
@@ -114,5 +115,6 @@
   "filename": "Lykaksparsz___msparp-desktop.json",
   "sourceRepo": "LykaksparsBronies/msparp-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:24.654Z"
+  "lastFetchedAt": "2017-05-04T05:06:24.654Z",
+  "packageLastFetchedAt": "2017-05-04T22:05:25.547Z"
 }

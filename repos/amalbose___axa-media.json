@@ -76,18 +76,30 @@
     "version": "1.0.0",
     "description": "",
     "main": "main.js",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:amalbose/axa-media.git"
+    },
     "scripts": {
       "start": "electron .",
       "build": "webpack -d --watch",
+      "clean": "rm -rf app/assets/img/*; rm app/data/movie.db",
       "test": "jasmine"
     },
     "author": "amalbose@gmail.com",
     "license": "MIT",
     "dependencies": {
+      "bootstrap": "^3.3.7",
+      "download": "^5.0.2",
+      "flux": "^3.1.0",
+      "history": "^3.2.1",
       "imdb-api": "^2.2.0",
+      "jquery": "^3.1.1",
       "lodash": "^4.17.2",
+      "nedb": "^1.8.0",
       "react": "^15.4.1",
-      "react-dom": "^15.4.1"
+      "react-dom": "^15.4.1",
+      "react-router": "^3.0.0"
     },
     "devDependencies": {
       "babel-cli": "^6.18.0",
@@ -96,7 +108,8 @@
       "babel-preset-react": "^6.16.0",
       "electron": "^1.4.8",
       "jasmine": "^2.5.2",
-      "webpack": "^1.13.3"
+      "webpack": "^1.13.3",
+      "webpack-node-externals": "^1.5.4"
     }
   },
   "packageStatus": 200,
@@ -124,5 +137,6 @@
   },
   "filename": "amalbose___axa-media.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:05.657Z"
+  "lastFetchedAt": "2017-05-04T20:31:05.657Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:52.072Z"
 }

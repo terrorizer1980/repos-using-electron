@@ -73,28 +73,35 @@
     "scripts": {
       "build": "webpack --progress --colors --watch",
       "start": "gulp watch",
-      "win": "node_modules\\electron-prebuilt\\dist\\electron .",
-      "osx": "node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ."
+      "lint": "eslint ./app ./webpack.config.js -f table --ext .js --ext .jsx || true",
+      "win": "node_modules\\electron\\dist\\electron .",
+      "osx": "node_modules/electron/dist/Electron.app/Contents/MacOS/Electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "repeater"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
-      "angular": "^1.5.5",
-      "babel-core": "^6.9.1",
-      "babel-eslint": "^6.0.4",
-      "babel-loader": "^6.2.4",
-      "babel-preset-es2015": "^6.9.0",
-      "babel-preset-react": "^6.5.0",
+      "babel-core": "latest",
+      "babel-eslint": "latest",
+      "babel-loader": "latest",
+      "babel-preset-es2015": "latest",
+      "babel-preset-react": "latest",
       "bootstrap": "^3.3.6",
       "css-loader": "^0.23.1",
-      "electron-prebuilt": "^1.2.3",
+      "electron": "latest",
       "eslint": "^2.12.0",
       "eslint-loader": "^1.3.0",
       "eslint-plugin-react": "^5.1.1",
@@ -108,14 +115,14 @@
       "install": "^0.8.1",
       "jquery": "^1.11.3",
       "less-loader": "^2.2.3",
-      "material-ui": "^0.15.0",
+      "material-ui": "latest",
       "react": "^15.1.0",
       "react-dom": "^15.1.0",
-      "react-tap-event-plugin": "^1.0.0",
+      "react-tap-event-plugin": "2.0.1",
       "srt": "0.0.3",
       "style-loader": "^0.13.1",
-      "webpack": "^1.13.1",
-      "webpack-dev-server": "^1.14.1"
+      "webpack": "latest",
+      "webpack-dev-server": "latest"
     },
     "dependencies": {
       "babel-preset-stage-1": "^6.5.0",
@@ -152,5 +159,6 @@
   },
   "filename": "dayudodo___VideoRepeater.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:32:11.435Z"
+  "lastFetchedAt": "2017-05-04T15:32:11.435Z",
+  "packageLastFetchedAt": "2017-05-04T22:15:46.072Z"
 }

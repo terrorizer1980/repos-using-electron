@@ -81,17 +81,8 @@
       "dev": "webpack-dev-server --colors --hot --inline --port 8090"
     },
     "repository": {
-      "user": "flagpoonage",
-      "repo": "node-commander",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/flagpoonage/node-commander/tarball/master",
-      "clone_url": "https://github.com/flagpoonage/node-commander",
-      "https_url": "https://github.com/flagpoonage/node-commander",
-      "travis_url": "https://travis-ci.org/flagpoonage/node-commander",
-      "zip_url": "https://github.com/flagpoonage/node-commander/archive/master.zip",
-      "api_url": "https://api.github.com/repos/flagpoonage/node-commander"
+      "type": "git",
+      "url": "git+https://github.com/flagpoonage/node-commander.git"
     },
     "keywords": [
       "Electron",
@@ -99,7 +90,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/flagpoonage/node-commander/issues"
+    },
     "homepage": "https://github.com/flagpoonage/node-commander#readme",
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -158,5 +153,6 @@
   "filename": "flagpoonage___node-commander.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:02:39.640Z"
+  "lastFetchedAt": "2017-05-04T18:02:39.640Z",
+  "packageLastFetchedAt": "2017-05-05T15:23:16.011Z"
 }

@@ -68,7 +68,7 @@
   "packageJSON": {
     "name": "LIM",
     "license": "SEE LICENSE IN NOLICENSE.md",
-    "version": "0.7.3",
+    "version": "0.7.9",
     "description": "An easy software for Interactive Blackboards for dumb teachers.",
     "private": true,
     "main": "main.js",
@@ -76,7 +76,10 @@
       "electron-compile": "^2.0.6",
       "electron-gh-releases": "^2.0.2"
     },
-    "repository": "https://github.com/QUB3X/LIM",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/QUB3X/LIM.git"
+    },
     "contributors": [
       {
         "name": "Andrea Franchini",
@@ -120,5 +123,6 @@
   },
   "filename": "QUB3X___LIM.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:48.107Z"
+  "lastFetchedAt": "2017-05-04T05:00:48.107Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:37.236Z"
 }

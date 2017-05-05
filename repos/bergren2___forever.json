@@ -83,8 +83,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/bergren2/forever",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bergren2/forever.git"
+    },
+    "author": "Dan Bergren",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bergren2/forever/issues"
+    },
     "homepage": "https://github.com/bergren2/forever#readme",
     "private": true
   },
@@ -113,5 +120,6 @@
   },
   "filename": "bergren2___forever.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:36.241Z"
+  "lastFetchedAt": "2017-05-04T15:26:36.241Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:28.176Z"
 }

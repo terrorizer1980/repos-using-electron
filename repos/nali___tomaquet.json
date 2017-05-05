@@ -83,20 +83,15 @@
       "postinstall": "electron-rebuild --pre-gyp-fix --force"
     },
     "repository": {
-      "user": "Typeform",
-      "repo": "tomaquet",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Typeform/tomaquet/tarball/master",
-      "clone_url": "https://github.com/Typeform/tomaquet",
-      "https_url": "https://github.com/Typeform/tomaquet",
-      "travis_url": "https://travis-ci.org/Typeform/tomaquet",
-      "zip_url": "https://github.com/Typeform/tomaquet/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Typeform/tomaquet"
+      "type": "git",
+      "url": "git+https://github.com/Typeform/tomaquet.git"
     },
     "keywords": [],
+    "author": "Typeform",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Typeform/tomaquet/issues"
+    },
     "homepage": "https://github.com/Typeform/tomaquet#readme",
     "devDependencies": {
       "electron-packager": "^7.5.1",
@@ -135,5 +130,6 @@
   "filename": "nali___tomaquet.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:54.974Z"
+  "lastFetchedAt": "2017-05-04T17:44:54.974Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:19.045Z"
 }

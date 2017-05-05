@@ -77,8 +77,29 @@
     "description": "A simple time tracker",
     "main": "main.js",
     "scripts": {
-      "start": "electron .",
-      "test": "standard && ./node_modules/.bin/mocha test/test.js"
+      "start": "electron main.js",
+      "test": "standard && mocha test/test.js",
+      "standard-fix": "standard --fix"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lx4r/sheeptime.git"
+    },
+    "keywords": [
+      "time",
+      "tracking",
+      "electron",
+      "desktop",
+      "application"
+    ],
+    "author": {
+      "name": "lx4r",
+      "email": "hallo@l3r.de",
+      "url": "l3r.de"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lx4r/sheeptime/issues"
     },
     "devDependencies": {
       "babel-core": "^6.17.0",
@@ -87,13 +108,14 @@
       "babel-runtime": "^6.11.6",
       "browserify": "^13.1.0",
       "chai": "^3.5.0",
-      "electron-prebuilt": "^1.2.0",
+      "electron": "^1.4.7",
+      "electron-packager": "^8.3.0",
       "gulp": "^3.9.1",
       "mocha": "^3.0.2",
       "standard": "*",
       "vinyl-source-stream": "^1.1.0",
       "vinyl-transform": "^1.0.0",
-      "vueify": "^9.2.4"
+      "vueify": "^9.4.1"
     },
     "standard": {
       "globals": [
@@ -101,6 +123,7 @@
       ]
     },
     "dependencies": {
+      "moment": "^2.18.1",
       "nconf": "^0.8.4",
       "vue": "^2.0.1"
     }
@@ -130,5 +153,6 @@
   },
   "filename": "lx4r___sheeptime.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:05.769Z"
+  "lastFetchedAt": "2017-05-04T05:23:05.769Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:21.162Z"
 }

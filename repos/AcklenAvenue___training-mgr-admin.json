@@ -96,7 +96,10 @@
     ],
     "license": "MIT",
     "homepage": "https://github.com/AcklenAvenue/Unicron",
-    "repository": "https://github.com/AcklenAvenue/Unicron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AcklenAvenue/Unicron.git"
+    },
     "scripts": {
       "init": "npm install",
       "install": "tsd reinstall --save --overwrite && bower install"
@@ -205,5 +208,6 @@
   },
   "filename": "AcklenAvenue___training-mgr-admin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:29:39.123Z"
+  "lastFetchedAt": "2017-05-04T14:29:39.123Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:28.502Z"
 }

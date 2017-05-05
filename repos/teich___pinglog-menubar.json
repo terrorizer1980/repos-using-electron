@@ -69,8 +69,12 @@
     "name": "pinglog-menubar",
     "version": "1.0.0",
     "description": "Menubar app for ping logging",
-    "repository": "https://github.com/teich/pinglog-menubar",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/teich/pinglog-menubar.git"
+    },
     "license": "BSD-3-Clause",
+    "author": "Oren Teich",
     "dependencies": {
       "electron-rpc": "^1.0.3",
       "menubar": "*",
@@ -115,5 +119,6 @@
   },
   "filename": "teich___pinglog-menubar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:04.950Z"
+  "lastFetchedAt": "2017-05-04T21:30:04.950Z",
+  "packageLastFetchedAt": "2017-05-05T15:29:36.277Z"
 }

@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Kiricon/ComfyBrowser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kiricon/ComfyBrowser.git"
+    },
+    "author": "Dominic Valeciana",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Kiricon/ComfyBrowser/issues"
+    },
     "homepage": "https://github.com/Kiricon/ComfyBrowser#readme",
     "dependencies": {
       "electron": "^1.4.3",
@@ -117,5 +124,6 @@
   },
   "filename": "Kiricon___ComfyBrowser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:38.972Z"
+  "lastFetchedAt": "2017-05-04T15:16:38.972Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:36.304Z"
 }

@@ -214,7 +214,11 @@
     "keywords": [
       "utorrent"
     ],
-    "repository": "https://github.com/Tympanix/Electorrent",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Tympanix/Electorrent.git"
+    },
+    "author": "Mathias Mortensen",
     "devDependencies": {
       "bower": "^1.7.9",
       "electron-builder": "^5.25.1",
@@ -265,5 +269,6 @@
   },
   "sourceRepo": "Tympanix/Electorrent",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:53:43.582Z"
+  "lastFetchedAt": "2017-05-04T20:53:43.582Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:09.228Z"
 }

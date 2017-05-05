@@ -60,6 +60,7 @@
       "prestart": "gulp build",
       "start": "electron ."
     },
+    "author": "Ryan Hodson",
     "license": "MIT",
     "dependencies": {
       "async": "^1.5.2",
@@ -117,5 +118,6 @@
   "svnUrl": "https://github.com/ryanhodson/aintcms",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:38:02.962Z"
+  "lastFetchedAt": "2017-05-04T20:38:02.962Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:07.241Z"
 }

@@ -74,12 +74,19 @@
       "start": "electron .",
       "test": "tape test/*.js"
     },
-    "repository": "https://github.com/ahdinosaur/bonetron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ahdinosaur/bonetron.git"
+    },
     "keywords": [
       "beaglebone",
       "electron"
     ],
+    "author": "Mikey <michael.williams@enspiral.com> (http://dinosaur.os)",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ahdinosaur/bonetron/issues"
+    },
     "homepage": "https://github.com/ahdinosaur/bonetron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7"
@@ -110,5 +117,6 @@
   },
   "filename": "ahdinosaur___bonetron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:27:30.469Z"
+  "lastFetchedAt": "2017-05-04T14:27:30.469Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:59.623Z"
 }

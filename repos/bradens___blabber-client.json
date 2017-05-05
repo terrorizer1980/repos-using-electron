@@ -86,7 +86,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/bradens/blabber-client",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bradens/blabber-client"
+    },
+    "author": {
+      "name": "Braden Simpson",
+      "email": "braden@ruboss.com",
+      "url": "https://github.com/bradens"
+    },
     "devDependencies": {
       "asar": "^0.8.0",
       "babel": "^5.8.23",
@@ -200,5 +208,6 @@
   },
   "filename": "bradens___blabber-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:41.958Z"
+  "lastFetchedAt": "2017-05-04T17:46:41.958Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:43.727Z"
 }

@@ -74,7 +74,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/mhdnamvar/emv-desktop-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mhdnamvar/emv-desktop-app.git"
+    },
     "keywords": [
       "EMV",
       "Parser",
@@ -104,7 +107,11 @@
       "EMV simulator",
       "EMV test"
     ],
+    "author": "Mohammad namvar, namvar@gmail.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mhdnamvar/emv-desktop-app/issues"
+    },
     "homepage": "https://github.com/mhdnamvar/emv-desktop-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -138,5 +145,6 @@
   },
   "filename": "mhdnamvar___emv-desktop-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:46.948Z"
+  "lastFetchedAt": "2017-05-04T19:51:46.948Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:52.615Z"
 }

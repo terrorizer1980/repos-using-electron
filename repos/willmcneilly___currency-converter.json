@@ -59,6 +59,11 @@
     "license": "MIT",
     "main": "index.js",
     "repository": "willmcneilly/currency-converter",
+    "author": {
+      "name": "willmcneilly",
+      "email": "willmcneilly@me.com",
+      "url": "willmcneilly.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -127,5 +132,6 @@
   "svnUrl": "https://github.com/willmcneilly/currency-converter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:54:39.367Z"
+  "lastFetchedAt": "2017-05-04T14:54:39.367Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:08.128Z"
 }

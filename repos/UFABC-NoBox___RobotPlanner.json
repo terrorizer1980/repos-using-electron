@@ -81,6 +81,11 @@
   "status": 200,
   "packageJSON": {
     "name": "no-robot-planner",
+    "author": {
+      "name": "Ivan Seidel",
+      "email": "ivan@tendadigital.net",
+      "url": "https://github.com/ivanseidel"
+    },
     "productName": "NoRobotPlanner",
     "description": "Controlls robots for NoBox Team",
     "homepage": "https://github.com/UFABC-NoBox/NoRobotPlanner",
@@ -186,5 +191,6 @@
   "filename": "UFABC-NoBox___RobotPlanner.json",
   "sourceRepo": "Project-Neon/RobotPlanner",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:15.880Z"
+  "lastFetchedAt": "2017-05-04T04:57:15.880Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:32.741Z"
 }

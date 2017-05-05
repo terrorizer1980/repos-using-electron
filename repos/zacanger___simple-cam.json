@@ -76,6 +76,11 @@
     "name": "simple-cam",
     "description": "Very simple webcam viewer for desktop.",
     "version": "0.0.4",
+    "author": {
+      "name": "Zac Anger",
+      "email": "zac@zacanger.com",
+      "url": "http://zacanger.com"
+    },
     "license": "WTFPL",
     "main": "app.js",
     "preferGlobal": true,
@@ -87,7 +92,11 @@
       "start": "node index"
     },
     "homepage": "https://github.com/zacanger/simple-cam#readme",
-    "repository": "https://github.com/zacanger/simple-cam",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zacanger/simple-cam.git"
+    },
+    "bugs": "https://github.com/zacanger/simple-cam/issues",
     "keywords": [
       "cam",
       "camera",
@@ -129,5 +138,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:50.341Z"
+  "lastFetchedAt": "2017-05-04T20:02:50.341Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:20.661Z"
 }

@@ -68,36 +68,34 @@
   "packageJSON": {
     "name": "Fet",
     "title": "Fet",
-    "version": "0.8.0",
+    "version": "1.2.0",
     "description": "Front-End Tool",
     "main": "app/main.js",
     "scripts": {
-      "package": "electron-packager . --appname=Fetool --app-copyright='http://www.lpsjj.cn' --app-version=0.8.6 --asar=true --asar-unpack=myConfig.json --all --all --out f:/test17 --version 1.2.0 --overwrite --icon=app/img/icon.ico --version-string.CompanyName=lpsjj,inc --version-string.ProductName=product --version-string.FileDescription=Fetool",
+      "packageWin": "electron-packager . --appname=Fetool --app-copyright='http://www.lpsjj.cn' --app-version=0.8.6 --asar=true --asar-unpack-dir=\"{/node_modules/**,**/bin}\" --platform=win32 --arch=x64 --out f:/test18 --version 1.2.0 --overwrite --icon=app/img/icon.ico --version-string.CompanyName=lpsjj,inc --version-string.ProductName=product --version-string.FileDescription=Fetool --ignore=node_modules/electron-*",
+      "packageWin1": "electron-packager . --appname=Fetool --app-copyright='http://www.lpsjj.cn' --app-version=0.8.6 --asar=true --asar-unpack-dir=\"{node_modules/imagemin,node_modules/imagemin-pngcrush,**/pngcrush-bin,**/is-png,**/exec-buffer,**/bin}\" --platform=win32 --arch=x64 --out f:/test18 --version 1.2.0 --overwrite --icon=app/img/icon.ico --version-string.CompanyName=lpsjj,inc --version-string.ProductName=product --version-string.FileDescription=Fetool --ignore=node_modules/electron-*",
+      "packageDarwin": "electron-packager . --appname=Fetool --app-copyright='http://www.lpsjj.cn' --app-version=0.8.6 --asar=true --asar-unpack=myConfig.json --platform=darwin --arch=x64 --out f:/test18 --version 1.2.0 --overwrite --icon=app/img/icon.icns --version-string.CompanyName=lpsjj,inc --version-string.ProductName=product --version-string.FileDescription=Fetool --ignore=node_modules/electron-*",
+      "packageLinux": "electron-packager . --appname=Fetool --app-copyright='http://www.lpsjj.cn' --app-version=0.8.6 --asar=true --asar-unpack=myConfig.json --platform=linux --arch=x64 --out f:/test18 --version 1.2.0 --overwrite --icon=app/img/icon.icns --version-string.CompanyName=lpsjj,inc --version-string.ProductName=product --version-string.FileDescription=Fetool --ignore=node_modules/electron-*",
+      "package": "npm run packageDarwin && npm run packageWin && npm run packageLinux",
       "start": "electron ."
     },
-    "devDependencies": {
-      "clean-css": "^3.4.18",
-      "electron-packager": "7.0.2",
-      "electron-prebuilt": "1.2.0",
-      "imagemin": "^5.2.1",
-      "imagemin-gifsicle": "^5.1.0",
-      "imagemin-jpeg-recompress": "^5.1.0",
-      "imagemin-pngcrush": "^5.0.0",
-      "jsdom": "^9.3.0",
-      "less": "^2.7.1",
-      "nib": "^1.1.0",
-      "nokitjs": "^1.24.4",
-      "parseurl": "^1.3.1",
-      "stylus": "^0.54.5",
-      "uglify-js": "^2.6.3"
-    },
+    "devDependencies": {},
     "dependencies": {
+      "bagpipe": "^0.3.5",
+      "clean-css": "^3.4.18",
       "crypto": "0.0.3",
-      "electron-osx-sign": "^0.4.0-beta4",
+      "electron-packager": "^7.0.2",
+      "electron-prebuilt": "1.2.0",
       "express": "^4.14.0",
+      "formidable": "^1.0.17",
       "gaze": "^1.1.0",
+      "genny": "^0.5.6",
+      "got": "^6.6.3",
+      "handlebars": "^4.0.6",
+      "imagemin": "^5.2.1",
       "imagemin-advpng": "^3.1.0",
       "imagemin-gifsicle": "^5.1.0",
+      "imagemin-jpeg-recompress": "^5.1.0",
       "imagemin-jpegoptim": "^5.0.0",
       "imagemin-jpegtran": "^5.0.2",
       "imagemin-mozjpeg": "^6.0.0",
@@ -106,13 +104,29 @@
       "imagemin-pngquant": "^5.0.0",
       "jquery": "^3.0.0",
       "js-beautify": "^1.6.3",
+      "jsdom": "^9.3.0",
+      "less": "^2.7.1",
       "lpslib": "github:liupishui/lpslib",
+      "mysql": "^2.12.0",
       "nconf": "0.8.4",
+      "nib": "^1.1.0",
       "parseurl": "^1.3.1",
-      "socket.temp": "git+https://github.com/liupishui/socket.temp.git"
+      "querystring": "^0.2.0",
+      "sass": "^0.5.0",
+      "socket.temp": "git+https://github.com/liupishui/socket.temp.git",
+      "stylus": "^0.54.5",
+      "typescript": "^1.8.10",
+      "uglify-js": "^2.6.3"
     },
     "homepage": "https://github.com/liupishui/Fet",
-    "repository": "https://github.com/liupishui/Fet"
+    "author": {
+      "name": "jingshuiyuan",
+      "url": "http://www.lpsjj.cn/blog/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/liupishui/Fet.git"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -139,5 +153,6 @@
   },
   "filename": "liupishui___Fet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:26.968Z"
+  "lastFetchedAt": "2017-05-04T21:03:26.968Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:25.933Z"
 }

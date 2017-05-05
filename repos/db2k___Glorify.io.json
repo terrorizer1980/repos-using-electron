@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.2",
@@ -118,5 +125,6 @@
   },
   "filename": "db2k___Glorify.io.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:19.084Z"
+  "lastFetchedAt": "2017-05-04T05:18:19.084Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:39.346Z"
 }

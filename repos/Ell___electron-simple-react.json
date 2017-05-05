@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/ell/electron-simple-react",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ell/electron-simple-react.git"
+    },
+    "author": {
+      "name": "Alan Love",
+      "email": "alan@cattes.us",
+      "url": "https://github.com/ell"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ell/electron-simple-react/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -204,5 +215,6 @@
   },
   "filename": "Ell___electron-simple-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:07.674Z"
+  "lastFetchedAt": "2017-05-04T20:24:07.674Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:53.809Z"
 }

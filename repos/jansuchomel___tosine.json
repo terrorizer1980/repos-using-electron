@@ -82,8 +82,12 @@
       "build": "sh scripts/build.sh",
       "watch": "sh scripts/watch.sh"
     },
+    "author": "Jan Suchomel",
     "license": "GPL-3.0",
-    "repository": "https://github.com/jansuchomel/tosine",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jansuchomel/tosine.git"
+    },
     "dependencies": {
       "babel-cli": "^6.8.0",
       "babel-core": "^6.8.0",
@@ -136,5 +140,6 @@
   },
   "filename": "jansuchomel___tosine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:45.041Z"
+  "lastFetchedAt": "2017-05-04T05:09:45.041Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:24.400Z"
 }

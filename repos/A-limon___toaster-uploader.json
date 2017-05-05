@@ -55,14 +55,21 @@
       "start": "electron main.js",
       "build-mac": "electron-packager . --platform=darwin --arch=x64 --icon=icon.icns --overwrite"
     },
-    "repository": "https://github.com/A-limon/toaster-uploader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/A-limon/toaster-uploader.git"
+    },
     "keywords": [
       "Electron",
       "Vue",
       "Qiniu",
       "Toaster"
     ],
+    "author": "YangJian",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/A-limon/toaster-uploader/issues"
+    },
     "homepage": "https://yangjian.me",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -119,5 +126,6 @@
   },
   "filename": "A-limon___toaster-uploader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:28:04.186Z"
+  "lastFetchedAt": "2017-05-04T20:28:04.186Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:16.609Z"
 }

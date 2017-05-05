@@ -73,13 +73,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/chalasr/ng-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chalasr/ng-electron.git"
+    },
     "keywords": [
       "Electron",
       "AngularJS",
       "ngRoute",
       "minimal-starter"
     ],
+    "author": "Robin CHALAS",
     "license": "GPL-3.0",
     "homepage": "https://github.com/chalasr/ng-electron#readme",
     "devDependencies": {
@@ -111,5 +115,6 @@
   },
   "filename": "chalasr___ng-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:59.189Z"
+  "lastFetchedAt": "2017-05-04T21:13:59.189Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:00.209Z"
 }

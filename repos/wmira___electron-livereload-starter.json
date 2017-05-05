@@ -74,14 +74,21 @@
       "start": "electron main.js",
       "start-dev": "webpack-dev-server --inline --watch --hot app/index.js"
     },
-    "repository": "https://github.com/wmira/electron-livereload-starter",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wmira/electron-livereload-starter.git"
+    },
     "keywords": [
       "Electron",
       "starter",
       "livereload",
       "electron plus webpack"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wmira/electron-livereload-starter/issues"
+    },
     "homepage": "https://github.com/wmira/electron-livereload-starter",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -119,5 +126,6 @@
   },
   "filename": "wmira___electron-livereload-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:47:08.739Z"
+  "lastFetchedAt": "2017-05-04T19:47:08.739Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:48.799Z"
 }

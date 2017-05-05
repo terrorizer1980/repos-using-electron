@@ -193,7 +193,13 @@
     "description": "The best email app for people and teams at work",
     "license": "GPL-3.0",
     "main": "./src/browser/main.js",
-    "repository": "https://github.com/nylas/N1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nylas/N1.git"
+    },
+    "bugs": {
+      "url": "https://github.com/nylas/N1/issues"
+    },
     "electronVersion": "1.4.5",
     "dependencies": {
       "analytics-node": "2.x.x",
@@ -319,5 +325,6 @@
   },
   "sourceRepo": "sixeyed/N1",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:59:58.139Z"
+  "lastFetchedAt": "2017-05-04T20:59:58.139Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:16.062Z"
 }

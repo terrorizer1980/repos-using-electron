@@ -73,7 +73,8 @@
   "status": 200,
   "packageJSON": {
     "name": "qobuz-desktop-player",
-    "version": "0.0.8",
+    "productName": "Qobuz Desktop player",
+    "version": "0.1.0",
     "description": "Qobuz desktop player",
     "main": "index.js",
     "scripts": {
@@ -87,10 +88,16 @@
       "Electron",
       "Qobuz"
     ],
+    "author": {
+      "name": "nlarche",
+      "email": "nico060984@gmail.com"
+    },
     "license": "MIT",
     "dependencies": {
       "babel-core": "^6.18.2",
-      "babel-preset-es2015": "^6.18.0"
+      "babel-preset-es2015": "^6.18.0",
+      "electron-config": "^0.2.1",
+      "electron-settings": "^2.2.2"
     },
     "devDependencies": {
       "electron": "^1.4.8",
@@ -138,5 +145,6 @@
   },
   "filename": "nlarche___qobuz-desktop-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:32:19.806Z"
+  "lastFetchedAt": "2017-05-04T19:32:19.806Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:24.379Z"
 }

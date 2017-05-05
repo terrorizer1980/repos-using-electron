@@ -77,7 +77,13 @@
     "version": "0.0.2",
     "description": "The Auroracoin (AUR) hive wallet in your menubar",
     "license": "MIT",
-    "repository": "https://github.com/herrhelms/aurora-hive",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/herrhelms/aurora-hive.git"
+    },
+    "author": {
+      "name": "herrhelms"
+    },
     "env": {
       "showDockIcon": false
     },
@@ -101,6 +107,9 @@
       "auroracoin",
       "AUR"
     ],
+    "bugs": {
+      "url": "https://github.com/herrhelms/aurora-hive/issues"
+    },
     "dependencies": {
       "electron-debug": "^1.0.1",
       "menubar": "^5.1.0"
@@ -135,5 +144,6 @@
   },
   "filename": "herrhelms___aurora-hive.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:20:16.442Z"
+  "lastFetchedAt": "2017-05-04T15:20:16.442Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:32.021Z"
 }

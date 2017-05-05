@@ -75,12 +75,19 @@
     "name": "ec-electron-boilerplate",
     "version": "1.0.0",
     "description": "A boilerpate for an electron applciation",
-    "repository": "https://github.com/yuchuan1/ec-electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yuchuan1/ec-electron-boilerplate.git"
+    },
     "keywords": [
       "electron-app",
       "electron"
     ],
+    "author": "Eddie Chen (yuchuan1@gmail.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yuchuan1/ec-electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/yuchuan1/ec-electron-boilerplate#readme",
     "electronVersion": "0.36.2",
     "scripts": {
@@ -163,5 +170,6 @@
   },
   "filename": "yuchuan1___ec-electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:16.492Z"
+  "lastFetchedAt": "2017-05-04T21:27:16.492Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:50.768Z"
 }

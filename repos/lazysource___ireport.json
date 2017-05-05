@@ -67,8 +67,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/lazysource/ireport",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lazysource/ireport.git"
+    },
+    "author": "Manraj Singh <manrajsinghgrover@gmail.com> (http://manrajsingh.in)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lazysource/ireport/issues"
+    },
     "homepage": "https://github.com/lazysource/ireport#readme",
     "devDependencies": {
       "electron-prebuilt": "1.2.5"
@@ -124,5 +131,6 @@
   "svnUrl": "https://github.com/lazysource/ireport",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:58:42.021Z"
+  "lastFetchedAt": "2017-05-04T17:58:42.021Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:32.659Z"
 }

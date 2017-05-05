@@ -73,12 +73,19 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "sh -c 'node scripts/server.js & electron src/electron_app.js'"
     },
-    "repository": "https://github.com/qrohlf/Nigel",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/qrohlf/Nigel.git"
+    },
     "keywords": [
       "nigel",
       "thornberry"
     ],
+    "author": "Quinn Rohlf <qr@qrohlf.com>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/qrohlf/Nigel/issues"
+    },
     "homepage": "https://github.com/qrohlf/Nigel#readme",
     "dependencies": {
       "electron-prebuilt": "^1.1.1",
@@ -125,5 +132,6 @@
   },
   "filename": "qrohlf___Nigel.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:36.603Z"
+  "lastFetchedAt": "2017-05-04T17:49:36.603Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:47.022Z"
 }

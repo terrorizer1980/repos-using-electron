@@ -81,14 +81,21 @@
       "build-mac": "electron-packager /Users/carmenlong/Desktop/electron-presentation/windows-communications windows-comms --out ./build --platform=darwin --arch=x64 --overwrite",
       "build-windows": "electron-packager /Users/carmenlong/Desktop/electron-presentation/windows-communications windows-comms --out ./build --platform=win32 --arch=ia32 --overwrite"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -126,5 +133,6 @@
   },
   "filename": "carmalou___windows-comm-electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:31:46.096Z"
+  "lastFetchedAt": "2017-05-04T05:31:46.096Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:17.125Z"
 }

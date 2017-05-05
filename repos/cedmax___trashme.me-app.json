@@ -71,6 +71,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
+      "lint": "eslint --fix src/assets/js/**/*.js",
       "clean": "rm ./index.* ./Icon* ./main.* & rm -rf ./dist/TrashMeme-darwin-x64",
       "prepare-assets": "cp ./src/index.js . & cp ./src/Icon* . & usemin src/index.html -d ./ > ./index.html --rmlr true & npm run bundle",
       "bundle": "jspm bundle-sfx -m js/main ./main.js",
@@ -153,5 +154,6 @@
   },
   "filename": "cedmax___trashme.me-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:36.361Z"
+  "lastFetchedAt": "2017-05-04T19:36:36.361Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:10.923Z"
 }

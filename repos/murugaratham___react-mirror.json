@@ -54,7 +54,10 @@
     "config": {
       "msvs_version": 2015
     },
-    "repository": "https://github.com/murugaratham/react-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/murugaratham/react-mirror.git"
+    },
     "license": "WTFPL",
     "browserify": {
       "transform": [
@@ -157,5 +160,6 @@
   },
   "filename": "murugaratham___react-mirror.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:58.765Z"
+  "lastFetchedAt": "2017-05-04T17:33:58.765Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:28.107Z"
 }

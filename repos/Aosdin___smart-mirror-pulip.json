@@ -75,14 +75,21 @@
       "start": "electron main.js",
       "wiredep": "wiredep -s index.html"
     },
-    "repository": "https://github.com/evancohen/smart-mirror",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "install": "^0.6.1",
@@ -117,5 +124,6 @@
   },
   "filename": "Aosdin___smart-mirror-pulip.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:00.877Z"
+  "lastFetchedAt": "2017-05-04T18:08:00.877Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:08.193Z"
 }

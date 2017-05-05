@@ -81,7 +81,10 @@
       "dev": "DEBUG=myServer nodemon index.js",
       "start": "electron ."
     },
-    "repository": "https://github.com/prajankya/rmh_registration",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prajankya/rmh_registration.git"
+    },
     "keywords": [
       "Robot",
       "Makers",
@@ -89,7 +92,11 @@
       "Registration",
       "GUI"
     ],
+    "author": "Prajankya",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/prajankya/rmh_registration/issues"
+    },
     "homepage": "https://github.com/prajankya/rmh_registration#readme",
     "dependencies": {
       "adm-zip": "^0.4.7",
@@ -131,5 +138,6 @@
   },
   "filename": "prajankya___rmh_registration.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:44:58.613Z"
+  "lastFetchedAt": "2017-05-04T16:44:58.613Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:06.656Z"
 }

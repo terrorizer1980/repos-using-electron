@@ -177,17 +177,8 @@
       "wiredep": "wiredep -s index.html"
     },
     "repository": {
-      "user": "evancohen",
-      "repo": "smart-mirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/evancohen/smart-mirror/tarball/master",
-      "clone_url": "https://github.com/evancohen/smart-mirror",
-      "https_url": "https://github.com/evancohen/smart-mirror",
-      "travis_url": "https://travis-ci.org/evancohen/smart-mirror",
-      "zip_url": "https://github.com/evancohen/smart-mirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/evancohen/smart-mirror"
+      "type": "git",
+      "url": "git+https://github.com/evancohen/smart-mirror.git"
     },
     "keywords": [
       "Smart Mirror",
@@ -195,7 +186,11 @@
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "wiredep-cli": "^0.1.0",
@@ -258,5 +253,6 @@
   "svnUrl": "https://github.com/ghilo17/smart-mirror",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:54:17.785Z"
+  "lastFetchedAt": "2017-05-04T20:54:17.785Z",
+  "packageLastFetchedAt": "2017-05-05T01:21:22.792Z"
 }

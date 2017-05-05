@@ -53,8 +53,15 @@
     "scripts": {
       "test": "echo \"No Tests\""
     },
-    "repository": "https://github.com/afreidz/nodewm",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/afreidz/nodewm.git"
+    },
+    "author": "Andy Freidenfelds <AFreidenfelds@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/afreidz/nodewm/issues"
+    },
     "homepage": "https://github.com/afreidz/nodewm#readme",
     "dependencies": {
       "electron": "^1.3.2"
@@ -105,5 +112,6 @@
   },
   "filename": "afreidz___nodewm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:49.540Z"
+  "lastFetchedAt": "2017-05-04T18:25:49.540Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:23.743Z"
 }

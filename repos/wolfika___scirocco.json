@@ -55,9 +55,20 @@
     "name": "scirocco",
     "version": "0.0.1",
     "description": "BitTorrent client written in JavaScript",
+    "author": {
+      "name": "Máté Farkas",
+      "email": "farkas.mate38@gmail.com",
+      "url": "https://github.com/wolfika"
+    },
     "license": "MIT",
     "private": true,
-    "repository": "https://github.com/wolfika/scirocco",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wolfika/scirocco"
+    },
+    "bugs": {
+      "url": "https://github.com/wolfika/scirocco/issues"
+    },
     "scripts": {
       "start": "gulp",
       "electron": "electron build/lib/bootstrap.js",
@@ -143,5 +154,6 @@
   "svnUrl": "https://github.com/wolfika/scirocco",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:55:32.701Z"
+  "lastFetchedAt": "2017-05-04T19:55:32.701Z",
+  "packageLastFetchedAt": "2017-05-05T13:58:10.540Z"
 }

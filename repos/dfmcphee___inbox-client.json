@@ -61,13 +61,20 @@
       "start": "electron .",
       "build": "electron-packager . $npm_package_productName --out=dist --platform=darwin --arch=x64 icon='./Inbox.icns' --ignore='^/dist$' --version=$npm_package_electronVersion --overwrite"
     },
-    "repository": "https://github.com/dfmcphee/inbox-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dfmcphee/inbox-client"
+    },
     "keywords": [
       "electron",
       "inbox",
       "gmail"
     ],
+    "author": "Dominic McPhee",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/dfmcphee/inbox-client/issues"
+    },
     "homepage": "https://github.com/dfmcphee/inbox-client#readme",
     "engines": {
       "node": ">=4"
@@ -131,5 +138,6 @@
   },
   "filename": "dfmcphee___inbox-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:44.684Z"
+  "lastFetchedAt": "2017-05-04T20:38:44.684Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:48.467Z"
 }

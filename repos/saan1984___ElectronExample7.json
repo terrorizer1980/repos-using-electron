@@ -73,7 +73,11 @@
     },
     "version": "0.0.1",
     "description": "Electron Example 7",
-    "repository": "https://github.com/saan1984/ElectronExample7",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/saan1984/ElectronExample7.git"
+    },
+    "author": "Sandeep Kumar Patel",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
@@ -104,5 +108,6 @@
   },
   "filename": "saan1984___ElectronExample7.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:58.161Z"
+  "lastFetchedAt": "2017-05-04T05:18:58.161Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:55.148Z"
 }

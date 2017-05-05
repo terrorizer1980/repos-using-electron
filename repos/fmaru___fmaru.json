@@ -56,8 +56,15 @@
       "build_electron": "gulp build_electron; cd app; npm install; cd ..; ./node_modules/.bin/build -d",
       "build_electron:win": "gulp build_electron && cd app && npm install && cd .. && .\\node_modules\\.bin\\build --arch ia32"
     },
-    "repository": "https://github.com/fmaru/fmaru",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fmaru/fmaru.git"
+    },
+    "author": "fmaru",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fmaru/fmaru/issues"
+    },
     "homepage": "https://github.com/fmaru/fmaru",
     "dependencies": {
       "apicache": "0.0.14",
@@ -148,5 +155,6 @@
   "svnUrl": "https://github.com/fmaru/fmaru",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:58:29.704Z"
+  "lastFetchedAt": "2017-05-04T04:58:29.704Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:32.725Z"
 }

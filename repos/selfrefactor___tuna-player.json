@@ -48,23 +48,27 @@
   "packageJSON": {
     "name": "tuna-player",
     "productName": "Tuna Player",
-    "version": "0.1.0",
+    "version": "1.0.0",
+    "author": {
+      "name": "Dejan",
+      "url": "https://ilearnsmarter.com",
+      "email": "deyan8284@gmail.com"
+    },
     "main": "main.js",
+    "description": "main.js",
     "license": "MIT",
     "repository": "selfrefactor/tuna-player",
     "scripts": {
       "start": "electron .",
-      "pack": "electron-packager . --all",
-      "de": "git add . --all&&git commit -m update&&git push"
+      "de": "git add . --all&&git commit -m update&&git push",
+      "stop": "webpack",
+      "pack": "build --dir",
+      "dist": "build --linux deb tar.xz"
     },
     "dependencies": {
-      "babel-preset-es2015": "*",
-      "babel-preset-react": "*",
-      "babel-register": "*",
       "body-parser": "*",
       "express": "*",
-      "ngrok": "*",
-      "find-port": "*",
+      "fs-extra": "^1.0.0",
       "proud-db": "*",
       "ramda": "*",
       "rc-slider": "*",
@@ -75,7 +79,25 @@
       "reqwest": "*"
     },
     "devDependencies": {
-      "electron-prebuilt": "*"
+      "babel-core": "^6.20.0",
+      "babel-loader": "^6.2.9",
+      "babel-plugin-transform-remove-console": "^6.8.0",
+      "babel-preset-es2015": "^6.18.0",
+      "babel-preset-react": "*",
+      "babel-preset-stage-0": "*",
+      "babel-register": "*",
+      "electron-prebuilt": "*",
+      "electron-builder": "*",
+      "webpack": "^1.14.0"
+    },
+    "build": {
+      "appId": "your.id",
+      "mac": {
+        "category": "your.app.category.type"
+      },
+      "win": {
+        "iconUrl": "http://ilearnsmarter.com/favicon.ico"
+      }
     }
   },
   "packageStatus": 200,
@@ -123,5 +145,6 @@
   },
   "filename": "selfrefactor___tuna-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:41.925Z"
+  "lastFetchedAt": "2017-05-04T20:05:41.925Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:52.722Z"
 }

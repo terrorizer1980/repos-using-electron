@@ -95,6 +95,9 @@
       "skeleton"
     ],
     "homepage": "http://plotter.github.io",
+    "bugs": {
+      "url": "https://github.com/plotter/platform2/issues"
+    },
     "scripts": {
       "clean": "rimraf dist",
       "start": "electron .",
@@ -106,8 +109,12 @@
       "build-all": "npm run clean && npm run exe32 && npm run set32 && npm run exe64 && npm run set64"
     },
     "license": "MIT",
+    "author": "Mike Graham <mgraham@technicalmedia.com> (http://cmichaelgraham.io)",
     "main": "main.js",
-    "repository": "https://github.com/plotter/platform2",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/plotter/platform2"
+    },
     "devDependencies": {
       "browser-sync": "^2.13.0",
       "del": "^1.1.0",
@@ -154,5 +161,6 @@
   },
   "filename": "plotter___platform2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:27:40.499Z"
+  "lastFetchedAt": "2017-05-04T18:27:40.499Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:09.293Z"
 }

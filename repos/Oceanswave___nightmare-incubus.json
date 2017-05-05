@@ -75,7 +75,14 @@
       "test": "make test",
       "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha -- "
     },
-    "repository": "https://github.com/oceanswave/nightmare-incubus",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/oceanswave/nightmare-incubus.git"
+    },
+    "author": {
+      "name": "Sean McLellan",
+      "email": "sean.mclellan@baristalabs.com"
+    },
     "keywords": [
       "nightmare",
       "electron"
@@ -134,5 +141,6 @@
   },
   "filename": "Oceanswave___nightmare-incubus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:03:45.738Z"
+  "lastFetchedAt": "2017-05-04T09:03:45.738Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:40.443Z"
 }

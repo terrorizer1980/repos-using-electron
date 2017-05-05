@@ -73,6 +73,7 @@
     "scripts": {
       "start": "concurrently \"webpack\" \"electron .\" --kill-others --raw"
     },
+    "author": "danielnieto89@gmail.com",
     "license": "ISC",
     "dependencies": {
       "electron": "^1.4.2",
@@ -110,5 +111,6 @@
   },
   "filename": "danielnieto___electron-vue-webpack-seed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:21.071Z"
+  "lastFetchedAt": "2017-05-04T21:18:21.071Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:34.661Z"
 }

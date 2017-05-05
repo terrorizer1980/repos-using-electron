@@ -74,34 +74,43 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-navigation",
-    "version": "1.2.1",
+    "version": "1.5.0",
     "description": "Adds a navigation interface to electron that allows you to browse the internet or view local html files with tabs and webviews.",
     "main": "index.js",
     "scripts": {
-      "test": "electron test/demo.js"
+      "test": "electron test/start-demo.js"
     },
-    "repository": "https://github.com/simply-coded/electron-navigation",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/simply-coded/electron-navigation.git"
+    },
     "keywords": [
-      "electron",
-      "navigation",
-      "html",
-      "tab",
-      "tabs",
-      "webview",
+      "address",
       "auto",
       "create",
-      "website",
-      "search",
-      "load",
-      "address",
+      "display",
+      "electron",
+      "html",
+      "http",
       "internet",
+      "ipc-message",
+      "ipcRenderer",
+      "load",
+      "local",
+      "navigation",
+      "search",
+      "send",
+      "tab",
+      "tabs",
       "view",
-      "display"
+      "website",
+      "webview"
     ],
+    "author": "Jeremy England",
     "license": "MIT",
     "dependencies": {
       "color.js": "^0.1.2",
-      "electron": "^1.4.13",
+      "electron": "^1.6.0",
       "jquery": "^3.1.1"
     }
   },
@@ -129,5 +138,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:34:47.841Z"
+  "lastFetchedAt": "2017-05-04T17:34:47.841Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:12.715Z"
 }

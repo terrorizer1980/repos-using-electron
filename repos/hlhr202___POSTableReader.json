@@ -78,8 +78,8 @@
     "main": "bootstrapper.js",
     "scripts": {
       "start": "electron .",
-      "build-mac": "electron-packager ./ --out ./build POSTableReader --platform=darwin",
-      "build-win": "electron-packager ./ --out ./build POSTableReader --platform=win32"
+      "build-mac": "electron-packager ./ --out ./build POSTableReader --platform=darwin --asar=true",
+      "build-win": "electron-packager ./ --out ./build POSTableReader --platform=win32 --asar=true"
     },
     "repository": "https://github.com/hlhr202/POSTableReader",
     "keywords": [
@@ -88,6 +88,7 @@
       "SaladLab",
       "Excel"
     ],
+    "author": "hlhr202",
     "license": "Apache-2.0",
     "devDependencies": {
       "electron": "^1.4.1",
@@ -95,11 +96,12 @@
     },
     "dependencies": {
       "babel-core": "^6.18.2",
-      "babel-preset-stage-1": "^6.16.0",
       "babel-loader": "^6.2.8",
       "babel-preset-es2015": "^6.18.0",
       "babel-preset-react": "^6.16.0",
+      "babel-preset-stage-1": "^6.16.0",
       "electron-json-storage": "^2.1.0",
+      "lodash": "^4.17.2",
       "moment": "^2.17.0",
       "node-schedule": "^1.2.0",
       "react": "^15.4.1",
@@ -135,5 +137,6 @@
   },
   "filename": "hlhr202___POSTableReader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:55.527Z"
+  "lastFetchedAt": "2017-05-04T18:12:55.527Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:08.878Z"
 }

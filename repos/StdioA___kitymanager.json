@@ -67,18 +67,25 @@
   "status": 200,
   "packageJSON": {
     "name": "KityManager",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Using KityMinder offline with Electron",
     "main": "main.js",
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron ."
     },
-    "repository": "https://github.com/StdioA/kitymanager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/StdioA/kitymanager.git"
+    },
     "keywords": [],
+    "author": "David Dai",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/StdioA/kitymanager/issues"
+    },
     "homepage": "https://github.com/StdioA/kitymanager#readme",
     "devDependencies": {
-      "electron-prebuilt": "^0.36.0"
+      "electron": "^1.4.1"
     }
   },
   "packageStatus": 200,
@@ -106,5 +113,6 @@
   },
   "filename": "StdioA___kitymanager.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:15:59.909Z"
+  "lastFetchedAt": "2017-05-04T15:15:59.909Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:09.724Z"
 }

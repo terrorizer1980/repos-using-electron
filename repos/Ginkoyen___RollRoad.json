@@ -80,8 +80,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": "https://github.com/Ginkoyen/RollRoad",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Ginkoyen/RollRoad"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Ginkoyen/RollRoad/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.30.0"
     }
@@ -111,5 +118,6 @@
   },
   "filename": "Ginkoyen___RollRoad.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:32.106Z"
+  "lastFetchedAt": "2017-05-04T21:03:32.106Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:18.290Z"
 }

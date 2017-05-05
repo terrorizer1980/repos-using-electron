@@ -92,14 +92,24 @@
     "description": "Mono utility for OpenMono command line tools, like monomake and monoprog",
     "main": "main.js",
     "scripts": {
-      "start": "electron main.js",
+      "start": "electron main.js --debug=5858",
       "test": "echo \"Error: no test specified\" && exit 1",
       "pack": "build --dir",
       "dist": "build",
-      "postinstall": "bower install"
+      "postinstall": "./node_modules/.bin/bower install --allow-root"
+    },
+    "node-debugger": {
+      "nodePath": "electron",
+      "nodeArgs": "main.js"
+    },
+    "author": {
+      "name": "Monolit ApS",
+      "email": "contact@openmono.com",
+      "url": "http://developer.openmono.com/"
     },
     "license": "MIT",
     "dependencies": {
+      "electron-json-storage": "^2.1.0",
       "promise": "^7.1.1"
     },
     "devDependencies": {
@@ -121,7 +131,21 @@
       "linux": {
         "category": "Development",
         "target": "deb"
-      }
+      },
+      "protocols": {
+        "name": "MonoKiosk ELF file install URL",
+        "role": "Viewer",
+        "schemes": [
+          "openmono"
+        ]
+      },
+      "fileAssociations": [
+        {
+          "ext": "elf",
+          "name": "Mono Application",
+          "role": "Viewer"
+        }
+      ]
     }
   },
   "packageStatus": 200,
@@ -149,5 +173,6 @@
   },
   "filename": "getopenmono___little-helper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:23.800Z"
+  "lastFetchedAt": "2017-05-04T19:38:23.800Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:20.427Z"
 }

@@ -84,12 +84,19 @@
       "package-testing": "electron-packager .\\ Desktop --platform=win32 --arch=x64 --out=%USERPROFILE%\\Desktop\\Desktop --app-copyright=CC0 --icon=dependencies\\Windows\\app_large.ico --app-version=0.3.6 --version=0.37.6 --version-string.FileDescription=Desktop --version-string.OriginalFilename=desktop.exe --version-string.ProductName=Desktop --version-string.InternalName=Desktop --version-string.LegalCopyright=CC0-1 --overwrite",
       "setup": "electron setup.js"
     },
-    "repository": "https://github.com/rittbys/YouTubeDesktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rittbys/YouTubeDesktop"
+    },
     "keywords": [
       "YouTube",
       "YouTube Desktop"
     ],
+    "author": "rittbys",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/rittbys/YouTubeDesktop/issues"
+    },
     "homepage": "https://github.com/rittbys/YouTubeDesktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -122,5 +129,6 @@
   },
   "filename": "rittbys___YouTubeDesktop-UNOFFICIAL.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:46:33.108Z"
+  "lastFetchedAt": "2017-05-04T19:46:33.108Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:54.560Z"
 }

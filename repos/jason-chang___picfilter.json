@@ -59,14 +59,21 @@
     "scripts": {
       "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-core": "^6.5.1",
@@ -153,5 +160,6 @@
   "svnUrl": "https://github.com/jason-chang/picfilter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:14:10.761Z"
+  "lastFetchedAt": "2017-05-04T18:14:10.761Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:02.007Z"
 }

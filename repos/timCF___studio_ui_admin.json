@@ -69,6 +69,7 @@
     "name": "studio-admin",
     "main": "electron/main.js",
     "description": "Description",
+    "author": "Your Name",
     "version": "0.1.0",
     "repository": {
       "type": "git",
@@ -89,6 +90,7 @@
       "jade-react-brunch": "git://github.com/timCF/jade-react-brunch",
       "jsfunky": "^1.0.1",
       "less-brunch": "^2.0.0",
+      "moment-timezone": "^0.5.11",
       "protobufjs": "^5.0.1",
       "react": "^0.14.7",
       "react-dom": "^0.14.7",
@@ -129,5 +131,6 @@
   },
   "filename": "timCF___studio_ui_admin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:59.741Z"
+  "lastFetchedAt": "2017-05-04T04:58:59.741Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:51.071Z"
 }

@@ -99,12 +99,19 @@
       "tabs",
       "editor"
     ],
+    "author": "justalex",
     "license": "MIT",
     "dependencies": {
       "musicmetadata": "^2.0.2",
       "mva": "^3.0.0"
     },
-    "repository": "https://github.com/ordinarygithubuser/score",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ordinarygithubuser/score.git"
+    },
+    "bugs": {
+      "url": "https://github.com/ordinarygithubuser/score/issues"
+    },
     "homepage": "https://github.com/ordinarygithubuser/score#readme"
   },
   "packageStatus": 200,
@@ -132,5 +139,6 @@
   },
   "filename": "ordinarygithubuser___music-tabs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:24.068Z"
+  "lastFetchedAt": "2017-05-04T21:18:24.068Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:15.958Z"
 }

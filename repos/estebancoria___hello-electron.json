@@ -81,6 +81,7 @@
       "package:win32": "electron-packager . --platform=win32 --arch=ia32",
       "package:linux": "electron-packager . --platform=linux --arch=x64"
     },
+    "author": "Esteban Coria",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^1.2.6",
@@ -117,5 +118,6 @@
   },
   "filename": "estebancoria___hello-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:53.032Z"
+  "lastFetchedAt": "2017-05-04T16:42:53.032Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:43.187Z"
 }

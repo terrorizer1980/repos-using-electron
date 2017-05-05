@@ -67,5 +67,35 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:20:36.387Z"
+  "lastFetchedAt": "2017-05-04T21:20:36.387Z",
+  "packageJSON": {
+    "name": "keep",
+    "productName": "Keep",
+    "version": "0.4.0",
+    "description": "Google Keep menu bar app for macOS",
+    "main": "main.js",
+    "scripts": {
+      "build": "npm run build:macos",
+      "build:macos": "electron-packager . --electron-version 1.4.13 --icon=assets/icon.icns --ignore='^/(dist)$' --out=dist --overwrite --platform=darwin --quiet",
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": "https://github.com/tmcinerney/keep",
+    "keywords": [
+      "electron",
+      "google",
+      "keep"
+    ],
+    "author": "Travers McInerney",
+    "license": "MIT",
+    "dependencies": {
+      "menubar": "^5.2.3"
+    },
+    "devDependencies": {
+      "electron": "^1.6.2",
+      "electron-packager": "^8.5.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:30:11.397Z"
 }

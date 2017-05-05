@@ -87,26 +87,33 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-packager",
-    "version": "8.2.0",
-    "description": "Package and distribute your Electron app with OS-specific bundles (.app, .exe etc) via JS or CLI",
+    "version": "8.7.0",
+    "description": "Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI",
     "main": "index.js",
     "bin": {
       "electron-packager": "cli.js"
     },
-    "repository": "https://github.com/electron-userland/electron-packager",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron-userland/electron-packager.git"
+    },
+    "author": "max ogden",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/electron-userland/electron-packager/issues"
+    },
     "homepage": "https://github.com/electron-userland/electron-packager",
     "dependencies": {
-      "asar": "^0.12.3",
+      "asar": "^0.13.0",
       "debug": "^2.2.0",
-      "electron-download": "^3.0.0",
+      "electron-download": "^4.0.0",
       "electron-osx-sign": "^0.4.1",
       "extract-zip": "^1.0.3",
-      "fs-extra": "^1.0.0",
+      "fs-extra": "^3.0.0",
       "get-package-info": "^1.0.0",
       "minimist": "^1.1.1",
       "plist": "^2.0.0",
-      "rcedit": "^0.7.0",
+      "rcedit": "^0.9.0",
       "resolve": "^1.1.6",
       "run-series": "^1.1.1",
       "sanitize-filename": "^1.6.0",
@@ -116,31 +123,43 @@
       "buffer-equal": "^1.0.0",
       "coveralls": "^2.11.6",
       "eslint": "^3.2.0",
-      "eslint-config-standard": "^6.0.0",
+      "eslint-config-standard": "^10.0.0",
+      "eslint-plugin-import": "^2.2.0",
+      "eslint-plugin-node": "^4.2.2",
       "eslint-plugin-promise": "^3.0.0",
-      "eslint-plugin-standard": "^2.0.0",
-      "is-admin": "^2.0.0",
-      "nyc": "^9.0.0",
+      "eslint-plugin-standard": "^3.0.0",
+      "eslint-plugin-tape": "^1.1.0",
+      "nyc": "^10.0.0",
       "pkg-up": "^1.0.0",
-      "rcinfo": "^0.1.3",
       "rimraf": "^2.3.2",
       "run-waterfall": "^1.1.1",
-      "tape": "^4.0.0"
+      "tape": "^4.0.0",
+      "which": "^1.2.14"
     },
     "engines": {
       "node": ">= 4.0"
     },
     "scripts": {
       "coveralls": "nyc report --reporter=text-lcov | coveralls",
+      "lint": "eslint .",
       "pretest": "rimraf test/work",
-      "test": "eslint . && nyc --cache tape test"
+      "test": "npm run lint && nyc tape test"
+    },
+    "directories": {
+      "test": "test"
     },
     "keywords": [],
     "eslintConfig": {
-      "extends": "standard",
+      "extends": [
+        "plugin:tape/recommended",
+        "standard"
+      ],
       "parserOptions": {
         "sourceType": "script"
       },
+      "plugins": [
+        "tape"
+      ],
       "rules": {
         "strict": [
           "error"
@@ -176,5 +195,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T20:51:13.695Z"
+  "lastFetchedAt": "2017-05-04T20:51:13.695Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:42.372Z"
 }

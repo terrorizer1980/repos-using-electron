@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-connect",
-    "version": "0.6.0",
+    "version": "0.6.1",
     "description": "Livereload tools for Electron development",
     "main": "index.js",
     "scripts": {
@@ -60,22 +60,26 @@
     ],
     "homepage": "https://github.com/Quramy/electron-connect",
     "repository": "https://github.com/Quramy/electron-connect.git",
+    "author": {
+      "name": "Quramy",
+      "email": "yosuke.kurami@gmail.com"
+    },
     "contributors": [
       "Quramy <yosuke.kurami@gmail.com>",
       "Sreekanth <s.sreekanth@outlook.com>"
     ],
     "license": "MIT",
     "dependencies": {
-      "cross-spawn": "^4.0.0",
-      "lodash": "^4.15.0",
+      "cross-spawn": "^5.0.1",
+      "lodash": "^4.17.2",
       "tree-kill": "^1.1.0",
       "ws": "^1.1.1"
     },
     "devDependencies": {
-      "electron": "^1.4.0",
+      "electron": "^1.4.7",
       "gulp": "^3.9.1",
       "gulp-mocha": "^3.0.1",
-      "spectron": "^3.3.0"
+      "spectron": "^3.4.0"
     }
   },
   "packageStatus": 200,
@@ -123,5 +127,6 @@
   "svnUrl": "https://github.com/Quramy/electron-connect",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:34:36.464Z"
+  "lastFetchedAt": "2017-05-04T05:34:36.464Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:06.460Z"
 }

@@ -60,12 +60,19 @@
       "start": "electron ./app/main.js"
     },
     "description": "Google Keep at your tray",
+    "author": "Rafael Jaques <rafael@phpit.com.br>",
     "keywords": [
       "Electron",
       "Google Keep",
       "Tray app"
     ],
-    "repository": "https://github.com/rafajaques/keepy",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rafajaques/keepy"
+    },
+    "bugs": {
+      "url": "https://github.com/rafajaques/keepy/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.0.2"
     },
@@ -116,5 +123,6 @@
   "svnUrl": "https://github.com/rafajaques/keepy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:33:43.331Z"
+  "lastFetchedAt": "2017-05-04T05:33:43.331Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:14.301Z"
 }

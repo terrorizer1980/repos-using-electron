@@ -50,7 +50,10 @@
     "version": "0.0.1",
     "description": "Our product GUI",
     "main": "src/main.js",
-    "repository": "https://github.com/ekougs/logi-pharma-front",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ekougs/logi-pharma-front"
+    },
     "scripts": {
       "tsc": "tsc",
       "tsc:w": "tsc -w",
@@ -106,7 +109,11 @@
       "zone.js": "^0.6.12"
     },
     "keywords": [],
+    "author": "ekougs",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ekougs/logi-pharma-front/issues"
+    },
     "homepage": "https://github.com/ekougs/logi-pharma-front#readme",
     "devDependencies": {
       "babel-cli": "6.5.1",
@@ -182,5 +189,6 @@
   "svnUrl": "https://github.com/ekougs/logi-pharma-front",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:50:47.687Z"
+  "lastFetchedAt": "2017-05-04T20:50:47.687Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:30.328Z"
 }

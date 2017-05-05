@@ -53,10 +53,11 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-input-menu",
-    "version": "2.0.3",
+    "version": "2.1.0",
     "description": "Context menu for electron input elements.",
     "repository": "parro-it/electron-input-menu",
     "license": "MIT",
+    "author": "andrea@parro.it",
     "scripts": {
       "test": "xo",
       "start": "electron test.js"
@@ -76,7 +77,7 @@
     "devDependencies": {
       "electron-contextmenu-middleware": "^1.0.0",
       "electron-prebuilt": "^1.1.1",
-      "xo": "^0.15.1"
+      "xo": "^0.17.1"
     },
     "files": [
       "index.js"
@@ -133,5 +134,6 @@
   "svnUrl": "https://github.com/parro-it/electron-input-menu",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:15:05.812Z"
+  "lastFetchedAt": "2017-05-04T15:15:05.812Z",
+  "packageLastFetchedAt": "2017-05-05T15:40:53.071Z"
 }

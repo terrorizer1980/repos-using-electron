@@ -84,14 +84,21 @@
       "watch": "npm run electron main.js && npm run webpack-prod",
       "start": "electron ."
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Michel Kansou",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "assets-webpack-plugin": "*",
@@ -157,5 +164,6 @@
   },
   "filename": "MichelKansou___Projet-BI-Generate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:02:02.754Z"
+  "lastFetchedAt": "2017-05-04T06:02:02.754Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:35.707Z"
 }

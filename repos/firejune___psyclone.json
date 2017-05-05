@@ -55,7 +55,13 @@
     "bin": {
       "psyclone": "./scripts/cmd.js"
     },
-    "repository": "https://github.com/firejune/psyclone",
+    "bugs": {
+      "url": "https://git.rsupport.com/psyclone/studio/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/firejune/psyclone"
+    },
     "dependencies": {
       "adbkit": "^2.4.0",
       "adbkit-apkreader": "^1.0.0",
@@ -188,5 +194,6 @@
   "svnUrl": "https://github.com/firejune/psyclone",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:22:06.829Z"
+  "lastFetchedAt": "2017-05-04T15:22:06.829Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:06.946Z"
 }

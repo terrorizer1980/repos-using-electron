@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron src/app.js"
     },
-    "repository": "https://github.com/mcgill-robotics/ros-web-image-view",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mcgill-robotics/ros-web-image-view.git"
+    },
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/mcgill-robotics/ros-web-image-view/issues"
+    },
+    "author": "anassinator",
     "homepage": "https://github.com/mcgill-robotics/ros-web-image-view",
     "dependencies": {
-      "electron-prebuilt": "^1.0.1",
+      "electron": "^1.0.1",
       "yargs": "^4.7.0"
     }
   },
@@ -126,5 +133,6 @@
   },
   "filename": "mcgill-robotics___ros-web-image-view.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:05.685Z"
+  "lastFetchedAt": "2017-05-04T14:24:05.685Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:31.349Z"
 }

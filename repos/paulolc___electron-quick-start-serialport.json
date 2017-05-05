@@ -175,17 +175,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start-serialport",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start-serialport/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start-serialport",
-      "https_url": "https://github.com/electron/electron-quick-start-serialport",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start-serialport",
-      "zip_url": "https://github.com/electron/electron-quick-start-serialport/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start-serialport"
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start-serialport.git"
     },
     "keywords": [
       "Electron",
@@ -194,7 +185,11 @@
       "tutorial",
       "serialport"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start-serialport/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start-serialport#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.0",
@@ -252,5 +247,6 @@
   "svnUrl": "https://github.com/paulolc/electron-quick-start-serialport",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:48:39.523Z"
+  "lastFetchedAt": "2017-05-04T17:48:39.523Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:23.043Z"
 }

@@ -81,6 +81,12 @@
       "security",
       "encryption"
     ],
+    "bugs": "https://github.com/cranndarach/passbox/issues",
+    "author": {
+      "name": "Rachael Steiner",
+      "email": "r.steiner@uconn.edu",
+      "maintainer": "@cranndarach"
+    },
     "license": "MIT",
     "repository": "https://github.com/cranndarach/passbox.git",
     "main": "index.js",
@@ -89,6 +95,9 @@
       "build-linux": "electron-packager . PassBox --platform=linux --arch=x64 --out=dist --ignore='^/dist$' --overwrite",
       "build-win": "electron-packager . PassBox --platform=win32 --arch=x64 --out=dist --ignore='^/dist$' --overwrite",
       "build-mac": "electron-packager . PassBox --platform=darwin --arch=x64 --out=dist --ignore='^/dist$' --overwrite"
+    },
+    "directories": {
+      "lib": "lib/"
     },
     "dependencies": {
       "array-member": "^1.0.0",
@@ -127,5 +136,6 @@
   },
   "filename": "cranndarach___passbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:31:59.098Z"
+  "lastFetchedAt": "2017-05-04T05:31:59.098Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:57.486Z"
 }

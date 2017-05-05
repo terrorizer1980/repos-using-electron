@@ -50,7 +50,10 @@
     "version": "0.1.8",
     "description": "yet another rocketbeanstv sendeplan",
     "main": "main.js",
-    "repository": "https://github.com/BakeRolls/yarbs",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/BakeRolls/yarbs.git"
+    },
     "dependencies": {
       "electron-positioner": "^2.0.1",
       "http": "0.0.0",
@@ -70,6 +73,7 @@
       "build": "rm -rf yarbs-*-*; electron-packager . yarbs --platform=darwin,linux --arch=x64 --version=0.33.1 --ignore='yarbs-*-*' --icon=www/assets/icon/BohnIcon.icns --asar",
       "package": "for arch in yarbs-*-*; do zip -ry $arch.zip $arch; done"
     },
+    "author": "bake",
     "license": "CC-BY-NC-4.0"
   },
   "packageStatus": 200,
@@ -117,5 +121,6 @@
   },
   "filename": "BakeRolls___yarbs.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:26.751Z"
+  "lastFetchedAt": "2017-05-04T05:15:26.751Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:39.091Z"
 }

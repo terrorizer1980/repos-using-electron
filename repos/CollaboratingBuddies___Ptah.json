@@ -81,5 +81,34 @@
   "networkCount": 0,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:32:36.157Z"
+  "lastFetchedAt": "2017-05-04T05:32:36.157Z",
+  "packageJSON": {
+    "name": "ptah",
+    "version": "1.0.0",
+    "description": "a better way to manage sounds",
+    "main": "index.js",
+    "scripts": {
+      "test": "npm test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CollaboratingBuddies/Ptah.git"
+    },
+    "keywords": [
+      "sound",
+      "audio",
+      "music"
+    ],
+    "author": "Tucker Wash",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/CollaboratingBuddies/Ptah/issues"
+    },
+    "homepage": "https://github.com/CollaboratingBuddies/Ptah#readme",
+    "dependencies": {
+      "electron": "^1.4.13"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:19:30.742Z"
 }

@@ -72,7 +72,10 @@
     "version": "0.1.1",
     "main": "app.js",
     "license": "MIT",
-    "repository": "https://github.com/FalconPilot/Gun-customizer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FalconPilot/Gun-customizer"
+    },
     "scripts": {
       "start": "electron ."
     },
@@ -105,5 +108,6 @@
   },
   "filename": "FalconPilot___Gun-customizer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:22:11.362Z"
+  "lastFetchedAt": "2017-05-04T20:22:11.362Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:24.251Z"
 }

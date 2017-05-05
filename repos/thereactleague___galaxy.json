@@ -96,18 +96,25 @@
       "test": "mocha --compilers js:babel-core/register,css:test/css-null-compiler.js --recursive --reporter nyan test/*.js",
       "coverage": "istanbul cover _mocha"
     },
-    "repository": "https://github.com/thereactleague/galaxy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/thereactleague/galaxy.git"
+    },
     "keywords": [
       "Solr",
       "Electron",
       "React",
       "Admin"
     ],
+    "author": "thereactleague",
     "contributors": [
       "yriveiro",
       "fbielejec"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/thereactleague/galaxy/issues"
+    },
     "homepage": "https://github.com/thereactleague/galaxy#readme",
     "devDependencies": {
       "autoprefixer": "^6.1.2",
@@ -190,5 +197,6 @@
   },
   "filename": "thereactleague___galaxy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:19.066Z"
+  "lastFetchedAt": "2017-05-04T20:07:19.066Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:04.359Z"
 }

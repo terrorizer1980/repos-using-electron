@@ -74,14 +74,21 @@
       "test": "electron ./asset/main.js",
       "build": "rm -rf ./asset ./lib; gulp"
     },
-    "repository": "https://github.com/wing-kai/react-titlebar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wing-kai/react-titlebar.git"
+    },
     "keywords": [
       "react",
       "electron",
       "titlebar",
       "osx"
     ],
+    "author": "wing-kai",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/wing-kai/react-titlebar/issues"
+    },
     "homepage": "https://github.com/wing-kai/react-titlebar#readme",
     "dependencies": {
       "react": "^0.14.7",
@@ -125,5 +132,6 @@
   },
   "filename": "wing-kai___react-titlebar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:34:06.860Z"
+  "lastFetchedAt": "2017-05-04T18:34:06.860Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:15.155Z"
 }

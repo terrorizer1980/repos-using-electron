@@ -80,6 +80,7 @@
       "package-darwin": "./node_modules/.bin/electron-packager ./app ElectronQuickStart --platform darwin --arch all --out ./bin/ElectronQuickStart --version 0.37.4 --overwrite --icon=./app/icon.icns",
       "package-linux": "./node_modules/.bin/electron-packager ./app ElectronQuickStart --platform linux --arch all --out ./bin/ElectronQuickStart --version 0.37.4 --overwrite --icon=./app/icon.icns"
     },
+    "author": "ayasin@datatensor.com",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.7.4",
@@ -121,5 +122,6 @@
   },
   "filename": "ayasin___electron-react-minimalist-bootstrap.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:52.875Z"
+  "lastFetchedAt": "2017-05-04T19:39:52.875Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:12.642Z"
 }

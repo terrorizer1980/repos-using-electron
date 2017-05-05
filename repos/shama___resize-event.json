@@ -54,13 +54,20 @@
       "start": "budo example.js",
       "test": "browserify test.js -o bundle.js && testron bundle.js"
     },
-    "repository": "https://github.com/shama/resize-event",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/shama/resize-event.git"
+    },
     "keywords": [
       "resize",
       "event",
       "element"
     ],
+    "author": "Kyle Robinson Young <kyle@dontkry.com> (http://dontkry.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shama/resize-event/issues"
+    },
     "homepage": "https://github.com/shama/resize-event#readme",
     "devDependencies": {
       "browserify": "^11.0.0",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/shama/resize-event",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:03:55.040Z"
+  "lastFetchedAt": "2017-05-04T21:03:55.040Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:44.008Z"
 }

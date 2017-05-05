@@ -79,11 +79,18 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/pierrerispal/computerControl",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pierrerispal/computerControl.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "Pierre Rispal",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/pierrerispal/computerControl.git/issues"
+    },
     "homepage": "https://github.com/pierrerispal/computerControl.git#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -114,5 +121,6 @@
   },
   "filename": "pierrerispal___winampControl.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:47:24.787Z"
+  "lastFetchedAt": "2017-05-04T14:47:24.787Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:21.743Z"
 }

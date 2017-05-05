@@ -82,13 +82,20 @@
       "build": "./node_modules/.bin/electron-packager . helloElectron --out=build --platform=linux,win32 --arch=x64 --version=0.33.7 --ignore=node_modules/electron-*",
       "package": "./node_modules/.bin/asar pack ./build/helloElectron-win32-x64/resources/app ./build/helloElectron-win32-x64/resources/app.asar && ./node_modules/.bin/asar pack ./build/helloElectron-linux-x64/resources/app ./build/helloElectron-linux-x64/resources/app.asar"
     },
-    "repository": "https://github.com/jobsamuel/hello-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jobsamuel/hello-electron.git"
+    },
     "keywords": [
       "demo",
       "electron",
       "app"
     ],
+    "author": "Jobsamuel Núñez <jobsamuel.nunez@outlook.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jobsamuel/hello-electron/issues"
+    },
     "homepage": "https://github.com/jobsamuel/hello-electron#readme",
     "dependencies": {
       "jquery": "^2.1.4"
@@ -124,5 +131,6 @@
   },
   "filename": "jobsamuel___hello-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:34:51.220Z"
+  "lastFetchedAt": "2017-05-04T15:34:51.220Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:46.648Z"
 }

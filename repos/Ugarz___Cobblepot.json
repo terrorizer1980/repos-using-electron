@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/Ugarz/Cobblepot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Ugarz/Cobblepot.git"
+    },
+    "author": {
+      "name": "Ugo",
+      "email": "ugo.arzur@gmail.com",
+      "url": "https://github.com/Ugarz"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Ugarz/Cobblepot/issues"
+    },
     "keywords": [
       "passwords",
       "notes",
@@ -199,5 +210,6 @@
   },
   "filename": "Ugarz___Cobblepot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:40:47.591Z"
+  "lastFetchedAt": "2017-05-04T16:40:47.591Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:02.465Z"
 }

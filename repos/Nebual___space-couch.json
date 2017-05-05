@@ -66,13 +66,19 @@
       "7z": "./node_modules/7zip-bin-linux/x64/7za a space-couch-win32-x64.7z dist/space-couch-win32-x64",
       "start": "electron ."
     },
-    "repository": "https://github.com/Nebual/space-couch",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Nebual/space-couch.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "bugs": {
+      "url": "https://github.com/Nebual/space-couch/issues"
+    },
     "homepage": "https://github.com/Nebual/space-couch#readme",
     "devDependencies": {
       "7zip-bin": "^1.0.5",
@@ -157,5 +163,6 @@
   "svnUrl": "https://github.com/Nebual/space-couch",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:15:04.697Z"
+  "lastFetchedAt": "2017-05-04T21:15:04.697Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:11.215Z"
 }

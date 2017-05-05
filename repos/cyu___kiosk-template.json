@@ -174,17 +174,8 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "cyu",
-      "repo": "kiosk-template",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/cyu/kiosk-template/tarball/master",
-      "clone_url": "https://github.com/cyu/kiosk-template",
-      "https_url": "https://github.com/cyu/kiosk-template",
-      "travis_url": "https://travis-ci.org/cyu/kiosk-template",
-      "zip_url": "https://github.com/cyu/kiosk-template/archive/master.zip",
-      "api_url": "https://api.github.com/repos/cyu/kiosk-template"
+      "type": "git",
+      "url": "git+https://github.com/cyu/kiosk-template.git"
     },
     "keywords": [
       "Electron",
@@ -192,7 +183,11 @@
       "start",
       "kiosk"
     ],
+    "author": "Calvin Yu",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/cyu/kiosk-template/issues"
+    },
     "homepage": "https://github.com/cyu/kiosk-template#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -245,5 +240,6 @@
   "svnUrl": "https://github.com/cyu/kiosk-template",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:24:46.644Z"
+  "lastFetchedAt": "2017-05-04T14:24:46.644Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:32.890Z"
 }

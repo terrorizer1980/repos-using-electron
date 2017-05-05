@@ -193,17 +193,24 @@
     "main": "index.js",
     "homepage": "https://720kb.github.io/ndm",
     "github": "https://github.com/720kb/ndm",
+    "author": "720kb",
     "authors": [
       "720kb",
       "Filippo Oretti",
       "Dario Andrei"
     ],
-    "repository": "https://github.com/720kb/ndm",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/720kb/ndm.git"
+    },
     "copyright": "© 720kb - Filippo Oretti - Dario Andrei",
     "scripts": {
       "prestart": "gulp distify",
       "start": "electron .",
       "build": "npm install && npm prune && gulp dist && build"
+    },
+    "bugs": {
+      "url": "https://github.com/720kb/ndm/issues"
     },
     "license": {
       "type": "GPL-3.0",
@@ -244,6 +251,9 @@
       "dragable": true,
       "titleBarStyle": "hidden",
       "offscreen": true
+    },
+    "directories": {
+      "output": "./releases"
     },
     "dependencies": {
       "ace-builds": "^1.2.5",
@@ -311,5 +321,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:38.362Z"
+  "lastFetchedAt": "2017-05-04T19:54:38.362Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:00.981Z"
 }

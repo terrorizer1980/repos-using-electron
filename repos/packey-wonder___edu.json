@@ -79,19 +79,14 @@
       "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=/out/ --prune=true --out=out "
     },
     "repository": {
-      "user": "jlord",
-      "repo": "git-it-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jlord/git-it-electron/tarball/master",
-      "clone_url": "https://github.com/jlord/git-it-electron",
-      "https_url": "https://github.com/jlord/git-it-electron",
-      "travis_url": "https://travis-ci.org/jlord/git-it-electron",
-      "zip_url": "https://github.com/jlord/git-it-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jlord/git-it-electron"
+      "type": "git",
+      "url": "https://github.com/jlord/git-it-electron.git"
     },
+    "author": "Jessica Lord",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/jlord/git-it-electron/issues"
+    },
     "homepage": "https://github.com/jlord/git-it-electron",
     "devDependencies": {
       "electron-packager": "^7.0.0",
@@ -151,5 +146,6 @@
   "filename": "packey-wonder___edu.json",
   "sourceRepo": "jlord/git-it-electron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:28.668Z"
+  "lastFetchedAt": "2017-05-04T15:22:28.668Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:22.732Z"
 }

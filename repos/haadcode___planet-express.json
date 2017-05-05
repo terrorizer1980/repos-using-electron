@@ -112,8 +112,15 @@
       "electron": "./node_modules/.bin/electron .",
       "start": "cd client/dist && ../../node_modules/.bin/http-server -c-1 -p 8081 & open http://localhost:8081/index.html & wait"
     },
-    "repository": "https://github.com/haadcode/orbit",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/haadcode/orbit.git"
+    },
+    "bugs": {
+      "url": "https://github.com/haadcode/orbit/issues"
+    },
     "readme": "README.md",
+    "author": "Haad",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -141,5 +148,6 @@
   },
   "filename": "haadcode___planet-express.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:00.213Z"
+  "lastFetchedAt": "2017-05-04T15:26:00.213Z",
+  "packageLastFetchedAt": "2017-05-05T17:02:50.153Z"
 }

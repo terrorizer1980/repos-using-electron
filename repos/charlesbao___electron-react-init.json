@@ -81,7 +81,10 @@
       "lint": "eslint --ext .js,.jsx src",
       "build": "atool-build -o ./dist"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -142,5 +145,6 @@
   },
   "filename": "charlesbao___electron-react-init.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:34:29.056Z"
+  "lastFetchedAt": "2017-05-04T19:34:29.056Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:05.426Z"
 }

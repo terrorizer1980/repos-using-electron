@@ -81,13 +81,20 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/alyssongomes/SysDent",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/alyssongomes/SysDent.git"
+    },
     "keywords": [
       "dentista",
       "consultorio",
       "node"
     ],
+    "author": "vacilasoft",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/alyssongomes/SysDent/issues"
+    },
     "homepage": "https://github.com/alyssongomes/SysDent#readme"
   },
   "packageStatus": 200,
@@ -115,5 +122,6 @@
   },
   "filename": "alyssongomes___SysDent.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:36.714Z"
+  "lastFetchedAt": "2017-05-04T20:45:36.714Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:52.561Z"
 }

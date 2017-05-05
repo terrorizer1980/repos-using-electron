@@ -79,8 +79,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/briandk/transdown-electron-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/briandk/transdown-electron-app.git"
+    },
+    "author": "Brian A. Danielak",
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/briandk/transdown-electron-app/issues"
+    },
     "homepage": "https://github.com/briandk/transdown-electron-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -111,5 +118,6 @@
   },
   "filename": "briandk___transdown-electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:56.908Z"
+  "lastFetchedAt": "2017-05-04T20:46:56.908Z",
+  "packageLastFetchedAt": "2017-05-05T14:55:56.171Z"
 }

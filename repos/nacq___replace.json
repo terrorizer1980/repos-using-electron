@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0"
@@ -118,5 +125,6 @@
   },
   "filename": "nacq___replace.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:44.016Z"
+  "lastFetchedAt": "2017-05-04T21:03:44.016Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:06.648Z"
 }

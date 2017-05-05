@@ -87,5 +87,36 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:21:25.965Z"
+  "lastFetchedAt": "2017-05-04T14:21:25.965Z",
+  "packageJSON": {
+    "name": "Diary",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+      "electron": "^1.4.14",
+      "electron-builder": "^16.6.1",
+      "electron-rebuild": "^1.5.7",
+      "foreman": "^2.0.0",
+      "react-scripts": "0.8.5"
+    },
+    "dependencies": {
+      "moment": "^2.18.1",
+      "react": "^15.4.2",
+      "react-bootstrap": "^0.30.8",
+      "react-dom": "^15.4.2"
+    },
+    "homepage": "./",
+    "main": "src/electron-starter.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject",
+      "electron": "electron .",
+      "dev": "nf start -p 3000",
+      "postinstall": "install-app-deps"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:04:09.536Z"
 }

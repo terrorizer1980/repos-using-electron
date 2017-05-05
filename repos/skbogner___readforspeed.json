@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/skbogner/readforspeed",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/skbogner/readforspeed.git"
+    },
     "keywords": [
       "Electron",
       "Speed",
@@ -89,7 +92,11 @@
       "Practice",
       "ReadForSpeed"
     ],
+    "author": "Sebastian Bogner <bogner.sebastian@gmail.com> (http://github.com/skbogner)",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/skbogner/readforspeed/issues"
+    },
     "homepage": "https://github.com/skbogner/readforspeed#readme",
     "dependencies": {
       "jquery": "2.2.0"
@@ -123,5 +130,6 @@
   },
   "filename": "skbogner___readforspeed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:32:03.149Z"
+  "lastFetchedAt": "2017-05-04T18:32:03.149Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:16.588Z"
 }

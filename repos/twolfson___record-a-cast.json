@@ -56,7 +56,18 @@
     "description": "Select and record a portion of your desktop",
     "version": "1.4.1",
     "homepage": "https://github.com/twolfson/record-a-cast",
-    "repository": "https://github.com/twolfson/record-a-cast",
+    "author": {
+      "name": "Todd Wolfson",
+      "email": "todd@twolfson.com",
+      "url": "http://twolfson.com/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/twolfson/record-a-cast.git"
+    },
+    "bugs": {
+      "url": "https://github.com/twolfson/record-a-cast/issues"
+    },
     "bin": {
       "record-a-cast": "bin/record-a-cast.js"
     },
@@ -147,5 +158,6 @@
   "svnUrl": "https://github.com/twolfson/record-a-cast",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:29:21.611Z"
+  "lastFetchedAt": "2017-05-04T18:29:21.611Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:29.107Z"
 }

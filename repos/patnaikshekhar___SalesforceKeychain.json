@@ -80,24 +80,19 @@
       "start": "webpack;electron main.js"
     },
     "repository": {
-      "user": "patnaikshekhar",
-      "repo": "SalesforceKeychain",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/patnaikshekhar/SalesforceKeychain/tarball/master",
-      "clone_url": "https://github.com/patnaikshekhar/SalesforceKeychain",
-      "https_url": "https://github.com/patnaikshekhar/SalesforceKeychain",
-      "travis_url": "https://travis-ci.org/patnaikshekhar/SalesforceKeychain",
-      "zip_url": "https://github.com/patnaikshekhar/SalesforceKeychain/archive/master.zip",
-      "api_url": "https://api.github.com/repos/patnaikshekhar/SalesforceKeychain"
+      "type": "git",
+      "url": "git+https://github.com/patnaikshekhar/SalesforceKeychain.git"
     },
     "keywords": [
       "Salesforce",
       "Logins",
       "Keychain"
     ],
+    "author": "Shekhar Patnaik",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/patnaikshekhar/SalesforceKeychain/issues"
+    },
     "homepage": "https://github.com/patnaikshekhar/SalesforceKeychain#readme",
     "devDependencies": {
       "babel-core": "^6.4.0",
@@ -148,5 +143,6 @@
   "filename": "patnaikshekhar___SalesforceKeychain.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:45.646Z"
+  "lastFetchedAt": "2017-05-04T21:28:45.646Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:34.244Z"
 }

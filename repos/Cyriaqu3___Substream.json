@@ -77,14 +77,21 @@
       "repo": "/CYRIAQU3/Substream",
       "branch": "master"
     },
-    "repository": "https://github.com/CYRIAQU3/Substream",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CYRIAQU3/Substream.git"
+    },
     "keywords": [
       "Substream",
       "mp3",
       "metadata",
       "tag"
     ],
+    "author": "Cyriaque DELAUNAY",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/CYRIAQU3/Substream/issues"
+    },
     "homepage": "https://github.com/CYRIAQU3/Substream#readme",
     "dependencies": {
       "del": "^2.2.0",
@@ -138,5 +145,6 @@
   },
   "filename": "Cyriaqu3___Substream.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:08.378Z"
+  "lastFetchedAt": "2017-05-04T19:45:08.378Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:10.881Z"
 }

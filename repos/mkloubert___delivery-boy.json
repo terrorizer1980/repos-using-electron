@@ -73,26 +73,43 @@
   "status": 200,
   "packageJSON": {
     "name": "delivery-boy",
-    "version": "1.0.0",
-    "description": "Secure music file sharing application",
-    "main": "main.js",
+    "version": "0.0.1",
+    "description": "Library that shares media files secure and crypted.",
+    "main": "index.js",
     "scripts": {
-      "start": "electron ."
+      "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/mkloubert/delivery-boy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mkloubert/delivery-boy.git"
+    },
     "keywords": [
       "delivery",
       "boy",
       "music",
+      "media",
       "file",
-      "share"
+      "files",
+      "sharing",
+      "rsa",
+      "aes256",
+      "encrypted",
+      "secure"
     ],
+    "author": "mkloubert",
     "license": "GPL3",
+    "bugs": {
+      "url": "https://github.com/mkloubert/delivery-boy/issues"
+    },
+    "homepage": "https://github.com/mkloubert/delivery-boy#readme",
+    "readmeFilename": "README.md",
     "devDependencies": {
-      "@types/electron": "^1.4.25",
-      "@types/jquery": "^2.0.33",
-      "@types/node": "^6.0.46",
-      "electron": "^1.4.5"
+      "@types/file-type": "0.0.1",
+      "@types/node": "^6.0.46"
+    },
+    "dependencies": {
+      "file-type": "^4.1.0",
+      "node-simple-socket": "^2.3.1"
     }
   },
   "packageStatus": 200,
@@ -120,5 +137,6 @@
   },
   "filename": "mkloubert___delivery-boy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:56:28.358Z"
+  "lastFetchedAt": "2017-05-04T19:56:28.358Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:35.829Z"
 }

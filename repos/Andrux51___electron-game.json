@@ -79,8 +79,15 @@
     "scripts": {
       "test": "mocha"
     },
-    "repository": "https://github.com/Andrux51/electron-game",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Andrux51/electron-game.git"
+    },
+    "author": "Andrux51",
     "license": "GNU GPL 2.0",
+    "bugs": {
+      "url": "https://github.com/Andrux51/electron-game/issues"
+    },
     "homepage": "https://github.com/Andrux51/electron-game#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.33.3",
@@ -118,5 +125,6 @@
   },
   "filename": "Andrux51___electron-game.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:54.003Z"
+  "lastFetchedAt": "2017-05-04T18:20:54.003Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:36.059Z"
 }

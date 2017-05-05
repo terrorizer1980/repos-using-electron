@@ -170,6 +170,10 @@
     "version": "0.7.1",
     "description": "Web app that runs in the renderer process",
     "repository": "zeit/hyperterm",
+    "author": {
+      "name": "Guillermo Rauch",
+      "email": "rauchg@zeit.co"
+    },
     "dependencies": {
       "aphrodite-simple": "0.4.1",
       "color": "0.11.3",
@@ -312,5 +316,6 @@
   "svnUrl": "https://github.com/amio/hyperterm",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T20:04:30.761Z"
+  "lastFetchedAt": "2017-05-03T20:04:30.761Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:36.460Z"
 }

@@ -83,6 +83,7 @@
       "build": "sh dist.sh --install && npm run build:osx",
       "build:osx": "electron-packager dist Icarus --platform=darwin --arch=x64 --version=0.35.4 --out=release --overwrite"
     },
+    "author": "otakustay",
     "license": "MIT",
     "dependencies": {
       "babel-polyfill": "^6.2.0",
@@ -128,5 +129,6 @@
   },
   "filename": "otakustay___bos-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:27.117Z"
+  "lastFetchedAt": "2017-05-04T19:41:27.117Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:13.791Z"
 }

@@ -175,23 +175,18 @@
       "test": "jshint main.js lib/ && jscs main.js lib/"
     },
     "repository": {
-      "user": "kdzwinel",
-      "repo": "betwixt",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kdzwinel/betwixt/tarball/master",
-      "clone_url": "https://github.com/kdzwinel/betwixt",
-      "https_url": "https://github.com/kdzwinel/betwixt",
-      "travis_url": "https://travis-ci.org/kdzwinel/betwixt",
-      "zip_url": "https://github.com/kdzwinel/betwixt/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kdzwinel/betwixt"
+      "type": "git",
+      "url": "git+https://github.com/kdzwinel/betwixt.git"
     },
     "keywords": [
       "traffic",
       "proxy"
     ],
+    "author": "Konrad Dzwinel",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kdzwinel/betwixt/issues"
+    },
     "homepage": "https://github.com/kdzwinel/betwixt",
     "dependencies": {
       "agentkeepalive": "^2.0.3",
@@ -253,5 +248,6 @@
   "filename": "shitfSign___betwixt.json",
   "sourceRepo": "kdzwinel/betwixt",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:25:20.211Z"
+  "lastFetchedAt": "2017-05-04T05:25:20.211Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:48.855Z"
 }

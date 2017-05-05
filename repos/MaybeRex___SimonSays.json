@@ -83,8 +83,15 @@
       "postinstall": "install-app-deps",
       "cordova": "rm -rf cordova/www/app && cp -R app/ cordova/www/ && cd cordova/ && cordova run android"
     },
-    "repository": "https://github.com/MaybeRex/SimonSays",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MaybeRex/SimonSays.git"
+    },
+    "author": "Mario Solorzano",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/MaybeRex/SimonSays/issues"
+    },
     "homepage": "https://github.com/MaybeRex/SimonSays#readme",
     "build": {
       "appId": "simon.says"
@@ -118,5 +125,6 @@
   },
   "filename": "MaybeRex___SimonSays.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:00.036Z"
+  "lastFetchedAt": "2017-05-04T14:22:00.036Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:03.664Z"
 }

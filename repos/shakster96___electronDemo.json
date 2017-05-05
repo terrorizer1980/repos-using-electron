@@ -95,13 +95,20 @@
       "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer",
       "release": "node ./script/release.js"
     },
-    "repository": "https://github.com/electron/electron-api-demos",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-api-demos.git"
+    },
     "keywords": [
       "Electron",
       "API",
       "demo"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-api-demos/issues"
+    },
     "homepage": "https://github.com/electron/electron-api-demos#readme",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -155,5 +162,6 @@
   },
   "filename": "shakster96___electronDemo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:12.814Z"
+  "lastFetchedAt": "2017-05-04T17:57:12.814Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:50.882Z"
 }

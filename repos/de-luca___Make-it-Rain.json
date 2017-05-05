@@ -78,7 +78,15 @@
     "description": "A simple money manager for simple people",
     "license": "BSD-2-Clause",
     "main": "./main.js",
-    "repository": "https://github.com/de-luca/Make-it-Rain",
+    "author": {
+      "name": "de-luca",
+      "email": "dev@de-luca.io",
+      "url": "de-luca.io"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/de-luca/Make-it-Rain.git"
+    },
     "config": {
       "flags": "--prune --asar --overwrite",
       "version": "--version=0.36.9 --app-bundle-id=io.de-luca.make-it-rain"
@@ -146,5 +154,6 @@
   },
   "filename": "de-luca___Make-it-Rain.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:19:53.750Z"
+  "lastFetchedAt": "2017-05-04T14:19:53.750Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:26.675Z"
 }

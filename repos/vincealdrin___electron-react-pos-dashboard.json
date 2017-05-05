@@ -193,18 +193,10 @@
       "npm": ">=3.x"
     },
     "repository": {
-      "user": "vincealdrin",
-      "repo": "electron-react-pos-dashboard",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/vincealdrin/electron-react-pos-dashboard/tarball/master",
-      "clone_url": "https://github.com/vincealdrin/electron-react-pos-dashboard",
-      "https_url": "https://github.com/vincealdrin/electron-react-pos-dashboard",
-      "travis_url": "https://travis-ci.org/vincealdrin/electron-react-pos-dashboard",
-      "zip_url": "https://github.com/vincealdrin/electron-react-pos-dashboard/archive/master.zip",
-      "api_url": "https://api.github.com/repos/vincealdrin/electron-react-pos-dashboard"
+      "url": "https://github.com/vincealdrin/electron-react-pos-dashboard.git",
+      "type": "git"
     },
+    "author": "vincealdrin <vncealdcab@gmail.com>",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -233,5 +225,6 @@
   "filename": "vincealdrin___electron-react-pos-dashboard.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:21.085Z"
+  "lastFetchedAt": "2017-05-04T20:06:21.085Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:26.407Z"
 }

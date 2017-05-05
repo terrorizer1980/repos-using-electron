@@ -73,14 +73,24 @@
       "README.md",
       "package.json"
     ],
-    "repository": "https://github.com/minodisk/markn",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/minodisk/markn.git"
+    },
     "keywords": [
       "electron",
       "md2react",
       "markdown",
       "viewer"
     ],
+    "author": {
+      "name": "minodisk",
+      "email": "daisuke.mino@gmail.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/minodisk/markn/issues"
+    },
     "homepage": "https://github.com/minodisk/markn#readme",
     "devDependencies": {
       "asar": "^0.8.0",
@@ -171,5 +181,6 @@
   "svnUrl": "https://github.com/minodisk/markn",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:08:08.549Z"
+  "lastFetchedAt": "2017-05-04T21:08:08.549Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:16.069Z"
 }

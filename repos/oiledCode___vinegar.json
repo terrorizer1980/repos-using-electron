@@ -74,6 +74,7 @@
       "start": "electron .",
       "mac-bundle": "electron-packager . Vinegar --platform=darwin --arch=x64 --version=0.27.2 --ignore=node_modules/electron-prebuilt"
     },
+    "author": "Elio D'antoni @oiledcode",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.0.1",
@@ -121,5 +122,6 @@
   },
   "filename": "oiledCode___vinegar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:52:24.709Z"
+  "lastFetchedAt": "2017-05-04T14:52:24.709Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:02.178Z"
 }

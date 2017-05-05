@@ -66,27 +66,58 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "sheets-api-codelab",
-    "description": "In this codelab, you'll learn how to integrate the Google Sheets API into an application to provide custom reporting.",
+    "name": "mailchimp-node-api",
+    "description": "",
     "version": "1.0.0",
-    "license": "Apache-2.0",
+    "license": "MIT",
+    "author": {
+      "name": "Constantin Guidon",
+      "email": "constantin.guidon@gmail.com"
+    },
+    "engines": {
+      "node": "7.9.0"
+    },
     "repository": "https://github.com/googlecodelabs/sheets-api",
     "scripts": {
-      "start": "nodemon server.js"
+      "start": "node server.js",
+      "dev": "NODE_ENV=DEVELOPMENT nodemon server.js",
+      "test": "NODE_ENV=TEST nyc ./node_modules/.bin/mocha --recursive",
+      "debug": "NODE_ENV=TEST ./node_modules/.bin/mocha --inspect --debug-brk --recursive",
+      "report": "nyc report"
     },
     "dependencies": {
-      "body-parser": "~1.13.2",
-      "express": "^4.13.4",
-      "express-handlebars": "^3.0.0",
-      "google-auth-library": "^0.9.7",
-      "googleapis": "^7.0.0",
-      "morgan": "^1.7.0",
-      "sequelize": "^3.21.0",
-      "sqlite3": "^3.1.3"
+      "bcrypt": "^1.0.2",
+      "bluebird": "^3.5.0",
+      "body-parser": "~1.17.1",
+      "colors": "^1.1.2",
+      "cors": "^2.8.3",
+      "dotenv": "^4.0.0",
+      "express": "^4.15.2",
+      "helmet": "^3.5.0",
+      "install": "^0.8.9",
+      "minimist": "^1.2.0",
+      "morgan": "^1.8.1",
+      "pg": "^6.1.5",
+      "pg-hstore": "^2.3.2",
+      "redis": "^2.7.1",
+      "request": "^2.81.0",
+      "request-promise": "^4.2.0",
+      "sequelize": "^3.30.3",
+      "uuid": "^3.0.1"
     },
     "devDependencies": {
-      "nodemon": "^1.9.1",
-      "electron-prebuilt": "^1.2.0"
+      "chai": "^3.5.0",
+      "chai-http": "^3.0.0",
+      "eslint": "^3.19.0",
+      "eslint-config-standard": "^10.2.0",
+      "eslint-plugin-chai-friendly": "^0.2.0",
+      "eslint-plugin-promise": "^3.5.0",
+      "eslint-plugin-standard": "^3.0.1",
+      "istanbul": "^0.4.5",
+      "mocha": "^3.2.0",
+      "nodemon": "^1.11.0",
+      "nyc": "^10.2.0",
+      "sinon": "^2.1.0"
     }
   },
   "packageStatus": 200,
@@ -114,5 +145,6 @@
   },
   "filename": "zelazna___SheetsApi-Mailchimp.json",
   "hasProjects": false,
-  "lastFetchedAt": "2017-05-04T17:44:11.105Z"
+  "lastFetchedAt": "2017-05-04T17:44:11.105Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:05.294Z"
 }

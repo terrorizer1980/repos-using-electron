@@ -74,6 +74,7 @@
       "build": "webpack --optimize-minimize",
       "dev": "webpack --display-error-details"
     },
+    "author": "Germain Riahi",
     "license": "ISC",
     "dependencies": {
       "pretty-bytes": "^2.0.1",
@@ -108,5 +109,6 @@
   },
   "filename": "SinisterGlitch___webpack-es6-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:08.191Z"
+  "lastFetchedAt": "2017-05-04T18:26:08.191Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:49.809Z"
 }

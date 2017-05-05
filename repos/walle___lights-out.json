@@ -60,14 +60,21 @@
     "scripts": {
       "start": "electron src/main.js"
     },
-    "repository": "https://github.com/walle/lights-out",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/walle/lights-out.git"
+    },
     "keywords": [
       "Electron",
       "game",
       "lights",
       "out"
     ],
+    "author": "Fredrik Wallgren",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/walle/lights-out/issues"
+    },
     "homepage": "https://github.com/walle/lights-out#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -118,5 +125,6 @@
   "svnUrl": "https://github.com/walle/lights-out",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:31:48.054Z"
+  "lastFetchedAt": "2017-05-04T05:31:48.054Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:03.095Z"
 }

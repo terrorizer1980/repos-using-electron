@@ -81,12 +81,23 @@
       "postinstall": "./node_modules/.bin/bower install",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/angelxmoreno/memchaced-panel",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/angelxmoreno/memchaced-panel.git"
+    },
     "keywords": [
       "Memcached",
       "Admin"
     ],
+    "author": {
+      "name": "Angel S. Moreno",
+      "email": "angelxmoreno@gmail.com",
+      "url": "https://angelxmoreno.github.io/"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/angelxmoreno/memchaced-panel/issues"
+    },
     "homepage": "https://github.com/angelxmoreno/memchaced-panel#readme",
     "dependencies": {
       "angular": "^1.5.7",
@@ -128,5 +139,6 @@
   },
   "filename": "angelxmoreno___memchaced-panel.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:15:29.888Z"
+  "lastFetchedAt": "2017-05-04T05:15:29.888Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:28.872Z"
 }

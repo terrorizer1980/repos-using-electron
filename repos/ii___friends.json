@@ -189,6 +189,18 @@
     "name": "friends",
     "description": "p2p chat",
     "version": "1.0.0",
+    "author": [
+      "feross",
+      "maxogden",
+      "mafintosh",
+      "ngoldman",
+      "shama",
+      "jlord",
+      "chrisdickinson"
+    ],
+    "bugs": {
+      "url": "https://github.com/moose-team/friends/issues"
+    },
     "dependencies": {
       "cat-names": "^1.0.2",
       "ctype": "^0.5.4",
@@ -247,17 +259,8 @@
     "license": "MIT",
     "main": "index.js",
     "repository": {
-      "user": "moose-team",
-      "repo": "friends",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/moose-team/friends/tarball/master",
-      "clone_url": "https://github.com/moose-team/friends",
-      "https_url": "https://github.com/moose-team/friends",
-      "travis_url": "https://travis-ci.org/moose-team/friends",
-      "zip_url": "https://github.com/moose-team/friends/archive/master.zip",
-      "api_url": "https://api.github.com/repos/moose-team/friends"
+      "type": "git",
+      "url": "https://github.com/moose-team/friends.git"
     },
     "browserify": {
       "transforms": [
@@ -321,5 +324,6 @@
   "sourceRepo": "moose-team/friends",
   "filename": "ii___friends.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:37:50.745Z"
+  "lastFetchedAt": "2017-05-04T20:37:50.745Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:48.701Z"
 }

@@ -53,34 +53,51 @@
   "status": 200,
   "packageJSON": {
     "name": "Markbot",
-    "version": "4.2.3",
+    "version": "5.10.0",
     "license": "GPL",
     "description": "An automated marking application for code projects in the Algonquin College Graphic Design program.",
+    "author": "Thomas J Bradley <hey@thomasjbradley.ca>",
     "homepage": "https://github.com/thomasjbradley/markbot",
+    "bugs": "https://github.com/thomasjbradley/markbot/issues",
     "private": true,
     "main": "markbot.js",
     "dependencies": {
+      "calipers": "^2.0.0",
+      "calipers-jpeg": "^2.0.0",
+      "calipers-png": "^2.0.0",
       "cheerio": "^0.22.0",
       "css": "^2.2.1",
+      "electron-is": "^2.3.0",
       "entities": "^1.1.1",
-      "eslint": "^3.9.1",
+      "eslint": "^3.19.0",
+      "exif": "^0.6.0",
+      "finalhandler": "^0.5.0",
+      "front-matter": "^2.1.2",
       "git-commits": "^1.2.0",
       "git-get-status": "^1.0.5",
+      "glob": "^7.1.1",
       "htmlcs": "^0.2.9",
       "jimp": "^0.2.27",
       "js-beautify": "^1.6.4",
       "js-yaml": "^3.6.1",
+      "markdownlint": "^0.4.1",
       "merge-objects": "^1.0.5",
+      "mime-types": "^2.1.13",
       "mkdirp": "^0.5.1",
       "node-dir": "^0.1.16",
-      "stylelint": "^7.5.0",
+      "png-itxt": "^1.3.0",
+      "portfinder": "^1.0.10",
+      "string": "^3.3.3",
+      "stylelint": "^7.6.0",
+      "webcoach": "^0.29.0",
       "xml2js": "^0.4.17"
     },
     "devDependencies": {
-      "electron": "^1.4.5",
-      "electron-builder": "^7.18.0"
+      "electron": "^1.6.2",
+      "electron-builder": "^13.5.0"
     },
     "scripts": {
+      "debug": "NODE_ENV=development electron markbot.js",
       "start": "electron markbot.js",
       "pack-mac": "build -m --dir",
       "pack-win": "build -w --dir",
@@ -88,26 +105,28 @@
       "pack-bg": "tiffutil -cathidpicheck ./build/background.png ./build/background@2x.png -out ./build/background.tiff",
       "build-mac": "npm run pack-bg && build -m",
       "build-win": "build -w",
-      "build": "build -mw",
-      "hash-passcode": "node ./scripts/hash-passcode.js"
+      "build": "npm run build-mac && npm run build-win",
+      "hash-passcode": "node ./scripts/hash-passcode.js",
+      "gen-https-cert": "./scripts/gen-https-cert.sh"
     },
-    "repository": "https://github.com/thomasjbradley/markbot",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/thomasjbradley/markbot.git"
+    },
     "build": {
       "appId": "ca.thomasjbradley.markbot",
       "copyright": "© Thomas J Bradley",
       "productName": "Markbot",
       "compression": "maximum",
       "extend-info": "markbot-extra.plist",
-      "asar": {
-        "unpackDir": "vendor"
-      },
+      "asarUnpack": "vendor",
       "mac": {
         "target": "dmg",
         "category": "public.app-category.developer-tools"
       },
       "win": {
-        "iconUrl": "https://raw.githubusercontent.com/thomasjbradley/markbot/master/build/icon.ico",
-        "target": "nsis"
+        "target": "nsis",
+        "license": "LICENSE"
       },
       "dmg": {
         "title": "Install Markbot",
@@ -177,5 +196,6 @@
   "svnUrl": "https://github.com/thomasjbradley/markbot",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:59:15.773Z"
+  "lastFetchedAt": "2017-05-04T04:59:15.773Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:29.191Z"
 }

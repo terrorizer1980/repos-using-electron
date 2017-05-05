@@ -80,12 +80,19 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/heavyengineer/drupal-tug",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/heavyengineer/drupal-tug.git"
+    },
     "keywords": [
       "docker",
       "drupal"
     ],
+    "author": "heavyengineer",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/heavyengineer/drupal-tug/issues"
+    },
     "homepage": "https://github.com/heavyengineer/drupal-tug#readme",
     "dependencies": {
       "electron-prebuilt": "^0.26.1",
@@ -130,5 +137,6 @@
   },
   "filename": "heavyengineer___drupal-tug.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:55.546Z"
+  "lastFetchedAt": "2017-05-04T19:54:55.546Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:39.380Z"
 }

@@ -64,17 +64,8 @@
       "test": "snyk test"
     },
     "repository": {
-      "user": "MichMich",
-      "repo": "MagicMirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/MichMich/MagicMirror/tarball/master",
-      "clone_url": "https://github.com/MichMich/MagicMirror",
-      "https_url": "https://github.com/MichMich/MagicMirror",
-      "travis_url": "https://travis-ci.org/MichMich/MagicMirror",
-      "zip_url": "https://github.com/MichMich/MagicMirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/MichMich/MagicMirror"
+      "type": "git",
+      "url": "git+https://github.com/MichMich/MagicMirror.git"
     },
     "keywords": [
       "magic mirror",
@@ -82,8 +73,12 @@
       "mirror UI",
       "modular"
     ],
+    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MichMich/MagicMirror/issues"
+    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -154,5 +149,6 @@
   "filename": "spiffrgr___MagicMirror2.json",
   "sourceRepo": "MichMich/MagicMirror",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:37.223Z"
+  "lastFetchedAt": "2017-05-04T05:26:37.223Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:57.093Z"
 }

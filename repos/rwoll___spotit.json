@@ -80,7 +80,11 @@
       "start": "electron src/es6-init",
       "package": "./node_modules/.bin/electron-packager-compile ./ --out=./dist --platform=darwin --arch=x64  --ignore=logo.ai --overwrite --icon=./spotIt.icns"
     },
-    "repository": "https://github.com/rwoll/spot-it",
+    "repository": {
+      "url": "https://github.com/rwoll/spot-it.git",
+      "type": "git"
+    },
+    "author": "rwoll",
     "license": "MIT",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -127,5 +131,6 @@
   },
   "filename": "rwoll___spotit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:32.700Z"
+  "lastFetchedAt": "2017-05-04T04:58:32.700Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:29.094Z"
 }

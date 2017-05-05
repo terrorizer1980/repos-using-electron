@@ -135,7 +135,11 @@
       "postinstall": "./node_modules/.bin/bower install && gulp dev-sym-links",
       "start": "gulp run"
     },
-    "repository": "https://github.com/PStoner3/CalibrationCalculation",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/PStoner3/CalibrationCalculation"
+    },
+    "author": "Paul Stoner",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -163,5 +167,6 @@
   },
   "filename": "PStoner3___CalibrationCalculation.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:34.085Z"
+  "lastFetchedAt": "2017-05-04T20:34:34.085Z",
+  "packageLastFetchedAt": "2017-05-05T15:20:38.003Z"
 }

@@ -189,22 +189,14 @@
   "packageJSON": {
     "name": "torrentmedia",
     "version": "0.1.0",
+    "author": "Facundo Zaldo",
     "license": "MIT",
     "description": "Cliente de bitorrent",
     "main": "main.js",
     "app-id": "com.facuz.torrentmedia",
     "repository": {
-      "user": "FaCuZ",
-      "repo": "torrentmedia",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/FaCuZ/torrentmedia/tarball/master",
-      "clone_url": "https://github.com/FaCuZ/torrentmedia",
-      "https_url": "https://github.com/FaCuZ/torrentmedia",
-      "travis_url": "https://travis-ci.org/FaCuZ/torrentmedia",
-      "zip_url": "https://github.com/FaCuZ/torrentmedia/archive/master.zip",
-      "api_url": "https://api.github.com/repos/FaCuZ/torrentmedia"
+      "type": "git",
+      "url": "git://github.com/FaCuZ/torrentmedia.git"
     },
     "scripts": {
       "start": "gulp",
@@ -266,5 +258,6 @@
   },
   "sourceRepo": "FaCuZ/torrentmedia",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:43.984Z"
+  "lastFetchedAt": "2017-05-04T19:39:43.984Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:41.251Z"
 }

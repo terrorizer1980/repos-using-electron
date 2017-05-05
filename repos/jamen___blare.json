@@ -80,14 +80,21 @@
       "build": "make",
       "test": "npm run build; electron . --dev"
     },
-    "repository": "https://github.com/jamen/blare",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jamen/blare.git"
+    },
     "keywords": [
       "soundcloud",
       "desktop",
       "widget",
       "electron"
     ],
+    "author": "Jamen Marzonie",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jamen/blare/issues"
+    },
     "homepage": "https://github.com/jamen/blare#readme",
     "devDependencies": {
       "babel-cli": "^6.3.17",
@@ -130,5 +137,6 @@
   },
   "filename": "jamen___blare.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:06:45.970Z"
+  "lastFetchedAt": "2017-05-04T20:06:45.970Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:41.314Z"
 }

@@ -81,7 +81,10 @@
       "watch": "rm -rf build && mkdir build && tsc -p src -w",
       "build": "rm -rf build && mkdir build && tsc -p src || true"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "Angular",
@@ -137,5 +140,6 @@
   },
   "filename": "sistem3___osbMangaReaderElectron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:53:12.168Z"
+  "lastFetchedAt": "2017-05-04T17:53:12.168Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:48.568Z"
 }

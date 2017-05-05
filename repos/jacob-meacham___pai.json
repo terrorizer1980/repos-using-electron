@@ -60,8 +60,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "dev": "electron ."
     },
-    "repository": "https://github.com/jacob-meacham/pai",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/jacob-meacham/pai.git"
+    },
+    "author": "jemonjam",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jacob-meacham/pai/issues"
+    },
     "homepage": "https://github.com/jacob-meacham/pai#readme",
     "dependencies": {
       "electron": "^0.4.1"
@@ -115,5 +122,6 @@
   },
   "filename": "jacob-meacham___pai.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:36:31.353Z"
+  "lastFetchedAt": "2017-05-04T20:36:31.353Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:56.048Z"
 }

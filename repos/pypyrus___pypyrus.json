@@ -79,10 +79,14 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/pypyrus/pypyrus",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/pypyrus/pypyrus.git"
+    },
     "keywords": [
       "notebook"
     ],
+    "author": "kusno mudiarto",
     "license": "GNUv2"
   },
   "packageStatus": 200,
@@ -130,5 +134,6 @@
   "svnUrl": "https://github.com/pypyrus/pypyrus",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:59:56.086Z"
+  "lastFetchedAt": "2017-05-04T19:59:56.086Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:12.769Z"
 }

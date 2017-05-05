@@ -73,5 +73,46 @@
   "networkCount": 1,
   "subscribersCount": 2,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T21:26:25.337Z"
+  "lastFetchedAt": "2017-05-04T21:26:25.337Z",
+  "packageJSON": {
+    "name": "twtr",
+    "productName": "Twtr",
+    "version": "0.0.2",
+    "description": "Twtr Twitter client",
+    "license": "MIT",
+    "repository": "hugmanrique/twtr",
+    "author": {
+      "name": "Hugo Manrique",
+      "email": "npm@hugmanrique.me",
+      "url": "https://hugmanrique.me"
+    },
+    "scripts": {
+      "start": "electron .",
+      "build": "npm run build:macos && npm run build:linux && npm.run build:win",
+      "build:macos": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --platform=darwin --arch=x64 --icon=icons/Icon.icns Twtr.app",
+      "build:win": "electron-packager . --overwrite --asar --out=dist --ignore='^media$' --platform=win32 --arch=ia32 --icon=icons/Icon.ico",
+      "build:linux": "electron-packager . --overwrite --out=dist --ignore='^media$' --platform=linux --arch=x64 --icon=icons/Icon.ico"
+    },
+    "dependencies": {
+      "electron-config": "^0.2.1",
+      "electron-context-menu": "^0.8.0",
+      "electron-debug": "^1.1.0",
+      "electron-dl": "^1.7.0",
+      "element-ready": "^1.0.0"
+    },
+    "devDependencies": {
+      "electron": "^1.6.2",
+      "electron-packager": "^8.6.0",
+      "xo": "*"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:18:05.582Z"
 }

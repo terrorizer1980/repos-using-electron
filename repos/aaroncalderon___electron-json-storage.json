@@ -172,17 +172,11 @@
     "main": "lib/storage.js",
     "homepage": "https://github.com/jviotti/electron-json-storage",
     "repository": {
-      "user": "jviotti",
-      "repo": "electron-json-storage",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jviotti/electron-json-storage/tarball/master",
-      "clone_url": "https://github.com/jviotti/electron-json-storage",
-      "https_url": "https://github.com/jviotti/electron-json-storage",
-      "travis_url": "https://travis-ci.org/jviotti/electron-json-storage",
-      "zip_url": "https://github.com/jviotti/electron-json-storage/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jviotti/electron-json-storage"
+      "type": "git",
+      "url": "git://github.com/jviotti/electron-json-storage.git"
+    },
+    "directories": {
+      "test": "tests"
     },
     "scripts": {
       "test": "electron-mocha --recursive tests -R spec && electron-mocha --renderer --recursive tests -R spec",
@@ -197,6 +191,7 @@
       "app",
       "data"
     ],
+    "author": "Juan Cruz Viotti <jviottidc@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-mocha": "^2.3.1",
@@ -258,5 +253,6 @@
   "filename": "aaroncalderon___electron-json-storage.json",
   "sourceRepo": "jviotti/electron-json-storage",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:35:40.704Z"
+  "lastFetchedAt": "2017-05-04T15:35:40.704Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:24.691Z"
 }

@@ -170,6 +170,7 @@
     "version": "1.0.7",
     "description": "Electron-based desktop application for Mattermost",
     "main": "main.js",
+    "author": "Yuya Ochiai",
     "license": "MIT",
     "scripts": {
       "install": "cd src && npm install",
@@ -258,5 +259,6 @@
   "svnUrl": "https://github.com/frdmn/desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:23:23.779Z"
+  "lastFetchedAt": "2017-05-04T15:23:23.779Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:29.901Z"
 }

@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -212,5 +223,6 @@
   },
   "filename": "warent___Pyxis.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:17.147Z"
+  "lastFetchedAt": "2017-05-04T14:50:17.147Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:40.713Z"
 }

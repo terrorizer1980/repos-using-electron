@@ -53,10 +53,15 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-dl",
-    "version": "1.5.0",
+    "version": "1.9.0",
     "description": "Simplified file downloads for your Electron app",
     "license": "MIT",
     "repository": "sindresorhus/electron-dl",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
     "scripts": {
       "start": "electron test.js",
       "test": "xo"
@@ -73,6 +78,7 @@
       "progress"
     ],
     "dependencies": {
+      "pupa": "^1.0.0",
       "unused-filename": "^0.1.0"
     },
     "devDependencies": {
@@ -80,14 +86,10 @@
       "xo": "*"
     },
     "xo": {
-      "esnext": true,
       "envs": [
         "node",
         "browser"
-      ],
-      "rules": {
-        "import/no-extraneous-dependencies": "off"
-      }
+      ]
     }
   },
   "packageStatus": 200,
@@ -135,5 +137,6 @@
   },
   "filename": "sindresorhus___electron-dl.json",
   "hasProjects": false,
-  "lastFetchedAt": "2017-05-04T05:12:32.391Z"
+  "lastFetchedAt": "2017-05-04T05:12:32.391Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:30.181Z"
 }

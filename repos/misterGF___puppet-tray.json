@@ -99,8 +99,12 @@
       "build": "electron-packager ./ puppet-tray --platform=win32 --arch=x64 --icon=./icons/puppet-tray.ico --prune=true --out=dist/ --overwrite",
       "clean": "rmdir dist /s /q"
     },
+    "author": "Gil Ferreira <gfgilly@gmail.com>",
     "license": "MIT",
-    "repository": "https://github.com/misterGF/puppet-tray",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/misterGF/puppet-tray"
+    },
     "keywords": [
       "puppet",
       "vuejs",
@@ -136,5 +140,6 @@
   },
   "filename": "misterGF___puppet-tray.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:41.298Z"
+  "lastFetchedAt": "2017-05-04T15:19:41.298Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:04.888Z"
 }

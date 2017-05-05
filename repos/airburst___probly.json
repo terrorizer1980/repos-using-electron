@@ -96,6 +96,11 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
     "keywords": [
       "electron",
@@ -164,6 +169,7 @@
       "font-awesome": "^4.6.3",
       "material-ui": "^0.15.4",
       "moment": "^2.14.1",
+      "node-notifier": "^4.6.1",
       "postcss": "^5.1.2",
       "react": "^15.3.1",
       "react-copy-to-clipboard": "^4.2.3",
@@ -206,5 +212,6 @@
   },
   "filename": "airburst___probly.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:56.339Z"
+  "lastFetchedAt": "2017-05-04T15:26:56.339Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:32.045Z"
 }

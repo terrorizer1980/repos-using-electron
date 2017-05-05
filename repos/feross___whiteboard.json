@@ -55,6 +55,10 @@
     "name": "whiteboard",
     "description": "WebRTC Whiteboard",
     "version": "1.0.0",
+    "author": "Feross Aboukhadijeh <feross@feross.org> (http://feross.org/)",
+    "bugs": {
+      "url": "https://github.com/feross/whiteboard/issues"
+    },
     "dependencies": {
       "bittorrent-tracker": "^8.0.4",
       "cat-names": "^1.0.2",
@@ -76,7 +80,7 @@
       "xhr": "^2.0.1"
     },
     "devDependencies": {
-      "browserify": "^13.0.0",
+      "browserify": "^14.0.0",
       "nodemon": "^1.2.1",
       "standard": "*",
       "watchify": "^3.0.0"
@@ -92,7 +96,10 @@
     "license": "MIT",
     "main": "server.js",
     "private": true,
-    "repository": "https://github.com/feross/whiteboard",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/whiteboard.git"
+    },
     "scripts": {
       "build": "browserify client > static/bundle.js",
       "start": "node server.js",
@@ -146,5 +153,6 @@
   "svnUrl": "https://github.com/feross/whiteboard",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:11:53.379Z"
+  "lastFetchedAt": "2017-05-04T18:11:53.379Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:41.320Z"
 }

@@ -83,7 +83,10 @@
       "typings": "typings",
       "postinstall": "typings install"
     },
-    "repository": "https://github.com/DenisVuyka/ng2-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DenisVuyka/ng2-electron.git"
+    },
     "keywords": [
       "Electron",
       "quick",
@@ -91,7 +94,11 @@
       "tutorial",
       "Angular"
     ],
+    "author": "Denys Vuika <denys.vuika@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DenisVuyka/ng2-electron/issues"
+    },
     "homepage": "https://github.com/DenisVuyka/ng2-electron/#readme",
     "dependencies": {
       "@angular/common": "2.0.0-rc.6",
@@ -142,5 +149,6 @@
   },
   "filename": "vivekcek___angular2electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:19.382Z"
+  "lastFetchedAt": "2017-05-04T15:19:19.382Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:58.645Z"
 }

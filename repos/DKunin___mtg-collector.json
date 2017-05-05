@@ -82,6 +82,7 @@
       "watch": "rm -rf dist/bundle.*.js && NODE_ENV=production node node_modules/webpack/bin/webpack.js --watch --progress --colors",
       "open": "open ./build/mtg-collector-darwin-x64/mtg-collector.app"
     },
+    "author": "DKunin",
     "license": "MIT",
     "dependencies": {
       "body-parser": "1.15.1",
@@ -154,5 +155,6 @@
   },
   "filename": "DKunin___mtg-collector.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:09:52.080Z"
+  "lastFetchedAt": "2017-05-04T18:09:52.080Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:20.480Z"
 }

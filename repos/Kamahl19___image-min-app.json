@@ -76,7 +76,13 @@
     "productName": "ImageMin App",
     "version": "0.1.0",
     "description": "Image compression app based on Electron",
+    "bugs": "https://github.com/Kamahl19/image-min-app/issues",
     "repository": "Kamahl19/image-min-app",
+    "author": {
+      "name": "Martin Litvaj",
+      "email": "kamahl19@gmail.com",
+      "url": "http://litvaj.com"
+    },
     "license": "MIT",
     "keywords": [
       "electron-app",
@@ -202,5 +208,6 @@
   },
   "filename": "Kamahl19___image-min-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:08:46.846Z"
+  "lastFetchedAt": "2017-05-04T21:08:46.846Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:21.221Z"
 }

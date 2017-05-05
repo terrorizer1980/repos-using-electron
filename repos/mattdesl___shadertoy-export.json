@@ -57,6 +57,11 @@
     "description": "render ShaderToy demos to PNG",
     "main": "index.js",
     "license": "MIT",
+    "author": {
+      "name": "Matt DesLauriers",
+      "email": "dave.des@gmail.com",
+      "url": "https://github.com/mattdesl"
+    },
     "dependencies": {
       "a-big-triangle": "^1.0.2",
       "canvas-loop": "^1.0.6",
@@ -99,8 +104,14 @@
       "frag",
       "fragment"
     ],
-    "repository": "https://github.com/mattdesl/shadertoy-export",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/mattdesl/shadertoy-export.git"
+    },
     "homepage": "https://github.com/mattdesl/shadertoy-export",
+    "bugs": {
+      "url": "https://github.com/mattdesl/shadertoy-export/issues"
+    },
     "bin": {
       "shadertoy-export": "./bin/index.js"
     }
@@ -150,5 +161,6 @@
   "svnUrl": "https://github.com/mattdesl/shadertoy-export",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:33:49.853Z"
+  "lastFetchedAt": "2017-05-04T17:33:49.853Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:52.190Z"
 }

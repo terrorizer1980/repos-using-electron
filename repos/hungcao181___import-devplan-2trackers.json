@@ -96,6 +96,9 @@
         "background": "resources/osx/dmg-background.png"
       }
     },
+    "directories": {
+      "buildResources": "resources"
+    },
     "scripts": {
       "postinstall": "install-app-deps",
       "build": "gulp build",
@@ -154,5 +157,6 @@
   },
   "filename": "hungcao181___import-devplan-2trackers.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:04.412Z"
+  "lastFetchedAt": "2017-05-04T17:38:04.412Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:40.185Z"
 }

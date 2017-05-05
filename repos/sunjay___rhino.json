@@ -75,7 +75,7 @@
     "name": "rhino-editor",
     "version": "0.0.1",
     "description": "Rhino Editor",
-    "main": "app/main.js",
+    "main": "./app/main.js",
     "scripts": {
       "start": "./node_modules/.bin/electron .",
       "dev": "./node_modules/.bin/webpack-dev-server --content-base dist/ --inline --hot --port 8080",
@@ -85,6 +85,7 @@
       "clean": "rm -rf dist/"
     },
     "repository": "https://github.com/sunjay/rhino",
+    "author": "Sunjay Varma",
     "license": "GPL-3.0+",
     "devDependencies": {
       "autoprefixer": "^6.5.3",
@@ -103,6 +104,8 @@
       "eslint": "^3.10.2",
       "eslint-plugin-react": "^6.7.1",
       "file-loader": "^0.9.0",
+      "flow-bin": "^0.36.0",
+      "flow-typed": "^2.0.0",
       "mocha": "^3.1.2",
       "node-sass": "^3.13.0",
       "postcss-loader": "^1.1.1",
@@ -117,10 +120,13 @@
       "babel-polyfill": "^6.16.0",
       "bootstrap-sass": "^3.3.7",
       "classnames": "^2.2.5",
+      "electron-localshortcut": "^1.0.0",
       "font-awesome": "^4.7.0",
       "immutable": "^3.8.1",
+      "lodash.debounce": "^4.0.8",
       "react": "^15.4.0",
       "react-click-outside": "tj/react-click-outside",
+      "react-close-on-escape": "^1.0.3",
       "react-dom": "^15.4.0",
       "react-fontawesome": "^1.4.0",
       "react-redux": "^4.4.6",
@@ -171,5 +177,6 @@
     "receivedEventsUrl": "https://api.github.com/users/RhinoEditor/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T20:12:50.500Z"
+  "lastFetchedAt": "2017-05-04T20:12:50.500Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:19.836Z"
 }

@@ -171,6 +171,11 @@
     "description": "Context menu for your Electron app",
     "license": "MIT",
     "repository": "sindresorhus/electron-context-menu",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
     "scripts": {
       "start": "electron fixture.js",
       "test": "xo"
@@ -253,5 +258,6 @@
   "filename": "oxyno-zeta___electron-context-menu.json",
   "sourceRepo": "sindresorhus/electron-context-menu",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:19:45.782Z"
+  "lastFetchedAt": "2017-05-04T18:19:45.782Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:38.192Z"
 }

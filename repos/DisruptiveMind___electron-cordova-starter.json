@@ -67,6 +67,7 @@
       "cordova",
       "electron"
     ],
+    "author": "Tyler Pham <tyler@disruptiveart.com>",
     "license": "MIT",
     "build": {
       "app-bundle-id": "com.disruptiveart.electron",
@@ -77,6 +78,10 @@
       "osx": {
         "icon": "./assets/icons/icon.icns"
       }
+    },
+    "directories": {
+      "output": "release",
+      "app": "build"
     },
     "devDependencies": {
       "del": "^2.2.0",
@@ -131,5 +136,6 @@
   "svnUrl": "https://github.com/DisruptiveMind/electron-cordova-starter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:28:19.541Z"
+  "lastFetchedAt": "2017-05-04T15:28:19.541Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:18.510Z"
 }

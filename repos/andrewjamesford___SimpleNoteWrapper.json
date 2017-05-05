@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/andrewjamesford/SimpleNoteWrapper",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andrewjamesford/SimpleNoteWrapper.git"
+    },
     "keywords": [
       "Electron",
       "SimpleNote",
       "Windows"
     ],
+    "author": "Andrew Ford",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/andrewjamesford/SimpleNoteWrapper/issues"
+    },
     "homepage": "https://github.com/andrewjamesford/SimpleNoteWrapper#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -116,5 +123,6 @@
   },
   "filename": "andrewjamesford___SimpleNoteWrapper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:36.606Z"
+  "lastFetchedAt": "2017-05-04T14:45:36.606Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:22.870Z"
 }

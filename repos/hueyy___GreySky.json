@@ -80,24 +80,19 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "hueyy",
-      "repo": "GreySky",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/hueyy/GreySky/tarball/master",
-      "clone_url": "https://github.com/hueyy/GreySky",
-      "https_url": "https://github.com/hueyy/GreySky",
-      "travis_url": "https://travis-ci.org/hueyy/GreySky",
-      "zip_url": "https://github.com/hueyy/GreySky/archive/master.zip",
-      "api_url": "https://api.github.com/repos/hueyy/GreySky"
+      "type": "git",
+      "url": "git+https://github.com/hueyy/GreySky.git"
     },
     "keywords": [],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1"
     },
     "dependencies": {},
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme"
   },
   "packageStatus": 200,
@@ -140,5 +135,6 @@
     "receivedEventsUrl": "https://api.github.com/users/ToasterLab/received_events",
     "type": "Organization"
   },
-  "lastFetchedAt": "2017-05-04T17:58:55.412Z"
+  "lastFetchedAt": "2017-05-04T17:58:55.412Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:24.963Z"
 }

@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/phuedx/jellify",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/phuedx/jellify.git"
+    },
+    "author": "Sam Smith <yo@samsmith.io>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/phuedx/jellify/issues"
+    },
     "homepage": "https://github.com/phuedx/jellify#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.3"
@@ -105,5 +112,6 @@
   },
   "filename": "phuedx___jellify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:32.391Z"
+  "lastFetchedAt": "2017-05-04T20:43:32.391Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:24.592Z"
 }

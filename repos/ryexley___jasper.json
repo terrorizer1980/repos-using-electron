@@ -94,8 +94,14 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -207,5 +213,6 @@
   },
   "filename": "ryexley___jasper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:10.606Z"
+  "lastFetchedAt": "2017-05-04T18:18:10.606Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:45.384Z"
 }

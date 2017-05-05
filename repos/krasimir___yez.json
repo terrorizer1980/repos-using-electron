@@ -57,6 +57,11 @@
     "homepage": "https://github.com/krasimir/yez",
     "description": "Chrome extension which acts as task runner",
     "main": "./node/index.js",
+    "author": {
+      "name": "Krasimir Tsonev",
+      "email": "info@krasimirtsonev.com",
+      "url": "http://krasimirtsonev.com"
+    },
     "license": "MIT",
     "dependencies": {
       "electron-prebuilt": "0.37.6",
@@ -79,7 +84,10 @@
       "task",
       "runner"
     ],
-    "repository": "https://github.com/krasimir/yez",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/krasimir/yez.git"
+    },
     "bin": {
       "yez": "./node/index.js"
     },
@@ -133,5 +141,6 @@
   "svnUrl": "https://github.com/krasimir/yez",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:44:40.869Z"
+  "lastFetchedAt": "2017-05-04T17:44:40.869Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:41.905Z"
 }

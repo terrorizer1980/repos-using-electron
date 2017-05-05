@@ -76,13 +76,20 @@
       "package": "node ./build.js",
       "build": "build"
     },
-    "repository": "https://github.com/codefoxes/firebase-admin",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/codefoxes/firebase-admin.git"
+    },
     "keywords": [
       "firebase",
       "admin",
       "management"
     ],
+    "author": "codefoxes",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/codefoxes/firebase-admin/issues"
+    },
     "homepage": "https://github.com/codefoxes/firebase-admin#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -185,5 +192,6 @@
   },
   "filename": "codefoxes___firebase-admin.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:01.894Z"
+  "lastFetchedAt": "2017-05-04T15:16:01.894Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:52.661Z"
 }

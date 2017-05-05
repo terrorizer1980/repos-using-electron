@@ -76,7 +76,11 @@
       "pack": "npm run compile && build --dir",
       "dist": "npm run compile && build"
     },
-    "repository": "https://github.com/casperstorm/preme-bot",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/casperstorm/preme-bot.git"
+    },
+    "author": "Casper Storm Larsen",
     "license": "MIT",
     "dependencies": {
       "cheerio": "^0.22.0",
@@ -133,5 +137,6 @@
   },
   "filename": "casperstorm___preme-bot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:13:15.954Z"
+  "lastFetchedAt": "2017-05-04T20:13:15.954Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:25.293Z"
 }

@@ -72,7 +72,11 @@
       "superagent": "^1.2.0"
     },
     "description": "Pen is the missing paint tool for Rakugaki.",
-    "repository": "https://github.com/RandomPaper/Pen",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RandomPaper/Pen.git"
+    },
+    "author": "Yasuaki Uechi",
     "license": "MIT",
     "homepage": "https://github.com/RandomPaper/Pen"
   },
@@ -121,5 +125,6 @@
   },
   "filename": "uetchy___Pen.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:23:37.306Z"
+  "lastFetchedAt": "2017-05-04T14:23:37.306Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:16.064Z"
 }

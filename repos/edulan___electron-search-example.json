@@ -54,6 +54,7 @@
       "start": "electron main.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "eduardo@elanchares.com",
     "license": "ISC",
     "devDependencies": {
       "electron-prebuilt": "0.36.9"
@@ -104,5 +105,6 @@
   "svnUrl": "https://github.com/edulan/electron-search-example",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:13:32.093Z"
+  "lastFetchedAt": "2017-05-04T21:13:32.093Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:50.021Z"
 }

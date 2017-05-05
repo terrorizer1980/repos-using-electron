@@ -58,17 +58,8 @@
       "package": "electron-packager . flip --platform=darwin,win32 --arch=x64"
     },
     "repository": {
-      "user": "frazerseymour",
-      "repo": "-",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/frazerseymour/-/tarball/master",
-      "clone_url": "https://github.com/frazerseymour/-",
-      "https_url": "https://github.com/frazerseymour/-",
-      "travis_url": "https://travis-ci.org/frazerseymour/-",
-      "zip_url": "https://github.com/frazerseymour/-/archive/master.zip",
-      "api_url": "https://api.github.com/repos/frazerseymour/-"
+      "type": "git",
+      "url": "git+https://github.com/frazerseymour/-.git"
     },
     "keywords": [
       "🌯"
@@ -78,6 +69,9 @@
       "Nathaniel Hudson"
     ],
     "license": "WTFPL",
+    "bugs": {
+      "url": "https://github.com/frazerseymour/-/issues"
+    },
     "homepage": "https://github.com/frazerseymour/-#readme",
     "dependencies": {
       "express": "latest",
@@ -139,5 +133,6 @@
   "filename": "FrazerSeymour___flip.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:01.820Z"
+  "lastFetchedAt": "2017-05-04T05:22:01.820Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:50.684Z"
 }

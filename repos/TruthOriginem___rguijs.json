@@ -196,12 +196,19 @@
       "test": "nodejs test/main.js",
       "docs": "jsdoc -c scripts/jsdoc.conf.json -R readme.md"
     },
-    "repository": "https://github.com/molingyu/rguijs",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/molingyu/rguijs.git"
+    },
     "keywords": [
       "GUI",
       "PIXI.js"
     ],
+    "author": "shitake",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/molingyu/rguijs/issues"
+    },
     "homepage": "https://github.com/molingyu/rguijs#readme",
     "dependencies": {
       "electron": "^1.4.12",
@@ -237,5 +244,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:00.023Z"
+  "lastFetchedAt": "2017-05-04T04:58:00.023Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:14.903Z"
 }

@@ -92,8 +92,19 @@
         ]
       }
     },
-    "repository": "https://github.com/darmody/DoubanFMac",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/darmody/DoubanFMac.git"
+    },
+    "author": {
+      "name": "Darmody",
+      "email": "eterlf41@gmail.com",
+      "url": "https://github.com/darmody"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/darmody/DoubanFMac/issues"
+    },
     "keywords": [
       "douban fm",
       "mac app",
@@ -244,5 +255,6 @@
   "svnUrl": "https://github.com/Darmody/DoubanFMac",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:00:01.167Z"
+  "lastFetchedAt": "2017-05-04T20:00:01.167Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:16.984Z"
 }

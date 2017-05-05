@@ -74,22 +74,38 @@
   "packageJSON": {
     "name": "ChatterGrid",
     "productName": "ChatterGrid",
-    "version": "0.1.0",
+    "author": {
+      "name": "Ronald M. Clifford",
+      "email": "roncli@roncli.com",
+      "url": "http://www.roncli.com"
+    },
+    "version": "1.0.0",
     "build": {
       "appId": "com.electron.chattergrid",
+      "copyright": "©2016-2017 roncli Productions",
       "productName": "ChatterGrid",
       "compression": "maximum",
+      "nsis": {
+        "oneClick": false,
+        "perMachine": true,
+        "allowToChangeInstallationDirectory": true,
+        "runAfterFinish": false,
+        "installerIcon": "logo/logo.ico"
+      },
       "win": {
-        "icon": "icon.ico"
+        "icon": "logo/logo.ico"
+      },
+      "mac": {
+        "icon": "logo/logo.icns"
       }
     },
     "scripts": {
-      "pack": "node_modules/.bin/build.cmd --dir",
-      "dist": "node_modules/.bin/build.cmd"
+      "pack": "node_modules/.bin/build --dir",
+      "dist": "node_modules/.bin/build"
     },
     "devDependencies": {
-      "electron-builder": "7.15.2",
-      "electron-prebuilt": "1.4.4"
+      "electron-builder": "11.3.0",
+      "electron-prebuilt": "1.4.13"
     },
     "repository": {
       "type": "git",
@@ -122,5 +138,6 @@
   },
   "filename": "roncli___ChatterGrid.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:05.224Z"
+  "lastFetchedAt": "2017-05-04T20:34:05.224Z",
+  "packageLastFetchedAt": "2017-05-05T15:19:34.909Z"
 }

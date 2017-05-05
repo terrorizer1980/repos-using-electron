@@ -75,9 +75,17 @@
       "game"
     ],
     "homepage": "https://github.com/dvdagames/simpledoku",
+    "bugs": "https://github.com/dvdagames/simpledoku/issues",
     "license": "MIT",
+    "author": {
+      "name": "Eric Allen",
+      "url": "https://www.interwebalchemy.com/"
+    },
     "main": "app/window.js",
-    "repository": "https://github.com/dvdagames/simpledoku",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dvdagames/simpledoku"
+    },
     "scripts": {
       "clean": "cleandir ./app/",
       "copy:main": "cp ./src/window.js ./app/window.js",
@@ -190,5 +198,6 @@
   },
   "filename": "DVDAGames___simpledoku.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:31.203Z"
+  "lastFetchedAt": "2017-05-04T17:43:31.203Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:40.900Z"
 }

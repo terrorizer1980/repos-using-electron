@@ -79,14 +79,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/krainboltgreene/bunyanLogViewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/krainboltgreene/bunyanLogViewer.git"
+    },
     "keywords": [
       "bunyan",
       "log",
       "gui",
       "application"
     ],
+    "author": "Kurtis Rainbolt-Greene <me@kurtisrainboltgreene.name> (@krainboltgreene)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/krainboltgreene/bunyanLogViewer/issues"
+    },
     "homepage": "https://github.com/krainboltgreene/bunyanLogViewer#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -168,5 +175,6 @@
   },
   "filename": "krainboltgreene___bunyan-log-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:58:01.007Z"
+  "lastFetchedAt": "2017-05-04T17:58:01.007Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:11.189Z"
 }

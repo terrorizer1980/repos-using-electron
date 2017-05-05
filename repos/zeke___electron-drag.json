@@ -175,17 +175,8 @@
       "test-rebuild": "electron-rebuild"
     },
     "repository": {
-      "user": "kapetan",
-      "repo": "electron-drag",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kapetan/electron-drag/tarball/master",
-      "clone_url": "https://github.com/kapetan/electron-drag",
-      "https_url": "https://github.com/kapetan/electron-drag",
-      "travis_url": "https://travis-ci.org/kapetan/electron-drag",
-      "zip_url": "https://github.com/kapetan/electron-drag/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kapetan/electron-drag"
+      "type": "git",
+      "url": "https://github.com/kapetan/electron-drag"
     },
     "keywords": [
       "electron",
@@ -194,6 +185,9 @@
       "window"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kapetan/electron-drag/issues"
+    },
     "homepage": "https://github.com/kapetan/electron-drag",
     "optionalDependencies": {
       "osx-mouse": "^1.1.2",
@@ -257,5 +251,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T15:17:39.193Z"
+  "lastFetchedAt": "2017-05-04T15:17:39.193Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:49.347Z"
 }

@@ -79,6 +79,11 @@
     "description": "Something stupid application launcher and more useful tools",
     "license": "MIT",
     "repository": "user/repo",
+    "author": {
+      "name": "fred",
+      "email": "",
+      "url": ""
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -143,5 +148,6 @@
   },
   "filename": "dreitagebart___crispy-fish.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:26.315Z"
+  "lastFetchedAt": "2017-05-04T15:19:26.315Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:36.120Z"
 }

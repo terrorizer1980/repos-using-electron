@@ -72,7 +72,9 @@
     "main": "main.js",
     "description": "A simple game",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "build": "electron-packager . turgle --platform linux --arch armv7l --out dist/",
+      "deb": "electron-installer-debian --src dist/turgle-linux-armv7l/ --dest dist/installers/ --arch armhf"
     },
     "repository": "https://github.com/skodje/turgle",
     "keywords": [
@@ -82,9 +84,13 @@
       "tutorial",
       "demo"
     ],
+    "author": "Lars Skodje",
     "license": "CC0-1.0",
     "devDependencies": {
-      "electron": "^1.4.1"
+      "electron": "^1.4.1",
+      "electron-installer-debian": "*",
+      "electron-packager": "*",
+      "electron-prebuilt": "*"
     }
   },
   "packageStatus": 200,
@@ -112,5 +118,6 @@
   },
   "filename": "skodje___turgle.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:13.716Z"
+  "lastFetchedAt": "2017-05-04T04:57:13.716Z",
+  "packageLastFetchedAt": "2017-05-05T14:48:39.807Z"
 }

@@ -117,7 +117,15 @@
       "start": "electron . --dev",
       "watch": "gulp watch"
     },
-    "repository": "https://github.com/Project-Shade/Shade-Client",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Project-Shade/Shade-Client"
+    },
+    "author": {
+      "name": "Samuel Attard",
+      "email": "samuel.r.attard@gmail.com",
+      "url": "https://www.samuelattard.com"
+    },
     "homepage": "http://www.samuelattard.com",
     "license": "MIT",
     "dependencies": {
@@ -216,5 +224,6 @@
   },
   "filename": "Project-Shade___Shade-Client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:42.631Z"
+  "lastFetchedAt": "2017-05-04T21:01:42.631Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:26.263Z"
 }

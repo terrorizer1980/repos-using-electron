@@ -52,18 +52,29 @@
   "subscribersCount": 6,
   "status": 200,
   "packageJSON": {
-    "private": true,
+    "name": "Onshape",
+    "version": "0.5.9",
+    "license": "MIT",
+    "description": "Onshape desktop app (web application shell)",
+    "author": "Vladimir Krivosheev <develar@gmail.com>",
+    "main": "./out/index.js",
     "scripts": {
       "postinstall": "install-app-deps",
-      "start": "npm install && npm run compile && electron ./app",
+      "start": "yarn install && yarn compile && electron ./app",
       "compile": "rimraf app/out && tsc",
-      "pack": "npm run compile && build --dir",
-      "dist": "npm run compile && build",
-      "release": "npm run compile && build"
+      "pack": "yarn compile && build --dir",
+      "dist": "yarn compile && build",
+      "release": "yarn compile && build"
     },
     "build": {
       "appId": "org.develar.onshape",
-      "category": "public.app-category.graphics-design",
+      "files": [
+        "out",
+        "node_modules"
+      ],
+      "mac": {
+        "category": "public.app-category.graphics-design"
+      },
       "dmg": {
         "contents": [
           {
@@ -78,26 +89,29 @@
           }
         ]
       },
-      "win": {
-        "remoteReleases": "https://github.com/develar/onshape-desktop-shell",
-        "publish": [
-          "github",
-          "bintray"
-        ]
-      },
       "linux": {
-        "publish": null,
         "target": [
-          "deb",
-          "AppImage"
+          "AppImage",
+          "deb"
         ]
       }
     },
+    "dependencies": {
+      "configstore": "^3.0.0",
+      "electron-debug": "^1.1.0",
+      "electron-is-dev": "^0.1.2",
+      "electron-log": "^2.2.1",
+      "electron-updater": "^1.14.1",
+      "keytar": "^4.0.2",
+      "notion-spellchecker": "^3.3.3"
+    },
     "devDependencies": {
+      "@types/debug": "0.0.29",
+      "@types/electron": "^1.4.35",
+      "electron": "1.6.6",
       "electron-builder": "next",
-      "electron": "1.4.3",
-      "rimraf": "^2.5.4",
-      "typescript": "^2.0.3"
+      "rimraf": "^2.6.1",
+      "typescript": "^2.3.0"
     }
   },
   "packageStatus": 200,
@@ -145,5 +159,6 @@
   },
   "filename": "develar___onshape-desktop-shell.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:55.831Z"
+  "lastFetchedAt": "2017-05-04T15:14:55.831Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:42.440Z"
 }

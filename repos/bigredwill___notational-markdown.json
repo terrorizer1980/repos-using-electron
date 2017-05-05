@@ -93,6 +93,7 @@
       "build:watch": "parallelshell 'npm start' 'npm run watch:js' 'npm run watch:css'",
       "start": "electron main.js"
     },
+    "author": "Will Simons",
     "license": "CC0-1.0",
     "dependencies": {
       "axios": "^0.9.1",
@@ -144,5 +145,6 @@
   },
   "filename": "bigredwill___notational-markdown.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:47:17.236Z"
+  "lastFetchedAt": "2017-05-04T17:47:17.236Z",
+  "packageLastFetchedAt": "2017-05-04T22:43:39.702Z"
 }

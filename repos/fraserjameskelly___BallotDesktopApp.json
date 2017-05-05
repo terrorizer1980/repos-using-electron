@@ -73,7 +73,11 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/fraserjameskelly/BallotDesktopApp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fraserjameskelly/BallotDesktopApp.git"
+    },
+    "author": "fraserjameskelly",
     "license": "CC0-1.0",
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
@@ -105,5 +109,6 @@
   },
   "filename": "fraserjameskelly___BallotDesktopApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:34:01.961Z"
+  "lastFetchedAt": "2017-05-04T15:34:01.961Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:36.745Z"
 }

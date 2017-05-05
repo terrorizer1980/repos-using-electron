@@ -80,7 +80,10 @@
       "start": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/samnnodim/vibrations",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/samnnodim/vibrations.git"
+    },
     "keywords": [
       "soundcloud",
       "desktop",
@@ -91,7 +94,11 @@
       "vibes",
       "vybescartel"
     ],
+    "author": "Sam y Braxton",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/samnnodim/vibrations/issues"
+    },
     "homepage": "https://github.com/samnnodim/vibrations#readme",
     "dependencies": {
       "body-parser": "^1.15.1",
@@ -131,5 +138,6 @@
   },
   "filename": "samnnodim___vibrations.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:30:09.987Z"
+  "lastFetchedAt": "2017-05-04T15:30:09.987Z",
+  "packageLastFetchedAt": "2017-05-05T15:24:38.526Z"
 }

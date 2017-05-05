@@ -73,11 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/GeordieP/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/GeordieP/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "One Note"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "dependencies": {
       "configstore": "^2.0.0"
@@ -112,5 +116,6 @@
   },
   "filename": "peterforgacs___electron-onenote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:04.894Z"
+  "lastFetchedAt": "2017-05-04T21:03:04.894Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:35.212Z"
 }

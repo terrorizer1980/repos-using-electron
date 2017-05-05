@@ -74,12 +74,19 @@
       "build": "webpack --progress --colors --watch",
       "run": "electron ."
     },
-    "repository": "https://github.com/tylerlong/sharing-demo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tylerlong/sharing-demo.git"
+    },
     "keywords": [
       "demo",
       "sharing"
     ],
+    "author": "Tyler Long <tyler4long@gmail.com> (https://github.com/tylerlong)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tylerlong/sharing-demo/issues"
+    },
     "homepage": "https://github.com/tylerlong/sharing-demo#readme",
     "devDependencies": {
       "babel-core": "^6.18.0",
@@ -125,5 +132,6 @@
   },
   "filename": "tylerlong___sharing-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:50.963Z"
+  "lastFetchedAt": "2017-05-04T18:08:50.963Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:02.364Z"
 }

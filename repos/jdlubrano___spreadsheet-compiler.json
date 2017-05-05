@@ -81,24 +81,19 @@
       "package": "electron-packager . --all --out dist"
     },
     "repository": {
-      "user": "jdlubrano",
-      "repo": "spreadsheet-compiler",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jdlubrano/spreadsheet-compiler/tarball/master",
-      "clone_url": "https://github.com/jdlubrano/spreadsheet-compiler",
-      "https_url": "https://github.com/jdlubrano/spreadsheet-compiler",
-      "travis_url": "https://travis-ci.org/jdlubrano/spreadsheet-compiler",
-      "zip_url": "https://github.com/jdlubrano/spreadsheet-compiler/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jdlubrano/spreadsheet-compiler"
+      "type": "git",
+      "url": "git+https://github.com/jdlubrano/spreadsheet-compiler"
     },
     "keywords": [
       "Electron",
       "Excel",
       "xslx"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jdlubrano/spreadsheet-compiler/issues"
+    },
     "homepage": "https://github.com/jdlubrano/spreadsheet-compiler#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -139,5 +134,6 @@
   "filename": "jdlubrano___spreadsheet-compiler.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:59.066Z"
+  "lastFetchedAt": "2017-05-04T15:24:59.066Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:09.091Z"
 }

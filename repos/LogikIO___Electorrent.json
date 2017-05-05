@@ -200,18 +200,10 @@
       "utorrent"
     ],
     "repository": {
-      "user": "Tympanix",
-      "repo": "Electorrent",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Tympanix/Electorrent/tarball/master",
-      "clone_url": "https://github.com/Tympanix/Electorrent",
-      "https_url": "https://github.com/Tympanix/Electorrent",
-      "travis_url": "https://travis-ci.org/Tympanix/Electorrent",
-      "zip_url": "https://github.com/Tympanix/Electorrent/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Tympanix/Electorrent"
+      "type": "git",
+      "url": "https://github.com/Tympanix/Electorrent.git"
     },
+    "author": "Mathias Mortensen",
     "devDependencies": {
       "electron-prebuilt": "^1.2.6",
       "electron-squirrel-startup": "^1.0.0"
@@ -278,5 +270,6 @@
   "svnUrl": "https://github.com/LogikIO/Electorrent",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T19:59:02.420Z"
+  "lastFetchedAt": "2017-05-03T19:59:02.420Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:39.264Z"
 }

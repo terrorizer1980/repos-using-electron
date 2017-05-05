@@ -177,6 +177,7 @@
       "release": "gulp release --env=production",
       "install-native": "node ./tasks/install_native_module"
     },
+    "author": "Nate Smith",
     "dependencies": {
       "appdmg": "^0.3.6",
       "asar": "^0.10.0",
@@ -246,5 +247,6 @@
   "svnUrl": "https://github.com/kunalvarma05/laser-kitten",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:32:54.696Z"
+  "lastFetchedAt": "2017-05-04T17:32:54.696Z",
+  "packageLastFetchedAt": "2017-05-04T22:03:24.254Z"
 }

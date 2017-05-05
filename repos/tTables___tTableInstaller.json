@@ -74,14 +74,21 @@
       "start": "electron app/main.js",
       "build": "electron-packager app ttableinstaller --platform=win32 --arch=all"
     },
-    "repository": "https://github.com/tTables/tTableInstaller",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tTables/tTableInstaller.git"
+    },
     "keywords": [
       "Electron",
       "ttable",
       "bus",
       "timetable"
     ],
+    "author": "Patryk Wychowaniec",
     "license": "Apache version 2.0",
+    "bugs": {
+      "url": "https://github.com/tTables/tTableInstaller/issues"
+    },
     "homepage": "https://github.com/tTables/tTableInstaller",
     "devDependencies": {
       "electron-packager": "^6.0.2",
@@ -137,5 +144,6 @@
   "svnUrl": "https://github.com/tTables/tTableInstaller",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:12:29.462Z"
+  "lastFetchedAt": "2017-05-04T18:12:29.462Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:34.881Z"
 }

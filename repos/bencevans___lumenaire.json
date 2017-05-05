@@ -78,7 +78,10 @@
       "package-win32": "electron-packager ./ Lumenaire --platform=win32 --arch=x64 --out=build",
       "package-osx": "electron-packager ./ Lumenaire --platform=osx --arch=x64 --out=build"
     },
-    "repository": "https://github.com/bencevans/lumenaire",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bencevans/lumenaire.git"
+    },
     "keywords": [
       "lumen",
       "light",
@@ -87,7 +90,11 @@
       "content",
       "adaptive"
     ],
+    "author": "Ben Evans <ben@bensbit.co.uk> (https://bencevans.io)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bencevans/lumenaire/issues"
+    },
     "homepage": "https://github.com/bencevans/lumenaire#readme",
     "dependencies": {
       "active-app-watcher": "^1.1.1",
@@ -128,5 +135,6 @@
   },
   "filename": "bencevans___lumenaire.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:10:45.600Z"
+  "lastFetchedAt": "2017-05-04T20:10:45.600Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:22.178Z"
 }

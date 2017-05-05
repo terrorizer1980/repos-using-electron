@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/meganii/electron-flickr-uploader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/meganii/electron-flickr-uploader.git"
+    },
     "keywords": [
       "Electron",
       "flickr"
     ],
+    "author": "meganii",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/meganii/electron-flickr-uploader/issues"
+    },
     "homepage": "https://github.com/meganii/electron-flickr-uploader#readme",
     "devDependencies": {
       "babel-cli": "^6.11.4",
@@ -124,5 +131,6 @@
   },
   "filename": "meganii___electron-flickr-uploader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:42.400Z"
+  "lastFetchedAt": "2017-05-04T17:38:42.400Z",
+  "packageLastFetchedAt": "2017-05-05T01:34:34.318Z"
 }

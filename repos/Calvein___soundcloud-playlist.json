@@ -57,12 +57,19 @@
       "start-app": "gulp build-app && electron main.js",
       "build-app": "gulp build-app --prod"
     },
-    "repository": "https://github.com/Calvein/soundcloud-playlist",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Calvein/soundcloud-playlist.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Calvein/soundcloud-playlist/issues"
+    },
     "keywords": [
       "soundcloud",
       "playlist"
     ],
     "homepage": "https://github.com/Calvein/soundcloud-playlist",
+    "author": "François Robichet <calvein>",
     "license": "ISC",
     "devDependencies": {
       "browserify": "^5.10.1",
@@ -137,5 +144,6 @@
   "svnUrl": "https://github.com/Calvein/soundcloud-playlist",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:37:14.895Z"
+  "lastFetchedAt": "2017-05-04T05:37:14.895Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:56.274Z"
 }

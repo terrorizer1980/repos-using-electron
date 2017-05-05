@@ -79,10 +79,18 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron .",
-      "serve": "serve slides"
+      "serve": "serve slides",
+      "deploy": "git subtree push --prefix slides origin gh-pages"
     },
-    "repository": "https://github.com/dkundel/hybrid-appocalypse",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dkundel/hybrid-appocalypse.git"
+    },
+    "author": "Dominik Kundel <dominik.kundel@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dkundel/hybrid-appocalypse/issues"
+    },
     "homepage": "https://github.com/dkundel/hybrid-appocalypse#readme",
     "dependencies": {
       "electron": "^1.4.4",
@@ -116,5 +124,6 @@
   },
   "filename": "dkundel___hybrid-appocalypse.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:40:02.613Z"
+  "lastFetchedAt": "2017-05-04T17:40:02.613Z",
+  "packageLastFetchedAt": "2017-05-05T17:48:05.536Z"
 }

@@ -169,6 +169,7 @@
     "name": "md-viewer",
     "version": "1.0.0",
     "description": "a desktop Markdown viewer app built on Electron",
+    "author": "pmuellr",
     "main": "./lib/md-viewer",
     "scripts": {
       "cake": "cake",
@@ -178,17 +179,8 @@
     "homepage": "https://github.com/pmuellr/md-viewer",
     "license": "Apache-2.0",
     "repository": {
-      "user": "pmuellr",
-      "repo": "md-viewer",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/pmuellr/md-viewer/tarball/master",
-      "clone_url": "https://github.com/pmuellr/md-viewer",
-      "https_url": "https://github.com/pmuellr/md-viewer",
-      "travis_url": "https://travis-ci.org/pmuellr/md-viewer",
-      "zip_url": "https://github.com/pmuellr/md-viewer/archive/master.zip",
-      "api_url": "https://api.github.com/repos/pmuellr/md-viewer"
+      "type": "git",
+      "url": "https://github.com/pmuellr/md-viewer.git"
     },
     "dependencies": {
       "debug": "2.2.x",
@@ -255,5 +247,6 @@
   "filename": "harleywang___md-viewer.json",
   "sourceRepo": "md-viewer/md-viewer",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:29.312Z"
+  "lastFetchedAt": "2017-05-04T19:35:29.312Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:54.882Z"
 }

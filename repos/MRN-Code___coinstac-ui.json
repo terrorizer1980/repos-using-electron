@@ -156,8 +156,15 @@
       "publish-major": "npm run preversion && npm version major && git push origin master --tags && npm publish",
       "test": "nyc --reporter=lcov --check-coverage --lines=1 --functions=1 --branches=1 babel-node test/"
     },
-    "repository": "https://github.com/MRN-Code/coinstac",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/MRN-Code/coinstac.git"
+    },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/MRN-Code/coinstac/issues"
+    },
     "pre-commit": [
       "lint",
       "validate",
@@ -211,5 +218,6 @@
   "svnUrl": "https://github.com/MRN-Code/coinstac-ui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:29:05.614Z"
+  "lastFetchedAt": "2017-05-04T15:29:05.614Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:13.725Z"
 }

@@ -55,9 +55,16 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
-    "repository": "https://github.com/tommyblue/personal-finance-gui",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:tommyblue/personal-finance-gui.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -123,5 +130,6 @@
   "svnUrl": "https://github.com/tommyblue/personal-finance-gui",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:48:48.984Z"
+  "lastFetchedAt": "2017-05-04T14:48:48.984Z",
+  "packageLastFetchedAt": "2017-05-04T22:55:52.975Z"
 }

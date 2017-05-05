@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "Inbox",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "A wrapper for Google Inbox",
     "scripts": {
       "start": "electron src/app.js",
@@ -65,15 +65,16 @@
       "mail",
       "wrapper"
     ],
+    "author": "Martin Lissmyr",
     "license": "MIT",
     "devDependencies": {
-      "electron-prebuilt": "1.2.5",
+      "electron-prebuilt": "1.4.10",
       "gulp": "~3.9.0",
       "gulp-util": "~3.0.7",
       "electron-packager": "latest",
       "gulp-github-release": "latest",
-      "dotenv": "~1.2.0",
-      "del": "~2.0.0"
+      "dotenv": "~2.0.0",
+      "del": "~2.2.2"
     }
   },
   "packageStatus": 200,
@@ -121,5 +122,6 @@
   "svnUrl": "https://github.com/martinlissmyr/deskbox",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:19:23.191Z"
+  "lastFetchedAt": "2017-05-04T21:19:23.191Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:18.600Z"
 }

@@ -84,16 +84,13 @@
     "version": "0.0.1",
     "main": "main.js",
     "scripts": {
-      "lint": "$(npm bin)/eslint app *.js --fix",
+      "lint": "$(yarn bin)/eslint app *.js --fix",
       "start-hot-server": "cross-env NODE_ENV=development node -r babel-register server.js",
       "start-hot-renderer": "cross-env HOT=1 NODE_ENV=development electron -r babel-register -r babel-polyfill ./main.development",
       "build-main": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.electron.js --progress --profile --colors",
       "build-renderer": "cross-env NODE_ENV=production node -r babel-register ./node_modules/webpack/bin/webpack --config webpack.config.production.js --progress --profile --colors",
-      "build": "npm run build-main && npm run build-renderer",
-      "start": "cross-env NODE_ENV=production electron ./",
-      "package": "cross-env NODE_ENV=production node -r babel-register -r babel-polyfill package.js",
-      "package-all": "npm run package -- --all",
-      "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json"
+      "build": "yarn run build-main && yarn run build-renderer",
+      "start": "cross-env NODE_ENV=production electron ./"
     },
     "bin": {
       "electron": "./node_modules/.bin/electron"
@@ -143,7 +140,7 @@
       "minimist": "^1.2.0",
       "mocha": "^3.0.2",
       "node-libs-browser": "^1.0.0",
-      "npm": "^3.10.8",
+      "yarn": "^3.10.8",
       "react-addons-test-utils": "^15.3.2",
       "redux-logger": "^2.6.1",
       "sinon": "^1.17.6",
@@ -157,7 +154,6 @@
       "webpack-validator": "^2.2.7"
     },
     "dependencies": {
-      "cpasbien-api": "^1.1.1",
       "css-modules-require-hook": "^4.0.3",
       "electron-config": "^0.2.1",
       "electron-debug": "^1.0.1",
@@ -176,10 +172,6 @@
       "redux-thunk": "^2.1.0",
       "resemblance": "^1.0.0",
       "source-map-support": "^0.4.2"
-    },
-    "devEngines": {
-      "node": "6.x",
-      "npm": "2.x || 3.x"
     }
   },
   "packageStatus": 200,
@@ -207,5 +199,6 @@
   },
   "filename": "ThunderCake___Saucisson.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:33:38.976Z"
+  "lastFetchedAt": "2017-05-04T20:33:38.976Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:56.408Z"
 }

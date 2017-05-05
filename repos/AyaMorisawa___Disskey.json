@@ -57,7 +57,9 @@
     "description": "A lightweight Misskey client for desktop",
     "main": "./built/index.js",
     "bin": "./bin/disskey",
-    "repository": "https://github.com/AyaMorisawa/Disskey",
+    "repository": {
+      "url": "https://github.com/AyaMorisawa/Disskey.git"
+    },
     "scripts": {
       "start": "gulp start",
       "dtsm": "dtsm --insight false install",
@@ -148,5 +150,6 @@
   "svnUrl": "https://github.com/AyaMorisawa/Disskey",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:52:31.023Z"
+  "lastFetchedAt": "2017-05-04T17:52:31.023Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:02.156Z"
 }

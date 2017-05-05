@@ -75,14 +75,21 @@
       "package": "asar pack TrelloQuickEntry-darwin-x64/TrelloQuickEntry.app/Contents/Resources/app TrelloQuickEntry-darwin-x64/TrelloQuickEntry.app/Contents/Resources/app.asar && rm -rf TrelloQuickEntry-darwin-x64/TrelloQuickEntry.app/Contents/Resources/app",
       "build": "electron-packager . TrelloQuickEntry --platform=darwin --arch=x64 --version=1.2.0"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -119,5 +126,6 @@
   },
   "filename": "wittemann___trello-quick-entry.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:44.002Z"
+  "lastFetchedAt": "2017-05-04T18:15:44.002Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:11.771Z"
 }

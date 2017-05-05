@@ -229,17 +229,16 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "maidsafe",
-      "repo": "safe_launcher",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/maidsafe/safe_launcher/tarball/master",
-      "clone_url": "https://github.com/maidsafe/safe_launcher",
-      "https_url": "https://github.com/maidsafe/safe_launcher",
-      "travis_url": "https://travis-ci.org/maidsafe/safe_launcher",
-      "zip_url": "https://github.com/maidsafe/safe_launcher/archive/master.zip",
-      "api_url": "https://api.github.com/repos/maidsafe/safe_launcher"
+      "type": "git",
+      "url": "git+https://github.com/maidsafe/safe_launcher.git"
+    },
+    "author": {
+      "name": "MaidSafe",
+      "email": "qa@maidsafe.net",
+      "url": "https://maidsafe.net"
+    },
+    "bugs": {
+      "url": "https://github.com/maidsafe/safe_launcher/issues"
     },
     "keywords": [
       "maidsafe",
@@ -376,5 +375,6 @@
   "filename": "bitcoinmanchester___safe_launcher.json",
   "sourceRepo": "maidsafe/safe_launcher",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:41:05.909Z"
+  "lastFetchedAt": "2017-05-04T17:41:05.909Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:53.537Z"
 }

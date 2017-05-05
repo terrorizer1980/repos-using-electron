@@ -60,17 +60,8 @@
       "start": "gulp"
     },
     "repository": {
-      "user": "boyney123",
-      "repo": "electron-react-sass-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/boyney123/electron-react-sass-boilerplate/tarball/master",
-      "clone_url": "https://github.com/boyney123/electron-react-sass-boilerplate",
-      "https_url": "https://github.com/boyney123/electron-react-sass-boilerplate",
-      "travis_url": "https://travis-ci.org/boyney123/electron-react-sass-boilerplate",
-      "zip_url": "https://github.com/boyney123/electron-react-sass-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/boyney123/electron-react-sass-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/boyney123/electron-react-sass-boilerplate.git"
     },
     "keywords": [
       "Electron",
@@ -82,7 +73,11 @@
       "sass",
       "tray"
     ],
+    "author": "Dave Boyne",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/boyney123/electron-react-sass-boilerplate/issues"
+    },
     "homepage": "https://github.com/boyney123/electron-react-sass-boilerplate#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0",
@@ -146,5 +141,6 @@
   "filename": "boyney123___electron-react-sass-boilerplate.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:30:47.493Z"
+  "lastFetchedAt": "2017-05-04T20:30:47.493Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:45.301Z"
 }

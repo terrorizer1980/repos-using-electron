@@ -173,17 +173,12 @@
     "license": "MIT",
     "main": "index.js",
     "repository": {
-      "user": "jimschubert",
-      "repo": "electron-angular-example",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jimschubert/electron-angular-example/tarball/master",
-      "clone_url": "https://github.com/jimschubert/electron-angular-example",
-      "https_url": "https://github.com/jimschubert/electron-angular-example",
-      "travis_url": "https://travis-ci.org/jimschubert/electron-angular-example",
-      "zip_url": "https://github.com/jimschubert/electron-angular-example/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jimschubert/electron-angular-example"
+      "url": "jimschubert/electron-angular-example"
+    },
+    "author": {
+      "name": "Jim Schubert",
+      "email": "james.schubert@gmail.com",
+      "url": "ipreferjim.com"
     },
     "engines": {
       "node": ">=0.10.0"
@@ -283,5 +278,6 @@
   "svnUrl": "https://github.com/rjmunro/electron-angular2-example",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:07:55.285Z"
+  "lastFetchedAt": "2017-05-04T20:07:55.285Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:34.457Z"
 }

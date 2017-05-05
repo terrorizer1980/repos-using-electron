@@ -73,7 +73,10 @@
       "electron-packager": "^5.0.1"
     },
     "license": "MIT",
-    "repository": "https://github.com/Bahlaouane-Hamza/Yays"
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Bahlaouane-Hamza/Yays"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -120,5 +123,6 @@
   "svnUrl": "https://github.com/Bahlaouane-Hamza/Yays",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:51:25.822Z"
+  "lastFetchedAt": "2017-05-04T17:51:25.822Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:36.023Z"
 }

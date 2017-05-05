@@ -196,11 +196,15 @@
     "version": "0.0.1",
     "description": "An electron application to broadcast Kinect2 data over a peer connection",
     "main": "main.js",
+    "directories": {
+      "example": "examples"
+    },
     "dependencies": {
+      "electron-prebuilt": "^0.37.8",
       "kinect2": "^0.1.4",
       "minimist": "^1.2.0",
-      "electron-prebuilt": "^0.37.8",
       "node-gyp": "^3.4.0",
+      "os": "^0.1.1",
       "peer": "^0.2.8"
     },
     "devDependencies": {
@@ -212,23 +216,18 @@
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "user": "lisajamhoury",
-      "repo": "kinectron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/lisajamhoury/kinectron/tarball/master",
-      "clone_url": "https://github.com/lisajamhoury/kinectron",
-      "https_url": "https://github.com/lisajamhoury/kinectron",
-      "travis_url": "https://travis-ci.org/lisajamhoury/kinectron",
-      "zip_url": "https://github.com/lisajamhoury/kinectron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/lisajamhoury/kinectron"
+      "type": "git",
+      "url": "git+https://github.com/lisajamhoury/kinectron.git"
     },
     "keywords": [
       "kinect2",
       "peer"
     ],
+    "author": "Lisa Jamhoury <lisa.jamhoury@nyu.edu>, Shawn Van Every <Shawn.Van.Every@nyu.edu>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lisajamhoury/kinectron/issues"
+    },
     "homepage": "https://github.com/lisajamhoury/kinectron#readme"
   },
   "packageStatus": 200,
@@ -257,5 +256,6 @@
   "filename": "lisajamhoury___kinectron.json",
   "sourceRepo": "vanevery/kinectron",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:39.194Z"
+  "lastFetchedAt": "2017-05-04T17:42:39.194Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:13.484Z"
 }

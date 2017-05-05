@@ -80,8 +80,10 @@
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
-    "name": "",
-    "version": "0.1.0",
+    "name": "magic-book",
+    "description": "a book editor",
+    "author": "fish",
+    "version": "0.1.1",
     "main": "main.js",
     "scripts": {
       "build": "./node_modules/.bin/electron-rebuild",
@@ -92,24 +94,35 @@
       "codemirror": "^5.19.0",
       "commander": "^2.9.0",
       "dialogs": "^1.1.15",
-      "ejs": "^2.4.2",
+      "ejs": "^2.5.5",
+      "electron": "1.4.8",
       "fs-promise": "^0.5.0",
+      "highlight.js": "^9.7.0",
+      "jqmodal": "1.4.2",
       "jquery": "^3.1.0",
-      "litelog": "1.1.1",
-      "marked": "^0.3.5",
+      "json-socket": "^0.2.1",
+      "litelog": "1.2.3",
+      "lodash": "^4.17.2",
       "mmmagic": "^0.4.5",
-      "xfs": "^0.2.1",
-      "request": "2.75.0",
-      "jqmodal": "1.4.2"
+      "request": "^2.75.0",
+      "simple-git": "^1.70.0",
+      "xfs": "^0.2.1"
     },
-    "devDependencies": {
-      "electron-packager": "8.1.0",
-      "electron-prebuilt": "1.4.3",
-      "electron-rebuild": "^1.2.1",
-      "mocha": "^3.1.2",
-      "should": "^11.1.1",
-      "eslint": "*",
-      "eslint-plugin-react": "*"
+    "build": {
+      "dmg": {
+        "contents": [
+          {
+            "x": 130,
+            "y": 220
+          },
+          {
+            "x": 410,
+            "y": 220,
+            "type": "link",
+            "path": "/Applications"
+          }
+        ]
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +150,6 @@
   },
   "filename": "magic-book___mbook-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:02.434Z"
+  "lastFetchedAt": "2017-05-04T20:57:02.434Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:29.701Z"
 }

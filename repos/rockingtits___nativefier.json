@@ -194,19 +194,14 @@
       "nativefier": "lib/cli.js"
     },
     "repository": {
-      "user": "jiahaog",
-      "repo": "nativefier",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jiahaog/nativefier/tarball/master",
-      "clone_url": "https://github.com/jiahaog/nativefier",
-      "https_url": "https://github.com/jiahaog/nativefier",
-      "travis_url": "https://travis-ci.org/jiahaog/nativefier",
-      "zip_url": "https://github.com/jiahaog/nativefier/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jiahaog/nativefier"
+      "type": "git",
+      "url": "git+https://github.com/jiahaog/nativefier.git"
     },
+    "author": "",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jiahaog/nativefier/issues"
+    },
     "homepage": "https://github.com/jiahaog/nativefier#readme",
     "dependencies": {
       "async": "^1.5.2",
@@ -277,5 +272,6 @@
   "filename": "rockingtits___nativefier.json",
   "sourceRepo": "yashilanka/nativefier",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:39.174Z"
+  "lastFetchedAt": "2017-05-04T21:17:39.174Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:39.260Z"
 }

@@ -67,5 +67,22 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:30:09.742Z"
+  "lastFetchedAt": "2017-05-04T05:30:09.742Z",
+  "packageJSON": {
+    "name": "video-time-tracking",
+    "version": "1.0.0",
+    "description": "A small app for tracking time via markers on a video signal",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "dependencies": {
+      "tracking": "^1.1.3"
+    },
+    "devDependencies": {
+      "electron": "^1.4.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:34:22.244Z"
 }

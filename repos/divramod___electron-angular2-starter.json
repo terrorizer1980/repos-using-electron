@@ -81,6 +81,7 @@
       "webpack",
       "typescript"
     ],
+    "author": "Patrick Stapleton <patrick@angularclass.com>",
     "homepage": "https://github.com/angularclass/angular2-webpack-starter",
     "license": "MIT",
     "scripts": {
@@ -205,7 +206,13 @@
       "webpack-md5-hash": "^0.0.5",
       "webpack-merge": "~1.0.1"
     },
-    "repository": "https://github.com/angularclass/angular2-webpack-starter",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/angularclass/angular2-webpack-starter.git"
+    },
+    "bugs": {
+      "url": "https://github.com/angularclass/angular2-webpack-starter/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -235,5 +242,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:08.410Z"
+  "lastFetchedAt": "2017-05-04T17:42:08.410Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:56.167Z"
 }

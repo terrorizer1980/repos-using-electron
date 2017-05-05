@@ -58,6 +58,7 @@
       "test": "mocha --compilers js:babel-register --recursive",
       "test:watch": "npm test -- --watch"
     },
+    "author": "PiggyBoy",
     "license": "MIT",
     "dependencies": {
       "express": "^4.13.4",
@@ -135,5 +136,6 @@
   "svnUrl": "https://github.com/PiggySpeed/reactron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:58:23.137Z"
+  "lastFetchedAt": "2017-05-04T20:58:23.137Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:52.694Z"
 }

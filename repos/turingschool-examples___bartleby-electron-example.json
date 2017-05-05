@@ -64,6 +64,10 @@
     "version": "0.0.0",
     "description": "Small description for bartleby goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -73,6 +77,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -180,5 +185,6 @@
   "svnUrl": "https://github.com/turingschool-examples/bartleby-electron-example",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:00:06.906Z"
+  "lastFetchedAt": "2017-05-04T05:00:06.906Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:19.873Z"
 }

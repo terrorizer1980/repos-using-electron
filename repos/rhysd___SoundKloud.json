@@ -54,7 +54,14 @@
     "bin": {
       "soundkloud": "./bin/cli.js"
     },
-    "repository": "https://github.com/rhysd/SoundKloud",
+    "author": "rhysd <lin90162@yahoo.co.jp>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rhysd/SoundKloud.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rhysd/SoundKloud/issues"
+    },
     "license": "MIT",
     "dependencies": {
       "auto-launch": "^0.1.18",
@@ -116,5 +123,6 @@
   },
   "filename": "rhysd___SoundKloud.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:02.998Z"
+  "lastFetchedAt": "2017-05-04T21:18:02.998Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:48.052Z"
 }

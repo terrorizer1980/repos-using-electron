@@ -174,24 +174,19 @@
       "start": "electron ./app/browser.js"
     },
     "repository": {
-      "user": "ppoffice",
-      "repo": "Hozz",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ppoffice/Hozz/tarball/master",
-      "clone_url": "https://github.com/ppoffice/Hozz",
-      "https_url": "https://github.com/ppoffice/Hozz",
-      "travis_url": "https://travis-ci.org/ppoffice/Hozz",
-      "zip_url": "https://github.com/ppoffice/Hozz/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ppoffice/Hozz"
+      "type": "git",
+      "url": "git@github.com:ppoffice/Hozz.git"
     },
     "keywords": [
       "Electron",
       "hosts",
       "all-platform"
     ],
+    "author": "PPOffice",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/ppoffice/Hozz/issues"
+    },
     "homepage": "https://github.com/ppoffice/Hozz#readme",
     "devDependencies": {
       "babel-core": "^6.3.26",
@@ -270,5 +265,6 @@
   "svnUrl": "https://github.com/EdZava/Hozz",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:07:43.130Z"
+  "lastFetchedAt": "2017-05-04T20:07:43.130Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:46.897Z"
 }

@@ -53,17 +53,24 @@
   "status": 200,
   "packageJSON": {
     "name": "admin-mongo",
-    "version": "0.0.20",
+    "version": "0.0.23",
     "description": "A Web user interface to administer MongoDB databases built using Express",
+    "author": "Mark Moffat <mrvautin@gmail.com>",
     "private": false,
-    "repository": "https://github.com/mrvautin/adminmongo",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/mrvautin/adminmongo"
+    },
     "main": "electron.js",
+    "bugs": {
+      "url": "https://github.com/mrvautin/adminmongo/issues"
+    },
     "scripts": {
       "start": "node app.js",
-      "postinstall": "node ./lib/npm_postinstall.js",
       "test": "find ./tests -name '*.js' | xargs mocha -R spec -t 5000",
       "packageOsx": "electron-packager ./ adminMongo --out=releases/ --platform=darwin --arch=x64 --prune --overwrite --ignore=releases/* --icon=public/logo.icns",
       "packageWin32": "electron-packager ./ adminMongo --out=releases/ --platform=win32 --arch=ia32 --prune --overwrite --ignore=releases/* --icon=public/logo.ico",
+      "packageWin64": "electron-packager ./ adminMongo --out=releases/ --platform=win32 --arch=x64 --prune --overwrite --ignore=releases/* --icon=public/logo.ico",
       "packageLinux": "electron-packager ./ adminMongo --out=releases/ --platform=linux --arch=ia32 --prune --overwrite --ignore=releases/* --icon=public/logo.ico"
     },
     "keywords": [
@@ -179,5 +186,6 @@
   "svnUrl": "https://github.com/mrvautin/adminMongo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:15:28.552Z"
+  "lastFetchedAt": "2017-05-04T21:15:28.552Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:49.005Z"
 }

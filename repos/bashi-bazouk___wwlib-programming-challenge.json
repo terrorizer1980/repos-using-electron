@@ -73,6 +73,7 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Jonathan Ross",
     "license": "MIT",
     "dependencies": {
       "babel": "^5.3.3",
@@ -102,7 +103,10 @@
       "webpack": "^1.13.1",
       "win-spawn": "^2.0.0"
     },
-    "repository": "https://github.com/wwlib/programming-challenge",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/wwlib/programming-challenge.git"
+    },
     "devDependencies": {
       "node-sass": "^3.7.0",
       "sass-loader": "^3.2.0"
@@ -133,5 +137,6 @@
   },
   "filename": "bashi-bazouk___wwlib-programming-challenge.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:38.387Z"
+  "lastFetchedAt": "2017-05-04T05:27:38.387Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:58.182Z"
 }

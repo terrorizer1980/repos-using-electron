@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electronic-QQ",
-    "version": "0.1",
+    "version": "0.1.0",
     "description": "An Electron application for Smart QQ",
     "main": "src/main.js",
     "scripts": {
@@ -88,14 +88,21 @@
       "build:win32": ".\\scripts\\build-win32.bat win32 ia32",
       "build:win64": ".\\scripts\\build-win32.bat win32 x64"
     },
-    "repository": "https://github.com/arthurkiller/electronic-QQ",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/arthurkiller/electronic-QQ"
+    },
     "keywords": [
       "Electron",
       "WebQQ",
       "QQ",
       "Web"
     ],
+    "author": "Arthur Lee @lza",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/arthurkiller/electronic-QQ/issues"
+    },
     "homepage": "https://github.com/arthurkiller/electronic-QQ",
     "dependencies": {
       "electron-packager": "^7.0.0",
@@ -136,5 +143,6 @@
   },
   "filename": "arthurkiller___electronic-QQ.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:41.094Z"
+  "lastFetchedAt": "2017-05-04T20:27:41.094Z",
+  "packageLastFetchedAt": "2017-05-04T23:10:24.206Z"
 }

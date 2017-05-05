@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": "Shisha",
     "license": "ISC",
-    "repository": "https://github.com/Shishamou/electron-sample",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Shishamou/electron-sample.git"
+    },
     "keywords": [
       "electron"
     ],
+    "bugs": {
+      "url": "https://github.com/Shishamou/electron-sample/issues"
+    },
     "homepage": "https://github.com/Shishamou/electron-sample#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.0"
@@ -108,5 +115,6 @@
   },
   "filename": "Shishamou___electron-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:44.190Z"
+  "lastFetchedAt": "2017-05-04T05:10:44.190Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:50.420Z"
 }

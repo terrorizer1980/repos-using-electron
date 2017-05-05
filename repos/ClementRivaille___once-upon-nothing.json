@@ -77,6 +77,7 @@
       "electron-packager": "electron-packager . once-upon-nothing --overwrite --out=release --ignore=\"(.*\\.ts)|(.*\\.js\\.map)|(.*\\.less)|(cache)|(typings)|(gulpfile.js)|(tsconfig.json)\"",
       "app-build": "npm-run-all build electron-packager"
     },
+    "author": "Clément RIVAILLE",
     "license": "ISC",
     "dependencies": {
       "@angular/common": "2.0.0-rc.6",
@@ -146,5 +147,6 @@
   },
   "filename": "ClementRivaille___once-upon-nothing.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:17.686Z"
+  "lastFetchedAt": "2017-05-04T18:08:17.686Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:27.156Z"
 }

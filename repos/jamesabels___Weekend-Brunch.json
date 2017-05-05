@@ -52,6 +52,11 @@
     "description": "Weekend Brunch is a Brunch Skeleton powered by Electron, Brunch and Sass and Babel",
     "license": "MIT",
     "repository": "https://github.com/jamesabels/Weekend-Brunch",
+    "author": {
+      "name": "James Abels",
+      "email": "jamesrabels@gmail.com",
+      "url": "jamesabels.net"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -141,5 +146,6 @@
   "svnUrl": "https://github.com/jamesabels/Weekend-Brunch",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:45:32.404Z"
+  "lastFetchedAt": "2017-05-04T19:45:32.404Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:23.873Z"
 }

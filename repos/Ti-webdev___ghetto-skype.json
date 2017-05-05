@@ -175,24 +175,19 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "stanfieldr",
-      "repo": "ghetto-skype",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/stanfieldr/ghetto-skype/tarball/master",
-      "clone_url": "https://github.com/stanfieldr/ghetto-skype",
-      "https_url": "https://github.com/stanfieldr/ghetto-skype",
-      "travis_url": "https://travis-ci.org/stanfieldr/ghetto-skype",
-      "zip_url": "https://github.com/stanfieldr/ghetto-skype/archive/master.zip",
-      "api_url": "https://api.github.com/repos/stanfieldr/ghetto-skype"
+      "type": "git",
+      "url": "git+https://github.com/stanfieldr/ghetto-skype.git"
     },
     "keywords": [
       "web",
       "skype",
       "wrapper"
     ],
+    "author": "Robert Stanfield",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/stanfieldr/ghetto-skype/issues"
+    },
     "homepage": "https://github.com/stanfieldr/ghetto-skype#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -244,5 +239,6 @@
   "filename": "Ti-webdev___ghetto-skype.json",
   "sourceRepo": "stanfieldr/ghetto-skype",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:28:18.655Z"
+  "lastFetchedAt": "2017-05-04T20:28:18.655Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:45.643Z"
 }

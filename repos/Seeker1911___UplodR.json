@@ -79,17 +79,24 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Seeker1911/Social_Feed",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Seeker1911/Social_Feed.git"
+    },
     "keywords": [
       "Electron",
       "Social",
       "Feed",
       "Angular"
     ],
+    "author": "Michael Mead",
     "license": "CC0-1.0",
     "homepage": "https://github.com/Seeker1911/Social_Feed.git",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "bugs": {
+      "url": "https://github.com/Seeker1911/Social_Feed/issues"
     }
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   },
   "filename": "Seeker1911___UplodR.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:33.027Z"
+  "lastFetchedAt": "2017-05-03T20:06:33.027Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:15.476Z"
 }

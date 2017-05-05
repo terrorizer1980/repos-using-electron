@@ -74,12 +74,19 @@
       "test": "live-server --port=3300",
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/fastercar/invoices.app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fastercar/invoices.app.git"
+    },
     "keywords": [
       "fastercar",
       "invoices"
     ],
+    "author": "Alexander J. Salas B. <a.salas@ieee.org>",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/fastercar/invoices.app/issues"
+    },
     "homepage": "https://github.com/fastercar/invoices.app#readme",
     "devDependencies": {
       "electron-connect": "^0.3.3",
@@ -141,5 +148,6 @@
   },
   "filename": "fastercar___invoices.app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:24:24.095Z"
+  "lastFetchedAt": "2017-05-04T15:24:24.095Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:00.774Z"
 }

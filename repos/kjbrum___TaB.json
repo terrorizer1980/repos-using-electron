@@ -55,6 +55,7 @@
     "name": "TaB",
     "version": "0.0.1",
     "description": "A simple app built with Node.js that uses notifications to remind you to take periodic breaks throughout the day.",
+    "author": "Kyle Brumm",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
@@ -124,5 +125,6 @@
   },
   "filename": "kjbrum___TaB.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:44:34.584Z"
+  "lastFetchedAt": "2017-05-04T20:44:34.584Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:24.437Z"
 }

@@ -53,17 +53,27 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-oauth-twitter",
-    "repository": "https://github.com/uraway/electron-oauth-twitter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/uraway/electron-oauth-twitter.git"
+    },
+    "author": "Masato Urai @uraway_",
     "email": "masato.u0107@gmail.com",
     "homepage": "https://github.com/uraway/electron-oauth-twitter",
     "license": "MIT",
-    "version": "1.0.1",
+    "bugs": {
+      "url": "https://github.com/uraway/electron-oauth-twitter/issues"
+    },
+    "version": "1.1.0",
     "description": "Twitter OAuth Window library.",
     "main": "lib/OauthTwitter.js",
     "files": [
       "lib",
       "src"
     ],
+    "directories": {
+      "test": "test"
+    },
     "scripts": {
       "build": "babel src --out-dir lib --source-maps",
       "watch": "babel src --out-dir lib --watch --source-maps",
@@ -141,5 +151,6 @@
   "svnUrl": "https://github.com/uraway/electron-oauth-twitter",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:44:21.768Z"
+  "lastFetchedAt": "2017-05-04T17:44:21.768Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:13.385Z"
 }

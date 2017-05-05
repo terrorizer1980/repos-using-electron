@@ -89,8 +89,15 @@
       "app": "NODE_ENV=development electron app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/sikeio/webpack-gui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sikeio/webpack-gui.git"
+    },
+    "author": "howard yeh",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hayeah/packpackgo/issues"
+    },
     "homepage": "https://github.com/hayeah/packpackgo/issues",
     "devDependencies": {
       "babel-loader": "^6.2.4",
@@ -164,5 +171,6 @@
   },
   "filename": "sikeio___webpack-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:07:05.434Z"
+  "lastFetchedAt": "2017-05-04T21:07:05.434Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:45.793Z"
 }

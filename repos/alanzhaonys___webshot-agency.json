@@ -81,23 +81,15 @@
       "build": "electron-packager . --all --asar --overwrite"
     },
     "repository": {
-      "user": "alanzhaonys",
-      "repo": "webshot-agency",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/alanzhaonys/webshot-agency/tarball/master",
-      "clone_url": "https://github.com/alanzhaonys/webshot-agency",
-      "https_url": "https://github.com/alanzhaonys/webshot-agency",
-      "travis_url": "https://travis-ci.org/alanzhaonys/webshot-agency",
-      "zip_url": "https://github.com/alanzhaonys/webshot-agency/archive/master.zip",
-      "api_url": "https://api.github.com/repos/alanzhaonys/webshot-agency"
+      "type": "git",
+      "url": "git+https://github.com/alanzhaonys/webshot-agency.git"
     },
     "keywords": [
       "Electron",
       "screenshot",
       "webshot"
     ],
+    "author": "Alan Zhao",
     "license": "MIT",
     "homepage": "https://github.com/alanzhaonys/webshot-agency",
     "devDependencies": {
@@ -134,5 +126,6 @@
   "filename": "alanzhaonys___webshot-agency.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:24.969Z"
+  "lastFetchedAt": "2017-05-04T14:21:24.969Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:33.272Z"
 }

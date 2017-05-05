@@ -97,19 +97,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "2metres",
-      "repo": "electron-sandbox-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/2metres/electron-sandbox-app/tarball/master",
-      "clone_url": "https://github.com/2metres/electron-sandbox-app",
-      "https_url": "https://github.com/2metres/electron-sandbox-app",
-      "travis_url": "https://travis-ci.org/2metres/electron-sandbox-app",
-      "zip_url": "https://github.com/2metres/electron-sandbox-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/2metres/electron-sandbox-app"
+      "type": "git",
+      "url": "git+https://github.com/2metres/electron-sandbox-app.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/2metres/electron-sandbox-app/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -222,5 +221,6 @@
   "filename": "2metres___electron-sandbox-app.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:24:46.712Z"
+  "lastFetchedAt": "2017-05-04T20:24:46.712Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:32.770Z"
 }

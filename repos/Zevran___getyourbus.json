@@ -74,6 +74,7 @@
       "start": "electron ./src",
       "build": "electron-packager ./src Getyourbus --platform=darwin --arch=x64"
     },
+    "author": "Gaël Reyrol <gael@soyhuce.fr>",
     "license": "MIT",
     "dependencies": {
       "cron": "^1.1.0",
@@ -112,5 +113,6 @@
   },
   "filename": "Zevran___getyourbus.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:24:26.019Z"
+  "lastFetchedAt": "2017-05-04T21:24:26.019Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:12.207Z"
 }

@@ -76,12 +76,19 @@
       "install": "make install",
       "test": "make test"
     },
-    "repository": "https://github.com/magickcoding/mybook",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/magickcoding/mybook.git"
+    },
     "keywords": [
       "ebook",
       "mybook.com"
     ],
+    "author": "MagickKing",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/magickcoding/mybook/issues"
+    },
     "homepage": "https://github.com/magickcoding/mybook#readme",
     "devDependencies": {
       "electron-prebuilt": "1.1.3",
@@ -148,5 +155,6 @@
   "svnUrl": "https://github.com/magickcoding/mybook",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:46:26.856Z"
+  "lastFetchedAt": "2017-05-04T20:46:26.856Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:10.245Z"
 }

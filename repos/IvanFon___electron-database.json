@@ -80,17 +80,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "IvanFon",
-      "repo": "electron-database",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/IvanFon/electron-database/tarball/master",
-      "clone_url": "https://github.com/IvanFon/electron-database",
-      "https_url": "https://github.com/IvanFon/electron-database",
-      "travis_url": "https://travis-ci.org/IvanFon/electron-database",
-      "zip_url": "https://github.com/IvanFon/electron-database/archive/master.zip",
-      "api_url": "https://api.github.com/repos/IvanFon/electron-database"
+      "type": "git",
+      "url": "git+https://github.com/IvanFon/electron-database.git"
     },
     "keywords": [
       "database",
@@ -98,7 +89,11 @@
       "mongodb",
       "tingodb"
     ],
+    "author": "Ivan Fonseca",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/IvanFon/electron-database/issues"
+    },
     "homepage": "https://github.com/IvanFon/electron-database",
     "devDependencies": {
       "electron-prebuilt": "^1.1.1"
@@ -133,5 +128,6 @@
   "filename": "IvanFon___electron-database.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:22.836Z"
+  "lastFetchedAt": "2017-05-04T20:32:22.836Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:37.072Z"
 }

@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/NrdyN8/Nexus-IDE",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NrdyN8/Nexus-IDE"
+    },
     "keywords": [
       "Nexus",
       "IDE"
     ],
+    "author": "NrdyN8",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Nrdyn8/Nexus-IDE"
+    },
     "homepage": "https://github.com/Nrdyn8/Nexus-IDE",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -115,5 +122,6 @@
   },
   "filename": "NrdyN8___Nexus-IDE.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:58.150Z"
+  "lastFetchedAt": "2017-05-04T20:00:58.150Z",
+  "packageLastFetchedAt": "2017-05-04T22:51:08.301Z"
 }

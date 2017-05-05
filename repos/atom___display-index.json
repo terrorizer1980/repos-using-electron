@@ -78,11 +78,18 @@
       "build": "node_modules/.bin/babel src --out-dir dist",
       "clean": "rm -rf dist"
     },
-    "repository": "https://github.com/atom/display-index",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/atom/display-index.git"
+    },
     "keywords": [
       "atom display index data-structure"
     ],
+    "author": "Nathan Sobo <nathan@github.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nathansobo/display-index/issues"
+    },
     "homepage": "https://github.com/atom/display-index",
     "devDependencies": {
       "babel": "^5.0.0",
@@ -151,5 +158,6 @@
   "svnUrl": "https://github.com/atom-archive/display-index",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:39:42.229Z"
+  "lastFetchedAt": "2017-05-04T20:39:42.229Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:42.027Z"
 }

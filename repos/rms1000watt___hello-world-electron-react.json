@@ -77,7 +77,10 @@
     "private": true,
     "description": "Electron & React Boilerplate: React Router Webpack HMR LESS Images",
     "main": "main.js",
-    "repository": "https://github.com/rms1000watt/hello-world-electron-react",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/rms1000watt/hello-world-electron-react.git"
+    },
     "keywords": [
       "React",
       "Electron",
@@ -87,6 +90,7 @@
       "HMR",
       "Webpack"
     ],
+    "author": "Ryan Smith",
     "license": "MIT",
     "homepage": "https://github.com/rms1000watt/hello-world-electron-react",
     "bin": {
@@ -202,5 +206,6 @@
   },
   "filename": "rms1000watt___hello-world-electron-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:56.376Z"
+  "lastFetchedAt": "2017-05-04T21:26:56.376Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:55.538Z"
 }

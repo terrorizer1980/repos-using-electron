@@ -93,14 +93,21 @@
     "bin": {
       "pweather": "./startscript.js"
     },
-    "repository": "https://github.com/podiumnet/pweather",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/podiumnet/pweather.git"
+    },
     "scripts": {
       "start": "electron ."
     },
     "keywords": [
       "weather"
     ],
+    "author": "podium",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/podiumnet/pweather/issues"
+    },
     "homepage": "https://github.com/podiumnet/pweather#readme",
     "dependencies": {
       "coffee-script": "^1.10.0",
@@ -132,5 +139,6 @@
   },
   "filename": "podiumnet___weather.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:05.125Z"
+  "lastFetchedAt": "2017-05-04T05:10:05.125Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:13.523Z"
 }

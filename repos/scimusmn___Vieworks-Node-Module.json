@@ -87,13 +87,17 @@
     "scripts": {
       "start": "electron main.js --enable-logging"
     },
-    "repository": "https://github.com/scimusmn/Vieworks-Node-Module",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/scimusmn/Vieworks-Node-Module.git"
+    },
     "keywords": [
       "Vieworks",
       "high",
       "speed",
       "camera"
     ],
+    "author": "SMM",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "0.36.1",
@@ -132,5 +136,6 @@
   },
   "filename": "scimusmn___Vieworks-Node-Module.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:50:47.202Z"
+  "lastFetchedAt": "2017-05-04T14:50:47.202Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:35.717Z"
 }

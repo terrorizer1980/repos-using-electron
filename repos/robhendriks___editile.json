@@ -82,9 +82,16 @@
       "dev": "electron . --debug",
       "pack-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=out"
     },
-    "repository": "https://github.com/robhendriks/editile",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/robhendriks/editile.git"
+    },
     "keywords": [],
+    "author": "Rob Hendriks <cyanidenl@icloud.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/robhendriks/editile/issues"
+    },
     "homepage": "https://github.com/robhendriks/editile",
     "dependencies": {
       "async": "^2.0.1",
@@ -127,5 +134,6 @@
   },
   "filename": "robhendriks___editile.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:04.031Z"
+  "lastFetchedAt": "2017-05-04T14:20:04.031Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:08.831Z"
 }

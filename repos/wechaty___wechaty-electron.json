@@ -96,7 +96,10 @@
       "release": "echo release",
       "dist": "echo dist"
     },
-    "repository": "https://github.com/wechaty/wechaty-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wechaty/wechaty-electron.git"
+    },
     "keywords": [
       "wechaty",
       "wechat",
@@ -105,7 +108,11 @@
       "botie",
       "electron"
     ],
+    "author": "Zhuohuan LI <zixia@zixia.net>",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/wechaty/wechaty-electron/issues"
+    },
     "homepage": "https://github.com/wechaty/wechaty-electron#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -136,5 +143,6 @@
   },
   "filename": "wechaty___wechaty-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:40:24.336Z"
+  "lastFetchedAt": "2017-05-04T20:40:24.336Z",
+  "packageLastFetchedAt": "2017-05-04T22:48:10.280Z"
 }

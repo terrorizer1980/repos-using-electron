@@ -58,6 +58,11 @@
     "description": "Calculator desktop app with electron ",
     "license": "MIT",
     "repository": "DCKT/electron-calculator",
+    "author": {
+      "name": "Thomas Deconinck",
+      "email": "dck@outlook.fr",
+      "url": "thomasdeconinck.fr"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "dev": "./node_modules/.bin/webpack -w",
@@ -137,5 +142,6 @@
   },
   "filename": "DCKT___electron-calculator.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:01:26.468Z"
+  "lastFetchedAt": "2017-05-04T18:01:26.468Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:43.740Z"
 }

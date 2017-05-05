@@ -199,19 +199,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "amilajack",
-      "repo": "popcorn-desktop-experimental",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/amilajack/popcorn-desktop-experimental/tarball/master",
-      "clone_url": "https://github.com/amilajack/popcorn-desktop-experimental",
-      "https_url": "https://github.com/amilajack/popcorn-desktop-experimental",
-      "travis_url": "https://travis-ci.org/amilajack/popcorn-desktop-experimental",
-      "zip_url": "https://github.com/amilajack/popcorn-desktop-experimental/archive/master.zip",
-      "api_url": "https://api.github.com/repos/amilajack/popcorn-desktop-experimental"
+      "type": "git",
+      "url": "git+https://github.com/amilajack/popcorn-desktop-experimental.git"
+    },
+    "author": {
+      "name": "Amila Welihinda",
+      "email": "amilajack@gmail.com",
+      "url": "https://github.com/amilajack"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/amilajack/popcorn-desktop-experimental/issues"
+    },
     "keywords": [
       "popcorn-time",
       "popcorn",
@@ -387,5 +386,6 @@
   "svnUrl": "https://github.com/silviufuicu/popcorn-time-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:18:12.334Z"
+  "lastFetchedAt": "2017-05-04T15:18:12.334Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:09.811Z"
 }

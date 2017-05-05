@@ -78,6 +78,7 @@
       "build-win32": "electron-packager . JWVideos --version=0.36.8 --platform=win32 --arch=ia32",
       "build-win64": "electron-packager . JWVideos --version=0.36.8 --platform=win32 --arch=x64"
     },
+    "author": "Christopher West (http://cwestify.com/)",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -110,5 +111,6 @@
   },
   "filename": "westc___jw-videos.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:28.364Z"
+  "lastFetchedAt": "2017-05-04T21:26:28.364Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:33.657Z"
 }

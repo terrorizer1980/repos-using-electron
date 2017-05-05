@@ -80,6 +80,7 @@
       "postinstall": "install-app-deps",
       "electron": "./node_modules/.bin/electron app/ --dev"
     },
+    "author": "",
     "license": "ISC",
     "dependencies": {},
     "devDependencies": {
@@ -124,5 +125,6 @@
   },
   "filename": "carlcraig___electron-tray-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:13.474Z"
+  "lastFetchedAt": "2017-05-04T21:21:13.474Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:25.029Z"
 }

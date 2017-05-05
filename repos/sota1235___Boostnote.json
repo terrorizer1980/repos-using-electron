@@ -194,7 +194,7 @@
   "status": 200,
   "packageJSON": {
     "name": "boost",
-    "version": "0.7.5",
+    "version": "0.8.2",
     "description": "Boostnote",
     "main": "index.js",
     "license": "GPL-3.0",
@@ -202,15 +202,18 @@
       "start": "electron ./index.js",
       "hot": "electron ./index.js --hot",
       "webpack": "webpack-dev-server --hot --inline --config webpack.config.js",
-      "postinstall": "npm run vendor",
-      "vendor": "oh-my-cdn",
       "compile": "grunt compile",
-      "test": "PWD=$(pwd) NODE_ENV=test ava"
+      "test": "PWD=$(pwd) NODE_ENV=test ava",
+      "fix": "npm run lint --fix",
+      "lint": "eslint ./**/*.js"
     },
     "config": {
       "electron-version": "1.2.8"
     },
-    "repository": "https://github.com/BoostIO/Boostnote",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/BoostIO/Boostnote.git"
+    },
     "keywords": [
       "boostnote",
       "b00st",
@@ -220,6 +223,7 @@
       "storage",
       "electron"
     ],
+    "author": "Dick Choi <fluke8259@gmail.com> (https://github.com/Rokt33r)",
     "contributors": [
       "Kazu Yokomizo (https://github.com/kazup01)",
       "dojineko (https://github.com/dojineko)",
@@ -231,14 +235,21 @@
       "tjado (https://github.com/tejado)",
       "Sota Sugiura (https://github.com/sota1235)"
     ],
-    "homepage": "https://b00st.io",
+    "bugs": {
+      "url": "https://github.com/BoostIO/Boostnote/issues"
+    },
+    "homepage": "https://boostnote.io",
     "dependencies": {
       "@rokt33r/markdown-it-math": "^4.0.1",
       "@rokt33r/season": "^5.3.0",
       "codemirror": "^5.19.0",
+      "electron-config": "^0.2.1",
       "electron-gh-releases": "^2.0.2",
+      "flowchart.js": "^1.6.5",
       "font-awesome": "^4.3.0",
       "immutable": "^3.8.1",
+      "js-sequence-diagrams": "^1000000.0.6",
+      "katex": "^0.6.0",
       "lodash": "^4.11.1",
       "markdown-it": "^6.0.1",
       "markdown-it-checkbox": "^1.1.0",
@@ -248,6 +259,11 @@
       "mixpanel": "^0.4.1",
       "moment": "^2.10.3",
       "node-ipc": "^8.1.0",
+      "raphael": "^2.2.7",
+      "react": "^15.0.2",
+      "react-dom": "^15.0.2",
+      "react-redux": "^4.4.5",
+      "redux": "^3.5.2",
       "sander": "^0.5.1",
       "superagent": "^1.2.0",
       "superagent-promise": "^1.0.3"
@@ -267,6 +283,9 @@
       "dom-storage": "^2.0.2",
       "electron-packager": "^6.0.0",
       "electron-prebuilt": "^1.2.8",
+      "eslint": "^3.13.1",
+      "eslint-config-standard": "^6.2.1",
+      "eslint-config-standard-jsx": "^3.2.0",
       "faker": "^3.1.0",
       "grunt": "^0.4.5",
       "grunt-electron-installer": "^1.2.0",
@@ -274,7 +293,6 @@
       "jsdom": "^9.4.2",
       "merge-stream": "^1.0.0",
       "nib": "^1.1.0",
-      "oh-my-cdn": "^0.1.1",
       "react": "^15.3.0",
       "react-color": "^2.2.2",
       "react-css-modules": "^3.7.6",
@@ -293,14 +311,9 @@
       "grunt-electron-installer-debian": "^0.2.0"
     },
     "optional": false,
-    "standard": {
-      "globals": [
-        "localStorage"
-      ]
-    },
     "ava": {
       "files": [
-        "tests/**/*.js"
+        "tests/**/*-test.js"
       ],
       "require": [
         "babel-register"
@@ -333,5 +346,6 @@
   },
   "sourceRepo": "BoostIO/Boostnote",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:08:31.052Z"
+  "lastFetchedAt": "2017-05-04T05:08:31.052Z",
+  "packageLastFetchedAt": "2017-05-05T15:25:20.616Z"
 }

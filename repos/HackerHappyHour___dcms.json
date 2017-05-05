@@ -85,8 +85,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/HackerHappyHour/dcms",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/HackerHappyHour/dcms.git"
+    },
+    "author": {
+      "name": "Brian Vanderbusch",
+      "email": "chief@hackerhappyhour.com",
+      "url": "https://github.com/H3Chief"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/HackerHappyHour/dcms/issues"
+    },
     "keywords": [
       "CMS",
       "offline-cms",
@@ -185,5 +196,6 @@
   },
   "filename": "HackerHappyHour___dcms.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:29:43.695Z"
+  "lastFetchedAt": "2017-05-04T05:29:43.695Z",
+  "packageLastFetchedAt": "2017-05-05T01:12:52.383Z"
 }

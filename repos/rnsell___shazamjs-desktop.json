@@ -80,8 +80,15 @@
       "test": "mocha ./lib/**/*.test.js",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/rnsell/shazamjs-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rnsell/shazamjs-desktop.git"
+    },
+    "author": "rnsell",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/rnsell/shazamjs-desktop/issues"
+    },
     "homepage": "https://github.com/rnsell/shazamjs-desktop#readme",
     "dependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -112,5 +119,6 @@
   },
   "filename": "rnsell___shazamjs-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:17:28.041Z"
+  "lastFetchedAt": "2017-05-04T15:17:28.041Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:35.257Z"
 }

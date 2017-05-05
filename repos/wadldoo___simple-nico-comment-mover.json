@@ -79,8 +79,12 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "wadldoo",
     "license": "MIT",
-    "repository": "https://github.com/wadldoo/simple-nico-comment-mover",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wadldoo/simple-nico-comment-mover.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
       "querystring": "^0.2.0",
@@ -113,5 +117,6 @@
   },
   "filename": "wadldoo___simple-nico-comment-mover.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:51.134Z"
+  "lastFetchedAt": "2017-05-04T20:34:51.134Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:14.260Z"
 }

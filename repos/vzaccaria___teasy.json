@@ -56,8 +56,18 @@
     "version": "2.0.0pre",
     "description": "The next teaching tool you will ever need",
     "main": "main.js",
-    "repository": "https://github.com/vzaccaria/teasy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vzaccaria/teasy.git"
+    },
+    "author": {
+      "name": "Vittorio Zaccaria",
+      "url": "https://github.com/vzaccaria"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vzaccaria/teasy/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -179,5 +189,6 @@
   "svnUrl": "https://github.com/vzaccaria/teasy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:24:53.007Z"
+  "lastFetchedAt": "2017-05-04T05:24:53.007Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:42.931Z"
 }

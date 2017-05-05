@@ -62,8 +62,15 @@
       "stylus": "^0.51.1",
       "uglify-js": "^2.4.20"
     },
-    "repository": "https://github.com/alexdavid/shanghai",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/alexdavid/shanghai.git"
+    },
+    "author": "Alex David",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/alexdavid/shanghai/issues"
+    },
     "homepage": "https://github.com/alexdavid/shanghai"
   },
   "packageStatus": 200,
@@ -111,5 +118,6 @@
   "svnUrl": "https://github.com/alexdavid/shanghai",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:26:27.203Z"
+  "lastFetchedAt": "2017-05-04T05:26:27.203Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:47.063Z"
 }

@@ -177,6 +177,7 @@
       "css": "node-sass stylesheets/sass/screencat.scss stylesheets/css/screencat.css --watch",
       "test": "standard"
     },
+    "author": "max ogden",
     "license": "BSD-3-Clause",
     "dependencies": {
       "menubar": "^2.0.4",
@@ -199,17 +200,11 @@
       "wzrd": "^1.2.1"
     },
     "repository": {
-      "user": "maxogden",
-      "repo": "screencat",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/maxogden/screencat/tarball/master",
-      "clone_url": "https://github.com/maxogden/screencat",
-      "https_url": "https://github.com/maxogden/screencat",
-      "travis_url": "https://travis-ci.org/maxogden/screencat",
-      "zip_url": "https://github.com/maxogden/screencat/archive/master.zip",
-      "api_url": "https://api.github.com/repos/maxogden/screencat"
+      "type": "git",
+      "url": "https://github.com/maxogden/screencat.git"
+    },
+    "bugs": {
+      "url": "https://github.com/maxogden/screencat/issues"
     },
     "homepage": "https://github.com/maxogden/screencat"
   },
@@ -259,5 +254,6 @@
   "svnUrl": "https://github.com/risyasin/screencat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:05:35.322Z"
+  "lastFetchedAt": "2017-05-04T21:05:35.322Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:22.195Z"
 }

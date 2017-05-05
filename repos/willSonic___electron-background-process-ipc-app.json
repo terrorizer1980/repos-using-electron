@@ -74,6 +74,7 @@
       "start": "./node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Kyle Smith",
     "license": "ISC",
     "dependencies": {
       "bluebird": "^3.4.6",
@@ -108,5 +109,6 @@
   },
   "filename": "willSonic___electron-background-process-ipc-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:32.311Z"
+  "lastFetchedAt": "2017-05-04T17:54:32.311Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:36.158Z"
 }

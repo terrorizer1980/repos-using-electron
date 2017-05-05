@@ -47,7 +47,7 @@
   "status": 200,
   "packageJSON": {
     "name": "screenshot-pool",
-    "version": "0.1.3",
+    "version": "0.2.0",
     "description": "A rock solid screenshot service using pooled electron workers",
     "main": "index.js",
     "scripts": {
@@ -55,9 +55,16 @@
       "coverage": "istanbul cover _mocha -- -R spec",
       "lint": "eslint index.js app/*.js lib/*.js test/*.js"
     },
+    "author": "Asaf Yishai <asaf@yishai.info>",
     "license": "MIT",
     "homepage": "https://github.com/asafyish/screenshot-pool",
-    "repository": "https://github.com/asafyish/screenshot-pool",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/asafyish/screenshot-pool"
+    },
+    "bugs": {
+      "url": "https://github.com/asafyish/screenshot-pool/issues"
+    },
     "keywords": [
       "electron",
       "screenshot",
@@ -68,10 +75,10 @@
       "xvfb"
     ],
     "dependencies": {
+      "cross-spawn": "5.1.0",
+      "electron-prebuilt": "1.4.13",
       "generic-pool": "2.4.2",
-      "electron-prebuilt": "1.2.5",
-      "cross-spawn": "4.0.0",
-      "length-prefixed-stream": "1.5.0"
+      "length-prefixed-stream": "1.5.1"
     },
     "devDependencies": {
       "eslint": "2.13.1",
@@ -130,5 +137,6 @@
   "svnUrl": "https://github.com/asafyish/screenshot-pool",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:30:52.158Z"
+  "lastFetchedAt": "2017-05-04T21:30:52.158Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:56.217Z"
 }

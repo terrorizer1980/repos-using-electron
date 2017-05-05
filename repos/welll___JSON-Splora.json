@@ -191,8 +191,12 @@
     "version": "0.0.5",
     "description": "GUI for editing, visualizing, and manipulating JSON data",
     "main": "index.js",
-    "repository": "https://github.com/wellsjo/JSON-Splora",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wellsjo/JSON-Splora.git"
+    },
     "license": "MIT",
+    "bugs": "https://github.com/wellsjo/JSON-Splora/issues",
     "bin": {
       "jsplora": "bin/jsplora"
     },
@@ -213,6 +217,7 @@
       "json",
       "json5"
     ],
+    "author": "wellsjo",
     "devDependencies": {
       "electron-packager": "^8.3.0",
       "eslint": "^3.11.1",
@@ -265,5 +270,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:32:46.696Z"
+  "lastFetchedAt": "2017-05-04T17:32:46.696Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:28.503Z"
 }

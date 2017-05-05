@@ -94,14 +94,21 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/actsasmighty/mighty_maps_editor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/actsasmighty/mighty_maps_editor.git"
+    },
     "keywords": [
       "mighty_maps",
       "seat_map",
       "editor",
       "electron"
     ],
+    "author": "Michael Sievers",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/actsasmighty/mighty_maps_editor/issues"
+    },
     "homepage": "https://github.com/actsasmighty/mighty_maps_editor",
     "devDependencies": {
       "devtron": "^1.2.1",
@@ -139,5 +146,6 @@
   },
   "filename": "actsasmighty___mighty_maps_editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:29:00.923Z"
+  "lastFetchedAt": "2017-05-04T14:29:00.923Z",
+  "packageLastFetchedAt": "2017-05-05T17:27:26.613Z"
 }

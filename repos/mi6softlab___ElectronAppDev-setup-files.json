@@ -74,6 +74,7 @@
       "start": "electron .",
       "build": "electron-packager . <app name> --platform=win32 --arch=all --ignore=node_modules/electron-* --version=1.0.0 --icon=assets/img/logo.png.icns --out=build/"
     },
+    "author": "<author>",
     "license": "ISC",
     "devDependencies": {
       "asar": "^0.11.0",
@@ -106,5 +107,6 @@
   },
   "filename": "mi6softlab___ElectronAppDev-setup-files.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:39.270Z"
+  "lastFetchedAt": "2017-05-04T18:04:39.270Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:03.366Z"
 }

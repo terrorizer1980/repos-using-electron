@@ -90,7 +90,10 @@
     "version": "1.0.0",
     "description": "A StreamStatsApp Application Made in Electron ",
     "main": "main.js",
-    "repository": "https://github.com/StreamStats/StreamStatsApp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/StreamStats/StreamStatsApp.git"
+    },
     "scripts": {
       "start": "electron main.js",
       "materialize": "bower install materialize"
@@ -101,7 +104,11 @@
       "start",
       "tutorial"
     ],
+    "author": "StreamStats",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/StreamStats/StreamStatsApp/issues"
+    },
     "homepage": "https://github.com/StreamStatsApp/StreamStatsApp",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -137,5 +144,6 @@
   },
   "filename": "StreamStats___StreamStatsApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:25:43.332Z"
+  "lastFetchedAt": "2017-05-04T21:25:43.332Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:07.708Z"
 }

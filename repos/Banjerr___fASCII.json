@@ -79,7 +79,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/banjerr/fascii",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/banjerr/fascii.git"
+    },
     "keywords": [
       "ASCII",
       "face",
@@ -88,7 +91,11 @@
       "javascript",
       "angular"
     ],
+    "author": "Ben Redden",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/banjerr/fascii/issues"
+    },
     "homepage": "https://github.com/banjerr/fascii#readme",
     "devDependencies": {
       "devtron": "^1.2.0",
@@ -131,5 +138,6 @@
   },
   "filename": "Banjerr___fASCII.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:01.754Z"
+  "lastFetchedAt": "2017-05-04T16:42:01.754Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:12.916Z"
 }

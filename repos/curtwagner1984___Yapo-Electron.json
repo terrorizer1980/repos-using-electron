@@ -74,6 +74,7 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron app/main.js"
     },
+    "author": "Curt Wagner <curtwagner1984@gmail.com>",
     "license": "GPL-3.0",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -105,5 +106,6 @@
   },
   "filename": "curtwagner1984___Yapo-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:02:42.409Z"
+  "lastFetchedAt": "2017-05-04T20:02:42.409Z",
+  "packageLastFetchedAt": "2017-05-04T22:37:55.580Z"
 }

@@ -85,8 +85,15 @@
       "test": "echo \"noop\" && exit 0",
       "precommit": "npm run lint"
     },
-    "repository": "https://github.com/superbrothers/electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/superbrothers/electron-boilerplate.git"
+    },
+    "author": "Kazuki Suda <kazuki.suda@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/superbrothers/electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/superbrothers/electron-boilerplate#readme",
     "dependencies": {
       "material-ui": "^0.15.0-alpha.1",
@@ -146,5 +153,6 @@
   },
   "filename": "ysm001___anywhere-ruler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:16:58.541Z"
+  "lastFetchedAt": "2017-05-04T20:16:58.541Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:15.939Z"
 }

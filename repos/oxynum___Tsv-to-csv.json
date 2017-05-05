@@ -81,5 +81,61 @@
   "networkCount": 0,
   "subscribersCount": 3,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:04:11.551Z"
+  "lastFetchedAt": "2017-05-04T20:04:11.551Z",
+  "packageJSON": {
+    "name": "tsv-to-csv",
+    "version": "1.0.0",
+    "description": "Scrap HTML page and put values in a csv file that can be downloaded",
+    "main": "index.js",
+    "scripts": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/oxynum/Tsv-to-csv.git"
+    },
+    "keywords": [
+      "csv",
+      "tsv",
+      "git",
+      "github",
+      "nodejs",
+      "javascript",
+      "mail",
+      "scrap"
+    ],
+    "author": "Maxime Gasnier",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/oxynum/Tsv-to-csv/issues"
+    },
+    "homepage": "https://github.com/oxynum/Tsv-to-csv#readme",
+    "devDependencies": {
+      "electron": "^1.4.15",
+      "body-parser": "^1.16.1",
+      "colors": "^1.1.2",
+      "ejs": "^2.5.6",
+      "express": "^4.14.1",
+      "json-file": "^0.1.0",
+      "json2csv": "^3.7.3",
+      "nodemailer": "^3.1.4",
+      "sendmail": "^1.1.1",
+      "tsv": "^0.2.0"
+    },
+    "dependencies": {
+      "body-parser": "^1.16.1",
+      "colors": "^1.1.2",
+      "ejs": "^2.5.6",
+      "express": "^4.14.1",
+      "json-file": "^0.1.0",
+      "json2csv": "^3.7.3",
+      "node-mailjet": "^3.0.6",
+      "node-schedule": "^1.2.0",
+      "nodemailer": "^3.1.4",
+      "sendmail": "^1.1.1",
+      "tsv": "^0.2.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:36:18.992Z"
 }

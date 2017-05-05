@@ -86,44 +86,50 @@
   "subscribersCount": 3,
   "status": 200,
   "packageJSON": {
-    "name": "stencila-electron",
-    "productName": "Stencila",
-    "version": "0.1.0",
-    "description": "",
-    "keywords": [
-      "data",
-      "documents",
-      "sheets",
-      "sessions",
-      "reproducibility",
-      "science"
-    ],
-    "author": "",
-    "license": "GPL-3.0",
-    "homepage": "https://github.com/stencila/electron#readme",
+    "name": "stencila-desktop",
+    "productName": "Stencila Desktop",
+    "description": "Stencila for the desktop",
+    "version": "0.26.0",
+    "author": "Nokome Bentley",
+    "homepage": "http://stenci.la",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/stencila/electron.git"
+      "url": "git+https://github.com/stencila/desktop.git"
     },
     "bugs": {
-      "url": "https://github.com/stencila/electron/issues"
+      "url": "https://github.com/stencila/desktop/issues"
+    },
+    "license": "Apache-2.0",
+    "main": "app/main.js",
+    "build": {
+      "appId": "com.stencila.stencila-desktop",
+      "files": [
+        "app/**/*",
+        "node_modules/**/*",
+        "package.json"
+      ],
+      "publish": null
     },
     "scripts": {
-      "lint": "eslint *.js",
-      "start": "electron .",
-      "build": "electron-packager . --out=build --asar --overwrite --all"
+      "postinstall": "install-app-deps",
+      "lint": "eslint *.js src",
+      "release": "node make && build",
+      "watch": "node make -w",
+      "build": "node make",
+      "app": "electron .",
+      "start": "node make && npm-run-all --parallel watch app"
     },
-    "files": [
-      "index.js"
-    ],
     "dependencies": {
-      "electron-debug": "^1.0.0"
+      "stencila": "^0.26.3",
+      "stencila-node": "^0.26.2"
     },
     "devDependencies": {
-      "devtron": "^1.1.0",
-      "electron": "^1.4.4",
-      "electron-packager": "^8.0.0",
-      "eslint": "^3.5.0"
+      "npm-run-all": "^3.1.0",
+      "extract-zip": "=1.6.0",
+      "electron": "1.6.2",
+      "electron-builder": "^14.5.2",
+      "source-map-support": "^0.4.11",
+      "substance-bundler": "^0.15.2"
     }
   },
   "packageStatus": 200,
@@ -151,5 +157,6 @@
   },
   "filename": "stencila___electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:02.892Z"
+  "lastFetchedAt": "2017-05-04T19:54:02.892Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:31.295Z"
 }

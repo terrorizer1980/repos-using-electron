@@ -54,14 +54,21 @@
       "build": "cp -r ./app ./build/Magnolial.app/Contents/Resources/",
       "install": "cp -r ./build/Magnolial.app /Applications/Magnolial.app"
     },
-    "repository": "https://github.com/eflynch/magnolial",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/eflynch/magnolial.git"
+    },
     "keywords": [
       "magnolial",
       "workflowy",
       "lists",
       "trees"
     ],
+    "author": "Evan F. Lynch <evan.f.lynch@gmail.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/eflynch/magnolial/issues"
+    },
     "homepage": "https://github.com/eflynch/magnolial",
     "dependencies": {
       "detect-node": "^2.0.3",
@@ -133,5 +140,6 @@
   },
   "filename": "eflynch___magnolial.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:42:44.158Z"
+  "lastFetchedAt": "2017-05-04T19:42:44.158Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:24.911Z"
 }

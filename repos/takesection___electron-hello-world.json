@@ -74,8 +74,15 @@
       "start": "tsc && electron .",
       "postinstall": "typings install"
     },
-    "repository": "https://github.com/takesection/electron-hello-world",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/takesection/electron-hello-world.git"
+    },
+    "author": "takesection@gmail.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/takesection/electron-hello-world/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.4.1",
       "typescript": "^2.0.3",
@@ -107,5 +114,6 @@
   },
   "filename": "takesection___electron-hello-world.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:09:02.916Z"
+  "lastFetchedAt": "2017-05-04T18:09:02.916Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:48.726Z"
 }

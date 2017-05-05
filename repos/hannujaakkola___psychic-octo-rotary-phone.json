@@ -80,17 +80,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "atom",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/atom/electron-quick-start",
-      "https_url": "https://github.com/atom/electron-quick-start",
-      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
-      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -98,7 +89,11 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -130,5 +125,6 @@
   "filename": "hannujaakkola___psychic-octo-rotary-phone.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:16:06.063Z"
+  "lastFetchedAt": "2017-05-04T18:16:06.063Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:38.083Z"
 }

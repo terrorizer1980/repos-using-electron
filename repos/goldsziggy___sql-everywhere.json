@@ -72,8 +72,19 @@
       "postinstall": "node node_modules/fbjs-scripts/node/check-dev-engines.js package.json",
       "dev": "concurrently --kill-others \"npm run hot-server\" \"npm run start-hot\""
     },
-    "repository": "https://github.com/goldsziggy/sql-everywhere",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/goldsziggy/sql-everywhere.git"
+    },
+    "author": {
+      "name": "Matthew Zygowicz",
+      "email": "matt.zygowicz@gmail.com",
+      "url": "https://github.com/goldsziggy/"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/goldsziggy/sql-everywhere/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -218,5 +229,6 @@
   "svnUrl": "https://github.com/goldsziggy/sql-everywhere",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:09:16.098Z"
+  "lastFetchedAt": "2017-05-04T05:09:16.098Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:25.623Z"
 }

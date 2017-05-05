@@ -104,14 +104,21 @@
     "scripts": {
       "start": "gulp && electron ."
     },
-    "repository": "https://github.com/madebybright/finale",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/madebybright/finale.git"
+    },
     "keywords": [
       "finale",
       "lastfm",
       "os",
       "x"
     ],
+    "author": "Josh Trommel",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/madebybright/finale/issues"
+    },
     "homepage": "https://github.com/madebybright/finale#readme"
   },
   "packageStatus": 200,
@@ -139,5 +146,6 @@
   },
   "filename": "Maybulb___finale.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:25.591Z"
+  "lastFetchedAt": "2017-05-04T15:13:25.591Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:26.972Z"
 }

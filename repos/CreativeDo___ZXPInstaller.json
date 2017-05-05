@@ -88,8 +88,15 @@
       "pack:osx": "npm run build:osx && ./node_modules/.bin/electron-builder \"release/osx/ZXPInstaller.app\" --platform=macos --out=\"release/osx\" --config=packager.json",
       "pack:win": "npm run build:win && ./node_modules/.bin/electron-builder \"release/win/ZXPInstaller-win32\" --platform=win --out=\"release/win\" --config=packager.json"
     },
-    "repository": "https://github.com/CreativeDo/ZXPInstaller",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CreativeDo/ZXPInstaller.git"
+    },
+    "author": "CreativeDo",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/CreativeDo/ZXPInstaller/issues"
+    },
     "homepage": "https://github.com/CreativeDo/ZXPInstaller#readme"
   },
   "packageStatus": 200,
@@ -137,5 +144,6 @@
   },
   "filename": "CreativeDo___ZXPInstaller.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:16:10.386Z"
+  "lastFetchedAt": "2017-05-04T20:16:10.386Z",
+  "packageLastFetchedAt": "2017-05-05T17:10:10.328Z"
 }

@@ -182,17 +182,8 @@
       "lint": "gulp lint"
     },
     "repository": {
-      "user": "huston007",
-      "repo": "vk-scrobbler",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/huston007/vk-scrobbler/tarball/master",
-      "clone_url": "https://github.com/huston007/vk-scrobbler",
-      "https_url": "https://github.com/huston007/vk-scrobbler",
-      "travis_url": "https://travis-ci.org/huston007/vk-scrobbler",
-      "zip_url": "https://github.com/huston007/vk-scrobbler/archive/master.zip",
-      "api_url": "https://api.github.com/repos/huston007/vk-scrobbler"
+      "type": "git",
+      "url": "https://github.com/huston007/vk-scrobbler.git"
     },
     "keywords": [
       "vk.com",
@@ -277,5 +268,6 @@
   "svnUrl": "https://github.com/ford153focus/vk-scrobbler",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:47:04.405Z"
+  "lastFetchedAt": "2017-05-04T20:47:04.405Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:32.620Z"
 }

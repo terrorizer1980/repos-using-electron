@@ -66,16 +66,23 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "hack.chat-desktop",
+    "name": "Chatron",
     "version": "0.1.0",
     "main": "main.js",
     "engines": {
       "node": ">=6.5.0"
     },
+    "author": "raf924",
+    "description": "A cross-platform client",
     "scripts": {
       "start": "node start.js",
-      "package": "node package.js",
-      "postinstall": "node build.js"
+      "dev": "node_modules\\.bin\\electron.cmd . dev",
+      "debug": "node_modules\\.bin\\electron.cmd %NODE_DEBUG_OPTION% . dev",
+      "package": "node build.js && node package.js",
+      "build": "node build.js",
+      "install:electron": "npm install electron && npm install electron-builder && npm install electron-packager",
+      "build:cordova": "node build.js && cd cordova && ../node_modules/.bin/cordova prepare && node copyIcon.js && ../node_modules/.bin/cordova build",
+      "run:android": "node build.js && cd cordova && node copyIcon.js && ..\\node_modules\\.bin\\cordova.cmd run android"
     },
     "repository": {
       "type": "git",
@@ -87,29 +94,34 @@
       "desktop",
       "electron"
     ],
+    "build": {
+      "appId": "tk.rafaelnaciri.chatron"
+    },
     "license": "MIT",
     "dependencies": {
-      "events": "^1.1.1",
-      "fs": "0.0.1-security",
-      "hammer": "0.0.5",
-      "jquery": "^3.1.1",
-      "material-design-icons": "^3.0.1",
-      "materialize-css": "^0.97.8",
-      "require-rebuild": "^1.2.8",
       "titlebar": "^1.4.0"
     },
+    "optionalDependencies": {
+      "cordova": "^6.5.0",
+      "extract-text-webpack-plugin": "^2.0.0-rc.3",
+      "file-loader": "^0.10.0",
+      "html-loader": "^0.4.4",
+      "webpack": "^2.2.1",
+      "css-loader": "^0.26.1"
+    },
     "devDependencies": {
-      "@types/electron": "^1.4.25",
-      "@types/jquery": "^2.0.33",
-      "@types/materialize-css": "^0.97.32",
-      "@types/node": "^6.0.46",
-      "adm-zip": "^0.4.7",
-      "electron": "^1.4.5",
-      "electron-builder": "^7.18.0",
-      "electron-packager": "^8.2.0",
-      "install": "^0.8.2",
-      "less": "^2.7.1",
-      "typescript": "^2.0.6"
+      "@types/cordova": "0.0.34",
+      "@types/electron": "^1.4.31",
+      "@types/electron-builder": "^2.0.29",
+      "@types/hammerjs": "^2.0.34",
+      "@types/jquery": "^2.0.40",
+      "@types/node": "^6.0.62",
+      "@types/webpack": "^2.2.4",
+      "bower": "^1.8.0",
+      "copy-webpack-plugin": "^4.0.1",
+      "less": "^2.7.2",
+      "typescript": "^2.2.1",
+      "xml2js": "^0.4.17"
     }
   },
   "packageStatus": 200,
@@ -137,5 +149,6 @@
   },
   "filename": "raf924___hack.chat-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:45.780Z"
+  "lastFetchedAt": "2017-05-04T20:31:45.780Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:32.790Z"
 }

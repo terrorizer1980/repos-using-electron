@@ -79,12 +79,16 @@
     "license": "BSD-3-Clause",
     "url": "https://github.com/Kelmar/LunaIRC",
     "email": "kfiresun@gmail.com",
-    "repository": "https://github.com/Kelmar/LunaIRC",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Kelmar/LunaIRC"
+    },
     "scripts": {
       "start": "electron .",
-      "install": "typings install --global --save dt~node env~electron dt~knockout dt~jquery dt~bootstrap dt~lodash dt~async",
+      "install": "typings install --global --save dt~node env~electron dt~knockout dt~jquery dt~bootstrap dt~lodash dt~async dt~handlebars",
       "build": "tsc -p . && npm build",
-      "clean": "rm -rfv app/ts/*.js app/ts/*.map node_modules"
+      "clean": "rm -rfv app/ts/*.js app/ts/*.map node_modules",
+      "env": "env"
     },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -95,7 +99,8 @@
       "bootstrap": "^3.3.6",
       "font-awesome": "^4.6.3",
       "lodash": "^4.13.1",
-      "async": "^2.0.1"
+      "async": "^2.0.1",
+      "handlebars": "^4.0.5"
     }
   },
   "packageStatus": 200,
@@ -123,5 +128,6 @@
   },
   "filename": "Kelmar___LunaIRC.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:56:24.300Z"
+  "lastFetchedAt": "2017-05-04T20:56:24.300Z",
+  "packageLastFetchedAt": "2017-05-04T22:59:00.084Z"
 }

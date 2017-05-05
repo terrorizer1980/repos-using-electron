@@ -73,6 +73,7 @@
       "start": "webpack && electron app",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Gregg Lamb",
     "license": "MIT",
     "dependencies": {
       "phaser": "^2.6.2"
@@ -114,5 +115,6 @@
   },
   "filename": "glamb___phaserjs-es6-electron-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:18:22.084Z"
+  "lastFetchedAt": "2017-05-04T14:18:22.084Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:46.061Z"
 }

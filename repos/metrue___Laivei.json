@@ -79,9 +79,16 @@
     "scripts": {
       "test": "./test/test_runner.sh"
     },
-    "repository": "https://github.com/metrue/iOSonJS",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/metrue/iOSonJS.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/metrue/iOSonJS/issues"
+    },
     "homepage": "https://github.com/metrue/iOSonJS#readme"
   },
   "packageStatus": 200,
@@ -109,5 +116,6 @@
   },
   "filename": "metrue___Laivei.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:31:16.564Z"
+  "lastFetchedAt": "2017-05-04T18:31:16.564Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:26.718Z"
 }

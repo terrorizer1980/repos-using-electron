@@ -59,7 +59,10 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/vutran/electron-webpack-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:vutran/electron-webpack-boilerplate.git"
+    },
     "keywords": [
       "electron",
       "webpack",
@@ -67,7 +70,11 @@
       "boilerplate",
       "node"
     ],
+    "author": "Vu Tran",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/vutran/electron-react-boilerplate/issues"
+    },
     "homepage": "https://github.com/vutran/electron-react-boilerplate#readme",
     "devDependencies": {
       "autoprefixer": "^6.1.2",
@@ -157,5 +164,6 @@
   },
   "filename": "vutran___electron-webpack-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:04.130Z"
+  "lastFetchedAt": "2017-05-04T14:54:04.130Z",
+  "packageLastFetchedAt": "2017-05-05T14:51:30.468Z"
 }

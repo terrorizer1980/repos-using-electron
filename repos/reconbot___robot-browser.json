@@ -76,6 +76,7 @@
       "postinstall": "install-app-deps"
     },
     "keywords": [],
+    "author": "Francis Gulotta",
     "license": "ISC",
     "build": {
       "appId": "com.reconbot.robotbrowser",
@@ -87,7 +88,13 @@
       "electron-builder": "^7.9.0",
       "electron": "^1.4.1"
     },
-    "repository": "https://github.com/reconbot/robot-browser",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:reconbot/robot-browser.git"
+    },
+    "bugs": {
+      "url": "https://github.com/reconbot/robot-browser/issues"
+    },
     "homepage": "https://github.com/reconbot/robot-browser#readme"
   },
   "packageStatus": 200,
@@ -115,5 +122,6 @@
   },
   "filename": "reconbot___robot-browser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:24:57.246Z"
+  "lastFetchedAt": "2017-05-04T18:24:57.246Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:23.134Z"
 }

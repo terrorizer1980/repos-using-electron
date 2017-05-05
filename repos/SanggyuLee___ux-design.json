@@ -66,13 +66,14 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron",
+    "name": "Habari",
     "version": "1.0.0",
     "description": "",
     "main": "main.js",
     "scripts": {
       "start": "electron .",
-      "dev": "electron . --debug"
+      "dev": "electron . --debug",
+      "pack": "electron-packager . Habari --all"
     },
     "author": "",
     "license": "ISC",
@@ -82,6 +83,9 @@
     "dependencies": {
       "devtron": "^1.4.0",
       "glob": "^7.1.1",
+      "hover.css": "^2.0.2",
+      "jquery": "^3.1.1",
+      "request": "^2.79.0",
       "twitter": "^1.4.0",
       "wordcloud": "^1.0.5"
     }
@@ -111,5 +115,6 @@
   },
   "filename": "SanggyuLee___ux-design.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:27.790Z"
+  "lastFetchedAt": "2017-05-04T05:06:27.790Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:09.714Z"
 }

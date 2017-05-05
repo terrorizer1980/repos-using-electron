@@ -76,7 +76,10 @@
     "version": "0.0.1",
     "description": "A simple app to help organize photos into groups (to be saved, to be deleted, to be edited, ...).",
     "main": "index.js",
-    "repository": "https://github.com/varomorf/PhotOrganizer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/varomorf/PhotOrganizer.git"
+    },
     "keywords": [
       "pictures",
       "photos",
@@ -84,7 +87,11 @@
       "manage",
       "manager"
     ],
+    "author": "varomorf@gmail.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/varomorf/PhotOrganizer/issues"
+    },
     "homepage": "https://github.com/varomorf/PhotOrganizer#readme",
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
@@ -144,5 +151,6 @@
   "filename": "varomorf___esguil-PhotOrganizer.json",
   "sourceRepo": "varomorf/PhotOrganizer",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:30:45.181Z"
+  "lastFetchedAt": "2017-05-04T21:30:45.181Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:29.897Z"
 }

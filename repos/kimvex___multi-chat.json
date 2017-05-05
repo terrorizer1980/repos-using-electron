@@ -56,6 +56,7 @@
       "cons": "electron-packager ./ \"multi-chat\" --platform=linux --arch=x64 --version=0.36.0 --ignore='node_modules' && asar pack multi-chat-linux-x64/resources/app multi-chat-linux-x64/resources/app.asar && rm -r multi-chat-linux-x64/resources/app && rm -r multi-chat-linux-x64/resources/default_app",
       "conswin": "electron-packager ./ \"multi-chat\" --platform=win32 --arch=x64 --version=0.36.0 --ignore='node_modules' && asar pack multi-chat-win32-x64/resources/app multi-chat-win32-x64/resources/app.asar && rm -r multi-chat-win32-x64/resources/app && rm -r multi-chat-win32-x64/resources/default_app"
     },
+    "author": "Benjamin De la Cruz Martinez",
     "license": "ISC",
     "dependencies": {
       "asar": "^0.8.3",
@@ -111,5 +112,6 @@
   "svnUrl": "https://github.com/kimvex/multi-chat",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:33:14.706Z"
+  "lastFetchedAt": "2017-05-04T18:33:14.706Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:56.631Z"
 }

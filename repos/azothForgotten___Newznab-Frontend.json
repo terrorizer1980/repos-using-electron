@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Keagan Hilliard",
     "license": "MIT",
     "dependencies": {
       "alt": "^0.18.6",
@@ -124,5 +125,6 @@
   },
   "filename": "azothForgotten___Newznab-Frontend.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:20:15.727Z"
+  "lastFetchedAt": "2017-05-04T18:20:15.727Z",
+  "packageLastFetchedAt": "2017-05-05T13:57:59.446Z"
 }

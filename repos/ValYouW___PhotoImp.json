@@ -80,8 +80,18 @@
       "start": "bash startdev.sh",
       "buildwin": "electron-packager . PhotoImp --platform=win32 --arch=all --icon=assets/logo_32.ico --ignore=\"node_modules/(electron-packager|electron-prebuilt)\" --out=build"
     },
-    "repository": "https://github.com/ValYouW/PhotoImp",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ValYouW/PhotoImp.git"
+    },
+    "author": {
+      "name": "ValYouW",
+      "email": "ValYouW@gmail.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ValYouW/PhotoImp/issues"
+    },
     "homepage": "https://github.com/ValYouW/PhotoImp",
     "dependencies": {
       "angular": "^1.4.7",
@@ -120,5 +130,6 @@
   },
   "filename": "ValYouW___PhotoImp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:13.821Z"
+  "lastFetchedAt": "2017-05-04T21:29:13.821Z",
+  "packageLastFetchedAt": "2017-05-05T15:06:47.864Z"
 }

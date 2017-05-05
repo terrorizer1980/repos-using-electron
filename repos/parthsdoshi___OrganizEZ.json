@@ -73,11 +73,18 @@
     "scripts": {
       "start": "electron ./scripts/main.js"
     },
-    "repository": "https://github.com/darthyoshi007/ATT-Hackathon",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/darthyoshi007/ATT-Hackathon.git"
+    },
     "keywords": [
       "organize"
     ],
+    "author": "Parth Doshi",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/darthyoshi007/ATT-Hackathon/issues"
+    },
     "homepage": "https://github.com/darthyoshi007/ATT-Hackathon#readme",
     "dependencies": {
       "angular": "^1.5.7",
@@ -123,5 +130,6 @@
   },
   "filename": "parthsdoshi___OrganizEZ.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:01.566Z"
+  "lastFetchedAt": "2017-05-04T21:06:01.566Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:21.177Z"
 }

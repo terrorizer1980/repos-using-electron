@@ -74,8 +74,15 @@
       "boilerplates",
       "generator"
     ],
+    "author": "Vitor Britto <code@vitorbritto.com.br> (http://vitorbritto.com.br/)",
     "license": "MIT",
-    "repository": "https://github.com/vitorbritto/boilerplates",
+    "repository": {
+      "type": "git",
+      "url": "git://vitorbritto@github.com/vitorbritto/boilerplates.git"
+    },
+    "bugs": {
+      "url": "https://github.com/vitorbritto/boilerplates/issues"
+    },
     "dependencies": {
       "shelljs": "~0.2.6",
       "cli-color": "~0.2.2",
@@ -107,5 +114,6 @@
   },
   "filename": "vitorbritto___boilerplates.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:36.100Z"
+  "lastFetchedAt": "2017-05-04T05:18:36.100Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:19.599Z"
 }

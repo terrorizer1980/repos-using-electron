@@ -73,27 +73,31 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-physical-web-scan",
-    "version": "0.2.8",
+    "version": "0.3.0",
     "description": "Electron app for Mac OSX to scan for Physical Web (Eddystone) beacons",
     "main": "main.js",
     "scripts": {
-      "package": "node ./node_modules/electron-packager/cli.js ./ PhysicalWebScan --platform=darwin --arch=x64 --version=1.4.0 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
+      "package": "node ./node_modules/electron-packager/cli.js ./ PhysicalWebScan --platform=darwin --arch=x64 --electron-version=1.4.13 --ignore=node_modules/electron-rebuild --asar --icon=icon.icns",
       "rebuild": "node ./node_modules/.bin/electron-rebuild",
       "electron": "node ./node_modules/electron-prebuilt/cli.js ."
     },
-    "repository": "https://github.com/dermike/electron-physical-web-scan",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/dermike/electron-physical-web-scan.git"
+    },
     "keywords": [
       "electron",
       "physical web"
     ],
+    "author": "Mikael Jergefelt",
     "license": "ISC",
     "devDependencies": {
-      "electron-packager": "8.0.0",
-      "electron-prebuilt": "1.4.0",
-      "electron-rebuild": "1.2.1"
+      "electron-packager": "8.6.0",
+      "electron-prebuilt": "1.4.13",
+      "electron-rebuild": "1.5.7"
     },
     "dependencies": {
-      "noble": "1.7.0"
+      "noble": "1.8.0"
     }
   },
   "packageStatus": 200,
@@ -121,5 +125,6 @@
   },
   "filename": "dermike___physical-web-scan-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:41.048Z"
+  "lastFetchedAt": "2017-05-04T14:21:41.048Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:03.142Z"
 }

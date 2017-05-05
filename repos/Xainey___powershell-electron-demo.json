@@ -73,5 +73,38 @@
   "networkCount": 0,
   "subscribersCount": 3,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:04:39.439Z"
+  "lastFetchedAt": "2017-05-04T05:04:39.439Z",
+  "packageJSON": {
+    "name": "diskr",
+    "version": "1.0.0",
+    "description": "An Electron-Powershell demo",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "build": "electron-packager . --platform=win32 --arch=x64 --icon=icon.ico --out=dist --overwrite"
+    },
+    "repository": "https://github.com/xainey/electron-powershell-demo",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo",
+      "powershell"
+    ],
+    "author": "GitHub",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "~1.6.2"
+    },
+    "dependencies": {
+      "bootstrap": "^4.0.0-alpha.6",
+      "datatables.net": "^1.10.13",
+      "datatables.net-bs4": "^1.10.13",
+      "jquery": "^3.2.1",
+      "node-powershell": "^3.1.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:10:40.374Z"
 }

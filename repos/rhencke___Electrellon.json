@@ -58,8 +58,15 @@
       "start": "node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/rhencke/electrellon",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/rhencke/electrellon.git"
+    },
+    "author": "Robert Hencke",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rhencke/electrellon/issues"
+    },
     "homepage": "https://github.com/rhencke/electrellon#readme"
   },
   "packageStatus": 200,
@@ -107,5 +114,6 @@
   "svnUrl": "https://github.com/rhencke/Electrellon",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:26:35.089Z"
+  "lastFetchedAt": "2017-05-04T18:26:35.089Z",
+  "packageLastFetchedAt": "2017-05-05T17:06:15.636Z"
 }

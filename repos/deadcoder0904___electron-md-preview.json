@@ -70,6 +70,7 @@
     "version": "1.0.0",
     "description": "MD previewer Desktop App made in Electron",
     "main": "app.js",
+    "author": "Akshay Kadam",
     "license": "MIT",
     "scripts": {
       "package": "asar pack MyApp-linux-x64/resources/app MyApp-linux-x64/resources/app.asar",
@@ -111,5 +112,6 @@
   },
   "filename": "deadcoder0904___electron-md-preview.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:16.393Z"
+  "lastFetchedAt": "2017-05-04T05:04:16.393Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:48.608Z"
 }

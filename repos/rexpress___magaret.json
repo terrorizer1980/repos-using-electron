@@ -87,16 +87,25 @@
   "status": 200,
   "packageJSON": {
     "name": "magaret",
-    "version": "0.0.1",
-    "main": "src/app.js",
+    "version": "1.0.0",
+    "main": "app/app.js",
     "scripts": {
-      "start": "electron app/app.js"
+      "start": "electron app/app.js",
+      "build": "node tools/build.js",
+      "clean": "node tools/clean.js"
     },
     "dependencies": {
       "async": "^2.1.2",
       "electron": "^1.4.2",
       "jsonfile": "^2.4.0",
-      "request": "^2.75.0"
+      "request": "^2.75.0",
+      "dockerode": "^2.3.1"
+    },
+    "devDependencies": {
+      "electron-packager": "^8.3.0",
+      "fs-extra": "^1.0.0",
+      "minimist": "^1.2.0",
+      "sync-exec": "^0.6.2"
     }
   },
   "packageStatus": 200,
@@ -124,5 +133,6 @@
   },
   "filename": "rexpress___magaret.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:02:04.730Z"
+  "lastFetchedAt": "2017-05-04T06:02:04.730Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:22.245Z"
 }

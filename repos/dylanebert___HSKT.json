@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/dylanebert/CHS",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dylanebert/CHS.git"
+    },
+    "author": "Dylan Ebert",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dylanebert/CHS/issues"
+    },
     "homepage": "https://github.com/dylanebert/CHS#readme",
     "dependencies": {
       "csv": "^1.1.0",
@@ -108,5 +115,6 @@
   },
   "filename": "dylanebert___HSKT.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:16.242Z"
+  "lastFetchedAt": "2017-05-04T05:11:16.242Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:27.633Z"
 }

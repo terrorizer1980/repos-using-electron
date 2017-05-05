@@ -81,8 +81,15 @@
       "start": "electron .",
       "build": "electron-packager ./ --platform=win32 --arch=x64"
     },
-    "repository": "https://github.com/destromas1/electron-desktop-intro",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/destromas1/electron-desktop-intro.git"
+    },
+    "author": "Shahjada Talukdar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/destromas1/electron-desktop-intro/issues"
+    },
     "homepage": "https://github.com/destromas1/electron-desktop-intro#readme",
     "devDependencies": {
       "electron-packager": "^6.0.2",
@@ -114,5 +121,6 @@
   },
   "filename": "destromas1___electron-desktop-intro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:30.222Z"
+  "lastFetchedAt": "2017-05-04T20:00:30.222Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:53.349Z"
 }

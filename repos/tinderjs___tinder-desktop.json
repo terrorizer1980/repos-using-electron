@@ -85,9 +85,13 @@
     "description": "A cross-platform desktop Tinder client",
     "main": "build.js",
     "scripts": {
-      "postinstall": "bower install && cd desktop-app && npm install"
+      "postinstall": "cd desktop-app && npm install"
     },
-    "repository": "https://github.com/tinderjs/tinder-desktop",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tinderjs/tinder-desktop.git"
+    },
+    "author": "tinderjs",
     "contributors": [
       {
         "name": "Kyle Powers (@mfkp)",
@@ -103,6 +107,9 @@
       }
     ],
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/tinderjs/tinder-desktop/issues"
+    },
     "homepage": "https://github.com/tinderjs/tinder-desktop",
     "devDependencies": {
       "electron-packager": "~7.0.0",
@@ -145,5 +152,6 @@
   },
   "filename": "tinderjs___tinder-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:31.047Z"
+  "lastFetchedAt": "2017-05-04T21:18:31.047Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:43.771Z"
 }

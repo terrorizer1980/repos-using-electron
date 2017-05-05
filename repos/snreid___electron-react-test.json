@@ -79,16 +79,7 @@
     "main": "main.js",
     "scripts": {
       "start": "electron .",
-      "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose",
-      "clean": "rm -rf ./dist",
-      "clean:osx": "rm -rf ./dist/osx",
-      "clean:win": "rm -rf ./dist/win",
-      "pack": "npm run clean && npm run pack:osx && npm run pack:win",
-      "pack:osx": "npm run clean:osx && electron-packager . \"Todo List\" --out=dist/osx --platform=darwin --arch=x64 --version=1.4.1 --icon=assets/logo.icns --ignore=dist --ignore=assets --ignore=builder.json --ignore=bower.json --ignore=README.md --ignore=.gitignore --ignore=preview.png",
-      "pack:win": "npm run clean:win && electron-packager . \"Todo List\" --out=dist/win --platform=win32 --arch=ia32 --version=1.4.1 --icon=assets/logo.ico --ignore=dist --ignore=assets --ignore=builder.json --ignore=bower.json --ignore=README.md --ignore=.gitignore --ignore=preview.png",
-      "build": "npm run build:osx && npm run build:win",
-      "build:osx": "npm run pack:osx && electron-builder \"dist/osx/Todo List-darwin-x64/Todo List.app\" --platform=osx --out=\"dist/osx\" --config=builder.json",
-      "build:win": "npm run pack:win && electron-builder \"dist/win/Todo List-win32-ia32\" --platform=win --out=\"dist/win\" --config=builder.json"
+      "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
     "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
@@ -98,31 +89,31 @@
       "tutorial",
       "demo"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-builder": "^11.3.0",
-      "electron-packager": "^8.5.0"
+      "electron-packager": "^8.5.0",
+      "electron-rebuild": "^1.5.7"
     },
     "dependencies": {
+      "electron-reload": "^1.1.0",
       "axios": "^0.15.3",
       "babel-preset-es2015": "^6.18.0",
       "babel-preset-react": "^6.16.0",
       "babelify": "^7.3.0",
-      "camo": "^0.12.3",
       "classnames": "^2.2.5",
       "electron-prebuilt": "^1.4.13",
-      "electron-reload": "^1.1.0",
       "jquery": "^3.1.1",
       "nedb": "^1.8.0",
-      "nedb-persist": "^0.1.2",
       "react": "^15.4.2",
       "react-autocomplete": "^1.4.0",
       "react-dom": "^15.4.2",
       "react-redux": "^5.0.2",
       "redux": "^3.6.0",
       "redux-devtools": "^3.3.2",
-      "redux-persist": "^4.0.1"
+      "redux-thunk": "^2.2.0"
     }
   },
   "packageStatus": 200,
@@ -150,5 +141,6 @@
   },
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:07:00.503Z"
+  "lastFetchedAt": "2017-05-04T18:07:00.503Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:53.418Z"
 }

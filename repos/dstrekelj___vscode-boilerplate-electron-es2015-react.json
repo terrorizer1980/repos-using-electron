@@ -85,6 +85,7 @@
       "app:package": "electron-packager ./app vscode-boilerplate-electron-es2015-react --out ./build --overwrite",
       "app:start": "electron ./app"
     },
+    "author": "dstrekelj <domagojstrekelj@gmail.com>",
     "license": "IDGAF",
     "devDependencies": {
       "@types/electron": "^1.4.25",
@@ -138,5 +139,6 @@
   },
   "filename": "dstrekelj___vscode-boilerplate-electron-es2015-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:44:25.742Z"
+  "lastFetchedAt": "2017-05-04T17:44:25.742Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:18.924Z"
 }

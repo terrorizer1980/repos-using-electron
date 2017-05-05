@@ -78,6 +78,11 @@
     "description": "Keymaker desktop.",
     "license": "MIT",
     "repository": "hemslo/keymaker",
+    "author": {
+      "name": "Hemslo Wang",
+      "email": "hemslo.wang@gmail.com",
+      "url": "hemslo.github.io/keymaker"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -141,5 +146,6 @@
   },
   "filename": "hemslo___keymaker-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:34.036Z"
+  "lastFetchedAt": "2017-05-04T19:59:34.036Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:39.710Z"
 }

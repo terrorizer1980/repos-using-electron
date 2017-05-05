@@ -58,9 +58,16 @@
       "finalize": "./node_modules/.bin/gulp finalize"
     },
     "bin": "build/cli/index.js",
-    "repository": "https://github.com/erulabs/repass",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/erulabs/repass.git"
+    },
     "global": true,
+    "author": "Seandon Mooy <seandon.mooy@",
     "license": "UNLICENSED",
+    "bugs": {
+      "url": "https://github.com/erulabs/repass/issues"
+    },
     "homepage": "https://github.com/erulabs/repass#readme",
     "dependencies": {
       "aws-sdk": "^2.3.6",
@@ -156,5 +163,6 @@
   },
   "filename": "erulabs___repass.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:30:27.777Z"
+  "lastFetchedAt": "2017-05-04T05:30:27.777Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:33.754Z"
 }

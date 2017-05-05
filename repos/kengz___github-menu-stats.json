@@ -81,12 +81,19 @@
       "start": "electron .",
       "build": "electron-packager . --out=dist --asar --overwrite --all"
     },
-    "repository": "https://github.com/kengz/github-menu-stats",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kengz/github-menu-stats.git"
+    },
     "keywords": [
       "electron-app",
       "electron"
     ],
+    "author": "kengz <kengzwl@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kengz/github-menu-stats/issues"
+    },
     "homepage": "https://github.com/kengz/github-menu-stats#readme",
     "dependencies": {
       "electron-debug": "^1.0.0"
@@ -130,5 +137,6 @@
   },
   "filename": "kengz___github-menu-stats.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:29:59.508Z"
+  "lastFetchedAt": "2017-05-04T19:29:59.508Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:15.616Z"
 }

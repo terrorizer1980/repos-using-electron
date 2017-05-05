@@ -49,6 +49,7 @@
     "name": "Curator",
     "version": "1.0.0",
     "description": "A museum curation game.",
+    "author": "Cassidy Williams",
     "main": "main.js",
     "scripts": {
       "build": "NODE_ENV=production browserify js/app.js | uglifyjs -cm > js/bundle.js",
@@ -118,5 +119,6 @@
   "svnUrl": "https://github.com/cassidoo/curator",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:14:50.429Z"
+  "lastFetchedAt": "2017-05-04T21:14:50.429Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:24.957Z"
 }

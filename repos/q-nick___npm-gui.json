@@ -63,7 +63,10 @@
       "test-web-server": "node node_modules/mocha/bin/mocha ./web-server/**/*.test.js",
       "test-web-server2": "node node_modules/mocha/bin/mocha ./web-server/service/project/*.test.js ./web-server/service/utils/*.test.js ./web-server/service/console/*.test.js ./web-server/service/dependencies/*.test.js"
     },
-    "repository": "https://github.com/q-nick/npm-gui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/q-nick/npm-gui.git"
+    },
     "keywords": [
       "gui",
       "npm",
@@ -75,7 +78,11 @@
       "installer",
       "console"
     ],
+    "author": "Paweł Stefański",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/q-nick/npm-gui/issues"
+    },
     "homepage": "https://github.com/q-nick/npm-gui#readme",
     "devDependencies": {
       "angular": "^1.5.8",
@@ -176,5 +183,6 @@
   },
   "filename": "q-nick___npm-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:07.766Z"
+  "lastFetchedAt": "2017-05-04T16:42:07.766Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:30.343Z"
 }

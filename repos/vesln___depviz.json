@@ -63,7 +63,10 @@
       "coverage": "istanbul cover ./node_modules/.bin/_mocha test/*.test.js",
       "coveralls": "istanbul cover ./node_modules/.bin/_mocha test/*.test.js --report lcovonly && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
     },
-    "repository": "https://github.com/vesln/depviz",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/vesln/depviz"
+    },
     "devDependencies": {
       "mocha": "~1.13.0",
       "chai": "~1.8.1",
@@ -71,6 +74,7 @@
       "coveralls": "~2.3.0",
       "istanbul": "~0.1.44"
     },
+    "author": "Veselin Todorov <hi@vesln.com>",
     "license": "MIT",
     "dependencies": {
       "superagent": "~0.15.7",
@@ -124,5 +128,6 @@
   },
   "filename": "vesln___depviz.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:16:21.148Z"
+  "lastFetchedAt": "2017-05-04T18:16:21.148Z",
+  "packageLastFetchedAt": "2017-05-05T13:57:42.414Z"
 }

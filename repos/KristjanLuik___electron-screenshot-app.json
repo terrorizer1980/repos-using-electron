@@ -74,8 +74,15 @@
       "start": "electron main.js",
       "debug": "electron --debug-brk=5858 main.js"
     },
+    "author": "Kristjan Luik",
     "license": "ISC",
-    "repository": "https://github.com/KristjanLuik/electron-screenshot-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/KristjanLuik/electron-screenshot-app.git"
+    },
+    "bugs": {
+      "url": "https://github.com/KristjanLuik/electron-screenshot-app/issues"
+    },
     "homepage": "https://github.com/KristjanLuik/electron-screenshot-app#readme",
     "devDependencies": {
       "babel-cli": "^6.10.1",
@@ -107,5 +114,6 @@
   },
   "filename": "KristjanLuik___electron-screenshot-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:45:22.488Z"
+  "lastFetchedAt": "2017-05-04T14:45:22.488Z",
+  "packageLastFetchedAt": "2017-05-05T15:16:01.328Z"
 }

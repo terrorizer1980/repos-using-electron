@@ -82,13 +82,20 @@
       "build": "./node_modules/.bin/webpack --progress --colors && grunt",
       "build-production": "./node_modules/.bin/webpack --progress --colors -p --define process.env.NODE_ENV='\"production\"' && grunt"
     },
-    "repository": "https://github.com/gsavin/fenix",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/gsavin/fenix.git"
+    },
     "keywords": [
       "mqtt",
       "sensor",
       "monitoring"
     ],
+    "author": "Guilhelm Savin",
     "license": "CeCILL-B",
+    "bugs": {
+      "url": "https://github.com/gsavin/fenix/issues"
+    },
     "homepage": "https://github.com/gsavin/fenix",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -142,5 +149,6 @@
   },
   "filename": "gsavin___fenix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:47.136Z"
+  "lastFetchedAt": "2017-05-04T21:13:47.136Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:24.289Z"
 }

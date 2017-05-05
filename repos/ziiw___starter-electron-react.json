@@ -85,6 +85,7 @@
       "build": "npm run build-js && npm run build-css",
       "electron": "electron main.js"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "aliasify": "^1.8.0",
@@ -130,5 +131,6 @@
   },
   "filename": "ziiw___starter-electron-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:36:23.307Z"
+  "lastFetchedAt": "2017-05-04T19:36:23.307Z",
+  "packageLastFetchedAt": "2017-05-05T14:36:40.288Z"
 }

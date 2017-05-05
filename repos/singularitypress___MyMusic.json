@@ -55,6 +55,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -117,5 +118,6 @@
   "svnUrl": "https://github.com/singularitypress/MyMusic",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:57:59.788Z"
+  "lastFetchedAt": "2017-05-04T19:57:59.788Z",
+  "packageLastFetchedAt": "2017-05-05T15:29:43.375Z"
 }

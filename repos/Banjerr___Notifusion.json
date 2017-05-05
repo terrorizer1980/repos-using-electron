@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Banjerr/Notifusion",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Banjerr/Notifusion.git"
+    },
     "keywords": [
       "Infusionsoft",
       "notification",
       "CRM"
     ],
+    "author": "Ben Redden",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/Banjerr/issues"
+    },
     "homepage": "http://countryfriedcoders.me",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -149,5 +156,6 @@
   },
   "filename": "Banjerr___Notifusion.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:26.341Z"
+  "lastFetchedAt": "2017-05-04T21:31:26.341Z",
+  "packageLastFetchedAt": "2017-05-05T11:36:58.653Z"
 }

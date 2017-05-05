@@ -81,12 +81,19 @@
       "build_mac": "electron-packager . --platform=darwin --arch=x64 --version=0.36.5 Tic-Tac-Toe-Game",
       "build_linux": "electron-packager . --platform=linux --arch=x64 --version=0.36.5 Tic-Tac-Toe-Game"
     },
-    "repository": "https://github.com/wi1d5ky/Tic-Tac-Toe-Game",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wi1d5ky/Tic-Tac-Toe-Game"
+    },
     "keywords": [
       "Tic-Tac-Toe",
       "Game"
     ],
+    "author": "Wildsky",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wi1d5ky/Tic-Tac-Toe-Game/issues"
+    },
     "homepage": "http://blog.wildsky.cc",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -118,5 +125,6 @@
   },
   "filename": "wildskyf___Tic-Tac-Toe-Game.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:37.123Z"
+  "lastFetchedAt": "2017-05-04T20:27:37.123Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:19.651Z"
 }

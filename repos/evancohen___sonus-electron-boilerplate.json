@@ -73,5 +73,39 @@
   "networkCount": 1,
   "subscribersCount": 4,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:03:43.316Z"
+  "lastFetchedAt": "2017-05-04T05:03:43.316Z",
+  "packageJSON": {
+    "name": "sonus-electron-boilerplate",
+    "version": "0.0.1",
+    "description": "An example of Sonus running in Electron",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/evancohen/sonus-electron-boilerplate.git"
+    },
+    "keywords": [
+      "sonus",
+      "electron",
+      "tts",
+      "hotword-detection"
+    ],
+    "author": "Evan Cohen",
+    "license": "MIT",
+    "dependencies": {
+      "sonus": "^0.1.7"
+    },
+    "devDependencies": {
+      "electron": "1.6.2"
+    },
+    "bugs": {
+      "url": "https://github.com/evancohen/sonus-electron-boilerplate/issues"
+    },
+    "homepage": "https://github.com/evancohen/sonus-electron-boilerplate#readme"
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:30:06.171Z"
 }

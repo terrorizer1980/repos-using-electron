@@ -76,11 +76,18 @@
       "dev": "webpack -d --watch",
       "build": "webpack -p"
     },
-    "repository": "https://github.com/JieZhu0715/clipboard_electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JieZhu0715/clipboard_electron.git"
+    },
     "keywords": [
       "clipboard"
     ],
+    "author": "jzhu",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/JieZhu0715/clipboard_electron/issues"
+    },
     "homepage": "https://github.com/JieZhu0715/clipboard_electron#readme",
     "dependencies": {
       "babel-loader": "^6.2.5",
@@ -123,5 +130,6 @@
   },
   "filename": "JieZhu0715___clipboard_electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:38.974Z"
+  "lastFetchedAt": "2017-05-04T18:15:38.974Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:25.883Z"
 }

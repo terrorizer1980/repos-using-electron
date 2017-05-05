@@ -67,5 +67,21 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T06:02:05.622Z"
+  "lastFetchedAt": "2017-05-04T06:02:05.622Z",
+  "packageJSON": {
+    "name": "electron-test",
+    "version": "1.0.0",
+    "description": "Simple app",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "author": "issam",
+    "license": "ISC",
+    "dependencies": {
+      "electron": "^1.6.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:33:29.608Z"
 }

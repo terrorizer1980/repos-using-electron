@@ -246,6 +246,9 @@
       "win-renpm": "powershell ./tools/windows/re-npm.ps1"
     },
     "repository": "brave/browser-laptop",
+    "author": {
+      "name": "Brave Software <support+laptop@brave.com>"
+    },
     "contributors": [
       {
         "name": "Brian R. Bondy",
@@ -269,6 +272,9 @@
       }
     ],
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/brave/browser-laptop/issues"
+    },
     "homepage": "https://www.brave.com/",
     "dependencies": {
       "abp-filter-parser-cpp": "1.1.x",
@@ -414,5 +420,6 @@
   },
   "sourceRepo": "brave/browser-laptop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:59:15.094Z"
+  "lastFetchedAt": "2017-05-04T19:59:15.094Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:47.598Z"
 }

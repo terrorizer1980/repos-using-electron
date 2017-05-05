@@ -203,6 +203,14 @@
     "name": "webtorrent-desktop",
     "description": "WebTorrent, the streaming torrent client. For Mac, Windows, and Linux.",
     "version": "0.17.1",
+    "author": {
+      "name": "WebTorrent, LLC",
+      "email": "feross@webtorrent.io",
+      "url": "https://webtorrent.io"
+    },
+    "bugs": {
+      "url": "https://github.com/feross/webtorrent-desktop/issues"
+    },
     "dependencies": {
       "airplayer": "^2.0.0",
       "application-config": "^1.0.0",
@@ -285,17 +293,8 @@
     },
     "productName": "WebTorrent",
     "repository": {
-      "user": "feross",
-      "repo": "webtorrent-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/feross/webtorrent-desktop/tarball/master",
-      "clone_url": "https://github.com/feross/webtorrent-desktop",
-      "https_url": "https://github.com/feross/webtorrent-desktop",
-      "travis_url": "https://travis-ci.org/feross/webtorrent-desktop",
-      "zip_url": "https://github.com/feross/webtorrent-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/feross/webtorrent-desktop"
+      "type": "git",
+      "url": "git://github.com/feross/webtorrent-desktop.git"
     },
     "scripts": {
       "build": "buble src --output build",
@@ -337,5 +336,6 @@
   "filename": "piratesreturn___webtorrent-desktop.json",
   "sourceRepo": "feross/webtorrent-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:00.116Z"
+  "lastFetchedAt": "2017-05-04T15:13:00.116Z",
+  "packageLastFetchedAt": "2017-05-05T17:41:13.175Z"
 }

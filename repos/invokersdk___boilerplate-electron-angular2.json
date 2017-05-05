@@ -91,31 +91,31 @@
       }
     ],
     "devDependencies": {
-      "awesome-typescript-loader": "^1.1.1",
-      "babel-core": "^6.13.2",
-      "babel-loader": "^6.2.5",
-      "electron-prebuilt": "^1.3.3",
-      "es6-shim": "^0.35.1",
+      "awesome-typescript-loader": "^3.1.2",
+      "babel-core": "^6.23.1",
+      "babel-loader": "^6.4.0",
+      "electron": "^1.6.1",
+      "es6-shim": "^0.35.3",
       "retyped-es6-shim-tsd-ambient": "^0.31.2-0",
       "retyped-node-tsd-ambient": "^1.5.3-0",
-      "typescript": "^1.8.10",
-      "webpack": "^1.13.1",
-      "webpack-dev-server": "^1.14.1",
-      "webpack-merge": "^0.14.1"
+      "typescript": "^2.1.15",
+      "webpack": "^2.2.1",
+      "webpack-dev-server": "^2.4.1",
+      "webpack-merge": "^4.0.0"
     },
     "dependencies": {
-      "@angular/common": "^2.0.0-rc.5",
-      "@angular/compiler": "^2.0.0-rc.5",
-      "@angular/core": "^2.0.0-rc.5",
-      "@angular/forms": "^0.3.0",
-      "@angular/http": "^2.0.0-rc.5",
-      "@angular/platform-browser": "^2.0.0-rc.5",
-      "@angular/platform-browser-dynamic": "^2.0.0-rc.5",
-      "@angular/router": "^3.0.0-rc.1",
+      "@angular/common": "^2.4.9",
+      "@angular/compiler": "^2.4.9",
+      "@angular/core": "^2.4.9",
+      "@angular/forms": "^2.4.9",
+      "@angular/http": "^2.4.9",
+      "@angular/platform-browser": "^2.4.9",
+      "@angular/platform-browser-dynamic": "^2.4.9",
+      "@angular/router": "^3.4.7",
       "core-js": "^2.4.1",
       "reflect-metadata": "^0.1.8",
-      "rxjs": "5.0.0-beta.6",
-      "zone.js": "^0.6.12"
+      "rxjs": "^5.0.1",
+      "zone.js": "^0.7.2"
     },
     "scripts": {
       "postinstall": "tsdm rewire",
@@ -149,5 +149,6 @@
   },
   "filename": "invokersdk___boilerplate-electron-angular2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:43:51.291Z"
+  "lastFetchedAt": "2017-05-04T17:43:51.291Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:23.233Z"
 }

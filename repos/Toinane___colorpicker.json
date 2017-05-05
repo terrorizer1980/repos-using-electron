@@ -74,11 +74,24 @@
   "status": 200,
   "packageJSON": {
     "name": "colorpicker",
-    "version": "1.2.0",
-    "description": "Little application to get color code",
+    "productName": "colorpicker",
+    "version": "1.2.2",
+    "description": "Small app to get color code",
     "main": "main.js",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "text": "xvfb-maybe electron-mocha main.js",
+      "pack": "build --dir",
+      "dist": "build"
+    },
+    "build": {
+      "appId": "toinane.colorpicker",
+      "mac": {
+        "category": "toinane.app.design"
+      },
+      "win": {
+        "iconUrl": "logo.png"
+      }
     },
     "repository": "https://github.com/toinane/colorpicker",
     "keywords": [
@@ -88,9 +101,10 @@
       "crea-that"
     ],
     "devDependencies": {
-      "electron": "^1.4.1"
+      "electron": "^1.6.1"
     },
-    "homepage": "http://toinane.crea-th.at",
+    "author": "Toinane",
+    "homepage": "https://toinane.crea-th.at",
     "license": "CC0-1.0"
   },
   "packageStatus": 200,
@@ -117,5 +131,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:14.446Z"
+  "lastFetchedAt": "2017-05-04T05:34:14.446Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:16.885Z"
 }

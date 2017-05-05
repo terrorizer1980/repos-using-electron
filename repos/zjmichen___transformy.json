@@ -70,6 +70,7 @@
     "name": "hana",
     "version": "1.0.0",
     "description": "Transform arbitrary text files",
+    "author": "Zack Michener <zack@zackmichener.net>",
     "main": "main.js",
     "scripts": {
       "lint": "eslint . --ext=js --ext=jsx",
@@ -81,7 +82,10 @@
       "pack": "build --target dir",
       "dist": "build"
     },
-    "repository": "https://github.com/zjmichen/hana",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zjmichen/hana.git"
+    },
     "babel": {
       "presets": [
         "es2015",
@@ -149,5 +153,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:16.072Z"
+  "lastFetchedAt": "2017-05-04T17:57:16.072Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:26.842Z"
 }

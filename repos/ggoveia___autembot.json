@@ -72,6 +72,11 @@
     "description": "My magnificent app",
     "license": "MIT",
     "repository": "ggoveia/autembot",
+    "author": {
+      "name": "Giuliane Ramos",
+      "email": "giuliane.ramos@gmail.com",
+      "url": "github.com/ggoveia/autembot"
+    },
     "electronVersion": "0.36.0",
     "main": "src/assets/js/main.js",
     "scripts": {
@@ -124,5 +129,6 @@
   },
   "filename": "ggoveia___autembot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:32:35.842Z"
+  "lastFetchedAt": "2017-05-04T19:32:35.842Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:53.602Z"
 }

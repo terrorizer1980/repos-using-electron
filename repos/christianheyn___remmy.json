@@ -88,8 +88,13 @@
       "pack": "build --dir",
       "dist": "build"
     },
+    "author": "Christian Heyn",
     "license": "MIT",
-    "repository": "https://github.com/christianheyn/remmy",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/christianheyn/remmy.git"
+    },
+    "bugs": "https://github.com/christianheyn/remmy/issues",
     "keywords": [
       "pixel",
       "rem",
@@ -155,5 +160,6 @@
   },
   "filename": "christianheyn___remmy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:50.513Z"
+  "lastFetchedAt": "2017-05-04T20:43:50.513Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:53.246Z"
 }

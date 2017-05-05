@@ -82,9 +82,16 @@
       "dev": "NODE_ENV=development nodemon server.js",
       "bower": "./node_modules/bower/bin/bower"
     },
-    "repository": "https://github.com/beatface/dashbored",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/beatface/dashbored.git"
+    },
     "keywords": [],
+    "author": "“Emma <“emma.beaton@gmail.com”>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/beatface/dashbored/issues"
+    },
     "eslintConfig": {
       "env": {
         "node": true,
@@ -149,5 +156,6 @@
   },
   "filename": "beatface___dashbored.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:02:38.826Z"
+  "lastFetchedAt": "2017-05-04T05:02:38.826Z",
+  "packageLastFetchedAt": "2017-05-05T17:03:35.288Z"
 }

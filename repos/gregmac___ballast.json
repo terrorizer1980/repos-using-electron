@@ -84,17 +84,8 @@
       "build-icons": "gulp generate-icons"
     },
     "repository": {
-      "user": "gregmac",
-      "repo": "ballast",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/gregmac/ballast/tarball/master",
-      "clone_url": "https://github.com/gregmac/ballast",
-      "https_url": "https://github.com/gregmac/ballast",
-      "travis_url": "https://travis-ci.org/gregmac/ballast",
-      "zip_url": "https://github.com/gregmac/ballast/archive/master.zip",
-      "api_url": "https://api.github.com/repos/gregmac/ballast"
+      "type": "git",
+      "url": "git+https://github.com/gregmac/ballast.git"
     },
     "keywords": [
       "browser",
@@ -102,7 +93,11 @@
       "wallboard",
       "electron"
     ],
+    "author": "Greg MacLellean",
     "license": "Apache-2.0",
+    "bugs": {
+      "url": "https://github.com/gregmac/ballast/issues"
+    },
     "homepage": "https://github.com/gregmac/ballast",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -146,5 +141,6 @@
   "filename": "gregmac___ballast.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:39.487Z"
+  "lastFetchedAt": "2017-05-04T05:34:39.487Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:58.212Z"
 }

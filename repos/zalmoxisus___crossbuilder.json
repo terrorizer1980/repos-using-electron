@@ -77,7 +77,10 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/zalmoxisus/browser-extension-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/zalmoxisus/browser-extension-boilerplate"
+    },
     "homepage": "https://github.com/zalmoxisus/browser-extension-boilerplate",
     "keywords": [
       "react",
@@ -204,5 +207,6 @@
   "svnUrl": "https://github.com/zalmoxisus/crossbuilder",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:29:51.474Z"
+  "lastFetchedAt": "2017-05-04T19:29:51.474Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:47.610Z"
 }

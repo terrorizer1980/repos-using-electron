@@ -56,11 +56,15 @@
     "keywords": [
       "visual studio team room"
     ],
+    "author": "Ray Suelzer <rsuelzer@gmail.com>",
     "license": "MIT",
     "homepage": "",
     "dependencies": {},
     "devDependencies": {
       "electron-prebuilt": "^0.28.3"
+    },
+    "bugs": {
+      "url": ""
     }
   },
   "packageStatus": 200,
@@ -108,5 +112,6 @@
   "svnUrl": "https://github.com/raysuelzer/vs-team-room",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:23:54.921Z"
+  "lastFetchedAt": "2017-05-04T15:23:54.921Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:16.067Z"
 }

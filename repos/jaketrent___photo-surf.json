@@ -133,19 +133,17 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "jaketrent",
-      "repo": "photo-surf",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jaketrent/photo-surf/tarball/master",
-      "clone_url": "https://github.com/jaketrent/photo-surf",
-      "https_url": "https://github.com/jaketrent/photo-surf",
-      "travis_url": "https://travis-ci.org/jaketrent/photo-surf",
-      "zip_url": "https://github.com/jaketrent/photo-surf/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jaketrent/photo-surf"
+      "type": "git",
+      "url": "git+https://github.com/jaketrent/photo-surf.git"
+    },
+    "author": {
+      "name": "jaketrent",
+      "url": "https://github.com/jaketrent"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/jaketrent/photo-surf/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -259,5 +257,6 @@
   "filename": "jaketrent___photo-surf.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:13.199Z"
+  "lastFetchedAt": "2017-05-04T05:26:13.199Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:59.548Z"
 }

@@ -88,8 +88,15 @@
       "gulp": "^3.9.0",
       "gulp-react": "^3.0.1"
     },
-    "repository": "https://github.com/tngan/sidebar-react-electron-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tngan/sidebar-react-electron-boilerplate.git"
+    },
+    "author": "tngan",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tngan/sidebar-react-electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/tngan/sidebar-react-electron-boilerplate#readme"
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   },
   "filename": "tngan___sidebar-react-electron-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:18.824Z"
+  "lastFetchedAt": "2017-05-04T19:39:18.824Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:25.772Z"
 }

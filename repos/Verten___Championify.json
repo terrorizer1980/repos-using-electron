@@ -178,22 +178,14 @@
       "coveralls": "./node_modules/.bin/gulp coveralls"
     },
     "repository": {
-      "user": "dustinblackman",
-      "repo": "Championify",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/dustinblackman/Championify/tarball/master",
-      "clone_url": "https://github.com/dustinblackman/Championify",
-      "https_url": "https://github.com/dustinblackman/Championify",
-      "travis_url": "https://travis-ci.org/dustinblackman/Championify",
-      "zip_url": "https://github.com/dustinblackman/Championify/archive/master.zip",
-      "api_url": "https://api.github.com/repos/dustinblackman/Championify"
+      "type": "git",
+      "url": "https://github.com/dustinblackman/Championify.git"
     },
     "engines": {
       "node": "4.1.1",
       "npm": "2.14.4"
     },
+    "author": "Dustin Blackman",
     "license": "MIT",
     "release_file_template": "Championify.<%- platform %>.<%- version.replace(/\\./g, '-') %>.zip",
     "dependencies": {
@@ -315,5 +307,6 @@
   "svnUrl": "https://github.com/Verten/Championify",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:20:19.683Z"
+  "lastFetchedAt": "2017-05-04T18:20:19.683Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:45.015Z"
 }

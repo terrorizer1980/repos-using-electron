@@ -68,16 +68,20 @@
   "status": 200,
   "packageJSON": {
     "name": "healthi-app",
-    "version": "1.3.0",
+    "version": "2.2.0",
     "description": "Simple app to check your Mac Battery health.",
-    "main": "bin/app.js",
+    "main": "static/js/app.js",
     "scripts": {
-      "build": "babel src --presets babel-preset-es2015 --out-dir bin",
-      "pack": "electron-packager . healthi --platform=darwin --arch=x64 --icon=img/healthi.icns --overwrite --out=dist",
-      "start": "electron .",
-      "test": "npm build && xo && ava"
+      "build": "babel src --presets electron,react --out-dir static/js",
+      "pack": "yarn run build && electron-packager . healthi --platform=darwin --arch=x64 --icon=img/healthi.icns --overwrite --out=dist",
+      "start": "yarn run build && electron .",
+      "test": "standard src/**/*.js",
+      "prepush": "yarn run test"
     },
-    "repository": "https://github.com/pablopunk/healthi-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pablopunk/healthi-app.git"
+    },
     "keywords": [
       "mac",
       "battery",
@@ -86,35 +90,41 @@
       "topbar",
       "app"
     ],
+    "author": "Pablo Varela",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/pablopunk/healthi-app/issues"
+    },
     "homepage": "https://github.com/pablopunk/healthi-app#readme",
     "dependencies": {
+      "babel-plugin-relative-import": "^1.0.3",
       "electron": "^1.4.3",
       "healthi": "^1.0.4",
-      "menubar": "^5.1.0"
+      "inline-style-prefixer": "^3.0.2",
+      "menubar": "^5.1.0",
+      "react": "^15.4.2",
+      "react-animated-number": "^0.4.2",
+      "react-dom": "^15.4.2",
+      "react-fade": "^1.1.1",
+      "standard": "^10.0.1"
     },
     "devDependencies": {
-      "ava": "^0.17.0",
       "babel-cli": "^6.18.0",
-      "babel-preset-es2015": "^6.18.0",
+      "babel-preset-electron": "^1.4.15",
+      "babel-preset-react": "^6.22.0",
       "electron-packager": "^8.1.0",
       "electron-prebuilt": "^1.4.3",
-      "spectron": "^3.4.1",
-      "xo": "^0.17.1"
+      "husky": "^0.13.3"
     },
-    "xo": {
-      "esnext": true,
-      "semicolon": false,
-      "space": true,
-      "ignores": [
-        "bin/**"
-      ],
-      "envs": [
-        "browser"
-      ],
-      "rules": {
-        "new-cap": 0
-      }
+    "babel": {
+      "plugins": [
+        [
+          "babel-plugin-relative-import",
+          {
+            "rootPathSuffix": "static/js"
+          }
+        ]
+      ]
     }
   },
   "packageStatus": 200,
@@ -142,5 +152,6 @@
   },
   "sourceRepo": "pablopunk/healthi",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:31:29.745Z"
+  "lastFetchedAt": "2017-05-04T20:31:29.745Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:53.934Z"
 }

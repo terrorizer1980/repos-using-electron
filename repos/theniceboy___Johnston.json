@@ -59,11 +59,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/theniceboy/Johnston",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/theniceboy/Johnston.git"
+    },
     "keywords": [
       "note",
       "editor"
     ],
+    "author": "David Chen",
     "license": "GNU LESSER GENERAL PUBLIC LICENSE V3",
     "homepage": "https://github.com/theniceboy/Johnston",
     "devDependencies": {
@@ -115,5 +119,6 @@
   "svnUrl": "https://github.com/theniceboy/Johnston",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:52:25.012Z"
+  "lastFetchedAt": "2017-05-04T17:52:25.012Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:38.738Z"
 }

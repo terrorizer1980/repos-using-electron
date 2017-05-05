@@ -73,5 +73,42 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T19:50:59.851Z"
+  "lastFetchedAt": "2017-05-04T19:50:59.851Z",
+  "packageJSON": {
+    "name": "hw-scanner",
+    "version": "1.0.0",
+    "description": "A Barcode scanner data entry app for H&W",
+    "main": "main.js",
+    "scripts": {
+      "electron": "electron .",
+      "start": ".\\node.exe start-electron.js"
+    },
+    "repository": "https://github.com/joshbnntt/hwScanner.git",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "demo"
+    ],
+    "author": "JoshBnntt <joshuabnntt@gmail.com>",
+    "license": "",
+    "dependencies": {
+      "electron": "^1.4.1",
+      "jquery": "^3.1.1",
+      "keymaster": "^1.6.2",
+      "lodash": "^4.17.3",
+      "request": "^2.75.0",
+      "strip": "^3.0.0"
+    },
+    "devDependencies": {
+      "electron": "^1.4.1",
+      "jquery": "^3.1.1",
+      "keymaster": "^1.6.2",
+      "lodash": "^4.17.3",
+      "request": "^2.75.0",
+      "strip": "^3.0.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:45:45.767Z"
 }

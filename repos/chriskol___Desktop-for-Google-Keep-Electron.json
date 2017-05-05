@@ -83,7 +83,10 @@
       "build:linux": "electron-packager . --out=packages --ignore='^/packages$' --prune --asar --platform=linux --arch=all --version=$npm_package_electronVersion --icon=assets/icon.png",
       "build:windows": "electron-packager . --out=packages --ignore='^/packages$' --prune --asar --platform=win32 --arch=all --version=$npm_package_electronVersion --iconURL=https://github.com/chriskol/Desktop-for-Google-Keep/blob/master/assets/icon.ico"
     },
-    "repository": "https://github.com/chriskol/desktop-for-google-keep",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chriskol/desktop-for-google-keep.git"
+    },
     "keywords": [
       "Google",
       "Keep",
@@ -91,7 +94,11 @@
       "electron",
       "Google Keep"
     ],
+    "author": "Christopher Kolmatycki",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chriskol/desktop-for-google-keep"
+    },
     "homepage": "https://github.com/chriskol/desktop-for-google-keep/#readme",
     "devDependencies": {
       "electron-packager": "^7.1.0",
@@ -123,5 +130,6 @@
   },
   "filename": "chriskol___Desktop-for-Google-Keep-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:54:58.394Z"
+  "lastFetchedAt": "2017-05-04T17:54:58.394Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:42.475Z"
 }

@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/jakalada/example-electron-paint-and-save-file",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jakalada/example-electron-paint-and-save-file.git"
+    },
     "keywords": [
       "Electron",
       "example"
     ],
+    "author": "jakalada",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/jakalada/example-electron-paint-and-save-file/issues"
+    },
     "homepage": "https://github.com/jakalada/example-electron-paint-and-save-file#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -123,5 +130,6 @@
   },
   "filename": "jakalada___example-electron-paint-and-save-file.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:08:26.225Z"
+  "lastFetchedAt": "2017-05-03T20:08:26.225Z",
+  "packageLastFetchedAt": "2017-05-05T15:03:51.387Z"
 }

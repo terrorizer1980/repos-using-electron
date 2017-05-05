@@ -50,7 +50,15 @@
     "productName": "Lowbrow",
     "version": "1.0.0",
     "description": "A really minimal browser for development",
-    "repository": "https://github.com/krainboltgreene/Lowbrow.app",
+    "author": {
+      "name": "Kurtis Rainbolt-Greene",
+      "email": "me@kurtisrainboltgreene.name",
+      "url": "http://www.kurtisrainboltgreene.name"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/krainboltgreene/Lowbrow.app.git"
+    },
     "license": "MIT",
     "keywords": [
       "browser"
@@ -154,5 +162,6 @@
   "svnUrl": "https://github.com/krainboltgreene/Lowbrow.app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:42:58.175Z"
+  "lastFetchedAt": "2017-05-04T19:42:58.175Z",
+  "packageLastFetchedAt": "2017-05-04T22:26:36.472Z"
 }

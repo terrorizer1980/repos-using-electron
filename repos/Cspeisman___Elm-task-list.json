@@ -63,8 +63,15 @@
     "scripts": {
       "start": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/Cspeisman/Elm-task-list",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Cspeisman/Elm-task-list.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Cspeisman/Elm-task-list/issues"
+    },
     "homepage": "https://github.com/Cspeisman/Elm-task-list#readme"
   },
   "packageStatus": 200,
@@ -112,5 +119,6 @@
   "svnUrl": "https://github.com/Cspeisman/Elm-task-list",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:02:13.142Z"
+  "lastFetchedAt": "2017-05-04T20:02:13.142Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:48.940Z"
 }

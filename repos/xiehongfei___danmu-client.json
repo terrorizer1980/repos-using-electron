@@ -176,23 +176,18 @@
       "go-lin": "electron . --enable-transparent-visuals --disable-gpu"
     },
     "repository": {
-      "user": "zsxsoft",
-      "repo": "danmu-client",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/zsxsoft/danmu-client/tarball/master",
-      "clone_url": "https://github.com/zsxsoft/danmu-client",
-      "https_url": "https://github.com/zsxsoft/danmu-client",
-      "travis_url": "https://travis-ci.org/zsxsoft/danmu-client",
-      "zip_url": "https://github.com/zsxsoft/danmu-client/archive/master.zip",
-      "api_url": "https://api.github.com/repos/zsxsoft/danmu-client"
+      "type": "git",
+      "url": "https://github.com/zsxsoft/danmu-client.git"
     },
     "keywords": [
       "danmu",
       "danmaku"
     ],
+    "author": "zsx <zsx@zsxsoft.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zsxsoft/danmu-client/issues"
+    },
     "homepage": "https://github.com/zsxsoft/danmu-client",
     "dependencies": {
       "electron-penetrate": "0.0.3",
@@ -251,5 +246,6 @@
   "svnUrl": "https://github.com/xiehongfei/danmu-client",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:25:57.125Z"
+  "lastFetchedAt": "2017-05-04T14:25:57.125Z",
+  "packageLastFetchedAt": "2017-05-04T23:07:04.018Z"
 }

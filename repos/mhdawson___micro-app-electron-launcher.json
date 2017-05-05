@@ -65,13 +65,22 @@
       "crypto-js": "~3.1.5",
       "prompt": "~1.0.0"
     },
-    "repository": "https://github.com/mhdawson/micro-app-electron-launcher",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mhdawson/micro-app-electron-launcher"
+    },
     "keywords": [
       "micro-app",
       "Electron",
       "IOT"
     ],
+    "author": {
+      "name": "Michael Dawson"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mhdawson/micro-app-electron-launcher/issues"
+    },
     "homepage": "https://github.com/mhdawson/micro-app-electron-launcher#readme",
     "contributors": [
       {
@@ -125,5 +134,6 @@
   "svnUrl": "https://github.com/mhdawson/micro-app-electron-launcher",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:29:33.670Z"
+  "lastFetchedAt": "2017-05-04T05:29:33.670Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:19.465Z"
 }

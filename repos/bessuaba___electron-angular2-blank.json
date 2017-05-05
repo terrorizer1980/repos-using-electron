@@ -77,11 +77,18 @@
       "serve": "webpack --progress --colors --watch",
       "compile-windows": "electron-packager . my-app --platform=win32 --arch=ia32 --out=dist/ && asar pack dist/my-app-win32-ia32/resources/app dist/my-app-win32-ia32/resources/app.asar"
     },
-    "repository": "https://github.com/bessuaba/electron-angular2-blank",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:bessuaba/electron-angular2-blank.git"
+    },
     "keywords": [
       "desktop"
     ],
+    "author": "Slava Losev",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/bessuaba/electron-angular2-blank/issues"
+    },
     "homepage": "https://github.com/bessuaba/electron-angular2-blank#README",
     "dependencies": {
       "@angular/common": "2.0.0-rc.5",
@@ -138,5 +145,6 @@
   },
   "filename": "bessuaba___electron-angular2-blank.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:27:46.436Z"
+  "lastFetchedAt": "2017-05-04T15:27:46.436Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:53.937Z"
 }

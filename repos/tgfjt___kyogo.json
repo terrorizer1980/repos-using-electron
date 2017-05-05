@@ -72,6 +72,7 @@
     "version": "0.1.0",
     "description": "Competitive Research",
     "main": "main/index.js",
+    "author": "tgfjt",
     "scripts": {
       "test": "standard",
       "start": "electron .",
@@ -86,21 +87,21 @@
     },
     "devDependencies": {
       "electron": "^1.0.1",
-      "browserify": "^13.1.1",
+      "browserify": "^14.1.0",
       "choo": "^4.0.3",
       "choo-location-electron": "^2.0.1",
-      "choo-persist": "^2.0.0",
+      "choo-persist": "^2.0.1",
       "classnames": "^2.2.5",
       "devtron": "^1.1.0",
-      "electron-builder": "^10.5.0",
+      "electron-builder": "^14.5.3",
       "is-url": "^1.2.2",
-      "standard": "^8.6.0",
-      "watchify": "^3.7.0"
+      "standard": "^9.0.0",
+      "watchify": "^3.9.0"
     },
     "build": {
       "appId": "com.fujitatakashi.kyogo",
       "asar": true,
-      "mac": {
+      "dmg": {
         "title": "競合",
         "icon": "resource/image/icon/icon.icns"
       }
@@ -130,5 +131,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:24.510Z"
+  "lastFetchedAt": "2017-05-04T20:03:24.510Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:53.039Z"
 }

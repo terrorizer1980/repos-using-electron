@@ -72,6 +72,11 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
+    "author": {
+      "name": "Barak Chamo",
+      "email": "barak.chamo@gmail.com",
+      "url": "https://github.com/barakchamo"
+    },
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -184,5 +189,6 @@
   "svnUrl": "https://github.com/BarakChamo/electron-react-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:54:38.805Z"
+  "lastFetchedAt": "2017-05-04T20:54:38.805Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:50.669Z"
 }

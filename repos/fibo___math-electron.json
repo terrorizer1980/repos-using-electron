@@ -79,8 +79,18 @@
       "start": "electron ${npm_package_main}",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/fibo/math-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fibo/math-electron.git"
+    },
+    "author": {
+      "name": "Gianluca Casati",
+      "url": "http://g14n.info"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fibo/math-electron/issues"
+    },
     "homepage": "https://github.com/fibo/math-electron#readme",
     "pre-commit": [
       "lint"
@@ -126,5 +136,6 @@
   },
   "filename": "fibo___math-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:34:20.059Z"
+  "lastFetchedAt": "2017-05-04T20:34:20.059Z",
+  "packageLastFetchedAt": "2017-05-05T17:39:32.605Z"
 }

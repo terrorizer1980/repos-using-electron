@@ -60,9 +60,16 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/tinirlove/countdown-menubar--text",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tinirlove/countdown-menubar--text.git"
+    },
     "keywords": [],
+    "author": "Yizheng Ding <tinirdoc@gmail.com> (http://fork-exec-bash.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tinirlove/countdown-menubar--text/issues"
+    },
     "homepage": "https://github.com/tinirlove/countdown-menubar--text#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.8"
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/love4shen/countdown-menubar--text",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:45:57.780Z"
+  "lastFetchedAt": "2017-05-04T20:45:57.780Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:47.483Z"
 }

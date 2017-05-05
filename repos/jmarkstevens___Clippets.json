@@ -82,53 +82,65 @@
       "clipboard",
       "react"
     ],
-    "repository": "https://github.com/calitek/Clippets",
+    "author": {
+      "name": "Janaka Stevens",
+      "email": "jmstevens@calitek.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/calitek/Clippets.git"
+    },
     "scripts": {
       "start": "electron .",
       "node": "nodemon --watch js js/server.js",
-      "test": "mocha __tests__/.setup.js __tests__/**/*.test.js",
+      "test": "mocha __tests__/.setup.js __tests__/**/*.test.js?",
       "testw": "npm test -- --watch",
-      "ww": "webpack --progress --profile --colors --no-minimize --watch",
-      "nw": "webpack --progress --profile --colors --no-minimize"
+      "ww": "webpack --progress --profile --colors --env.noMinimize --watch",
+      "nw": "webpack --progress --profile --colors --env.noMinimize",
+      "build": "webpack --progress --profile --colors --env.production"
+    },
+    "bugs": {
+      "url": "https://github.com/calitek/Clippets/issues"
     },
     "dependencies": {
       "async": "latest",
       "express": "latest",
-      "lodash": "latest",
-      "nodemon": "latest",
-      "primus": "^5.2.2",
-      "primus-emitter": "latest",
-      "safe-copy-paste": "latest",
+      "copy-paste": "latest",
       "serve-favicon": "latest",
-      "ws": "latest"
+      "socket.io": "latest"
     },
     "devDependencies": {
+      "electron": "latest",
+      "jms-react-components": "file:/Users/janaka/Kykas/Projects/jms-react-components",
+      "nodemon": "latest",
+      "lodash": "latest",
+      "react": "^15.4.0",
+      "react-dom": "^15.4.0",
+      "react-redux": "latest",
+      "redux": "latest",
+      "redux-logger": "latest",
+      "redux-thunk": "latest",
+      "traverse": "latest",
       "babel-core": "latest",
       "babel-loader": "^6.1.0",
       "babel-preset-es2015": "latest",
       "babel-preset-react": "latest",
       "babel-preset-stage-0": "latest",
+      "css-loader": "latest",
+      "extract-text-webpack-plugin": "^2.0.0-rc.3",
+      "file-loader": "latest",
+      "loader-utils": "latest",
+      "style-loader": "^0.13.1",
+      "webpack": "latest",
       "babel-register": "latest",
       "chai": "latest",
       "chai-http": "latest",
-      "css-loader": "latest",
-      "electron-prebuilt": "*",
       "enzyme": "latest",
-      "extract-text-webpack-plugin": "latest",
-      "file-loader": "latest",
-      "gulp": "latest",
-      "gulp-shell": "latest",
       "jsdom": "latest",
       "mocha": "latest",
-      "react": "^15.0.0",
-      "react-addons-test-utils": "^15.0.0",
-      "react-dom": "^15.0.0",
-      "react-redux": "latest",
-      "redux": "latest",
-      "redux-thunk": "latest",
-      "sinon": "latest",
-      "traverse": "latest",
-      "webpack": "latest"
+      "react-addons-test-utils": "^15.4.0",
+      "redux-mock-store": "latest",
+      "sinon": "latest"
     }
   },
   "packageStatus": 200,
@@ -156,5 +168,6 @@
   },
   "filename": "jmarkstevens___Clippets.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:28:41.571Z"
+  "lastFetchedAt": "2017-05-04T15:28:41.571Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:23.488Z"
 }

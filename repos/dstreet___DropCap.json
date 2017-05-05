@@ -75,13 +75,17 @@
     "name": "DropCap",
     "version": "0.0.1",
     "description": "Sync screen captures with Dropbox",
-    "repository": "https://github.com/dstreet/DropCap",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dstreet/DropCap.git"
+    },
     "main": "main.js",
     "scripts": {
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1",
       "build": "/bin/bash ./bin/icon && /usr/bin/env node ./bin/build.js"
     },
+    "author": "David Street",
     "license": "GPL-3.0",
     "dependencies": {
       "extend": "^3.0.0",
@@ -123,5 +127,6 @@
   },
   "filename": "dstreet___DropCap.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:27:54.567Z"
+  "lastFetchedAt": "2017-05-04T21:27:54.567Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:57.952Z"
 }

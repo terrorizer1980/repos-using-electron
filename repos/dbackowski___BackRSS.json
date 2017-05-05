@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "BackRSS",
-    "version": "1.0.6",
+    "version": "1.0.8",
     "description": "Simple RSS reader",
     "main": "electron.js",
     "scripts": {
@@ -81,22 +81,26 @@
       "build": "truncate -s 0 feeds && truncate -s 0 sites && electron-packager ./ --platform=darwin,linux --overwrite --icon=./public/images/icon --arch=x64",
       "test": "NODE_ENV=test mocha"
     },
-    "repository": "https://github.com/dbackowski/BackRSS",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dbackowski/BackRSS.git"
+    },
+    "author": "Damian Baćkowski",
     "license": "MIT",
     "dependencies": {
-      "async": "^2.1.2",
-      "body-parser": "^1.15.2",
-      "express": "^4.14.0",
-      "feedparser": "^1.1.5",
+      "async": "^2.3.0",
+      "body-parser": "^1.17.1",
+      "express": "^4.15.2",
+      "feedparser": "^2.2.0",
       "nedb": "^1.8.0",
-      "request": "^2.75.0",
+      "request": "^2.81.0",
       "underscore": "^1.8.3"
     },
     "devDependencies": {
       "chai": "^3.5.0",
-      "electron-packager": "8.1.0",
-      "electron": "1.4.4",
-      "supertest": "^2.0.1"
+      "electron-packager": "8.6.0",
+      "electron": "1.6.6",
+      "supertest": "^3.0.0"
     }
   },
   "packageStatus": 200,
@@ -124,5 +128,6 @@
   },
   "filename": "dbackowski___BackRSS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:12:38.511Z"
+  "lastFetchedAt": "2017-05-04T18:12:38.511Z",
+  "packageLastFetchedAt": "2017-05-05T17:32:07.482Z"
 }

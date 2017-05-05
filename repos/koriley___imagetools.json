@@ -67,5 +67,28 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:30:02.623Z"
+  "lastFetchedAt": "2017-05-04T20:30:02.623Z",
+  "packageJSON": {
+    "name": "imagetools",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "easyimage": "^2.1.0",
+      "electron": "^1.6.1"
+    },
+    "devDependencies": {
+      "browser-sync": "^2.18.8",
+      "gulp": "^3.9.1",
+      "gulp-autoprefixer": "^3.1.1",
+      "gulp-sass": "^3.1.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:29:05.389Z"
 }

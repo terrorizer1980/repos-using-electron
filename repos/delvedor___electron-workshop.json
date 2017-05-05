@@ -80,9 +80,16 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/delvedor/electron-workshop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/delvedor/electron-workshop.git"
+    },
     "keywords": [],
+    "author": "Tomas Della Vedova - @delvedor (http://delved.org)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/delvedor/electron-workshop/issues"
+    },
     "homepage": "https://github.com/delvedor/electron-workshop#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.0.2"
@@ -117,5 +124,6 @@
   },
   "filename": "delvedor___electron-workshop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:55.294Z"
+  "lastFetchedAt": "2017-05-04T17:37:55.294Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:59.947Z"
 }

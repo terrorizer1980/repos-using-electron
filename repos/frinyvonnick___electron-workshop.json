@@ -74,7 +74,7 @@
   "packageJSON": {
     "name": "electron-workshop",
     "version": "0.1.0",
-    "description": "Workshop Electron du Devfest Nantes 2016",
+    "description": "Workshop Electron Nightclazz Zenika",
     "main": "src/main.js",
     "scripts": {
       "start": "gulp",
@@ -84,11 +84,15 @@
       "test": "mocha src/tests && npm run lint",
       "package": "echo \"TODO (Etape 8): Utiliser electron-packager pour générer l'éxécutable de votre application\""
     },
-    "repository": "https://github.com/frinyvonnick/electron-workshop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/frinyvonnick/electron-workshop.git"
+    },
     "keywords": [
       "electron-app",
       "electron"
     ],
+    "author": "Yvonnick Frin <yvonnick.frin@zenika.com>",
     "contributors": [
       "Eric Briand <eric.briand@zenika.com>",
       "Philippe Charrière <k33g@github.com>"
@@ -124,6 +128,9 @@
       ]
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/frinyvonnick/electron-workshop/issues"
+    },
     "homepage": "https://github.com/frinyvonnick/electron-workshop#readme"
   },
   "packageStatus": 200,
@@ -151,5 +158,6 @@
   },
   "filename": "frinyvonnick___electron-workshop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:57.189Z"
+  "lastFetchedAt": "2017-05-04T17:46:57.189Z",
+  "packageLastFetchedAt": "2017-05-05T17:24:45.579Z"
 }

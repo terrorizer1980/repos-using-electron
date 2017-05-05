@@ -79,11 +79,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/martinrojas/photobooth",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/martinrojas/photobooth.git"
+    },
     "keywords": [
       "Electron",
       "photobooth"
     ],
+    "author": "digiATL",
     "license": "CC0-1.0",
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
@@ -118,5 +122,6 @@
   },
   "filename": "martinrojas___photobooth.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:28.762Z"
+  "lastFetchedAt": "2017-05-04T21:02:28.762Z",
+  "packageLastFetchedAt": "2017-05-05T14:39:41.845Z"
 }

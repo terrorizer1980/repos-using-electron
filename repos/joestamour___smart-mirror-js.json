@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/joestamour/smart-mirror-js",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/joestamour/smart-mirror-js"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Joseph St. Amour",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/joestamour/smart-mirror-js/issues"
+    },
     "homepage": "https://github.com/joestamour/smart-mirror-js",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
@@ -111,5 +118,6 @@
   },
   "filename": "joestamour___smart-mirror-js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:58.724Z"
+  "lastFetchedAt": "2017-05-04T05:06:58.724Z",
+  "packageLastFetchedAt": "2017-05-04T22:31:35.254Z"
 }

@@ -79,6 +79,11 @@
     "description": "Baublbar's image resizing, optimization, and cloud storage upload application. Main build creates native app. Secondary acts as a webapp plugin. Delicious.",
     "license": "MIT",
     "repository": "DaneTheory/cobra",
+    "author": {
+      "name": "Branden Dane",
+      "email": "branden@danetheory.com",
+      "url": "danetheory.com"
+    },
     "engines": {
       "node": ">=4",
       "electron": ">=0.33.0"
@@ -141,5 +146,6 @@
   },
   "filename": "DaneTheory___Cobra.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:16.424Z"
+  "lastFetchedAt": "2017-05-04T18:25:16.424Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:04.620Z"
 }

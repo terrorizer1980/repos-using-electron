@@ -61,7 +61,10 @@
       "start": "dev=true electron ./asset/main.js",
       "build": "rm -rf ./asset; gulp"
     },
-    "repository": "https://github.com/wing-kai/Manga-Reader",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wing-kai/Manga-Reader.git"
+    },
     "keywords": [
       "Electron",
       "Manga",
@@ -69,7 +72,11 @@
       "Reader",
       "Study"
     ],
+    "author": "wing-kai",
     "license": "CC0 1.0 Universal",
+    "bugs": {
+      "url": "https://github.com/wing-kai/Manga-Reader/issues"
+    },
     "homepage": "https://github.com/wing-kai/Manga-Reader",
     "devDependencies": {
       "babel-preset-es2015": "^6.5.0",
@@ -135,5 +142,6 @@
   "svnUrl": "https://github.com/wing-kai/Manga-Reader",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:10:46.273Z"
+  "lastFetchedAt": "2017-05-04T18:10:46.273Z",
+  "packageLastFetchedAt": "2017-05-04T22:24:04.571Z"
 }

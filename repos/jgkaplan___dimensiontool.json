@@ -78,6 +78,10 @@
     "description": "A tool for choosing window dimensions.",
     "license": "MIT",
     "repository": "jgkaplan/dimensiontool",
+    "author": {
+      "name": "jgkaplan",
+      "email": "joshuagraykaplan@gmail.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -132,5 +136,6 @@
   },
   "filename": "jgkaplan___dimensiontool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:33:09.793Z"
+  "lastFetchedAt": "2017-05-04T15:33:09.793Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:06.025Z"
 }

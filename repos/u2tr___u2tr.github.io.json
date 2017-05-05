@@ -93,14 +93,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -134,5 +141,6 @@
   },
   "filename": "u2tr___u2tr.github.io.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:24.047Z"
+  "lastFetchedAt": "2017-05-04T19:52:24.047Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:07.380Z"
 }

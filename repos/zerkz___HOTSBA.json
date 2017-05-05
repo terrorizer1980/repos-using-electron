@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "hotsba",
-    "version": "1.0.5",
+    "version": "1.0.7",
     "description": "A draft helper/ban aid for Heroes of the Storm.",
     "repository": "https://github.com/zerkz/HOTSBA",
     "build": {
@@ -93,6 +93,7 @@
       "pack": "build --dir",
       "dist": "build"
     },
+    "author": "Zack Whipkey <admin@hotsba.com> (http://zdware.com/)",
     "year": 2016,
     "license": "GPL-3.0",
     "engines": {
@@ -137,5 +138,6 @@
   },
   "filename": "zerkz___HOTSBA.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:35.348Z"
+  "lastFetchedAt": "2017-05-04T05:27:35.348Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:43.432Z"
 }

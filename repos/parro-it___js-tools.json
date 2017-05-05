@@ -76,6 +76,7 @@
     "scripts": {
       "test": "echo 'ok'"
     },
+    "author": "andrea@parro.it",
     "bin": {
       "eslint": "node_modules/eslint/bin/eslint.js",
       "electron": "node_modules/electron-prebuilt/cli.js",
@@ -139,5 +140,6 @@
   },
   "filename": "parro-it___js-tools.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:01.664Z"
+  "lastFetchedAt": "2017-05-04T21:21:01.664Z",
+  "packageLastFetchedAt": "2017-05-05T15:36:53.585Z"
 }

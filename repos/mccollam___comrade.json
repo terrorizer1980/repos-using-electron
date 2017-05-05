@@ -80,7 +80,10 @@
       "start": "NODE_ENV=production startx ./node_modules/electron-prebuilt/dist/electron .",
       "test": "NODE_ENV=development ./node_modules/electron-prebuilt/dist/electron ."
     },
-    "repository": "https://github.com/mccollam/comrade",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mccollam/comrade"
+    },
     "keywords": [
       "comrade",
       "chumby",
@@ -90,7 +93,11 @@
       "electron-prebuilt": "1.2.8",
       "pi-pins": "~1.0.2"
     },
+    "author": "Ronald McCollam",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/mccollam/comrade/issues"
+    },
     "homepage": "https://github.com/mccollam/comrade#readme",
     "jshintConfig": {
       "esnext": true,
@@ -125,5 +132,6 @@
   },
   "filename": "mccollam___comrade.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:39.984Z"
+  "lastFetchedAt": "2017-05-04T16:42:39.984Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:40.806Z"
 }

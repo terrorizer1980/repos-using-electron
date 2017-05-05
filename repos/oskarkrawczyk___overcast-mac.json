@@ -81,11 +81,18 @@
       "category": "public.app-category.news",
       "asar": true
     },
-    "repository": "https://github.com/oskarkrawczyk/overcast-mac",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/oskarkrawczyk/overcast-mac.git"
+    },
     "keywords": [
       "overcast",
       "mac"
     ],
+    "author": "Oskar Krawczyk",
+    "bugs": {
+      "url": "https://github.com/oskarkrawczyk/overcast-mac/issues"
+    },
     "homepage": "https://github.com/oskarkrawczyk/overcast-mac",
     "devDependencies": {
       "electron-prebuilt": "^1.4.2",
@@ -126,5 +133,6 @@
   },
   "filename": "oskarkrawczyk___overcast-mac.json",
   "hasProjects": false,
-  "lastFetchedAt": "2017-05-04T19:47:26.620Z"
+  "lastFetchedAt": "2017-05-04T19:47:26.620Z",
+  "packageLastFetchedAt": "2017-05-05T15:18:20.631Z"
 }

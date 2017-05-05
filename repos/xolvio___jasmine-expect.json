@@ -73,9 +73,16 @@
       "expect",
       "assert"
     ],
+    "author": "Jonas Aschenbrenner <jonas@xolv.io> (http://xolv.io)",
     "license": "MIT",
-    "repository": "https://github.com/xolvio/jasmine-expect",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/xolvio/jasmine-expect"
+    },
     "homepage": "",
+    "bugs": {
+      "url": "https://github.com/xolvio/jasmine-expect/issues"
+    },
     "scripts": {
       "test": "jest"
     },
@@ -134,5 +141,6 @@
   },
   "filename": "xolvio___jasmine-expect.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:59:16.972Z"
+  "lastFetchedAt": "2017-05-04T20:59:16.972Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:56.130Z"
 }

@@ -90,6 +90,7 @@
       "prewatch": "npm run clean:js",
       "prepackage": "npm-run-all -s clean:dist lint compile"
     },
+    "author": "Jerome Ludmann",
     "license": "MIT",
     "dependencies": {
       "angular": "^1.5.8",
@@ -130,5 +131,6 @@
   },
   "filename": "jeromeludmann___node-irc-client.json",
   "hasProjects": false,
-  "lastFetchedAt": "2017-05-04T21:23:46.254Z"
+  "lastFetchedAt": "2017-05-04T21:23:46.254Z",
+  "packageLastFetchedAt": "2017-05-05T09:36:13.487Z"
 }

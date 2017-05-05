@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -117,5 +124,6 @@
   },
   "filename": "sangkyoonnam____signaller.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:20:02.800Z"
+  "lastFetchedAt": "2017-05-04T14:20:02.800Z",
+  "packageLastFetchedAt": "2017-05-04T23:06:15.736Z"
 }

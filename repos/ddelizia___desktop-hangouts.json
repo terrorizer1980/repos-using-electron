@@ -79,12 +79,16 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/ddelizia/desktop-hangouts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ddelizia/desktop-hangouts.git"
+    },
     "keywords": [
       "Electron",
       "hangouts",
       "desktop"
     ],
+    "author": "Danilo Delizia",
     "license": "CC0-1.0",
     "homepage": "https://github.com/ddelizia/desktop-hangouts#readme",
     "devDependencies": {
@@ -117,5 +121,6 @@
   },
   "filename": "ddelizia___desktop-hangouts.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:39.098Z"
+  "lastFetchedAt": "2017-05-04T20:07:39.098Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:38.728Z"
 }

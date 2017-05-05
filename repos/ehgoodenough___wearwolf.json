@@ -50,7 +50,10 @@
     "version": "0.0.0",
     "description": "#LD35",
     "license": "MIT",
-    "repository": "https://github.com/ehgoodenough/wearwolf",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ehgoodenough/wearwolf"
+    },
     "contributors": [
       "Andrew McPherson <@ehgoodenough>",
       "Krystal Weber <@kvweber>",
@@ -152,5 +155,6 @@
   "svnUrl": "https://github.com/ehgoodenough/wearwolf",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:29:49.878Z"
+  "lastFetchedAt": "2017-05-04T21:29:49.878Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:25.898Z"
 }

@@ -90,23 +90,32 @@
     "version": "4.0.0",
     "private": true,
     "main": "main.js",
+    "productName": "Ride-4.0",
     "scripts": {
-      "start": "electron ."
+      "start": "electron .",
+      "build-css": "lessc ./style/style.less ./style/new-style.css --strict-math=on",
+      "dev": "npm run build-css && RIDE_CSS=./style/new-style.css ./node_modules/.bin/electron .",
+      "watch": "nodemon --config ./nodemon.json --exec 'npm run dev'",
+      "dev-start": "npm run build-css && RIDE_CSS=./style/new-style.css RIDE_SPAWN=dyalog ./node_modules/.bin/electron .",
+      "watch-start": "nodemon --config ./nodemon.json --exec 'npm run dev-start'",
+      "watch-css": "nodemon --config ./nodemon.json --exec 'npm run build-css'"
     },
     "repository": ".",
     "dependencies": {
-      "codemirror": "5.20.2",
+      "codemirror": "5.25.2",
       "golden-layout": "1.5.6",
       "jquery": "3.1.1",
       "ssh2": "0.5.4"
     },
     "devDependencies": {
-      "async": "2.1.2",
+      "async": "2.1.4",
       "cheerio": "0.22.0",
       "compression": "1.6.2",
-      "electron-packager": "8.2.0",
-      "electron-prebuilt": "1.4.6",
+      "electron": "1.6.2",
+      "electron-packager": "8.7.0",
       "express": "4.14.0",
+      "less": "^2.7.2",
+      "nodemon": "^1.11.0",
       "ws": "1.1.1"
     }
   },
@@ -135,5 +144,6 @@
   },
   "filename": "Dyalog___ride.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:36.888Z"
+  "lastFetchedAt": "2017-05-04T20:54:36.888Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:17.856Z"
 }

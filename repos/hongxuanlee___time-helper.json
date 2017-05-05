@@ -89,6 +89,8 @@
       "electron": "^1.4.4",
       "electron-prebuilt": "^1.4.5",
       "electron-reload": "^1.0.3",
+      "eslint": "^3.10.2",
+      "eslint-plugin-react": "^6.7.1",
       "node-libs-browser": "^1.0.0",
       "style-loader": "^0.13.1",
       "vinyl-buffer": "^1.0.0",
@@ -100,10 +102,13 @@
     "dependencies": {
       "co": "^4.6.0",
       "lodash": "^4.16.6",
+      "material-ui": "^0.16.4",
       "moment": "^2.15.2",
       "mongodb": "^2.2.11",
-      "react": "^15.3.2",
-      "react-dom": "^15.3.2"
+      "react": "^15.4.1",
+      "react-dom": "^15.4.1",
+      "react-router": "^3.0.0",
+      "react-tap-event-plugin": "^2.0.1"
     }
   },
   "packageStatus": 200,
@@ -131,5 +136,6 @@
   },
   "filename": "hongxuanlee___time-helper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:56.410Z"
+  "lastFetchedAt": "2017-05-04T05:27:56.410Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:11.600Z"
 }

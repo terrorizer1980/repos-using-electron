@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/rayqian/lightning",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rayqian/lightning"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/rayqian/lightning/issues"
+    },
     "homepage": "https://github.com/rayqian/lightning",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -118,5 +125,6 @@
   },
   "filename": "rayqian___lightning.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:05:06.294Z"
+  "lastFetchedAt": "2017-05-04T21:05:06.294Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:23.611Z"
 }

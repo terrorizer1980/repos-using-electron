@@ -70,12 +70,16 @@
     "version": "1.0.0",
     "description": "Github notification monitor",
     "main": "index.js",
-    "repository": "https://github.com/tborychowski/gitweet",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tborychowski/gitweet.git"
+    },
     "scripts": {
       "babel": "rm -rf dist/ && mkdir dist && babel src -d dist --watch",
       "app": "electron --enable-transparent-visuals --disable-gpu index.js",
       "start": "npm run babel & npm run app"
     },
+    "author": "Tom <tborychowski@gmail.com>",
     "license": "MIT",
     "dependencies": {
       "alt": "^0.18.2",
@@ -121,5 +125,6 @@
   },
   "filename": "tborychowski___gitweet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:09:46.946Z"
+  "lastFetchedAt": "2017-05-04T21:09:46.946Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:12.971Z"
 }

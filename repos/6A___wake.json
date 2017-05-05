@@ -80,18 +80,10 @@
       "start": "electron app/electron/main.js"
     },
     "repository": {
-      "user": "idotjee",
-      "repo": "wake",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/idotjee/wake/tarball/master",
-      "clone_url": "https://github.com/idotjee/wake",
-      "https_url": "https://github.com/idotjee/wake",
-      "travis_url": "https://travis-ci.org/idotjee/wake",
-      "zip_url": "https://github.com/idotjee/wake/archive/master.zip",
-      "api_url": "https://api.github.com/repos/idotjee/wake"
+      "type": "git",
+      "url": "git+https://github.com/idotjee/wake.git"
     },
+    "author": "idotjee",
     "license": "MIT",
     "devDependencies": {
       "codemirror": "^5.14.2",
@@ -144,5 +136,6 @@
   "filename": "6A___wake.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:07.217Z"
+  "lastFetchedAt": "2017-05-04T21:31:07.217Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:48.028Z"
 }

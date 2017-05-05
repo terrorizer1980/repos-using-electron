@@ -75,13 +75,17 @@
     "name": "Vinegar",
     "version": "0.0.1",
     "description": "Markdown Presentation Writer (Powered by Electron)",
-    "repository": "https://github.com/yhatt/marp",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/yhatt/marp"
+    },
     "main": "main.js",
     "scripts": {
       "start": "gulp run",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
+    "author": "Yuki Hattori",
     "license": "MIT",
     "devDependencies": {
       "coffee-script": "^1.10.0",
@@ -150,5 +154,6 @@
   },
   "filename": "wiro34___vinegar-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:33.948Z"
+  "lastFetchedAt": "2017-05-04T16:42:33.948Z",
+  "packageLastFetchedAt": "2017-05-05T17:25:51.715Z"
 }

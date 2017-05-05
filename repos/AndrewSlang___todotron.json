@@ -71,6 +71,7 @@
     "version": "0.1.0",
     "main": "./app/main.js",
     "description": "Electron App",
+    "author": "Me <me@example.org>",
     "scripts": {
       "start": "electron ./app/main",
       "debug": "electron --debug=5858 ./app/main",
@@ -116,5 +117,6 @@
   },
   "filename": "AndrewSlang___todotron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:21:37.488Z"
+  "lastFetchedAt": "2017-05-04T18:21:37.488Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:14.786Z"
 }

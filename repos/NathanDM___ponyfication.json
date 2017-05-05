@@ -82,6 +82,7 @@
       "lint": "./node_modules/.bin/eslint .",
       "build": "electron-packager main.js --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
     },
+    "author": "Nathan DAMIE",
     "license": "MIT",
     "devDependencies": {
       "browserify": "^13.0.0",
@@ -140,5 +141,6 @@
   },
   "filename": "NathanDM___ponyfication.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:06:35.746Z"
+  "lastFetchedAt": "2017-05-04T05:06:35.746Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:35.731Z"
 }

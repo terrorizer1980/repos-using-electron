@@ -93,6 +93,7 @@
       "vuex:module": "node tasks/vuex/module.js",
       "postinstall": "npm run lint:fix && cd app && npm install"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -179,5 +180,6 @@
   },
   "filename": "felipetoffolo1___db-spider-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:18:56.658Z"
+  "lastFetchedAt": "2017-05-04T18:18:56.658Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:36.053Z"
 }

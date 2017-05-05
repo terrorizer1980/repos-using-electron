@@ -79,7 +79,11 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/cr92/Electrix",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cr92/Electrix.git"
+    },
+    "author": "agni_18_roy@yahoo.com",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -114,5 +118,6 @@
   },
   "filename": "cr92___electrix.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T09:03:53.758Z"
+  "lastFetchedAt": "2017-05-04T09:03:53.758Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:03.404Z"
 }

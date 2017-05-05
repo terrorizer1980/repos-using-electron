@@ -112,7 +112,11 @@
       "start": "node app.js"
     },
     "main": "app.js",
-    "repository": "https://github.com/ubuntu/vSwitch-API",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ubuntu/vSwitch-API.git"
+    },
+    "author": "ubuntu",
     "license": ""
   },
   "packageStatus": 200,
@@ -140,5 +144,6 @@
   },
   "filename": "BU-NU-CLOUD-SP16___Cloud-vSwitch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:13:16.567Z"
+  "lastFetchedAt": "2017-05-04T15:13:16.567Z",
+  "packageLastFetchedAt": "2017-05-05T15:07:34.967Z"
 }

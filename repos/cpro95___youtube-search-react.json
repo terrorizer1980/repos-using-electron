@@ -91,13 +91,17 @@
         "react"
       ]
     },
-    "repository": "https://github.com/cpro95/react-electron-minimal",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cpro95/react-electron-minimal.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
     "dependencies": {
       "babel-cli": "^6.11.4",
@@ -163,5 +167,6 @@
   },
   "filename": "cpro95___youtube-search-react.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:11.148Z"
+  "lastFetchedAt": "2017-05-04T19:35:11.148Z",
+  "packageLastFetchedAt": "2017-05-04T22:53:27.107Z"
 }

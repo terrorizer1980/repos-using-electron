@@ -86,20 +86,25 @@
   "subscribersCount": 11,
   "status": 200,
   "packageJSON": {
-    "name": "proton-sequencer",
+    "name": "proton-sequencer-dev-side",
     "version": "0.0.1",
-    "description": "Sequencer (and Visualizer) for the CSE Winter Light Show",
-    "main": "main.js",
+    "description": "Sequencer (and Visualizer) for the CSE Winter Light Show. This is the developement side, client side is within /app/",
     "scripts": {
-      "start": "electron .",
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "start": "electron ./app"
     },
-    "repository": "https://github.com/teslaworksumn/proton-sequencer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/teslaworksumn/proton-sequencer.git"
+    },
+    "author": "Ryan Fredlund, Byron Ambright, Joshua Guldberg, Alex Kafer, Kelly Larson, Vladimir Kuksenko, Kayla Engelstad",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/teslaworksumn/proton-sequencer/issues"
+    },
     "homepage": "https://github.com/teslaworksumn/proton-sequencer#readme",
-    "devDependencies": {},
-    "dependencies": {
-      "electron": "^1.4.1"
+    "devDependencies": {
+      "electron": "^1.4.3",
+      "gulp": "^3.9.0"
     }
   },
   "packageStatus": 200,
@@ -127,5 +132,6 @@
   },
   "filename": "teslaworksumn___proton-sequencer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:19:38.799Z"
+  "lastFetchedAt": "2017-05-04T18:19:38.799Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:34.922Z"
 }

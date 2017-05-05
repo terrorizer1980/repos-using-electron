@@ -85,7 +85,11 @@
       "launch": "electron .",
       "start": "sh scripts/start.sh"
     },
-    "repository": "https://github.com/marshallformula/elm-starter",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:marshallformula/elm-starter.git"
+    },
+    "author": "marshallformula",
     "license": "MIT",
     "devDependencies": {
       "css-loader": "^0.23.1",
@@ -132,5 +136,6 @@
   },
   "filename": "marshallformula___image-indexer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:47:02.589Z"
+  "lastFetchedAt": "2017-05-04T19:47:02.589Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:04.252Z"
 }

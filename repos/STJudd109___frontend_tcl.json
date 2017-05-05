@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/STJudd109/frontend_tcl",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/STJudd109/frontend_tcl.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Spencer Judd",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/STJudd109/frontend_tcl/issues"
+    },
     "homepage": "https://github.com/STJudd109/frontend_tcl#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -111,5 +118,6 @@
   },
   "filename": "STJudd109___frontend_tcl.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:10:43.179Z"
+  "lastFetchedAt": "2017-05-04T05:10:43.179Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:37.156Z"
 }

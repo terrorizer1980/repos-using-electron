@@ -73,5 +73,56 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:22:40.212Z"
+  "lastFetchedAt": "2017-05-04T14:22:40.212Z",
+  "packageJSON": {
+    "name": "Razion-Net",
+    "productName": "Razion-Net",
+    "version": "0.0.0",
+    "description": "",
+    "license": "MIT",
+    "repository": "lorenzo373/Razion-Net",
+    "author": {
+      "name": "Lorenzo Meurs",
+      "email": "",
+      "url": "razion.net"
+    },
+    "scripts": {
+      "test": "xo",
+      "start": "electron .",
+      "build": "electron-packager . --out=dist --asar --overwrite --all"
+    },
+    "files": [
+      "index.js",
+      "index.html",
+      "css/index.css"
+    ],
+    "keywords": [
+      "electron-app",
+      "electron"
+    ],
+    "dependencies": {
+      "adapterjs": "^0.14.0",
+      "body-parser": "^1.16.1",
+      "bootstrap": "^3.3.7",
+      "electron-debug": "^1.0.0",
+      "express": "^4.14.1",
+      "jquery": "^3.1.1",
+      "semantic-ui": "^2.2.9"
+    },
+    "devDependencies": {
+      "devtron": "^1.1.0",
+      "electron-packager": "^8.0.0",
+      "electron": "^1.0.1",
+      "xo": "^0.16.0"
+    },
+    "xo": {
+      "esnext": true,
+      "envs": [
+        "node",
+        "browser"
+      ]
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:10:46.491Z"
 }

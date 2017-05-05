@@ -79,6 +79,7 @@
       "package:win": "electron-packager . Ang2Electron --platform=win32 --arch=all --out=dist --overwrite --asar=true",
       "release:win": "npm run clean && npm run build"
     },
+    "author": "Coding Seb",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -126,5 +127,6 @@
   },
   "filename": "codingseb___ang2electron-template.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:35.328Z"
+  "lastFetchedAt": "2017-05-04T19:54:35.328Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:19.553Z"
 }

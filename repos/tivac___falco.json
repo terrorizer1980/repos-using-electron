@@ -59,7 +59,11 @@
     "keywords": [
       "twitter"
     ],
-    "repository": "https://github.com/tivac/falco",
+    "author": "Pat Cavit <npm@patcavit.com>",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tivac/falco.git"
+    },
     "main": "./src",
     "dependencies": {
       "delegated": "^1.1.0",
@@ -138,5 +142,6 @@
   },
   "filename": "tivac___falco.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:59.924Z"
+  "lastFetchedAt": "2017-05-04T20:32:59.924Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:35.626Z"
 }

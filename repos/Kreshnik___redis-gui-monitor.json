@@ -53,11 +53,18 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/Kreshnik/redis-gui-monitor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Kreshnik/redis-gui-monitor.git"
+    },
     "keywords": [
       "Redis",
       "Redis monitor"
     ],
+    "author": "Kreshnik Hasanaj",
+    "bugs": {
+      "url": "https://github.com/Kreshnik/redis-gui-monitor/issues"
+    },
     "homepage": "https://github.com/Kreshnik/redis-gui-monitor",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -113,5 +120,6 @@
   },
   "filename": "Kreshnik___redis-gui-monitor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:07.467Z"
+  "lastFetchedAt": "2017-05-04T21:00:07.467Z",
+  "packageLastFetchedAt": "2017-05-05T15:00:30.805Z"
 }

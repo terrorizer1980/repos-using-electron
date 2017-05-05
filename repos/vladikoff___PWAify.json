@@ -53,6 +53,11 @@
     "bin": {
       "pwaify": "bin/pwaify"
     },
+    "author": {
+      "name": "vladikoff",
+      "email": "vlad.filippov@gmail.com",
+      "url": "http://vf.io"
+    },
     "license": "MIT",
     "devDependencies": {},
     "dependencies": {
@@ -110,5 +115,6 @@
   "svnUrl": "https://github.com/vladikoff/PWAify",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:34:34.182Z"
+  "lastFetchedAt": "2017-05-04T15:34:34.182Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:37.285Z"
 }

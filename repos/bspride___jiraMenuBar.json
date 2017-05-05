@@ -77,7 +77,11 @@
       "typings": "typings",
       "postinstall": "typings install"
     },
-    "repository": "https://github.com/bspride/jiraMenuBar",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bspride/jiraMenuBar.git"
+    },
+    "author": "Castillo and Clarke",
     "license": "MIT",
     "devDependencies": {
       "angular2-template-loader": "^0.4.0",
@@ -160,5 +164,6 @@
   },
   "filename": "bspride___jiraMenuBar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:54:40.720Z"
+  "lastFetchedAt": "2017-05-04T19:54:40.720Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:32.730Z"
 }

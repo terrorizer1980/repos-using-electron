@@ -79,7 +79,10 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/yukio808/html_visualization",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yukio808/html_visualization.git"
+    },
     "keywords": [
       "node",
       "html",
@@ -87,7 +90,11 @@
       "javascript",
       "es6"
     ],
+    "author": "Yukio Yamamoto, Aisis Chen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yukio808/html_visualization/issues"
+    },
     "homepage": "https://github.com/yukio808/html_visualization#readme",
     "dependencies": {
       "babel-core": "^6.7.2",
@@ -147,5 +154,6 @@
   },
   "filename": "yukio808___html_visualization.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:56.896Z"
+  "lastFetchedAt": "2017-05-04T21:22:56.896Z",
+  "packageLastFetchedAt": "2017-05-05T17:14:42.057Z"
 }

@@ -62,8 +62,15 @@
       "prestart": "jshint .",
       "start": "electron ."
     },
-    "repository": "https://github.com/Richard70NL/done",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Richard70NL/done.git"
+    },
+    "author": "Richard70nl (http://richard70.nl)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Richard70NL/done/issues"
+    },
     "homepage": "https://github.com/Richard70NL/done#readme",
     "dependencies": {
       "rupjs": "0.x",
@@ -134,5 +141,6 @@
   },
   "filename": "Richard70NL___done.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:05.093Z"
+  "lastFetchedAt": "2017-05-04T21:13:05.093Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:56.481Z"
 }

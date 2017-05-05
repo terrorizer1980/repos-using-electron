@@ -69,6 +69,7 @@
     "name": "youtube-downloader",
     "version": "1.0.0",
     "description": "Downloads videos from youtube and converts them into mp3 files. Use electron to run and build. Usable only for windows, because of executables.",
+    "author": "S. Laitila",
     "devDependencies": {
       "electron-builder": "^7.3.0",
       "electron-packager": "^8.0.0",
@@ -124,5 +125,6 @@
   },
   "filename": "kotirintamamies___youtube-downloader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:28.503Z"
+  "lastFetchedAt": "2017-05-04T05:28:28.503Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:40.270Z"
 }

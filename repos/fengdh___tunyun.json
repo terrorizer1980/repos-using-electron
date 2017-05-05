@@ -70,11 +70,15 @@
     "version": "0.1.0",
     "description": "吞云 for 微盘：批量下载+多线程+断点续传",
     "main": "main.js",
+    "author": "funbook@Hi!PDA - http://www.hi-pda.com/forum/space.php?uid=709426",
     "license": "MIT",
     "scripts": {
       "mining": "electron main-mining.js"
     },
-    "repository": "https://github.com/fengdh/vdisk-exploiter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fengdh/vdisk-exploiter"
+    },
     "keywords": [
       "Electron",
       "vdisk",
@@ -115,5 +119,6 @@
   },
   "filename": "fengdh___tunyun.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:58:02.016Z"
+  "lastFetchedAt": "2017-05-04T17:58:02.016Z",
+  "packageLastFetchedAt": "2017-05-04T23:04:22.070Z"
 }

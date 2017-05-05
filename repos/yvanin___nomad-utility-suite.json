@@ -73,11 +73,18 @@
     "scripts": {
       "start": "gulp && electron main.js"
     },
-    "repository": "https://github.com/yvanin/nomad-utility-suite",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yvanin/nomad-utility-suite.git"
+    },
     "keywords": [
       "nomad"
     ],
+    "author": "Yuri Vanin",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/yvanin/nomad-utility-suite/issues"
+    },
     "homepage": "https://github.com/yvanin/nomad-utility-suite#readme",
     "devDependencies": {
       "bower": "^1.7.7",
@@ -117,5 +124,6 @@
   },
   "filename": "yvanin___nomad-utility-suite.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:11:11.380Z"
+  "lastFetchedAt": "2017-05-04T21:11:11.380Z",
+  "packageLastFetchedAt": "2017-05-05T15:27:40.994Z"
 }

@@ -55,9 +55,16 @@
     "name": "cycle-electron-driver",
     "version": "1.0.0",
     "description": "Cycle.js driver for electron apps",
+    "author": "jacob.h.page@gmail.com",
     "license": "MIT",
     "homepage": "https://github.com/apoco/cycle-electron-driver#readme",
-    "repository": "https://github.com/apoco/cycle-electron-driver",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/apoco/cycle-electron-driver.git"
+    },
+    "bugs": {
+      "url": "https://github.com/apoco/cycle-electron-driver/issues"
+    },
     "keywords": [
       "cycle.js",
       "electron"
@@ -133,5 +140,6 @@
   "svnUrl": "https://github.com/apoco/cycle-electron-driver",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:21:51.957Z"
+  "lastFetchedAt": "2017-05-04T18:21:51.957Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:33.627Z"
 }

@@ -68,7 +68,11 @@
   "packageJSON": {
     "name": "Butter",
     "homepage": "http://butterproject.org/",
-    "repository": "https://github.com/butterproject/butter-desktop-angular",
+    "bugs": "https://github.com/butterproject/butter-desktop-angular/issues",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/butterproject/butter-desktop-angular.git"
+    },
     "license": "GPL-3.0",
     "version": "0.4.0",
     "electronVersion": "0.37.3",
@@ -181,5 +185,6 @@
   "svnUrl": "https://github.com/butterproject/butter-desktop-angular",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:13:11.615Z"
+  "lastFetchedAt": "2017-05-04T18:13:11.615Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:39.674Z"
 }

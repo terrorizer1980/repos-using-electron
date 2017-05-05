@@ -80,6 +80,7 @@
       "webpack",
       "typescript"
     ],
+    "author": "Patrick Stapleton <patrick@angularclass.com>",
     "homepage": "https://github.com/angularclass/angular2-webpack-starter",
     "license": "MIT",
     "scripts": {
@@ -204,7 +205,13 @@
       "webpack-md5-hash": "^0.0.5",
       "webpack-merge": "^0.15.0"
     },
-    "repository": "https://github.com/angularclass/angular2-webpack-starter",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/angularclass/angular2-webpack-starter.git"
+    },
+    "bugs": {
+      "url": "https://github.com/angularclass/angular2-webpack-starter/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -235,5 +242,6 @@
   },
   "filename": "Andrey-Pavlov___LearnHardEn.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:29:06.636Z"
+  "lastFetchedAt": "2017-05-04T15:29:06.636Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:38.351Z"
 }

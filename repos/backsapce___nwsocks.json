@@ -67,6 +67,7 @@
   "status": 200,
   "packageJSON": {
     "app_name": "socks",
+    "productName": "socks",
     "nodejs": true,
     "keywords": [],
     "dependencies": {
@@ -74,7 +75,9 @@
     },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "./node_modules/electron-packager/cli.js . --platform=darwin --arch=x64"
+      "build": "./node_modules/electron-packager/cli.js . --platform=darwin --arch=x64 --icon=./ui/img/sunTemplate.png",
+      "pack": "build --dir",
+      "dist": "build"
     },
     "description": "",
     "name": "socks",
@@ -106,8 +109,8 @@
     "main": "main.js",
     "chromium-args": "",
     "devDependencies": {
-      "electron": "^1.4.5",
-      "electron-packager": "^8.2.0"
+      "electron": "1.4.13",
+      "electron-packager": "8.4.0"
     }
   },
   "packageStatus": 200,
@@ -135,5 +138,6 @@
   },
   "filename": "backsapce___nwsocks.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:08.469Z"
+  "lastFetchedAt": "2017-05-04T14:54:08.469Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:27.709Z"
 }

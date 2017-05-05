@@ -80,7 +80,10 @@
     "scripts": {
       "test": "sh tests/test.sh"
     },
-    "repository": "https://github.com/ALiangLiang/electron-native-notification",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ALiangLiang/electron-native-notification.git"
+    },
     "keywords": [
       "electron",
       "desktop",
@@ -92,7 +95,11 @@
       "polyfill",
       "process"
     ],
+    "author": "ALiangLiang <david27072183@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ALiangLiang/electron-native-notification/issues"
+    },
     "homepage": "https://github.com/ALiangLiang/electron-native-notification#readme",
     "devDependencies": {
       "electron-mocha": "^3.2.0",
@@ -123,5 +130,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:41.947Z"
+  "lastFetchedAt": "2017-05-04T20:19:41.947Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:45.456Z"
 }

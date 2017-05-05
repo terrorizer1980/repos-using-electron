@@ -177,6 +177,10 @@
     "version": "1.3.0",
     "description": "Mattermost Desktop application for Windows, Mac and Linux",
     "main": "main.js",
+    "author": {
+      "name": "Yuya Ochiai",
+      "email": "yuya0321@gmail.com"
+    },
     "license": "Apache-2.0",
     "engines": {
       "node": ">=4.2.0"
@@ -235,6 +239,11 @@
         "synopsis": "Mattermost Desktop",
         "target": "deb"
       }
+    },
+    "directories": {
+      "buildResources": "resources",
+      "app": "dist",
+      "output": "release"
     }
   },
   "packageStatus": 200,
@@ -283,5 +292,6 @@
   "svnUrl": "https://github.com/mikaoelitiana/mattermost-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T13:05:27.004Z"
+  "lastFetchedAt": "2017-05-04T13:05:27.004Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:54.812Z"
 }

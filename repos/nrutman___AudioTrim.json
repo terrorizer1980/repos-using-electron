@@ -83,14 +83,21 @@
       "start": "cd app && npm start",
       "test": "cd app && npm test"
     },
-    "repository": "https://github.com/nrutman/AudioTrim",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nrutman/AudioTrim.git"
+    },
     "keywords": [
       "electron",
       "audio",
       "trim",
       "encode"
     ],
+    "author": "Nathan Rutman",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nrutman/AudioTrim/issues"
+    },
     "homepage": "https://github.com/nrutman/AudioTrim#readme",
     "dependencies": {
       "del": "^2.2.2",
@@ -128,5 +135,6 @@
   },
   "filename": "nrutman___AudioTrim.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:25:52.244Z"
+  "lastFetchedAt": "2017-05-04T21:25:52.244Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:43.363Z"
 }

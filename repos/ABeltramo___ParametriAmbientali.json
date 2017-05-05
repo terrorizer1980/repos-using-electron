@@ -73,5 +73,33 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T04:56:17.480Z"
+  "lastFetchedAt": "2017-05-04T04:56:17.480Z",
+  "packageJSON": {
+    "name": "ParametriAmbientali",
+    "version": "0.0.1",
+    "description": "Applicazione Electron per il calcolo dei parametri ambientali",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "bowerInstall": "bower install",
+      "pack": "build --dir",
+      "dist": "build --mac --win --x64"
+    },
+    "repository": "https://github.com/ABeltramo/ParametriAmbientali",
+    "author": "ABeltramo",
+    "license": "MIT",
+    "devDependencies": {
+      "electron": "1.6.1",
+      "electron-builder": "^16.8.3"
+    },
+    "build": {
+      "appId": "abeltramo.wesakustik",
+      "mac": {
+        "category": "your.app.category.type"
+      },
+      "win": {}
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:25:12.641Z"
 }

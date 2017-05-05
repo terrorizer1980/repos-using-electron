@@ -61,6 +61,7 @@
       "start": "electron main.js",
       "dev": "webpack -w"
     },
+    "author": "Jerome",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.11.1",
@@ -135,5 +136,6 @@
   "svnUrl": "https://github.com/Jerolan/electron__cf_soundcloud",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:09:06.359Z"
+  "lastFetchedAt": "2017-05-04T20:09:06.359Z",
+  "packageLastFetchedAt": "2017-05-04T22:09:08.163Z"
 }

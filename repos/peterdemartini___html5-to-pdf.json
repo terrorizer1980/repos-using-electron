@@ -193,14 +193,17 @@
   "status": 200,
   "packageJSON": {
     "name": "html5-to-pdf",
-    "version": "2.1.0",
+    "version": "2.2.2",
     "description": "HTML5 to PDF converter",
     "main": "index.js",
     "scripts": {
       "test": "mocha",
       "start": "node index.js"
     },
-    "repository": "https://github.com/peterdemartini/html5-to-pdf",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:peterdemartini/html5-to-pdf.git"
+    },
     "keywords": [
       "html5",
       "pdf",
@@ -208,6 +211,7 @@
       "template",
       "generator"
     ],
+    "author": "Peter DeMartini",
     "homepage": "https://github.com/peterdemartini/html5-to-pdf",
     "licenses": [
       {
@@ -216,26 +220,22 @@
       }
     ],
     "dependencies": {
-      "coffee-script": "^1.11.0",
+      "coffee-script": "^1.12.5",
       "colors": "^1.1.2",
       "commander": "^2.8.1",
-      "debug": "^2.2.0",
-      "duplexer": "^0.1.1",
-      "express": "^4.14.0",
-      "extend": "^3.0.0",
-      "fs-extra": "^1.0.0",
-      "lodash": "^4.16.6",
-      "nightmare": "^2.8.1",
+      "debug": "^2.6.4",
+      "express": "^4.15.2",
+      "fs-extra": "^2.1.2",
+      "lodash": "^4.17.4",
+      "nightmare": "^2.10.0",
       "server-destroy": "^1.0.1",
-      "stream-from-to": "^1.4.3",
-      "through": "^2.3.7",
-      "tmp": "0.0.30"
+      "tmp": "^0.0.31"
     },
     "devDependencies": {
       "chai": "^3.0.0",
-      "mocha": "^3.1.0",
-      "sinon": "^1.17.6",
-      "sinon-chai": "^2.8.0"
+      "mocha": "^3.3.0",
+      "sinon": "^2.1.0",
+      "sinon-chai": "^2.9.0"
     },
     "bin": {
       "html5-to-pdf": "./command.js"
@@ -266,5 +266,6 @@
   },
   "filename": "peterdemartini___html5-to-pdf.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:59:30.081Z"
+  "lastFetchedAt": "2017-05-04T04:59:30.081Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:11.834Z"
 }

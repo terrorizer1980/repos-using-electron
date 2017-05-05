@@ -67,6 +67,7 @@
       "build:node": "browserify -t babelify ./boot.js -d --im --no-detect-globals --node | exorcist ./dist/boot.js.map > ./dist/boot.js",
       "build:client": "browserify -t babelify app/index.js -d | exorcist ./app/dist/js/bundle.js.map > ./app/dist/js/bundle.js"
     },
+    "author": "mactkg <mactkg@gmail.com> (http://makerbox.net/)",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.37.2"
@@ -126,5 +127,6 @@
   "svnUrl": "https://github.com/mactkg/electron-template",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:18:25.812Z"
+  "lastFetchedAt": "2017-05-04T20:18:25.812Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:01.455Z"
 }

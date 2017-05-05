@@ -73,23 +73,30 @@
   "status": 200,
   "packageJSON": {
     "name": "sidewinder-viewer",
-    "version": "0.2.0",
+    "version": "0.4.0",
     "description": "The Sidewinder Viewer",
     "main": "main.js",
     "bin": {
       "sidewinder": "./bin/cli.js"
     },
-    "repository": "https://github.com/markbirbeck/sidewinder-viewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/markbirbeck/sidewinder-viewer.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/markbirbeck/sidewinder-viewer/issues"
+    },
     "homepage": "https://github.com/markbirbeck/sidewinder-viewer#readme",
     "dependencies": {
-      "electron": "^1.3.5",
+      "electron": "^1.4.14",
       "minimist": "^1.2.0"
     }
   },
@@ -118,5 +125,6 @@
   },
   "filename": "markbirbeck___sidewinder-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:16:48.006Z"
+  "lastFetchedAt": "2017-05-04T15:16:48.006Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:47.395Z"
 }

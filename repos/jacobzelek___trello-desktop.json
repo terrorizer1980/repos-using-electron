@@ -80,11 +80,21 @@
       "start": "electron main.js",
       "build": "node build.js"
     },
-    "repository": "https://github.com/jacobzelek/trello-desktop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jacobzelek/trello-desktop.git"
+    },
     "keywords": [
       "Trello"
     ],
+    "author": {
+      "name": "Jacob Zelek",
+      "email": "jacob.zelek@gmail.com"
+    },
     "license": "GPL-2.0",
+    "bugs": {
+      "url": "https://github.com/jacobzelek/trello-desktop/issues"
+    },
     "homepage": "https://github.com/jacobzelek/trello-desktop#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0",
@@ -117,5 +127,6 @@
   },
   "filename": "jacobzelek___trello-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:06:49.474Z"
+  "lastFetchedAt": "2017-05-04T18:06:49.474Z",
+  "packageLastFetchedAt": "2017-05-05T04:34:39.111Z"
 }

@@ -73,41 +73,55 @@
   "status": 200,
   "packageJSON": {
     "name": "shots",
-    "version": "0.1.1",
+    "version": "1.1.0",
     "description": "An application for creating screenshots",
     "main": "main.js",
-    "license": "NPOSL",
+    "license": "NPOSL-3.0",
+    "author": "Victor Pasynok <binjospookie@gmail.com>",
     "email": "binjospookie@gmail.com",
     "scripts": {
       "start": "electron .",
+      "dev": "electron . --debug",
       "compile": "rimraf build/out",
       "pack": "npm run compile && build --dir",
       "dist": "npm run compile && build",
       "release": "npm run compile && build"
     },
     "build": {
+      "appId": "org.binjo.shots",
+      "category": "graphics",
+      "build.mac.category": "shots.graphics",
       "maintainer": "Victor Pasynok",
-      "copyright": "Copyright © 2016 Victor Pasynok",
-      "dmg": {
-        "icon": "./build/icon.icns"
+      "copyright": "Copyright © 2017 Viktor Pasynok",
+      "linux": {
+        "target": [
+          "AppImage",
+          "deb"
+        ],
+        "category": "Graphics",
+        "packageCategory": "graphics",
+        "synopsis": "Simple, minimal, and task-focused application for creating screenshots."
       }
+    },
+    "bugs": {
+      "url": "https://github.com/binjospookie/--shots/issues"
     },
     "homepage": "http://shots.binjo.ru/",
     "devDependencies": {
-      "electron": "^1.4.4",
-      "electron-builder": "^7.14.2",
-      "gulp-postcss": "^6.2.0",
+      "electron": "^1.6.0",
+      "electron-builder": "^13.0.0",
+      "gulp-postcss": "^6.3.0",
+      "is-online": "^6.0.1",
       "postcss": "^5.2.5",
-      "rimraf": "^2.5.4",
-      "is-online": "^5.1.2",
-      "eslint": "^3.8.1",
-      "eslint-config-airbnb": "^12.0.0",
-      "eslint-loader": "^1.6.0",
-      "eslint-plugin-import": "^2.0.1",
-      "eslint-plugin-jsx-a11y": "^2.2.3"
+      "postcss-scss": "^0.4.0",
+      "rimraf": "^2.5.4"
     },
     "dependencies": {
-      "is-online": "^5.1.2"
+      "gulp": "^3.9.1",
+      "is-online": "^6.0.1",
+      "minimist": "^1.2.0",
+      "precss": "^1.4.0",
+      "stylelint": "^7.5.0"
     }
   },
   "packageStatus": 200,
@@ -135,5 +149,6 @@
   },
   "filename": "binjospookie___--shots.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:21:16.496Z"
+  "lastFetchedAt": "2017-05-04T21:21:16.496Z",
+  "packageLastFetchedAt": "2017-05-05T15:13:19.952Z"
 }

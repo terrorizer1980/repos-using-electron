@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Small description for hockey-ember goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -188,5 +193,6 @@
   },
   "filename": "shrikanthkr___hockey-electron-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:30:18.734Z"
+  "lastFetchedAt": "2017-05-04T19:30:18.734Z",
+  "packageLastFetchedAt": "2017-05-04T22:17:24.949Z"
 }

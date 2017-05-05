@@ -69,10 +69,18 @@
     "name": "electron-system-monitor",
     "description": "Electron-React App for Monitoring System",
     "version": "1.0.0",
-    "repository": "https://github.com/nguymin4/electron-system-monitor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nguymin4/electron-system-monitor.git"
+    },
     "main": "main.js",
     "devDependencies": {
       "electron-prebuilt": "^1.1.0"
+    },
+    "author": {
+      "name": "Minh Son Nguyen",
+      "email": "minh.son.nguyen.1209@gmail.com",
+      "url": "https://nguymin4.github.io"
     },
     "license": "MIT"
   },
@@ -101,5 +109,6 @@
   },
   "filename": "nguymin4___electron-system-monitor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:27:16.381Z"
+  "lastFetchedAt": "2017-05-04T14:27:16.381Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:10.845Z"
 }

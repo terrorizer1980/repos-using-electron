@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/cydrobolt/lys",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cydrobolt/lys.git"
+    },
     "keywords": [
       "lifx",
       "iot",
       "gui"
     ],
+    "author": "GitHub",
     "license": "Apache",
+    "bugs": {
+      "url": "https://github.com/cydrobolt/lys/issues"
+    },
     "homepage": "https://github.com/cydrobolt/lys#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -126,5 +133,6 @@
   },
   "filename": "cydrobolt___lys.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:56:16.238Z"
+  "lastFetchedAt": "2017-05-04T14:56:16.238Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:22.452Z"
 }

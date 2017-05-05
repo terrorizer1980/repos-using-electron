@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "LiskClient",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "productName": "LiskClient",
     "description": "Lisk Desktop Lite Client",
     "main": "main.js",
@@ -84,13 +84,23 @@
       "dist:osx": "build --osx",
       "dist:linux": "build --linux"
     },
-    "repository": "https://github.com/fix/Lisk-Lite-Client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fix/Lisk-Lite-Client.git"
+    },
     "keywords": [
       "Electron",
       "Lisk",
       "Client"
     ],
+    "author": {
+      "name": "Fx Thoorens",
+      "email": "fixcrypt@gmail.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/fix/Lisk-Lite-Client/issues"
+    },
     "homepage": "https://github.com/fix/Lisk-Lite-Client#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -137,5 +147,6 @@
   },
   "filename": "fix___Lisk-Lite-Client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:21.630Z"
+  "lastFetchedAt": "2017-05-04T14:46:21.630Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:38.712Z"
 }

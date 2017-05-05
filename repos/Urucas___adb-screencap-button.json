@@ -94,14 +94,21 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Urucas/adb-screencap-button",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Urucas/adb-screencap-button.git"
+    },
     "keywords": [
       "android",
       "adb",
       "screencap",
       "screenshot"
     ],
+    "author": "Urucas <hello@urucas.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Urucas/adb-screencap-button/issues"
+    },
     "homepage": "https://github.com/Urucas/adb-screencap-button#readme",
     "devDependencies": {
       "menubar": "^4.1.2"
@@ -137,5 +144,6 @@
   },
   "filename": "Urucas___adb-screencap-button.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:40:20.196Z"
+  "lastFetchedAt": "2017-05-04T17:40:20.196Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:32.664Z"
 }

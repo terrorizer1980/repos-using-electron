@@ -60,14 +60,21 @@
       "start": "electron main.js",
       "build": "electron-packager . --all"
     },
-    "repository": "https://github.com/ndaidong/docker-studio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ndaidong/docker-studio.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/ndaidong/docker-studio/issues"
+    },
     "homepage": "https://github.com/ndaidong/docker-studio",
     "devDependencies": {
       "electron-packager": "^7.0.4",
@@ -119,5 +126,6 @@
   "svnUrl": "https://github.com/ndaidong/docker-studio",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:59:56.221Z"
+  "lastFetchedAt": "2017-05-04T20:59:56.221Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:45.051Z"
 }

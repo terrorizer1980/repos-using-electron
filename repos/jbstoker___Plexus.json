@@ -104,8 +104,19 @@
       "rewire": "^2.4.0"
     },
     "homepage": "https://github.com/jbstoker/Plexus#readme",
+    "author": {
+      "name": "JB Stoker",
+      "email": "jelmer@probomail.nl",
+      "url": "http://stokstylez.nl/"
+    },
     "license": "MIT",
-    "repository": "https://github.com/jbstoker/Plexus",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jbstoker/Plexus.git"
+    },
+    "bugs": {
+      "url": "https://github.com/jbstoker/Plexus/issues"
+    },
     "keywords": [
       "plexus",
       "express",
@@ -158,5 +169,6 @@
   "svnUrl": "https://github.com/jbstoker/Plexus",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:02:31.640Z"
+  "lastFetchedAt": "2017-05-04T18:02:31.640Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:00.016Z"
 }

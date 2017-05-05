@@ -77,6 +77,7 @@
       "postinstall": "npm run build",
       "app": "electron ."
     },
+    "author": "Huy",
     "license": "MIT",
     "dependencies": {
       "babel": "^6.5.2",
@@ -133,5 +134,6 @@
   },
   "filename": "huytd___notepad.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:03:14.911Z"
+  "lastFetchedAt": "2017-05-04T21:03:14.911Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:32.979Z"
 }

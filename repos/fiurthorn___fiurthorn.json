@@ -70,7 +70,10 @@
     "version": "1.0.0",
     "description": "my lib project",
     "main": "es6/typescript/index.js",
-    "repository": "https://github.com/fiurthorn/fiurthorn",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fiurthorn/fiurthorn.git"
+    },
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
       "postinstall": "node_modules\\.bin\\typings install",
@@ -80,6 +83,7 @@
       "tsc": "node_modules\\.bin\\tsc",
       "start": "node_modules\\.bin\\electron ."
     },
+    "author": "fiurthorn",
     "license": "MIT",
     "dependencies": {
       "handlebar": "^1.0.0",
@@ -123,5 +127,6 @@
   },
   "filename": "fiurthorn___fiurthorn.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:11.708Z"
+  "lastFetchedAt": "2017-05-04T19:38:11.708Z",
+  "packageLastFetchedAt": "2017-05-05T01:33:26.868Z"
 }

@@ -81,17 +81,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
     },
     "keywords": [
       "Electron",
@@ -99,7 +90,11 @@
       "start",
       "tutorial"
     ],
+    "author": "Sambarilov",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-preset-es2015": "^6.9.0",
@@ -150,5 +145,6 @@
   "filename": "VitorHP___electron-react-template.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:35:20.910Z"
+  "lastFetchedAt": "2017-05-04T17:35:20.910Z",
+  "packageLastFetchedAt": "2017-05-05T17:40:48.805Z"
 }

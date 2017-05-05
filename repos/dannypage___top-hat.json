@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/dannypage/top-hat",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dannypage/top-hat.git"
+    },
     "keywords": [
       "top-hat",
       "possession",
       "tracker"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/dannypage/top-hat/issues"
+    },
     "homepage": "https://github.com/dannypage/top-hat#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -116,5 +123,6 @@
   },
   "filename": "dannypage___top-hat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:19:34.908Z"
+  "lastFetchedAt": "2017-05-04T20:19:34.908Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:42.961Z"
 }

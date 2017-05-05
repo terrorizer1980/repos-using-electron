@@ -189,22 +189,16 @@
     },
     "dependencies": {},
     "repository": {
-      "user": "bitpay",
-      "repo": "i-made-this",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/bitpay/i-made-this/tarball/master",
-      "clone_url": "https://github.com/bitpay/i-made-this",
-      "https_url": "https://github.com/bitpay/i-made-this",
-      "travis_url": "https://travis-ci.org/bitpay/i-made-this",
-      "zip_url": "https://github.com/bitpay/i-made-this/archive/master.zip",
-      "api_url": "https://api.github.com/repos/bitpay/i-made-this"
+      "type": "git",
+      "url": "git://github.com/bitpay/i-made-this.git"
     },
     "keywords": [
       "bitcore"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bitpay/i-made-this/issues"
+    },
     "homepage": "https://github.com/bitpay/i-made-this",
     "devDependencies": {
       "electron-prebuilt": "^0.34.1"
@@ -256,5 +250,6 @@
   "svnUrl": "https://github.com/eXcomm/i-made-this",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:52:08.098Z"
+  "lastFetchedAt": "2017-05-04T19:52:08.098Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:27.784Z"
 }

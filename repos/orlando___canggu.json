@@ -81,13 +81,20 @@
       "compile": "sassc scss/main.scss > css/main.css",
       "package": "npm run compile; electron-packager . 'Canggu (Beta)' --platform=darwin --arch=x64 --icon=./images/logo.icns"
     },
-    "repository": "https://github.com/orlando/canggu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/orlando/canggu.git"
+    },
     "keywords": [
       "docker-stats",
       "docker",
       "electron"
     ],
+    "author": "Orlando Del Aguila <orlando@hashlabs.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/orlando/canggu/issues"
+    },
     "homepage": "https://github.com/orlando/canggu#readme",
     "dependencies": {
       "babel-preset-es2015": "^6.9.0",
@@ -135,5 +142,6 @@
   },
   "filename": "orlando___canggu.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:22:33.682Z"
+  "lastFetchedAt": "2017-05-04T05:22:33.682Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:23.185Z"
 }

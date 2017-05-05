@@ -88,11 +88,18 @@
       "start": "electron .",
       "build:all": "electron-packager . TimesheetTracker --platform=all --arch=all --version=0.35.2"
     },
-    "repository": "https://github.com/Focalworks/TimesheetTtracker",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Focalworks/TimesheetTtracker.git"
+    },
     "keywords": [
       "timesheet"
     ],
+    "author": "FW",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Focalworks/TimesheetTtracker/issues"
+    },
     "homepage": "https://github.com/Focalworks/TimesheetTtracker#readme",
     "devDependencies": {
       "angular": "^1.4.8",
@@ -129,5 +136,6 @@
   },
   "filename": "Focalworks___TimesheetTtracker.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:33:27.309Z"
+  "lastFetchedAt": "2017-05-04T05:33:27.309Z",
+  "packageLastFetchedAt": "2017-05-05T09:36:14.367Z"
 }

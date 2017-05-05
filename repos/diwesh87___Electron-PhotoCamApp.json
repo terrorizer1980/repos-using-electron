@@ -75,6 +75,7 @@
       "build": "rimraf Photocamboom-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=app",
       "start": "electron ."
     },
+    "author": "Diwesh Saxena",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^8.0.0",
@@ -107,5 +108,6 @@
   },
   "filename": "diwesh87___Electron-PhotoCamApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:00.246Z"
+  "lastFetchedAt": "2017-05-04T17:56:00.246Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:50.198Z"
 }

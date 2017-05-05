@@ -71,6 +71,7 @@
     "private": true,
     "productName": "MyApp",
     "version": "1.0.1",
+    "author": "My Company Ltd",
     "description": "MyApp",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -85,7 +86,10 @@
       "squirrelWindows": {},
       "win": {}
     },
-    "repository": "https://github.com/ramkrk/JKBrowser"
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ramkrk/JKBrowser.git"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -112,5 +116,6 @@
   },
   "filename": "ramkrk___JKBrowser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:43.060Z"
+  "lastFetchedAt": "2017-05-04T19:52:43.060Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:56.230Z"
 }

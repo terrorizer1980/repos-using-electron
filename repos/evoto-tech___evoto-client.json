@@ -99,12 +99,13 @@
       "evoting",
       "blockchain"
     ],
+    "author": "evoto",
     "license": "MIT",
     "dependencies": {
-      "bitcoin-core": "^1.1.0",
       "dotenv": "^2.0.0",
       "electron": "^1.4.3",
       "material-ui": "^0.16.0",
+      "multichain-node": "^2.0.1-alpha24",
       "react": "^15.3.2",
       "react-dom": "^15.3.2",
       "react-router": "^2.8.1",
@@ -152,5 +153,6 @@
   },
   "filename": "evoto-tech___evoto-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:38:48.434Z"
+  "lastFetchedAt": "2017-05-04T17:38:48.434Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:47.572Z"
 }

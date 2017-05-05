@@ -111,9 +111,16 @@
       "report-coverage": "codecov",
       "semantic-release": "semantic-release pre && npm publish && semantic-release post"
     },
-    "repository": "https://github.com/miniArray/ascent",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/miniArray/ascent.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/miniArray/ascent/issues"
+    },
     "config": {
       "commitizen": {
         "path": "node_modules/cz-conventional-changelog"
@@ -148,5 +155,6 @@
   },
   "filename": "miniArray___elevate-vg-gui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:21:21.081Z"
+  "lastFetchedAt": "2017-05-04T18:21:21.081Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:10.851Z"
 }

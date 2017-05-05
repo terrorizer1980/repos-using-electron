@@ -69,6 +69,11 @@
     "name": "webtorrent",
     "description": "Streaming torrent client",
     "version": "0.97.2",
+    "author": {
+      "name": "WebTorrent, LLC",
+      "email": "feross@webtorrent.io",
+      "url": "https://webtorrent.io"
+    },
     "browser": {
       "./lib/server.js": false,
       "./lib/tcp-pool.js": false,
@@ -83,6 +88,9 @@
       "transform": [
         "package-json-versionify"
       ]
+    },
+    "bugs": {
+      "url": "https://github.com/feross/webtorrent/issues"
     },
     "dependencies": {
       "addr-to-ip-port": "^1.4.2",
@@ -166,7 +174,10 @@
     ],
     "license": "MIT",
     "main": "index.js",
-    "repository": "https://github.com/feross/webtorrent",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/feross/webtorrent.git"
+    },
     "scripts": {
       "build": "browserify -s WebTorrent -e ./ | uglifyjs -c warnings=false -m > webtorrent.min.js",
       "build-debug": "browserify -s WebTorrent -e ./ > webtorrent.debug.js",
@@ -204,5 +215,6 @@
   },
   "filename": "DarthSnow___naimwt.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:10.013Z"
+  "lastFetchedAt": "2017-05-04T21:18:10.013Z",
+  "packageLastFetchedAt": "2017-05-05T14:43:52.407Z"
 }

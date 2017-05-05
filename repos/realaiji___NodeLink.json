@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.34.0"
@@ -127,5 +134,6 @@
   },
   "filename": "realaiji___NodeLink.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:28.949Z"
+  "lastFetchedAt": "2017-05-04T05:34:28.949Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:38.199Z"
 }

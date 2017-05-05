@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/pathartl/banana-split",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/pathartl/banana-split.git"
+    },
     "keywords": [
       "Electron",
       "video",
       "tv",
       "ffmpeg"
     ],
+    "author": "Pat Hartl",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/pathartl/banana-split/issues"
+    },
     "homepage": "https://github.com/pathartl/banana-split#readme",
     "devDependencies": {
       "electron-packager": "^8.1.0",
@@ -125,5 +132,6 @@
   },
   "filename": "pathartl___banana-split.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:40:35.502Z"
+  "lastFetchedAt": "2017-05-04T16:40:35.502Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:09.652Z"
 }

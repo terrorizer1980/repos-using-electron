@@ -51,7 +51,14 @@
     "version": "0.0.3",
     "description": "A simple reverse proxy for OS X.",
     "license": "MIT",
-    "repository": "https://github.com/dfmcphee/simple-proxy",
+    "repository": {
+      "url": "dfmcphee/simple-proxy"
+    },
+    "author": {
+      "name": "Dominic McPhee",
+      "email": "dominic.mcphee@shopify.com",
+      "url": "dfmcphee.com"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -125,5 +132,6 @@
   },
   "filename": "dfmcphee___simple-proxy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:01.772Z"
+  "lastFetchedAt": "2017-05-04T05:23:01.772Z",
+  "packageLastFetchedAt": "2017-05-05T17:21:00.021Z"
 }

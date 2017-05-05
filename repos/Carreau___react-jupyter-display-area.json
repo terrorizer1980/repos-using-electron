@@ -181,17 +181,8 @@
       "clean": "rimraf lib/*"
     },
     "repository": {
-      "user": "nteract",
-      "repo": "react-jupyter-display-area",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/nteract/react-jupyter-display-area/tarball/master",
-      "clone_url": "https://github.com/nteract/react-jupyter-display-area",
-      "https_url": "https://github.com/nteract/react-jupyter-display-area",
-      "travis_url": "https://travis-ci.org/nteract/react-jupyter-display-area",
-      "zip_url": "https://github.com/nteract/react-jupyter-display-area/archive/master.zip",
-      "api_url": "https://api.github.com/repos/nteract/react-jupyter-display-area"
+      "type": "git",
+      "url": "git+https://github.com/nteract/react-jupyter-display-area.git"
     },
     "keywords": [
       "jupyter",
@@ -199,7 +190,11 @@
       "notebook",
       "nteract"
     ],
+    "author": "Kyle Kelley <rgbkrk@gmail.com>",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/nteract/react-jupyter-display-area/issues"
+    },
     "homepage": "https://github.com/nteract/react-jupyter-display-area#readme",
     "babel": {
       "presets": [
@@ -290,5 +285,6 @@
   "filename": "Carreau___react-jupyter-display-area.json",
   "sourceRepo": "nteract/react-jupyter-display-area",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:27.398Z"
+  "lastFetchedAt": "2017-05-04T21:10:27.398Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:26.440Z"
 }

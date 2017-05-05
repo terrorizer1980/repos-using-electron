@@ -66,7 +66,7 @@
     "private": true,
     "main": "main.js",
     "engines": {
-      "electron": "1.2.1"
+      "electron": "1.4.16"
     },
     "scripts": {
       "start": "./node_modules/.bin/electron .",
@@ -87,13 +87,14 @@
     },
     "dependencies": {
       "bluebird": "^3.4.6",
-      "electron": "^1.4.4",
+      "electron": "^1.4.16",
       "electron-shortcut-normalizer": "^1.0.0",
+      "fs-extra": "^1.0.0",
+      "gray-matter": "^2.1.1",
       "jsftp": "^1.5.4",
-      "lodash": "^4.16.4",
-      "moment": "^2.15.2",
-      "nodemailer": "^2.6.4",
-      "rimraf": "^2.5.4"
+      "lodash": "^4.17.4",
+      "moment": "^2.18.1",
+      "nodemailer": "^2.6.4"
     }
   },
   "packageStatus": 200,
@@ -141,5 +142,6 @@
   "svnUrl": "https://github.com/easywebhub/easyapp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:23:47.877Z"
+  "lastFetchedAt": "2017-05-04T21:23:47.877Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:15.543Z"
 }

@@ -87,8 +87,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/cytoscape/cytoscape.js-tutorials",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/cytoscape/cytoscape.js-tutorials.git"
+    },
+    "author": "Joseph Stahl",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/cytoscape/cytoscape.js-tutorials/issues"
+    },
     "homepage": "https://github.com/cytoscape/cytoscape.js-tutorials#readme",
     "devDependencies": {
       "eslint": "^3.2.2",
@@ -120,5 +127,6 @@
   },
   "filename": "cytoscape___cytoscape.js-tutorials.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:44:47.548Z"
+  "lastFetchedAt": "2017-05-04T16:44:47.548Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:02.620Z"
 }

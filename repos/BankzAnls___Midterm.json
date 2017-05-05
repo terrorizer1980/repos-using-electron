@@ -54,7 +54,11 @@
       "test": "make test",
       "start": "node index.js"
     },
-    "repository": "https://github.com/segmentio/nightmare",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
+    },
+    "author": "bossbossk20",
     "keywords": [
       "nightmare",
       "electron"
@@ -133,5 +137,6 @@
   },
   "filename": "BankzAnls___Midterm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:18:24.146Z"
+  "lastFetchedAt": "2017-05-04T15:18:24.146Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:32.958Z"
 }

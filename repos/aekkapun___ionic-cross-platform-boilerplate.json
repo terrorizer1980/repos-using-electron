@@ -182,19 +182,14 @@
       "ios": "npm run dumpdev && cordova run ios --device"
     },
     "repository": {
-      "user": "shprink",
-      "repo": "ionic-cross-platform-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/shprink/ionic-cross-platform-boilerplate/tarball/master",
-      "clone_url": "https://github.com/shprink/ionic-cross-platform-boilerplate",
-      "https_url": "https://github.com/shprink/ionic-cross-platform-boilerplate",
-      "travis_url": "https://travis-ci.org/shprink/ionic-cross-platform-boilerplate",
-      "zip_url": "https://github.com/shprink/ionic-cross-platform-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/shprink/ionic-cross-platform-boilerplate"
+      "type": "git",
+      "url": "git+https://github.com/shprink/ionic-cross-platform-boilerplate.git"
     },
+    "author": "shprink <contact@julienrenaux.fr> (http://julienrenaux.fr/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shprink/ionic-cross-platform-boilerplate/issues"
+    },
     "homepage": "https://github.com/shprink/ionic-cross-platform-boilerplate#readme",
     "devDependencies": {
       "autoprefixer-loader": "^3.1.0",
@@ -275,5 +270,6 @@
   "svnUrl": "https://github.com/aekkapun/ionic-cross-platform-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:34:20.881Z"
+  "lastFetchedAt": "2017-05-04T17:34:20.881Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:39.604Z"
 }

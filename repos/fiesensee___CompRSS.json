@@ -73,11 +73,18 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/fiesensee/CompRSS",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fiesensee/CompRSS.git"
+    },
     "keywords": [
       "rss"
     ],
+    "author": "Felix Isensee",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fiesensee/CompRSS/issues"
+    },
     "homepage": "https://github.com/fiesensee/CompRSS#readme",
     "devDependencies": {
       "browserify": "^13.0.1",
@@ -168,5 +175,6 @@
   },
   "filename": "fiesensee___CompRSS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:37:04.183Z"
+  "lastFetchedAt": "2017-05-04T17:37:04.183Z",
+  "packageLastFetchedAt": "2017-05-04T21:56:16.215Z"
 }

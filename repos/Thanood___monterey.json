@@ -167,7 +167,7 @@
   "status": 200,
   "packageJSON": {
     "name": "monterey",
-    "version": "0.4.6",
+    "version": "0.4.7",
     "description": "Monterey is an extensible application that provides a graphical user interface for a collection of tools to simplify the creation, configuration and maintenance of Aurelia applications.",
     "keywords": [
       "monterey",
@@ -175,20 +175,18 @@
       "gui"
     ],
     "homepage": "http://aurelia.io",
+    "bugs": {
+      "url": "https://github.com/monterey-framework/monterey/issues"
+    },
     "main": "app/index.js",
     "license": "CC0-1.0",
+    "author": {
+      "name": "Monterey",
+      "email": "info@aureliatools.com"
+    },
     "repository": {
-      "user": "monterey-framework",
-      "repo": "monterey",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/monterey-framework/monterey/tarball/master",
-      "clone_url": "https://github.com/monterey-framework/monterey",
-      "https_url": "https://github.com/monterey-framework/monterey",
-      "travis_url": "https://travis-ci.org/monterey-framework/monterey",
-      "zip_url": "https://github.com/monterey-framework/monterey/archive/master.zip",
-      "api_url": "https://api.github.com/repos/monterey-framework/monterey"
+      "type": "git",
+      "url": "https://github.com/monterey-framework/monterey"
     },
     "scripts": {
       "postinstall": "install-app-deps",
@@ -197,6 +195,9 @@
       "setup": "node utils -setup && node utils -rebuild-native",
       "rebuild-native": "node utils -rebuild-native",
       "test-build": "gulp rename-index && build && gulp rename-index-back"
+    },
+    "directories": {
+      "app": "app"
     },
     "build": {
       "appId": "monterey",
@@ -315,5 +316,6 @@
   "svnUrl": "https://github.com/Thanood/monterey",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:15:32.863Z"
+  "lastFetchedAt": "2017-05-04T05:15:32.863Z",
+  "packageLastFetchedAt": "2017-05-04T22:34:16.199Z"
 }

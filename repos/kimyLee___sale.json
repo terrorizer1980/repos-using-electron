@@ -95,13 +95,20 @@
       "prepare-release": "npm run package && npm run sign-exe && npm run installer && npm run sign-installer",
       "release": "node ./script/release.js"
     },
-    "repository": "https://github.com/electron/electron-api-demos",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-api-demos.git"
+    },
     "keywords": [
       "Electron",
       "API",
       "demo"
     ],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron/electron-api-demos/issues"
+    },
     "homepage": "https://github.com/electron/electron-api-demos#readme",
     "devDependencies": {
       "chai": "^3.4.1",
@@ -175,5 +182,6 @@
   },
   "filename": "kimyLee___sale.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:29:13.398Z"
+  "lastFetchedAt": "2017-05-04T14:29:13.398Z",
+  "packageLastFetchedAt": "2017-05-05T17:28:23.812Z"
 }

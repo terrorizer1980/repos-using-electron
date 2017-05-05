@@ -79,14 +79,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/dustine/drag-decrypt",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dustine/drag-decrypt.git"
+    },
     "keywords": [
       "encryption",
       "decryption",
       "toy",
       "drag&drop"
     ],
+    "author": "Dustine Camacho",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dustine/drag-decrypt/issues"
+    },
     "homepage": "https://github.com/dustine/drag-decrypt#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.26.1"
@@ -117,5 +124,6 @@
   },
   "filename": "dustine___drag-decrypt.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:22:27.143Z"
+  "lastFetchedAt": "2017-05-04T14:22:27.143Z",
+  "packageLastFetchedAt": "2017-05-05T15:08:39.129Z"
 }

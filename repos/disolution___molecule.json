@@ -110,8 +110,15 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/disolution/molecule",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/disolution/molecule.git"
+    },
+    "author": "Henry Kehlmann <henry@blooob.me> (https://github.com/madhenry)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/disolution/molecule/issues"
+    },
     "keywords": [
       "disolution",
       "projects",
@@ -225,6 +232,9 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "directories": {
+      "test": "test"
     }
   },
   "packageStatus": 200,
@@ -252,5 +262,6 @@
   },
   "filename": "disolution___molecule.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:31:48.434Z"
+  "lastFetchedAt": "2017-05-04T21:31:48.434Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:56.868Z"
 }

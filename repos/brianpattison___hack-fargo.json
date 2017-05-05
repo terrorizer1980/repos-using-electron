@@ -68,6 +68,10 @@
   "packageJSON": {
     "name": "hack-fargo",
     "description": "Hack Fargo: Civic Hackathon Weekend 2015",
+    "author": {
+      "name": "Brian Pattison",
+      "email": "brian@brianpattison.com"
+    },
     "productName": "Hack Fargo",
     "appBundleId": "com.brianpattison.hack-fargo",
     "version": "0.0.1",
@@ -77,6 +81,10 @@
     },
     "main": "main.js",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "node electron-build.js && open ./build",
       "start": "nf start",
@@ -143,5 +151,6 @@
   },
   "filename": "brianpattison___hack-fargo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:49.097Z"
+  "lastFetchedAt": "2017-05-04T14:49:49.097Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:48.555Z"
 }

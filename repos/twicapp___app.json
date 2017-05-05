@@ -70,14 +70,21 @@
       "lint": "eslint src/",
       "start": "electron src/index"
     },
-    "repository": "https://github.com/twicapp/app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/twicapp/app.git"
+    },
     "keywords": [
       "twic",
       "twitter",
       "client",
       "awesome"
     ],
+    "author": "Igor Kalashnikov <igor.kalashnikov@me.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/twicapp/app/issues"
+    },
     "homepage": "https://github.com/twicapp/app#readme",
     "dependencies": {
       "@twic/config": "1.0.1",
@@ -151,5 +158,6 @@
   },
   "filename": "twicapp___app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:45:39.613Z"
+  "lastFetchedAt": "2017-05-04T19:45:39.613Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:47.573Z"
 }

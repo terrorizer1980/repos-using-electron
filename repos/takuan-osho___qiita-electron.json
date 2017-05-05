@@ -85,6 +85,7 @@
       "release:linux": "electron-packager ./ Qiita --out release --platform=linux --arch=x64 --version=0.36.2 --overwrite --asar --ignore release"
     },
     "keywords": [],
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel-cli": "^6.4.0",
@@ -120,5 +121,6 @@
   },
   "filename": "takuan-osho___qiita-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:57.031Z"
+  "lastFetchedAt": "2017-05-04T14:21:57.031Z",
+  "packageLastFetchedAt": "2017-05-05T17:43:42.332Z"
 }

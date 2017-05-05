@@ -74,12 +74,16 @@
       "start": "electron .",
       "build": "electron-packager ./ Prefixer --version=0.35.4 --platform=darwin --arch=x64 --ignore=node_modules/electron-* --ignore=node_modules/.bin --ignore=.git --icon=./app/app-icon.icns"
     },
-    "repository": "https://github.com/targetkiller/Prefixer",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/targetkiller/Prefixer"
+    },
     "keywords": [
       "autoprefix",
       "postcss",
       "electron"
     ],
+    "author": "tqtan",
     "license": "MIT",
     "dependencies": {
       "gulp": "~3.9.0",
@@ -87,6 +91,9 @@
       "gulp-rename": "^1.2.2",
       "autoprefixer": "~6.1.2",
       "electron-prebuilt": "^0.35.0"
+    },
+    "bugs": {
+      "url": "https://github.com/targetkiller/Prefixer/issues"
     },
     "homepage": "https://github.com/targetkiller/Prefixer#readme",
     "devDependencies": {
@@ -118,5 +125,6 @@
   },
   "filename": "targetkiller___Prefixer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:11.825Z"
+  "lastFetchedAt": "2017-05-04T18:03:11.825Z",
+  "packageLastFetchedAt": "2017-05-05T14:44:49.522Z"
 }

@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -120,5 +127,6 @@
   },
   "filename": "elisglynne___deud.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:03:20.751Z"
+  "lastFetchedAt": "2017-05-04T18:03:20.751Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:44.140Z"
 }

@@ -53,14 +53,21 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/prajankya/Folder-Encryptor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/prajankya/Folder-Encryptor.git"
+    },
     "keywords": [
       "nodejs",
       "encrypt",
       "password",
       "encode"
     ],
+    "author": "Prajankya Sonar",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/prajankya/Folder-Encryptor/issues"
+    },
     "homepage": "https://github.com/prajankya/Folder-Encryptor#readme",
     "dependencies": {
       "file-encryptor": "^0.1.1",
@@ -118,5 +125,6 @@
   },
   "filename": "prajankya___Folder-Encryptor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:07:57.516Z"
+  "lastFetchedAt": "2017-05-04T21:07:57.516Z",
+  "packageLastFetchedAt": "2017-05-05T17:36:48.143Z"
 }

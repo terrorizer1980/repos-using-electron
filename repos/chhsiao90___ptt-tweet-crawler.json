@@ -76,8 +76,15 @@
       "client": "electron ./",
       "resources": "gulp resources"
     },
-    "repository": "https://github.com/chhsiao90/ptt-tweet-crawler",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chhsiao90/ptt-tweet-crawler.git"
+    },
+    "author": "chhsiao90",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/chhsiao90/bptt-tweet-crawler/issues"
+    },
     "homepage": "https://github.com/chhsiao90/ptt-tweet-crawler#readme",
     "keywords": [
       "react",
@@ -130,5 +137,6 @@
   },
   "filename": "chhsiao90___ptt-tweet-crawler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:18.152Z"
+  "lastFetchedAt": "2017-05-04T05:01:18.152Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:37.831Z"
 }

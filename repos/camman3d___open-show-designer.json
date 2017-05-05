@@ -76,7 +76,10 @@
       "build": "TARGET=electron webpack",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/camman3d/open-show-designer",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/camman3d/open-show-designer"
+    },
     "keywords": [
       "OSC",
       "Art-Net",
@@ -85,7 +88,11 @@
       "Sequencing",
       "Lightshow"
     ],
+    "author": "camman3d",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/camman3d/open-show-designer/issues"
+    },
     "homepage": "https://github.com/camman3d/open-show-designer",
     "dependencies": {
       "artnet": "^1.0.5",
@@ -142,5 +149,6 @@
   },
   "filename": "camman3d___open-show-designer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:01.051Z"
+  "lastFetchedAt": "2017-05-04T21:10:01.051Z",
+  "packageLastFetchedAt": "2017-05-05T17:50:37.378Z"
 }

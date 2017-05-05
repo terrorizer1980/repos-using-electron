@@ -62,6 +62,7 @@
       "prestart": "webpack",
       "start": "electron app/main.js"
     },
+    "author": "Blaine Schmeisser",
     "license": "Unlicense",
     "devDependencies": {
       "babel-core": "^6.13.2",
@@ -122,5 +123,6 @@
   "svnUrl": "https://github.com/blainesch/test",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:01:58.661Z"
+  "lastFetchedAt": "2017-05-04T21:01:58.661Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:11.678Z"
 }

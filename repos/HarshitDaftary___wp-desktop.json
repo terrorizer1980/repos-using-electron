@@ -190,17 +190,8 @@
     "productName": "WordPress.com",
     "version": "1.8.0",
     "repository": {
-      "user": "Automattic",
-      "repo": "wp-desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/Automattic/wp-desktop/tarball/master",
-      "clone_url": "https://github.com/Automattic/wp-desktop",
-      "https_url": "https://github.com/Automattic/wp-desktop",
-      "travis_url": "https://travis-ci.org/Automattic/wp-desktop",
-      "zip_url": "https://github.com/Automattic/wp-desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/Automattic/wp-desktop"
+      "type": "git",
+      "url": "https://github.com/Automattic/wp-desktop/"
     },
     "private": true,
     "description": "Desktop version of WordPress.com",
@@ -280,5 +271,6 @@
   "filename": "HarshitDaftary___wp-desktop.json",
   "sourceRepo": "Automattic/wp-desktop",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:40:03.280Z"
+  "lastFetchedAt": "2017-05-04T19:40:03.280Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:57.877Z"
 }

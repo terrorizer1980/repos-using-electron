@@ -74,9 +74,16 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "$(npm bin)/electron ."
     },
-    "repository": "https://github.com/ma-bo-do-fu/electronOauth",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ma-bo-do-fu/electronOauth.git"
+    },
     "keywords": [],
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ma-bo-do-fu/electronOauth/issues"
+    },
     "homepage": "https://github.com/ma-bo-do-fu/electronOauth#readme",
     "dependencies": {
       "electron": "^1.4.0",
@@ -120,5 +127,6 @@
   },
   "filename": "ma-bo-do-fu___electronOauth.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:29:57.911Z"
+  "lastFetchedAt": "2017-05-04T21:29:57.911Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:31.251Z"
 }

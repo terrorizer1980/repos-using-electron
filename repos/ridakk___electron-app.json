@@ -81,13 +81,20 @@
       "build": "./node_modules/.bin/webpack",
       "watch": "./node_modules/.bin/webpack-dev-server --hot --inline"
     },
-    "repository": "https://github.com/ridakk/electron-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ridakk/electron-app.git"
+    },
     "keywords": [
       "electron",
       "react",
       "webpack"
     ],
+    "author": "Kadir Goktas",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ridakk/electron-app/issues"
+    },
     "homepage": "https://github.com/ridakk/electron-app#readme",
     "devDependencies": {
       "babel": "^6.5.2",
@@ -141,5 +148,6 @@
   },
   "filename": "ridakk___electron-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:23.564Z"
+  "lastFetchedAt": "2017-05-04T18:00:23.564Z",
+  "packageLastFetchedAt": "2017-05-04T23:00:34.742Z"
 }

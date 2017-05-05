@@ -178,22 +178,17 @@
       "build": "webpack --verbose --colors --display-error-details --config webpack.config.js"
     },
     "repository": {
-      "user": "henriquesosa",
-      "repo": "intro-ao-electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/henriquesosa/intro-ao-electron/tarball/master",
-      "clone_url": "https://github.com/henriquesosa/intro-ao-electron",
-      "https_url": "https://github.com/henriquesosa/intro-ao-electron",
-      "travis_url": "https://travis-ci.org/henriquesosa/intro-ao-electron",
-      "zip_url": "https://github.com/henriquesosa/intro-ao-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/henriquesosa/intro-ao-electron"
+      "type": "git",
+      "url": "git+https://github.com/henriquesosa/intro-ao-electron.git"
     },
     "keywords": [
       "electron"
     ],
+    "author": "Henrique Sosa <henriquesosa@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/henriquesosa/intro-ao-electron/issues"
+    },
     "homepage": "https://github.com/henriquesosa/intro-ao-electron#readme",
     "devDependencies": {
       "babel-core": "^6.4.5",
@@ -300,5 +295,6 @@
   "svnUrl": "https://github.com/henriqueuller/electron-intro",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:28:37.361Z"
+  "lastFetchedAt": "2017-05-04T20:28:37.361Z",
+  "packageLastFetchedAt": "2017-05-05T17:46:48.767Z"
 }

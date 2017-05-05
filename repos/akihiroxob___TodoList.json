@@ -75,12 +75,19 @@
       "debug": "electron .",
       "deploy": "node ./deploy.js"
     },
-    "repository": "https://github.com/akihiroxob/ElectronTodoList",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/akihiroxob/ElectronTodoList.git"
+    },
     "keywords": [
       "Electron",
       "JavaScript"
     ],
+    "author": "akihiroxob",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/akihiroxob/ElectronTodoList/issues"
+    },
     "homepage": "https://github.com/akihiroxob/ElectronTodoList#readme"
   },
   "packageStatus": 200,
@@ -128,5 +135,6 @@
   },
   "filename": "akihiroxob___TodoList.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:06:22.380Z"
+  "lastFetchedAt": "2017-05-04T21:06:22.380Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:33.608Z"
 }

@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "J Pratt-James",
+      "email": "prattjames4@gmail.com",
+      "url": "https://github.com/prattjames"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Prattjames/ElectronReactReduxBoilerplatessues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -206,5 +217,6 @@
   },
   "filename": "Prattjames___ElectronReactReduxBoilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:10:05.080Z"
+  "lastFetchedAt": "2017-05-04T18:10:05.080Z",
+  "packageLastFetchedAt": "2017-05-04T23:02:42.465Z"
 }

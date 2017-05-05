@@ -79,8 +79,15 @@
     "scripts": {
       "test": "mocha tests --recursive ./tests"
     },
-    "repository": "https://github.com/blorente/sociogram",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/blorente/sociogram.git"
+    },
+    "author": "Borja Lorente",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/blorente/sociogram/issues"
+    },
     "homepage": "https://github.com/blorente/sociogram#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -112,5 +119,6 @@
   },
   "filename": "blorente___sociogram.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:53:50.071Z"
+  "lastFetchedAt": "2017-05-04T17:53:50.071Z",
+  "packageLastFetchedAt": "2017-05-05T17:33:39.644Z"
 }

@@ -66,6 +66,11 @@
     "description": "Application wrapper for Asana web application",
     "license": "MIT",
     "repository": "user/repo",
+    "author": {
+      "name": "Dominik Schmidt",
+      "email": "nick@kreativgebiet.com",
+      "url": "http://kreativgebiet.com/"
+    },
     "engines": {
       "node": ">=4"
     },
@@ -144,5 +149,6 @@
   "svnUrl": "https://github.com/kreativgebiet/taskana",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:54:44.426Z"
+  "lastFetchedAt": "2017-05-04T17:54:44.426Z",
+  "packageLastFetchedAt": "2017-05-05T14:52:28.544Z"
 }

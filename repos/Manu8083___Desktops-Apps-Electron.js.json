@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -118,5 +125,6 @@
   },
   "filename": "Manu8083___Desktops-Apps-Electron.js.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:04:00.907Z"
+  "lastFetchedAt": "2017-05-04T18:04:00.907Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:11.245Z"
 }

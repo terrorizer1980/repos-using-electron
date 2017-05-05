@@ -70,6 +70,10 @@
     "description": "simple tool to track what you did",
     "version": "0.0.1",
     "main": "./dist/main.js",
+    "author": {
+      "name": "Jason Gotti",
+      "email": "jason.gotti@gmail.com"
+    },
     "license": "MIT",
     "readme": "README.md",
     "scripts": {
@@ -116,5 +120,6 @@
   },
   "filename": "c0de___diddo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:27:38.461Z"
+  "lastFetchedAt": "2017-05-04T14:27:38.461Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:12.130Z"
 }

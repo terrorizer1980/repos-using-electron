@@ -81,8 +81,13 @@
     "dependencies": {
       "electron-gh-releases": "^2.0.4",
       "electron-window-manager": "^1.0.1",
+      "graceful-fs": "^4.1.11",
+      "graceful.js": "^1.0.0",
+      "jquery": "^3.1.1",
+      "jquery.cookie": "^1.4.1",
       "jsonfile": "^2.3.1",
       "request": "^2.74.0",
+      "tail": "^1.2.1",
       "xml2js": "^0.4.17"
     }
   },
@@ -131,5 +136,6 @@
   "svnUrl": "https://github.com/hakantaskin/simbatest",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:51:14.965Z"
+  "lastFetchedAt": "2017-05-04T19:51:14.965Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:14.714Z"
 }

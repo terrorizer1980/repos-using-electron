@@ -187,5 +187,69 @@
   "networkCount": 65,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:16:15.538Z"
+  "lastFetchedAt": "2017-05-04T20:16:15.538Z",
+  "packageJSON": {
+    "name": "wire-desktop",
+    "license": "LicenseRef-LICENSE",
+    "private": true,
+    "scripts": {
+      "preinstall": "cd electron && npm install",
+      "install": "npm run rebuild-native-modules",
+      "start": "electron electron --debug=5858 --devtools --enable-logging",
+      "staging": "electron electron --debug=5858 --devtools --enable-logging --env=https://wire-webapp-staging.zinfra.io",
+      "prod": "electron electron --debug=5858 --devtools --enable-logging --env=https://app.wire.com",
+      "localhost": "electron electron --debug=5858 --devtools --enable-logging --env=http://localhost:8888",
+      "test": "eslint electron && electron-mocha tests",
+      "rebuild-native-modules": "electron-rebuild -f -m ./electron/node_modules",
+      "build:macos": "grunt macos-prod",
+      "build:win": "grunt win-prod",
+      "build:linux": "grunt linux-prod"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wireapp/wire-desktop.git"
+    },
+    "build": {
+      "directories": {
+        "buildResources": "resources",
+        "app": "electron",
+        "output": "wrap/dist"
+      },
+      "linux": {
+        "afterInstall": "bin/deb/after-install.tpl",
+        "afterRemove": "bin/deb/after-remove.tpl",
+        "asar": false,
+        "category": "Network",
+        "depends": [
+          "libappindicator1",
+          "libasound2",
+          "libgconf-2-4",
+          "libnotify-bin",
+          "libnss3",
+          "libxss1"
+        ],
+        "target": [
+          "AppImage",
+          "deb"
+        ]
+      }
+    },
+    "devDependencies": {
+      "electron": "1.6.3",
+      "electron-builder": "12.3.1",
+      "electron-mocha": "3.3.0",
+      "electron-packager": "8.5.2",
+      "electron-rebuild": "1.4.0",
+      "electron-winstaller": "2.5.2",
+      "eslint": "3.17.0",
+      "grunt": "1.0.1",
+      "grunt-contrib-clean": "1.0.0",
+      "grunt-git": "1.0.3",
+      "grunt-github-changes": "0.1.0",
+      "grunt-shell": "2.1.0",
+      "load-grunt-tasks": "3.5.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T14:35:38.199Z"
 }

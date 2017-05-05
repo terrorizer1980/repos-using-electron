@@ -72,6 +72,11 @@
     "description": "Unofficial Facebook Messenger for Gamers",
     "license": "MIT",
     "repository": "nivedo/ggmessenger",
+    "author": {
+      "name": "Jay Ni",
+      "email": "jayxni@gmail.com",
+      "url": "https://github.com/nivedo/ggmessenger"
+    },
     "electronVersion": "0.36.7",
     "scripts": {
       "test": "xo",
@@ -166,5 +171,6 @@
   "filename": "nivedo___ggmessenger.json",
   "sourceRepo": "sindresorhus/caprine",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:55.172Z"
+  "lastFetchedAt": "2017-05-04T20:48:55.172Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:11.263Z"
 }

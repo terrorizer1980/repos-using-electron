@@ -65,7 +65,14 @@
       "map",
       "globe"
     ],
-    "repository": "https://github.com/abhishekvp/cesium-lg",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/abhishekvp/cesium-lg.git"
+    },
+    "bugs": {
+      "url": "https://github.com/abhishekvp/cesium-lg/issues",
+      "email": "abhishekvpotnis@gmail.com"
+    },
     "dependencies": {
       "requirejs": "2.2.0"
     },
@@ -125,5 +132,6 @@
   "svnUrl": "https://github.com/abhishekvp/cesium-lg",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:52:25.056Z"
+  "lastFetchedAt": "2017-05-04T20:52:25.056Z",
+  "packageLastFetchedAt": "2017-05-04T22:11:11.453Z"
 }

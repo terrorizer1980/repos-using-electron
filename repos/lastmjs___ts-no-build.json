@@ -79,8 +79,15 @@
       "start": "tsc strip-ts.ts",
       "dev": "electron node_modules/scram-engine/main.js index.html -d"
     },
-    "repository": "https://github.com/lastmjs/ts-no-build",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lastmjs/ts-no-build.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/lastmjs/ts-no-build/issues"
+    },
     "homepage": "https://github.com/lastmjs/ts-no-build#readme",
     "dependencies": {
       "electron-prebuilt": "^1.4.1",
@@ -113,5 +120,6 @@
   },
   "filename": "lastmjs___ts-no-build.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:50:44.847Z"
+  "lastFetchedAt": "2017-05-04T19:50:44.847Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:43.709Z"
 }

@@ -84,11 +84,15 @@
     "version": "0.0.1",
     "description": "An interface for Teal",
     "main": "app.js",
+    "author": "Renan Dincer",
     "license": "CC0-1.0",
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/wjrh/Cerulean",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://github.com/wjrh/Cerulean.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
       "electron-builder": "^5.10.1"
@@ -130,5 +134,6 @@
   },
   "filename": "wjrh___Indigo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:21:56.592Z"
+  "lastFetchedAt": "2017-05-04T18:21:56.592Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:00.494Z"
 }

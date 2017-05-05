@@ -79,11 +79,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/allonsy/electricity",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/allonsy/electricity"
+    },
     "keywords": [
       "electricity",
       "irc"
     ],
+    "author": "allonsy",
     "license": "MIT",
     "homepage": "https://github.com/allonsy/electricity",
     "devDependencies": {
@@ -115,5 +119,6 @@
   },
   "filename": "allonsy___electricity.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:39:15.755Z"
+  "lastFetchedAt": "2017-05-04T20:39:15.755Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:30.721Z"
 }

@@ -75,9 +75,10 @@
     "name": "inbox-app",
     "productName": "Inbox",
     "version": "1.0.0",
-    "description": "Electron",
+    "description": "Google Inbox packaged as Electron app",
     "main": "app",
-    "license": "MIT",
+    "author": "Felix Gnass <fgnass@gmail.com>",
+    "license": "Unlicense",
     "scripts": {
       "rebuild": "electron-rebuild",
       "pack-icons": "iconutil -c icns icon.iconset",
@@ -93,7 +94,8 @@
       "electron-prebuilt": "^1.2.1",
       "electron-rebuild": "^1.1.5",
       "eslint": "^2.11.1"
-    }
+    },
+    "repository": "https://github.com/fgnass/inbox-app"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -120,5 +122,6 @@
   },
   "filename": "fgnass___inbox-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:45.292Z"
+  "lastFetchedAt": "2017-05-04T19:43:45.292Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:29.344Z"
 }

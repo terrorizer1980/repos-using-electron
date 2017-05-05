@@ -73,14 +73,17 @@
   "status": 200,
   "packageJSON": {
     "name": "magnify",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Browse source code in an app",
     "main": "main.js",
     "scripts": {
       "test": "echo 'Browse source code in an app'",
       "start": "electron ./src/main.js"
     },
-    "repository": "https://github.com/kulisty/magnify",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kulisty/magnify.git"
+    },
     "keywords": [
       "magnify",
       "browse",
@@ -88,14 +91,18 @@
       "code",
       "app"
     ],
+    "author": "Robert Dabrowski",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kulisty/magnify/issues"
+    },
     "homepage": "https://github.com/kulisty/magnify#readme",
     "dependencies": {
-      "electron-prebuilt": "1.1.1",
-      "d3": "3.5.17",
+      "electron-prebuilt": "1.4.8",
+      "font-awesome": "4.7.0",
+      "d3": "4.4.0",
       "c3": "0.4.11",
-      "font-awesome": "4.6.3",
-      "qr-image": "3.1.0"
+      "pivottable": "2.3.0"
     }
   },
   "packageStatus": 200,
@@ -123,5 +130,6 @@
   },
   "filename": "kulisty___magnify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:40:30.929Z"
+  "lastFetchedAt": "2017-05-04T19:40:30.929Z",
+  "packageLastFetchedAt": "2017-05-05T17:29:31.442Z"
 }

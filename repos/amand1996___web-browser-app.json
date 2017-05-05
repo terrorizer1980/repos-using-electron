@@ -73,14 +73,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/amand1996/web-browser-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/amand1996/web-browser-app.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Aman Dwivedi <aman_d1996@yahoo.com>",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/amand1996/web-browser-app/issues"
+    },
     "homepage": "https://github.com/amand1996/web-browser-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -115,5 +122,6 @@
   },
   "filename": "amand1996___web-browser-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:40:43.722Z"
+  "lastFetchedAt": "2017-05-04T17:40:43.722Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:20.177Z"
 }

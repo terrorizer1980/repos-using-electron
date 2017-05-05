@@ -73,12 +73,19 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/seaneking/pushbullet-messenger",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/seaneking/pushbullet-messenger.git"
+    },
     "keywords": [
       "pushbullet",
       "electron"
     ],
+    "author": "Sean King <sean@simpla.io>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/seaneking/pushbullet-messenger/issues"
+    },
     "homepage": "https://github.com/seaneking/pushbullet-messenger#readme",
     "dependencies": {
       "electron": "^1.4.4"
@@ -109,5 +116,6 @@
   },
   "filename": "seaneking___pushbullet-messenger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:32:14.484Z"
+  "lastFetchedAt": "2017-05-04T15:32:14.484Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:13.849Z"
 }

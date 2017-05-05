@@ -81,7 +81,7 @@
   "status": 200,
   "packageJSON": {
     "name": "demokit",
-    "version": "3.0.0",
+    "version": "6.0.0",
     "description": "DemoKit is an Library and Electron app for building product demos and tutorials using web technologies",
     "main": "main.js",
     "bin": {
@@ -90,13 +90,17 @@
     "scripts": {
       "postinstall": "node install.js"
     },
-    "repository": "https://github.com/runkitdev/demokit",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/runkitdev/demokit"
+    },
     "keywords": [
       "video",
       "demos",
       "tutorials",
       "authoring"
     ],
+    "author": "RunKit",
     "contributors": [
       {
         "name": "Francisco Tolmasky",
@@ -110,6 +114,9 @@
       }
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/runkitdev/demokit/issues"
+    },
     "homepage": "https://github.com/runkitdev/demokit#readme",
     "dependencies": {}
   },
@@ -138,5 +145,6 @@
   },
   "filename": "runkitdev___demokit.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:46:00.503Z"
+  "lastFetchedAt": "2017-05-04T19:46:00.503Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:49.126Z"
 }

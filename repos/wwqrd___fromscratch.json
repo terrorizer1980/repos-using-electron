@@ -203,19 +203,18 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "kilian",
-      "repo": "fromscratch",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kilian/fromscratch/tarball/master",
-      "clone_url": "https://github.com/kilian/fromscratch",
-      "https_url": "https://github.com/kilian/fromscratch",
-      "travis_url": "https://travis-ci.org/kilian/fromscratch",
-      "zip_url": "https://github.com/kilian/fromscratch/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kilian/fromscratch"
+      "type": "git",
+      "url": "https://github.com/kilian/fromscratch/"
+    },
+    "author": {
+      "name": "Kilian Valkhof",
+      "email": "kilian@kilianvalkhof.com",
+      "url": "https://kilianvalkhof.com"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kilian/fromscratch/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -307,5 +306,6 @@
   "filename": "wwqrd___fromscratch.json",
   "sourceRepo": "Kilian/fromscratch",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:27:40.475Z"
+  "lastFetchedAt": "2017-05-04T18:27:40.475Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:23.065Z"
 }

@@ -81,12 +81,19 @@
       "postinstall": "npm run build",
       "start": "npm build & electron ."
     },
-    "repository": "https://github.com/niksolaz/ElectronApp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/niksolaz/ElectronApp.git"
+    },
     "keywords": [
       "electron",
       "node"
     ],
+    "author": "Nicola Solazzo",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/niksolaz/ElectronApp/issues"
+    },
     "homepage": "https://github.com/niksolaz/ElectronApp",
     "devDependencies": {
       "electron-prebuilt": "^0.36.9",
@@ -126,5 +133,6 @@
   },
   "filename": "niksolaz___ElectronApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:09:30.899Z"
+  "lastFetchedAt": "2017-05-04T21:09:30.899Z",
+  "packageLastFetchedAt": "2017-05-05T17:09:21.246Z"
 }

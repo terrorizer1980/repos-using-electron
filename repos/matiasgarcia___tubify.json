@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/matiasgarcia/tubify",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/matiasgarcia/tubify.git"
+    },
+    "author": {
+      "name": "Matias Garcia",
+      "email": "garcia.matias92@gmail.com",
+      "url": "https://github.com/matiasgarcia"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/matiasgarcia/tubifye/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -212,5 +223,6 @@
   },
   "filename": "matiasgarcia___tubify.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:45:37.700Z"
+  "lastFetchedAt": "2017-05-04T20:45:37.700Z",
+  "packageLastFetchedAt": "2017-05-04T22:49:38.800Z"
 }

@@ -100,7 +100,15 @@
       "type": "git",
       "url": ""
     },
+    "author": {
+      "name": "Davide Fucci",
+      "email": "davfuc@gmail.com",
+      "url": "https://github.com/dfucci"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": ""
+    },
     "keywords": [
       "electron",
       "react",
@@ -138,7 +146,7 @@
       "eslint": "^3.3.1",
       "eslint-config-airbnb": "^10.0.1",
       "eslint-import-resolver-webpack": "^0.5.1",
-      "eslint-plugin-import": "^1.14.0",
+      "eslint-plugin-import": "^2.2.0",
       "eslint-plugin-jsx-a11y": "^2.1.0",
       "eslint-plugin-react": "^6.1.2",
       "express": "^4.14.0",
@@ -166,8 +174,8 @@
       "nedb": "^1.8.0",
       "postcss": "^5.1.2",
       "react": "^15.3.1",
+      "react-desktop": "^0.2.14",
       "react-dom": "^15.3.1",
-      "react-photonkit": "^0.4.1",
       "react-redux": "^4.4.5",
       "react-router": "^2.7.0",
       "react-router-redux": "^4.0.5",
@@ -177,7 +185,7 @@
     },
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
-      "npm": "2.x || 3.x"
+      "npm": "2.x || 3.x || 4.x"
     }
   },
   "packageStatus": 200,
@@ -206,5 +214,6 @@
   "filename": "dfucci___Borrowr.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:28.323Z"
+  "lastFetchedAt": "2017-05-04T05:27:28.323Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:25.264Z"
 }

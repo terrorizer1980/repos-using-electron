@@ -89,8 +89,15 @@
       "build": "electron-packager . electron-sugoiyatsu --platform=win32 --arch=all --version=0.33.0 --overwrite --out=build --asar",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/utgw/electron-sugoiyatsu",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/utgw/electron-sugoiyatsu.git"
+    },
+    "author": "utgwkk",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/utgw/electron-sugoiyatsu/issues"
+    },
     "homepage": "https://github.com/utgw/electron-sugoiyatsu#readme"
   },
   "packageStatus": 200,
@@ -118,5 +125,6 @@
   },
   "filename": "utgwkk___electron-ukagaka.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:14:46.366Z"
+  "lastFetchedAt": "2017-05-04T21:14:46.366Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:34.138Z"
 }

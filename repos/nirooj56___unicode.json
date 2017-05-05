@@ -79,17 +79,13 @@
     "description": "An Unicode Converter app with support for Windows, OS X and GNU/Linux.",
     "homepage": "http://nepdict.com/unicode.html",
     "repository": {
-      "user": "nirooj56",
-      "repo": "unicode",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/nirooj56/unicode/tarball/master",
-      "clone_url": "https://github.com/nirooj56/unicode",
-      "https_url": "https://github.com/nirooj56/unicode",
-      "travis_url": "https://travis-ci.org/nirooj56/unicode",
-      "zip_url": "https://github.com/nirooj56/unicode/archive/master.zip",
-      "api_url": "https://api.github.com/repos/nirooj56/unicode"
+      "type": "git",
+      "url": "git://github.com/nirooj56/unicode.git"
+    },
+    "author": {
+      "name": "Bista Nirooj",
+      "email": "nirooj56@gmail.com",
+      "url": "http://nirojbista.com.np"
     },
     "main": "main.js",
     "devDependencies": {
@@ -126,5 +122,6 @@
   "filename": "nirooj56___unicode.json",
   "sourceRepo": "nirooj56/Unicode-app",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:46:23.610Z"
+  "lastFetchedAt": "2017-05-04T14:46:23.610Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:09.305Z"
 }

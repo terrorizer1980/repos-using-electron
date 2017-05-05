@@ -91,12 +91,19 @@
     "scripts": {
       "test": "echo tests are for suckers"
     },
-    "repository": "https://github.com/glamp/electron-demo",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/glamp/electron-demo.git"
+    },
     "keywords": [
       "Electron",
       "Demo"
     ],
+    "author": "Greg Lamp <lamp.greg@gmail.com>",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/glamp/electron-demo/issues"
+    },
     "homepage": "https://github.com/glamp/electron-demo#readme"
   },
   "packageStatus": 200,
@@ -124,5 +131,6 @@
   },
   "filename": "glamp___electron-chat-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:11.598Z"
+  "lastFetchedAt": "2017-05-04T20:38:11.598Z",
+  "packageLastFetchedAt": "2017-05-04T22:00:46.844Z"
 }

@@ -55,6 +55,7 @@
       "start": "electron .",
       "build": "electron-packager . App-net"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^5.2.1",
@@ -106,5 +107,6 @@
   },
   "filename": "thebitstick___App-net.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:17.030Z"
+  "lastFetchedAt": "2017-05-04T14:21:17.030Z",
+  "packageLastFetchedAt": "2017-05-04T23:05:31.443Z"
 }

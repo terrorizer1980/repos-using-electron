@@ -88,14 +88,21 @@
       "coverage:remap": "remap-istanbul -i coverage/coverage.json -o coverage/coverage.json -t json -e node_modules,tests,karma.entry.ts",
       "coverage:report": "istanbul report"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "@angular/common": "^2.0.0-rc.6",
@@ -169,5 +176,6 @@
   },
   "filename": "kapke___electron-file-explorer-poc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:17:29.100Z"
+  "lastFetchedAt": "2017-05-04T15:17:29.100Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:23.313Z"
 }

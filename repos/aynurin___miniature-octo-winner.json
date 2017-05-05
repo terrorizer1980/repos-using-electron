@@ -82,8 +82,15 @@
       "node-reset-scss": "^1.0.1",
       "rcedit": "^0.3.0"
     },
-    "repository": "https://github.com/aynurin/miniature-octo-winner",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aynurin/miniature-octo-winner.git"
+    },
+    "author": "Shavkat Aynurin <sh@ayn.su>",
     "license": "Unlicense",
+    "bugs": {
+      "url": "https://github.com/aynurin/miniature-octo-winner/issues"
+    },
     "homepage": "https://github.com/aynurin/miniature-octo-winner#readme"
   },
   "packageStatus": 200,
@@ -111,5 +118,6 @@
   },
   "filename": "aynurin___miniature-octo-winner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:29:43.160Z"
+  "lastFetchedAt": "2017-05-04T14:29:43.160Z",
+  "packageLastFetchedAt": "2017-05-04T22:36:03.063Z"
 }

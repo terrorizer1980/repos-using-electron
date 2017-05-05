@@ -102,14 +102,21 @@
         "import/no-extraneous-dependencies": 0
       }
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme"
   },
   "packageStatus": 200,
@@ -137,5 +144,6 @@
   },
   "filename": "Deltaspectro___T_electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:21.375Z"
+  "lastFetchedAt": "2017-05-04T15:19:21.375Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:10.435Z"
 }

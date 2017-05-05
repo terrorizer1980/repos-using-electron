@@ -174,18 +174,10 @@
     "bin": {
       "stream": "./bin/cli.js"
     },
+    "author": "rhysd <lin90162@yahoo.co.jp>",
     "repository": {
-      "user": "rhysd",
-      "repo": "Trendy",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rhysd/Trendy/tarball/master",
-      "clone_url": "https://github.com/rhysd/Trendy",
-      "https_url": "https://github.com/rhysd/Trendy",
-      "travis_url": "https://travis-ci.org/rhysd/Trendy",
-      "zip_url": "https://github.com/rhysd/Trendy/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rhysd/Trendy"
+      "type": "git",
+      "url": "https://github.com/rhysd/Trendy.git"
     },
     "keywords": [
       "GitHub",
@@ -194,6 +186,9 @@
       "menubar",
       "Electron"
     ],
+    "bugs": {
+      "url": "https://github.com/rhysd/Trendy/issues"
+    },
     "license": "MIT",
     "scripts": {
       "start": "./bin/cli.js"
@@ -260,5 +255,6 @@
   "filename": "LazerPanther___Trendy.json",
   "sourceRepo": "rhysd/Trendy",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:20.024Z"
+  "lastFetchedAt": "2017-05-04T14:21:20.024Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:25.860Z"
 }

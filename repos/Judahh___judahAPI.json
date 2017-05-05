@@ -75,6 +75,7 @@
   "packageJSON": {
     "name": "judahhapi",
     "productName": "JudahhAPI",
+    "author": "Judah <judahholanda7@gmail.com>",
     "version": "0.1.0",
     "private": true,
     "description": "Judahh API project",
@@ -82,7 +83,10 @@
       "judahh",
       "api"
     ],
-    "repository": "https://github.com/Judahh/judahhAPI",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Judahh/judahhAPI"
+    },
     "homepage": "https://judahh.com",
     "license": "MIT",
     "angular-cli": {},
@@ -206,5 +210,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:01:28.547Z"
+  "lastFetchedAt": "2017-05-04T21:01:28.547Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:47.681Z"
 }

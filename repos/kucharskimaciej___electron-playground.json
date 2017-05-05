@@ -81,6 +81,7 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
+    "author": "Scotch",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -124,5 +125,6 @@
   "filename": "kucharskimaciej___electron-playground.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:36.308Z"
+  "lastFetchedAt": "2017-05-04T20:15:36.308Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:27.520Z"
 }

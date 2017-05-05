@@ -86,8 +86,15 @@
       "componentsTests": "wct build/tests/components/**/*-spec.html",
       "linter": "eslint app/**/*.js"
     },
-    "repository": "https://github.com/deseteral/exprsjo",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/deseteral/exprsjo.git"
+    },
+    "author": "Deseteral <github.com/deseteral>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/deseteral/exprsjo/issues"
+    },
     "homepage": "https://github.com/deseteral/exprsjo#readme",
     "devDependencies": {
       "babel-preset-es2015-node6": "0.3.0",
@@ -124,5 +131,6 @@
   },
   "filename": "Deseteral___exprsjo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:14.893Z"
+  "lastFetchedAt": "2017-05-04T05:00:14.893Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:41.153Z"
 }

@@ -74,6 +74,11 @@
     "scripts": {
       "start": "electron ."
     },
+    "author": {
+      "name": "Runar Jørgensen",
+      "email": "ventrec@ventrec.org",
+      "homepage": "http://www.ventrec.org"
+    },
     "devDependencies": {
       "babyparse": "^0.4.6",
       "electron": "^1.4.1",
@@ -105,5 +110,6 @@
   },
   "filename": "ventrec___csv-reader.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:32:13.883Z"
+  "lastFetchedAt": "2017-05-04T18:32:13.883Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:58.271Z"
 }

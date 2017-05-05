@@ -88,8 +88,15 @@
     "win": {
       "remoteReleases": "https://github.com/vicatcu/Electron-Sandbox"
     },
-    "repository": "https://github.com/vicatcu/Electron-Sandbox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vicatcu/Electron-Sandbox.git"
+    },
+    "author": "Victor Aprea",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vicatcu/Electron-Sandbox/issues"
+    },
     "homepage": "https://github.com/vicatcu/Electron-Sandbox#readme"
   },
   "packageStatus": 200,
@@ -117,5 +124,6 @@
   },
   "filename": "vicatcu___Electron-Sandbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:10.962Z"
+  "lastFetchedAt": "2017-05-04T14:21:10.962Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:57.876Z"
 }

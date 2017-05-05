@@ -80,10 +80,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Booster2ooo",
     "license": "ISC",
     "dependencies": {},
     "homepage": "https://github.com/Booster2ooo/electron-directory",
-    "repository": "git://github.com/Booster2ooo/electron-directory"
+    "repository": "git://github.com/Booster2ooo/electron-directory",
+    "bugs": {
+      "url": "https://github.com/Booster2ooo/electron-directory/issues"
+    },
+    "readmeFilename": "README.md"
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -110,5 +115,6 @@
   },
   "filename": "Booster2ooo___electron-directory.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:09:24.001Z"
+  "lastFetchedAt": "2017-05-04T05:09:24.001Z",
+  "packageLastFetchedAt": "2017-05-04T23:01:39.120Z"
 }

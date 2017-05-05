@@ -53,12 +53,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/JingeTu/MdViewer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JingeTu/MdViewer.git"
+    },
     "keywords": [
       "electron",
       "markdown"
     ],
+    "author": "JingeTu",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/JingeTu/MdViewer/issues"
+    },
     "homepage": "https://github.com/JingeTu/MdViewer#readme",
     "devDependencies": {
       "bootstrap": "^3.3.6",
@@ -113,5 +120,6 @@
   "svnUrl": "https://github.com/JingeTu/MdViewer",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:22:15.625Z"
+  "lastFetchedAt": "2017-05-04T15:22:15.625Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:10.560Z"
 }

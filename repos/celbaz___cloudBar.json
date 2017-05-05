@@ -58,6 +58,7 @@
       "start": "electron .",
       "develop": "npm run build-src && npm start"
     },
+    "author": "Carl Elbaz",
     "license": "ISC",
     "dependencies": {
       "menubar": "^2.0.16",
@@ -121,5 +122,6 @@
   "svnUrl": "https://github.com/celbaz/cloudBar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:47:42.006Z"
+  "lastFetchedAt": "2017-05-04T20:47:42.006Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:59.540Z"
 }

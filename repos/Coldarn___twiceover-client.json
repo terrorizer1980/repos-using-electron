@@ -56,11 +56,15 @@
     "productName": "Twice-Over",
     "description": "Iterative code review tool supporting cross-iteration diffing and change commenting with syntax highlighting",
     "version": "0.3.1",
+    "author": "Collin Arnold",
     "main": "main.js",
     "scripts": {
       "start": "node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/Coldarn/twiceover-client",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Coldarn/twiceover-client.git"
+    },
     "dependencies": {
       "electron-prebuilt": "^0.33.3"
     },
@@ -117,5 +121,6 @@
   },
   "filename": "Coldarn___twiceover-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:12.016Z"
+  "lastFetchedAt": "2017-05-04T05:01:12.016Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:13.814Z"
 }

@@ -53,7 +53,7 @@
   "status": 200,
   "packageJSON": {
     "name": "Baritone",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "A Spotify controller that lives in the menubar.",
     "main": "index.js",
     "dependencies": {
@@ -67,6 +67,7 @@
     "scripts": {
       "test": "electron ."
     },
+    "author": "Tianyi Ma <tn.ma@outlook.com>",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -114,5 +115,6 @@
   },
   "filename": "tma02___baritone.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:54:13.190Z"
+  "lastFetchedAt": "2017-05-04T14:54:13.190Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:48.624Z"
 }

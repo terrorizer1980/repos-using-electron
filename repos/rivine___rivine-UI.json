@@ -89,6 +89,7 @@
     "name": "Rivine-UI",
     "version": "v0.0.2",
     "main": "dist/main.js",
+    "author": "NebulousLabs",
     "description": "A UI application for interfacing with Rivine",
     "license": "MIT",
     "devDependencies": {
@@ -144,17 +145,11 @@
       "lint-fix": "eslint --fix ./index.js ./plugins ./js ./test"
     },
     "repository": {
-      "user": "rivine",
-      "repo": "rivine-UI",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/rivine/rivine-UI/tarball/master",
-      "clone_url": "https://github.com/rivine/rivine-UI",
-      "https_url": "https://github.com/rivine/rivine-UI",
-      "travis_url": "https://travis-ci.org/rivine/rivine-UI",
-      "zip_url": "https://github.com/rivine/rivine-UI/archive/master.zip",
-      "api_url": "https://api.github.com/repos/rivine/rivine-UI"
+      "type": "git",
+      "url": "git://github.com/rivine/rivine-UI.git"
+    },
+    "bugs": {
+      "url": "https://github.com/rivine/rivine-UI/issues"
     }
   },
   "packageStatus": 200,
@@ -183,5 +178,6 @@
   "filename": "rivine___rivine-UI.json",
   "sourceRepo": "NebulousLabs/Sia-UI",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:12.584Z"
+  "lastFetchedAt": "2017-05-04T15:26:12.584Z",
+  "packageLastFetchedAt": "2017-05-04T22:52:05.646Z"
 }

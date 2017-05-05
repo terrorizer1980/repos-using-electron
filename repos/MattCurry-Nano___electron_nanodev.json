@@ -86,14 +86,21 @@
       "package": "npm run build && electron-packager . NanoDev --platform=win32 --arch=x64 --version=0.35.4 --overwrite",
       "postinstall": "electron-rebuild"
     },
-    "repository": "https://github.com/atom/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/atom/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-preset-react": "^6.3.13",
@@ -140,5 +147,6 @@
   },
   "filename": "MattCurry-Nano___electron_nanodev.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:49.290Z"
+  "lastFetchedAt": "2017-05-04T15:26:49.290Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:04.186Z"
 }

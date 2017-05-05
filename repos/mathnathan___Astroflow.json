@@ -61,9 +61,16 @@
       "start": "./node_modules/.bin/electron .",
       "package": "./node_modules/.bin/electron-packager . Served --all --version=0.37.7 --ignore=dist --out=dist"
     },
-    "repository": "https://github.com/mathnathan/Astroflow",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/mathnathan/Astroflow.git"
+    },
     "keywords": [],
+    "author": "Nathan Crock",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mathnathan/Astroflow/issues"
+    },
     "homepage": "https://github.com/mathnathan/Astroflow#readme",
     "devDependencies": {
       "electron-packager": "^7.0.1",
@@ -119,5 +126,6 @@
   },
   "filename": "mathnathan___Astroflow.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:57:58.673Z"
+  "lastFetchedAt": "2017-05-04T20:57:58.673Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:20.315Z"
 }

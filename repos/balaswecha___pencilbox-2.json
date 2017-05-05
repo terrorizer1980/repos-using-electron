@@ -183,6 +183,7 @@
     "name": "Pencilbox",
     "version": "1.0.0",
     "description": "Launcher for Balaswecha Applications",
+    "author": "Srujan Kumar Bojjam <srujan@swecha.net>",
     "main": "main.js",
     "scripts": {
       "start": "electron main.js"
@@ -195,17 +196,8 @@
       }
     },
     "repository": {
-      "user": "balaswecha",
-      "repo": "pencilbox-2",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/balaswecha/pencilbox-2/tarball/master",
-      "clone_url": "https://github.com/balaswecha/pencilbox-2",
-      "https_url": "https://github.com/balaswecha/pencilbox-2",
-      "travis_url": "https://travis-ci.org/balaswecha/pencilbox-2",
-      "zip_url": "https://github.com/balaswecha/pencilbox-2/archive/master.zip",
-      "api_url": "https://api.github.com/repos/balaswecha/pencilbox-2"
+      "type": "git",
+      "url": "git+https://github.com/balaswecha/pencilbox-2.git"
     },
     "keywords": [
       "balaswecha",
@@ -261,5 +253,6 @@
   "svnUrl": "https://github.com/balaswecha/pencilbox-2",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:05:28.296Z"
+  "lastFetchedAt": "2017-05-04T21:05:28.296Z",
+  "packageLastFetchedAt": "2017-05-04T22:19:25.870Z"
 }

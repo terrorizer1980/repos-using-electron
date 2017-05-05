@@ -88,14 +88,21 @@
       "start": "electron main.js",
       "build": "electron-packager . vwl --platform=win32 --arch=x64 "
     },
-    "repository": "https://github.com/virtualweblab/clientes",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/virtualweblab/clientes.git"
+    },
     "keywords": [
       "serial",
       "port",
       "nw",
       "arduino"
     ],
+    "author": "Mauricio Duque",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/virtualweblab/clientes/issues"
+    },
     "homepage": "https://github.com/virtualweblab/clientes#readme",
     "devDependencies": {
       "electron-packager": "^7.0.4",
@@ -130,5 +137,6 @@
   },
   "filename": "virtualweblab___clientes.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:57:30.570Z"
+  "lastFetchedAt": "2017-05-04T04:57:30.570Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:37.921Z"
 }

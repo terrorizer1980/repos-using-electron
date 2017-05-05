@@ -83,7 +83,10 @@
       "build:electron": "node tools/electronbuild.js",
       "echo-node-version-info": "node tools/echo-node-version-info.js"
     },
-    "repository": "https://github.com/wouterverweirder/kinect2",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/wouterverweirder/kinect2.git"
+    },
     "os": [
       "win32"
     ],
@@ -98,7 +101,11 @@
       "kinect2",
       "sdk"
     ],
+    "author": "Wouter Verweirder",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wouterverweirder/kinect2/issues"
+    },
     "homepage": "https://github.com/wouterverweirder/kinect2",
     "dependencies": {
       "nan": "^2.3.2",
@@ -139,5 +146,6 @@
   },
   "filename": "wouterverweirder___kinect2.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:34:16.025Z"
+  "lastFetchedAt": "2017-05-04T19:34:16.025Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:03.174Z"
 }

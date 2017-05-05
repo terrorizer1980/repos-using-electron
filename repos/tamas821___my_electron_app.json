@@ -79,12 +79,19 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/tamas821/my_electron_app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tamas821/my_electron_app.git"
+    },
     "keywords": [
       "Electron",
       "dontknowyet"
     ],
+    "author": "tamas821",
     "license": "dontknowyet",
+    "bugs": {
+      "url": "https://github.com/tamas821/my_electron_app/issues"
+    },
     "homepage": "https://github.com/tamas821/my_electron_app",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
@@ -115,5 +122,6 @@
   },
   "filename": "tamas821___my_electron_app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:01:59.587Z"
+  "lastFetchedAt": "2017-05-04T06:01:59.587Z",
+  "packageLastFetchedAt": "2017-05-04T21:54:36.776Z"
 }

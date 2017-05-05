@@ -76,13 +76,20 @@
     "version": "0.1.0",
     "main": "main.js",
     "description": "Arcade cabinet front-end",
-    "repository": "https://github.com/Svampson/maki",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Svampson/maki.git"
+    },
     "keywords": [
       "kiosk",
       "arcade",
       "frontend"
     ],
+    "author": "Patrik Riström",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Svampson/maki/issues"
+    },
     "homepage": "https://github.com/Svampson/maki#readme",
     "scripts": {
       "build": "webpack --progress --colors",
@@ -144,5 +151,6 @@
   },
   "filename": "Svampson___maki.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:11:56.501Z"
+  "lastFetchedAt": "2017-05-04T18:11:56.501Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:43.463Z"
 }

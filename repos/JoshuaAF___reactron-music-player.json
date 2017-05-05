@@ -81,12 +81,19 @@
       "start": "electron .",
       "build": "webpack"
     },
-    "repository": "https://github.com/JoshuaAF/reactron-music-player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JoshuaAF/reactron-music-player.git"
+    },
     "keywords": [
       "React",
       "Electron"
     ],
+    "author": "Joshua Fuller",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/JoshuaAF/reactron-music-player/issues"
+    },
     "homepage": "https://github.com/JoshuaAF/reactron-music-player#readme",
     "devDependencies": {
       "babel-core": "^6.11.4",
@@ -134,5 +141,6 @@
   },
   "filename": "JoshuaAF___reactron-music-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:56:06.566Z"
+  "lastFetchedAt": "2017-05-04T17:56:06.566Z",
+  "packageLastFetchedAt": "2017-05-05T17:37:14.231Z"
 }

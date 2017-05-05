@@ -73,5 +73,32 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T05:31:39.027Z"
+  "lastFetchedAt": "2017-05-04T05:31:39.027Z",
+  "packageJSON": {
+    "name": "trello-macos",
+    "version": "1.0.2",
+    "description": "A minimal Trello desktop application for macOS.",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/nathanbirrell/trello-macos",
+    "keywords": [
+      "Electron",
+      "trello",
+      "desktop",
+      "macos",
+      "demo"
+    ],
+    "author": "Nathan Birrell",
+    "license": "CC0-1.0",
+    "productName": "Trello",
+    "dependencies": {
+      "electron": "~1.6.2",
+      "electron-config": "^0.2.1",
+      "electron-context-menu": "^0.8.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:58:16.834Z"
 }

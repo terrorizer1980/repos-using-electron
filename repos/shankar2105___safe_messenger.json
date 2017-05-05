@@ -97,8 +97,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/shankar2105/safe_messenger",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/shankar2105/safe_messenger.git"
+    },
+    "author": {
+      "name": "Shankar",
+      "email": "nodealpha.mail@gmail.com",
+      "url": "https://github.com/shankar2105"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/shankar2105/safe_messenger/issues"
+    },
     "keywords": [
       "messenger",
       "SAFE Network"
@@ -198,5 +209,6 @@
   },
   "filename": "shankar2105___safe_messenger.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:06.254Z"
+  "lastFetchedAt": "2017-05-04T18:26:06.254Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:46.357Z"
 }

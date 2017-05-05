@@ -147,7 +147,17 @@
       "react": "^0.13.3",
       "react-router": "^0.13.3"
     },
-    "repository": "https://github.com/louy/lawha",
+    "directories": {
+      "test": "test"
+    },
+    "author": "Louy Alakkad <louy@alakkad.me> (louy.alakkad.me)",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/louy/lawha.git"
+    },
+    "bugs": {
+      "url": "https://github.com/louy/lawha/issues"
+    },
     "homepage": "https://github.com/louy/lawha#readme"
   },
   "packageStatus": 200,
@@ -175,5 +185,6 @@
   },
   "filename": "louy___lawha.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:02:01.717Z"
+  "lastFetchedAt": "2017-05-04T21:02:01.717Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:22.547Z"
 }

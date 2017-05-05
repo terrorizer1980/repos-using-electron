@@ -47,8 +47,15 @@
   "status": 200,
   "packageJSON": {
     "name": "inbox",
-    "repository": "https://github.com/sndrs/Inbox",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sndrs/Inbox.git"
+    },
+    "author": "Alex Sanders",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/sndrs/Inbox/issues"
+    },
     "homepage": "https://github.com/sndrs/Inbox#readme",
     "devDependencies": {
       "electron-packager": "^8.0.0"
@@ -104,5 +111,6 @@
   },
   "filename": "sndrs___Inbox.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:35.122Z"
+  "lastFetchedAt": "2017-05-04T05:18:35.122Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:03.704Z"
 }

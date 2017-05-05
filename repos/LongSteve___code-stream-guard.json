@@ -80,7 +80,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "run": "./node_modules/.bin/electron ."
     },
-    "repository": "https://github.com/LongSteve/code-stream-guard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/LongSteve/code-stream-guard.git"
+    },
     "keywords": [
       "xmpp",
       "irc",
@@ -91,20 +94,32 @@
       "programming",
       "streaming"
     ],
+    "author": "Steve Longhurst",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/LongSteve/code-stream-guard/issues"
+    },
     "homepage": "https://github.com/LongSteve/code-stream-guard#readme",
     "dependencies": {
+      "app-root-path": "^2.0.1",
+      "async": "^2.1.2",
+      "bootstrap": "^3.3.7",
+      "bootstrap-toggle": "^2.2.2",
+      "bottleneck": "^1.15.1",
       "cheerio": "^0.22.0",
-      "electron": "^1.4.5",
+      "electron": "^1.6.0",
       "express": "^4.14.0",
       "feedparser": "^1.1.5",
       "jsonfile": "^2.4.0",
       "lodash": "^4.16.4",
       "minimist": "^1.2.0",
+      "moment": "^2.16.0",
       "node-schedule": "^1.1.1",
       "node-xmpp-client": "^3.0.2",
+      "particle-api-js": "^6.4.2",
+      "readdirp": "^2.1.0",
       "request": "^2.75.0",
-      "socket.io": "^1.5.0",
+      "socket.io": "^1.7.0",
       "winston": "^2.2.0"
     }
   },
@@ -133,5 +148,6 @@
   },
   "filename": "LongSteve___code-stream-guard.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:34:30.144Z"
+  "lastFetchedAt": "2017-05-04T15:34:30.144Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:48.402Z"
 }

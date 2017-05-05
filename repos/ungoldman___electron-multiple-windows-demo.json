@@ -55,6 +55,10 @@
     "name": "electron-multiple-windows-demo",
     "description": "An example electron app showing how to manage multiple windows.",
     "version": "1.0.0-alpha",
+    "author": "Nate Goldman <nate@ngoldman.me> (http://ngoldman.me/)",
+    "bugs": {
+      "url": "https://github.com/ngoldman/electron-multiple-windows-demo/issues"
+    },
     "dependencies": {
       "minimist": "^1.2.0"
     },
@@ -74,17 +78,8 @@
     "main": "index.js",
     "private": true,
     "repository": {
-      "user": "ngoldman",
-      "repo": "electron-multiple-windows-demo",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ngoldman/electron-multiple-windows-demo/tarball/master",
-      "clone_url": "https://github.com/ngoldman/electron-multiple-windows-demo",
-      "https_url": "https://github.com/ngoldman/electron-multiple-windows-demo",
-      "travis_url": "https://travis-ci.org/ngoldman/electron-multiple-windows-demo",
-      "zip_url": "https://github.com/ngoldman/electron-multiple-windows-demo/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ngoldman/electron-multiple-windows-demo"
+      "type": "git",
+      "url": "git+https://github.com/ngoldman/electron-multiple-windows-demo.git"
     },
     "scripts": {
       "start": "electron .",
@@ -137,5 +132,6 @@
   "svnUrl": "https://github.com/ungoldman/electron-multiple-windows-demo",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:22:47.442Z"
+  "lastFetchedAt": "2017-05-04T20:22:47.442Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:12.793Z"
 }

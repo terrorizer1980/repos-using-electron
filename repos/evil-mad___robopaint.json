@@ -84,6 +84,11 @@
     "version": "2.0.0-beta.3",
     "description": "A full featured SVG editor and output controller to drive @MakerSylvia's WaterColorBot",
     "main": "resources/scripts/root/window-main.js",
+    "author": {
+      "name": "James Todd",
+      "email": "james@tn42.com",
+      "url": "http://evilmadscience.com"
+    },
     "stage": "development",
     "license": "MIT",
     "electronVersion": "1.0.2",
@@ -123,7 +128,10 @@
       "robopaint-mode-spiral": "*",
       "underscore": "^1.8.3"
     },
-    "repository": "https://github.com/evil-mad/robopaint",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/evil-mad/robopaint.git"
+    },
     "devDependencies": {
       "electron-prebuilt": "1.0.2"
     }
@@ -153,5 +161,6 @@
   },
   "filename": "evil-mad___robopaint.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:17:40.338Z"
+  "lastFetchedAt": "2017-05-04T18:17:40.338Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:02.709Z"
 }

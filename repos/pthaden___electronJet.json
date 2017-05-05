@@ -69,6 +69,9 @@
     "name": "electronJet",
     "version": "1.0.0",
     "description": "A sample Oracle JavaScript Extension Toolkit (JET) web app wrapped in Electron",
+    "author": {
+      "name": "Paul Thaden"
+    },
     "main": "main.js",
     "scripts": {
       "postinstall": "bower install && grunt bowercopy",
@@ -114,5 +117,6 @@
   },
   "filename": "pthaden___electronJet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:43.878Z"
+  "lastFetchedAt": "2017-05-04T18:08:43.878Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:54.264Z"
 }

@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/rodogir/saturn-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rodogir/saturn-app.git"
+    },
+    "author": {
+      "name": "rodogir",
+      "email": "me@rodogir.com",
+      "url": "https://github.com/rodogir"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "tracking",
       "time"
@@ -196,5 +207,6 @@
   },
   "filename": "rodogir___saturn-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:03:52.379Z"
+  "lastFetchedAt": "2017-05-04T05:03:52.379Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:52.146Z"
 }

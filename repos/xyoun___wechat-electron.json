@@ -54,22 +54,14 @@
       "start": "electron app.js"
     },
     "repository": {
-      "user": "xyoun",
-      "repo": "wechat-electron",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/xyoun/wechat-electron/tarball/master",
-      "clone_url": "https://github.com/xyoun/wechat-electron",
-      "https_url": "https://github.com/xyoun/wechat-electron",
-      "travis_url": "https://travis-ci.org/xyoun/wechat-electron",
-      "zip_url": "https://github.com/xyoun/wechat-electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/xyoun/wechat-electron"
+      "type": "git",
+      "url": "git@github.com:xyoun/wechat-electron.git"
     },
     "keywords": [
       "Electron",
       "wechat"
     ],
+    "author": "xyoun",
     "devDependencies": {
       "electron-prebuilt": "0.36.3"
     }
@@ -120,5 +112,6 @@
   "filename": "xyoun___wechat-electron.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:43:08.354Z"
+  "lastFetchedAt": "2017-05-04T20:43:08.354Z",
+  "packageLastFetchedAt": "2017-05-05T17:38:00.406Z"
 }

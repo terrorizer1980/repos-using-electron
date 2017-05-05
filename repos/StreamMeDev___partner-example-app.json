@@ -75,8 +75,12 @@
       "streamme",
       "partners"
     ],
+    "author": "StreamMe",
     "license": "UNLICENSED",
-    "repository": "https://github.com/StreamMeDev/partner-example-app",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:StreamMeDev/partner-example-app.git"
+    },
     "scripts": {
       "start": "npm run babel && electron .",
       "test": "npm run babel && happiness && mocha",
@@ -150,5 +154,6 @@
   },
   "filename": "StreamMeDev___partner-example-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:00:18.066Z"
+  "lastFetchedAt": "2017-05-04T20:00:18.066Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:36.933Z"
 }

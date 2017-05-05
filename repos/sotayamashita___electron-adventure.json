@@ -59,17 +59,24 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/sotayamashita/electron-adventure",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sotayamashita/electron-adventure.git"
+    },
     "keywords": [
       "Electron",
       "atom-shell",
       "workshopper",
       "nodeschool"
     ],
+    "author": "Sota Yamashita",
     "license": "MIT",
     "preferGlobal": true,
     "bin": {
       "electron-adventure": "./bin/electron-adventure"
+    },
+    "bugs": {
+      "url": "https://github.com/sotayamashita/electron-adventure/issues"
     },
     "homepage": "https://github.com/sotayamashita/electron-adventure#readme",
     "dependencies": {
@@ -123,5 +130,6 @@
   "svnUrl": "https://github.com/sotayamashita/electron-adventure",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:31:36.228Z"
+  "lastFetchedAt": "2017-05-04T15:31:36.228Z",
+  "packageLastFetchedAt": "2017-05-04T22:22:56.201Z"
 }

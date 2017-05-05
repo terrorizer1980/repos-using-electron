@@ -75,11 +75,18 @@
       "postinstall": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.36.10 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
       "start": "electron ."
     },
-    "repository": "https://github.com/Praseetha-KR/electron-test-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Praseetha-KR/electron-test-app.git"
+    },
     "keywords": [
       "electron"
     ],
+    "author": "Praseetha-KR",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Praseetha-KR/electron-test-app/issues"
+    },
     "homepage": "https://github.com/Praseetha-KR/electron-test-app#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.8",
@@ -111,5 +118,6 @@
   },
   "filename": "Praseetha-KR___electron-test-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:49.156Z"
+  "lastFetchedAt": "2017-05-04T17:46:49.156Z",
+  "packageLastFetchedAt": "2017-05-05T14:57:18.344Z"
 }

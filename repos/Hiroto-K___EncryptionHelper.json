@@ -57,7 +57,18 @@
     "description": "Encryption helper.",
     "main": "app.js",
     "homepage": "https://github.com/Hiroto-K/EncryptionHelper",
-    "repository": "https://github.com/Hiroto-K/EncryptionHelper",
+    "author": {
+      "name": "Hiroto Kitazawa",
+      "email": "hiro.yo.yo1610@gmail.com",
+      "url": "https://hiroto-k.net/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/Hiroto-K/EncryptionHelper.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Hiroto-K/EncryptionHelper/issues"
+    },
     "license": "MIT",
     "private": true,
     "scripts": {
@@ -128,5 +139,6 @@
   },
   "filename": "Hiroto-K___EncryptionHelper.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:22:09.650Z"
+  "lastFetchedAt": "2017-05-04T15:22:09.650Z",
+  "packageLastFetchedAt": "2017-05-05T01:32:17.602Z"
 }

@@ -179,17 +179,8 @@
       "start": "electron index.js"
     },
     "repository": {
-      "user": "nteract",
-      "repo": "nteract",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/nteract/nteract/tarball/master",
-      "clone_url": "https://github.com/nteract/nteract",
-      "https_url": "https://github.com/nteract/nteract",
-      "travis_url": "https://travis-ci.org/nteract/nteract",
-      "zip_url": "https://github.com/nteract/nteract/archive/master.zip",
-      "api_url": "https://api.github.com/repos/nteract/nteract"
+      "type": "git",
+      "url": "https://github.com/nteract/nteract.git"
     },
     "keywords": [
       "jupyter",
@@ -198,7 +189,11 @@
       "nteract",
       "data"
     ],
+    "author": "nteract contributors",
     "license": "MPL-2.0",
+    "bugs": {
+      "url": "https://github.com/nteract/nteract/issues"
+    },
     "homepage": "https://github.com/nteract/nteract",
     "dependencies": {
       "@reactivex/rxjs": "5.0.0-beta.2",
@@ -297,5 +292,6 @@
   "filename": "willingc___nteract.json",
   "sourceRepo": "nteract/nteract",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:09:43.117Z"
+  "lastFetchedAt": "2017-05-04T18:09:43.117Z",
+  "packageLastFetchedAt": "2017-05-05T14:56:28.322Z"
 }

@@ -80,14 +80,21 @@
       "start": "./node_modules/electron/cli.js .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/konstantinzolotarev/mixcloud-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/konstantinzolotarev/mixcloud-electron.git"
+    },
     "keywords": [
       "mixcloud",
       "electron",
       "desktop",
       "app"
     ],
+    "author": "Konstantin Zolotarev <konstantin.zolotarev@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/konstantinzolotarev/mixcloud-electron/issues"
+    },
     "homepage": "https://github.com/konstantinzolotarev/mixcloud-electron#readme",
     "devDependencies": {
       "electron": "^1.3.5"
@@ -121,5 +128,6 @@
   },
   "filename": "konstantinzolotarev___mixcloud-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:06:12.959Z"
+  "lastFetchedAt": "2017-05-03T20:06:12.959Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:01.652Z"
 }

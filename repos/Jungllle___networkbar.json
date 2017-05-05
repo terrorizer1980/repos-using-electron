@@ -64,8 +64,15 @@
     "version": "0.1.0",
     "description": "Displays network traffic to help users clearly monitor monthly traffic.",
     "main": "index.js",
-    "repository": "https://github.com/Jungllle/networkbar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Jungllle/networkbar.git"
+    },
+    "author": "Gary <gary@jungllle.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Jungllle/networkbar/issues"
+    },
     "homepage": "https://github.com/Jungllle/networkbar#readme",
     "devDependencies": {
       "electron-packager": "^5.0.1",
@@ -121,5 +128,6 @@
   "svnUrl": "https://github.com/Jungllle/networkbar",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:23:49.451Z"
+  "lastFetchedAt": "2017-05-04T18:23:49.451Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:58.421Z"
 }

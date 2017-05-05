@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-inspector",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "engines": {
       "node": ">=4.5.0"
     },
@@ -86,7 +86,10 @@
       "prepublish": "npm run build",
       "build": "tsc -p src/tsconfig.json"
     },
-    "repository": "https://github.com/enlight/electron-inspector",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/enlight/electron-inspector.git"
+    },
     "keywords": [
       "electron",
       "node-inspector",
@@ -94,10 +97,14 @@
       "debug",
       "debugger"
     ],
+    "author": "Vadim Macagon <vadim.macagon@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/enlight/electron-inspector/issues"
+    },
     "homepage": "https://github.com/enlight/electron-inspector#readme",
     "dependencies": {
-      "node-inspector": "^0.12.8",
+      "node-inspector": "git+https://github.com/enlight/node-inspector",
       "v8-debug": "^0.7.7",
       "v8-profiler": "git+https://github.com/enlight/v8-profiler.git#v5.6.5-electron-v1.3",
       "yargs": "^5.0.0"
@@ -136,5 +143,6 @@
   },
   "filename": "enlight___electron-inspector.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:52.991Z"
+  "lastFetchedAt": "2017-05-04T05:00:52.991Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:38.307Z"
 }

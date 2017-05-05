@@ -74,22 +74,15 @@
   "packageJSON": {
     "name": "Kitematic",
     "version": "0.8.0-rc4",
+    "author": "Kitematic",
     "description": "Simple Docker Container management for Mac OS X.",
     "homepage": "https://kitematic.com/",
     "main": "browser.js",
     "repository": {
-      "user": "kitematic",
-      "repo": "kitematic",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/kitematic/kitematic/tarball/master",
-      "clone_url": "https://github.com/kitematic/kitematic",
-      "https_url": "https://github.com/kitematic/kitematic",
-      "travis_url": "https://travis-ci.org/kitematic/kitematic",
-      "zip_url": "https://github.com/kitematic/kitematic/archive/master.zip",
-      "api_url": "https://api.github.com/repos/kitematic/kitematic"
+      "type": "git",
+      "url": "git@github.com:kitematic/kitematic.git"
     },
+    "bugs": "https://github.com/kitematic/kitematic/issues",
     "scripts": {
       "start": "grunt",
       "test": "jest -c jest-unit.json",
@@ -200,5 +193,6 @@
   "sourceRepo": "docker/kitematic",
   "filename": "smashwilson___kite-shell.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:49:43.054Z"
+  "lastFetchedAt": "2017-05-04T14:49:43.054Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:15.209Z"
 }

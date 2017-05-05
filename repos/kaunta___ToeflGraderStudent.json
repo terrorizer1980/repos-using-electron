@@ -62,8 +62,15 @@
       "build_osx": "electron-packager --platform=darwin --arch=x64 --version=0.27.2 . ToeflGraderStudent",
       "build_win32": "electron-packager --platform=win32 --arch=ia32 --version=0.27.2 . ToeflGraderStudent.exe"
     },
-    "repository": "https://github.com/kaunta/ToeflGraderStudent",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kaunta/ToeflGraderStudent"
+    },
+    "author": "John Lekberg <jclekberg@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kaunta/ToeflGraderStudent/issues"
+    },
     "homepage": "https://github.com/kaunta/ToeflGraderStudent",
     "devDependencies": {
       "dialog": "^0.1.8",
@@ -116,5 +123,6 @@
   "svnUrl": "https://github.com/kaunta/ToeflGraderStudent",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:26:22.293Z"
+  "lastFetchedAt": "2017-05-04T21:26:22.293Z",
+  "packageLastFetchedAt": "2017-05-05T14:53:07.644Z"
 }

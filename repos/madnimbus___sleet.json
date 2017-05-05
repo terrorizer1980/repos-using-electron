@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/madnimbus/sleet",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/madnimbus/sleet.git"
+    },
     "keywords": [
       "markdown",
       "editor",
       "developers",
       "writers"
     ],
+    "author": "Ryan Madden",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/madnimbus/sleet/issues"
+    },
     "homepage": "https://github.com/madnimbus/sleet#readme",
     "dependencies": {
       "simplemde": "^1.11.2"
@@ -120,5 +127,6 @@
   },
   "filename": "madnimbus___sleet.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:41:38.056Z"
+  "lastFetchedAt": "2017-05-04T19:41:38.056Z",
+  "packageLastFetchedAt": "2017-05-05T17:07:12.870Z"
 }

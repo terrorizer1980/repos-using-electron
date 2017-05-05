@@ -69,6 +69,10 @@
     "name": "lightning-server",
     "description": "lightning dataviz notebooks",
     "version": "1.3.0",
+    "author": {
+      "name": "Matthew Conlen",
+      "email": "code@mathisonian.com"
+    },
     "window": {
       "toolbar": true
     },
@@ -90,7 +94,10 @@
       "node": "6.3.0"
     },
     "homepage": "http://lightning-viz.org",
-    "repository": "https://github.com/lightning-viz/lightning",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/lightning-viz/lightning"
+    },
     "scripts": {
       "start": "node bin/lightning-server.js",
       "dev": "NODE_ENV=development nodemon server.js --watch server.js ",
@@ -252,5 +259,6 @@
   "svnUrl": "https://github.com/lightning-viz/lightning",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:15:44.838Z"
+  "lastFetchedAt": "2017-05-04T21:15:44.838Z",
+  "packageLastFetchedAt": "2017-05-04T22:35:40.715Z"
 }

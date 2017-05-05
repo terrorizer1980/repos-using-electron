@@ -58,6 +58,11 @@
     "description": "An app for visually formatting and manipulating html and css for building emails.",
     "license": "MIT",
     "repository": "bracketeer/mailblender",
+    "author": {
+      "name": "bracketeer",
+      "email": "brent.stradling@gmail.com",
+      "url": "eyegoop.com"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -143,5 +148,6 @@
   "svnUrl": "https://github.com/Bracketeer/mailblender",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:25:36.845Z"
+  "lastFetchedAt": "2017-05-04T14:25:36.845Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:41.548Z"
 }

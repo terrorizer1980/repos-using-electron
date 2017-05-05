@@ -194,13 +194,20 @@
     "scripts": {
       "start": "electron ./app/browser.js"
     },
-    "repository": "https://github.com/ppoffice/Hozz",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:ppoffice/Hozz.git"
+    },
     "keywords": [
       "Electron",
       "hosts",
       "all-platform"
     ],
+    "author": "PPOffice",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/ppoffice/Hozz/issues"
+    },
     "homepage": "https://github.com/ppoffice/Hozz#readme",
     "devDependencies": {
       "babel-core": "^6.3.26",
@@ -258,5 +265,6 @@
   },
   "sourceRepo": "ppoffice/Hozz",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:23:59.469Z"
+  "lastFetchedAt": "2017-05-04T18:23:59.469Z",
+  "packageLastFetchedAt": "2017-05-05T17:34:50.960Z"
 }

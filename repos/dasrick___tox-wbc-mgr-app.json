@@ -56,10 +56,17 @@
     "productName": "wbcManager",
     "version": "0.2.6",
     "description": "Unofficial Webcast Manager App based on electron and AngularJS",
+    "author": "Enrico Hoffmann <dasrick@gmail.com>",
     "license": "MIT",
     "main": "main.js",
     "homepage": "https://github.com/dasrick/tox-wbc-mgr-app#readme",
-    "repository": "https://github.com/dasrick/tox-wbc-mgr-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dasrick/tox-wbc-mgr-app.git"
+    },
+    "bugs": {
+      "url": "https://github.com/dasrick/tox-wbc-mgr-app/issues"
+    },
     "keywords": [
       "electron",
       "angular",
@@ -171,5 +178,6 @@
   "svnUrl": "https://github.com/dasrick/tox-wbc-mgr-app",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T04:57:35.571Z"
+  "lastFetchedAt": "2017-05-04T04:57:35.571Z",
+  "packageLastFetchedAt": "2017-05-05T17:16:01.782Z"
 }

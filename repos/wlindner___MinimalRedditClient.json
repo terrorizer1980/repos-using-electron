@@ -68,8 +68,19 @@
       "package": "node package.js",
       "package-all": "node package.js --all"
     },
-    "repository": "https://github.com/wlindner/MinimalRedditClient",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wlindner/MinimalRedditClient.git"
+    },
+    "author": {
+      "name": "William Lindner",
+      "email": "wlindner522@gmail.com",
+      "url": "https://github.com/wlindner"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wlindner/MinimalRedditClient/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -172,5 +183,6 @@
   "svnUrl": "https://github.com/wlindner/MinimalRedditClient",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:18:34.154Z"
+  "lastFetchedAt": "2017-05-04T15:18:34.154Z",
+  "packageLastFetchedAt": "2017-05-05T14:40:59.978Z"
 }

@@ -74,14 +74,22 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "rm -f ./index.html; rm -f ./index.css; pug ./source/index.pug -o ./ && stylus ./source/index.styl -o ./ && electron ."
     },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jwinnie/quicknote.git"
+    },
+    "bugs": {
+      "url": "https://github.com/jwinnie/quicknote/issues"
+    },
+    "homepage": "https://github.com/jwinnie/quicknote#readme",
     "dependencies": {
-      "electron-prebuilt": "1.4.1",
-      "jsdom": "9.5.0"
+      "electron-prebuilt": "1.4.1"
     },
     "devDependencies": {
       "stylus": "0.54.5",
       "pug-cli": "^1.0.0-alpha6"
     },
+    "author": "J Winnie",
     "license": "ISC"
   },
   "packageStatus": 200,
@@ -109,5 +117,6 @@
   },
   "filename": "jwinnie___quicknote.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:34:12.434Z"
+  "lastFetchedAt": "2017-05-04T05:34:12.434Z",
+  "packageLastFetchedAt": "2017-05-05T17:23:34.529Z"
 }

@@ -82,12 +82,19 @@
       "start": "electron main.js",
       "watch": "watchify app/app.js -t babelify -o public/js/bundle.js --debug --verbose"
     },
-    "repository": "https://github.com/christiannwamba/scotch-player",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/christiannwamba/scotch-player.git"
+    },
     "keywords": [
       "react",
       "music"
     ],
+    "author": "Christian Nwamba",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/christiannwamba/scotch-player/issues"
+    },
     "homepage": "https://github.com/christiannwamba/scotch-player#readme",
     "dependencies": {
       "axios": "^0.9.1",
@@ -133,5 +140,6 @@
   },
   "filename": "namho102___react-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:46:38.007Z"
+  "lastFetchedAt": "2017-05-04T16:46:38.007Z",
+  "packageLastFetchedAt": "2017-05-05T15:30:50.817Z"
 }

@@ -89,11 +89,18 @@
       "build:win32": ".\\scripts\\build-win32.bat win32 ia32",
       "build:win64": ".\\scripts\\build-win32.bat win32 x64"
     },
-    "repository": "https://github.com/ToQuery/electronic-qq",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ToQuery/electronic-qq.git"
+    },
     "keywords": [
       "QQ"
     ],
+    "author": "ToQuery",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ToQuery/electronic-qq.git"
+    },
     "homepage": "https://github.com/ToQuery/electronic-qq.git",
     "dependencies": {
       "electron": "^1.4.6",
@@ -134,5 +141,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:41:10.205Z"
+  "lastFetchedAt": "2017-05-04T20:41:10.205Z",
+  "packageLastFetchedAt": "2017-05-05T17:01:28.022Z"
 }

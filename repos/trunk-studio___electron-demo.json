@@ -95,14 +95,21 @@
       "build": "sudo rm -rf electron-quick-start* && node_modules/.bin/electron-packager . --platform=win32,linux --arch=x64",
       "deploy": "make deploy"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-packager": "^6.0.2",
@@ -138,5 +145,6 @@
   },
   "filename": "trunk-studio___electron-demo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:23:12.231Z"
+  "lastFetchedAt": "2017-05-04T14:23:12.231Z",
+  "packageLastFetchedAt": "2017-05-05T17:17:49.570Z"
 }

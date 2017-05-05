@@ -75,6 +75,7 @@
       "package": "asar pack Sudoku-darwin-x64/Sudoku.app/Contents/Resources/app Sudoku-darwin-x64/Sudoku.app/Contents/Resources/app.asar",
       "build": "electron-packager . Sudoku --ignore=node_modules/electron-* --platform=darwin --arch=x64 && cp sudoku.icns Sudoku-darwin-x64/Sudoku.app/Contents/Resources/atom.icns"
     },
+    "author": "JAIOM",
     "license": "ICS",
     "devDependencies": {
       "asar": "^0.10.0",
@@ -107,5 +108,6 @@
   },
   "filename": "JAIOMP___sudoku.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:34:36.171Z"
+  "lastFetchedAt": "2017-05-04T15:34:36.171Z",
+  "packageLastFetchedAt": "2017-05-05T17:15:47.151Z"
 }

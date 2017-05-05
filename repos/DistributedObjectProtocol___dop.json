@@ -88,19 +88,23 @@
   "status": 200,
   "packageJSON": {
     "name": "dop",
-    "version": "0.11.1",
+    "version": "0.11.11",
     "main": "./dist/nodejs.js",
     "browser": "./dist/browser.js",
     "unpkg": "./dist/browser.min.js",
     "license": "MIT",
     "url": "http://www.distributedobjectprotocol.org",
-    "repository": "https://github.com/DistributedObjectProtocol/dop",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DistributedObjectProtocol/dop.git"
+    },
+    "author": "Josema Gonzalez (http://josema.es/)",
     "description": "Distributed Object Protocol.",
     "keywords": [
       "realtime",
       "pubsub",
       "state management",
-      "data flow",
+      "data-flow",
       "distributed",
       "objects",
       "protocol",
@@ -113,17 +117,15 @@
       "websocket",
       "events",
       "sockets",
-      "io",
       "xhr",
-      "flux",
       "server",
-      "client",
-      "ria"
+      "client"
     ],
     "dependencies": {
       "dop-transports": "^2.0.0"
     },
     "devDependencies": {
+      "coveralls": "^2.11.4",
       "express": "^4.13.4",
       "faucet": "^0.0.1",
       "grunt": "^0.4.5",
@@ -135,6 +137,7 @@
       "grunt-optimize-js": "^0.6.0",
       "js-combinatorics": "^0.5.2",
       "tap": "^7.1.2",
+      "tape": "^4.6.3",
       "tape-run": "^2.1.4",
       "electron": "^1.4.12"
     },
@@ -176,5 +179,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:27.392Z"
+  "lastFetchedAt": "2017-05-04T18:00:27.392Z",
+  "packageLastFetchedAt": "2017-05-05T17:18:03.606Z"
 }

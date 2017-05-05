@@ -79,20 +79,50 @@
     "scripts": {
       "start-linux": "./node_modules/.bin/electron .",
       "start-windows": "start /b node_modules\\.bin\\electron .",
+      "sl": "npm run start-linux",
+      "sw": "npm run start-windows",
+      "clean": "rimraf lib dist",
       "test": "echo \"Error: no test specified\" && exit 1",
-      "gulp-watch": "gulp watch"
+      "gulp-watch": "gulp watch",
+      "webpack": "npm run clean && webpack --progress --colors --config webpack.config.development.js",
+      "watch": "npm run clean && webpack-dev-server --progress --colors --content-base dev/ --port=8008 --hot --inline --config webpack.config.production.js"
+    },
+    "author": "Require Sun <kelvinsen@outlook.com> (https://github.com/RequireSun)",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/RequireSun/learn-electron.git"
     },
     "license": "MIT",
     "devDependencies": {
+      "babel-core": "^6.18.2",
+      "babel-loader": "^6.2.8",
+      "babel-preset-es2015": "^6.18.0",
+      "css-loader": "^0.26.1",
+      "electron": "^1.4.10",
       "electron-prebuilt": "^1.4.0",
+      "extract-text-webpack-plugin": "^1.0.1",
       "gulp": "^3.9.1",
       "gulp-less": "^3.1.0",
       "gulp-live-server": "0.0.30",
-      "gulp-livereload": "^3.8.1"
+      "gulp-livereload": "^3.8.1",
+      "html-loader": "^0.4.4",
+      "less-loader": "^2.2.3",
+      "rimraf": "^2.5.4",
+      "style-loader": "^0.13.1",
+      "webpack": "^1.13.3",
+      "webpack-dev-server": "^1.16.2"
     },
     "dependencies": {
+      "@requiresun/countdown": "^1.0.0",
+      "bootstrap": "^3.3.7",
       "cheerio": "^0.22.0",
-      "request": "^2.75.0"
+      "electron-is-dev": "^0.1.2",
+      "iconv-lite": "^0.4.15",
+      "phantom": "^3.2.0",
+      "request": "^2.75.0",
+      "vue": "^2.1.4",
+      "vue-loader": "^10.0.2",
+      "vuex": "^2.0.0"
     }
   },
   "packageStatus": 200,
@@ -120,5 +150,6 @@
   },
   "filename": "RequireSun___learn-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:18:40.127Z"
+  "lastFetchedAt": "2017-05-04T05:18:40.127Z",
+  "packageLastFetchedAt": "2017-05-05T09:36:20.436Z"
 }

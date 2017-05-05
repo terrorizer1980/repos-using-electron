@@ -79,8 +79,15 @@
     "scripts": {
       "app": "electron ."
     },
-    "repository": "https://github.com/mateusortiz/dobar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mateusortiz/dobar.git"
+    },
+    "author": "Mateus Ortiz <mteusortiz@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/mateusortiz/dobar/issues"
+    },
     "homepage": "https://github.com/mateusortiz/dobar#readme"
   },
   "packageStatus": 200,
@@ -108,5 +115,6 @@
   },
   "filename": "mateusortiz___dobar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:04:41.459Z"
+  "lastFetchedAt": "2017-05-04T05:04:41.459Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:31.276Z"
 }

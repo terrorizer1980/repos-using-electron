@@ -73,5 +73,22 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T17:44:02.806Z"
+  "lastFetchedAt": "2017-05-04T17:44:02.806Z",
+  "packageJSON": {
+    "name": "hackbrowser",
+    "version": "0.0.2",
+    "main": "main.js",
+    "dependencies": {
+      "nedb": "^1.8.0",
+      "winston": "^2.3.1"
+    },
+    "scripts": {
+      "start": "electron ."
+    },
+    "devDependencies": {
+      "electron": "^1.6.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:11:33.510Z"
 }

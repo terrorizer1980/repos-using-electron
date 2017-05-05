@@ -88,6 +88,7 @@
       "start": "electron .",
       "package": "electron-packager . hbfm-blogreader-tool --platform=win32 --arch=x64 --out ./dist/hbfm-blogreader-tool --overwrite --icon=./favicon_hbfm.ico"
     },
+    "author": "Stefan Maibücher",
     "homepage": "https://www.fachmedien.de",
     "devDependencies": {
       "electron-packager": "^7.7.0",
@@ -127,5 +128,6 @@
   },
   "filename": "HB-Fachmedien___hbfm-blogreader-tool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:51:24.400Z"
+  "lastFetchedAt": "2017-05-04T14:51:24.400Z",
+  "packageLastFetchedAt": "2017-05-05T14:47:36.527Z"
 }

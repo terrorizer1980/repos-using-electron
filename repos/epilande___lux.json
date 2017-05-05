@@ -83,6 +83,7 @@
       "postinstall": "npm run rebuild",
       "build": "NODE_ENV=production electron-packager . --platform=darwin --arch=all --prune --out release --overwrite --icon ./lux.icns"
     },
+    "author": "Emmanuel Pilande",
     "engine-strict": true,
     "engines": {
       "node": ">= 6.x",
@@ -123,5 +124,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:08:45.860Z"
+  "lastFetchedAt": "2017-05-04T18:08:45.860Z",
+  "packageLastFetchedAt": "2017-05-05T01:25:09.471Z"
 }

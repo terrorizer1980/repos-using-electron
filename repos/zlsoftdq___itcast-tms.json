@@ -189,6 +189,7 @@
       "prepack": "npm run dist",
       "pack": "node packager"
     },
+    "author": "iceStone <ice@wedn.net> (http://www.wedn.net/)",
     "license": "ISC",
     "keywords": [
       "iceStone",
@@ -233,7 +234,16 @@
       "standard": "^7.1.2",
       "uglify-js": "^2.7.0"
     },
-    "repository": "https://github.com/zce/itcast-tms",
+    "directories": {
+      "test": "test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zce/itcast-tms.git"
+    },
+    "bugs": {
+      "url": "https://github.com/zce/itcast-tms/issues"
+    },
     "homepage": "https://github.com/zce/itcast-tms#readme",
     "build": {
       "app-bundle-id": "net.wedn.tms",
@@ -289,5 +299,6 @@
   "svnUrl": "https://github.com/zlsoftdq/itcast-tms",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:21:39.541Z"
+  "lastFetchedAt": "2017-05-04T15:21:39.541Z",
+  "packageLastFetchedAt": "2017-05-05T17:26:57.515Z"
 }

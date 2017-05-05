@@ -77,6 +77,7 @@
       "sass": "sass --watch ./scss/style.scss:./dist/css/style.css",
       "start": "./node_modules/.bin/electron ."
     },
+    "author": "swat",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -114,5 +115,6 @@
   },
   "filename": "puresmash___ez-key.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:32:34.861Z"
+  "lastFetchedAt": "2017-05-04T20:32:34.861Z",
+  "packageLastFetchedAt": "2017-05-05T17:19:23.713Z"
 }

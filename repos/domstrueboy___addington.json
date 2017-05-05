@@ -79,13 +79,20 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/domstrueboy/addington",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/domstrueboy/addington.git"
+    },
     "keywords": [
       "Addington",
       "mindMap",
       "ToDo"
     ],
+    "author": "vk.com/domstrueboy",
     "license": "MIT",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "https://github.com/domstrueboy/addington#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -116,5 +123,6 @@
   },
   "filename": "domstrueboy___addington.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:20.280Z"
+  "lastFetchedAt": "2017-05-04T17:36:20.280Z",
+  "packageLastFetchedAt": "2017-05-05T15:15:44.252Z"
 }

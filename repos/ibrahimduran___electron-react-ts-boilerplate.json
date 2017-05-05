@@ -73,7 +73,7 @@
   "status": 200,
   "packageJSON": {
     "name": "electron-react-ts-boilerplate",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "repository": "ibrahimduran/electron-react-ts-boilerplate",
     "description": "Boilerplate for developing Electron apps using TypeScript2.0 and ReactJS.",
     "keywords": [
@@ -83,6 +83,9 @@
       "react",
       "reactjs"
     ],
+    "bugs": {
+      "url": "https://github.com/ibrahimduran/electron-react-ts-boilerplate/issues"
+    },
     "main": "dist/main.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
@@ -102,9 +105,12 @@
       "gulp": "^3.9.1",
       "gulp-pug": "^3.1.0",
       "gulp-sass": "^2.3.2",
-      "gulp-typescript": "^3.0.2"
+      "gulp-typescript": "^3.0.2",
+      "gulp-uglify": "^2.0.0"
     },
     "dependencies": {
+      "@types/core-js": "^0.9.35",
+      "@types/electron": "^1.4.30",
       "electron": "^1.4.4",
       "react": "^15.3.2",
       "react-dom": "^15.3.2",
@@ -136,5 +142,6 @@
   },
   "filename": "ibrahimduran___electron-react-ts-boilerplate.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:48.707Z"
+  "lastFetchedAt": "2017-05-04T16:41:48.707Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:36.715Z"
 }

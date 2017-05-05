@@ -55,6 +55,7 @@
       "start": "electron .",
       "build": "electron-packager ./ Patterner --platform=darwin --arch=x64 --out=dist --version=0.33.3 --overwrite"
     },
+    "author": "Fangdun Cai <cfddream@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.1.0",
@@ -110,5 +111,6 @@
   },
   "filename": "fundon___patterner.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:26:41.269Z"
+  "lastFetchedAt": "2017-05-04T15:26:41.269Z",
+  "packageLastFetchedAt": "2017-05-05T17:11:33.624Z"
 }

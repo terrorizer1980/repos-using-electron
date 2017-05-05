@@ -73,7 +73,11 @@
       "mac",
       "app"
     ],
-    "repository": "https://github.com/questbeat/PopHub",
+    "author": "Katsuma Tanaka <questbeat@gmail.com> (https://github.com/questbeat)",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/questbeat/PopHub.git"
+    },
     "license": "MIT",
     "dependencies": {
       "babel-runtime": "^5.8.24",
@@ -147,5 +151,6 @@
   },
   "filename": "questbeat___PopHub-Electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:04:30.813Z"
+  "lastFetchedAt": "2017-05-04T20:04:30.813Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:58.062Z"
 }

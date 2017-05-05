@@ -52,36 +52,50 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-quick-start",
+    "name": "umbra-installer",
+    "productName": "Install Umbra from Shadowproject",
     "version": "1.0.0",
-    "description": "A minimal Electron application",
+    "description": "Installs the Umbra client from Shadowproject",
     "main": "main.js",
-    "scripts": {
-      "start": "electron main.js"
-    },
     "repository": {
-      "user": "electron",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/electron/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/electron/electron-quick-start",
-      "https_url": "https://github.com/electron/electron-quick-start",
-      "travis_url": "https://travis-ci.org/electron/electron-quick-start",
-      "zip_url": "https://github.com/electron/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/electron/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/kewde/installer.git"
     },
     "keywords": [
-      "Electron",
-      "quick",
-      "start",
-      "tutorial"
+      "Shadowcash",
+      "Umbra",
+      "SDC",
+      "Shadowproject"
+    ],
+    "author": [
+      "Kewde",
+      "Matthewjamesr"
     ],
     "license": "CC0-1.0",
-    "homepage": "https://github.com/electron/electron-quick-start#readme",
+    "bugs": {
+      "url": "https://riot.im/app/#/room/#shadowproject:matrix.org"
+    },
+    "homepage": "https://shadowproject.io/",
+    "dependencies": {
+      "dialog": "0.2.0",
+      "ipc": "0.0.1",
+      "socks5-https-client": "1.2.0",
+      "unzip": "0.1.11"
+    },
+    "optionalDependencies": {
+      "windows-shortcuts": "0.1.4"
+    },
     "devDependencies": {
+      "electron": "^1.4.14",
+      "electron-packager": "^8.5.0",
       "electron-prebuilt": "^0.37.0"
+    },
+    "scripts": {
+      "start": "electron ./main.js",
+      "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=./assets/icons/shadow.icns --prune=true --out=release-builds",
+      "package-win32": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=./assets/icons/shadow.ico --prune=true --out=release-builds --version-string.CompanyName=Shadowproject --version-string.FileDescription=\"Easy Umbra Install\" --version-string.ProductName=\"Install Umbra by Shadowproject\"",
+      "package-win64": "electron-packager . --overwrite --asar=true --platform=win32 --arch=x64 --icon=./assets/icons/shadow.ico --prune=true --out=release-builds --version-string.CompanyName=Shadowproject --version-string.FileDescription=\"Easy Umbra Install\" --version-string.ProductName=\"Install Umbra by Shadowproject\"",
+      "package-linux": "electron-packager . --overwrite --platform=linux --arch=x64 --icon=./assets/icons/shadow.png --prune=true --out=release-builds"
     }
   },
   "packageStatus": 200,
@@ -130,5 +144,6 @@
   "filename": "kewde___installer.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:20.929Z"
+  "lastFetchedAt": "2017-05-04T19:51:20.929Z",
+  "packageLastFetchedAt": "2017-05-04T22:45:37.356Z"
 }

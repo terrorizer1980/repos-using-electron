@@ -87,6 +87,11 @@
     "license": "UNLICENSED",
     "homepage": "https://www.voog.com",
     "main": "main.js",
+    "author": {
+      "name": "Priit Haamer",
+      "email": "priit@voog.com",
+      "url": "https://github.com/Voog"
+    },
     "scripts": {
       "hot-server": "node server.js",
       "build": "cross-env NODE_ENV=production webpack --config webpack.config.production.js --progress --profile --colors",
@@ -99,7 +104,13 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/Voog/voog-app",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Voog/voog-app.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Voog/voog-app/issues"
+    },
     "devDependencies": {
       "asar": "^0.9.0",
       "babel-core": "^6.3.26",
@@ -180,5 +191,6 @@
   },
   "filename": "Voog___voog-app.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:43:29.215Z"
+  "lastFetchedAt": "2017-05-04T19:43:29.215Z",
+  "packageLastFetchedAt": "2017-05-05T15:10:31.480Z"
 }

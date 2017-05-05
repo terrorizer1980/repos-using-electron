@@ -91,19 +91,17 @@
       "electron": "./node_modules/.bin/electron"
     },
     "repository": {
-      "user": "ronaldronson",
-      "repo": "reletrox",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ronaldronson/reletrox/tarball/master",
-      "clone_url": "https://github.com/ronaldronson/reletrox",
-      "https_url": "https://github.com/ronaldronson/reletrox",
-      "travis_url": "https://travis-ci.org/ronaldronson/reletrox",
-      "zip_url": "https://github.com/ronaldronson/reletrox/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ronaldronson/reletrox"
+      "type": "git",
+      "url": "git+https://github.com/ronaldronson/reletrox.git"
+    },
+    "author": {
+      "name": "ronaldronson",
+      "url": "https://github.com/ronaldronson"
     },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ronaldronson/reletrox.git/issues"
+    },
     "keywords": [
       "electron",
       "react",
@@ -217,5 +215,6 @@
   "filename": "ronaldronson___reletrox.json",
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:44.163Z"
+  "lastFetchedAt": "2017-05-04T20:48:44.163Z",
+  "packageLastFetchedAt": "2017-05-04T22:23:31.337Z"
 }

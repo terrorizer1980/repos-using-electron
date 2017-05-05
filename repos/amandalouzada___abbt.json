@@ -67,5 +67,29 @@
   "networkCount": 1,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T04:57:08.545Z"
+  "lastFetchedAt": "2017-05-04T04:57:08.545Z",
+  "packageJSON": {
+    "name": "projeto-abbt",
+    "version": "1.0.0",
+    "description": "Projeto de Banco de Dados",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "https://github.com/electron/electron-quick-start",
+    "keywords": [
+      "Electron",
+      "quick",
+      "start",
+      "tutorial",
+      "demo"
+    ],
+    "author": "ABBT",
+    "license": "CC0-1.0",
+    "devDependencies": {
+      "electron": "~1.6.2"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:32:04.093Z"
 }

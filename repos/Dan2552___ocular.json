@@ -79,14 +79,21 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/Dan2552/ocular",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Dan2552/ocular.git"
+    },
     "keywords": [
       "rspec",
       "gui",
       "front-end",
       "mac"
     ],
+    "author": "Dan2552",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Dan2552/ocular/issues"
+    },
     "homepage": "https://github.com/Dan2552/ocular#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.1.1",
@@ -120,5 +127,6 @@
   },
   "filename": "Dan2552___ocular.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:46.042Z"
+  "lastFetchedAt": "2017-05-04T14:21:46.042Z",
+  "packageLastFetchedAt": "2017-05-04T22:20:23.224Z"
 }

@@ -78,8 +78,18 @@
     "description": "OSX tray clock and calendar app",
     "license": "MIT",
     "main": "index.js",
-    "repository": "https://github.com/dbachko/osx-tray-clock",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dbachko/osx-tray-clock"
+    },
+    "bugs": {
+      "url": "https://github.com/dbachko/osx-tray-clock/issues"
+    },
     "homepage": "https://github.com/dbachko/osx-tray-clock",
+    "author": {
+      "name": "Dzmitry Bachko",
+      "url": "https://github.com/dbachko"
+    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -167,5 +177,6 @@
   },
   "filename": "dbachko___osx-tray-clock.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:00.370Z"
+  "lastFetchedAt": "2017-05-04T14:24:00.370Z",
+  "packageLastFetchedAt": "2017-05-05T15:34:09.164Z"
 }

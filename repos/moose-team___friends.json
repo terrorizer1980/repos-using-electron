@@ -69,6 +69,15 @@
     "name": "friends",
     "description": "P2P chat powered by the Web.",
     "version": "1.0.0",
+    "author": [
+      "feross",
+      "maxogden",
+      "mafintosh",
+      "ngoldman",
+      "shama",
+      "jlord",
+      "chrisdickinson"
+    ],
     "browser": {
       "ghsign": false,
       "github-current-user": false,
@@ -78,6 +87,9 @@
       "transforms": [
         "brfs"
       ]
+    },
+    "bugs": {
+      "url": "https://github.com/moose-team/friends/issues"
     },
     "dependencies": {
       "application-config-path": "^0.1.0",
@@ -137,7 +149,10 @@
     ],
     "license": "MIT",
     "main": "index.js",
-    "repository": "https://github.com/moose-team/friends",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/moose-team/friends.git"
+    },
     "scripts": {
       "build-css": "stylus -u nib app/style/index.styl -o app/style/bundle.css -c",
       "prepackage": "npm run build-css",
@@ -196,5 +211,6 @@
   },
   "filename": "moose-team___friends.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:25.708Z"
+  "lastFetchedAt": "2017-05-04T15:14:25.708Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:45.870Z"
 }

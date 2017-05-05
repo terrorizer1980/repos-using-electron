@@ -79,12 +79,19 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/taoqf/feidao",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/taoqf/feidao.git"
+    },
     "keywords": [
       "feidao",
       "softwarefactory"
     ],
+    "author": "taoqf <tao_qiufeng@126.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/taoqf/feidao/issues"
+    },
     "homepage": "https://github.com/taoqf/feidao#readme",
     "devDependencies": {
       "del": "^2.2.0",
@@ -126,5 +133,6 @@
   },
   "filename": "taoqf___fd.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:46:20.952Z"
+  "lastFetchedAt": "2017-05-04T20:46:20.952Z",
+  "packageLastFetchedAt": "2017-05-05T01:30:33.701Z"
 }

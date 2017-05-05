@@ -81,7 +81,15 @@
       "electron": "./node_modules/.bin/electron",
       "concurrently": "^2.0.0"
     },
-    "repository": "https://github.com/NikZar/Reactiwall",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/NikZar/Reactiwall.git"
+    },
+    "author": {
+      "name": "Niko Zarzani",
+      "email": "niko.zarzani@gmail.com",
+      "url": "https://github.com/NikZar"
+    },
     "license": "MIT",
     "keywords": [
       "reactiwall",
@@ -245,5 +253,6 @@
   "svnUrl": "https://github.com/NikZar/Reactiwall",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:12:10.463Z"
+  "lastFetchedAt": "2017-05-04T18:12:10.463Z",
+  "packageLastFetchedAt": "2017-05-05T17:49:41.254Z"
 }

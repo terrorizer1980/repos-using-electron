@@ -89,7 +89,11 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/dbrugne/desktop-app-poc",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dbrugne/desktop-app-poc.git"
+    },
+    "author": "dbrugne",
     "license": "ISC",
     "keywords": [
       "electron",
@@ -198,5 +202,6 @@
   },
   "filename": "dbrugne___desktop-app-poc.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:13:30.609Z"
+  "lastFetchedAt": "2017-05-04T18:13:30.609Z",
+  "packageLastFetchedAt": "2017-05-04T22:41:58.102Z"
 }

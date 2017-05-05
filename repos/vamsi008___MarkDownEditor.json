@@ -55,6 +55,7 @@
     "name": "Marvelous",
     "description": "Markdown editor for the future",
     "version": "0.0.1",
+    "author": "Team LeanTaaS <leantaas@imaginea.com>",
     "contributors": [
       {
         "name": "Vamsi Chava",
@@ -77,6 +78,9 @@
         "email": "praveen.puglia@imaginea.com"
       }
     ],
+    "bugs": {
+      "url": "https://github.com/hashd/Marvelous/issues"
+    },
     "devDependencies": {
       "electron-packager": "^5.0.0",
       "electron-prebuilt": "^0.29.1",
@@ -145,5 +149,6 @@
   },
   "filename": "vamsi008___MarkDownEditor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:19:52.862Z"
+  "lastFetchedAt": "2017-05-04T18:19:52.862Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:50.160Z"
 }

@@ -73,8 +73,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/tbergeron/sleem",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/tbergeron/sleem.git"
+    },
+    "author": "Tommy Bergeron",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tbergeron/sleem/issues"
+    },
     "homepage": "https://github.com/tbergeron/sleem",
     "dependencies": {
       "bug-killer": "^4.2.1",
@@ -111,5 +118,6 @@
   },
   "filename": "tbergeron___sleem.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:56:28.321Z"
+  "lastFetchedAt": "2017-05-04T14:56:28.321Z",
+  "packageLastFetchedAt": "2017-05-05T01:19:43.489Z"
 }

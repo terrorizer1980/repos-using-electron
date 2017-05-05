@@ -74,8 +74,15 @@
       "start": "electron .",
       "candy": "electron ."
     },
-    "repository": "https://github.com/irisbada/candy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/irisbada/candy.git"
+    },
+    "author": "irisbada",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/irisbada/candy/issues"
+    },
     "homepage": "https://github.com/irisbada/candy#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.10"
@@ -110,5 +117,6 @@
   },
   "filename": "irisbada___candy.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:41:42.689Z"
+  "lastFetchedAt": "2017-05-04T16:41:42.689Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:21.622Z"
 }

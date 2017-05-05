@@ -60,13 +60,17 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/stevecat/catnap",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/stevecat/catnap/"
+    },
     "keywords": [
       "breaks",
       "nap",
       "timer",
       "activity"
     ],
+    "author": "stevecat",
     "license": "CC0-1.0",
     "homepage": "https://stevecat.net/catnap/",
     "devDependencies": {
@@ -119,5 +123,6 @@
   },
   "filename": "stevecat___catnap.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:17:37.977Z"
+  "lastFetchedAt": "2017-05-04T21:17:37.977Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:00.908Z"
 }

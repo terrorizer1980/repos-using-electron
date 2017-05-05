@@ -54,13 +54,20 @@
       "build": "node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/fshuto/electron-test",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fshuto/electron-test.git"
+    },
     "keywords": [
       "node",
       "electron",
       "test"
     ],
+    "author": "Shuto FUJII",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fshuto/electron-test/issues"
+    },
     "homepage": "https://github.com/fshuto/electron-test#readme",
     "devDependencies": {
       "electron-packager": "^5.1.1",
@@ -112,5 +119,6 @@
   },
   "filename": "fshuto___electron-test.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:03.464Z"
+  "lastFetchedAt": "2017-05-04T21:26:03.464Z",
+  "packageLastFetchedAt": "2017-05-04T22:58:11.811Z"
 }

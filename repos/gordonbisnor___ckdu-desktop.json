@@ -76,6 +76,10 @@
     "version": "0.0.0",
     "description": "Small description for ckdu-desktop goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -85,6 +89,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.4.2",
@@ -185,5 +190,6 @@
   },
   "filename": "gordonbisnor___ckdu-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:26:06.171Z"
+  "lastFetchedAt": "2017-05-04T05:26:06.171Z",
+  "packageLastFetchedAt": "2017-05-05T17:08:19.399Z"
 }

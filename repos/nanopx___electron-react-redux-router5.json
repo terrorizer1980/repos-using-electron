@@ -56,7 +56,10 @@
     "version": "0.0.1",
     "description": "A boilerplate using Electron + React + Redux + Router5, including hot module replacements.",
     "main": "index.js",
-    "repository": "https://github.com/nanopx/electron-react-redux-router5",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/nanopx/electron-react-redux-router5.git"
+    },
     "homepage": "https://github.com/nanopx/electron-react-redux-router5",
     "scripts": {
       "start": "electron .",
@@ -67,6 +70,7 @@
       "lint": "eslint ./; exit 0",
       "test": "mocha --require babel-core/register"
     },
+    "author": "nanopx",
     "license": "MIT",
     "dependencies": {
       "babel": "^6.5.2",
@@ -163,5 +167,6 @@
   "svnUrl": "https://github.com/nanopx/electron-react-redux-router5",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T16:42:28.925Z"
+  "lastFetchedAt": "2017-05-04T16:42:28.925Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:16.628Z"
 }

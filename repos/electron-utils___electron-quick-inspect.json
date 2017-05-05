@@ -92,17 +92,24 @@
     "description": "Quickly inspect an element at mouse position via `webContents.inspectElement(x,y)`",
     "main": "index.js",
     "scripts": {
-      "start": "node run.js"
+      "start": "electron"
     },
-    "repository": "https://github.com/electron-utils/electron-quick-inspect",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron-utils/electron-quick-inspect.git"
+    },
     "keywords": [
       "Electron",
       "Platform"
     ],
+    "author": "jwu",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/electron-utils/electron-quick-inspect/issues"
+    },
     "homepage": "https://github.com/electron-utils/electron-quick-inspect",
     "devDependencies": {
-      "electron": "^1.4.14"
+      "electron": "^1.6.5"
     },
     "dependencies": {
       "electron-platform": "^1.2.0"
@@ -132,5 +139,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:35:07.154Z"
+  "lastFetchedAt": "2017-05-04T19:35:07.154Z",
+  "packageLastFetchedAt": "2017-05-05T15:28:13.058Z"
 }

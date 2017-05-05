@@ -69,7 +69,10 @@
     "name": "mcdm",
     "version": "1.0.0",
     "description": "Multi-criteria decision making system using AHP method",
-    "main": "index.js",
+    "main": "./app/main.js",
+    "author": {
+      "name": "js"
+    },
     "scripts": {
       "build": "webpack --progress --profile --colors --display-error-details --display-cached",
       "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
@@ -123,5 +126,6 @@
   },
   "filename": "asiaszumial___mcdm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:45:52.803Z"
+  "lastFetchedAt": "2017-05-04T16:45:52.803Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:49.912Z"
 }

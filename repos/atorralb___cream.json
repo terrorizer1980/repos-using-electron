@@ -106,8 +106,15 @@
       "tsc:w": "tsc -w",
       "typings": "typings"
     },
-    "repository": "https://github.com/atorralb/jobio",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/atorralb/jobio.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/atorralb/jobot/issues"
+    },
     "homepage": "https://github.com/atorralb/jobio#readme"
   },
   "packageStatus": 200,
@@ -135,5 +142,6 @@
   },
   "filename": "atorralb___cream.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:27:12.311Z"
+  "lastFetchedAt": "2017-05-04T05:27:12.311Z",
+  "packageLastFetchedAt": "2017-05-04T22:12:25.890Z"
 }

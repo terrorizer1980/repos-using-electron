@@ -68,12 +68,14 @@
   "packageJSON": {
     "name": "electron-image-viewer",
     "productName": "electron-image-viewer",
-    "version": "0.2.3",
+    "version": "0.2.4",
     "description": "Image viewer",
     "main": "main.js",
+    "author": "aesqe",
     "license": "ISC",
     "scripts": {
       "buildwin64": "node buildwin64.js",
+      "buildosx": "node buildosx.js",
       "buildall": "node buildall.js"
     },
     "dependencies": {
@@ -113,5 +115,6 @@
   },
   "filename": "aesqe___electron-image-viewer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:26:02.373Z"
+  "lastFetchedAt": "2017-05-04T21:26:02.373Z",
+  "packageLastFetchedAt": "2017-05-05T14:46:52.828Z"
 }

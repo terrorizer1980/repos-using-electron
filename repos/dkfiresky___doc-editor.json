@@ -54,12 +54,19 @@
       "pack": "electron-packager ./src \"Documentation Editor\" --overwrite --out=dist --platform=win32 --arch=x64 --version=0.36.7 --icon=./dist/icon.ico --version-string.ProductName=\"Documentation Editor\" --version-string.FileDescription=\"Documentation Editor\" --asar=true",
       "src": "electron ./src"
     },
-    "repository": "https://github.com/dkfiresky/doc-editor",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dkfiresky/doc-editor.git"
+    },
     "keywords": [
       "editor",
       "documentation"
     ],
+    "author": "Dmitry Kholodilin <dkfiresky@outlook.com> (https://github.com/dkfiresky)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dkfiresky/doc-editor/issues"
+    },
     "homepage": "https://github.com/dkfiresky/doc-editor#readme",
     "devDependencies": {
       "electron-packager": "5.0.0",
@@ -116,5 +123,6 @@
   "svnUrl": "https://github.com/dkfiresky/doc-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:01:12.165Z"
+  "lastFetchedAt": "2017-05-04T20:01:12.165Z",
+  "packageLastFetchedAt": "2017-05-04T21:58:32.511Z"
 }

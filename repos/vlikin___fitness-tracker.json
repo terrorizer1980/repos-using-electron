@@ -53,8 +53,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/vlikin/fitness-tracker",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/vlikin/fitness-tracker.git"
+    },
+    "author": "Viktor Likin",
     "license": "BSD-2-Clause",
+    "bugs": {
+      "url": "https://github.com/vlikin/fitness-tracker/issues"
+    },
     "devDependencies": {
       "electron-prebuilt": "~0.35.1"
     },
@@ -117,5 +124,6 @@
   "svnUrl": "https://github.com/vlikin/fitness-tracker",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:15:04.003Z"
+  "lastFetchedAt": "2017-05-04T18:15:04.003Z",
+  "packageLastFetchedAt": "2017-05-04T22:42:12.195Z"
 }

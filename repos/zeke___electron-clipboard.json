@@ -74,7 +74,10 @@
       "test": "spectron",
       "lint": "standard-format -w"
     },
-    "repository": "https://github.com/zeke/electron-clipboard",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/zeke/electron-clipboard.git"
+    },
     "keywords": [
       "electron",
       "clipboard",
@@ -83,7 +86,11 @@
       "history",
       "snippets"
     ],
+    "author": "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/zeke/electron-clipboard/issues"
+    },
     "homepage": "https://github.com/zeke/electron-clipboard#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.3",
@@ -125,5 +132,6 @@
   "allowSquashMerge": true,
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
-  "lastFetchedAt": "2017-05-04T21:14:43.347Z"
+  "lastFetchedAt": "2017-05-04T21:14:43.347Z",
+  "packageLastFetchedAt": "2017-05-05T14:23:38.458Z"
 }

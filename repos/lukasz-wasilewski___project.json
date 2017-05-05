@@ -112,7 +112,6 @@
     },
     "scripts": {
       "postinstall": "install-app-deps && npm run rebuild-electron",
-      "preinstall": "bower install",
       "rebuild-electron": "npm rebuild --runtime=electron --target=1.2.5 --disturl=https://atom.io/download/atom-shell --build-from-source",
       "start": "electron app",
       "pack": "build --dir",
@@ -155,5 +154,6 @@
   },
   "filename": "lukasz-wasilewski___project.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:23.595Z"
+  "lastFetchedAt": "2017-05-04T21:28:23.595Z",
+  "packageLastFetchedAt": "2017-05-05T17:44:54.437Z"
 }

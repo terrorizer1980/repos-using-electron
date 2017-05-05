@@ -81,6 +81,7 @@
       "test": "mocha",
       "package": "electron-packager . LCC --platform=darwin,win32 --arch=all --version=0.31.0 --icon=./image/icon.icns --out=../LCC_build --overwrite --asar"
     },
+    "author": "Kohei Tsuzuki",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.31.0",
@@ -113,5 +114,6 @@
   },
   "filename": "cotrpepe___LCC.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:50:19.398Z"
+  "lastFetchedAt": "2017-05-04T20:50:19.398Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:39.891Z"
 }

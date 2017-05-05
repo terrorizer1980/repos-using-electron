@@ -81,6 +81,7 @@
       "babel": "babel --presets react src --watch --out-dir build",
       "build": "electron-packager . --arch x64 --platform darwin"
     },
+    "author": "Roy Portas",
     "license": "MIT",
     "dependencies": {
       "babel-preset-react": "^6.5.0",
@@ -117,5 +118,6 @@
   },
   "filename": "r-portas___hackernews.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:48:11.329Z"
+  "lastFetchedAt": "2017-05-04T20:48:11.329Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:32.226Z"
 }

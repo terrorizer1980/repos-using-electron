@@ -192,8 +192,16 @@
     "version": "2.1.1-dev",
     "description": "User interface for the INTO-CPS Toolchain",
     "license": "MIT",
-    "repository": "https://github.com/intocps/intocps-ui",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/intocps/intocps-ui.git"
+    },
     "main": "dist/main.js",
+    "author": {
+      "name": "INTO-CPS Project",
+      "email": "",
+      "url": "http://into-cps.au.dk/"
+    },
     "electronVersion": "1.2.1",
     "scripts": {
       "start": "electron dist/main.js"
@@ -275,5 +283,6 @@
   },
   "sourceRepo": "into-cps/intocps-ui",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:07:48.295Z"
+  "lastFetchedAt": "2017-05-04T20:07:48.295Z",
+  "packageLastFetchedAt": "2017-05-05T15:14:11.114Z"
 }

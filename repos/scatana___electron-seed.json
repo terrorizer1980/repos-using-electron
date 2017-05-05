@@ -52,35 +52,39 @@
   "subscribersCount": 1,
   "status": 200,
   "packageJSON": {
-    "name": "electron-seed",
-    "productName": "Electron Seed",
+    "name": "replay",
+    "productName": "Replay",
     "version": "0.1.0",
-    "description": "Electron application starter",
-    "repository": "https://github.com/scatana/electron-seed",
+    "description": "HTML5 media player",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/scatana/replay.git"
+    },
     "license": "MIT",
     "main": "src/main.js",
     "scripts": {
       "build": "npm run pack -- --platform=linux,darwin,win32",
       "build:linux": "npm run pack -- --platform=linux",
-      "build:mac": "npm run pack -- --platform=darwin",
+      "build:mac": "npm run pack -- --platform=darwin --icon=assets/Replay.icns",
       "build:windows": "npm run pack -- --platform=win32",
       "extract-strings": "node ./bin/extract-strings -i src -o src/i18n/strings.pot",
-      "pack": "electron-packager .tmp --version=$npm_package_devDependencies_electronPrebuilt --out=dist --prune --overwrite --arch=x64 --asar",
+      "pack": "electron-packager .tmp --electron-version=$npm_package_devDependencies_electronPrebuilt --out=dist --prune --overwrite --arch=x64",
       "prepack": "npm install && node ./bin/preprocess -i src -o .tmp",
       "postpack": "rm -rf .tmp",
-      "start": "DEBUG=1 electron ."
+      "start": "electron .",
+      "start:debug": "DEBUG=1 electron ."
     },
     "devDependencies": {
       "commander": "2.9.0",
-      "electron-packager": "7.7.0",
-      "electron-prebuilt": "1.3.4",
-      "fs-extra": "0.30.0",
-      "jsxgettext": "0.9.0"
+      "electron": "1.6.2",
+      "electron-packager": "8.6.0",
+      "fs-extra": "2.1.2",
+      "jsxgettext": "0.9.0",
+      "klaw": "1.3.1"
     },
     "dependencies": {
-      "app-module-path": "1.1.0",
-      "node-gettext": "1.1.0",
-      "winston": "2.2.0"
+      "node-gettext": "2.0.0-rc.1",
+      "winston": "2.3.1"
     }
   },
   "packageStatus": 200,
@@ -128,5 +132,6 @@
   },
   "filename": "scatana___electron-seed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:28:02.081Z"
+  "lastFetchedAt": "2017-05-04T21:28:02.081Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:39.870Z"
 }

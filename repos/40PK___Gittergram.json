@@ -100,7 +100,10 @@
       "linux": "node tasks/build.js linux",
       "windows": "node tasks/build.js windows"
     },
-    "repository": "https://github.com/Perkovec/gittergram",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Perkovec/gittergram.git"
+    },
     "keywords": [
       "gitter",
       "telegram"
@@ -184,5 +187,6 @@
   },
   "filename": "40PK___Gittergram.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:33.553Z"
+  "lastFetchedAt": "2017-05-04T20:03:33.553Z",
+  "packageLastFetchedAt": "2017-05-05T14:54:54.960Z"
 }

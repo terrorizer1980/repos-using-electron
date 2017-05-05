@@ -53,7 +53,8 @@
     "scripts": {
       "start": "electron .",
       "package": "asar p ./TemplateApp-win32-x64/resources/app app.asar",
-      "build": "electron-packager . TemplateApp --platform=win32 --arch=all --icon=./app/icon.ico --ignore=node_modules/electron-* --overwrite --app-bundle-id=com.locomain.template --version-string.FileDescription=TemplateApp"
+      "build-windows": "electron-packager . TemplateApp --platform=win32 --arch=all --icon=./app/icon.ico --ignore=node_modules/electron-* --overwrite --app-bundle-id=com.locomain.template --version-string.FileDescription=TemplateApp",
+      "build-mac": "electron-packager . TemplateApp --platform=darwin --arch=all --icon=./app/icon.icns --ignore=node_modules/electron-* --overwrite --app-bundle-id=com.locomain.template --version-string.FileDescription=TemplateApp"
     },
     "dependencies": {
       "electron-prebuilt": "*"
@@ -110,5 +111,6 @@
   "svnUrl": "https://github.com/locomain/ElectronTemplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:14:56.263Z"
+  "lastFetchedAt": "2017-05-04T20:14:56.263Z",
+  "packageLastFetchedAt": "2017-05-05T14:58:21.527Z"
 }

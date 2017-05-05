@@ -73,8 +73,8 @@
   "status": 200,
   "packageJSON": {
     "name": "rbxTimer",
-    "version": "1.0.0",
-    "description": "A minimal and simplistic Timer app to shutdown PC in given time.",
+    "version": "1.1.0",
+    "description": "A minimal and simplistic Timer app to execute windows actions PC in given time.",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
@@ -86,6 +86,7 @@
       "timer",
       "shutdown"
     ],
+    "author": "Marian Radev",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -116,5 +117,6 @@
   },
   "filename": "Roobyx___rbxTimer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:57:13.761Z"
+  "lastFetchedAt": "2017-05-04T17:57:13.761Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:06.294Z"
 }

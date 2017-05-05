@@ -70,21 +70,27 @@
     "description": "IRC chat client",
     "version": "0.0.0",
     "format": "cjs",
-    "repository": "https://github.com/breuleux/botte",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/breuleux/botte"
+    },
     "keywords": [
       "IRC",
       "chat",
       "electron",
       "earlgrey"
     ],
+    "author": "Olivier Breuleux",
     "license": "MIT",
     "main": "./lib/index.js",
     "dependencies": {
       "color-space": "^1.14.6",
       "commander": "^2.9.0",
+      "earl-react": "^0.1.0",
       "earlgrey-runtime": ">=0.0.11",
       "electron-prebuilt": "^1.3.3",
       "escape-html": "^1.0.3",
+      "hyper-replace": "^0.1.0",
       "irc": "^0.5.0",
       "lodash": "^4.15.0",
       "md5": "^2.2.1",
@@ -98,6 +104,7 @@
       "react": "^15.3.1",
       "react-addons-pure-render-mixin": "^15.3.1",
       "react-dom": "^15.3.1",
+      "react-youtube-player": "^0.3.3",
       "request": "^2.74.0",
       "request-promise": "^4.1.1"
     },
@@ -138,5 +145,6 @@
   },
   "filename": "breuleux___botte.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:21:52.026Z"
+  "lastFetchedAt": "2017-05-04T14:21:52.026Z",
+  "packageLastFetchedAt": "2017-05-05T01:29:11.164Z"
 }

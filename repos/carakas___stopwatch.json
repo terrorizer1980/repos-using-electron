@@ -88,7 +88,11 @@
       "stopwatch",
       "multiple"
     ],
+    "author": "JustCarakas",
     "license": "GPLv3",
+    "bugs": {
+      "url": "https://github.com/carakas/stopwatch/issues"
+    },
     "homepage": "https://github.com/carakas/stopwatch",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -122,5 +126,6 @@
   },
   "filename": "carakas___stopwatch.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:27:45.482Z"
+  "lastFetchedAt": "2017-05-04T18:27:45.482Z",
+  "packageLastFetchedAt": "2017-05-05T15:04:26.765Z"
 }

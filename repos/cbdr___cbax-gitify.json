@@ -198,17 +198,8 @@
       "start": "electron . –enable-logging"
     },
     "repository": {
-      "user": "ekonstantinidis",
-      "repo": "gitify",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/ekonstantinidis/gitify/tarball/master",
-      "clone_url": "https://github.com/ekonstantinidis/gitify",
-      "https_url": "https://github.com/ekonstantinidis/gitify",
-      "travis_url": "https://travis-ci.org/ekonstantinidis/gitify",
-      "zip_url": "https://github.com/ekonstantinidis/gitify/archive/master.zip",
-      "api_url": "https://api.github.com/repos/ekonstantinidis/gitify"
+      "type": "git",
+      "url": "https://github.com/ekonstantinidis/gitify.git"
     },
     "keywords": [
       "gitify",
@@ -221,6 +212,7 @@
       "app",
       "tray"
     ],
+    "author": "Emmanouil Konstantinidis",
     "contributors": [
       {
         "name": "Emmanouil Konstantinidis",
@@ -232,6 +224,9 @@
       }
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ekonstantinidis/gitify/issues"
+    },
     "homepage": "https://github.com/ekonstantinidis/gitify",
     "dependencies": {
       "auto-launch": "=2.0.1",
@@ -338,5 +333,6 @@
   "svnUrl": "https://github.com/cbdr/cbax-gitify",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:52:07.723Z"
+  "lastFetchedAt": "2017-05-04T14:52:07.723Z",
+  "packageLastFetchedAt": "2017-05-05T15:22:31.373Z"
 }

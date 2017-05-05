@@ -74,7 +74,7 @@
   "packageJSON": {
     "name": "materialette",
     "productName": "Materialette",
-    "version": "1.2.0",
+    "version": "1.2.3",
     "description": "Material Color Palette for macOS, Windows, and Linux",
     "main": "index.js",
     "scripts": {
@@ -88,9 +88,13 @@
       "material",
       "electron"
     ],
+    "author": "Mike Schultz",
     "url": "https://github.com/mike-schultz",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+      "font-awesome": "^4.7.0",
+      "hint.css": "^2.4.0"
+    },
     "devDependencies": {
       "electron": "^1.4.3",
       "electron-packager": "^8.1.0",
@@ -124,5 +128,6 @@
   },
   "filename": "mike-schultz___materialette.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:32:00.761Z"
+  "lastFetchedAt": "2017-05-04T19:32:00.761Z",
+  "packageLastFetchedAt": "2017-05-05T15:17:35.506Z"
 }

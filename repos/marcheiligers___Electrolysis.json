@@ -58,6 +58,11 @@
     "description": "A documentation browser for Electron",
     "license": "MIT",
     "repository": "marcheiligers/Electrolysis",
+    "author": {
+      "name": "Marc Heiligers",
+      "email": "marc@fascinationstreet.co.za",
+      "url": "http://fascinationstreet.co.za"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo; mocha",
@@ -159,5 +164,6 @@
   },
   "filename": "marcheiligers___Electrolysis.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:45.534Z"
+  "lastFetchedAt": "2017-05-04T18:26:45.534Z",
+  "packageLastFetchedAt": "2017-05-04T21:53:29.625Z"
 }

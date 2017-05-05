@@ -55,13 +55,13 @@
       "watch:build": "gulp watch:build"
     },
     "devDependencies": {
-      "babel-preset-es2015": "6.3.13",
-      "eslint": "2.9.0",
-      "eslint-config-airbnb-base": "2.0.0",
-      "eslint-plugin-import": "1.6.1",
-      "gulp": "3.9.0",
-      "gulp-babel": "6.1.1",
-      "gulp-util": "3.0.7"
+      "babel-preset-es2015": "6.22.0",
+      "eslint": "3.16.1",
+      "eslint-config-airbnb-base": "11.1.0",
+      "eslint-plugin-import": "2.2.0",
+      "gulp": "3.9.1",
+      "gulp-babel": "6.1.2",
+      "gulp-util": "3.0.8"
     },
     "dependencies": {
       "cytoscape": "2.6.7",
@@ -116,5 +116,6 @@
   "svnUrl": "https://github.com/FunkMonkey/rx-json-graph-editor",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:56:35.304Z"
+  "lastFetchedAt": "2017-05-04T20:56:35.304Z",
+  "packageLastFetchedAt": "2017-05-04T22:16:49.564Z"
 }

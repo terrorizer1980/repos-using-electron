@@ -61,6 +61,7 @@
       "start": "electron src",
       "build": "build"
     },
+    "author": "Anime Twist",
     "contributors": [
       {
         "name": "jf908",
@@ -89,7 +90,13 @@
         "icon": "icon.icns"
       }
     },
-    "repository": "https://github.com/jf908/AnimeTwist-Desktop"
+    "directories": {
+      "app": "src"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jf908/AnimeTwist-Desktop.git"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/jf908/AnimeTwist-Desktop",
@@ -136,5 +143,6 @@
   },
   "filename": "jf908___AnimeTwist-Desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:34:14.029Z"
+  "lastFetchedAt": "2017-05-04T19:34:14.029Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:23.530Z"
 }

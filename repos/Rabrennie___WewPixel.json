@@ -63,8 +63,15 @@
       "format": "eslint --fix app/**/*.js app/**/**/*.js",
       "electron": "gulp build && electron ."
     },
-    "repository": "https://github.com/Rabrennie/WewPixel",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Rabrennie/WewPixel.git"
+    },
+    "author": "Rab Rennie <rabrennie@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Rabrennie/WewPixel/issues"
+    },
     "homepage": "https://github.com/Rabrennie/WewPixel#readme",
     "dependencies": {
       "bresenham": "0.0.3"
@@ -139,5 +146,6 @@
   "svnUrl": "https://github.com/Rabrennie/WewPixel",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:35:27.196Z"
+  "lastFetchedAt": "2017-05-04T19:35:27.196Z",
+  "packageLastFetchedAt": "2017-05-05T17:35:28.125Z"
 }

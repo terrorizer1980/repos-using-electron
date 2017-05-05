@@ -188,17 +188,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "mangochomp",
-      "repo": "webterm-wrapper",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/mangochomp/webterm-wrapper/tarball/master",
-      "clone_url": "https://github.com/mangochomp/webterm-wrapper",
-      "https_url": "https://github.com/mangochomp/webterm-wrapper",
-      "travis_url": "https://travis-ci.org/mangochomp/webterm-wrapper",
-      "zip_url": "https://github.com/mangochomp/webterm-wrapper/archive/master.zip",
-      "api_url": "https://api.github.com/repos/mangochomp/webterm-wrapper"
+      "type": "git",
+      "url": "git+https://github.com/mangochomp/webterm-wrapper.git"
     },
     "keywords": [
       "Electron",
@@ -207,7 +198,11 @@
       "webterm",
       "wrapper"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/mangochomp/webterm-wrapper/issues"
+    },
     "homepage": "https://github.com/mangochomp/webterm-wrapper#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -259,5 +254,6 @@
   "svnUrl": "https://github.com/mangochomp/web-term-wrapper",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T15:27:57.565Z"
+  "lastFetchedAt": "2017-05-04T15:27:57.565Z",
+  "packageLastFetchedAt": "2017-05-05T17:13:01.851Z"
 }

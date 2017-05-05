@@ -175,23 +175,15 @@
       "package": "electron-packager . linear --platform=darwin --arch=all --version=0.35.4 --icon=src/assets/images/lrMacIcon.icns --out=bin --overwrite"
     },
     "repository": {
-      "user": "atom",
-      "repo": "electron-quick-start",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/atom/electron-quick-start/tarball/master",
-      "clone_url": "https://github.com/atom/electron-quick-start",
-      "https_url": "https://github.com/atom/electron-quick-start",
-      "travis_url": "https://travis-ci.org/atom/electron-quick-start",
-      "zip_url": "https://github.com/atom/electron-quick-start/archive/master.zip",
-      "api_url": "https://api.github.com/repos/atom/electron-quick-start"
+      "type": "git",
+      "url": "git+https://github.com/atom/electron-quick-start.git"
     },
     "keywords": [
       "ruler",
       "measure",
       "electron"
     ],
+    "author": "Michael Sokol",
     "license": "MIT",
     "homepage": "http://mikaa123.github.io/linear-website/",
     "devDependencies": {
@@ -249,5 +241,6 @@
   "filename": "gtagle___linear.json",
   "sourceRepo": "mikaa123/linear",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:55.357Z"
+  "lastFetchedAt": "2017-05-04T18:15:55.357Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:40.679Z"
 }

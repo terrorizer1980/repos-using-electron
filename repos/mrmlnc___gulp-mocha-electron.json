@@ -57,6 +57,10 @@
     "description": "Run client-side Mocha tests in Electron",
     "license": "MIT",
     "repository": "mrmlnc/gulp-mocha-electron",
+    "author": {
+      "name": "Denis Malinochkin",
+      "url": "canonium.com"
+    },
     "engines": {
       "node": ">=4.0.0"
     },
@@ -172,5 +176,6 @@
   "svnUrl": "https://github.com/mrmlnc/gulp-mocha-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:41:17.010Z"
+  "lastFetchedAt": "2017-05-04T19:41:17.010Z",
+  "packageLastFetchedAt": "2017-05-05T15:21:13.125Z"
 }

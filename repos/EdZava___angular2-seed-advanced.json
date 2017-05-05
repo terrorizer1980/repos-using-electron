@@ -170,17 +170,7 @@
     "version": "0.0.0",
     "description": "Advanced seed for Angular 2 apps",
     "repository": {
-      "user": "NathanWalker",
-      "repo": "angular2-seed-advanced",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/NathanWalker/angular2-seed-advanced/tarball/master",
-      "clone_url": "https://github.com/NathanWalker/angular2-seed-advanced",
-      "https_url": "https://github.com/NathanWalker/angular2-seed-advanced",
-      "travis_url": "https://travis-ci.org/NathanWalker/angular2-seed-advanced",
-      "zip_url": "https://github.com/NathanWalker/angular2-seed-advanced/archive/master.zip",
-      "api_url": "https://api.github.com/repos/NathanWalker/angular2-seed-advanced"
+      "url": "https://github.com/NathanWalker/angular2-seed-advanced"
     },
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
@@ -214,6 +204,7 @@
       "webdriver-start": "webdriver-manager start",
       "webdriver-update": "webdriver-manager update"
     },
+    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -361,5 +352,6 @@
   "svnUrl": "https://github.com/EdZava/angular2-seed-advanced",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:00:18.394Z"
+  "lastFetchedAt": "2017-05-04T21:00:18.394Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:57.843Z"
 }

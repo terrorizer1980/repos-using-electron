@@ -70,6 +70,10 @@
     "version": "0.0.1",
     "description": "…",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -81,6 +85,7 @@
       "node": ">= 0.10.0"
     },
     "main": "main.js",
+    "author": "Imaging Platform, Broad Institute of MIT and Harvard",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.1.2",
@@ -132,5 +137,6 @@
   },
   "filename": "AnneCarpenter___eustace.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:48:48.093Z"
+  "lastFetchedAt": "2017-05-04T14:48:48.093Z",
+  "packageLastFetchedAt": "2017-05-04T22:33:34.982Z"
 }

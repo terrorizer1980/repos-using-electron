@@ -77,6 +77,10 @@
     "description": "Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without a plugin.",
     "homepage": "http://cesiumjs.org",
     "license": "Apache-2.0",
+    "author": {
+      "name": "Analytical Graphics, Inc.",
+      "url": "http://www.agi.com"
+    },
     "contributors": [
       {
         "name": "Cesium community",
@@ -90,7 +94,14 @@
       "map",
       "globe"
     ],
-    "repository": "https://github.com/AnalyticalGraphicsInc/cesium",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AnalyticalGraphicsInc/cesium.git"
+    },
+    "bugs": {
+      "url": "https://github.com/AnalyticalGraphicsInc/cesium/issues",
+      "email": "cesium-dev@googlegroups.com"
+    },
     "dependencies": {
       "chart.js": "^2.3.0",
       "requirejs": "2.3.2"
@@ -188,5 +199,6 @@
   },
   "filename": "srujant___capitalone.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:01:00.117Z"
+  "lastFetchedAt": "2017-05-04T05:01:00.117Z",
+  "packageLastFetchedAt": "2017-05-04T22:27:04.600Z"
 }

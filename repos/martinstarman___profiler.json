@@ -73,5 +73,22 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T14:25:03.646Z"
+  "lastFetchedAt": "2017-05-04T14:25:03.646Z",
+  "packageJSON": {
+    "name": "profiler",
+    "version": "0.0.1",
+    "scripts": {
+      "start": "electron src",
+      "test": "mocha"
+    },
+    "dependencies": {
+      "electron": "^1.4.15",
+      "split.js": "^1.2.0"
+    },
+    "devDependencies": {
+      "mocha": "^3.2.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:37:53.315Z"
 }

@@ -188,18 +188,10 @@
       "test": "mocha --harmony test"
     },
     "repository": {
-      "user": "segmentio",
-      "repo": "nightmare",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/segmentio/nightmare/tarball/master",
-      "clone_url": "https://github.com/segmentio/nightmare",
-      "https_url": "https://github.com/segmentio/nightmare",
-      "travis_url": "https://travis-ci.org/segmentio/nightmare",
-      "zip_url": "https://github.com/segmentio/nightmare/archive/master.zip",
-      "api_url": "https://api.github.com/repos/segmentio/nightmare"
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
     },
+    "author": "Segment",
     "keywords": [
       "nightmare",
       "phantomjs"
@@ -275,5 +267,6 @@
   "filename": "InteractiveObject___nightmare.json",
   "sourceRepo": "segmentio/nightmare",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:46:14.145Z"
+  "lastFetchedAt": "2017-05-04T17:46:14.145Z",
+  "packageLastFetchedAt": "2017-05-04T22:08:21.017Z"
 }

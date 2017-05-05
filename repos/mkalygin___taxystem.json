@@ -97,8 +97,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -162,6 +173,7 @@
       "webpack-validator": "^2.2.7"
     },
     "dependencies": {
+      "bootswatch": "^3.3.7",
       "css-modules-require-hook": "^4.0.3",
       "electron-debug": "^1.0.1",
       "font-awesome": "^4.6.3",
@@ -205,5 +217,6 @@
   },
   "filename": "mkalygin___taxystem.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:27:46.118Z"
+  "lastFetchedAt": "2017-05-04T20:27:46.118Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:52.666Z"
 }

@@ -212,7 +212,10 @@
       "yugioh",
       "irc"
     ],
-    "repository": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server.git"
+    },
     "dependencies": {
       "colors": "*",
       "compression": "*",
@@ -248,6 +251,8 @@
       "istanbul": "*",
       "mocha": "*"
     },
+    "bugs": "https://github.com/salvationdevelopment/YGOPro-Salvation-Server/issues",
+    "author": "panthrowzay@gmail.com",
     "homepage": "http://ygopro.us",
     "license": "LicenseRef-LICENSE",
     "scripts": {
@@ -303,5 +308,6 @@
   },
   "sourceRepo": "SalvationDevelopment/YGOPro-Salvation-Server",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T19:59:18.473Z"
+  "lastFetchedAt": "2017-05-03T19:59:18.473Z",
+  "packageLastFetchedAt": "2017-05-04T22:38:01.745Z"
 }

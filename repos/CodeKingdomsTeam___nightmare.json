@@ -181,25 +181,17 @@
   "status": 200,
   "packageJSON": {
     "name": "nightmare",
-    "version": "2.5.1",
+    "version": "2.8.1",
     "license": "MIT",
     "main": "lib/nightmare.js",
     "scripts": {
       "test": "make test"
     },
     "repository": {
-      "user": "segmentio",
-      "repo": "nightmare",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/segmentio/nightmare/tarball/master",
-      "clone_url": "https://github.com/segmentio/nightmare",
-      "https_url": "https://github.com/segmentio/nightmare",
-      "travis_url": "https://travis-ci.org/segmentio/nightmare",
-      "zip_url": "https://github.com/segmentio/nightmare/archive/master.zip",
-      "api_url": "https://api.github.com/repos/segmentio/nightmare"
+      "type": "git",
+      "url": "https://github.com/segmentio/nightmare.git"
     },
+    "author": "Segment",
     "keywords": [
       "nightmare",
       "electron"
@@ -209,13 +201,12 @@
       "debug": "^2.2.0",
       "deep-defaults": "^1.0.3",
       "defaults": "^1.0.2",
-      "electron-prebuilt": "^1.2.1",
+      "electron": "^1.4.4",
       "enqueue": "^1.0.2",
       "function-source": "^0.1.0",
       "jsesc": "^0.5.0",
       "minstache": "^1.2.0",
       "mkdirp": "^0.5.1",
-      "object-assign": "^4.0.1",
       "once": "^1.3.3",
       "rimraf": "^2.4.3",
       "sliced": "1.0.1",
@@ -284,5 +275,6 @@
   "svnUrl": "https://github.com/CodeKingdomsTeam/nightmare",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:37:15.691Z"
+  "lastFetchedAt": "2017-05-04T20:37:15.691Z",
+  "packageLastFetchedAt": "2017-05-05T17:42:27.093Z"
 }

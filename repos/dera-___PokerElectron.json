@@ -76,8 +76,15 @@
       "compile_diff": "webpack --progress --colors --watch",
       "compile_simulation": "babel sim --out-dir sim_dist --source-maps"
     },
-    "repository": "https://github.com/dera-/PokerElectron",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/dera-/PokerElectron.git"
+    },
+    "author": "dera-",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/dera-/PokerElectron/issues"
+    },
     "homepage": "https://github.com/dera-/PokerElectron",
     "private": true,
     "dependencies": {
@@ -124,5 +131,6 @@
   },
   "filename": "dera-___PokerElectron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T08:01:21.626Z"
+  "lastFetchedAt": "2017-05-04T08:01:21.626Z",
+  "packageLastFetchedAt": "2017-05-05T01:27:15.832Z"
 }

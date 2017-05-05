@@ -84,7 +84,14 @@
       "proofreader",
       "proofreading"
     ],
-    "repository": "https://github.com/noahlange/prosely",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/noahlange/prosely"
+    },
+    "author": {
+      "name": "Noah Lange",
+      "url": "http://noahlange.com"
+    },
     "license": "MIT",
     "main": "app/main.js",
     "dependencies": {
@@ -121,5 +128,6 @@
   },
   "filename": "noahlange___prosely.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:42:31.912Z"
+  "lastFetchedAt": "2017-05-04T16:42:31.912Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:42.814Z"
 }

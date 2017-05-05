@@ -85,14 +85,21 @@
       "pack": "build --dir",
       "dist": "build -mwl --x64 --ia32"
     },
-    "repository": "https://github.com/fernandoj92/ltm-learning-interface",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fernandoj92/ltm-learning-interface.git"
+    },
     "keywords": [
       "Electron",
       "LTM",
       "Angular2"
     ],
+    "author": "Fernando José Rodríguez Sánchez <fernandoj92@gmail.com>",
     "license": "Apache 2.0",
     "homepage": "https://github.com/fernandoj92/ltm-learning-interface#readme",
+    "bugs": {
+      "url": "https://github.com/fernandoj92/ltm-learning-interface/issues"
+    },
     "dependencies": {
       "@angular/common": "^2.0.0",
       "@angular/compiler": "^2.0.0",
@@ -146,6 +153,9 @@
         "icon": "resources/osx/dmg-icon.icns",
         "background": "resources/osx/dmg-background.png"
       }
+    },
+    "directories": {
+      "buildResources": "resources"
     }
   },
   "packageStatus": 200,
@@ -173,5 +183,6 @@
   },
   "filename": "fernandoj92___ltm-learning-interface.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:03:36.462Z"
+  "lastFetchedAt": "2017-05-04T20:03:36.462Z",
+  "packageLastFetchedAt": "2017-05-05T06:35:47.824Z"
 }

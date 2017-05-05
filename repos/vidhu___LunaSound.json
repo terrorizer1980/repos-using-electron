@@ -67,7 +67,8 @@
   "status": 200,
   "packageJSON": {
     "name": "luna-sound-dev-env",
-    "version": "0.3.3",
+    "version": "0.3.5",
+    "author": "vidhu",
     "description": "A beautiful opensource youtube music player",
     "dependencies": {
       "bower": "^1.7.9",
@@ -75,6 +76,7 @@
       "command-exists": "^1.0.2",
       "del": "^2.2.1",
       "electron-connect": "^0.4.2",
+      "electron-debug": "^1.1.0",
       "electron-prebuilt": "^1.2.4",
       "electron-winstaller": "^2.3.4",
       "gulp": "github:gulpjs/gulp#4.0",
@@ -135,5 +137,6 @@
   },
   "filename": "vidhu___LunaSound.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:13:00.516Z"
+  "lastFetchedAt": "2017-05-04T05:13:00.516Z",
+  "packageLastFetchedAt": "2017-05-05T15:12:50.808Z"
 }

@@ -68,6 +68,7 @@
   "packageJSON": {
     "name": "unofficial-desktop-for-ynab",
     "productName": "Unofficial Desktop for YNAB",
+    "author": "Open Source Community",
     "version": "0.2.0",
     "description": "A desktop wrapper for YNAB",
     "main": "main.js",
@@ -122,7 +123,13 @@
         ]
       }
     },
-    "repository": "https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab.git"
+    },
+    "bugs": {
+      "url": "https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab/issues"
+    },
     "devDependencies": {
       "electron-builder": "^5.23.2",
       "electron-prebuilt": "^1.2.0"
@@ -179,5 +186,6 @@
   "svnUrl": "https://github.com/toolkit-for-ynab/unofficial-desktop-for-ynab",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:01:56.077Z"
+  "lastFetchedAt": "2017-05-04T05:01:56.077Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:14.654Z"
 }

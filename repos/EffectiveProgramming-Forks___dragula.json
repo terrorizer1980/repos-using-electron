@@ -241,8 +241,15 @@
         "brace-style": 0
       }
     },
-    "repository": "https://github.com/bevacqua/dragula",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bevacqua/dragula.git"
+    },
+    "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/bevacqua/dragula/issues"
+    },
     "homepage": "https://github.com/bevacqua/dragula",
     "dependencies": {
       "contra": "1.9.1",
@@ -292,5 +299,6 @@
   },
   "sourceRepo": "bevacqua/dragula",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:11:25.361Z"
+  "lastFetchedAt": "2017-05-04T05:11:25.361Z",
+  "packageLastFetchedAt": "2017-05-05T04:34:45.403Z"
 }

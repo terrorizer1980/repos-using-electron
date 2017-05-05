@@ -87,6 +87,7 @@
     "scripts": {
       "start": "electron src/main.js"
     },
+    "author": "Aconex",
     "devDependencies": {
       "del": "^2.2.0",
       "electron-packager": "^5.2.0",
@@ -122,5 +123,6 @@
   },
   "filename": "aconex-atm___atm-client.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:36:47.129Z"
+  "lastFetchedAt": "2017-05-04T17:36:47.129Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:53.397Z"
 }

@@ -70,7 +70,10 @@
     "version": "0.1.0",
     "main": "app.js",
     "devDependencies": {
-      "electron-prebuilt": "^0.37.8"
+      "electron": "^1.6.6"
+    },
+    "dependencies": {
+      "octicons": "^5.0.1"
     }
   },
   "packageStatus": 200,
@@ -98,5 +101,6 @@
   },
   "filename": "Alanaktion___quark.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:55:19.977Z"
+  "lastFetchedAt": "2017-05-04T20:55:19.977Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:41.113Z"
 }

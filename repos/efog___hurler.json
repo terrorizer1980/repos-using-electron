@@ -80,6 +80,7 @@
       "start": "electron --debug=5858 .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "author": "Étienne Brouillard",
     "license": "ISC",
     "devDependencies": {
       "eslint": "^3.2.2",
@@ -126,5 +127,6 @@
   },
   "filename": "efog___hurler.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:52:57.126Z"
+  "lastFetchedAt": "2017-05-04T19:52:57.126Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:09.695Z"
 }

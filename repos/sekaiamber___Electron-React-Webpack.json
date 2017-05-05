@@ -56,11 +56,18 @@
       "deploy-app": "electron ./main.js DEPLOY",
       "deploy-file": "NODE_ENV=production webpack -p --display-error-details --config webpack/webpack.deploy.config.js"
     },
-    "repository": "https://github.com/sekaiamber/web-painter",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sekaiamber/web-painter.git"
+    },
     "keywords": [
       "Electron"
     ],
+    "author": "sekaiamber",
     "license": "MIT and GPL (version 2 or later) Licenses",
+    "bugs": {
+      "url": "https://github.com/sekaiamber/web-painter/issues"
+    },
     "homepage": "https://github.com/sekaiamber/web-painter#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -153,5 +160,6 @@
   "svnUrl": "https://github.com/sekaiamber/Electron-React-Webpack",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:46:05.620Z"
+  "lastFetchedAt": "2017-05-04T14:46:05.620Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:50.051Z"
 }

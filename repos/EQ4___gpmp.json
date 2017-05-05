@@ -184,18 +184,10 @@
     "description": "Google Play Music on Electron",
     "license": "MIT",
     "repository": {
-      "user": "importre",
-      "repo": "GooglePlayMusic",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/importre/GooglePlayMusic/tarball/master",
-      "clone_url": "https://github.com/importre/GooglePlayMusic",
-      "https_url": "https://github.com/importre/GooglePlayMusic",
-      "travis_url": "https://travis-ci.org/importre/GooglePlayMusic",
-      "zip_url": "https://github.com/importre/GooglePlayMusic/archive/master.zip",
-      "api_url": "https://api.github.com/repos/importre/GooglePlayMusic"
+      "type": "git",
+      "url": "git+https://github.com/importre/GooglePlayMusic.git"
     },
+    "author": "Jaewe Heo <jaeweheo@gmail.com>",
     "engines": {
       "node": ">=0.10.0"
     },
@@ -215,6 +207,9 @@
       "rcedit": "^0.3.0"
     },
     "name": "google_play_music",
+    "bugs": {
+      "url": "https://github.com/importre/GooglePlayMusic/issues"
+    },
     "homepage": "https://github.com/importre/GooglePlayMusic#readme",
     "version": "0.1.0",
     "main": "index.js"
@@ -265,5 +260,6 @@
   "svnUrl": "https://github.com/EQ4/gpmp",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T19:33:17.069Z"
+  "lastFetchedAt": "2017-05-04T19:33:17.069Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:13.689Z"
 }

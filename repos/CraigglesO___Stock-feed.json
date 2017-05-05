@@ -77,7 +77,15 @@
     "version": "0.8.5",
     "description": "My reverseEngineered ",
     "license": "MIT",
-    "repository": "https://github.com/CraigglesO/Stock-feed",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/CraigglesO/Stock-feed.git"
+    },
+    "author": {
+      "name": "oconnorct1",
+      "email": "oconnorct1@gmail.com",
+      "url": "craiggleso.github.io"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -154,5 +162,6 @@
   },
   "filename": "CraigglesO___Stock-feed.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:29:54.190Z"
+  "lastFetchedAt": "2017-05-04T14:29:54.190Z",
+  "packageLastFetchedAt": "2017-05-05T01:24:22.297Z"
 }

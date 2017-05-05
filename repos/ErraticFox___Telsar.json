@@ -76,6 +76,7 @@
       "buildall": "electron-packager . --all --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager",
       "buildwin": "electron-packager . --arch=x64 --platform=win32 --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --icon=app.ico --version=0.1.1 --overwrite"
     },
+    "author": "",
     "license": "ISC",
     "dependencies": {
       "file-system": "^2.2.1",
@@ -112,5 +113,6 @@
   },
   "filename": "ErraticFox___Telsar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:08:32.238Z"
+  "lastFetchedAt": "2017-05-04T20:08:32.238Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:47.250Z"
 }

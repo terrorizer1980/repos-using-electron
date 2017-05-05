@@ -78,9 +78,13 @@
       "node",
       "terminal"
     ],
+    "author": "Darius Huntly",
     "license": "CC0-1.0",
     "homepage": "https://github.com/dariushuntly/nterm/issues",
     "repository": "git://github.com/dariushuntly/nterm.git",
+    "bugs": {
+      "url": "https://github.com/dariushuntly/nterm/issues"
+    },
     "menu": {
       "console": "console"
     },
@@ -118,5 +122,6 @@
   },
   "filename": "dariushuntly___nterm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:05:22.159Z"
+  "lastFetchedAt": "2017-05-04T18:05:22.159Z",
+  "packageLastFetchedAt": "2017-05-05T14:35:02.121Z"
 }

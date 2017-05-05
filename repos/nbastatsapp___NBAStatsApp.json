@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/nbastatsapp/NBAStatsApp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nbastatsapp/NBAStatsApp.git"
+    },
+    "author": "",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/nbastatsapp/NBAStatsApp/issues"
+    },
     "homepage": "https://github.com/nbastatsapp/NBAStatsApp#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.7"
@@ -105,5 +112,6 @@
   },
   "filename": "nbastatsapp___NBAStatsApp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:22:47.733Z"
+  "lastFetchedAt": "2017-05-04T21:22:47.733Z",
+  "packageLastFetchedAt": "2017-05-04T22:04:21.240Z"
 }

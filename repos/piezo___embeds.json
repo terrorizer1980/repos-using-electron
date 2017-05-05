@@ -216,22 +216,17 @@
       "open-coverage": "npm run test:unit && nyc report --reporter=lcov && open coverage/lcov-report/index.html"
     },
     "repository": {
-      "user": "micnews",
-      "repo": "embeds",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/micnews/embeds/tarball/master",
-      "clone_url": "https://github.com/micnews/embeds",
-      "https_url": "https://github.com/micnews/embeds",
-      "travis_url": "https://travis-ci.org/micnews/embeds",
-      "zip_url": "https://github.com/micnews/embeds/archive/master.zip",
-      "api_url": "https://api.github.com/repos/micnews/embeds"
+      "type": "git",
+      "url": "git+https://github.com/micnews/embeds.git"
     },
     "keywords": [
       "embeds"
     ],
+    "author": "mic.com",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/micnews/embeds/issues"
+    },
     "homepage": "https://github.com/micnews/embeds#readme",
     "devDependencies": {
       "babel-cli": "^6.6.5",
@@ -290,5 +285,6 @@
     }
   },
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:29:55.578Z"
+  "lastFetchedAt": "2017-05-04T19:29:55.578Z",
+  "packageLastFetchedAt": "2017-05-04T22:25:09.960Z"
 }

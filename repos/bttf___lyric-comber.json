@@ -50,6 +50,10 @@
     "version": "0.0.1",
     "description": "Small description for lyric-comber goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -59,6 +63,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -178,5 +183,6 @@
   "svnUrl": "https://github.com/bttf/lyric-comber",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-03T19:58:40.369Z"
+  "lastFetchedAt": "2017-05-03T19:58:40.369Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:34.176Z"
 }

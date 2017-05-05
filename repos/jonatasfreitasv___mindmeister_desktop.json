@@ -57,24 +57,19 @@
       "dist": "build"
     },
     "repository": {
-      "user": "jonatasfreitasv",
-      "repo": "mindmesiter_desktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/jonatasfreitasv/mindmesiter_desktop/tarball/master",
-      "clone_url": "https://github.com/jonatasfreitasv/mindmesiter_desktop",
-      "https_url": "https://github.com/jonatasfreitasv/mindmesiter_desktop",
-      "travis_url": "https://travis-ci.org/jonatasfreitasv/mindmesiter_desktop",
-      "zip_url": "https://github.com/jonatasfreitasv/mindmesiter_desktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/jonatasfreitasv/mindmesiter_desktop"
+      "type": "git",
+      "url": "git+https://github.com/jonatasfreitasv/mindmesiter_desktop.git"
     },
     "keywords": [
       "mindmeister",
       "desktop",
       "mindmap"
     ],
+    "author": "Jonatas Freitas",
     "license": "",
+    "bugs": {
+      "url": "https://github.com/jonatasfreitasv/mindmesiter_desktop/issues"
+    },
     "build": {
       "appId": "mindmesiter_desktop.id",
       "category": "mindmesiter.desktop.mindmap.app",
@@ -135,5 +130,6 @@
   "svnUrl": "https://github.com/jonatasfreitasv/mindmeister_desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:17:23.986Z"
+  "lastFetchedAt": "2017-05-04T05:17:23.986Z",
+  "packageLastFetchedAt": "2017-05-05T15:38:37.772Z"
 }

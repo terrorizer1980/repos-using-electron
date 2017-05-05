@@ -75,6 +75,7 @@
       "dev": "webpack --config webpackDev.config.js",
       "prd": "webpack --config webpackPrd.config.js"
     },
+    "author": "Steven Googe",
     "license": "ISC",
     "dependencies": {
       "aws-sdk": "^2.6.12",
@@ -119,5 +120,6 @@
   },
   "filename": "sgooge___s3-explorer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:54:20.678Z"
+  "lastFetchedAt": "2017-05-04T20:54:20.678Z",
+  "packageLastFetchedAt": "2017-05-04T22:50:47.159Z"
 }

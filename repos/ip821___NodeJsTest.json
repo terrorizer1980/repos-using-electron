@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "NodejsConsoleApp1",
     "main": "boot.js",
+    "author": {
+      "name": "ip",
+      "email": ""
+    },
     "dependencies": {
       "angular2": "^2.0.0-beta.8",
       "bootstrap": "^3.3.4",
@@ -120,5 +124,6 @@
   },
   "filename": "ip821___NodeJsTest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:32:23.112Z"
+  "lastFetchedAt": "2017-05-04T05:32:23.112Z",
+  "packageLastFetchedAt": "2017-05-05T15:41:09.227Z"
 }

@@ -55,6 +55,7 @@
       "build": "webpack",
       "dev-start": "npm run build && npm run start"
     },
+    "author": "jdmorlan",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.37.1",
@@ -126,5 +127,6 @@
   "svnUrl": "https://github.com/jdmorlan/dragons",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T17:47:26.215Z"
+  "lastFetchedAt": "2017-05-04T17:47:26.215Z",
+  "packageLastFetchedAt": "2017-05-05T14:42:11.151Z"
 }

@@ -87,17 +87,21 @@
   "status": 200,
   "packageJSON": {
     "name": "jwr-caw",
-    "version": "0.1.4",
+    "version": "0.1.9",
     "description": "A caution and warning system for the JWR shuttle",
     "main": "app.js",
     "scripts": {
       "watch": "webpack --watch --progress --hide-modules",
       "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
       "start": "npm run build && electron app.js",
-      "pack": "npm run build && electron-packager . --platform=linux,darwin,win32 --arch=x64 --overwrite",
+      "pack": "npm run build && electron-packager . --platform=all --icon=src/icon --overwrite --ignore=apt-cache",
       "test": "xo"
     },
-    "repository": "https://github.com/jwronline/caw",
+    "repository": {
+      "url": "https://github.com/jwronline/caw.git",
+      "type": "git"
+    },
+    "author": "Haroen Viaene <hello@haroen.me>",
     "license": "Apache-2.0",
     "dependencies": {
       "dialog-polyfill": "^0.4.4",
@@ -163,5 +167,6 @@
   },
   "filename": "jwronline___caw.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:39.844Z"
+  "lastFetchedAt": "2017-05-04T14:25:39.844Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:43.859Z"
 }

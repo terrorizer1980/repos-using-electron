@@ -69,22 +69,40 @@
     "name": "vhosts",
     "version": "1.0.0",
     "description": "dependencies for vhosts app",
-    "main": "index.js",
+    "productName": "VHosts",
+    "main": "./main.js",
     "scripts": {
-      "start": "electron main.js"
+      "start": "electron main.js",
+      "pack": "build --dir",
+      "dist": "build"
     },
-    "repository": "https://github.com/malinushj/vhosts",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/malinushj/vhosts.git"
+    },
+    "author": "Mălin Brândușe",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/malinushj/vhosts/issues"
+    },
     "homepage": "https://github.com/malinushj/vhosts#readme",
     "devDependencies": {
-      "electron": "^1.4.3",
+      "electron": "^1.6.2",
       "gulp": "^3.9.1",
-      "gulp-sass": "^2.3.2",
-      "jquery": "^3.1.1",
-      "sudo-prompt": "^6.2.0"
+      "gulp-sass": "^3.1.0",
+      "electron-builder": "^16.8.4"
     },
     "dependencies": {
-      "semantic-ui": "^2.2.4"
+      "semantic-ui": "^2.2.10",
+      "jquery": "^3.2.1",
+      "sudo-prompt": "^7.0.0"
+    },
+    "build": {
+      "appId": "746746",
+      "mac": {
+        "category": "web.dev",
+        "icon": "build/icon.icns"
+      }
     }
   },
   "packageStatus": 200,
@@ -112,5 +130,6 @@
   },
   "filename": "malinushj___vhosts.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T11:04:12.444Z"
+  "lastFetchedAt": "2017-05-04T11:04:12.444Z",
+  "packageLastFetchedAt": "2017-05-05T17:05:10.498Z"
 }

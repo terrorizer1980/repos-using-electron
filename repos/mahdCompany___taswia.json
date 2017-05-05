@@ -90,12 +90,19 @@
       "start": "iojs app.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/mahdCompany/taswia",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mahdCompany/taswia.git"
+    },
     "keywords": [
       "taswia",
       "ERP"
     ],
+    "author": "mahd",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mahdCompany/taswia/issues"
+    },
     "homepage": "https://github.com/mahdCompany/taswia#readme"
   },
   "packageStatus": 200,
@@ -123,5 +130,6 @@
   },
   "filename": "mahdCompany___taswia.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:44:37.329Z"
+  "lastFetchedAt": "2017-05-04T19:44:37.329Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:06.726Z"
 }

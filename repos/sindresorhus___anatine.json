@@ -54,10 +54,15 @@
   "packageJSON": {
     "name": "anatine",
     "productName": "Anatine",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Pristine Twitter app",
     "license": "MIT",
     "repository": "sindresorhus/anatine",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -68,13 +73,13 @@
     },
     "dependencies": {
       "electron-config": "^0.2.1",
-      "electron-context-menu": "^0.5.0",
+      "electron-context-menu": "^0.7.0",
       "electron-debug": "^1.0.0",
       "electron-dl": "^1.0.0",
       "element-ready": "^0.2.0"
     },
     "devDependencies": {
-      "electron": "^1.4.0",
+      "electron": "^1.4.10",
       "electron-packager": "^8.0.0",
       "xo": "*"
     },
@@ -131,5 +136,6 @@
   "svnUrl": "https://github.com/sindresorhus/anatine",
   "hasProjects": false,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:31:39.431Z"
+  "lastFetchedAt": "2017-05-04T21:31:39.431Z",
+  "packageLastFetchedAt": "2017-05-05T17:22:57.436Z"
 }

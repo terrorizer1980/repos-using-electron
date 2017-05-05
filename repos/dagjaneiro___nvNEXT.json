@@ -91,8 +91,18 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/dagjaneiro/nvNEXT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/dagjaneiro/nvNEXT.git"
+    },
+    "author": {
+      "name": "Daniel Janeiro",
+      "url": "https://github.com/dagjaneiro"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/dagjaneiro/nvNEXT/issues"
+    },
     "keywords": [
       "nvALT",
       "notational",
@@ -163,7 +173,10 @@
       "draft-js-prism": "^1.0.3",
       "electron-debug": "^1.0.1",
       "font-awesome": "^4.6.3",
+      "github-markdown-css": "^2.4.1",
+      "highlight.js": "^9.9.0",
       "immutable": "^3.8.1",
+      "marked": "^0.3.6",
       "moment": "^2.14.1",
       "photon": "github:connors/photon",
       "react": "^15.1.0",
@@ -209,5 +222,6 @@
   },
   "filename": "dagjaneiro___nvNEXT.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:58:50.879Z"
+  "lastFetchedAt": "2017-05-04T19:58:50.879Z",
+  "packageLastFetchedAt": "2017-05-04T22:29:31.513Z"
 }

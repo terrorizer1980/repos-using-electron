@@ -76,6 +76,7 @@
     "version": "1.0.0",
     "description": "A minimalistic note taking application",
     "main": "main.js",
+    "author": "GitHub",
     "scripts": {
       "dev": "electron . --enable-logging",
       "clean": "rm ./dist",
@@ -89,7 +90,10 @@
       "build:win": "electron-builder \"dist/win/Notegami-win32-x64\" --platform=win --out=\"dist/win\" --config=builder.json",
       "dist": "build -w --x64"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Notegami",
       "Note",
@@ -97,6 +101,9 @@
       "Quick"
     ],
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "dependencies": {
       "electron-squirrel-startup": "^1.0.0"
@@ -143,5 +150,6 @@
   },
   "filename": "codyborn___notegami_electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:11:44.367Z"
+  "lastFetchedAt": "2017-05-04T18:11:44.367Z",
+  "packageLastFetchedAt": "2017-05-05T15:26:34.801Z"
 }

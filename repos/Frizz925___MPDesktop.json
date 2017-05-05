@@ -85,14 +85,21 @@
       "build:win32": "electron-packager . --platform=win32 --arch=ia32 --out=build --overwrite --prune",
       "build:win64": "electron-packager . --platform=win32 --arch=x64 --out=build --overwrite --prune"
     },
-    "repository": "https://github.com/Frizz925/MPDesktop",
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:Frizz925/MPDesktop"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Frizz925 <Frizz925@hotmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Frizz925/MPDesktop/issues"
+    },
     "homepage": "https://github.com/Frizz925/MPDesktop#readme",
     "devDependencies": {
       "babel-core": "^6.9.1",
@@ -157,5 +164,6 @@
   },
   "filename": "Frizz925___MPDesktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:44.687Z"
+  "lastFetchedAt": "2017-05-04T13:05:44.687Z",
+  "packageLastFetchedAt": "2017-05-05T15:29:59.434Z"
 }

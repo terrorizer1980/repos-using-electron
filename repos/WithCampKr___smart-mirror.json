@@ -191,17 +191,8 @@
       "wiredep": "wiredep -s index.html"
     },
     "repository": {
-      "user": "WithCampKr",
-      "repo": "smart-mirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/WithCampKr/smart-mirror/tarball/master",
-      "clone_url": "https://github.com/WithCampKr/smart-mirror",
-      "https_url": "https://github.com/WithCampKr/smart-mirror",
-      "travis_url": "https://travis-ci.org/WithCampKr/smart-mirror",
-      "zip_url": "https://github.com/WithCampKr/smart-mirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/WithCampKr/smart-mirror"
+      "type": "git",
+      "url": "git+https://github.com/WithCampKr/smart-mirror.git"
     },
     "keywords": [
       "Smart Mirror",
@@ -209,7 +200,11 @@
       "Voice Control",
       "DIY"
     ],
+    "author": "Evan Cohen",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/evancohen/smart-mirror/issues"
+    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "install": "^0.8.1",
@@ -273,5 +268,6 @@
   "svnUrl": "https://github.com/WithCampKr/smart-mirror",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:29:20.576Z"
+  "lastFetchedAt": "2017-05-04T20:29:20.576Z",
+  "packageLastFetchedAt": "2017-05-04T22:13:27.786Z"
 }

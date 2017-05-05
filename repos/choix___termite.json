@@ -55,6 +55,7 @@
       "start": "electron .",
       "package": "electron-packager . Termite --overwrite --platform=darwin --arch=x64 --version=0.35.1 --asar=true --icon=assets/app.icns --prune --ignore='src'"
     },
+    "author": "Anton Volkov",
     "license": "MIT",
     "dependencies": {
       "alt": "=0.17.8",
@@ -120,5 +121,6 @@
   "svnUrl": "https://github.com/choix/termite",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:48:33.132Z"
+  "lastFetchedAt": "2017-05-04T20:48:33.132Z",
+  "packageLastFetchedAt": "2017-05-05T01:31:08.963Z"
 }

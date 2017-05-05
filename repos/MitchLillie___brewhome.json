@@ -96,8 +96,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
+    },
+    "author": {
+      "name": "C. T. Lin",
+      "email": "chentsulin@gmail.com",
+      "url": "https://github.com/chentsulin"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -161,7 +172,7 @@
       "css-modules-require-hook": "^4.0.1",
       "electron-debug": "^1.0.1",
       "font-awesome": "^4.6.3",
-      "jquery": "^3.1.0",
+      "jquery": "^3.1.1",
       "postcss": "^5.1.0",
       "react": "^15.3.0",
       "react-dom": "^15.3.0",
@@ -202,5 +213,6 @@
   },
   "filename": "MitchLillie___brewhome.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:10:33.561Z"
+  "lastFetchedAt": "2017-05-04T20:10:33.561Z",
+  "packageLastFetchedAt": "2017-05-04T21:57:40.430Z"
 }

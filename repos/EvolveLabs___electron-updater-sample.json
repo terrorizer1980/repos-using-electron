@@ -70,7 +70,10 @@
     "version": "1.0.0",
     "description": "Sample application for the electron-updater project",
     "main": "main.js",
-    "repository": "https://github.com/evolvelabs/electron-updater-sample",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/evolvelabs/electron-updater-sample.git"
+    },
     "scripts": {
       "test": "mocha",
       "clean": "rm -rf ./release",
@@ -147,5 +150,6 @@
   },
   "filename": "EvolveLabs___electron-updater-sample.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:38:29.662Z"
+  "lastFetchedAt": "2017-05-04T20:38:29.662Z",
+  "packageLastFetchedAt": "2017-05-04T23:09:12.782Z"
 }

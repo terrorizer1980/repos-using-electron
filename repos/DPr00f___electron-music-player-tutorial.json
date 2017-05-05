@@ -90,8 +90,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/DPr00f/electron-music-player-tutorial",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/DPr00f/electron-music-player-tutorial.git"
+    },
+    "author": {
+      "name": "Joao Lopes",
+      "email": "jocolopes@gmail.com",
+      "url": "https://github.com/DPr00f"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/DPr00f/electron-music-player-tutorial/issues"
+    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -198,5 +209,6 @@
   },
   "filename": "DPr00f___electron-music-player-tutorial.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T16:44:50.531Z"
+  "lastFetchedAt": "2017-05-04T16:44:50.531Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:36.794Z"
 }

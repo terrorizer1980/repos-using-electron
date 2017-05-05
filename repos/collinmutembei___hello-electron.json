@@ -81,12 +81,19 @@
       "start": "electron .",
       "test": "node spec/test.js"
     },
-    "repository": "https://github.com/andela-cmutembei/hello-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/andela-cmutembei/hello-electron.git"
+    },
     "keywords": [
       "electron",
       "hello"
     ],
+    "author": "@collinmutembei",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/andela-cmutembei/hello-electron/issues"
+    },
     "homepage": "https://github.com/andela-cmutembei/hello-electron#readme",
     "devDependencies": {
       "electron-packager": "^7.3.0",
@@ -121,5 +128,6 @@
   },
   "filename": "collinmutembei___hello-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:37.078Z"
+  "lastFetchedAt": "2017-05-04T17:42:37.078Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:44.446Z"
 }

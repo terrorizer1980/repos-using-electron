@@ -88,24 +88,15 @@
   "packageJSON": {
     "name": "TierraDesktop",
     "productName": "TierraDesktop",
-    "version": "2.2.0",
+    "version": "2.2.5",
     "description": "Aplicacion de escritorio tierra de colores",
     "main": "main.js",
     "scripts": {
       "start": "electron ."
     },
     "repository": {
-      "user": "PauloGaldo",
-      "repo": "TierraDesktop",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/PauloGaldo/TierraDesktop/tarball/master",
-      "clone_url": "https://github.com/PauloGaldo/TierraDesktop",
-      "https_url": "https://github.com/PauloGaldo/TierraDesktop",
-      "travis_url": "https://travis-ci.org/PauloGaldo/TierraDesktop",
-      "zip_url": "https://github.com/PauloGaldo/TierraDesktop/archive/master.zip",
-      "api_url": "https://api.github.com/repos/PauloGaldo/TierraDesktop"
+      "type": "git",
+      "url": "git+https://github.com/CosmicaJujuy/TierraDesktop.git"
     },
     "keywords": [
       "tierra",
@@ -113,10 +104,11 @@
       "colores",
       "sistema"
     ],
+    "author": "PauloGaldo",
     "license": "CC0-1.0",
     "devDependencies": {
+      "electron": "1.4.13",
       "debug-menu": "^0.4.0",
-      "electron": "1.4.0",
       "electron-packager": "^8.0.0",
       "electron-winstaller": "^2.3.4"
     },
@@ -151,5 +143,6 @@
   "filename": "CosmicaJujuy___TierraDesktop.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:21.718Z"
+  "lastFetchedAt": "2017-05-04T14:25:21.718Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:16.573Z"
 }

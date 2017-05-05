@@ -73,5 +73,30 @@
   "networkCount": 0,
   "subscribersCount": 0,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:32:11.804Z"
+  "lastFetchedAt": "2017-05-04T20:32:11.804Z",
+  "packageJSON": {
+    "name": "youtube-downloader",
+    "productName": "Youtube Downloader",
+    "version": "0.0.2",
+    "description": "Youtube Downloader",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron ."
+    },
+    "repository": "",
+    "keywords": [],
+    "author": "Bozo Stojkovic",
+    "license": "",
+    "devDependencies": {
+      "electron": "~1.6.2",
+      "electron-packager": "^8.6.0"
+    },
+    "dependencies": {
+      "electron-debug": "^1.1.0",
+      "request-promise": "^4.2.0",
+      "ytdl-core": "^0.12.1"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-04T22:36:46.140Z"
 }

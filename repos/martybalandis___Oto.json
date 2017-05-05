@@ -83,8 +83,15 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/martybalandis/Oto",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/martybalandis/Oto.git"
+    },
+    "author": "Marty Balandis",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/martybalandis/Oto/issues"
+    },
     "homepage": "https://github.com/martybalandis/Oto#readme"
   },
   "packageStatus": 200,
@@ -112,5 +119,6 @@
   },
   "filename": "martybalandis___Oto.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:10:04.255Z"
+  "lastFetchedAt": "2017-05-04T21:10:04.255Z",
+  "packageLastFetchedAt": "2017-05-04T22:01:52.513Z"
 }

@@ -85,7 +85,11 @@
       "phone controlled",
       "entertainment"
     ],
-    "repository": "https://github.com/ronhasson/Hub",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ronhasson/Hub.git"
+    },
+    "author": "Ron Hasson",
     "homepage": "",
     "devDependencies": {
       "devtron": "^1.2.1",
@@ -124,5 +128,6 @@
   },
   "filename": "ronhasson___Hub.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:39:05.467Z"
+  "lastFetchedAt": "2017-05-04T17:39:05.467Z",
+  "packageLastFetchedAt": "2017-05-04T22:30:45.955Z"
 }

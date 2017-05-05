@@ -62,7 +62,13 @@
       "start": "electron main.js",
       "watch": "npm run start & npm run elm:watch & wait"
     },
-    "repository": "https://github.com/ezekeal/hot-rod",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/ezekeal/hot-rod"
+    },
+    "author": {
+      "name": "Zach Koch"
+    },
     "contributors": [
       {
         "name": "Zach Koch",
@@ -137,5 +143,6 @@
   },
   "filename": "ezekeal___hot-rod.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:42:52.167Z"
+  "lastFetchedAt": "2017-05-04T17:42:52.167Z",
+  "packageLastFetchedAt": "2017-05-04T23:12:42.086Z"
 }

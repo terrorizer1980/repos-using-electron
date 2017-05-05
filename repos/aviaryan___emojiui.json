@@ -57,7 +57,10 @@
       "test": "standard main.js",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/aviaryan/emojiui",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aviaryan/emojiui.git"
+    },
     "dependencies": {
       "node-static": ">=0.7.7"
     },
@@ -71,7 +74,11 @@
       "electron",
       "offline"
     ],
+    "author": "Avi Aryan",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/aviaryan/emojiui/issues"
+    },
     "homepage": "https://github.com/aviaryan/emojiui#readme"
   },
   "packageStatus": 200,
@@ -119,5 +126,6 @@
   },
   "filename": "aviaryan___emojiui.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:14:57.794Z"
+  "lastFetchedAt": "2017-05-04T15:14:57.794Z",
+  "packageLastFetchedAt": "2017-05-04T23:11:31.631Z"
 }

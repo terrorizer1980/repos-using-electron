@@ -53,20 +53,27 @@
   "status": 200,
   "packageJSON": {
     "name": "cadastre-parser",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Конвертер xml-файлов в GeoJSON на основе Electron Используется библиотека [cadXML2GeoJSON](https://github.com/filippov70/cadXML2GeoJSON) которая и выполняет конвертацию XML в GeoJSON.",
     "main": "index.js",
     "scripts": {
-      "start": "electron .",
+      "start": "node node_modules/.bin/electron .",
       "test": "echo \"Error: no test specified\" && exit 1",
-      "build": "electron-packager . cadastre-parser --platform=linux-x64 --arch=x64 --version=0.37.2 --app-version=0.1.0 --out=dist --ignore=dist --prune"
+      "build": "electron-packager . cadastre-parser --platform=linux-x64 --arch=x64 --version=1.4.13 --app-version=0.1.0 --out=dist --ignore=dist --prune"
     },
-    "repository": "https://github.com/filippov70/cadastre-parser",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/filippov70/cadastre-parser.git"
+    },
     "devDependencies": {
-      "electron-prebuilt": "^0.37.2",
+      "electron-prebuilt": "^1.4.13",
       "jsonfile": "*"
     },
+    "author": "filippov vladislav (filippov70)",
     "license": "GPL-3.0",
+    "bugs": {
+      "url": "https://github.com/filippov70/cadastre-parser/issues"
+    },
     "homepage": "https://github.com/filippov70/cadastre-parser#readme"
   },
   "packageStatus": 200,
@@ -114,5 +121,6 @@
   },
   "filename": "filippov70___cadastre-parser.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:12:11.034Z"
+  "lastFetchedAt": "2017-05-04T20:12:11.034Z",
+  "packageLastFetchedAt": "2017-05-05T15:09:46.413Z"
 }

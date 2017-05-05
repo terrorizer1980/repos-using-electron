@@ -76,7 +76,11 @@
     "version": "0.2.0",
     "description": "An editor for Java",
     "main": "out-js/main.js",
-    "repository": "https://github.com/qsctr/java-editor",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/qsctr/java-editor.git"
+    },
+    "author": "qsctr",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.2"
@@ -118,5 +122,6 @@
   },
   "filename": "qsctr___java-editor.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:05:25.879Z"
+  "lastFetchedAt": "2017-05-03T20:05:25.879Z",
+  "packageLastFetchedAt": "2017-05-04T23:08:57.714Z"
 }

@@ -75,9 +75,16 @@
       "skeleton"
     ],
     "homepage": "http://aurelia.io",
+    "bugs": {
+      "url": "https://github.com/aurelia/skeleton-navigation/issues"
+    },
     "license": "CC0-1.0",
+    "author": "MattDw <mattdwnet@gmail.com>",
     "main": "index.js",
-    "repository": "https://github.com/aurelia/skeleton-navigation",
+    "repository": {
+      "type": "git",
+      "url": "http://github.com/aurelia/skeleton-navigation"
+    },
     "scripts": {
       "test": "gulp test",
       "e2e": "gulp serve webdriver-standalone e2e",
@@ -200,5 +207,6 @@
   },
   "filename": "mateuszdw___electron-aurelia-player.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:19:16.191Z"
+  "lastFetchedAt": "2017-05-04T05:19:16.191Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:37.659Z"
 }

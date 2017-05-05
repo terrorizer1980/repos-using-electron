@@ -79,12 +79,19 @@
       "build:win32": "electron-packager ./ PipBoy --platform=win32 --arch=x64 --version=0.35.1",
       "build:linux": "electron-packager ./ PipBoy --platform=linux --arch=x64 --version=0.35.1"
     },
-    "repository": "https://github.com/RobCoIndustries/pipboy",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/RobCoIndustries/pipboy.git"
+    },
     "keywords": [
       "Fallout4",
       "pipboy"
     ],
+    "author": "Kyle Kelley <rgbkrk@gmail.com>",
     "license": "BSD-3-Clause",
+    "bugs": {
+      "url": "https://github.com/RobCoIndustries/pipboy/issues"
+    },
     "homepage": "https://github.com/RobCoIndustries/pipboy#readme",
     "devDependencies": {
       "babel-cli": "^6.3.17",
@@ -158,5 +165,6 @@
   "svnUrl": "https://github.com/RobCoIndustries/pipboy",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:23:05.220Z"
+  "lastFetchedAt": "2017-05-04T18:23:05.220Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:19.645Z"
 }

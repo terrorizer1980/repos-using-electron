@@ -172,6 +172,23 @@
     "description": "Unofficial Facebook Messenger app",
     "license": "MIT",
     "repository": "sindresorhus/caprine",
+    "author": {
+      "name": "Sindre Sorhus",
+      "email": "sindresorhus@gmail.com",
+      "url": "sindresorhus.com"
+    },
+    "maintainers": [
+      {
+        "name": "Oskar Krawczyk",
+        "email": "oskar.krawczyk@gmail.com",
+        "url": "krawczyk.io"
+      },
+      {
+        "name": "Daniel Pham",
+        "email": "pham.dany@gmail.com",
+        "url": "danhp.github.io"
+      }
+    ],
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -197,19 +214,7 @@
         "node",
         "browser"
       ]
-    },
-    "owners": [
-      {
-        "name": "Oskar Krawczyk",
-        "email": "oskar.krawczyk@gmail.com",
-        "url": "krawczyk.io"
-      },
-      {
-        "name": "Daniel Pham",
-        "email": "pham.dany@gmail.com",
-        "url": "danhp.github.io"
-      }
-    ]
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/parro-it/caprine",
@@ -257,5 +262,6 @@
   "filename": "parro-it___caprine.json",
   "sourceRepo": "sindresorhus/caprine",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:25:54.406Z"
+  "lastFetchedAt": "2017-05-04T18:25:54.406Z",
+  "packageLastFetchedAt": "2017-05-05T17:52:53.796Z"
 }

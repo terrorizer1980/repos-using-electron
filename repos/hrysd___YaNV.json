@@ -81,11 +81,21 @@
       "watch": "watchify -v -t babelify src/index.js -o bundle.js",
       "app": "electron main.js"
     },
-    "repository": "https://github.com/hrysd/YaNV",
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/hrysd/YaNV.git"
+    },
     "keywords": [
       "editor"
     ],
+    "author": {
+      "name": "Hiroshi Yoshida",
+      "url": "hrysd.org"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/hrysd/YaNV/issues"
+    },
     "homepage": "https://github.com/hrysd/YaNV#readme",
     "devDependencies": {
       "babel-plugin-transform-es2015-modules-commonjs": "^6.7.4",
@@ -127,5 +137,6 @@
   },
   "filename": "hrysd___YaNV.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:24:14.400Z"
+  "lastFetchedAt": "2017-05-04T14:24:14.400Z",
+  "packageLastFetchedAt": "2017-05-05T14:31:54.663Z"
 }

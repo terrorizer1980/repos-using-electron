@@ -101,12 +101,19 @@
     "scripts": {
       "test": "bin/test.js"
     },
-    "repository": "https://github.com/Luphia/SWARM",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Luphia/SWARM.git"
+    },
     "keywords": [
       "storage",
       "p2p"
     ],
+    "author": "Luphia Cheng",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Luphia/SWARM/issues"
+    },
     "homepage": "https://github.com/Luphia/SWARM#readme"
   },
   "packageStatus": 200,
@@ -134,5 +141,6 @@
   },
   "filename": "Luphia___SWARM.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:52:14.956Z"
+  "lastFetchedAt": "2017-05-04T17:52:14.956Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:44.770Z"
 }

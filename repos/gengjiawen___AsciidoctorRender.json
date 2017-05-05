@@ -81,13 +81,23 @@
       "linux-deb": "build --linux deb",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/gengjiawen/AsciidoctorRender",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gengjiawen/AsciidoctorRender.git"
+    },
     "keywords": [
       "asciidoctor",
       "render",
       "realtime"
     ],
+    "author": {
+      "name": "Daniel Geng",
+      "email": "technicalcute@gmail.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/gengjiawen/AsciidoctorRender/issues"
+    },
     "build": {
       "appId": "your.id",
       "app-category-type": "your.app.category.type",
@@ -126,5 +136,6 @@
   },
   "filename": "gengjiawen___AsciidoctorRender.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:26:58.828Z"
+  "lastFetchedAt": "2017-05-04T18:26:58.828Z",
+  "packageLastFetchedAt": "2017-05-05T14:50:08.274Z"
 }

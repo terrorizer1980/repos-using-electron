@@ -75,6 +75,7 @@
       "start": "electron main.js",
       "dev": "webpack-dev-server --content-base src --inline --hot"
     },
+    "author": "Jerome",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.11.1",
@@ -130,5 +131,6 @@
   "filename": "dany2691___electron-cf-musica.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:51:55.941Z"
+  "lastFetchedAt": "2017-05-04T17:51:55.941Z",
+  "packageLastFetchedAt": "2017-05-05T17:04:09.483Z"
 }

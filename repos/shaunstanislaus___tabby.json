@@ -181,6 +181,7 @@
       ]
     },
     "keywords": [],
+    "author": "",
     "license": "ISC",
     "dependencies": {
       "csjs-inject": "^1.0.0",
@@ -194,7 +195,10 @@
       "electron-prebuilt": "^0.36.11",
       "standard": "^6.0.8"
     },
-    "homepage": "https://github.com/maxogden/tabby"
+    "homepage": "https://github.com/maxogden/tabby",
+    "bugs": {
+      "url": "https://github.com/maxogden/tabby/issues"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/shaunstanislaus/tabby",
@@ -242,5 +246,6 @@
   "filename": "shaunstanislaus___tabby.json",
   "sourceRepo": "maxogden/tabby",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:14.774Z"
+  "lastFetchedAt": "2017-05-04T20:05:14.774Z",
+  "packageLastFetchedAt": "2017-05-04T22:44:36.973Z"
 }

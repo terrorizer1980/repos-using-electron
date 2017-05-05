@@ -69,8 +69,16 @@
     "name": "peerweb",
     "description": "A proving ground for decentralized protocols for the WWW",
     "version": "0.1.0",
+    "author": {
+      "name": "William Blankenship",
+      "email": "william.jblankenship@gmail.com",
+      "url": "http://will.blankenship.io/"
+    },
     "bin": {
       "peerweb": "./bin/cmd.js"
+    },
+    "bugs": {
+      "url": "https://github.com/retrohacker/peerweb/issues"
     },
     "engines": {
       "node": ">=4.0.0"
@@ -90,17 +98,8 @@
     "main": "index.js",
     "productName": "PeerWeb",
     "repository": {
-      "user": "retrohacker",
-      "repo": "peerweb",
-      "branch": "master",
-      "host": "github.com",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/retrohacker/peerweb/tarball/master",
-      "clone_url": "https://github.com/retrohacker/peerweb",
-      "https_url": "https://github.com/retrohacker/peerweb",
-      "travis_url": "https://travis-ci.org/retrohacker/peerweb",
-      "zip_url": "https://github.com/retrohacker/peerweb/archive/master.zip",
-      "api_url": "https://api.github.com/repos/retrohacker/peerweb"
+      "type": "git",
+      "url": "git@github.com:retrohacker/peerweb"
     },
     "dependencies": {
       "electron-debug": "^1.0.0",
@@ -163,5 +162,6 @@
   "filename": "retrohacker___peerweb-testing.json",
   "sourceRepo": "retrohacker/peerweb",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:55:02.638Z"
+  "lastFetchedAt": "2017-05-04T14:55:02.638Z",
+  "packageLastFetchedAt": "2017-05-05T11:37:12.675Z"
 }

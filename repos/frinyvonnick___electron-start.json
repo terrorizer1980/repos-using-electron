@@ -79,8 +79,14 @@
     "license": "MIT",
     "repository": "https://github.com/frinyvonnick/electron-start",
     "homepage": "https://github.com/frinyvonnick/electron-start",
+    "bugs": "frin.yvonnick@gmail.com",
     "engines": {},
     "contributors": [],
+    "author": {
+      "name": "FRIN Yvonnick",
+      "email": "frin.yvonnick@gmail.com",
+      "url": "https://github.com/frinyvonnick"
+    },
     "scripts": {
       "start": "gulp",
       "dev": "gulp --debug",
@@ -138,5 +144,6 @@
   },
   "filename": "frinyvonnick___electron-start.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:51:58.034Z"
+  "lastFetchedAt": "2017-05-04T19:51:58.034Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:54.745Z"
 }

@@ -90,17 +90,7 @@
     "version": "0.0.0",
     "description": "DevFest Florida 2016 native apps",
     "repository": {
-      "user": "DevFestFlorida",
-      "repo": "native-app",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/DevFestFlorida/native-app/tarball/master",
-      "clone_url": "https://github.com/DevFestFlorida/native-app",
-      "https_url": "https://github.com/DevFestFlorida/native-app",
-      "travis_url": "https://travis-ci.org/DevFestFlorida/native-app",
-      "zip_url": "https://github.com/DevFestFlorida/native-app/archive/master.zip",
-      "api_url": "https://api.github.com/repos/DevFestFlorida/native-app"
+      "url": "https://github.com/DevFestFlorida/native-app"
     },
     "scripts": {
       "build.desktop.mac": "rimraf desktop/mac/* && gulp desktop.mac",
@@ -148,6 +138,7 @@
       "webdriver-start": "node_modules/protractor/bin/webdriver-manager start",
       "webdriver-update": "node_modules/protractor/bin/webdriver-manager update"
     },
+    "author": "Minko Gechev <mgechev>",
     "contributors": [
       {
         "name": "Nathan Walker <NathanWalker>"
@@ -289,5 +280,6 @@
   "filename": "DevFestFlorida___native-app.json",
   "sourceRepo": "NathanWalker/angular-seed-advanced",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:36:59.836Z"
+  "lastFetchedAt": "2017-05-04T05:36:59.836Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:21.506Z"
 }

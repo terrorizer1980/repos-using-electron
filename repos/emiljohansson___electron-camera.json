@@ -84,13 +84,20 @@
       "test": "ava",
       "start": "electron ."
     },
-    "repository": "https://github.com/emiljohansson/electron-camera",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/emiljohansson/electron-camera.git"
+    },
     "keywords": [
       "electron",
       "camera",
       "app"
     ],
+    "author": "Emil Johansson <emiljohansson.se@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/emiljohansson/electron-camera/issues"
+    },
     "homepage": "https://github.com/emiljohansson/electron-camera#readme"
   },
   "packageStatus": 200,
@@ -118,5 +125,6 @@
   },
   "filename": "emiljohansson___electron-camera.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:58:45.710Z"
+  "lastFetchedAt": "2017-05-04T04:58:45.710Z",
+  "packageLastFetchedAt": "2017-05-04T22:47:18.943Z"
 }

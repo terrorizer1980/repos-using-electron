@@ -87,8 +87,19 @@
       "strip": "^3.0.0"
     },
     "homepage": "https://github.com/jbstoker/Plexus#readme",
+    "author": {
+      "name": "JB Stoker",
+      "email": "jelmer@probomail.nl",
+      "url": "http://stokstylez.nl/"
+    },
     "license": "MIT",
-    "repository": "https://github.com/jbstoker/Plexus",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jbstoker/Plexus.git"
+    },
+    "bugs": {
+      "url": "https://github.com/jbstoker/Plexus/issues"
+    },
     "keywords": [
       "plexus",
       "express",
@@ -121,5 +132,6 @@
   },
   "filename": "jbstoker___PlexusMobile.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:22:37.536Z"
+  "lastFetchedAt": "2017-05-04T18:22:37.536Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:02.536Z"
 }

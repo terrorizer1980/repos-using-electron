@@ -68,17 +68,8 @@
       "start": "electron ."
     },
     "repository": {
-      "user": "PokemonGo-Enhanced",
-      "repo": "Enhanced-Electron",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/PokemonGo-Enhanced/Enhanced-Electron/tarball/master",
-      "clone_url": "https://github.com/PokemonGo-Enhanced/Enhanced-Electron",
-      "https_url": "https://github.com/PokemonGo-Enhanced/Enhanced-Electron",
-      "travis_url": "https://travis-ci.org/PokemonGo-Enhanced/Enhanced-Electron",
-      "zip_url": "https://github.com/PokemonGo-Enhanced/Enhanced-Electron/archive/master.zip",
-      "api_url": "https://api.github.com/repos/PokemonGo-Enhanced/Enhanced-Electron"
+      "type": "git",
+      "url": "git+https://github.com/PokemonGo-Enhanced/Enhanced-Electron.git"
     },
     "keywords": [
       "Electron",
@@ -86,6 +77,7 @@
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "",
     "devDependencies": {
       "electron-prebuilt": "*"
@@ -140,5 +132,6 @@
   "svnUrl": "https://github.com/PokemonGo-Enhanced/Enhanced-Electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T20:48:42.143Z"
+  "lastFetchedAt": "2017-05-04T20:48:42.143Z",
+  "packageLastFetchedAt": "2017-05-05T15:39:43.924Z"
 }

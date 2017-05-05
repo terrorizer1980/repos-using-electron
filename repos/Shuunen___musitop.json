@@ -73,36 +73,64 @@
   "status": 200,
   "packageJSON": {
     "name": "musitop",
-    "version": "1.2.0",
+    "version": "3.2.4",
     "description": "Musitop delete music you dont like",
     "main": "server.js",
     "dependencies": {
-      "@jxnblk/bikeshed": "^1.0.0-beta.1",
+      "colorable": "^1.0.5",
       "config-prompt": "^1.1.0",
-      "electron": "^1.3.4",
-      "hello-color": "^1.0.1",
+      "electron": "^1.4.14",
+      "eslint": "^3.13.1",
+      "express": "^4.14.1",
+      "ip": "^1.1.4",
+      "jscs": "^3.0.7",
       "minimist": "^1.2.0",
+      "morgan": "^1.8.1",
+      "musicmetadata": "^2.0.5",
       "node-notifier": "^4.6.1",
+      "node-vibrant": "^3.0.0-alpha.2",
+      "os": "^0.1.1",
+      "sharp": "^0.17.2",
       "shuffle-array": "^1.0.0",
-      "socket.io": "^1.5.0",
-      "socket.io-client": "^1.5.0"
+      "simple-git": "^1.66.0",
+      "socket.io": "^1.7.2",
+      "socket.io-client": "^1.7.2",
+      "spdy": "^3.4.4"
     },
     "devDependencies": {},
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1",
-      "start": "node server.js",
+      "start": "npm i && nodemon server.js",
       "client-good": "node client.js --musicIs=good",
       "client-bad": "node client.js --musicIs=bad",
-      "watch": "nodemon server.js --ext js,html"
+      "dont-watch": "start server.js"
     },
-    "repository": "https://github.com/Shuunen/musitop",
+    "jscsConfig": {
+      "preset": "airbnb",
+      "disallowTrailingComma": true,
+      "fix": true,
+      "maximumLineLength": 200,
+      "requireLineFeedAtFileEnd": false,
+      "requirePaddingNewLinesAfterBlocks": false,
+      "requirePaddingNewLinesBeforeLineComments": false,
+      "requireTrailingComma": false,
+      "validateIndentation": 4
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Shuunen/musitop.git"
+    },
     "keywords": [
       "music",
       "top",
       "sort",
       "delete"
     ],
+    "author": "Shuunen",
     "license": "AGPL-3.0",
+    "bugs": {
+      "url": "https://github.com/Shuunen/musitop/issues"
+    },
     "homepage": "https://github.com/Shuunen/musitop#readme"
   },
   "packageStatus": 200,
@@ -130,5 +158,6 @@
   },
   "filename": "Shuunen___musitop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:49:05.486Z"
+  "lastFetchedAt": "2017-05-04T17:49:05.486Z",
+  "packageLastFetchedAt": "2017-05-04T22:21:22.561Z"
 }

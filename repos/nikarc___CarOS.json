@@ -74,6 +74,7 @@
       "start": "./node_modules/.bin/electron .",
       "watch": "webpack-dev-server --inline --colors"
     },
+    "author": "Nick Arcuri",
     "license": "MIT",
     "dependencies": {
       "async": "^2.0.0-rc.4",
@@ -137,5 +138,6 @@
   },
   "filename": "nikarc___CarOS.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:00:37.270Z"
+  "lastFetchedAt": "2017-05-04T21:00:37.270Z",
+  "packageLastFetchedAt": "2017-05-05T14:45:03.670Z"
 }

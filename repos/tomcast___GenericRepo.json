@@ -79,13 +79,17 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": "https://github.com/tomcast/GenericRepoName",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tomcast/GenericRepoName.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "tomcast",
     "license": "CC0-1.0",
     "homepage": "https://github.com/tomcast/GenericRepoName/README.md",
     "devDependencies": {
@@ -117,5 +121,6 @@
   },
   "filename": "tomcast___GenericRepo.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:18:45.088Z"
+  "lastFetchedAt": "2017-05-04T21:18:45.088Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:57.243Z"
 }

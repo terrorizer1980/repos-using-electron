@@ -81,6 +81,7 @@
       "postinstall": "cd app && npm install",
       "vue:route": "node tasks/vue/route.js"
     },
+    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -143,5 +144,6 @@
   },
   "filename": "JChehe___excel-filter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:13:18.667Z"
+  "lastFetchedAt": "2017-05-04T18:13:18.667Z",
+  "packageLastFetchedAt": "2017-05-04T22:28:57.356Z"
 }

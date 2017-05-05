@@ -102,6 +102,7 @@
       "dist:server": "./build-server.sh $npm_package_config_outPath"
     },
     "keywords": [],
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -174,5 +175,6 @@
   },
   "filename": "bfsmith___desktop-chat.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:15:59.011Z"
+  "lastFetchedAt": "2017-05-04T18:15:59.011Z",
+  "packageLastFetchedAt": "2017-05-05T14:33:09.871Z"
 }

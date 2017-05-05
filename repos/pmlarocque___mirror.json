@@ -74,17 +74,8 @@
       "start": "electron main.js"
     },
     "repository": {
-      "user": "pmlarocque",
-      "repo": "mirror",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/pmlarocque/mirror/tarball/master",
-      "clone_url": "https://github.com/pmlarocque/mirror",
-      "https_url": "https://github.com/pmlarocque/mirror",
-      "travis_url": "https://travis-ci.org/pmlarocque/mirror",
-      "zip_url": "https://github.com/pmlarocque/mirror/archive/master.zip",
-      "api_url": "https://api.github.com/repos/pmlarocque/mirror"
+      "type": "git",
+      "url": "git+https://github.com/pmlarocque/mirror.git"
     },
     "keywords": [
       "Electron",
@@ -92,7 +83,11 @@
       "start",
       "tutorial"
     ],
+    "author": "Pierre-Marc Larocque",
     "license": "",
+    "bugs": {
+      "url": "https://github.com/pmlarocque/mirror/issues"
+    },
     "homepage": "https://github.com/pmlarocque/mirror#readme",
     "devDependencies": {
       "babel-loader": "^6.2.4",
@@ -141,5 +136,6 @@
   "filename": "pmlarocque___mirror.json",
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:00:30.955Z"
+  "lastFetchedAt": "2017-05-04T05:00:30.955Z",
+  "packageLastFetchedAt": "2017-05-05T01:22:01.951Z"
 }

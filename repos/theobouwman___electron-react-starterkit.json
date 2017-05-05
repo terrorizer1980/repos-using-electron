@@ -56,6 +56,7 @@
       "build": "npm install && npm run dist && electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all",
       "dist": "webpack -p --progress --colors "
     },
+    "author": "Theo Bouwman",
     "license": "MIT",
     "devDependencies": {
       "sass-loader": "^4.0.1",
@@ -124,5 +125,6 @@
   "svnUrl": "https://github.com/theobouwman/electron-react-starterkit",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:28:40.511Z"
+  "lastFetchedAt": "2017-05-04T05:28:40.511Z",
+  "packageLastFetchedAt": "2017-05-04T21:59:34.687Z"
 }

@@ -218,13 +218,20 @@
       "webdriver:start": "webdriver-manager start",
       "e2e:debug": "protractor --elementExplorer"
     },
-    "repository": "https://github.com/tjoskar/ng2-lazyload-image",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/tjoskar/ng2-lazyload-image.git"
+    },
     "keywords": [
       "lazy-load",
       "lazy-image",
       "angular2"
     ],
+    "author": "Oskar Karlsson <kontakta@oskarkarlsson.nu>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/tjoskar/ng2-lazyload-image/issues"
+    },
     "homepage": "https://github.com/tjoskar/ng2-lazyload-image#readme",
     "peerDependencies": {
       "@angular/core": "^2.0.0",
@@ -297,5 +304,6 @@
   },
   "sourceRepo": "tjoskar/ng2-lazyload-image",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:08:22.483Z"
+  "lastFetchedAt": "2017-05-03T20:08:22.483Z",
+  "packageLastFetchedAt": "2017-05-05T15:31:07.588Z"
 }

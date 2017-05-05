@@ -75,6 +75,7 @@
     "name": "Coach-as",
     "version": "0.0.1",
     "description": "Application de gestion des entrainements",
+    "author": "akveo",
     "homepage": "http://nicolasvoleau.fr",
     "license": "MIT",
     "dependencies": {
@@ -216,7 +217,13 @@
       "postversion": "git push && git push --tags",
       "electron": "electron ./src/electron/main.js"
     },
-    "repository": "https://github.com/akveo/ng2-admin",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/akveo/ng2-admin.git"
+    },
+    "bugs": {
+      "url": "https://github.com/akveo/ng2-admin/issues"
+    },
     "engines": {
       "node": ">= 4.2.1",
       "npm": ">= 3"
@@ -247,5 +254,6 @@
   },
   "filename": "nvoleau___coach-as.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:33:45.704Z"
+  "lastFetchedAt": "2017-05-04T17:33:45.704Z",
+  "packageLastFetchedAt": "2017-05-05T17:31:20.416Z"
 }

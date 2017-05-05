@@ -181,6 +181,11 @@
       "package": "node package.js --name='nuTorrent' --icon=./icon/web_hi_res_512.icns",
       "package-all": "node package.js --name='nuTorrent' --icon=icon/web_hi_res_512.icns --all"
     },
+    "author": {
+      "name": "Jason Lee",
+      "email": "chsienlee@gmail.com",
+      "url": "https://github.com/LeeChSien"
+    },
     "devDependencies": {
       "asar": "^0.6.1",
       "babel-core": "^5.4.2",
@@ -282,5 +287,6 @@
   "svnUrl": "https://github.com/jimthedev/nuTorrent",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:05:24.657Z"
+  "lastFetchedAt": "2017-05-04T05:05:24.657Z",
+  "packageLastFetchedAt": "2017-05-04T22:32:14.471Z"
 }

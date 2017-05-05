@@ -98,8 +98,19 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": "https://github.com/CityRay/R-WorkFlow-Electron-Gulp",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/CityRay/R-WorkFlow-Electron-Gulp.git"
+    },
+    "author": {
+      "name": "Ray Lin",
+      "email": "ray102467@gmail.com",
+      "url": "https://github.com/cityray"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/CityRay/R-WorkFlow-Electron-Gulp/issues"
+    },
     "keywords": [
       "workflow",
       "electron",
@@ -214,5 +225,6 @@
   },
   "filename": "CityRay___R-WorkFlow-Electron-Gulp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:23:16.759Z"
+  "lastFetchedAt": "2017-05-04T05:23:16.759Z",
+  "packageLastFetchedAt": "2017-05-05T17:00:16.759Z"
 }

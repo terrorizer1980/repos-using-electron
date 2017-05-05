@@ -61,14 +61,21 @@
       "buildapp": "webpack --progress --colors --config webpack.config.prod.js",
       "dev": "node server.js"
     },
-    "repository": "https://github.com/electron/electron-quick-start",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/electron/electron-quick-start.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/electron/electron-quick-start/issues"
+    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "babel-core": "^5.8.21",
@@ -165,5 +172,6 @@
   },
   "filename": "wq123456___EqsWidthReactTemp.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:38:33.722Z"
+  "lastFetchedAt": "2017-05-04T19:38:33.722Z",
+  "packageLastFetchedAt": "2017-05-05T14:30:48.503Z"
 }

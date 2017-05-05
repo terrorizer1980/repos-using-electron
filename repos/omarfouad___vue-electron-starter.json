@@ -75,6 +75,7 @@
       "start": "electron main.js",
       "build": "electron-packager . --platform=darwin,linux,win32 --arch=x64 --asar --overwrite --out=dist/publish/ --ignore=node_modules/ --ignore=node_modules/dist/publish/"
     },
+    "author": "",
     "license": "ISC",
     "devDependencies": {
       "babel-core": "^6.10.4",
@@ -127,5 +128,6 @@
   },
   "filename": "omarfouad___vue-electron-starter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:21:08.558Z"
+  "lastFetchedAt": "2017-05-04T05:21:08.558Z",
+  "packageLastFetchedAt": "2017-05-05T17:47:23.948Z"
 }

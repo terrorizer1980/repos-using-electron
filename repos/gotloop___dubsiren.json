@@ -68,9 +68,14 @@
       "start": "electron .",
       "test": "mocha"
     },
+    "author": "jibhaine",
     "license": "ISC",
-    "repository": "https://github.com/jibhaine/dubsiren",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jibhaine/dubsiren.git"
+    },
     "homepage": "https://github.com/jibhaine/dubsiren",
+    "bugs": "https://github.com/jibhaine/dubsiren/issues",
     "dependencies": {
       "flux": "^2.0.3",
       "lodash": "^3.10.1",
@@ -126,5 +131,6 @@
   "svnUrl": "https://github.com/gotloop/dubsiren",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:27:58.505Z"
+  "lastFetchedAt": "2017-05-04T21:27:58.505Z",
+  "packageLastFetchedAt": "2017-05-05T17:45:29.574Z"
 }

@@ -92,6 +92,7 @@
       "build": "webpack --config webpack.config.js",
       "watch": "webpack-dev-server --config webpack.config.js --hot --inline --progress"
     },
+    "author": "derekwu",
     "license": "MIT"
   },
   "packageStatus": 200,
@@ -119,5 +120,6 @@
   },
   "filename": "Constandine___joox-desktop.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:23:56.487Z"
+  "lastFetchedAt": "2017-05-04T14:23:56.487Z",
+  "packageLastFetchedAt": "2017-05-05T15:01:27.986Z"
 }

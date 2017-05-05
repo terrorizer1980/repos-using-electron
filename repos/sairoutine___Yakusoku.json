@@ -72,16 +72,26 @@
     "main": "index.js",
     "scripts": {
       "start": "electron ./public/electron.js",
-      "build": "cd public && electron-packager ./ Yakusoku --platform=darwin,win32 --arch=x64 --version=0.36.1 --icon=icon.ico"
+      "build:win": "cd public && electron-packager ./ Yakusoku --overwrite --platform=win32  --arch=x64 --version=0.36.1 --icon=icon.ico --out ../Win64",
+      "build:mac": "cd public && electron-packager ./ Yakusoku --overwrite --platform=darwin --arch=x64 --version=0.36.1 --icon=icon.icns --out ../Mac",
+      "build:win32": "cd public && electron-packager ./ Yakusoku --overwrite --platform=win32  --arch=ia32 --version=1.6.0 --icon=icon.ico --out ../Win32"
     },
-    "repository": "https://github.com/sairoutine/Yakusoku",
-    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/sairoutine/Yakusoku.git"
+    },
+    "author": "sairoutine",
+    "license": "NO LICENSE",
+    "bugs": {
+      "url": "https://github.com/sairoutine/Yakusoku/issues"
+    },
     "devDependencies": {
       "browser-sync": "2.14.3",
       "browserify": "12.0.1",
       "browserify-shim": "3.8.11",
-      "electron-packager": "7.5.1",
-      "electron-prebuilt": "1.3.2",
+      "electron": "1.4.15",
+      "electron-packager": "8.4.0",
+      "electron-prebuilt": "1.4.13",
       "gulp": "3.9.0",
       "gulp-notify": "2.2.0",
       "gulp-plumber": "1.0.1",
@@ -108,7 +118,10 @@
       "preloadjs": "createjs",
       "movieclipjs": "createjs"
     },
-    "homepage": "https://github.com/sairoutine/Yakusoku#readme"
+    "homepage": "https://github.com/sairoutine/Yakusoku#readme",
+    "dependencies": {
+      "mersenne-twister": "1.1.0"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -135,5 +148,6 @@
   },
   "filename": "sairoutine___Yakusoku.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T17:58:37.022Z"
+  "lastFetchedAt": "2017-05-04T17:58:37.022Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:51.194Z"
 }

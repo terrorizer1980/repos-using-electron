@@ -74,13 +74,20 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": "https://github.com/Psyduckling/electron-login",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Psyduckling/electron-login.git"
+    },
     "keywords": [
       "electron",
       "firebase",
       "login"
     ],
+    "author": "George Aiken",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Psyduckling/electron-login/issues"
+    },
     "homepage": "https://github.com/Psyduckling/electron-login#readme",
     "devDependencies": {
       "electron": "^1.4.4",
@@ -112,5 +119,6 @@
   },
   "filename": "Psyduckling___electron-login.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T15:19:36.295Z"
+  "lastFetchedAt": "2017-05-04T15:19:36.295Z",
+  "packageLastFetchedAt": "2017-05-05T01:23:31.155Z"
 }

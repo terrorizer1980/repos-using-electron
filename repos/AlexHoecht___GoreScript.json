@@ -77,17 +77,12 @@
     "version": "1.1.0",
     "homepage": "http://gorescript.com",
     "repository": {
-      "user": "gorescript",
-      "repo": "gorescript",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/gorescript/gorescript/tarball/master",
-      "clone_url": "https://github.com/gorescript/gorescript",
-      "https_url": "https://github.com/gorescript/gorescript",
-      "travis_url": "https://travis-ci.org/gorescript/gorescript",
-      "zip_url": "https://github.com/gorescript/gorescript/archive/master.zip",
-      "api_url": "https://api.github.com/repos/gorescript/gorescript"
+      "type": "git",
+      "url": "https://github.com/gorescript/gorescript.git"
+    },
+    "author": {
+      "name": "Sergiu Bucur",
+      "email": "sergiu.bucur@outlook.com"
     },
     "license": "MIT",
     "scripts": {
@@ -137,5 +132,6 @@
   "filename": "AlexHoecht___GoreScript.json",
   "sourceRepo": "gorescript/gorescript",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:53:51.023Z"
+  "lastFetchedAt": "2017-05-04T14:53:51.023Z",
+  "packageLastFetchedAt": "2017-05-04T22:18:58.730Z"
 }

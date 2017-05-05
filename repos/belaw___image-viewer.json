@@ -67,5 +67,15 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T18:00:57.360Z"
+  "lastFetchedAt": "2017-05-04T18:00:57.360Z",
+  "packageJSON": {
+    "name": "image-viewer",
+    "main": "main.js",
+    "version": "0.0.1",
+    "dependencies": {
+      "electron": "latest"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T17:42:11.212Z"
 }

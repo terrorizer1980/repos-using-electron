@@ -68,6 +68,7 @@
   "packageJSON": {
     "name": "PetShopManager",
     "description": "combination of redux, react-router and ES6+ support ",
+    "author": "yangfei <yangfei@boqii.net>",
     "main": "main.js",
     "scripts": {
       "dev": "set NODE_ENV=development&& webpack-dev-server --progress --colors --port=8011 --hot",
@@ -177,5 +178,6 @@
   },
   "filename": "dxhuii___webpack-react-redux-es6-hot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:32:34.166Z"
+  "lastFetchedAt": "2017-05-04T18:32:34.166Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:24.675Z"
 }

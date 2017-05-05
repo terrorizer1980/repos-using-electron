@@ -258,7 +258,10 @@
     "keywords": [
       "ipfs"
     ],
-    "repository": "https://github.com/ipfs/station",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ipfs/station"
+    },
     "authors": [
       "Kristoffer Ström <kristoffer@rymdkoloni.se>",
       "David Dias <daviddias@ipfs.io>",
@@ -266,6 +269,9 @@
       "Friedel Ziegelmayer <dignifiedquire@gmail.com>"
     ],
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/ipfs/station/issues"
+    },
     "homepage": "https://github.com/ipfs/station"
   },
   "packageStatus": 200,
@@ -313,5 +319,6 @@
   "svnUrl": "https://github.com/ali/station",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T14:26:20.120Z"
+  "lastFetchedAt": "2017-05-04T14:26:20.120Z",
+  "packageLastFetchedAt": "2017-05-04T22:56:30.185Z"
 }

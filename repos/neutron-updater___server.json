@@ -89,7 +89,9 @@
     "name": "neutron",
     "version": "1.0.0",
     "description": "Electron Update Server",
-    "repository": "https://github.com/jubianchi/neutron",
+    "repository": {
+      "url": "https://github.com/jubianchi/neutron"
+    },
     "main": "src/server.js",
     "scripts": {
       "start": "NEUTRON_ADMIN_TOKEN=adminToken NEUTRON_PID_FILE=pid node index.js",
@@ -164,5 +166,6 @@
   },
   "filename": "neutron-updater___server.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T18:00:17.520Z"
+  "lastFetchedAt": "2017-05-04T18:00:17.520Z",
+  "packageLastFetchedAt": "2017-05-05T14:37:28.427Z"
 }

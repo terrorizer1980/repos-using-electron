@@ -74,14 +74,21 @@
       "start": "electron main.js",
       "compile": "browserify -t [ babelify --presets [ react es2015 ] ] src/app.js -o js/app.js"
     },
-    "repository": "https://github.com/h0rhay/stream-streamer",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/h0rhay/stream-streamer.git"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Moi",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": ""
+    },
     "homepage": "",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0",
@@ -123,5 +130,6 @@
   },
   "filename": "h0rhay___stream-streamer.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T06:02:23.099Z"
+  "lastFetchedAt": "2017-05-04T06:02:23.099Z",
+  "packageLastFetchedAt": "2017-05-05T17:20:50.987Z"
 }

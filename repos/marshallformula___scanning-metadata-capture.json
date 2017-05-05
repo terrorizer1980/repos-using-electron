@@ -54,7 +54,10 @@
   "packageJSON": {
     "name": "scanning-metadata-capture",
     "version": "0.0.1",
-    "repository": "https://github.com/marshallformula/scanning-metadata-capture",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/marshallformula/scanning-metadata-capture"
+    },
     "description": "enable capture of metatdata for images in a directory",
     "main": "src/main.js",
     "scripts": {
@@ -67,6 +70,7 @@
       "prebuild": "npm run clean",
       "clean": "gulp clean"
     },
+    "author": "@marshallformula",
     "license": "ISC",
     "devDependencies": {
       "babel-cli": "6.4.5",
@@ -146,5 +150,6 @@
   },
   "filename": "marshallformula___scanning-metadata-capture.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:18:45.628Z"
+  "lastFetchedAt": "2017-05-04T14:18:45.628Z",
+  "packageLastFetchedAt": "2017-05-05T17:53:04.904Z"
 }

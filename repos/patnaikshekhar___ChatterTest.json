@@ -80,9 +80,16 @@
       "start": "webpack;electron ./src/main.js",
       "test": "jest"
     },
-    "repository": "https://github.com/patnaikshekhar/ChatterTest",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/patnaikshekhar/ChatterTest.git"
+    },
     "keywords": [],
+    "author": "GitHub",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/patnaikshekhar/ChatterTest/issues"
+    },
     "homepage": "https://github.com/patnaikshekhar/ChatterTest#readme",
     "devDependencies": {
       "babel-core": "^6.4.0",
@@ -161,5 +168,6 @@
   },
   "filename": "patnaikshekhar___ChatterTest.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:15:37.671Z"
+  "lastFetchedAt": "2017-05-04T21:15:37.671Z",
+  "packageLastFetchedAt": "2017-05-05T17:12:28.940Z"
 }

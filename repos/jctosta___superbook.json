@@ -58,6 +58,11 @@
     "description": "My awesome app",
     "license": "MIT",
     "repository": "jctosta/superbook",
+    "author": {
+      "name": "",
+      "email": "",
+      "url": "tosta.eti.br/superbook"
+    },
     "electronVersion": "0.36.0",
     "scripts": {
       "test": "xo",
@@ -134,5 +139,6 @@
   "svnUrl": "https://github.com/jctosta/superbook",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:26:18.166Z"
+  "lastFetchedAt": "2017-05-04T05:26:18.166Z",
+  "packageLastFetchedAt": "2017-05-05T17:30:23.061Z"
 }

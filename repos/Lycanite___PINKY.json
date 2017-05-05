@@ -76,8 +76,15 @@
     "productName": "PINKY",
     "version": "0.0.1",
     "description": "PINKY Is Not Kissing You! A modern Launcher for modded classic Doom.",
-    "repository": "https://github.com/Lycanite/PINKY",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Lycanite/PINKY.git"
+    },
+    "author": "Lycanite (Richard Nicholson)",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Lycanite/PINKY/issues"
+    },
     "homepage": "https://github.com/Lycanite/PINKY#readme",
     "keywords": [
       "Electron",
@@ -211,5 +218,6 @@
   },
   "filename": "Lycanite___PINKY.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:15:18.231Z"
+  "lastFetchedAt": "2017-05-04T20:15:18.231Z",
+  "packageLastFetchedAt": "2017-05-04T22:54:49.608Z"
 }

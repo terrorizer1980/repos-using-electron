@@ -194,19 +194,14 @@
       "precommit": "npm run lint"
     },
     "repository": {
-      "user": "superbrothers",
-      "repo": "electron-boilerplate",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/superbrothers/electron-boilerplate/tarball/master",
-      "clone_url": "https://github.com/superbrothers/electron-boilerplate",
-      "https_url": "https://github.com/superbrothers/electron-boilerplate",
-      "travis_url": "https://travis-ci.org/superbrothers/electron-boilerplate",
-      "zip_url": "https://github.com/superbrothers/electron-boilerplate/archive/master.zip",
-      "api_url": "https://api.github.com/repos/superbrothers/electron-boilerplate"
+      "type": "git",
+      "url": "git://github.com/superbrothers/electron-boilerplate.git"
     },
+    "author": "Kazuki Suda <kazuki.suda@gmail.com>",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/superbrothers/electron-boilerplate/issues"
+    },
     "homepage": "https://github.com/superbrothers/electron-boilerplate#readme",
     "dependencies": {
       "react": "^0.14.0-rc1",
@@ -282,5 +277,6 @@
   "svnUrl": "https://github.com/fortyau/electron-boilerplate",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T21:16:58.925Z"
+  "lastFetchedAt": "2017-05-04T21:16:58.925Z",
+  "packageLastFetchedAt": "2017-05-05T14:59:48.698Z"
 }

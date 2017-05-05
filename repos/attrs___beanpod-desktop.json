@@ -73,6 +73,7 @@
       "start": "electron app/electron.js"
     },
     "main": "index.js",
+    "author": "attrs <contact.attrs@gmail.com>",
     "homepage": "http://attrs.github.io/beanpod",
     "repository": "attrs/beanpod-manager",
     "license": "Apache-2.0",
@@ -142,5 +143,6 @@
   "svnUrl": "https://github.com/attrs/beanpod-desktop",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:28:13.455Z"
+  "lastFetchedAt": "2017-05-04T05:28:13.455Z",
+  "packageLastFetchedAt": "2017-05-05T15:42:07.282Z"
 }

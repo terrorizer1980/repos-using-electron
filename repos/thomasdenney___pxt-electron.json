@@ -69,6 +69,7 @@
     "name": "code-the-microbit",
     "version": "1.0.0",
     "description": "Blocks / Javascript editor",
+    "author": "Microsoft",
     "main": "main.js",
     "scripts": {
       "start": "node_modules/.bin/electron ."
@@ -103,5 +104,6 @@
   },
   "filename": "thomasdenney___pxt-electron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-03T20:04:34.752Z"
+  "lastFetchedAt": "2017-05-03T20:04:34.752Z",
+  "packageLastFetchedAt": "2017-05-05T01:20:04.566Z"
 }

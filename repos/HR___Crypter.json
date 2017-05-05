@@ -54,14 +54,20 @@
   "packageJSON": {
     "name": "Crypter",
     "productName": "Crypter",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "description": "An innovative, convenient and secure cross-platform crypto app",
     "license": "MIT",
     "repository": "https://github.com/HR/Crypter",
     "homepage": "https://github.com/HR/Crypter",
+    "bugs": "https://github.com/HR/Crypter/issues",
     "main": "./app/index.js",
+    "author": {
+      "name": "Habib Rehman",
+      "email": "Habib.R@outlook.com",
+      "url": "https://git.io/HR"
+    },
     "engines": {
-      "node": ">=4"
+      "node": ">=6"
     },
     "build": {
       "appId": "com.github.hr.crypter",
@@ -123,23 +129,23 @@
     },
     "scripts": {
       "pack": "build --dir",
-      "dist": "build -m",
-      "windist": "node_modules/.bin/build -w --x64 --ia32",
-      "electronVersion": "node_modules/.bin/electron -v | sed s/\\v//g",
+      "osxbuild": "build -m",
+      "linbuild": "build -l",
+      "winbuild": "build -w --x64 --ia32",
+      "start": "electron .",
       "postinstall": "install-app-deps",
       "nodeGypReBuild": "./node_modules/.bin/electron-rebuild .",
+      "electronVersion": "node_modules/.bin/electron -v | sed s/\\v//g",
       "test": "TEST_RUN=true mocha --compilers js:babel-core/register test/test.js",
-      "xltest": "unset TEST_RUN && rm -rf ~/Library/Application\\ Support/CrypterTest/ && mocha --compilers js:babel-core/register ./test/ui/*.js",
       "xtest": "npm run xtestbuild && npm run xltest",
-      "xtestbuild": "npm_package_productName=CrypterTest && electron-packager . $npm_package_productName --out=dest --ignore='(test|dest|coverage|backups|github)' --asar=false --platform=darwin --arch=x64 --version=$(npm run electronVersion) --icon=app/icons/Crypter.icns --app-copyright=HR --overwrite && npm run productNameChange",
-      "xbuild": "electron-packager . $npm_package_productName --out=dest --ignore='(test|dest|coverage|github)' --asar=false --platform=darwin --arch=x64 --version=$(npm run electronVersion) --icon=app/icons/Crypter.icns --app-copyright=Habib_Rehman --overwrite",
-      "coverage": "TEST_RUN=true ./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover --root src/ ./node_modules/.bin/_mocha -- test/test.js --reporter mocha-lcov-reporter",
+      "coverage": "TEST_RUN=true ./node_modules/.bin/babel-node ./node_modules/.bin/isparta cover --root core/ ./node_modules/.bin/_mocha -- test/test.js --reporter mocha-lcov-reporter",
       "coveralls": "node ./node_modules/.bin/coveralls < coverage/lcov.info",
       "codeclimate": "node ./node_modules/.bin/codeclimate-test-reporter < coverage/lcov.info",
-      "productNameChange": "perl -pi -e 's/\"Crypter\"/\"CrypterTest\"/g' ./dest/CrypterTest-darwin-x64/CrypterTest.app/Contents/Resources/app/package.json && perl -pi -e 's/Crypter/CrypterTest/g' ./dest/CrypterTest-darwin-x64/CrypterTest.app/Contents/Resources/app/index.js",
-      "start": "./node_modules/.bin/electron .",
-      "wbuild": "chmod +x script/win-build.sh && script/win-build.sh",
-      "build": "electron-packager . $npm_package_productName --out=dest --ignore='(test|dest|coverage)' --prune --asar --all --version=$(npm run electronVersion)"
+      "package": "electron-packager . $npm_package_productName --out=dest --ignore='(test|dest|coverage)' --prune --asar --all --version=$(npm run electronVersion)",
+      "winpackage": "chmod +x script/win-build.sh && script/win-build.sh",
+      "xpackage": "electron-packager . $npm_package_productName --out=dest --ignore='(test|dest|coverage|github)' --asar=false --platform=darwin --arch=x64 --version=$(npm run electronVersion) --icon=app/icons/Crypter.icns --app-copyright=Habib_Rehman --overwrite",
+      "xltest": "unset TEST_RUN && rm -rf ~/Library/Application\\ Support/CrypterTest/ && mocha --compilers js:babel-core/register ./test/ui/*.js",
+      "xtestbuild": "npm_package_productName=CrypterTest && electron-packager . $npm_package_productName --out=dest --ignore='(test|dest|coverage|backups|github)' --asar=false --platform=darwin --arch=x64 --version=$(npm run electronVersion) --icon=app/icons/Crypter.icns --app-copyright=HR --overwrite && npm run productNameChange"
     },
     "keywords": [
       "encryption",
@@ -152,19 +158,16 @@
     "devDependencies": {
       "babel-cli": "^6.11.4",
       "babel-core": "^6.17.0",
-      "babel-eslint": "*",
       "babel-preset-es2015": "*",
       "chai": "*",
       "chai-as-promised": "^5.3.0",
       "codeclimate-test-reporter": "^0.3.3",
       "coveralls": "^2.11.12",
-      "devtron": "^1.3.0",
-      "electron-builder": "^7.15.2",
-      "electron-packager": "*",
-      "electron-prebuilt": "1.1.3",
-      "electron-rebuild": "^1.1.5",
-      "eslint": "^2.0.0-rc.0",
-      "eslint-plugin-html": "*",
+      "devtron": "*",
+      "electron": "^1.4.11",
+      "electron-builder": "^10.6.1",
+      "electron-packager": "^8.4.0",
+      "electron-rebuild": "^1.4.0",
       "gulp": "*",
       "gulp-babel": "^6.1.2",
       "gulp-babel-istanbul": "^1.4.0",
@@ -173,12 +176,11 @@
       "gulp-json-editor": "^2.2.1",
       "gulp-less": "^3.1.0",
       "gulp-mocha": "^3.0.0",
-      "gulp-shell": "*",
       "isparta": "^4.0.0",
       "less-plugin-clean-css": "^1.5.1",
       "mocha": "^3.1.2",
       "mocha-lcov-reporter": "^1.2.0",
-      "spectron": "^3.3.0",
+      "spectron": "*",
       "standard": "^7.1.2"
     }
   },
@@ -227,5 +229,6 @@
   },
   "filename": "HR___Crypter.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:25:35.110Z"
+  "lastFetchedAt": "2017-05-04T14:25:35.110Z",
+  "packageLastFetchedAt": "2017-05-04T22:07:25.871Z"
 }

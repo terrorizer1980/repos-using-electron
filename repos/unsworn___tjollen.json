@@ -72,12 +72,19 @@
       "testo": "echo $npm_package_version",
       "deploy": "npm run version && git push --tags origin master"
     },
-    "repository": "https://github.com/unsworn/tjollen",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/unsworn/tjollen"
+    },
     "keywords": [
       "kiosk",
       "web"
     ],
+    "author": "Unsworn",
     "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/unsworn/tjollen/issues"
+    },
     "homepage": "https://github.com/unsworn/tjollen",
     "devDependencies": {
       "electron-packager": "^5.2.0",
@@ -129,5 +136,6 @@
   "svnUrl": "https://github.com/unsworn/tjollen",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T18:04:22.724Z"
+  "lastFetchedAt": "2017-05-04T18:04:22.724Z",
+  "packageLastFetchedAt": "2017-05-04T22:57:52.684Z"
 }

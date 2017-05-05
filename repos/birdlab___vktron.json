@@ -73,8 +73,15 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/birdlab/vktron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/birdlab/vktron"
+    },
+    "author": "BirdLab",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/birdlab/vktron/issues"
+    },
     "homepage": "https://github.com/birdlab/vktron#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -105,5 +112,6 @@
   },
   "filename": "birdlab___vktron.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T04:56:58.531Z"
+  "lastFetchedAt": "2017-05-04T04:56:58.531Z",
+  "packageLastFetchedAt": "2017-05-05T14:49:15.344Z"
 }

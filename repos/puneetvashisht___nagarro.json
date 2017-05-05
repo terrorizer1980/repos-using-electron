@@ -76,8 +76,15 @@
       "start": "concurrent --kill-others \"gulp watch\" \"lite-server\"",
       "postinstall": "typings install"
     },
-    "repository": "https://github.com/kolorobot/angular2-typescript-gulp",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/kolorobot/angular2-typescript-gulp.git"
+    },
+    "author": "Rafał Borowiec",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kolorobot/angular2-typescript-gulp/issues"
+    },
     "dependencies": {
       "bootstrap": "^3.3.6",
       "@angular/common": "2.0.0-rc.1",
@@ -136,5 +143,6 @@
   },
   "filename": "puneetvashisht___nagarro.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:23:15.845Z"
+  "lastFetchedAt": "2017-05-04T21:23:15.845Z",
+  "packageLastFetchedAt": "2017-05-05T15:32:50.901Z"
 }

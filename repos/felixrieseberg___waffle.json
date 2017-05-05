@@ -50,6 +50,10 @@
     "version": "0.0.0",
     "description": "Small description for butter goes here",
     "private": true,
+    "directories": {
+      "doc": "doc",
+      "test": "tests"
+    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -61,6 +65,7 @@
     "engines": {
       "node": ">= 0.10.0"
     },
+    "author": "",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "^4.1.8",
@@ -193,5 +198,6 @@
   "svnUrl": "https://github.com/felixrieseberg/waffle",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T08:01:42.700Z"
+  "lastFetchedAt": "2017-05-04T08:01:42.700Z",
+  "packageLastFetchedAt": "2017-05-05T14:32:55.799Z"
 }

@@ -57,6 +57,9 @@
     "description": "An entry into Ludum Dare 35",
     "license": "UNLICENSED",
     "repository": "/transmogrifying-tarot",
+    "author": {
+      "name": "Bruno Dias"
+    },
     "electronVersion": "0.35.0",
     "scripts": {
       "postinstall": "echo $npm_package_version > $npm_package_name.version && git commit -am \"Add version number\"",
@@ -148,5 +151,6 @@
   },
   "filename": "sequitur___Transmogrifying-Tarot.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T14:23:20.264Z"
+  "lastFetchedAt": "2017-05-04T14:23:20.264Z",
+  "packageLastFetchedAt": "2017-05-05T15:37:59.709Z"
 }

@@ -88,13 +88,17 @@
   "packageJSON": {
     "name": "MyEngine",
     "description": "A powerful mixture of nodejs, chrome, and a game engine.",
-    "version": "0.0.1",
+    "version": "0.0.7",
     "license": "MIT",
     "repository": "https://github.com/MyUPlay/MyEngine",
-    "devDependencies": {
-      "electron": "^1.4.3"
+    "main": "test/core/BasicExample-electron.js",
+    "dependencies": {
+      "electron": "1.4.15",
+      "nbind": "^0.3.9"
     },
-    "main": "game.js"
+    "scripts": {
+      "install": "make"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -121,5 +125,6 @@
   },
   "filename": "MyUPlay___MyEngine.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T21:13:08.993Z"
+  "lastFetchedAt": "2017-05-04T21:13:08.993Z",
+  "packageLastFetchedAt": "2017-05-04T23:03:26.752Z"
 }

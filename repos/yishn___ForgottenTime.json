@@ -73,5 +73,54 @@
   "networkCount": 0,
   "subscribersCount": 1,
   "status": 200,
-  "lastFetchedAt": "2017-05-04T20:02:09.218Z"
+  "lastFetchedAt": "2017-05-04T20:02:09.218Z",
+  "packageJSON": {
+    "name": "forgottentime",
+    "productName": "ForgottenTime",
+    "version": "0.1.0",
+    "description": "A simple timer app for everybody.",
+    "author": "Yichuan Shen <shen.yichuan@gmail.com>",
+    "homepage": "https://github.com/yishn/ForgottenTime",
+    "license": "MIT",
+    "main": "main.js",
+    "keywords": [
+      "timer",
+      "app",
+      "electron"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/yishn/ForgottenTime.git"
+    },
+    "bugs": {
+      "url": "https://github.com/yishn/ForgottenTime/issues"
+    },
+    "build": {
+      "appId": "de.yichuanshen.forgottentime",
+      "compression": "maximum",
+      "nsis": {
+        "oneClick": false,
+        "perMachine": true,
+        "allowToChangeInstallationDirectory": true,
+        "artifactName": "forgottentime-v${version}-win-setup.${ext}"
+      },
+      "linux": {
+        "category": "Utility"
+      }
+    },
+    "scripts": {
+      "pack": "build --dir",
+      "dist:win": "build -w --ia32",
+      "dist:linux": "build -l --ia32 --x64"
+    },
+    "devDependencies": {
+      "electron": "1.4.15",
+      "electron-builder": "^13.6.0"
+    },
+    "dependencies": {
+      "preact": "^7.2.0"
+    }
+  },
+  "packageStatus": 200,
+  "packageLastFetchedAt": "2017-05-05T15:06:14.730Z"
 }

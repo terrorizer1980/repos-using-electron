@@ -59,14 +59,21 @@
     "scripts": {
       "test": "./node_modules/mocha/bin/mocha"
     },
-    "repository": "https://github.com/StephenDavidson/electron-spectron-example",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/StephenDavidson/electron-spectron-example.git"
+    },
     "keywords": [
       "example",
       "spectron",
       "electron",
       "selenium"
     ],
+    "author": "Stephen Davidson",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/StephenDavidson/electron-spectron-example/issues"
+    },
     "homepage": "https://github.com/StephenDavidson/electron-spectron-example#readme",
     "devDependencies": {
       "chai": "^3.5.0",
@@ -121,5 +128,6 @@
   },
   "filename": "StephenDavidson___electron-spectron-example.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:25:25.062Z"
+  "lastFetchedAt": "2017-05-04T05:25:25.062Z",
+  "packageLastFetchedAt": "2017-05-05T15:11:58.712Z"
 }

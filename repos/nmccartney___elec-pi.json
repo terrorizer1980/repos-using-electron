@@ -59,14 +59,21 @@
     "scripts": {
       "start": "electron main.js "
     },
-    "repository": "https://github.com/nmccartney/elec-pi",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/nmccartney/elec-pi"
+    },
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
+    "author": "Nathan McCartney",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/nmccartney/elec-pi/issues"
+    },
     "homepage": "https://github.com/nmccartney/elec-pi",
     "devDependencies": {
       "electron-connect": "^0.5.0",
@@ -130,5 +137,6 @@
   "svnUrl": "https://github.com/nmccartney/elec-pi",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:16:31.871Z"
+  "lastFetchedAt": "2017-05-04T05:16:31.871Z",
+  "packageLastFetchedAt": "2017-05-05T15:02:17.105Z"
 }

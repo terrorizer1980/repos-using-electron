@@ -59,7 +59,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": "https://github.com/marcelowa/soundcloud-electron",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/marcelowa/soundcloud-electron.git"
+    },
     "keywords": [
       "SoundCloud",
       "Electron",
@@ -68,7 +71,11 @@
       "Webpack",
       "Babel"
     ],
+    "author": "GitHub",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/marcelowa/soundcloud-electron/issues"
+    },
     "homepage": "https://github.com/marcelowa/soundcloud-electron",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0",
@@ -153,5 +160,6 @@
   "svnUrl": "https://github.com/marcelowa/soundcloud-electron",
   "hasProjects": true,
   "mirrorUrl": null,
-  "lastFetchedAt": "2017-05-04T05:24:28.975Z"
+  "lastFetchedAt": "2017-05-04T05:24:28.975Z",
+  "packageLastFetchedAt": "2017-05-04T22:46:23.642Z"
 }

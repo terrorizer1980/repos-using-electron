@@ -70,6 +70,7 @@
     "version": "1.0.0",
     "description": "chao",
     "main": "main.js",
+    "author": "songchao",
     "license": "ISC",
     "devDependencies": {
       "electron-builder": "^7.24.1",
@@ -103,7 +104,8 @@
     },
     "scripts": {
       "start": "electron .",
-      "dist": "build --win --x64"
+      "dist": "build --win --x64",
+      "build": "build --win --x64"
     }
   },
   "packageStatus": 200,
@@ -131,5 +133,6 @@
   },
   "filename": "1003657663___regularTool.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:28:15.278Z"
+  "lastFetchedAt": "2017-05-04T19:28:15.278Z",
+  "packageLastFetchedAt": "2017-05-04T22:39:49.297Z"
 }

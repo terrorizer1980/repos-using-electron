@@ -58,7 +58,11 @@
       "nw",
       "creeperhost"
     ],
-    "repository": "https://github.com/joedski/creeperpanel-elm",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/joedski/creeperpanel-elm.git"
+    },
+    "author": "Joseph Sikorski <joedski@gmail.com>",
     "license": "ISC",
     "devDependencies": {
       "css-brunch": "^1.7.0",
@@ -114,5 +118,6 @@
   },
   "filename": "joedski___creeperpanel-elm.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T20:05:02.691Z"
+  "lastFetchedAt": "2017-05-04T20:05:02.691Z",
+  "packageLastFetchedAt": "2017-05-05T17:51:56.560Z"
 }

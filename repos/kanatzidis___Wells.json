@@ -74,7 +74,10 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron main.js"
     },
-    "repository": "https://github.com/kanatzidis/Wells",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/kanatzidis/Wells.git"
+    },
     "keywords": [
       "fuse",
       "apple",
@@ -82,7 +85,13 @@
       "machine",
       "linux"
     ],
+    "author": {
+      "email": "gregori@alabastertech.com"
+    },
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/kanatzidis/Wells/issues"
+    },
     "homepage": "https://github.com/kanatzidis/Wells#readme",
     "dependencies": {
       "fuse-bindings": "^2.9.0",
@@ -128,5 +137,6 @@
   },
   "filename": "kanatzidis___Wells.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T05:28:10.603Z"
+  "lastFetchedAt": "2017-05-04T05:28:10.603Z",
+  "packageLastFetchedAt": "2017-05-05T14:38:44.620Z"
 }

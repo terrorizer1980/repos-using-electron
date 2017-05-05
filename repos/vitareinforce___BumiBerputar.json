@@ -79,9 +79,16 @@
     "scripts": {
       "start": "electron desktop.js"
     },
-    "repository": "https://github.com/vitareinforce/BumiBerputar",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vitareinforce/BumiBerputar.git"
+    },
     "keywords": [],
+    "author": "Vitradisa Pratama 23215331",
     "license": "CC0-1.0",
+    "bugs": {
+      "url": "https://github.com/vitareinforce/BumiBerputar/issues"
+    },
     "homepage": "https://github.com/vitareinforce/BumiBerputar#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.0",
@@ -114,5 +121,6 @@
   },
   "filename": "vitareinforce___BumiBerputar.json",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T19:39:55.976Z"
+  "lastFetchedAt": "2017-05-04T19:39:55.976Z",
+  "packageLastFetchedAt": "2017-05-05T01:26:49.744Z"
 }

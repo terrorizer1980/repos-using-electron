@@ -75,17 +75,8 @@
       "example": "electron-spawn example.js"
     },
     "repository": {
-      "user": "livejs",
-      "repo": "audio-buffer-range-decoder",
-      "host": "github.com",
-      "branch": "master",
-      "apiHost": "api.github.com",
-      "tarball_url": "https://api.github.com/repos/livejs/audio-buffer-range-decoder/tarball/master",
-      "clone_url": "https://github.com/livejs/audio-buffer-range-decoder",
-      "https_url": "https://github.com/livejs/audio-buffer-range-decoder",
-      "travis_url": "https://travis-ci.org/livejs/audio-buffer-range-decoder",
-      "zip_url": "https://github.com/livejs/audio-buffer-range-decoder/archive/master.zip",
-      "api_url": "https://api.github.com/repos/livejs/audio-buffer-range-decoder"
+      "type": "git",
+      "url": "https://github.com/livejs/audio-buffer-range-decoder.git"
     },
     "keywords": [
       "AudioBuffer",
@@ -98,7 +89,11 @@
       "opus",
       "webm"
     ],
+    "author": "Matt McKegg",
     "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/livejs/random-access-audio-buffer/issues"
+    },
     "homepage": "https://github.com/livejs/random-access-audio-buffer",
     "devDependencies": {
       "electron-prebuilt": "^0.37.6",
@@ -135,5 +130,6 @@
   "filename": "mmckegg___audio-buffer-range-decoder.json",
   "sourceRepo": "livejs/audio-buffer-range-decoder",
   "hasProjects": true,
-  "lastFetchedAt": "2017-05-04T13:05:01.213Z"
+  "lastFetchedAt": "2017-05-04T13:05:01.213Z",
+  "packageLastFetchedAt": "2017-05-05T01:28:06.013Z"
 }
