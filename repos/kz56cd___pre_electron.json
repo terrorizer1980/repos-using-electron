@@ -74,12 +74,14 @@
       "build": "node_modules/.bin/electron .",
       "release": "node release.js"
     },
-    "author": "",
     "license": "ISC",
     "devDependencies": {
       "browserify": "^12.0.1",
       "electron-packager": "^5.2.0",
       "electron-prebuilt": "^0.36.2"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -108,5 +110,8 @@
   "filename": "kz56cd___pre_electron.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:31:51.824Z",
-  "packageLastFetchedAt": "2017-05-05T15:02:35.136Z"
+  "packageLastFetchedAt": "2017-05-05T15:02:35.136Z",
+  "contributors": [
+    "kz56cd"
+  ]
 }

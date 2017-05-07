@@ -222,15 +222,7 @@
       "start": "electron . --dev",
       "watch": "gulp watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-"
-    },
-    "author": {
-      "name": "Samuel Attard",
-      "email": "samuel.r.attard@gmail.com",
-      "url": "https://www.samuelattard.com"
-    },
+    "repository": "https://github.com/MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-",
     "homepage": "http://www.googleplaymusicdesktopplayer.com",
     "license": "MIT",
     "dependencies": {
@@ -313,6 +305,13 @@
       "presets": [
         "es2015"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Samuel Attard",
+        "email": "samuel.r.attard@gmail.com",
+        "url": "https://www.samuelattard.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -342,5 +341,47 @@
   "sourceRepo": "MarshallOfSound/Google-Play-Music-Desktop-Player-UNOFFICIAL-",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:49:03.522Z",
-  "packageLastFetchedAt": "2017-05-04T22:04:37.428Z"
+  "packageLastFetchedAt": "2017-05-04T22:04:37.428Z",
+  "contributors": [
+    "MarshallOfSound",
+    "jostrander",
+    "MightyPork",
+    "alberthdev",
+    "MCManuelLP",
+    "N0ps32",
+    "greenkeeperio-bot",
+    "Tankatronic",
+    "Kun2210",
+    "Triloworld",
+    "SeanCline",
+    "berryelectronics",
+    "ja-som",
+    "dylanlesko",
+    "jacobmischka",
+    "rynti",
+    "clatour",
+    "steenburgh",
+    "metalmatze",
+    "amaitland",
+    "JoshuaGarrison27",
+    "apeduru",
+    "BrianAllred",
+    "bjohnso5",
+    "ChrisB9",
+    "chrismou",
+    "gvmelle",
+    "jpsacheti",
+    "FuzzAU",
+    "mattcfox",
+    "caseif",
+    "NuclearFej",
+    "GreenTurtwig",
+    "shakeelmohamed",
+    "Stevoni",
+    "gitter-badger",
+    "thsnr",
+    "tiwillia",
+    "tonygambone",
+    "yopspanjers"
+  ]
 }

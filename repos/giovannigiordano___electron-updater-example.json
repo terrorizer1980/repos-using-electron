@@ -193,7 +193,6 @@
     "version": "0.4.3",
     "main": "main.js",
     "description": "electron-updater example project",
-    "author": "Giovanni Giordano",
     "scripts": {
       "dist": "build --win -p always"
     },
@@ -205,10 +204,7 @@
       "electron-log": "^1.3.0",
       "electron-updater": "^1.4.2"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/giovannigiordano/electron-updater-example.git"
-    },
+    "repository": "https://github.com/giovannigiordano/electron-updater-example",
     "build": {
       "appId": "com.github.giovannigiordano.electronupdaterexample",
       "mac": {
@@ -221,8 +217,16 @@
       "nsis": {
         "perMachine": true
       }
+    },
+    "other": {
+      "author": "Giovanni Giordano"
     }
   },
   "packageStatus": 200,
-  "packageLastFetchedAt": "2017-05-05T15:20:05.988Z"
+  "packageLastFetchedAt": "2017-05-05T15:20:05.988Z",
+  "contributors": [
+    "iffy",
+    "akashnimare",
+    "develar"
+  ]
 }

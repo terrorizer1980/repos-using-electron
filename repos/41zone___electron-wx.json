@@ -101,13 +101,15 @@
       "WeChat",
       "ATOM"
     ],
-    "author": "Jimmy Song",
     "license": "MIT",
     "dependencies": {
       "electron": "^1.4.12"
     },
     "devDependencies": {
       "electron-packager": "^8.4.0"
+    },
+    "other": {
+      "author": "Jimmy Song"
     }
   },
   "packageStatus": 200,
@@ -135,5 +137,8 @@
   },
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T17:56:07.591Z",
-  "packageLastFetchedAt": "2017-05-05T15:25:41.871Z"
+  "packageLastFetchedAt": "2017-05-05T15:25:41.871Z",
+  "contributors": [
+    "jimmy-song"
+  ]
 }

@@ -78,18 +78,11 @@
       "start": "electron .",
       "validate-webpack": "webpack-validator webpack.config.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/HackerHappyHour/lgit.git"
-    },
+    "repository": "https://github.com/HackerHappyHour/lgit",
     "keywords": [
       "issues"
     ],
-    "author": "Brian Vanderbusch",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/HackerHappyHour/lgit/issues"
-    },
     "homepage": "https://github.com/HackerHappyHour/lgit#readme",
     "devDependencies": {
       "babel-loader": "latest",
@@ -113,6 +106,12 @@
       "express": "^4.14.0",
       "material-design-lite": "^1.1.3",
       "xstream": "~5.3.6"
+    },
+    "other": {
+      "author": "Brian Vanderbusch",
+      "bugs": {
+        "url": "https://github.com/HackerHappyHour/lgit/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -161,5 +160,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T18:03:52.859Z",
-  "packageLastFetchedAt": "2017-05-05T17:33:01.481Z"
+  "packageLastFetchedAt": "2017-05-05T17:33:01.481Z",
+  "contributors": [
+    "LongLiveCHIEF"
+  ]
 }

@@ -170,12 +170,8 @@
     "version": "1.0.10",
     "description": "OpenBazaar Client",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/OpenBazaar/OpenBazaar-Client.git"
-    },
+    "repository": "https://github.com/OpenBazaar/OpenBazaar-Client",
     "homepage": "https://openbazaar.org/",
-    "bugs": "https://github.com/OpenBazaar/OpenBazaar-Client/issues/",
     "license": "MIT",
     "scripts": {
       "start": "electron main.js",
@@ -218,7 +214,10 @@
       "valiquire",
       "lint",
       "test"
-    ]
+    ],
+    "other": {
+      "bugs": "https://github.com/OpenBazaar/OpenBazaar-Client/issues/"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -267,5 +266,46 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T16:42:26.014Z",
-  "packageLastFetchedAt": "2017-05-05T15:42:31.463Z"
+  "packageLastFetchedAt": "2017-05-05T15:42:31.463Z",
+  "contributors": [
+    "jjeffryes",
+    "morebrownies",
+    "rmisio",
+    "hoffmabc",
+    "Kirvx",
+    "rhcastilhos",
+    "ayalan",
+    "Squirrel2020",
+    "cpacia",
+    "HostFat",
+    "mariodian",
+    "STRML",
+    "SamPatt",
+    "drwasho",
+    "gubatron",
+    "jamesdwilson",
+    "JustinDrake",
+    "pryds",
+    "djbooth007",
+    "nissimk",
+    "moldcraft",
+    "z3ntu",
+    "LodeRunner2",
+    "saltduck",
+    "jonathancross",
+    "markm1992",
+    "llamaha",
+    "DanielWeigl",
+    "Dekker3D",
+    "M0Rf30",
+    "hauxir",
+    "jlopp",
+    "JCLengeling",
+    "nanomo",
+    "sir-pinecone",
+    "mpatc",
+    "pouta",
+    "Libter",
+    "tenthirtyone"
+  ]
 }

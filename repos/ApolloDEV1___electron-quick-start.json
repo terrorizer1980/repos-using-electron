@@ -173,24 +173,23 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -240,5 +239,20 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T18:08:31.837Z",
-  "packageLastFetchedAt": "2017-05-05T15:28:30.123Z"
+  "packageLastFetchedAt": "2017-05-05T15:28:30.123Z",
+  "contributors": [
+    "kevinsawicki",
+    "tcyrus",
+    "izuzak",
+    "galeksandrp",
+    "clemens-tolboom",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "zanesterling",
+    "bokuweb",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

@@ -67,7 +67,6 @@
   "status": 200,
   "packageJSON": {
     "name": "ionic-hello-world",
-    "author": "Ionic Framework",
     "homepage": "http://ionicframework.com/",
     "private": true,
     "scripts": {
@@ -115,6 +114,9 @@
     "description": "VFX Pipeline",
     "config": {
       "ionic_webpack": "./webpack.config.js"
+    },
+    "other": {
+      "author": "Ionic Framework"
     }
   },
   "packageStatus": 200,
@@ -143,5 +145,8 @@
   "filename": "michaelb-01___pipe2.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:15:43.280Z",
-  "packageLastFetchedAt": "2017-05-05T01:27:18.853Z"
+  "packageLastFetchedAt": "2017-05-05T01:27:18.853Z",
+  "contributors": [
+    "michaelb-01"
+  ]
 }

@@ -84,10 +84,6 @@
     "version": "3.0.0",
     "description": "Small description for sqlite-app goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -97,7 +93,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "^2.2.0",
@@ -166,6 +161,13 @@
     },
     "dependencies": {
       "sqlite3": "^3.1.1"
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -194,5 +196,9 @@
   "filename": "EmberGrep___sqlite-ez.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:26:57.306Z",
-  "packageLastFetchedAt": "2017-05-04T23:02:30.375Z"
+  "packageLastFetchedAt": "2017-05-04T23:02:30.375Z",
+  "contributors": [
+    "rtablada",
+    "ember-tomster"
+  ]
 }

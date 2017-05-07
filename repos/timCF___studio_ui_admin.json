@@ -69,7 +69,6 @@
     "name": "studio-admin",
     "main": "electron/main.js",
     "description": "Description",
-    "author": "Your Name",
     "version": "0.1.0",
     "repository": {
       "type": "git",
@@ -104,6 +103,9 @@
       "clean-css-brunch": "^2.0.0",
       "auto-reload-brunch": "^2.0.0",
       "electron": "^1.4.1"
+    },
+    "other": {
+      "author": "Your Name"
     }
   },
   "packageStatus": 200,
@@ -132,5 +134,8 @@
   "filename": "timCF___studio_ui_admin.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T04:58:59.741Z",
-  "packageLastFetchedAt": "2017-05-05T15:40:51.071Z"
+  "packageLastFetchedAt": "2017-05-05T15:40:51.071Z",
+  "contributors": [
+    "timCF"
+  ]
 }

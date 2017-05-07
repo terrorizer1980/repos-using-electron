@@ -59,10 +59,7 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/austin94/agile-timer.git"
-    },
+    "repository": "https://github.com/austin94/agile-timer",
     "keywords": [
       "Electron",
       "Angular2",
@@ -70,10 +67,12 @@
       "Agile",
       "Timer"
     ],
-    "author": "Austin Green",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Austin Green"
     }
   },
   "packageStatus": 200,
@@ -122,5 +121,6 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T20:50:17.367Z",
-  "packageLastFetchedAt": "2017-05-05T14:31:21.571Z"
+  "packageLastFetchedAt": "2017-05-05T14:31:21.571Z",
+  "contributors": []
 }

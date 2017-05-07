@@ -60,13 +60,7 @@
       "dist:win64": "build --platform win32 --arch x64",
       "dist:osx": "build --osx"
     },
-    "repository": {
-      "type": "git",
-      "url": "http://github.com/michaelbromley/skqw"
-    },
-    "bugs": {
-      "url": "https://github.com/michaelbromley/skqw/issues"
-    },
+    "repository": "https://github.com/michaelbromley/skqw",
     "devDependencies": {
       "@angular/animations": "^4.0.2",
       "@angular/common": "^4.0.2",
@@ -124,6 +118,11 @@
         "icon": "build/icon.ico"
       },
       "nodeGypRebuild": false
+    },
+    "other": {
+      "bugs": {
+        "url": "https://github.com/michaelbromley/skqw/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -172,5 +171,9 @@
   "filename": "michaelbromley___skqw.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:11:54.571Z",
-  "packageLastFetchedAt": "2017-05-05T17:42:10.227Z"
+  "packageLastFetchedAt": "2017-05-05T17:42:10.227Z",
+  "contributors": [
+    "michaelbromley",
+    "leonardola"
+  ]
 }

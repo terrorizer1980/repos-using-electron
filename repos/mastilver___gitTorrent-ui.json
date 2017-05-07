@@ -78,11 +78,6 @@
     "description": "Ui for gittorrent",
     "license": "MIT",
     "repository": "mastilver/gittorrent-ui",
-    "author": {
-      "name": "Thomas Sileghem",
-      "email": "tsileghem@neworbit.co.uk",
-      "url": "mastilver.com"
-    },
     "electronVersion": "0.35.0",
     "scripts": {
       "test": "xo",
@@ -112,6 +107,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Thomas Sileghem",
+        "email": "tsileghem@neworbit.co.uk",
+        "url": "mastilver.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +142,8 @@
   "filename": "mastilver___gitTorrent-ui.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:11:43.296Z",
-  "packageLastFetchedAt": "2017-05-05T17:28:24.721Z"
+  "packageLastFetchedAt": "2017-05-05T17:28:24.721Z",
+  "contributors": [
+    "mastilver"
+  ]
 }

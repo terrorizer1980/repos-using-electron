@@ -89,7 +89,6 @@
       "electron",
       "javascript"
     ],
-    "author": "Dan Fairaizl",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.2.1",
@@ -117,6 +116,9 @@
       "redux-thunk": "^1.0.0",
       "request": "^2.67.0",
       "tar": "^2.2.1"
+    },
+    "other": {
+      "author": "Dan Fairaizl"
     }
   },
   "packageStatus": 200,
@@ -145,5 +147,8 @@
   "filename": "dfairaizl___mongodb-app.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:18:52.859Z",
-  "packageLastFetchedAt": "2017-05-04T22:35:07.511Z"
+  "packageLastFetchedAt": "2017-05-04T22:35:07.511Z",
+  "contributors": [
+    "dfairaizl"
+  ]
 }

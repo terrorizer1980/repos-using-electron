@@ -78,15 +78,8 @@
       "controls": "START=controls electron .",
       "test": "karma start"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/hyungkip/illusion.git"
-    },
-    "author": "",
+    "repository": "https://github.com/hyungkip/illusion",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/hyungkip/illusion/issues"
-    },
     "homepage": "https://github.com/hyungkip/illusion#readme",
     "dependencies": {
       "body-parser": "^1.16.0",
@@ -110,8 +103,17 @@
       "karma-electron": "^5.1.1",
       "karma-jasmine": "^1.1.0",
       "watchify": "^3.9.0"
+    },
+    "other": {
+      "author": "",
+      "bugs": {
+        "url": "https://github.com/hyungkip/illusion/issues"
+      }
     }
   },
   "packageStatus": 200,
-  "packageLastFetchedAt": "2017-05-04T22:32:54.004Z"
+  "packageLastFetchedAt": "2017-05-04T22:32:54.004Z",
+  "contributors": [
+    "hyungkip"
+  ]
 }

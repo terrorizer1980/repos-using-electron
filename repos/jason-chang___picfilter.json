@@ -59,21 +59,14 @@
     "scripts": {
       "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel-core": "^6.5.1",
@@ -113,6 +106,12 @@
       "request": "^2.69.0",
       "vue": "^1.0.17",
       "vue-router": "^0.7.11"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -161,5 +160,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T18:14:10.761Z",
-  "packageLastFetchedAt": "2017-05-05T15:27:02.007Z"
+  "packageLastFetchedAt": "2017-05-05T15:27:02.007Z",
+  "contributors": [
+    "jason-chang"
+  ]
 }

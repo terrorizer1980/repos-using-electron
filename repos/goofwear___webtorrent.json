@@ -195,11 +195,6 @@
     "name": "webtorrent",
     "description": "Streaming torrent client",
     "version": "0.97.2",
-    "author": {
-      "name": "WebTorrent, LLC",
-      "email": "feross@webtorrent.io",
-      "url": "https://webtorrent.io"
-    },
     "browser": {
       "./lib/server.js": false,
       "./lib/tcp-pool.js": false,
@@ -214,9 +209,6 @@
       "transform": [
         "package-json-versionify"
       ]
-    },
-    "bugs": {
-      "url": "https://github.com/feross/webtorrent/issues"
     },
     "dependencies": {
       "addr-to-ip-port": "^1.4.2",
@@ -300,10 +292,7 @@
     ],
     "license": "MIT",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/feross/webtorrent.git"
-    },
+    "repository": "https://github.com/feross/webtorrent",
     "scripts": {
       "build": "browserify -s WebTorrent -e ./ | uglifyjs -c warnings=false -m > webtorrent.min.js",
       "build-debug": "browserify -s WebTorrent -e ./ > webtorrent.debug.js",
@@ -314,6 +303,16 @@
       "test-browser-local": "zuul --local -- test/*.js test/browser/*.js",
       "test-node": "tape test/*.js test/node/*.js",
       "update-authors": "./bin/update-authors.sh"
+    },
+    "other": {
+      "author": {
+        "name": "WebTorrent, LLC",
+        "email": "feross@webtorrent.io",
+        "url": "https://webtorrent.io"
+      },
+      "bugs": {
+        "url": "https://github.com/feross/webtorrent/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -343,5 +342,85 @@
   "sourceRepo": "feross/webtorrent",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T14:23:43.566Z",
-  "packageLastFetchedAt": "2017-05-04T23:09:41.011Z"
+  "packageLastFetchedAt": "2017-05-04T23:09:41.011Z",
+  "contributors": [
+    "feross",
+    "DiegoRBaquero",
+    "josephfrazier",
+    "fisch0920",
+    "greenkeeperio-bot",
+    "astro",
+    "dcposch",
+    "joseph-onsip",
+    "valeriangalliat",
+    "grunjol",
+    "gillesdemey",
+    "jhiesey",
+    "ArtskydJ",
+    "solderzzc",
+    "Stiveknx",
+    "substack",
+    "olalonde",
+    "devTristan",
+    "ferrolho",
+    "mathiasvr",
+    "yciabaud",
+    "codealchemist",
+    "Chocobozzz",
+    "janza",
+    "MikeKovarik",
+    "OlaviSau",
+    "ReadmeCritic",
+    "shyamsalimkumar",
+    "andreapaiola",
+    "goofwear",
+    "elendirx",
+    "vinz243",
+    "afshinm",
+    "ajainvivek",
+    "amilajack",
+    "adjohnson916",
+    "imsnif",
+    "niieani",
+    "bobrenjc93",
+    "bradberger",
+    "rabidaudio",
+    "chrisaljoudi",
+    "cvillecsteele",
+    "ericwooley",
+    "FaCuZ",
+    "fpinzn",
+    "fiatjaf",
+    "shime",
+    "ivucica",
+    "jablko",
+    "jakefb",
+    "jerodsanto",
+    "jcytong",
+    "TehShrike",
+    "liamgray",
+    "LinusU",
+    "lucaswxp",
+    "Lunik",
+    "manuel",
+    "mvayngrib",
+    "mattburesh",
+    "mauvm",
+    "miguelfreitas",
+    "mikeal",
+    "rom1504",
+    "Sebmaster",
+    "sindresorhus",
+    "Tercus",
+    "gitter-badger",
+    "retrohacker",
+    "Sitebase",
+    "yousefamar",
+    "alexeisavca",
+    "charlescharles",
+    "darkenvy",
+    "iShift",
+    "thammin",
+    "v0dy"
+  ]
 }

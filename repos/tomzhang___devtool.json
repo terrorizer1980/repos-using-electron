@@ -171,11 +171,6 @@
     "description": "runs Node.js programs through Chromium DevTools",
     "main": "index.js",
     "license": "MIT",
-    "author": {
-      "name": "Matt DesLauriers",
-      "email": "dave.des@gmail.com",
-      "url": "https://github.com/mattdesl"
-    },
     "dependencies": {
       "browser-resolve": "^1.11.0",
       "chokidar": "^1.4.2",
@@ -230,16 +225,20 @@
       ]
     },
     "keywords": [],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/Jam3/devtool.git"
-    },
+    "repository": "https://github.com/Jam3/devtool",
     "homepage": "https://github.com/Jam3/devtool",
-    "bugs": {
-      "url": "https://github.com/Jam3/devtool/issues"
-    },
     "bin": {
       "devtool": "./bin/index.js"
+    },
+    "other": {
+      "author": {
+        "name": "Matt DesLauriers",
+        "email": "dave.des@gmail.com",
+        "url": "https://github.com/mattdesl"
+      },
+      "bugs": {
+        "url": "https://github.com/Jam3/devtool/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -289,5 +288,9 @@
   "sourceRepo": "Jam3/devtool",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:21:40.629Z",
-  "packageLastFetchedAt": "2017-05-05T14:45:07.576Z"
+  "packageLastFetchedAt": "2017-05-05T14:45:07.576Z",
+  "contributors": [
+    "mattdesl",
+    "Aldlevine"
+  ]
 }

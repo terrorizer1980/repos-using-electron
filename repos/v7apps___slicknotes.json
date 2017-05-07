@@ -89,7 +89,6 @@
     },
     "repository": "",
     "keywords": [],
-    "author": "Basit Ali",
     "devDependencies": {
       "babel-core": "^6.0.0",
       "babel-eslint": "^5.0.0-beta4",
@@ -153,6 +152,9 @@
       "spellchecker": "^3.2.3",
       "tidy-markdown": "^1.0.0",
       "typopro-web": "^3.4.3"
+    },
+    "other": {
+      "author": "Basit Ali"
     }
   },
   "packageStatus": 200,
@@ -201,5 +203,8 @@
   "filename": "v7apps___slicknotes.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:46:11.592Z",
-  "packageLastFetchedAt": "2017-05-04T22:45:29.387Z"
+  "packageLastFetchedAt": "2017-05-04T22:45:29.387Z",
+  "contributors": [
+    "BasitAli"
+  ]
 }

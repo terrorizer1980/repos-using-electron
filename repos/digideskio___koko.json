@@ -169,7 +169,6 @@
     "name": "Koko",
     "version": "0.2.0",
     "description": "Yet another IRC client for me and you",
-    "author": "Jun <me@noraesae.net>",
     "contributors": [
       {
         "name": "Hyunje Alex Jun",
@@ -177,13 +176,7 @@
       }
     ],
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/noraesae/koko.git"
-    },
-    "bugs": {
-      "url": "https://github.com/noraesae/koko/issues"
-    },
+    "repository": "https://github.com/noraesae/koko",
     "keywords": [
       "irc",
       "electron"
@@ -206,6 +199,12 @@
     },
     "scripts": {
       "test": "make"
+    },
+    "other": {
+      "author": "Jun <me@noraesae.net>",
+      "bugs": {
+        "url": "https://github.com/noraesae/koko/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -255,5 +254,9 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T18:33:25.888Z",
-  "packageLastFetchedAt": "2017-05-04T22:39:35.223Z"
+  "packageLastFetchedAt": "2017-05-04T22:39:35.223Z",
+  "contributors": [
+    "noraesae",
+    "vinkla"
+  ]
 }

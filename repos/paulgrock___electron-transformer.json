@@ -79,11 +79,6 @@
     "description": "My groundbreaking app",
     "license": "MIT",
     "repository": "paulgrock/electron-transformer",
-    "author": {
-      "name": "Paul Grock",
-      "email": "paulgrock@gmail.com",
-      "url": "paulgrock.com"
-    },
     "engines": {
       "node": ">=4"
     },
@@ -144,6 +139,13 @@
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0",
       "watchify": "^3.6.0"
+    },
+    "other": {
+      "author": {
+        "name": "Paul Grock",
+        "email": "paulgrock@gmail.com",
+        "url": "paulgrock.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -172,5 +174,8 @@
   "filename": "paulgrock___electron-transformer.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T04:57:18.554Z",
-  "packageLastFetchedAt": "2017-05-05T01:21:47.847Z"
+  "packageLastFetchedAt": "2017-05-05T01:21:47.847Z",
+  "contributors": [
+    "paulgrock"
+  ]
 }

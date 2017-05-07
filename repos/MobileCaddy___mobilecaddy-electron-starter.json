@@ -90,7 +90,6 @@
     "productName": "mobilecaddy-desktop",
     "version": "1.0.0",
     "description": "A minimal MobileCaddy Desktop Client",
-    "author": "MobileCaddy <support@mobilecaddy.net>",
     "license": "MIT",
     "main": "main.js",
     "buildName": "BIZ001",
@@ -151,6 +150,9 @@
       "mobilecaddy-electron": "git+https://github.com/MobileCaddy/mobilecaddy-electron",
       "rimraf": "^2.5.4",
       "sqlite3": "^3.1.8"
+    },
+    "other": {
+      "author": "MobileCaddy <support@mobilecaddy.net>"
     }
   },
   "packageStatus": 200,
@@ -180,5 +182,27 @@
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T14:50:31.187Z",
-  "packageLastFetchedAt": "2017-05-05T01:32:44.604Z"
+  "packageLastFetchedAt": "2017-05-05T01:32:44.604Z",
+  "contributors": [
+    "toddhalfpenny",
+    "kevinsawicki",
+    "zeke",
+    "tcyrus",
+    "izuzak",
+    "bokuweb",
+    "galeksandrp",
+    "bhaveshgohel",
+    "clemens-tolboom",
+    "posva",
+    "thompsonemerson",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "louistsaitszho",
+    "sahildua2305",
+    "zanesterling",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

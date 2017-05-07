@@ -77,13 +77,9 @@
     "private": true,
     "version": "0.0.1",
     "description": "An Desktop application for developers",
-    "author": "Fantasy <fantasyshao@icloud.com>",
     "license": "GPLv3",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/SFantasy/devbox.git"
-    },
+    "repository": "https://github.com/SFantasy/devbox",
     "scripts": {
       "start": "node server.js",
       "app": "electron .",
@@ -166,6 +162,9 @@
       "webpack-dev-middleware": "^1.9.0",
       "webpack-dev-server": "^1.16.2",
       "webpack-hot-middleware": "^2.13.2"
+    },
+    "other": {
+      "author": "Fantasy <fantasyshao@icloud.com>"
     }
   },
   "packageStatus": 200,
@@ -194,5 +193,8 @@
   "filename": "SFantasy___devbox.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:08:33.959Z",
-  "packageLastFetchedAt": "2017-05-05T14:39:48.793Z"
+  "packageLastFetchedAt": "2017-05-05T14:39:48.793Z",
+  "contributors": [
+    "SFantasy"
+  ]
 }

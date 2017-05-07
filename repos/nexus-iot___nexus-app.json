@@ -88,18 +88,11 @@
       "postinstall": "gulp init",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/nexus-iot/nexus-app.git"
-    },
+    "repository": "https://github.com/nexus-iot/nexus-app",
     "keywords": [
       "electron"
     ],
-    "author": "Thibault Friedrich <tf@elqui.fr>",
     "license": "LGPL-3.0",
-    "bugs": {
-      "url": "https://github.com/nexus-iot/nexus-app/issues"
-    },
     "homepage": "https://github.com/nexus-iot/nexus-app#readme",
     "devDependencies": {
       "electron-connect": "^0.4.2",
@@ -116,6 +109,12 @@
       "randomstring": "^1.1.5",
       "socket.io": "^1.4.8",
       "socket.io-client": "^1.4.8"
+    },
+    "other": {
+      "author": "Thibault Friedrich <tf@elqui.fr>",
+      "bugs": {
+        "url": "https://github.com/nexus-iot/nexus-app/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +143,8 @@
   "filename": "nexus-iot___nexus-app.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:17:15.272Z",
-  "packageLastFetchedAt": "2017-05-05T17:52:20.777Z"
+  "packageLastFetchedAt": "2017-05-05T17:52:20.777Z",
+  "contributors": [
+    "thibaultfriedrich"
+  ]
 }

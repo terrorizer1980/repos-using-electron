@@ -86,18 +86,11 @@
       "dist": "build",
       "dist-all": "build --linux --win --mac zip --x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/joostory/daumblog-editor.git"
-    },
+    "repository": "https://github.com/joostory/daumblog-editor",
     "keywords": [
       "electron"
     ],
-    "author": "Joo",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/joostory/daumblog-editor/issues"
-    },
     "homepage": "https://github.com/joostory/daumblog-editor#readme",
     "dependencies": {
       "electron-json-storage": "^3.0.1",
@@ -135,8 +128,17 @@
     },
     "build": {
       "appId": "net.joostory.daumblog-editor"
+    },
+    "other": {
+      "author": "Joo",
+      "bugs": {
+        "url": "https://github.com/joostory/daumblog-editor/issues"
+      }
     }
   },
   "packageStatus": 200,
-  "packageLastFetchedAt": "2017-05-05T17:02:59.219Z"
+  "packageLastFetchedAt": "2017-05-05T17:02:59.219Z",
+  "contributors": [
+    "joostory"
+  ]
 }

@@ -83,7 +83,6 @@
       "Label",
       "Extruder"
     ],
-    "author": "Roberto L. Machado",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.12.4",
@@ -100,6 +99,9 @@
       "node-printer": "^1.0.2",
       "serialport": "^4.0.7",
       "string": "^3.3.3"
+    },
+    "other": {
+      "author": "Roberto L. Machado"
     }
   },
   "packageStatus": 200,
@@ -128,5 +130,8 @@
   "filename": "robmachado___elabel.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:15:27.259Z",
-  "packageLastFetchedAt": "2017-05-04T22:33:44.001Z"
+  "packageLastFetchedAt": "2017-05-04T22:33:44.001Z",
+  "contributors": [
+    "robmachado"
+  ]
 }

@@ -97,19 +97,12 @@
       "start": "electron",
       "test": "mocha test/*.spec.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron-utils/electron-dockable.git"
-    },
+    "repository": "https://github.com/electron-utils/electron-dockable",
     "keywords": [
       "Electron",
       "Dockable"
     ],
-    "author": "jwu",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/electron-utils/electron-dockable/issues"
-    },
     "homepage": "https://github.com/electron-utils/electron-dockable",
     "dependencies": {
       "electron-drag-drop": "^1.0.3",
@@ -122,8 +115,17 @@
       "electron": "^1.6.5",
       "mocha": "^3.2.0",
       "spectron": "^3.6.1"
+    },
+    "other": {
+      "author": "jwu",
+      "bugs": {
+        "url": "https://github.com/electron-utils/electron-dockable/issues"
+      }
     }
   },
   "packageStatus": 200,
-  "packageLastFetchedAt": "2017-05-05T17:01:06.150Z"
+  "packageLastFetchedAt": "2017-05-05T17:01:06.150Z",
+  "contributors": [
+    "jwu"
+  ]
 }

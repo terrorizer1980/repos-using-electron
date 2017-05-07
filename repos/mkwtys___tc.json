@@ -49,7 +49,6 @@
     "name": "mkwtys-tc",
     "description": "electron twitter client",
     "version": "0.0.0",
-    "author": "mkwtys",
     "dependencies": {
       "jsonfile": "^2.2.3",
       "lodash": "^3.10.1",
@@ -76,6 +75,9 @@
       "package": "electron-packager . tc --platform=darwin --arch=x64 --version=0.34.3 --out=dist --cache=.cache",
       "start": "electron .",
       "watch": "bin/watch.sh"
+    },
+    "other": {
+      "author": "mkwtys"
     }
   },
   "packageStatus": 200,
@@ -124,5 +126,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T21:00:24.219Z",
-  "packageLastFetchedAt": "2017-05-04T22:06:08.654Z"
+  "packageLastFetchedAt": "2017-05-04T22:06:08.654Z",
+  "contributors": [
+    "mkwtys"
+  ]
 }

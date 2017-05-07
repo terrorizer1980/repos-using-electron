@@ -77,11 +77,13 @@
       "start": "electron ."
     },
     "repository": "chansuke/electron-soundcloud-client",
-    "author": "Yusuke Abe <moonset20@gmail.com> (https://github.com/chansuke)",
     "license": "MIT",
     "devDependencies": {
       "electron-packager": "^5.1.0",
       "electron-prebuilt": "^0.31.2"
+    },
+    "other": {
+      "author": "Yusuke Abe <moonset20@gmail.com> (https://github.com/chansuke)"
     }
   },
   "packageStatus": 200,
@@ -110,5 +112,8 @@
   "filename": "chansuke___electron-soundcloud-client.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T17:56:14.582Z",
-  "packageLastFetchedAt": "2017-05-05T17:15:41.131Z"
+  "packageLastFetchedAt": "2017-05-05T17:15:41.131Z",
+  "contributors": [
+    "chansuke"
+  ]
 }

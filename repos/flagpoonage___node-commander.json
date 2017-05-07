@@ -80,21 +80,14 @@
       "start": "electron main.js",
       "dev": "webpack-dev-server --colors --hot --inline --port 8090"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/flagpoonage/node-commander.git"
-    },
+    "repository": "https://github.com/flagpoonage/node-commander",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/flagpoonage/node-commander/issues"
-    },
     "homepage": "https://github.com/flagpoonage/node-commander#readme",
     "devDependencies": {
       "autoprefixer": "^6.3.6",
@@ -125,6 +118,12 @@
       "redux": "^3.5.2",
       "redux-thunk": "^2.1.0",
       "webpack": "^1.13.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/flagpoonage/node-commander/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -154,5 +153,24 @@
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:02:39.640Z",
-  "packageLastFetchedAt": "2017-05-05T15:23:16.011Z"
+  "packageLastFetchedAt": "2017-05-05T15:23:16.011Z",
+  "contributors": [
+    "kevinsawicki",
+    "tcyrus",
+    "zeke",
+    "izuzak",
+    "bokuweb",
+    "galeksandrp",
+    "clemens-tolboom",
+    "posva",
+    "IonicaBizau",
+    "flagpoonage",
+    "johnmuhl",
+    "phanect",
+    "louistsaitszho",
+    "zanesterling",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

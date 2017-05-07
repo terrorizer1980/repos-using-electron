@@ -78,11 +78,6 @@
     "description": "My grand app",
     "license": "MIT",
     "repository": "cmrigney/training-image-extractor",
-    "author": {
-      "name": "codyrigney92",
-      "email": "crigney@sensourceinc.com",
-      "url": "sensourceinc.com"
-    },
     "scripts": {
       "test": "xo",
       "start": "node_modules/.bin/electron.cmd .",
@@ -117,6 +112,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "codyrigney92",
+        "email": "crigney@sensourceinc.com",
+        "url": "sensourceinc.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -145,5 +147,8 @@
   "filename": "cmrigney___training-image-extractor.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:36:37.552Z",
-  "packageLastFetchedAt": "2017-05-04T23:04:56.264Z"
+  "packageLastFetchedAt": "2017-05-04T23:04:56.264Z",
+  "contributors": [
+    "cmrigney"
+  ]
 }

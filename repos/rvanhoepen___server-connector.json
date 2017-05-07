@@ -96,19 +96,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rvanhoepen/server-connector.git"
-    },
-    "author": {
-      "name": "RA van Hoepen",
-      "email": "rvanhoepen@gmail.com",
-      "url": "https://github.com/rvanhoepen"
-    },
+    "repository": "https://github.com/rvanhoepen/server-connector",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/rvanhoepen/server-connector/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -196,7 +185,17 @@
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": {
+        "name": "RA van Hoepen",
+        "email": "rvanhoepen@gmail.com",
+        "url": "https://github.com/rvanhoepen"
+      },
+      "bugs": {
+        "url": "https://github.com/rvanhoepen/server-connector/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -224,5 +223,6 @@
   "filename": "rvanhoepen___server-connector.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:40:09.389Z",
-  "packageLastFetchedAt": "2017-05-05T14:58:41.558Z"
+  "packageLastFetchedAt": "2017-05-05T14:58:41.558Z",
+  "contributors": []
 }

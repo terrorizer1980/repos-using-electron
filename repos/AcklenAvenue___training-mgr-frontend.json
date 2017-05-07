@@ -76,10 +76,7 @@
     ],
     "license": "MIT",
     "homepage": "https://github.com/AcklenAvenue/Unicron",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/AcklenAvenue/Unicron.git"
-    },
+    "repository": "https://github.com/AcklenAvenue/Unicron",
     "scripts": {
       "init": "npm install",
       "install": "tsd reinstall --save --overwrite && bower install"
@@ -210,5 +207,14 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T05:17:01.472Z",
-  "packageLastFetchedAt": "2017-05-05T17:28:11.731Z"
+  "packageLastFetchedAt": "2017-05-05T17:28:11.731Z",
+  "contributors": [
+    "Sagui",
+    "sschoenherr",
+    "bsommardahl",
+    "ZSnake",
+    "erickdc",
+    "Pameramirez",
+    "sorioinc"
+  ]
 }

@@ -83,7 +83,6 @@
       "sass-watch": "onchange 'app/sass/**/*' -- npm run sass-compile",
       "launch": "electron ."
     },
-    "author": "Robin <robin@moosedog.io>",
     "license": "ISC",
     "devDependencies": {
       "electron": "^1.4.3",
@@ -92,6 +91,9 @@
     },
     "dependencies": {
       "firebase": "^3.4.1"
+    },
+    "other": {
+      "author": "Robin <robin@moosedog.io>"
     }
   },
   "packageStatus": 200,
@@ -120,5 +122,8 @@
   "filename": "rhoover___hackVT---College-Explorer.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T17:35:48.972Z",
-  "packageLastFetchedAt": "2017-05-05T01:23:04.122Z"
+  "packageLastFetchedAt": "2017-05-05T01:23:04.122Z",
+  "contributors": [
+    "rhoover"
+  ]
 }

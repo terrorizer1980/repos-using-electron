@@ -73,7 +73,6 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Austin Peterson <austin@akpwebdesign.com>",
     "license": "GPL-3.0",
     "analytics-tracking-id": "UA-33322212-16",
     "devDependencies": {
@@ -101,6 +100,9 @@
       "titlebar": "^1.4.0",
       "universal-analytics": "^0.3.11",
       "uuid": "^2.0.1"
+    },
+    "other": {
+      "author": "Austin Peterson <austin@akpwebdesign.com>"
     }
   },
   "packageStatus": 200,
@@ -149,5 +151,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T09:03:32.698Z",
-  "packageLastFetchedAt": "2017-05-05T01:28:40.073Z"
+  "packageLastFetchedAt": "2017-05-05T01:28:40.073Z",
+  "contributors": [
+    "AKPWebDesign"
+  ]
 }

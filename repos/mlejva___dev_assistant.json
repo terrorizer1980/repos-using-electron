@@ -68,7 +68,6 @@
   "packageJSON": {
     "name": "Deviac",
     "version": "0.0.1",
-    "author": "Vaclav Mlejnsky",
     "description": "Fast search on StackOverflow",
     "main": "main.js",
     "build": {
@@ -98,7 +97,10 @@
       "electron-builder": "^7.21.0",
       "electron-packager": "^8.2.0"
     },
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": "Vaclav Mlejnsky"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -126,5 +128,8 @@
   "filename": "mlejva___dev_assistant.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:46:58.887Z",
-  "packageLastFetchedAt": "2017-05-04T23:10:20.198Z"
+  "packageLastFetchedAt": "2017-05-04T23:10:20.198Z",
+  "contributors": [
+    "mlejva"
+  ]
 }

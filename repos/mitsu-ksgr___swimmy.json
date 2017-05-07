@@ -78,11 +78,7 @@
     "version": "0.2.3",
     "description": "Swimmy is simple GUI tool for manage status of docker-compose",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mitsu-ksgr/swimmy.git"
-    },
-    "author": "mitsu-ksgr <mitsu.naka.dev@gmail.com>",
+    "repository": "https://github.com/mitsu-ksgr/swimmy",
     "homepage": "https://github.com/mitsu-ksgr/swimmy/blob/develop/README.md",
     "main": "./src/main.js",
     "dependencies": {
@@ -114,6 +110,9 @@
       "release-win32": "npm run build-win32  && npm run zip-win32",
       "release": "npm run build && npm run zip",
       "release-with-docker": "docker run --rm -v ${PWD}:/project -v ~/.electron:/root/.electron electronuserland/electron-builder:wine /usr/local/bin/npm run release"
+    },
+    "other": {
+      "author": "mitsu-ksgr <mitsu.naka.dev@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,8 @@
   },
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T17:48:31.412Z",
-  "packageLastFetchedAt": "2017-05-05T14:58:07.569Z"
+  "packageLastFetchedAt": "2017-05-05T14:58:07.569Z",
+  "contributors": [
+    "mitsu-ksgr"
+  ]
 }

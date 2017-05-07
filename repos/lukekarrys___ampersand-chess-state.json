@@ -55,8 +55,6 @@
     "name": "ampersand-chess-state",
     "description": "An evented chess library for movement, validation and result detection built on Ampersand.js.",
     "version": "1.0.1",
-    "author": "Luke Karrys <luke@lukekarrys.com>",
-    "bugs": "https://github.com/lukekarrys/ampersand-chess-state/issues",
     "dependencies": {
       "ampersand-state": "^5.0.2",
       "chess.js": "^0.10.2",
@@ -85,15 +83,16 @@
       "test",
       "validate"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/lukekarrys/ampersand-chess-state"
-    },
+    "repository": "https://github.com/lukekarrys/ampersand-chess-state",
     "scripts": {
       "lint": "standard",
       "start": "run-browser test/* --port 3001",
       "test": "browserify test/*.js | tape-run | tap-spec",
       "validate": "npm ls"
+    },
+    "other": {
+      "author": "Luke Karrys <luke@lukekarrys.com>",
+      "bugs": "https://github.com/lukekarrys/ampersand-chess-state/issues"
     }
   },
   "packageStatus": 200,
@@ -142,5 +141,9 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T17:56:04.569Z",
-  "packageLastFetchedAt": "2017-05-05T14:33:29.913Z"
+  "packageLastFetchedAt": "2017-05-05T14:33:29.913Z",
+  "contributors": [
+    "lukekarrys",
+    "greenkeeperio-bot"
+  ]
 }

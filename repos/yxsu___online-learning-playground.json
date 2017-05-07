@@ -86,7 +86,6 @@
       "playground",
       "demo"
     ],
-    "author": "Yuxin Su",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "1.4.1"
@@ -97,6 +96,9 @@
       "electron-log": "^1.1.1",
       "material-design-lite": "^1.2.1",
       "seedrandom": "^2.4.2"
+    },
+    "other": {
+      "author": "Yuxin Su"
     }
   },
   "packageStatus": 200,
@@ -125,5 +127,8 @@
   "filename": "yxsu___online-learning-playground.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:05:38.235Z",
-  "packageLastFetchedAt": "2017-05-05T14:43:40.310Z"
+  "packageLastFetchedAt": "2017-05-05T14:43:40.310Z",
+  "contributors": [
+    "yxsu"
+  ]
 }

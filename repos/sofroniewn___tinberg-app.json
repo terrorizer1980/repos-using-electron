@@ -96,16 +96,15 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron index.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/sofroniewn/tinberg-app.git"
-    },
-    "author": "Nicholas Sofroniew",
+    "repository": "https://github.com/sofroniewn/tinberg-app",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/sofroniewn/tinberg-app/issues"
-    },
-    "homepage": "https://github.com/sofroniewn/tinberg-app#readme"
+    "homepage": "https://github.com/sofroniewn/tinberg-app#readme",
+    "other": {
+      "author": "Nicholas Sofroniew",
+      "bugs": {
+        "url": "https://github.com/sofroniewn/tinberg-app/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -133,5 +132,8 @@
   "filename": "sofroniewn___tinberg-app.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:11:11.209Z",
-  "packageLastFetchedAt": "2017-05-05T17:41:26.903Z"
+  "packageLastFetchedAt": "2017-05-05T17:41:26.903Z",
+  "contributors": [
+    "sofroniewn"
+  ]
 }

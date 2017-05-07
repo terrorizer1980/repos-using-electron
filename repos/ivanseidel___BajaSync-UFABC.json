@@ -82,7 +82,6 @@
       "start": "./node_modules/.bin/electron . index",
       "postinstall": "./node_modules/.bin/bower install && ./node_modules/.bin/bower-installer"
     },
-    "author": "",
     "license": "ISC",
     "dependencies": {
       "async": "1.2.1",
@@ -95,6 +94,9 @@
       "bower-installer": "latest",
       "electron-packager": "^7.0.3",
       "electron-prebuilt": "^1.2.1"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -123,5 +125,8 @@
   "filename": "ivanseidel___BajaSync-UFABC.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:02:58.698Z",
-  "packageLastFetchedAt": "2017-05-05T15:38:59.927Z"
+  "packageLastFetchedAt": "2017-05-05T15:38:59.927Z",
+  "contributors": [
+    "ivanseidel"
+  ]
 }

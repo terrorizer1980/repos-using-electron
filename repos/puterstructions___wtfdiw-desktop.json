@@ -87,18 +87,17 @@
     "scripts": {
       "test": "test.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/puterstructions/wtfdiw-desktop.git"
-    },
-    "author": "puter structions",
+    "repository": "https://github.com/puterstructions/wtfdiw-desktop",
     "license": "ISC",
-    "bugs": {
-      "url": "https://github.com/puterstructions/wtfdiw-desktop/issues"
-    },
     "homepage": "https://github.com/puterstructions/wtfdiw-desktop#readme",
     "devDependencies": {
       "electron": "^1.4.4"
+    },
+    "other": {
+      "author": "puter structions",
+      "bugs": {
+        "url": "https://github.com/puterstructions/wtfdiw-desktop/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,8 @@
   "filename": "puterstructions___wtfdiw-desktop.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:08:11.629Z",
-  "packageLastFetchedAt": "2017-05-05T15:12:23.733Z"
+  "packageLastFetchedAt": "2017-05-05T15:12:23.733Z",
+  "contributors": [
+    "n8behavior"
+  ]
 }

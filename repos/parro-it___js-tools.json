@@ -76,7 +76,6 @@
     "scripts": {
       "test": "echo 'ok'"
     },
-    "author": "andrea@parro.it",
     "bin": {
       "eslint": "node_modules/eslint/bin/eslint.js",
       "electron": "node_modules/electron-prebuilt/cli.js",
@@ -93,7 +92,10 @@
       "browserify": "node_modules/browserify/bin/cmd.js",
       "jsdoc2md": "node_modules/jsdoc-to-markdown/bin/cli.js"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "andrea@parro.it"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/parro-it/js-tools",
@@ -141,5 +143,8 @@
   "filename": "parro-it___js-tools.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:21:01.664Z",
-  "packageLastFetchedAt": "2017-05-05T15:36:53.585Z"
+  "packageLastFetchedAt": "2017-05-05T15:36:53.585Z",
+  "contributors": [
+    "parro-it"
+  ]
 }

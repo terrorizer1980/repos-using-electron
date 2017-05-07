@@ -87,11 +87,7 @@
     "keywords": [
       "Electron"
     ],
-    "author": "Sunny(darkowlzz) <me@darkowlzz.space>",
     "license": "",
-    "bugs": {
-      "url": ""
-    },
     "homepage": "",
     "devDependencies": {
       "debug": "^2.2.0",
@@ -101,6 +97,12 @@
     "dependencies": {
       "electron-json-storage": "^2.0.0",
       "request": "^2.69.0"
+    },
+    "other": {
+      "author": "Sunny(darkowlzz) <me@darkowlzz.space>",
+      "bugs": {
+        "url": ""
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +131,8 @@
   "filename": "darkowlzz___electron-media-client.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:03:44.482Z",
-  "packageLastFetchedAt": "2017-05-05T14:40:03.986Z"
+  "packageLastFetchedAt": "2017-05-05T14:40:03.986Z",
+  "contributors": [
+    "darkowlzz"
+  ]
 }

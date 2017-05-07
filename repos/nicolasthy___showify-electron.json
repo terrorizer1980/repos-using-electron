@@ -83,7 +83,6 @@
       "watch": "watchify src/index.js -t babelify -o public/js/bundle.js --debug --verbose",
       "package": "electron-packager ./ Showify --all --out ~/Desktop/Showify"
     },
-    "author": "nicolasthy",
     "license": "MIT",
     "dependencies": {
       "axios": "^0.9.1",
@@ -109,6 +108,9 @@
       "react-router": "^2.7.0",
       "redux": "^3.5.2",
       "redux-promise": "^0.5.3"
+    },
+    "other": {
+      "author": "nicolasthy"
     }
   },
   "packageStatus": 200,
@@ -138,5 +140,26 @@
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:32:24.159Z",
-  "packageLastFetchedAt": "2017-05-05T14:43:23.294Z"
+  "packageLastFetchedAt": "2017-05-05T14:43:23.294Z",
+  "contributors": [
+    "kevinsawicki",
+    "nicolasthy",
+    "zeke",
+    "tcyrus",
+    "izuzak",
+    "bokuweb",
+    "galeksandrp",
+    "clemens-tolboom",
+    "posva",
+    "thompsonemerson",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "louistsaitszho",
+    "sahildua2305",
+    "zanesterling",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

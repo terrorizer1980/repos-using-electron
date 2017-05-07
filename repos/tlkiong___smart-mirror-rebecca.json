@@ -80,20 +80,13 @@
       "test": "echo \"Error: no test specified\" && exit 1",
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tlkiong/smart-mirror-rebecca.git"
-    },
+    "repository": "https://github.com/tlkiong/smart-mirror-rebecca",
     "keywords": [
       "Smart",
       "Mirror",
       "Rebecca"
     ],
-    "author": "Kiong",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tlkiong/smart-mirror-rebecca/issues"
-    },
     "homepage": "https://github.com/tlkiong/smart-mirror-rebecca#readme",
     "devDependencies": {
       "bower": "^1.7.9",
@@ -108,6 +101,12 @@
       "main-bower-files": "^2.13.1",
       "merge-stream": "^1.0.0",
       "run-sequence": "^1.2.2"
+    },
+    "other": {
+      "author": "Kiong",
+      "bugs": {
+        "url": "https://github.com/tlkiong/smart-mirror-rebecca/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,8 @@
   "filename": "tlkiong___smart-mirror-rebecca.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:29:25.644Z",
-  "packageLastFetchedAt": "2017-05-04T22:01:20.935Z"
+  "packageLastFetchedAt": "2017-05-04T22:01:20.935Z",
+  "contributors": [
+    "tlkiong"
+  ]
 }

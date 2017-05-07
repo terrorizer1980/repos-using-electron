@@ -86,10 +86,7 @@
       "build": "gulp",
       "release": "npm run clean && npm run build && cd dist && npm i && cd .. && npm run package"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/codingseb/QuickDir.git"
-    },
+    "repository": "https://github.com/codingseb/QuickDir",
     "keywords": [
       "navigate",
       "directories",
@@ -97,11 +94,7 @@
       "keyboard",
       "hotkey"
     ],
-    "author": "Coding Seb",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/codingseb/QuickDir/issues"
-    },
     "homepage": "https://github.com/codingseb/QuickDir#readme",
     "devDependencies": {
       "electron-packager": "^7.6.0",
@@ -121,6 +114,12 @@
       "electron-config": "^0.2.1",
       "glob": "^7.0.5",
       "shelljs": "^0.7.3"
+    },
+    "other": {
+      "author": "Coding Seb",
+      "bugs": {
+        "url": "https://github.com/codingseb/QuickDir/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -149,5 +148,8 @@
   "filename": "codingseb___QuickDir.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:50:38.903Z",
-  "packageLastFetchedAt": "2017-05-05T01:21:09.753Z"
+  "packageLastFetchedAt": "2017-05-05T01:21:09.753Z",
+  "contributors": [
+    "codingseb"
+  ]
 }

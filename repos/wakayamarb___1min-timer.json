@@ -77,7 +77,6 @@
       "e2e-test": "protractor protractor.conf.js;",
       "test": "npm run unit-test && npm run e2e-test"
     },
-    "author": "KamataRyo",
     "license": "MIT",
     "devDependencies": {
       "babel-cli": "^6.14.0",
@@ -96,17 +95,17 @@
       "protractor": "^4.0.4",
       "should": "^11.1.0"
     },
-    "directories": {
-      "test": "test"
-    },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/wakayamarb/1min-timer.git"
-    },
-    "bugs": {
-      "url": "https://github.com/wakayamarb/1min-timer/issues"
-    },
-    "homepage": "https://github.com/wakayamarb/1min-timer#readme"
+    "repository": "https://github.com/wakayamarb/1min-timer",
+    "homepage": "https://github.com/wakayamarb/1min-timer#readme",
+    "other": {
+      "author": "KamataRyo",
+      "bugs": {
+        "url": "https://github.com/wakayamarb/1min-timer/issues"
+      },
+      "directories": {
+        "test": "test"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -154,5 +153,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T19:35:28.190Z",
-  "packageLastFetchedAt": "2017-05-05T17:45:35.602Z"
+  "packageLastFetchedAt": "2017-05-05T17:45:35.602Z",
+  "contributors": [
+    "kamataryo"
+  ]
 }

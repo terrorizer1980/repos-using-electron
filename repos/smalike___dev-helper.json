@@ -86,7 +86,6 @@
       "prepack": "rm -rf app && webpack -p && cp package.app.json ./app/package.json",
       "pack": "build --dir"
     },
-    "author": "jianglijia",
     "license": "ISC",
     "build": {
       "appId": "com.smalike.dev-helper",
@@ -137,8 +136,14 @@
       "transfer-webpack-plugin": "^0.1.4",
       "url-loader": "^0.5.7",
       "webpack": "^2.2.1"
+    },
+    "other": {
+      "author": "jianglijia"
     }
   },
   "packageStatus": 200,
-  "packageLastFetchedAt": "2017-05-05T17:35:54.016Z"
+  "packageLastFetchedAt": "2017-05-05T17:35:54.016Z",
+  "contributors": [
+    "smalike"
+  ]
 }

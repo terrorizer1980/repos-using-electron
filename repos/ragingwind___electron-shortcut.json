@@ -57,11 +57,6 @@
     "description": "Helper for global shortcut registering",
     "license": "MIT",
     "repository": "ragingwind/electron-shortcut",
-    "author": {
-      "name": "ragingwind",
-      "email": "ragingwind@gmail.com",
-      "url": "ragingwind.me"
-    },
     "engines": {
       "node": ">=0.4.0"
     },
@@ -96,6 +91,13 @@
     "jshintConfig": {
       "esnext": true,
       "node": true
+    },
+    "other": {
+      "author": {
+        "name": "ragingwind",
+        "email": "ragingwind@gmail.com",
+        "url": "ragingwind.me"
+      }
     }
   },
   "packageStatus": 200,
@@ -144,5 +146,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T05:06:11.659Z",
-  "packageLastFetchedAt": "2017-05-05T15:11:33.587Z"
+  "packageLastFetchedAt": "2017-05-05T15:11:33.587Z",
+  "contributors": [
+    "ragingwind"
+  ]
 }

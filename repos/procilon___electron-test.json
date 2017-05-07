@@ -93,21 +93,14 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.0"
@@ -115,6 +108,12 @@
     "dependencies": {
       "electron-plugins": "0.0.4",
       "electron-updater": "^0.3.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +142,6 @@
   "filename": "procilon___electron-test.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:20:16.345Z",
-  "packageLastFetchedAt": "2017-05-05T17:02:46.137Z"
+  "packageLastFetchedAt": "2017-05-05T17:02:46.137Z",
+  "contributors": []
 }

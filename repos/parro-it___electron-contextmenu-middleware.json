@@ -57,7 +57,6 @@
     "description": "Build `electron` context menus composing multiple middlewares functions.",
     "repository": "parro-it/electron-contextmenu-middleware",
     "license": "MIT",
-    "author": "parro-it",
     "scripts": {
       "test": "ava && xo",
       "start": "electron example.js"
@@ -89,6 +88,9 @@
     ],
     "dependencies": {
       "comws": "^2.0.2"
+    },
+    "other": {
+      "author": "parro-it"
     }
   },
   "packageStatus": 200,
@@ -137,5 +139,10 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T05:10:22.129Z",
-  "packageLastFetchedAt": "2017-05-04T22:12:26.956Z"
+  "packageLastFetchedAt": "2017-05-04T22:12:26.956Z",
+  "contributors": [
+    "parro-it",
+    "teameh",
+    "tommoor"
+  ]
 }

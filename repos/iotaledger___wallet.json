@@ -86,12 +86,8 @@
       "publish:mac": "export CSC_IDENTITY_AUTO_DISCOVERY=false && build --mac --x64 --publish always",
       "publish:win": "build --win --x64 --ia32 --publish always"
     },
-    "author": "IOTA Foundation <info@iotatoken.com>",
     "homepage": "https://www.iotatoken.com/",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/iotaledger/wallet"
-    },
+    "repository": "https://github.com/iotaledger/wallet",
     "dependencies": {
       "ffi": "^2.2.0",
       "fs-extra": "^1.0.0",
@@ -154,6 +150,9 @@
         ],
         "packageUrl": "https://www.iotatoken.com/"
       }
+    },
+    "other": {
+      "author": "IOTA Foundation <info@iotatoken.com>"
     }
   },
   "packageStatus": 200,
@@ -202,5 +201,10 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T19:32:07.986Z",
-  "packageLastFetchedAt": "2017-05-04T23:02:39.524Z"
+  "packageLastFetchedAt": "2017-05-04T23:02:39.524Z",
+  "contributors": [
+    "atypicalprogrammer",
+    "domschiener",
+    "Nyrsta"
+  ]
 }

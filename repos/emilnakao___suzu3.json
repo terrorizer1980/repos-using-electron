@@ -63,20 +63,13 @@
       "test": "karma start",
       "test-debug": "karma start --auto-watch --single-run=false"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/emilnakao/suzu3.git"
-    },
+    "repository": "https://github.com/emilnakao/suzu3",
     "keywords": [
       "suzu",
       "presence",
       "control"
     ],
-    "author": "Emil Nakao",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/emilnakao/suzu3/issues"
-    },
     "homepage": "https://github.com/emilnakao/suzu3#readme",
     "dependencies": {
       "@types/moment": "^2.13.0",
@@ -144,6 +137,12 @@
       "webpack-dev-middleware": "^1.6.1",
       "webpack-hot-middleware": "^2.12.2",
       "webpack-target-electron-renderer": "^0.4.0"
+    },
+    "other": {
+      "author": "Emil Nakao",
+      "bugs": {
+        "url": "https://github.com/emilnakao/suzu3/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -192,5 +191,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T06:01:58.627Z",
-  "packageLastFetchedAt": "2017-05-04T22:15:49.078Z"
+  "packageLastFetchedAt": "2017-05-04T22:15:49.078Z",
+  "contributors": [
+    "emilnakao"
+  ]
 }

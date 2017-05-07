@@ -65,7 +65,6 @@
       "file browser",
       "Rize"
     ],
-    "author": "SASAKI, Shunsuke",
     "license": "Apache-2.0",
     "dependencies": {
       "posix": "^4.0.0",
@@ -90,6 +89,9 @@
       "unassertify": "^2.0.3",
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
+    },
+    "other": {
+      "author": "SASAKI, Shunsuke"
     }
   },
   "packageStatus": 200,
@@ -138,5 +140,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T20:52:29.070Z",
-  "packageLastFetchedAt": "2017-05-05T14:44:14.419Z"
+  "packageLastFetchedAt": "2017-05-05T14:44:14.419Z",
+  "contributors": [
+    "erukiti"
+  ]
 }

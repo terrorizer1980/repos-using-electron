@@ -84,7 +84,6 @@
       "ipc",
       "main"
     ],
-    "author": "Aram Drevekenin <grimsniffer@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-plugin-syntax-async-functions": "^6.13.0",
@@ -114,9 +113,9 @@
     "dependencies": {
       "uuid": "^2.0.3"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/imsnif/electron-renderer-value"
+    "repository": "https://github.com/imsnif/electron-renderer-value",
+    "other": {
+      "author": "Aram Drevekenin <grimsniffer@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -145,5 +144,8 @@
   "filename": "imsnif___electron-renderer-value.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:31:21.280Z",
-  "packageLastFetchedAt": "2017-05-05T14:46:17.729Z"
+  "packageLastFetchedAt": "2017-05-05T14:46:17.729Z",
+  "contributors": [
+    "imsnif"
+  ]
 }

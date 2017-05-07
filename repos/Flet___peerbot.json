@@ -175,10 +175,6 @@
     "name": "peerbot",
     "description": "Message seeding utility for friends p2p chat.",
     "version": "1.0.0",
-    "author": "MOOSE Team",
-    "bugs": {
-      "url": "https://github.com/ngoldman/peerbot/issues"
-    },
     "dependencies": {
       "electron-prebuilt": "^0.25.1",
       "electron-spawn": "^2.0.1",
@@ -220,14 +216,17 @@
     ],
     "license": "ISC",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/ngoldman/peerbot.git"
-    },
+    "repository": "https://github.com/ngoldman/peerbot",
     "scripts": {
       "rebuild-leveldb": "cd node_modules/leveldown && HOME=~/.electron-gyp node-gyp rebuild --target=0.25.1 --arch=x64 --dist-url=https://atom.io/download/atom-shell",
       "start": "electron-spawn . --channel=friends",
       "test": "standard"
+    },
+    "other": {
+      "author": "MOOSE Team",
+      "bugs": {
+        "url": "https://github.com/ngoldman/peerbot/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -276,5 +275,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T20:44:27.668Z",
-  "packageLastFetchedAt": "2017-05-04T22:49:46.899Z"
+  "packageLastFetchedAt": "2017-05-04T22:49:46.899Z",
+  "contributors": [
+    "ungoldman"
+  ]
 }

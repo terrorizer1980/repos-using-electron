@@ -80,21 +80,14 @@
       "start": "electron main.js",
       "build": "electron-packager . Voxel+ --platform=darwin --arch=x64 --icon=icon.icns --overwrite"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8",
@@ -103,6 +96,12 @@
     "dependencies": {
       "jquery": "^2.2.3",
       "materialize-css": "^0.97.6"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -132,5 +131,23 @@
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:09:44.998Z",
-  "packageLastFetchedAt": "2017-05-05T15:41:16.237Z"
+  "packageLastFetchedAt": "2017-05-05T15:41:16.237Z",
+  "contributors": [
+    "JesseHsiu",
+    "kevinsawicki",
+    "tony056",
+    "tcyrus",
+    "zeke",
+    "izuzak",
+    "bokuweb",
+    "galeksandrp",
+    "clemens-tolboom",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "zanesterling",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

@@ -79,10 +79,7 @@
     "scripts": {
       "test": "npm test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/tundrax/velik.git"
-    },
+    "repository": "https://github.com/tundrax/velik",
     "keywords": [
       "vue",
       "electron",
@@ -90,17 +87,19 @@
       "kit",
       "ui"
     ],
-    "author": "tundrax",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/tundrax/velik/issues"
-    },
     "homepage": "https://github.com/tundrax/velik#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.2",
       "vue-loader": "^8.5.2",
       "webpack": "^1.13.1",
       "webpack-dev-server": "^1.14.1"
+    },
+    "other": {
+      "author": "tundrax",
+      "bugs": {
+        "url": "https://github.com/tundrax/velik/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +128,8 @@
   "filename": "tundrax___velik.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:00:56.010Z",
-  "packageLastFetchedAt": "2017-05-05T15:25:30.706Z"
+  "packageLastFetchedAt": "2017-05-05T15:25:30.706Z",
+  "contributors": [
+    "tundrax"
+  ]
 }

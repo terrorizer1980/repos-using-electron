@@ -63,18 +63,11 @@
       "start": "electron app/main.js"
     },
     "homepage": "https://github.com/mitselek/Screenwerk-2016#readme",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mitselek/Screenwerk-2016.git"
-    },
-    "bugs": {
-      "url": "https://github.com/mitselek/Screenwerk-2016/issues"
-    },
+    "repository": "https://github.com/mitselek/Screenwerk-2016",
     "keywords": [
       "Electron",
       "Screenwerk"
     ],
-    "author": "Mihkel Putrinš",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
@@ -85,6 +78,12 @@
       "later": "^1.2.0",
       "request": "^2.72.0",
       "yamljs": "^0.2.7"
+    },
+    "other": {
+      "author": "Mihkel Putrinš",
+      "bugs": {
+        "url": "https://github.com/mitselek/Screenwerk-2016/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -133,5 +132,10 @@
   "filename": "mitselek___Screenwerk-2016.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:26:17.341Z",
-  "packageLastFetchedAt": "2017-05-05T17:30:51.126Z"
+  "packageLastFetchedAt": "2017-05-05T17:30:51.126Z",
+  "contributors": [
+    "mitselek",
+    "miikael",
+    "notcool6"
+  ]
 }

@@ -91,15 +91,8 @@
       "test": "npm run lint && browserify test/*.js | tape-run",
       "test-watch": "hihat test/*.js -p tap-dev-tool"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/bevacqua/dragula.git"
-    },
-    "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+    "repository": "https://github.com/bevacqua/dragula",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/bevacqua/dragula/issues"
-    },
     "homepage": "https://github.com/bevacqua/dragula",
     "dependencies": {
       "contra": "1.9.4",
@@ -121,6 +114,12 @@
       "tape-run": "^2.1.3",
       "uglify-js": "2.4.24",
       "watchify": "3.3.0"
+    },
+    "other": {
+      "author": "Nicolas Bevacqua <nicolasbevacqua@gmail.com> (http://bevacqua.io/)",
+      "bugs": {
+        "url": "https://github.com/bevacqua/dragula/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -150,5 +149,41 @@
   "sourceRepo": "bevacqua/dragula",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:03:47.475Z",
-  "packageLastFetchedAt": "2017-05-05T06:36:03.927Z"
+  "packageLastFetchedAt": "2017-05-05T06:36:03.927Z",
+  "contributors": [
+    "bevacqua",
+    "jimf",
+    "beatfreaker",
+    "ConnorKrammer",
+    "benib",
+    "adamkdean",
+    "luckylooke",
+    "dougludlow",
+    "marg51",
+    "mattpk",
+    "MaxxWyndham",
+    "pra85",
+    "yuejiangming",
+    "phanan",
+    "Andexus",
+    "calvinmetcalf",
+    "charbelrami",
+    "daleeidd",
+    "djhopper01",
+    "HeroicEric",
+    "tschuy",
+    "frantz",
+    "icorradi",
+    "gnujeremie",
+    "elrumordelaluz",
+    "MaralMosayebi",
+    "dietmax",
+    "NathanWalker",
+    "nickdecorte",
+    "peterjosling",
+    "phillipalexander",
+    "debone",
+    "mfsousa",
+    "sethmcleod"
+  ]
 }

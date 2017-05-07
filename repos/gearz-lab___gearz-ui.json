@@ -201,19 +201,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/chentsulin"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -286,6 +275,16 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/chentsulin"
+      },
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -334,5 +333,27 @@
   "filename": "gearz-lab___gearz-ui.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:24:07.047Z",
-  "packageLastFetchedAt": "2017-05-05T17:54:13.963Z"
+  "packageLastFetchedAt": "2017-05-05T17:54:13.963Z",
+  "contributors": [
+    "chentsulin",
+    "jhen0409",
+    "iDuuck",
+    "akovalyov",
+    "Kilian",
+    "danielbushman",
+    "LongLiveCHIEF",
+    "tsemerad",
+    "pwmckenna",
+    "catalinmiron",
+    "andrerpena",
+    "domasx2",
+    "epilande",
+    "olegakbarov",
+    "pascalw",
+    "vramana",
+    "shea256",
+    "RyanAtViceSoftware",
+    "ttacon",
+    "slightlytyler"
+  ]
 }

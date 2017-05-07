@@ -198,19 +198,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/amilajack/popcorn-desktop-experimental.git"
-    },
-    "author": {
-      "name": "Amila Welihinda",
-      "email": "amilajack@gmail.com",
-      "url": "https://github.com/amilajack"
-    },
+    "repository": "https://github.com/amilajack/popcorn-desktop-experimental",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/amilajack/popcorn-desktop-experimental/issues"
-    },
     "keywords": [
       "popcorn-time",
       "popcorn",
@@ -338,6 +327,16 @@
     "devEngines": {
       "node": "5.x || 6.x",
       "npm": "3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Amila Welihinda",
+        "email": "amilajack@gmail.com",
+        "url": "https://github.com/amilajack"
+      },
+      "bugs": {
+        "url": "https://github.com/amilajack/popcorn-desktop-experimental/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -387,5 +386,37 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T15:18:12.334Z",
-  "packageLastFetchedAt": "2017-05-05T17:40:09.811Z"
+  "packageLastFetchedAt": "2017-05-05T17:40:09.811Z",
+  "contributors": [
+    "chentsulin",
+    "amilajack",
+    "jhen0409",
+    "iDuuck",
+    "akovalyov",
+    "Kilian",
+    "Yeti-or",
+    "danielbushman",
+    "epilande",
+    "suribit",
+    "LongLiveCHIEF",
+    "tsemerad",
+    "davej",
+    "domasx2",
+    "pwmckenna",
+    "catalinmiron",
+    "crucialfelix",
+    "lmatteis",
+    "matbush",
+    "olegakbarov",
+    "pascalw",
+    "the4dpatrick",
+    "vramana",
+    "shea256",
+    "RyanAtViceSoftware",
+    "sergeybekrin",
+    "gitter-badger",
+    "ttacon",
+    "slightlytyler",
+    "zakrid"
+  ]
 }

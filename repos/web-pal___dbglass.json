@@ -110,11 +110,6 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "author": {
-      "name": "Vladimir Pal",
-      "email": "mail.vpal@gmail.com",
-      "url": "https://web-pal.com"
-    },
     "license": "MIT",
     "keywords": [
       "electron",
@@ -217,6 +212,13 @@
     "devEngines": {
       "node": "4.x || 5.x || 6.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "Vladimir Pal",
+        "email": "mail.vpal@gmail.com",
+        "url": "https://web-pal.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -245,5 +247,13 @@
   "filename": "web-pal___dbglass.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:13:29.691Z",
-  "packageLastFetchedAt": "2017-05-05T17:23:52.796Z"
+  "packageLastFetchedAt": "2017-05-05T17:23:52.796Z",
+  "contributors": [
+    "Architektor",
+    "VladimirPal",
+    "y-takey",
+    "ignatif",
+    "raxkin",
+    "bhedge"
+  ]
 }

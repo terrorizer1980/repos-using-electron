@@ -85,7 +85,6 @@
       "Electron",
       "Cross-platform"
     ],
-    "author": "Adria Rodriguez",
     "license": "CC BY-SA",
     "dependencies": {
       "@angular/common": "2.0.0",
@@ -113,6 +112,9 @@
       "gulp-typescript": "2.13.6",
       "typescript": "1.8.10",
       "typings": "1.0.4"
+    },
+    "other": {
+      "author": "Adria Rodriguez"
     }
   },
   "packageStatus": 200,
@@ -141,5 +143,8 @@
   "filename": "Croer01___angular-electron-seed.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:21:15.503Z",
-  "packageLastFetchedAt": "2017-05-04T23:03:54.896Z"
+  "packageLastFetchedAt": "2017-05-04T23:03:54.896Z",
+  "contributors": [
+    "Croer01"
+  ]
 }

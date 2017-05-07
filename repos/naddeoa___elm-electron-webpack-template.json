@@ -73,7 +73,6 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Anthony Naddeo",
     "license": "MIT",
     "devDependencies": {
       "elm-webpack-loader": "^3.0.6",
@@ -83,6 +82,9 @@
     "dependencies": {
       "promise": "^7.1.1",
       "electron": "^1.4.3"
+    },
+    "other": {
+      "author": "Anthony Naddeo"
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,8 @@
   "filename": "naddeoa___elm-electron-webpack-template.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:30:03.020Z",
-  "packageLastFetchedAt": "2017-05-04T23:08:52.684Z"
+  "packageLastFetchedAt": "2017-05-04T23:08:52.684Z",
+  "contributors": [
+    "naddeoa"
+  ]
 }

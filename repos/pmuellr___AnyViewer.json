@@ -55,7 +55,6 @@
     "name": "AnyViewer",
     "version": "1.2.0",
     "description": "a programmable desktop file viewer built on Electron",
-    "author": "pmuellr",
     "main": "./lib/AnyViewer",
     "scripts": {
       "cake": "cake",
@@ -65,16 +64,16 @@
     },
     "homepage": "https://github.com/pmuellr/AnyViewer",
     "license": "Apache-2.0",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/pmuellr/AnyViewer.git"
-    },
+    "repository": "https://github.com/pmuellr/AnyViewer",
     "devDependencies": {
       "cakex": "1.0.x",
       "coffee-script": "1.10.x",
       "electron-packager": "8.0.x",
       "plist": "2.0.x",
       "standard": "8.0.x"
+    },
+    "other": {
+      "author": "pmuellr"
     }
   },
   "packageStatus": 200,
@@ -123,5 +122,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T17:50:33.694Z",
-  "packageLastFetchedAt": "2017-05-05T11:36:58.662Z"
+  "packageLastFetchedAt": "2017-05-05T11:36:58.662Z",
+  "contributors": [
+    "pmuellr"
+  ]
 }

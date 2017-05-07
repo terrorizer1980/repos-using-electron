@@ -81,21 +81,14 @@
       "watch": "./node_modules/.bin/webpack-dev-server",
       "electron-rebuild": "./node_modules/.bin/electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "babel": "^6.5.1",
@@ -124,6 +117,12 @@
       "react-addons-update": "^0.14.7",
       "react-dom": "^0.14.7",
       "react-tap-event-plugin": "^0.2.2"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -152,5 +151,8 @@
   "filename": "akaWolv___electron-react-jsx-hot-refresh-starter.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:30:00.761Z",
-  "packageLastFetchedAt": "2017-05-05T15:14:57.128Z"
+  "packageLastFetchedAt": "2017-05-05T15:14:57.128Z",
+  "contributors": [
+    "akaWolv"
+  ]
 }

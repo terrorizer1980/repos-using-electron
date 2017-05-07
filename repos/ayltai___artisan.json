@@ -76,16 +76,9 @@
     "productName": "Markus",
     "version": "0.0.1",
     "description": "A note taking app, and crafted with ❤",
-    "author": "Alan Tai",
     "license": "Apache-2.0",
     "homepage": "https://github.com/ayltai/Markus",
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/ayltai/Markus.git"
-    },
-    "bugs": {
-      "url": "https://github.com/ayltai/Markus/issues"
-    },
+    "repository": "https://github.com/ayltai/Markus",
     "keywords": [
       "markus",
       "code",
@@ -152,6 +145,12 @@
       "react-tap-event-plugin": "^2.0.1",
       "remove-markdown": "^0.1.0",
       "rx-lite": "^4.0.8"
+    },
+    "other": {
+      "author": "Alan Tai",
+      "bugs": {
+        "url": "https://github.com/ayltai/Markus/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -180,5 +179,9 @@
   "filename": "ayltai___artisan.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:19:53.726Z",
-  "packageLastFetchedAt": "2017-05-04T23:01:15.966Z"
+  "packageLastFetchedAt": "2017-05-04T23:01:15.966Z",
+  "contributors": [
+    "ayltai",
+    "alan-tai"
+  ]
 }

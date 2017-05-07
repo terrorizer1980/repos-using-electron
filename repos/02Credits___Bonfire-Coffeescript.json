@@ -82,10 +82,7 @@
   "packageJSON": {
     "name": "Bonfire",
     "description": "An extensible chat application",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/02Credits/Bonfire/"
-    },
+    "repository": "https://github.com/02Credits/Bonfire",
     "devDependencies": {
       "coffee-script": "^1.10.0",
       "electron-prebuilt": "^0.37.8",
@@ -129,5 +126,8 @@
   "filename": "02Credits___Bonfire-Coffeescript.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-03T20:04:07.842Z",
-  "packageLastFetchedAt": "2017-05-04T22:05:37.585Z"
+  "packageLastFetchedAt": "2017-05-04T22:05:37.585Z",
+  "contributors": [
+    "Kethku"
+  ]
 }

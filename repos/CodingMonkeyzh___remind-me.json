@@ -177,8 +177,10 @@
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
     },
-    "directories": {
-      "test": "test"
+    "other": {
+      "directories": {
+        "test": "test"
+      }
     }
   },
   "packageStatus": 200,
@@ -207,5 +209,8 @@
   "filename": "CodingMonkeyzh___remind-me.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:45:11.823Z",
-  "packageLastFetchedAt": "2017-05-04T22:33:12.830Z"
+  "packageLastFetchedAt": "2017-05-04T22:33:12.830Z",
+  "contributors": [
+    "CodingMonkeyzh"
+  ]
 }

@@ -62,13 +62,15 @@
     "keywords": [
       "timetracking"
     ],
-    "author": "Jussi Nieminen",
     "devDependencies": {
       "electron-prebuilt": "^0.35.0"
     },
     "dependencies": {
       "open": "0.0.5",
       "dateformat": "~1.0.12"
+    },
+    "other": {
+      "author": "Jussi Nieminen"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T05:02:51.714Z",
-  "packageLastFetchedAt": "2017-05-05T17:02:03.217Z"
+  "packageLastFetchedAt": "2017-05-05T17:02:03.217Z",
+  "contributors": [
+    "jvnn"
+  ]
 }

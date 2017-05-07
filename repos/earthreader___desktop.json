@@ -91,7 +91,6 @@
     },
     "repository": "https://github.com/earthreader/desktop",
     "keywords": [],
-    "author": "Eunchong Yu <kroisse@gmail.com>",
     "license": "AGPL-3.0",
     "devDependencies": {
       "@types/classnames": "0.0.31",
@@ -126,7 +125,10 @@
       "url-loader": "^0.5.7",
       "webpack": "^1.13.2"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "Eunchong Yu <kroisse@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -154,5 +156,8 @@
   "filename": "earthreader___desktop.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:55:43.546Z",
-  "packageLastFetchedAt": "2017-05-05T14:41:47.058Z"
+  "packageLastFetchedAt": "2017-05-05T14:41:47.058Z",
+  "contributors": [
+    "Kroisse"
+  ]
 }

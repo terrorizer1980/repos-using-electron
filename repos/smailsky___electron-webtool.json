@@ -87,7 +87,6 @@
     },
     "repository": "",
     "keywords": [],
-    "author": "smailsky",
     "license": "",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -95,7 +94,10 @@
       "electron-packager": "^8.1.0",
       "electron-reload": "^1.0.2"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "smailsky"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -123,5 +125,8 @@
   "filename": "smailsky___electron-webtool.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:40:32.385Z",
-  "packageLastFetchedAt": "2017-05-05T17:02:17.048Z"
+  "packageLastFetchedAt": "2017-05-05T17:02:17.048Z",
+  "contributors": [
+    "alikr"
+  ]
 }

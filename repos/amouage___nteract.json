@@ -198,10 +198,7 @@
       "postdist": "npm install",
       "postinstall": "electron-rebuild"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/nteract/nteract.git"
-    },
+    "repository": "https://github.com/nteract/nteract",
     "keywords": [
       "jupyter",
       "electron",
@@ -209,11 +206,7 @@
       "nteract",
       "data"
     ],
-    "author": "nteract contributors",
     "license": "MPL-2.0",
-    "bugs": {
-      "url": "https://github.com/nteract/nteract/issues"
-    },
     "homepage": "https://github.com/nteract/nteract",
     "dependencies": {
       "codemirror": "^5.16.0",
@@ -277,6 +270,12 @@
       "rimraf": "^2.5.2",
       "sinon": "^1.17.4",
       "watch": "^0.19.1"
+    },
+    "other": {
+      "author": "nteract contributors",
+      "bugs": {
+        "url": "https://github.com/nteract/nteract/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -326,5 +325,21 @@
   "sourceRepo": "nteract/nteract",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:19:07.904Z",
-  "packageLastFetchedAt": "2017-05-05T15:26:46.926Z"
+  "packageLastFetchedAt": "2017-05-05T15:26:46.926Z",
+  "contributors": [
+    "rgbkrk",
+    "jdfreder",
+    "captainsafia",
+    "kenwheeler",
+    "Carreau",
+    "betatim",
+    "jdetle",
+    "ivanov",
+    "karissa",
+    "freeman-lab",
+    "minrk",
+    "StevenLangbroek",
+    "jaredly",
+    "phfrohring"
+  ]
 }

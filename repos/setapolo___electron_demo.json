@@ -87,10 +87,12 @@
       "tutorial",
       "demo"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1"
+    },
+    "other": {
+      "author": "GitHub"
     }
   },
   "packageStatus": 200,
@@ -119,5 +121,6 @@
   "filename": "setapolo___electron_demo.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:27:12.029Z",
-  "packageLastFetchedAt": "2017-05-05T14:55:41.060Z"
+  "packageLastFetchedAt": "2017-05-05T14:55:41.060Z",
+  "contributors": []
 }

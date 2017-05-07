@@ -54,10 +54,12 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "roikiermedia",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^1.2.6"
+    },
+    "other": {
+      "author": "roikiermedia"
     }
   },
   "packageStatus": 200,
@@ -106,5 +108,8 @@
   "filename": "roikiermedia___p5-electron.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:35:32.663Z",
-  "packageLastFetchedAt": "2017-05-04T22:29:12.389Z"
+  "packageLastFetchedAt": "2017-05-04T22:29:12.389Z",
+  "contributors": [
+    "roikiermedia"
+  ]
 }

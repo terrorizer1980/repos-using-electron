@@ -64,7 +64,6 @@
     "version": "1.0.2",
     "description": "Sharemind profile log visualizer",
     "main": "app/analyser.js",
-    "author": "n0n",
     "license": "MIT",
     "repository": "https://github.com/sharemind-sdk/profile_log_visualizer",
     "dependencies": {
@@ -79,6 +78,9 @@
     "devDependencies": {
       "gulp": "^3.9.0",
       "gulp-less": "^3.0.5"
+    },
+    "other": {
+      "author": "n0n"
     }
   },
   "packageStatus": 200,
@@ -127,5 +129,9 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T19:52:14.039Z",
-  "packageLastFetchedAt": "2017-05-05T15:34:54.210Z"
+  "packageLastFetchedAt": "2017-05-05T15:34:54.210Z",
+  "contributors": [
+    "lammas",
+    "danbogdanov"
+  ]
 }

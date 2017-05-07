@@ -71,18 +71,11 @@
     "version": "3.7.0",
     "description": "Mattermost",
     "main": "main.js",
-    "author": {
-      "name": "Yuya Ochiai",
-      "email": "yuya0321@gmail.com"
-    },
     "license": "Apache-2.0",
     "engines": {
       "node": ">=4.2.0"
     },
-    "repository": {
-      "type": "git",
-      "url": "git://github.com/mattermost/desktop.git"
-    },
+    "repository": "https://github.com/mattermost/desktop",
     "scripts": {
       "postinstall": "install-app-deps && npm run extract-dict",
       "extract-dict": "node scripts/extract_dict.js src/node_modules/simple-spellchecker/dict",
@@ -127,6 +120,12 @@
       "webpack": "^2.2.1",
       "webpack-dev-server": "^2.4.1",
       "webpack-merge": "^3.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "Yuya Ochiai",
+        "email": "yuya0321@gmail.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -175,5 +174,29 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T19:47:16.576Z",
-  "packageLastFetchedAt": "2017-05-05T15:12:09.717Z"
+  "packageLastFetchedAt": "2017-05-05T15:12:09.717Z",
+  "contributors": [
+    "yuya-oc",
+    "jasonblais",
+    "jnugh",
+    "Razzeee",
+    "it33",
+    "magicmonty",
+    "asaadmahmood",
+    "MetalCar",
+    "jgis",
+    "mid0111",
+    "kytwb",
+    "itsmartin",
+    "mgielda",
+    "akashnimare",
+    "alerque",
+    "CarmDam",
+    "jeremycook",
+    "jcomack",
+    "jwilander",
+    "pascalw",
+    "St-Ex",
+    "timroes"
+  ]
 }

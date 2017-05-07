@@ -73,24 +73,23 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/edzmh96/SmartMirror.git"
-    },
+    "repository": "https://github.com/edzmh96/SmartMirror",
     "keywords": [
       "\"smart",
       "mirror",
       "side",
       "project\""
     ],
-    "author": "\"Abraham Lin and Edward Zhou\"",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/edzmh96/SmartMirror/issues"
-    },
     "homepage": "https://github.com/edzmh96/SmartMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.4"
+    },
+    "other": {
+      "author": "\"Abraham Lin and Edward Zhou\"",
+      "bugs": {
+        "url": "https://github.com/edzmh96/SmartMirror/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,9 @@
   "filename": "edzmh96___SmartMirror.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T14:27:03.495Z",
-  "packageLastFetchedAt": "2017-05-05T14:47:11.408Z"
+  "packageLastFetchedAt": "2017-05-05T14:47:11.408Z",
+  "contributors": [
+    "Abraham-Lin",
+    "edzmh96"
+  ]
 }

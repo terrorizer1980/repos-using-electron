@@ -191,10 +191,7 @@
     "description": "Free cross-platform password manager compatible with KeePass",
     "main": "Gruntfile.js",
     "homepage": "https://keeweb.info",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/keeweb/keeweb"
-    },
+    "repository": "https://github.com/keeweb/keeweb",
     "dependencies": {},
     "devDependencies": {
       "babel-core": "6.13.2",
@@ -251,13 +248,15 @@
       "copy-beta": "grunt && sed 's/<html manifest=\"manifest.appcache\">//' dist/index.html > ../keeweb-beta/diy/index.html && cd ../keeweb-beta && git add diy/index.html && git commit -a -m 'beta' && git push origin master",
       "electron": "electron electron --htmlpath=http://localhost:8085/tmp/"
     },
-    "author": {
-      "name": "Antelle",
-      "email": "antelle.net@gmail.com",
-      "url": "http://antelle.net"
-    },
     "license": "MIT",
-    "readme": "README.md"
+    "readme": "README.md",
+    "other": {
+      "author": {
+        "name": "Antelle",
+        "email": "antelle.net@gmail.com",
+        "url": "http://antelle.net"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -286,5 +285,21 @@
   "sourceRepo": "keeweb/keeweb",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T14:51:20.565Z",
-  "packageLastFetchedAt": "2017-05-04T23:01:27.015Z"
+  "packageLastFetchedAt": "2017-05-04T23:01:27.015Z",
+  "contributors": [
+    "antelle",
+    "baumhoto",
+    "ericbn",
+    "exromany",
+    "grinsted",
+    "cttttt",
+    "Gutem",
+    "izissise",
+    "mikfoo",
+    "darkkain",
+    "fl0at",
+    "pathway27",
+    "smacleod",
+    "k0sh"
+  ]
 }

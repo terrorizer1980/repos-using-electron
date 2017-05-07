@@ -93,14 +93,16 @@
       "start",
       "tutorial"
     ],
-    "author": "Michal Landsman",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/photopea/photopea/issues"
-    },
     "homepage": "https://www.photopea.com",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Michal Landsman",
+      "bugs": {
+        "url": "https://github.com/photopea/photopea/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -129,5 +131,8 @@
   "filename": "landsman___photopea-desktop.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:35:26.407Z",
-  "packageLastFetchedAt": "2017-05-05T15:34:03.280Z"
+  "packageLastFetchedAt": "2017-05-05T15:34:03.280Z",
+  "contributors": [
+    "landsman"
+  ]
 }

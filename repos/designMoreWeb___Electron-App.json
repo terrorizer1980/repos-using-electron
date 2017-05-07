@@ -79,18 +79,17 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/designMoreWeb/Node_School_App.git"
-    },
-    "author": "Divy Tolia",
+    "repository": "https://github.com/designMoreWeb/Node_School_App",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/designMoreWeb/Node_School_App/issues"
-    },
     "homepage": "https://github.com/designMoreWeb/Node_School_App#readme",
     "devDependencies": {
       "electron-prebuilt": "^0.36.2"
+    },
+    "other": {
+      "author": "Divy Tolia",
+      "bugs": {
+        "url": "https://github.com/designMoreWeb/Node_School_App/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,8 @@
   "filename": "designMoreWeb___Electron-App.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:08:14.677Z",
-  "packageLastFetchedAt": "2017-05-04T23:10:10.155Z"
+  "packageLastFetchedAt": "2017-05-04T23:10:10.155Z",
+  "contributors": [
+    "designMoreWeb"
+  ]
 }

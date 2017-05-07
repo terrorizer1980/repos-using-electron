@@ -79,24 +79,23 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +124,8 @@
   "filename": "mike-3___electronBot.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:47:22.642Z",
-  "packageLastFetchedAt": "2017-05-05T15:19:48.907Z"
+  "packageLastFetchedAt": "2017-05-05T15:19:48.907Z",
+  "contributors": [
+    "mike-3"
+  ]
 }

@@ -83,15 +83,8 @@
       "pack": "build --dir",
       "dist": "build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/purplecabbage/inspectigate.git"
-    },
-    "author": "Jesse MacFadyen",
+    "repository": "https://github.com/purplecabbage/inspectigate",
     "license": "Apache-2.0",
-    "bugs": {
-      "url": "https://github.com/purplecabbage/inspectigate/issues"
-    },
     "homepage": "https://github.com/purplecabbage/inspectigate#readme",
     "build": {
       "appId": "com.phonegap.inspectigate",
@@ -111,6 +104,12 @@
       "electron-builder": "^10.9.3",
       "electron-packager": "^8.3.0",
       "electron-prebuilt": "^1.4.10"
+    },
+    "other": {
+      "author": "Jesse MacFadyen",
+      "bugs": {
+        "url": "https://github.com/purplecabbage/inspectigate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -139,5 +138,8 @@
   "filename": "purplecabbage___inspectigate.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:32:12.427Z",
-  "packageLastFetchedAt": "2017-05-04T23:02:31.428Z"
+  "packageLastFetchedAt": "2017-05-04T23:02:31.428Z",
+  "contributors": [
+    "purplecabbage"
+  ]
 }

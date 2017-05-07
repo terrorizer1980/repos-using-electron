@@ -59,10 +59,7 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/atom/electron-quick-start.git"
-    },
+    "repository": "https://github.com/atom/electron-quick-start",
     "engines": {
       "electron": "0.36.2",
       "atom-shell": "0.36.2"
@@ -73,11 +70,7 @@
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/atom/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/atom/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "0.36.2"
@@ -89,6 +82,12 @@
       "nodegit": "0.6.3",
       "qs": "^6.0.1",
       "request-promise": "^2.0.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/atom/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,22 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T21:08:26.765Z",
-  "packageLastFetchedAt": "2017-05-04T22:32:19.560Z"
+  "packageLastFetchedAt": "2017-05-04T22:32:19.560Z",
+  "contributors": [
+    "roonyh",
+    "YagoGG",
+    "kevinsawicki",
+    "abdulhannanali",
+    "tcyrus",
+    "izuzak",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "shashank-sharma",
+    "zanesterling",
+    "bokuweb",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

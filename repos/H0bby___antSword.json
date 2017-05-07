@@ -187,16 +187,15 @@
       "start": "electron app.js",
       "build": "webpack --progress --color --watch"
     },
-    "author": "antoor <u@uyu.us>",
     "license": "MIT",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/antoor/antSword"
-    },
-    "bugs": {
-      "url": "https://github.com/antoor/antSword/issues"
-    },
-    "homepage": "https://github.com/antoor/antSword"
+    "repository": "https://github.com/antoor/antSword",
+    "homepage": "https://github.com/antoor/antSword",
+    "other": {
+      "author": "antoor <u@uyu.us>",
+      "bugs": {
+        "url": "https://github.com/antoor/antSword/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -245,5 +244,10 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T05:22:17.735Z",
-  "packageLastFetchedAt": "2017-05-04T22:17:11.292Z"
+  "packageLastFetchedAt": "2017-05-04T22:17:11.292Z",
+  "contributors": [
+    "antoor",
+    "Lupino",
+    "c4bbage"
+  ]
 }

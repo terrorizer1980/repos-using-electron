@@ -69,15 +69,8 @@
     "name": "ljswitchboard-splash_screen",
     "version": "0.0.1",
     "description": "The splash screen & primary loading file for LabJack's Kipling program.",
-    "author": {
-      "name": "Chris Johnson",
-      "url": "http://labjack.com"
-    },
     "homepage": "https://github.com/chrisJohn404/ljswitchboard-electron_splash_screen",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/chrisJohn404/ljswitchboard-electron_splash_screen"
-    },
+    "repository": "https://github.com/chrisJohn404/ljswitchboard-electron_splash_screen",
     "keywords": [
       "LabJack",
       "LJM",
@@ -87,9 +80,6 @@
     "license": {
       "type": "MIT",
       "url": "https://github.com/chrisJohn404/ljswitchboard-electron_splash_screen/master/LICENSE"
-    },
-    "bugs": {
-      "url": "https://github.com/chrisJohn404/ljswitchboard-electron_splash_screen/issues"
     },
     "main": "lib/main.js",
     "window": {
@@ -150,7 +140,16 @@
     "js-flags": "--expose-gc",
     "persistentDataFolderName": "K3",
     "persistentDataVersion": "0.0.1",
-    "forceRefreshOfPersistentData": false
+    "forceRefreshOfPersistentData": false,
+    "other": {
+      "author": {
+        "name": "Chris Johnson",
+        "url": "http://labjack.com"
+      },
+      "bugs": {
+        "url": "https://github.com/chrisJohn404/ljswitchboard-electron_splash_screen/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -178,5 +177,8 @@
   "filename": "chrisJohn404___ljswitchboard-electron_splash_screen.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:11:20.246Z",
-  "packageLastFetchedAt": "2017-05-04T22:44:56.098Z"
+  "packageLastFetchedAt": "2017-05-04T22:44:56.098Z",
+  "contributors": [
+    "chrisJohn404"
+  ]
 }

@@ -65,10 +65,12 @@
       "open",
       "cli"
     ],
-    "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "0.34.0"
+    },
+    "other": {
+      "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,9 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T20:11:31.747Z",
-  "packageLastFetchedAt": "2017-05-04T22:35:45.776Z"
+  "packageLastFetchedAt": "2017-05-04T22:35:45.776Z",
+  "contributors": [
+    "bencevans",
+    "greenkeeperio-bot"
+  ]
 }

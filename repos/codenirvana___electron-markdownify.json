@@ -175,11 +175,7 @@
       "start": "electron main.js",
       "build": "rm -rf dist && gulp build"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/amitmerchant1990/markdownify.git",
-      "docs": "https://github.com/amitmerchant1990/electron-markdownify/blob/master/README.md"
-    },
+    "repository": "https://github.com/amitmerchant1990/markdownify",
     "keywords": [
       "electron",
       "markdown",
@@ -191,16 +187,8 @@
       "html",
       "desktop"
     ],
-    "author": "Amit Merchant <bullredeyes@gmail.com>",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/amitmerchant1990/markdownify/issues"
-    },
     "homepage": "https://github.com/amitmerchant1990/markdownify#readme",
-    "_npmUser": {
-      "name": "amit_merchant",
-      "email": "bullredeyes@gmail.com"
-    },
     "devDependencies": {
       "devtron": "^1.1.2",
       "electron-packager": "^7.0.3",
@@ -212,6 +200,20 @@
       "showdown": "^1.3.0",
       "electron-json-storage": "latest",
       "parse-filepath": "latest"
+    },
+    "lastPublisher": {
+      "name": "amit_merchant",
+      "email": "bullredeyes@gmail.com"
+    },
+    "other": {
+      "_npmUser": {
+        "name": "amit_merchant",
+        "email": "bullredeyes@gmail.com"
+      },
+      "author": "Amit Merchant <bullredeyes@gmail.com>",
+      "bugs": {
+        "url": "https://github.com/amitmerchant1990/markdownify/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -261,5 +263,10 @@
   "sourceRepo": "amitmerchant1990/electron-markdownify",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:14:34.018Z",
-  "packageLastFetchedAt": "2017-05-05T17:00:38.752Z"
+  "packageLastFetchedAt": "2017-05-05T17:00:38.752Z",
+  "contributors": [
+    "amitmerchant1990",
+    "banyudu",
+    "atdrago"
+  ]
 }

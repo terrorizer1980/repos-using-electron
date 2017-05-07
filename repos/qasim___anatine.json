@@ -172,11 +172,6 @@
     "description": "Pristine Twitter app",
     "license": "MIT",
     "repository": "sindresorhus/anatine",
-    "author": {
-      "name": "Sindre Sorhus",
-      "email": "sindresorhus@gmail.com",
-      "url": "sindresorhus.com"
-    },
     "scripts": {
       "test": "xo",
       "start": "electron .",
@@ -202,6 +197,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Sindre Sorhus",
+        "email": "sindresorhus@gmail.com",
+        "url": "sindresorhus.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -251,5 +253,20 @@
   "sourceRepo": "sindresorhus/anatine",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:25:57.208Z",
-  "packageLastFetchedAt": "2017-05-05T17:07:45.915Z"
+  "packageLastFetchedAt": "2017-05-05T17:07:45.915Z",
+  "contributors": [
+    "sindresorhus",
+    "paulmolluzzo",
+    "danhp",
+    "bjarneo",
+    "uschek",
+    "gutierri",
+    "lukeed",
+    "JayBizzle",
+    "nicosuave",
+    "nsonnad",
+    "CodeDotJS",
+    "SamVerschueren",
+    "zakrid"
+  ]
 }

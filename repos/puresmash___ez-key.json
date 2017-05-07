@@ -77,7 +77,6 @@
       "sass": "sass --watch ./scss/style.scss:./dist/css/style.css",
       "start": "./node_modules/.bin/electron ."
     },
-    "author": "swat",
     "license": "MIT",
     "devDependencies": {
       "asar": "^0.12.3",
@@ -88,6 +87,9 @@
       "electron-is-dev": "^0.1.2",
       "fix-path": "^2.0.0",
       "jquery": "^3.1.1"
+    },
+    "other": {
+      "author": "swat"
     }
   },
   "packageStatus": 200,
@@ -116,5 +118,8 @@
   "filename": "puresmash___ez-key.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:32:34.861Z",
-  "packageLastFetchedAt": "2017-05-05T17:19:23.713Z"
+  "packageLastFetchedAt": "2017-05-05T17:19:23.713Z",
+  "contributors": [
+    "puresmash"
+  ]
 }

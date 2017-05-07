@@ -78,7 +78,6 @@
     "keywords": [
       "appops"
     ],
-    "author": "Cheiron Zhang",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.1",
@@ -86,6 +85,9 @@
       "eslint-config-standard": "^6.2.0",
       "eslint-plugin-promise": "^3.3.0",
       "eslint-plugin-standard": "^2.0.1"
+    },
+    "other": {
+      "author": "Cheiron Zhang"
     }
   },
   "packageStatus": 200,
@@ -114,5 +116,8 @@
   "filename": "cheiron1990___appops.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:22:00.327Z",
-  "packageLastFetchedAt": "2017-05-04T22:58:02.743Z"
+  "packageLastFetchedAt": "2017-05-04T22:58:02.743Z",
+  "contributors": [
+    "cheiron1990"
+  ]
 }

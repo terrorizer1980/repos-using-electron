@@ -57,8 +57,10 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "author": "Tommi Honkala",
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": "Tommi Honkala"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -106,5 +108,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T21:27:29.443Z",
-  "packageLastFetchedAt": "2017-05-05T17:21:26.023Z"
+  "packageLastFetchedAt": "2017-05-05T17:21:26.023Z",
+  "contributors": [
+    "Merlac"
+  ]
 }

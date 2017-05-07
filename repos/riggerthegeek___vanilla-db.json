@@ -141,15 +141,8 @@
       "watch:test:lint": "nodemon --exec 'npm run test:lint -s' --legacy-watch",
       "watch:test:unit": "nodemon --exec 'npm run test:unit -s' --legacy-watch"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/riggerthegeek/vanilla-db.git"
-    },
-    "author": "Simon Emms <simon@slashdevslashnull.it>",
+    "repository": "https://github.com/riggerthegeek/vanilla-db",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/riggerthegeek/vanilla-db/issues"
-    },
     "homepage": "https://github.com/riggerthegeek/vanilla-db#readme",
     "dependencies": {
       "angular": "^1.6.1",
@@ -201,7 +194,13 @@
       "sinon-as-promised": "^4.0.2",
       "sinon-chai": "^2.8.0"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": "Simon Emms <simon@slashdevslashnull.it>",
+      "bugs": {
+        "url": "https://github.com/riggerthegeek/vanilla-db/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -243,5 +242,8 @@
     "type": "Organization"
   },
   "lastFetchedAt": "2017-05-04T21:19:29.620Z",
-  "packageLastFetchedAt": "2017-05-05T15:01:53.030Z"
+  "packageLastFetchedAt": "2017-05-05T15:01:53.030Z",
+  "contributors": [
+    "riggerthegeek"
+  ]
 }

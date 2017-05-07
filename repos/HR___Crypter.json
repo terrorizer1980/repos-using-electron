@@ -59,13 +59,7 @@
     "license": "MIT",
     "repository": "https://github.com/HR/Crypter",
     "homepage": "https://github.com/HR/Crypter",
-    "bugs": "https://github.com/HR/Crypter/issues",
     "main": "./app/index.js",
-    "author": {
-      "name": "Habib Rehman",
-      "email": "Habib.R@outlook.com",
-      "url": "https://git.io/HR"
-    },
     "engines": {
       "node": ">=6"
     },
@@ -182,6 +176,14 @@
       "mocha-lcov-reporter": "^1.2.0",
       "spectron": "*",
       "standard": "^7.1.2"
+    },
+    "other": {
+      "author": {
+        "name": "Habib Rehman",
+        "email": "Habib.R@outlook.com",
+        "url": "https://git.io/HR"
+      },
+      "bugs": "https://github.com/HR/Crypter/issues"
     }
   },
   "packageStatus": 200,
@@ -230,5 +232,8 @@
   "filename": "HR___Crypter.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T14:25:35.110Z",
-  "packageLastFetchedAt": "2017-05-04T22:07:25.871Z"
+  "packageLastFetchedAt": "2017-05-04T22:07:25.871Z",
+  "contributors": [
+    "HR"
+  ]
 }

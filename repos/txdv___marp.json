@@ -169,17 +169,13 @@
     "name": "Marp",
     "version": "0.0.8",
     "description": "Markdown Presentation Writer (Powered by Electron)",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/yhatt/marp"
-    },
+    "repository": "https://github.com/yhatt/marp",
     "main": "main.js",
     "scripts": {
       "start": "gulp run",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "Yuki Hattori",
     "license": "MIT",
     "devDependencies": {
       "coffee-script": "^1.10.0",
@@ -219,6 +215,9 @@
       "path": "^0.12.7",
       "photon": "git+https://github.com/connors/photon.git",
       "twemoji": "^2.0.5"
+    },
+    "other": {
+      "author": "Yuki Hattori"
     }
   },
   "packageStatus": 200,
@@ -268,5 +267,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T15:29:14.698Z",
-  "packageLastFetchedAt": "2017-05-05T15:40:14.011Z"
+  "packageLastFetchedAt": "2017-05-05T15:40:14.011Z",
+  "contributors": [
+    "yhatt"
+  ]
 }

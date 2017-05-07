@@ -59,16 +59,8 @@
       "hosts"
     ],
     "homepage": "https://github.com/fiahfy/hosty#readme",
-    "author": {
-      "name": "fiahfy",
-      "email": "d.fiahfy@gmail.com",
-      "url": "http://fiahfy.blogspot.com/"
-    },
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/fiahfy/hosty"
-    },
+    "repository": "https://github.com/fiahfy/hosty",
     "scripts": {
       "start": "npm run watch & npm run build:main; electron main.js",
       "start:hot": "npm run hot:renderer & npm run build:main; HOT=1 electron main.js",
@@ -133,7 +125,14 @@
       "eslint-plugin-react": "5.2.2",
       "webpack-dev-server": "1.14.1"
     },
-    "private": true
+    "private": true,
+    "other": {
+      "author": {
+        "name": "fiahfy",
+        "email": "d.fiahfy@gmail.com",
+        "url": "http://fiahfy.blogspot.com/"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -181,5 +180,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T17:46:01.004Z",
-  "packageLastFetchedAt": "2017-05-04T21:54:27.767Z"
+  "packageLastFetchedAt": "2017-05-04T21:54:27.767Z",
+  "contributors": [
+    "fiahfy"
+  ]
 }

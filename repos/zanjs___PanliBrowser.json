@@ -73,24 +73,23 @@
     "scripts": {
       "start": "electron ."
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/zanjs/PanliBrowser.git"
-    },
+    "repository": "https://github.com/zanjs/PanliBrowser",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Julian",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/zanjs/PanliBrowser/issues"
-    },
     "homepage": "https://github.com/zanjs/PanliBrowser#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Julian",
+      "bugs": {
+        "url": "https://github.com/zanjs/PanliBrowser/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,8 @@
   "filename": "zanjs___PanliBrowser.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:29:18.395Z",
-  "packageLastFetchedAt": "2017-05-05T15:08:14.202Z"
+  "packageLastFetchedAt": "2017-05-05T15:08:14.202Z",
+  "contributors": [
+    "zanjs"
+  ]
 }

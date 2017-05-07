@@ -87,10 +87,12 @@
       "tutorial",
       "demo"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1"
+    },
+    "other": {
+      "author": "GitHub"
     }
   },
   "packageStatus": 200,
@@ -119,5 +121,8 @@
   "filename": "bsubedi26___electron-desktop.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:53:49.025Z",
-  "packageLastFetchedAt": "2017-05-05T01:19:27.566Z"
+  "packageLastFetchedAt": "2017-05-05T01:19:27.566Z",
+  "contributors": [
+    "bsubedi26"
+  ]
 }

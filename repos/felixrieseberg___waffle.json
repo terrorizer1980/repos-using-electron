@@ -50,10 +50,6 @@
     "version": "0.0.0",
     "description": "Small description for butter goes here",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -65,7 +61,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "",
     "license": "MIT",
     "devDependencies": {
       "babel-eslint": "^4.1.8",
@@ -151,6 +146,13 @@
       "sqlite3": "^3.1.1",
       "superagent": "^1.7.1",
       "urijs": "^1.17.0"
+    },
+    "other": {
+      "author": "",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -199,5 +201,10 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T08:01:42.700Z",
-  "packageLastFetchedAt": "2017-05-05T14:32:55.799Z"
+  "packageLastFetchedAt": "2017-05-05T14:32:55.799Z",
+  "contributors": [
+    "felixrieseberg",
+    "bnookala",
+    "ember-tomster"
+  ]
 }

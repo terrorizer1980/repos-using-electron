@@ -185,10 +185,6 @@
     "version": "1.2.1",
     "description": "Mattermost Desktop application for Windows, Mac and Linux",
     "main": "main.js",
-    "author": {
-      "name": "Yuya Ochiai",
-      "email": "yuya0321@gmail.com"
-    },
     "license": "Apache-2.0",
     "engines": {
       "node": ">=4.2.0"
@@ -247,10 +243,16 @@
         "target": "deb"
       }
     },
-    "directories": {
-      "buildResources": "resources",
-      "app": "dist",
-      "output": "release"
+    "other": {
+      "author": {
+        "name": "Yuya Ochiai",
+        "email": "yuya0321@gmail.com"
+      },
+      "directories": {
+        "buildResources": "resources",
+        "app": "dist",
+        "output": "release"
+      }
     }
   },
   "packageStatus": 200,
@@ -300,5 +302,19 @@
   "sourceRepo": "mattermost/desktop",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:25:55.386Z",
-  "packageLastFetchedAt": "2017-05-04T23:06:05.662Z"
+  "packageLastFetchedAt": "2017-05-04T23:06:05.662Z",
+  "contributors": [
+    "yuya-oc",
+    "it33",
+    "Razzeee",
+    "MetalCar",
+    "mid0111",
+    "jnugh",
+    "mgielda",
+    "alerque",
+    "CarmDam",
+    "jeremycook",
+    "jwilander",
+    "pascalw"
+  ]
 }

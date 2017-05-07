@@ -93,7 +93,6 @@
       "sass",
       "node"
     ],
-    "author": "",
     "licenses": "MIT",
     "dependencies": {
       "@angular/common": "~2.0.2",
@@ -133,6 +132,9 @@
       "tslint": "^3.15.1",
       "typescript": "^2.0.3",
       "typings": "^1.4.0"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -161,5 +163,8 @@
   "filename": "thompsonemerson___angular2electron.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:19:30.886Z",
-  "packageLastFetchedAt": "2017-05-05T14:55:12.981Z"
+  "packageLastFetchedAt": "2017-05-05T14:55:12.981Z",
+  "contributors": [
+    "thompsonemerson"
+  ]
 }

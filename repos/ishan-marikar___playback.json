@@ -209,16 +209,15 @@
       "mac-bundle": "electron-packager . Playback --platform=darwin --arch=x64 --version=0.27.2 --ignore=node_modules/electron-prebuilt && cp info.plist Playback.app/Contents/Info.plist && cp icon.icns Playback.app/Contents/Resources/atom.icns",
       "win-bundle": "electron-packager . Playback --platform=win32 --arch=ia32 --version=0.27.2 --icon=icon.ico"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/mafintosh/playback.git"
-    },
-    "author": "Mathias Buus (@mafintosh)",
+    "repository": "https://github.com/mafintosh/playback",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mafintosh/playback/issues"
-    },
-    "homepage": "https://github.com/mafintosh/playback"
+    "homepage": "https://github.com/mafintosh/playback",
+    "other": {
+      "author": "Mathias Buus (@mafintosh)",
+      "bugs": {
+        "url": "https://github.com/mafintosh/playback/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -267,5 +266,18 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T05:28:32.723Z",
-  "packageLastFetchedAt": "2017-05-05T17:48:09.061Z"
+  "packageLastFetchedAt": "2017-05-05T17:48:09.061Z",
+  "contributors": [
+    "mafintosh",
+    "freeall",
+    "jbenet",
+    "bmathews",
+    "maxogden",
+    "daisuke-nomura",
+    "fbaiodias",
+    "vorot93",
+    "kapetan",
+    "tsvetilian-ty",
+    "msathis"
+  ]
 }

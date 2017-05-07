@@ -72,19 +72,12 @@
       "lint",
       "test"
     ],
-    "repository": {
-      "type": "git",
-      "url": "git+ssh://git@github.com/gregstewart/hearthstone-tracker.git"
-    },
+    "repository": "https://github.com/gregstewart/hearthstone-tracker",
     "keywords": [
       "hearthstone",
       "tracker"
     ],
-    "author": "Greg Stewart",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/gregstewart/hearthstone-tracker/issues"
-    },
     "homepage": "https://github.com/gregstewart/hearthstone-tracker#readme",
     "devDependencies": {
       "babel-cli": "6.24.1",
@@ -137,6 +130,12 @@
     },
     "engines": {
       "node": "7.4.0"
+    },
+    "other": {
+      "author": "Greg Stewart",
+      "bugs": {
+        "url": "https://github.com/gregstewart/hearthstone-tracker/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -185,5 +184,9 @@
   "filename": "gregstewart___hearthstone-tracker.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:55:27.107Z",
-  "packageLastFetchedAt": "2017-05-05T01:26:03.627Z"
+  "packageLastFetchedAt": "2017-05-05T01:26:03.627Z",
+  "contributors": [
+    "gregstewart",
+    "greenkeeperio-bot"
+  ]
 }

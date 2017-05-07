@@ -202,19 +202,8 @@
     "bin": {
       "electron": "./node_modules/.bin/electron"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/chentsulin/electron-react-boilerplate.git"
-    },
-    "author": {
-      "name": "C. T. Lin",
-      "email": "chentsulin@gmail.com",
-      "url": "https://github.com/chentsulin"
-    },
+    "repository": "https://github.com/chentsulin/electron-react-boilerplate",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
-    },
     "keywords": [
       "electron",
       "boilerplate",
@@ -287,6 +276,16 @@
     "devEngines": {
       "node": "4.x || 5.x",
       "npm": "2.x || 3.x"
+    },
+    "other": {
+      "author": {
+        "name": "C. T. Lin",
+        "email": "chentsulin@gmail.com",
+        "url": "https://github.com/chentsulin"
+      },
+      "bugs": {
+        "url": "https://github.com/chentsulin/electron-react-boilerplate/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -336,5 +335,30 @@
   "sourceRepo": "chentsulin/electron-react-boilerplate",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:06:05.051Z",
-  "packageLastFetchedAt": "2017-05-05T15:41:56.285Z"
+  "packageLastFetchedAt": "2017-05-05T15:41:56.285Z",
+  "contributors": [
+    "chentsulin",
+    "jhen0409",
+    "iDuuck",
+    "akovalyov",
+    "Kilian",
+    "danielbushman",
+    "epilande",
+    "suribit",
+    "LongLiveCHIEF",
+    "tsemerad",
+    "pwmckenna",
+    "Yeti-or",
+    "catalinmiron",
+    "davej",
+    "domasx2",
+    "lmatteis",
+    "olegakbarov",
+    "pascalw",
+    "vramana",
+    "shea256",
+    "RyanAtViceSoftware",
+    "ttacon",
+    "slightlytyler"
+  ]
 }

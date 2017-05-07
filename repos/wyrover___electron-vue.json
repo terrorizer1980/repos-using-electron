@@ -54,7 +54,6 @@
   "packageJSON": {
     "name": "app",
     "description": "A Vue.js project",
-    "author": "wyrover <wyrover@gmail.com>",
     "private": true,
     "scripts": {
       "dev": "node build/dev-server.js",
@@ -118,6 +117,9 @@
       "webpack": "^1.12.2",
       "webpack-dev-middleware": "^1.4.0",
       "webpack-hot-middleware": "^2.6.0"
+    },
+    "other": {
+      "author": "wyrover <wyrover@gmail.com>"
     }
   },
   "packageStatus": 200,
@@ -166,5 +168,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T18:28:11.323Z",
-  "packageLastFetchedAt": "2017-05-05T15:22:46.295Z"
+  "packageLastFetchedAt": "2017-05-05T15:22:46.295Z",
+  "contributors": [
+    "wyrover"
+  ]
 }

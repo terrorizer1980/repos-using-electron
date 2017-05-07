@@ -59,20 +59,13 @@
     "scripts": {
       "start": "electron main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/Excrulon/Tree-of-Savior-Addon-Manager.git"
-    },
+    "repository": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager",
     "keywords": [
       "tree of savior",
       "addon",
       "manager"
     ],
-    "author": "Excrulon",
     "license": "GNUv2",
-    "bugs": {
-      "url": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/issues"
-    },
     "homepage": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager#readme",
     "devDependencies": {
       "electron-packager": "^7.0.2",
@@ -90,6 +83,12 @@
       "mkdirp": "^0.5.1",
       "request-progress": "^2.0.1",
       "semver": "^5.1.0"
+    },
+    "other": {
+      "author": "Excrulon",
+      "bugs": {
+        "url": "https://github.com/Excrulon/Tree-of-Savior-Addon-Manager/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -138,5 +137,8 @@
   "filename": "Excrulon___Tree-of-Savior-Addon-Manager.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:29:01.170Z",
-  "packageLastFetchedAt": "2017-05-05T17:11:11.564Z"
+  "packageLastFetchedAt": "2017-05-05T17:11:11.564Z",
+  "contributors": [
+    "Excrulon"
+  ]
 }

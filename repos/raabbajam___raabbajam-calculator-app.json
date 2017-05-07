@@ -85,13 +85,15 @@
       "start",
       "tutorial"
     ],
-    "author": "raabbajam",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.37.8"
     },
     "dependencies": {
       "raabbajam-calculator": "^1.0.2"
+    },
+    "other": {
+      "author": "raabbajam"
     }
   },
   "packageStatus": 200,
@@ -121,5 +123,22 @@
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:10:20.175Z",
-  "packageLastFetchedAt": "2017-05-04T22:44:31.986Z"
+  "packageLastFetchedAt": "2017-05-04T22:44:31.986Z",
+  "contributors": [
+    "kevinsawicki",
+    "tcyrus",
+    "zeke",
+    "izuzak",
+    "bokuweb",
+    "galeksandrp",
+    "clemens-tolboom",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "raabbajam",
+    "zanesterling",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

@@ -53,24 +53,23 @@
     "scripts": {
       "start": "electron main.js "
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/evancohen/smart-mirror.git"
-    },
+    "repository": "https://github.com/evancohen/smart-mirror",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "Evan Cohen",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/evancohen/smart-mirror/issues"
-    },
     "homepage": "https://github.com/evancohen/smart-mirror",
     "devDependencies": {
       "electron-prebuilt": "^0.36.5"
+    },
+    "other": {
+      "author": "Evan Cohen",
+      "bugs": {
+        "url": "https://github.com/evancohen/smart-mirror/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -119,5 +118,8 @@
   "filename": "yelisetti___MirrorOnTheWall.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:16:50.796Z",
-  "packageLastFetchedAt": "2017-05-05T17:16:50.817Z"
+  "packageLastFetchedAt": "2017-05-05T17:16:50.817Z",
+  "contributors": [
+    "yelisetti"
+  ]
 }

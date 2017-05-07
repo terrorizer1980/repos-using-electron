@@ -75,15 +75,8 @@
       "start": "browserify lib/browser-globals.js -o out/browser-globals.js && watchify lib/*.js -o out/index.js --ignore-missing --entry lib/index.js --verbose",
       "test": "mocha test/unit/*-test.js test/integration/*-test.js && standard"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/devtron.git"
-    },
-    "author": "Kevin Sawicki",
+    "repository": "https://github.com/electron/devtron",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/electron/devtron/issues"
-    },
     "keywords": [
       "Electron",
       "Chrome",
@@ -114,6 +107,12 @@
       "ignore": [
         "/out/index.js"
       ]
+    },
+    "other": {
+      "author": "Kevin Sawicki",
+      "bugs": {
+        "url": "https://github.com/electron/devtron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -165,5 +164,17 @@
   "allowMergeCommit": true,
   "allowRebaseMerge": true,
   "lastFetchedAt": "2017-05-04T19:37:00.570Z",
-  "packageLastFetchedAt": "2017-05-04T22:33:46.019Z"
+  "packageLastFetchedAt": "2017-05-04T22:33:46.019Z",
+  "contributors": [
+    "kevinsawicki",
+    "philschatz",
+    "MarshallOfSound",
+    "zeke",
+    "BinaryMuse",
+    "princejwesley",
+    "rafaelstz",
+    "sindresorhus",
+    "stevekinney",
+    "simurai"
+  ]
 }

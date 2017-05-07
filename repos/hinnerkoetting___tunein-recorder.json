@@ -59,11 +59,7 @@
       "release": "npm run clean && npm install && npm run release-zip-packager && npm run release-mac",
       "debug": "cd app && npm run debug"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/hinnerkoetting/tunein-recorder/"
-    },
-    "author": "Hinnerk Oetting",
+    "repository": "https://github.com/hinnerkoetting/tunein-recorder",
     "license": "MIT",
     "devDependencies": {
       "electron": "^1.4.0",
@@ -71,6 +67,9 @@
       "electron-prebuilt": "^1.2.3",
       "electron-zip-packager": "1.0.4",
       "rimraf": "^2.5.2"
+    },
+    "other": {
+      "author": "Hinnerk Oetting"
     }
   },
   "packageStatus": 200,
@@ -120,5 +119,8 @@
   "sourceRepo": "hinnerkoetting/tin-recorder",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:17:03.604Z",
-  "packageLastFetchedAt": "2017-05-04T22:47:17.962Z"
+  "packageLastFetchedAt": "2017-05-04T22:47:17.962Z",
+  "contributors": [
+    "hinnerkoetting"
+  ]
 }

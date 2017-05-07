@@ -65,10 +65,12 @@
       "Electron",
       "Desktop App"
     ],
-    "author": "Raghav Jajodia",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Raghav Jajodia"
     }
   },
   "packageStatus": 200,
@@ -117,5 +119,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T14:26:28.106Z",
-  "packageLastFetchedAt": "2017-05-05T17:29:44.980Z"
+  "packageLastFetchedAt": "2017-05-05T17:29:44.980Z",
+  "contributors": [
+    "jajodiaraghav"
+  ]
 }

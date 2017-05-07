@@ -50,10 +50,6 @@
     "version": "0.1.0",
     "description": "This app was built to audit, and remediate, security configuration settings.",
     "private": true,
-    "directories": {
-      "doc": "doc",
-      "test": "tests"
-    },
     "scripts": {
       "build": "ember build",
       "start": "ember server",
@@ -63,7 +59,6 @@
     "engines": {
       "node": ">= 0.10.0"
     },
-    "author": "Marcin Brzeziński",
     "license": "MIT",
     "devDependencies": {
       "broccoli-asset-rev": "2.2.0",
@@ -129,6 +124,13 @@
     "dependencies": {
       "rsvp": "3.2.1",
       "shelljs": "0.6.0"
+    },
+    "other": {
+      "author": "Marcin Brzeziński",
+      "directories": {
+        "doc": "doc",
+        "test": "tests"
+      }
     }
   },
   "packageStatus": 200,
@@ -177,5 +179,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T20:55:14.042Z",
-  "packageLastFetchedAt": "2017-05-05T17:10:07.588Z"
+  "packageLastFetchedAt": "2017-05-05T17:10:07.588Z",
+  "contributors": [
+    "cintrzyk"
+  ]
 }

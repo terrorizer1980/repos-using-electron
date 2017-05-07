@@ -78,11 +78,6 @@
     "description": "WebGL based client for VASP (Vector Animation Streaming Protocol)",
     "license": "MIT",
     "repository": "mayalekova/vasp-client",
-    "author": {
-      "name": "Maya Lekova",
-      "email": "apokalyptra@gmail.com",
-      "url": "github.com/mayalekova"
-    },
     "scripts": {
       "test": "xo",
       "start": "electron scripts/index.js",
@@ -112,6 +107,13 @@
         "node",
         "browser"
       ]
+    },
+    "other": {
+      "author": {
+        "name": "Maya Lekova",
+        "email": "apokalyptra@gmail.com",
+        "url": "github.com/mayalekova"
+      }
     }
   },
   "packageStatus": 200,
@@ -140,5 +142,8 @@
   "filename": "MayaLekova___vasp-client.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:43:54.512Z",
-  "packageLastFetchedAt": "2017-05-04T22:49:01.592Z"
+  "packageLastFetchedAt": "2017-05-04T22:49:01.592Z",
+  "contributors": [
+    "MayaLekova"
+  ]
 }

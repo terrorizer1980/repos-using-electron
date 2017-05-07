@@ -88,7 +88,6 @@
       "vue:route": "node tasks/vue/route.js",
       "vuex:module": "node tasks/vuex/module.js"
     },
-    "author": "Greg Holguin <simulatedgreg@gmail.com>",
     "license": "MIT",
     "devDependencies": {
       "babel-core": "^6.8.0",
@@ -134,7 +133,10 @@
       "webpack": "^2.2.0",
       "webpack-dev-server": "^2.2.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "other": {
+      "author": "Greg Holguin <simulatedgreg@gmail.com>"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -162,5 +164,8 @@
   "filename": "goumang2010___mockSQL.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T14:54:49.470Z",
-  "packageLastFetchedAt": "2017-05-04T22:35:47.748Z"
+  "packageLastFetchedAt": "2017-05-04T22:35:47.748Z",
+  "contributors": [
+    "goumang2010"
+  ]
 }

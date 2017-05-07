@@ -73,7 +73,6 @@
     "scripts": {
       "package": "rm -rf ./BetterMenubarClock-darwin-x64 && ./node_modules/.bin/electron-packager . BetterMenubarClock --platform darwin --arch=x64 --ignore=.DS_Store --overwrite --prune"
     },
-    "author": "Kristian Freeman <kristian@kristianfreeman.com>",
     "license": "ISC",
     "devDependencies": {
       "electron-packager": "^7.7.0",
@@ -83,6 +82,9 @@
       "electron-json-storage": "^2.0.0",
       "lodash": "^4.15.0",
       "moment": "^2.14.1"
+    },
+    "other": {
+      "author": "Kristian Freeman <kristian@kristianfreeman.com>"
     }
   },
   "packageStatus": 200,
@@ -111,5 +113,8 @@
   "filename": "imkmf___better-menubar-clock.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:31:04.087Z",
-  "packageLastFetchedAt": "2017-05-05T15:04:48.496Z"
+  "packageLastFetchedAt": "2017-05-05T15:04:48.496Z",
+  "contributors": [
+    "imkmf"
+  ]
 }

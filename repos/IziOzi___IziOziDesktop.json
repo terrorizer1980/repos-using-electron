@@ -94,7 +94,6 @@
       "start": "electron ."
     },
     "repository": "https://github.com/electron/electron-quick-start",
-    "author": "Pera Sebastiano",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1"
@@ -106,6 +105,9 @@
       "electron-reload": "^1.0.2",
       "react": "^15.3.2",
       "react-dom": "^15.3.2"
+    },
+    "other": {
+      "author": "Pera Sebastiano"
     }
   },
   "packageStatus": 200,
@@ -135,5 +137,27 @@
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:16:00.343Z",
-  "packageLastFetchedAt": "2017-05-04T22:40:05.428Z"
+  "packageLastFetchedAt": "2017-05-04T22:40:05.428Z",
+  "contributors": [
+    "kevinsawicki",
+    "zeke",
+    "tcyrus",
+    "izuzak",
+    "sebailfico",
+    "bokuweb",
+    "galeksandrp",
+    "bhaveshgohel",
+    "clemens-tolboom",
+    "posva",
+    "thompsonemerson",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "louistsaitszho",
+    "sahildua2305",
+    "zanesterling",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

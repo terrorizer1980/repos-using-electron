@@ -83,10 +83,7 @@
       "style": "node-sass --output-style compact --include-path ./app/scss/includes ./app/scss/main.scss > ./app/renderer/css/main.css",
       "test": "echo \"Not implemented\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/mister-spock/weatherman.git"
-    },
+    "repository": "https://github.com/mister-spock/weatherman",
     "keywords": [
       "electron",
       "javascript",
@@ -94,11 +91,7 @@
       "weather",
       "widget"
     ],
-    "author": "Oleg Kozak",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/mister-spock/weatherman/issues"
-    },
     "homepage": "https://github.com/mister-spock/weatherman#readme",
     "devDependencies": {
       "backbone": "^1.3.3",
@@ -108,6 +101,12 @@
       "jshint": "^2.9.3",
       "node-sass": "^3.10.0",
       "underscore": "^1.8.3"
+    },
+    "other": {
+      "author": "Oleg Kozak",
+      "bugs": {
+        "url": "https://github.com/mister-spock/weatherman/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -136,5 +135,8 @@
   "filename": "mister-spock___weatherman.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T17:42:33.030Z",
-  "packageLastFetchedAt": "2017-05-04T21:56:15.344Z"
+  "packageLastFetchedAt": "2017-05-04T21:56:15.344Z",
+  "contributors": [
+    "mister-spock"
+  ]
 }

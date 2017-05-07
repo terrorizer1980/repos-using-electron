@@ -80,24 +80,23 @@
       "start": "electron main.js",
       "package": "electron-packager . --app-version=0.1.0 --overwrite --platform=win32 --arch=ia32 --icon=./hello.ico"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/electron/electron-quick-start.git"
-    },
+    "repository": "https://github.com/electron/electron-quick-start",
     "keywords": [
       "Electron",
       "quick",
       "start",
       "tutorial"
     ],
-    "author": "GitHub",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/electron/electron-quick-start/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "GitHub",
+      "bugs": {
+        "url": "https://github.com/electron/electron-quick-start/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -127,5 +126,25 @@
   "sourceRepo": "gedaiu/Voice",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:00:28.915Z",
-  "packageLastFetchedAt": "2017-05-05T17:35:08.833Z"
+  "packageLastFetchedAt": "2017-05-05T17:35:08.833Z",
+  "contributors": [
+    "kevinsawicki",
+    "tcyrus",
+    "zeke",
+    "izuzak",
+    "FongRay",
+    "bokuweb",
+    "galeksandrp",
+    "clemens-tolboom",
+    "posva",
+    "IonicaBizau",
+    "johnmuhl",
+    "phanect",
+    "louistsaitszho",
+    "sahildua2305",
+    "zanesterling",
+    "fscherwi",
+    "icoxfog417",
+    "laiso"
+  ]
 }

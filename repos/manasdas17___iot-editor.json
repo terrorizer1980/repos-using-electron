@@ -173,11 +173,6 @@
     "license": "MIT",
     "main": "index.js",
     "repository": "iot-works/iot-editor",
-    "author": {
-      "name": "Fengda HUANG",
-      "email": "h@phodal.com",
-      "url": "editor.iot-works.com"
-    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -221,6 +216,13 @@
       "load-grunt-tasks": "^3.2.0",
       "reactify": "^1.1.1",
       "watchify": "^3.2.1"
+    },
+    "other": {
+      "author": {
+        "name": "Fengda HUANG",
+        "email": "h@phodal.com",
+        "url": "editor.iot-works.com"
+      }
     }
   },
   "packageStatus": 200,
@@ -270,5 +272,8 @@
   "sourceRepo": "phodal-archive/iot-editor",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:16:24.867Z",
-  "packageLastFetchedAt": "2017-05-04T22:23:53.530Z"
+  "packageLastFetchedAt": "2017-05-04T22:23:53.530Z",
+  "contributors": [
+    "phodal"
+  ]
 }

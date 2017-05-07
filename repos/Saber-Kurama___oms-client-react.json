@@ -69,15 +69,6 @@
     "name": "oms-clentt-react",
     "description": "使用react+redux+immutable+antd 重新财富pc",
     "version": "0.0.0",
-    "author": {
-      "name": "guochao",
-      "email": "463561248@qq.com",
-      "url": "https://github.com/saber_kurama"
-    },
-    "bugs": {
-      "url": "",
-      "email": ""
-    },
     "dependencies": {
       "antd": "^0.12.15",
       "babel": "^6.5.2",
@@ -291,6 +282,17 @@
       "test:mocha": "mocha ./test/app/modules/**/*.test.js",
       "test:mocha:watch": "npm run test:mocha -- --watch",
       "test:watch": "karma start --watch -- --test"
+    },
+    "other": {
+      "author": {
+        "name": "guochao",
+        "email": "463561248@qq.com",
+        "url": "https://github.com/saber_kurama"
+      },
+      "bugs": {
+        "url": "",
+        "email": ""
+      }
     }
   },
   "packageStatus": 200,
@@ -319,5 +321,6 @@
   "filename": "Saber-Kurama___oms-client-react.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:11:58.661Z",
-  "packageLastFetchedAt": "2017-05-04T22:52:12.704Z"
+  "packageLastFetchedAt": "2017-05-04T22:52:12.704Z",
+  "contributors": []
 }

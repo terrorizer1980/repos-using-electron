@@ -204,21 +204,14 @@
       "start": "electron .",
       "test": "standard"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/rafaelleru/torrent-player.git"
-    },
+    "repository": "https://github.com/rafaelleru/torrent-player",
     "keywords": [
       "Electron",
       "music",
       "torrent",
       "streaming"
     ],
-    "author": "Rafaelleru",
     "license": "GPL 3.0",
-    "bugs": {
-      "url": "https://github.com/rafaelleru/torrent-player/issues"
-    },
     "homepage": "https://github.com/electron/electron-quick-start#readme",
     "devDependencies": {
       "should": "^11.1.1",
@@ -239,6 +232,12 @@
       "electron": "1.4.8",
       "electron-localshortcut": "^1.0.0",
       "webtorrent": "^0.98.0"
+    },
+    "other": {
+      "author": "Rafaelleru",
+      "bugs": {
+        "url": "https://github.com/rafaelleru/torrent-player/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -267,5 +266,13 @@
   "sourceRepo": "rafaelleru/torrent_player",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:15:31.074Z",
-  "packageLastFetchedAt": "2017-05-05T14:47:37.303Z"
+  "packageLastFetchedAt": "2017-05-05T14:47:37.303Z",
+  "contributors": [
+    "rafaelleru",
+    "pavocejudo",
+    "JJ",
+    "mitomono",
+    "ncortex",
+    "iblancasa"
+  ]
 }

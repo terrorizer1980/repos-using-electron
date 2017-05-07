@@ -189,18 +189,6 @@
     "name": "friends",
     "description": "p2p chat",
     "version": "1.0.0",
-    "author": [
-      "feross",
-      "maxogden",
-      "mafintosh",
-      "ngoldman",
-      "shama",
-      "jlord",
-      "chrisdickinson"
-    ],
-    "bugs": {
-      "url": "https://github.com/moose-team/friends/issues"
-    },
     "dependencies": {
       "cat-names": "^1.0.2",
       "ctype": "^0.5.4",
@@ -258,10 +246,7 @@
     ],
     "license": "MIT",
     "main": "index.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/moose-team/friends.git"
-    },
+    "repository": "https://github.com/moose-team/friends",
     "browserify": {
       "transforms": [
         "brfs"
@@ -276,6 +261,20 @@
       "watch-css": "mkdirp dist && stylus -u nib css/app.styl -o dist/ -w",
       "web": "beefy web.js:bundle.js",
       "rebuild-leveldb": "cd node_modules/leveldown && set HOME=~/.electron-gyp && node-gyp rebuild --target=0.25.1 --arch=x64 --dist-url=https://atom.io/download/atom-shell"
+    },
+    "other": {
+      "author": [
+        "feross",
+        "maxogden",
+        "mafintosh",
+        "ngoldman",
+        "shama",
+        "jlord",
+        "chrisdickinson"
+      ],
+      "bugs": {
+        "url": "https://github.com/moose-team/friends/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -325,5 +324,24 @@
   "filename": "ii___friends.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:37:50.745Z",
-  "packageLastFetchedAt": "2017-05-04T22:18:48.701Z"
+  "packageLastFetchedAt": "2017-05-04T22:18:48.701Z",
+  "contributors": [
+    "feross",
+    "maxogden",
+    "mafintosh",
+    "shama",
+    "ungoldman",
+    "beaugunderson",
+    "bcomnes",
+    "knownasilya",
+    "Flet",
+    "Adjective-Object",
+    "calvinmetcalf",
+    "Trott",
+    "freeall",
+    "jsdnxx",
+    "tunnckoCore",
+    "keis",
+    "KakeLP"
+  ]
 }

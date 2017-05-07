@@ -73,7 +73,6 @@
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "",
     "license": "ISC",
     "dependencies": {
       "electron-prebuilt": "^0.34.2",
@@ -81,6 +80,9 @@
     },
     "devDependencies": {
       "electron-rebuild": "^1.0.2"
+    },
+    "other": {
+      "author": ""
     }
   },
   "packageStatus": 200,
@@ -109,5 +111,8 @@
   "filename": "todbot___electron-serial-toy.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:19:11.748Z",
-  "packageLastFetchedAt": "2017-05-04T23:12:41.119Z"
+  "packageLastFetchedAt": "2017-05-04T23:12:41.119Z",
+  "contributors": [
+    "todbot"
+  ]
 }

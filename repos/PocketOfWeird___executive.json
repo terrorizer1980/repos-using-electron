@@ -84,15 +84,8 @@
       "watch": "watchify src/index.js -o bundle.js -t babelify -v",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/pocketofweird/executive.git"
-    },
-    "author": "Nathan Hartzler",
+    "repository": "https://github.com/pocketofweird/executive",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/pocketofweird/executive/issues"
-    },
     "homepage": "https://github.com/pocketofweird/executive#readme",
     "devDependencies": {
       "babel-plugin-transform-object-rest-spread": "^6.22.0",
@@ -111,8 +104,17 @@
       "redux-logger": "^2.7.4",
       "redux-thunk": "^2.2.0",
       "watchify": "^3.9.0"
+    },
+    "other": {
+      "author": "Nathan Hartzler",
+      "bugs": {
+        "url": "https://github.com/pocketofweird/executive/issues"
+      }
     }
   },
   "packageStatus": 200,
-  "packageLastFetchedAt": "2017-05-05T14:48:57.294Z"
+  "packageLastFetchedAt": "2017-05-05T14:48:57.294Z",
+  "contributors": [
+    "PocketOfWeird"
+  ]
 }

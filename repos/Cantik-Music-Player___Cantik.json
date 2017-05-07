@@ -88,19 +88,12 @@
     "scripts": {
       "start": "electron src/main.js"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/cyprieng/Cantik---Electron.git"
-    },
+    "repository": "https://github.com/cyprieng/Cantik---Electron",
     "keywords": [
       "Cantik",
       "Music",
       "Player"
     ],
-    "author": "cyprieng",
-    "bugs": {
-      "url": "https://github.com/cyprieng/Cantik---Electron/issues"
-    },
     "dependencies": {
       "electron-prebuilt": "^1.0.1",
       "coffee-script": "^1.10.0",
@@ -120,6 +113,12 @@
       "istanbul": "^0.4.3",
       "mocha": "^3.0.2",
       "sinon": "^1.17.3"
+    },
+    "other": {
+      "author": "cyprieng",
+      "bugs": {
+        "url": "https://github.com/cyprieng/Cantik---Electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -149,5 +148,8 @@
   "sourceRepo": "cyprieng/Cantik",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:10:06.177Z",
-  "packageLastFetchedAt": "2017-05-04T22:54:10.376Z"
+  "packageLastFetchedAt": "2017-05-04T22:54:10.376Z",
+  "contributors": [
+    "cyprieng"
+  ]
 }

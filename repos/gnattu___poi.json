@@ -206,23 +206,13 @@
       "start_debug": "electron . --debug",
       "clean": "gulp clean"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/poooi/poi.git"
-    },
+    "repository": "https://github.com/poooi/poi",
     "keywords": [
       "KanColle",
       "Browser",
       "Tool"
     ],
-    "author": {
-      "name": "Magica",
-      "email": "readme.md@gmail.com"
-    },
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/poooi/poi/issues"
-    },
     "homepage": "https://github.com/poooi/poi",
     "dependencies": {
       "babel-core": "^6.21.0",
@@ -341,8 +331,17 @@
         ]
       }
     },
-    "directories": {
-      "app": "app_compiled"
+    "other": {
+      "author": {
+        "name": "Magica",
+        "email": "readme.md@gmail.com"
+      },
+      "bugs": {
+        "url": "https://github.com/poooi/poi/issues"
+      },
+      "directories": {
+        "app": "app_compiled"
+      }
     }
   },
   "packageStatus": 200,
@@ -371,5 +370,36 @@
   "sourceRepo": "poooi/poi",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-03T20:07:44.162Z",
-  "packageLastFetchedAt": "2017-05-04T22:31:26.203Z"
+  "packageLastFetchedAt": "2017-05-04T22:31:26.203Z",
+  "contributors": [
+    "KochiyaOcean",
+    "magicae",
+    "dkwingsmt",
+    "alvin-777",
+    "yukixz",
+    "JenningsWu",
+    "taroxd",
+    "KagamiChan",
+    "ruiii",
+    "Chibaheit",
+    "myzWILLmake",
+    "Artoria-0x04",
+    "Ayaphis",
+    "malichan",
+    "agentmario",
+    "wafer-li",
+    "sage417",
+    "CirnoV",
+    "gnattu",
+    "Dibel",
+    "ursm",
+    "NatLee",
+    "zyc434343",
+    "wudifeixue",
+    "swordfeng",
+    "Artoria2e5",
+    "hyq77766177",
+    "vuryleo",
+    "choohoo"
+  ]
 }

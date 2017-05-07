@@ -202,21 +202,14 @@
       "build:win32": ".\\scripts\\build-win32.bat win32 ia32",
       "build:win64": ".\\scripts\\build-win32.bat win32 x64"
     },
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/geeeeeeeeek/wechat-electron.git"
-    },
+    "repository": "https://github.com/geeeeeeeeek/wechat-electron",
     "keywords": [
       "Electron",
       "WeChat",
       "微信",
       "Web"
     ],
-    "author": "Zhongyi Tong",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/geeeeeeeeek/wechat-electron/issues"
-    },
     "homepage": "https://github.com/geeeeeeeeek/wechat-electron/",
     "dependencies": {
       "electron-packager": "^7.0.0",
@@ -230,6 +223,12 @@
       "eslint-plugin-import": "^1.14.0",
       "eslint-plugin-jsx-a11y": "^2.2.0",
       "eslint-plugin-react": "^6.1.2"
+    },
+    "other": {
+      "author": "Zhongyi Tong",
+      "bugs": {
+        "url": "https://github.com/geeeeeeeeek/wechat-electron/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -259,5 +258,35 @@
   "sourceRepo": "geeeeeeeeek/electronic-wechat",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T21:10:03.193Z",
-  "packageLastFetchedAt": "2017-05-04T22:30:48.971Z"
+  "packageLastFetchedAt": "2017-05-04T22:30:48.971Z",
+  "contributors": [
+    "geeeeeeeeek",
+    "Kulbear",
+    "arrowrowe",
+    "iamcc",
+    "gaocegege",
+    "gzzhanghao",
+    "Rocket1184",
+    "txdywy",
+    "ripples-alive",
+    "viko16",
+    "ray26",
+    "wenLiangcan",
+    "lfs1102",
+    "hexchain",
+    "iplus26",
+    "ReadmeCritic",
+    "boltomli",
+    "wzyboy",
+    "samurai00",
+    "cyio",
+    "gucheen",
+    "htc550605125",
+    "3dseals",
+    "loufq",
+    "oblank",
+    "rivershang",
+    "xgdgsc",
+    "miaowing"
+  ]
 }

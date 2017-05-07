@@ -87,8 +87,10 @@
     "scripts": {
       "start": "electron browser.js"
     },
-    "author": "Taran Gill",
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "author": "Taran Gill"
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -115,5 +117,8 @@
   },
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:15:50.807Z",
-  "packageLastFetchedAt": "2017-05-04T22:33:05.776Z"
+  "packageLastFetchedAt": "2017-05-04T22:33:05.776Z",
+  "contributors": [
+    "taran-gill"
+  ]
 }

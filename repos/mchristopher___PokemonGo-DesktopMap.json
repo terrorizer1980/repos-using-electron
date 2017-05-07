@@ -54,7 +54,6 @@
   "packageJSON": {
     "name": "pokemon-go-map",
     "description": "Electron wrapper for PokemonGo-Map",
-    "author": "Mike Christopher",
     "repository": "https://github.com/mchristopher/PokemonGo-DesktopMap",
     "license": "MIT",
     "version": "99.99.99",
@@ -76,6 +75,9 @@
       "grunt-contrib-compress": "*",
       "grunt-execute": "*",
       "grunt-shell": "*"
+    },
+    "other": {
+      "author": "Mike Christopher"
     }
   },
   "packageStatus": 200,
@@ -124,5 +126,19 @@
   "filename": "mchristopher___PokemonGo-DesktopMap.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:17:55.108Z",
-  "packageLastFetchedAt": "2017-05-05T15:34:50.233Z"
+  "packageLastFetchedAt": "2017-05-05T15:34:50.233Z",
+  "contributors": [
+    "mchristopher",
+    "Traxmaxx",
+    "BinaryBeard",
+    "portal-chan",
+    "AVellucci",
+    "tealtail",
+    "andrewda",
+    "GenuineSounds",
+    "hfwang",
+    "KnownAim",
+    "rodrigograca31",
+    "williamd1k0"
+  ]
 }

@@ -62,7 +62,6 @@
       "watch": "watchify -o js/bundle.js -v -d browser/app.js",
       "build": "browserify browser/app.js -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js"
     },
-    "author": "Shrek Zhou<shrekzhou@livenation.com>",
     "devDependencies": {
       "browserify": "^11.2.0",
       "electron-prebuilt": "^0.33.1",
@@ -89,6 +88,9 @@
         "reactify",
         "envify"
       ]
+    },
+    "other": {
+      "author": "Shrek Zhou<shrekzhou@livenation.com>"
     }
   },
   "packageStatus": 200,
@@ -137,5 +139,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T14:47:40.831Z",
-  "packageLastFetchedAt": "2017-05-05T17:32:15.530Z"
+  "packageLastFetchedAt": "2017-05-05T17:32:15.530Z",
+  "contributors": [
+    "zgwmike"
+  ]
 }

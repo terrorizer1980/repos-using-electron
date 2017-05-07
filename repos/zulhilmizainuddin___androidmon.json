@@ -60,7 +60,6 @@
       "start": "electron .",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Zulhilmi Bin Mohamed Zainuddin",
     "license": "MIT",
     "devDependencies": {
       "electron-prebuilt": "^0.36.1"
@@ -72,7 +71,10 @@
       "Android",
       "process",
       "monitor"
-    ]
+    ],
+    "other": {
+      "author": "Zulhilmi Bin Mohamed Zainuddin"
+    }
   },
   "packageStatus": 200,
   "htmlUrl": "https://github.com/zulhilmizainuddin/androidmon",
@@ -120,5 +122,8 @@
   "filename": "zulhilmizainuddin___androidmon.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T17:37:25.193Z",
-  "packageLastFetchedAt": "2017-05-05T14:33:07.839Z"
+  "packageLastFetchedAt": "2017-05-05T14:33:07.839Z",
+  "contributors": [
+    "zulhilmizainuddin"
+  ]
 }

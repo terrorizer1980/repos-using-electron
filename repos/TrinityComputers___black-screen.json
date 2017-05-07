@@ -190,13 +190,7 @@
       "Konstantin Azizov <azizovkostya97@gmail.com>",
       "Volodymyr Barna <roberto.te.ua@gmail.com>"
     ],
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/shockone/black-screen.git"
-    },
-    "bugs": {
-      "url": "https://github.com/shockone/black-screen/issues"
-    },
+    "repository": "https://github.com/shockone/black-screen",
     "keywords": [
       "terminal",
       "emulator",
@@ -268,7 +262,12 @@
       "update-dependencies": "ncu -u",
       "lint": "tslint `find src -name '*.tsx*'`"
     },
-    "license": "MIT"
+    "license": "MIT",
+    "other": {
+      "bugs": {
+        "url": "https://github.com/shockone/black-screen/issues"
+      }
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -317,5 +316,26 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T15:34:44.383Z",
-  "packageLastFetchedAt": "2017-05-04T22:39:39.236Z"
+  "packageLastFetchedAt": "2017-05-04T22:39:39.236Z",
+  "contributors": [
+    "vshatskyi",
+    "RobertoUa",
+    "iiegor",
+    "G07cha",
+    "bmats",
+    "j-em",
+    "nblackburn",
+    "qaisjp",
+    "moollaza",
+    "chaseadamsio",
+    "flawiddsouza",
+    "ibrahima",
+    "jacwah",
+    "mortonfox",
+    "pavgup",
+    "sbdchd",
+    "tcyrus",
+    "erickzanardo",
+    "kevin-smets"
+  ]
 }

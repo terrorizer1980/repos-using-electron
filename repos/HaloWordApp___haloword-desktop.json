@@ -107,14 +107,16 @@
       "electron": "^1.4.2",
       "electron-builder": "^7.26.0"
     },
-    "author": {
-      "name": "Halo Word App",
-      "url": "https://github.com/HaloWordApp"
-    },
     "contributors": {
       "name": "Zeyi Fan",
       "email": "fanzeyi1994@gmail.com",
       "url": "https://zr.is/"
+    },
+    "other": {
+      "author": {
+        "name": "Halo Word App",
+        "url": "https://github.com/HaloWordApp"
+      }
     }
   },
   "packageStatus": 200,
@@ -143,5 +145,8 @@
   "filename": "HaloWordApp___haloword-desktop.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:12:46.417Z",
-  "packageLastFetchedAt": "2017-05-05T17:18:33.653Z"
+  "packageLastFetchedAt": "2017-05-05T17:18:33.653Z",
+  "contributors": [
+    "fanzeyi"
+  ]
 }

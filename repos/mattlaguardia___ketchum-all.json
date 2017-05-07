@@ -57,8 +57,10 @@
     "scripts": {
       "start": "electron ."
     },
-    "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "other": {
+      "author": ""
+    }
   },
   "packageStatus": 200,
   "firstCommit": {
@@ -106,5 +108,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T19:51:34.945Z",
-  "packageLastFetchedAt": "2017-05-05T17:31:02.232Z"
+  "packageLastFetchedAt": "2017-05-05T17:31:02.232Z",
+  "contributors": [
+    "mattlaguardia"
+  ]
 }

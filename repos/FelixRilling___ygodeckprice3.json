@@ -77,20 +77,13 @@
     "namespace": {
       "module": "ygoprodeckprice"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/FelixRilling/ygodeckprice3.git"
-    },
+    "repository": "https://github.com/FelixRilling/ygodeckprice3",
     "keywords": [
       "yugioh",
       "deck",
       "app"
     ],
-    "author": "FelixRilling",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/FelixRilling/ygodeckprice3/issues"
-    },
     "homepage": "https://github.com/FelixRilling/ygodeckprice3#readme",
     "dependencies": {
       "bootstrap": "^4.0.0-alpha.6",
@@ -114,6 +107,12 @@
       "rollup-stream": "^1.19.0",
       "vinyl-buffer": "^1.0.0",
       "vinyl-source-stream": "^1.1.0"
+    },
+    "other": {
+      "author": "FelixRilling",
+      "bugs": {
+        "url": "https://github.com/FelixRilling/ygodeckprice3/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -141,5 +140,8 @@
   },
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T15:27:41.429Z",
-  "packageLastFetchedAt": "2017-05-05T17:22:58.330Z"
+  "packageLastFetchedAt": "2017-05-05T17:22:58.330Z",
+  "contributors": [
+    "FelixRilling"
+  ]
 }

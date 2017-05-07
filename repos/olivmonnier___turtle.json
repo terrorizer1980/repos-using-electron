@@ -90,7 +90,6 @@
       "Electron",
       "snippets"
     ],
-    "author": "olivmonnier",
     "license": "CC0-1.0",
     "devDependencies": {
       "bootstrap-sass": "^3.3.7",
@@ -105,6 +104,9 @@
       "font-awesome": "^4.7.0",
       "jquery": "^3.1.1",
       "nunjucks": "^3.0.0"
+    },
+    "other": {
+      "author": "olivmonnier"
     }
   },
   "packageStatus": 200,
@@ -133,5 +135,8 @@
   "filename": "olivmonnier___turtle.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T20:36:39.382Z",
-  "packageLastFetchedAt": "2017-05-04T23:05:15.365Z"
+  "packageLastFetchedAt": "2017-05-04T23:05:15.365Z",
+  "contributors": [
+    "olivmonnier"
+  ]
 }

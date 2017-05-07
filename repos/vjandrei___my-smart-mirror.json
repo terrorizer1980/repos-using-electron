@@ -63,22 +63,15 @@
       "htmlvalidator": "html-validator --file=index.html",
       "test": "snyk test"
     },
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/MichMich/MagicMirror.git"
-    },
+    "repository": "https://github.com/MichMich/MagicMirror",
     "keywords": [
       "magic mirror",
       "smart mirror",
       "mirror UI",
       "modular"
     ],
-    "author": "Michael Teeuw",
     "contributors": "https://github.com/MichMich/MagicMirror/graphs/contributors",
     "license": "MIT",
-    "bugs": {
-      "url": "https://github.com/MichMich/MagicMirror/issues"
-    },
     "homepage": "https://github.com/MichMich/MagicMirror#readme",
     "devDependencies": {
       "electron-prebuilt": "latest",
@@ -101,6 +94,12 @@
       "valid-url": "latest",
       "walk": "latest",
       "rrule": "latest"
+    },
+    "other": {
+      "author": "Michael Teeuw",
+      "bugs": {
+        "url": "https://github.com/MichMich/MagicMirror/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -149,5 +148,8 @@
   "hasProjects": true,
   "mirrorUrl": null,
   "lastFetchedAt": "2017-05-04T20:09:47.477Z",
-  "packageLastFetchedAt": "2017-05-04T22:24:50.845Z"
+  "packageLastFetchedAt": "2017-05-04T22:24:50.845Z",
+  "contributors": [
+    "vjandrei"
+  ]
 }

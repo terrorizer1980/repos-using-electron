@@ -90,7 +90,6 @@
       "angular",
       "boilerplate"
     ],
-    "author": "Ashley Hunter",
     "license": "MIT",
     "dependencies": {
       "@angular/common": "~4.0.0",
@@ -119,8 +118,14 @@
       "style-loader": "^0.16.1",
       "typescript": "~2.2.2",
       "webpack": "2.2.1"
+    },
+    "other": {
+      "author": "Ashley Hunter"
     }
   },
   "packageStatus": 200,
-  "packageLastFetchedAt": "2017-05-04T22:22:19.868Z"
+  "packageLastFetchedAt": "2017-05-04T22:22:19.868Z",
+  "contributors": [
+    "ashley-hunter"
+  ]
 }

@@ -168,15 +168,10 @@
   "packageJSON": {
     "name": "Kitematic",
     "version": "0.10.0",
-    "author": "Kitematic",
     "description": "Simple Docker Container management for Mac OS X.",
     "homepage": "https://kitematic.com/",
     "main": "browser.js",
-    "repository": {
-      "type": "git",
-      "url": "git@github.com:kitematic/kitematic.git"
-    },
-    "bugs": "https://github.com/kitematic/kitematic/issues",
+    "repository": "https://github.com/kitematic/kitematic",
     "scripts": {
       "start": "grunt",
       "start-dev": "NODE_ENV=development grunt",
@@ -252,6 +247,10 @@
       "run-sequence": "^1.0.2",
       "shell-escape": "^0.2.0",
       "source-map-support": "^0.3.2"
+    },
+    "other": {
+      "author": "Kitematic",
+      "bugs": "https://github.com/kitematic/kitematic/issues"
     }
   },
   "packageStatus": 200,
@@ -301,5 +300,47 @@
   "sourceRepo": "docker/kitematic",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:36:38.466Z",
-  "packageLastFetchedAt": "2017-05-05T14:53:11.846Z"
+  "packageLastFetchedAt": "2017-05-05T14:53:11.846Z",
+  "contributors": [
+    "jeffdm",
+    "seanli",
+    "FrenchBen",
+    "TeckniX",
+    "SvenDowideit",
+    "koddsson",
+    "mchiang0610",
+    "zedtux",
+    "allen-servedio",
+    "mikaoelitiana",
+    "bensheldon",
+    "denji",
+    "justindsmith",
+    "LibanTheDev",
+    "pdehaan",
+    "siddii",
+    "spf13",
+    "VojtechBartos",
+    "cclauss",
+    "kraynel",
+    "aduermael",
+    "londoncalling",
+    "dongjoon-hyun",
+    "saiberz",
+    "northerngit",
+    "jehrhardt",
+    "kudos",
+    "justinleveck",
+    "mortonfox",
+    "nathanleclaire",
+    "ninuxio",
+    "pra85",
+    "razzius",
+    "thaJeztah",
+    "sudotliu",
+    "gitter-badger",
+    "scalopus",
+    "domderen",
+    "shyr",
+    "ttwthomas"
+  ]
 }

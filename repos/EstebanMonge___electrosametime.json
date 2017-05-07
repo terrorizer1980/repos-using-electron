@@ -89,14 +89,16 @@
       "Web",
       "Esteban Monge"
     ],
-    "author": "Esteban Monge",
     "license": "CC0-1.0",
-    "bugs": {
-      "url": "https://github.com/estebanmonge/issues"
-    },
     "homepage": "https://github.com/estebanmonge",
     "devDependencies": {
       "electron-prebuilt": "^1.2.0"
+    },
+    "other": {
+      "author": "Esteban Monge",
+      "bugs": {
+        "url": "https://github.com/estebanmonge/issues"
+      }
     }
   },
   "packageStatus": 200,
@@ -125,5 +127,6 @@
   "filename": "EstebanMonge___electrosametime.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:32:10.792Z",
-  "packageLastFetchedAt": "2017-05-04T21:57:17.349Z"
+  "packageLastFetchedAt": "2017-05-04T21:57:17.349Z",
+  "contributors": []
 }

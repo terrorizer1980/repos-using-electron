@@ -79,11 +79,6 @@
     "license": "MIT",
     "main": "javascripts/index.js",
     "repository": "flowerwrong/nodeim",
-    "author": {
-      "name": "yang",
-      "email": "sysuyangkang@gmail.com",
-      "url": "github.com/FlowerWrong/nodeim"
-    },
     "engines": {
       "node": ">=0.10.0"
     },
@@ -109,6 +104,13 @@
       "ltx": "^0.9.1",
       "node-xmpp-client": "^1.0.0-alpha23",
       "node-xmpp-core": "^1.0.0"
+    },
+    "other": {
+      "author": {
+        "name": "yang",
+        "email": "sysuyangkang@gmail.com",
+        "url": "github.com/FlowerWrong/nodeim"
+      }
     }
   },
   "packageStatus": 200,
@@ -137,5 +139,8 @@
   "filename": "FlowerWrong___nodeim.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T18:12:18.469Z",
-  "packageLastFetchedAt": "2017-05-05T15:10:58.957Z"
+  "packageLastFetchedAt": "2017-05-05T15:10:58.957Z",
+  "contributors": [
+    "FlowerWrong"
+  ]
 }

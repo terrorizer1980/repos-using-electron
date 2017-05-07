@@ -84,13 +84,15 @@
       "tutorial",
       "demo"
     ],
-    "author": "Lars Skodje",
     "license": "CC0-1.0",
     "devDependencies": {
       "electron": "^1.4.1",
       "electron-installer-debian": "*",
       "electron-packager": "*",
       "electron-prebuilt": "*"
+    },
+    "other": {
+      "author": "Lars Skodje"
     }
   },
   "packageStatus": 200,
@@ -119,5 +121,9 @@
   "filename": "skodje___turgle.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T04:57:13.716Z",
-  "packageLastFetchedAt": "2017-05-05T14:48:39.807Z"
+  "packageLastFetchedAt": "2017-05-05T14:48:39.807Z",
+  "contributors": [
+    "skodje",
+    "lstorm2"
+  ]
 }

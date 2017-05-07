@@ -95,13 +95,15 @@
       "start": "electron main.js",
       "build": "electron-packager . --arch=x64 --icon=currency-conversion.icns --out=build --overwrite=true"
     },
-    "author": "Push Technology",
     "dependencies": {
       "diffusion": "^5.7.3"
     },
     "devDependencies": {
       "electron-packager": "^7.0.1",
       "electron-prebuilt": "^1.1.0"
+    },
+    "other": {
+      "author": "Push Technology"
     }
   },
   "packageStatus": 200,
@@ -130,5 +132,10 @@
   "filename": "pushtechnology___electron-fx-demo.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T05:26:42.228Z",
-  "packageLastFetchedAt": "2017-05-05T17:48:07.948Z"
+  "packageLastFetchedAt": "2017-05-05T17:48:07.948Z",
+  "contributors": [
+    "martin-cowie",
+    "andyp1per",
+    "peterhughesdev"
+  ]
 }

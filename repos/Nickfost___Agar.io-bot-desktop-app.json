@@ -76,10 +76,7 @@
     "description": "Desktop app to run AposBot",
     "version": "0.1.0",
     "main": "main.js",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/FliiFe/Agar.io-bot-desktop-app.git"
-    },
+    "repository": "https://github.com/FliiFe/Agar.io-bot-desktop-app",
     "dependencies": {
       "express": "",
       "electron": ""
@@ -112,5 +109,9 @@
   "filename": "Nickfost___Agar.io-bot-desktop-app.json",
   "hasProjects": true,
   "lastFetchedAt": "2017-05-04T19:39:15.827Z",
-  "packageLastFetchedAt": "2017-05-05T17:49:03.128Z"
+  "packageLastFetchedAt": "2017-05-05T17:49:03.128Z",
+  "contributors": [
+    "FliiFe",
+    "Nickfost"
+  ]
 }
