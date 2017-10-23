@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run discover",
-    "test": "mocha && standard && standard-markdown",
+    "test": "mocha && standard --fix && standard-markdown",
     "collect": "npm-run-all collect:*",
     "collect:repo-names": "node lib/collect/repo-names.js",
     "collect:repo-data": "node lib/collect/repo-data.js",
@@ -39,7 +39,7 @@
     "path-exists": "^3.0.0",
     "pify": "^2.3.0",
     "request": "^2.74.0",
-    "standard": "^8.0.0-beta.5",
+    "standard": "^10.0.3",
     "standard-markdown": "^1.2.1"
   },
   "dependencies": {
