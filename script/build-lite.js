@@ -8,9 +8,7 @@ const repos = require('..').map(repo => {
     description: repo.description,
     forksCount: repo.forksCount,
     stargazersCount: repo.stargazersCount,
-    subscribersCount: repo.subscribersCount//,
-    // depNames: repo.pkg.depNames,
-    // devDepNames: repo.pkg.devDepNames,
+    subscribersCount: repo.subscribersCount
   }
 })
 
